@@ -1,0 +1,97 @@
+module Base
+
+{
+	recipe Dismantle 79 Chevrolet Camaro Tire
+    	{
+		79camaroTire3/79camaroGhostTire3,
+		keep Crowbar,
+
+		NoBrokenItems:false,
+		Result:SteelRimSmall,
+		Time:350.0,
+		Category:Recycling,
+		SkillRequired:Mechanics=2,
+		OnCreate:DAMN.OnCreate.DismantleTireSmall,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+    }
+
+    recipe Dismantle Small Vintage Roofrack
+    	{
+		BlowTorch=3,
+       	keep WeldingMask,
+		OldSmallRoofrack3,
+
+		NoBrokenItems:false,
+		Result:MetalPipe=2,
+		Time:500.0,
+		Category:Recycling,
+		SkillRequired:MetalWelding=3,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+    }
+
+    recipe Dismantle 79 Chevrolet Camaro Lid
+    	{
+		79camaroEngineDoor3/79camaroZ28EngineDoor3/79camaroGhostEngineDoor3/79camaroTrunkDoor3,
+		BlowTorch=3,
+       	keep WeldingMask,
+
+		NoBrokenItems:false,
+		Result:Screws=1,
+		Time:400.0,
+		Category:Recycling,
+		SkillRequired:MetalWelding=3,
+		OnCreate:DAMN.OnCreate.DismantleTrunkLid,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+    }
+
+    recipe Dismantle 79 Chevrolet Camaro Door
+    	{
+		79camaroFrontDoor3,
+		BlowTorch=3,
+       	keep WeldingMask,
+
+		NoBrokenItems:false,
+		Result:damnCraft.HandleModern,
+		Time:400.0,
+		Category:Recycling,
+		SkillRequired:MetalWelding=3,
+		OnCreate:DAMN.OnCreate.DismantleDoor,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+    }
+
+    recipe Dismantle 79 Chevrolet Camaro Armor
+    	{
+		79camaroWindshieldArmor/79camaroFrontWindowArmor/79camaroWindshieldRearArmor/79camaroBumperFrontA/79camaroGhostBumperFrontB,
+		BlowTorch=3,
+       	keep WeldingMask,
+
+		NoBrokenItems:false,
+		Result:SheetMetal=1,
+		Time:500.0,
+		Category:Recycling,
+		SkillRequired:MetalWelding=3,
+		OnCreate:DAMN.OnCreate.DismantleRim,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+    }
+
+    recipe Dismantle 79 Chevrolet Camaro Seat
+    	{
+		79camaroSeatFront3/79camaroSeatRear3,
+		keep [Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.DullKnife]/Scalpel,
+
+		NoBrokenItems:false,
+		Result:SeatFrameLarge=1,
+		Time:350.0,
+		Category:Recycling,
+		SkillRequired:Mechanics=1,
+		OnCreate:DAMN.OnCreate.DismantleSeat,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+    }
+
+}

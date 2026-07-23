@@ -1,0 +1,420 @@
+module Base
+{
+	model 78lamboCountachWindshieldA
+    	{
+        mesh = vehicles/Vehicles_78lamboCountach_Body|lp400_windshield_front_a,
+		shader = damn_vehicle_shader,
+        scale = 0.1,
+    	}
+    model 78lamboCountachWindowflA
+    	{
+        mesh = vehicles/Vehicles_78lamboCountach_Body|lp400_window_fl_a,
+		shader = damn_vehicle_shader,
+        scale = 0.1,
+        static = FALSE,
+    	}
+    model 78lamboCountachWindowfrA
+    	{
+        mesh = vehicles/Vehicles_78lamboCountach_Body|lp400_window_fr_a,
+		shader = damn_vehicle_shader,
+        scale = 0.1,
+        static = FALSE,
+    	}
+    model 78lamboCountachWindowrlA
+    	{
+        mesh = vehicles/Vehicles_78lamboCountach_Body|lp400_window_rl_a,
+		shader = damn_vehicle_shader,
+        scale = 0.1,
+    	}
+    model 78lamboCountachWindowrrA
+    	{
+        mesh = vehicles/Vehicles_78lamboCountach_Body|lp400_window_rr_a,
+		shader = damn_vehicle_shader,
+        scale = 0.1,
+    	}
+    model 78lamboCountachWindshieldrearA
+    	{
+        mesh = vehicles/Vehicles_78lamboCountach_Body|lp400_windshield_rear_a,
+		shader = damn_vehicle_shader,
+        scale = 0.1,
+    	}
+
+    template vehicle LP400Armor
+		{
+			part DAMNWindshieldArmor
+        	{
+
+			model winda0
+				{
+                		file = 78lamboCountachWindshieldA,
+				}
+
+			area = Front,
+			category = bodywork,
+			specificItem = false,
+			itemType = Base.78lamboCountachWindshieldArmor,
+			mechanicRequireKey = false,
+
+			table install
+			{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Screwdriver,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 550,
+                	skills = Mechanics:4,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = LP400.InstallComplete.WindshieldArmor,
+                	requireInstalled = Windshield,
+                    requireUninstalled = DAMNWipers,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Screwdriver,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+						time = 600,
+						skills = Mechanics:4,
+						recipes = Intermediate Mechanics,
+			            test = Vehicles.UninstallTest.Default,
+						complete = LP400.UninstallComplete.WindshieldArmor,
+            		}
+
+            		lua
+            		{
+					create = LP400.Create.WindshieldArmor,
+					init = LP400.Init.WindshieldArmor,
+					}
+			}
+
+		part DAMNFrontLeftArmor
+        {
+
+			model leftdoora
+				{
+                		file = 78lamboCountachWindowflA,
+				}
+
+			area = SeatFrontLeft,
+			category = bodywork,
+			parent = DoorFrontLeft,
+			specificItem = false,
+			itemType = Base.78lamboCountachFrontWindowArmor,
+			mechanicRequireKey = false,
+
+			table install
+			{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Screwdriver,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 500,
+                	skills = Mechanics:4,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = LP400.InstallComplete.FrontLeftArmor,
+                	requireInstalled = WindowFrontLeft,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Screwdriver,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 550,
+					skills = Mechanics:4,
+					recipes = Intermediate Mechanics,
+		            test = Vehicles.UninstallTest.Default,
+					complete = LP400.UninstallComplete.FrontLeftArmor,
+            		}
+
+            		lua
+            		{
+					create = LP400.Create.FrontLeftArmor,
+					init = LP400.Init.FrontLeftArmor,
+					}
+		}
+
+		part DAMNFrontRightArmor
+        {
+
+			model rightdoora
+				{
+                		file = 78lamboCountachWindowfrA,
+				}
+
+			area = SeatFrontRight,
+			category = bodywork,
+			parent = DoorFrontRight,
+			specificItem = false,
+			itemType = Base.78lamboCountachFrontWindowArmor,
+			mechanicRequireKey = false,
+
+			table install
+			{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Screwdriver,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 500,
+                	skills = Mechanics:4,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = LP400.InstallComplete.FrontRightArmor,
+                	requireInstalled = WindowFrontRight,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Screwdriver,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 550,
+					skills = Mechanics:4,
+					recipes = Intermediate Mechanics,
+		            test = Vehicles.UninstallTest.Default,
+					complete = LP400.UninstallComplete.FrontRightArmor,
+            		}
+
+            		lua
+            		{
+					create = LP400.Create.FrontRightArmor,
+					init = LP400.Init.FrontRightArmor,
+					}
+			}
+
+
+		part DAMNRearLeftArmor
+        {
+
+			model leftdoorra
+				{
+                		file = 78lamboCountachWindowrlA,
+				}
+
+			area = SeatRearLeft,
+			category = bodywork,
+			specificItem = false,
+			itemType = Base.78lamboCountachRearWindowArmor,
+			mechanicRequireKey = false,
+
+			table install
+			{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Screwdriver,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 500,
+                	skills = Mechanics:4,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = LP400.InstallComplete.RearLeftArmor,
+                	requireInstalled = WindowRearLeft,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Screwdriver,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 550,
+					skills = Mechanics:4,
+					recipes = Intermediate Mechanics,
+		            test = Vehicles.UninstallTest.Default,
+					complete = LP400.UninstallComplete.RearLeftArmor,
+            		}
+
+            		lua
+            		{
+					create = LP400.Create.RearLeftArmor,
+					init = LP400.Init.RearLeftArmor,
+					}
+		}
+
+		part DAMNRearRightArmor
+        {
+
+			model rightdoorra
+				{
+                		file = 78lamboCountachWindowrrA,
+				}
+
+			area = SeatRearRight,
+			category = bodywork,
+			specificItem = false,
+			itemType = Base.78lamboCountachRearWindowArmor,
+			mechanicRequireKey = false,
+
+			table install
+			{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Screwdriver,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 500,
+                	skills = Mechanics:4,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = LP400.InstallComplete.RearRightArmor,
+                	requireInstalled = WindowRearRight,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Screwdriver,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 550,
+					skills = Mechanics:4,
+					recipes = Intermediate Mechanics,
+		            test = Vehicles.UninstallTest.Default,
+					complete = LP400.UninstallComplete.RearRightArmor,
+            		}
+
+            		lua
+            		{
+					create = LP400.Create.RearRightArmor,
+					init = LP400.Init.RearRightArmor,
+					}
+			}
+
+		part DAMNWindshieldRearArmor
+        {
+
+        		model windra
+				{
+                		file = 78lamboCountachWindshieldrearA,
+				}
+
+			area = Engine,
+			category = bodywork,
+			specificItem = false,
+			itemType = Base.78lamboCountachWindshieldRearArmor,
+			mechanicRequireKey = false,
+
+			table install
+			{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Screwdriver,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 550,
+                	skills = Mechanics:4,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = LP400.InstallComplete.WindshieldRearArmor,
+                	requireInstalled = WindshieldRear,
+            }
+
+            table uninstall
+            {
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Screwdriver,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 600,
+					skills = Mechanics:4,
+					recipes = Intermediate Mechanics,
+		            test = Vehicles.UninstallTest.Default,
+					complete = LP400.UninstallComplete.WindshieldRearArmor,
+            		}
+
+            		lua
+            		{
+					create = LP400.Create.WindshieldRearArmor,
+					init = LP400.Init.WindshieldRearArmor,
+					}
+			}
+		}
+}

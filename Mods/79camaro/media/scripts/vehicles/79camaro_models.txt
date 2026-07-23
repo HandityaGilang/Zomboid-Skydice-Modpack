@@ -1,0 +1,163 @@
+module Base
+{
+    model 79camaroTireWI
+	{
+		mesh    = vehicles/Vehicles_79camaro_Objects|79camaro_tire1WI,
+		texture = Vehicles/Objects_79camaro_Wheel,
+		scale   = 0.6,
+	}
+
+    model 79camaroGhostTireWI
+	{
+		mesh    = vehicles/Vehicles_79camaro_Objects|79camaro_tire1WI,
+		texture = Vehicles/Objects_79camaroGhost_Wheel,
+		scale   = 0.6,
+	}
+
+	model 79camaroFrontDoorWI
+	{
+		mesh    = vehicles/Vehicles_79camaro_Objects|79camaro_door_flWI,
+		texture = Vehicles/Objects_79camaro_Shell,
+		scale   = 0.6,
+	}
+
+	model 79camaroWindshieldArmorWI
+	{
+		mesh    = vehicles/Vehicles_79camaro_Objects|79camaro_windshield_front_aWI,
+		texture = Vehicles/Objects_79camaro_Shell,
+		scale   = 0.6,
+	}
+
+	model 79camaroFrontWindowArmorWI
+	{
+		mesh    = vehicles/Vehicles_79camaro_Objects|79camaro_window_fl_aWI,
+		texture = Vehicles/Objects_79camaro_Shell,
+		scale   = 0.6,
+	}
+
+	model 79camaroWindshieldRearArmorWI
+	{
+		mesh    = vehicles/Vehicles_79camaro_Objects|79camaro_windshield_rear_aWI,
+		texture = Vehicles/Objects_79camaro_Shell,
+		scale   = 0.6,
+	}
+
+	model 79camaroEngineDoorWI
+	{
+		mesh    = vehicles/Vehicles_79camaro_Objects|79camaro_hoodRSWI,
+		texture = Vehicles/Objects_79camaro_Shell,
+		scale   = 0.6,
+	}
+
+    model 79camaroZ28EngineDoorWI
+	{
+		mesh    = vehicles/Vehicles_79camaro_Objects|79camaro_hoodZ28WI,
+		texture = Vehicles/Objects_79camaro_Shell,
+		scale   = 0.6,
+	}
+
+    model 79camaroGhostEngineDoorWI
+	{
+		mesh    = vehicles/Vehicles_79camaro_Objects|79camaro_hoodGhostWI,
+		texture = Vehicles/Objects_79camaroGhost_Shell,
+		scale   = 0.6,
+	}
+
+	model 79camaroTrunkDoorWI
+	{
+		mesh    = vehicles/Vehicles_79camaro_Objects|79camaro_trunkLidWI,
+		texture = Vehicles/Objects_79camaro_Shell,
+		scale   = 0.6,
+	}
+
+	model 79camaroSeatFrontWI
+	{
+		mesh    = vehicles/Vehicles_79camaro_Objects|79camaro_seat_fWI,
+		texture = Vehicles/Objects_79camaro_Interior,
+		scale   = 0.6,
+	}
+
+	model 79camaroSeatRearWI
+	{
+		mesh    = vehicles/Vehicles_79camaro_Objects|79camaro_seat_rWI,
+		texture = Vehicles/Objects_79camaro_Interior,
+		scale   = 0.6,
+	}
+
+	model 79camaroBumperFront0WI
+	{
+		mesh    = vehicles/Vehicles_79camaro_Objects|79camaro_bumper_front0WI,
+		texture = Vehicles/Objects_79camaro_Shell,
+		scale   = 0.6,
+	}
+
+    model 79camaroBumperFrontAWI
+	{
+		mesh    = vehicles/Vehicles_79camaro_Objects|79camaro_bumper_frontAWI,
+		texture = Vehicles/Objects_79camaro_Shell,
+		scale   = 0.6,
+	}
+
+    model 79camaroGhostBumperFrontBWI
+	{
+		mesh    = vehicles/Vehicles_79camaro_Objects|79camaro_bumper_front1WI,
+		texture = Vehicles/Objects_79camaroGhost_Shell,
+		scale   = 0.6,
+	}
+
+	model 79camaroBumperRearWI
+	{
+		mesh    = vehicles/Vehicles_79camaro_Objects|79camaro_bumper_rearWI,
+		texture = Vehicles/Objects_79camaro_Shell,
+		scale   = 0.6,
+	}
+
+	model 79camaroWindshieldWI
+	{
+		mesh    = vehicles/Vehicles_79camaro_Objects|79camaro_windshield_frontWI,
+		texture = Vehicles/Objects_79camaro_Shell,
+		scale   = 0.6,
+	}
+
+	model 79camaroFrontSideWindowWI
+	{
+		mesh    = vehicles/Vehicles_79camaro_Objects|79camaro_window_flWI,
+		texture = Vehicles/Objects_79camaro_Shell,
+		scale   = 0.6,
+	}
+
+	model 79camaroRearWindshieldWI
+	{
+		mesh    = vehicles/Vehicles_79camaro_Objects|79camaro_windshield_rearWI,
+		texture = Vehicles/Objects_79camaro_Shell,
+		scale   = 0.6,
+	}
+
+    model 79camaroSpoilerWI
+	{
+		mesh    = vehicles/Vehicles_79camaro_Objects|79camaro_spoiler0WI,
+		texture = Vehicles/Objects_79camaro_Shell,
+		scale   = 0.6,
+	}
+
+    model 79camaroGhostSpoilerWI
+	{
+		mesh    = vehicles/Vehicles_79camaro_Objects|79camaro_spoilerGhostWI,
+		texture = Vehicles/Objects_79camaroGhost_Shell,
+		scale   = 0.6,
+	}
+
+	model 79camaroGhostMudflapsWI
+	{
+		mesh    = vehicles/Vehicles_79camaro_Objects|79camaro_mudflapsWI,
+		texture = Vehicles/Objects_79camaro_Interior,
+		scale   = 0.6,
+	}
+
+    model 79camaroZ28LipWI
+	{
+		mesh    = vehicles/Vehicles_79camaro_Objects|79camaro_lipWI,
+		texture = Vehicles/Objects_79camaro_Shell,
+		scale   = 0.6,
+	}
+}

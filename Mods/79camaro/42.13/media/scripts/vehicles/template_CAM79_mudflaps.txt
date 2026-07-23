@@ -1,0 +1,86 @@
+module Base
+{
+	model 79camaroMudflaps
+	{
+		mesh = vehicles/Vehicles_79camaro_Body|79camaro_mudflaps,
+		texture = Vehicles/Vehicles_79camaro_Interior,
+		shader = damn_wheel_shader,
+		scale = 0.1,
+	}
+
+	template vehicle CAM79Mudflaps
+		{
+		part DAMNMudflaps
+        	{
+
+			model Mudflaps
+				{
+                	file = 79camaroMudflaps,
+				}
+
+				area = Engine,
+				category = bodywork,
+				itemType = Base.79camaroGhostMudflaps,
+				mechanicRequireKey = false,
+                durability = 3,
+
+				table install
+				{
+                	items
+                	{
+                    	1
+                    		{
+                        	tags = Wrench,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 450,
+                	skills = Mechanics:3,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = Vehicles.InstallComplete.Default,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				tags = Wrench,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 500,
+					skills = Mechanics:3,
+					recipes = Intermediate Mechanics,
+                	test = Vehicles.UninstallTest.Default,
+					complete = Vehicles.UninstallComplete.Default,
+            		}
+
+            		lua
+            		{
+					create = Vehicles.Create.Default,
+					}
+			}
+	}
+
+    template vehicle CAM79MudflapsOFF
+		{
+            template! = CAM79Mudflaps,
+
+		part DAMNMudflaps
+        	{
+            		lua
+            		{
+					create = DAMN.Create.Blank,
+					}
+			}
+	}
+}

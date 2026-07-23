@@ -1,0 +1,7101 @@
+version = 1
+tileset
+{
+    file = asianfence_0
+    size = 8,4
+    id = 6
+    // asianfence_0_0
+    tile
+    {
+        xy = 0,0
+        CanScrap = 
+        CloseSneakBonus = 250
+        HitByCar = 
+        HoppableW = 
+        Material = Wood
+        Material2 = Nails
+        TieSheetRope = 
+        WallWTrans = 
+        wall = 
+    }
+    // asianfence_0_1
+    tile
+    {
+        xy = 1,0
+        CanScrap = 
+        CloseSneakBonus = 250
+        HitByCar = 
+        HoppableN = 
+        Material = Wood
+        Material2 = Nails
+        TieSheetRope = 
+        WallNTrans = 
+        wall = 
+    }
+    // asianfence_0_2
+    tile
+    {
+        xy = 2,0
+        CanScrap = 
+        CloseSneakBonus = 250
+        CornerNorthWall = asianfence_0_1
+        CornerWestWall = asianfence_0_0
+        HitByCar = 
+        HoppableN = 
+        HoppableW = 
+        Material = Wood
+        Material2 = Nails
+        TieSheetRope = 
+        WallNWTrans = 
+        wall = 
+    }
+    // asianfence_0_3
+    tile
+    {
+        xy = 3,0
+        CanScrap = 
+        HitByCar = 
+        Material = Wood
+    }
+    // asianfence_0_4
+    tile
+    {
+        xy = 4,0
+        CanScrap = 
+        CloseSneakBonus = 250
+        HitByCar = 
+        HoppableW = 
+        Material = Wood
+        Material2 = Nails
+        TieSheetRope = 
+        WallWTrans = 
+        wall = 
+    }
+    // asianfence_0_5
+    tile
+    {
+        xy = 5,0
+        CanScrap = 
+        CloseSneakBonus = 250
+        HitByCar = 
+        HoppableN = 
+        Material = Wood
+        Material2 = Nails
+        TieSheetRope = 
+        WallNTrans = 
+        wall = 
+    }
+    // asianfence_0_6
+    tile
+    {
+        xy = 6,0
+        CanScrap = 
+        CloseSneakBonus = 250
+        CornerNorthWall = fencing_01_5
+        CornerWestWall = fencing_01_4
+        HitByCar = 
+        HoppableN = 
+        HoppableW = 
+        Material = Wood
+        Material2 = Nails
+        TieSheetRope = 
+        WallNWTrans = 
+        wall = 
+    }
+}
+tileset
+{
+    file = asianroofs_01
+    size = 8,15
+    id = 15
+    // asianroofs_01_0
+    tile
+    {
+        xy = 0,0
+        ForceAmbient = 
+        WestRoofT = 
+    }
+    // asianroofs_01_1
+    tile
+    {
+        xy = 1,0
+        ForceAmbient = 
+        WestRoofT = 
+    }
+    // asianroofs_01_2
+    tile
+    {
+        xy = 2,0
+        ForceAmbient = 
+        WestRoofT = 
+    }
+    // asianroofs_01_3
+    tile
+    {
+        xy = 3,0
+        ForceAmbient = 
+        WestRoofT = 
+    }
+    // asianroofs_01_4
+    tile
+    {
+        xy = 4,0
+        ForceAmbient = 
+        WestRoofT = 
+    }
+    // asianroofs_01_5
+    tile
+    {
+        xy = 5,0
+        ForceAmbient = 
+        WestRoofT = 
+    }
+    // asianroofs_01_6
+    tile
+    {
+        xy = 6,0
+        ForceAmbient = 
+        WestRoofT = 
+    }
+    // asianroofs_01_7
+    tile
+    {
+        xy = 7,0
+        ForceAmbient = 
+        WestRoofT = 
+    }
+    // asianroofs_01_8
+    tile
+    {
+        xy = 0,1
+        ForceAmbient = 
+        WestRoofT = 
+    }
+    // asianroofs_01_9
+    tile
+    {
+        xy = 1,1
+        ForceAmbient = 
+        WestRoofT = 
+    }
+    // asianroofs_01_10
+    tile
+    {
+        xy = 2,1
+        ForceAmbient = 
+        WestRoofT = 
+    }
+    // asianroofs_01_11
+    tile
+    {
+        xy = 3,1
+        ForceAmbient = 
+        WestRoofT = 
+    }
+    // asianroofs_01_12
+    tile
+    {
+        xy = 4,1
+        ForceAmbient = 
+        WestRoofT = 
+    }
+    // asianroofs_01_13
+    tile
+    {
+        xy = 5,1
+        ForceAmbient = 
+        WestRoofT = 
+    }
+    // asianroofs_01_14
+    tile
+    {
+        xy = 6,1
+        ForceAmbient = 
+        WestRoofT = 
+    }
+    // asianroofs_01_15
+    tile
+    {
+        xy = 7,1
+        ForceAmbient = 
+        WestRoofT = 
+    }
+}
+tileset
+{
+    file = asianroofwalls_01
+    size = 8,16
+    id = 8
+    // asianroofwalls_01_0
+    tile
+    {
+        xy = 0,0
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_1
+    tile
+    {
+        xy = 1,0
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_2
+    tile
+    {
+        xy = 2,0
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_3
+    tile
+    {
+        xy = 3,0
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_4
+    tile
+    {
+        xy = 4,0
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_5
+    tile
+    {
+        xy = 5,0
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_6
+    tile
+    {
+        xy = 6,0
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_7
+    tile
+    {
+        xy = 7,0
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_8
+    tile
+    {
+        xy = 0,1
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_9
+    tile
+    {
+        xy = 1,1
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_10
+    tile
+    {
+        xy = 2,1
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_11
+    tile
+    {
+        xy = 3,1
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_12
+    tile
+    {
+        xy = 4,1
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_13
+    tile
+    {
+        xy = 5,1
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_14
+    tile
+    {
+        xy = 6,1
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_15
+    tile
+    {
+        xy = 7,1
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_16
+    tile
+    {
+        xy = 0,2
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_17
+    tile
+    {
+        xy = 1,2
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_18
+    tile
+    {
+        xy = 2,2
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_19
+    tile
+    {
+        xy = 3,2
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_20
+    tile
+    {
+        xy = 4,2
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_21
+    tile
+    {
+        xy = 5,2
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_22
+    tile
+    {
+        xy = 6,2
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_23
+    tile
+    {
+        xy = 7,2
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_24
+    tile
+    {
+        xy = 0,3
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_25
+    tile
+    {
+        xy = 1,3
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_26
+    tile
+    {
+        xy = 2,3
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_27
+    tile
+    {
+        xy = 3,3
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_28
+    tile
+    {
+        xy = 4,3
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_29
+    tile
+    {
+        xy = 5,3
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_30
+    tile
+    {
+        xy = 6,3
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_31
+    tile
+    {
+        xy = 7,3
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_34
+    tile
+    {
+        xy = 2,4
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_35
+    tile
+    {
+        xy = 3,4
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_38
+    tile
+    {
+        xy = 6,4
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_39
+    tile
+    {
+        xy = 7,4
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_40
+    tile
+    {
+        xy = 0,5
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_41
+    tile
+    {
+        xy = 1,5
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_42
+    tile
+    {
+        xy = 2,5
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_43
+    tile
+    {
+        xy = 3,5
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_44
+    tile
+    {
+        xy = 4,5
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_45
+    tile
+    {
+        xy = 5,5
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_46
+    tile
+    {
+        xy = 6,5
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_47
+    tile
+    {
+        xy = 7,5
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_48
+    tile
+    {
+        xy = 0,6
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_49
+    tile
+    {
+        xy = 1,6
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_50
+    tile
+    {
+        xy = 2,6
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_51
+    tile
+    {
+        xy = 3,6
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_52
+    tile
+    {
+        xy = 4,6
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_53
+    tile
+    {
+        xy = 5,6
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_54
+    tile
+    {
+        xy = 6,6
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_55
+    tile
+    {
+        xy = 7,6
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_56
+    tile
+    {
+        xy = 0,7
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_57
+    tile
+    {
+        xy = 1,7
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_58
+    tile
+    {
+        xy = 2,7
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_59
+    tile
+    {
+        xy = 3,7
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_60
+    tile
+    {
+        xy = 4,7
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_61
+    tile
+    {
+        xy = 5,7
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_62
+    tile
+    {
+        xy = 6,7
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_63
+    tile
+    {
+        xy = 7,7
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_64
+    tile
+    {
+        xy = 0,8
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_65
+    tile
+    {
+        xy = 1,8
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_66
+    tile
+    {
+        xy = 2,8
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_67
+    tile
+    {
+        xy = 3,8
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_68
+    tile
+    {
+        xy = 4,8
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_69
+    tile
+    {
+        xy = 5,8
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_70
+    tile
+    {
+        xy = 6,8
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_71
+    tile
+    {
+        xy = 7,8
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_74
+    tile
+    {
+        xy = 2,9
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_75
+    tile
+    {
+        xy = 3,9
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_78
+    tile
+    {
+        xy = 6,9
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_79
+    tile
+    {
+        xy = 7,9
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_80
+    tile
+    {
+        xy = 0,10
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_81
+    tile
+    {
+        xy = 1,10
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_82
+    tile
+    {
+        xy = 2,10
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_83
+    tile
+    {
+        xy = 3,10
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_84
+    tile
+    {
+        xy = 4,10
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_85
+    tile
+    {
+        xy = 5,10
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_86
+    tile
+    {
+        xy = 6,10
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_87
+    tile
+    {
+        xy = 7,10
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_88
+    tile
+    {
+        xy = 0,11
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_89
+    tile
+    {
+        xy = 1,11
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_90
+    tile
+    {
+        xy = 2,11
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_91
+    tile
+    {
+        xy = 3,11
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_92
+    tile
+    {
+        xy = 4,11
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_93
+    tile
+    {
+        xy = 5,11
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_94
+    tile
+    {
+        xy = 6,11
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_95
+    tile
+    {
+        xy = 7,11
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_96
+    tile
+    {
+        xy = 0,12
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_97
+    tile
+    {
+        xy = 1,12
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_98
+    tile
+    {
+        xy = 2,12
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_99
+    tile
+    {
+        xy = 3,12
+        WallW = 
+        wall = 
+    }
+    // asianroofwalls_01_100
+    tile
+    {
+        xy = 4,12
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_101
+    tile
+    {
+        xy = 5,12
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_102
+    tile
+    {
+        xy = 6,12
+        WallN = 
+        wall = 
+    }
+    // asianroofwalls_01_103
+    tile
+    {
+        xy = 7,12
+        WallN = 
+        wall = 
+    }
+}
+tileset
+{
+    file = fixtures_asiandoors_01
+    size = 8,6
+    id = 1
+    // fixtures_asiandoors_01_0
+    tile
+    {
+        xy = 0,0
+        GlassRemovedOffset = 2
+        GrimeType = FullWindow
+        SmashedTileOffset = 2
+        WindowLocked = 
+        WindowW = 
+        wall = 
+        windowW = 
+    }
+    // fixtures_asiandoors_01_1
+    tile
+    {
+        xy = 1,0
+        GlassRemovedOffset = 2
+        GrimeType = FullWindow
+        SmashedTileOffset = 2
+        WindowLocked = 
+        WindowN = 
+        wall = 
+        windowN = 
+    }
+    // fixtures_asiandoors_01_2
+    tile
+    {
+        xy = 2,0
+        CustomName = Door
+        Material = Door
+    }
+    // fixtures_asiandoors_01_3
+    tile
+    {
+        xy = 3,0
+        CustomName = Door
+        Material = Door
+    }
+    // fixtures_asiandoors_01_4
+    tile
+    {
+        xy = 4,0
+        CustomName = Door
+        DoorSound = SlidingGlassDoor
+        Material = Door
+        doorTrans = 
+        doorW = 
+    }
+    // fixtures_asiandoors_01_5
+    tile
+    {
+        xy = 5,0
+        CustomName = Door
+        DoorSound = SlidingGlassDoor
+        Material = Door
+        doorN = 
+        doorTrans = 
+    }
+    // fixtures_asiandoors_01_6
+    tile
+    {
+        xy = 6,0
+        CustomName = Door
+        Material = Door
+        doorTrans = 
+    }
+    // fixtures_asiandoors_01_7
+    tile
+    {
+        xy = 7,0
+        CustomName = Door
+        Material = Door
+        doorTrans = 
+    }
+    // fixtures_asiandoors_01_8
+    tile
+    {
+        xy = 0,1
+        CanScrap = 
+        CustomName = Door
+        DoorSound = SlidingGlassDoor
+        Material = Door
+        Material2 = Wood
+        Material3 = Fabric
+        attachedW = 
+        doorTrans = 
+        doorW = 
+    }
+    // fixtures_asiandoors_01_9
+    tile
+    {
+        xy = 1,1
+        CanScrap = 
+        CustomName = Door
+        DoorSound = SlidingGlassDoor
+        Material = Door
+        Material2 = Wood
+        Material3 = Fabric
+        attachedN = 
+        doorN = 
+        doorTrans = 
+    }
+    // fixtures_asiandoors_01_10
+    tile
+    {
+        xy = 2,1
+        CanScrap = 
+        CustomName = Door
+        DoorSound = SlidingGlassDoor
+        Material = Door
+        Material2 = Wood
+        Material3 = Fabric
+        attachedW = 
+    }
+    // fixtures_asiandoors_01_11
+    tile
+    {
+        xy = 3,1
+        CanScrap = 
+        CustomName = Door
+        DoorSound = SlidingGlassDoor
+        Material = Door
+        Material2 = Wood
+        Material3 = Fabric
+        attachedN = 
+    }
+    // fixtures_asiandoors_01_16
+    tile
+    {
+        xy = 0,2
+        GlassRemovedOffset = 2
+        GrimeType = FullWindow
+        SmashedTileOffset = 2
+        WindowLocked = 
+        WindowW = 
+        wall = 
+        windowW = 
+    }
+    // fixtures_asiandoors_01_17
+    tile
+    {
+        xy = 1,2
+        GlassRemovedOffset = 2
+        GrimeType = FullWindow
+        SmashedTileOffset = 2
+        WindowLocked = 
+        WindowN = 
+        wall = 
+        windowN = 
+    }
+    // fixtures_asiandoors_01_18
+    tile
+    {
+        xy = 2,2
+        CustomName = Door
+        Material = Door
+    }
+    // fixtures_asiandoors_01_19
+    tile
+    {
+        xy = 3,2
+        CustomName = Door
+        Material = Door
+    }
+    // fixtures_asiandoors_01_20
+    tile
+    {
+        xy = 4,2
+        CustomName = Door
+        DoorSound = SlidingGlassDoor
+        Material = Door
+        doorTrans = 
+        doorW = 
+    }
+    // fixtures_asiandoors_01_21
+    tile
+    {
+        xy = 5,2
+        CustomName = Door
+        DoorSound = SlidingGlassDoor
+        Material = Door
+        doorN = 
+        doorTrans = 
+    }
+    // fixtures_asiandoors_01_22
+    tile
+    {
+        xy = 6,2
+        CustomName = Door
+        Material = Door
+        doorTrans = 
+    }
+    // fixtures_asiandoors_01_23
+    tile
+    {
+        xy = 7,2
+        CustomName = Door
+        Material = Door
+        doorTrans = 
+    }
+    // fixtures_asiandoors_01_24
+    tile
+    {
+        xy = 0,3
+        GlassRemovedOffset = 2
+        GrimeType = FullWindow
+        SmashedTileOffset = 2
+        WindowLocked = 
+        WindowW = 
+        wall = 
+        windowW = 
+    }
+    // fixtures_asiandoors_01_25
+    tile
+    {
+        xy = 1,3
+        GlassRemovedOffset = 2
+        GrimeType = FullWindow
+        SmashedTileOffset = 2
+        WindowLocked = 
+        WindowN = 
+        wall = 
+        windowN = 
+    }
+    // fixtures_asiandoors_01_26
+    tile
+    {
+        xy = 2,3
+        CustomName = Door
+        Material = Door
+    }
+    // fixtures_asiandoors_01_27
+    tile
+    {
+        xy = 3,3
+        CustomName = Door
+        Material = Door
+    }
+    // fixtures_asiandoors_01_28
+    tile
+    {
+        xy = 4,3
+        CustomName = Door
+        DoorSound = SlidingGlassDoor
+        Material = Door
+        doorTrans = 
+        doorW = 
+    }
+    // fixtures_asiandoors_01_29
+    tile
+    {
+        xy = 5,3
+        CustomName = Door
+        DoorSound = SlidingGlassDoor
+        Material = Door
+        doorN = 
+        doorTrans = 
+    }
+    // fixtures_asiandoors_01_30
+    tile
+    {
+        xy = 6,3
+        CustomName = Door
+        Material = Door
+        doorTrans = 
+    }
+    // fixtures_asiandoors_01_31
+    tile
+    {
+        xy = 7,3
+        CustomName = Door
+        Material = Door
+        doorTrans = 
+    }
+    // fixtures_asiandoors_01_32
+    tile
+    {
+        xy = 0,4
+        CustomName = Door
+        DoorSound = SlidingGlassDoor
+        Material = Door
+        doorTrans = 
+        doorW = 
+    }
+    // fixtures_asiandoors_01_33
+    tile
+    {
+        xy = 1,4
+        CustomName = Door
+        DoorSound = SlidingGlassDoor
+        Material = Door
+        doorN = 
+        doorTrans = 
+    }
+    // fixtures_asiandoors_01_34
+    tile
+    {
+        xy = 2,4
+        CustomName = Door
+        Material = Door
+        doorTrans = 
+    }
+    // fixtures_asiandoors_01_35
+    tile
+    {
+        xy = 3,4
+        CustomName = Door
+        Material = Door
+        doorTrans = 
+    }
+    // fixtures_asiandoors_01_40
+    tile
+    {
+        xy = 0,5
+        CustomName = Door
+        DoorSound = SlidingGlassDoor
+        Material = Door
+        doorTrans = 
+        doorW = 
+    }
+    // fixtures_asiandoors_01_41
+    tile
+    {
+        xy = 1,5
+        CustomName = Door
+        DoorSound = SlidingGlassDoor
+        Material = Door
+        doorN = 
+        doorTrans = 
+    }
+    // fixtures_asiandoors_01_42
+    tile
+    {
+        xy = 2,5
+        CustomName = Door
+        Material = Door
+        doorTrans = 
+    }
+    // fixtures_asiandoors_01_43
+    tile
+    {
+        xy = 3,5
+        CustomName = Door
+        Material = Door
+        doorTrans = 
+    }
+}
+tileset
+{
+    file = fixtures_asianfurniture_01
+    size = 8,13
+    id = 4
+    // fixtures_asianfurniture_01_0
+    tile
+    {
+        xy = 0,0
+        BlocksPlacement = 
+        CanScrap = 
+        CustomItem = Base.SmallAsianTable
+        CustomName = Asian Low Table
+        ForceSingleItem = 
+        GroupName = Fancy
+        IsLow = 
+        IsMoveAble = 
+        IsTable = 
+        Material = Wood
+        Material2 = Nails
+        PickUpWeight = 50
+        ScrapSize = Small
+        SpriteGridPos = 0,0
+        Surface = 12
+        solidtrans = 
+    }
+    // fixtures_asianfurniture_01_1
+    tile
+    {
+        xy = 1,0
+        BlocksPlacement = 
+        CanScrap = 
+        CustomItem = Base.LargeAsianTable
+        CustomName = Asian Low Table
+        Facing = S
+        ForceSingleItem = 
+        GroupName = Long
+        IsLow = 
+        IsMoveAble = 
+        IsTable = 
+        Material = Nails
+        Material2 = Wood
+        PickUpWeight = 50
+        ScrapSize = Small
+        SpriteGridPos = 0,0
+        Surface = 15
+        solidtrans = 
+    }
+    // fixtures_asianfurniture_01_2
+    tile
+    {
+        xy = 2,0
+        BlocksPlacement = 
+        CanScrap = 
+        CustomItem = Base.LargeAsianTable
+        CustomName = Asian Low Table
+        Facing = S
+        ForceSingleItem = 
+        GroupName = Long
+        IsLow = 
+        IsMoveAble = 
+        IsTable = 
+        Material = Nails
+        Material2 = Wood
+        PickUpWeight = 50
+        ScrapSize = Small
+        SpriteGridPos = 1,0
+        Surface = 15
+        solidtrans = 
+    }
+    // fixtures_asianfurniture_01_3
+    tile
+    {
+        xy = 3,0
+        BlocksPlacement = 
+        CanScrap = 
+        CustomItem = Base.LargeAsianTable
+        CustomName = Asian Low Table
+        Facing = E
+        ForceSingleItem = 
+        GroupName = Long
+        IsLow = 
+        IsMoveAble = 
+        IsTable = 
+        Material = Nails
+        Material2 = Wood
+        PickUpWeight = 50
+        ScrapSize = Small
+        SpriteGridPos = 0,1
+        Surface = 15
+        solidtrans = 
+    }
+    // fixtures_asianfurniture_01_4
+    tile
+    {
+        xy = 4,0
+        BlocksPlacement = 
+        CanScrap = 
+        CustomItem = Base.LargeAsianTable
+        CustomName = Asian Low Table
+        Facing = E
+        ForceSingleItem = 
+        GroupName = Long
+        IsLow = 
+        IsMoveAble = 
+        IsTable = 
+        Material = Nails
+        Material2 = Wood
+        PickUpWeight = 50
+        ScrapSize = Small
+        SpriteGridPos = 0,0
+        Surface = 15
+        solidtrans = 
+    }
+    // fixtures_asianfurniture_01_5
+    tile
+    {
+        xy = 5,0
+        BlocksPlacement = 
+        CanScrap = 
+        ContainerCapacity = 1
+        ContainerPosition = Low
+        CustomItem = Base.Kotatsu
+        CustomName = Kotatsu
+        ForceSingleItem = 
+        IsLow = 
+        IsMoveAble = 
+        IsoType = IsoBarbecue
+        Material = Wood
+        Material2 = Nails
+        PickUpWeight = 50
+        ScrapSize = Small
+        SpriteGridPos = 0,0
+        Surface = 12
+        container = barbeque
+        solidtrans = 
+    }
+    // fixtures_asianfurniture_01_8
+    tile
+    {
+        xy = 0,1
+        BedType = goodBed
+        BlocksPlacement = 
+        CustomItem = Base.Futon
+        CustomName = Futon
+        Facing = E
+        ForceSingleItem = 
+        GroupName = Makeshift
+        IsMoveAble = 
+        PickUpWeight = 80
+        SpriteGridPos = 0,0
+        bed = 
+    }
+    // fixtures_asianfurniture_01_9
+    tile
+    {
+        xy = 1,1
+        BedType = goodBed
+        BlocksPlacement = 
+        CustomItem = Base.Futon
+        CustomName = Futon
+        Facing = E
+        ForceSingleItem = 
+        GroupName = Makeshift
+        IsMoveAble = 
+        PickUpWeight = 80
+        SpriteGridPos = 1,0
+        bed = 
+    }
+    // fixtures_asianfurniture_01_10
+    tile
+    {
+        xy = 2,1
+        BedType = goodBed
+        BlocksPlacement = 
+        CustomItem = Base.Futon
+        CustomName = Futon
+        Facing = S
+        ForceSingleItem = 
+        GroupName = Makeshift
+        IsMoveAble = 
+        PickUpWeight = 80
+        SpriteGridPos = 0,1
+        bed = 
+    }
+    // fixtures_asianfurniture_01_11
+    tile
+    {
+        xy = 3,1
+        BedType = goodBed
+        BlocksPlacement = 
+        CustomItem = Base.Futon
+        CustomName = Futon
+        Facing = S
+        ForceSingleItem = 
+        GroupName = Makeshift
+        IsMoveAble = 
+        PickUpWeight = 80
+        SpriteGridPos = 0,0
+        bed = 
+    }
+    // fixtures_asianfurniture_01_16
+    tile
+    {
+        xy = 0,2
+        BedType = goodBed
+        BlocksPlacement = 
+        CustomItem = Base.LargeFuton
+        CustomName = Large Futon
+        Facing = E
+        ForceSingleItem = 
+        GroupName = Makeshift
+        IsMoveAble = 
+        Material = Fabric
+        PickUpWeight = 200
+        SpriteGridPos = 0,1
+        Surface = 10
+        bed = 
+    }
+    // fixtures_asianfurniture_01_17
+    tile
+    {
+        xy = 1,2
+        BedType = goodBed
+        BlocksPlacement = 
+        CustomItem = Base.LargeFuton
+        CustomName = Large Futon
+        Facing = E
+        ForceSingleItem = 
+        GroupName = Makeshift
+        IsMoveAble = 
+        Material = Fabric
+        PickUpWeight = 200
+        SpriteGridPos = 1,1
+        Surface = 10
+        bed = 
+    }
+    // fixtures_asianfurniture_01_18
+    tile
+    {
+        xy = 2,2
+        BedType = goodBed
+        BlocksPlacement = 
+        CustomItem = Base.LargeFuton
+        CustomName = Large Futon
+        Facing = E
+        ForceSingleItem = 
+        GroupName = Makeshift
+        IsMoveAble = 
+        Material = Fabric
+        PickUpWeight = 200
+        SpriteGridPos = 0,0
+        Surface = 10
+        bed = 
+    }
+    // fixtures_asianfurniture_01_19
+    tile
+    {
+        xy = 3,2
+        BedType = goodBed
+        BlocksPlacement = 
+        CustomItem = Base.LargeFuton
+        CustomName = Large Futon
+        Facing = E
+        ForceSingleItem = 
+        GroupName = Makeshift
+        IsMoveAble = 
+        Material = Fabric
+        PickUpWeight = 200
+        SpriteGridPos = 1,0
+        Surface = 10
+        bed = 
+    }
+    // fixtures_asianfurniture_01_20
+    tile
+    {
+        xy = 4,2
+        BedType = goodBed
+        BlocksPlacement = 
+        CustomItem = Base.LargeFuton
+        CustomName = Large Futon
+        Facing = S
+        ForceSingleItem = 
+        GroupName = Makeshift
+        IsMoveAble = 
+        Material = Fabric
+        PickUpWeight = 200
+        SpriteGridPos = 0,1
+        Surface = 10
+        bed = 
+    }
+    // fixtures_asianfurniture_01_21
+    tile
+    {
+        xy = 5,2
+        BedType = goodBed
+        BlocksPlacement = 
+        CustomItem = Base.LargeFuton
+        CustomName = Large Futon
+        Facing = S
+        ForceSingleItem = 
+        GroupName = Makeshift
+        IsMoveAble = 
+        Material = Fabric
+        PickUpWeight = 200
+        SpriteGridPos = 1,1
+        Surface = 10
+        bed = 
+    }
+    // fixtures_asianfurniture_01_22
+    tile
+    {
+        xy = 6,2
+        BedType = goodBed
+        BlocksPlacement = 
+        CustomItem = Base.LargeFuton
+        CustomName = Large Futon
+        Facing = S
+        ForceSingleItem = 
+        GroupName = Makeshift
+        IsMoveAble = 
+        Material = Fabric
+        PickUpWeight = 200
+        SpriteGridPos = 0,0
+        Surface = 10
+        bed = 
+    }
+    // fixtures_asianfurniture_01_23
+    tile
+    {
+        xy = 7,2
+        BedType = goodBed
+        BlocksPlacement = 
+        CustomItem = Base.LargeFuton
+        CustomName = Large Futon
+        Facing = S
+        ForceSingleItem = 
+        GroupName = Makeshift
+        IsMoveAble = 
+        Material = Fabric
+        PickUpWeight = 200
+        SpriteGridPos = 1,0
+        Surface = 10
+        bed = 
+    }
+}
+tileset
+{
+    file = fixtures_asianwalls_01
+    size = 8,13
+    id = 2
+    // fixtures_asianwalls_01_0
+    tile
+    {
+        xy = 0,0
+        GlassRemovedOffset = 20
+        GrimeType = FullWindow
+        SmashedTileOffset = 4
+        WindowLocked = 
+        WindowW = 
+        wall = 
+        windowW = 
+    }
+    // fixtures_asianwalls_01_1
+    tile
+    {
+        xy = 1,0
+        GlassRemovedOffset = 20
+        GrimeType = FullWindow
+        SmashedTileOffset = 4
+        WindowLocked = 
+        WindowN = 
+        wall = 
+        windowN = 
+    }
+    // fixtures_asianwalls_01_2
+    tile
+    {
+        xy = 2,0
+        FlatTextureOffset = -1
+        GlassRemovedOffset = 20
+        GrimeType = FullWindow
+        SmashedTileOffset = 4
+        WallNW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_3
+    tile
+    {
+        xy = 3,0
+        FlatTextureOffset = -2
+        GrimeType = FullWindow
+        WallSE = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_4
+    tile
+    {
+        xy = 4,0
+        GrimeType = FullWindow
+    }
+    // fixtures_asianwalls_01_5
+    tile
+    {
+        xy = 5,0
+        GrimeType = FullWindow
+    }
+    // fixtures_asianwalls_01_6
+    tile
+    {
+        xy = 6,0
+        GrimeType = FullWindow
+    }
+    // fixtures_asianwalls_01_7
+    tile
+    {
+        xy = 7,0
+        DoorWallW = 
+        FlatTextureOffset = -9
+        wall = 
+    }
+    // fixtures_asianwalls_01_8
+    tile
+    {
+        xy = 0,1
+        FlatTextureOffset = 1
+        WallW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_9
+    tile
+    {
+        xy = 1,1
+        WallN = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_10
+    tile
+    {
+        xy = 2,1
+        FlatTextureOffset = -1
+        WallNW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_11
+    tile
+    {
+        xy = 3,1
+        FlatTextureOffset = -2
+        GrimeType = FullWindow
+        WallSE = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_12
+    tile
+    {
+        xy = 4,1
+        FlatTextureOffset = 1
+        WallW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_13
+    tile
+    {
+        xy = 5,1
+        WallN = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_14
+    tile
+    {
+        xy = 6,1
+        FlatTextureOffset = -1
+        WallNW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_15
+    tile
+    {
+        xy = 7,1
+        FlatTextureOffset = -2
+        GrimeType = FullWindow
+        WallSE = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_16
+    tile
+    {
+        xy = 0,2
+        FlatTextureOffset = 1
+        WallW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_17
+    tile
+    {
+        xy = 1,2
+        WallN = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_18
+    tile
+    {
+        xy = 2,2
+        FlatTextureOffset = 1
+        WallW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_19
+    tile
+    {
+        xy = 3,2
+        WallN = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_20
+    tile
+    {
+        xy = 4,2
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_21
+    tile
+    {
+        xy = 5,2
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_22
+    tile
+    {
+        xy = 6,2
+        DoorWallW = 
+        GrimeType = FullWindow
+        wall = 
+    }
+    // fixtures_asianwalls_01_23
+    tile
+    {
+        xy = 7,2
+        DoorWallN = 
+        FlatTextureOffset = -10
+        wall = 
+    }
+    // fixtures_asianwalls_01_24
+    tile
+    {
+        xy = 0,3
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowW = 
+        wall = 
+        windowW = 
+    }
+    // fixtures_asianwalls_01_25
+    tile
+    {
+        xy = 1,3
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowW = 
+        wall = 
+        windowW = 
+    }
+    // fixtures_asianwalls_01_26
+    tile
+    {
+        xy = 2,3
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowN = 
+        wall = 
+        windowN = 
+    }
+    // fixtures_asianwalls_01_27
+    tile
+    {
+        xy = 3,3
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowN = 
+        wall = 
+        windowN = 
+    }
+    // fixtures_asianwalls_01_28
+    tile
+    {
+        xy = 4,3
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowW = 
+        wall = 
+        windowW = 
+    }
+    // fixtures_asianwalls_01_29
+    tile
+    {
+        xy = 5,3
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowW = 
+        wall = 
+        windowW = 
+    }
+    // fixtures_asianwalls_01_30
+    tile
+    {
+        xy = 6,3
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowN = 
+        wall = 
+        windowN = 
+    }
+    // fixtures_asianwalls_01_31
+    tile
+    {
+        xy = 7,3
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowN = 
+        wall = 
+        windowN = 
+    }
+    // fixtures_asianwalls_01_32
+    tile
+    {
+        xy = 0,4
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_33
+    tile
+    {
+        xy = 1,4
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_34
+    tile
+    {
+        xy = 2,4
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_35
+    tile
+    {
+        xy = 3,4
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_36
+    tile
+    {
+        xy = 4,4
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_37
+    tile
+    {
+        xy = 5,4
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_38
+    tile
+    {
+        xy = 6,4
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_39
+    tile
+    {
+        xy = 7,4
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_40
+    tile
+    {
+        xy = 0,5
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_41
+    tile
+    {
+        xy = 1,5
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_42
+    tile
+    {
+        xy = 2,5
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_43
+    tile
+    {
+        xy = 3,5
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_44
+    tile
+    {
+        xy = 4,5
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_45
+    tile
+    {
+        xy = 5,5
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_46
+    tile
+    {
+        xy = 6,5
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_47
+    tile
+    {
+        xy = 7,5
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_48
+    tile
+    {
+        xy = 0,6
+        FlatTextureOffset = 1
+        WallW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_49
+    tile
+    {
+        xy = 1,6
+        WallN = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_50
+    tile
+    {
+        xy = 2,6
+        FlatTextureOffset = 1
+        WallW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_51
+    tile
+    {
+        xy = 3,6
+        WallN = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_52
+    tile
+    {
+        xy = 4,6
+        FlatTextureOffset = 1
+        WallW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_53
+    tile
+    {
+        xy = 5,6
+        WallN = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_54
+    tile
+    {
+        xy = 6,6
+        FlatTextureOffset = 1
+        WallW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_55
+    tile
+    {
+        xy = 7,6
+        WallN = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_56
+    tile
+    {
+        xy = 0,7
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowW = 
+        wall = 
+        windowW = 
+    }
+    // fixtures_asianwalls_01_57
+    tile
+    {
+        xy = 1,7
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowW = 
+        wall = 
+        windowW = 
+    }
+    // fixtures_asianwalls_01_58
+    tile
+    {
+        xy = 2,7
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowN = 
+        wall = 
+        windowN = 
+    }
+    // fixtures_asianwalls_01_59
+    tile
+    {
+        xy = 3,7
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowN = 
+        wall = 
+        windowN = 
+    }
+    // fixtures_asianwalls_01_60
+    tile
+    {
+        xy = 4,7
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowW = 
+        wall = 
+        windowW = 
+    }
+    // fixtures_asianwalls_01_61
+    tile
+    {
+        xy = 5,7
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowW = 
+        wall = 
+        windowW = 
+    }
+    // fixtures_asianwalls_01_62
+    tile
+    {
+        xy = 6,7
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowN = 
+        wall = 
+        windowN = 
+    }
+    // fixtures_asianwalls_01_63
+    tile
+    {
+        xy = 7,7
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowN = 
+        wall = 
+        windowN = 
+    }
+    // fixtures_asianwalls_01_64
+    tile
+    {
+        xy = 0,8
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_65
+    tile
+    {
+        xy = 1,8
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_66
+    tile
+    {
+        xy = 2,8
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_67
+    tile
+    {
+        xy = 3,8
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_68
+    tile
+    {
+        xy = 4,8
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_69
+    tile
+    {
+        xy = 5,8
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_70
+    tile
+    {
+        xy = 6,8
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_71
+    tile
+    {
+        xy = 7,8
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_72
+    tile
+    {
+        xy = 0,9
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_73
+    tile
+    {
+        xy = 1,9
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_74
+    tile
+    {
+        xy = 2,9
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_75
+    tile
+    {
+        xy = 3,9
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_76
+    tile
+    {
+        xy = 4,9
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_77
+    tile
+    {
+        xy = 5,9
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_78
+    tile
+    {
+        xy = 6,9
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_79
+    tile
+    {
+        xy = 7,9
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_80
+    tile
+    {
+        xy = 0,10
+        DoorWallW = 
+        FlatTextureOffset = -9
+        wall = 
+    }
+    // fixtures_asianwalls_01_81
+    tile
+    {
+        xy = 1,10
+        DoorWallN = 
+        FlatTextureOffset = -10
+        wall = 
+    }
+    // fixtures_asianwalls_01_82
+    tile
+    {
+        xy = 2,10
+        FlatTextureOffset = -7
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_83
+    tile
+    {
+        xy = 3,10
+        FlatTextureOffset = -8
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_84
+    tile
+    {
+        xy = 4,10
+        FlatTextureOffset = -7
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_85
+    tile
+    {
+        xy = 5,10
+        FlatTextureOffset = -8
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_86
+    tile
+    {
+        xy = 6,10
+        FlatTextureOffset = -8
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_87
+    tile
+    {
+        xy = 7,10
+        FlatTextureOffset = -7
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_88
+    tile
+    {
+        xy = 0,11
+        FlatTextureOffset = -7
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_89
+    tile
+    {
+        xy = 1,11
+        FlatTextureOffset = -8
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_90
+    tile
+    {
+        xy = 2,11
+        FlatTextureOffset = -7
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_91
+    tile
+    {
+        xy = 3,11
+        FlatTextureOffset = -8
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_92
+    tile
+    {
+        xy = 4,11
+        FlatTextureOffset = -7
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_93
+    tile
+    {
+        xy = 5,11
+        FlatTextureOffset = -8
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_96
+    tile
+    {
+        xy = 0,12
+        FlatTextureOffset = 1
+        WallWTrans = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_97
+    tile
+    {
+        xy = 1,12
+        FlatTextureOffset = 1
+        WallWTrans = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_98
+    tile
+    {
+        xy = 2,12
+        WallNTrans = 
+        wall = 
+    }
+    // fixtures_asianwalls_01_99
+    tile
+    {
+        xy = 3,12
+        WallNTrans = 
+        wall = 
+    }
+}
+tileset
+{
+    file = fixtures_asianwalls_02
+    size = 8,13
+    id = 5
+    // fixtures_asianwalls_02_0
+    tile
+    {
+        xy = 0,0
+        FlatTextureOffset = 1
+        WallW = 
+        wall = 
+    }
+    // fixtures_asianwalls_02_1
+    tile
+    {
+        xy = 1,0
+        WallN = 
+        wall = 
+    }
+    // fixtures_asianwalls_02_2
+    tile
+    {
+        xy = 2,0
+        FlatTextureOffset = 1
+        WallW = 
+        wall = 
+    }
+    // fixtures_asianwalls_02_3
+    tile
+    {
+        xy = 3,0
+        WallN = 
+        wall = 
+    }
+    // fixtures_asianwalls_02_4
+    tile
+    {
+        xy = 4,0
+        FlatTextureOffset = 1
+        WallW = 
+        wall = 
+    }
+    // fixtures_asianwalls_02_5
+    tile
+    {
+        xy = 5,0
+        WallN = 
+        wall = 
+    }
+    // fixtures_asianwalls_02_6
+    tile
+    {
+        xy = 6,0
+        FlatTextureOffset = 1
+        WallW = 
+        wall = 
+    }
+    // fixtures_asianwalls_02_7
+    tile
+    {
+        xy = 7,0
+        WallN = 
+        wall = 
+    }
+    // fixtures_asianwalls_02_8
+    tile
+    {
+        xy = 0,1
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowW = 
+        wall = 
+        windowW = 
+    }
+    // fixtures_asianwalls_02_9
+    tile
+    {
+        xy = 1,1
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowW = 
+        wall = 
+        windowW = 
+    }
+    // fixtures_asianwalls_02_10
+    tile
+    {
+        xy = 2,1
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowN = 
+        wall = 
+        windowN = 
+    }
+    // fixtures_asianwalls_02_11
+    tile
+    {
+        xy = 3,1
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowN = 
+        wall = 
+        windowN = 
+    }
+    // fixtures_asianwalls_02_12
+    tile
+    {
+        xy = 4,1
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowW = 
+        wall = 
+        windowW = 
+    }
+    // fixtures_asianwalls_02_13
+    tile
+    {
+        xy = 5,1
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowW = 
+        wall = 
+        windowW = 
+    }
+    // fixtures_asianwalls_02_14
+    tile
+    {
+        xy = 6,1
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowN = 
+        wall = 
+        windowN = 
+    }
+    // fixtures_asianwalls_02_15
+    tile
+    {
+        xy = 7,1
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowN = 
+        wall = 
+        windowN = 
+    }
+    // fixtures_asianwalls_02_16
+    tile
+    {
+        xy = 0,2
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_02_17
+    tile
+    {
+        xy = 1,2
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_02_18
+    tile
+    {
+        xy = 2,2
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_02_19
+    tile
+    {
+        xy = 3,2
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_02_20
+    tile
+    {
+        xy = 4,2
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_02_21
+    tile
+    {
+        xy = 5,2
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_02_22
+    tile
+    {
+        xy = 6,2
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_02_23
+    tile
+    {
+        xy = 7,2
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_02_24
+    tile
+    {
+        xy = 0,3
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_02_25
+    tile
+    {
+        xy = 1,3
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_02_26
+    tile
+    {
+        xy = 2,3
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_02_27
+    tile
+    {
+        xy = 3,3
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_02_28
+    tile
+    {
+        xy = 4,3
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_02_29
+    tile
+    {
+        xy = 5,3
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_02_30
+    tile
+    {
+        xy = 6,3
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_02_31
+    tile
+    {
+        xy = 7,3
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_02_32
+    tile
+    {
+        xy = 0,4
+        FlatTextureOffset = -7
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_02_33
+    tile
+    {
+        xy = 1,4
+        FlatTextureOffset = -8
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_02_34
+    tile
+    {
+        xy = 2,4
+        FlatTextureOffset = -7
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_02_35
+    tile
+    {
+        xy = 3,4
+        FlatTextureOffset = -8
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_02_48
+    tile
+    {
+        xy = 0,6
+        DoorWallW = 
+        FlatTextureOffset = -9
+        wall = 
+    }
+    // fixtures_asianwalls_02_49
+    tile
+    {
+        xy = 1,6
+        DoorWallN = 
+        FlatTextureOffset = -10
+        wall = 
+    }
+}
+tileset
+{
+    file = fixtures_asianwalls_03
+    size = 8,13
+    id = 13
+    // fixtures_asianwalls_03_0
+    tile
+    {
+        xy = 0,0
+        FlatTextureOffset = 1
+        WallW = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_1
+    tile
+    {
+        xy = 1,0
+        WallN = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_2
+    tile
+    {
+        xy = 2,0
+        FlatTextureOffset = 1
+        WallW = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_3
+    tile
+    {
+        xy = 3,0
+        WallN = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_4
+    tile
+    {
+        xy = 4,0
+        FlatTextureOffset = 1
+        WallW = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_5
+    tile
+    {
+        xy = 5,0
+        WallN = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_6
+    tile
+    {
+        xy = 6,0
+        FlatTextureOffset = 1
+        WallW = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_7
+    tile
+    {
+        xy = 7,0
+        WallN = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_8
+    tile
+    {
+        xy = 0,1
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowW = 
+        wall = 
+        windowW = 
+    }
+    // fixtures_asianwalls_03_9
+    tile
+    {
+        xy = 1,1
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowW = 
+        wall = 
+        windowW = 
+    }
+    // fixtures_asianwalls_03_10
+    tile
+    {
+        xy = 2,1
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowN = 
+        wall = 
+        windowN = 
+    }
+    // fixtures_asianwalls_03_11
+    tile
+    {
+        xy = 3,1
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowN = 
+        wall = 
+        windowN = 
+    }
+    // fixtures_asianwalls_03_12
+    tile
+    {
+        xy = 4,1
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowW = 
+        wall = 
+        windowW = 
+    }
+    // fixtures_asianwalls_03_13
+    tile
+    {
+        xy = 5,1
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowW = 
+        wall = 
+        windowW = 
+    }
+    // fixtures_asianwalls_03_14
+    tile
+    {
+        xy = 6,1
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowN = 
+        wall = 
+        windowN = 
+    }
+    // fixtures_asianwalls_03_15
+    tile
+    {
+        xy = 7,1
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowN = 
+        wall = 
+        windowN = 
+    }
+    // fixtures_asianwalls_03_16
+    tile
+    {
+        xy = 0,2
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_17
+    tile
+    {
+        xy = 1,2
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_18
+    tile
+    {
+        xy = 2,2
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_19
+    tile
+    {
+        xy = 3,2
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_20
+    tile
+    {
+        xy = 4,2
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_21
+    tile
+    {
+        xy = 5,2
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_22
+    tile
+    {
+        xy = 6,2
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_23
+    tile
+    {
+        xy = 7,2
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_24
+    tile
+    {
+        xy = 0,3
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_25
+    tile
+    {
+        xy = 1,3
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_26
+    tile
+    {
+        xy = 2,3
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_27
+    tile
+    {
+        xy = 3,3
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_28
+    tile
+    {
+        xy = 4,3
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_29
+    tile
+    {
+        xy = 5,3
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_30
+    tile
+    {
+        xy = 6,3
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_31
+    tile
+    {
+        xy = 7,3
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_32
+    tile
+    {
+        xy = 0,4
+        FlatTextureOffset = -7
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_33
+    tile
+    {
+        xy = 1,4
+        FlatTextureOffset = -8
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_34
+    tile
+    {
+        xy = 2,4
+        DoorWallN = 
+        FlatTextureOffset = -10
+        doorFrN = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_35
+    tile
+    {
+        xy = 3,4
+        DoorWallW = 
+        FlatTextureOffset = -9
+        wall = 
+    }
+    // fixtures_asianwalls_03_36
+    tile
+    {
+        xy = 4,4
+        FlatTextureOffset = 1
+        WallW = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_37
+    tile
+    {
+        xy = 5,4
+        WallN = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_38
+    tile
+    {
+        xy = 6,4
+        FlatTextureOffset = -1
+        WallNW = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_39
+    tile
+    {
+        xy = 7,4
+        FlatTextureOffset = -2
+        GrimeType = FullWindow
+        WallSE = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_40
+    tile
+    {
+        xy = 0,5
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowW = 
+        wall = 
+        windowW = 
+    }
+    // fixtures_asianwalls_03_41
+    tile
+    {
+        xy = 1,5
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowW = 
+        wall = 
+        windowW = 
+    }
+    // fixtures_asianwalls_03_42
+    tile
+    {
+        xy = 2,5
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowN = 
+        wall = 
+        windowN = 
+    }
+    // fixtures_asianwalls_03_43
+    tile
+    {
+        xy = 3,5
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowN = 
+        wall = 
+        windowN = 
+    }
+    // fixtures_asianwalls_03_44
+    tile
+    {
+        xy = 4,5
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowW = 
+        wall = 
+        windowW = 
+    }
+    // fixtures_asianwalls_03_45
+    tile
+    {
+        xy = 5,5
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowW = 
+        wall = 
+        windowW = 
+    }
+    // fixtures_asianwalls_03_46
+    tile
+    {
+        xy = 6,5
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowN = 
+        wall = 
+        windowN = 
+    }
+    // fixtures_asianwalls_03_47
+    tile
+    {
+        xy = 7,5
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowN = 
+        wall = 
+        windowN = 
+    }
+    // fixtures_asianwalls_03_48
+    tile
+    {
+        xy = 0,6
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_49
+    tile
+    {
+        xy = 1,6
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_50
+    tile
+    {
+        xy = 2,6
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_51
+    tile
+    {
+        xy = 3,6
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_52
+    tile
+    {
+        xy = 4,6
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_53
+    tile
+    {
+        xy = 5,6
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_54
+    tile
+    {
+        xy = 6,6
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_55
+    tile
+    {
+        xy = 7,6
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_56
+    tile
+    {
+        xy = 0,7
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_57
+    tile
+    {
+        xy = 1,7
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_58
+    tile
+    {
+        xy = 2,7
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_59
+    tile
+    {
+        xy = 3,7
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_60
+    tile
+    {
+        xy = 4,7
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_61
+    tile
+    {
+        xy = 5,7
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_62
+    tile
+    {
+        xy = 6,7
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_63
+    tile
+    {
+        xy = 7,7
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_64
+    tile
+    {
+        xy = 0,8
+        FlatTextureOffset = 1
+        WallW = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_65
+    tile
+    {
+        xy = 1,8
+        WallN = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_66
+    tile
+    {
+        xy = 2,8
+        FlatTextureOffset = -1
+        WallNW = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_67
+    tile
+    {
+        xy = 3,8
+        FlatTextureOffset = -2
+        GrimeType = FullWindow
+        WallSE = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_68
+    tile
+    {
+        xy = 4,8
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowW = 
+        wall = 
+        windowW = 
+    }
+    // fixtures_asianwalls_03_69
+    tile
+    {
+        xy = 5,8
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowW = 
+        wall = 
+        windowW = 
+    }
+    // fixtures_asianwalls_03_70
+    tile
+    {
+        xy = 6,8
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowN = 
+        wall = 
+        windowN = 
+    }
+    // fixtures_asianwalls_03_71
+    tile
+    {
+        xy = 7,8
+        GlassRemovedOffset = 16
+        GrimeType = FullWindow
+        SmashedTileOffset = 8
+        WindowLocked = 
+        WindowN = 
+        wall = 
+        windowN = 
+    }
+    // fixtures_asianwalls_03_76
+    tile
+    {
+        xy = 4,9
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_77
+    tile
+    {
+        xy = 5,9
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_78
+    tile
+    {
+        xy = 6,9
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_79
+    tile
+    {
+        xy = 7,9
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_84
+    tile
+    {
+        xy = 4,10
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_85
+    tile
+    {
+        xy = 5,10
+        GrimeType = FullWindow
+        WindowW = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_86
+    tile
+    {
+        xy = 6,10
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+    // fixtures_asianwalls_03_87
+    tile
+    {
+        xy = 7,10
+        GrimeType = FullWindow
+        WindowN = 
+        wall = 
+    }
+}
+tileset
+{
+    file = interior_asianfloor_01
+    size = 8,4
+    id = 3
+    // interior_asianfloor_01_0
+    tile
+    {
+        xy = 0,0
+        CanBreak = 
+        CustomName = Tatami Carpet
+        FootstepMaterial = Carpet
+        IsMoveAble = 
+        Material = Fabric
+        MoveType = FloorTile
+        PickUpTool = Cutter
+        PickUpWeight = 10
+        attachedFloor = 
+        diamondFloor = 
+        solidfloor = 
+    }
+    // interior_asianfloor_01_1
+    tile
+    {
+        xy = 1,0
+        CanBreak = 
+        CustomName = Tatami Carpet
+        FootstepMaterial = Carpet
+        IsMoveAble = 
+        Material = Fabric
+        MoveType = FloorTile
+        PickUpTool = Cutter
+        PickUpWeight = 10
+        attachedFloor = 
+        diamondFloor = 
+        solidfloor = 
+    }
+    // interior_asianfloor_01_3
+    tile
+    {
+        xy = 3,0
+        CanBreak = 
+        CustomName = Tatami Carpet
+        FootstepMaterial = Carpet
+        IsMoveAble = 
+        Material = Fabric
+        MoveType = FloorTile
+        PickUpTool = Cutter
+        PickUpWeight = 10
+        attachedFloor = 
+        diamondFloor = 
+        solidfloor = 
+    }
+    // interior_asianfloor_01_4
+    tile
+    {
+        xy = 4,0
+        CanBreak = 
+        CustomName = Tatami Carpet
+        FootstepMaterial = Carpet
+        IsMoveAble = 
+        Material = Fabric
+        MoveType = FloorTile
+        PickUpTool = Cutter
+        PickUpWeight = 10
+        attachedFloor = 
+        diamondFloor = 
+        solidfloor = 
+    }
+    // interior_asianfloor_01_5
+    tile
+    {
+        xy = 5,0
+        CanBreak = 
+        CustomName = Tatami Carpet
+        FootstepMaterial = Carpet
+        IsMoveAble = 
+        Material = Fabric
+        MoveType = FloorTile
+        PickUpTool = Cutter
+        PickUpWeight = 10
+        attachedFloor = 
+        diamondFloor = 
+        solidfloor = 
+    }
+    // interior_asianfloor_01_6
+    tile
+    {
+        xy = 6,0
+        CanBreak = 
+        CustomName = Tatami Carpet
+        FootstepMaterial = Carpet
+        IsMoveAble = 
+        Material = Fabric
+        MoveType = FloorTile
+        PickUpTool = Cutter
+        PickUpWeight = 10
+        attachedFloor = 
+        diamondFloor = 
+        solidfloor = 
+    }
+    // interior_asianfloor_01_8
+    tile
+    {
+        xy = 0,1
+        CanBreak = 
+        CustomName = Tatami Carpet
+        FootstepMaterial = Carpet
+        IsMoveAble = 
+        Material = Fabric
+        MoveType = FloorTile
+        PickUpTool = Cutter
+        PickUpWeight = 10
+        attachedFloor = 
+        diamondFloor = 
+        solidfloor = 
+    }
+    // interior_asianfloor_01_9
+    tile
+    {
+        xy = 1,1
+        CanBreak = 
+        CustomName = Tatami Carpet
+        FootstepMaterial = Carpet
+        IsMoveAble = 
+        Material = Fabric
+        MoveType = FloorTile
+        PickUpTool = Cutter
+        PickUpWeight = 10
+        attachedFloor = 
+        diamondFloor = 
+        solidfloor = 
+    }
+    // interior_asianfloor_01_10
+    tile
+    {
+        xy = 2,1
+        CanBreak = 
+        CustomName = Tatami Carpet
+        FootstepMaterial = Carpet
+        IsMoveAble = 
+        Material = Fabric
+        MoveType = FloorTile
+        PickUpTool = Cutter
+        PickUpWeight = 10
+        attachedFloor = 
+        diamondFloor = 
+        solidfloor = 
+    }
+    // interior_asianfloor_01_11
+    tile
+    {
+        xy = 3,1
+        CanBreak = 
+        CustomName = Tatami Carpet
+        FootstepMaterial = Carpet
+        IsMoveAble = 
+        Material = Fabric
+        MoveType = FloorTile
+        PickUpTool = Cutter
+        PickUpWeight = 10
+        attachedFloor = 
+        diamondFloor = 
+        solidfloor = 
+    }
+    // interior_asianfloor_01_12
+    tile
+    {
+        xy = 4,1
+        CanBreak = 
+        CustomName = Tatami Carpet
+        FootstepMaterial = Carpet
+        IsMoveAble = 
+        Material = Fabric
+        MoveType = FloorTile
+        PickUpTool = Cutter
+        PickUpWeight = 10
+        attachedFloor = 
+        diamondFloor = 
+        solidfloor = 
+    }
+    // interior_asianfloor_01_13
+    tile
+    {
+        xy = 5,1
+        CanBreak = 
+        CustomName = Tatami Carpet
+        FootstepMaterial = Carpet
+        IsMoveAble = 
+        Material = Fabric
+        MoveType = FloorTile
+        PickUpTool = Cutter
+        PickUpWeight = 10
+        attachedFloor = 
+        diamondFloor = 
+        solidfloor = 
+    }
+    // interior_asianfloor_01_16
+    tile
+    {
+        xy = 0,2
+        CanBreak = 
+        CustomName = Tatami Carpet
+        FootstepMaterial = Carpet
+        IsMoveAble = 
+        Material = Fabric
+        MoveType = FloorTile
+        PickUpTool = Cutter
+        PickUpWeight = 10
+        attachedFloor = 
+        diamondFloor = 
+        solidfloor = 
+    }
+    // interior_asianfloor_01_17
+    tile
+    {
+        xy = 1,2
+        CanBreak = 
+        CustomName = Tatami Carpet
+        FootstepMaterial = Carpet
+        IsMoveAble = 
+        Material = Fabric
+        MoveType = FloorTile
+        PickUpTool = Cutter
+        PickUpWeight = 10
+        attachedFloor = 
+        diamondFloor = 
+        solidfloor = 
+    }
+    // interior_asianfloor_01_18
+    tile
+    {
+        xy = 2,2
+        CanBreak = 
+        CustomName = Tatami Carpet
+        FootstepMaterial = Carpet
+        IsMoveAble = 
+        Material = Fabric
+        MoveType = FloorTile
+        PickUpTool = Cutter
+        PickUpWeight = 10
+        attachedFloor = 
+        diamondFloor = 
+        solidfloor = 
+    }
+    // interior_asianfloor_01_19
+    tile
+    {
+        xy = 3,2
+        CanBreak = 
+        CustomName = Tatami Carpet
+        FootstepMaterial = Carpet
+        IsMoveAble = 
+        Material = Fabric
+        MoveType = FloorTile
+        PickUpTool = Cutter
+        PickUpWeight = 10
+        attachedFloor = 
+        diamondFloor = 
+        solidfloor = 
+    }
+    // interior_asianfloor_01_20
+    tile
+    {
+        xy = 4,2
+        CanBreak = 
+        CustomName = Tatami Carpet
+        FootstepMaterial = Carpet
+        IsMoveAble = 
+        Material = Fabric
+        MoveType = FloorTile
+        PickUpTool = Cutter
+        PickUpWeight = 10
+        attachedFloor = 
+        diamondFloor = 
+        solidfloor = 
+    }
+    // interior_asianfloor_01_21
+    tile
+    {
+        xy = 5,2
+        CanBreak = 
+        CustomName = Tatami Carpet
+        FootstepMaterial = Carpet
+        IsMoveAble = 
+        Material = Fabric
+        MoveType = FloorTile
+        PickUpTool = Cutter
+        PickUpWeight = 10
+        attachedFloor = 
+        diamondFloor = 
+        solidfloor = 
+    }
+    // interior_asianfloor_01_24
+    tile
+    {
+        xy = 0,3
+        CanBreak = 
+        CustomName = LongPlanks Asian Floor
+        FootstepMaterial = Wood
+        IsMoveAble = 
+        Material = Wood
+        MoveType = FloorTile
+        PickUpLevel = 1
+        PickUpTool = Hammer
+        PickUpWeight = 20
+        PlaceTool = Hammer
+        attachedFloor = 
+        diamondFloor = 
+        solidfloor = 
+    }
+    // interior_asianfloor_01_25
+    tile
+    {
+        xy = 1,3
+        CanBreak = 
+        CustomName = LongPlanks Asian Floor
+        FootstepMaterial = Wood
+        IsMoveAble = 
+        Material = Wood
+        MoveType = FloorTile
+        PickUpLevel = 1
+        PickUpTool = Hammer
+        PickUpWeight = 20
+        PlaceTool = Hammer
+        attachedFloor = 
+        diamondFloor = 
+        solidfloor = 
+    }
+    // interior_asianfloor_01_26
+    tile
+    {
+        xy = 2,3
+        CanBreak = 
+        CustomName = Short Planks Asian Floor
+        FootstepMaterial = Wood
+        IsMoveAble = 
+        Material = Wood
+        MoveType = FloorTile
+        PickUpLevel = 1
+        PickUpTool = Hammer
+        PickUpWeight = 20
+        PlaceTool = Hammer
+        attachedFloor = 
+        diamondFloor = 
+        solidfloor = 
+    }
+    // interior_asianfloor_01_27
+    tile
+    {
+        xy = 3,3
+        CanBreak = 
+        CustomName = Short Planks Asian Floor
+        FootstepMaterial = Wood
+        IsMoveAble = 
+        Material = Wood
+        MoveType = FloorTile
+        PickUpLevel = 1
+        PickUpTool = Hammer
+        PickUpWeight = 20
+        PlaceTool = Hammer
+        attachedFloor = 
+        diamondFloor = 
+        solidfloor = 
+    }
+    // interior_asianfloor_01_28
+    tile
+    {
+        xy = 4,3
+        CanBreak = 
+        CustomName = Tatami Carpet
+        FootstepMaterial = Carpet
+        IsMoveAble = 
+        Material = Fabric
+        MoveType = FloorTile
+        PickUpTool = Cutter
+        PickUpWeight = 10
+        attachedFloor = 
+        diamondFloor = 
+        solidfloor = 
+    }
+    // interior_asianfloor_01_29
+    tile
+    {
+        xy = 5,3
+        CanBreak = 
+        CustomName = Tatami Carpet
+        FootstepMaterial = Carpet
+        IsMoveAble = 
+        Material = Fabric
+        MoveType = FloorTile
+        PickUpTool = Cutter
+        PickUpWeight = 10
+        attachedFloor = 
+        diamondFloor = 
+        solidfloor = 
+    }
+}
+tileset
+{
+    file = recolor_melos_tiles_roofs_04
+    size = 8,16
+    id = 9
+    // recolor_melos_tiles_roofs_04_0
+    tile
+    {
+        xy = 0,0
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_1
+    tile
+    {
+        xy = 1,0
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_2
+    tile
+    {
+        xy = 2,0
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_3
+    tile
+    {
+        xy = 3,0
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_4
+    tile
+    {
+        xy = 4,0
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_5
+    tile
+    {
+        xy = 5,0
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_6
+    tile
+    {
+        xy = 6,0
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_7
+    tile
+    {
+        xy = 7,0
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_8
+    tile
+    {
+        xy = 0,1
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_9
+    tile
+    {
+        xy = 1,1
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_10
+    tile
+    {
+        xy = 2,1
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_11
+    tile
+    {
+        xy = 3,1
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_12
+    tile
+    {
+        xy = 4,1
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_13
+    tile
+    {
+        xy = 5,1
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_14
+    tile
+    {
+        xy = 6,1
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_15
+    tile
+    {
+        xy = 7,1
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_16
+    tile
+    {
+        xy = 0,2
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_17
+    tile
+    {
+        xy = 1,2
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_18
+    tile
+    {
+        xy = 2,2
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_19
+    tile
+    {
+        xy = 3,2
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_20
+    tile
+    {
+        xy = 4,2
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_21
+    tile
+    {
+        xy = 5,2
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_24
+    tile
+    {
+        xy = 0,3
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_25
+    tile
+    {
+        xy = 1,3
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_26
+    tile
+    {
+        xy = 2,3
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_27
+    tile
+    {
+        xy = 3,3
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_28
+    tile
+    {
+        xy = 4,3
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_29
+    tile
+    {
+        xy = 5,3
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_32
+    tile
+    {
+        xy = 0,4
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_33
+    tile
+    {
+        xy = 1,4
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_34
+    tile
+    {
+        xy = 2,4
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_35
+    tile
+    {
+        xy = 3,4
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_36
+    tile
+    {
+        xy = 4,4
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_37
+    tile
+    {
+        xy = 5,4
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_40
+    tile
+    {
+        xy = 0,5
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_41
+    tile
+    {
+        xy = 1,5
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_42
+    tile
+    {
+        xy = 2,5
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_43
+    tile
+    {
+        xy = 3,5
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_44
+    tile
+    {
+        xy = 4,5
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_45
+    tile
+    {
+        xy = 5,5
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_48
+    tile
+    {
+        xy = 0,6
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_49
+    tile
+    {
+        xy = 1,6
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_50
+    tile
+    {
+        xy = 2,6
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_51
+    tile
+    {
+        xy = 3,6
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_52
+    tile
+    {
+        xy = 4,6
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_53
+    tile
+    {
+        xy = 5,6
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_56
+    tile
+    {
+        xy = 0,7
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_57
+    tile
+    {
+        xy = 1,7
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_58
+    tile
+    {
+        xy = 2,7
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_59
+    tile
+    {
+        xy = 3,7
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_60
+    tile
+    {
+        xy = 4,7
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_61
+    tile
+    {
+        xy = 5,7
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_64
+    tile
+    {
+        xy = 0,8
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_65
+    tile
+    {
+        xy = 1,8
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_66
+    tile
+    {
+        xy = 2,8
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_67
+    tile
+    {
+        xy = 3,8
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_68
+    tile
+    {
+        xy = 4,8
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_69
+    tile
+    {
+        xy = 5,8
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_72
+    tile
+    {
+        xy = 0,9
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_73
+    tile
+    {
+        xy = 1,9
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_74
+    tile
+    {
+        xy = 2,9
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_75
+    tile
+    {
+        xy = 3,9
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_76
+    tile
+    {
+        xy = 4,9
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_77
+    tile
+    {
+        xy = 5,9
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_80
+    tile
+    {
+        xy = 0,10
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_81
+    tile
+    {
+        xy = 1,10
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_82
+    tile
+    {
+        xy = 2,10
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_83
+    tile
+    {
+        xy = 3,10
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_84
+    tile
+    {
+        xy = 4,10
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_85
+    tile
+    {
+        xy = 5,10
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_88
+    tile
+    {
+        xy = 0,11
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_89
+    tile
+    {
+        xy = 1,11
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_90
+    tile
+    {
+        xy = 2,11
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_91
+    tile
+    {
+        xy = 3,11
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_92
+    tile
+    {
+        xy = 4,11
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_93
+    tile
+    {
+        xy = 5,11
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_96
+    tile
+    {
+        xy = 0,12
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_97
+    tile
+    {
+        xy = 1,12
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_98
+    tile
+    {
+        xy = 2,12
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_99
+    tile
+    {
+        xy = 3,12
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_100
+    tile
+    {
+        xy = 4,12
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_101
+    tile
+    {
+        xy = 5,12
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_104
+    tile
+    {
+        xy = 0,13
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_105
+    tile
+    {
+        xy = 1,13
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_106
+    tile
+    {
+        xy = 2,13
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_107
+    tile
+    {
+        xy = 3,13
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_108
+    tile
+    {
+        xy = 4,13
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04_109
+    tile
+    {
+        xy = 5,13
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+}
+tileset
+{
+    file = recolor_melos_tiles_roofs_04a
+    size = 8,16
+    id = 10
+    // recolor_melos_tiles_roofs_04a_0
+    tile
+    {
+        xy = 0,0
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_1
+    tile
+    {
+        xy = 1,0
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_2
+    tile
+    {
+        xy = 2,0
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_3
+    tile
+    {
+        xy = 3,0
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_4
+    tile
+    {
+        xy = 4,0
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_5
+    tile
+    {
+        xy = 5,0
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_6
+    tile
+    {
+        xy = 6,0
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedW = 
+    }
+    // recolor_melos_tiles_roofs_04a_7
+    tile
+    {
+        xy = 7,0
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedW = 
+    }
+    // recolor_melos_tiles_roofs_04a_8
+    tile
+    {
+        xy = 0,1
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_9
+    tile
+    {
+        xy = 1,1
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_10
+    tile
+    {
+        xy = 2,1
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_11
+    tile
+    {
+        xy = 3,1
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_12
+    tile
+    {
+        xy = 4,1
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_13
+    tile
+    {
+        xy = 5,1
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_14
+    tile
+    {
+        xy = 6,1
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedW = 
+    }
+    // recolor_melos_tiles_roofs_04a_15
+    tile
+    {
+        xy = 7,1
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedW = 
+    }
+    // recolor_melos_tiles_roofs_04a_16
+    tile
+    {
+        xy = 0,2
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_17
+    tile
+    {
+        xy = 1,2
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_18
+    tile
+    {
+        xy = 2,2
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_19
+    tile
+    {
+        xy = 3,2
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_20
+    tile
+    {
+        xy = 4,2
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_21
+    tile
+    {
+        xy = 5,2
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_22
+    tile
+    {
+        xy = 6,2
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedE = 
+    }
+    // recolor_melos_tiles_roofs_04a_23
+    tile
+    {
+        xy = 7,2
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedE = 
+    }
+    // recolor_melos_tiles_roofs_04a_24
+    tile
+    {
+        xy = 0,3
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_25
+    tile
+    {
+        xy = 1,3
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_26
+    tile
+    {
+        xy = 2,3
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_27
+    tile
+    {
+        xy = 3,3
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_28
+    tile
+    {
+        xy = 4,3
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_29
+    tile
+    {
+        xy = 5,3
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_30
+    tile
+    {
+        xy = 6,3
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedE = 
+    }
+    // recolor_melos_tiles_roofs_04a_31
+    tile
+    {
+        xy = 7,3
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedE = 
+    }
+    // recolor_melos_tiles_roofs_04a_32
+    tile
+    {
+        xy = 0,4
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_33
+    tile
+    {
+        xy = 1,4
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_34
+    tile
+    {
+        xy = 2,4
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_35
+    tile
+    {
+        xy = 3,4
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_36
+    tile
+    {
+        xy = 4,4
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_37
+    tile
+    {
+        xy = 5,4
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_38
+    tile
+    {
+        xy = 6,4
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedN = 
+    }
+    // recolor_melos_tiles_roofs_04a_39
+    tile
+    {
+        xy = 7,4
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedN = 
+    }
+    // recolor_melos_tiles_roofs_04a_40
+    tile
+    {
+        xy = 0,5
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_41
+    tile
+    {
+        xy = 1,5
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_42
+    tile
+    {
+        xy = 2,5
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_43
+    tile
+    {
+        xy = 3,5
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_44
+    tile
+    {
+        xy = 4,5
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_45
+    tile
+    {
+        xy = 5,5
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_46
+    tile
+    {
+        xy = 6,5
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedN = 
+    }
+    // recolor_melos_tiles_roofs_04a_47
+    tile
+    {
+        xy = 7,5
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedN = 
+    }
+    // recolor_melos_tiles_roofs_04a_48
+    tile
+    {
+        xy = 0,6
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_49
+    tile
+    {
+        xy = 1,6
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_50
+    tile
+    {
+        xy = 2,6
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_51
+    tile
+    {
+        xy = 3,6
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_52
+    tile
+    {
+        xy = 4,6
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_53
+    tile
+    {
+        xy = 5,6
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_54
+    tile
+    {
+        xy = 6,6
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedS = 
+    }
+    // recolor_melos_tiles_roofs_04a_55
+    tile
+    {
+        xy = 7,6
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedS = 
+    }
+    // recolor_melos_tiles_roofs_04a_56
+    tile
+    {
+        xy = 0,7
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_57
+    tile
+    {
+        xy = 1,7
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_58
+    tile
+    {
+        xy = 2,7
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_59
+    tile
+    {
+        xy = 3,7
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_60
+    tile
+    {
+        xy = 4,7
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_61
+    tile
+    {
+        xy = 5,7
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_62
+    tile
+    {
+        xy = 6,7
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedS = 
+    }
+    // recolor_melos_tiles_roofs_04a_63
+    tile
+    {
+        xy = 7,7
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedS = 
+    }
+    // recolor_melos_tiles_roofs_04a_64
+    tile
+    {
+        xy = 0,8
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_65
+    tile
+    {
+        xy = 1,8
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_66
+    tile
+    {
+        xy = 2,8
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_67
+    tile
+    {
+        xy = 3,8
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_68
+    tile
+    {
+        xy = 4,8
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_69
+    tile
+    {
+        xy = 5,8
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_70
+    tile
+    {
+        xy = 6,8
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedW = 
+    }
+    // recolor_melos_tiles_roofs_04a_71
+    tile
+    {
+        xy = 7,8
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedW = 
+    }
+    // recolor_melos_tiles_roofs_04a_72
+    tile
+    {
+        xy = 0,9
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_73
+    tile
+    {
+        xy = 1,9
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_74
+    tile
+    {
+        xy = 2,9
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_75
+    tile
+    {
+        xy = 3,9
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_76
+    tile
+    {
+        xy = 4,9
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_77
+    tile
+    {
+        xy = 5,9
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_78
+    tile
+    {
+        xy = 6,9
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedE = 
+    }
+    // recolor_melos_tiles_roofs_04a_79
+    tile
+    {
+        xy = 7,9
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedE = 
+    }
+    // recolor_melos_tiles_roofs_04a_80
+    tile
+    {
+        xy = 0,10
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_81
+    tile
+    {
+        xy = 1,10
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_82
+    tile
+    {
+        xy = 2,10
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_83
+    tile
+    {
+        xy = 3,10
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_84
+    tile
+    {
+        xy = 4,10
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_85
+    tile
+    {
+        xy = 5,10
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_86
+    tile
+    {
+        xy = 6,10
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedN = 
+    }
+    // recolor_melos_tiles_roofs_04a_87
+    tile
+    {
+        xy = 7,10
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedN = 
+    }
+    // recolor_melos_tiles_roofs_04a_88
+    tile
+    {
+        xy = 0,11
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_89
+    tile
+    {
+        xy = 1,11
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_90
+    tile
+    {
+        xy = 2,11
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_91
+    tile
+    {
+        xy = 3,11
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_92
+    tile
+    {
+        xy = 4,11
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_93
+    tile
+    {
+        xy = 5,11
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04a_94
+    tile
+    {
+        xy = 6,11
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedS = 
+    }
+    // recolor_melos_tiles_roofs_04a_95
+    tile
+    {
+        xy = 7,11
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedS = 
+    }
+    // recolor_melos_tiles_roofs_04a_96
+    tile
+    {
+        xy = 0,12
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedW = 
+    }
+    // recolor_melos_tiles_roofs_04a_98
+    tile
+    {
+        xy = 2,12
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedN = 
+    }
+    // recolor_melos_tiles_roofs_04a_102
+    tile
+    {
+        xy = 6,12
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedW = 
+    }
+    // recolor_melos_tiles_roofs_04a_103
+    tile
+    {
+        xy = 7,12
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedW = 
+    }
+    // recolor_melos_tiles_roofs_04a_104
+    tile
+    {
+        xy = 0,13
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedE = 
+    }
+    // recolor_melos_tiles_roofs_04a_106
+    tile
+    {
+        xy = 2,13
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedS = 
+    }
+    // recolor_melos_tiles_roofs_04a_110
+    tile
+    {
+        xy = 6,13
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedE = 
+    }
+    // recolor_melos_tiles_roofs_04a_111
+    tile
+    {
+        xy = 7,13
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedE = 
+    }
+    // recolor_melos_tiles_roofs_04a_118
+    tile
+    {
+        xy = 6,14
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedN = 
+    }
+    // recolor_melos_tiles_roofs_04a_119
+    tile
+    {
+        xy = 7,14
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedN = 
+    }
+    // recolor_melos_tiles_roofs_04a_126
+    tile
+    {
+        xy = 6,15
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedS = 
+    }
+    // recolor_melos_tiles_roofs_04a_127
+    tile
+    {
+        xy = 7,15
+        CustomName = Slated Roof Edge
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedS = 
+    }
+}
+tileset
+{
+    file = recolor_melos_tiles_roofs_04b
+    size = 8,16
+    id = 11
+    // recolor_melos_tiles_roofs_04b_16
+    tile
+    {
+        xy = 0,2
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04b_17
+    tile
+    {
+        xy = 1,2
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04b_18
+    tile
+    {
+        xy = 2,2
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04b_19
+    tile
+    {
+        xy = 3,2
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04b_20
+    tile
+    {
+        xy = 4,2
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04b_21
+    tile
+    {
+        xy = 5,2
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04b_22
+    tile
+    {
+        xy = 6,2
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedN = 
+    }
+    // recolor_melos_tiles_roofs_04b_23
+    tile
+    {
+        xy = 7,2
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedW = 
+    }
+    // recolor_melos_tiles_roofs_04b_24
+    tile
+    {
+        xy = 0,3
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04b_25
+    tile
+    {
+        xy = 1,3
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04b_26
+    tile
+    {
+        xy = 2,3
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04b_27
+    tile
+    {
+        xy = 3,3
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04b_28
+    tile
+    {
+        xy = 4,3
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04b_29
+    tile
+    {
+        xy = 5,3
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04b_30
+    tile
+    {
+        xy = 6,3
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04b_31
+    tile
+    {
+        xy = 7,3
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04b_36
+    tile
+    {
+        xy = 4,4
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04b_37
+    tile
+    {
+        xy = 5,4
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedE = 
+    }
+    // recolor_melos_tiles_roofs_04b_40
+    tile
+    {
+        xy = 0,5
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04b_41
+    tile
+    {
+        xy = 1,5
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04b_42
+    tile
+    {
+        xy = 2,5
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04b_43
+    tile
+    {
+        xy = 3,5
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04b_44
+    tile
+    {
+        xy = 4,5
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04b_45
+    tile
+    {
+        xy = 5,5
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+    }
+    // recolor_melos_tiles_roofs_04b_48
+    tile
+    {
+        xy = 0,6
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedW = 
+    }
+    // recolor_melos_tiles_roofs_04b_49
+    tile
+    {
+        xy = 1,6
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedW = 
+    }
+    // recolor_melos_tiles_roofs_04b_50
+    tile
+    {
+        xy = 2,6
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedW = 
+    }
+    // recolor_melos_tiles_roofs_04b_51
+    tile
+    {
+        xy = 3,6
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedN = 
+    }
+    // recolor_melos_tiles_roofs_04b_52
+    tile
+    {
+        xy = 4,6
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedN = 
+    }
+    // recolor_melos_tiles_roofs_04b_53
+    tile
+    {
+        xy = 5,6
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedN = 
+    }
+    // recolor_melos_tiles_roofs_04b_56
+    tile
+    {
+        xy = 0,7
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedE = 
+    }
+    // recolor_melos_tiles_roofs_04b_57
+    tile
+    {
+        xy = 1,7
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedE = 
+    }
+    // recolor_melos_tiles_roofs_04b_58
+    tile
+    {
+        xy = 2,7
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedE = 
+    }
+    // recolor_melos_tiles_roofs_04b_59
+    tile
+    {
+        xy = 3,7
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedS = 
+    }
+    // recolor_melos_tiles_roofs_04b_60
+    tile
+    {
+        xy = 4,7
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedS = 
+    }
+    // recolor_melos_tiles_roofs_04b_61
+    tile
+    {
+        xy = 5,7
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedS = 
+    }
+    // recolor_melos_tiles_roofs_04b_64
+    tile
+    {
+        xy = 0,8
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedN = 
+    }
+    // recolor_melos_tiles_roofs_04b_65
+    tile
+    {
+        xy = 1,8
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedN = 
+    }
+    // recolor_melos_tiles_roofs_04b_66
+    tile
+    {
+        xy = 2,8
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedN = 
+    }
+    // recolor_melos_tiles_roofs_04b_67
+    tile
+    {
+        xy = 3,8
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedW = 
+    }
+    // recolor_melos_tiles_roofs_04b_68
+    tile
+    {
+        xy = 4,8
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedW = 
+    }
+    // recolor_melos_tiles_roofs_04b_69
+    tile
+    {
+        xy = 5,8
+        CustomName = Roof
+        ForceAmbient = 
+        GroupName = MT Orange
+        WestRoofT = 
+        attachedW = 
+    }
+}
+tileset
+{
+    file = recolor_melos_tiles_walls_en_newburbs_add_03
+    size = 8,16
+    id = 12
+    // recolor_melos_tiles_walls_en_newburbs_add_03_0
+    tile
+    {
+        xy = 0,0
+        FlatTextureOffset = 1
+        WallW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_1
+    tile
+    {
+        xy = 1,0
+        WallN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_2
+    tile
+    {
+        xy = 2,0
+        FlatTextureOffset = -1
+        WallNW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_3
+    tile
+    {
+        xy = 3,0
+        FlatTextureOffset = -2
+        WallSE = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_4
+    tile
+    {
+        xy = 4,0
+        WindowW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_5
+    tile
+    {
+        xy = 5,0
+        WindowN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_6
+    tile
+    {
+        xy = 6,0
+        WindowW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_7
+    tile
+    {
+        xy = 7,0
+        WindowN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_8
+    tile
+    {
+        xy = 0,1
+        FlatTextureOffset = -7
+        WindowW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_9
+    tile
+    {
+        xy = 1,1
+        FlatTextureOffset = -8
+        WindowN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_10
+    tile
+    {
+        xy = 2,1
+        DoorWallW = 
+        FlatTextureOffset = -9
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_11
+    tile
+    {
+        xy = 3,1
+        DoorWallN = 
+        FlatTextureOffset = -10
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_12
+    tile
+    {
+        xy = 4,1
+        FlatTextureOffset = -9
+        attachedW = 
+        disableFade = 
+        doorFrW = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_13
+    tile
+    {
+        xy = 5,1
+        FlatTextureOffset = -9
+        attachedW = 
+        disableFade = 
+        doorFrW = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_14
+    tile
+    {
+        xy = 6,1
+        FlatTextureOffset = -10
+        attachedN = 
+        disableFade = 
+        doorFrN = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_15
+    tile
+    {
+        xy = 7,1
+        FlatTextureOffset = -10
+        attachedN = 
+        disableFade = 
+        doorFrN = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_16
+    tile
+    {
+        xy = 0,2
+        FlatTextureOffset = -7
+        WindowW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_17
+    tile
+    {
+        xy = 1,2
+        FlatTextureOffset = -7
+        WindowW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_18
+    tile
+    {
+        xy = 2,2
+        FlatTextureOffset = -7
+        WindowW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_19
+    tile
+    {
+        xy = 3,2
+        FlatTextureOffset = -8
+        WindowN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_20
+    tile
+    {
+        xy = 4,2
+        FlatTextureOffset = -8
+        WindowN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_21
+    tile
+    {
+        xy = 5,2
+        FlatTextureOffset = -8
+        WindowN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_22
+    tile
+    {
+        xy = 6,2
+        FlatTextureOffset = -7
+        WindowW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_23
+    tile
+    {
+        xy = 7,2
+        FlatTextureOffset = -8
+        WindowN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_24
+    tile
+    {
+        xy = 0,3
+        FlatTextureOffset = -7
+        WindowW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_25
+    tile
+    {
+        xy = 1,3
+        FlatTextureOffset = -7
+        WindowW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_26
+    tile
+    {
+        xy = 2,3
+        FlatTextureOffset = -7
+        WindowW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_27
+    tile
+    {
+        xy = 3,3
+        FlatTextureOffset = -8
+        WindowN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_28
+    tile
+    {
+        xy = 4,3
+        FlatTextureOffset = -8
+        WindowN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_29
+    tile
+    {
+        xy = 5,3
+        FlatTextureOffset = -8
+        WindowN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_30
+    tile
+    {
+        xy = 6,3
+        WallW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_31
+    tile
+    {
+        xy = 7,3
+        WallW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_32
+    tile
+    {
+        xy = 0,4
+        WallW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_33
+    tile
+    {
+        xy = 1,4
+        WallW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_34
+    tile
+    {
+        xy = 2,4
+        WallW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_35
+    tile
+    {
+        xy = 3,4
+        WallW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_36
+    tile
+    {
+        xy = 4,4
+        WallW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_37
+    tile
+    {
+        xy = 5,4
+        WallW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_38
+    tile
+    {
+        xy = 6,4
+        WallW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_39
+    tile
+    {
+        xy = 7,4
+        WallW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_40
+    tile
+    {
+        xy = 0,5
+        WallW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_41
+    tile
+    {
+        xy = 1,5
+        WallW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_42
+    tile
+    {
+        xy = 2,5
+        WallW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_43
+    tile
+    {
+        xy = 3,5
+        WallW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_44
+    tile
+    {
+        xy = 4,5
+        WallW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_45
+    tile
+    {
+        xy = 5,5
+        WallW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_46
+    tile
+    {
+        xy = 6,5
+        WallW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_47
+    tile
+    {
+        xy = 7,5
+        WallW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_48
+    tile
+    {
+        xy = 0,6
+        WallN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_49
+    tile
+    {
+        xy = 1,6
+        WallN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_50
+    tile
+    {
+        xy = 2,6
+        WallN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_51
+    tile
+    {
+        xy = 3,6
+        WallN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_52
+    tile
+    {
+        xy = 4,6
+        WallN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_53
+    tile
+    {
+        xy = 5,6
+        WallN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_54
+    tile
+    {
+        xy = 6,6
+        WallN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_55
+    tile
+    {
+        xy = 7,6
+        WallN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_56
+    tile
+    {
+        xy = 0,7
+        WallN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_57
+    tile
+    {
+        xy = 1,7
+        WallN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_58
+    tile
+    {
+        xy = 2,7
+        WallN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_59
+    tile
+    {
+        xy = 3,7
+        WallN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_60
+    tile
+    {
+        xy = 4,7
+        WallN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_61
+    tile
+    {
+        xy = 5,7
+        WallN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_62
+    tile
+    {
+        xy = 6,7
+        WallN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_63
+    tile
+    {
+        xy = 7,7
+        WallN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_64
+    tile
+    {
+        xy = 0,8
+        FlatTextureOffset = -9
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_65
+    tile
+    {
+        xy = 1,8
+        FlatTextureOffset = -9
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_66
+    tile
+    {
+        xy = 2,8
+        FlatTextureOffset = -9
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_67
+    tile
+    {
+        xy = 3,8
+        FlatTextureOffset = -10
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_68
+    tile
+    {
+        xy = 4,8
+        FlatTextureOffset = -10
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_69
+    tile
+    {
+        xy = 5,8
+        FlatTextureOffset = -10
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_70
+    tile
+    {
+        xy = 6,8
+        WallN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_71
+    tile
+    {
+        xy = 7,8
+        WallN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_72
+    tile
+    {
+        xy = 0,9
+        FlatTextureOffset = 1
+        WallW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_73
+    tile
+    {
+        xy = 1,9
+        WallN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_74
+    tile
+    {
+        xy = 2,9
+        FlatTextureOffset = -1
+        WallNW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_75
+    tile
+    {
+        xy = 3,9
+        FlatTextureOffset = -2
+        WallSE = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_76
+    tile
+    {
+        xy = 4,9
+        FlatTextureOffset = 1
+        WallW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_77
+    tile
+    {
+        xy = 5,9
+        WallN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_78
+    tile
+    {
+        xy = 6,9
+        FlatTextureOffset = -1
+        WallNW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_79
+    tile
+    {
+        xy = 7,9
+        FlatTextureOffset = -2
+        WallSE = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_80
+    tile
+    {
+        xy = 0,10
+        FlatTextureOffset = 1
+        HoppableW = 
+        WallW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_81
+    tile
+    {
+        xy = 1,10
+        HoppableN = 
+        WallN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_82
+    tile
+    {
+        xy = 2,10
+        FlatTextureOffset = -1
+        HoppableN = 
+        HoppableW = 
+        WallNW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_83
+    tile
+    {
+        xy = 3,10
+        FlatTextureOffset = -2
+        WallSE = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_84
+    tile
+    {
+        xy = 4,10
+        FlatTextureOffset = 1
+        HoppableW = 
+        WallW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_85
+    tile
+    {
+        xy = 5,10
+        HoppableN = 
+        WallN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_86
+    tile
+    {
+        xy = 6,10
+        FlatTextureOffset = -1
+        HoppableN = 
+        HoppableW = 
+        WallNW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_87
+    tile
+    {
+        xy = 7,10
+        FlatTextureOffset = -2
+        WallSE = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_88
+    tile
+    {
+        xy = 0,11
+        FlatTextureOffset = 1
+        HoppableW = 
+        WallW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_89
+    tile
+    {
+        xy = 1,11
+        HoppableN = 
+        WallN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_90
+    tile
+    {
+        xy = 2,11
+        FlatTextureOffset = -1
+        HoppableN = 
+        HoppableW = 
+        WallNW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_91
+    tile
+    {
+        xy = 3,11
+        FlatTextureOffset = -2
+        WallSE = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_92
+    tile
+    {
+        xy = 4,11
+        BlocksPlacement = 
+        CanScrap = 
+        Material = MetalScrap
+        Material2 = MetalWire
+        Material3 = Screws
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_93
+    tile
+    {
+        xy = 5,11
+        BlocksPlacement = 
+        CanScrap = 
+        Material = MetalScrap
+        Material2 = MetalWire
+        Material3 = Screws
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_94
+    tile
+    {
+        xy = 6,11
+        BlocksPlacement = 
+        CanScrap = 
+        Material = MetalScrap
+        Material2 = MetalWire
+        Material3 = Screws
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_95
+    tile
+    {
+        xy = 7,11
+        BlocksPlacement = 
+        CanScrap = 
+        Material = MetalScrap
+        Material2 = MetalWire
+        Material3 = Screws
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_96
+    tile
+    {
+        xy = 0,12
+        WallW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_97
+    tile
+    {
+        xy = 1,12
+        WallW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_98
+    tile
+    {
+        xy = 2,12
+        WallW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_99
+    tile
+    {
+        xy = 3,12
+        WallN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_100
+    tile
+    {
+        xy = 4,12
+        WallN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_101
+    tile
+    {
+        xy = 5,12
+        WallN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_102
+    tile
+    {
+        xy = 6,12
+        BlocksPlacement = 
+        CanScrap = 
+        Material = MetalScrap
+        Material2 = MetalWire
+        Material3 = Screws
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_103
+    tile
+    {
+        xy = 7,12
+        BlocksPlacement = 
+        CanScrap = 
+        Material = MetalScrap
+        Material2 = MetalWire
+        Material3 = Screws
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_104
+    tile
+    {
+        xy = 0,13
+        WallW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_105
+    tile
+    {
+        xy = 1,13
+        WallW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_106
+    tile
+    {
+        xy = 2,13
+        WallW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_107
+    tile
+    {
+        xy = 3,13
+        WallN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_108
+    tile
+    {
+        xy = 4,13
+        WallN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_109
+    tile
+    {
+        xy = 5,13
+        WallN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_110
+    tile
+    {
+        xy = 6,13
+        BlocksPlacement = 
+        CanScrap = 
+        Material = MetalScrap
+        Material2 = MetalWire
+        Material3 = Screws
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_111
+    tile
+    {
+        xy = 7,13
+        BlocksPlacement = 
+        CanScrap = 
+        Material = MetalScrap
+        Material2 = MetalWire
+        Material3 = Screws
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_112
+    tile
+    {
+        xy = 0,14
+        WallW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_113
+    tile
+    {
+        xy = 1,14
+        WallW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_114
+    tile
+    {
+        xy = 2,14
+        WallW = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_115
+    tile
+    {
+        xy = 3,14
+        WallN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_116
+    tile
+    {
+        xy = 4,14
+        WallN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_117
+    tile
+    {
+        xy = 5,14
+        WallN = 
+        wall = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_118
+    tile
+    {
+        xy = 6,14
+        BlocksPlacement = 
+        CanScrap = 
+        Material = MetalScrap
+        Material2 = MetalWire
+        Material3 = Screws
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_119
+    tile
+    {
+        xy = 7,14
+        BlocksPlacement = 
+        CanScrap = 
+        Material = MetalScrap
+        Material2 = MetalWire
+        Material3 = Screws
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_120
+    tile
+    {
+        xy = 0,15
+        BlocksPlacement = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_121
+    tile
+    {
+        xy = 1,15
+        BlocksPlacement = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_122
+    tile
+    {
+        xy = 2,15
+        BlocksPlacement = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_123
+    tile
+    {
+        xy = 3,15
+        BlocksPlacement = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_124
+    tile
+    {
+        xy = 4,15
+        BlocksPlacement = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_125
+    tile
+    {
+        xy = 5,15
+        BlocksPlacement = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_126
+    tile
+    {
+        xy = 6,15
+        BlocksPlacement = 
+    }
+    // recolor_melos_tiles_walls_en_newburbs_add_03_127
+    tile
+    {
+        xy = 7,15
+        BlocksPlacement = 
+    }
+}

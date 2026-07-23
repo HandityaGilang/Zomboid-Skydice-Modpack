@@ -1,0 +1,10 @@
+name=Autotsar Motorclub
+poster=poster.png
+icon=preview.png
+id=amclub
+versionMin=42.0.0
+modversion=2.14
+require=\tsarslib
+loadModAfter=\tsarslib
+description=Autotsar Inc. together with KI5-Production present new vehicles. <LINE> ReUpload for B42.
+url=https://steamcommunity.com/linkfilter/?u=https://discord.gg/theindiestone

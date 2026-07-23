@@ -1,0 +1,489 @@
+module Base
+{
+	model 78lamboCountachBumperFront0
+	{
+		mesh = vehicles/Vehicles_78lamboCountach_Body|lp400_bumper_front,
+		shader = damn_vehicle_shader,
+		scale = 0.1,
+	}
+
+    model 78lamboCountachBumperFront1
+	{
+		mesh = vehicles/Vehicles_78lamboCountach_Body|lp400s_bumper_front,
+		shader = damn_vehicle_shader,
+		scale = 0.1,
+	}
+
+	model 78lamboCountachBumperFrontA
+	{
+		mesh = vehicles/Vehicles_78lamboCountach_Body|lp400_bumper_frontA,
+		shader = damn_vehicle_shader,
+		scale = 0.1,
+	}
+
+    model 78lamboCountachBumperFrontB
+	{
+		mesh = vehicles/Vehicles_78lamboCountach_Body|lp400s_bumper_frontB,
+		shader = damn_vehicle_shader,
+		scale = 0.1,
+	}
+
+	model 78lamboCountachBullbarFrontA
+	{
+		mesh = vehicles/Vehicles_78lamboCountach_Body|lp400_bullbar,
+		shader = damn_vehicle_shader,
+		scale = 0.1,
+	}
+
+    model 78lamboCountachBumperRear
+	{
+		mesh = vehicles/Vehicles_78lamboCountach_Body|lp400s_bumper_rear,
+		shader = damn_vehicle_shader,
+		scale = 0.1,
+	}
+
+    model 78lamboCountachBumperRearAnt
+	{
+		mesh = vehicles/Vehicles_78lamboCountach_Body|lp400s_antenna_one,
+		shader = damn_vehicle_shader,
+		scale = 0.1,
+	}
+
+	template vehicle LP400Bumpers
+		{
+		part DAMNBumperFront
+        	{
+
+			model BumperFront0
+				{
+                		file = 78lamboCountachBumperFront0,
+				}
+
+            model BumperFront1
+				{
+                		file = 78lamboCountachBumperFront1,
+				}
+
+			model BumperFrontA
+				{
+                		file = 78lamboCountachBumperFrontA,
+				}
+
+            model BumperFrontB
+				{
+                		file = 78lamboCountachBumperFrontB,
+				}
+
+			model BullbarFrontA
+				{
+                		file = 78lamboCountachBullbarFrontA,
+				}
+
+				area = Front,
+				category = bodywork,
+				specificItem = false,
+				itemType = Base.78lamboCountachBumperFront;Base.78lamboCountachSBumperFront;Base.78lamboCountachBumperFrontA;Base.78lamboCountachSBumperFrontB;Base.78lamboCountachBullbarA,
+				mechanicRequireKey = false,
+
+				table install
+				{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Wrench,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 450,
+                	skills = Mechanics:3,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = LP400.InstallComplete.BumperFront,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Wrench,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 500,
+					skills = Mechanics:3,
+					recipes = Intermediate Mechanics,
+                	test = Vehicles.UninstallTest.Default,
+					complete = LP400.UninstallComplete.BumperFront,
+            		}
+
+            		lua
+            		{
+					create = LP400.Create.BumperFront,
+					init = LP400.Init.BumperFront,
+					}
+			}
+
+            part DAMNBumperRear
+        	{
+
+			model BumperRear0
+				{
+                		file = 78lamboCountachBumperRear,
+				}
+
+				area = Engine,
+				category = bodywork,
+				specificItem = false,
+				itemType = Base.78lamboCountachSBumperRear,
+				mechanicRequireKey = false,
+
+				table install
+				{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Wrench,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 450,
+                	skills = Mechanics:3,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = Vehicles.InstallComplete.Default,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Wrench,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 500,
+					skills = Mechanics:3,
+					recipes = Intermediate Mechanics,
+                	test = Vehicles.UninstallTest.Default,
+					complete = Vehicles.UninstallComplete.Default,
+            		}
+
+            		lua
+            		{
+					create = DAMN.Create.Blank,
+					}
+		}
+	}
+
+    template vehicle LP400BumpersS
+		{
+		part DAMNBumperFront
+        	{
+
+			model BumperFront0
+				{
+                		file = 78lamboCountachBumperFront0,
+				}
+
+            model BumperFront1
+				{
+                		file = 78lamboCountachBumperFront1,
+				}
+
+			model BumperFrontA
+				{
+                		file = 78lamboCountachBumperFrontA,
+				}
+
+            model BumperFrontB
+				{
+                		file = 78lamboCountachBumperFrontB,
+				}
+
+			model BullbarFrontA
+				{
+                		file = 78lamboCountachBullbarFrontA,
+				}
+
+				area = Front,
+				category = bodywork,
+				specificItem = false,
+				itemType = Base.78lamboCountachBumperFront;Base.78lamboCountachSBumperFront;Base.78lamboCountachBumperFrontA;Base.78lamboCountachSBumperFrontB;Base.78lamboCountachBullbarA,
+				mechanicRequireKey = false,
+
+				table install
+				{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Wrench,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 450,
+                	skills = Mechanics:3,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = LP400.InstallComplete.BumperFrontS,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Wrench,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 500,
+					skills = Mechanics:3,
+					recipes = Intermediate Mechanics,
+                	test = Vehicles.UninstallTest.Default,
+					complete = LP400.UninstallComplete.BumperFrontS,
+            		}
+
+            		lua
+            		{
+					create = LP400.Create.BumperFrontS,
+					init = LP400.Init.BumperFrontS,
+					}
+			}
+
+            part DAMNBumperRear
+        	{
+
+			model BumperRear0
+				{
+                		file = 78lamboCountachBumperRear,
+				}
+
+				area = Engine,
+				category = bodywork,
+				specificItem = false,
+				itemType = Base.78lamboCountachSBumperRear,
+				mechanicRequireKey = false,
+
+				table install
+				{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Wrench,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 450,
+                	skills = Mechanics:3,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = LP400.InstallComplete.BumperRear,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Wrench,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 500,
+					skills = Mechanics:3,
+					recipes = Intermediate Mechanics,
+                	test = Vehicles.UninstallTest.Default,
+					complete = LP400.UninstallComplete.BumperRear,
+            		}
+
+            		lua
+            		{
+					create = LP400.Create.BumperRear,
+                    init = LP400.Init.BumperRear,
+					}
+		}
+	}
+
+    template vehicle LP400BumpersCB
+		{
+		part DAMNBumperFront
+        	{
+
+			model BumperFront0
+				{
+                		file = 78lamboCountachBumperFront0,
+				}
+
+            model BumperFront1
+				{
+                		file = 78lamboCountachBumperFront1,
+				}
+
+			model BumperFrontA
+				{
+                		file = 78lamboCountachBumperFrontA,
+				}
+
+            model BumperFrontB
+				{
+                		file = 78lamboCountachBumperFrontB,
+				}
+
+			model BullbarFrontA
+				{
+                		file = 78lamboCountachBullbarFrontA,
+				}
+
+				area = Front,
+				category = bodywork,
+				specificItem = false,
+				itemType = Base.78lamboCountachBumperFront;Base.78lamboCountachSBumperFront;Base.78lamboCountachBumperFrontA;Base.78lamboCountachSBumperFrontB;Base.78lamboCountachBullbarA,
+				mechanicRequireKey = false,
+
+				table install
+				{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Wrench,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 450,
+                	skills = Mechanics:3,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = LP400.InstallComplete.BumperFrontS,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Wrench,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 500,
+					skills = Mechanics:3,
+					recipes = Intermediate Mechanics,
+                	test = Vehicles.UninstallTest.Default,
+					complete = LP400.UninstallComplete.BumperFrontS,
+            		}
+
+            		lua
+            		{
+					create = LP400.Create.BumperFrontS,
+					init = LP400.Init.BumperFrontS,
+					}
+			}
+
+            part DAMNBumperRear
+        	{
+
+			model BumperRear0
+				{
+                		file = 78lamboCountachBumperRear,
+				}
+
+            model BumperRearA
+                {
+                    file = 78lamboCountachBumperRearAnt,
+                }
+
+				area = Engine,
+				category = bodywork,
+				specificItem = false,
+				itemType = Base.78lamboCountachSBumperRear,
+				mechanicRequireKey = false,
+
+				table install
+				{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Wrench,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 450,
+                	skills = Mechanics:3,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = Vehicles.InstallComplete.Default,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Wrench,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 500,
+					skills = Mechanics:3,
+					recipes = Intermediate Mechanics,
+                	test = Vehicles.UninstallTest.Default,
+					complete = Vehicles.UninstallComplete.Default,
+            		}
+
+            		lua
+            		{
+					create = Vehicles.Create.Default,
+					}
+		}
+	}
+}

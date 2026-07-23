@@ -1,0 +1,54 @@
+module Base
+{
+		item LargeFuton
+	{		 
+	        DisplayCategory = Furniture,
+		Weight	=	16,
+		Type	=	Moveable,
+		DisplayName	=	Large Futon,
+		Icon	=	Mattress,
+		WorldObjectSprite	= fixtures_asianfurniture_01_20,
+	}
+	 	item Futon
+	{
+	        DisplayCategory = Furniture,
+		Weight	=	8,
+		Type	=	Moveable,
+		DisplayName	=	Futon,
+		Icon	=	Mattress,
+		WorldObjectSprite	= fixtures_asianfurniture_01_10,
+		/*WorldStaticObject = Mattress,*/
+	}
+
+		 item SmallAsianTable
+	{
+	        DisplayCategory = Furniture,
+		Weight	=	3,
+		Type	=	Moveable,
+		DisplayName	=	Asian Low Table,
+		Icon	=	default,
+		WorldObjectSprite	= fixtures_asianfurniture_01_0,
+
+	}
+ 		item LargeAsianTable
+	{
+	        DisplayCategory = Furniture,
+		Weight	=	6,
+		Type	=	Moveable,
+		DisplayName	=	Large Asian Low Table,
+		Icon	=	default,
+		WorldObjectSprite	= fixtures_asianfurniture_01_3,
+
+	}
+		item Kotatsu
+	{
+	        DisplayCategory = Furniture,
+		Weight	=	6,
+		Type	=	Moveable,
+		DisplayName	=	Kotatsu (Fireplace),
+		Icon	=	default,
+		WorldObjectSprite	= fixtures_asianfurniture_01_5,
+
+	}
+
+}

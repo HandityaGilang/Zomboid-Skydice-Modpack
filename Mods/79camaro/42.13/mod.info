@@ -1,0 +1,9 @@
+name='79 Chevrolet Camaro
+id=79camaro
+require=\damnlib
+poster=preview.png
+icon=icon.png
+description=This mod adds Chevrolet Camaro from 1979
+author=KI5
+category=vehicle
+versionMin=42.13.0

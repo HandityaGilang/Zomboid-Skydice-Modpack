@@ -1,0 +1,6 @@
+Recipes_RU = {
+
+	Recipe_Craft_Bonsai_Tree = "Посадить бонсай",
+	Recipe_Craft_Large_Futon = "Сделать 2хместный футон",
+		
+}

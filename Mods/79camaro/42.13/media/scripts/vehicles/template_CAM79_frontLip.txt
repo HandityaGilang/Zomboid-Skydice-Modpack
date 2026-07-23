@@ -1,0 +1,85 @@
+module Base
+{
+	model 79camaroLipFrontA
+	{
+		mesh = vehicles/Vehicles_79camaro_Body|79camaro_lip,
+		shader = damn_vehicle_shader,
+		scale = 0.1,
+	}
+
+	template vehicle CAM79FrontLip
+		{
+		part CAM79LipFront
+        	{
+
+			model LipFrontA
+				{
+                		file = 79camaroLipFrontA,
+				}
+
+				area = Engine,
+				category = bodywork,
+				itemType = Base.79camaroZ28Lip,
+				mechanicRequireKey = false,
+                durability = 5,
+
+				table install
+				{
+                	items
+                	{
+                    	1
+                    		{
+                        	tags = Wrench,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 450,
+                	skills = Mechanics:3,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = Vehicles.InstallComplete.Default,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				tags = Wrench,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 500,
+					skills = Mechanics:3,
+					recipes = Intermediate Mechanics,
+                	test = Vehicles.UninstallTest.Default,
+					complete = Vehicles.UninstallComplete.Default,
+            		}
+
+            		lua
+            		{
+					create = Vehicles.Create.Default,
+					}
+			}
+	}
+
+    template vehicle CAM79FrontLipOFF
+		{
+            template! = CAM79FrontLip,
+
+		part CAM79LipFront
+        	{
+            		lua
+            		{
+					create = DAMN.Create.Blank,
+					}
+			}
+	}
+}

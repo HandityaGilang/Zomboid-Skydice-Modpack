@@ -1,0 +1,10 @@
+Tooltip_EN = {
+ Tooltip_Tatami = "Tatami flooring",
+Tooltip_BuildingMenuObj_Narrow_Plank = "Narrow Planks",
+Tooltip_Wall = "Wall",
+Tooltip_RoofWall = "Roof Wall",
+Tooltip_Kotatsu = "Kotatsu",
+Tooltip_Futon = "Futon",
+Tooltip_LowAsianTable = "Low Table",
+Tooltip_Podium = "Podium"
+}

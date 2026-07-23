@@ -1,0 +1,73 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Asian_JClassic_Sliding
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= ASEntityName_Asian_JClassic_Sliding,
+			Icon		= Build_Classic_JWindow,
+		}
+	}
+
+    entity Asian_JClassic_Sliding
+    {
+        component UiConfig
+        {
+            xuiSkin = default,
+            entityStyle = ES_Asian_JClassic_Sliding,
+            uiEnabled = false,
+        }
+        component SpriteConfig
+        {
+            skillBaseHealth = 300,
+            dontNeedFrame = true,
+            BreakSound = BreakDoor,
+            face W
+            {
+                layer
+                {
+                    row = fixtures_asiandoors_01_4,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = fixtures_asiandoors_01_5,
+                }
+            }
+            face W_OPEN
+            {
+                layer
+                {
+                    row = fixtures_asiandoors_01_6,
+                }
+            }
+            face N_OPEN
+            {
+                layer
+                {
+                    row = fixtures_asiandoors_01_7,
+                }
+            }
+        }
+        component CraftRecipe
+        {	OnAddToMenu   = ignoreFromBuildMenu,
+            timedAction   = BuildWallHammer,
+            time          = 200,
+            category      = Asian,
+			SkillRequired = Woodwork:5,
+            xpAward       = Woodwork:50,
+            Tooltip = Tooltip_craft_wireFenceGateSmallDesc,
+            inputs
+            {
+				item 1 tags[base:hammer] mode:keep flags[Prop1;MayDegradeVeryLight],
+				item 2 tags[base:wallpaper],
+				item 4 [Base.Plank],
+                item 4 [Base.Nails],
+
+            }
+        }
+    }
+}

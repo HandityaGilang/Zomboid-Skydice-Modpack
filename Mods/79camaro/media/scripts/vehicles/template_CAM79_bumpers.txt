@@ -1,0 +1,227 @@
+module Base
+{
+	model 79camaroBumperFront0
+	{
+		mesh = vehicles/Vehicles_79camaro_Body|79camaro_bumper_front0,
+		shader = damn_vehicle_shader,
+		scale = 0.1,
+	}
+
+	model 79camaroBumperFrontA
+	{
+		mesh = vehicles/Vehicles_79camaro_Body|79camaro_bumper_frontA,
+		shader = damn_vehicle_shader,
+		scale = 0.1,
+	}
+
+    model 79camaroBumperFront1
+	{
+		mesh = vehicles/Vehicles_79camaro_Body|79camaro_bumper_front1,
+		shader = damn_vehicle_shader,
+		scale = 0.1,
+        static = FALSE,
+	}
+
+	model 79camaroBumperRear0
+	{
+		mesh = vehicles/Vehicles_79camaro_Body|79camaro_bumper_rear,
+		shader = damn_vehicle_shader,
+		scale = 0.1,
+	}
+
+	template vehicle CAM79Bumpers
+		{
+		part DAMNBumperFront
+        	{
+
+			model BumperFront0
+				{
+                		file = 79camaroBumperFront0,
+				}
+
+            model BumperFrontA
+				{
+                		file = 79camaroBumperFrontA,
+				}
+
+			model BullbarFrontA
+				{
+                		file = 79camaroBumperFront1,
+				}
+
+				area = Engine,
+				category = bodywork,
+				specificItem = false,
+				itemType = Base.79camaroBumperFront0;Base.79camaroBumperFrontA;Base.79camaroGhostBumperFrontB,
+				mechanicRequireKey = false,
+
+                door
+			{
+				}
+
+				anim Close
+				{
+					anim = plow_opening,
+					reverse = TRUE,
+					rate = 0.35,
+                    sound = ,
+				}
+
+				anim Open
+				{
+					anim = plow_opening,
+					
+					rate = 0.35,
+                    sound = ,
+				}
+
+				anim Closed
+				{
+					anim = plow_opening,
+					
+					animate = FALSE,
+				}
+
+				anim Opened
+				{
+					anim = plow_opening,
+					reverse = TRUE,
+					animate = FALSE,
+				}
+
+				table install
+				{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Wrench,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 450,
+                	skills = Mechanics:3,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = CAM79.InstallComplete.BumperFront,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Wrench,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 500,
+					skills = Mechanics:3,
+					recipes = Intermediate Mechanics,
+                	test = DAMN.UninstallTest.Default,
+					complete = CAM79.UninstallComplete.BumperFront,
+                    requireUninstalled = HeadlightLeft;HeadlightRight,
+            		}
+
+            		lua
+            		{
+					create = CAM79.Create.BumperFront,
+					init = CAM79.Init.BumperFront,
+                    update = Vehicles.Update.EngineDoor,
+					}
+			}
+
+
+		part DAMNBumperRear
+        	{
+
+			model BumperRear0
+				{
+                		file = 79camaroBumperRear0,
+				}
+
+				area = TruckBed,
+				category = bodywork,
+				specificItem = false,
+				itemType = Base.79camaroBumperRear,
+				mechanicRequireKey = false,
+
+				table install
+				{
+                	items
+                	{
+                    	1
+                    		{
+                        	type = Base.Wrench,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 450,
+                	skills = Mechanics:3,
+                	recipes = Intermediate Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = CAM79.InstallComplete.BumperRear,
+            		}
+
+            		table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				type = Base.Wrench,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 500,
+					skills = Mechanics:3,
+					recipes = Intermediate Mechanics,
+                	test = Vehicles.UninstallTest.Default,
+					complete = CAM79.UninstallComplete.BumperRear,
+            		}
+
+            		lua
+            		{
+					create = CAM79.Create.BumperRear,
+					init = CAM79.Init.BumperRear,
+					}
+		}
+	}
+
+    template vehicle CAM79BumpersGhost
+		{
+        template! = CAM79Bumpers,
+
+		part DAMNBumperFront
+        	{
+				table install
+				{
+                	complete = CAM79.InstallComplete.BumperFrontGhost,
+            	}
+
+            	table uninstall
+            	{
+					complete = CAM79.UninstallComplete.BumperFrontGhost,
+            	}
+
+            	lua
+            	{
+					create = CAM79.Create.BumperFrontGhost,
+					init = CAM79.Init.BumperFrontGhost,
+				}
+			}
+	}
+}

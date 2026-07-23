@@ -1,0 +1,6 @@
+name=Asian Style Tiles Only
+poster=poster.png
+id=AsianStyleTilesOnly
+description=Tiles used in my 'Asian Style Builds' mod. Use this if you do not need building options.
+tiledef=asianstyletiledef 669
+pack=asianstyle

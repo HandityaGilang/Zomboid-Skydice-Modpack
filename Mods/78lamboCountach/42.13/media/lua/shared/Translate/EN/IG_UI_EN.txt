@@ -1,0 +1,13 @@
+IG_UI_EN = {
+	IGUI_VehicleName78lamboCountachLP400 = "'78 Lamborghini Countach LP400",
+	IGUI_VehicleName78lamboCountachLP400S = "'78 Lamborghini Countach LP400S",
+    IGUI_VehicleName78lamboCountachLP400Scb = "'79 Lamborghini Countach LP400S",
+
+	IGUI_VehiclePartLP400Trunk = "Trunk Storage",
+    IGUI_VehiclePartLP400TrunkFront = "Front Storage",
+	IGUI_VehiclePartLP400Roofrack = "Roofrack Storage",
+    IGUI_VehiclePartLP400HoodVent = "Hood Vent",
+    IGUI_VehiclePartLP400TrunkDoorFront = "Front Trunk Door",
+    IGUI_VehiclePartLP400SpoilerFront = "Front Spoiler",
+    IGUI_VehiclePartLP400PopupLights = "Popup Lights",
+}

@@ -1,0 +1,66 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Asian_Classic_JWindow
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= AS_EntityName_Classic_JWindow,
+			Icon		= Build_Classic_JWindow,
+		}
+	}
+
+    entity Asian_Classic_JWindow
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Asian_Classic_JWindow,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+			LogicClass      = WoodenWall,
+			health          = 800,
+			skillBaseHealth = 70,
+            OnCreate = NB_BuildRecipeCode.WindowWall.OnCreate,
+			breakSound      = ZombieThumpWoodCollapse,
+
+            face W
+            {
+                layer
+                {
+                    row = fixtures_asianwalls_01_0,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = fixtures_asianwalls_01_1,
+                }
+            }
+			
+            corner = fixtures_asianwalls_01_3,
+        }
+		
+        component CraftRecipe
+        {
+
+            timedAction   = BuildWallHammer,
+            time          = 200,
+            category      = Asian,
+			SkillRequired = Woodwork:5,
+            xpAward       = Woodwork:50,
+            ToolTip       = Tooltip_craft_NeedsWallframeDesc,
+            inputs
+            {
+                item 1 tags[base:hammer] mode:keep flags[Prop1;MayDegradeVeryLight],
+				item 2 tags[base:wallpaper],
+				item 4 [Base.Plank],
+                item 4 [Base.Nails],
+            }
+        }
+    }
+}

@@ -1,0 +1,55 @@
+module Base
+{
+	model 78lamboCountachWipers
+	{
+		mesh = vehicles/Vehicles_78lamboCountach_Body|lp400_wipers,
+		texture = vehicles/Vehicles_78lamboCountach_Interior,
+		shader = damn_wheel_shader,
+		scale = 0.1,
+	}
+
+	template vehicle LP400Wipers
+	{
+		part DAMNWipers
+        	{
+        	model Wipers0
+			{
+				file = 78lamboCountachWipers,
+			}
+
+			category = bodywork,
+			area = Front,
+			specificItem = false,
+			itemType = Base.78lamboCountachWipers3,
+			mechanicRequireKey = false,
+            durability = 2,
+
+			table install
+			{
+
+                	time = 150,
+                	skills = Mechanics:1,
+                	recipes = Basic Mechanics,
+                	test = Vehicles.InstallTest.Default,
+                	complete = Vehicles.InstallComplete.Default,
+                    requireUninstalled = DAMNWindshieldArmor,
+            		}
+
+            		table uninstall
+            		{
+
+					time = 200,
+					skills = Mechanics:1,
+					recipes = Basic Mechanics,
+	            	test = Vehicles.UninstallTest.Default,
+	            	complete = Vehicles.UninstallComplete.Default,
+
+            		}
+
+	            lua
+	            {
+				create = Vehicles.Create.Default,
+				}
+		}
+	}
+}

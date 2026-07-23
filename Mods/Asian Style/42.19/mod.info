@@ -1,0 +1,9 @@
+name=Asian Style Builds [B42]
+poster=poster.png
+id=AsianStyle
+description=Build some Asian ispired walls and furniture.
+tiledef=asianstyletiledef 669
+author=Birget
+pack=asianstyle
+versionMin=42.19
+require=\Neat_Building

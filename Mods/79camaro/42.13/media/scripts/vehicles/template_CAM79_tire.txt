@@ -1,0 +1,352 @@
+module Base
+{
+
+	model 79camaroWheelL
+	{
+		mesh = vehicles/Vehicles_79camaro_Wheels|79camaro_tire1,
+		texture = vehicles/Vehicles_79camaro_Wheel,
+		shader = damn_wheel_shader,
+		scale = 0.1,
+	}
+
+    model 79camaroWheelR
+	{
+		mesh = vehicles/Vehicles_79camaro_Wheels|79camaro_tire1,
+		texture = vehicles/Vehicles_79camaro_Wheel,
+		shader = damn_wheel_shader,
+		scale = 0.1,
+        invertX = TRUE,
+	}
+
+    model 79camaroGhostWheelL
+	{
+		mesh = vehicles/Vehicles_79camaro_Wheels|79camaro_tire1,
+		texture = vehicles/Vehicles_79camaroGhost_Wheel,
+		shader = damn_wheel_shader,
+		scale = 0.1,
+	}
+
+    model 79camaroGhostWheelR
+	{
+		mesh = vehicles/Vehicles_79camaro_Wheels|79camaro_tire1,
+		texture = vehicles/Vehicles_79camaroGhost_Wheel,
+		shader = damn_wheel_shader,
+		scale = 0.1,
+        invertX = TRUE,
+	}
+
+    model 79camaroWheelUNIL
+	{
+		mesh = vehicles/Vehicles_damnBasic_tires|damn_stock_tire0,
+		texture = vehicles/Vehicles_damnBasic_Wheel1,
+		shader = damn_wheel_shader,
+		scale = 0.1,
+	}
+    model 79camaroWheelUNIR
+	{
+		mesh = vehicles/Vehicles_damnBasic_tires|damn_stock_tire0,
+		texture = vehicles/Vehicles_damnBasic_Wheel1,
+		shader = damn_wheel_shader,
+		scale = 0.1,
+        invertX = TRUE,
+	}
+
+	template vehicle CAM79Tires
+	{
+		part TireFrontLeft
+		{
+            model Tire1
+			{
+				file = 79camaroWheelL,
+			}
+
+			model Tire2
+			{
+				file = 79camaroGhostWheelL,
+			}
+
+            model Tire3
+			{
+				file = 79camaroWheelUNIL,
+			}
+
+			area = TireFrontLeft,
+			wheel = FrontLeft,
+			table install
+			{
+				complete = CAM79.InstallComplete.TireFrontLeft,
+				requireInstalled = BrakeFrontLeft;SuspensionFrontLeft,
+			}
+			table uninstall
+			{
+				complete = CAM79.UninstallComplete.TireFrontLeft,
+			}
+
+			lua
+			{
+				create = CAM79.Create.TireFrontLeft,
+				init = CAM79.Init.TireFrontLeft,
+				checkOperate = Vehicles.CheckOperate.Tire,
+				update = Vehicles.Update.Tire,
+			}
+
+		}
+
+		part TireFrontRight
+		{
+            model Tire1
+			{
+				file = 79camaroWheelR,
+			}
+
+			model Tire2
+			{
+				file = 79camaroGhostWheelR,
+			}
+
+            model Tire3
+			{
+				file = 79camaroWheelUNIR,
+			}
+
+			area = TireFrontRight,
+			wheel = FrontRight,
+			table install
+			{
+				complete = CAM79.InstallComplete.TireFrontRight,
+				requireInstalled = BrakeFrontRight;SuspensionFrontRight,
+			}
+			table uninstall
+			{
+				complete = CAM79.UninstallComplete.TireFrontRight,
+			}
+
+			lua
+			{
+				create = CAM79.Create.TireFrontRight,
+				init = CAM79.Init.TireFrontRight,
+				checkOperate = Vehicles.CheckOperate.Tire,
+				update = Vehicles.Update.Tire,
+			}
+		}
+
+		part TireRearLeft
+		{
+            model Tire1
+			{
+				file = 79camaroWheelL,
+			}
+
+			model Tire2
+			{
+				file = 79camaroGhostWheelL,
+			}
+
+            model Tire3
+			{
+				file = 79camaroWheelUNIL,
+			}
+
+			area = TireRearLeft,
+			wheel = RearLeft,
+			table install
+			{
+				complete = CAM79.InstallComplete.TireRearLeft,
+				requireInstalled = BrakeRearLeft;SuspensionRearLeft,
+			}
+            table uninstall
+			{
+				complete = CAM79.UninstallComplete.TireRearLeft,
+			}
+
+			lua
+			{
+				create = CAM79.Create.TireRearLeft,
+				init = CAM79.Init.TireRearLeft,
+				checkOperate = Vehicles.CheckOperate.Tire,
+				update = Vehicles.Update.Tire,
+			}
+		}
+
+		part TireRearRight
+		{
+            model Tire1
+			{
+				file = 79camaroWheelR,
+			}
+
+			model Tire2
+			{
+				file = 79camaroGhostWheelR,
+			}
+
+            model Tire3
+			{
+				file = 79camaroWheelUNIR,
+			}
+
+			area = TireRearRight,
+			wheel = RearRight,
+			table install
+			{
+				complete = CAM79.InstallComplete.TireRearRight,
+				requireInstalled = BrakeRearRight;SuspensionRearRight,
+			}
+			table uninstall
+			{
+				complete = CAM79.UninstallComplete.TireRearRight,
+			}
+
+			lua
+			{
+				create = CAM79.Create.TireRearRight,
+				init = CAM79.Init.TireRearRight,
+				checkOperate = Vehicles.CheckOperate.Tire,
+				update = Vehicles.Update.Tire,
+			}
+		}
+
+		part Tire*
+		{
+			category = tire,
+			specificItem = false,
+			itemType = Base.79camaroTire3;Base.79camaroGhostTire3;damnCraft.SmallTire1,
+			container
+			{
+				capacity = 35,
+				test = Vehicles.ContainerAccess.Tire,
+				contentType = Air,
+			}
+			table install
+			{
+				items
+				{
+					1
+					{
+						type = Base.Jack,
+						count = 1,
+						keep = true,
+					}
+					2
+					{
+						tags = LugWrench,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 400,
+				skills = Mechanics:1,
+				test = Vehicles.InstallTest.Default,
+			}
+			table uninstall
+			{
+				items
+				{
+					1
+					{
+						type = Base.Jack,
+						count = 1,
+						keep = true,
+					}
+					2
+					{
+						tags = LugWrench,
+						count = 1,
+						keep = true,
+						equip = primary,
+					}
+				}
+				time = 400,
+				skills = Mechanics:1,
+				test = Vehicles.UninstallTest.Default,
+			}
+		}
+	}
+
+    template vehicle CAM79TiresGhost
+	{
+        template! = CAM79Tires,
+
+		part TireFrontLeft
+		{
+			table install
+			{
+				complete = CAM79.InstallComplete.TireFrontLeftGhost,
+			}
+			table uninstall
+			{
+				complete = CAM79.UninstallComplete.TireFrontLeftGhost,
+			}
+
+			lua
+			{
+				create = CAM79.Create.TireFrontLeftGhost,
+				init = CAM79.Init.TireFrontLeftGhost,
+				checkOperate = Vehicles.CheckOperate.Tire,
+				update = Vehicles.Update.Tire,
+			}
+
+		}
+
+		part TireFrontRight
+		{
+			table install
+			{
+				complete = CAM79.InstallComplete.TireFrontRightGhost,
+			}
+			table uninstall
+			{
+				complete = CAM79.UninstallComplete.TireFrontRightGhost,
+			}
+
+			lua
+			{
+				create = CAM79.Create.TireFrontRightGhost,
+				init = CAM79.Init.TireFrontRightGhost,
+				checkOperate = Vehicles.CheckOperate.Tire,
+				update = Vehicles.Update.Tire,
+			}
+		}
+
+		part TireRearLeft
+		{
+			table install
+			{
+				complete = CAM79.InstallComplete.TireRearLeftGhost,
+			}
+            table uninstall
+			{
+				complete = CAM79.UninstallComplete.TireRearLeftGhost,
+			}
+
+			lua
+			{
+				create = CAM79.Create.TireRearLeftGhost,
+				init = CAM79.Init.TireRearLeftGhost,
+				checkOperate = Vehicles.CheckOperate.Tire,
+				update = Vehicles.Update.Tire,
+			}
+		}
+
+		part TireRearRight
+		{
+			table install
+			{
+				complete = CAM79.InstallComplete.TireRearRightGhost,
+			}
+			table uninstall
+			{
+				complete = CAM79.UninstallComplete.TireRearRightGhost,
+			}
+
+			lua
+			{
+				create = CAM79.Create.TireRearRightGhost,
+				init = CAM79.Init.TireRearRightGhost,
+				checkOperate = Vehicles.CheckOperate.Tire,
+				update = Vehicles.Update.Tire,
+			}
+		}
+	}
+}

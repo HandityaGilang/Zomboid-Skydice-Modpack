@@ -1,0 +1,300 @@
+module Base
+{
+    model 78lamboCountachspoiler0
+	{
+		mesh = vehicles/Vehicles_78lamboCountach_Body|lp400s_spoiler_rear0,
+		shader = damn_vehicle_shader,
+        static = FALSE,
+		scale = 0.1,
+	}
+	
+	model 78lamboCountachbspoiler1
+	{
+		mesh = vehicles/Vehicles_78lamboCountach_Body|lp400s_spoiler_rear1,
+		shader = damn_vehicle_shader,
+        static = FALSE,
+		scale = 0.1,
+	}
+
+    model 78lamboCountachbspoilerF
+	{
+		mesh = vehicles/Vehicles_78lamboCountach_Body|lp400s_spoiler_front,
+		shader = damn_vehicle_shader,
+        static = FALSE,
+		scale = 0.1,
+	}
+
+	template vehicle LP400SpoilerS
+		{
+		part DAMNSpoiler
+       		{
+
+            model Spoiler0
+			{
+                	file = 78lamboCountachspoiler0,
+			}
+
+            model Spoiler1
+			{
+                	file = 78lamboCountachbspoiler1,
+			}
+
+            category = bodywork,
+            area = TruckBed,
+            parent = TrunkDoor,
+            durability = 2,
+            specificItem = false,
+            itemType = Base.78lamboCountachRearSpoiler3;Base.78lamboCountachRearSpoilerTwo3,
+            mechanicRequireKey = false,
+
+            table install
+            {
+                items
+                {
+                    item
+                    {
+                        tags = Wrench,
+                        count = 1,
+                        keep = true,
+                        equip = primary,
+                    }
+                }
+                time = 1000,
+                skills = Mechanics:4,
+                recipes = Advanced Mechanics,
+                requireInstalled = TrunkDoor,
+                test = Vehicles.InstallTest.Default,
+                complete = LP400.InstallComplete.SpoilerS,
+                
+            }
+            table uninstall
+            {
+                items
+                {
+                    item
+                    {
+                        tags = Wrench,
+                        count = 1,
+                        keep = true,
+                        equip = primary,
+                    }
+                }
+                time = 1000,
+                skills = Mechanics:4,
+                recipes = Advanced Mechanics,
+                test = Vehicles.UninstallTest.Default,
+                complete = LP400.UninstallComplete.SpoilerS,
+            }
+            lua
+            {
+                create = LP400.Create.SpoilerS,
+                init = LP400.Init.SpoilerS,
+            }
+        }
+	}
+
+    template vehicle LP400Spoiler
+	{
+        template! = LP400SpoilerS,
+
+		part DAMNSpoiler
+       		{
+
+            table install
+            {
+                complete = LP400.InstallComplete.Spoiler,
+                
+            }
+            table uninstall
+            {
+                complete = LP400.UninstallComplete.Spoiler,
+            }
+            lua
+            {
+                create = LP400.Create.Spoiler,
+                init = LP400.Init.Spoiler,
+            }
+        }
+	}
+
+    template vehicle LP400SpoilerC
+	{
+        part DAMNSpoiler
+       		{
+
+            model Spoiler0
+			{
+                	file = 78lamboCountachspoiler0,
+			}
+
+            model Spoiler1
+			{
+                	file = 78lamboCountachbspoiler1,
+			}
+
+            category = bodywork,
+            area = TruckBed,
+            parent = TrunkDoor,
+            durability = 2,
+            specificItem = false,
+            itemType = Base.78lamboCountachRearSpoiler3;Base.78lamboCountachRearSpoilerTwo3,
+            mechanicRequireKey = false,
+
+            table install
+            {
+                items
+                {
+                    item
+                    {
+                        tags = Wrench,
+                        count = 1,
+                        keep = true,
+                        equip = primary,
+                    }
+                }
+                time = 1000,
+                skills = Mechanics:4,
+                recipes = Advanced Mechanics,
+                requireInstalled = TrunkDoor,
+                test = Vehicles.InstallTest.Default,
+                complete = LP400.InstallComplete.SpoilerC,
+                
+            }
+            table uninstall
+            {
+                items
+                {
+                    item
+                    {
+                        tags = Wrench,
+                        count = 1,
+                        keep = true,
+                        equip = primary,
+                    }
+                }
+                time = 1000,
+                skills = Mechanics:4,
+                recipes = Advanced Mechanics,
+                test = Vehicles.UninstallTest.Default,
+                complete = LP400.UninstallComplete.SpoilerC,
+            }
+            lua
+            {
+                create = LP400.Create.SpoilerC,
+                init = LP400.Init.SpoilerC,
+            }
+        }
+	}
+
+    template vehicle LP400SpoilerFrontS
+		{
+		part LP400SpoilerFront
+       		{
+
+            model Spoilerf
+			{
+                	file = 78lamboCountachbspoilerF,
+			}
+
+            category = bodywork,
+            area = Front,
+            parent = LP400TrunkDoorFront,
+            durability = 2,
+            specificItem = false,
+            itemType = Base.78lamboCountachFrontSpoiler3,
+            mechanicRequireKey = false,
+
+            table install
+            {
+                items
+                {
+                    item
+                    {
+                        tags = Wrench,
+                        count = 1,
+                        keep = true,
+                        equip = primary,
+                    }
+                }
+                time = 1000,
+                skills = Mechanics:4,
+                recipes = Advanced Mechanics,
+                requireInstalled = TrunkDoor,
+                test = Vehicles.InstallTest.Default,
+                complete = LP400.InstallComplete.SpoilerF,
+                requireInstalled = LP400TrunkDoorFront,
+                
+            }
+            table uninstall
+            {
+                items
+                {
+                    item
+                    {
+                        tags = Wrench,
+                        count = 1,
+                        keep = true,
+                        equip = primary,
+                    }
+                }
+                time = 1000,
+                skills = Mechanics:4,
+                recipes = Advanced Mechanics,
+                test = Vehicles.UninstallTest.Default,
+                complete = LP400.UninstallComplete.SpoilerF,
+            }
+            lua
+            {
+                create = LP400.Create.SpoilerF,
+                init = LP400.Init.SpoilerF,
+            }
+        }
+	}
+
+    template vehicle LP400SpoilerFrontOFF
+		{
+            template! = LP400SpoilerFrontS,
+
+		part LP400SpoilerFront
+       		{
+
+            table install
+            {
+                complete = Vehicles.InstallComplete.Default,
+                
+            }
+            table uninstall
+            {
+                complete = Vehicles.UninstallComplete.Default,
+            }
+            lua
+            {
+                create = DAMN.Create.Blank,
+            }
+        }
+	}
+
+    template vehicle LP400SpoilerFrontC
+		{
+            template! = LP400SpoilerFrontS,
+
+		part LP400SpoilerFront
+       		{
+
+            table install
+            {
+                complete = Vehicles.InstallComplete.Default,
+                
+            }
+            table uninstall
+            {
+                complete = Vehicles.UninstallComplete.Default,
+            }
+            lua
+            {
+                create = Vehicles.Create.Default,
+            }
+        }
+	}
+}
+

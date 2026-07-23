@@ -1,0 +1,444 @@
+module Base
+{
+	craftRecipe 78lamboCountachMakeTire
+	{
+        timedAction = Making,
+        time = 200,
+        Tags = InHandCraft,
+        category = Mechanical,
+        xpAward = Mechanics:2,
+        SkillRequired = Mechanics:2,
+        OnCreate = DAMN.OnCreate.PassSecondCond,
+
+        inputs
+        {
+            item 1 [damnCraft.SteelRimSmall],
+            item 1 [damnCraft.TireRubberNewSmall;damnCraft.TireRubberUsedSmall;damnCraft.TireRubberDestroyedSmall] mode:destroy,
+            item 1 [Base.Crowbar] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.78lamboCountachTire3,
+        }
+	}
+
+    craftRecipe 78lamboCountachSMakeTire
+	{
+        timedAction = Making,
+        time = 200,
+        Tags = InHandCraft,
+        category = Mechanical,
+        xpAward = Mechanics:2,
+        SkillRequired = Mechanics:2,
+        OnCreate = DAMN.OnCreate.PassSecondCond,
+
+        inputs
+        {
+            item 1 [damnCraft.SteelRimSmall],
+            item 1 [damnCraft.TireRubberNewSmall;damnCraft.TireRubberUsedSmall;damnCraft.TireRubberDestroyedSmall] mode:destroy,
+            item 1 [Base.Crowbar] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.78lamboCountachSTire3,
+        }
+	}
+
+	craftRecipe 78lamboCountachMakeHood
+	{
+        timedAction = Welding,
+        time = 200,
+        Tags = InHandCraft;Welding,
+        category = Mechanical,
+        xpAward = MetalWelding:20,
+        SkillRequired = MetalWelding:5,
+        NeedToBeLearn = True,
+
+        inputs
+        {
+            item 2 [damnCraft.HingeLarge],
+            item 4 [Base.SheetMetal],
+            item 2 [Base.Screws],
+			item 9 [Base.BlowTorch],
+            item 1 tags[WeldingMask] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.78lamboCountachEngineDoor3,
+        }
+	}
+
+	craftRecipe 78lamboCountachMakeFrontDoor
+	{
+        timedAction = Welding,
+        time = 200,
+        Tags = InHandCraft;Welding,
+        category = Mechanical,
+        xpAward = MetalWelding:25,
+        SkillRequired = MetalWelding:7,
+        NeedToBeLearn = True,
+
+        inputs
+        {
+            item 1 [damnCraft.HandleModern],
+            item 2 [damnCraft.HingeSmall],
+            item 2 [Base.SheetMetal],
+            item 2 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+			item 10 [Base.BlowTorch],
+            item 1 tags[WeldingMask] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.78lamboCountachFrontDoor3,
+        }
+	}
+
+	craftRecipe 78lamboCountachMakeTrunkLid
+	{
+        timedAction = Welding,
+        time = 200,
+        Tags = InHandCraft;Welding,
+        category = Mechanical,
+        xpAward = MetalWelding:20,
+        SkillRequired = MetalWelding:7,
+        NeedToBeLearn = True,
+
+        inputs
+        {
+            item 1 [damnCraft.HandleModern],
+            item 2 [damnCraft.HingeLarge],
+            item 2 [Base.SheetMetal],
+            item 2 [Base.Screws],
+			item 8 [Base.BlowTorch],
+            item 1 tags[WeldingMask] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.78lamboCountachTrunkDoor3,
+        }
+	}
+
+    craftRecipe 78lamboCountachMakeFrontTrunkLid
+	{
+        timedAction = Welding,
+        time = 200,
+        Tags = InHandCraft;Welding,
+        category = Mechanical,
+        xpAward = MetalWelding:20,
+        SkillRequired = MetalWelding:7,
+        NeedToBeLearn = True,
+
+        inputs
+        {
+            item 1 [damnCraft.HandleModern],
+            item 2 [damnCraft.HingeLarge],
+            item 2 [Base.SheetMetal],
+            item 2 [Base.Screws],
+			item 8 [Base.BlowTorch],
+            item 1 tags[WeldingMask] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.78lamboCountachFrontTrunkDoor3,
+        }
+	}
+
+	craftRecipe 78lamboCountachMakeFrontSeat
+	{
+        timedAction = Making,
+        time = 200,
+        Tags = InHandCraft,
+        category = Mechanical,
+        xpAward = Mechanics:2,
+        SkillRequired = Mechanics:3,
+        NeedToBeLearn = True,
+
+        inputs
+        {
+            item 1 [damnCraft.SeatFabric],
+            item 2 [damnCraft.SeatFoam],
+            item 1 [damnCraft.SeatFrameLarge],
+            item 1 [Base.Screws],
+            item 1 tags[Screwdriver] mode:keep flags[MayDegradeLight;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.78lamboCountachSeatFront3,
+        }
+	}
+
+    craftRecipe 78lamboCountachMakeFrontWindshield
+	{
+        timedAction = Making,
+        time = 200,
+        Tags = InHandCraft,
+        category = Mechanical,
+        xpAward = Mechanics:2,
+        SkillRequired = Mechanics:3,
+        NeedToBeLearn = True,
+
+        inputs
+        {
+            item 4 [Base.GlassPanel],
+            item 4 [damnCraft.RubberStrip],
+            item 1 [Base.Scalpel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.78lamboCountachWindshield3,
+        }
+	}
+
+	craftRecipe 78lamboCountachMakeFrontSideWindow
+	{
+        timedAction = Making,
+        time = 200,
+        Tags = InHandCraft,
+        category = Mechanical,
+        xpAward = Mechanics:3,
+        SkillRequired = Mechanics:3,
+        NeedToBeLearn = True,
+
+        inputs
+        {
+            item 2 [Base.GlassPanel],
+            item 4 [damnCraft.RubberStrip],
+            item 1 [Base.Scalpel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.78lamboCountachFrontSideWindow3,
+        }
+	}
+
+	craftRecipe 78lamboCountachMakeRearSideWindow
+	{
+        timedAction = Making,
+        time = 200,
+        Tags = InHandCraft,
+        category = Mechanical,
+        xpAward = Mechanics:3,
+        SkillRequired = Mechanics:3,
+        NeedToBeLearn = True,
+
+        inputs
+        {
+            item 2 [Base.GlassPanel],
+            item 4 [damnCraft.RubberStrip],
+            item 1 [Base.Scalpel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.78lamboCountachRearSideWindow3,
+        }
+	}
+
+	craftRecipe 78lamboCountachMakeRearWindshield
+	{
+        timedAction = Making,
+        time = 200,
+        Tags = InHandCraft,
+        category = Mechanical,
+        xpAward = Mechanics:2,
+        SkillRequired = Mechanics:3,
+        NeedToBeLearn = True,
+
+        inputs
+        {
+            item 1 [Base.GlassPanel],
+            item 2 [damnCraft.RubberStrip],
+            item 1 [Base.Scalpel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.78lamboCountachRearWindshield3,
+        }
+	}
+
+	craftRecipe 78lamboCountachMakeFrontWindshieldArmor
+	{
+        timedAction = Welding,
+        time = 200,
+        Tags = InHandCraft;Welding,
+        category = Armoring,
+        xpAward = MetalWelding:20,
+        SkillRequired = MetalWelding:4,
+
+        inputs
+        {
+            item 4 [Base.SheetMetal],
+            item 1 [Base.SmallSheetMetal],
+            item 4 [Base.MetalPipe],
+            item 3 [Base.Screws],
+			item 10 [Base.BlowTorch],
+            item 1 tags[WeldingMask] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.78lamboCountachWindshieldArmor,
+        }
+	}
+
+    craftRecipe 78lamboCountachMakeFrontWindowArmor
+	{
+        timedAction = Welding,
+        time = 200,
+        Tags = InHandCraft;Welding,
+        category = Armoring,
+        xpAward = MetalWelding:20,
+        SkillRequired = MetalWelding:4,
+
+        inputs
+        {
+            item 2 [Base.SmallSheetMetal],
+            item 2 [Base.MetalPipe],
+            item 2 [Base.Screws],
+			item 5 [Base.BlowTorch],
+            item 1 tags[WeldingMask] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.78lamboCountachFrontWindowArmor,
+        }
+	}
+
+	craftRecipe 78lamboCountachMakeRearWindowArmor
+	{
+        timedAction = Welding,
+        time = 200,
+        Tags = InHandCraft;Welding,
+        category = Armoring,
+        xpAward = MetalWelding:20,
+        SkillRequired = MetalWelding:4,
+
+        inputs
+        {
+            item 1 [Base.SmallSheetMetal],
+            item 2 [Base.MetalPipe],
+            item 1 [Base.Screws],
+			item 3 [Base.BlowTorch],
+            item 1 tags[WeldingMask] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.78lamboCountachRearWindowArmor,
+        }
+	}
+
+    craftRecipe 78lamboCountachMakeRearWindshieldArmor
+	{
+        timedAction = Welding,
+        time = 200,
+        Tags = InHandCraft;Welding,
+        category = Armoring,
+        xpAward = MetalWelding:20,
+        SkillRequired = MetalWelding:4,
+
+        inputs
+        {
+            item 1 [Base.SheetMetal],
+            item 1 [Base.Screws],
+			item 4 [Base.BlowTorch],
+            item 1 tags[WeldingMask] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.78lamboCountachWindshieldRearArmor,
+        }
+	}
+
+	craftRecipe 78lamboCountachMakeFrontBullbar
+	{
+        timedAction = Welding,
+        time = 200,
+        Tags = InHandCraft;Welding,
+        category = Armoring,
+        xpAward = MetalWelding:25,
+        SkillRequired = MetalWelding:4,
+
+        inputs
+        {
+            item 1 [Base.SmallSheetMetal],
+            item 4 [Base.MetalPipe],
+            item 2 [Base.Screws],
+			item 8 [Base.BlowTorch],
+            item 1 tags[WeldingMask] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.78lamboCountachBullbarA,
+        }
+	}
+
+	craftRecipe 78lamboCountachMakeReinforcedBumper
+	{
+        timedAction = Making,
+        time = 150,
+        Tags = InHandCraft,
+        category = Armoring,
+        xpAward = Mechanics:2,
+        SkillRequired = Mechanics:2,
+
+        inputs
+        {
+            item 1 [Base.78lamboCountachBumperFront],
+            item 1 [Base.78lamboCountachBullbarA],
+            item 1 [Base.Screws],
+            item 1 tags[Screwdriver] mode:keep flags[MayDegradeLight;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.78lamboCountachBumperFrontA,
+        }
+	}
+
+    craftRecipe 78lamboCountachSMakeReinforcedBumper
+	{
+        timedAction = Making,
+        time = 150,
+        Tags = InHandCraft,
+        category = Armoring,
+        xpAward = Mechanics:2,
+        SkillRequired = Mechanics:2,
+
+        inputs
+        {
+            item 1 [Base.78lamboCountachSBumperFront],
+            item 1 [Base.78lamboCountachBullbarA],
+            item 1 [Base.Screws],
+            item 1 tags[Screwdriver] mode:keep flags[MayDegradeLight;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.78lamboCountachSBumperFrontB,
+        }
+	}
+
+    craftRecipe 78lamboCountachMakeRoofrack
+	{
+        timedAction = Welding,
+        time = 200,
+        Tags = InHandCraft;Welding,
+        category = Mechanical,
+        xpAward = MetalWelding:20,
+        SkillRequired = MetalWelding:5,
+        NeedToBeLearn = True,
+
+        inputs
+        {
+            item 2 [Base.SheetMetal],
+            item 1 [Base.SmallSheetMetal],
+            item 4 [Base.MetalPipe],
+            item 2 [Base.Screws],
+            item 1 [Base.Tarp],
+			item 6 [Base.BlowTorch],
+            item 1 tags[WeldingMask] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.78lamboCountachRoofrack3,
+        }
+	}
+
+}

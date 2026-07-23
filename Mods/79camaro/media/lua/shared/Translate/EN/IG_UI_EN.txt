@@ -1,0 +1,13 @@
+IG_UI_EN = {
+	IGUI_VehicleName79camaro = "'79 Chevrolet Camaro",
+	IGUI_VehicleName79camaroRS = "'79 Chevrolet Camaro RS",
+	IGUI_VehicleName79camaroZ28 = "'79 Chevrolet Camaro Z28",
+    IGUI_VehicleName79camaroGhost = "'79 Chevrolet Camaro Ghost",
+
+    IGUI_VehiclePartCAM79LipFront = "Front Lip",
+	IGUI_VehiclePartCAM79Trunk = "Trunk Storage",
+	IGUI_VehiclePartCAM79Roofrack = "Roofrack",
+
+    IGUI_close_teh_plow = "Raise The Plow",
+    IGUI_drop_teh_plow = "Lower The Plow",
+}

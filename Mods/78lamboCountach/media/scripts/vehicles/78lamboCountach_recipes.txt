@@ -1,0 +1,291 @@
+module Base
+
+{
+	recipe Make 78 Lamborghini Countach LP400 Tire
+	{
+		keep Crowbar,
+		damnCraft.SteelRimSmall,
+		damnCraft.TireRubberNewSmall/damnCraft.TireRubberUsedSmall/damnCraft.TireRubberDestroyedSmall,
+
+		Result:78lamboCountachTire3,
+		Time:700.0,
+		Category:Mechanical,
+		SkillRequired:Mechanics=2,
+		Prop1:Crowbar,
+		OnCreate:DAMN.OnCreate.MakeSmallTire,
+		CanBeDoneFromFloor:true,
+	}
+
+    recipe Make 78 Lamborghini Countach LP400S Tire
+	{
+		keep Crowbar,
+		damnCraft.SteelRimSmall,
+		damnCraft.TireRubberNewSmall/damnCraft.TireRubberUsedSmall/damnCraft.TireRubberDestroyedSmall,
+
+		Result:78lamboCountachSTire3,
+		Time:700.0,
+		Category:Mechanical,
+		SkillRequired:Mechanics=2,
+		Prop1:Crowbar,
+		OnCreate:DAMN.OnCreate.MakeSmallTire,
+		CanBeDoneFromFloor:true,
+	}
+
+	recipe Make 78 Lamborghini Countach Hood
+	{
+		keep WeldingMask,
+		BlowTorch=9,
+		damnCraft.HingeLarge=2,
+		SheetMetal=2,
+		Screws=2,
+
+		Result:78lamboCountachEngineDoor3,
+		Time:1000.0,
+		Category:Mechanical,
+		NeedToBeLearn:true,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
+	}
+
+	recipe Make 78 Lamborghini Countach Door
+	{
+		keep WeldingMask,
+		BlowTorch=10,
+		damnCraft.HandleModern,
+		damnCraft.HingeSmall=2,
+		SmallSheetMetal=4,
+		SheetMetal=4,
+		Screws=3,
+
+		Result:78lamboCountachFrontDoor3,
+		Time:1000.0,
+		Category:Mechanical,
+		NeedToBeLearn:true,
+		SkillRequired:MetalWelding=7,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make 78 Lamborghini Countach Trunk Lid
+	{
+		keep WeldingMask,
+		BlowTorch=8,
+		damnCraft.HingeLarge=2,
+		SheetMetal=2,
+		Screws=2,
+
+		Result:78lamboCountachTrunkDoor3,
+		Time:1000.0,
+		Category:Mechanical,
+		NeedToBeLearn:true,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
+	}
+
+    recipe Make 78 Lamborghini Countach Trunk Lid
+	{
+		keep WeldingMask,
+		BlowTorch=7,
+		damnCraft.HingeLarge=2,
+		SheetMetal=2,
+		Screws=2,
+
+		Result:78lamboCountachFrontTrunkDoor3,
+		Time:1000.0,
+		Category:Mechanical,
+		NeedToBeLearn:true,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
+	}
+
+	recipe Make 78 Lamborghini Countach Seat
+    	{
+		damnCraft.SeatFabric,
+		damnCraft.SeatFoam=2,
+		damnCraft.SeatFrameLarge,
+		Screws=1,
+		keep [Recipe.GetItemTypes.Screwdriver],
+
+		NoBrokenItems:false,
+		Result:78lamboCountachSeatFront3,
+		Time:800.0,
+		Category:Mechanical,
+		NeedToBeLearn:true,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:DAMN.OnGiveXP.Mechanics10,
+    }
+
+    recipe Make 78 Lamborghini Countach Windshield
+	{
+		keep Scalpel,
+		damnCraft.GlassPaneLarge,
+		damnCraft.RubberStrip=4,
+
+		Result:78lamboCountachWindshield3,
+		Time:500.0,
+		Category:Mechanical,
+		NeedToBeLearn:true,
+		SkillRequired:Mechanics=4,
+		Prop1:Scalpel,
+	}
+
+	recipe Make 78 Lamborghini Countach Window
+	{
+		keep Scalpel,
+		damnCraft.GlassPaneSmall=2,
+		damnCraft.RubberStrip=5,
+
+		Result:78lamboCountachFrontSideWindow3,
+		Time:300.0,
+		Category:Mechanical,
+		NeedToBeLearn:true,
+		SkillRequired:Mechanics=4,
+		Prop1:Scalpel,
+	}
+
+	recipe Make 78 Lamborghini Countach Window
+	{
+		keep Scalpel,
+		damnCraft.GlassPaneSmall,
+		damnCraft.RubberStrip=2,
+
+		Result:78lamboCountachRearSideWindow3,
+		Time:300.0,
+		Category:Mechanical,
+		NeedToBeLearn:true,
+		SkillRequired:Mechanics=4,
+		Prop1:Scalpel,
+	}
+
+	recipe Make 78 Lamborghini Countach Windshield
+	{
+		keep Scalpel,
+		damnCraft.GlassPaneSmall,
+		damnCraft.RubberStrip=2,
+
+		Result:78lamboCountachRearWindshield3,
+		Time:500.0,
+		Category:Mechanical,
+		NeedToBeLearn:true,
+		SkillRequired:Mechanics=4,
+		Prop1:Scalpel,
+	}
+
+	recipe Make 78 Lamborghini Countach Windshield Armor
+	{
+		BlowTorch=10,
+      	keep WeldingMask,
+      	SheetMetal=4,
+		SmallSheetMetal=1,
+        MetalPipe=4,
+		Screws=3,
+
+		Result:78lamboCountachWindshieldArmor,
+		Time:1000.0,
+		Category:Armoring,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make 78 Lamborghini Countach Front Window Armor
+	{
+		BlowTorch=5,
+       	keep WeldingMask,
+		SmallSheetMetal=2,
+        MetalPipe=2,
+		Screws=2,
+
+		Result:78lamboCountachFrontWindowArmor,
+		Time:800.0,
+		Category:Armoring,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make 78 Lamborghini Countach Rear Window Armor
+	{
+		BlowTorch=3,
+       	keep WeldingMask,
+		SmallSheetMetal=1,
+        MetalPipe=2,
+		Screws=1,
+
+		Result:78lamboCountachRearWindowArmor,
+		Time:800.0,
+		Category:Armoring,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+    recipe Make 78 Lamborghini Countach Rear Windshield Armor
+	{
+		BlowTorch=4,
+       	keep WeldingMask,
+		SmallSheetMetal=1,
+		Screws=1,
+
+		Result:78lamboCountachWindshieldRearArmor,
+		Time:800.0,
+		Category:Armoring,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+	recipe Make 78 Lamborghini Countach Bullbar
+	{
+		BlowTorch=8,
+       	keep WeldingMask,
+       	SmallSheetMetal=1,
+		Screws=2,
+		MetalPipe=4,
+
+		Result:78lamboCountachBullbarA,
+		Time:1200.0,
+		Category:Armoring,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make 78 Lamborghini Countach Reinforced Bumper
+	{
+		keep Screwdriver,
+		Screws=1,
+		78lamboCountachBumperFront,
+		78lamboCountachBullbarA,
+
+		Result:78lamboCountachBumperFrontA,
+		Time:500.0,
+		Category:Armoring,
+		SkillRequired:Mechanics=2,
+	}
+
+    recipe Make 78 Lamborghini Countach Reinforced Bumper
+	{
+		keep Screwdriver,
+		Screws=1,
+		78lamboCountachSBumperFront,
+		78lamboCountachBullbarA,
+
+		Result:78lamboCountachSBumperFrontB,
+		Time:500.0,
+		Category:Armoring,
+		SkillRequired:Mechanics=2,
+	}
+
+    recipe Make 78 Lamborghini Countach Roofrack
+	{
+		BlowTorch=6,
+       	keep WeldingMask,
+		SheetMetal=2,
+        SmallSheetMetal=1,
+		MetalPipe=4,
+		Tarp=1,
+		Screws=2,
+
+		Result:78lamboCountachRoofrack3,
+		Time:1000.0,
+		Category:Mechanical,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+}

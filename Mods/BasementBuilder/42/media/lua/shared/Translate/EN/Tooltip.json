@@ -1,0 +1,13 @@
+{
+    "Tooltip_BB_BasementStarterKit": "Used to dig a 2x6 starter basement on the surface.",
+    "Tooltip_BB_NoSquare": "No square.",
+    "Tooltip_BB_SurfaceOnly": "Surface only.",
+    "Tooltip_BB_BasementExists": "A basement already exists here.",
+    "Tooltip_BB_OutOfBounds": "Out of bounds.",
+    "Tooltip_BB_Overlap": "Overlaps another basement area.",
+    "Tooltip_BB_NotInBasement": "You are not in a basement.",
+    "Tooltip_BB_WrongLevel": "Wrong floor level.",
+    "Tooltip_BB_AdjacentOnly": "You can only expand to an adjacent tile.",
+    "Tooltip_BB_AlreadyDug": "This tile is already dug out.",
+    "Tooltip_BB_CantDigHere": "Can't dig here."
+}

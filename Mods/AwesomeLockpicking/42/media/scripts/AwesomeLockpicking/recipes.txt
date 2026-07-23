@@ -1,0 +1,25 @@
+module Base
+{
+    craftRecipe ForgeLockpickingTools
+    {
+        time = 300,
+        SkillRequired = Lockpicking:1;Blacksmith:2,
+        NeedToBeLearn = true,
+        timedAction = HammerMetalStanding,
+        xpAward = Blacksmith:35,
+        AutoLearnAll = Lockpicking:3;Blacksmith:4,
+        Tags = PrimitiveForge,
+        category = Tools,
+        inputs
+        {
+            item 2 tags[base:charcoal],
+            item 2 tags[base:metalpiece],
+            item 1 tags[base:hammer] mode:keep flags[Prop1;MayDegradeLight],
+            item 1 tags[base:metalworkingpliers;base:tongs;base:crudetongs] mode:keep flags[Prop2;MayDegradeLight],
+        }
+        outputs
+        {
+            item 1 AwesomeLockpicking.ForgedLockpickingTools,
+        }
+    }
+}

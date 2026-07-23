@@ -1,0 +1,82 @@
+module Base
+{
+
+	model 78lamboCountachRoofrack0
+	{
+		mesh = vehicles/Vehicles_78lamboCountach_Body|lp400_rack,
+		texture = Vehicles/Vehicles_78lamboCountach_Interior,
+		shader = damn_wheel_shader,
+		scale = 0.1,
+	}
+
+	template vehicle LP400Roofracks
+	{
+		part LP400Roofrack
+		{
+
+			model Roofrack0
+				{
+                		file = 78lamboCountachRoofrack0,
+				}
+
+			category = Other,
+			area = Roofrack,
+			itemType = Base.78lamboCountachRoofrack,
+			mechanicRequireKey = false,
+            durability = 5,
+			repairMechanic = true,
+			container
+			{
+				conditionAffectsCapacity = false,
+				test = DAMN.ContainerAccess.Roofrack,
+			}
+
+			table install
+			{
+                	items
+                	{
+                    	1
+                    		{
+                        	tags = Wrench,
+                        	count = 1,
+                        	keep = true,
+							equip = primary,
+                    		}
+                	}
+
+                	time = 1500,
+                	skills = Mechanics:1,
+                	recipes = Intermediate Mechanics,
+                	complete = Vehicles.InstallComplete.Default,
+                	test = Vehicles.InstallTest.Default,
+            		}
+
+            table uninstall
+            		{
+                	items
+                	{
+                    	1
+                    		{
+			  				tags = Wrench,
+							count = 1,
+							keep = true,
+							equip = primary,
+                    		}
+                	}
+
+					time = 1500,
+					skills = Mechanics:1,
+					recipes = Intermediate Mechanics,
+            		test = Vehicles.UninstallTest.Default,
+					complete = Vehicles.UninstallComplete.Default,
+					requireEmpty = true,
+
+            		}
+
+            lua
+            	{
+					create = DAMN.Create.Blank,
+				}
+		}
+	}
+}

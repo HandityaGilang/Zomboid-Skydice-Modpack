@@ -1,0 +1,62 @@
+module Base 
+{
+	    craftRecipe MakeFuton
+    {
+        timedAction = Making,
+        time = 180,
+        Tags = AnySurfaceCraft,
+        category = Tailoring,
+        xpAward = Tailoring:13,
+        SkillRequired = Tailoring:2,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep,
+            item 5 tags[base:thread],
+            item 5 [Base.Sheet],
+            item 5 tags[base:pillow],
+        }
+        outputs
+        {
+            item 1 Base.Futon,
+        }
+    }
+	craftRecipe MakeLargeFuton
+    {
+        timedAction = Making,
+        time = 180,
+        Tags = AnySurfaceCraft,
+        category = Tailoring,
+        xpAward = Tailoring:13,
+        SkillRequired = Tailoring:2,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep,
+            item 10 tags[base:thread],
+            item 10 [Base.Sheet],
+            item 10 tags[base:pillow],
+        }
+        outputs
+        {
+            item 1 Base.LargeFuton,
+        }
+    }
+	craftRecipe MakeLargeFuton2
+    {
+        timedAction = Making,
+        time = 180,
+        Tags = AnySurfaceCraft,
+        category = Tailoring,
+        xpAward = Tailoring:13,
+        SkillRequired = Tailoring:2,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep,
+            item 5 tags[base:thread],
+            item 2 [Base.Futon],
+        }
+        outputs
+        {
+            item 1 Base.LargeFuton,
+        }
+    }
+}

@@ -1,0 +1,301 @@
+module Base
+
+{
+	recipe Make 79 Chevrolet Camaro Tire
+	{
+		keep Crowbar,
+		damnCraft.SteelRimSmall,
+		damnCraft.TireRubberNewSmall/damnCraft.TireRubberUsedSmall/damnCraft.TireRubberDestroyedSmall,
+
+		Result:79camaroTire3,
+		Time:700.0,
+		Category:Mechanical,
+		SkillRequired:Mechanics=2,
+		Prop1:Crowbar,
+		OnCreate:DAMN.OnCreate.MakeSmallTire,
+		CanBeDoneFromFloor:true,
+	}
+
+    recipe Make 79 Chevrolet Camaro Tire
+	{
+		keep Crowbar,
+		damnCraft.SteelRimSmall,
+		damnCraft.TireRubberNewSmall/damnCraft.TireRubberUsedSmall/damnCraft.TireRubberDestroyedSmall,
+
+		Result:79camaroGhostTire3,
+		Time:700.0,
+		Category:Mechanical,
+		SkillRequired:Mechanics=2,
+		Prop1:Crowbar,
+		OnCreate:DAMN.OnCreate.MakeSmallTire,
+		CanBeDoneFromFloor:true,
+	}
+
+	recipe Make 79 Chevrolet Camaro Hood
+	{
+		keep WeldingMask,
+		BlowTorch=9,
+		damnCraft.HingeLarge=2,
+		SheetMetal=4,
+		Screws=2,
+
+		Result:79camaroEngineDoor3,
+		Time:1000.0,
+		Category:Mechanical,
+		NeedToBeLearn:true,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
+	}
+
+    recipe Make 79 Chevrolet Camaro Hood
+	{
+		keep WeldingMask,
+		BlowTorch=9,
+		damnCraft.HingeLarge=2,
+		SheetMetal=4,
+		Screws=2,
+
+		Result:79camaroZ28EngineDoor3,
+		Time:1000.0,
+		Category:Mechanical,
+		NeedToBeLearn:true,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
+	}
+
+    recipe Make 79 Chevrolet Camaro Hood
+	{
+		keep WeldingMask,
+		BlowTorch=10,
+		damnCraft.HingeLarge=2,
+		SheetMetal=5,
+		Screws=4,
+
+		Result:79camaroGhostEngineDoor3,
+		Time:1000.0,
+		Category:Mechanical,
+		NeedToBeLearn:true,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
+	}
+
+	recipe Make 79 Chevrolet Camaro Door
+	{
+		keep WeldingMask,
+		BlowTorch=10,
+		damnCraft.HandleModern,
+		damnCraft.HingeSmall=2,
+		SmallSheetMetal=2,
+		SheetMetal=2,
+		Screws=2,
+
+		Result:79camaroFrontDoor3,
+		Time:1000.0,
+		Category:Mechanical,
+		NeedToBeLearn:true,
+		SkillRequired:MetalWelding=7,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make 79 Chevrolet Camaro Trunk Lid
+	{
+		keep WeldingMask,
+		BlowTorch=7,
+		damnCraft.HingeLarge=2,
+		SheetMetal=2,
+		Screws=2,
+
+		Result:79camaroTrunkDoor3,
+		Time:900.0,
+		Category:Mechanical,
+		NeedToBeLearn:true,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
+	}
+
+	recipe Make 79 Chevrolet Camaro Seat
+    	{
+		damnCraft.SeatFabric,
+		damnCraft.SeatFoam=2,
+		damnCraft.SeatFrameLarge,
+		Screws=1,
+		keep [Recipe.GetItemTypes.Screwdriver],
+
+		NoBrokenItems:false,
+		Result:79camaroSeatFront3,
+		Time:800.0,
+		Category:Mechanical,
+		NeedToBeLearn:true,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:DAMN.OnGiveXP.Mechanics10,
+    }
+
+    recipe Make 79 Chevrolet Camaro Seat
+    	{
+		damnCraft.SeatFabric,
+		damnCraft.SeatFoam=2,
+		damnCraft.SeatFrameLarge,
+		Screws=1,
+		keep [Recipe.GetItemTypes.Screwdriver],
+
+		NoBrokenItems:false,
+		Result:79camaroSeatRear3,
+		Time:800.0,
+		Category:Mechanical,
+		NeedToBeLearn:true,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:DAMN.OnGiveXP.Mechanics10,
+    }
+
+    recipe Make 79 Chevrolet Camaro Windshield
+	{
+		keep Scalpel,
+		damnCraft.GlassPaneLarge,
+		damnCraft.RubberStrip=4,
+
+		Result:79camaroWindshield3,
+		Time:500.0,
+		Category:Mechanical,
+		NeedToBeLearn:true,
+		SkillRequired:Mechanics=4,
+		Prop1:Scalpel,
+	}
+
+	recipe Make 79 Chevrolet Camaro Window
+	{
+		keep Scalpel,
+		damnCraft.GlassPaneSmall,
+
+		Result:79camaroFrontSideWindow3,
+		Time:300.0,
+		Category:Mechanical,
+		NeedToBeLearn:true,
+		SkillRequired:Mechanics=4,
+		Prop1:Scalpel,
+	}
+
+	recipe Make 79 Chevrolet Camaro Windshield
+	{
+		keep Scalpel,
+		damnCraft.GlassPaneLarge,
+		damnCraft.RubberStrip=4,
+
+		Result:79camaroRearWindshield3,
+		Time:500.0,
+		Category:Mechanical,
+		NeedToBeLearn:true,
+		SkillRequired:Mechanics=4,
+		Prop1:Scalpel,
+	}
+
+	recipe Make 79 Chevrolet Camaro Windshield Armor
+	{
+		BlowTorch=10,
+      	keep WeldingMask,
+        SheetMetal=1,
+		SmallSheetMetal=3,
+		Screws=2,
+		MetalPipe=5,
+
+		Result:79camaroWindshieldArmor,
+		Time:1000.0,
+		Category:Armoring,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+	recipe Make 79 Chevrolet Camaro Front Window Armor
+	{
+		BlowTorch=7,
+       	keep WeldingMask,
+		MetalPipe=2,
+		SheetMetal=2,
+        SmallSheetMetal=1,
+		Screws=2,
+
+		Result:79camaroFrontWindowArmor,
+		Time:800.0,
+		Category:Armoring,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
+	}
+
+	recipe Make 79 Chevrolet Camaro Rear Windshield Armor
+	{
+		BlowTorch=9,
+      	keep WeldingMask,
+        SheetMetal=2,
+		SmallSheetMetal=3,
+		Screws=3,
+		MetalPipe=5,
+
+		Result:79camaroWindshieldRearArmor,
+		Time:900.0,
+		Category:Armoring,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	}
+
+    recipe Make 79 Chevrolet Camaro Reinforced Bumper
+	{
+        79camaroBumperFront0,
+		BlowTorch=8,
+       	keep WeldingMask,
+        SheetMetal,
+		SmallSheetMetal=2,
+        MetalPipe=3,
+
+		Result:79camaroBumperFrontA,
+		Time:580.0,
+		Category:Armoring,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+		CanBeDoneFromFloor:true,
+	}
+
+	recipe Make 79 Chevrolet Camaro Ghost Bullbar
+	{
+		79camaroBumperFront0,
+		BlowTorch=10,
+       	keep WeldingMask,
+        SheetMetal=2,
+		SmallSheetMetal=4,
+        MetalPipe=5,
+        LightBulb=2,
+
+		Result:79camaroGhostBumperFrontB,
+		Time:900.0,
+		Category:Armoring,
+		SkillRequired:MetalWelding=5,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+		CanBeDoneFromFloor:true,
+	}
+
+	recipe Make Small Vintage Roofrack
+	{
+		BlowTorch=7,
+       	keep WeldingMask,
+		SheetMetal=4,
+		MetalPipe=4,
+		Tarp=1,
+		Screws=2,
+
+		Result:OldSmallRoofrack3,
+		Time:1000.0,
+		Category:Mechanical,
+		SkillRequired:MetalWelding=4,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	}
+
+    recipe Make 79 Chevrolet Camaro Ghost Mudflaps
+	{
+		Glue=2,
+		damnCraft.RubberStrip=4,
+
+		Result:79camaroGhostMudflaps3,
+		Time:400.0,
+		Category:Mechanical,
+		SkillRequired:Mechanics=2,
+	}
+
+}

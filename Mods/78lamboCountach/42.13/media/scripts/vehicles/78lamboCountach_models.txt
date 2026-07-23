@@ -1,0 +1,204 @@
+module Base
+{
+    model 78lamboCountachMagazineWI
+	{
+		mesh = WorldItems/Magazine,
+		texture = Vehicles/Objects_78lamboCountach_Magazine,
+		scale = 0.4,
+	}
+
+	model 78lamboCountachTireWI
+	{
+		mesh    = vehicles/Vehicles_78lamboCountach_Objects|lp400_tireWI,
+		texture = Vehicles/Objects_78lamboCountach_Wheel,
+		scale   = 0.6,
+	}
+
+    model 78lamboCountachSTireWI
+	{
+		mesh    = vehicles/Vehicles_78lamboCountach_Objects|lp400S_tireWI,
+		texture = Vehicles/Objects_78lamboCountachS_Wheel,
+		scale   = 0.6,
+	}
+
+	model 78lamboCountachFrontDoorWI
+	{
+		mesh    = vehicles/Vehicles_78lamboCountach_Objects|lp400_door_flWI,
+		texture = Vehicles/Objects_78lamboCountach_Shell,
+		scale   = 0.6,
+	}
+
+	model 78lamboCountachWindshieldArmorWI
+	{
+		mesh    = vehicles/Vehicles_78lamboCountach_Objects|lp400_windshield_front_aWI,
+		texture = Vehicles/Objects_78lamboCountach_Shell,
+		scale   = 0.6,
+	}
+
+	model 78lamboCountachFrontWindowArmorWI
+	{
+		mesh    = vehicles/Vehicles_78lamboCountach_Objects|lp400_window_fl_aWI,
+		texture = Vehicles/Objects_78lamboCountach_Shell,
+		scale   = 0.6,
+	}
+
+	model 78lamboCountachRearWindowArmorWI
+	{
+		mesh    = vehicles/Vehicles_78lamboCountach_Objects|lp400_window_rl_aWI,
+		texture = Vehicles/Objects_78lamboCountach_Shell,
+		scale   = 0.6,
+	}
+
+	model 78lamboCountachWindshieldRearArmorWI
+	{
+		mesh    = vehicles/Vehicles_78lamboCountach_Objects|lp400_windshield_rear_aWI,
+		texture = Vehicles/Objects_78lamboCountach_Shell,
+		scale   = 0.6,
+	}
+
+	model 78lamboCountachEngineDoorWI
+	{
+		mesh    = vehicles/Vehicles_78lamboCountach_Objects|lp400_hoodWI,
+		texture = Vehicles/Objects_78lamboCountach_Shell,
+		scale   = 0.6,
+	}
+
+    model 78lamboCountachEngineDoorVentWI
+	{
+		mesh    = vehicles/Vehicles_78lamboCountach_Objects|lp400s_hood_ventsWI,
+		texture = Vehicles/Objects_78lamboCountach_Shell,
+		scale   = 0.6,
+	}
+
+    model 78lamboCountachFrontTrunkDoorWI
+	{
+		mesh    = vehicles/Vehicles_78lamboCountach_Objects|lp400_trunkLid_frontWI,
+		texture = Vehicles/Objects_78lamboCountach_Shell,
+		scale   = 0.6,
+	}
+
+	model 78lamboCountachTrunkDoorWI
+	{
+		mesh    = vehicles/Vehicles_78lamboCountach_Objects|lp400_trunkLid_rearWI,
+		texture = Vehicles/Objects_78lamboCountach_Shell,
+		scale   = 0.6,
+	}
+
+	model 78lamboCountachBumperFrontWI
+	{
+		mesh    = vehicles/Vehicles_78lamboCountach_Objects|lp400_bumper_frontWI,
+		texture = Vehicles/Objects_78lamboCountach_Shell,
+		scale   = 0.6,
+	}
+
+    model 78lamboCountachSBumperFrontWI
+	{
+		mesh    = vehicles/Vehicles_78lamboCountach_Objects|lp400s_bumper_frontWI,
+		texture = Vehicles/Objects_78lamboCountach_Shell,
+		scale   = 0.6,
+	}
+
+	model 78lamboCountachBumperFrontAWI
+	{
+		mesh    = vehicles/Vehicles_78lamboCountach_Objects|lp400_bumper_frontAWI,
+		texture = Vehicles/Objects_78lamboCountach_Shell,
+		scale   = 0.6,
+	}
+
+	model 78lamboCountachSBumperFrontBWI
+	{
+		mesh    = vehicles/Vehicles_78lamboCountach_Objects|lp400s_bumper_frontBWI,
+		texture = Vehicles/Objects_78lamboCountach_Shell,
+		scale   = 0.6,
+	}
+
+    model 78lamboCountachBullbarAWI
+	{
+		mesh    = vehicles/Vehicles_78lamboCountach_Objects|lp400_bullbarWI,
+		texture = Vehicles/Objects_78lamboCountach_Shell,
+		scale   = 0.6,
+	}
+
+    model 78lamboCountachSBumperRearWI
+	{
+		mesh    = vehicles/Vehicles_78lamboCountach_Objects|lp400s_bumper_rearWI,
+		texture = Vehicles/Objects_78lamboCountach_Shell,
+		scale   = 0.6,
+	}
+
+	model 78lamboCountachWindshieldWI
+	{
+		mesh    = vehicles/Vehicles_78lamboCountach_Objects|lp400_windshield_frontWI,
+		texture = Vehicles/Objects_78lamboCountach_Shell,
+		scale   = 0.6,
+	}
+
+	model 78lamboCountachFrontSideWindowWI
+	{
+		mesh    = vehicles/Vehicles_78lamboCountach_Objects|lp400_window_flWI,
+		texture = Vehicles/Objects_78lamboCountach_Shell,
+		scale   = 0.6,
+	}
+
+	model 78lamboCountachRearSideWindowWI
+	{
+		mesh    = vehicles/Vehicles_78lamboCountach_Objects|lp400_window_rlWI,
+		texture = Vehicles/Objects_78lamboCountach_Shell,
+		scale   = 0.6,
+	}
+
+	model 78lamboCountachRearWindshieldWI
+	{
+		mesh    = vehicles/Vehicles_78lamboCountach_Objects|lp400_windshield_rearWI,
+		texture = Vehicles/Objects_78lamboCountach_Shell,
+		scale   = 0.6,
+	}
+
+    model 78lamboCountachFrontSpoilerWI
+	{
+		mesh    = vehicles/Vehicles_78lamboCountach_Objects|lp400s_spoiler_frontWI,
+		texture = Vehicles/Objects_78lamboCountach_Shell,
+		scale   = 0.6,
+	}
+    model 78lamboCountachRearSpoilerWI
+	{
+		mesh    = vehicles/Vehicles_78lamboCountach_Objects|lp400s_spoiler_rear0WI,
+		texture = Vehicles/Objects_78lamboCountach_Shell,
+		scale   = 0.6,
+	}
+
+    model 78lamboCountachRearSpoilerTwoWI
+	{
+		mesh    = vehicles/Vehicles_78lamboCountach_Objects|lp400s_spoiler_rear1WI,
+		texture = Vehicles/Objects_78lamboCountach_Shell,
+		scale   = 0.6,
+	}
+
+    model 78lamboCountachWipersWI
+	{
+		mesh    = vehicles/Vehicles_78lamboCountach_Objects|lp400_wipersWI,
+		texture = Vehicles/Objects_78lamboCountach_Interior,
+		scale   = 0.6,
+	}
+
+    model 78lamboCountachPopupLightsWI
+	{
+		mesh    = vehicles/Vehicles_78lamboCountach_Objects|lp400_popup_lightsWI,
+		texture = Vehicles/Objects_78lamboCountach_Shell,
+		scale   = 0.6,
+	}
+
+    model 78lamboCountachSeatFrontWI
+	{
+		mesh    = vehicles/Vehicles_78lamboCountach_Objects|lp400_seatWI,
+		texture = Vehicles/Objects_78lamboCountach_Interior,
+		scale   = 0.6,
+	}
+
+    model 78lamboCountachRoofrackWI
+	{
+		mesh    = vehicles/Vehicles_78lamboCountach_Objects|lp400_rackWI,
+		texture = Vehicles/Objects_78lamboCountach_Interior,
+		scale   = 0.6,
+	}
+}

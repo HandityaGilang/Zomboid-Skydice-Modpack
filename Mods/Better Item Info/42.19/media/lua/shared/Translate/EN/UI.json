@@ -1,0 +1,21 @@
+{
+    "UI_BII_Options": "Better Item Info",
+    "UI_BII_ShowFoodInfo": "Show Food Info",
+    "UI_BII_ShowFoodInfo_tooltip": "Show spoilage and nutrition details for food.",
+    "UI_BII_ShowLiquidInfo": "Show Liquid Info",
+    "UI_BII_ShowLiquidInfo_tooltip": "Show fluid amount, capacity, and liquid nutrition details.",
+    "UI_BII_ShowWeaponInfo": "Show Weapon Info",
+    "UI_BII_ShowWeaponInfo_tooltip": "Show weapon stats based on character skills.",
+    "UI_BII_ShowSeedInfo": "Show Seed Info",
+    "UI_BII_ShowSeedInfo_tooltip": "Show growing seasons and growth time for seeds.",
+    "UI_BII_ShowMetalInfo": "Show Metal Info",
+    "UI_BII_ShowMetalInfo_tooltip": "Show smelting and scrapping metal information.",
+    "UI_BII_ShowFuelInfo": "Show Fire Fuel Info",
+    "UI_BII_ShowFuelInfo_tooltip": "Show how long burnable items fuel a fire.",
+    "UI_BII_ShowElectronicsInfo": "Show Electronics Info",
+    "UI_BII_ShowElectronicsInfo_tooltip": "Show items dismantled for electrical XP.",
+    "UI_BII_ShowBookInfo": "Show Book Info",
+    "UI_BII_ShowBookInfo_tooltip": "Show remaining read time for skill books.",
+    "UI_BII_ShowRemainingInfo": "Show Remaining Uses",
+    "UI_BII_ShowRemainingInfo_tooltip": "Show numeric remaining uses for drainable items."
+}

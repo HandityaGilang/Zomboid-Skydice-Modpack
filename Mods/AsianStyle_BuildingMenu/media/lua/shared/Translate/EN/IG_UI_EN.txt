@@ -1,0 +1,8 @@
+IGUI_EN = {
+
+    	IGUI_BuildingMenuSubCat_Misc = "Miscellaneous",
+	IGUI_BuildingMenuSubCat_Walls_Half_Wooden = "Half wooden",
+	IGUI_BuildingMenuSubCat_Interior_Walls = "Interior",
+	IGUI_BuildingMenuSubCat_Exterior_Walls = "Exterior",
+
+}

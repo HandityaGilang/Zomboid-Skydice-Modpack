@@ -1,0 +1,4 @@
+seating
+{
+	VERSION = 3,
+}

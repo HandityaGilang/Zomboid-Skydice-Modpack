@@ -1,0 +1,12 @@
+module BasementBuilder
+{
+    item BasementStarterKit
+    {
+        DisplayCategory = Material,
+        Weight = 2.0,
+        ItemType = base:normal,
+        Icon = BasementStarterKit,
+        DisplayName = Basement Starter Kit,
+        Tooltip = Tooltip_BB_BasementStarterKit,
+    }
+}

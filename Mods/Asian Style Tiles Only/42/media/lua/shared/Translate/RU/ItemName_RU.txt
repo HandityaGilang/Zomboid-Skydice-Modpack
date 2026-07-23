@@ -1,0 +1,9 @@
+ItemName_RU = {
+	
+	ItemName_Base.LargeFuton = "Двухместный футон",
+	ItemName_Base.Futon = "Футон",
+	ItemName_Base.SmallAsianTable = "Небольшой низкий стол",
+	ItemName_Base.LargeAsianTable = "Длинный низкий стол",
+	ItemName_Base.Kotatsu = "Котацу (работает как гриль)",
+	
+} 

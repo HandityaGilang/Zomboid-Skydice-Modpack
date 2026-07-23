@@ -1,0 +1,9 @@
+name=Asian Style Tiles Only
+poster=poster.png
+author=Birget
+id=AsianStyleTilesOnly
+icon=pagoda.png
+description=Tiles used in my 'Asian Style Builds' mod. Use this if you do not need building options.
+pack=asianstyle
+tiledef=asianstyletiledef 669
+

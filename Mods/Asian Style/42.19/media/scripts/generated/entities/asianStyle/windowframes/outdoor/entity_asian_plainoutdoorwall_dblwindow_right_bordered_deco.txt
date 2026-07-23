@@ -1,0 +1,66 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Asian_PlainOutdoorWall_Dbl_WindowRight_Bordered_Deco
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= ASEntityName_PlainOutdoorWall_Dbl_WindowRight_Bordered_Deco,
+			Icon		= Build_ASPlainOutdoorWall_DblWindowRight_Bordered_Deco,
+		}
+	}
+
+    entity Asian_PlainOutdoorWall_Dbl_WindowRight_Bordered_Deco
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Asian_PlainOutdoorWall_Dbl_WindowRight_Bordered_Deco,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+			LogicClass      = WoodenWall,
+			health          = 800,
+			skillBaseHealth = 70,
+            OnCreate = NB_BuildRecipeCode.WindowWall.OnCreate,
+
+
+            face W
+            {
+                layer
+                {
+                    row = fixtures_asianwalls_03_45,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = fixtures_asianwalls_03_47,
+                }
+            }
+			
+            corner = fixtures_asianwalls_03_39,
+        }
+		
+        component CraftRecipe
+        {	OnAddToMenu   = ignoreFromBuildMenu,
+            timedAction   = BuildWallHammer,
+            time          = 200,
+            category      = Asian,
+			SkillRequired = Woodwork:5,
+            xpAward       = Woodwork:50,
+            ToolTip       = Tooltip_craft_NeedsWallframeDesc,
+            inputs
+            {
+                item 1 tags[base:hammer] mode:keep flags[Prop1;MayDegradeVeryLight],
+				item 2 tags[base:wallpaper],
+				item 1 [Base.BucketPlasterFull],
+				item 2 [Base.Plank],
+                item 2 [Base.Nails],
+            }
+        }
+    }
+}

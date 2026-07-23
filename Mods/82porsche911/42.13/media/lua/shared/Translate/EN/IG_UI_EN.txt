@@ -1,0 +1,15 @@
+IG_UI_EN = {
+	IGUI_VehicleName82porsche911turbo = "'82 Porsche 911 Turbo"
+    IGUI_VehicleName82porsche911rwb = "'82 Porsche 911 RWB"
+    IGUI_VehicleName82porsche911sc = "'82 Porsche 911SC"
+    IGUI_VehicleName82porsche911targa = "'82 Porsche 911SC Targa"
+
+    IGUI_VehiclePartPRS82FrontLip = "Front Lip",
+    IGUI_VehiclePartPRS82FrontFogs = "Fog Lights",
+    IGUI_VehiclePartPRS82Roof = "Targa Roof",
+
+	IGUI_VehiclePartPRS82SeatRearLeft = "Seat Rear Left",
+    IGUI_VehiclePartPRS82SeatRearRight = "Seat Rear Right",
+    IGUI_VehiclePartPRS82Trunk = "Trunk Storage",
+    IGUI_VehiclePartPRS82Roofrack = "Roofrack Storage",
+}

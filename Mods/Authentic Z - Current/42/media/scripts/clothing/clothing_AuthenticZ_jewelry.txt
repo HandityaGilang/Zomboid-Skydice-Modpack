@@ -1,0 +1,49 @@
+module AuthenticZClothing {
+  imports {
+      Base
+  }
+    item HawaiianLei
+	{
+	    DisplayCategory = Accessory,
+        ItemType				= base:Clothing,
+		ClothingItem = HawaiianLei,
+		BodyLocation = AZ:NeckExtra,
+		IconsForTexture = HawaiianLeiOrchid;HawaiianLeiGreen;HawaiianLeiBlue;HawaiianLeiHotPink,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		WorldStaticModel = WorldItem_HawaiianLei,		
+	}
+    item Necklace_B
+	{
+	    DisplayCategory = Accessory,
+        ItemType				= base:Clothing,
+		ClothingItem = Necklace_B,
+		BodyLocation = Necklace_Long,
+		Icon = Necklace_Crucifix_Gold,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		WorldStaticModel = WorldItem-Necklace_B,		
+	}	
+    item Necklace_GoldCrucifix
+	{
+	    DisplayCategory = Accessory,	
+        ItemType				= base:Clothing,
+		ClothingItem = Necklace_GoldCrucifix,
+		BodyLocation = Necklace,
+		Icon = Necklace_Crucifix_Gold,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		WorldStaticModel = WorldItem-Necklace_GoldCrucifix,			
+	}	
+    item AuthenticFreeHugsSign
+	{
+	    DisplayCategory = Accessory,	
+        ItemType				= base:Clothing,
+		ClothingItem = Sign-FreeHugs,
+		BodyLocation = AZ:NeckExtra,
+		Icon = Sign_FreeHugs,
+		Weight = 0.2,
+		Cosmetic = TRUE,
+		WorldStaticModel = WorldItem_FreeHugsSign,			
+	}		
+}

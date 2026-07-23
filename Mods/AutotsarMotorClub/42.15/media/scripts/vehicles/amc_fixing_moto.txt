@@ -1,0 +1,32 @@
+module Base
+{
+    fixing Fix Moto Gas Tank Welding
+    {
+        Require = Autotsar.ATAMotoBMWGasTank;Autotsar.ATAMotoHarleyGasTank,
+        GlobalItem = Base.BlowTorch=5,
+        ConditionModifier = 1.2,
+
+        Fixer = Base.SheetMetal; MetalWelding=3;Mechanics=4,
+        Fixer = Base.SmallSheetMetal=2; MetalWelding=3;Mechanics=4,
+    }
+    
+    fixing Fix Moto Muffler Welding
+    {
+        Require = Autotsar.ATAMotoBMWCustomMuffler;Autotsar.ATAMotoBMWClassicMuffler;Autotsar.ATAMotoHarleyMuffler,
+        GlobalItem = Base.BlowTorch=5,
+        ConditionModifier = 1.2,
+
+        Fixer = Base.SheetMetal; MetalWelding=3;Mechanics=4,
+        Fixer = Base.SmallSheetMetal=2; MetalWelding=3;Mechanics=4,
+    }
+    
+    fixing Fix Moto seat
+    {
+        Require = Autotsar.ATAMotoBMWSeat;Autotsar.ATAMotoBMWSeatCustom;Autotsar.ATAMotoHarleySeat;Autotsar.ATAMotoQuadSeat,
+        ConditionModifier = 0.8,
+
+        Fixer = Base.DuctTape=2;Mechanics=1,
+        Fixer = Base.Glue=2;Mechanics=2,
+    }
+    
+}

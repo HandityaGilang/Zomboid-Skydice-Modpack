@@ -1,0 +1,99 @@
+module Base
+{
+	template vehicle LP400SpareTire
+	{
+		part DAMNSpareTire
+        	{
+        	model Spare0
+			{
+				file = 78lamboCountachWheelFL,
+                offset = 0.0000 -0.1778 1.6061,
+                rotate = -180.0000 -85.0000 -90.0000,
+			}
+
+			category = tire,
+			area = Front,
+			specificItem = false,
+			itemType = Base.78lamboCountachTire3,
+			mechanicRequireKey = false,
+
+			table install
+			{
+
+                	time = 150,
+                	skills = Mechanics:1,
+                	recipes = Basic Mechanics,
+                	door = LP400TrunkDoorFront,
+                	test = Vehicles.InstallTest.Default,
+                	complete = LP400.InstallComplete.SpareTire,
+            		}
+
+            		table uninstall
+            		{
+
+					time = 200,
+					skills = Mechanics:1,
+					recipes = Basic Mechanics,
+	            	test = Vehicles.UninstallTest.Default,
+	            	complete = LP400.UninstallComplete.SpareTire,
+
+            		}
+
+	            lua
+	            {
+				create = LP400.Create.SpareTire,
+				init = LP400.Init.SpareTire,
+				}
+		}
+	}
+
+    template vehicle LP400SpareTireS
+	{
+		part DAMNSpareTire
+        	{
+        	model Spare0
+			{
+				file = 78lamboCountachSWheelFL,
+                offset = 0.0000 -0.1934 1.6111,
+                rotate = -180.0000 -85.0000 -90.0000,
+
+			}
+
+			category = tire,
+			area = Front,
+			specificItem = false,
+			itemType = Base.78lamboCountachSTire3,
+			mechanicRequireKey = false,
+
+			table install
+			{
+
+                	time = 150,
+                	skills = Mechanics:1,
+                	recipes = Basic Mechanics,
+                	door = LP400TrunkDoorFront,
+                	test = Vehicles.InstallTest.Default,
+                	complete = LP400.InstallComplete.SpareTireS,
+            		}
+
+            		table uninstall
+            		{
+
+					time = 200,
+					skills = Mechanics:1,
+					recipes = Basic Mechanics,
+	            	test = Vehicles.UninstallTest.Default,
+	            	complete = LP400.UninstallComplete.SpareTireS,
+
+            		}
+
+	            lua
+	            {
+				create = LP400.Create.SpareTireS,
+				init = LP400.Init.SpareTireS,
+				}
+		}
+	}
+
+}
+

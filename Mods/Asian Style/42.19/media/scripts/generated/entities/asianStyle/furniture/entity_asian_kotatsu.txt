@@ -1,0 +1,51 @@
+module Base
+{		
+		xuiSkin default
+	{
+		entity ES_Asian_Kotatsu
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= ASEntityName_Kotatsu,
+			Icon		= Build_Asian_Kotatsu,
+		}
+	}
+
+
+    entity Asian_Kotatsu
+    {
+        component UiConfig
+        {
+            xuiSkin = default,
+            entityStyle = ES_Asian_Kotatsu,
+            uiEnabled = false,
+        }
+        component SpriteConfig
+        {
+            face S
+            {
+                layer
+                {
+                    row = fixtures_asianfurniture_01_5,
+                }
+            }
+
+        }
+        component CraftRecipe
+        {
+            timedAction = BuildLowHammer,
+            time = 50,
+            SkillRequired = Woodwork:5,
+            xpAward = Woodwork:50,
+            category = Asian,
+            Tags = Carpentry;Furniture,
+            Tooltip = Tooltip_craft_tableDesc,
+            inputs
+            {
+                item 1 tags[base:hammer] mode:keep flags[Prop1;MayDegradeVeryLight],
+                item 2 [Base.Plank],
+                item 2 [Base.Nails],
+                item 1 [Base.SheetMetal],
+            }
+        }
+    }
+}

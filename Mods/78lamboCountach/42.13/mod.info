@@ -1,0 +1,9 @@
+name='78 Lamborghini Countach
+id=78lamboCountach
+require=\damnlib
+poster=preview.png
+icon=icon.png
+description=This mod adds Lamborghini Countach from 1978
+author=KI5
+category=vehicle
+versionMin=42.13.0

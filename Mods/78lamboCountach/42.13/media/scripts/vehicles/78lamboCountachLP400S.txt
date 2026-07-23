@@ -1,0 +1,495 @@
+module Base
+{
+	model 78lamboCountachLP400SFront
+	{
+		mesh = vehicles/Vehicles_78lamboCountach_Body|lp400s_body_kit,
+		shader = damn_vehicle_shader,
+		scale = 0.1,
+	}
+	vehicle 78lamboCountachLP400S
+    {
+        mechanicType = 3,
+        offRoadEfficiency = 0.80,
+        engineRepairLevel = 4,
+        playerDamageProtection = 1.0,
+
+        model
+        {
+            file = 78lamboCountachBase,
+            scale = 0.9000,
+            offset = 0.0000 0.4111 -0.0778,
+        }
+
+        skin
+        {
+            texture = Vehicles/Vehicles_78lamboCountachS_Shell_arancio,
+        }
+
+        skin
+        {
+            texture = Vehicles/Vehicles_78lamboCountachS_Shell_argentoMetallizzato,
+        }
+
+        skin
+        {
+            texture = Vehicles/Vehicles_78lamboCountachS_Shell_biancoPoloPark,
+        }
+
+        skin
+        {
+            texture = Vehicles/Vehicles_78lamboCountachS_Shell_bluTahiti,
+        }
+
+        skin
+        {
+            texture = Vehicles/Vehicles_78lamboCountachS_Shell_gialloFly,
+        }
+
+        skin
+        {
+            texture = Vehicles/Vehicles_78lamboCountachS_Shell_marroneMetallizzato,
+        }
+
+        skin
+        {
+            texture = Vehicles/Vehicles_78lamboCountachS_Shell_nero,
+        }
+
+        skin
+        {
+            texture = Vehicles/Vehicles_78lamboCountachS_Shell_oroMetallizzatoLongchamp,
+        }
+
+        skin
+        {
+            texture = Vehicles/Vehicles_78lamboCountachS_Shell_rosso,
+        }
+
+        skin
+        {
+            texture = Vehicles/Vehicles_78lamboCountachS_Shell_verdeMedio,
+        }
+
+        textureRust = Vehicles/Vehicles_78lamboCountach_Rust,
+        textureMask = Vehicles/Vehicles_78lamboCountach_Mask,
+        textureLights = Vehicles/Vehicles_78lamboCountach_Lights,
+        textureDamage1Shell = Vehicles/Vehicles_78lamboCountach_Damage1,
+        textureDamage2Shell = Vehicles/Vehicles_78lamboCountach_Damage2,
+        textureDamage1Overlay = Vehicles/Vehicles_78lamboCountach_Blood1,
+        textureDamage2Overlay = Vehicles/Vehicles_78lamboCountach_Blood1,
+        textureShadow = Vehicles/Vehicles_78lamboCountachS_Shadow,
+
+        sound
+        {
+            engine = VehicleEngineDefault,
+            engineStart = VehicleEngineDefault,
+            engineTurnOff = VehicleEngineDefault,
+            horn = VehicleHornStandard,
+            ignitionFail = VehicleIgnitionFailDefault,
+        }
+
+        extents = 1.8222 0.9111 4.2889,
+        mass = 690,
+        physicsChassisShape = 1.8222 0.9111 4.2889,
+        centerOfMassOffset = 0.0000 0.4889 0.0000,
+        shadowExtents = 2.1095 4.1371,
+        shadowOffset = 0.0000 -0.0143,
+        engineForce = 5650,
+        maxSpeed = 140f,
+        engineLoudness = 70,
+        engineQuality = 73,
+        brakingForce = 85,
+        stoppingMovementForce = 4.0f,
+        rollInfluence = 0.97f,
+        steeringIncrement = 0.04,
+        steeringClamp = 0.3,
+        suspensionStiffness = 35,
+        suspensionCompression = 4.83,
+        suspensionDamping = 3.88,
+        maxSuspensionTravelCm = 18,
+        suspensionRestLength = 0.20f,
+        wheelFriction = 1.9f,
+        frontEndHealth = 255,
+        rearEndHealth = 160,
+        seats = 2,
+
+        wheel FrontLeft
+        {
+            front = true,
+            offset = 0.8000 -0.3444 1.2444,
+            radius = 0.30f,
+            width = 0.25f,
+        }
+
+        wheel FrontRight
+        {
+            front = true,
+            offset = -0.8000 -0.3444 1.2444,
+            radius = 0.30f,
+            width = 0.25f,
+        }
+
+        wheel RearLeft
+        {
+            front = false,
+            offset = 0.7778 -0.3444 -1.2667,
+            radius = 0.30f,
+            width = 0.32f,
+        }
+
+        wheel RearRight
+        {
+            front = false,
+            offset = -0.7778 -0.3444 -1.2667,
+            radius = 0.30f,
+            width = 0.32f,
+        }
+
+        template = PassengerSeat2,
+
+        passenger FrontLeft
+        {
+            showPassenger = true,
+            hasRoof = true,
+
+            position inside
+            {
+                offset = 0.3778 -0.2889 0.1778,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+
+            position outside
+            {
+                offset = 1.2222 -0.6222 -0.2778,
+                rotate = 0.0000 0.0000 0.0000,
+                area = SeatFrontLeft,
+            }
+        }
+
+        passenger FrontRight
+        {
+            showPassenger = true,
+            hasRoof = true,
+
+            position inside
+            {
+                offset = -0.3778 -0.2889 0.1778,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+
+            position outside
+            {
+                offset = -1.2111 -0.6222 -0.2444,
+                rotate = 0.0000 0.0000 0.0000,
+                area = SeatFrontRight,
+            }
+        }
+
+        area Engine
+        {
+            xywh = 1.3000 -1.0222 0.7778 1.1111,
+        }
+
+        area Front
+        {
+            xywh = 1.3000 1.5889 0.7778 1.1111,
+        }
+
+        area TruckBed
+        {
+            xywh = 0.0000 -2.5333 1.6000 0.7778,
+        }
+
+        area SeatFrontLeft
+        {
+            xywh = 1.3000 0.2444 0.7778 1.2000,
+        }
+
+        area SeatFrontRight
+        {
+            xywh = -1.3000 0.2444 0.7778 1.2000,
+        }
+
+        area SeatRearRight
+        {
+            xywh = -1.3000 -0.7333 0.7778 0.7556,
+        }
+
+        area SeatRearLeft
+        {
+            xywh = 1.3000 -0.7333 0.7778 0.7556,
+        }
+
+        area GasTank
+        {
+            xywh = 1.3556 -0.7000 0.4222 0.4222,
+        }
+
+        area TireFrontLeft
+        {
+            xywh = 1.4778 1.1444 0.4222 0.4222,
+        }
+
+        area TireFrontRight
+        {
+            xywh = -1.4778 1.1444 0.4222 0.4222,
+        }
+
+        area TireRearLeft
+        {
+            xywh = 1.4778 -1.3556 0.4222 0.4222,
+        }
+
+        area TireRearRight
+        {
+            xywh = -1.4778 -1.3556 0.4222 0.4222,
+        }
+
+        area Roofrack
+        {
+            xywh = 0.0000 -0.0556 3.1333 1.9556,
+        }
+
+        template = LP400TrunkCompartment,
+        template = LP400Seats,
+        template = LP400BumpersS,
+        template = LP400Doors,
+        template = LP400EngineDoor,
+        template = LP400TrunkDoors,
+        template = LP400Armor,
+        template = LP400SpareTireS,
+        template = LP400Wipers,
+        template = LP400SpoilerS,
+        template = LP400SpoilerFrontS,
+        template = LP400HoodVentS,
+        template = LP400PopupLights,
+        template = LP400Roofracks,
+
+        part GloveBox
+        {
+            area = SeatFrontRight,
+            itemType = Base.GloveBox,
+            mechanicRequireKey = true,
+
+            model bodyfrontLP400S
+            {
+                file = 78lamboCountachLP400SFront,
+                scale = 1.0,
+                offset = 0.0000 0.0000 0.0000,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+
+            model interiorLP400
+            {
+                file = 78lamboCountachInterior,
+                scale = 1.0,
+                offset = 0.0000 0.0000 0.0000,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+
+            container
+            {
+                capacity = 7,
+                test = Vehicles.ContainerAccess.GloveBox,
+            }
+
+            lua
+            {
+                create = Vehicles.Create.Default,
+            }
+        }
+
+        template = GasTank,
+
+        part GasTank
+        {
+            area = TruckBed,
+
+            install
+            {
+                skills = Mechanics:7,
+                recipes = Intermediate Mechanics,
+            }
+
+            uninstall
+            {
+                skills = Mechanics:7,
+                recipes = Intermediate Mechanics,
+            }
+        }
+
+        template = Battery,
+
+        part Battery
+		{
+			model batlamb
+			{
+				file = 78lamboCountachBattery,
+			}
+
+            area = Front,
+        }
+
+        template = Engine,
+        template = Muffler,
+
+        part Muffler
+        {
+            model muff
+            {
+                file = 78lamboCountachMuffler,
+                offset = 0.0000 0.0000 0.0000,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+
+            table install
+            {
+                recipes = Intermediate Mechanics,
+            }
+
+            table uninstall
+            {
+                recipes = Intermediate Mechanics,
+            }
+        }
+
+        part Heater
+        {
+            category = engine,
+
+            lua
+            {
+                update = Vehicles.Update.Heater,
+            }
+        }
+
+        part PassengerCompartment
+        {
+            category = nodisplay,
+
+            lua
+            {
+                update = Vehicles.Update.PassengerCompartment,
+            }
+        }
+
+        template = LP400TiresS,
+        template = Brake,
+
+        part Brake*
+        {
+            table install
+            {
+                skills = Mechanics:6,
+                recipes = Intermediate Mechanics,
+            }
+
+            table uninstall
+            {
+                skills = Mechanics:6,
+                recipes = Intermediate Mechanics,
+            }
+        }
+
+        template = Suspension,
+
+        part Suspension*
+        {
+            table install
+            {
+                skills = Mechanics:6,
+                recipes = Intermediate Mechanics,
+            }
+
+            table uninstall
+            {
+                skills = Mechanics:6,
+                recipes = Intermediate Mechanics,
+            }
+        }
+
+        template = Radio,
+
+        part Radio
+        {
+            area = TruckBed,
+        }
+
+        template = Headlight,
+
+        part HeadlightLeft
+        {
+            area = Front,
+        }
+
+        part HeadlightRight
+        {
+            area = Front,
+        }
+
+        part HeadlightRearLeft
+        {
+            area = Engine,
+        }
+
+        part HeadlightRearRight
+        {
+            area = Engine,
+        }
+
+        template = LP400Windows,
+        template = LP400Windshields,
+        template = DAMNglobal,
+        template = DAMN78lamboCountachLP400S,
+        useChassisPhysicsCollision = false,
+
+        physics box
+        {
+            offset = 0.0000 0.4706 -0.3111,
+            extents = 1.8222 0.8889 1.4889,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+
+        physics box
+        {
+            offset = 0.0000 0.4717 0.9333,
+            extents = 1.8000 0.4889 1.2444,
+            rotate = 20.0000 0.0000 0.0000,
+        }
+
+        physics box
+        {
+            offset = 0.0000 0.5148 -1.5444,
+            extents = 1.8222 0.6000 1.1111,
+            rotate = -11.0000 0.0000 0.0000,
+        }
+
+        physics box
+        {
+            offset = 0.0000 0.2889 1.7902,
+            extents = 1.8000 0.2000 0.6222,
+            rotate = 25.0000 0.0000 0.0000,
+        }
+
+        physics box
+        {
+            offset = 0.0000 0.1815 0.0111,
+            extents = 1.8222 0.3111 3.8000,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+
+        attachment trailer
+        {
+            offset = 0.0000 -0.2556 -2.1000,
+            rotate = 0.0000 0.0000 0.0000,
+            zoffset = -1.0000,
+        }
+
+        attachment trailerfront
+        {
+            offset = 0.0000 -0.2556 2.2889,
+            rotate = 0.0000 0.0000 0.0000,
+            zoffset = 1.0000,
+        }
+    }
+}

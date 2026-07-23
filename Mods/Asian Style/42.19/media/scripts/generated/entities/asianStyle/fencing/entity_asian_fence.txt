@@ -1,0 +1,60 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Asian_Fence
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= ASEntityName_Fence,
+			Icon		= Build_AsianFence,
+		}
+	}
+
+    entity Asian_Fence
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Asian_Fence,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+			health          = 250,
+			skillBaseHealth = 20,
+
+            face W
+            {
+                layer
+                {
+                    row = asianfence_01_0,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = asianfence_01_1,
+                }
+            }
+            corner  =   asianfence_01_3,
+        }
+		
+        component CraftRecipe
+        {
+            timedAction   = BuildWoodenStructureSmall,
+            time          = 50,
+            SkillRequired = Woodwork:2,
+            xpAward       = Woodwork:20,
+            category      = Asian,
+            ToolTip       = Tooltip_craft_sandBagDesc,
+            inputs
+            {
+                item 1 tags[base:hammer] mode:keep flags[Prop1;MayDegradeVeryLight],
+                item 3 [Base.Plank],
+                item 4 [Base.Nails],
+            }
+        }
+    }
+}

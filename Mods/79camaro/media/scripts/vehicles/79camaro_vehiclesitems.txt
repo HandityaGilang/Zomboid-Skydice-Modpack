@@ -1,0 +1,353 @@
+module Base
+
+{
+    /************************ Tires ************************/  
+
+    item 79camaroTire3
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   12.0,
+        Type    =   Normal,
+        VehicleType =   3,
+        DisplayName =   79 Chevrolet Camaro Tire,
+        Icon    =   CAM79_tire1,
+        MaxCapacity = 35,
+        ChanceToSpawnDamaged = 0,
+        WheelFriction = 1.87,
+        ConditionMax = 100,
+        ConditionLowerStandard = 0.5,
+        ConditionLowerOffroad = 0.11,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 79camaroTireWI,
+    }
+
+    item 79camaroGhostTire3
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   14.0,
+        Type    =   Normal,
+        VehicleType =   3,
+        DisplayName =   79 Chevrolet Camaro Ghost Tire,
+        Icon    =   CAM79_tire2,
+        MaxCapacity = 35,
+        ChanceToSpawnDamaged = 0,
+        WheelFriction = 1.9,
+        ConditionMax = 100,
+        ConditionLowerStandard = 0.01,
+        ConditionLowerOffroad = 0.02,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 79camaroGhostTireWI,
+    }
+
+	/************************* Doors ************************/
+
+    item 79camaroFrontDoor3
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	10.0,
+        Type	=	Normal,
+        VehicleType =   3,
+        DisplayName	=	79 Chevrolet Camaro Front Door,
+        Icon	=	CAM79_doorf,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 79camaroFrontDoorWI,
+    }
+
+	/************************ Carmor ************************/
+
+    item 79camaroWindshieldArmor
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   13.0,
+        Type    =   Normal,
+        VehicleType =   3,
+        DisplayName =   79 Chevrolet Camaro Windshield Armor,
+        Icon    =   CAM79_windfa,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 79camaroWindshieldArmorWI,
+    }
+	item 79camaroFrontWindowArmor
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	7.0,
+        Type	=	Normal,
+        VehicleType =   3,
+        DisplayName	=	79 Chevrolet Camaro Front Window Armor,
+        Icon	=	CAM79_winfa,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 79camaroFrontWindowArmorWI,
+    }
+
+    item 79camaroWindshieldRearArmor
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   13.0,
+        Type    =   Normal,
+        VehicleType =   3,
+        DisplayName =   79 Chevrolet Camaro Rear Windshield Armor,
+        Icon    =   CAM79_windra,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 79camaroWindshieldRearArmorWI,
+    }
+
+    /************************ Hood ************************/
+
+    item 79camaroEngineDoor3
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	9.0,
+        Type	=	Normal,
+        VehicleType =   3,
+        DisplayName	=	79 Chevrolet Camaro Hood,
+        Icon	=	CAM79_hood0,
+        ChanceToSpawnDamaged = 25,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 79camaroEngineDoorWI,
+    }
+
+    item 79camaroZ28EngineDoor3
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	10.0,
+        Type	=	Normal,
+        VehicleType =   3,
+        DisplayName	=	79 Chevrolet Camaro Z28 Hood,
+        Icon	=	CAM79_hood2,
+        ChanceToSpawnDamaged = 25,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 79camaroZ28EngineDoorWI,
+    }
+
+    item 79camaroGhostEngineDoor3
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	8.0,
+        Type	=	Normal,
+        VehicleType =   3,
+        DisplayName	=	79 Chevrolet Camaro Ghost Hood,
+        Icon	=	CAM79_hood1,
+        ChanceToSpawnDamaged = 25,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 79camaroGhostEngineDoorWI,
+    }
+
+    /************************ Trunk Lid ************************/
+
+    item 79camaroTrunkDoor3
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	8.0,
+        Type	=	Normal,
+        VehicleType =   3,
+        DisplayName	=	79 Chevrolet Camaro Trunk Lid,
+        Icon	=	CAM79_trunkl,
+        ChanceToSpawnDamaged = 25,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 79camaroTrunkDoorWI,
+    }
+
+    /************************ Seats ************************/
+
+     item 79camaroSeatFront3
+     {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	13.0,
+        Type	=	Normal,
+        VehicleType =   3,
+        DisplayName	=	79 Chevrolet Camaro Front Seat,
+        Icon	=	CAM79_seatf,
+        MaxCapacity = 20,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 79camaroSeatFrontWI,
+     }
+
+     item 79camaroSeatRear3
+     {
+     DisplayCategory = VehicleMaintenance,
+         Weight =   13.0,
+         Type   =   Normal,
+         VehicleType =   3,
+         DisplayName    =   79 Chevrolet Camaro Rear Seat,
+         Icon   =   CAM79_seatr,
+         MaxCapacity = 20,
+         ChanceToSpawnDamaged = 20,
+         ConditionMax = 100,
+         MechanicsItem = TRUE,
+         WorldStaticModel = 79camaroSeatRearWI,
+     }
+
+
+     /************************ Bumpers ************************/
+
+	item 79camaroBumperFront0
+      {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	9.0,
+        Type	=	Normal,
+        VehicleType =   3,
+        DisplayName	=	79 Chevrolet Camaro Front Bumper,
+        Icon	=	CAM79_bump0,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 79camaroBumperFront0WI,
+      }
+
+    item 79camaroBumperFrontA
+      {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   12.0,
+        Type    =   Normal,
+        VehicleType =   3,
+        DisplayName =   79 Chevrolet Camaro Reinforced Bumper,
+        Icon    =   CAM79_bumpA,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 79camaroBumperFrontAWI,
+      }
+
+    item 79camaroGhostBumperFrontB
+      {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   18.0,
+        Type    =   Normal,
+        VehicleType =   3,
+        DisplayName =   79 Chevrolet Camaro Ghost Bullbar,
+        Icon    =   CAM79_bumpB,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 79camaroGhostBumperFrontBWI,
+      }
+
+    item 79camaroBumperRear
+      {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   10.0,
+        Type    =   Normal,
+        VehicleType =   3,
+        DisplayName =   79 Chevrolet Camaro Rear Bumper,
+        Icon    =   CAM79_bumpr0,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 79camaroBumperRearWI,
+      }
+
+     /************************ Windows ************************/
+
+	item 79camaroWindshield3
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	9.0,
+        Type	=	Normal,
+        VehicleType =   3,
+        DisplayName	=	79 Chevrolet Camaro Windshield,
+        Icon	=	CAM79_windf,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 79camaroWindshieldWI,
+    }
+
+	item 79camaroFrontSideWindow3
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	4.0,
+        Type	=	Normal,
+        VehicleType =   3,
+        DisplayName	=	79 Chevrolet Camaro Front Side Window,
+        Icon	=	CAM79_winf,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 79camaroFrontSideWindowWI,
+    }
+
+    item 79camaroRearWindshield3
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   10.0,
+        Type    =   Normal,
+        VehicleType =   3,
+        DisplayName =   79 Chevrolet Camaro Rear Windshield,
+        Icon    =   CAM79_windr,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 79camaroRearWindshieldWI,
+    }
+
+    /************************ Spoilers ************************/
+
+    item 79camaroSpoiler3
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   2.5,
+        Type    =   Normal,
+        VehicleType =   3,
+        DisplayName =   79 Chevrolet Camaro Spoiler,
+        Icon    =   CAM79_spoiler0,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 79camaroSpoilerWI,
+    }
+
+    item 79camaroGhostSpoiler3
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   1.85,
+        Type    =   Normal,
+        VehicleType =   3,
+        DisplayName =   79 Chevrolet Camaro Ghost Spoiler,
+        Icon    =   CAM79_spoiler1,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 79camaroGhostSpoilerWI,
+    }
+
+    /************************ Mudflaps ************************/
+
+    item 79camaroGhostMudflaps3
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  = 2.5,
+        Type  = Normal,
+        VehicleType =   3,
+        DisplayName = 79 Chevrolet Camaro Ghost Mudflaps,
+        Icon  = CAM79_muds,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 79camaroGhostMudflapsWI,
+    }
+
+    /************************ Lip ************************/
+
+	item 79camaroZ28Lip3
+      {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	2.0,
+        Type	=	Normal,
+        VehicleType =   3,
+        DisplayName	=	79 Chevrolet Camaro Z28 Front Lip,
+        Icon	=	CAM79_lip0,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 79camaroZ28LipWI,
+      }
+
+}

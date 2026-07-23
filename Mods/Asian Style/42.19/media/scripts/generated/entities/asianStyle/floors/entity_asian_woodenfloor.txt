@@ -1,0 +1,57 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Asian_WoodenFloor
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= ASEntityName_WoodenFloor,
+			Icon		= Build_WoodWide,
+		}
+	}
+
+    entity Asian_WoodenFloor
+    {
+        component UiConfig
+                {
+                    xuiSkin         = default,
+                    entityStyle     = ES_Asian_WoodenFloor,
+                    uiEnabled       = false,
+                }
+
+        component SpriteConfig
+        {
+		    isThumpable     = false,
+		    OnIsValid       = BuildRecipeCode.floor.OnIsValid,
+		    OnCreate        = NB_BuildRecipeCode.Floors.OnCreate,
+			
+            face E
+            {
+                layer
+                {
+                    row = interior_asianfloor_01_26,
+                }
+            }
+            face S
+            {
+                layer
+                {
+                    row = interior_asianfloor_01_27,
+                }
+            }
+        }
+		
+        component CraftRecipe
+        {
+            timedAction   = BuildLowNoTool,
+            time          = 50,
+            category      = Asian,
+            ToolTip       = Tooltip_craft_woodFloorDesc,
+            inputs
+            {
+                item 1 [Base.Plank],
+                item 1 [Base.Nails],
+            }
+        }
+    }
+}

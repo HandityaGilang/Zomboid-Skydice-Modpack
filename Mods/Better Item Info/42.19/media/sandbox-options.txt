@@ -1,0 +1,25 @@
+VERSION = 1,
+
+option BetterItemInfo.FoodLevelRequirement
+{
+    type = boolean,
+    default = true,
+    page = BetterItemInfo,
+    translation = BetterItemInfo_FoodLevelRequirement,
+}
+
+option BetterItemInfo.WeaponLevelRequirement
+{
+    type = boolean,
+    default = true,
+    page = BetterItemInfo,
+    translation = BetterItemInfo_WeaponLevelRequirement,
+}
+
+option BetterItemInfo.MaintenanceLevelRequirement
+{
+    type = boolean,
+    default = true,
+    page = BetterItemInfo,
+    translation = BetterItemInfo_MaintenanceLevelRequirement,
+}

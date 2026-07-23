@@ -1,0 +1,93 @@
+module Base
+{
+	recipe Repair 78 Lamborghini Countach Tire
+    	{
+		78lamboCountachTire3/78lamboCountachSTire3,
+		TireRepairTools,
+		TireRepairRubberSolution,
+		TireRepairStrips,
+
+		NoBrokenItems:false,
+		Result:TireRepairTools,
+		Time:250.0,
+		OnCreate:DAMN.OnCreate.RepairTire,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+    }
+
+	fixing Fix 78 Lamborghini Countach Seat
+	{
+	   Require : 78lamboCountachSeatFront3,
+	   ConditionModifier : 0.5,
+
+       Fixer : DuctTape=2;Mechanics=1,
+	}
+	
+	fixing Fix 78 Lamborghini Countach Hood Welding
+	{
+	   Require : 78lamboCountachEngineDoor3,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+	}
+
+   fixing Fix 78 Lamborghini Countach Hood
+	{
+	   Require : 78lamboCountachEngineDoor3,
+	   GlobalItem : Screws=8,
+	   ConditionModifier : 0.5,
+
+       Fixer : SheetMetal; Mechanics=2,
+	}
+
+	fixing Fix 78 Lamborghini Countach Lid Welding
+    {
+       Require : 78lamboCountachFrontTrunkDoor3;78lamboCountachTrunkDoor3,
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=1;Mechanics=2,
+       Fixer : SmallSheetMetal=2; MetalWelding=1;Mechanics=2,
+    }
+
+   fixing Fix 78 Lamborghini Countach Lid
+	{
+      Require : 78lamboCountachFrontTrunkDoor3;78lamboCountachTrunkDoor3,
+	   GlobalItem : Screws=8,
+	   ConditionModifier : 0.5,
+
+       Fixer : SheetMetal; Mechanics=2,
+	}
+
+	fixing Fix 78 Lamborghini Countach Door Welding
+	{
+	   Require : 78lamboCountachFrontDoor3,
+	   GlobalItem : BlowTorch=5,
+	   ConditionModifier : 1.2,
+
+       Fixer : SheetMetal; MetalWelding=3;Mechanics=3,
+       Fixer : SmallSheetMetal=2; MetalWelding=3;Mechanics=3,
+	}
+
+	fixing Fix 78 Lamborghini Countach Armor Welding
+    {
+       Require : 78lamboCountachWindshieldArmor;78lamboCountachFrontWindowArmor;78lamboCountachRearWindowArmor;78lamboCountachWindshieldRearArmor;78lamboCountachBumperFrontA;78lamboCountachSBumperFrontB;78lamboCountachBullbarA,
+       GlobalItem : BlowTorch=5,
+       ConditionModifier : 0.75,
+
+       Fixer : SheetMetal; MetalWelding=4;Mechanics=4,
+       Fixer : SmallSheetMetal=2; MetalWelding=4;Mechanics=4,
+    }
+
+    fixing Fix 78 Lamborghini Countach Plastic Welding
+    {
+       Require : 78lamboCountachBumperFront;78lamboCountachSBumperFront;78lamboCountachSBumperRear;78lamboCountachFrontSpoiler3;78lamboCountachRearSpoiler3;78lamboCountachRearSpoilerTwo3;78lamboCountachEngineDoorVent3;78lamboCountachWipers3,
+       GlobalItem : PlasticWeldingGun=250,
+       ConditionModifier : 0.85,
+
+       Fixer : PlasticWeldingStaples100Pack; Mechanics=4,
+    }
+
+}

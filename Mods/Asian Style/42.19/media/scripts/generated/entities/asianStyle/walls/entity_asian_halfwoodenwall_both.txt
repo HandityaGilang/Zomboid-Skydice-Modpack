@@ -1,0 +1,66 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Asian_HalfWoodenWall_Both
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= ASEntityName_HalfWoodenWall_Both,
+			Icon		= Build_ASHalfWoodenWall_Both,
+		}
+	}
+
+    entity Asian_HalfWoodenWall_Both
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Asian_HalfWoodenWall_Both,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+			LogicClass      = WoodenWall,
+			health          = 800,
+			skillBaseHealth = 70,
+            OnCreate = NB_BuildRecipeCode.NewWall.OnCreate,
+			breakSound      = ZombieThumpWoodCollapse,
+
+
+            face W
+            {
+                layer
+                {
+                    row = fixtures_asianwalls_01_52,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = fixtures_asianwalls_01_53,
+                }
+            }
+			
+            corner = fixtures_asianwalls_03_39,
+        }
+		
+        component CraftRecipe
+        {	OnAddToMenu   = ignoreFromBuildMenu,
+            timedAction   = BuildWallHammer,
+            time          = 200,
+            category      = Asian,
+			SkillRequired = Woodwork:5,
+            xpAward       = Woodwork:50,
+            ToolTip       = Tooltip_craft_NeedsWallframeDesc,
+            inputs
+            {
+                item 1 tags[base:hammer] mode:keep flags[Prop1;MayDegradeVeryLight],
+				item 1 [Base.BucketPlasterFull],
+                item 4 [Base.Plank],
+                item 4 [Base.Nails],
+            }
+        }
+    }
+}

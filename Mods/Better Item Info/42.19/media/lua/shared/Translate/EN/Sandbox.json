@@ -1,0 +1,9 @@
+{
+    "Sandbox_BetterItemInfo": "Better Item Info",
+    "Sandbox_BetterItemInfo_FoodLevelRequirement": "Food Info Level Requirements",
+    "Sandbox_BetterItemInfo_FoodLevelRequirement_tooltip": "If Cooking levels are required to see extra food and liquid nutrition information.",
+    "Sandbox_BetterItemInfo_WeaponLevelRequirement": "Weapon Info Level Requirements",
+    "Sandbox_BetterItemInfo_WeaponLevelRequirement_tooltip": "If weapon skill levels are required to see extra melee weapon information.",
+    "Sandbox_BetterItemInfo_MaintenanceLevelRequirement": "Weapon Condition Info Level Requirements",
+    "Sandbox_BetterItemInfo_MaintenanceLevelRequirement_tooltip": "If Maintenance levels are required to see extra weapon and item condition information."
+}

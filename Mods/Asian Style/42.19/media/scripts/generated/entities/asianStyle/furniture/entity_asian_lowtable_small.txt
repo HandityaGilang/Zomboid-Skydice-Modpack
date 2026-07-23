@@ -1,0 +1,50 @@
+module Base
+{		
+		xuiSkin default
+	{
+		entity ES_Asian_TableLow_Small
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= ASEntityName_TableLow_Small,
+			Icon		= Build_Asian_TableLow_Small,
+		}
+	}
+
+
+    entity Asian_TableLow_Small
+    {
+        component UiConfig
+        {
+            xuiSkin = default,
+            entityStyle = ES_Asian_TableLow_Small,
+            uiEnabled = false,
+        }
+        component SpriteConfig
+        {
+             face S
+            {
+                layer
+                {
+                    row = fixtures_asianfurniture_01_0,
+                }
+            }
+            
+        }
+        component CraftRecipe
+        {	OnAddToMenu   = ignoreFromBuildMenu,
+            timedAction = BuildLowHammer,
+            time = 50,
+            SkillRequired = Woodwork:5,
+            xpAward = Woodwork:50,
+            category = Asian,
+            Tags = Carpentry;Furniture,
+            Tooltip = Tooltip_craft_tableDesc,
+            inputs
+            {
+                item 1 tags[base:hammer] mode:keep flags[Prop1;MayDegradeVeryLight],
+                item 2 [Base.Plank],
+                item 2 [Base.Nails],
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+Sandbox_PTBR = {
+Sandbox_BecomeDesensitized = "Torne-se dessensibilizado",
+
+Sandbox_MinimumZombieKills = "Mínimo de abates de zumbis (DEVE SER MENOR DO QUE O MÁXIMO DE ABATES DE ZUMBIS)",
+Sandbox_MinimumZombieKills_tooltip = "Mínimo de abates de zumbis necessários para ter uma chance de se tornar dessensibilizado.",
+
+Sandbox_MaximumZombieKills = "Máximo de abates de zumbis (DEVE SER MAIOR DO QUE O MÍNIMO DE ABATES DE ZUMBIS)",
+Sandbox_MaximumZombieKills_tooltip = "Máximo de abates de zumbis necessários para se tornar dessensibilizado.",
+Sandbox_ConsiderTraits = "Considerar Traços",
+Sandbox_ConsiderTraits_tooltip = "Considerar traços que podem aumentar a chance de se tornar dessensibilizado (mais informações na página do workshop)",
+
+Sandbox_ConsiderOccupations = "Considerar Ocupações",
+Sandbox_ConsiderOccupations_tooltip = "Considerar as ocupações de Policial, Bombeiro, Segurança, Médico e Enfermeiro que podem aumentar a chance de se tornar dessensibilizado",
+
+Sandbox_Logging = "Ativar Console de Registro",
+Sandbox_Logging_tooltip = "Ideal para servidores para depurar problemas que possam surgir ou apenas para testes.",
+}

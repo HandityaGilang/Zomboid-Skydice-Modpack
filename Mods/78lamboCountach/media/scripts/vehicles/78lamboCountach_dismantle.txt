@@ -1,0 +1,81 @@
+module Base
+
+{
+	recipe Dismantle 78 Lamborghini Countach Tire
+    {
+		78lamboCountachTire3/78lamboCountachSTire3,
+		keep Crowbar,
+
+		NoBrokenItems:false,
+		Result:SteelRimSmall,
+		Time:350.0,
+		Category:Recycling,
+		SkillRequired:Mechanics=2,
+		OnCreate:DAMN.OnCreate.DismantleTireSmall,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+    }
+
+    recipe Dismantle 78 Lamborghini Countach Lid
+    {
+		78lamboCountachEngineDoor3/78lamboCountachFrontTrunkDoor3/78lamboCountachTrunkDoor3,
+		BlowTorch=3,
+       	keep WeldingMask,
+
+		NoBrokenItems:false,
+		Result:Screws=1,
+		Time:400.0,
+		Category:Recycling,
+		SkillRequired:MetalWelding=3,
+		OnCreate:DAMN.OnCreate.DismantleTrunkLid,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+    }
+
+    recipe Dismantle 78 Lamborghini Countach Door
+    {
+		78lamboCountachFrontDoor3,
+		BlowTorch=3,
+       	keep WeldingMask,
+
+		NoBrokenItems:false,
+		Result:damnCraft.HandleModern,
+		Time:400.0,
+		Category:Recycling,
+		SkillRequired:MetalWelding=3,
+		OnCreate:DAMN.OnCreate.DismantleDoor,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+    }
+
+    recipe Dismantle 78 Lamborghini Countach Armor
+    {
+		78lamboCountachWindshieldArmor/78lamboCountachFrontWindowArmor/78lamboCountachRearWindowArmor/78lamboCountachWindshieldRearArmor/78lamboCountachBumperFrontA/78lamboCountachSBumperFrontB/78lamboCountachBullbarA,
+		BlowTorch=3,
+       	keep WeldingMask,
+
+		NoBrokenItems:false,
+		Result:SheetMetal=1,
+		Time:500.0,
+		Category:Recycling,
+		SkillRequired:MetalWelding=3,
+		OnCreate:DAMN.OnCreate.DismantleRim,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+    }
+
+    recipe Dismantle 78 Lamborghini Countach Seat
+    {
+		78lamboCountachSeatFront3,
+		keep [Recipe.GetItemTypes.SharpKnife]/[Recipe.GetItemTypes.DullKnife]/Scalpel,
+
+		NoBrokenItems:false,
+		Result:SeatFrameLarge=1,
+		Time:350.0,
+		Category:Recycling,
+		SkillRequired:Mechanics=1,
+		OnCreate:DAMN.OnCreate.DismantleSeat,
+		NeedToBeLearn:false,
+		CanBeDoneFromFloor:true,
+    }
+}

@@ -1,0 +1,7 @@
+{
+	"Sandbox_BecomeDesensitized": "Become Desensitized",
+    "Sandbox_MinimumZombieKills": "Minimum Zombie Kills (MUST BE LESS THAN MAXIMUM ZOMBIE KILLS)",
+    "Sandbox_MaximumZombieKills": "Maximum Zombie Kills (MUST BE GREATER THAN MINIMUM ZOMBIE KILLS)",
+    "Sandbox_ConsiderTraits": "Consider Traits",
+    "Sandbox_ConsiderOccupations": "Consider Occupations"
+}

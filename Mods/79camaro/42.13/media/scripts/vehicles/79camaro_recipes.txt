@@ -1,0 +1,427 @@
+module Base
+
+{
+    craftRecipe 79camaroMakeTire
+	{
+        timedAction = Making,
+        time = 200,
+        Tags = InHandCraft,
+        category = Mechanical,
+        xpAward = Mechanics:2,
+        SkillRequired = Mechanics:2,
+        OnCreate = DAMN.OnCreate.PassSecondCond,
+
+        inputs
+        {
+            item 1 [damnCraft.SteelRimSmall],
+            item 1 [damnCraft.TireRubberNewSmall;damnCraft.TireRubberUsedSmall;damnCraft.TireRubberDestroyedSmall] mode:destroy,
+            item 1 [Base.Crowbar] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.79camaroTire3,
+        }
+	}
+
+    craftRecipe 79camaroGhostMakeTire
+	{
+        timedAction = Making,
+        time = 200,
+        Tags = InHandCraft,
+        category = Mechanical,
+        xpAward = Mechanics:2,
+        SkillRequired = Mechanics:2,
+        OnCreate = DAMN.OnCreate.PassSecondCond,
+
+        inputs
+        {
+            item 1 [damnCraft.SteelRimSmall],
+            item 1 [damnCraft.TireRubberNewSmall;damnCraft.TireRubberUsedSmall;damnCraft.TireRubberDestroyedSmall] mode:destroy,
+            item 1 [Base.Crowbar] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.79camaroGhostTire3,
+        }
+	}
+
+    craftRecipe 79camaroMakeHoodRS
+	{
+        timedAction = Welding,
+        time = 200,
+        Tags = InHandCraft;Welding,
+        category = Mechanical,
+        xpAward = MetalWelding:20,
+        SkillRequired = MetalWelding:5,
+        NeedToBeLearn = True,
+
+        inputs
+        {
+            item 2 [damnCraft.HingeLarge],
+            item 4 [Base.SheetMetal],
+            item 2 [Base.Screws],
+			item 9 [Base.BlowTorch],
+            item 1 tags[WeldingMask] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.79camaroEngineDoor3,
+        }
+	}
+
+    craftRecipe 79camaroMakeHoodZ28
+	{
+        timedAction = Welding,
+        time = 200,
+        Tags = InHandCraft;Welding,
+        category = Mechanical,
+        xpAward = MetalWelding:20,
+        SkillRequired = MetalWelding:5,
+        NeedToBeLearn = True,
+
+        inputs
+        {
+            item 2 [damnCraft.HingeLarge],
+            item 4 [Base.SheetMetal],
+            item 2 [Base.Screws],
+			item 9 [Base.BlowTorch],
+            item 1 tags[WeldingMask] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.79camaroZ28EngineDoor3,
+        }
+	}
+
+    craftRecipe 79camaroGhostMakeHood
+	{
+        timedAction = Welding,
+        time = 200,
+        Tags = InHandCraft;Welding,
+        category = Mechanical,
+        xpAward = MetalWelding:20,
+        SkillRequired = MetalWelding:5,
+        NeedToBeLearn = True,
+
+        inputs
+        {
+            item 2 [damnCraft.HingeLarge],
+            item 4 [Base.SheetMetal],
+            item 2 [Base.Screws],
+			item 9 [Base.BlowTorch],
+            item 1 tags[WeldingMask] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.79camaroGhostEngineDoor3,
+        }
+	}
+
+	craftRecipe 79camaroMakeFrontDoor
+	{
+        timedAction = Welding,
+        time = 200,
+        Tags = InHandCraft;Welding,
+        category = Mechanical,
+        xpAward = MetalWelding:25,
+        SkillRequired = MetalWelding:7,
+        NeedToBeLearn = True,
+
+        inputs
+        {
+            item 1 [damnCraft.HandleModern],
+            item 2 [damnCraft.HingeSmall],
+            item 2 [Base.SheetMetal],
+            item 2 [Base.SmallSheetMetal],
+            item 2 [Base.Screws],
+			item 10 [Base.BlowTorch],
+            item 1 tags[WeldingMask] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.79camaroFrontDoor3,
+        }
+	}
+
+	craftRecipe 79camaroMakeTrunkLid
+	{
+        timedAction = Welding,
+        time = 200,
+        Tags = InHandCraft;Welding,
+        category = Mechanical,
+        xpAward = MetalWelding:20,
+        SkillRequired = MetalWelding:7,
+        NeedToBeLearn = True,
+
+        inputs
+        {
+            item 1 [damnCraft.HandleModern],
+            item 2 [damnCraft.HingeLarge],
+            item 2 [Base.SheetMetal],
+            item 2 [Base.Screws],
+			item 8 [Base.BlowTorch],
+            item 1 tags[WeldingMask] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.79camaroTrunkDoor3,
+        }
+	}
+
+	craftRecipe 79camaroMakeFrontSeat
+	{
+        timedAction = Making,
+        time = 200,
+        Tags = InHandCraft,
+        category = Mechanical,
+        xpAward = Mechanics:2,
+        SkillRequired = Mechanics:3,
+        NeedToBeLearn = True,
+
+        inputs
+        {
+            item 1 [damnCraft.SeatFabric],
+            item 2 [damnCraft.SeatFoam],
+            item 1 [damnCraft.SeatFrameLarge],
+            item 1 [Base.Screws],
+            item 1 tags[Screwdriver] mode:keep flags[MayDegradeLight;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.79camaroSeatFront3,
+        }
+	}
+
+	craftRecipe 79camaroMakeRearSeat
+	{
+        timedAction = Making,
+        time = 200,
+        Tags = InHandCraft,
+        category = Mechanical,
+        xpAward = Mechanics:2,
+        SkillRequired = Mechanics:3,
+        NeedToBeLearn = True,
+
+        inputs
+        {
+            item 1 [damnCraft.SeatFabric],
+            item 2 [damnCraft.SeatFoam],
+            item 1 [damnCraft.SeatFrameLarge],
+            item 1 [Base.Screws],
+            item 1 tags[Screwdriver] mode:keep flags[MayDegradeLight;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.79camaroSeatRear3,
+        }
+	}
+
+    craftRecipe 79camaroMakeFrontWindshield
+	{
+        timedAction = Making,
+        time = 200,
+        Tags = InHandCraft,
+        category = Mechanical,
+        xpAward = Mechanics:2,
+        SkillRequired = Mechanics:3,
+        NeedToBeLearn = True,
+
+        inputs
+        {
+            item 3 [Base.GlassPanel],
+            item 4 [damnCraft.RubberStrip],
+            item 1 [Base.Scalpel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.79camaroWindshield3,
+        }
+	}
+
+    craftRecipe 79camaroMakeFrontSideWindow
+	{
+        timedAction = Making,
+        time = 200,
+        Tags = InHandCraft,
+        category = Mechanical,
+        xpAward = Mechanics:3,
+        SkillRequired = Mechanics:3,
+        NeedToBeLearn = True,
+
+        inputs
+        {
+            item 2 [Base.GlassPanel],
+            item 4 [damnCraft.RubberStrip],
+            item 1 [Base.Scalpel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.79camaroFrontSideWindow3,
+        }
+	}
+
+    craftRecipe 79camaroMakeRearWindshield
+	{
+        timedAction = Making,
+        time = 200,
+        Tags = InHandCraft,
+        category = Mechanical,
+        xpAward = Mechanics:2,
+        SkillRequired = Mechanics:3,
+        NeedToBeLearn = True,
+
+        inputs
+        {
+            item 2 [Base.GlassPanel],
+            item 4 [damnCraft.RubberStrip],
+            item 1 [Base.Scalpel] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.79camaroRearWindshield3,
+        }
+	}
+
+	craftRecipe 79camaroMakeFrontWindowArmor
+	{
+        timedAction = Welding,
+        time = 200,
+        Tags = InHandCraft;Welding,
+        category = Armoring,
+        xpAward = MetalWelding:20,
+        SkillRequired = MetalWelding:4,
+
+        inputs
+        {
+            item 2 [Base.SheetMetal],
+            item 1 [Base.SmallSheetMetal],
+            item 2 [Base.MetalPipe],
+            item 2 [Base.Screws],
+			item 7 [Base.BlowTorch],
+            item 1 tags[WeldingMask] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.79camaroFrontWindowArmor,
+        }
+	}
+
+	craftRecipe 79camaroMakeFrontWindshieldArmor
+	{
+        timedAction = Welding,
+        time = 200,
+        Tags = InHandCraft;Welding,
+        category = Armoring,
+        xpAward = MetalWelding:20,
+        SkillRequired = MetalWelding:4,
+
+        inputs
+        {
+            item 1 [Base.SheetMetal],
+            item 3 [Base.SmallSheetMetal],
+            item 5 [Base.MetalPipe],
+            item 2 [Base.Screws],
+			item 10 [Base.BlowTorch],
+            item 1 tags[WeldingMask] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.79camaroWindshieldArmor,
+        }
+	}
+
+	craftRecipe 79camaroMakeRearWindshieldArmor
+	{
+        timedAction = Welding,
+        time = 200,
+        Tags = InHandCraft;Welding,
+        category = Armoring,
+        xpAward = MetalWelding:20,
+        SkillRequired = MetalWelding:4,
+
+        inputs
+        {
+            item 2 [Base.SheetMetal],
+            item 4 [Base.SmallSheetMetal],
+            item 5 [Base.MetalPipe],
+            item 3 [Base.Screws],
+			item 9 [Base.BlowTorch],
+            item 1 tags[WeldingMask] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.79camaroWindshieldRearArmor,
+        }
+	}
+
+	craftRecipe 79camaroMakeReinforcedFrontBumper
+	{
+        timedAction = Welding,
+        time = 200,
+        Tags = InHandCraft;Welding,
+        category = Armoring,
+        xpAward = MetalWelding:25,
+        SkillRequired = MetalWelding:4,
+
+        inputs
+        {
+            item 1 [Base.79camaroBumperFront0],
+            item 1 [Base.SheetMetal],
+            item 2 [Base.SmallSheetMetal],
+            item 3 [Base.MetalPipe],
+			item 8 [Base.BlowTorch],
+            item 1 tags[WeldingMask] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.79camaroBumperFrontA,
+        }
+	}
+
+	craftRecipe 79camaroMakeSmallVintageRoofrack
+	{
+        timedAction = Welding,
+        time = 200,
+        Tags = InHandCraft;Welding,
+        category = Mechanical,
+        xpAward = MetalWelding:20,
+        SkillRequired = MetalWelding:5,
+        NeedToBeLearn = True,
+
+        inputs
+        {
+            item 2 [Base.SheetMetal],
+            item 3 [Base.SmallSheetMetal],
+            item 4 [Base.MetalPipe],
+            item 2 [Base.Screws],
+            item 1 [Base.Tarp],
+			item 6 [Base.BlowTorch],
+            item 1 tags[WeldingMask] mode:keep,
+        }
+        outputs
+        {
+            item 1 Base.OldSmallRoofrack3,
+        }
+	}
+
+    craftRecipe 79camaroMakeMudflaps
+	{
+        timedAction = Making,
+        time = 200,
+        Tags = InHandCraft,
+        category = Mechanical,
+        xpAward = Mechanics:2,
+        SkillRequired = Mechanics:2,
+        NeedToBeLearn = True,
+
+        inputs
+        {
+            item 2 [Base.Glue],
+            item 4 [damnCraft.RubberStrip;Base.TirePiece] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Base.79camaroGhostMudflaps3,
+        }
+	}
+}

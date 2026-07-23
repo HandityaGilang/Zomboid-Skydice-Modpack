@@ -1,0 +1,11 @@
+Tooltip_RU = {
+ Tooltip_DoorFrameSim = "Постройте до установки раздвижной двери, чтобы комната считалась комнатой",
+Tooltip_Tatami = "Татами",
+Tooltip_BuildingMenuObj_Narrow_Plank = "Узкие половицы",
+Tooltip_Wall = "Стена",
+Tooltip_RoofWall = "Стена крыши",
+Tooltip_Kotatsu = "Котацу",
+Tooltip_Futon = "Футон",
+Tooltip_LowAsianTable = "Низкий столик",
+Tooltip_Podium = "Подиум"
+}

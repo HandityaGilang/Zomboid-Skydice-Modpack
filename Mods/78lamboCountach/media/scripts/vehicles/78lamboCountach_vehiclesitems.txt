@@ -1,0 +1,423 @@
+module Base
+
+{
+
+	/************************ Tires ************************/  
+
+    item 78lamboCountachTire3
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   13.0,
+        Type    =   Normal,
+        VehicleType =   3,
+        DisplayName =   78 Lamborghini Countach LP400 Tire,
+        Icon    =   LP400_tire,
+        MaxCapacity = 35,
+        ChanceToSpawnDamaged = 0,
+        WheelFriction = 1.75,
+        ConditionMax = 100,
+        ConditionLowerStandard = 0.5,
+        ConditionLowerOffroad = 0.11,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 78lamboCountachTireWI,
+    }
+
+    item 78lamboCountachSTire3
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   14.0,
+        Type    =   Normal,
+        VehicleType =   3,
+        DisplayName =   78 Lamborghini Countach LP400S Tire,
+        Icon    =   LP400_tires,
+        MaxCapacity = 35,
+        ChanceToSpawnDamaged = 0,
+        WheelFriction = 1.9,
+        ConditionMax = 100,
+        ConditionLowerStandard = 0.5,
+        ConditionLowerOffroad = 0.11,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 78lamboCountachSTireWI,
+    }
+
+    /************************ Storage ************************/
+
+	item 78lamboCountachRoofrack3
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	7.0,
+        Type	=	Normal,
+        VehicleType =   3,
+        DisplayName	=	78 Lamborghini Countach Roofrack,
+        Icon	=	LP400_roofrack,
+        MaxCapacity = 35,
+        ConditionAffectsCapacity = false,
+        ConditionMax = 100,
+        ChanceToSpawnDamaged = 20,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 78lamboCountachRoofrackWI,
+    }
+
+	/************************* Doors ************************/
+
+    item 78lamboCountachFrontDoor3
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	15.0,
+        Type	=	Normal,
+        VehicleType =   3,
+        DisplayName	=	78 Lamborghini Countach Front Door,
+        Icon	=	LP400_door,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 78lamboCountachFrontDoorWI,
+    }
+
+	/************************ Carmor ************************/
+
+    item 78lamboCountachWindshieldArmor
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   15.0,
+        Type    =   Normal,
+        VehicleType =   3,
+        DisplayName =   78 Lamborghini Countach Windshield Armor,
+        Icon    =   LP400_windfa,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 78lamboCountachWindshieldArmorWI,
+    }
+
+	item 78lamboCountachFrontWindowArmor
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	8.0,
+        Type	=	Normal,
+        VehicleType =   3,
+        DisplayName	=	78 Lamborghini Countach Front Window Armor,
+        Icon	=	LP400_winfa,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 78lamboCountachFrontWindowArmorWI,
+    }
+
+	item 78lamboCountachRearWindowArmor
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	2.5,
+        Type	=	Normal,
+        VehicleType =   3,
+        DisplayName	=	78 Lamborghini Countach Rear Window Armor,
+        Icon	=	LP400_winra,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 78lamboCountachRearWindowArmorWI,
+    }
+
+    item 78lamboCountachWindshieldRearArmor
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   2.8,
+        Type    =   Normal,
+        VehicleType =   3,
+        DisplayName =   78 Lamborghini Countach Rear Windshield Armor,
+        Icon    =   LP400_windra,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 78lamboCountachWindshieldRearArmorWI,
+    }
+
+    /************************ Hood ************************/
+
+    item 78lamboCountachEngineDoor3
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	8.0,
+        Type	=	Normal,
+        VehicleType =   3,
+        DisplayName	=	78 Lamborghini Countach Hood,
+        Icon	=	LP400_hood,
+        ChanceToSpawnDamaged = 25,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 78lamboCountachEngineDoorWI,
+    }
+
+    item 78lamboCountachEngineDoorVent3
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	7.0,
+        Type	=	Normal,
+        VehicleType =   3,
+        DisplayName	=	78 Lamborghini Countach Hood Vent,
+        Icon	=	LP400_hood_vent,
+        ChanceToSpawnDamaged = 25,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 78lamboCountachEngineDoorVentWI,
+    }
+
+    /************************ Trunk Lid ************************/
+
+    item 78lamboCountachFrontTrunkDoor3
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	5.0,
+        Type	=	Normal,
+        VehicleType =   3,
+        DisplayName	=	78 Lamborghini Countach Front Trunk Lid,
+        Icon	=	LP400_trunklf,
+        ChanceToSpawnDamaged = 25,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 78lamboCountachFrontTrunkDoorWI,
+    }
+
+    item 78lamboCountachTrunkDoor3
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	8.0,
+        Type	=	Normal,
+        VehicleType =   3,
+        DisplayName	=	78 Lamborghini Countach Trunk Lid,
+        Icon	=	LP400_trunkl,
+        ChanceToSpawnDamaged = 25,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 78lamboCountachTrunkDoorWI,
+    }
+
+    /************************ Seats ************************/
+
+    item 78lamboCountachSeatFront3
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	14.0,
+        Type	=	Normal,
+        VehicleType =   3,
+        DisplayName	=	78 Lamborghini Countach Seat,
+        Icon	=	LP400_seatf,
+        MaxCapacity = 20,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 78lamboCountachSeatFrontWI,
+    }
+
+    /************************ Bumpers ************************/
+
+	item 78lamboCountachBumperFront
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	2.0,
+        Type	=	Normal,
+        VehicleType =   3,
+        DisplayName	=	78 Lamborghini Countach LP400 Front Bumper,
+        Icon	=	LP400_bump0,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 78lamboCountachBumperFrontWI,
+    }
+
+    item 78lamboCountachSBumperFront
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	5.0,
+        Type	=	Normal,
+        VehicleType =   3,
+        DisplayName	=	78 Lamborghini Countach LP400S Front Bumper,
+        Icon	=	LP400_bump0s,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 78lamboCountachSBumperFrontWI,
+    }
+
+    item 78lamboCountachBumperFrontA
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	12.0,
+        Type	=	Normal,
+        VehicleType =   3,
+        DisplayName	=	78 Lamborghini Countach LP400 Reinforced Front Bumper,
+        Icon	=	LP400_bumpA,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 78lamboCountachBumperFrontAWI,
+    }
+
+    item 78lamboCountachSBumperFrontB
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	15.0,
+        Type	=	Normal,
+        VehicleType =   3,
+        DisplayName	=	78 Lamborghini Countach LP400S Reinforced Front Bumper,
+        Icon	=	LP400_bumpB,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 78lamboCountachSBumperFrontBWI,
+    }
+
+    item 78lamboCountachBullbarA
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   10.0,
+        Type    =   Normal,
+        VehicleType =   3,
+        DisplayName =   78 Lamborghini Countach Bullbar,
+        Icon    =   LP400_bullA,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 78lamboCountachBullbarAWI,
+    }
+
+    item 78lamboCountachSBumperRear
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	2.0,
+        Type	=	Normal,
+        VehicleType =   3,
+        DisplayName	=	78 Lamborghini Countach LP400S Rear Bumper,
+        Icon	=	LP400_bumpr0s,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 78lamboCountachSBumperRearWI,
+    }
+
+    /************************ Windows ************************/
+
+	item 78lamboCountachWindshield3
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	10.0,
+        Type	=	Normal,
+        VehicleType =   3,
+        DisplayName	=	78 Lamborghini Countach Windshield,
+        Icon	=	LP400_windf,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 78lamboCountachWindshieldWI,
+    }
+
+	item 78lamboCountachFrontSideWindow3
+    {
+	    DisplayCategory = VehicleMaintenance,
+        Weight	=	7.0,
+        Type	=	Normal,
+        VehicleType =   3,
+        DisplayName	=	78 Lamborghini Countach Front Side Window,
+        Icon	=	LP400_winf,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 78lamboCountachFrontSideWindowWI,
+    }
+
+    item 78lamboCountachRearSideWindow3
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   2.0,
+        Type    =   Normal,
+        VehicleType =   3,
+        DisplayName =   78 Lamborghini Countach Rear Side Window,
+        Icon    =   LP400_winr,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 78lamboCountachRearSideWindowWI,
+    }
+
+    item 78lamboCountachRearWindshield3
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  =   3.0,
+        Type    =   Normal,
+        VehicleType =   3,
+        DisplayName =   78 Lamborghini Countach Rear Windshield,
+        Icon    =   LP400_windr,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 78lamboCountachRearWindshieldWI,
+    }
+
+    /************************ Spoilers ************************/
+
+    item 78lamboCountachFrontSpoiler3
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  = 3.0,
+        Type  = Normal,
+        VehicleType =   3,
+        DisplayName = 78 Lamborghini Countach Front Spoiler,
+        Icon  = LP400_spoilf,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 78lamboCountachFrontSpoilerWI,
+    }
+
+    item 78lamboCountachRearSpoiler3
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  = 6.0,
+        Type  = Normal,
+        VehicleType =   3,
+        DisplayName = 78 Lamborghini Countach Rear Spoiler,
+        Icon  = LP400_spoilr1,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 78lamboCountachRearSpoilerWI,
+    }
+
+    item 78lamboCountachRearSpoilerTwo3
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  = 6.2,
+        Type  = Normal,
+        VehicleType =   3,
+        DisplayName = 78 Lamborghini Countach Rear Spoiler Mk2,
+        Icon  = LP400_spoilr2,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 78lamboCountachRearSpoilerTwoWI,
+    }
+
+    /************************ Misc ************************/
+
+    item 78lamboCountachWipers3
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  = 1.0,
+        Type  = Normal,
+        VehicleType =   3,
+        DisplayName = 78 Lamborghini Countach Wipers,
+        Icon  = LP400_wip,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 78lamboCountachWipersWI,
+    }
+
+    item 78lamboCountachPopupLights3
+    {
+        DisplayCategory = VehicleMaintenance,
+        Weight  = 3.0,
+        Type  = Normal,
+        VehicleType =   3,
+        DisplayName = 78 Lamborghini Countach Popup Lights,
+        Icon  = LP400_plg,
+        ChanceToSpawnDamaged = 20,
+        ConditionMax = 100,
+        MechanicsItem = TRUE,
+        WorldStaticModel = 78lamboCountachPopupLightsWI,
+    }
+}

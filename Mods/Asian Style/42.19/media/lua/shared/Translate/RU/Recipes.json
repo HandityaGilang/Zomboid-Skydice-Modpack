@@ -1,0 +1,96 @@
+{
+    "ASEntityName_PlainWall": "Простая стена",
+    "ASEntityName_PlainWall_Left": "Простая стена (левая)",
+    "ASEntityName_PlainWall_Right": "Простая стена (правая)",
+    "ASEntityName_PlainWall_Both": "Простая стена (обе)",
+	"ASEntityName_WoodenWall" : "Деревянная стена",
+	"ASEntityName_HalfShinglesWall" : "Стена с черепицей",
+	"ASEntityName_HalfWoodenWall" : "Полу-деревянная стена",
+	"ASEntityName_HalfWoodenWall_Left" : "Полу-деревянная стена (левая)",
+	"ASEntityName_HalfWoodenWall_Right" : "Полу-деревянная стена (правая)",
+	"ASEntityName_HalfWoodenWall_Both" : "Полу-деревянная стена (обе)",
+	"ASEntityName_PlainOutdoorWall" : "Наружная стена",
+	"ASEntityName_PlainOutdoorWall_Left" : "Наружная стена (левая)",
+	"ASEntityName_PlainOutdoorWall_Right" : "Наружная стена (правая)",
+	"ASEntityName_PlainOutdoorWall_Both" : "Наружная стена (обе)",
+	"ASEntityName_PlainOutdoorWall_Horisontal" : "Стена с рейкой",
+	"ASEntityName_PlainOutdoorWall_Left_Horisontal" : "Стена с рейкой (левая)",
+	"ASEntityName_PlainOutdoorWall_Right_Horisontal" : "Стена с рейкой (правая)",
+	"ASEntityName_PlainOutdoorWall_Both_Horisontal" : "Стена с рейкой (обе)",
+	
+	"ASEntityName_Asian_Indoor_Sliding" : "Межкомнатная раздвижная дверь",
+	"ASEntityName_Asian_Indoor_Sliding_Deco" : "Декоративная раздвижная дверь",
+	"ASEntityName_Asian_JClassic_Sliding" : "Японская раздвижная дверь",
+	"ASEntityName_Asian_Outdoor_Sliding" : "Наружная раздвижная дверь",
+	"ASEntityName_Asian_Transparent_Sliding" : "Прозрачная раздвижная дверь",
+	"ASEntityName_Asian_PlainDoor" : "Простая дверь",
+
+	"ASEntityName_HalfWoodenWall_Doorframe" : "Полудеревянный дверной проём",
+	"ASEntityName_PlainWall_Doorframe" : "Простой дверной проём",
+	"ASEntityName_WoodenWall_Doorframe" : "Деревянный дверной проём",
+
+	"AS_EntityName_Classic_JWindow" : "Традиционное японское окно",
+	"ASEntityName_PlainWall_Dbl_WindowLeft" : "Простое двойное окно (левое)",
+	"ASEntityName_PlainWall_Dbl_WindowRight" : "Простое двойное окно (правое)",
+	"ASEntityName_PlainWall_Dbl_WindowLeft_Bordered" : "Простое двойное окно с рейками (левое)",
+	"ASEntityName_PlainWall_Dbl_WindowRight_Bordered" : "Простое двойное окно с рейками (правое)",
+	"ASEntityName_PlainWall_Windowframe" : "Простой оконный проём",
+	"ASEntityName_PlainWall_Windowframe_Both" : "Простой оконный проём с рейками",
+
+	"ASEntityName_HalfShinglesWall_Dbl_WindowLeft" : "Двойное окно с черепицей (левое)",
+	"ASEntityName_HalfShinglesWall_Dbl_WindowRight" : "Двойное окно с черепицей (правое)",
+
+	"ASEntityName_PlainOutdoorWall_Dbl_WindowLeft" : "Наружное двойное окно (левое)",
+	"ASEntityName_PlainOutdoorWall_Dbl_WindowLeft_Deco" : "Наружное двойное декоративное окно (левое)",
+	"ASEntityName_PlainOutdoorWall_Dbl_WindowLeft_Bordered" : "Наружное двойное окно с рейкой (левое)",
+	"ASEntityName_PlainOutdoorWall_Dbl_WindowLeft_Bordered_Deco" : "Наружное двойное декоративное окно с рейкой (левое)",
+	"ASEntityName_PlainOutdoorWall_Dbl_WindowRight" : "Наружное двойное окно (правое)",
+	"ASEntityName_PlainOutdoorWall_Dbl_WindowRight_Deco" : "Наружное двойное декоративное окно (правое)",
+	"ASEntityName_PlainOutdoorWall_Dbl_WindowRight_Bordered" : "Наружное двойное окно с рейкой (правое)",
+	"ASEntityName_PlainOutdoorWall_Dbl_WindowRight_Bordered_Deco" : "Наружное двойное декоративное окно с рейкой (правое)",
+	"ASEntityName_PlainOutdoorWall_Windowframe" : "Наружный оконный проём",
+	"ASEntityName_PlainOutdoorWall_Windowframe_Both" : "Наружный оконный проём с рейками",
+
+	"ASEntityName_HalfWoodenWall_Dbl_WindowLeft" : "Полудеревянное двойное окно (левое)",
+	"ASEntityName_HalfWoodenWall_Dbl_WindowRight" : "Полудеревянное двойное окно (правое)",
+	"ASEntityName_HalfWoodenWall_Dbl_WindowLeft_Bordered" : "Полудеревянное двойное окно с рейками (левое)",
+	"ASEntityName_HalfWoodenWall_Dbl_WindowRight_Bordered" : "Полудеревянное двойное окно с рейками (правое)",
+	"ASEntityName_HalfWoodenWall_Windowframe" : "Полудеревянный оконный проём",
+	"ASEntityName_HalfWoodenWall_Windowframe_Both" : "Полудеревянный оконный проём (2 рейки)",
+	"ASEntityName_HalfWoodenWall_Windowframe_Left" : "Полудеревянный оконный проём (левая рейка)",
+	"ASEntityName_HalfWoodenWall_Windowframe_Right" : "Полудеревянный оконный проём (правая рейка)",
+
+	"ASEntityName_WoodenWall_Dbl_WindowLeft" : "Деревянное двойное окно (левое)",
+	"ASEntityName_WoodenWall_Dbl_WindowRight" : "Деревянное двойное окно (правое)",
+	"ASEntityName_WoodenWall_Dbl_WindowLeft_Deco" : "Деревянное декоративное двойное окно (левое)",
+	"ASEntityName_WoodenWall_Dbl_WindowRight_Deco" : "Деревянное декоративное двойное окно (правое)",
+	"ASEntityName_WoodenWall_Windowframe" : "Деревянный оконный проём",
+
+	"ASEntityName_Fence" : "Деревянный забор",
+	"ASEntityName_FencePosts" : "Деревянный забор со столбиками",
+	
+	"ASEntityName_TatamiFloor_WideSide" : "Татами (широкий боковой)",
+	"ASEntityName_TatamiFloor_WideCorner1" : "Татами (широкий угловой)",
+	"ASEntityName_TatamiFloor_WideCorner2" : "Татами (широкий угловой 2)",
+	"ASEntityName_TatamiFloor_NarrowEdge" : "Татами (узкий угловой)",
+	"ASEntityName_TatamiFloor_Narrow" : "Татами (серединки)",
+	"ASEntityName_WoodenFloor" : "Деревянные рейки",
+	"ASEntityName_WoodenFloorNarrow" : "Узкие деревянные рейки",
+
+	"ASEntityName_Kotatsu" : "Котатсу",
+	"ASEntityName_TableLow" : "Низкий стол",
+	"ASEntityName_TableLow_Small" : "Малый низкий стол",
+		
+	"MakeFuton" : "Сшить футон",
+	"MakeLargeFuton" : "Сшить двойной футон",
+	"MakeLargeFuton2" : "Сшить двойной футон"
+
+
+
+
+
+
+
+
+
+}

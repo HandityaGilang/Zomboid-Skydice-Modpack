@@ -1,0 +1,95 @@
+{
+    "ASEntityName_PlainWall": "Plain Wall",
+    "ASEntityName_PlainWall_Left": "Plain Wall (left plank)",
+    "ASEntityName_PlainWall_Right": "Plain Wall (right plank)",
+    "ASEntityName_PlainWall_Both": "Plain Wall (2 planks)",
+	"ASEntityName_WoodenWall" : "Wooden Wall",
+	"ASEntityName_HalfShinglesWall" : "Half-shingles Wall",
+	"ASEntityName_HalfWoodenWall" : "Half-wooden Wall",
+	"ASEntityName_HalfWoodenWall_Left" : "Half-wooden Wall (left plank)",
+	"ASEntityName_HalfWoodenWall_Right" : "Half-wooden Wall (right plank)",
+	"ASEntityName_HalfWoodenWall_Both" : "Half-wooden Wall (2 planks)",
+	"ASEntityName_PlainOutdoorWall" : "Outdoor Wall",
+	"ASEntityName_PlainOutdoorWall_Left" : "Outdoor Wall (left plank)",
+	"ASEntityName_PlainOutdoorWall_Right" : "Outdoor Wall (right plank)",
+	"ASEntityName_PlainOutdoorWall_Both" : "Outdoor Wall (2 planks)",
+	"ASEntityName_PlainOutdoorWall_Horisontal" : "Middle Plank Wall ",
+	"ASEntityName_PlainOutdoorWall_Left_Horisontal" : "Middle Plank Wall (left plank)",
+	"ASEntityName_PlainOutdoorWall_Right_Horisontal" : "Middle Plank Wall (right plank)",
+	"ASEntityName_PlainOutdoorWall_Both_Horisontal" : "Middle Plank Wall (2 planks)",
+	
+	"ASEntityName_Asian_Indoor_Sliding" : "Indoor Sliding Door",
+	"ASEntityName_Asian_Indoor_Sliding_Deco" : "Decorative Sliding Door",
+	"ASEntityName_Asian_JClassic_Sliding" : "Traditional Japanese Sliding Door",
+	"ASEntityName_Asian_Outdoor_Sliding" : "Outdoor Sliding Door",
+	"ASEntityName_Asian_Transparent_Sliding" : "Transparent Sliding Door",
+	"ASEntityName_Asian_PlainDoor" : "Plain Door",
+
+	"ASEntityName_HalfWoodenWall_Doorframe" : "Half-wooden Doorframe",
+	"ASEntityName_PlainWall_Doorframe" : "Plain Doorframe",
+	"ASEntityName_WoodenWall_Doorframe" : "Wooden Doorframe",
+
+	"AS_EntityName_Classic_JWindow" : "Traditional Japanese Window",
+	"ASEntityName_PlainWall_Dbl_WindowLeft" : "Plain Windowwall (Left)",
+	"ASEntityName_PlainWall_Dbl_WindowRight" : "Plain Windowwall (Right)",
+	"ASEntityName_PlainWall_Dbl_WindowLeft_Bordered" : "Plain Windowwall with planks (Left)",
+	"ASEntityName_PlainWall_Dbl_WindowRight_Bordered" : "Plain Windowwall with (Right)",
+	"ASEntityName_PlainWall_Windowframe" : "Plain Windowframe",
+	"ASEntityName_PlainWall_Windowframe_Both" : "Plain Windowframe (2 planks)",
+
+	"ASEntityName_HalfShinglesWall_Dbl_WindowLeft" : "Half-shingles Windowwall (Left)",
+	"ASEntityName_HalfShinglesWall_Dbl_WindowRight" : "Half-shingles Windowwall (Right)",
+
+	"ASEntityName_PlainOutdoorWall_Dbl_WindowLeft" : "Outdoor Windowwall (Left)",
+	"ASEntityName_PlainOutdoorWall_Dbl_WindowLeft_Deco" : "Outdoor Decorative Windowwall (Left)",
+	"ASEntityName_PlainOutdoorWall_Dbl_WindowLeft_Bordered" : "Outdoor Windowwall (Left) (2 planks)",
+	"ASEntityName_PlainOutdoorWall_Dbl_WindowLeft_Bordered_Deco" : "Outdoor Decorative Windowwall (Left)(2 planks)",
+	"ASEntityName_PlainOutdoorWall_Dbl_WindowRight" : "Outdoor Windowwall (Right)",
+	"ASEntityName_PlainOutdoorWall_Dbl_WindowRight_Deco" : "Outdoor Decorative Windowwall (Right)",
+	"ASEntityName_PlainOutdoorWall_Dbl_WindowRight_Bordered" : "Outdoor Windowwall (Right) (2 planks)",
+	"ASEntityName_PlainOutdoorWall_Dbl_WindowRight_Bordered_Deco" : "Outdoor Decorative Windowwall (Right)(2 planks)",
+	"ASEntityName_PlainOutdoorWall_Windowframe" : "Outdoor Windowframe",
+	"ASEntityName_PlainOutdoorWall_Windowframe_Both" : "Outdoor Windowframe (2 planks)",
+
+	"ASEntityName_HalfWoodenWall_Dbl_WindowLeft" : "Half-wooden Windowwall (Left)",
+	"ASEntityName_HalfWoodenWall_Dbl_WindowRight" : "Half-wooden Windowwall (Right)",
+	"ASEntityName_HalfWoodenWall_Dbl_WindowLeft_Bordered" : "Half-wooden Windowwall with planks (Left)",
+	"ASEntityName_HalfWoodenWall_Dbl_WindowRight_Bordered" : "Half-wooden Windowwall with planks (Right)",
+	"ASEntityName_HalfWoodenWall_Windowframe" : "Half-wooden Windowframe",
+	"ASEntityName_HalfWoodenWall_Windowframe_Both" : "Half-wooden Windowframe (2 planks)",
+	"ASEntityName_HalfWoodenWall_Windowframe_Left" : "Half-wooden Windowframe (left plank)",
+	"ASEntityName_HalfWoodenWall_Windowframe_Right" : "Half-wooden Windowframe (right plank)",
+
+	"ASEntityName_WoodenWall_Dbl_WindowLeft" : "Wooden Windowwall (Left)",
+	"ASEntityName_WoodenWall_Dbl_WindowRight" : "Wooden Windowwall (Right)",
+	"ASEntityName_WoodenWall_Dbl_WindowLeft_Deco" : "Wooden Decorative Windowwall (Left)",
+	"ASEntityName_WoodenWall_Dbl_WindowRight_Deco" : "Wooden Decorative Windowwall (Right)",
+	"ASEntityName_WoodenWall_Windowframe" : "Wooden Windowframe",
+
+	"ASEntityName_Fence" : "Wooden fence",
+	"ASEntityName_FencePosts" : "Wooden fence with posts",
+	
+	"ASEntityName_TatamiFloor_WideSide" : "Tatami (wide side)",
+	"ASEntityName_TatamiFloor_WideCorner1" : "Tatami (wide corner 1)",
+	"ASEntityName_TatamiFloor_WideCorner2" : "Tatami (wide corner 2)",
+	"ASEntityName_TatamiFloor_NarrowEdge" : "Tatami (narrow corners)",
+	"ASEntityName_TatamiFloor_Narrow" : "Tatami (middles)",
+	"ASEntityName_WoodenFloor" : "Wooden floor",
+	"ASEntityName_WoodenFloorNarrow" : "Narrow wooden floor",
+
+	"ASEntityName_Kotatsu" : "Kotatsu",
+	"ASEntityName_TableLow" : "Low table",
+	"ASEntityName_TableLow_Small" : "Small low table",
+
+	"MakeFuton" : "Craft Futon",
+	"MakeLargeFuton" : "Craft Large Futon",
+	"MakeLargeFuton2" : "Craft Large Futon"
+	
+
+
+
+
+
+
+
+}

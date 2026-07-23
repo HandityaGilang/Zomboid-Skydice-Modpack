@@ -1,0 +1,98 @@
+module Base
+{
+    model 78lamboCountachvent
+	{
+		mesh = vehicles/Vehicles_78lamboCountach_Body|lp400s_hood_vents,
+		shader = damn_vehicle_shader,
+        static = FALSE,
+		scale = 0.1,
+	}
+
+    template vehicle LP400HoodVentS
+		{
+		part LP400HoodVent
+       		{
+
+            model Vent
+			{
+                	file = 78lamboCountachvent,
+			}
+
+            category = bodywork,
+            area = Engine,
+            parent = EngineDoor,
+        
+            specificItem = false,
+            itemType = Base.78lamboCountachEngineDoorVent3,
+            mechanicRequireKey = false,
+
+            table install
+            {
+                items
+                {
+                    item
+                    {
+                        type = Base.Wrench,
+                        count = 1,
+                        keep = true,
+                        equip = primary,
+                    }
+                }
+                time = 1000,
+                skills = Mechanics:4,
+                recipes = Advanced Mechanics,
+                test = Vehicles.InstallTest.Default,
+                complete = LP400.InstallComplete.Vent,
+                requireInstalled = EngineDoor,
+                
+            }
+            table uninstall
+            {
+                items
+                {
+                    item
+                    {
+                        type = Base.Wrench,
+                        count = 1,
+                        keep = true,
+                        equip = primary,
+                    }
+                }
+                time = 1000,
+                skills = Mechanics:4,
+                recipes = Advanced Mechanics,
+                test = Vehicles.UninstallTest.Default,
+                complete = LP400.UninstallComplete.Vent,
+            }
+            lua
+            {
+                create = LP400.Create.Vent,
+                init = LP400.Init.Vent,
+            }
+        }
+	}
+
+    template vehicle LP400HoodVent
+		{
+            template! = LP400HoodVentS,
+
+		part LP400HoodVent
+       		{
+
+            table install
+            {
+                complete = Vehicles.InstallComplete.Default,
+                
+            }
+            table uninstall
+            {
+                complete = Vehicles.UninstallComplete.Default,
+            }
+            lua
+            {
+                create = DAMN.Create.Blank,
+            }
+        }
+	}
+}
+

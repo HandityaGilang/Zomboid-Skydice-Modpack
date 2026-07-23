@@ -1,0 +1,13 @@
+{
+    "Tooltip_BB_BasementStarterKit": "Используется для рытья котлована под начальный подвал размером 2x6 футов на поверхности.",
+    "Tooltip_BB_NoSquare": "Нет квадрата.",
+    "Tooltip_BB_SurfaceOnly": "Только на поверхности.",
+    "Tooltip_BB_BasementExists": "Здесь уже есть подвал.",
+    "Tooltip_BB_OutOfBounds": "За пределами игровой зоны.",
+    "Tooltip_BB_Overlap": "Перекрывает другую подвальную зону.",
+    "Tooltip_BB_NotInBasement": "Вы находитесь не в подвале.",
+    "Tooltip_BB_WrongLevel": "Неправильный этаж.",
+    "Tooltip_BB_AdjacentOnly": "Расширение возможно только на соседнюю клетку.",
+    "Tooltip_BB_AlreadyDug": "Эта плитка уже выкопана.",
+    "Tooltip_BB_CantDigHere": "Копать здесь нельзя."
+}
