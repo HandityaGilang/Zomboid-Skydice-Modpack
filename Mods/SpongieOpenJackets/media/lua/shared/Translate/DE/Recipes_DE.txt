@@ -1,0 +1,8 @@
+ Recipes_DE = {
+    Recipe_Make_Jacket_BlackVest = "Ärmel entfernen",
+    Recipe_Make_Jacket_LeatherWildRacoonsVest = "Ärmel entfernen",
+    Recipe_Make_Jacket_LeatherIronRodentVest = "Ärmel entfernen",
+    Recipe_Make_Jacket_LeatherBarrelDogsVest = "Ärmel entfernen",
+    Recipe_Make_Shirt_LumberjackVest = "Ärmel entfernen",
+    Recipe_Make_Shirt_DenimVest = "Ärmel entfernen"
+} 

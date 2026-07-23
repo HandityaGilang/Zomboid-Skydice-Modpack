@@ -1,0 +1,9 @@
+{
+    "Tooltip_Isometric": "Vista isométrica",
+    "Tooltip_Muscle": "Alternar: los músculos aparecen en este personaje",
+    "Tooltip_BodyHairGrowth": "Alternar: el vello corporal y el rastrojo crecen en este personaje",
+    "Tooltip_RequireRazor": "Requiere una cuchilla de afeitar",
+    "Tooltip_NoBodyHair": "No hay vello corporal que afeitar",
+    "Tooltip_item_AppearanceChanger": "Llevar este Spiffo te permite cambiar tu apariencia. Revisa tu panel de información.",
+    "Tooltip_item_AppearanceUnlocker": "Llevar este oso te da acceso a las opciones de personalización bloqueadas por el administrador."
+}

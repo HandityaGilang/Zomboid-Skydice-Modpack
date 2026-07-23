@@ -1,0 +1,18 @@
+{
+    "UI_ChestHair": "体毛",
+    "UI_Muscle": "筋肉",
+    "UI_BodyHairGrowth": "発毛",
+    "UI_characreation_face": "顔",
+    "UI_characreation_bodydetail": "詳細",
+    "UI_characreation_charapanel": "編集",
+    "UI_characreation_appearance": "外見",
+    "UI_characreation_shave": "剃る",
+    "UI_characreation_facedisabled": "顔変更不可",
+    "UI_characreation_detailsdisabled": "詳細変更不可",
+    "UI_shave_stubble_beard": "ひげ剃り",
+    "UI_shave_stubble_head": "頭剃り",
+    "UI_shave_stubble_body": "体毛剃り",
+    "UI_debug_add_stubble_beard": "(Debug)ひげ追加",
+    "UI_debug_add_stubble_head": "(Debug)頭髪追加",
+    "UI_debug_add_stubble_body": "(Debug)体毛追加"
+}

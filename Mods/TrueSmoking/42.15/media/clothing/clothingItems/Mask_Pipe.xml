@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>static\clothes\M_smoking_pipe</m_MaleModel>
+	<m_FemaleModel>static\clothes\F_smoking pipe</m_FemaleModel>
+	<m_GUID>8ed889dd-4c00-477a-b5c9-7dfa86c71519</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<textureChoices>Clothes/Hat/Pipe</textureChoices>
+</clothingItem>

@@ -1,0 +1,269 @@
+module Tsarcraft
+{
+	imports
+	{
+		Base
+	}
+/********************Generated Music Carriers********************/
+
+	item CassetteIPZMusicAllofMe
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette IPZ Music - All of Me,
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteIPZMusicAWAKE
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette IPZ Music - AWAKE,
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteIPZMusicBansanka
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette IPZ Music - Bansanka,
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteIPZMusicBelindaAmigosxSiempre
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette IPZ Music - Belinda Amigos x Siempre,
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteIPZMusicBLOODHOUNDS
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette IPZ Music - BLOODHOUNDS,
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteIPZMusicBreakingBadThemeSong
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette IPZ Music - Breaking Bad Theme Song,
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteIPZMusicCalifornication
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette IPZ Music - Californication,
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteIPZMusiccomet
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette IPZ Music - comet,
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteIPZMusicDearGod
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette IPZ Music - Dear God,
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteIPZMusicDebutantBall
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette IPZ Music - Debutant Ball,
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteIPZMusicFeelSpecial
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette IPZ Music - Feel Special,
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteIPZMusicGooGooDollsIris
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette IPZ Music - Goo Goo Dolls Iris,
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteIPZMusicHindiaeverythinguare
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette IPZ Music - Hindia - everything u are,
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteIPZMusicHINKIRO
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette IPZ Music - HINKIRO,
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteIPZMusicIReallyWanttoStayAtYourHouse
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette IPZ Music - I Really Want to Stay At Your House,
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteIPZMusicInitialDBlackOut
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette IPZ Music - Initial D - Black Out,
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteIPZMusicListenNot
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette IPZ Music - Listen Not,
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteIPZMusicLostinParadise
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette IPZ Music - Lost in Paradise,
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteIPZMusicMahalKitaBobo
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette IPZ Music - Mahal Kita Bobo,
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteIPZMusicMEGITSUNE
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette IPZ Music - MEGITSUNE,
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteIPZMusicMICDrop(SteveAokiRemix)
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette IPZ Music - MIC Drop (Steve Aoki Remix),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteIPZMusicOverdose
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette IPZ Music - Overdose,
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteIPZMusicSANTEMIKINAH
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette IPZ Music - SANTE MI KI NAH,
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteIPZMusicSTECUSTECU
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette IPZ Music - STECU STECU,
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteIPZMusicSunflower
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette IPZ Music - Sunflower,
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteIPZMusicWelcomeToTheBlackParade
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette IPZ Music - Welcome To The Black Parade,
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+}

@@ -1,0 +1,60 @@
+IG_UI_TR = {
+    IGUI_TRUESMOKING_KEY_SMOKE = "Tüttür/Tekrar Yak/Sigara Çýkar",
+    IGUI_TRUESMOKING_KEY_SMOKE_DESC = "Sigaradan bir fýrt çeker veya söndürülmüþ bir sigarayý tekrar yakar. Aktif olarak yanan veya sonradan söndürülmüþ yoksa yeni bir tane yakar.",
+
+    IGUI_TRUESMOKING_FIND_SMOKE = "Paketten Çýkar/Sigara Yak",
+    IGUI_TRUESMOKING_FIND_SMOKE_DESC = "Otomatik olarak sigara bulup yakmaya izin verir.",
+
+    IGUI_TRUESMOKING_KEY_STOP_SMOKE = "Sigara Ýçmeyi Durdur",
+    IGUI_TRUESMOKING_KEY_STOP_SMOKE_DESC = "Sigarayý söndürür.",
+
+    IGUI_TRUESMOKING_PASSIVE_SMOKING = "Pasif Tüttürme",
+    IGUI_TRUESMOKING_PASSIVE_SMOKING_DESC = "Otomatik olarak sigara tutarken pasif olarak tüttürmeye izin verir.",
+
+    IGUI_TRUESMOKING_PASSIVE_MIN_TIME = "Pasif Tüttürme Minimum Süre",
+    IGUI_TRUESMOKING_PASSIVE_MIN_TIME_DESC = "Pasif tüttürme için minimum zaman aralýðýný belirler.",
+
+    IGUI_TRUESMOKING_PASSIVE_MAX_TIME = "Pasif Tüttürme Maksimum Süre",
+    IGUI_TRUESMOKING_PASSIVE_MAX_TIME_DESC = "Pasif tüttürme için maksimum zaman aralýðýný belirler.",
+
+    IGUI_TRUESMOKING_KEEP_LIT = "Sigarayý Yanýk Tut",
+    IGUI_TRUESMOKING_KEEP_LIT_DESC = "Sigara sönmek üzereyken otomatik olarak tüttürür. Böylece sigara sönmez.",
+
+    IGUI_TRUESMOKING_AUTO_PUT_OUT = "Otomatik Söndür",
+    IGUI_TRUESMOKING_AUTO_PUT_OUT_DESC = "Sigara bittiðinde otomatik söndürür.",
+
+    IGUI_TRUESMOKING_HIDE_PUFF_ACTION_BAR = "Tüttürme Eylem Çubuðunu Gizle",
+    IGUI_TRUESMOKING_HIDE_PUFF_ACTION_BAR_DESC = "Sigarayý tüttürürken oyuncunun üstünde çýkan eylem çubuðunu gizler.",
+
+    IGUI_TRUESMOKING_HIDE_ALL_ACTION_BARS = "Tüm Eylem Çubuklarýný Gizle",
+    IGUI_TRUESMOKING_HIDE_ALL_ACTION_BARS_DESC = "Sigara içmekle alakalý tüm eylem çubuklarýný gizler.",
+
+    IGUI_TRUESMOKING_HIDE_MOODLES = "Moodle'larý Gizle",
+    IGUI_TRUESMOKING_HIDE_MOODLES_DESC = "Moodle'larý, yani karakterin durum baloncuklarýný gizler.",
+
+    IGUI_TRUESMOKING_SHOW_DAYS_REMAINING = "Baðýmlýlýk Kalan Günleri Göster",
+    IGUI_TRUESMOKING_SHOW_DAYS_REMAINING_DESC = "Baðýmlýlýktan kurtulmak için kalan gün sayýsýný gösterir.",
+
+    IGUI_TRUESMOKING_SHOW_SMOKE_PERCENT = "Sigara Yüzdesini Göster",
+    IGUI_TRUESMOKING_SHOW_SMOKE_PERCENT_DESC = "Yakýlan sigaranýn kalan yüzdesini gösterir.",
+
+    IGUI_TRUESMOKING_DEBUG_MOODLES = "Debug Bilgisi",
+    IGUI_TRUESMOKING_DEBUG_MOODLES_DESC = "Moodle, yani karakterin durum baloncuklarýnýn açýklamalarý hakkýnda debug bilgisi gösterir.",
+
+    IGUI_TRUESMOKING_WITHDRAWAL_TEXT = "Yoksunluk Sendromu Yazýsý",
+    IGUI_TRUESMOKING_WITHDRAWAL_TEXT_DESC = "Oyuncularýn kafasýnda yoksunluk sendromu hakkýnda yazýlar çýkmasýna yarar.",
+
+    IGUI_TRUESMOKING_ALWAYS_SHOW_MOODLE = "Baðýmlýlýk Moodle'unu Her Zaman Göster",
+    IGUI_TRUESMOKING_ALWAYS_SHOW_MOODLE_DESC = "Baðýmlýlýk moodle'u, yani karakterin baðýmlýlýk ile ilgili durum baloncuðu hiçbir zaman kaybolmaz.",
+
+    IGUI_TRUESMOKING_HIDE_ADDICTION_MOODLE = "Baðýmlýlýk Moodle'unu Gizle",
+    IGUI_TRUESMOKING_HIDE_ADDICTION_MOODLE_DESC = "Baðýmlýlýk moodle'unu, yani karakterin baðýmlýlýk ile ilgili durum baloncuðunu gizler.",
+
+    IGUI_TRUESMOKING_SMOKE_KEYS = "Sigara Kýsayol Tuþlarý",
+    IGUI_TRUESMOKING_ROLLED_HK = "Sarma Sigara",
+    IGUI_TRUESMOKING_CIG_HK = "Sigara",
+    IGUI_TRUESMOKING_CIGARILLO_HK = "Sigarillo",
+    IGUI_TRUESMOKING_CIGAR_HK = "Puro",
+    IGUI_TRUESMOKING_CAN_HK = "Kutu Sigara",
+    IGUI_TRUESMOKING_PIPE_HK = "Smoking Pipe",
+}

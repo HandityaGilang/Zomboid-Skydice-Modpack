@@ -1,0 +1,8 @@
+id=gameNight-zombiesDropGames
+name=Game Night: Zombies Drop Games
+description= 
+poster=poster.png
+versionMin=41.0
+require=gamenight
+
+

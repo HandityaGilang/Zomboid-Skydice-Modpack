@@ -1,0 +1,9 @@
+{
+    "Tooltip_Isometric": "Isometrische Ansicht",
+    "Tooltip_Muscle": "Umschalten - Muskeln erscheinen bei diesem Charakter",
+    "Tooltip_BodyHairGrowth": "Umschalten - Körperhaare und Stoppeln wachsen bei diesem Charakter",
+    "Tooltip_RequireRazor": "Benötigt einen Rasierer",
+    "Tooltip_NoBodyHair": "Keine Körperhaare zum Rasieren",
+    "Tooltip_item_AppearanceChanger": "Wenn du diesen Spiffo hältst, kannst du dein Aussehen ändern. Schau in dein Infofenster.",
+    "Tooltip_item_AppearanceUnlocker": "Wenn du diesen Bären hältst, erhältst du Zugriff auf admin-gesperrte Anpassungsoptionen."
+}

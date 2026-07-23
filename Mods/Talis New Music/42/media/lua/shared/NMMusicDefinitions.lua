@@ -1,0 +1,1 @@
+-- Legacy compatibility shim for child packs expecting NMMusicDefinitions.

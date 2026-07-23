@@ -1,0 +1,1657 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hairStyles>
+<!--Male-->
+	<male><name>M_Yaki_VeryLongParted</name>
+		<model>skinned\hair\M_Yaki_VeryLongParted</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_Yaki_VeryLongParted" />
+		<alternate category="Group01" style="M_Yaki_VeryLongParted_G1" />
+		<alternate category="Group02" style="M_Yaki_VeryLongParted_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_Yaki_VeryLongParted_G4" />
+		<alternate category="Group05" style="M_Yaki_VeryLongParted" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+	</male>
+	<male><name>M_Yaki_CroftHair</name>
+		<model>skinned\hair\M_Yaki_CroftHair</model>
+		<texture>Salon_Braid_White</texture>
+		<alternate category="default" style="M_Yaki_CroftHair" />
+		<alternate category="Group01" style="M_Yaki_CroftHair_G1" />
+		<alternate category="Group02" style="M_Yaki_CroftHair_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_Yaki_CroftHair_G4" />
+		<alternate category="Group05" style="M_Yaki_CroftHair" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+	</male>
+	<male><name>M_Yaki_BraidedPonytail</name>
+		<model>skinned\hair\M_Yaki_BraidedPonytail</model>
+		<texture>F_Hair_Braids</texture>
+		<alternate category="default" style="M_Yaki_BraidedPonytail" />
+		<alternate category="Group01" style="M_Yaki_BraidedPonytail_G1" />
+		<alternate category="Group02" style="M_Yaki_BraidedPonytail_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_Yaki_BraidedPonytail_G4" />
+		<alternate category="Group05" style="M_Yaki_BraidedPonytail" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>	
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+	</male>
+	<male><name>M_Yaki_Yaki</name>
+		<model>skinned\hair\M_Yaki_Yaki</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_Yaki_Yaki" />
+		<alternate category="Group01" style="M_Yaki_Yaki_G1" />
+		<alternate category="Group02" style="M_Yaki_Yaki_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_Yaki_Yaki_G4" />
+		<alternate category="Group05" style="M_Yaki_Yaki" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+	</male>
+	<male><name>M_Yaki_Pigtails</name>
+		<model>skinned\hair\M_Yaki_Pigtails</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_Yaki_Pigtails" />
+		<alternate category="Group01" style="M_Yaki_Pigtails_G1" />
+		<alternate category="Group02" style="M_Yaki_Pigtails_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_Yaki_Pigtails_G4" />
+		<alternate category="Group05" style="M_Yaki_Pigtails" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+	</male>
+	<male><name>M_Yaki_UndercutCurly</name>
+		<model>skinned\hair\M_Yaki_UndercutCurly</model>
+		<texture>Salon_Undercut_Curly_White</texture>
+		<alternate category="default" style="M_Yaki_UndercutCurly" />
+		<alternate category="Group01" style="M_Yaki_UndercutCurly_G1" />
+		<alternate category="Group02" style="M_Yaki_UndercutCurly_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_Yaki_UndercutCurly_G4" />
+		<alternate category="Group05" style="M_Yaki_UndercutCurly" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+	</male>
+	<male><name>M_Yaki_Undercut</name>
+		<model>skinned\hair\M_Yaki_Undercut</model>
+		<texture>Salon_Undercut_White</texture>
+		<alternate category="default" style="M_Yaki_Undercut" />
+		<alternate category="Group01" style="M_Yaki_Undercut_G1" />
+		<alternate category="Group02" style="M_Yaki_Undercut_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_Yaki_Undercut_G4" />
+		<alternate category="Group05" style="M_Yaki_Undercut" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+	</male>
+	<male><name>M_Yaki_ClippedHair</name>
+		<model>skinned\hair\M_Yaki_ClippedHair</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_Yaki_ClippedHair" />
+		<alternate category="Group01" style="M_Yaki_ClippedHair_G1" />
+		<alternate category="Group02" style="M_Yaki_ClippedHair_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_Yaki_ClippedHair_G4" />
+		<alternate category="Group05" style="M_Yaki_ClippedHair" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+	</male>
+	<male><name>M_Yaki_HairBun</name>
+		<model>skinned\hair\M_Yaki_HairBun</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_Yaki_HairBun" />
+		<alternate category="Group01" style="M_Yaki_HairBun_G1" />
+		<alternate category="Group02" style="M_Yaki_HairBun_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_Yaki_HairBun_G4" />
+		<alternate category="Group05" style="M_Yaki_HairBun" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+	</male>
+	<male><name>M_Yaki_DoubleBraids</name>
+		<model>skinned\hair\M_Yaki_DoubleBraids</model>
+		<texture>Salon_Braid_White</texture>
+		<alternate category="default" style="M_Yaki_DoubleBraids" />
+		<alternate category="Group01" style="M_Yaki_DoubleBraids_G1" />
+		<alternate category="Group02" style="M_Yaki_DoubleBraids_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_Yaki_DoubleBraids_G4" />
+		<alternate category="Group05" style="M_Yaki_DoubleBraids" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+	</male>
+	<male><name>M_Yaki_Jessica</name>
+		<model>skinned\hair\M_Yaki_Jessica</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_Yaki_Jessica" />
+		<alternate category="Group01" style="M_Yaki_Jessica_G1" />
+		<alternate category="Group02" style="M_Yaki_Jessica_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_Yaki_Jessica_G4" />
+		<alternate category="Group05" style="M_Yaki_Jessica" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+	</male>
+	<male><name>M_Yaki_LowPonytail</name>
+		<model>skinned\hair\M_Yaki_LowPonytail</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_Yaki_LowPonytail" />
+		<alternate category="Group01" style="M_Yaki_LowPonytail_G1" />
+		<alternate category="Group02" style="M_Yaki_LowPonytail_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_Yaki_LowPonytail_G4" />
+		<alternate category="Group05" style="M_Yaki_LowPonytail" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+	</male>
+	<male><name>M_Yaki_Rochefort</name>
+		<model>skinned\hair\M_Yaki_Rochefort</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_Yaki_Rochefort" />
+		<alternate category="Group01" style="M_Yaki_Rochefort_G1" />
+		<alternate category="Group02" style="M_Yaki_Rochefort_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_Yaki_Rochefort_G4" />
+		<alternate category="Group05" style="M_Yaki_Rochefort" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+	</male>
+	<male><name>M_Yaki_CheerLeader</name>
+		<model>skinned\hair\M_Yaki_CheerLeader</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_Yaki_CheerLeader" />
+		<alternate category="Group01" style="M_Yaki_CheerLeader_G1" />
+		<alternate category="Group02" style="M_Yaki_CheerLeader_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_Yaki_CheerLeader_G4" />
+		<alternate category="Group05" style="M_Yaki_CheerLeader" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+	</male>
+	<male><name>M_Yaki_Classy</name>
+		<model>skinned\hair\M_Yaki_Classy</model>
+		<texture>Salon_Undercut_White</texture>
+		<alternate category="default" style="M_Yaki_Classy" />
+		<alternate category="Group01" style="M_Yaki_Classy_G1" />
+		<alternate category="Group02" style="M_Yaki_Classy_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_Yaki_Classy_G4" />
+		<alternate category="Group05" style="M_Yaki_Classy" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+	</male>
+	<male><name>M_Yaki_HalfUpShaved</name>
+		<model>skinned\hair\M_Yaki_HalfUpShaved</model>
+		<texture>Salon_Undercut_White</texture>
+		<alternate category="default" style="M_Yaki_HalfUpShaved" />
+		<alternate category="Group01" style="M_Yaki_HalfUpShaved_G1" />
+		<alternate category="Group02" style="M_Yaki_HalfUpShaved_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_Yaki_HalfUpShaved_G4" />
+		<alternate category="Group05" style="M_Yaki_HalfUpShaved" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+	</male>
+	<male><name>M_Yaki_Afro</name>
+		<model>skinned\hair\M_Yaki_Afro</model>
+		<texture>F_HairCurly_Short</texture>
+		<alternate category="default" style="M_Yaki_Afro" />
+		<alternate category="Group01" style="M_Yaki_Afro_G1" />
+		<alternate category="Group02" style="M_Yaki_Afro_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Bald" />
+		<alternate category="Group05" style="M_Yaki_Afro" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+	</male>
+	<male><name>M_Yaki_AfroBun</name>
+		<model>skinned\hair\M_Yaki_AfroBun</model>
+		<texture>Salon_Afrobun</texture>
+		<alternate category="default" style="M_Yaki_AfroBun" />
+		<alternate category="Group01" style="M_Yaki_AfroBun_G1" />
+		<alternate category="Group02" style="M_Yaki_AfroBun_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_Yaki_AfroBun_G4" />
+		<alternate category="Group05" style="M_Yaki_AfroBun" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+	</male>
+	<male><name>M_Yaki_SideBraid</name>
+		<model>skinned\hair\M_Yaki_SideBraid</model>
+		<texture>Salon_Braid_White</texture>
+		<alternate category="default" style="M_Yaki_SideBraid" />
+		<alternate category="Group01" style="M_Yaki_SideBraid_G1" />
+		<alternate category="Group02" style="M_Yaki_SideBraid_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_Yaki_SideBraid_G4" />
+		<alternate category="Group05" style="M_Yaki_SideBraid" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+	</male>
+	<male><name>M_Yaki_TiedHalfDown</name>
+		<model>skinned\hair\M_Yaki_TiedHalfDown</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="M_Yaki_TiedHalfDown" />
+		<alternate category="Group01" style="M_Yaki_TiedHalfDown_G1" />
+		<alternate category="Group02" style="M_Yaki_TiedHalfDown_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_Yaki_TiedHalfDown_G4" />
+		<alternate category="Group05" style="M_Yaki_TiedHalfDown" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+	</male>
+	<male><name>M_Yaki_Dreadlocks</name>
+		<model>skinned\hair\M_Yaki_Dreadlocks</model>
+		<texture>Salon_Dreadlocks</texture>
+		<alternate category="default" style="M_Yaki_Dreadlocks" />
+		<alternate category="Group01" style="M_Yaki_Dreadlocks_G1" />
+		<alternate category="Group02" style="M_Yaki_Dreadlocks_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="M_Yaki_Dreadlocks_G4" />
+		<alternate category="Group05" style="M_Yaki_Dreadlocks" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+	</male>
+	<!--Female-->
+	<female><name>F_Yaki_VeryLongParted</name>
+		<model>skinned\hair\F_Yaki_VeryLongParted</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_Yaki_VeryLongParted" />
+		<alternate category="Group01" style="F_Yaki_VeryLongParted_G1" />
+		<alternate category="Group02" style="F_Yaki_VeryLongParted_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_Yaki_VeryLongParted_G4" />
+		<alternate category="Group05" style="F_Yaki_VeryLongParted" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+	</female>
+	<female><name>F_Yaki_TiedHalfDown</name>
+		<model>skinned\hair\F_Yaki_TiedHalfDown</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_Yaki_TiedHalDown" />
+		<alternate category="Group01" style="F_Yaki_TiedHalfDown_G1" />
+		<alternate category="Group02" style="F_Yaki_TiedHalfDown_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_Yaki_TiedHalfDown_G4" />
+		<alternate category="Group05" style="F_Yaki_TiedHalfDown" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+	</female>
+	<female><name>F_Yaki_HalfUpShaved</name>
+		<model>skinned\hair\F_Yaki_HalfUpShaved</model>
+		<texture>Salon_Undercut_White</texture>
+		<alternate category="default" style="F_Yaki_HalfUpShaved" />
+		<alternate category="Group01" style="F_Yaki_HalfUpShaved_G1" />
+		<alternate category="Group02" style="F_Yaki_HalfUpShaved_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_Yaki_HalfUpShaved_G4" />
+		<alternate category="Group05" style="F_Yaki_HalfUpShaved" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+	</female>
+	<female><name>F_Yaki_Classy</name>
+		<model>skinned\hair\F_Yaki_Classy</model>
+		<texture>Salon_Undercut_White</texture>
+		<alternate category="default" style="F_Yaki_Classy" />
+		<alternate category="Group01" style="F_Yaki_Classy_G1" />
+		<alternate category="Group02" style="F_Yaki_Classy_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_Yaki_Classy_G4" />
+		<alternate category="Group05" style="F_Yaki_Classy" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+	</female>
+	<female><name>F_Yaki_LowPonytail</name>
+		<model>skinned\hair\F_Yaki_LowPonytail</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_Yaki_LowPonytail" />
+		<alternate category="Group01" style="F_Yaki_LowPonytail_G1" />
+		<alternate category="Group02" style="F_Yaki_LowPonytail_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_Yaki_LowPonytail_G4" />
+		<alternate category="Group05" style="F_Yaki_LowPonytail" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+	</female>
+	<female><name>F_Yaki_AfroBun</name>
+		<model>skinned\hair\F_Yaki_AfroBun</model>
+		<texture>Salon_Afrobun</texture>
+		<alternate category="default" style="F_Yaki_AfroBun" />
+		<alternate category="Group01" style="F_Yaki_AfroBun_G1" />
+		<alternate category="Group02" style="F_Yaki_AfroBun_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_Yaki_AfroBun_G4" />
+		<alternate category="Group05" style="F_Yaki_AfroBun" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+	</female>
+	<female><name>F_Yaki_Afro</name>
+		<model>skinned\hair\F_Yaki_Afro</model>
+		<texture>F_HairCurly_Short</texture>
+		<alternate category="default" style="F_Yaki_Afro" />
+		<alternate category="Group01" style="F_Yaki_Afro_G1" />
+		<alternate category="Group02" style="F_Yaki_Afro_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="Bald" />
+		<alternate category="Group05" style="F_Yaki_Afro" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+	</female>
+	<female><name>F_Yaki_Dreadlocks</name>
+		<model>skinned\hair\F_Yaki_Dreadlocks</model>
+		<texture>Salon_Dreadlocks</texture>
+		<alternate category="default" style="F_Yaki_Dreadlocks" />
+		<alternate category="Group01" style="F_Yaki_Dreadlocks_G1" />
+		<alternate category="Group02" style="F_Yaki_Dreadlocks_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_Yaki_Dreadlocks_G4" />
+		<alternate category="Group05" style="F_Yaki_Dreadlocks" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+	</female>
+	<female><name>F_Yaki_CroftHair</name>
+		<model>skinned\hair\F_Yaki_CroftHair</model>
+		<texture>Salon_Braid_White</texture>
+		<alternate category="default" style="F_Yaki_CroftHair" />
+		<alternate category="Group01" style="F_Yaki_CroftHair_G1" />
+		<alternate category="Group02" style="F_Yaki_CroftHair_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_Yaki_CroftHair_G4" />
+		<alternate category="Group05" style="F_Yaki_CroftHair" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+	</female>
+	<female><name>F_Yaki_Jessica</name>
+		<model>skinned\hair\F_Yaki_Jessica</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_Yaki_Jessica" />
+		<alternate category="Group01" style="F_Yaki_Jessica_G1" />
+		<alternate category="Group02" style="F_Yaki_Jessica_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_Yaki_Jessica_G4" />
+		<alternate category="Group05" style="F_Yaki_Jessica" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+	</female>
+	<female><name>F_Yaki_Rochefort</name>
+		<model>skinned\hair\F_Yaki_Rochefort</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_Yaki_Rochefort" />
+		<alternate category="Group01" style="F_Yaki_Rochefort_G1" />
+		<alternate category="Group02" style="F_Yaki_Rochefort_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_Yaki_Rochefort_G4" />
+		<alternate category="Group05" style="F_Yaki_Rochefort" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+	</female>
+	<female><name>F_Yaki_CheerLeader</name>
+		<model>skinned\hair\F_Yaki_CheerLeader</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_Yaki_CheerLeader" />
+		<alternate category="Group01" style="F_Yaki_CheerLeader_G1" />
+		<alternate category="Group02" style="F_Yaki_CheerLeader_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_Yaki_CheerLeader_G4" />
+		<alternate category="Group05" style="F_Yaki_CheerLeader" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+	</female>
+	<female><name>F_Yaki_SideBraid</name>
+		<model>skinned\hair\F_Yaki_SideBraid</model>
+		<texture>Salon_Braid_White</texture>
+		<alternate category="default" style="F_Yaki_SideBraid" />
+		<alternate category="Group01" style="F_Yaki_SideBraid_G1" />
+		<alternate category="Group02" style="F_Yaki_SideBraid_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_Yaki_SideBraid_G4" />
+		<alternate category="Group05" style="F_Yaki_SideBraid" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+	</female>
+	<female><name>F_Yaki_DoubleBraids</name>
+		<model>skinned\hair\F_Yaki_DoubleBraids</model>
+		<texture>Salon_Braid_White</texture>
+		<alternate category="default" style="F_Yaki_DoubleBraids" />
+		<alternate category="Group01" style="F_Yaki_DoubleBraids_G1" />
+		<alternate category="Group02" style="F_Yaki_DoubleBraids_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_Yaki_DoubleBraids_G4" />
+		<alternate category="Group05" style="F_Yaki_DoubleBraids" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+	</female>
+	<female><name>F_Yaki_HairBun</name>
+		<model>skinned\hair\F_Yaki_HairBun</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_Yaki_HairBun" />
+		<alternate category="Group01" style="F_Yaki_HairBun_G1" />
+		<alternate category="Group02" style="F_Yaki_HairBun_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_Yaki_HairBun_G4" />
+		<alternate category="Group05" style="F_Yaki_HairBun" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+	</female>
+	<female><name>F_Yaki_ClippedHair</name>
+		<model>skinned\hair\F_Yaki_ClippedHair</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_Yaki_ClippedHair" />
+		<alternate category="Group01" style="F_Yaki_ClippedHair_G1" />
+		<alternate category="Group02" style="F_Yaki_ClippedHair_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_Yaki_ClippedHair_G4" />
+		<alternate category="Group05" style="F_Yaki_ClippedHair" />
+		<alternate category="Group06" style="Bound" />
+		<level>2</level>
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+	</female>
+	<female><name>F_Yaki_Undercut</name>
+		<model>skinned\hair\F_Yaki_Undercut</model>
+		<texture>Salon_Undercut_White</texture>
+		<alternate category="default" style="F_Yaki_Undercut" />
+		<alternate category="Group01" style="F_Yaki_Undercut_G1" />
+		<alternate category="Group02" style="F_Yaki_Undercut_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_Yaki_Undercut_G4" />
+		<alternate category="Group05" style="F_Yaki_Undercut" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+	</female>
+	<female><name>F_Yaki_UndercutCurly</name>
+		<model>skinned\hair\F_Yaki_UndercutCurly</model>
+		<texture>Salon_Undercut_Curly_White</texture>
+		<alternate category="default" style="F_Yaki_UndercutCurly" />
+		<alternate category="Group01" style="F_Yaki_UndercutCurly_G1" />
+		<alternate category="Group02" style="F_Yaki_UndercutCurly_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_Yaki_UndercutCurly_G4" />
+		<alternate category="Group05" style="F_Yaki_UndercutCurly" />
+		<alternate category="Group06" style="Bound" />
+		<level>1</level>
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+	</female>
+	<female><name>F_Yaki_Pigtails</name>
+		<model>skinned\hair\F_Yaki_Pigtails</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_Yaki_Pigtails" />
+		<alternate category="Group01" style="F_Yaki_Pigtails_G1" />
+		<alternate category="Group02" style="F_Yaki_Pigtails_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_Yaki_Pigtails_G4" />
+		<alternate category="Group05" style="F_Yaki_Pigtails" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>	
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+	</female>
+	<female><name>F_Yaki_Yaki</name>
+		<model>skinned\hair\F_Yaki_Yaki</model>
+		<texture>F_Hair_White</texture>
+		<alternate category="default" style="F_Yaki_Yaki" />
+		<alternate category="Group01" style="F_Yaki_Yaki_G1" />
+		<alternate category="Group02" style="F_Yaki_Yaki_G2" />
+		<alternate category="Group03" style="Bald" />
+		<alternate category="Group04" style="F_Yaki_Yaki_G4" />
+		<alternate category="Group05" style="F_Yaki_Yaki" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>	
+		<growReference>false</growReference>
+		<attachedHair>false</attachedHair>
+	</female>
+	<female><name>F_Yaki_BraidedPonytail</name>
+		<model>skinned\hair\F_Yaki_BraidedPonytail</model>
+		<texture>F_Hair_Braids</texture>
+		<alternate category="default" style="F_Yaki_BraidedPonytail" />
+		<alternate category="Group01" style="F_Yaki_BraidedPonytail_G4" />
+		<alternate category="Group02" style="F_Yaki_BraidedPonytail_G4" />
+		<alternate category="Group03" style="F_Yaki_BraidedPonytail_G4" />
+		<alternate category="Group04" style="F_Yaki_BraidedPonytail_G4" />
+		<alternate category="Group05" style="F_Yaki_BraidedPonytail" />
+		<alternate category="Group06" style="Bound" />
+		<level>3</level>	
+		<growReference>false</growReference>
+		<attachedHair>true</attachedHair>
+	</female>
+	<!--Hat-->
+	<male>
+		<name>M_Yaki_VeryLongParted_G1</name>
+		<model>skinned/hair/M_Yaki_VeryLongParted_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_VeryLongParted_G2</name>
+		<model>skinned/hair/M_Yaki_VeryLongParted_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_VeryLongParted_G4</name>
+		<model>skinned/hair/M_Yaki_VeryLongParted_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_HairBunBangs_G1</name>
+		<model>skinned/hair/M_Yaki_HairBunBangs_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_HairBunBangs_G2</name>
+		<model>skinned/hair/M_Yaki_HairBunBangs_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_HairBunBangs_G4</name>
+		<model>skinned/hair/M_Yaki_HairBunBangs_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_HairBunNoFringe_G1</name>
+		<model>skinned/hair/M_Yaki_HairBunNoFringe_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_HairBunNoFringe_G2</name>
+		<model>skinned/hair/M_Yaki_HairBunNoFringe_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_HairBunNoFringe_G4</name>
+		<model>skinned/hair/M_Yaki_HairBunNoFringe_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_YakiParted_G1</name>
+		<model>skinned/hair/M_Yaki_YakiParted_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_YakiParted_G2</name>
+		<model>skinned/hair/M_Yaki_YakiParted_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_YakiParted_G4</name>
+		<model>skinned/hair/M_Yaki_YakiParted_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_BraidedPonytail_G1</name>
+		<model>skinned/hair/M_Yaki_BraidedPonytail_G1</model>
+		<texture>F_Hair_Braids</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_BraidedPonytail_G2</name>
+		<model>skinned/hair/M_Yaki_BraidedPonytail_G2</model>
+		<texture>F_Hair_Braids</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_BraidedPonytail_G4</name>
+		<model>skinned/hair/M_Yaki_BraidedPonytail_G4</model>
+		<texture>F_Hair_Braids</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_LowPonytailBangs_G1</name>
+		<model>skinned/hair/M_Yaki_LowPonytailBangs_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_LowPonytailBangs_G2</name>
+		<model>skinned/hair/M_Yaki_LowPonytailBangs_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_LowPonytailBangs_G4</name>
+		<model>skinned/hair/M_Yaki_LowPonytailBangs_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_LowPonytailNoFringe_G1</name>
+		<model>skinned/hair/M_Yaki_LowPonytailNoFringe_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_LowPonytailNoFringe_G2</name>
+		<model>skinned/hair/M_Yaki_LowPonytailNoFringe_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_LowPonytailNoFringe_G4</name>
+		<model>skinned/hair/M_Yaki_LowPonytailNoFringe_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_YakiBehindEars_G1</name>
+		<model>skinned/hair/M_Yaki_YakiBehindEars_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_YakiBehindEars_G2</name>
+		<model>skinned/hair/M_Yaki_YakiBehindEars_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_YakiBehindEars_G4</name>
+		<model>skinned/hair/M_Yaki_YakiBehindEars_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_YakiCurly_G1</name>
+		<model>skinned/hair/M_Yaki_Yaki_G1</model>
+		<texture>F_Hair_Curly_Long</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_YakiCurly_G2</name>
+		<model>skinned/hair/M_Yaki_Yaki_G2</model>
+		<texture>F_Hair_Curly_Long</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_YakiCurly_G4</name>
+		<model>skinned/hair/M_Yaki_Yaki_G4</model>
+		<texture>F_Hair_Curly_Long</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_Yaki_G1</name>
+		<model>skinned/hair/M_Yaki_Yaki_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_Yaki_G2</name>
+		<model>skinned/hair/M_Yaki_Yaki_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_Yaki_G4</name>
+		<model>skinned/hair/M_Yaki_Yaki_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_Sherry_G1</name>
+		<model>skinned/hair/M_Yaki_Sherry_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_Sherry_G2</name>
+		<model>skinned/hair/M_Yaki_Sherry_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_Sherry_G4</name>
+		<model>skinned/hair/M_Yaki_Sherry_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_Pigtails_G1</name>
+		<model>skinned/hair/M_Yaki_Pigtails_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_Pigtails_G2</name>
+		<model>skinned/hair/M_Yaki_Pigtails_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_Pigtails_G4</name>
+		<model>skinned/hair/M_Yaki_Pigtails_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_UndercutCurly_G1</name>
+		<model>skinned/hair/M_Yaki_UndercutCurly_G1</model>
+		<texture>Salon_Undercut_Curly_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_UndercutCurly_G2</name>
+		<model>skinned/hair/M_Yaki_UndercutCurly_G2</model>
+		<texture>Salon_Undercut_Curly_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_UndercutCurly_G4</name>
+		<model>skinned/hair/M_Yaki_UndercutCurly_G4</model>
+		<texture>Salon_Undercut_Curly_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_Undercut_G1</name>
+		<model>skinned/hair/M_Yaki_Undercut_G1</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_Undercut_G2</name>
+		<model>skinned/hair/M_Yaki_Undercut_G2</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_Undercut_G4</name>
+		<model>skinned/hair/M_Yaki_Undercut_G4</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_SidePonytail_G1</name>
+		<model>skinned/hair/M_Yaki_SidePonytail_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_SidePonytail_G2</name>
+		<model>skinned/hair/M_Yaki_SidePonytail_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_SidePonytail_G4</name>
+		<model>skinned/hair/M_Yaki_SidePonytail_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_ClippedHair_G1</name>
+		<model>skinned/hair/M_Yaki_ClippedHair_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_ClippedHair_G2</name>
+		<model>skinned/hair/M_Yaki_ClippedHair_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_ClippedHair_G4</name>
+		<model>skinned/hair/M_Yaki_ClippedHair_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_HairBun_G1</name>
+		<model>skinned/hair/M_Yaki_HairBun_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_HairBun_G2</name>
+		<model>skinned/hair/M_Yaki_HairBun_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_HairBun_G4</name>
+		<model>skinned/hair/M_Yaki_HairBun_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_DoubleBraids_G1</name>
+		<model>skinned/hair/M_Yaki_DoubleBraids_G1</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_DoubleBraids_G2</name>
+		<model>skinned/hair/M_Yaki_DoubleBraids_G2</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_DoubleBraids_G4</name>
+		<model>skinned/hair/M_Yaki_DoubleBraids_G4</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_LowPonytail_G1</name>
+		<model>skinned/hair/M_Yaki_LowPonytail_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_LowPonytail_G2</name>
+		<model>skinned/hair/M_Yaki_LowPonytail_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_LowPonytail_G4</name>
+		<model>skinned/hair/M_Yaki_LowPonytail_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_Rochefort_G1</name>
+		<model>skinned/hair/M_Yaki_Rochefort_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_Rochefort_G2</name>
+		<model>skinned/hair/M_Yaki_Rochefort_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_Rochefort_G4</name>
+		<model>skinned/hair/M_Yaki_Rochefort_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_Classy_G1</name>
+		<model>skinned/hair/M_Yaki_Classy_G1</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_Classy_G2</name>
+		<model>skinned/hair/M_Yaki_Classy_G2</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_Classy_G4</name>
+		<model>skinned/hair/M_Yaki_Classy_G4</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_Jessica_G1</name>
+		<model>skinned/hair/M_Yaki_Jessica_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_Jessica_G2</name>
+		<model>skinned/hair/M_Yaki_Jessica_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_Jessica_G4</name>
+		<model>skinned/hair/M_Yaki_Jessica_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_CheerLeader_G1</name>
+		<model>skinned/hair/M_Yaki_CheerLeader_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_CheerLeader_G2</name>
+		<model>skinned/hair/M_Yaki_CheerLeader_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_CheerLeader_G4</name>
+		<model>skinned/hair/M_Yaki_CheerLeader_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_HalfUpShaved_G1</name>
+		<model>skinned/hair/M_Yaki_HalfUpShaved_G1</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_HalfUpShaved_G2</name>
+		<model>skinned/hair/M_Yaki_HalfUpShaved_G2</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_HalfUpShaved_G4</name>
+		<model>skinned/hair/M_Yaki_HalfUpShaved_G4</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_AfroBun_G1</name>
+		<model>skinned/hair/M_Yaki_AfroBun_G1</model>
+		<texture>Salon_Afrobun</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_AfroBun_G2</name>
+		<model>skinned/hair/M_Yaki_AfroBun_G2</model>
+		<texture>Salon_Afrobun</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_AfroBun_G4</name>
+		<model>skinned/hair/M_Yaki_AfroBun_G4</model>
+		<texture>Salon_Afrobun</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_Afro_G1</name>
+		<model>skinned/hair/M_Yaki_Afro_G1</model>
+		<texture>F_HairCurly_Short</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_Afro_G2</name>
+		<model>skinned/hair/M_Yaki_Afro_G2</model>
+		<texture>F_HairCurly_Short</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_Afro_G4</name>
+		<model>skinned/hair/M_Yaki_Afro_G4</model>
+		<texture>F_HairCurly_Short</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<female>
+		<name>F_Yaki_YakiCurly_G1</name>
+		<model>skinned/hair/F_Yaki_Yaki_G1</model>
+		<texture>F_Yaki_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_YakiCurly_G2</name>
+		<model>skinned/hair/F_Yaki_Yaki_G2</model>
+		<texture>F_Yaki_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_YakiCurly_G4</name>
+		<model>skinned/hair/F_Yaki_Yaki_G4</model>
+		<texture>F_Yaki_HairCurly_Long</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_Yaki_G1</name>
+		<model>skinned/hair/F_Yaki_Yaki_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_Yaki_G2</name>
+		<model>skinned/hair/F_Yaki_Yaki_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_Yaki_G4</name>
+		<model>skinned/hair/F_Yaki_Yaki_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_Sherry_G1</name>
+		<model>skinned/hair/F_Yaki_Sherry_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_Sherry_G2</name>
+		<model>skinned/hair/F_Yaki_Sherry_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_Sherry_G4</name>
+		<model>skinned/hair/F_Yaki_Sherry_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_Pigtails_G1</name>
+		<model>skinned/hair/F_Yaki_Pigtails_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_Pigtails_G2</name>
+		<model>skinned/hair/F_Yaki_Pigtails_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_Pigtails_G4</name>
+		<model>skinned/hair/F_Yaki_Pigtails_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_HalfUpShaved_G1</name>
+		<model>skinned/hair/F_Yaki_HalfUpShaved_G1</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_UndercutCurly_G1</name>
+		<model>skinned/hair/F_Yaki_UndercutCurly_G1</model>
+		<texture>Salon_Undercut_Curly_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_UndercutCurly_G2</name>
+		<model>skinned/hair/F_Yaki_UndercutCurly_G2</model>
+		<texture>Salon_Undercut_Curly_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_UndercutCurly_G4</name>
+		<model>skinned/hair/F_Yaki_UndercutCurly_G4</model>
+		<texture>Salon_Undercut_Curly_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_Undercut_G1</name>
+		<model>skinned/hair/F_Yaki_Undercut_G1</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_Undercut_G2</name>
+		<model>skinned/hair/F_Yaki_Undercut_G2</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_Undercut_G4</name>
+		<model>skinned/hair/F_Yaki_Undercut_G4</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_HalfUpShaved_G2</name>
+		<model>skinned/hair/F_Yaki_HalfUpShaved_G2</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_HalfUpShaved_G4</name>
+		<model>skinned/hair/F_Yaki_HalfUpShaved_G4</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_Classy_G1</name>
+		<model>skinned/hair/F_Yaki_Classy_G1</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_Classy_G2</name>
+		<model>skinned/hair/F_Yaki_Classy_G2</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_Classy_G4</name>
+		<model>skinned/hair/F_Yaki_Classy_G4</model>
+		<texture>Salon_Undercut_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_Afro_G1</name>
+		<model>skinned/hair/F_Yaki_Afro_G1</model>
+		<texture>F_HairCurly_Short</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_Afro_G2</name>
+		<model>skinned/hair/F_Yaki_Afro_G2</model>
+		<texture>F_HairCurly_Short</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_Afro_G4</name>
+		<model>skinned/hair/F_Yaki_Afro_G4</model>
+		<texture>F_HairCurly_Short</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_AfroBun_G1</name>
+		<model>skinned/hair/F_Yaki_AfroBun_G1</model>
+		<texture>Salon_Afrobun</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_AfroBun_G2</name>
+		<model>skinned/hair/F_Yaki_AfroBun_G2</model>
+		<texture>Salon_Afrobun</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_AfroBun_G4</name>
+		<model>skinned/hair/F_Yaki_AfroBun_G4</model>
+		<texture>Salon_Afrobun</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<male>
+		<name>M_Yaki_CroftHair_G1</name>
+		<model>skinned/hair/M_Yaki_CroftHair_G1</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_CroftHair_G2</name>
+		<model>skinned/hair/M_Yaki_CroftHair_G2</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_CroftHair_G4</name>
+		<model>skinned/hair/M_Yaki_CroftHair_G4</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_SideBraid_G1</name>
+		<model>skinned/hair/M_Yaki_SideBraid_G1</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_SideBraid_G2</name>
+		<model>skinned/hair/M_Yaki_SideBraid_G2</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_SideBraid_G4</name>
+		<model>skinned/hair/M_Yaki_SideBraid_G4</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_Dreadlocks_G1</name>
+		<model>skinned/hair/M_Yaki_Dreadlocks_G1</model>
+		<texture>Salon_Dreadlocks</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_Dreadlocks_G2</name>
+		<model>skinned/hair/M_Yaki_Dreadlocks_G2</model>
+		<texture>Salon_Dreadlocks</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_Dreadlocks_G4</name>
+		<model>skinned/hair/M_Yaki_Dreadlocks_G4</model>
+		<texture>Salon_Dreadlocks</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_TiedHalfDown_G1</name>
+		<model>skinned/hair/M_Yaki_TiedHalfDown_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_TiedHalfDown_G2</name>
+		<model>skinned/hair/M_Yaki_TiedHalfDown_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<male>
+		<name>M_Yaki_TiedHalfDown_G4</name>
+		<model>skinned/hair/M_Yaki_TiedHalfDown_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</male>
+	<female>
+		<name>F_Yaki_Dreadlocks_G1</name>
+		<model>skinned/hair/F_Yaki_Dreadlocks_G1</model>
+		<texture>Salon_Dreadlocks</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_Dreadlocks_G2</name>
+		<model>skinned/hair/F_Yaki_Dreadlocks_G2</model>
+		<texture>Salon_Dreadlocks</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_Dreadlocks_G4</name>
+		<model>skinned/hair/F_Yaki_Dreadlocks_G4</model>
+		<texture>Salon_Dreadlocks</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_TiedHalfDown_G1</name>
+		<model>skinned/hair/F_Yaki_TiedHalfdown_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_TiedHalfDown_G2</name>
+		<model>skinned/hair/F_Yaki_TiedHalfdown_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_TiedHalfDown_G4</name>
+		<model>skinned/hair/F_Yaki_TiedHalfdown_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_HairBun_G1</name>
+		<model>skinned/hair/F_Yaki_HairBun_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_HairBun_G2</name>
+		<model>skinned/hair/F_Yaki_HairBun_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_HairBun_G4</name>
+		<model>skinned/hair/F_Yaki_HairBun_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_Cheerleader_G1</name>
+		<model>skinned/hair/F_Yaki_CheerLeader_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_Cheerleader_G2</name>
+		<model>skinned/hair/F_Yaki_CheerLeader_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_Cheerleader_G4</name>
+		<model>skinned/hair/F_Yaki_CheerLeader_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_CroftHair_G1</name>
+		<model>skinned/hair/F_Yaki_CroftHair_G1</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_CroftHair_G2</name>
+		<model>skinned/hair/F_Yaki_CroftHair_G2</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_CroftHair_G4</name>
+		<model>skinned/hair/F_Yaki_CroftHair_G4</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_Jessica_G1</name>
+		<model>skinned/hair/F_Yaki_Jessica_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_Jessica_G2</name>
+		<model>skinned/hair/F_Yaki_Jessica_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_Jessica_G4</name>
+		<model>skinned/hair/F_Yaki_Jessica_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_Rochefort_G1</name>
+		<model>skinned/hair/F_Yaki_Rochefort_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_Rochefort_G2</name>
+		<model>skinned/hair/F_Yaki_Rochefort_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_Rochefort_G4</name>
+		<model>skinned/hair/F_Yaki_Rochefort_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_SideBraid_G1</name>
+		<model>skinned/hair/F_Yaki_SideBraid_G1</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_SideBraid_G2</name>
+		<model>skinned/hair/F_Yaki_SideBraid_G2</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_SideBraid_G4</name>
+		<model>skinned/hair/F_Yaki_SideBraid_G4</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_DoubleBraids_G1</name>
+		<model>skinned/hair/F_Yaki_DoubleBraids_G1</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_DoubleBraids_G2</name>
+		<model>skinned/hair/F_Yaki_DoubleBraids_G2</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_DoubleBraids_G4</name>
+		<model>skinned/hair/F_Yaki_DoubleBraids_G4</model>
+		<texture>Salon_Braid_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_ClippedHair_G1</name>
+		<model>skinned/hair/F_Yaki_ClippedHair_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_ClippedHair_G2</name>
+		<model>skinned/hair/F_Yaki_ClippedHair_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_ClippedHair_G4</name>
+		<model>skinned/hair/F_Yaki_ClippedHair_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_LowPonytail_G1</name>
+		<model>skinned/hair/F_Yaki_LowPonytail_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_LowPonytail_G2</name>
+		<model>skinned/hair/F_Yaki_LowPonytail_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_LowPonytail_G4</name>
+		<model>skinned/hair/F_Yaki_LowPonytail_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_BraidedPonytail_G1</name>
+		<model>skinned/hair/F_Yaki_BraidedPonytail_G1</model>
+		<texture>F_Hair_Braids</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_BraidedPonytail_G2</name>
+		<model>skinned/hair/F_Yaki_BraidedPonytail_G2</model>
+		<texture>F_Hair_Braids</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_BraidedPonytail_G4</name>
+		<model>skinned/hair/F_Yaki_BraidedPonytail_G4</model>
+		<texture>F_Hair_Braids</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_LowPonytailBangs_G1</name>
+		<model>skinned/hair/F_Yaki_LowPonytailBangs_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_LowPonytailBangs_G2</name>
+		<model>skinned/hair/F_Yaki_LowPonytailBangs_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_LowPonytailBangs_G4</name>
+		<model>skinned/hair/F_Yaki_LowPonytailBangs_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_LowPonytailNoFringe_G1</name>
+		<model>skinned/hair/F_Yaki_LowPonytailNoFringe_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_LowPonytailNoFringe_G2</name>
+		<model>skinned/hair/F_Yaki_LowPonytailNoFringe_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_LowPonytailNoFringe_G4</name>
+		<model>skinned/hair/F_Yaki_LowPonytailNoFringe_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_YakiBehindEars_G1</name>
+		<model>skinned/hair/F_Yaki_YakiBehindEars_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_YakiBehindEars_G2</name>
+		<model>skinned/hair/F_Yaki_YakiBehindEars_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_YakiBehindEars_G4</name>
+		<model>skinned/hair/F_Yaki_YakiBehindEars_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_YakiParted_G1</name>
+		<model>skinned/hair/F_Yaki_YakiParted_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_YakiParted_G2</name>
+		<model>skinned/hair/F_Yaki_YakiParted_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_YakiParted_G4</name>
+		<model>skinned/hair/F_Yaki_YakiParted_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_HairBunBangs_G1</name>
+		<model>skinned/hair/F_Yaki_HairBunBangs_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_HairBunBangs_G2</name>
+		<model>skinned/hair/F_Yaki_HairBunBangs_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_HairBunBangs_G4</name>
+		<model>skinned/hair/F_Yaki_HairBunBangs_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_HairBunNoFringe_G4</name>
+		<model>skinned/hair/F_Yaki_HairBunNoFringe_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_HairBunNoFringe_G2</name>
+		<model>skinned/hair/F_Yaki_HairBunNoFringe_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_HairBunNoFringe_G1</name>
+		<model>skinned/hair/F_Yaki_HairBunNoFringe_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_VeryLongParted_G1</name>
+		<model>skinned/hair/F_Yaki_VeryLongParted_G1</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_VeryLongParted_G2</name>
+		<model>skinned/hair/F_Yaki_VeryLongParted_G2</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	<female>
+		<name>F_Yaki_VeryLongParted_G4</name>
+		<model>skinned/hair/F_Yaki_VeryLongParted_G4</model>
+		<texture>F_Hair_White</texture>
+		<noChoose>true</noChoose>
+	</female>
+	
+</hairStyles>

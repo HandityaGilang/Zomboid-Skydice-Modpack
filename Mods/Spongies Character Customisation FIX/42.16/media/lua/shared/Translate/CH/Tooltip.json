@@ -1,0 +1,9 @@
+{
+    "Tooltip_Isometric": "等角視角",
+    "Tooltip_Muscle": "切換－在此角色上顯示肌肉",
+    "Tooltip_BodyHairGrowth": "切換－此角色的體毛與鬍渣會生長",
+    "Tooltip_RequireRazor": "需要剃刀",
+    "Tooltip_NoBodyHair": "沒有可剃的體毛",
+    "Tooltip_item_AppearanceChanger": "持有這個 Spiffo 可讓你變更外觀。請查看資訊面板。",
+    "Tooltip_item_AppearanceUnlocker": "持有這隻熊可讓你使用管理員鎖定的自訂選項。"
+}

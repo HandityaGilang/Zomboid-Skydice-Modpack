@@ -1,0 +1,8 @@
+name=Game Night - Whodunit
+id=gamenight_Whodunit
+description=
+poster=poster.png
+require=\gamenight,
+author=Chuckleberry Finn
+icon=icon.png
+versionMin=42.0

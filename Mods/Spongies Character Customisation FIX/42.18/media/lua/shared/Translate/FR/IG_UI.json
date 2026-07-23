@@ -1,0 +1,20 @@
+{
+    "IGUI_Face_Bob": "Bob",
+    "IGUI_Face_Kate": "Kate",
+    "IGUI_Face_CaseyJo": "Casey-Jo",
+    "IGUI_Face_Janine": "Janine",
+    "IGUI_Face_Maryanne": "Maryanne",
+    "IGUI_Face_Vicky": "Vicky",
+    "IGUI_Face_James": "James",
+    "IGUI_Face_Frank": "Frank",
+    "IGUI_Face_Chris": "Chris",
+    "IGUI_Face_Hank": "Hank",
+    "IGUI_Detail_FrecklesFace": "Taches de rousseur du visage",
+    "IGUI_Detail_FrecklesBody": "Taches de rousseur du corps",
+    "IGUI_Detail_MolesFace": "Grains de beauté du visage",
+    "IGUI_Detail_ScarFace": "Cicatrices du visage",
+    "IGUI_Detail_ScarBody": "Cicatrices du corps",
+    "IGUI_Detail_BurnFace": "Brûlures du visage",
+    "IGUI_Detail_BurnBody": "Brûlures du corps",
+    "IGUI_Detail_MissingEye": "Œil manquant"
+}

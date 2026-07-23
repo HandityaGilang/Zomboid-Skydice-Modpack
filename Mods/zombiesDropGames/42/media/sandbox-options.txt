@@ -1,0 +1,14 @@
+VERSION = 1,
+
+option GameNight.ZombiesDropLootList
+{type = string, default = , page = GameNight, translation = ZombiesDropLootList,}
+
+option GameNight.ZombiesDropLootWhiteBlackToggle
+{
+	type = enum, numValues = 2, default = 1,
+	page = GameNight, translation = ZombiesDropLootWhiteBlackToggle,
+	valueTranslation = ZombiesDropLootWhiteBlack,
+}
+
+option GameNight.ZombiesDropLootMultiplier
+{type = double, min = 0.0001, max = 9999, default = 0.1, page = GameNight, translation = ZombiesDropLootMultiplier,}

@@ -1,0 +1,18 @@
+{
+    "UI_ChestHair": "Волосы тела",
+    "UI_Muscle": "Мышцы",
+    "UI_BodyHairGrowth": "Рост волос",
+    "UI_characreation_face": "Лицо",
+    "UI_characreation_bodydetail": "Детали",
+    "UI_characreation_charapanel": "Правка",
+    "UI_characreation_appearance": "Облик",
+    "UI_characreation_shave": "Брить",
+    "UI_characreation_facedisabled": "Лицо заблок.",
+    "UI_characreation_detailsdisabled": "Детали заблок.",
+    "UI_shave_stubble_beard": "Брить бороду",
+    "UI_shave_stubble_head": "Брить голову",
+    "UI_shave_stubble_body": "Брить волосы",
+    "UI_debug_add_stubble_beard": "(Debug) + щетина",
+    "UI_debug_add_stubble_head": "(Debug) + волосы",
+    "UI_debug_add_stubble_body": "(Debug) + волосы тела"
+}

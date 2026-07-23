@@ -1,0 +1,13 @@
+Sandbox_EN = {
+
+    Sandbox_ZombiesDropLootList = "Loot List"
+    Sandbox_ZombiesDropLootList_tooltip = "If left blank all items added by GameNight will spawn on Zombies, add items per item ID. Set toggle to make it a white list or blacklist.<br>Item IDs should not include the Module for the item. (the mod will assume the module as `Base`;<br> Item IDs should also be separated by a comma.<br>All Sandbox Options related to zombie-loot will require a reboot."
+
+    Sandbox_ZombiesDropLootWhiteBlackToggle = "Toggle Loot List"
+    Sandbox_ZombiesDropLootWhiteBlackToggle_tooltip = "Toggle to set list to either act as a whitelist or black list.<br>All Sandbox Options related to zombie-loot will require a reboot.",
+
+    Sandbox_ZombiesDropLootWhiteBlack_option1 = "Whitelist"
+    Sandbox_ZombiesDropLootWhiteBlack_option2 = "Blacklist",
+
+    Sandbox_ZombiesDropLootMultiplier = "Games-in-Zombie-Loot Multiplier"
+    Sandbox_ZombiesDropLootMultiplier_tooltip = "All Sandbox Options related to zombie-loot will require a reboot."

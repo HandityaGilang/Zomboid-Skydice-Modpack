@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Spongie\M_BoilerSuitTIED</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Spongie\F_BoilerSuitTIED</m_FemaleModel>
+	<m_GUID>b9b611ea-TIED-4e00-986c-b7bcc7bcdcbe</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>14</m_Masks>
+	<m_Masks>15</m_Masks>
+	<textureChoices>clothes\boliersuit\boilersuit_prisonerkhaki</textureChoices>
+</clothingItem>

@@ -1,0 +1,101 @@
+module Base
+{
+    sound NM_ButtonClick
+    {
+        category = UI,
+        is3D = false,
+        clip
+        {
+            file = media/sound/NM_ButtonClick.ogg,
+            volume = 0.8,
+        }
+    }
+
+    sound NM_ButtonClick2
+    {
+        category = UI,
+        is3D = false,
+        clip
+        {
+            file = media/sound/NM_ButtonClick2.ogg,
+            volume = 0.8,
+        }
+    }
+
+    sound NM_BatteryIn
+    {
+        category = UI,
+        is3D = false,
+        clip
+        {
+            file = media/sound/NM_BatteryIn.ogg,
+            volume = 0.8,
+        }
+    }
+
+    sound NM_BatteryOut
+    {
+        category = UI,
+        is3D = false,
+        clip
+        {
+            file = media/sound/NM_BatteryOut.ogg,
+            volume = 0.8,
+        }
+    }
+
+    sound NM_Walkman_Power_On
+    {
+        category = UI,
+        is3D = false,
+        clip
+        {
+            file = media/sound/NM_Walkman_Button_On.ogg,
+            volume = 0.8,
+        }
+    }
+
+    sound NM_Walkman_Power_Off
+    {
+        category = UI,
+        is3D = false,
+        clip
+        {
+            file = media/sound/NM_Walkman_Button_Off.ogg,
+            volume = 0.8,
+        }
+    }
+
+    sound NM_Walkman_Lid_Open
+    {
+        category = UI,
+        is3D = false,
+        clip
+        {
+            file = media/sound/NM_Walkman_Lid_Open.ogg,
+            volume = 0.8,
+        }
+    }
+
+    sound NM_Walkman_Lid_Close
+    {
+        category = UI,
+        is3D = false,
+        clip
+        {
+            file = media/sound/NM_Walkman_Lid_Close.ogg,
+            volume = 0.8,
+        }
+    }
+
+    sound NM_Walkman_Volume_Click
+    {
+        category = UI,
+        is3D = false,
+        clip
+        {
+            file = media/sound/NM_Walkman_Volume_Click.ogg,
+            volume = 0.8,
+        }
+    }
+}

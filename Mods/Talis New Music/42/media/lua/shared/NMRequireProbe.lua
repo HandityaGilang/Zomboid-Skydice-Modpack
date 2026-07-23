@@ -1,0 +1,2 @@
+-- Historical require probe intentionally disabled. Zomboid's loader can emit
+-- false-negative require warnings during init/reload, and probing amplifies noise.

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_jacketlong</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\kate_jacketlong</m_FemaleModel>
+	<m_GUID>d66bd59d-ROLL-4cea-9474-a3b69c67f71d</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>13</m_Masks>
+	<m_Masks>14</m_Masks>
+	<m_Masks>15</m_Masks>
+    <m_UnderlayMasksFolder>media/textures/clothes/Spongie/Jacket\Masks\LongSleeves\OpenMasks</m_UnderlayMasksFolder>
+	<textureChoices>clothes\Spongie\Jacket\Rolled\jacketlong_doctor</textureChoices>
+</clothingItem>

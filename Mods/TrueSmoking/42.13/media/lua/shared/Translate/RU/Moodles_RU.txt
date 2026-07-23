@@ -1,0 +1,48 @@
+Moodles_RU = {
+    Moodles_TS_Smoking_New_Good_lvl4 = "Свежая сигарета",
+    Moodles_TS_Smoking_New_Good_lvl3 = "Только что прикуренная",
+    Moodles_TS_Smoking_New_Good_lvl2 = "Больше половины",
+    Moodles_TS_Smoking_New_Good_lvl1 = "Примерно половина",
+    Moodles_TS_Smoking_New_Bad_lvl1 = "Примерно половина",
+    Moodles_TS_Smoking_New_Bad_lvl2 = "Меньше половины",
+    Moodles_TS_Smoking_New_Bad_lvl3 = "Почти докурена",
+    Moodles_TS_Smoking_New_Bad_lvl4 = "Последняя затяжка",
+
+    Moodles_TS_Smoking_Old_Good_lvl4 = "Свежая сигарета",
+    Moodles_TS_Smoking_Old_Good_lvl3 = "Только что прикуренная",
+    Moodles_TS_Smoking_Old_Good_lvl2 = "Больше половины",
+    Moodles_TS_Smoking_Old_Good_lvl1 = "Примерно половина",
+    Moodles_TS_Smoking_Old_Bad_lvl1 = "Примерно половина",
+    Moodles_TS_Smoking_Old_Bad_lvl2 = "Меньше половины",
+    Moodles_TS_Smoking_Old_Bad_lvl3 = "Почти докурена",
+    Moodles_TS_Smoking_Old_Bad_lvl4 = "Последняя затяжка",
+
+    Moodles_smoking_Custom = "Сигарета: %1 (осталось %2%)",
+    
+    Moodles_TS_Nicotine_Good_lvl4 = "Нет зависимости",
+    Moodles_TS_Nicotine_Good_lvl3 = "Слабая зависимость",
+    Moodles_TS_Nicotine_Good_lvl2 = "Умеренная зависимость",
+    Moodles_TS_Nicotine_Good_lvl1 = "Средняя зависимость",
+    Moodles_TS_Nicotine_Bad_lvl1 = "Сильная зависимость",
+    Moodles_TS_Nicotine_Bad_lvl2 = "Тяжелая зависимость",
+    Moodles_TS_Nicotine_Bad_lvl3 = "Серьезная зависимость",
+    Moodles_TS_Nicotine_Bad_lvl4 = "Критическая зависимость",
+
+    Moodles_TS_Nicotine_Old_Good_lvl4 = "Нет зависимости",
+    Moodles_TS_Nicotine_Old_Good_lvl3 = "Слабая зависимость",
+    Moodles_TS_Nicotine_Old_Good_lvl2 = "Умеренная зависимость",
+    Moodles_TS_Nicotine_Old_Good_lvl1 = "Средняя зависимость",
+    Moodles_TS_Nicotine_Old_Bad_lvl1 = "Сильная зависимость",
+    Moodles_TS_Nicotine_Old_Bad_lvl2 = "Тяжелая зависимость",
+    Moodles_TS_Nicotine_Old_Bad_lvl3 = "Серьезная зависимость",
+    Moodles_TS_Nicotine_Old_Bad_lvl4 = "Критическая зависимость",
+
+    Moodles_TS_Nicotine_no_addiction = "Нет никотиновой зависимости.",
+    Moodles_TS_Nicotine_addiction = "У вас никотиновая зависимость, для выздоровления нужно ~%1.",
+
+    Moodles_TS_Nicotine_withdrawal_0 = "Вы довольны.",
+    Moodles_TS_Nicotine_withdrawal_1 = "Вы думаете о курении.",
+    Moodles_TS_Nicotine_withdrawal_2 = "Вы хотите покурить.",
+    Moodles_TS_Nicotine_withdrawal_3 = "Вы отчаянно нуждаетесь в сигарете.",
+    Moodles_TS_Nicotine_withdrawal_4 = "У вас абстинентный синдром, вам нужна сигарета.",
+}

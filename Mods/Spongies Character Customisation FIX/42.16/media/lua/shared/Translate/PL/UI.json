@@ -1,0 +1,18 @@
+{
+    "UI_ChestHair": "Owłos.",
+    "UI_Muscle": "Mięśnie",
+    "UI_BodyHairGrowth": "Odrost",
+    "UI_characreation_face": "Twarz",
+    "UI_characreation_bodydetail": "Detale",
+    "UI_characreation_charapanel": "Edycja",
+    "UI_characreation_appearance": "Wygląd",
+    "UI_characreation_shave": "Golenie",
+    "UI_characreation_facedisabled": "Twarz zabl.",
+    "UI_characreation_detailsdisabled": "Detale zabl.",
+    "UI_shave_stubble_beard": "Gol brodę",
+    "UI_shave_stubble_head": "Gol głowę",
+    "UI_shave_stubble_body": "Gol owłos.",
+    "UI_debug_add_stubble_beard": "(Debug) Dodaj zarost",
+    "UI_debug_add_stubble_head": "(Debug) Dodaj odrost",
+    "UI_debug_add_stubble_body": "(Debug) Dodaj owłos."
+}

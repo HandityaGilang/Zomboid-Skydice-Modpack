@@ -1,0 +1,18 @@
+{
+    "UI_ChestHair": "체모",
+    "UI_Muscle": "근육",
+    "UI_BodyHairGrowth": "자람",
+    "UI_characreation_face": "얼굴",
+    "UI_characreation_bodydetail": "세부",
+    "UI_characreation_charapanel": "편집",
+    "UI_characreation_appearance": "외형",
+    "UI_characreation_shave": "면도",
+    "UI_characreation_facedisabled": "얼굴 변경 불가",
+    "UI_characreation_detailsdisabled": "세부 변경 불가",
+    "UI_shave_stubble_beard": "수염 면도",
+    "UI_shave_stubble_head": "머리 면도",
+    "UI_shave_stubble_body": "체모 면도",
+    "UI_debug_add_stubble_beard": "(디버그)수염 자람",
+    "UI_debug_add_stubble_head": "(디버그)머리 자람",
+    "UI_debug_add_stubble_body": "(디버그)체모 추가"
+}

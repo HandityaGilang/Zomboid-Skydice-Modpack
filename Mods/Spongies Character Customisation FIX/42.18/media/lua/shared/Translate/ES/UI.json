@@ -1,0 +1,18 @@
+{
+    "UI_ChestHair": "Vello",
+    "UI_Muscle": "Músculo",
+    "UI_BodyHairGrowth": "Crec. vello",
+    "UI_characreation_face": "Cara",
+    "UI_characreation_bodydetail": "Detalles",
+    "UI_characreation_charapanel": "Editar",
+    "UI_characreation_appearance": "Aspecto",
+    "UI_characreation_shave": "Afeitar",
+    "UI_characreation_facedisabled": "Cara bloqueada",
+    "UI_characreation_detailsdisabled": "Detalles bloqueados",
+    "UI_shave_stubble_beard": "Afeitar barba",
+    "UI_shave_stubble_head": "Afeitar cabeza",
+    "UI_shave_stubble_body": "Afeitar vello",
+    "UI_debug_add_stubble_beard": "(Debug) Añadir barba",
+    "UI_debug_add_stubble_head": "(Debug) Añadir pelo",
+    "UI_debug_add_stubble_body": "(Debug) Añadir vello"
+}

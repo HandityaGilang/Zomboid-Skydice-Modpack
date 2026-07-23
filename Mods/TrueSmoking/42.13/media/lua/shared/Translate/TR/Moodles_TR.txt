@@ -1,0 +1,48 @@
+Moodles_TR = {
+    Moodles_TS_Smoking_New_Good_lvl4 = "Yeni Yak�lm��",
+    Moodles_TS_Smoking_New_Good_lvl3 = "Yakal� �ok Olmam��",
+    Moodles_TS_Smoking_New_Good_lvl2 = "Yar�s�ndan Fazla",
+    Moodles_TS_Smoking_New_Good_lvl1 = "Yar�s� Kadar",
+    Moodles_TS_Smoking_New_Bad_lvl1 = "Yar�s� Kadar",
+    Moodles_TS_Smoking_New_Bad_lvl2 = "Yar�s�ndan Az",
+    Moodles_TS_Smoking_New_Bad_lvl3 = "Neredeyse Bitmi�",
+    Moodles_TS_Smoking_New_Bad_lvl4 = "Son Bir �ekim",
+
+    Moodles_TS_Smoking_Old_Good_lvl4 = "Yeni Yak�lm��",
+    Moodles_TS_Smoking_Old_Good_lvl3 = "Yakal� �ok Olmam��",
+    Moodles_TS_Smoking_Old_Good_lvl2 = "Yar�s�ndan Fazla",
+    Moodles_TS_Smoking_Old_Good_lvl1 = "Yar�s� Kadar",
+    Moodles_TS_Smoking_Old_Bad_lvl1 = "Yar�s� Kadar",
+    Moodles_TS_Smoking_Old_Bad_lvl2 = "Yar�s�ndan Az",
+    Moodles_TS_Smoking_Old_Bad_lvl3 = "Neredeyse Bitmi�",
+    Moodles_TS_Smoking_Old_Bad_lvl4 = "Son Bir �ekim",
+
+    Moodles_smoking_Custom = "Sigara �u anda %1, %2 kalm��.",
+    
+    Moodles_TS_Nicotine_Good_lvl4 = "Ba��ml�l�k Yok",
+    Moodles_TS_Nicotine_Good_lvl3 = "Hafif Ba��ml�",
+    Moodles_TS_Nicotine_Good_lvl2 = "Biraz Ba��ml�",
+    Moodles_TS_Nicotine_Good_lvl1 = "Orta Derece Ba��ml�",
+    Moodles_TS_Nicotine_Bad_lvl1 = "Fena Ba��ml�",
+    Moodles_TS_Nicotine_Bad_lvl2 = "�ok Fena Ba��ml�",
+    Moodles_TS_Nicotine_Bad_lvl3 = "A��r� Ba��ml�",
+    Moodles_TS_Nicotine_Bad_lvl4 = "�aresizce Ba��ml�",
+
+    Moodles_TS_Nicotine_Old_Good_lvl4 = "Ba��ml�l�k Yok",
+    Moodles_TS_Nicotine_Old_Good_lvl3 = "Hafif Ba��ml�",
+    Moodles_TS_Nicotine_Old_Good_lvl2 = "Biraz Ba��ml�",
+    Moodles_TS_Nicotine_Old_Good_lvl1 = "Orta Derece Ba��ml�",
+    Moodles_TS_Nicotine_Old_Bad_lvl1 = "Fena Ba��ml�",
+    Moodles_TS_Nicotine_Old_Bad_lvl2 = "�ok Fena Ba��ml�",
+    Moodles_TS_Nicotine_Old_Bad_lvl3 = "A��r� Ba��ml�",
+    Moodles_TS_Nicotine_Old_Bad_lvl4 = "�aresizce Ba��ml�",
+
+    Moodles_TS_Nicotine_no_addiction = "Nikotin ba��ml�l��� yok.",
+    Moodles_TS_Nicotine_addiction = "Nikotin ba��ml�l���n var, kurtulmak i�in ~%1 ihtiyac�n var.",
+
+    Moodles_TS_Nicotine_withdrawal_0 = "Memnunsun.",
+    Moodles_TS_Nicotine_withdrawal_1 = "Sigara d���n�yorsun.",
+    Moodles_TS_Nicotine_withdrawal_2 = "Sigaraya hasretsin.",
+    Moodles_TS_Nicotine_withdrawal_3 = "Sigara i�in �aresizsin.",
+    Moodles_TS_Nicotine_withdrawal_4 = "Yoksunluktas�n, sigaraya �ok ihtiyac�n var.",
+}

@@ -1,0 +1,21 @@
+objects = {
+  { name = "medium", type = "ParkingStall", x = 11461, y = 7237, z = 0, width = 4, height = 39, properties = { Direction = "W" } },
+  { name = "good", type = "ParkingStall", x = 11471, y = 7237, z = 0, width = 4, height = 39, properties = { Direction = "E" } },
+  { name = "bad", type = "ParkingStall", x = 11488, y = 7237, z = 0, width = 4, height = 39, properties = { Direction = "E" } },
+  { name = "medium", type = "ParkingStall", x = 11478, y = 7237, z = 0, width = 4, height = 39, properties = { Direction = "W" } },
+  { name = "good", type = "ParkingStall", x = 11452, y = 7209, z = 0, width = 15, height = 4, properties = { Direction = "N" } },
+  { name = "bad", type = "ParkingStall", x = 11445, y = 7297, z = 0, width = 4, height = 15, properties = { Direction = "W" } },
+  { name = "ambulance", type = "ParkingStall", x = 11428, y = 7256, z = 0, width = 4, height = 3, properties = { Direction = "W" } },
+  { name = "radio", type = "ParkingStall", x = 11419, y = 7256, z = 0, width = 4, height = 3, properties = { Direction = "W" } },
+  { name = "", type = "RoomTone", x = 11425, y = 7232, z = 0, width = 8, height = 4, properties = { RoomTone = "Office", EntireBuilding = false } },
+  { name = "", type = "RoomTone", x = 11439, y = 7234, z = -1, width = 20, height = 17, properties = { RoomTone = "Basement", EntireBuilding = false } },
+  { name = "", type = "SpawnPoint", x = 11676, y = 7355, z = 0, width = 1, height = 1, properties = { Professions = "unemployed" } },
+  { name = "mccoy", type = "ParkingStall", x = 11458, y = 7346, z = 0, width = 4, height = 3, properties = { Direction = "E" } },
+  { name = "", type = "DeepForest", x = 11511, y = 7343, z = 0, width = 191, height = 158 },
+  { name = "", type = "DeepForest", x = 11576, y = 7201, z = 0, width = 124, height = 141 },
+  { name = "", type = "DeepForest", x = 11402, y = 7429, z = 0, width = 110, height = 71 },
+  { name = "", type = "DeepForest", x = 11432, y = 7322, z = 0, width = 63, height = 14 },
+  { name = "", type = "DeepForest", x = 11542, y = 7208, z = 0, width = 27, height = 44 },
+  { name = "", type = "RoomTone", x = 11450, y = 7379, z = -1, width = 30, height = 23, properties = { RoomTone = "Basement", EntireBuilding = false } },
+  { name = "bad", type = "ParkingStall", x = 11681, y = 7362, z = 0, width = 4, height = 3, properties = { Direction = "E" } }
+}

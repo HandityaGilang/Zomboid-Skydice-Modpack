@@ -1,0 +1,9 @@
+{
+    "Tooltip_Isometric": "İzometrik Görünüm",
+    "Tooltip_Muscle": "Aç/Kapat - Bu karakterde kaslar görünür",
+    "Tooltip_BodyHairGrowth": "Aç/Kapat - Bu karakterde vücut kılları ve kirli sakal uzar",
+    "Tooltip_RequireRazor": "Jilet gerekir",
+    "Tooltip_NoBodyHair": "Tıraş edilecek vücut kılı yok",
+    "Tooltip_item_AppearanceChanger": "Bu Spiffo'yu taşımak görünümünü değiştirmeni sağlar. Bilgi panelini kontrol et.",
+    "Tooltip_item_AppearanceUnlocker": "Bu ayıyı taşımak yönetici kilitli özelleştirme seçeneklerine erişim sağlar."
+}

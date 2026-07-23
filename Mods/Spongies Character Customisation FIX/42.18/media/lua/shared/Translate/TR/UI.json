@@ -1,0 +1,18 @@
+{
+    "UI_ChestHair": "Vücut Kılı",
+    "UI_Muscle": "Kas",
+    "UI_BodyHairGrowth": "Uzama",
+    "UI_characreation_face": "Yüz",
+    "UI_characreation_bodydetail": "Detay",
+    "UI_characreation_charapanel": "Düzen",
+    "UI_characreation_appearance": "Tarz",
+    "UI_characreation_shave": "Tıraş",
+    "UI_characreation_facedisabled": "Yüz kilitli",
+    "UI_characreation_detailsdisabled": "Detay kilitli",
+    "UI_shave_stubble_beard": "Sakalı al",
+    "UI_shave_stubble_head": "Başı al",
+    "UI_shave_stubble_body": "Vücut kılı al",
+    "UI_debug_add_stubble_beard": "(Debug) Sakal ekle",
+    "UI_debug_add_stubble_head": "(Debug) Saç ekle",
+    "UI_debug_add_stubble_body": "(Debug) Kıl ekle"
+}

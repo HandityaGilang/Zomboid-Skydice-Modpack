@@ -1,0 +1,6 @@
+module Base
+{
+
+    recipe Unseal Box { Whodunit_Box_sealed, Result:Whodunit_Box, CanBeDoneFromFloor:true, OnCreate:Recipe.GameNight.Unbox, Time:50.0, }
+
+}

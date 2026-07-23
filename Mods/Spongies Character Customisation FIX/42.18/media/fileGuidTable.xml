@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+	<files>
+		<path>media/clothing/clothingItems/SPNCharCustom_Blank.xml</path>
+		<guid>939cd682-631e-4885-a533-4083255936b8</guid>
+	</files> 
+	
+	<!--BODY HAIR-->
+	<files>
+		<path>media/clothing/clothingItems/M_Hair_Body.xml</path>
+		<guid>13e7599f-7e74-4510-b1a7-8c3b536b3d1f</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/F_Hair_Body.xml</path>
+		<guid>2fbaaea1-2f72-46b0-b929-031dadaaacc6</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/M_Hair_Stubble.xml</path>
+		<guid>5eef832d-94ba-4869-b01a-a22516b2f79f</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/M_Beard_Stubble.xml</path>
+		<guid>1b0b1328-c596-4df1-a987-4aecd71c4e89</guid>
+	</files>
+	
+	<!--MUSCLE-->
+	<files>
+		<path>media/clothing/clothingItems/M_Muscle.xml</path>
+		<guid>6e2d5c79-e1b3-42fe-95c9-6e1bd83047ea</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/F_Muscle.xml</path>
+		<guid>7c7b59ce-657f-4baa-a765-1fd88c61b5e6</guid>
+	</files>
+</fileGuidTable>

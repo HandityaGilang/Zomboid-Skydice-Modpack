@@ -1,0 +1,18 @@
+{
+    "IGUI_UNM_Play": "UNO No Mercyをプレイ", "IGUI_UNM_Watch": "UNO No Mercyを観戦",
+    "IGUI_UNM_MoveCloser": "テーブルに近づいてください。", "IGUI_UNM_WindowTitle": "UNO No Mercy",
+    "IGUI_UNM_Waiting": "プレイヤーを待っています", "IGUI_UNM_Playing": "プレイ中", "IGUI_UNM_GameOver": "ゲーム終了",
+    "IGUI_UNM_YourTurn": "あなたの番", "IGUI_UNM_You": "あなた", "IGUI_UNM_NotYourTurn": "あなたの番ではありません",
+    "IGUI_UNM_Draw": "引く", "IGUI_UNM_Start": "開始", "IGUI_UNM_AddBot": "Bot追加", "IGUI_UNM_RemoveBot": "Bot削除",
+    "IGUI_UNM_CallUno": "UNO宣言", "IGUI_UNM_Reset": "リセット", "IGUI_UNM_Leave": "退出",
+    "IGUI_UNM_ChooseColor": "色を選択", "IGUI_UNM_Red": "赤", "IGUI_UNM_Yellow": "黄", "IGUI_UNM_Green": "緑", "IGUI_UNM_Blue": "青",
+    "IGUI_UNM_DrawPile": "山札", "IGUI_UNM_DiscardPile": "捨て札", "IGUI_UNM_CurrentColor": "色", "IGUI_UNM_Direction": "方向",
+    "IGUI_UNM_Clockwise": "時計回り", "IGUI_UNM_CounterClockwise": "反時計回り", "IGUI_UNM_Cards": "カード", "IGUI_UNM_Winner": "勝者",
+    "IGUI_UNM_Opening": "開いています...", "IGUI_UNM_OpeningGame": "UNO No Mercyを開いています...", "IGUI_UNM_Turn": "手番", "IGUI_UNM_Penalty": "ペナルティ",
+    "IGUI_UNM_Players": "プレイヤー", "IGUI_UNM_OpenSeat": "空席", "IGUI_UNM_Out": "脱落", "IGUI_UNM_TableLog": "テーブルログ",
+    "IGUI_UNM_YourHand": "手札", "IGUI_UNM_Actions": "アクション", "IGUI_UNM_SwapHandsWith": "手札を交換", "IGUI_UNM_MusicVolume": "音楽音量",
+    "IGUI_UNM_MercyOn": "マーシー ON", "IGUI_UNM_MercyOff": "マーシー OFF", "IGUI_UNM_SevenZeroOn": "0/7 ON", "IGUI_UNM_SevenZeroOff": "0/7 OFF",
+    "IGUI_UNM_YourOpponent": "対戦相手", "IGUI_UNM_ResultWinner": "勝者", "IGUI_UNM_ResultLoser": "敗者",
+    "IGUI_UNM_FinalVerdict": "最後の審判が近づいている...", "IGUI_UNM_WonBattle": "%1が勝利しました。",
+    "IGUI_UNM_ColorRoulette": "カラールーレット"
+}

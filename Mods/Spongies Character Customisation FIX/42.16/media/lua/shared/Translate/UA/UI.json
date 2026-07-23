@@ -1,0 +1,18 @@
+{
+    "UI_ChestHair": "Волосся тіла",
+    "UI_Muscle": "М'язи",
+    "UI_BodyHairGrowth": "Ріст",
+    "UI_characreation_face": "Лице",
+    "UI_characreation_bodydetail": "Деталі",
+    "UI_characreation_charapanel": "Правка",
+    "UI_characreation_appearance": "Вигляд",
+    "UI_characreation_shave": "Голити",
+    "UI_characreation_facedisabled": "Лице заблок.",
+    "UI_characreation_detailsdisabled": "Деталі заблок.",
+    "UI_shave_stubble_beard": "Голити бороду",
+    "UI_shave_stubble_head": "Голити голову",
+    "UI_shave_stubble_body": "Голити волосся",
+    "UI_debug_add_stubble_beard": "(Debug) + щетина",
+    "UI_debug_add_stubble_head": "(Debug) + волосся",
+    "UI_debug_add_stubble_body": "(Debug) + волосся тіла"
+}

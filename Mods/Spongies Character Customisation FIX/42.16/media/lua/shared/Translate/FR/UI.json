@@ -1,0 +1,18 @@
+{
+    "UI_ChestHair": "Pilosité",
+    "UI_Muscle": "Muscle",
+    "UI_BodyHairGrowth": "Pousse",
+    "UI_characreation_face": "Visage",
+    "UI_characreation_bodydetail": "Détails",
+    "UI_characreation_charapanel": "Éditer",
+    "UI_characreation_appearance": "Style",
+    "UI_characreation_shave": "Raser",
+    "UI_characreation_facedisabled": "Visage bloqué",
+    "UI_characreation_detailsdisabled": "Détails bloqués",
+    "UI_shave_stubble_beard": "Raser barbe",
+    "UI_shave_stubble_head": "Raser tête",
+    "UI_shave_stubble_body": "Raser poils",
+    "UI_debug_add_stubble_beard": "(Debug) Rep. barbe",
+    "UI_debug_add_stubble_head": "(Debug) Rep. tête",
+    "UI_debug_add_stubble_body": "(Debug) Ajout poils"
+}

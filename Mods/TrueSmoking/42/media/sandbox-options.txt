@@ -1,0 +1,183 @@
+VERSION = 1,
+
+option TrueSmoking.SmokingSpeed
+{
+    type = integer,
+    min = 25,
+    max = 200,
+    default = 100,
+    page = TrueSmoking,
+    translation = TrueSmoking_SmokingSpeed,
+    tooltip = TrueSmoking_SmokingSpeed_Tooltip,
+}
+
+option TrueSmoking.PuffStrength
+{
+    type = integer,
+    min = 25,
+    max = 200,
+    default = 100,
+    page = TrueSmoking,
+    translation = TrueSmoking_PuffStrength,
+    tooltip = TrueSmoking_PuffStrength_Tooltip,
+}
+
+option TrueSmoking.MovementBurn
+{
+    type = integer,
+    min = 25,
+    max = 200,
+    default = 100,
+    page = TrueSmoking,
+    translation = TrueSmoking_MovementBurn,
+    tooltip = TrueSmoking_MovementBurn_Tooltip,
+}
+
+option TrueSmoking.IdleBurnOut
+{
+    type = integer,
+    min = 0,
+    max = 100,
+    default = 100,
+    page = TrueSmoking,
+    translation = TrueSmoking_IdleBurnOut,
+    tooltip = TrueSmoking_IdleBurnOut_Tooltip,
+}
+
+option TrueSmoking.ManageHeadGear
+{
+    type = boolean,
+    default = true,
+    page = TrueSmoking,
+    translation = TrueSmoking_ManageHeadGear,
+}
+
+option TrueSmoking.SmokeRelighting
+{
+    type = boolean,
+    default = true,
+    page = TrueSmoking,
+    translation = TrueSmoking_SmokeRelighting,
+}
+
+option TrueSmoking.UseNewMoodle
+{
+    type = boolean,
+    default = true,
+    page = TrueSmoking,
+    translation = TrueSmoking_UseNewMoodle,
+}
+
+option TrueSmoking.Coughing
+{
+    type = boolean,
+    default = true,
+    page = TrueSmoking,
+    translation = TrueSmoking_Coughing,
+}
+
+option TrueSmoking.CoughingChanceSmoker
+{
+    type = integer,
+    min = 0,
+    max = 100,
+    default = 4,
+    page = TrueSmoking,
+    translation = TrueSmoking_CoughingChanceSmoker,
+}
+
+option TrueSmoking.CoughingChanceNonSmoker
+{
+    type = integer,
+    min = 0,
+    max = 100,
+    default = 15,
+    page = TrueSmoking,
+    translation = TrueSmoking_CoughingChanceNonSmoker,
+}
+
+option TrueSmoking.Dropping
+{
+    type = boolean,
+    default = true,
+    page = TrueSmoking,
+    translation = TrueSmoking_Dropping,
+}
+
+option TrueSmoking.DropChanceSmoker
+{
+    type = integer,
+    min = 0,
+    max = 100,
+    default = 6,
+    page = TrueSmoking,
+    translation = TrueSmoking_DropChanceSmoker,
+}
+
+option TrueSmoking.DropChanceNonSmoker
+{
+    type = integer,
+    min = 0,
+    max = 100,
+    default = 35,
+    page = TrueSmoking,
+    translation = TrueSmoking_DropChanceNonSmoker,
+}
+
+/* Nicotine System */
+
+option TrueSmoking.UseNicotineSystem
+{
+    type = boolean,
+    default = true,
+    page = TrueSmokingNicotine,
+    translation = TrueSmoking_UseNicotineSystem,
+}
+
+option TrueSmoking.DynamicSmokerTrait
+{
+    type = boolean,
+    default = true,
+    page = TrueSmokingNicotine,
+    translation = TrueSmoking_DynamicSmokerTrait,
+}
+
+option TrueSmoking.DaysToAddiction
+{
+    type = integer,
+    min = 1,
+    max = 60,
+    default = 10,
+    page = TrueSmokingNicotine,
+    translation = TrueSmoking_DaysToAddiction,
+}
+
+option TrueSmoking.DaysToDetox
+{
+    type = integer,
+    min = 3,
+    max = 90,
+    default = 30,
+    page = TrueSmokingNicotine,
+    translation = TrueSmoking_DaysToDetox,
+}
+
+option TrueSmoking.DaysToPeakWithdrawal
+{
+    type = integer,
+    min = 1,
+    max = 7,
+    default = 3,
+    page = TrueSmokingNicotine,
+    translation = TrueSmoking_DaysToPeakWithdrawal,
+}
+
+option TrueSmoking.SmokerTraitDecayMultiplier
+{
+    type = double,
+    min = 0.1,
+    max = 1.0,
+    default = 0.75,
+    page = TrueSmokingNicotine,
+    translation = TrueSmoking_SmokerTraitDecayMultiplier,
+}

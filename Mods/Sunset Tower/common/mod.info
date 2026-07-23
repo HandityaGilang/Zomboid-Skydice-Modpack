@@ -1,0 +1,11 @@
+name=Sunset Tower
+id=SunsetTower
+description=test
+icon=icon.png
+poster=poster.png
+versionMin=42.0.0
+author=Caçador
+modversion=42-1.22
+pack=sunsettower
+tiledef=sunsettower 8296
+

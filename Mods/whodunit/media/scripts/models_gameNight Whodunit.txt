@@ -1,0 +1,17 @@
+module Base
+{
+
+    model Whodunit_Cards { mesh = WorldItems/cardpack, texture = Item_WhodunitCards/deckTexture, scale = 0.024, }
+
+    model Whodunit_Board
+    {
+        mesh = WorldItems/BackgammonBoard,
+        texture = Item_InPlayTextures/whodunitBoard,
+        scale = 0.30,
+        attachment world { offset = -0.215 -0.0700 0.245, rotate = 0.0000 0.0000 0.0000, }
+    }
+
+    model WhodunitPiece { mesh = WorldItems/gameNightCube, texture = modelTextures/ChessPieceBlack, scale = 0.001, }
+
+    model Whodunit_Box_ground { mesh = WorldItems/cardpack, texture = Item_Boxes/WhodunitBox_ground, scale = 0.06, }
+}

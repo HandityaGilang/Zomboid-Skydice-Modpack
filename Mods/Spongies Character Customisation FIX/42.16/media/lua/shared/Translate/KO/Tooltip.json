@@ -1,0 +1,9 @@
+{
+    "Tooltip_Isometric": "등각 보기",
+    "Tooltip_Muscle": "전환 - 이 캐릭터에 근육이 표시됩니다",
+    "Tooltip_BodyHairGrowth": "전환 - 이 캐릭터의 체모와 그루터기가 자랍니다",
+    "Tooltip_RequireRazor": "면도칼 필요",
+    "Tooltip_NoBodyHair": "밀 체모가 없습니다",
+    "Tooltip_item_AppearanceChanger": "이 스피포를 들고 있으면 외형을 바꿀 수 있습니다. 정보 패널을 확인하세요.",
+    "Tooltip_item_AppearanceUnlocker": "이 곰을 들고 있으면 관리자 잠금 커스터마이징 옵션에 접근할 수 있습니다."
+}

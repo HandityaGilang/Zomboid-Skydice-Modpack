@@ -1,0 +1,31 @@
+module Base
+{
+    timedAction OpenCigarettePack_UIWW
+    {
+        metabolics = SedentaryActivity,
+        actionAnim = OpenAmmoBox,
+        prop2 = CigarettePack_Closed,
+        sound = BoxOfRoundsOpenOne,
+    }
+
+    timedAction PlaceCigaretteInPack_UIWW
+    {
+        metabolics = SedentaryActivity,
+        actionAnim = PlaceAmmoInBox,
+        prop2 = CigarettePack_Closed,
+        sound = BoxOfRoundsOpenOne,
+    }
+
+    model CigarettePack_Closed
+    {
+        mesh = WorldItems/CigarettePack_Closed,
+        scale = 0.175,
+    }
+
+    model CigaretteCarton
+    {
+        mesh = WorldItems/Cigarette_Carton,
+        texture = WorldItems/CigaretteCarton,
+        scale = 0.125,
+    }
+}

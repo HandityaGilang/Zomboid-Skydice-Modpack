@@ -1,0 +1,5 @@
+name=Spongie's Open Jackets - B42.19 Fix
+id=SpongieOpenJacketsB42Fix
+author=Kriz999
+require=SpnOpenCloth
+description=Stops the "Not in debug" / "expected 2 arguments, got 1" / "unhideModel of non-table: null" error spam from Spongie's Open Jackets on Build 42.19.0, and makes the open-jacket layering actually work again. The mod's BodyLocations tweaker used the getClassField/getClassFieldVal reflection helpers, which now throw outside -debug; this patch rebuilds the Human body-location group without reflection. Requires Spongie's Open Jackets. ENABLE AFTER Spongie's Open Jackets (this patch overrides one of its files by load order).

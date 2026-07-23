@@ -1,0 +1,9 @@
+{
+    "Tooltip_Isometric": "アイソメトリック表示",
+    "Tooltip_Muscle": "切り替え - このキャラクターに筋肉を表示",
+    "Tooltip_BodyHairGrowth": "切り替え - このキャラクターの体毛と無精ひげが伸びる",
+    "Tooltip_RequireRazor": "カミソリが必要",
+    "Tooltip_NoBodyHair": "剃る体毛がありません",
+    "Tooltip_item_AppearanceChanger": "このスピッフォを所持すると外見を変更できます。情報パネルを確認してください。",
+    "Tooltip_item_AppearanceUnlocker": "このクマを所持すると、管理者ロックされたカスタマイズ項目にアクセスできます。"
+}

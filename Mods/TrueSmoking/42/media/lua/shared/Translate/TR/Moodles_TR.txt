@@ -1,0 +1,39 @@
+Moodles_TR = {
+    Moodles_smoking_new_Good_lvl4 = "Yeni Yakýlmýþ",
+    Moodles_smoking_new_Good_lvl3 = "Yakalý Çok Olmamýþ",
+    Moodles_smoking_new_Good_lvl2 = "Yarýsýndan Fazla",
+    Moodles_smoking_new_Good_lvl1 = "Yarýsý Kadar",
+    Moodles_smoking_new_Bad_lvl1 = "Yarýsý Kadar",
+    Moodles_smoking_new_Bad_lvl2 = "Yarýsýndan Az",
+    Moodles_smoking_new_Bad_lvl3 = "Neredeyse Bitmiþ",
+    Moodles_smoking_new_Bad_lvl4 = "Son Bir Çekim",
+
+    Moodles_smoking_old_Good_lvl4 = "Yeni Yakýlmýþ",
+    Moodles_smoking_old_Good_lvl3 = "Yakalý Çok Olmamýþ",
+    Moodles_smoking_old_Good_lvl2 = "Yarýsýndan Fazla",
+    Moodles_smoking_old_Good_lvl1 = "Yarýsý Kadar",
+    Moodles_smoking_old_Bad_lvl1 = "Yarýsý Kadar",
+    Moodles_smoking_old_Bad_lvl2 = "Yarýsýndan Az",
+    Moodles_smoking_old_Bad_lvl3 = "Neredeyse Bitmiþ",
+    Moodles_smoking_old_Bad_lvl4 = "Son Bir Çekim",
+
+    Moodles_smoking_Custom = "Sigara þu anda %1, %2 kalmýþ.",
+    
+    Moodles_nicotine_Good_lvl4 = "Baðýmlýlýk Yok",
+    Moodles_nicotine_Good_lvl3 = "Hafif Baðýmlý",
+    Moodles_nicotine_Good_lvl2 = "Biraz Baðýmlý",
+    Moodles_nicotine_Good_lvl1 = "Orta Derece Baðýmlý",
+    Moodles_nicotine_Bad_lvl1 = "Fena Baðýmlý",
+    Moodles_nicotine_Bad_lvl2 = "Çok Fena Baðýmlý",
+    Moodles_nicotine_Bad_lvl3 = "Aþýrý Baðýmlý",
+    Moodles_nicotine_Bad_lvl4 = "Çaresizce Baðýmlý",
+
+    Moodles_nicotine_no_addiction = "Nikotin baðýmlýlýðý yok.",
+    Moodles_nicotine_addiction = "Nikotin baðýmlýlýðýn var, kurtulmak için ~%1 ihtiyacýn var.",
+
+    Moodles_nicotine_withdrawal_0 = "Memnunsun.",
+    Moodles_nicotine_withdrawal_1 = "Sigara düþünüyorsun.",
+    Moodles_nicotine_withdrawal_2 = "Sigaraya hasretsin.",
+    Moodles_nicotine_withdrawal_3 = "Sigara için çaresizsin.",
+    Moodles_nicotine_withdrawal_4 = "Yoksunluktasýn, sigaraya çok ihtiyacýn var.",
+}

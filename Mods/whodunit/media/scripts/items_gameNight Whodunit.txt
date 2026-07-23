@@ -1,0 +1,106 @@
+module Base
+{
+    item WhodunitCards
+    { DisplayCategory = Deck, Weight = 0.01, Type = Normal,
+    DisplayName = Whodunit Deck, Icon = WhodunitCards/deck, WorldStaticModel = Whodunit_Cards, }
+
+    item WhodunitBoard {
+        DisplayCategory = GameBoard, Weight = 0.01, Type = Normal,
+        DisplayName	=	Whodunit Board, Icon = OutOfPlayTextures/whodunitBoard, WorldStaticModel = Whodunit_Board,
+    }
+
+    item Whodunit_Box
+        {
+            DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, Type = Container, Capacity = 2,
+            DisplayName = Whodunit Box, Icon = Boxes/WhodunitBox, WorldStaticModel = Whodunit_Box_ground,
+        }
+
+    item Whodunit_Box_sealed
+        {
+            DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, Type = Normal, Capacity = 2,
+            DisplayName = Whodunit Box (Sealed), Icon = Boxes/WhodunitBox, WorldStaticModel = Whodunit_Box_ground,
+        }
+
+
+    item WhodunitPlum
+        {
+            DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, WorldStaticModel = WhodunitPiece,
+            DisplayName	= Prof. Plum, Icon = OutOfPlayTextures/profplum,
+        }
+
+    item WhodunitWhite
+        {
+            DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, WorldStaticModel = WhodunitPiece,
+            DisplayName	= Ms. White, Icon = OutOfPlayTextures/mswhite,
+        }
+
+    item WhodunitScarlet
+        {
+            DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, WorldStaticModel = WhodunitPiece,
+            DisplayName	= Ms. Scarlet, Icon = OutOfPlayTextures/msscarlet,
+        }
+
+
+    item WhodunitPeacock
+        {
+            DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, WorldStaticModel = WhodunitPiece,
+            DisplayName	= Mrs. Peacock, Icon = OutOfPlayTextures/mrspeacock,
+        }
+
+
+    item WhodunitGreen
+        {
+            DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, WorldStaticModel = WhodunitPiece,
+            DisplayName	= Mr. Green, Icon = OutOfPlayTextures/mrgreen,
+        }
+
+
+    item WhodunitMustard
+        {
+            DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, WorldStaticModel = WhodunitPiece,
+            DisplayName	= Col. Mustard, Icon = OutOfPlayTextures/colmustard,
+        }
+
+
+    item WhodunitCandlestick
+        {
+            DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, WorldStaticModel = WhodunitPiece,
+            DisplayName	= Candlestick Piece, Icon = OutOfPlayTextures/candlestick_,
+        }
+
+
+    item WhodunitKnife
+        {
+            DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, WorldStaticModel = WhodunitPiece,
+            DisplayName	= Knife Piece, Icon = OutOfPlayTextures/knife_,
+        }
+
+
+    item WhodunitRope
+        {
+            DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, WorldStaticModel = WhodunitPiece,
+            DisplayName	= Rope Piece, Icon = OutOfPlayTextures/rope_,
+        }
+
+
+    item WhodunitPistol
+        {
+            DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, WorldStaticModel = WhodunitPiece,
+            DisplayName	= Pistol Piece, Icon = OutOfPlayTextures/pistol_,
+        }
+
+
+    item WhodunitWrench
+        {
+            DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, WorldStaticModel = WhodunitPiece,
+            DisplayName	= Wrench Piece, Icon = OutOfPlayTextures/wrench_,
+        }
+
+
+    item WhodunitLeadpipe
+        {
+            DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, WorldStaticModel = WhodunitPiece,
+            DisplayName	= Leadpipe Piece, Icon = OutOfPlayTextures/leadpipe_,
+        }
+
+}

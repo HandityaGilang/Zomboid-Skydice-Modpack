@@ -1,0 +1,18 @@
+{
+    "UI_ChestHair": "Pelos",
+    "UI_Muscle": "Músculo",
+    "UI_BodyHairGrowth": "Cresc.",
+    "UI_characreation_face": "Rosto",
+    "UI_characreation_bodydetail": "Detalhes",
+    "UI_characreation_charapanel": "Editar",
+    "UI_characreation_appearance": "Visual",
+    "UI_characreation_shave": "Raspar",
+    "UI_characreation_facedisabled": "Rosto indispon.",
+    "UI_characreation_detailsdisabled": "Detalhes indispon.",
+    "UI_shave_stubble_beard": "Raspar barba",
+    "UI_shave_stubble_head": "Raspar cabeça",
+    "UI_shave_stubble_body": "Raspar pelos",
+    "UI_debug_add_stubble_beard": "(Debug) Add barba",
+    "UI_debug_add_stubble_head": "(Debug) Add cabelo",
+    "UI_debug_add_stubble_body": "(Debug) Add pelos"
+}

@@ -1,0 +1,7 @@
+name=XP Popups
+poster=poster.png
+icon=icon.png
+id=XPPopups
+description=Shows XP gain popups above your character for all skills. Configurable per-skill in Mod Options.
+modversion=1.2.0
+versionMin=42.13.1

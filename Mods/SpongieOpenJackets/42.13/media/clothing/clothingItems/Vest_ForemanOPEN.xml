@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Spongie\bob_huntingvestOpen</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Spongie\kate_huntingvestOpen</m_FemaleModel>
+	<m_GUID>b43dbcf0-OPEN-4735-be16-3c849d6c0137</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\bulletvest\foremanvest</textureChoices>
+</clothingItem>

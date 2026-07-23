@@ -1,0 +1,649 @@
+module Tsarcraft
+{
+	imports
+	{
+		Base
+	}
+/********************Generated Music Carriers********************/
+
+	item CassetteAndraandtheBackboneSempurna
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Andra and the Backbone - Sempurna,
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteBaseJamBukanPujangga
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Base Jam - Bukan Pujangga,
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteCandraDarusmanKau
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Candra Darusman - Kau,
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteChrisyeAnakSekolah
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Chrisye - Anak Sekolah,
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteChrisyeCintaku
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Chrisye - Cintaku,
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteChrisyeKalaCintaMenggoda
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Chrisye - Kala Cinta Menggoda,
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteChrisyedanVinaPanduwinataKisahInsani
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Chrisye dan Vina Panduwinata - Kisah Insani,
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteClub80sGejolakKawulaMuda
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Club 80s - Gejolak Kawula Muda,
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteCokelatJauh
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Cokelat - Jauh,
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteCokelatKarma
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Cokelat - Karma,
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteDewaAkuMilikmu
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Dewa - Aku Milikmu,
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteDewaCintakanMembawamuKembali
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Dewa - Cintakan Membawamu Kembali,
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteDewaCukupSitiNurbaya
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Dewa - Cukup Siti Nurbaya,
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteDewaKangen
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Dewa - Kangen,
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteDewaKirana
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette Dewa - Kirana,
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteDewaMistikusCinta
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Dewa - Mistikus Cinta,
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteDewaRisalahHati
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette Dewa - Risalah Hati,
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteDewaRomanPicisan
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Dewa - Roman Picisan,
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteDiskoriaCHRISYE
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette Diskoria - CHRISYE,
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteDiskoriadanDianSastroSerenataJiwaLara
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Diskoria dan Dian Sastro - Serenata Jiwa Lara,
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteEbietGAdeBeritaPadaKawan
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Ebiet G Ade - Berita Pada Kawan,
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteFarizRMSakura
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Fariz RM - Sakura,
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteGigiAndai
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Gigi - Andai,
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteGigiTerbang
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Gigi - Terbang,
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteGodblessRumahKita
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Godbless - Rumah Kita,
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteIwaKBebas
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Iwa K - Bebas,
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteJamrudPelangiDiMatamu
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Jamrud - Pelangi Di Matamu,
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteJamrudSurtiTedjo
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Jamrud - Surti Tedjo,
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteKillingMeInsideBiarlah
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Killing Me Inside - Biarlah,
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteKLAProjectYogyakarta
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette KLA Project - Yogyakarta,
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteKoesPlusAndaikanKauDatang
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Koes Plus - Andaikan Kau Datang,
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteKoesPlusKembaliKeJakarta
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Koes Plus - Kembali Ke Jakarta,
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteMEInikahCinta
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette ME - Inikah Cinta,
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteNaifBenciUntukMencinta
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Naif - Benci Untuk Mencinta,
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteNaifMobilBalap
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Naif - Mobil Balap,
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteNaifPiknik72
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Naif - Piknik 72,
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteNetralPertempuranHati
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Netral - Pertempuran Hati,
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteNetralSorry
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Netral - Sorry,
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteNetralTerbangTenggelam
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Netral - Terbang Tenggelam,
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteNikeArdillaBintangKehidupan
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Nike Ardilla - Bintang Kehidupan,
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteNikeArdillaDiAntaraPilihan
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Nike Ardilla - Di Antara Pilihan,
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteNikeArdillaSeberkasSinar
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Nike Ardilla - Seberkas Sinar,
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassettePasBandfeatTereKesepianKita
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Pas Band feat Tere - Kesepian Kita,
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassettePeterpanBintangdiSurga
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Peterpan - Bintang di Surga,
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassettePeterpanHariYangCerahUntukJiwaYangSepi
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Peterpan - Hari Yang Cerah Untuk Jiwa Yang Sepi,
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteRezaArtameviaBiarJadiKenangan
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Reza Artamevia - Biar Jadi Kenangan,
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteRezaArtameviaKeabadian
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Reza Artamevia - Keabadian,
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteRezaArtameviaSatuYangTakBisaLepas
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Reza Artamevia - Satu Yang Tak Bisa Lepas,
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteRomeoBungaTerakhir
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Romeo - Bunga Terakhir,
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteSheilaOn7Dan
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Sheila On 7 - Dan,
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteSheilaOn7Kita
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Sheila On 7 - Kita,
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteSlankKuTakBisa
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Slank - Ku Tak Bisa,
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteSlankTerlaluManis
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Slank - Terlalu Manis,
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteSlankVirus
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Slank - Virus,
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteTheFlyTerbang
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette The Fly - Terbang,
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteTipeXKamuEnggakSendirian
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Tipe-X - Kamu Enggak Sendirian,
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteTipeXMawarHitam
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Tipe-X - Mawar Hitam,
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteUnguDiSiniUntukmu
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Ungu - Di Sini Untukmu,
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteUthaLikumahuwaEsokkanMasihAda
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Utha Likumahuwa - Esokkan Masih Ada,
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteUthaLikumahuwaSesaatKauHadir
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Utha Likumahuwa - Sesaat Kau Hadir,
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteUthaLikumahuwaTersiksaLagi
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Utha Likumahuwa - Tersiksa Lagi,
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteVierraPerih
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Vierra - Perih,
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteVierraSeandainya
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Vierra - Seandainya,
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteVinaPanduwinataDia
+	{
+		Type			=	Normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Vina Panduwinata - Dia,
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+}

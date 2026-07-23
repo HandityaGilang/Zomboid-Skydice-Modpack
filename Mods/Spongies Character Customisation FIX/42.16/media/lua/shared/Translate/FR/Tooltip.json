@@ -1,0 +1,9 @@
+{
+    "Tooltip_Isometric": "Vue isométrique",
+    "Tooltip_Muscle": "Basculer - Les muscles apparaissent sur ce personnage",
+    "Tooltip_BodyHairGrowth": "Basculer - Les poils corporels et le chaume repoussent sur ce personnage",
+    "Tooltip_RequireRazor": "Nécessite un rasoir",
+    "Tooltip_NoBodyHair": "Aucun poil corporel à raser",
+    "Tooltip_item_AppearanceChanger": "Tenir ce Spiffo vous permet de modifier votre apparence. Consultez votre panneau Infos.",
+    "Tooltip_item_AppearanceUnlocker": "Tenir cet ourson vous donne accès aux options de personnalisation verrouillées par l'admin."
+}

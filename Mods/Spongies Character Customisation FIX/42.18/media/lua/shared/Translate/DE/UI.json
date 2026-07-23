@@ -1,0 +1,18 @@
+{
+    "UI_ChestHair": "Körperhaar",
+    "UI_Muscle": "Muskel",
+    "UI_BodyHairGrowth": "Haarwuchs",
+    "UI_characreation_face": "Gesicht",
+    "UI_characreation_bodydetail": "Details",
+    "UI_characreation_charapanel": "Bearb.",
+    "UI_characreation_appearance": "Look",
+    "UI_characreation_shave": "Rasur",
+    "UI_characreation_facedisabled": "Gesicht gesperrt",
+    "UI_characreation_detailsdisabled": "Details gesperrt",
+    "UI_shave_stubble_beard": "Bart rasieren",
+    "UI_shave_stubble_head": "Kopf rasieren",
+    "UI_shave_stubble_body": "Körperhaar ras.",
+    "UI_debug_add_stubble_beard": "(Debug) Bartstoppeln",
+    "UI_debug_add_stubble_head": "(Debug) Kopfstoppeln",
+    "UI_debug_add_stubble_body": "(Debug) Körperhaar"
+}

@@ -1,0 +1,4 @@
+[ 11/21/24 ]
+Changed Sandbox Option: ZombiesDropLootMultiplier
+- (min = 0.0001 from 0.01, and default = 0.01 from 1.)
+[ ------ ]

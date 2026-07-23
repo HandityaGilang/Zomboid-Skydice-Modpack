@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+    <files>
+        <path>media/clothing/clothingItems/Mask_Cigarette.xml</path>
+        <guid>716a785f-621a-42e1-8236-777a71384c3e</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Mask_Pipe.xml</path>
+        <guid>8ed889dd-4c00-477a-b5c9-7dfa86c71519</guid>
+    </files>
+
+    <files>
+        <path>media/clothing/clothingItems/Mask_Cigarillo.xml</path>
+        <guid>bbfbdc47-78bc-495d-a1d2-98bcd9d9dfdc</guid>
+    </files>
+    
+    <files>
+        <path>media/clothing/clothingItems/Mask_Cigar.xml</path>
+        <guid>d770aaea-b091-4139-b300-f534f24fea63</guid>
+    </files>
+</fileGuidTable>

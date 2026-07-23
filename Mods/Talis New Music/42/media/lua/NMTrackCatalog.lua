@@ -1,0 +1,1 @@
+-- Legacy root require shim.

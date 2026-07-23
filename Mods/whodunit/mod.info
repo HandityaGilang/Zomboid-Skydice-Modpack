@@ -1,0 +1,5 @@
+name=Game Night - Whodunit
+id=gamenight_Whodunit
+description=
+poster=poster.png
+require=gamenight

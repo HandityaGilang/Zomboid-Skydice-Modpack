@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends='looped.xml'>
+    <m_Name>loopedTA</m_Name>
+    <m_deferredBoneAxis>Y</m_deferredBoneAxis>
+    <m_Looped>true</m_Looped>
+</animNode>

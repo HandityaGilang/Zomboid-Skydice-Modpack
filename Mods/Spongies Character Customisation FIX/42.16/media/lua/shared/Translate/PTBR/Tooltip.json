@@ -1,0 +1,9 @@
+{
+    "Tooltip_Isometric": "Visão isométrica",
+    "Tooltip_Muscle": "Alternar - Músculos aparecem neste personagem",
+    "Tooltip_BodyHairGrowth": "Alternar - Pelos corporais e barba rala crescem neste personagem",
+    "Tooltip_RequireRazor": "Requer uma navalha",
+    "Tooltip_NoBodyHair": "Não há pelos corporais para raspar",
+    "Tooltip_item_AppearanceChanger": "Segurar este Spiffo permite mudar sua aparência. Verifique seu painel de Informações.",
+    "Tooltip_item_AppearanceUnlocker": "Segurar este urso dá acesso às opções de personalização bloqueadas pelo admin."
+}

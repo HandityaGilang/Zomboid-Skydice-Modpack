@@ -1,0 +1,166 @@
+Sandbox_TR = {
+	Sandbox_TrueSmoking = "True Smoking Ayarlarý",
+
+    Sandbox_TrueSmoking_OverrideSmokeLength = "TÜM Madde Süresini Deðiþtir",
+        Sandbox_TrueSmoking_OverrideSmokeLength_tooltip = "Ayarlanmýþ özel deðer ile tüm tütün maddelerinin kullaným süresini deðiþtirir.",
+
+    Sandbox_TrueSmoking_SmokeLength = "Varsayýlan/Deðiþtirilmiþ Tütün Süresi",
+        Sandbox_TrueSmoking_SmokeLength_tooltip = "Eðer eþya varsayýlan bir deðer içermiyorsa, varsayýlan olarak tütün maddelerinin baz alacaðý uzunluk deðeri. (Daha yüksek deðer = daha uzun tütün ömrü)",
+
+    Sandbox_TrueSmoking_ManageHeadGear = "Þapka & Maskeleri Çýkar",
+        Sandbox_TrueSmoking_ManageHeadGear_tooltip = "Etkinleþtirildiðinde, sigara içmeden önce sigaranýn oyuncunun aðzýnda gözükebilmesini engelleyen herhangi bir maske veya þapkanýn kaldýrýlmasý gerekecek.",
+
+    Sandbox_TrueSmoking_UseMoodle = "Moodle'larý Göster",
+        Sandbox_TrueSmoking_UseMoodle_tooltip = "Moodle, yani durum baloncuklarýný açýk kapatmaya yarar.",
+
+    Sandbox_TrueSmoking_UseNewMoodle = "Yeni Moodle'ý Kullan (B42 Tarzý)",
+        Sandbox_TrueSmoking_UseNewMoodle_tooltip = "Ayar kapatýlýrsa B41 Tarzý eski moodle, yani oyuncunun durum baloncuðu ikonunu kullanýrsýnýz.",
+
+    Sandbox_TrueSmoking_SmokeRelighting = "Sigara Tekrar Yakma",
+        Sandbox_TrueSmoking_SmokeRelighting_tooltip = "Etkinleþtirildiðinde, sigara 'Minimum yanma limiti'nin altýna inerse onun tekrar yakýlmasýna olanak saðlar.",
+
+    Sandbox_TrueSmoking_Coughing = "Sigaradan Öksürme",
+        Sandbox_TrueSmoking_Coughing_tooltip = "Sigarayý tüttürürken öksürme ihtimalini açýp kapatmaya yarar.",
+    
+    Sandbox_TrueSmoking_CoughingChanceSmoker = "Tiryakiler için Öksürme % Ýhtimali",
+        Sandbox_TrueSmoking_CoughingChanceSmoker_tooltip = "Tiryakiler için, sigara her içildiðinde karakter belirlenen % ihtimali ile öksürebilir.",
+
+    Sandbox_TrueSmoking_CoughingChanceNonSmoker = "Tiryaki Olmayanlar için Öksürme % Ýhtimali",
+        Sandbox_TrueSmoking_CoughingChanceNonSmoker_tooltip = "Tiryaki olmayanlar için, sigara her içildiðinde karakter belirlenen % ihtimali ile öksürebilir.",
+
+    Sandbox_TrueSmoking_Dropping = "Sigarayý Düþürme",
+        Sandbox_TrueSmoking_Dropping_tooltip = "Yere düþerken sigarayý aðýzdan düþürme ihtimalini açýp kapatmaya yarar.",
+    
+    Sandbox_TrueSmoking_DroppingChanceSmoker = "Tiryakiler için Sigarayý Düþürme % Ýhtimali",
+        Sandbox_TrueSmoking_DroppingChanceSmoker_tooltip = "Tiryakiler için, yere düþerken sigarayý aðýzdan düþürme ihtimali yüzdesi.",
+
+    Sandbox_TrueSmoking_DroppingChanceNonSmoker = "Tiryaki Olmayanlar için Sigarayý Düþürme % Ýhtimali",
+        Sandbox_TrueSmoking_DroppingChanceNonSmoker_tooltip = "Tiryaki olmayanlar için, yere düþerken sigarayý aðýzdan düþürme ihtimali yüzdesi.",
+
+    /* 	Nikotin Sistemi */
+
+    Sandbox_TrueSmokingNicotine = "True Smoking - Nikotin Sistemi",
+
+    Sandbox_TrueSmoking_UseNicotineSystem = "Nikotin Sistemini Kullan",
+        Sandbox_TrueSmoking_UseNicotineSystem_tooltip = "Nikotin baðýmlýlýðý ve nikotin yoksunluðu sistemini etkinleþtirir.",
+
+    Sandbox_TrueSmoking_DynamicSmokerTrait = "Dinamik Tiryaki Özelliði",
+        Sandbox_TrueSmoking_DynamicSmokerTrait_tooltip = "Oyuncu karakterinin Tiryaki özelliðini kazanýp kaybetmesine izin verir.",
+    
+   /* Nikotin Sistemi - Metabolizma Ayarlarý */
+    Sandbox_TrueSmoking_MetabolismBaseDecayRate = "Nikotin Vücuttan Atýlma Hýzý",
+        Sandbox_TrueSmoking_MetabolismBaseDecayRate_tooltip = "Nikotinin vücuttan atýlma hýzýný belirler. (Daha yüksek deðer = daha yavaþ sindirim)",
+
+    /* Nikotin Sistemi - Baðýmlýlýk Ayarlarý */
+    Sandbox_TrueSmoking_AddictionGainRate = "Baðýmlýlýk Kazanma Hýzý",
+        Sandbox_TrueSmoking_AddictionGainRate_tooltip = "Yüksek nikotin seviyelerinde baðýmlýlýðýn ne kadar hýzlý arttýðýný belirler.",
+
+    Sandbox_TrueSmoking_AddictionDecayRate = "Baðýmlýlýk Geçme Hýzý",
+        Sandbox_TrueSmoking_AddictionDecayRate_tooltip = "Düþük nikotin seviyelerinde baðýmlýlýðýn ne kadar yavaþ azaldýðýný belirler. (Daha yüksek deðer = daha yavaþ baðýmlýlýktan kurtulma)",
+
+    Sandbox_TrueSmoking_AddictionMinDecay = "Minimum Baðýmlýlýk Geçmesi",
+        Sandbox_TrueSmoking_AddictionMinDecay_tooltip = "Saat baþý minimum baðýmlýlýk geçmesini belirleyen deðer.",
+
+    Sandbox_TrueSmoking_AddictionGrowthThreshold = "Baðýmlýlýk Büyüme Eþiði",
+        Sandbox_TrueSmoking_AddictionGrowthThreshold_tooltip = "Baðýmlýlýðýn artmasý için sahip olunmasý gereken minimum nikotin seviyesini belirler.",
+
+    Sandbox_TrueSmoking_AddictionTraitThreshold = "Tiryakilik Kazanma Eþiði",
+        Sandbox_TrueSmoking_AddictionTraitThreshold_tooltip = "'Tiryaki' özelliðini almak için oyuncunun sahip olmasý gereken baðýmlýlýk seviyesi. Karakter bu seviyeye ve üstüne ulaþtýðýnda baðýmlý olur.",
+
+    Sandbox_TrueSmoking_AddictionCureThreshold = "Tiryakilikten Kurtulma Eþiði",
+        Sandbox_TrueSmoking_AddictionCureThreshold_tooltip = "'Tiryaki' özelliðinden kurtulmak için oyuncunun sahip olmasý gereken baðýmlýlýk seviyesi. Karakter bu seviye ve altýna düþtüðünde baðýmlýlýktan kurtulur.",
+
+    Sandbox_TrueSmoking_AddictionCurveExponent = "Baðýmlýlýk Eðri Zirvesi",
+        Sandbox_TrueSmoking_AddictionCurveExponent_tooltip = "Baðýmlýlýk büyüme eðrisinin þeklini kontrol eder.",
+
+    Sandbox_TrueSmoking_AddictionCurveMultiplier = "Baðýmlýlýk Eðri Çarpaný",
+        Sandbox_TrueSmoking_AddictionCurveMultiplier_tooltip = "Baðýmlýlýk büyüme eðrisinin çarpanýný belirler.",
+
+    Sandbox_TrueSmoking_AddictionIntakeConversion = "Nikotinden Baðýmlýlýk Dönüþümü",
+        Sandbox_TrueSmoking_AddictionIntakeConversion_tooltip = "Nikotinin doðrudan baðýmlýlýða dönüþme yüzdesini belirler.",
+
+    Sandbox_TrueSmoking_AddictionActiveSmoking = "Aktif Tüttürme Baðýmlýlýk Bonusu",
+        Sandbox_TrueSmoking_AddictionActiveSmoking_tooltip = "Aktif olarak içerken baðýmlýlýða eklenen bonus.",
+
+    Sandbox_TrueSmoking_HungerReduction = "Açlýk Azaltma",
+        Sandbox_TrueSmoking_HungerReduction_tooltip = "Tüttürürken açlýðýn ne kadar azalacaðýný belirler.",
+
+    Sandbox_TrueSmoking_FatigueReduction = "Yorulma Azaltma",
+        Sandbox_TrueSmoking_FatigueReduction_tooltip = "Tüttürürken yorulmanýn ne kadar azalacaðýný belirler.",
+
+    Sandbox_TrueSmoking_StressGain = "Stres Kazanýmý",
+        Sandbox_TrueSmoking_StressGain_tooltip = "Yoksunluktan ne kadar stres kazanýlacaðýný belirler.",
+
+    Sandbox_TrueSmoking_UnhappinessGain = "Mutsuzluk Kazanýmý",
+        Sandbox_TrueSmoking_UnhappinessGain_tooltip = "Yoksunluktan ne kadar mutsuzluk kazanýlacaðýný belirler.",
+
+    Sandbox_TrueSmoking_BoredomGain = "Sýkýlma Kazanýmý",
+        Sandbox_TrueSmoking_BoredomGain_tooltip = "Yoksunluktan ne kadar can sýkýntýsý kazanýlacaðýný belirler.",
+
+    Sandbox_TrueSmoking_StressMax = "Maksimum Stres",
+        Sandbox_TrueSmoking_StressMax_tooltip = "Yoksunluktan kazanýlan maksimum stresi belirler.",
+
+    Sandbox_TrueSmoking_UnhappinessMax = "Maksimum Mutsuzluk",
+        Sandbox_TrueSmoking_UnhappinessMax_tooltip = "Yoksunluktan kazanýlan maksimum mutsuzluðu belirler.",
+
+    Sandbox_TrueSmoking_BoredomMax = "Maksimum Sýkýlma",
+        Sandbox_TrueSmoking_BoredomMax_tooltip = "Yoksunluktan kazanýlan maksimum can sýkýntýsýný belirler.",
+
+    Sandbox_TrueSmoking_AddictionCap = "Baðýmlýlýk Sýnýrý",
+        Sandbox_TrueSmoking_AddictionCap_tooltip = "Maksimum baðýmlýlýk seviyesini belirler.",
+    
+    /* Madde Çevirileri */
+
+    Sandbox_TrueSmokingSmokables = "True Smoking - Maddeler",
+
+    Sandbox_TrueSmoking_CigaretteSettings = "Sigara Ayarlarý",
+        Sandbox_TrueSmoking_CigaretteSettings_tooltip = "Sigara ayarlarý.",
+
+    Sandbox_TrueSmoking_RolledCigaretteSettings = "Sarma Sigara Ayarlarý",
+        Sandbox_TrueSmoking_RolledCigaretteSettings_tooltip = "Sarma sigara ayarlarý.",
+
+    Sandbox_TrueSmoking_CigarilloSettings = "Sigarillo Ayarlarý",
+        Sandbox_TrueSmoking_CigarilloSettings_tooltip = "Sigarillo ayarlarý.",
+
+    Sandbox_TrueSmoking_CigarSettings = "Puro Ayarlarý",
+        Sandbox_TrueSmoking_CigarSettings_tooltip = "Puro ayarlarý.",
+
+    Sandbox_TrueSmoking_PipeSettings = "Pipo Ayarlarý",
+        Sandbox_TrueSmoking_PipeSettings_tooltip = "Pipo ayarlarý.",
+
+    Sandbox_TrueSmoking_CanSettings = "Teneke Sigara Ayarlarý",
+        Sandbox_TrueSmoking_CanSettings_tooltip = "Teneke sigara ayarlarý.",
+
+    Sandbox_TrueSmoking_Length = "Madde Uzunluðu",
+        Sandbox_TrueSmoking_Length_tooltip = "Tüttürülebilir maddenin 'miktarýný' belirler.",
+
+    Sandbox_TrueSmoking_BurnMin = "Minimum Yanma Hýzý",
+        Sandbox_TrueSmoking_BurnMin_tooltip = "Yürürken, koþarken ve depar atarken maddenin kalacaðý minimum yanma hýzýný belirler.",
+    
+    Sandbox_TrueSmoking_BurnMax = "Maksimum Yanma Hýzý",
+        Sandbox_TrueSmoking_BurnMax_tooltip = "Tüttürürken maddenin kalacaðý maksimum yanma hýzýný belirler.",
+
+    Sandbox_TrueSmoking_BurnSpeed = "Yanma Ývme Hýzý",
+        Sandbox_TrueSmoking_BurnSpeed_tooltip = "Maddenin tüttürülürken maksimum yanma hýzýna ne kadar hýzlý ulaþacaðýný belirleyen, bir bakýma ivme iþlevi gören deðeri belirler.",
+
+    Sandbox_TrueSmoking_BurnSpeedDecay = "Yanma Hýzý Düzelmesi",
+        Sandbox_TrueSmoking_BurnSpeedDecay_tooltip = "Maksimuma ulaþtýktan sonra yanma hýzýnýn ne kadar yavaþlayacaðýný belirler.",
+
+    Sandbox_TrueSmoking_DecayRate = "Kül Olma Hýzý",
+        Sandbox_TrueSmoking_DecayRate_tooltip = "Hareket etmez ve durgun haldeyken maddenin ne kadar hýzlý gittiðini belirler. (Tik baþý yanma hýzýný çarpar.)"",
+
+    Sandbox_TrueSmoking_EffectMultiplier = "Verimlilik Çarpaný",
+        Sandbox_TrueSmoking_EffectMultiplier_tooltip = "Maddenin stres ve diðer moodle'larý dindirmek konusunda verimini bu deðer ile çarpar.",
+
+    Sandbox_TrueSmoking_PuffFactor = "Tüttürürken Yanma Hýzý Artýþý",
+        Sandbox_TrueSmoking_PuffFactor_tooltip = "Tüttürürken yanma hýzýnýn ne kadar arttýðýný belirler.",
+
+    Sandbox_TrueSmoking_WalkingFactor = "Yürürken Yanma Hýzý Artýþý",
+        Sandbox_TrueSmoking_WalkingFactor_tooltip = "Yürürken yanma hýzýnýn ne kadar arttýðýný belirler.",
+
+    Sandbox_TrueSmoking_RunningFactor = "Koþarken Yanma Hýzý Artýþý",
+        Sandbox_TrueSmoking_RunningFactor_tooltip = "Koþarken yanma hýzýnýn ne kadar arttýðýný belirler.",
+
+    Sandbox_TrueSmoking_SprintingFactor = "Depar Atarken Yanma Hýzý Artýþý",
+        Sandbox_TrueSmoking_SprintingFactor_tooltip = "Depar atarken yanma hýzýnýn ne kadar arttýðýný belirler.",
+}

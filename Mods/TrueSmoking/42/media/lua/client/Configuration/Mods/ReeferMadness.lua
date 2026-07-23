@@ -1,0 +1,260 @@
+-- if getActivatedMods():contains('\\ReeferMadness') then
+
+--     function OnEat_WeedPipe_OverTime(smokable)
+--         if smokable.item:getOnEat() == 'OnEat_WeedPipe' then
+--             local WeedPipe = 0.2
+--             local player = smokable.player -- The stored player here should also be the correct splitscreen player if present
+--             local moodle = MF.getMoodle("ReeferMadness_High", player:getPlayerNum())
+--             local currentMoodleValue = moodle:getValue()
+--             --[[
+--                 Here we want to scale the value we are adding by the puffPercent which is calculated every tick we smoke
+--                 this will accumulate over the duration of the smoke to that complete value
+
+--                 You can add another multipler to this to help scale it faster if you desire as it might not increase fast enough to negate
+--                 the decrease over time (largely depends on the smoke setttings)
+--             ]]
+--             local additionMoodleValue = (WeedPipe) * smokable.puffPercent
+--             local myNewMoodleValue = math.max(currentMoodleValue + additionMoodleValue)
+--             if myNewMoodleValue > 0.9 then
+--                 myNewMoodleValue = 0.9
+--             end
+--             MF.getMoodle("ReeferMadness_High",playerNum):setValue(myNewMoodleValue)
+--         end
+--     end
+
+--     function OnEat_WeedJoint_OverTime(smokable)
+--         if smokable.item:getOnEat() == 'OnEat_WeedJoint' then
+--             local WeedJoint = 0.4
+--             local player = smokable.player
+--             local moodle = MF.getMoodle("ReeferMadness_High", player:getPlayerNum())
+--             local currentMoodleValue = moodle:getValue()
+--             local additionMoodleValue = (WeedJoint) * smokable.puffPercent
+--             local myNewMoodleValue = math.max(currentMoodleValue + additionMoodleValue)
+--             if myNewMoodleValue > 0.9 then
+--                 myNewMoodleValue = 0.9
+--             end
+--             MF.getMoodle("ReeferMadness_High",playerNum):setValue(myNewMoodleValue)
+--         end
+--     end
+
+
+--     --[[
+--         I only set the first callback here but this will be how you can adjust and tweak items as you desire
+--     ]]
+--     Events.OnCreatePlayer.Add(function()
+--         local smokableObjects = {
+--             ['ReeferMadness.SmokingPipe_marijuana'] = {
+--                 visualItem = 'Mask_Pipe',                     -- Visual item to be displayed on mouth
+--                 smokeLength = TrueSmoking.Options.PipeLength, -- Length of smoke
+--                 burnMin = 0.000125,                           -- Minimum burn rate target
+--                 burnMax = 0.000300,                           -- Maximum burn rate target
+--                 burnSpeed = 0.0025,                           -- Acceleration towards burnMax
+--                 burnSpeedDecay = 0.20,                        -- Acceleration decay rate after burnMax
+--                 decayRate = 0.998,                            -- Decay rate when idle
+--                 callback = OnEat_WeedPipe_OverTime,                             -- Callback function when smoked (mod support)
+--                 conditions = { idle = true, walking = true, running = true, sprinting = true, strafing = true, canDrop = true },
+--                 walkingFactor = TrueSmoking.Options.WalkingFactor,
+--                 runningFactor = TrueSmoking.Options.RunningFactor,
+--                 sprintingFactor = TrueSmoking.Options.SprintingFactor,
+--                 puffFactor = TrueSmoking.Options.PuffFactor
+--             },
+--             ['ReeferMadness.CanPipe_marijuana'] = {
+--                 visualItem = false,                          -- Visual item to be displayed on mouth
+--                 smokeLength = TrueSmoking.Options.CanLength, -- Length of smoke
+--                 burnMin = 0.000125,                          -- Minimum burn rate target
+--                 burnMax = 0.000300,                          -- Maximum burn rate target
+--                 burnSpeed = 0.0025,                          -- Acceleration towards burnMax
+--                 burnSpeedDecay = 0.20,                       -- Acceleration decay rate after burnMax
+--                 decayRate = 0.998,                           -- Decay rate when idle
+--                 callback = OnEat_WeedPipe_OverTime,                            -- Callback function when smoked (mod support)
+--                 conditions = { idle = true, walking = true, running = true, sprinting = true, strafing = true, canDrop = true },
+--                 walkingFactor = TrueSmoking.Options.WalkingFactor,
+--                 runningFactor = TrueSmoking.Options.RunningFactor,
+--                 sprintingFactor = TrueSmoking.Options.SprintingFactor,
+--                 puffFactor = TrueSmoking.Options.PuffFactor
+--             },
+--             ['ReeferMadness.WeedCigarette'] = {
+--                 visualItem = 'Mask_Cigarette',                     -- Visual item to be displayed on mouth
+--                 smokeLength = TrueSmoking.Options.CigaretteLength, -- Length of smoke
+--                 burnMin = 0.000125,                                -- Minimum burn rate target
+--                 burnMax = 0.000300,                                -- Maximum burn rate target
+--                 burnSpeed = 0.0025,                                -- Acceleration towards burnMax
+--                 burnSpeedDecay = 0.25,                             -- Acceleration decay rate after burnMax
+--                 decayRate = 0.998,                                 -- Decay rate when idle
+--                 callback = OnEat_WeedJoint_OverTime,                                  -- Callback function when smoked (mod support)
+--                 conditions = { idle = true, walking = true, running = true, sprinting = true, strafing = true, canDrop = true },
+--                 walkingFactor = TrueSmoking.Options.WalkingFactor,
+--                 runningFactor = TrueSmoking.Options.RunningFactor,
+--                 sprintingFactor = TrueSmoking.Options.SprintingFactor,
+--                 puffFactor = TrueSmoking.Options.PuffFactor
+--             },
+--             ['ReeferMadness.Joint'] = {
+--                 visualItem = 'Mask_Cigarette',                     -- Visual item to be displayed on mouth
+--                 smokeLength = TrueSmoking.Options.CigaretteLength, -- Length of smoke
+--                 burnMin = 0.000125,                                -- Minimum burn rate target
+--                 burnMax = 0.000300,                                -- Maximum burn rate target
+--                 burnSpeed = 0.0025,                                -- Acceleration towards burnMax
+--                 burnSpeedDecay = 0.25,                             -- Acceleration decay rate after burnMax
+--                 decayRate = 0.998,                                 -- Decay rate when idle
+--                 callback = OnEat_WeedJoint_OverTime,                                  -- Callback function when smoked (mod support)
+--                 conditions = { idle = true, walking = true, running = true, sprinting = true, strafing = true, canDrop = true },
+--                 walkingFactor = TrueSmoking.Options.WalkingFactor,
+--                 runningFactor = TrueSmoking.Options.RunningFactor,
+--                 sprintingFactor = TrueSmoking.Options.SprintingFactor,
+--                 puffFactor = TrueSmoking.Options.PuffFactor
+--             },
+--             ['ReeferMadness.blunt'] = {
+--                 visualItem = 'Mask_Cigarillo',                     -- Visual item to be displayed on mouth
+--                 smokeLength = TrueSmoking.Options.CigarilloLength, -- Length of smoke
+--                 burnMin = 0.000125,                                -- Minimum burn rate target
+--                 burnMax = 0.000300,                                -- Maximum burn rate target
+--                 burnSpeed = 0.0025,                                -- Acceleration towards burnMax
+--                 burnSpeedDecay = 0.20,                             -- Acceleration decay rate after burnMax
+--                 decayRate = 0.998,                                 -- Decay rate when idle
+--                 callback = OnEat_WeedJoint_OverTime,                                  -- Callback function when smoked (mod support)
+--                 conditions = { idle = true, walking = true, running = true, sprinting = true, strafing = true, canDrop = true },
+--                 walkingFactor = TrueSmoking.Options.WalkingFactor,
+--                 runningFactor = TrueSmoking.Options.RunningFactor,
+--                 sprintingFactor = TrueSmoking.Options.SprintingFactor,
+--                 puffFactor = TrueSmoking.Options.PuffFactor
+--             },
+--             ['ReeferMadness.WeedCigarette2'] = {
+--                 visualItem = 'Mask_Cigarette',                     -- Visual item to be displayed on mouth
+--                 smokeLength = TrueSmoking.Options.CigaretteLength, -- Length of smoke
+--                 burnMin = 0.000125,                                -- Minimum burn rate target
+--                 burnMax = 0.000300,                                -- Maximum burn rate target
+--                 burnSpeed = 0.0025,                                -- Acceleration towards burnMax
+--                 burnSpeedDecay = 0.25,                             -- Acceleration decay rate after burnMax
+--                 decayRate = 0.998,                                 -- Decay rate when idle
+--                 callback = OnEat_WeedJoint_OverTime,                                  -- Callback function when smoked (mod support)
+--                 conditions = { idle = true, walking = true, running = true, sprinting = true, strafing = true, canDrop = true },
+--                 walkingFactor = TrueSmoking.Options.WalkingFactor,
+--                 runningFactor = TrueSmoking.Options.RunningFactor,
+--                 sprintingFactor = TrueSmoking.Options.SprintingFactor,
+--                 puffFactor = TrueSmoking.Options.PuffFactor
+--             },
+--             ['ReeferMadness.SmokingPipe_hash'] = {
+--                 visualItem = 'Mask_Pipe',                     -- Visual item to be displayed on mouth
+--                 smokeLength = TrueSmoking.Options.PipeLength, -- Length of smoke
+--                 burnMin = 0.000125,                           -- Minimum burn rate target
+--                 burnMax = 0.000300,                           -- Maximum burn rate target
+--                 burnSpeed = 0.0025,                           -- Acceleration towards burnMax
+--                 burnSpeedDecay = 0.20,                        -- Acceleration decay rate after burnMax
+--                 decayRate = 0.998,                            -- Decay rate when idle
+--                 callback = OnEat_WeedPipe_OverTime,                             -- Callback function when smoked (mod support)
+--                 conditions = { idle = true, walking = true, running = true, sprinting = true, strafing = true, canDrop = true },
+--                 walkingFactor = TrueSmoking.Options.WalkingFactor,
+--                 runningFactor = TrueSmoking.Options.RunningFactor,
+--                 sprintingFactor = TrueSmoking.Options.SprintingFactor,
+--                 puffFactor = TrueSmoking.Options.PuffFactor
+--             },
+--             ['ReeferMadness.CanPipe_hash'] = {
+--                 visualItem = false,                          -- Visual item to be displayed on mouth
+--                 smokeLength = TrueSmoking.Options.CanLength, -- Length of smoke
+--                 burnMin = 0.000125,                          -- Minimum burn rate target
+--                 burnMax = 0.000300,                          -- Maximum burn rate target
+--                 burnSpeed = 0.0025,                          -- Acceleration towards burnMax
+--                 burnSpeedDecay = 0.20,                       -- Acceleration decay rate after burnMax
+--                 decayRate = 0.998,                           -- Decay rate when idle
+--                 callback = OnEat_WeedPipe_OverTime,                            -- Callback function when smoked (mod support)
+--                 conditions = { idle = true, walking = true, running = true, sprinting = true, strafing = true, canDrop = true },
+--                 walkingFactor = TrueSmoking.Options.WalkingFactor,
+--                 runningFactor = TrueSmoking.Options.RunningFactor,
+--                 sprintingFactor = TrueSmoking.Options.SprintingFactor,
+--                 puffFactor = TrueSmoking.Options.PuffFactor
+--             },
+--             ['ReeferMadness.WeedCigarette2Kief'] = {
+--                 visualItem = 'Mask_Cigarette',                     -- Visual item to be displayed on mouth
+--                 smokeLength = TrueSmoking.Options.CigaretteLength, -- Length of smoke
+--                 burnMin = 0.000125,                                -- Minimum burn rate target
+--                 burnMax = 0.000300,                                -- Maximum burn rate target
+--                 burnSpeed = 0.0025,                                -- Acceleration towards burnMax
+--                 burnSpeedDecay = 0.25,                             -- Acceleration decay rate after burnMax
+--                 decayRate = 0.998,                                 -- Decay rate when idle
+--                 callback = OnEat_WeedJoint_OverTime,                                  -- Callback function when smoked (mod support)
+--                 conditions = { idle = true, walking = true, running = true, sprinting = true, strafing = true, canDrop = true },
+--                 walkingFactor = TrueSmoking.Options.WalkingFactor,
+--                 runningFactor = TrueSmoking.Options.RunningFactor,
+--                 sprintingFactor = TrueSmoking.Options.SprintingFactor,
+--                 puffFactor = TrueSmoking.Options.PuffFactor
+--             },
+--             ['ReeferMadness.bluntKief'] = {
+--                 visualItem = 'Mask_Cigarillo',                     -- Visual item to be displayed on mouth
+--                 smokeLength = TrueSmoking.Options.CigarilloLength, -- Length of smoke
+--                 burnMin = 0.000125,                                -- Minimum burn rate target
+--                 burnMax = 0.000300,                                -- Maximum burn rate target
+--                 burnSpeed = 0.0025,                                -- Acceleration towards burnMax
+--                 burnSpeedDecay = 0.20,                             -- Acceleration decay rate after burnMax
+--                 decayRate = 0.998,                                 -- Decay rate when idle
+--                 callback = OnEat_WeedJoint_OverTime,                                  -- Callback function when smoked (mod support)
+--                 conditions = { idle = true, walking = true, running = true, sprinting = true, strafing = true, canDrop = true },
+--                 walkingFactor = TrueSmoking.Options.WalkingFactor,
+--                 runningFactor = TrueSmoking.Options.RunningFactor,
+--                 sprintingFactor = TrueSmoking.Options.SprintingFactor,
+--                 puffFactor = TrueSmoking.Options.PuffFactor
+--             },
+--             ['ReeferMadness.jointKief'] = {
+--                 visualItem = 'Mask_Cigarette',                     -- Visual item to be displayed on mouth
+--                 smokeLength = TrueSmoking.Options.CigaretteLength, -- Length of smoke
+--                 burnMin = 0.000125,                                -- Minimum burn rate target
+--                 burnMax = 0.000300,                                -- Maximum burn rate target
+--                 burnSpeed = 0.0025,                                -- Acceleration towards burnMax
+--                 burnSpeedDecay = 0.25,                             -- Acceleration decay rate after burnMax
+--                 decayRate = 0.998,                                 -- Decay rate when idle
+--                 callback = OnEat_WeedJoint_OverTime,                                  -- Callback function when smoked (mod support)
+--                 conditions = { idle = true, walking = true, running = true, sprinting = true, strafing = true, canDrop = true },
+--                 walkingFactor = TrueSmoking.Options.WalkingFactor,
+--                 runningFactor = TrueSmoking.Options.RunningFactor,
+--                 sprintingFactor = TrueSmoking.Options.SprintingFactor,
+--                 puffFactor = TrueSmoking.Options.PuffFactor
+--             },
+--             ['ReeferMadness.SmokingPipe_marijuanaKief'] = {
+--                 visualItem = 'Mask_Pipe',                     -- Visual item to be displayed on mouth
+--                 smokeLength = TrueSmoking.Options.PipeLength, -- Length of smoke
+--                 burnMin = 0.000125,                           -- Minimum burn rate target
+--                 burnMax = 0.000300,                           -- Maximum burn rate target
+--                 burnSpeed = 0.0025,                           -- Acceleration towards burnMax
+--                 burnSpeedDecay = 0.20,                        -- Acceleration decay rate after burnMax
+--                 decayRate = 0.998,                            -- Decay rate when idle
+--                 callback = OnEat_WeedPipe_OverTime,                             -- Callback function when smoked (mod support)
+--                 conditions = { idle = true, walking = true, running = true, sprinting = true, strafing = true, canDrop = true },
+--                 walkingFactor = TrueSmoking.Options.WalkingFactor,
+--                 runningFactor = TrueSmoking.Options.RunningFactor,
+--                 sprintingFactor = TrueSmoking.Options.SprintingFactor,
+--                 puffFactor = TrueSmoking.Options.PuffFactor
+--             },
+--             ['ReeferMadness.CanPipe_marijuanaKief'] = {
+--                 visualItem = false,                          -- Visual item to be displayed on mouth
+--                 smokeLength = TrueSmoking.Options.CanLength, -- Length of smoke
+--                 burnMin = 0.000125,                          -- Minimum burn rate target
+--                 burnMax = 0.000300,                          -- Maximum burn rate target
+--                 burnSpeed = 0.0025,                          -- Acceleration towards burnMax
+--                 burnSpeedDecay = 0.20,                       -- Acceleration decay rate after burnMax
+--                 decayRate = 0.998,                           -- Decay rate when idle
+--                 callback = OnEat_WeedPipe_OverTime,                            -- Callback function when smoked (mod support)
+--                 conditions = { idle = true, walking = true, running = true, sprinting = true, strafing = true, canDrop = true },
+--                 walkingFactor = TrueSmoking.Options.WalkingFactor,
+--                 runningFactor = TrueSmoking.Options.RunningFactor,
+--                 sprintingFactor = TrueSmoking.Options.SprintingFactor,
+--                 puffFactor = TrueSmoking.Options.PuffFactor
+--             },
+--             ['ReeferMadness.WeedCigaretteKief'] = {
+--                 visualItem = 'Mask_Cigarette',                     -- Visual item to be displayed on mouth
+--                 smokeLength = TrueSmoking.Options.CigaretteLength, -- Length of smoke
+--                 burnMin = 0.000125,                                -- Minimum burn rate target
+--                 burnMax = 0.000300,                                -- Maximum burn rate target
+--                 burnSpeed = 0.0025,                                -- Acceleration towards burnMax
+--                 burnSpeedDecay = 0.25,                             -- Acceleration decay rate after burnMax
+--                 decayRate = 0.998,                                 -- Decay rate when idle
+--                 callback = OnEat_WeedJoint_OverTime,                                  -- Callback function when smoked (mod support)
+--                 conditions = { idle = true, walking = true, running = true, sprinting = true, strafing = true, canDrop = true },
+--                 walkingFactor = TrueSmoking.Options.WalkingFactor,
+--                 runningFactor = TrueSmoking.Options.RunningFactor,
+--                 sprintingFactor = TrueSmoking.Options.SprintingFactor,
+--                 puffFactor = TrueSmoking.Options.PuffFactor
+--             },
+--         }
+
+--         TrueSmoking:setSmokableObjects(smokableObjects)
+--     end)
+-- end
