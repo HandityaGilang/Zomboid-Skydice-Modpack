@@ -28,6 +28,7 @@ namespace SkydiceModpackDownloader
         private Button CheckButton;
         private Button SyncButton;
         private TextBlock StatusTextBlock;
+        private ListBox LogListBox;
         private ProgressBar DownloadProgressBar;
         private TextBlock ProgressTextBlock;
 
@@ -40,10 +41,12 @@ namespace SkydiceModpackDownloader
             CheckButton = this.FindControl<Button>("CheckButton")!;
             SyncButton = this.FindControl<Button>("SyncButton")!;
             StatusTextBlock = this.FindControl<TextBlock>("StatusTextBlock")!;
+            LogListBox = this.FindControl<ListBox>("LogListBox")!;
             DownloadProgressBar = this.FindControl<ProgressBar>("DownloadProgressBar")!;
             ProgressTextBlock = this.FindControl<TextBlock>("ProgressTextBlock")!;
 
             LoadConfig();
+            AppLog("Aplikasi dimulai.");
         }
 
         private void LoadConfig()
@@ -79,7 +82,7 @@ namespace SkydiceModpackDownloader
             }
             catch (Exception ex)
             {
-                Log("Error loading config: " + ex.Message);
+                AppLog("Error loading config: " + ex.Message);
             }
         }
 
@@ -102,7 +105,7 @@ namespace SkydiceModpackDownloader
             }
             catch (Exception ex)
             {
-                Log("Error saving config: " + ex.Message);
+                AppLog("Error saving config: " + ex.Message);
             }
         }
 
@@ -176,7 +179,7 @@ namespace SkydiceModpackDownloader
             catch (Exception ex)
             {
                 SetStatus("Error saat Check. Lihat log.");
-                Log(ex.ToString());
+                AppLog(ex.ToString());
             }
             finally
             {
@@ -271,7 +274,7 @@ namespace SkydiceModpackDownloader
             catch (Exception ex)
             {
                 SetStatus("Error saat Sync. Lihat log.");
-                Log(ex.ToString());
+                AppLog(ex.ToString());
             }
             finally
             {
@@ -372,6 +375,7 @@ namespace SkydiceModpackDownloader
         private void SetStatus(string message)
         {
             StatusTextBlock.Text = $"Status: {message}";
+            AppLog(message);
         }
 
         private void UpdateProgress(double percentage, string text)
@@ -391,6 +395,30 @@ namespace SkydiceModpackDownloader
         {
             var logFile = Path.Combine(AppContext.BaseDirectory, "downloader.log");
             File.AppendAllText(logFile, $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] {message}{Environment.NewLine}");
+        }
+
+        private void AppLog(string message)
+        {
+            Avalonia.Threading.Dispatcher.UIThread.InvokeAsync(() =>
+            {
+                var time = DateTime.Now.ToString("HH:mm:ss");
+                var logItem = $"[{time}] {message}";
+                
+                var items = LogListBox.ItemsSource as List<string>;
+                if (items == null)
+                {
+                    items = new List<string>();
+                }
+                else
+                {
+                    items = items.ToList(); // clone to avoid mutation issues
+                }
+                
+                items.Add(logItem);
+                LogListBox.ItemsSource = items;
+                LogListBox.ScrollIntoView(logItem);
+            });
+            Log(message);
         }
     }
 

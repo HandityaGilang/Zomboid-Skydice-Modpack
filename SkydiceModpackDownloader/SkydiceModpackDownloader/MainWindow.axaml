@@ -2,13 +2,13 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="300"
-        Width="500" Height="350"
+        mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="450"
+        Width="500" Height="500"
         CanResize="False"
         x:Class="SkydiceModpackDownloader.MainWindow"
         Title="Skydice Modpack Downloader">
 
-    <Grid Margin="20" RowDefinitions="Auto,Auto,Auto,Auto,*,Auto">
+    <Grid Margin="20" RowDefinitions="Auto,Auto,Auto,Auto,*,Auto,Auto">
         <!-- Title -->
         <TextBlock Grid.Row="0" Text="Skydice Modpack Downloader" FontSize="20" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,20"/>
 
@@ -27,9 +27,19 @@
         <!-- Status -->
         <TextBlock Grid.Row="3" Name="StatusTextBlock" Text="Status: Menunggu..." TextWrapping="Wrap" Margin="0,0,0,10"/>
 
+        <!-- App Log -->
+        <ListBox Grid.Row="4" Name="LogListBox" Margin="0,0,0,10" ScrollViewer.VerticalScrollBarVisibility="Auto" CornerRadius="4">
+            <ListBox.Styles>
+                <Style Selector="ListBoxItem">
+                    <Setter Property="MinHeight" Value="20"/>
+                    <Setter Property="Padding" Value="5,2"/>
+                </Style>
+            </ListBox.Styles>
+        </ListBox>
+
         <!-- Progress -->
-        <ProgressBar Grid.Row="4" Name="DownloadProgressBar" VerticalAlignment="Bottom" Height="20" Minimum="0" Maximum="100" Value="0" Margin="0,0,0,10"/>
+        <ProgressBar Grid.Row="5" Name="DownloadProgressBar" VerticalAlignment="Bottom" Height="20" Minimum="0" Maximum="100" Value="0" Margin="0,0,0,10"/>
         
-        <TextBlock Grid.Row="5" Name="ProgressTextBlock" Text="" HorizontalAlignment="Center" FontSize="12" Foreground="Gray"/>
+        <TextBlock Grid.Row="6" Name="ProgressTextBlock" Text="" HorizontalAlignment="Center" FontSize="12" Foreground="Gray"/>
     </Grid>
 </Window>

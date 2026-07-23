@@ -1,0 +1,25 @@
+[2026-07-22 16:22:06] Aplikasi dimulai.
+[2026-07-22 16:22:18] Folder Mods diperbarui.
+[2026-07-22 16:22:18] Mengunduh manifest...
+[2026-07-22 16:22:19] Error saat Check. Lihat log.
+[2026-07-22 16:22:19] System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at SkydiceModpackDownloader.MainWindow.DownloadManifestAsync() in D:\Projek\Zomboid-Skydice-Modpack\SkydiceModpackDownloader\SkydiceModpackDownloader\MainWindow.axaml.cs:line 288
+   at SkydiceModpackDownloader.MainWindow.CheckButton_Click(Object sender, RoutedEventArgs e) in D:\Projek\Zomboid-Skydice-Modpack\SkydiceModpackDownloader\SkydiceModpackDownloader\MainWindow.axaml.cs:line 163
+[2026-07-22 16:22:28] Folder Mods diperbarui.
+[2026-07-22 16:22:29] Mengunduh manifest...
+[2026-07-22 16:22:29] Error saat Check. Lihat log.
+[2026-07-22 16:22:29] System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at SkydiceModpackDownloader.MainWindow.DownloadManifestAsync() in D:\Projek\Zomboid-Skydice-Modpack\SkydiceModpackDownloader\SkydiceModpackDownloader\MainWindow.axaml.cs:line 288
+   at SkydiceModpackDownloader.MainWindow.CheckButton_Click(Object sender, RoutedEventArgs e) in D:\Projek\Zomboid-Skydice-Modpack\SkydiceModpackDownloader\SkydiceModpackDownloader\MainWindow.axaml.cs:line 163
+[2026-07-22 16:22:33] Aplikasi dimulai.
+[2026-07-22 16:22:34] Mengunduh manifest...
+[2026-07-22 16:22:35] Error saat Check. Lihat log.
+[2026-07-22 16:22:35] System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at SkydiceModpackDownloader.MainWindow.DownloadManifestAsync() in D:\Projek\Zomboid-Skydice-Modpack\SkydiceModpackDownloader\SkydiceModpackDownloader\MainWindow.axaml.cs:line 288
+   at SkydiceModpackDownloader.MainWindow.CheckButton_Click(Object sender, RoutedEventArgs e) in D:\Projek\Zomboid-Skydice-Modpack\SkydiceModpackDownloader\SkydiceModpackDownloader\MainWindow.axaml.cs:line 163

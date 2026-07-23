@@ -1,0 +1,16 @@
+SKYDICE MANIFEST BUILDER v1.2
+==============================
+
+Versi ini dibuat khusus agar kompatibel dengan Windows PowerShell 5.1.
+
+Perbaikan:
+- Tidak memakai Generic List.
+- Tidak memakai ordered hashtable untuk objek manifest.
+- Tidak memakai Measure-Object untuk properti size.
+- Semua data manifest dibuat dengan PSObject biasa.
+
+Cara pakai:
+1. Timpa Build_Manifest.bat dan Build_Manifest.ps1 versi lama.
+2. Letakkan sejajar dengan folder Mods.
+3. Jalankan Build_Manifest.bat.
+4. manifest.json akan dibuat di root repository.

@@ -232,3 +232,4 @@ D:\Projek\Zomboid-Skydice-Modpack\SkydiceModpackDownloader\SkydiceModpackDownloa
 D:\Projek\Zomboid-Skydice-Modpack\SkydiceModpackDownloader\SkydiceModpackDownloader\obj\Release\net8.0\win-x64\SkydiceModpackDownloader.pdb
 D:\Projek\Zomboid-Skydice-Modpack\SkydiceModpackDownloader\SkydiceModpackDownloader\obj\Release\net8.0\win-x64\SkydiceModpackDownloader.genruntimeconfig.cache
 D:\Projek\Zomboid-Skydice-Modpack\SkydiceModpackDownloader\SkydiceModpackDownloader\obj\Release\net8.0\win-x64\ref\SkydiceModpackDownloader.dll
+D:\Projek\Zomboid-Skydice-Modpack\SkydiceModpackDownloader\SkydiceModpackDownloader\obj\Release\net8.0\win-x64\SkydiceModpackDownloader.sourcelink.json

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SkydiceModpackDownloader")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee88f6172501e805d0a0e7bb65cd948cdc8a6ed1")]
 [assembly: System.Reflection.AssemblyProductAttribute("SkydiceModpackDownloader")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SkydiceModpackDownloader")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

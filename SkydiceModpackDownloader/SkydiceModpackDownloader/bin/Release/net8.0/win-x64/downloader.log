@@ -1,0 +1,35 @@
+[2026-07-22 16:16:26] System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at SkydiceModpackDownloader.MainWindow.DownloadManifestAsync() in D:\Projek\Zomboid-Skydice-Modpack\SkydiceModpackDownloader\SkydiceModpackDownloader\MainWindow.axaml.cs:line 285
+   at SkydiceModpackDownloader.MainWindow.CheckButton_Click(Object sender, RoutedEventArgs e) in D:\Projek\Zomboid-Skydice-Modpack\SkydiceModpackDownloader\SkydiceModpackDownloader\MainWindow.axaml.cs:line 160
+[2026-07-22 16:16:33] System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at SkydiceModpackDownloader.MainWindow.DownloadManifestAsync() in D:\Projek\Zomboid-Skydice-Modpack\SkydiceModpackDownloader\SkydiceModpackDownloader\MainWindow.axaml.cs:line 285
+   at SkydiceModpackDownloader.MainWindow.CheckButton_Click(Object sender, RoutedEventArgs e) in D:\Projek\Zomboid-Skydice-Modpack\SkydiceModpackDownloader\SkydiceModpackDownloader\MainWindow.axaml.cs:line 160
+[2026-07-22 16:16:34] System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at SkydiceModpackDownloader.MainWindow.DownloadManifestAsync() in D:\Projek\Zomboid-Skydice-Modpack\SkydiceModpackDownloader\SkydiceModpackDownloader\MainWindow.axaml.cs:line 285
+   at SkydiceModpackDownloader.MainWindow.CheckButton_Click(Object sender, RoutedEventArgs e) in D:\Projek\Zomboid-Skydice-Modpack\SkydiceModpackDownloader\SkydiceModpackDownloader\MainWindow.axaml.cs:line 160
+[2026-07-22 16:16:34] System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at SkydiceModpackDownloader.MainWindow.DownloadManifestAsync() in D:\Projek\Zomboid-Skydice-Modpack\SkydiceModpackDownloader\SkydiceModpackDownloader\MainWindow.axaml.cs:line 285
+   at SkydiceModpackDownloader.MainWindow.CheckButton_Click(Object sender, RoutedEventArgs e) in D:\Projek\Zomboid-Skydice-Modpack\SkydiceModpackDownloader\SkydiceModpackDownloader\MainWindow.axaml.cs:line 160
+[2026-07-22 16:16:35] System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at SkydiceModpackDownloader.MainWindow.DownloadManifestAsync() in D:\Projek\Zomboid-Skydice-Modpack\SkydiceModpackDownloader\SkydiceModpackDownloader\MainWindow.axaml.cs:line 285
+   at SkydiceModpackDownloader.MainWindow.CheckButton_Click(Object sender, RoutedEventArgs e) in D:\Projek\Zomboid-Skydice-Modpack\SkydiceModpackDownloader\SkydiceModpackDownloader\MainWindow.axaml.cs:line 160
+[2026-07-22 16:16:35] System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at SkydiceModpackDownloader.MainWindow.DownloadManifestAsync() in D:\Projek\Zomboid-Skydice-Modpack\SkydiceModpackDownloader\SkydiceModpackDownloader\MainWindow.axaml.cs:line 285
+   at SkydiceModpackDownloader.MainWindow.CheckButton_Click(Object sender, RoutedEventArgs e) in D:\Projek\Zomboid-Skydice-Modpack\SkydiceModpackDownloader\SkydiceModpackDownloader\MainWindow.axaml.cs:line 160
+[2026-07-22 16:16:35] System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at SkydiceModpackDownloader.MainWindow.DownloadManifestAsync() in D:\Projek\Zomboid-Skydice-Modpack\SkydiceModpackDownloader\SkydiceModpackDownloader\MainWindow.axaml.cs:line 285
+   at SkydiceModpackDownloader.MainWindow.CheckButton_Click(Object sender, RoutedEventArgs e) in D:\Projek\Zomboid-Skydice-Modpack\SkydiceModpackDownloader\SkydiceModpackDownloader\MainWindow.axaml.cs:line 160
