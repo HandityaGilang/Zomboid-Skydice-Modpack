@@ -1,0 +1,8 @@
+name=NeatUI_Framework
+id=NeatUI_Framework
+poster=poster.png
+icon=icon1.png
+author=Rocco, Afyrmo
+modversion=1.0.6
+versionMin=42.0.2
+description=Shared UI framework for Neat mods, providing reusable interface components, styling, and compatibility support across supported B42 builds. <LINE> Build 42.19 compatibility: restores safe ISUIElement center-helper aliases while keeping older builds supported. <LINE> Linux dedicated server compatibility: Lua file paths and line endings were normalized to reduce the chance of checksum issues on case-sensitive servers.

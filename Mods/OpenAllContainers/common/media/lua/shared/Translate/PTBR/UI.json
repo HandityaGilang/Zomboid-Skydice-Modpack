@@ -1,0 +1,8 @@
+{
+    "UI_options_OAC_tickRate": "Taxa de Atualização (Recipientes Destacados)",
+    "UI_options_OAC_keyBind": "Tecla para Abrir ou Fechar Recipientes",
+    "UI_options_OAC_autoOpen": "Abrir Recipientes Automaticamente",
+    "UI_options_OAC_autoOpen_tooltip": "Ativa ou Desativa a Abertura Automática de Recipientes Quando o Jogador Olha para Dentro.",
+    "UI_options_OAC_autoClose": "Fechar Recipientes Automaticamente",
+    "UI_options_OAC_autoClose_tooltip": "Ativa ou Desativa o Fechamento Automático de Recipientes Quando Não Estão Mais Selecionados. (Requer Auto-Abertura Ativado)"
+}

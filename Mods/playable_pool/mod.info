@@ -1,0 +1,6 @@
+name=Playable Pool
+id=playable_pool
+poster=poster.png
+icon=icon.png
+description=Adds synchronized multiplayer pool, darts, and card-table minigames to Project Zomboid.
+modversion=1.5.0

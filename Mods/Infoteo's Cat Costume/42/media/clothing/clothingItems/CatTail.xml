@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\CatTail</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\CatTail</m_FemaleModel>
+	<m_GUID>0d262e32-883e-464c-9872-a0612d18d922</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\CatCostume</textureChoices>
+</clothingItem>

@@ -1,0 +1,115 @@
+Sandbox_DE = {
+    Sandbox_ProjectSummerCar = "Project Summer Car",
+
+    Sandbox_ProjectSummerCarSpawning = "Project Summer Car: Spawn",
+
+    Sandbox_PSC_RepairParts = "Reparatur von Motorteilen erlauben",
+    Sandbox_PSC_RepairParts_tooltip = "Ermöglicht die Reparatur von Motorteilen. Deaktiviere dies, wenn ein anderes Mod die Reparatur von Motorteilen bereitstellt.",
+
+
+    Sandbox_PSC_TakeOverSpawning = "Fahrzeug-Zustands-Erzeugung übernehmen",
+    Sandbox_PSC_TakeOverSpawning_tooltip = "Aktiviere dieses Mod, um die Erzeugung des Fahrzeugzustands basierend auf den nächsten 8 Einstellungen zu übernehmen. WARNUNG: Dies ändert jedes Fahrzeug, das du noch nicht betreten hast, und Teile können je nach Einstellung entfernt werden. Andernfalls ändern diese Einstellungen nur die Spawn-Wahrscheinlichkeiten von Motorenteilen.",
+
+    Sandbox_PSC_BurntCarChance = "Chance für ausgebrannte Fahrzeuge (Stau/Schrottplatz)",
+    Sandbox_PSC_BurntCarChance_tooltip = "Wahrscheinlichkeit, dass Fahrzeuge in einem Stau/auf einem Schrottplatz ausgebrannt sind",
+
+    Sandbox_PSC_RemoveWreckedCars = "Zerstörte Fahrzeuge entfernen",
+    Sandbox_PSC_RemoveWreckedCars_tooltip = "Entfernt zerstörte Fahrzeuge, die du nicht fahren kannst, und ersetzt sie durch normale Fahrzeuge",
+	
+
+    Sandbox_PSC_PartChanceLowCond = "Niedrigster berücksichtigter Zustand",
+    Sandbox_PSC_PartChanceLowCond_tooltip = "Niedrigster Zustand, der bei der Berechnung der Spawn-Wahrscheinlichkeit von Teilen berücksichtigt wird. Fahrzeuge mit einem geringeren Zustand haben dieselbe Spawn-Wahrscheinlichkeit für Teile",
+
+    Sandbox_PSC_PartChanceLowCondChance = "Spawn-Chance für Teile bei niedrigem Zustand",
+    Sandbox_PSC_PartChanceLowCondChance_tooltip = "Wahrscheinlichkeit, dass Teile in Fahrzeugen mit niedrigem Zustand erscheinen. Achtung: Wenn du diesen Wert unter 1 setzt, gibt es sehr wenige fahrbare Autos",
+
+    Sandbox_PSC_PartChanceHighCond = "Höchster berücksichtigter Zustand",
+    Sandbox_PSC_PartChanceHighCond_tooltip = "Höchster Zustand, der bei der Berechnung der Spawn-Wahrscheinlichkeit von Teilen berücksichtigt wird. Fahrzeuge mit einem höheren Zustand haben dieselbe Spawn-Wahrscheinlichkeit für Teile",
+
+    Sandbox_PSC_PartChanceHighCondChance = "Spawn-Chance für Teile bei hohem Zustand",
+    Sandbox_PSC_PartChanceHighCondChance_tooltip = "Wahrscheinlichkeit, dass Teile in Fahrzeugen mit hohem Zustand erscheinen. Ziehe eine Verringerung in Betracht, wenn du ein Gefühl erzeugen willst, dass bereits alle guten Teile entnommen wurden",
+
+    Sandbox_PSC_PartChanceSurvivorMin = "Minimale Spawn-Chance für Teile in Überlebenden-Fahrzeugen",
+    Sandbox_PSC_PartChanceSurvivorMin_tooltip = "Minimale Wahrscheinlichkeit, dass Teile in Überlebenden-Fahrzeugen erscheinen",
+
+    Sandbox_PSC_PartChanceSurvivorMax = "Maximale Spawn-Chance für Teile in Überlebenden-Fahrzeugen",
+    Sandbox_PSC_PartChanceSurvivorMax_tooltip = "Maximale Wahrscheinlichkeit, dass Teile in Überlebenden-Fahrzeugen erscheinen",
+
+    Sandbox_PSC_PartChanceTrafficMin = "Minimale Spawn-Chance für Teile in Schrottplatz-/Stau-Fahrzeugen",
+    Sandbox_PSC_PartChanceTrafficMin_tooltip = "Minimale Wahrscheinlichkeit, dass Teile in Fahrzeugen auf einem Stau/Schrottplatz erscheinen",
+
+    Sandbox_PSC_PartChanceTrafficMax = "Maximale Spawn-Chance für Teile in Schrottplatz-/Stau-Fahrzeugen",
+    Sandbox_PSC_PartChanceTrafficMax_tooltip = "Maximale Wahrscheinlichkeit, dass Teile in Fahrzeugen auf einem Stau/Schrottplatz erscheinen",
+
+
+    Sandbox_PSC_LowOrHigh = "Wahrscheinlichkeit für niedrigen oder hohen Zustand",
+    Sandbox_PSC_LowOrHigh_tooltip = "Wahrscheinlichkeit, dass ein mittlerer bis hoher Zustand statt eines niedrigen bis mittleren Zustands gewählt wird",
+
+    Sandbox_PSC_LowCondition = "Niedrigster Zustand",
+    Sandbox_PSC_LowCondition_tooltip = "Niedrigster Zustand eines Fahrzeugs, das spawnt",
+
+    Sandbox_PSC_LowToMid = "Niedrig-mittlere Tendenz",
+    Sandbox_PSC_LowToMid_tooltip = "Tendenz hin zu niedrigem oder mittlerem Zustand. Werte unter 1 tendieren zu niedrig, Werte über 1 zu mittel",
+
+    Sandbox_PSC_MidCondition = "Mittlerer Zustand",
+    Sandbox_PSC_MidCondition_tooltip = "Mittlerer Zustand der Fahrzeuge. Fahrzeuge können zu diesem Wert hin oder davon weg tendieren",
+
+    Sandbox_PSC_MidToHigh = "Mittel-hohe Tendenz",
+    Sandbox_PSC_MidToHigh_tooltip = "Tendenz hin zu mittlerem oder hohem Zustand. Werte unter 1 tendieren zu mittel, Werte über 1 zu hoch",
+
+    Sandbox_PSC_HighCondition = "Hoher Zustand",
+    Sandbox_PSC_HighCondition_tooltip = "Höchster Zustand, mit dem Fahrzeuge spawnen können",
+
+
+
+
+    Sandbox_PSC_MinHP = "Minimaler PS-Multiplikator",
+    Sandbox_PSC_MinHP_tooltip = "Leistung (PS) bei minimalem Motorzustand als Multiplikator des Vanilla-Werts",
+
+    Sandbox_PSC_MinHPCondition = "Minimaler PS-Zustand",
+    Sandbox_PSC_MinHPCondition_tooltip = "Der durchschnittliche Zustand der Motorenteile muss so niedrig oder niedriger sein, um minimale PS zu erzeugen",
+
+    Sandbox_PSC_MaxHP = "Maximaler PS-Multiplikator",
+    Sandbox_PSC_MaxHP_tooltip = "Leistung (PS) bei maximalem Motorzustand als Multiplikator des Vanilla-Werts",
+
+    Sandbox_PSC_MaxHPCondition = "Maximaler PS-Zustand",
+    Sandbox_PSC_MaxHPCondition_tooltip = "Der durchschnittliche Zustand der Motorenteile muss so hoch oder höher sein, um maximale PS zu erzeugen",
+	
+    Sandbox_PSC_RandomPartChance = "Zufällige Ersatzteil-Chance",
+    Sandbox_PSC_RandomPartChance_tooltip = "Wahrscheinlichkeit, dass ein Teil einen komplett zufälligen Zustand hat, um ersetzte oder ausfallende Teile zu simulieren",
+
+    Sandbox_PSC_ConditionRandom = "Variation des Motorenteil-Zustands",
+    Sandbox_PSC_ConditionRandom_tooltip = "Wie stark der Zustand neu gespawnter Motorenteile vom durchschnittlichen Zustand des Fahrzeugs abweichen kann",
+	
+    Sandbox_PSC_PerformancePartBoost = "Leistungs-Teile-Booster",
+    Sandbox_PSC_PerformancePartBoost_tooltip = "Wie stark die oberste Stufe der Leistungs-Teile die Fahrzeugleistung verbessert",
+	
+    Sandbox_PSC_EngineImpactDamage = "Aufprallschaden am Motorenteil",
+    Sandbox_PSC_EngineImpactDamage_tooltip = "Wieviel Aufprallschaden multipliziert wird, wenn er auf den Motor angewendet wird",
+
+    Sandbox_PSC_EngineImpactDamageCount = "Anzahl der beschädigten Motorenteile",
+    Sandbox_PSC_EngineImpactDamageCount_tooltip = "Auf wie viele Teile sich der Schaden bei einem Aufprall verteilt. Der Motor hat viele Teile und daher mehr HP als ein Vanilla-Motor.",
+	
+    Sandbox_PSC_SmartOilIndicator = "Intelligente Öl-Anzeige",
+    Sandbox_PSC_SmartOilIndicator_tooltip = "Ermöglicht Mouseover auf die Öl-Anzeige, um Ölstand und -qualität zu sehen. Außerdem leuchtet die Ölanzeige, wenn die Ölqualität niedrig ist, nicht nur wenn der Ölstand gefährlich niedrig ist",
+	
+    Sandbox_PSC_BatteryCapacity = "Batteriekapazität bei vollem Zustand",
+    Sandbox_PSC_BatteryCapacity_tooltip = "Multiplikator der Batteriekapazität, wenn die Batterie in vollem Zustand ist",
+
+    Sandbox_PSC_BatteryCapacityLowConditionMultiplier = "Multiplikator der Batteriekapazität bei niedrigem Zustand",
+    Sandbox_PSC_BatteryCapacityLowConditionMultiplier_tooltip = "Die obige Batteriekapazität wird mit diesem Wert multipliziert, wenn die Batterie in sehr schlechtem Zustand ist",
+
+    Sandbox_PSC_ChargeRate = "Laderaten-Multiplikator",
+    Sandbox_PSC_ChargeRate_tooltip = "Wie schnell deine Lichtmaschine die Batterie lädt. Zustand der Lichtmaschine und des Lüfterriemens fließen ebenfalls ein.",
+
+    Sandbox_PSC_OilDecayRate = "Ölabbau-Multiplikator",
+    Sandbox_PSC_OilDecayRate_tooltip = "Multipliziert, wie schnell dein Motor Öl in gebrauchtes Öl verwandelt. Der Zustand der Motorenteile beeinflusst dies ebenfalls stark",
+
+    Sandbox_PSC_OilLeakRate = "Ölleck-Multiplikator",
+    Sandbox_PSC_OilLeakRate_tooltip = "Multipliziert, wie schnell dein Motor Öl verliert. Der Zustand der Motorenteile beeinflusst dies ebenfalls stark",
+
+
+	
+    Sandbox_PSC_OilFilterDecayRate = "Multiplikator für Ölfilterabbau",
+    Sandbox_PSC_OilFilterDecayRate_tooltip = "Multipliziert, wie schnell dein Ölfilter degradiert. Der Zustand der Motorenteile beeinflusst dies ebenfalls stark",
+}

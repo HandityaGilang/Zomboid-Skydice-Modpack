@@ -1,0 +1,10 @@
+name=Improved Hair Menu Hair Color Picker [B42.13-B42.15]
+poster=poster.png
+icon=statsIcon.png
+description=Only needed for Build 42.13 to 42.15.3 <LINE>Obsolete since Build 42.16 <LINE> Because the feature is now included in the main mod.
+id=ihm_picker
+loadModAfter=\improvedhairmenubuild42
+require=\improvedhairmenubuild42
+incompatible=\improvedhairmenubd42,\improvedhairmenu,\EvenMoreHairColors
+versionMin=42.13.0
+versionMax=42.15.3

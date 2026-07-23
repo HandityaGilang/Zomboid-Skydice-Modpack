@@ -1,0 +1,77 @@
+module Base
+{
+    item BookBilliards1
+    {
+        DisplayCategory = SkillBook,
+        DisplayName = Billiards Vol. 1 - Angles and Easy Leaves,
+        Type = Literature,
+        Weight = 1.0,
+        Icon = Book8,
+        LvlSkillTrained = 1,
+        NumLevelsTrained = 2,
+        NumberOfPages = 180,
+        SkillTrained = Billiards,
+        StaticModel = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+    }
+
+    item BookBilliards2
+    {
+        DisplayCategory = SkillBook,
+        DisplayName = Billiards Vol. 2 - Bank Shots and Position Play,
+        Type = Literature,
+        Weight = 1.0,
+        Icon = Book8,
+        LvlSkillTrained = 3,
+        NumLevelsTrained = 2,
+        NumberOfPages = 220,
+        SkillTrained = Billiards,
+        StaticModel = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+    }
+
+    item BookBilliards3
+    {
+        DisplayCategory = SkillBook,
+        DisplayName = Billiards Vol. 3 - The Art of the Break,
+        Type = Literature,
+        Weight = 1.0,
+        Icon = Book8,
+        LvlSkillTrained = 5,
+        NumLevelsTrained = 2,
+        NumberOfPages = 260,
+        SkillTrained = Billiards,
+        StaticModel = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+    }
+
+    item BookBilliards4
+    {
+        DisplayCategory = SkillBook,
+        DisplayName = Billiards Vol. 4 - Runouts Under Pressure,
+        Type = Literature,
+        Weight = 1.0,
+        Icon = Book8,
+        LvlSkillTrained = 7,
+        NumLevelsTrained = 2,
+        NumberOfPages = 300,
+        SkillTrained = Billiards,
+        StaticModel = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+    }
+
+    item BookBilliards5
+    {
+        DisplayCategory = SkillBook,
+        DisplayName = Billiards Vol. 5 - Table Control for Hustlers,
+        Type = Literature,
+        Weight = 1.0,
+        Icon = Book8,
+        LvlSkillTrained = 9,
+        NumLevelsTrained = 2,
+        NumberOfPages = 340,
+        SkillTrained = Billiards,
+        StaticModel = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+    }
+}

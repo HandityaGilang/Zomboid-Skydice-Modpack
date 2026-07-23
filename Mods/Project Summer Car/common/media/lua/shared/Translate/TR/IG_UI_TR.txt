@@ -1,0 +1,78 @@
+IGUI_TR = {
+    IGUI_PSC_ModOptionHeader = "Project Summer Car (Türkçe)",	
+    IGUI_PSC_DashChangeContext = "Gösterge panelini değiştirmeyi aç",
+    IGUI_PSC_DashChangeContext_Tooltip = "İçerik menüsündeki gösterge panelini değiştirmeye olanak sağlar. Eğer kapatılırsa mevcut olarak seçilen panel ile kalırsınız.",
+    IGUI_PSC_DashChangeSave = "Gösterge paneli her ... başına farklı kaydedilecek: ",
+    IGUI_PSC_Player = "Oyuncu",
+    IGUI_PSC_VehicleType = "Araç Türü",
+    IGUI_PSC_Vehicle = "Araç",
+
+
+    IGUI_EnginePanel_InspectEngine = "Motoru İncele",
+    IGUI_EnginePanel_InspectEngineParts = "Motor Parçalarını İncele",
+
+    IGUI_EnginePanel_Category_EngineParts = "Engine Parts",
+    IGUI_EnginePanel_Category_DriveTrain = "Çekiş Sistemi",
+    IGUI_EnginePanel_Category_Fluids = "Sıvılar",
+    IGUI_EnginePanel_Category_Accessories = "Aksesuarlar",
+
+
+    IGUI_EnginePanel_PartType_SparkPlugs = "Bujiler",
+    IGUI_EnginePanel_PartType_CylinderHead = "Silindir Kapağı",
+    IGUI_EnginePanel_PartType_HeadGasket = "Silindir Kapak Contası",
+    IGUI_EnginePanel_PartType_Pistons = "Piston",
+    IGUI_EnginePanel_PartType_Crankshaft = "Krank Mili",
+    IGUI_EnginePanel_PartType_Flywheel = "Volan",
+    IGUI_EnginePanel_PartType_Starter = "Marş Motoru",
+    IGUI_EnginePanel_PartType_Transmission = "Şanzıman",
+    IGUI_EnginePanel_PartType_TorqueConverter = "Tork Konvertörü",
+    IGUI_EnginePanel_PartType_TransmissionFluid = "Şanzıman Yağı",
+    IGUI_EnginePanel_PartType_PowerSteeringFluid = "Hidrolik Yağı",
+    IGUI_EnginePanel_PartType_Oil = "Yağ",
+    IGUI_EnginePanel_PartType_OilPan = "Yağ Karteri",
+    IGUI_EnginePanel_PartType_OilFilter = "Yağ Filtresi",
+    IGUI_EnginePanel_PartType_Coolant = "Soğutucu",
+    IGUI_EnginePanel_PartType_Radiator = "Radyatör",
+    IGUI_EnginePanel_PartType_FanBelt = "Fan Kayışı",
+    IGUI_EnginePanel_PartType_Alternator = "Alternatör",
+    IGUI_EnginePanel_PartType_WaterPump = "Su Pompası",
+    IGUI_EnginePanel_PartType_PowerSteeringPump = "Hidrolik Direksiyon Pompası",
+    IGUI_EnginePanel_PartType_BrakeBooster = "Fren Güçlendirici",
+    IGUI_EnginePanel_PartType_AirConditioner = "Klima",
+    IGUI_EnginePanel_PartType_HeaterCore = "Kalorifer Peteği",
+
+    IGUI_EnginePanel_Action_AddFluid = "Sıvı Ekle",
+    IGUI_EnginePanel_Action_RemoveFluid = "Sıvı Çek",
+
+    IGUI_EnginePanel_Action_AddFluid_tooltip = "Motora yağ ekle",
+    IGUI_EnginePanel_Action_RemoveFluid_tooltip = "Motordan yağ çek",
+
+    IGUI_EnginePanel_Action_AddingFluid = "Motora yağ ekleniyor",
+    IGUI_EnginePanel_Action_RemovingFluid = "Motordan yağ çekiliyor",
+
+
+
+    IGUI_EnginePanel_Action_InstallPart = "Parçayı Tak",
+    IGUI_EnginePanel_Action_InstallPart_tooltip = "Motorun <LINE> kısmına parça ekle. Gereken: <LINE>",
+
+    IGUI_EnginePanel_Action_RemovePart = "Parçayı Sök",
+    IGUI_EnginePanel_Action_RemovePart_tooltip = "Motorun <LINE> kısmındaki parçayı çıkar. Gereken: <LINE>",
+
+    IGUI_EnginePanel_Misc_NoParts = "Parça Yok",
+    IGUI_EnginePanel_Misc_NoValidParts = "Eklenecek geçerli parça yok",
+
+    IGUI_EnginePanel_Misc_IncorrectVehicleType = "Yanlış Araç Türü",
+
+    IGUI_EnginePanel_Misc_ChanceOfDamage = "Hasar ihtimali",
+    IGUI_EnginePanel_Misc_Missing = "(eksik)",
+
+    IGUI_EnginePanel_Misc_Title = "Motor Mekaniği",
+    IGUI_EnginePanel_Misc_Engine = "Motor: ",
+
+    IGUI_EnginePanel_MainFluid = "Ana sıvı: "
+    IGUI_EnginePanel_MixedFluid = "Karışmış sıvı: "
+    IGUI_EnginePanel_AmountCapacity = "Sayı/Miktar: "
+
+    IGUI_Dashboard_ChangeDash = "Göstergeyi Değiştir"
+
+}

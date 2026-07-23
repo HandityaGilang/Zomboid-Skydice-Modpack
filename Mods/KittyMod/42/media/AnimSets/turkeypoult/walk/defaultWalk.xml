@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>defaultWalk</m_Name>
+	<m_AnimName>smokey_Walk4</m_AnimName>
+	<m_deferredBoneAxis>Y</m_deferredBoneAxis>
+	<m_BlendTime>0.75</m_BlendTime>
+	<m_Events>
+		<m_EventName>PlayBreedSound</m_EventName>
+		<m_TimePc>0.22</m_TimePc>
+		<m_ParameterValue>walkFront</m_ParameterValue>
+	</m_Events>
+	<m_Events>
+		<m_EventName>PlayBreedSound</m_EventName>
+		<m_TimePc>0.38</m_TimePc>
+		<m_ParameterValue>walkBack</m_ParameterValue>
+	</m_Events>
+	<m_Events>
+		<m_EventName>PlayBreedSound</m_EventName>
+		<m_TimePc>0.59</m_TimePc>
+		<m_ParameterValue>walkFront</m_ParameterValue>
+	</m_Events>
+	<m_Events>
+		<m_EventName>PlayBreedSound</m_EventName>
+		<m_TimePc>0.97</m_TimePc>
+		<m_ParameterValue>walkBack</m_ParameterValue>
+	</m_Events>
+</animNode>

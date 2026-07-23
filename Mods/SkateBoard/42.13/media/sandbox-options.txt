@@ -1,0 +1,32 @@
+VERSION = 1,
+
+option Skateboard.skateboardWalkSpeedMultiplier
+{
+    type = double,
+    min = 0.1,
+    default = 1.7,
+    max = 5,
+    page = Skateboard,
+    translation = Skateboard_skateboardWalkSpeedMultiplier,
+    tooltip = Skateboard_skateboardWalkSpeedMultiplier_tooltip,
+}
+
+option Skateboard.skateboardRunSpeedMultiplier
+{
+    type = double,
+    min = 0.1,
+    default = 2.5,
+    max = 5,
+    page = Skateboard,
+    translation = Skateboard_skateboardRunSpeedMultiplier,
+    tooltip = Skateboard_skateboardRunSpeedMultiplier_tooltip,
+}
+
+option Skateboard.skateboardImmersive
+{
+    type = boolean,
+    default = true,
+    page = Skateboard,
+    translation = Skateboard_skateboardImmersive,
+    tooltip = Skateboard_skateboardImmersive_tooltip,
+}

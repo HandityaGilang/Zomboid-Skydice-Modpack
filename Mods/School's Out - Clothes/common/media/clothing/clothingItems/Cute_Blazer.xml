@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_jacketvarsity</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\kate_jacketvarsity</m_FemaleModel>
+	<m_GUID>046906c8-f0c7-4147-a2f4-f80814fc4cf1</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>12</m_Masks>
+	<m_Masks>13</m_Masks>
+	<m_Masks>14</m_Masks>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Cute/Blazer/Masks</m_UnderlayMasksFolder>
+	<textureChoices>Clothes/Cute/Blazer/Cute_Blazer</textureChoices>
+</clothingItem>

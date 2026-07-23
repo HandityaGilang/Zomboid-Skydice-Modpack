@@ -1,0 +1,405 @@
+module Base
+{
+					    model PIFreddyPlushie
+    {
+        mesh = WorldItems/FNAF/PIFreddyPlush,
+		texture = Misc/FNAF/FreddyPlushTex,
+        scale = 0.02,
+	}
+					    model PIGoldenFreddyPlushie
+    {
+        mesh = WorldItems/FNAF/PIGoldenFreddyPlush,
+		texture = Misc/FNAF/GoldenFreddyPlushTex,
+        scale = 0.02,
+	}
+					    model PIFoxyPlushie
+    {
+        mesh = WorldItems/FNAF/PIFoxyPlush,
+		texture = Misc/FNAF/FoxyPlushTex,
+        scale = 0.02,
+	}
+					    model PIChicaPlushie
+    {
+        mesh = WorldItems/FNAF/PIChicaPlush,
+		texture = Misc/FNAF/ChicaPlushTex,
+        scale = 0.02,
+	}
+					    model PIChicaCupcakePlushie
+    {
+        mesh = WorldItems/FNAF/PIChicaCupcake,
+		texture = Misc/FNAF/ChicaCupcakeTex,
+        scale = 0.02,
+	}
+					    model PIBonniePlushie
+    {
+        mesh = WorldItems/FNAF/PIBonniePlush,
+		texture = Misc/FNAF/BonniePlushTex,
+        scale = 0.02,
+	}
+					    model PIMysteryBag
+    {
+        mesh = WorldItems/Misc/PIMysteryBag,
+		texture = Misc/FNAF/PIFNAFMysteryPack,
+        scale = 0.017,
+	}
+					    model PIPopgoesPlush
+    {
+        mesh = WorldItems/FNAF/PIPopgoesPlush,
+		texture = Misc/FNAF/PIPopgoesPlushTex,
+        scale = 0.02,
+	}
+					    model PIBlakeBadgerPlush
+    {
+        mesh = WorldItems/FNAF/PIBlakeBadgerPlush,
+		texture = Misc/FNAF/PIBlakeBadgerPlushTex,
+        scale = 0.02,
+	}
+					    model PICandyCatPlush
+    {
+        mesh = WorldItems/FNAF/PICandyCatPlush,
+		texture = Misc/FNAF/PICandyCatPlushTex,
+        scale = 0.02,
+	}
+					    model PIGlamFreddyPlush
+    {
+        mesh = WorldItems/FNAF/PIGlamFreddyPlush,
+		texture = Misc/FNAF/PIGlamFreddyTex,
+        scale = 0.02,
+	}
+					    model PIGlamChicaPlush
+    {
+        mesh = WorldItems/FNAF/PIGlamChica,
+		texture = Misc/FNAF/PIGlamChicaTex,
+        scale = 0.02,
+	}
+					    model PIMontyPlush
+    {
+        mesh = WorldItems/FNAF/PIMontyPlush,
+		texture = Misc/FNAF/PIGlamMontyTex,
+        scale = 0.02,
+	}
+					    model PIRoxyPlush
+    {
+        mesh = WorldItems/FNAF/PIRoxyPlush,
+		texture = Misc/FNAF/PIGlamRoxyTex,
+        scale = 0.02,
+	}
+					    model PIVannyPlush
+    {
+        mesh = WorldItems/FNAF/PIVannyPlush,
+		texture = Misc/FNAF/PIVannyPlushTex,
+        scale = 0.02,
+	}
+					    model PIToyBonniePlush
+    {
+        mesh = WorldItems/FNAF/PIToyBonniePlush,
+		texture = Misc/FNAF/PIToyBonnieTex,
+        scale = 0.02,
+	}
+					    model PIToyFreddyPlush
+    {
+        mesh = WorldItems/FNAF/PIToyFreddyPlush,
+		texture = Misc/FNAF/PIToyFreddyTex,
+        scale = 0.02,
+	}
+					    model PIToyChicaPlush
+    {
+        mesh = WorldItems/FNAF/PIToyChicaPlush,
+		texture = Misc/FNAF/PIToyChicaTex,
+        scale = 0.02,
+	}
+					    model PIFuntimeFoxyPlush
+    {
+        mesh = WorldItems/FNAF/PIFuntimeFoxyPlush,
+		texture = Misc/FNAF/PIToyFoxyTex,
+        scale = 0.02,
+	}
+					    model PIMangleFigure
+    {
+        mesh = WorldItems/FNAF/PIMangleFigure,
+		texture = Misc/FNAF/PIMangleTex,
+        scale = 0.022,
+	}
+					    model PIMysteryBox
+    {
+        mesh = WorldItems/Misc/PIMysteryBox,
+		texture = Misc/FNAF/PIFNAFMysteryBox,
+        scale = 0.015,
+	}
+					    model PIBalloonBoyPlush
+    {
+        mesh = WorldItems/FNAF/PIBalloonBoyPlush,
+		texture = Misc/FNAF/PIBalloonBoyTex,
+        scale = 0.02,
+	}
+					    model PISpringBonniePlushie
+    {
+        mesh = WorldItems/FNAF/PIBonniePlush,
+		texture = Misc/FNAF/PISpringBonnieTex,
+        scale = 0.02,
+	}
+					    model PIFredbearPlush
+    {
+        mesh = WorldItems/FNAF/PIFredbearPlush,
+		texture = Misc/FNAF/PIFredbearTex,
+        scale = 0.02,
+	}
+					    model PISpringtrapPlush
+    {
+        mesh = WorldItems/FNAF/PISpringtrapPlush,
+		texture = Misc/FNAF/PISpringtrapTex,
+        scale = 0.02,
+	}
+					    model PICircusBabyPlush
+    {
+        mesh = WorldItems/FNAF/PICircusBabyPlush,
+		texture = Misc/FNAF/PICircusBabyTex,
+        scale = 0.02,
+	}
+					    model PIBalloraPlush
+    {
+        mesh = WorldItems/FNAF/PIBalloraPlush,
+		texture = Misc/FNAF/PIBalloraTex,
+        scale = 0.02,
+	}
+					    model PIMarionettePlush
+    {
+        mesh = WorldItems/FNAF/PIMarionettePlush,
+		texture = Misc/FNAF/PIMarionetteTex,
+        scale = 0.02,
+	}
+					    model PILeftyPlush
+    {
+        mesh = WorldItems/FNAF/PILeftyPlush,
+		texture = Misc/FNAF/PILeftyTex,
+        scale = 0.02,
+	}
+					    model PIHelpyPlush
+    {
+        mesh = WorldItems/FNAF/PIFredbearPlush,
+		texture = Misc/FNAF/PIHelpyTex,
+        scale = 0.02,
+	}
+					    model PIMusicMan
+    {
+        mesh = WorldItems/FNAF/PIMusicMan,
+		texture = Misc/FNAF/PIMusicManTex,
+        scale = 0.02,
+	}
+					    model PIIgnitedFreddyPlush
+    {
+        mesh = WorldItems/FNAF/PIIgnitedFreddy,
+		texture = Misc/FNAF/PIIgnitedFreddyTex,
+        scale = 0.02,
+	}
+					    model PIIgnitedChicaPlush
+    {
+        mesh = WorldItems/FNAF/PIIgnitedChica,
+		texture = Misc/FNAF/PIIgnitedChicaTex,
+        scale = 0.02,
+	}
+					    model PIIgnitedBonniePlush
+    {
+        mesh = WorldItems/FNAF/PIIgnitedBonnie,
+		texture = Misc/FNAF/PIIgnitedBonnieTex,
+        scale = 0.02,
+	}
+					    model PIIgnitedFoxyPlush
+    {
+        mesh = WorldItems/FNAF/PIIgnitedFoxy,
+		texture = Misc/FNAF/PIIgnitedFoxyTex,
+        scale = 0.02,
+	}
+					    model PILolbitPlushie
+    {
+        mesh = WorldItems/FNAF/PIFuntimeFoxyPlush,
+		texture = Misc/FNAF/PILolbitTex,
+        scale = 0.02,
+	}
+					    model PISunPlushie
+    {
+        mesh = WorldItems/FNAF/PISunPlush,
+		texture = Misc/FNAF/PISunTex,
+        scale = 0.02,
+	}
+					    model PIMoonPlushie
+    {
+        mesh = WorldItems/FNAF/PIMoonPlush,
+		texture = Misc/FNAF/PIMoonTex,
+        scale = 0.02,
+	}
+					    model PIRockstarChicaPlush
+    {
+        mesh = WorldItems/FNAF/PIRockstarChicaPlush,
+		texture = Misc/FNAF/PIRockstarChicaTex,
+        scale = 0.02,
+	}
+					    model PIRockstarFreddyPlush
+    {
+        mesh = WorldItems/FNAF/PIRockstarFreddyPlush,
+		texture = Misc/FNAF/PIRockstarFreddyTex,
+        scale = 0.02,
+	}
+					    model PIRockstarBonniePlush
+    {
+        mesh = WorldItems/FNAF/PIRockstarBonniePlush,
+		texture = Misc/FNAF/PIRockstarBonnieTex,
+        scale = 0.02,
+	}
+					    model PIRockstarFoxyPlush
+    {
+        mesh = WorldItems/FNAF/PIRockstarFoxyPlush,
+		texture = Misc/FNAF/PIRockstarFoxyTex,
+        scale = 0.02,
+	}
+					    model PIHappyFrogPlush
+    {
+        mesh = WorldItems/FNAF/PIHappyFrogPlush,
+		texture = Misc/FNAF/PIHappyFrogTex,
+        scale = 0.02,
+	}
+					    model PIGlamBonniePlush
+    {
+        mesh = WorldItems/FNAF/PIGlamBonniePlush,
+		texture = Misc/FNAF/PIGlamrockBonnieTex,
+        scale = 0.02,
+	}
+					    model PIOrvilleElephantPlush
+    {
+        mesh = WorldItems/FNAF/PIOrvilleElephantPlush,
+		texture = Misc/FNAF/PIOrvilleElephantTex,
+        scale = 0.02,
+	}
+					    model PIMrHippoPlush
+    {
+        mesh = WorldItems/FNAF/PIMrHippoPlush,
+		texture = Misc/FNAF/PIMrHippoPlushTex,
+        scale = 0.02,
+	}
+					    model PIPigpatchPlush
+    {
+        mesh = WorldItems/FNAF/PIPigpatchPlush,
+		texture = Misc/FNAF/PIPigpatchTex,
+        scale = 0.02,
+	}
+					    model PINeddBearPlush
+    {
+        mesh = WorldItems/FNAF/PINeddBearPlush,
+		texture = Misc/FNAF/PINeddBearTex,
+        scale = 0.02,
+	}
+					    model PICindyCatPlush
+    {
+        mesh = WorldItems/FNAF/PICindyCatPlush,
+		texture = Misc/FNAF/PICindyCatTex,
+        scale = 0.02,
+	}
+					    model PIElChipPlush
+    {
+        mesh = WorldItems/FNAF/PIElChipPlush,
+		texture = Misc/FNAF/PIElChipTex,
+        scale = 0.02,
+	}
+					    model PIFuntimeChicaPlush
+    {
+        mesh = WorldItems/FNAF/PIFuntimeChicaPlush,
+		texture = Misc/FNAF/PIFuntimeChicaTex,
+        scale = 0.02,
+	}
+					    model PIShadowBonniePlush
+    {
+        mesh = WorldItems/FNAF/PIShadowBonniePlush,
+		texture = Misc/FNAF/PIShadowBonnieTex,
+        scale = 0.02,
+	}
+					    model PIShadowFreddyPlush
+    {
+        mesh = WorldItems/FNAF/PIShadowFreddyPlush,
+		texture = Misc/FNAF/PIShadowFreddyTex,
+        scale = 0.02,
+	}
+					    model PITwistedWolf
+    {
+        mesh = WorldItems/FNAF/PITwistedWolf,
+		texture = Misc/FNAF/PITwistedWolfTex,
+        scale = 0.02,
+	}
+					    model PIFreddlePlush
+    {
+        mesh = WorldItems/FNAF/PIFreddlePlush,
+		texture = Misc/FNAF/PIFreddleTex,
+        scale = 0.015,
+	}
+					    model PIGlitchtrapPlush
+    {
+        mesh = WorldItems/FNAF/PIGlitchtrapPlush,
+		texture = Misc/FNAF/PIGlitchtrapTex,
+        scale = 0.02,
+	}
+					    model PIGoldenCupcakePlush
+    {
+        mesh = WorldItems/FNAF/PIGoldenCupcakePlush,
+		texture = Misc/FNAF/PIGoldenCupcakeTex,
+        scale = 0.02,
+	}
+					    model PIRuinMontyPlush
+    {
+        mesh = WorldItems/FNAF/PIRuinMontyPlush,
+		texture = Misc/FNAF/PIRuinMontyTex,
+        scale = 0.02,
+	}
+					    model PIRuinRoxyPlush
+    {
+        mesh = WorldItems/FNAF/PIRuinRoxyPlush,
+		texture = Misc/FNAF/PIRuinRoxyTex,
+        scale = 0.02,
+	}
+					    model PIRuinChicaPlush
+    {
+        mesh = WorldItems/FNAF/PIRuinChicaPlush,
+		texture = Misc/FNAF/PIRuinChicaTex,
+        scale = 0.02,
+	}
+					    model PIRuinFreddyPlush
+    {
+        mesh = WorldItems/FNAF/PIRuinFreddyPlush,
+		texture = Misc/FNAF/PIRuinFreddyTex,
+        scale = 0.02,
+	}
+					    model PIMXESModel
+    {
+        mesh = WorldItems/FNAF/PIMXESModel,
+		texture = Misc/FNAF/PIMXESTex,
+        scale = 0.025,
+	}
+					    model PIPlushtrapPlush
+    {
+        mesh = WorldItems/FNAF/PIPlushtrapPlush,
+		texture = Misc/FNAF/PIPlushtrapPlushTex,
+        scale = 0.015,
+	}
+					    model PIGlamrockFoxyPlush
+    {
+        mesh = WorldItems/FNAF/PIGlamrockFoxyPlush,
+		texture = Misc/FNAF/PIGlamrockFoxyPlushTex,
+        scale = 0.02,
+	}
+					    model PIFanGlamBonniePlush
+    {
+        mesh = WorldItems/FNAF/PIFanGlamBonniePlush,
+		texture = Misc/FNAF/PIFanGlamBonnieTex,
+        scale = 0.02,
+	}
+					    model PIFanGlamFoxyPlush
+    {
+        mesh = WorldItems/FNAF/PIFanGlamFoxyPlush,
+		texture = Misc/FNAF/PIFanGlamFoxyTex,
+        scale = 0.02,
+	}
+					    model PIFanGlamManglePlush
+    {
+        mesh = WorldItems/FNAF/PIFanGlamManglePlush,
+		texture = Misc/FNAF/PIFanGlamMangleTex,
+        scale = 0.02,
+	}
+}

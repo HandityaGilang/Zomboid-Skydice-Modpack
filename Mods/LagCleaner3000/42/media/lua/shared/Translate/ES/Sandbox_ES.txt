@@ -1,0 +1,13 @@
+Sandbox_ES = {
+	Sandbox_LagCleaner3000 = "Lag Cleaner 3000",
+	Sandbox_LagCleaner3000_Enabled = "Activar Lag Cleaner 3000",
+	Sandbox_LagCleaner3000_Enabled_tooltip = "Activar o desactivar el sistema automatico de limpieza. Todos los items sueltos en el suelo (drops de jugadores, restos de arboles, loot del mundo) se eliminan tras el tiempo configurado. Los objetos colocados nunca se tocan.",
+	Sandbox_LagCleaner3000_CleanupMinutes = "Tiempo de Limpieza (Minutos)",
+	Sandbox_LagCleaner3000_CleanupMinutes_tooltip = "Minutos del juego antes de eliminar items del suelo. Aplica a TODO: drops de jugadores, restos de arboles, loot del mundo. Min: 1 (para debug), Max: 43200 (30 dias). Por defecto: 1440 (24 horas). Escanea cada minuto de juego.",
+	Sandbox_LagCleaner3000_ScanRadius = "Radio de Escaneo (Tiles)",
+	Sandbox_LagCleaner3000_ScanRadius_tooltip = "Radio en tiles alrededor de cada jugador conectado. Mas grande = mas area limpiada pero mas uso de CPU. Por defecto: 50",
+	Sandbox_LagCleaner3000_MaxZLevel = "Nivel Z Maximo",
+	Sandbox_LagCleaner3000_MaxZLevel_tooltip = "Piso mas alto a escanear. 0 = solo planta baja, 3 = hasta 4to piso. Por defecto: 3",
+	Sandbox_LagCleaner3000_LogCleanups = "Registrar Limpiezas",
+	Sandbox_LagCleaner3000_LogCleanups_tooltip = "Imprimir resultados de limpieza en la consola del servidor.",
+}

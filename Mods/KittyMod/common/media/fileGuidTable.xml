@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!--  XML FORMATTING ^ MUST ALWAYS HAVE THESE. -->
+
+	<!--  EQUIVALENT TO AN { IN A TXT SCRIPT.	   -->
+<fileGuidTable>
+
+
+
+	<!--  THIS LINE SET LOADS 1X XML			   -->
+	<!-- OF NAMEHERE.XML YOU SPECIFY.	   		   -->
+	<files>
+		<path>media/clothing/clothingItems/CAT_FORCE_ONE_BACKPACK.xml</path>
+		<guid>5795eaa5-0fb2-4ab4-aec4-3e09d4a5dd4d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/CAT_FORCE_ONE_VEST.xml</path>
+		<guid>4b1f1f7a-2a59-4b3e-8037-3d33f67d0816</guid>
+	</files>
+
+	<!--  EQUIVALENT TO AN } IN A TXT SCRIPT.	   -->
+</fileGuidTable>

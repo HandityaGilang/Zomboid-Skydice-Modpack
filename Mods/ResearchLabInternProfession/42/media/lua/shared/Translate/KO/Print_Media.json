@@ -1,0 +1,14 @@
+{
+    "Print_Media_DiaryPage1_title": "첫 번째 달: 종말의 시작",
+    "Print_Media_DiaryPage2_title": "첫 번째 징후",
+    "Print_Media_DiaryPage3_title": "그 샘플은 인간의 것이 아니었다",
+    "Print_Media_DiaryPage4_title": "모든 것이 무너진 날",
+    "Print_Media_DiaryPage5_title": "지옥 전날 밤",
+    "Print_Media_DiaryPage6_title": "나의 메모 — '캠퍼스 실험실 재건 방법'",
+    "Print_Media_DiaryPage1_info": "<type:parent, width:1024, height:1536><type:texture, x:0, y:0, texture:getTexture(\"media/textures/printMedia/FlyerPic/DiaryPage1EN.png\"), width:1024, height:1536>",
+    "Print_Media_DiaryPage2_info": "<type:parent, width:1024, height:1536><type:texture, x:0, y:0, texture:getTexture(\"media/textures/printMedia/FlyerPic/DiaryPage2EN.png\"), width:1024, height:1536>",
+    "Print_Media_DiaryPage3_info": "<type:parent, width:1024, height:1536><type:texture, x:0, y:0, texture:getTexture(\"media/textures/printMedia/FlyerPic/DiaryPage3EN.png\"), width:1024, height:1536>",
+    "Print_Media_DiaryPage4_info": "<type:parent, width:1024, height:1536><type:texture, x:0, y:0, texture:getTexture(\"media/textures/printMedia/FlyerPic/DiaryPage4EN.png\"), width:1024, height:1536>",
+    "Print_Media_DiaryPage5_info": "<type:parent, width:1024, height:1536><type:texture, x:0, y:0, texture:getTexture(\"media/textures/printMedia/FlyerPic/DiaryPage5EN.png\"), width:1024, height:1536>",
+    "Print_Media_DiaryPage6_info": "<type:parent, width:1024, height:1536><type:texture, x:0, y:0, texture:getTexture(\"media/textures/printMedia/FlyerPic/DiaryPage6EN.png\"), width:1024, height:1536>"
+}

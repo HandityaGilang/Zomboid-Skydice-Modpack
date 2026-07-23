@@ -1,0 +1,9 @@
+VERSION = 1,
+
+option LMN.AdminOnlyLeaveMessage
+{
+    type = boolean,
+    default = false,
+    page = LMN_Note_Settings,
+    translation = LMN_AdminOnlyLeaveMessage,
+}

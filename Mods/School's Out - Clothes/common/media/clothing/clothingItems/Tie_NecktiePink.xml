@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_necktie</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\kate_necktie</m_FemaleModel>
+	<m_GUID>578261e1-cb28-4559-a5a7-1ab0704e98b1</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes/Tie/NecktiePink</textureChoices>
+</clothingItem>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>13d85cc5-1dd3-4854-b199-0b003bd78a0d</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>Clothes/Tie/TriangleButterflyWhite</m_BaseTextures>
+</clothingItem>

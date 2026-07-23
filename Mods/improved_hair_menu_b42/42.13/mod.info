@@ -1,0 +1,9 @@
+name=Improved Hair Menu Build 42
+poster=poster.png
+icon=statsIcon.png
+description=Get a preview of character hair choices
+id=improvedhairmenubuild42
+loadModBefore=\ihm_picker
+incompatible=\improvedhairmenubd42,\improvedhairmenu,\EvenMoreHairColors
+versionMin=42.13
+versionMax=42.14.1

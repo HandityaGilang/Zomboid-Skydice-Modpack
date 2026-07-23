@@ -1,0 +1,32 @@
+Tooltip_PTBR = {
+	-- Item tooltip
+	Tooltip_EngineOilPan = "Mantém o óleo dentro do motor.",
+	Tooltip_EngineOilFilter = "Aumenta a vida útil do óleo filtrando impurezas, prolongando assim a vida do motor.",
+	Tooltip_EngineSparkplug = "As velas de ignição ajudam seu carro a dar partida com mais facilidade. Sem elas, o motor não funciona.",
+	Tooltip_EngineCylinderHead = "A condição do cabeçote do cilindro determina quanta potência (HP) o carro gera.",
+	Tooltip_EngineHeadGasket = "A junta do cabeçote sela o cabeçote ao motor. Se quebrar, você começará a perder líquido de arrefecimento e óleo. Além disso, o óleo e o líquido irão se misturar.",
+	Tooltip_EnginePistons = "A condição dos pistões determina quanta potência (HP) o carro gera.",
+	Tooltip_EngineCrankshaft = "A condição do virabrequim determina quanta potência (HP) o carro gera.",
+	Tooltip_EngineFlywheel = "Transfere a força do motor para a transmissão e auxilia na partida. Volantes mais leves permitem que o motor suba e desça de giro mais rápido.",
+	Tooltip_EngineStarter = "Dá partida no carro. Sem isso você não vai a lugar nenhum.",
+	Tooltip_EngineTransmission = "A transmissão é responsável por trocar as marchas. Se estiver danificada, vai patinar bastante.",
+	Tooltip_EngineTorqueConverter = "O conversor de torque conecta o motor à transmissão e multiplica o torque em baixas rotações. Se danificado, vai patinar bastante.",
+	Tooltip_EngineRadiator = "Os radiadores são essenciais para o sistema de arrefecimento e mantêm a maior parte do líquido do motor.",
+	Tooltip_EngineFanBelt = "As correias acionam a bomba d’água, direção hidráulica, alternador e ar-condicionado. Você não vai longe sem uma!",
+	Tooltip_EngineAlternator = "Os alternadores recarregam a bateria enquanto você dirige. Recebem energia do motor via correia.",
+	Tooltip_EngineWaterPump = "As bombas d’água circulam o líquido de arrefecimento pelo motor e radiador. Recebem energia do motor via correia.",
+	Tooltip_EnginePowerSteeringPump = "As bombas da direção hidráulica ajudam você a esterçar com rapidez e facilidade em baixa velocidade. Se a direção ficar pesada, esta é a causa. Recebem energia do motor via correia.",
+	Tooltip_EngineBrakeBooster = "Os servofreios usam o vácuo do coletor de admissão para auxiliar na frenagem. Sem eles, será muito mais difícil parar, pois a força de frenagem será mínima!",
+	Tooltip_EngineAirConditioner = "Mantém você fresco nos dias quentes de verão. Movido pela correia.",
+	Tooltip_EngineHeaterCore = "Mantém você aquecido nos dias frios de inverno. Usa o líquido de arrefecimento do motor, então só funciona bem depois que o motor aquece.",
+
+	Tooltip_EngineTransmission3S = "Transmissão de 3 marchas com relações: 2.6, 1.6, 1.0. Se danificada, vai patinar bastante.",
+	Tooltip_EngineTransmission4S = "Transmissão de 4 marchas com relações: 2.6, 1.6, 1.23, 1.0. Se danificada, vai patinar bastante.",
+	Tooltip_EngineTransmissionHT4S = "Transmissão de 4 marchas (Heavy Torque) com relações: 3.0, 2.3, 1.7, 1.0. Se danificada, vai patinar bastante.",
+	Tooltip_EngineTransmission5S = "Transmissão de 5 marchas com relações: 2.6, 1.6, 1.23, 1.0, 0.9. Se danificada, vai patinar bastante.",
+	Tooltip_EngineTransmission8S = "Transmissão de 8 marchas com relações: 4.0, 2.5, 1.9, 1.5, 1.3, 1.1, 0.9, 0.8. Se danificada, vai patinar bastante.",
+
+	Tooltip_EngineTorqueConverterLS = "Conversores de torque de baixa rotação são bons para dirigir no dia a dia, conectam o motor à transmissão e multiplicam o torque em baixas velocidades. Se danificado, vai patinar bastante.",
+	Tooltip_EngineTorqueConverterMS = "Conversores de torque de média rotação são bons para condução esportiva ou motores de RPM mais alta, conectam o motor à transmissão e multiplicam o torque em baixas velocidades. Se danificado, vai patinar bastante.",
+	Tooltip_EngineTorqueConverterHS = "Conversores de torque de alta rotação são bons para corrida, conectam o motor à transmissão e multiplicam o torque em baixas velocidades. Se danificado, vai patinar bastante.",
+}

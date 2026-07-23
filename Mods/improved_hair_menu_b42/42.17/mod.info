@@ -1,0 +1,10 @@
+name=Improved Hair Menu Build 42
+poster=poster.png
+icon=statsIcon.png
+description=Get a preview of character hair choices
+id=improvedhairmenubuild42
+loadModBefore=ihm_picker
+loadModAfter=SPNCC,SPNCCMINI,SPNCCMINISP
+incompatible=\improvedhairmenubd42,\improvedhairmenu,\EvenMoreHairColors
+versionMin=42.17
+author=duckduckquack and TwisTonFire

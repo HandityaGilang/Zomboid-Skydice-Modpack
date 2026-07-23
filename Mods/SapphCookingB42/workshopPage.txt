@@ -1,0 +1,97 @@
+[img]https://i.imgur.com/ZB1RCUx.png[/img]
+
+[url=https://ko-fi.com/sapph_][img]https://i.imgur.com/ETH9cZg.png[/img][/url]
+
+[h2][b]Since i'm not that active here on Steam, if you find any bugs or have any suggestions, feel free to add me on steam, discord(#sapph) or join my [url=https://discord.gg/8QNfE3FE46]my Discord[/url][/b][/h2]
+
+[img]https://i.imgur.com/qdnVxx5.png[/img]
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2832136889][img]https://i.imgur.com/uo0VbZq.png[/img][/url]
+
+
+
+[img]https://i.imgur.com/4IfyYC2.png[/img]
+This mod expands the vanila options for the Cooking category, adding more recipes, weapons and food related item drops.
+[img]https://i.imgur.com/Kgy35iX.gif[/img]
+
+What can i expect downloading this mod?
+[list]
+    [*][b]+40 [/b] Types of new drinks.
+    [*][b]+500 [/b] New food recipes.
+    [*][b]+500 [/b]New Items.
+    [*][b]+10 [/b]New weapons.
+[/list]
+As Project Zomboid is constantly updating, if any recipes i've added are put into the game, i'll make sure to remove them.
+
+[b]Wiki[/b]
+Check out this mod's Wiki:
+[url=https://sapphcooking.miraheze.org/wiki/Main_Page][img]https://i.imgur.com/PmyFixm.png[/img][/url]
+
+[img]https://i.imgur.com/E7H4L2T.png[/img]
+
+Changelog 2025:
+So! build 42 unstable is here, hooray! There are a few new things i've added, but for the most part, the focus was on porting the mod to b42.
+
+[b] New Things: [/b]
+- You can now see and read fortune messages.
+- Added Blood Sausages that can be made with animal blood. (thanks Turbotowns)
+- Added Minced Pork and Turkey.
+- Added Fried Chicken Wings and Fried Whole Chicken.
+
+[b] Tweaks: [/b]
+- Tweaked several recipes, for less bloat.
+- Tweaked the protein value of Protein Powder(from 600 to 400). (maybe this'll help you Uppy?)
+- Removed several items that are now vanilla! (Gin, Vodka, Rum, Tequila, Vermouth, Ice Cream Sandwiches, Pizza Cutter, Steel Ladle, Metal Whisk, Cola)
+
+[b]**translations will be missing for a while, until things are settled![/b]
+
+[img]https://i.imgur.com/5gWe2L8.png[/img]
+[list]
+    [*]Do i need to restart my save for this to work?
+[/list]
+[b]You don't have to, but you'll need to explore new areas for the new items - Also, make sure to backup your saves, as b42 is still very buggy![/b]
+[list]
+    [*]Does this work on Multiplayer?
+[/list]
+[b]Since B42 is still in unstable, no.[/b]
+    [*]Will this work with "x mod"?
+[/list]
+[b]It should work with any other mod on the workshop, but if it doesn't, feel free to let me know! [/b]
+
+[img]https://i.imgur.com/9IPH57n.png[/img]
+- need to wait on other mods updates!
+
+
+[img]https://i.imgur.com/NnWp67b.png[/img]
+Currently avaliable translations are:
+[img]https://i.imgur.com/c6amHzp.png[/img] [b] - Brazilian Portuguese[/b].
+[img]https://i.imgur.com/bMgzIGt.png[/img] [b] - Traditional Chinese [/b] (Thanks to [url=https://steamcommunity.com/profiles/76561198111339201]Smokedfish[/url],  [url=https://steamcommunity.com/profiles/76561199060254848]冷沔泠-35P[/url] and 水煮麵包)
+[img]https://i.imgur.com/xYnM3Xq.png[/img] [b] - Simplified Chinese[/b](Thanks to [url=https://steamcommunity.com/profiles/76561198860345090/]BEIBIAO![/url] and 水煮麵包).
+[img]https://i.imgur.com/1x3X74J.png[/img]  [b] - German [/b](Thanks to [url=https://steamcommunity.com/profiles/76561198366724428]LittleTempest![/url] and Lampiooo).
+[img]https://i.imgur.com/2Fg8tWa.png[/img] [b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2833472582]Spanish[/url] (Thanks to [url=https://steamcommunity.com/profiles/76561198874558693]CarlosRojasCu[/url]).
+[img]https://i.imgur.com/M0R2VAk.png[/img]  [b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2844708917]French[/url] [/b](Thanks to [url=https://steamcommunity.com/id/HugoTLS]HugoTLS![/url], [url=https://steamcommunity.com/profiles/76561197981623248]Zunder[/url], inkredibehl and [url=https://steamcommunity.com/profiles/76561198174553231/]Xianah[/url]!).
+[img]https://i.imgur.com/iYsgLKf.png[/img]  [b] - Polish [/b](Thanks to [url=https://steamcommunity.com/profiles/76561198114411983]TheMitu97[/url] and Damireewq!).
+[img]https://i.imgur.com/L3CS4YY.png[/img]  [b] - Korean [/b](Thanks to [url=https://steamcommunity.com/id/ywowu007]Fender [/url]and 이스트!).
+[img]https://i.imgur.com/clpTylJ.png[/img]  [b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2921709070]Thai[/url] (Thanks to [url=https://steamcommunity.com/id/safc] Riko Prushka[/url]).
+[img]https://i.imgur.com/CPvhaJl.png[/img]  [b] - Russian [/b](Thanks to [url=https://steamcommunity.com/id/lighthere]ГАЧАМУЧА[/url], Мепсель and Movmav!).
+[img]https://i.imgur.com/5E1fxhy.png[/img]  [b] - Ukrainian [/b](Thanks to [url=https://steamcommunity.com/id/putate]Kizukkk![/url]).
+[img]https://i.imgur.com/F2Op43O.png[/img] [b] - Japanese [/b] (Thanks to [url=https://steamcommunity.com/id/makotosuzue]Suzue![/url]).
+[img]https://i.imgur.com/cFFHImV.png[/img] [b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2993264235]Italian[/url][/b] (Thanks to [url=https://steamcommunity.com/id/Eternity84]Eternity![/url]).
+[img]https://i.imgur.com/TdJVV4y.png[/img] [b] - Dutch[/b] (Thanks to [url=https://steamcommunity.com/id/Purple-Nebula]Purple Nebula![/url]).
+[img]https://i.imgur.com/cMfVnaT.png[/img] [b] - Turkish[/b] (Thanks to Taha [url=https://steamcommunity.com/profiles/76561198273688324/](Dylan Rhodes)[/url]) and [url=https://steamcommunity.com/profiles/76561198268087708/]VVentos[/url].
+
+Special Thanks Glytch3r, Poltergeist and everyone at PZ oficial discord for helping on some coding parts!
+(and Spongie for the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2463184726]Hair mod[/url] in the pictures)
+
+
+[h1]If you're interested in helping translate this, you can add me on steam, discord(#sapph) or join the mod's discord bellow![/h1]
+[url=https://discord.gg/8QNfE3FE46][img]https://i.imgur.com/hT3OHyg.png[/img][/url]
+
+[b]I'm also not very active on this mod page, so... it's best to find me on my discord or by private dming me![/b]
+
+Liked my mod?
+Be sure to leave a Rating and a Favorite!
+[img]https://i.imgur.com/uC5EfY3.gif[/img]
+
+Workshop ID: 3409143790
+Mod ID: SapphCooking_B42

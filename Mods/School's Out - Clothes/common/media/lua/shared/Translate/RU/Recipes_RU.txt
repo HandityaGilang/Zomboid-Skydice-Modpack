@@ -1,0 +1,9 @@
+Recipes_RU = {
+
+    Recipe_Hem_Skirt = "Подшить длинную юбку",
+    Recipe_Tie_Butterfly_Knot = "Завязать бабочку",
+    Recipe_Tie_Small-Ribbon_Knot = "Завязать маленький бант",
+    Recipe_Tie_Standard_Knot = "Завязать стандартный узел",
+    Recipe_Untie_Triangle_Tie = "Развязать треугольный галстук"
+
+}

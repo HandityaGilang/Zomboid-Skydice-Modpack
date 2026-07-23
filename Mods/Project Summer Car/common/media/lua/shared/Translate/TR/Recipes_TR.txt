@@ -1,0 +1,11 @@
+RecipesTR {
+    HeadGasket1 = "Silindir Kapağı Contası (Standart)",
+    HeadGasket2 = "Silindir Kapağı Contası (Ağır)",
+    HeadGasket3 = "Silindir Kapağı Contası (Spor)",
+    HeadGasket4 = "Silindir Kapağı Contası (Askeri)",
+
+    FanBelt1 = "Fan Kayışı (Standart)",
+    FanBelt2 = "Fan Kayışı (Ağır)",
+    FanBelt3 = "Fan Kayışı (Spor)",
+    FanBelt4 = "Fan Kayışı (Askeri)",
+}

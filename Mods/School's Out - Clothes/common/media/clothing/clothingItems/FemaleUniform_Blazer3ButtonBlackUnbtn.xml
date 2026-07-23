@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_jacketvarsity</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\kate_jacketvarsity</m_FemaleModel>
+	<m_GUID>1c2ef17f-12af-4a9b-807c-37a46b647f0a</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes/FemaleUniform/Blazer/FemaleUniform_Blazer3ButtonBlackSBUnbtn</textureChoices>
+	<!-- <textureChoices>Clothes/FemaleUniform/Blazer/FemaleUniform_Blazer3ButtonBlackGBUnbtn</textureChoices> -->
+</clothingItem>

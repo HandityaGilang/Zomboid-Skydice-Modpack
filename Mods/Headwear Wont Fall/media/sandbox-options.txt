@@ -1,0 +1,12 @@
+VERSION = 1,
+
+option HeadWearWontFall.Chance
+{
+	type = enum,
+	numValues = 1,
+	default = 1,
+	
+	page = CustomizableBackpacks,
+	translation = HeadWearWontFall_Chance,
+	valueTranslation = HeadWearWontFall_Chance,
+}

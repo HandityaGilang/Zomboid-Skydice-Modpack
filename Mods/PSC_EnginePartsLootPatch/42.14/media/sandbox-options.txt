@@ -1,0 +1,955 @@
+VERSION = 1,
+
+option PSCSpawnPatch.EnablePatch
+{
+    type = boolean, default = true,
+    page = PSCSpawnPatch, translation = PSCSpawnPatch_EnablePatch,
+}
+
+option PSCSpawnPatch.GlobalMultiplier
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatch, translation = PSCSpawnPatch_GlobalMultiplier,
+}
+
+option PSCSpawnPatch.GasStationMultiplier
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatch, translation = PSCSpawnPatch_GasStationMultiplier,
+}
+
+option PSCSpawnPatch.MechanicMultiplier
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatch, translation = PSCSpawnPatch_MechanicMultiplier,
+}
+
+option PSCSpawnPatch.SpecialPartsMultiplier
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatch, translation = PSCSpawnPatch_SpecialPartsMultiplier,
+}
+
+option PSCSpawnPatch.AirConditioner1_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_AirConditioner1_1,
+}
+
+option PSCSpawnPatch.AirConditioner1_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_AirConditioner1_2,
+}
+
+option PSCSpawnPatch.AirConditioner1_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_AirConditioner1_3,
+}
+
+option PSCSpawnPatch.AirConditioner1_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_AirConditioner1_4,
+}
+
+option PSCSpawnPatch.Alternator1_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Alternator1_1,
+}
+
+option PSCSpawnPatch.Alternator1_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Alternator1_2,
+}
+
+option PSCSpawnPatch.Alternator1_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Alternator1_3,
+}
+
+option PSCSpawnPatch.Alternator1_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Alternator1_4,
+}
+
+option PSCSpawnPatch.BottleATF
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_BottleATF,
+}
+
+option PSCSpawnPatch.BottleAntifreeze1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_BottleAntifreeze1,
+}
+
+option PSCSpawnPatch.BottleAntifreeze2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_BottleAntifreeze2,
+}
+
+option PSCSpawnPatch.BottleMotorOil
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_BottleMotorOil,
+}
+
+option PSCSpawnPatch.BottleMotorOilCan
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_BottleMotorOilCan,
+}
+
+option PSCSpawnPatch.BrakeBooster1_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_BrakeBooster1_1,
+}
+
+option PSCSpawnPatch.BrakeBooster1_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_BrakeBooster1_2,
+}
+
+option PSCSpawnPatch.BrakeBooster1_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_BrakeBooster1_3,
+}
+
+option PSCSpawnPatch.BrakeBooster1_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_BrakeBooster1_4,
+}
+
+option PSCSpawnPatch.Crankshaft1_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Crankshaft1_1,
+}
+
+option PSCSpawnPatch.Crankshaft1_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Crankshaft1_2,
+}
+
+option PSCSpawnPatch.Crankshaft1_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Crankshaft1_3,
+}
+
+option PSCSpawnPatch.Crankshaft1_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Crankshaft1_4,
+}
+
+option PSCSpawnPatch.Crankshaft2_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Crankshaft2_1,
+}
+
+option PSCSpawnPatch.Crankshaft2_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Crankshaft2_2,
+}
+
+option PSCSpawnPatch.Crankshaft2_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Crankshaft2_3,
+}
+
+option PSCSpawnPatch.Crankshaft2_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Crankshaft2_4,
+}
+
+option PSCSpawnPatch.Crankshaft3_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Crankshaft3_1,
+}
+
+option PSCSpawnPatch.Crankshaft3_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Crankshaft3_2,
+}
+
+option PSCSpawnPatch.Crankshaft3_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Crankshaft3_3,
+}
+
+option PSCSpawnPatch.Crankshaft3_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Crankshaft3_4,
+}
+
+option PSCSpawnPatch.CylinderHead1_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_CylinderHead1_1,
+}
+
+option PSCSpawnPatch.CylinderHead1_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_CylinderHead1_2,
+}
+
+option PSCSpawnPatch.CylinderHead1_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_CylinderHead1_3,
+}
+
+option PSCSpawnPatch.CylinderHead1_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_CylinderHead1_4,
+}
+
+option PSCSpawnPatch.CylinderHead2_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_CylinderHead2_1,
+}
+
+option PSCSpawnPatch.CylinderHead2_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_CylinderHead2_2,
+}
+
+option PSCSpawnPatch.CylinderHead2_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_CylinderHead2_3,
+}
+
+option PSCSpawnPatch.CylinderHead2_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_CylinderHead2_4,
+}
+
+option PSCSpawnPatch.CylinderHead3_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_CylinderHead3_1,
+}
+
+option PSCSpawnPatch.CylinderHead3_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_CylinderHead3_2,
+}
+
+option PSCSpawnPatch.CylinderHead3_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_CylinderHead3_3,
+}
+
+option PSCSpawnPatch.CylinderHead3_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_CylinderHead3_4,
+}
+
+option PSCSpawnPatch.FanBelt1_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_FanBelt1_1,
+}
+
+option PSCSpawnPatch.FanBelt1_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_FanBelt1_2,
+}
+
+option PSCSpawnPatch.FanBelt1_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_FanBelt1_3,
+}
+
+option PSCSpawnPatch.FanBelt1_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_FanBelt1_4,
+}
+
+option PSCSpawnPatch.Flywheel1_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Flywheel1_1,
+}
+
+option PSCSpawnPatch.Flywheel1_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Flywheel1_2,
+}
+
+option PSCSpawnPatch.Flywheel1_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Flywheel1_3,
+}
+
+option PSCSpawnPatch.Flywheel1_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Flywheel1_4,
+}
+
+option PSCSpawnPatch.Flywheel2_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Flywheel2_1,
+}
+
+option PSCSpawnPatch.Flywheel2_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Flywheel2_2,
+}
+
+option PSCSpawnPatch.Flywheel2_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Flywheel2_3,
+}
+
+option PSCSpawnPatch.Flywheel2_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Flywheel2_4,
+}
+
+option PSCSpawnPatch.Flywheel3_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Flywheel3_1,
+}
+
+option PSCSpawnPatch.Flywheel3_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Flywheel3_2,
+}
+
+option PSCSpawnPatch.Flywheel3_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Flywheel3_3,
+}
+
+option PSCSpawnPatch.Flywheel3_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Flywheel3_4,
+}
+
+option PSCSpawnPatch.HeadGasket1_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_HeadGasket1_1,
+}
+
+option PSCSpawnPatch.HeadGasket1_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_HeadGasket1_2,
+}
+
+option PSCSpawnPatch.HeadGasket1_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_HeadGasket1_3,
+}
+
+option PSCSpawnPatch.HeadGasket1_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_HeadGasket1_4,
+}
+
+option PSCSpawnPatch.HeaterCore1_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_HeaterCore1_1,
+}
+
+option PSCSpawnPatch.HeaterCore1_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_HeaterCore1_2,
+}
+
+option PSCSpawnPatch.HeaterCore1_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_HeaterCore1_3,
+}
+
+option PSCSpawnPatch.HeaterCore1_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_HeaterCore1_4,
+}
+
+option PSCSpawnPatch.OilFilter1_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_OilFilter1_1,
+}
+
+option PSCSpawnPatch.OilFilter1_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_OilFilter1_2,
+}
+
+option PSCSpawnPatch.OilFilter1_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_OilFilter1_3,
+}
+
+option PSCSpawnPatch.OilFilter1_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_OilFilter1_4,
+}
+
+option PSCSpawnPatch.OilPan1_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_OilPan1_1,
+}
+
+option PSCSpawnPatch.OilPan1_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_OilPan1_2,
+}
+
+option PSCSpawnPatch.OilPan1_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_OilPan1_3,
+}
+
+option PSCSpawnPatch.OilPan1_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_OilPan1_4,
+}
+
+option PSCSpawnPatch.Pistons1_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Pistons1_1,
+}
+
+option PSCSpawnPatch.Pistons1_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Pistons1_2,
+}
+
+option PSCSpawnPatch.Pistons1_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Pistons1_3,
+}
+
+option PSCSpawnPatch.Pistons1_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Pistons1_4,
+}
+
+option PSCSpawnPatch.Pistons2_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Pistons2_1,
+}
+
+option PSCSpawnPatch.Pistons2_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Pistons2_2,
+}
+
+option PSCSpawnPatch.Pistons2_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Pistons2_3,
+}
+
+option PSCSpawnPatch.Pistons2_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Pistons2_4,
+}
+
+option PSCSpawnPatch.Pistons3_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Pistons3_1,
+}
+
+option PSCSpawnPatch.Pistons3_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Pistons3_2,
+}
+
+option PSCSpawnPatch.Pistons3_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Pistons3_3,
+}
+
+option PSCSpawnPatch.Pistons3_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Pistons3_4,
+}
+
+option PSCSpawnPatch.PowerSteeringPump1_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_PowerSteeringPump1_1,
+}
+
+option PSCSpawnPatch.PowerSteeringPump1_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_PowerSteeringPump1_2,
+}
+
+option PSCSpawnPatch.PowerSteeringPump1_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_PowerSteeringPump1_3,
+}
+
+option PSCSpawnPatch.PowerSteeringPump1_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_PowerSteeringPump1_4,
+}
+
+option PSCSpawnPatch.Radiator1_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Radiator1_1,
+}
+
+option PSCSpawnPatch.Radiator1_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Radiator1_2,
+}
+
+option PSCSpawnPatch.Radiator1_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Radiator1_3,
+}
+
+option PSCSpawnPatch.Radiator1_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Radiator1_4,
+}
+
+option PSCSpawnPatch.Radiator2_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Radiator2_1,
+}
+
+option PSCSpawnPatch.Radiator2_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Radiator2_2,
+}
+
+option PSCSpawnPatch.Radiator2_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Radiator2_3,
+}
+
+option PSCSpawnPatch.Radiator2_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Radiator2_4,
+}
+
+option PSCSpawnPatch.Radiator3_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Radiator3_1,
+}
+
+option PSCSpawnPatch.Radiator3_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Radiator3_2,
+}
+
+option PSCSpawnPatch.Radiator3_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Radiator3_3,
+}
+
+option PSCSpawnPatch.Radiator3_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Radiator3_4,
+}
+
+option PSCSpawnPatch.Sparkplug1_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Sparkplug1_1,
+}
+
+option PSCSpawnPatch.Sparkplug1_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Sparkplug1_2,
+}
+
+option PSCSpawnPatch.Sparkplug1_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Sparkplug1_3,
+}
+
+option PSCSpawnPatch.Sparkplug1_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Sparkplug1_4,
+}
+
+option PSCSpawnPatch.Sparkplug2_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Sparkplug2_1,
+}
+
+option PSCSpawnPatch.Sparkplug2_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Sparkplug2_2,
+}
+
+option PSCSpawnPatch.Sparkplug2_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Sparkplug2_3,
+}
+
+option PSCSpawnPatch.Sparkplug2_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Sparkplug2_4,
+}
+
+option PSCSpawnPatch.Sparkplug3_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Sparkplug3_1,
+}
+
+option PSCSpawnPatch.Sparkplug3_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Sparkplug3_2,
+}
+
+option PSCSpawnPatch.Sparkplug3_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Sparkplug3_3,
+}
+
+option PSCSpawnPatch.Sparkplug3_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Sparkplug3_4,
+}
+
+option PSCSpawnPatch.Starter1_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Starter1_1,
+}
+
+option PSCSpawnPatch.Starter1_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Starter1_2,
+}
+
+option PSCSpawnPatch.Starter1_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Starter1_3,
+}
+
+option PSCSpawnPatch.Starter1_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Starter1_4,
+}
+
+option PSCSpawnPatch.ToolKit
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_ToolKit,
+}
+
+option PSCSpawnPatch.TorqueConverter1_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_TorqueConverter1_1,
+}
+
+option PSCSpawnPatch.TorqueConverter1_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_TorqueConverter1_2,
+}
+
+option PSCSpawnPatch.TorqueConverter1_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_TorqueConverter1_3,
+}
+
+option PSCSpawnPatch.TorqueConverter1_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_TorqueConverter1_4,
+}
+
+option PSCSpawnPatch.TorqueConverter2_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_TorqueConverter2_1,
+}
+
+option PSCSpawnPatch.TorqueConverter2_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_TorqueConverter2_2,
+}
+
+option PSCSpawnPatch.TorqueConverter2_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_TorqueConverter2_3,
+}
+
+option PSCSpawnPatch.TorqueConverter2_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_TorqueConverter2_4,
+}
+
+option PSCSpawnPatch.TorqueConverter3_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_TorqueConverter3_1,
+}
+
+option PSCSpawnPatch.TorqueConverter3_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_TorqueConverter3_2,
+}
+
+option PSCSpawnPatch.TorqueConverter3_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_TorqueConverter3_3,
+}
+
+option PSCSpawnPatch.TorqueConverter3_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_TorqueConverter3_4,
+}
+
+option PSCSpawnPatch.Transmission1_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Transmission1_1,
+}
+
+option PSCSpawnPatch.Transmission1_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Transmission1_2,
+}
+
+option PSCSpawnPatch.Transmission1_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Transmission1_3,
+}
+
+option PSCSpawnPatch.Transmission1_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Transmission1_4,
+}
+
+option PSCSpawnPatch.Transmission2_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Transmission2_1,
+}
+
+option PSCSpawnPatch.Transmission2_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Transmission2_2,
+}
+
+option PSCSpawnPatch.Transmission2_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Transmission2_3,
+}
+
+option PSCSpawnPatch.Transmission2_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Transmission2_4,
+}
+
+option PSCSpawnPatch.Transmission3_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Transmission3_1,
+}
+
+option PSCSpawnPatch.Transmission3_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Transmission3_2,
+}
+
+option PSCSpawnPatch.Transmission3_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Transmission3_3,
+}
+
+option PSCSpawnPatch.Transmission3_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Transmission3_4,
+}
+
+option PSCSpawnPatch.Transmission4_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Transmission4_1,
+}
+
+option PSCSpawnPatch.Transmission4_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Transmission4_2,
+}
+
+option PSCSpawnPatch.Transmission4_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Transmission4_3,
+}
+
+option PSCSpawnPatch.Transmission4_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Transmission4_4,
+}
+
+option PSCSpawnPatch.Transmission5_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Transmission5_1,
+}
+
+option PSCSpawnPatch.Transmission5_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Transmission5_2,
+}
+
+option PSCSpawnPatch.Transmission5_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Transmission5_3,
+}
+
+option PSCSpawnPatch.Transmission5_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_Transmission5_4,
+}
+
+option PSCSpawnPatch.WaterPump1_1
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_WaterPump1_1,
+}
+
+option PSCSpawnPatch.WaterPump1_2
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_WaterPump1_2,
+}
+
+option PSCSpawnPatch.WaterPump1_3
+{
+    type = double, min = 0, max = 20, default = 1.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_WaterPump1_3,
+}
+
+option PSCSpawnPatch.WaterPump1_4
+{
+    type = double, min = 0, max = 20, default = 0.0,
+    page = PSCSpawnPatchItems, translation = PSCSpawnPatch_WaterPump1_4,
+}

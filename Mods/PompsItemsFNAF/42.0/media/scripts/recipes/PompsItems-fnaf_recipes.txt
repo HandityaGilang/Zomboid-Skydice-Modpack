@@ -1,0 +1,56 @@
+module Base
+{
+    imports
+	{
+		Base
+	}
+	
+	craftRecipe PIOpenMysteryBox
+	{
+        timedAction = PIFNAFOpen,
+		Time = 15,
+		RemoveResultItem:true,
+		OnCreate = PIFNAFRandSelect_OnCreate,
+		Tags = InHandCraft;CanBeDoneInDark,
+		AllowBatchCraft = True,
+        category = Miscellaneous,
+		inputs
+		{
+			item 1 [PompsItems_FNAF.PIFNAFMysteryBag],
+		}
+		outputs
+		{
+			
+		}
+	}
+	craftRecipe PIBoopFreddy
+	{
+        timedAction = PIBoopFreddy,
+		Time = 5,
+		Tags = InHandCraft;CanBeDoneInDark;RickClickOnly,
+        category = Miscellaneous,
+		inputs
+		{
+			item 1 [PompsItems_FNAF.PIFreddyPlushie],
+		}
+		outputs
+		{
+			item 1 PompsItems_FNAF.PIFreddyPlushie,
+		}
+	}
+	craftRecipe PIBoopMangle
+	{
+        timedAction = PIBoopMangle,
+		Time = 6,
+		Tags = InHandCraft;CanBeDoneInDark;RickClickOnly,
+        category = Miscellaneous,
+		inputs
+		{
+			item 1 [PompsItems_FNAF.PIMangleFigure],
+		}
+		outputs
+		{
+			item 1 PompsItems_FNAF.PIMangleFigure,
+		}
+	}
+}

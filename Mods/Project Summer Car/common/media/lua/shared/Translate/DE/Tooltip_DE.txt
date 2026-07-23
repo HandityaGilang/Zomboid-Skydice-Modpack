@@ -1,0 +1,37 @@
+Tooltip_DE = {
+	-- Item tooltip
+	Tooltip_EngineOilPan = "Enthält das Öl im Motor.",
+	Tooltip_EngineOilFilter = "Verbessert die Ölqualität, indem Verunreinigungen herausgefiltert werden, was die Lebensdauer des Motors erhöht.",
+	Tooltip_EngineSparkplug = "Zündkerzen helfen beim Starten des Autos. Ohne sie läuft der Motor nicht.",
+	Tooltip_EngineCylinderHead = "Der Zustand des Zylinderkopfs bestimmt, wie viel PS dein Auto hat.",
+	Tooltip_EngineHeadGasket = "Die Kopfdichtung dichtet den Zylinderkopf am Motor ab. Wenn sie defekt ist, verlierst du Kühlmittel und Öl. Außerdem vermischen sich Kühlmittel und Öl.",
+	Tooltip_EnginePistons = "Der Zustand der Kolben bestimmt, wie viel PS dein Auto hat.",
+	Tooltip_EngineCrankshaft = "Der Zustand der Kurbelwelle bestimmt, wie viel PS dein Auto hat.",
+	Tooltip_EngineFlywheel = "Überträgt die Kraft vom Motor auf das Getriebe und hilft beim Starten. Leichtere Schwungräder lassen den Motor schneller hoch- und runterdrehen.",
+	Tooltip_EngineStarter = "Startet das Auto. Ohne ihn kommst du nicht weit.",
+	Tooltip_EngineTransmission = "Das Getriebe ist für das Schalten der Gänge verantwortlich. Wenn es beschädigt ist, rutscht es stark durch.",
+	Tooltip_EngineTorqueConverter = "Der Drehmomentwandler verbindet den Motor mit dem Getriebe und vervielfacht das Drehmoment bei niedriger Geschwindigkeit. Wenn er beschädigt ist, rutscht er stark durch. Niedrige Stall-Geschwindigkeit ist besser für den Alltag, hohe Stall-Geschwindigkeit für Rennen.",
+	Tooltip_EngineRadiator = "Kühler sind essenziell für das Kühlsystem und enthalten den Großteil des Kühlmittels im Motor.",
+	Tooltip_EngineFanBelt = "Keilriemen treiben die Wasserpumpe, Servolenkung, Lichtmaschine und Klimaanlage an. Ohne ihn kommst du nicht weit!",
+	Tooltip_EngineAlternator = "Lichtmaschinen laden die Batterie während der Fahrt auf. Sie werden über den Keilriemen vom Motor angetrieben.",
+	Tooltip_EngineWaterPump = "Wasserpumpen zirkulieren das Kühlmittel durch den Motor und den Kühler. Sie werden über den Keilriemen vom Motor angetrieben.",
+	Tooltip_EnginePowerSteeringPump = "Servolenkungspumpen helfen beim Lenken bei niedriger Geschwindigkeit. Mit ATF befüllen. Wenn das Lenken schwerfällig wird, liegt es daran. Sie werden über den Keilriemen vom Motor angetrieben.",
+	Tooltip_EngineBrakeBooster = "Bremskraftverstärker nutzen den Unterdruck vom Ansaugkrümmer, um das Bremsen zu erleichtern. Ohne ihn wird das Bremsen sehr schwer!",
+	Tooltip_EngineAirConditioner = "Hält dich an heißen Sommertagen kühl. Wird über den Keilriemen angetrieben.",
+	Tooltip_EngineHeaterCore = "Hält dich an kalten Wintertagen warm. Nutzt das Motorkühlmittel und funktioniert erst, wenn der Motor warm ist.",
+
+	Tooltip_EngineTransmission = "Das Getriebe ist für das Schalten der Gänge verantwortlich. Wenn es beschädigt ist, rutscht es stark durch.",
+
+	Tooltip_EngineTransmission3S = "3-Gang-Getriebe mit Übersetzungen: 2.6, 1.6, 1.0. Wenn es beschädigt ist, rutscht es stark durch.",
+	Tooltip_EngineTransmission4S = "4-Gang-Getriebe mit Übersetzungen: 2.6, 1.6, 1.23, 1.0. Wenn es beschädigt ist, rutscht es stark durch.",
+	Tooltip_EngineTransmissionHT4S = "4-Gang-Getriebe mit Übersetzungen: 3.0, 2.3, 1.7, 1.0. Wenn es beschädigt ist, rutscht es stark durch.",
+	Tooltip_EngineTransmission5S = "5-Gang-Getriebe mit Übersetzungen: 2.6, 1.6, 1.23, 1.0, 0.9. Wenn es beschädigt ist, rutscht es stark durch.",
+	Tooltip_EngineTransmission8S = "8-Gang-Getriebe mit Übersetzungen: 4.0, 2.5, 1.9, 1.5, 1.3, 1.1, 0.9, 0.8. Wenn es beschädigt ist, rutscht es stark durch.",
+
+	Tooltip_EngineTorqueConverterLS = "Drehmomentwandler mit niedriger Stall-Geschwindigkeit sind gut für den Alltag und verbinden den Motor mit dem Getriebe und vervielfachen das Drehmoment bei niedriger Geschwindigkeit. Wenn er beschädigt ist, rutscht er stark durch.",
+	Tooltip_EngineTorqueConverterMS = "Drehmomentwandler mit mittlerer Stall-Geschwindigkeit sind gut für sportliches Fahren oder Motoren mit höherer Drehzahl und verbinden den Motor mit dem Getriebe und vervielfachen das Drehmoment bei niedriger Geschwindigkeit. Wenn er beschädigt ist, rutscht er stark durch.",
+	Tooltip_EngineTorqueConverterHS = "Drehmomentwandler mit hoher Stall-Geschwindigkeit sind gut für Rennen. Sie haben einen schlechten Kraftstoffverbrauch, aber die schnellste Beschleunigung und verbinden den Motor mit dem Getriebe und vervielfachen das Drehmoment bei niedriger Geschwindigkeit. Wenn er beschädigt ist, rutscht er stark durch.",
+
+	Tooltip_ToolKit = "Ein Werkzeugkasten mit Zangen, Schraubendrehern und Schraubenschlüsseln.",
+
+}

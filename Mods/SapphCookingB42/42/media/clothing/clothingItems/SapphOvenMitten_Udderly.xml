@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\clothes\SapphMitten_M</m_MaleModel>
+	<m_FemaleModel>Skinned\clothes\SapphMitten</m_FemaleModel>
+	<m_GUID>c5eaadec-88e6-4230-9ea9-e55fefe8317d</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>4</m_Masks>
+	<m_Masks>6</m_Masks>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>	
+	<textureChoices>Clothes/Gloves/H_OvenMitt_Udderly</textureChoices>
+</clothingItem>

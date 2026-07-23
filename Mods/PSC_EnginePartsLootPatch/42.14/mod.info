@@ -1,0 +1,10 @@
+name=Project Summer Car Engine Parts Loot Patch - No _4 Spawn
+id=PSC_EnginePartsLootPatch
+description=Adds Project Summer Car engine parts to loot, but excludes all *_4 non-installable parts from world spawn.
+modversion=3.0
+poster=poster.png
+icon=icon.png
+author=Churchill
+require=ProjectSummerCar
+versionMin=42.00
+versionMax=42.99

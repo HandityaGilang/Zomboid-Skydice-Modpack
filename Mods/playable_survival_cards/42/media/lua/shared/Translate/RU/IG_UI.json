@@ -1,0 +1,15 @@
+{
+    "IGUI_PSC_Play": "Играть в UNO", "IGUI_PSC_Watch": "Смотреть UNO", "IGUI_PSC_MoveCloser": "Подойдите ближе к столу.", "IGUI_PSC_WindowTitle": "Играбельное UNO",
+    "IGUI_PSC_Waiting": "Ожидание игроков", "IGUI_PSC_Playing": "Игра идёт", "IGUI_PSC_GameOver": "Игра окончена", "IGUI_PSC_YourTurn": "Ваш ход",
+    "IGUI_PSC_You": "Вы", "IGUI_PSC_NotYourTurn": "Сейчас не ваш ход", "IGUI_PSC_Draw": "Взять", "IGUI_PSC_Pass": "Пас",
+    "IGUI_PSC_Start": "Начать", "IGUI_PSC_AddBot": "Добавить бота", "IGUI_PSC_RemoveBot": "Удалить бота", "IGUI_PSC_CallUno": "Крикнуть UNO",
+    "IGUI_PSC_Reset": "Сбросить", "IGUI_PSC_Leave": "Выйти", "IGUI_PSC_ChooseColor": "Выберите цвет",
+    "IGUI_PSC_Red": "Красный", "IGUI_PSC_Yellow": "Жёлтый", "IGUI_PSC_Green": "Зелёный", "IGUI_PSC_Blue": "Синий",
+    "IGUI_PSC_DrawPile": "Колода", "IGUI_PSC_DiscardPile": "Сброс", "IGUI_PSC_CurrentColor": "Цвет", "IGUI_PSC_Direction": "Направление",
+    "IGUI_PSC_Clockwise": "По часовой", "IGUI_PSC_CounterClockwise": "Против часовой", "IGUI_PSC_Cards": "Карты", "IGUI_PSC_Winner": "Победитель",
+    "IGUI_PSC_Opening": "Открытие...", "IGUI_PSC_OpeningGame": "Открытие UNO...", "IGUI_PSC_Turn": "Ход", "IGUI_PSC_Penalty": "Штраф",
+    "IGUI_PSC_Players": "Игроки", "IGUI_PSC_OpenSeat": "Свободное место", "IGUI_PSC_TableLog": "Журнал стола", "IGUI_PSC_YourHand": "Ваши карты",
+    "IGUI_PSC_Actions": "Действия", "IGUI_PSC_StackingOn": "Сложение: ВКЛ", "IGUI_PSC_StackingOff": "Сложение: ВЫКЛ",
+    "IGUI_PSC_YourOpponent": "Ваш соперник", "IGUI_PSC_ResultWinner": "ПОБЕДИТЕЛЬ", "IGUI_PSC_ResultLoser": "ПРОИГРАВШИЙ",
+    "IGUI_PSC_FinalVerdict": "Финальный вердикт приближается...", "IGUI_PSC_WonGame": "%1 победил в игре."
+}

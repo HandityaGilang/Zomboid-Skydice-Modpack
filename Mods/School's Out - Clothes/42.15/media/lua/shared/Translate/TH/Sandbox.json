@@ -1,0 +1,113 @@
+{
+    "Sandbox_SchoolsOut": "ถึงเวลาเลิกเรียน",
+
+    "Sandbox_SchoolsOut_UseSeifukuZombies": "เปลี่ยนเครื่องแต่งกาย",
+    "Sandbox_SchoolsOut_UseSeifukuZombies_tooltip": "ให้ซอมบี้ที่เป็นนักเรียนและ/หรือที่อยู่ในโรงเรียนใส่ชุดนักเรียนญี่ปุ่น<br>หากนำติ๊กถูกออกจะให้ซอมบี้กลับไปใช้ชุดนักเรียนจากตัวเกม",
+
+    "Sandbox_SchoolsOut_UseVanillaZombies": "นักเรียนแลกเปลี่ยน",
+
+    "Sandbox_SchoolsOut_DefaultRatio": "อัตราส่วนของซอมบี้ภายนอก",
+
+    "Sandbox_SchoolsOut_GenderRatio": "สัดส่วนเพศของนักเรียน",
+    "Sandbox_SchoolsOut_GenderRatio_tooltip": "กำหนดสัดส่วนเพศของซอมบี้ที่เป็นนักเรียน",
+    "Sandbox_SchoolsOut_GenderRatio_option1": "ผู้ชายล้วน",
+    "Sandbox_SchoolsOut_GenderRatio_option2": "ผู้ชายเป็นส่วนใหญ่",
+    "Sandbox_SchoolsOut_GenderRatio_option3": "แบ่งเท่ากัน",
+    "Sandbox_SchoolsOut_GenderRatio_option4": "ผู้หญิงเป็นส่วนใหญ่",
+    "Sandbox_SchoolsOut_GenderRatio_option5": "ผู้หญิงล้วน",
+
+    "Sandbox_SchoolsOut_SeifukuStyle": "ประเภทของชุด",
+    "Sandbox_SchoolsOut_SeifukuStyle_tooltip": "กำหนดรูปแบบชุดของซอมบี้ที่เป็นนักเรียนจะสวมใส่",
+    "Sandbox_SchoolsOut_SeifukuStyle_option1": "ทุกแบบที่มี",
+    "Sandbox_SchoolsOut_SeifukuStyle_option2": "เสื้อคลุม",
+    "Sandbox_SchoolsOut_SeifukuStyle_option3": "เสื้อคอปกกะลาสี (ญ) / กักคุรัน (ช)",
+    "Sandbox_SchoolsOut_SeifukuStyle_option4": "เสื้อกั๊ก/เสื้อกันหนาว",
+
+    "Sandbox_SchoolsOut_BlazerStyle": "รูปแบบเสื้อคลุมนักเรียน",
+    "Sandbox_SchoolsOut_BlazerStyle_option1": "ทุกแบบที่มี",
+    "Sandbox_SchoolsOut_BlazerStyle_option2": "ใช้เสื้อคลุมจากม็อดของ NyanCat",
+    "Sandbox_SchoolsOut_BlazerStyle_option3": "กระดุม 2 เม็ด",
+    "Sandbox_SchoolsOut_BlazerStyle_option4": "กระดุม 3 เม็ด",
+
+    "Sandbox_SchoolsOut_BlazerColor": "สีของเสื้อคลุม",
+    "Sandbox_SchoolsOut_BlazerColor_option1": "ทุกสีที่มี",
+    "Sandbox_SchoolsOut_BlazerColor_option2": "สีดำ",
+    "Sandbox_SchoolsOut_BlazerColor_option3": "สีขาวและสีดำ",
+    "Sandbox_SchoolsOut_BlazerColor_option4": "สีน้ำเงิน",
+    "Sandbox_SchoolsOut_BlazerColor_option5": "สีน้ำตาลอ่อน",
+
+    "Sandbox_SchoolsOut_SailorColor": "สีของเสื้อนักเรียนกะลาสี/คอปก",
+    "Sandbox_SchoolsOut_SailorColor_option1": "ทุกแบบที่มี",
+    "Sandbox_SchoolsOut_SailorColor_option2": "สีขาว / สีดำ",
+    "Sandbox_SchoolsOut_SailorColor_option3": "สีขาว / สีน้ำเงิน",
+    "Sandbox_SchoolsOut_SailorColor_option4": "สีดำ / สีดำ",
+
+    "Sandbox_SchoolsOut_SweaterColor": "สีของเสื้อกั๊ก/เสื้อกันหนาว",
+    "Sandbox_SchoolsOut_SweaterColor_tooltip": "กำหนดรูปแบบของซอมบี้ชุดนักเรียนที่ใส่เสื้อกั๊กหรือเสื้อกันหนาว",
+    "Sandbox_SchoolsOut_SweaterColor_option1": "ทุกสีที่มี",
+    "Sandbox_SchoolsOut_SweaterColor_option2": "สีดำ",
+    "Sandbox_SchoolsOut_SweaterColor_option3": "สีเทา",
+    "Sandbox_SchoolsOut_SweaterColor_option4": "สีน้ำเงินเข้ม",
+    "Sandbox_SchoolsOut_SweaterColor_option5": "สีฟ้าอ่อน",
+    "Sandbox_SchoolsOut_SweaterColor_option6": "สีน้ำตาลอ่อน",
+
+    "Sandbox_SchoolsOut_BottomStyle": "รูปแบบของกระโปรงนักเรียน",
+    "Sandbox_SchoolsOut_BottomStyle_tooltip": "กำหนดรูปแบบกระโปรงของซอมบี้ที่ใส่ชุดนักเรียน<br>กระโปรงแบบยาวจะยาวถึงข้อเท้า ส่วนกระโปรงสั้นจะยาวถึงหัวเขาหรือสามารถเย็บให้สั้นกว่าเดิมได้",
+    "Sandbox_SchoolsOut_BottomStyle_option1": "ทั้งสองแบบ",
+    "Sandbox_SchoolsOut_BottomStyle_option2": "สั้น",
+    "Sandbox_SchoolsOut_BottomStyle_option3": "ยาว (ยุค 80s)",
+
+    "Sandbox_SchoolsOut_BottomColor": "สีของกางเกง/กระโปรง",
+    "Sandbox_SchoolsOut_BottomColor_tooltip": "กำหนดรูปแบบสีกางเกง/กระโปรงของซอมบี้ชุดนักเรียน",
+    "Sandbox_SchoolsOut_BottomColor_option1": "ทุกสีที่มี",
+    "Sandbox_SchoolsOut_BottomColor_option2": "สีดำ",
+    "Sandbox_SchoolsOut_BottomColor_option3": "สีน้ำเงิน",
+
+    "Sandbox_SchoolsOut_RibbonStyleBlazer": "เนคไท/โบว์ของเสื้อคลุม",
+    "Sandbox_SchoolsOut_RibbonStyleBlazer_tooltip": "กำหนดรูปแบบของ เนคไท/โบว์ ที่ซอมบี้จะสวมอยู่ใต้เสื้อคลุม<br>ซอมบี้ที่สวมเสื้อคลุมจากม็อดของ NyanCat จะไม่รองรับการตั้งค่านี้",
+    "Sandbox_SchoolsOut_RibbonStyleBlazer_option1": "ทุกแบบที่มี",
+    "Sandbox_SchoolsOut_RibbonStyleBlazer_option2": "เนคไท",
+    "Sandbox_SchoolsOut_RibbonStyleBlazer_option3": "ผูกโบว์",
+    "Sandbox_SchoolsOut_RibbonStyleBlazer_option4": "ผูกโบว์ชั้นเดียว",
+    "Sandbox_SchoolsOut_RibbonStyleBlazer_option5": "ผูกริบบิ้นเล็ก",
+
+    "Sandbox_SchoolsOut_RibbonStyleSailor": "โบว์ของเสื้อนักเรียนปกกะลาสี",
+    "Sandbox_SchoolsOut_RibbonStyleSailor_tooltip": "กำหนดรูปแบบของ ผ้าพันคอ/โบว์ ที่ซอมบี้จะสวมอยู่ใต้เสื้อนักเรียนปกกะลาสี",
+    "Sandbox_SchoolsOut_RibbonStyleSailor_option1": "ทุกแบบที่มี",
+    "Sandbox_SchoolsOut_RibbonStyleSailor_option2": "ทุกแบบที่เป็นผ้าพันคอ",
+    "Sandbox_SchoolsOut_RibbonStyleSailor_option3": "ผ้าพันคอ: ชุดนักเรียน",
+    "Sandbox_SchoolsOut_RibbonStyleSailor_option4": "ผ้าพันคอ: โบว์ผีเสื้อ",
+    "Sandbox_SchoolsOut_RibbonStyleSailor_option5": "ผ้าพันคอ: ริบบิ้นเล็ก",
+    "Sandbox_SchoolsOut_RibbonStyleSailor_option6": "ผูกโบว์",
+    "Sandbox_SchoolsOut_RibbonStyleSailor_option7": "ผูกโบว์ชั้นเดียว",
+    "Sandbox_SchoolsOut_RibbonStyleSailor_option8": "ผูกริบบิ้นเล็ก",
+
+    "Sandbox_SchoolsOut_RibbonColor": "สีของ เนคไท/ผ้าพันคอ/โบว์",
+    "Sandbox_SchoolsOut_RibbonColor_tooltip": "กำหนดสีของ เนคไท/ผ้าพันคอ/โบว์ ที่ซอมบี้ที่เป็นนักเรียนจะสวมใส่<br>ซอมบี้ที่สวมเสื้อคลุมจากม็อดของ NyanCat จะไม่รองรับการตั้งค่านี้",
+    "Sandbox_SchoolsOut_RibbonColor_option1": "ทุกสีที่มี",
+    "Sandbox_SchoolsOut_RibbonColor_option2": "สีดำ",
+    "Sandbox_SchoolsOut_RibbonColor_option3": "สีขาว",
+    "Sandbox_SchoolsOut_RibbonColor_option4": "สีน้ำเงิน",
+    "Sandbox_SchoolsOut_RibbonColor_option5": "สีชมพู",
+    "Sandbox_SchoolsOut_RibbonColor_option6": "สีแดง",
+    "Sandbox_SchoolsOut_RibbonColor_option7": "สีเหลือง",
+
+    "Sandbox_SchoolsOut_GymsuitStyle": "รูปแบบของชุดพละ",
+    "Sandbox_SchoolsOut_GymsuitStyle_tooltip": "รูปแบบของชุดพละที่ซอมบี้จะสวมใส่ โดยซอมบี้ที่เป็นผู้ชายจะสวมกางเกงขาสั้น แทนการใส่กางเกงพละหรือกระโปรงในกรณีที่เป็นผู้หญิง",
+    "Sandbox_SchoolsOut_GymsuitStyle_option1": "ทุกแบบที่มี",
+    "Sandbox_SchoolsOut_GymsuitStyle_option2": "เสื้อและกางเกงพละ",
+    "Sandbox_SchoolsOut_GymsuitStyle_option3": "เสื้อโปโลและกระโปรง",
+    "Sandbox_SchoolsOut_GymsuitStyle_option4": "ชุดวอร์ม",
+
+    "Sandbox_SchoolsOut_SwimsuitStyle": "รูปแบบของชุดว่ายน้ำ",
+    "Sandbox_SchoolsOut_SwimsuitStyle_tooltip": "รูปแบบของชุดว่ายน้ำที่ซอมบี้จะสวมใส่ โดยชุดว่ายน้ำแบบใหม่จะมีลักษณะช่วงขาที่เว้าขึ้นกว่าชุดแบบเดิม<br>ตัวเลือกนี้มีผลต่อความหายากในการพบเจอ ซึ่งชุดว่ายน้ำที่ไม่ได้เลือกแบบยังมีโอกาสในการหาได้อยู่ แต่จะพบได้ยาก",
+    "Sandbox_SchoolsOut_SwimsuitStyle_option1": "ทุกแบบที่มี",
+    "Sandbox_SchoolsOut_SwimsuitStyle_option2": "แบบเดิม",
+    "Sandbox_SchoolsOut_SwimsuitStyle_option3": "แบบใหม่",
+
+    "Sandbox_SchoolsOut_WhiteSwimsuitToggle": "ชุดว่ายน้ำสีขาว",
+    "Sandbox_SchoolsOut_WhiteSwimsuitToggle_tooltip": "ซอมบี้นักเรียนหญิงที่สวมชุดว่ายน้ำจะเปลี่ยนให้ใส่ชุดสีขาวแทนการใส่ชุดสีน้ำเงิน",
+
+    "Sandbox_SchoolsOut_SpawnChanceModifier": "โอกาสในการเกิดไอเท็ม",
+    "Sandbox_SchoolsOut_SpawnChanceModifier_tooltip": "การเกิดไอเท็มที่มาจากม็อดชุดนักเรียนนี้จะคูณตามค่าตัวเลขที่กำหนด เพื่อปรับโอกาสในการพบเจอตามสถานที่ต่างๆ ภายในเกม<br>คุณสามารถเปลี่ยนค่านี้ได้หากอยากให้เจอไอเท็มเหล่านั้นน้อยลงหรือมากขึ้น"
+}

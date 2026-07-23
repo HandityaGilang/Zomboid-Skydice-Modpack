@@ -1,0 +1,115 @@
+Sandbox_TR = {
+    Sandbox_ProjectSummerCar = "Project Summer Car (Türkçe)",
+
+    Sandbox_ProjectSummerCarSpawning = "Project Summer Car: Spawn Ayarları",
+
+    Sandbox_PSC_RepairParts = "Motor parçalarının tamirini etkinleştir"
+    Sandbox_PSC_RepairParts_tooltip = "Motor parçalarının tamirine olanak sağlar. Eğer başka bir mod, motor tamir kısmını hallediyorsa bunu kapatın.",
+
+
+    Sandbox_PSC_TakeOverSpawning = "Araç spawn kondisyonunu değiştir",
+    Sandbox_PSC_TakeOverSpawning_tooltip = "Sonraki 8 ayar ile araçların spawn kondisyonunu değiştirmeye olanak sağlar. DİKKAT: Ayarlara bağlı olarak henüz etkileşimde bulunmadığın araçlar ve parçalarının durumunu etkileyecektir. Eğer kapalıysa bu ayar sadece motor parçalarının spawn ihtimalini değiştirir.",
+
+    Sandbox_PSC_BurntCarChance = "Trafik sıkışıklığı/hurdalık yanık araba ihtimali",
+    Sandbox_PSC_BurntCarChance_tooltip = "Trafik sıkışıklığında ve hurdalıklarda yanık arabaların olma ihtimalini değiştirir.",
+
+    Sandbox_PSC_RemoveWreckedCars = "Hurda araçları kaldır",
+    Sandbox_PSC_RemoveWreckedCars_tooltip = "Sürülemeyen hurda araçları kaldırır ve yerini normal araçlarla doldurur.",
+	
+
+    Sandbox_PSC_PartChanceLowCond = "Minimum kondisyon görülecek sınır",
+    Sandbox_PSC_PartChanceLowCond_tooltip = "Parça spawnlanması için araçların olması gereken minimum kondisyonu. Bu değerden düşük kondisyonu olan araçlar aynı parça spawn ihtimaline sahip olacaktır.",
+
+    Sandbox_PSC_PartChanceLowCondChance = "Düşük kondisyonlu arabada parça spawn ihtimali",
+    Sandbox_PSC_PartChanceLowCondChance_tooltip = "Düşük kondisyona sahip araçların parça spawnlama ihtimali. Dikkat: Bu değeri 1'in altına indirmek, sürülebilir araç sayısını bir hayli düşürecektir.",
+
+    Sandbox_PSC_PartChanceHighCond = "Maksimum kondisyon görülecek sınır",
+    Sandbox_PSC_PartChanceHighCond_tooltip = "Parça spawnlanması için araçların olması gereken maksimum kondisyonu. Bu değerden yüksek kondisyonu olan araçlar aynı parça spawn ihtimaline sahip olacaktır.",
+
+    Sandbox_PSC_PartChanceHighCondChance = "Yüksek kondisyonlu arabada parça spawn ihtimali",
+    Sandbox_PSC_PartChanceHighCondChance_tooltip = "Yüksek kondisyona sahip araçların parça spawnlama ihtimali. 'Ulan kaputun altında sağlam ne varsa almışlar' deyip, bir sanayi ustası deneyimi yaşamak isterseniz bu değeri düşürmek isteyebilirsiniz.",
+
+    Sandbox_PSC_PartChanceSurvivorMin = "Hayatta kalan arabası minimum parça spawn ihtimali",
+    Sandbox_PSC_PartChanceSurvivorMin_tooltip = "Hayatta kalanların arabalarında minimum parça spawn ihtimalini belirler.",
+
+    Sandbox_PSC_PartChanceSurvivorMax = "Hayatta kalan arabası maksimum parça spawn ihtimali",
+    Sandbox_PSC_PartChanceSurvivorMax_tooltip = "Hayatta kalanların arabalarında maksimum parça spawn ihtimalini belirler.",
+
+    Sandbox_PSC_PartChanceTrafficMin = "Trafik/hurdalık arabası minimum parça spawn ihtimali",
+    Sandbox_PSC_PartChanceTrafficMin_tooltip = "Trafik sıkışıklığındaki ve hurdalıklardaki araçların minimum parça spawnlama ihtimali.",
+
+    Sandbox_PSC_PartChanceTrafficMax = "Trafik/hurdalık arabası maksimum parça spawn ihtimali",
+    Sandbox_PSC_PartChanceTrafficMax_tooltip = "Trafik sıkışıklığındaki ve hurdalıklardaki araçların maksimum parça spawnlama ihtimali.",
+
+
+    Sandbox_PSC_LowOrHigh = "Düşük ya da yüksek kondisyon ihtimali",
+    Sandbox_PSC_LowOrHigh_tooltip = "Orta-yüksek kondisyon spawnların düşük-orta kondisyon spawnlara tercih edilme ihtimali.",
+
+    Sandbox_PSC_LowCondition = "En düşük kondisyon",
+    Sandbox_PSC_LowCondition_tooltip = "Araçların spawnlanabileceği en düşük kondisyon.",
+
+    Sandbox_PSC_LowToMid = "Düşük-orta eğilimi",
+    Sandbox_PSC_LowToMid_tooltip = "Kondisyonun düşük veya ortaya doğru eğilimi. Değer 1'in altına inerse düşük kondisyon spawnı eğilimde olur, 1'in üstüne çıkarsa orta kondisyon spawnı eğilimde olur.",
+
+    Sandbox_PSC_MidCondition = "Orta kondisyon",
+    Sandbox_PSC_MidCondition_tooltip = "Araçların orta kondisyonu değerlendirilecek değer. Kondisyon bu değere yakın veya uzak olabilir.",
+
+    Sandbox_PSC_MidToHigh = "Orta-yüksek eğilimi",
+    Sandbox_PSC_MidToHigh_tooltip = "Kondisyonun orta veya yükseğe doğru eğilimi. Değer 1'in altına inerse orta kondisyon spawnı eğilimde olur, 1'in üstüne çıkarsa yüksek kondisyon spawnı eğilimde olur.",
+
+    Sandbox_PSC_HighCondition = "En yüksek kondisyon",
+    Sandbox_PSC_HighCondition_tooltip = "Araçların spawnlanabileceği en yüksek kondisyon.",
+
+
+
+
+    Sandbox_PSC_MinHP = "Minimum beygir çarpanı",
+    Sandbox_PSC_MinHP_tooltip = "Vanilla (modsuz) olarak minimum motor kondisyonunun beygire çarpanı.",
+
+    Sandbox_PSC_MinHPCondition = "Minimum beygir kondisyonu",
+    Sandbox_PSC_MinHPCondition_tooltip = "Motor parçası ortalama kondisyonu bu değer kadar veya daha düşük olursa minimum beygir üretir."
+
+    Sandbox_PSC_MaxHP = "Maksimum beygir çarpanı",
+    Sandbox_PSC_MaxHP_tooltip = "Vanilla (modsuz) olarak maksimum motor kondisyonunun beygire çarpanı.",
+
+    Sandbox_PSC_MaxHPCondition = "Maksimum beygir kondisyonu",
+    Sandbox_PSC_MaxHPCondition_tooltip = "Motor parçası ortalama kondisyonu bu değer kadar veya daha düşük olursa minimum beygir üretir.",
+	
+    Sandbox_PSC_RandomPartChance = "Rastgele kondisyon ihtimali",
+    Sandbox_PSC_RandomPartChance_tooltip = "Yakın zamanda değiştirilmiş veya bozulmak üzere olan parçaları simüle etmek için, bir parçanın rastgele kondisyonda olma ihtimali.",
+
+    Sandbox_PSC_ConditionRandom = "Araç-parça kondisyon farklılığı",
+    Sandbox_PSC_ConditionRandom_tooltip = "Yeni spawnlanmış motor parçasının kondisyonunun, aracın ortalama kondisyonuna ne kadar uzak kalabileceğini belirleyen değişken değer.",	
+	
+    Sandbox_PSC_PerformancePartBoost = "Performans parça güçlendirmesi",
+    Sandbox_PSC_PerformancePartBoost_tooltip = "Performans parçalarının aracın performansına ne kadar katkı sağlayacağını belirleyen değer.",	
+	
+    Sandbox_PSC_EngineImpactDamage = "Çarpma hasarı motora etkisi",
+    Sandbox_PSC_EngineImpactDamage_tooltip = "Çarpma hasarının motora etkisini kaç ile çarpacağını belirleyen değer.",	
+
+    Sandbox_PSC_EngineImpactDamageCount = "Motor parçası hasar miktarı",
+    Sandbox_PSC_EngineImpactDamageCount_tooltip = "Çarpmada hasarın, motorun ne kadar fazla parçaya yayılacağını belirler. Motorun vanilla (modsuz) motora kıyasla bir sürü parçası ve bir o kadar da beygiri var.",	
+	
+    Sandbox_PSC_SmartOilIndicator = "Akıllı yağ göstergesi",
+    Sandbox_PSC_SmartOilIndicator_tooltip = "Fare imleci aracılığıyla ilgili göstergesinden yağ seviyesi ve kalitesi hakkında bilgi alınabilmesini sağlar. Ayrıca yağın, tehlikeli bir seviyeye gelmesini beklemeden, kalitesi düştüğünde yağ ışığını yakmasını sağlar.",	
+	
+    Sandbox_PSC_BatteryCapacity = "Tam kondisyonda akü kapasitesi",
+    Sandbox_PSC_BatteryCapacity_tooltip = "Akü tam kondisyondayken maksimum akü kapasitesinin çarpanını belirler.",	
+
+    Sandbox_PSC_BatteryCapacityLowConditionMultiplier = "Düşük kondisyonda akü kapasitesi",
+    Sandbox_PSC_BatteryCapacityLowConditionMultiplier_tooltip = "Akü düşük kondisyondayken maksimum akü kapasitesinin çarpanını belirler.",	
+
+    Sandbox_PSC_ChargeRate = "Akü şarj hızı çarpanı",
+    Sandbox_PSC_ChargeRate_tooltip = "Alternatörün aküyü ne kadar hızlı şarj ettiğinin çarpanıdır. Alternatör ve fan kayışı kondisyonları da bunda etkin bir faktördür.",
+
+    Sandbox_PSC_OilDecayRate = "Yağın bozulma çarpanı",
+    Sandbox_PSC_OilDecayRate_tooltip = "Motorun, yağı ne kadar çabuk kullanılmış yağa çevirdiğinin çarpanıdır. Motor parçalarının kondisyonu da bunda fazlasıyla etkin bir faktördür.",
+
+    Sandbox_PSC_OilLeakRate = "Yağ sızdırma çarpanı",
+    Sandbox_PSC_OilLeakRate_tooltip = "Motorun ne kadar hızlı yağ sızdırdığının çarpanıdır. Motor parçalarının kondisyonu da bunda fazlasıyla etkin bir faktördür.",
+
+
+	
+    Sandbox_PSC_OilFilterDecayRate = "Yağ filtresi bozulma çarpanı",
+    Sandbox_PSC_OilFilterDecayRate_tooltip = "Yağ filtresinin ne kadar hızlı bozulduğunun çarpanıdır. Motor parçalarının kondisyonu da bunda fazlasıyla etkin bir faktördür.",
+}

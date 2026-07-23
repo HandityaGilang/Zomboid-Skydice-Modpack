@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>4f2eb0a8-3887-466a-97ac-181a2304c518</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>Clothes/FemaleUniform/Sukumizu/FemaleUniform_Sukumizu</m_BaseTextures>
+	<m_BaseTextures>Clothes/FemaleUniform/Sukumizu/FemaleUniform_SukumizuName</m_BaseTextures>
+</clothingItem>

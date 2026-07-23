@@ -1,0 +1,11 @@
+Recipes_DE {
+    HeadGasket1 = "Zylinderkopfdichtung (Standard)",
+    HeadGasket2 = "Zylinderkopfdichtung (Schwerlast)",
+    HeadGasket3 = "Zylinderkopfdichtung (Sport)",
+    HeadGasket4 = "Zylinderkopfdichtung (Militär)",
+
+    FanBelt1 = "Lüfterriemen (Standard)",
+    FanBelt2 = "Lüfterriemen (Schwerlast)",
+    FanBelt3 = "Lüfterriemen (Sport)",
+    FanBelt4 = "Lüfterriemen (Militär)",
+}

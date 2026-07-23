@@ -1,0 +1,72 @@
+module Base
+{
+    item BookBilliards1
+    {
+        DisplayCategory = SkillBook,
+        ItemType = base:literature,
+        Weight = 1.0,
+        Icon = Book8,
+        LvlSkillTrained = 1,
+        NumLevelsTrained = 2,
+        NumberOfPages = 180,
+        SkillTrained = Billiards,
+        StaticModel = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+    }
+
+    item BookBilliards2
+    {
+        DisplayCategory = SkillBook,
+        ItemType = base:literature,
+        Weight = 1.0,
+        Icon = Book8,
+        LvlSkillTrained = 3,
+        NumLevelsTrained = 2,
+        NumberOfPages = 220,
+        SkillTrained = Billiards,
+        StaticModel = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+    }
+
+    item BookBilliards3
+    {
+        DisplayCategory = SkillBook,
+        ItemType = base:literature,
+        Weight = 1.0,
+        Icon = Book8,
+        LvlSkillTrained = 5,
+        NumLevelsTrained = 2,
+        NumberOfPages = 260,
+        SkillTrained = Billiards,
+        StaticModel = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+    }
+
+    item BookBilliards4
+    {
+        DisplayCategory = SkillBook,
+        ItemType = base:literature,
+        Weight = 1.0,
+        Icon = Book8,
+        LvlSkillTrained = 7,
+        NumLevelsTrained = 2,
+        NumberOfPages = 300,
+        SkillTrained = Billiards,
+        StaticModel = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+    }
+
+    item BookBilliards5
+    {
+        DisplayCategory = SkillBook,
+        ItemType = base:literature,
+        Weight = 1.0,
+        Icon = Book8,
+        LvlSkillTrained = 9,
+        NumLevelsTrained = 2,
+        NumberOfPages = 340,
+        SkillTrained = Billiards,
+        StaticModel = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+    }
+}

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="2HDefault_skateboard.xml">
+	<m_Name>2HOverhead_skateboard</m_Name>
+	<m_AnimName>Bob_Skateboard_Attack02</m_AnimName>
+	<m_2DBlends>
+		<m_AnimName>Bob_Skateboard_Attack02</m_AnimName>
+	</m_2DBlends>
+	<m_2DBlends>
+		<m_AnimName>Bob_Skateboard_Attack02</m_AnimName>
+	</m_2DBlends>
+	<m_2DBlends>
+		<m_AnimName>Bob_Skateboard_Attack02</m_AnimName>
+	</m_2DBlends>
+	<m_2DBlends>
+		<m_AnimName>Bob_Skateboard_Attack02</m_AnimName>
+	</m_2DBlends>
+	<m_Conditions x_name="d90fbbf6-08db-4dd1-b500-e50faacf1c3f">
+		<m_Name>attackType</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>overhead</m_Value>
+	</m_Conditions>
+	    <m_ConditionPriority>10</m_ConditionPriority>
+    <m_Conditions>
+        <m_Name>SkateboardActive</m_Name>
+        <m_Type>BOOL</m_Type>
+        <m_Value>true</m_Value>
+    </m_Conditions>
+	<m_Events x_name="0b9b0750-b923-4dac-9c70-e31405fc22e0">
+		<m_ParameterValue>ZombieHitReaction=HeadTop</m_ParameterValue>
+	</m_Events>
+</animNode>

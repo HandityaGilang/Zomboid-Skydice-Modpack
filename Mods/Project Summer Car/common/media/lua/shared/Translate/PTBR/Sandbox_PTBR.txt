@@ -1,0 +1,109 @@
+Sandbox_PTBR = {
+    Sandbox_ProjectSummerCar = "Project Summer Car",
+
+    Sandbox_ProjectSummerCarSpawning = "Project Summer Car: Aparição",
+
+
+    Sandbox_PSC_TakeOverSpawning = "Assumir condição de spawn dos veículos",
+    Sandbox_PSC_TakeOverSpawning_tooltip = "Ative este mod para assumir o controle da condição de spawn dos veículos com base nas próximas 8 configurações. AVISO: Vai alterar todo carro que você ainda não entrou e peças podem ser removidas dependendo das opções. Caso contrário, essas configurações só mudam as chances de spawn das peças do motor.",
+
+    Sandbox_PSC_BurntCarChance = "Chance de carro queimado em engarrafamento/ferro-velho",
+    Sandbox_PSC_BurntCarChance_tooltip = "Chance de carros em um engarrafamento/ferro-velho serem carros queimados",
+
+    Sandbox_PSC_RemoveWreckedCars = "Remover carros destruídos",
+    Sandbox_PSC_RemoveWreckedCars_tooltip = "Remove os carros destruídos que não podem ser dirigidos e os substitui por carros normais",
+	
+
+    Sandbox_PSC_PartChanceLowCond = "Condição mínima considerada",
+    Sandbox_PSC_PartChanceLowCond_tooltip = "Condição mínima considerada para a chance de spawn de peças. Carros com condição menor que essa terão a mesma chance de spawn de peças",
+
+    Sandbox_PSC_PartChanceLowCondChance = "Chance de peças em veículos de baixa condição",
+    Sandbox_PSC_PartChanceLowCondChance_tooltip = "Chance de peças aparecerem em veículos em baixa condição. Aviso: Reduzir abaixo de 1 significa pouquíssimos carros dirigíveis",
+
+    Sandbox_PSC_PartChanceHighCond = "Condição máxima considerada",
+    Sandbox_PSC_PartChanceHighCond_tooltip = "Condição máxima considerada para a chance de spawn de peças. Carros com condição maior que essa terão a mesma chance de spawn de peças",
+
+    Sandbox_PSC_PartChanceHighCondChance = "Chance de peças em veículos de alta condição",
+    Sandbox_PSC_PartChanceHighCondChance_tooltip = "Chance de peças aparecerem em veículos em alta condição. Considere reduzir para dar a sensação de 'tudo de bom já foi levado' e criar a experiência definitiva para mecânicos",
+
+    Sandbox_PSC_PartChanceSurvivorMin = "Chance mínima de peças em carros de sobreviventes",
+    Sandbox_PSC_PartChanceSurvivorMin_tooltip = "Chance mínima de peças aparecerem em carros de sobreviventes",
+
+    Sandbox_PSC_PartChanceSurvivorMax = "Chance máxima de peças em carros de sobreviventes",
+    Sandbox_PSC_PartChanceSurvivorMax_tooltip = "Chance máxima de peças aparecerem em carros de sobreviventes",
+
+    Sandbox_PSC_PartChanceTrafficMin = "Chance mínima de peças em carros sucateados",
+    Sandbox_PSC_PartChanceTrafficMin_tooltip = "Chance mínima de peças aparecerem em carros de engarrafamento/ferro-velho",
+
+    Sandbox_PSC_PartChanceTrafficMax = "Chance máxima de peças em carros sucateados",
+    Sandbox_PSC_PartChanceTrafficMax_tooltip = "Chance máxima de peças aparecerem em carros de engarrafamento/ferro-velho",
+
+
+    Sandbox_PSC_LowOrHigh = "Chance de baixa ou alta condição",
+    Sandbox_PSC_LowOrHigh_tooltip = "Chance de que condição média a alta seja escolhida em vez de baixa a média",
+
+    Sandbox_PSC_LowCondition = "Condição mais baixa",
+    Sandbox_PSC_LowCondition_tooltip = "Condição mais baixa de carro que pode spawnar",
+
+    Sandbox_PSC_LowToMid = "Tendência baixo-médio",
+    Sandbox_PSC_LowToMid_tooltip = "Tendência entre baixo e médio. Números abaixo de 1 favorecem o baixo, números acima de 1 favorecem o médio.",
+
+    Sandbox_PSC_MidCondition = "Condição média",
+    Sandbox_PSC_MidCondition_tooltip = "Condição média dos carros. Os veículos podem ser favorecidos ou não em relação a este valor",
+
+    Sandbox_PSC_MidToHigh = "Tendência médio-alto",
+    Sandbox_PSC_MidToHigh_tooltip = "Tendência entre médio e alto. Números abaixo de 1 favorecem o médio, números acima de 1 favorecem o alto.",
+
+    Sandbox_PSC_HighCondition = "Condição alta",
+    Sandbox_PSC_HighCondition_tooltip = "Condição mais alta em que os carros podem spawnar",
+
+
+
+    Sandbox_PSC_MinHP = "Multiplicador de potência mínima (HP)",
+    Sandbox_PSC_MinHP_tooltip = "Potência do motor na condição mínima como multiplicador do padrão do jogo",
+
+    Sandbox_PSC_MinHPCondition = "Condição mínima para potência",
+    Sandbox_PSC_MinHPCondition_tooltip = "A condição média das peças do motor deve ser igual ou menor que este valor para gerar potência mínima",
+
+    Sandbox_PSC_MaxHP = "Multiplicador de potência máxima (HP)",
+    Sandbox_PSC_MaxHP_tooltip = "Potência do motor na condição máxima como multiplicador do padrão do jogo",
+
+    Sandbox_PSC_MaxHPCondition = "Condição máxima para potência",
+    Sandbox_PSC_MaxHPCondition_tooltip = "A condição média das peças do motor deve ser igual ou maior que este valor para gerar potência máxima",
+	
+    Sandbox_PSC_RandomPartChance = "Chance de condição aleatória",
+    Sandbox_PSC_RandomPartChance_tooltip = "Chance de uma peça estar em condição totalmente aleatória para simular peças recém-trocadas ou que estão falhando",
+
+    Sandbox_PSC_ConditionRandom = "Variação da condição das peças do motor",
+    Sandbox_PSC_ConditionRandom_tooltip = "O quanto a condição de uma peça de motor recém-gerada pode variar da condição média do carro",	
+	
+    Sandbox_PSC_PerformancePartBoost = "Impulso de peças de performance",
+    Sandbox_PSC_PerformancePartBoost_tooltip = "O quanto o nível mais alto de peças de performance melhora o desempenho do carro",	
+	
+    Sandbox_PSC_EngineImpactDamage = "Dano de impacto no motor",
+    Sandbox_PSC_EngineImpactDamage_tooltip = "Multiplicador de quanto o dano de impacto afeta o motor",	
+
+    Sandbox_PSC_EngineImpactDamageCount = "Quantidade de peças danificadas no impacto",
+    Sandbox_PSC_EngineImpactDamageCount_tooltip = "Quantas peças recebem o dano em um impacto. O motor tem muitas peças e, portanto, mais HP do que um motor padrão.",	
+	
+    Sandbox_PSC_SmartOilIndicator = "Indicador de óleo inteligente",
+    Sandbox_PSC_SmartOilIndicator_tooltip = "Permite passar o mouse sobre o indicador de óleo para ver o nível e a qualidade. Também faz a luz do óleo acender quando a qualidade está baixa, em vez de apenas quando o nível está perigosamente baixo",	
+	
+    Sandbox_PSC_BatteryCapacity = "Capacidade da bateria em condição máxima",
+    Sandbox_PSC_BatteryCapacity_tooltip = "Multiplicador da capacidade da bateria quando ela está em condição máxima",	
+
+    Sandbox_PSC_BatteryCapacityLowConditionMultiplier = "Multiplicador da capacidade da bateria em baixa condição",
+    Sandbox_PSC_BatteryCapacityLowConditionMultiplier_tooltip = "A capacidade da bateria acima é multiplicada por este valor quando a bateria está em condição muito baixa",	
+
+    Sandbox_PSC_ChargeRate = "Multiplicador da taxa de carga",
+    Sandbox_PSC_ChargeRate_tooltip = "O quão rápido o alternador carrega a bateria. A condição do alternador e da correia também influenciam nisso.",
+
+    Sandbox_PSC_OilDecayRate = "Multiplicador de desgaste do óleo",
+    Sandbox_PSC_OilDecayRate_tooltip = "Multiplica a velocidade com que o motor transforma óleo em óleo usado. A condição das peças do motor influencia fortemente nisso",
+
+    Sandbox_PSC_OilLeakRate = "Multiplicador de vazamento de óleo",
+    Sandbox_PSC_OilLeakRate_tooltip = "Multiplica a velocidade com que o motor vaza óleo. A condição das peças do motor influencia fortemente nisso",
+	
+    Sandbox_PSC_OilFilterDecayRate = "Multiplicador de desgaste do filtro de óleo",
+    Sandbox_PSC_OilFilterDecayRate_tooltip = "Multiplica a velocidade com que o filtro de óleo se degrada. A condição das peças do motor influencia fortemente nisso",
+}

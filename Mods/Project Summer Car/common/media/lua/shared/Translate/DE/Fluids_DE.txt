@@ -1,0 +1,58 @@
+Fluids_DE = {
+    Fluid_Name_Motor_Oil = "Motoröl",
+    Fluid_Name_Used_Motor_Oil = "Gebrauchtes Motoröl",
+    Fluid_Name_ATF = "Automatikgetriebeöl",
+    Fluid_Name_Antifreeze = "Frostschutzmittel",
+
+    Fluid_Container_OilPan1_1 = "Ölwanne (Standardfahrzeug)",
+    Fluid_Container_OilPan1_2 = "Ölwanne (Schwerlastfahrzeug)",
+    Fluid_Container_OilPan1_3 = "Ölwanne (Sportwagen)",
+	
+    Fluid_Container_PowerSteeringPump1_1 = "Servolenkungspumpe (Standardfahrzeug)",
+    Fluid_Container_PowerSteeringPump1_2 = "Servolenkungspumpe (Schwerlastfahrzeug)",
+    Fluid_Container_PowerSteeringPump1_3 = "Servolenkungspumpe (Sportwagen)",
+	
+    Fluid_Container_Radiator1_1 = "Kühler (Standardfahrzeug)",
+    Fluid_Container_Radiator2_1 = "Kühler (Sport) (Standardfahrzeug)",
+    Fluid_Container_Radiator3_1 = "Kühler (Rennen) (Standardfahrzeug)",
+
+    Fluid_Container_Radiator1_2 = "Kühler (Schwerlastfahrzeug)",
+    Fluid_Container_Radiator2_2 = "Kühler (Sport) (Schwerlastfahrzeug)",
+    Fluid_Container_Radiator3_2 = "Kühler (Rennen) (Schwerlastfahrzeug)",
+
+    Fluid_Container_Radiator1_3 = "Kühler (Sportwagen)",
+    Fluid_Container_Radiator2_3 = "Kühler (Sport) (Sportwagen)",
+    Fluid_Container_Radiator3_3 = "Kühler (Rennen) (Sportwagen)",
+
+
+    Fluid_Container_Transmission1_1 = "Getriebe (3G) (Standardfahrzeug)",
+    Fluid_Container_Transmission2_1 = "Getriebe (4G) (Standardfahrzeug)",
+    Fluid_Container_Transmission3_1 = "Getriebe (HT-4G) (Standardfahrzeug)",
+    Fluid_Container_Transmission4_1 = "Getriebe (5G) (Standardfahrzeug)",
+    Fluid_Container_Transmission5_1 = "Getriebe (8G) (Standardfahrzeug)",
+	
+    Fluid_Container_Transmission1_2 = "Getriebe (3G) (Schwerlastfahrzeug)",
+    Fluid_Container_Transmission2_2 = "Getriebe (4G) (Schwerlastfahrzeug)",
+    Fluid_Container_Transmission3_2 = "Getriebe (HT-4G) (Schwerlastfahrzeug)",
+    Fluid_Container_Transmission4_2 = "Getriebe (5G) (Schwerlastfahrzeug)",
+    Fluid_Container_Transmission5_2 = "Getriebe (8G) (Schwerlastfahrzeug)",
+
+    Fluid_Container_Transmission1_3 = "Getriebe (3G) (Sportwagen)",
+    Fluid_Container_Transmission2_3 = "Getriebe (4G) (Sportwagen)",
+    Fluid_Container_Transmission3_3 = "Getriebe (HT-4G) (Sportwagen)",
+    Fluid_Container_Transmission4_3 = "Getriebe (5G) (Sportwagen)",
+    Fluid_Container_Transmission5_3 = "Getriebe (8G) (Sportwagen)",
+
+
+
+
+
+
+	
+    Fluid_Container_BottleATF = "Automatikgetriebeöl",
+    Fluid_Container_Motoroil = "Motoröl",
+    Fluid_Container_MotoroilCan = "Motorölkanne",
+    Fluid_Container_Antifreeze = "Frostschutzmittel",
+
+
+}

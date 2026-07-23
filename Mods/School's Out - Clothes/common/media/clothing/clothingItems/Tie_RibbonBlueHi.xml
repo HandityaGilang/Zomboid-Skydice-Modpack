@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_bowBase</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\bob_bowBase</m_FemaleModel>
+	<m_GUID>93fdde27-61e8-4966-97aa-d26abcb84052</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes/Tie/RibbonBlueHi</textureChoices>
+</clothingItem>

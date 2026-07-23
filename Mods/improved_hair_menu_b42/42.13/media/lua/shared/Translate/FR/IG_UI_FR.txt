@@ -1,0 +1,14 @@
+IGUI_FR = {
+	IGUI_IHM_title = "Menu de coiffures amélioré (Build 42)",
+	IGUI_IHM_use_modal = "Utiliser une boîte de dialogue modale",
+	IGUI_IHM_use_modal_tooltip = "Remplace le menu intégré par une fenêtre surgissante. Utile aussi sur les écrans à basse résolution.",
+	IGUI_IHM_avatar_size = "Taille de l’avatar",
+	IGUI_IHM_avatar_size_tooltip = "Taille en pixels de chaque élément du menu.",
+	IGUI_IHM_hair_rows = "Lignes du menu de coiffures intégré",
+	IGUI_IHM_hair_cols = "Colonnes du menu de coiffures intégré",
+	IGUI_IHM_beard_rows = "Lignes du menu de barbes intégré",
+	IGUI_IHM_beard_cols = "Colonnes du menu de barbes intégré",
+	IGUI_IHM_modal_rows = "Lignes de la boîte de dialogue modale",
+	IGUI_IHM_modal_cols = "Colonnes de la boîte de dialogue modale",
+	IGUI_IHM_desc = "Les modifications prennent effet après avoir réinitialisé Lua, rechargé les mods ou redémarré le jeu. En jeu : revenez brièvement au menu principal.",
+}

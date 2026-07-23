@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+    <files>
+        <path>media/clothing/clothingItems/CatCostume.xml</path>
+        <guid>bb9f6ffc-6748-4d30-a6e4-a318378b65c28</guid>
+    </files>
+	<files>
+        <path>media/clothing/clothingItems/Hat_Cat.xml</path>
+        <guid>43fa7ada-907e-46b4-9aac-16064aa2294b</guid>
+    </files>
+	<files>
+        <path>media/clothing/clothingItems/CatTail.xml</path>
+        <guid>0d262e32-883e-464c-9872-a0612d18d922</guid>
+    </files>
+	    <files>
+        <path>media/clothing/clothingItems/CatCostume_RED.xml</path>
+        <guid>2a07249c-1d93-4ee6-8cbe-08f06cc70546</guid>
+    </files>
+	<files>
+        <path>media/clothing/clothingItems/Hat_Cat_RED.xml</path>
+        <guid>296240fb-747a-425e-84ff-c6762b504758</guid>
+    </files>
+	<files>
+        <path>media/clothing/clothingItems/CatTail_RED.xml</path>
+        <guid>76fc9479-7f43-4aa9-975b-00029cf9665f</guid>
+    </files>
+</fileGuidTable>

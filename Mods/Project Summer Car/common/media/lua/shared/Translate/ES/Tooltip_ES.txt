@@ -1,0 +1,38 @@
+Tooltip_ES = {
+	-- Item tooltip
+	Tooltip_EngineOilPan = "Mantiene el aceite del motor en su lugar.",
+	Tooltip_EngineOilFilter = "Mejora la vida útil del aceite al filtrar las impurezas, mejorando así la vida útil del motor.",
+	Tooltip_EngineSparkplug = "Las bujías ayudan a que tu coche arranque mas facilmente. Tu coche no arrancará sin ellas."
+	Tooltip_EngineCylinderHead = "La condición de la cabeza del cilindro determina cuánta potencia tiene tu coche."
+	Tooltip_EngineHeadGasket = "La junta de culata sella la culata del motor. Si está rota, empezarás a perder refrigerante y aceite. Además, tu refrigerante y aceite se mezclarán."
+	Tooltip_EnginePistons = "La condición de los pistones determina cuánta potencia tiene tu coche."
+	Tooltip_EngineCrankshaft = "La condición del cigüeñal determina cuánta potencia tiene tu coche."
+	Tooltip_EngineFlywheel = "Transfiere la potencia del motor a la transmisión y ayuda con el arranque. Los volantes más ligeros permitirán que su motor suba y baje de revoluciones más rápido."
+	Tooltip_EngineStarter = "Arranca el coche. Sin el motor de arranque, no irás a ninguna parte!"
+	Tooltip_EngineTransmission = "La transmisión es responsable del cambio de marchas. Si está dañada, patinará mucho."
+	Tooltip_EngineTorqueConverter = "El convertidor de part ayuda a conectar el motor a la transmisión y multiplica el par a baja velocidad. Si está dañado, patinará mucho."
+	Tooltip_EngineRadiator = "El radiador es esencial para tu sistema de refrigeración y contiene la mayor parte del refrigerante de tu motor."
+	Tooltip_EngineFanBelt = "La correa del ventilador alimenta la bomba de agua, la dirección asistida, el alternador y el aire acondicionado. ¡No llegarás lejos sin uno!"
+	Tooltip_EngineAlternator = "El alternador recarga la batería mientras conduces. Toma su energía del motor a través de la correa del ventilador."
+	Tooltip_EngineWaterPump = "La bomba de agua circula el refrigerante a través del motor y el radiador. Toma su energía del motor a través de la correa del ventilador."
+	Tooltip_EnginePowerSteeringPump = "La bomba de dirección asistida te ayuda a girar rápida y fácilmente a baja velocidad. Si la dirección se vuelve lenta, esta es la razón. Toma su energía del motor a través de la correa del ventilador."
+	Tooltip_EngineBrakeBooster = "El servofreno utiliza el vacío del colector del motor para ayudar a frenar. Sin uno, tendrás dificultades para detenerte, ya que tendrás muy poca fuerza de frenado!" 
+	Tooltip_EngineAirConditioner = "Te mantiene fresco en los calurosos días de verano. Funciona con la correa del ventilador." 
+	Tooltip_EngineHeaterCore = "Te mantiene caliente en los fríos días de invierno. Utiliza el refrigerante del motor, por lo que solo es eficaz una vez que el motor se ha calentado." 
+
+	Tooltip_EngineTransmission = "La transmisión es responsable del cambio de marchas. Si está dañada, patinará mucho."
+	
+	Tooltip_EngineTransmission3S = "Transmisión de 3 velocidades con relaciones: 2.6, 1.6, 1.0. Si está dañada, patinará mucho."
+	Tooltip_EngineTransmission4S = "Transmisión de 4 velocidades con relaciones: 2.6, 1.6, 1.23, 1.0. Si está dañada, patinará mucho."
+	Tooltip_EngineTransmissionHT4S = "Transmisión de 4 velocidades con relaciones: 3.0, 2.3, 1.7, 1.0. Si está dañada, patinará mucho."
+	Tooltip_EngineTransmission5S = "Transmisión de 5 velocidades con relaciones: 2.6, 1.6, 1.23, 1.0, 0.9. Si está dañada, patinará mucho."
+	Tooltip_EngineTransmission8S = "Transmisión de 8 velocidades con relaciones: 4.0, 2.5, 1.9, 1.5, 1.3, 1.1, 0.9, 0.8. Si está dañada, patinará mucho."
+	
+	
+	Tooltip_EngineTorqueConverterLS = "El convertidor de par de baja velocidad de giro es bueno para la conducción diaria, ayuda a conectar el motor a la transmisión y multiplica el par a baja velocidad. Si está dañado, patinará mucho."
+	Tooltip_EngineTorqueConverterMS = "El convertidor de par de velocidad media es bueno para la conducción deportiva o para motores de mayor RPM, ayuda a conectar el motor a la transmisión y multiplica el par a baja velocidad. Si está dañado, patinará mucho."
+	Tooltip_EngineTorqueConverterHS = "El convertidor de par de alta velocidad es bueno para las carreras, ayuda a conectar el motor a la transmisión y multiplica el par a baja velocidad. Si está dañado, patinará mucho."
+
+	
+
+}

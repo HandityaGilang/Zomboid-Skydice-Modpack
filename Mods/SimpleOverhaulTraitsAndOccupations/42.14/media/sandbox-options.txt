@@ -1,0 +1,414 @@
+VERSION = 1,
+
+option SOTO.AddFitXPWhileRun
+{
+	type = boolean,
+	default = true,
+	page = SOTO,
+	translation = SOTO_AddFitXPWhileRun,
+}
+
+option SOTO.AgilityTraitsObtainable
+{
+	type = boolean,
+	default = true,
+	page = SOTO,
+	translation = SOTO_AgilityTraitsObtainable,
+}
+
+option SOTO.CombatTraitsObtainable
+{
+	type = boolean,
+	default = true,
+	page = SOTO,
+	translation = SOTO_CombatTraitsObtainable,
+}
+
+option SOTO.SurvTraitsObtainable
+{
+	type = boolean,
+	default = false,
+	page = SOTO,
+	translation = SOTO_SurvTraitsObtainable,
+}
+
+option SOTO.CraftTraitsObtainable
+{
+	type = boolean,
+	default = false,
+	page = SOTO,
+	translation = SOTO_CraftTraitsObtainable,
+}
+
+option SOTO.FirearmTraitsObtainable
+{
+	type = boolean,
+	default = true,
+	page = SOTO,
+	translation = SOTO_FirearmTraitsObtainable,
+}
+
+option SOTO.CowardlyRemovable
+{
+	type = boolean,
+	default = true,
+	page = SOTO,
+	translation = SOTO_CowardlyRemovable,
+}
+
+option SOTO.CowardlyHoursToRemoveMin
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 168,
+	page = SOTO,
+	translation = SOTO_CowardlyHoursToRemoveMin,
+}
+option SOTO.CowardlyHoursToRemoveMax
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 336,
+	page = SOTO,
+	translation = SOTO_CowardlyHoursToRemoveMax,
+}
+
+option SOTO.CowardlyZombiesKilledToRemoveMin
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 1250,
+	page = SOTO,
+	translation = SOTO_CowardlyZombiesKilledToRemoveMin,
+}
+option SOTO.CowardlyZombiesKilledToRemoveMax
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 2500,
+	page = SOTO,
+	translation = SOTO_CowardlyZombiesKilledToRemoveMax,
+}
+
+option SOTO.BraveEarnable
+{
+	type = boolean,
+	default = true,
+	page = SOTO,
+	translation = SOTO_BraveEarnable,
+}
+
+option SOTO.BraveHoursToEarnMin
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 504,
+	page = SOTO,
+	translation = SOTO_BraveHoursToEarnMin,
+}
+option SOTO.BraveHoursToEarnMax
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 840,
+	page = SOTO,
+	translation = SOTO_BraveHoursToEarnMax,
+}
+
+option SOTO.BraveZombiesKilledToEarnMin
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 3000,
+	page = SOTO,
+	translation = SOTO_BraveZombiesKilledToEarnMin,
+}
+option SOTO.BraveZombiesKilledToEarnMax
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 4500,
+	page = SOTO,
+	translation = SOTO_BraveZombiesKilledToEarnMax,
+}
+
+option SOTO.DesensitizedEarnable
+{
+	type = boolean,
+	default = true,
+	page = SOTO,
+	translation = SOTO_DesensitizedEarnable,
+}
+
+option SOTO.DesensitizedHoursToEarnMin
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 1176,
+	page = SOTO,
+	translation = SOTO_DesensitizedHoursToEarnMin,
+}
+option SOTO.DesensitizedHoursToEarnMax
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 1512,
+	page = SOTO,
+	translation = SOTO_DesensitizedHoursToEarnMax,
+}
+
+option SOTO.DesensitizedZombiesKilledToEarnMin
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 6000,
+	page = SOTO,
+	translation = SOTO_DesensitizedZombiesKilledToEarnMin,
+}
+option SOTO.DesensitizedZombiesKilledToEarnMax
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 9000,
+	page = SOTO,
+	translation = SOTO_DesensitizedZombiesKilledToEarnMax,
+}
+
+option SOTO.PacifistRemovable
+{
+	type = boolean,
+	default = true,
+	page = SOTO,
+	translation = SOTO_PacifistRemovable,
+}
+
+option SOTO.PacifistHoursToRemoveMin
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 672,
+	page = SOTO,
+	translation = SOTO_PacifistHoursToRemoveMin,
+}
+
+option SOTO.PacifistHoursToRemoveMax
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 1008,
+	page = SOTO,
+	translation = SOTO_PacifistHoursToRemoveMax,
+}
+
+option SOTO.PacifistZombiesKilledToRemoveMin
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 1500,
+	page = SOTO,
+	translation = SOTO_PacifistZombiesKilledToRemoveMin,
+}
+option SOTO.PacifistZombiesKilledToRemoveMax
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 2500,
+	page = SOTO,
+	translation = SOTO_PacifistZombiesKilledToRemoveMax,
+}
+
+option SOTO.PacifistSkillLvlToRemove
+{
+	type = integer,
+	min = 0,
+	max = 10,
+	default = 7,
+	page = SOTO,
+	translation = SOTO_PacifistSkillLvlToRemove,
+}
+
+
+
+
+
+option SOTO.SmokerRemovable
+{
+	type = boolean,
+	default = true,
+	page = SOTO,
+	translation = SOTO_SmokerRemovable,
+}
+
+option SOTO.SmokerHoursToRemoveMin
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 672,
+	page = SOTO,
+	translation = SOTO_SmokerHoursToRemoveMin,
+}
+
+option SOTO.SmokerHoursToRemoveMax
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 768,
+	page = SOTO,
+	translation = SOTO_SmokerHoursToRemoveMax,
+}
+
+option SOTO.AlcoholicRemovable
+{
+	type = boolean,
+	default = true,
+	page = SOTO,
+	translation = SOTO_AlcoholicRemovable,
+}
+
+option SOTO.AlcoholicHoursToRemoveMin
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 1032,
+	page = SOTO,
+	translation = SOTO_AlcoholicHoursToRemoveMin,
+}
+
+option SOTO.AlcoholicHoursToRemoveMax
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 1128,
+	page = SOTO,
+	translation = SOTO_AlcoholicHoursToRemoveMax,
+}
+
+option SOTO.SundayDriverRemovable
+{
+	type = boolean,
+	default = true,
+	page = SOTO,
+	translation = SOTO_SundayDriverRemovable,
+}
+
+option SOTO.SundayDriverHoursToRemoveMin
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 60,
+	page = SOTO,
+	translation = SOTO_SundayDriverHoursToRemoveMin,
+}
+
+option SOTO.SundayDriverHoursToRemoveMax
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 80,
+	page = SOTO,
+	translation = SOTO_SundayDriverHoursToRemoveMax,
+}
+
+
+option SOTO.AllThumbsRemovable
+{
+	type = boolean,
+	default = true,
+	page = SOTO,
+	translation = SOTO_AllThumbsRemovable,
+}
+
+option SOTO.AllThumbsValueToRemove
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 37500,
+	page = SOTO,
+	translation = SOTO_AllThumbsValueToRemove,
+}
+
+option SOTO.DisorganizedRemovable
+{
+	type = boolean,
+	default = true,
+	page = SOTO,
+	translation = SOTO_DisorganizedRemovable,
+}
+
+option SOTO.DisorganizedValueToRemove
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 37500,
+	page = SOTO,
+	translation = SOTO_DisorganizedValueToRemove,
+}
+
+option SOTO.GracefulEarnable
+{
+	type = boolean,
+	default = true,
+	page = SOTO,
+	translation = SOTO_GracefulEarnable,
+}
+
+option SOTO.ClumsyRemovable
+{
+	type = boolean,
+	default = true,
+	page = SOTO,
+	translation = SOTO_ClumsyRemovable,
+}
+
+option SOTO.InconspicuousEarnable
+{
+	type = boolean,
+	default = true,
+	page = SOTO,
+	translation = SOTO_InconspicuousEarnable,
+}
+
+option SOTO.ConspicuousRemovable
+{
+	type = boolean,
+	default = true,
+	page = SOTO,
+	translation = SOTO_ConspicuousRemovable,
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

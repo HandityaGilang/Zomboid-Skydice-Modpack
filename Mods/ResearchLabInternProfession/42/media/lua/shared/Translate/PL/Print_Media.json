@@ -1,0 +1,14 @@
+{
+    "Print_Media_DiaryPage1_title": "PIERWSZE MIESIĄCE: POCZĄTEK KOŃCA",
+    "Print_Media_DiaryPage2_title": "PIERWSZE OZNAKI",
+    "Print_Media_DiaryPage3_title": "PRÓBKA NIE BYŁA LUDZKA",
+    "Print_Media_DiaryPage4_title": "DZIEŃ, W KTÓRYM WSZYSTKO SIĘ ZAŁAMAŁO",
+    "Print_Media_DiaryPage5_title": "OSTATNIA NOC PRZED PIEKŁEM",
+    "Print_Media_DiaryPage6_title": "MOJE NOTATKI — 'Jak Odtworzyć Laboratorium na Kampusie'",
+    "Print_Media_DiaryPage1_info": "<type:parent, width:1024, height:1536><type:texture, x:0, y:0, texture:getTexture(\"media/textures/printMedia/FlyerPic/DiaryPage1EN.png\"), width:1024, height:1536>",
+    "Print_Media_DiaryPage2_info": "<type:parent, width:1024, height:1536><type:texture, x:0, y:0, texture:getTexture(\"media/textures/printMedia/FlyerPic/DiaryPage2EN.png\"), width:1024, height:1536>",
+    "Print_Media_DiaryPage3_info": "<type:parent, width:1024, height:1536><type:texture, x:0, y:0, texture:getTexture(\"media/textures/printMedia/FlyerPic/DiaryPage3EN.png\"), width:1024, height:1536>",
+    "Print_Media_DiaryPage4_info": "<type:parent, width:1024, height:1536><type:texture, x:0, y:0, texture:getTexture(\"media/textures/printMedia/FlyerPic/DiaryPage4EN.png\"), width:1024, height:1536>",
+    "Print_Media_DiaryPage5_info": "<type:parent, width:1024, height:1536><type:texture, x:0, y:0, texture:getTexture(\"media/textures/printMedia/FlyerPic/DiaryPage5EN.png\"), width:1024, height:1536>",
+    "Print_Media_DiaryPage6_info": "<type:parent, width:1024, height:1536><type:texture, x:0, y:0, texture:getTexture(\"media/textures/printMedia/FlyerPic/DiaryPage6EN.png\"), width:1024, height:1536>"
+}

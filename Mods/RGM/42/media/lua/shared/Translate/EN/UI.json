@@ -1,0 +1,8 @@
+{
+    "UI_trait_tinkerer": "Tinkerer",
+    "UI_trait_tinkererdesc": "Faster and better tinkering.<br>+20% chance to not consume items when tinkering.",
+    "UI_trait_reforger": "Reforger",
+    "UI_trait_reforger_desc": "Faster and better reforging.<br>+20% chance to not consume items when reforging.",
+    "UI_trait_loodoman": "Gambler",
+    "UI_trait_loodoman_desc": "Unlocks tinkering ability.<br>+20% chance to not consume items when reforging.<br>3x reforging speed (6x when combined with Reforger).<br>+7.77% chance of legendary modifier when reforging.<br>77.77% chance the reforged item will be of bad quality."
+}

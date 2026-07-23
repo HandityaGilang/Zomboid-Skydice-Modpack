@@ -1,0 +1,10 @@
+VERSION = 1,
+
+option ZombieVirusVaccineBETA.StartingKit
+{
+    type = boolean,
+    default = true,
+    page = ZombieVirusVaccineBETA,
+    translation = ZombieVirusVaccineBETA_StartingKit,
+    tooltip = ZombieVirusVaccineBETA_StartingKit_tooltip,
+}

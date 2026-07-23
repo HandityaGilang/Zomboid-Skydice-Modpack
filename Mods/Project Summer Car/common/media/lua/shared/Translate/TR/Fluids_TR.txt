@@ -1,0 +1,58 @@
+Fluids_TR = {
+    Fluid_Name_Motor_Oil = "Motor Yağı",
+    Fluid_Name_Used_Motor_Oil = "Kullanılmış Motor Yağı",
+	Fluid_Name_ATF = "ATF Şanzıman Yağı",
+	Fluid_Name_Antifreeze = "Antifriz",
+
+    Fluid_Container_OilPan1_1 = "Yağ Karteri (Standart Araç)",
+    Fluid_Container_OilPan1_2 = "Yağ Karteri (Ağır Araç)",
+    Fluid_Container_OilPan1_3 = "Yağ Karteri (Spor Araç)",
+	
+	Fluid_Container_PowerSteeringPump1_1 = "Hidrolik Direksiyon Pompası (Standart Araç)",
+	Fluid_Container_PowerSteeringPump1_2 = "Hidrolik Direksiyon Pompası (Ağır Araç)",
+	Fluid_Container_PowerSteeringPump1_3 = "Hidrolik Direksiyon Pompası (Spor Araç)",
+	
+    Fluid_Container_Radiator1_1 = "Radyatör (Standart Araç)",
+	Fluid_Container_Radiator2_1 = "Radyatör (Spor) (Standart Araç)",
+	Fluid_Container_Radiator3_1 = "Radyatör (Yarış) (Standart Araç)",
+
+    Fluid_Container_Radiator1_2 = "Radyatör (Ağır Araç)",
+	Fluid_Container_Radiator2_2 = "Radyatör (Spor) (Ağır Araç)",
+	Fluid_Container_Radiator3_2 = "Radyatör (Yarış) (Ağır Araç)",
+
+    Fluid_Container_Radiator1_3 = "Radyatör (Spor Araç)",
+	Fluid_Container_Radiator2_3 = "Radyatör (Spor) (Spor Araç)",
+	Fluid_Container_Radiator3_3 = "Radyatör (Yarış) (Spor Araç)",
+
+
+    Fluid_Container_Transmission1_1 = "Şanzıman (3 İleri) (Standart Araç)",
+    Fluid_Container_Transmission2_1 = "Şanzıman (4 İleri) (Standart Araç)",
+    Fluid_Container_Transmission3_1 = "Şanzıman (Yüksek Tork-4 İleri) (Standart Araç)",
+    Fluid_Container_Transmission4_1 = "Şanzıman (5 İleri) (Standart Araç)",
+    Fluid_Container_Transmission5_1 = "Şanzıman (8 İleri) (Standart Araç)",
+	
+    Fluid_Container_Transmission1_2 = "Şanzıman (3 İleri) (Ağır Araç)",
+    Fluid_Container_Transmission2_2 = "Şanzıman (4 İleri) (Ağır Araç)",
+    Fluid_Container_Transmission3_2 = "Şanzıman (Yüksek Tork-4 İleri) (Ağır Araç)",
+    Fluid_Container_Transmission4_2 = "Şanzıman (5 İleri) (Ağır Araç)",
+    Fluid_Container_Transmission5_2 = "Şanzıman (8 İleri) (Ağır Araç)",
+
+    Fluid_Container_Transmission1_3 = "Şanzıman (3 İleri) (Spor Araç)",
+    Fluid_Container_Transmission2_3 = "Şanzıman (4 İleri) (Spor Araç)",
+    Fluid_Container_Transmission3_3 = "Şanzıman (Yüksek Tork-4 İleri) (Spor Araç)",
+    Fluid_Container_Transmission4_3 = "Şanzıman (5 İleri) (Spor Araç)",
+    Fluid_Container_Transmission5_3 = "Şanzıman (8 İleri) (Spor Araç)",
+
+
+
+
+
+
+	
+    Fluid_Container_BottleATF = "ATF Şanzıman Yağı Şişesi"
+    Fluid_Container_Motoroil = "Motor Yağı Şişesi"
+    Fluid_Container_MotoroilCan = "Motor Yağı Tenekesi"
+    Fluid_Container_Antifreeze = "Antifriz Şişesi"
+
+
+}

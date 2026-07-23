@@ -1,0 +1,11 @@
+VERSION = 1,
+
+option OpenAllContainers.TickRate
+{
+	type = integer,
+	min = 10,
+	max = 60,
+	default = 60,
+	page = OpenAllContainers,
+	translation = OpenAllContainers_TickRate,
+}

@@ -1,0 +1,14 @@
+{
+    "IGUI_IHM_title":  "改进发型菜单（Build 42）",
+    "IGUI_IHM_use_modal":  "使用模态对话框",
+    "IGUI_IHM_use_modal_tooltip":  "用弹出窗口替换内嵌菜单。对低分辨率显示器也很有帮助。",
+    "IGUI_IHM_avatar_size":  "头像大小",
+    "IGUI_IHM_avatar_size_tooltip":  "菜单中每个项目的像素大小。",
+    "IGUI_IHM_hair_rows":  "内嵌发型菜单行数",
+    "IGUI_IHM_hair_cols":  "内嵌发型菜单列数",
+    "IGUI_IHM_beard_rows":  "内嵌胡须菜单行数",
+    "IGUI_IHM_beard_cols":  "内嵌胡须菜单列数",
+    "IGUI_IHM_modal_rows":  "模态对话框行数",
+    "IGUI_IHM_modal_cols":  "模态对话框列数",
+    "IGUI_IHM_desc":  "更改在重置 Lua、重新加载模组或重启游戏后生效。游戏内：请短暂返回主菜单。"
+}

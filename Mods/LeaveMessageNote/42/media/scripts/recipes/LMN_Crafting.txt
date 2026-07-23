@@ -1,0 +1,28 @@
+module Base
+{
+	craftRecipe Craft Note
+	{
+		timedAction = Making,
+		Time = 30,
+		Tags = InHandCraft,
+		category = Note,
+
+        inputs {
+            item 1 [Base.Scissors]
+            [Base.ScissorsBlunt]
+            mode:keep,
+
+            item 1 [Base.PaperNapkins2]
+            [Base.Paperwork]
+            [Base.Notebook]
+            [Base.Notepad]
+            [Base.SheetPaper2]
+            mode:destroy,
+        }
+
+		outputs
+		{
+			item 1 Base.Note,
+		}
+	}
+}

@@ -1,0 +1,233 @@
+VERSION = 1,
+option ProjectSummerCar.TakeOverSpawning
+{
+	type = boolean, default = false,
+	page = ProjectSummerCarSpawning, translation = PSC_TakeOverSpawning,
+}
+
+option ProjectSummerCar.RemoveWreckedCars
+{
+	type = boolean, default = true,
+	page = ProjectSummerCarSpawning, translation = PSC_RemoveWreckedCars,
+}
+
+option ProjectSummerCar.BurntCarChance
+{
+    type = double, min = 0, max = 1, default = 0.1,
+    page = ProjectSummerCarSpawning, translation = PSC_BurntCarChance,
+}
+
+option ProjectSummerCar.LowOrHigh
+{
+    type = double, min = 0, max = 1, default = 0.5,
+    page = ProjectSummerCarSpawning, translation = PSC_LowOrHigh,
+}
+
+option ProjectSummerCar.LowCondition
+{
+    type = double, min = 0, max = 1, default = 0.1,
+    page = ProjectSummerCarSpawning, translation = PSC_LowCondition,
+}
+
+option ProjectSummerCar.LowToMid
+{
+    type = double, min = 0.1, max = 10, default = 1.5,
+    page = ProjectSummerCarSpawning, translation = PSC_LowToMid,
+}
+
+
+option ProjectSummerCar.MidCondition
+{
+    type = double, min = 0, max = 1, default = 0.5,
+    page = ProjectSummerCarSpawning, translation = PSC_MidCondition,
+}
+
+option ProjectSummerCar.MidToHigh
+{
+    type = double, min = 0.1, max = 10, default = 0.7,
+    page = ProjectSummerCarSpawning, translation = PSC_MidToHigh,
+}
+
+option ProjectSummerCar.HighCondition
+{
+    type = double, min = 0, max = 1, default = 0.9,
+    page = ProjectSummerCarSpawning, translation = PSC_HighCondition,
+}
+
+
+
+
+option ProjectSummerCar.PartChanceLowCond
+{
+    type = double, min = 0, max = 1, default = 0.4,
+    page = ProjectSummerCarSpawning, translation = PSC_PartChanceLowCond,
+}
+option ProjectSummerCar.PartChanceLowCondChance
+{
+    type = double, min = 0, max = 1, default = 1,
+    page = ProjectSummerCarSpawning, translation = PSC_PartChanceLowCondChance,
+}
+option ProjectSummerCar.PartChanceHighCond
+{
+    type = double, min = 0, max = 1, default = 1,
+    page = ProjectSummerCarSpawning, translation = PSC_PartChanceHighCond,
+}
+option ProjectSummerCar.PartChanceHighCondChance
+{
+    type = double, min = 0, max = 1, default = 1,
+    page = ProjectSummerCarSpawning, translation = PSC_PartChanceHighCondChance,
+}
+
+option ProjectSummerCar.PartChanceSurvivorMin
+{
+    type = double, min = 0, max = 1, default = 1,
+    page = ProjectSummerCarSpawning, translation = PSC_PartChanceSurvivorMin,
+}
+
+option ProjectSummerCar.PartChanceSurvivorMax
+{
+    type = double, min = 0, max = 1, default = 1,
+    page = ProjectSummerCarSpawning, translation = PSC_PartChanceSurvivorMax,
+}
+
+option ProjectSummerCar.PartChanceTrafficMin
+{
+    type = double, min = 0, max = 1, default = 0.2,
+    page = ProjectSummerCarSpawning, translation = PSC_PartChanceTrafficMin,
+}
+
+option ProjectSummerCar.PartChanceTrafficMax
+{
+    type = double, min = 0, max = 1, default = 0.9,
+    page = ProjectSummerCarSpawning, translation = PSC_PartChanceTrafficMax,
+}
+
+option ProjectSummerCar.RandomPartChance
+{
+    type = double, min = 0, max = 1, default = 0,
+    page = ProjectSummerCarSpawning, translation = PSC_RandomPartChance,
+}
+
+option ProjectSummerCar.ConditionRandom
+{
+    type = double, min = 0, max = 2, default = 0.3,
+    page = ProjectSummerCarSpawning, translation = PSC_ConditionRandom,
+}
+
+option ProjectSummerCar.RepairParts
+{
+	type = boolean, default = true,
+	page = ProjectSummerCar, translation = PSC_RepairParts,
+}
+
+option ProjectSummerCar.MinHP
+{
+    type = double, min = 0, max = 10, default = 0,
+    page = ProjectSummerCar, translation = PSC_MinHP,
+}
+option ProjectSummerCar.MinHPCondition
+{
+    type = double, min = 0, max = 1, default = 0,
+    page = ProjectSummerCar, translation = PSC_MinHPCondition,
+}
+
+option ProjectSummerCar.MaxHP
+{
+    type = double, min = 0, max = 10, default = 1,
+    page = ProjectSummerCar, translation = PSC_MaxHP,
+}
+
+option ProjectSummerCar.MaxHPCondition
+{
+    type = double, min = 0, max = 1, default = 1,
+    page = ProjectSummerCar, translation = PSC_MaxHPCondition,
+}
+
+
+option ProjectSummerCar.PerformancePartBoost
+{
+    type = double, min = 0, max = 3, default = 0.5,
+    page = ProjectSummerCar, translation = PSC_PerformancePartBoost,
+}
+
+
+option ProjectSummerCar.EngineImpactDamage
+{
+    type = double, min = 0, max = 10, default = 1,
+    page = ProjectSummerCar, translation = PSC_EngineImpactDamage,
+}
+
+option ProjectSummerCar.EngineImpactDamageCount
+{
+    type = integer, min = 1, max = 20, default = 4,
+    page = ProjectSummerCar, translation = PSC_EngineImpactDamageCount,
+}
+
+
+
+
+
+option ProjectSummerCar.SmartOilIndicator
+{
+	type = boolean, default = true,
+	page = ProjectSummerCar, translation = PSC_SmartOilIndicator,
+}
+
+option ProjectSummerCar.OilLeakRate
+{
+    type = double, min = 0, max = 100, default = 1,
+    page = ProjectSummerCar, translation = PSC_OilLeakRate,
+}
+
+option ProjectSummerCar.OilDecayRate
+{
+    type = double, min = 0, max = 100, default = 1,
+    page = ProjectSummerCar, translation = PSC_OilDecayRate,
+}
+
+option ProjectSummerCar.OilFilterDecayRate
+{
+    type = double, min = 0, max = 100, default = 1,
+    page = ProjectSummerCar, translation = PSC_OilFilterDecayRate,
+}
+
+
+
+
+option ProjectSummerCar.BatteryChargedBias
+{
+    type = double, min = 0.1, max = 10, default = 2,
+    page = ProjectSummerCar, translation = PSC_BatteryChargedBias,
+}
+
+option ProjectSummerCar.BatteryChargedChance
+{
+    type = double, min = 0, max = 1, default = 0.8,
+    page = ProjectSummerCar, translation = PSC_BatteryChargedChance,
+}
+
+
+option ProjectSummerCar.BatteryGoodChance
+{
+    type = double, min = 0, max = 1, default = 0.5,
+    page = ProjectSummerCar, translation = PSC_BatteryGoodChance,
+}
+
+option ProjectSummerCar.ChargeRate
+{
+    type = double, min = 0, max = 100, default = 1,
+    page = ProjectSummerCar, translation = PSC_ChargeRate,
+}
+
+
+option ProjectSummerCar.BatteryCapacity
+{
+    type = double, min = 0, max = 100, default = 1,
+    page = ProjectSummerCar, translation = PSC_BatteryCapacity,
+}
+
+option ProjectSummerCar.BatteryCapacityLowConditionMultiplier
+{
+    type = double, min = 0, max = 1, default = 0.2,
+    page = ProjectSummerCar, translation = PSC_BatteryCapacityLowConditionMultiplier,
+}

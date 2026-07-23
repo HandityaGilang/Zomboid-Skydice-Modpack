@@ -1,0 +1,10 @@
+{
+    "ContextMenu_HikeUp": "Поднять",
+    "ContextMenu_LetOut": "Опустить",
+
+    "ContextMenu_Button": "Застегнуть",
+    "ContextMenu_Unbutton": "Растегнуть",
+
+    "ContextMenu_UpRibbon": "Поднять ленту",
+    "ContextMenu_DownRibbon": "Опустить ленту"
+}

@@ -1,0 +1,136 @@
+VERSION = 1,
+
+option RGM.StartDay
+{
+	type = integer,
+	default = 1,
+	min = 0,
+	max = 1000,
+	page = RGM,
+	translation = RGM_StartDay,
+}
+option RGM.PeakDay
+{
+	type = integer,
+	default = 60,
+	min = 1,
+	max = 1000,
+	page = RGM,
+	translation = RGM_PeakDay,
+}
+option RGM.OriginalModifierChance
+{
+	type = double,
+	default = 30,
+	min = 0,
+	max = 100,
+	page = RGM,
+	translation = RGM_OriginalModifierChance,
+}
+option RGM.MaxModifierChance
+{
+	type = double,
+	default = 70,
+	min = 0,
+	max = 100,
+	page = RGM,
+	translation = RGM_MaxModifierChance,
+}
+option RGM.StartRarityTweaker
+{
+	type = double,
+	default = 1.1,
+	min = 0,
+	max = 10,
+	page = RGM,
+	translation = RGM_StartRarityTweaker,
+}
+option RGM.PeakRarityTweaker
+{
+	type = double,
+	default = 0.9,
+	min = 0,
+	max = 10,
+	page = RGM,
+	translation = RGM_PeakRarityTweaker,
+}
+option RGM.AttachedWeaponsChanceMultiplier
+{
+	type = double,
+	default = 0.5,
+	min = 0,
+	max = 3,
+	page = RGM,
+	translation = RGM_AttachedWeaponsChanceMultiplier,
+}
+option RGM.RangedWeaponsChanceMultiplier
+{
+	type = double,
+	default = 0.5,
+	min = 0,
+	max = 3,
+	page = RGM,
+	translation = RGM_RangedWeaponsChanceMultiplier,
+}
+option RGM.ChanceMultiplierForCraftedItems
+{
+	type = double,
+	default = 0.75,
+	min = 0,
+	max = 3,
+	page = RGM,
+	translation = RGM_ChanceMultiplierForCraftedItems,
+}
+option RGM.IgnoreIrrelevantWeapons
+{
+	type = boolean,
+	default = true,
+	page = RGM,
+	translation = RGM_IgnoreIrrelevantWeapons,
+}
+option RGM.TinkeringSkillXpMultiplier
+{
+	type = double,
+	default = 1,
+	min = 0,
+	max = 10,
+	page = RGM,
+	translation = RGM_TinkeringSkillXpMultiplier,
+}
+option RGM.ItemsTinkerable
+{
+	type = boolean,
+	default = true,
+	page = RGM,
+	translation = RGM_ItemsTinkerable,
+}
+option RGM.DynamicTinkerer
+{
+	type = boolean,
+	default = false,
+	page = RGM,
+	translation = RGM_DynamicTinkerer,
+}
+option RGM.TinkerCost
+{
+	type = enum,
+	numValues = 4,
+	default = 2,
+	page = RGM,
+	translation = RGM_TinkerCost,
+	valueTranslation = TinkerCost_value,
+}
+option RGM.ClothingModifiers
+{
+	type = boolean,
+	default = false,
+	page = RGM,
+	translation = RGM_ClothingModifiers,
+}
+option RGM.ClothingXPModifiers
+{
+	type = boolean,
+	default = false,
+	page = RGM,
+	translation = RGM_ClothingXPModifiers,
+}

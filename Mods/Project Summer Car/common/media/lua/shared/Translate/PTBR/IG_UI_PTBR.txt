@@ -1,0 +1,56 @@
+IGUI_PTBR = {
+    IGUI_EnginePanel_InspectEngine = "Inspecionar Motor",
+    IGUI_EnginePanel_InspectEngineParts = "Inspecionar Peças do Motor",
+
+    IGUI_EnginePanel_Category_EngineParts = "Peças do Motor",
+    IGUI_EnginePanel_Category_DriveTrain = "Trem de Força",
+    IGUI_EnginePanel_Category_Fluids = "Fluidos",
+    IGUI_EnginePanel_Category_Accessories = "Acessórios",
+
+    IGUI_EnginePanel_PartType_SparkPlugs = "Velas de Ignição",
+    IGUI_EnginePanel_PartType_CylinderHead = "Cabeçote",
+    IGUI_EnginePanel_PartType_HeadGasket = "Junta do Cabeçote",
+    IGUI_EnginePanel_PartType_Pistons = "Pistões",
+    IGUI_EnginePanel_PartType_Crankshaft = "Virabrequim",
+    IGUI_EnginePanel_PartType_Flywheel = "Volante do Motor",
+    IGUI_EnginePanel_PartType_Starter = "Motor de Partida",
+    IGUI_EnginePanel_PartType_Transmission = "Transmissão",
+    IGUI_EnginePanel_PartType_TorqueConverter = "Conversor de Torque",
+    IGUI_EnginePanel_PartType_TransmissionFluid = "Fluido de Transmissão",
+    IGUI_EnginePanel_PartType_PowerSteeringFluid = "Fluido da Direção Hidráulica",
+    IGUI_EnginePanel_PartType_Oil = "Óleo",
+    IGUI_EnginePanel_PartType_OilPan = "Cárter de Óleo",
+    IGUI_EnginePanel_PartType_OilFilter = "Filtro de Óleo",
+    IGUI_EnginePanel_PartType_Coolant = "Líquido de Arrefecimento",
+    IGUI_EnginePanel_PartType_Radiator = "Radiador",
+    IGUI_EnginePanel_PartType_FanBelt = "Correia da Ventoinha",
+    IGUI_EnginePanel_PartType_Alternator = "Alternador",
+    IGUI_EnginePanel_PartType_WaterPump = "Bomba d’Água",
+    IGUI_EnginePanel_PartType_PowerSteeringPump = "Bomba da Direção Hidráulica",
+    IGUI_EnginePanel_PartType_BrakeBooster = "Servo Freio",
+    IGUI_EnginePanel_PartType_AirConditioner = "Ar Condicionado",
+    IGUI_EnginePanel_PartType_HeaterCore = "Núcleo do Aquecedor",
+
+    IGUI_EnginePanel_Action_AddFluid = "Adicionar Fluido",
+    IGUI_EnginePanel_Action_RemoveFluid = "Remover Fluido",
+
+    IGUI_EnginePanel_Action_AddFluid_tooltip = "Adicionar fluido ao motor",
+    IGUI_EnginePanel_Action_RemoveFluid_tooltip = "Remover fluido do motor",
+
+    IGUI_EnginePanel_Action_InstallPart = "Instalar Peça",
+    IGUI_EnginePanel_Action_InstallPart_tooltip = "Adicionar peça ao motor <LINE> Requer: <LINE>",
+
+    IGUI_EnginePanel_Action_RemovePart = "Remover Peça",
+    IGUI_EnginePanel_Action_RemovePart_tooltip = "Remover peça do motor <LINE> Requer: <LINE>",
+
+    IGUI_EnginePanel_Misc_NoParts = "Nenhuma Peça Disponível",
+    IGUI_EnginePanel_Misc_NoValidParts = "Nenhuma peça válida para instalar",
+
+    IGUI_EnginePanel_Misc_IncorrectVehicleType = "Tipo de Veículo Incorreto",
+
+    IGUI_EnginePanel_Misc_ChanceOfDamage = "Chance de dano",
+    IGUI_EnginePanel_Misc_Missing = "(faltando)",
+
+    IGUI_EnginePanel_Misc_Title = "Mecânica de Motores",
+    IGUI_EnginePanel_Misc_Engine = "Motor: ",
+}

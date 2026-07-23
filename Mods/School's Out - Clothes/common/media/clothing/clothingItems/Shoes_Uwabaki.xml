@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes\M_ShoesStrapped.X</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\F_ShoesStrapped.X</m_FemaleModel>
+	<m_GUID>81ee5266-2c3b-4ef5-a371-a747cd16383f</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes/Shoes/Shoes_UwabakiBlue</textureChoices>
+	<textureChoices>Clothes/Shoes/Shoes_UwabakiRed</textureChoices>
+	<textureChoices>Clothes/Shoes/Shoes_UwabakiGreen</textureChoices>
+	<textureChoices>Clothes/Shoes/Shoes_UwabakiYellow</textureChoices>
+</clothingItem>

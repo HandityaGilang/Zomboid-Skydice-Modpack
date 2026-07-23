@@ -1,0 +1,5 @@
+Sandbox_PTBR = {
+	Sandbox_OpenAllContainers = "Abrir Todos os Recipientes"
+	Sandbox_OpenAllContainers_TickRate = "Taxa de Atualização"
+	Sandbox_OpenAllContainers_TickRate_tooltip = "Intervalo (em ticks) no qual o jogo verifica se um recipiente está destacado ou não."
+}

@@ -1,0 +1,101 @@
+module Base
+{
+    sound PMGDartThrow
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/PMGDartThrow.wav,
+        }
+    }
+
+    sound PMGDartHit
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/PMGDartHit.wav,
+        }
+    }
+
+    sound PMGDartScore
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/PMGDartScore.wav,
+        }
+    }
+
+    sound PMGCardDraw
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/PMGCardDraw.wav,
+        }
+    }
+
+    sound PMGCardDrawLow
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/PMGCardDrawLow.wav,
+        }
+    }
+
+    sound PMGCardDrawHigh
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/PMGCardDrawHigh.wav,
+        }
+    }
+
+    sound PMGCardDeal
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/PMGCardDeal.wav,
+        }
+    }
+
+    sound PMGChipMove
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/PMGChipMove.wav,
+        }
+    }
+
+    sound PMGWin
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/PMGWin.wav,
+        }
+    }
+
+    sound PMGLose
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/PMGLose.wav,
+        }
+    }
+
+    sound PMGTurn
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/PMGTurn.wav,
+        }
+    }
+}

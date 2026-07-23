@@ -1,0 +1,14 @@
+{
+    "IGUI_IHM_title":  "改良ヘアメニュー（Build 42）",
+    "IGUI_IHM_use_modal":  "モーダルダイアログを使用",
+    "IGUI_IHM_use_modal_tooltip":  "インラインメニューをポップアウトに置き換えます。低解像度のモニターでも便利です。",
+    "IGUI_IHM_avatar_size":  "アバターサイズ",
+    "IGUI_IHM_avatar_size_tooltip":  "メニュー内の各要素のピクセルサイズ。",
+    "IGUI_IHM_hair_rows":  "インライン髪型メニューの行数",
+    "IGUI_IHM_hair_cols":  "インライン髪型メニューの列数",
+    "IGUI_IHM_beard_rows":  "インラインひげメニューの行数",
+    "IGUI_IHM_beard_cols":  "インラインひげメニューの列数",
+    "IGUI_IHM_modal_rows":  "モーダルダイアログの行数",
+    "IGUI_IHM_modal_cols":  "モーダルダイアログの列数",
+    "IGUI_IHM_desc":  "変更は Lua のリセット、MOD の再読み込み、またはゲームの再起動後に反映されます。ゲーム内では一度メインメニューに戻ってください。"
+}

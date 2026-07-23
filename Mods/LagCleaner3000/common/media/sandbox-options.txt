@@ -1,0 +1,31 @@
+VERSION = 1,
+
+option LagCleaner3000.Enabled
+{
+	type = boolean, default = true,
+	page = LagCleaner3000, translation = LagCleaner3000_Enabled,
+}
+
+option LagCleaner3000.CleanupMinutes
+{
+	type = integer, min = 1, max = 43200, default = 1440,
+	page = LagCleaner3000, translation = LagCleaner3000_CleanupMinutes,
+}
+
+option LagCleaner3000.ScanRadius
+{
+	type = integer, min = 10, max = 200, default = 50,
+	page = LagCleaner3000, translation = LagCleaner3000_ScanRadius,
+}
+
+option LagCleaner3000.MaxZLevel
+{
+	type = integer, min = 0, max = 7, default = 3,
+	page = LagCleaner3000, translation = LagCleaner3000_MaxZLevel,
+}
+
+option LagCleaner3000.LogCleanups
+{
+	type = boolean, default = true,
+	page = LagCleaner3000, translation = LagCleaner3000_LogCleanups,
+}

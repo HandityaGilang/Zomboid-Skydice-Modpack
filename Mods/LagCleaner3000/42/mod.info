@@ -1,0 +1,6 @@
+name=Lag Cleaner 3000
+id=LagCleaner3000
+description=Server optimization mod for Build 42 multiplayer. Automatically removes dropped items, tree debris, and world-spawned loot from the ground after a configurable time. Placed objects (furniture, barricades, constructions) are never affected. All settings configurable via Sandbox Options.
+poster=
+icon=
+versionMin=42.0

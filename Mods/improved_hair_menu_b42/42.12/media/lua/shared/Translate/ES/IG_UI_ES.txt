@@ -1,0 +1,14 @@
+IGUI_ES = {
+	IGUI_IHM_title = "Menú de Peinados Mejorado (Build 42)",
+	IGUI_IHM_use_modal = "Usar diálogo modal",
+	IGUI_IHM_use_modal_tooltip = "Sustituye el menú incrustado por una ventana emergente. Útil también para monitores de baja resolución.",
+	IGUI_IHM_avatar_size = "Tamaño del avatar",
+	IGUI_IHM_avatar_size_tooltip = "Tamaño en píxeles de cada elemento del menú.",
+	IGUI_IHM_hair_rows = "Filas del menú de peinados (inline)",
+	IGUI_IHM_hair_cols = "Columnas del menú de peinados (inline)",
+	IGUI_IHM_beard_rows = "Filas del menú de barbas (inline)",
+	IGUI_IHM_beard_cols = "Columnas del menú de barbas (inline)",
+	IGUI_IHM_modal_rows = "Filas del diálogo modal",
+	IGUI_IHM_modal_cols = "Columnas del diálogo modal",
+	IGUI_IHM_desc = "Los cambios surtirán efecto tras reiniciar Lua, recargar los mods o reiniciar el juego. En partida: vuelve brevemente al menú principal.",
+}

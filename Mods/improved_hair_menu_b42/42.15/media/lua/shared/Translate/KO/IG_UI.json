@@ -1,0 +1,14 @@
+{
+    "IGUI_IHM_title":  "개선된 헤어 메뉴 (Build 42)",
+    "IGUI_IHM_use_modal":  "모달 대화상자 사용",
+    "IGUI_IHM_use_modal_tooltip":  "인라인 메뉴를 팝아웃 창으로 대체합니다. 저해상도 모니터에서도 유용합니다.",
+    "IGUI_IHM_avatar_size":  "아바타 크기",
+    "IGUI_IHM_avatar_size_tooltip":  "메뉴 각 항목의 픽셀 크기.",
+    "IGUI_IHM_hair_rows":  "인라인 헤어 메뉴 행 수",
+    "IGUI_IHM_hair_cols":  "인라인 헤어 메뉴 열 수",
+    "IGUI_IHM_beard_rows":  "인라인 수염 메뉴 행 수",
+    "IGUI_IHM_beard_cols":  "인라인 수염 메뉴 열 수",
+    "IGUI_IHM_modal_rows":  "모달 대화상자 행 수",
+    "IGUI_IHM_modal_cols":  "모달 대화상자 열 수",
+    "IGUI_IHM_desc":  "변경 사항은 Lua를 재설정하거나, 모드를 다시 로드하거나, 게임을 다시 시작한 후 적용됩니다. 게임 중에는 잠시 메인 메뉴로 돌아가세요."
+}

@@ -1,0 +1,125 @@
+module Base
+{
+    sound PPBallClack1
+    {
+        category = World,
+        clip
+        {
+            file = media/sound/PPBallClack1.wav,
+            distanceMax = 12,
+        }
+    }
+
+    sound PPBallClack1UI
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/PPBallClack1.wav,
+        }
+    }
+
+    sound PPBallClack2
+    {
+        category = World,
+        clip
+        {
+            file = media/sound/PPBallClack2.wav,
+            distanceMax = 15,
+        }
+    }
+
+    sound PPBallClack2UI
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/PPBallClack2.wav,
+        }
+    }
+
+    sound PPBallRail
+    {
+        category = World,
+        clip
+        {
+            file = media/sound/PPBallRail.wav,
+            distanceMax = 10,
+        }
+    }
+
+    sound PPBallRailUI
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/PPBallRail.wav,
+        }
+    }
+
+    sound PPBallPocket
+    {
+        category = World,
+        clip
+        {
+            file = media/sound/PPBallPocket.wav,
+            distanceMax = 12,
+        }
+    }
+
+    sound PPBallPocketUI
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/PPBallPocket.wav,
+        }
+    }
+
+    sound PPVictory
+    {
+        category = World,
+        clip
+        {
+            file = media/sound/PPVictory.wav,
+            distanceMax = 2,
+        }
+    }
+
+    sound PPVictoryUI
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/PPVictory.wav,
+        }
+    }
+
+    sound PPDefeat
+    {
+        category = World,
+        clip
+        {
+            file = media/sound/PPDefeat.wav,
+            distanceMax = 2,
+        }
+    }
+
+    sound PPDefeatUI
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/PPDefeat.wav,
+        }
+    }
+
+    sound PPTurn
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/PPTurn.wav,
+        }
+    }
+}

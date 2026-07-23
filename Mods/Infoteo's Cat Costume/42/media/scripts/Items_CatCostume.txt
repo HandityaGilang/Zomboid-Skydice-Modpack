@@ -1,0 +1,85 @@
+module Base
+{
+	item Hat_Cat
+	{
+	DisplayCategory = Accessory,
+	ItemType = base:clothing,
+	DisplayName = Cat Costume Head,
+	ClothingItem = Hat_Cat,
+	BodyLocation = base:fullhat,
+	Icon = CatGREY,
+	CanHaveHoles = false,
+	ChanceToFall = 0,
+        BloodLocation = Head,
+        Insulation = 0.75,
+        WindResistance = 0.75,
+        WaterResistance = 0.75,
+    	}
+	item CatCostume
+    	{
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Cat Costume,
+        ClothingItem = CatCostume,
+        BodyLocation = base:fullsuit,
+        BloodLocation = Trousers;Jumper,
+        Icon = CatGREY,
+        RunSpeedModifier = 0.7,
+	CanHaveHoles = false,
+        ScratchDefense = 100,
+        Insulation = 0.85,
+        WindResistance = 0.6,
+        WorldStaticModel = BoilerSuit_Ground,
+    	}
+    	item CatTail
+    	{
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Cat Costume Tail,
+        ClothingItem = CatTail,
+        BodyLocation = base:tail,
+        Icon = CatGREY,
+        WorldStaticModel = SpiffoTail_Ground,
+    	}
+	item Hat_Cat_RED
+	{
+	DisplayCategory = Accessory,
+	ItemType = base:clothing,
+	DisplayName = Red Cat Costume Head,
+	ClothingItem = Hat_Cat_RED,
+	BodyLocation = base:fullhat,
+	Icon = CatRED,
+	CanHaveHoles = false,
+	ChanceToFall = 0,
+        BloodLocation = Head,
+        Insulation = 0.75,
+        WindResistance = 0.75,
+        WaterResistance = 0.75,
+    	}
+	item CatCostume_RED
+    	{
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Red Cat Costume,
+        ClothingItem = CatCostume_RED,
+        BodyLocation = base:fullsuit,
+        BloodLocation = Trousers;Jumper,
+        Icon = CatRED,
+        RunSpeedModifier = 0.7,
+	CanHaveHoles = false,
+        ScratchDefense = 100,
+        Insulation = 0.85,
+        WindResistance = 0.6,
+        WorldStaticModel = BoilerSuit_Ground,
+    	}
+    	item CatTail_RED
+    	{
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Red Cat Costume Tail,
+        ClothingItem = CatTail_RED,
+        BodyLocation = base:tail,
+        Icon = CatRED,
+        WorldStaticModel = SpiffoTail_Ground,
+    	}
+}

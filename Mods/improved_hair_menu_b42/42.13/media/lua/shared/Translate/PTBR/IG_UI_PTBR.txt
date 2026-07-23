@@ -1,0 +1,14 @@
+IGUI_PTBR = {
+	IGUI_IHM_title = "Menu de Cabelos Aprimorado (Build 42)",
+	IGUI_IHM_use_modal = "Usar diálogo modal",
+	IGUI_IHM_use_modal_tooltip = "Substitui o menu embutido por uma janela pop-out. Útil também para monitores de baixa resolução.",
+	IGUI_IHM_avatar_size = "Tamanho do avatar",
+	IGUI_IHM_avatar_size_tooltip = "Tamanho em pixels de cada item do menu.",
+	IGUI_IHM_hair_rows = "Linhas do menu de cabelos (inline)",
+	IGUI_IHM_hair_cols = "Colunas do menu de cabelos (inline)",
+	IGUI_IHM_beard_rows = "Linhas do menu de barba (inline)",
+	IGUI_IHM_beard_cols = "Colunas do menu de barba (inline)",
+	IGUI_IHM_modal_rows = "Linhas do diálogo modal",
+	IGUI_IHM_modal_cols = "Colunas do diálogo modal",
+	IGUI_IHM_desc = "As alterações entram em vigor após redefinir o Lua, recarregar os mods ou reiniciar o jogo. No jogo: volte rapidamente ao menu principal.",
+}

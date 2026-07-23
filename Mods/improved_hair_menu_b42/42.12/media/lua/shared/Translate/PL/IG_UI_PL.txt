@@ -1,0 +1,14 @@
+IGUI_PL = {
+	IGUI_IHM_title = "Ulepszone menu fryzur (Build 42)",
+	IGUI_IHM_use_modal = "Używaj okna modalnego",
+	IGUI_IHM_use_modal_tooltip = "Zastępuje menu wbudowane wyskakującym oknem. Przydatne także na monitorach o niskiej rozdzielczości.",
+	IGUI_IHM_avatar_size = "Rozmiar awatara",
+	IGUI_IHM_avatar_size_tooltip = "Rozmiar w pikselach każdego elementu menu.",
+	IGUI_IHM_hair_rows = "Wiersze menu fryzur (inline)",
+	IGUI_IHM_hair_cols = "Kolumny menu fryzur (inline)",
+	IGUI_IHM_beard_rows = "Wiersze menu brody (inline)",
+	IGUI_IHM_beard_cols = "Kolumny menu brody (inline)",
+	IGUI_IHM_modal_rows = "Wiersze okna modalnego",
+	IGUI_IHM_modal_cols = "Kolumny okna modalnego",
+	IGUI_IHM_desc = "Zmiany zaczną obowiązywać po zresetowaniu Lua, ponownym wczytaniu modów lub restarcie gry. W grze: na chwilę wróć do menu głównego.",
+}

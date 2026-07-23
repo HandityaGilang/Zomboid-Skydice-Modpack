@@ -1,0 +1,7 @@
+Recipes_FR = {
+	Recipe_Hem_Skirt = "Faire un Ourlet à la Jupe",
+	Recipe_Tie_Butterfly_Knot = "Nouer la Cravate en Noeud Papillon",
+	Recipe_Tie_Small-Ribbon_Knot = "Nouer la Cravate en Petit Ruban",
+	Recipe_Tie_Standard_Knot = "Nouer la Cravate de façon classique",
+	Recipe_Untie_Triangle_Tie = "Dépliez la Cravate",
+}

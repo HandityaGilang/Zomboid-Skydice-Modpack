@@ -1,0 +1,13 @@
+module Base
+{
+    item SurvivalColorDeck
+    {
+        DisplayCategory = Entertainment,
+        Tooltip = Tooltip_SurvivalColorDeck,
+        ItemType = base:normal,
+        Weight = 0.2,
+        Icon = SurvivalColorDeck,
+        StaticModel = SurvivalColorDeck,
+        WorldStaticModel = SurvivalColorDeck_Ground,
+    }
+}

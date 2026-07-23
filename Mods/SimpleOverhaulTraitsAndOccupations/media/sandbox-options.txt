@@ -1,0 +1,215 @@
+VERSION = 1,
+
+option SOTO.AgilityTraitsObtainable
+{
+	type = boolean,
+	default = true,
+	page = SOTO,
+	translation = SOTO_AgilityTraitsObtainable,
+}
+
+option SOTO.CombatTraitsObtainable
+{
+	type = boolean,
+	default = true,
+	page = SOTO,
+	translation = SOTO_CombatTraitsObtainable,
+}
+
+option SOTO.SurvTraitsObtainable
+{
+	type = boolean,
+	default = false,
+	page = SOTO,
+	translation = SOTO_SurvTraitsObtainable,
+}
+
+option SOTO.CraftTraitsObtainable
+{
+	type = boolean,
+	default = false,
+	page = SOTO,
+	translation = SOTO_CraftTraitsObtainable,
+}
+
+option SOTO.FirearmTraitsObtainable
+{
+	type = boolean,
+	default = true,
+	page = SOTO,
+	translation = SOTO_FirearmTraitsObtainable,
+}
+
+option SOTO.AddFitXPWhileRun
+{
+	type = boolean,
+	default = true,
+	page = SOTO,
+	translation = SOTO_AddFitXPWhileRun,
+}
+
+option SOTO.LoseCowardlyHoursMIN
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 168,
+	page = SOTO,
+	translation = SOTO_LoseCowardlyHoursMIN,
+}
+option SOTO.LoseCowardlyHoursMAX
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 336,
+	page = SOTO,
+	translation = SOTO_LoseCowardlyHoursMAX,
+}
+
+option SOTO.LoseCowardlyZombMIN
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 1250,
+	page = SOTO,
+	translation = SOTO_LoseCowardlyZombMIN,
+}
+option SOTO.LoseCowardlyZombMAX
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 2500,
+	page = SOTO,
+	translation = SOTO_LoseCowardlyZombMAX,
+}
+
+
+option SOTO.EarnBraveHoursMIN
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 504,
+	page = SOTO,
+	translation = SOTO_EarnBraveHoursMIN,
+}
+option SOTO.EarnBraveHoursMAX
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 840,
+	page = SOTO,
+	translation = SOTO_EarnBraveHoursMAX,
+}
+
+option SOTO.EarnBraveZombMIN
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 3000,
+	page = SOTO,
+	translation = SOTO_EarnBraveZombMIN,
+}
+option SOTO.EarnBraveZombMAX
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 4500,
+	page = SOTO,
+	translation = SOTO_EarnBraveZombMAX,
+}
+
+
+option SOTO.EarnDesensitizedHoursMIN
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 1176,
+	page = SOTO,
+	translation = SOTO_EarnDesensitizedHoursMIN,
+}
+option SOTO.EarnDesensitizedHoursMAX
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 1512,
+	page = SOTO,
+	translation = SOTO_EarnDesensitizedHoursMAX,
+}
+
+option SOTO.EarnDesensitizedZombMIN
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 6000,
+	page = SOTO,
+	translation = SOTO_EarnDesensitizedZombMIN,
+}
+option SOTO.EarnDesensitizedZombMAX
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 9000,
+	page = SOTO,
+	translation = SOTO_EarnDesensitizedZombMAX,
+}
+
+
+option SOTO.LosePacifistHoursMIN
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 672,
+	page = SOTO,
+	translation = SOTO_LosePacifistHoursMIN,
+}
+
+option SOTO.LosePacifistHoursMAX
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 1008,
+	page = SOTO,
+	translation = SOTO_LosePacifistHoursMAX,
+}
+
+option SOTO.LosePacifistZombMIN
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 1500,
+	page = SOTO,
+	translation = SOTO_LosePacifistZombMIN,
+}
+option SOTO.LosePacifistZombMAX
+{
+	type = integer,
+	min = 1,
+	max = 100000,
+	default = 2500,
+	page = SOTO,
+	translation = SOTO_LosePacifistZombMAX,
+}
+
+option SOTO.LosePacifistSkillLvl
+{
+	type = integer,
+	min = 0,
+	max = 10,
+	default = 7,
+	page = SOTO,
+	translation = SOTO_LosePacifistSkillLvl,
+}

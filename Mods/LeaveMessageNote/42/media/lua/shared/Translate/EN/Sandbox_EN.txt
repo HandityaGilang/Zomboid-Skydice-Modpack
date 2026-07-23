@@ -1,0 +1,6 @@
+Sandbox_EN = {
+    Sandbox_LMN_Note_Settings = "Leave a message",
+
+    Sandbox_LMN_AdminOnlyLeaveMessage = "Leave a message only for Admin",
+    Sandbox_LMN_AdminOnlyLeaveMessage_tooltip = "If active, only Admins, Moderators, or SP world owners can use the 'Leave a Message' feature on notes.",
+}

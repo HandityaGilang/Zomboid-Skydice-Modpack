@@ -1,0 +1,599 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<outfitManager>
+<m_FemaleOutfits>
+		<m_Name>Sapph_ChefApron</m_Name>
+		<m_Guid>d0170440-9bfb-4498-997c-9ccf66d23624</m_Guid>
+		<m_Pants>true</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items>
+			<probability>1.0</probability> <!--Chef Aprons-->
+			<itemGUID>ee38ece9-ac3d-490c-bd36-685333da0e2e</itemGUID>
+			<subItems>
+				<itemGUID>d7f77dcb-3297-46a8-93a2-452794d44dea</itemGUID><!--Camo Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>136b821f-7bbe-473d-90c4-6ce09273893a</itemGUID><!--Cow Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>6eb0e6af-03df-4ab1-abd3-d5c1c142f751</itemGUID><!--Heart Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>c86a09d0-8753-4f9c-b964-77bee8d821c2</itemGUID><!--KissCook Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>74befb7b-454b-4a1f-b0a0-131537bdbd8b</itemGUID><!--MuscleF Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>373baffd-7c9b-47cb-a253-8accea7c9945</itemGUID><!--MuscleM Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>282d8a79-9347-4de8-bee6-b7df56729e95</itemGUID><!--PawBlue Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>a532653b-0e85-48cf-bce9-bd931a61d6fa</itemGUID><!--PawBlack Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>da955471-cb10-40eb-9113-563b3cfde46f</itemGUID><!--PawPink Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>ce492db5-284a-4bb3-b950-bcc6cd168568</itemGUID><!--QuailMom Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>f17e0ca1-bf90-43bf-b2c0-bfdc58c41101</itemGUID><!--Camo Desert Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>8dc292e0-870e-47c6-acfe-29c63536d197</itemGUID><!--Camo Urban Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>c257c399-ce65-4042-b33e-eaa22a294bed</itemGUID><!--American Flag Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>2c24b9a7-dd52-4de7-958f-3780db40519c</itemGUID><!--Rainbow Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>965090ca-66e0-4ed8-baab-aefc96e71070</itemGUID><!--Hawaii Red Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>f8dc4ac7-b067-445b-b17d-d82e6d8e7a10</itemGUID><!--Hawaii Blue Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>4ba432e7-8c7b-42c0-827c-e68c5c57488e</itemGUID><!--TransFlag Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>5588cff0-c9b6-44fc-843f-2db27951adf1</itemGUID><!--Waist Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>927a2805-f853-466d-af81-dd696d4fc0f0</itemGUID><!--Waist PawBlue Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>a3193794-8b94-4e60-80ee-28d726a56a03</itemGUID><!--Waist PawPink Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>d8c192b5-d5e6-4cd6-8cf4-d5c6e003bee7</itemGUID><!--Waist America Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>61ceb873-994d-4dc4-b307-275681bca660</itemGUID><!--Waist Trans Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>250d76aa-e75d-4143-96ed-24eb2b724ac7</itemGUID><!--Waist PawBlack Apron-->
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>7837ebe5-c02d-46af-9e4d-723a0c2a5988</itemGUID> <!--Jacket Chef-->
+		</m_items>
+		<m_items>
+			<itemGUID>17fd31ec-2867-4bd5-8e84-1380561c43aa</itemGUID> <!--Trousers Chef-->
+		</m_items>
+		<m_items>
+			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID> <!--Socks Ankle Chef-->
+		</m_items>
+		<m_items>
+			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID> <!--Shoes Black Chef-->
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>a9573c0b-37e8-4a34-a75f-140497dab44a</itemGUID> <!--Chef Hat-->
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID> <!--Glasses -->
+		</m_items>
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>7c3a8a34-9ffa-42e0-83f4-55088f99d8a4</itemGUID> <!--Earrings-->
+			<subItems>
+				<itemGUID>497a8849-6914-40fb-b3a6-9e01629e3e8b</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>62486601-5800-4eba-b317-fbcd9a0e2892</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>09537be2-eebc-4f58-a76d-ac46ea5b3654</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fc9184ea-72cd-4079-8457-5b9f7b5dab75</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>59341911-c4b8-4c30-a712-69df35ba228f</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>033be814-b060-457c-8ed6-43f7358606c3</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>b1c312bf-bc3b-4a52-a15d-fe5564399388</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>ee687253-26b0-4796-82ca-4f4a4976cf81</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>9221f803-d4ec-4947-b380-9c8b1fddebf0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>877f93aa-33c7-4453-9c47-5097038f580c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>404627a1-0fbe-4c95-921d-80eee1bac7f4</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>b53aaf11-929c-4506-8310-e9b26d5f20eb</itemGUID> <!--Necklaces-->
+			<subItems>
+				<itemGUID>3cac5469-f9d2-4462-8fb2-063be1b63450</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>3ae13d94-8df6-45c7-9e99-ad03c7d411ce</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>00b778ca-59bd-45a4-9a72-a74e5a541469</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>354db6a5-970b-477b-a119-f4a65eaa776f</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID> <!--Rings-->
+			<subItems>
+				<itemGUID>c6dd113b-3d04-4833-9f38-8e9840741c0c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fedba460-2edc-439d-89b6-f9607ddbf246</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>5b484f12-b43c-4a83-9009-af05a59ec267</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID> <!--Watches-->
+			<subItems>
+				<itemGUID>ce1a8520-7120-432e-8a3a-aa7b3094f0bb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+			</subItems>
+		</m_items>
+	</m_FemaleOutfits>
+
+
+<m_MaleOutfits>
+		<m_Name>Sapph_ChefApron</m_Name>
+		<m_Guid>d0170440-9bfb-4498-997c-9ccf66d23624</m_Guid>
+		<m_Pants>true</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items>
+			<probability>1.0</probability> <!--Chef Aprons-->
+			<itemGUID>ee38ece9-ac3d-490c-bd36-685333da0e2e</itemGUID>
+			<subItems>
+				<itemGUID>d7f77dcb-3297-46a8-93a2-452794d44dea</itemGUID><!--Camo Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>136b821f-7bbe-473d-90c4-6ce09273893a</itemGUID><!--Cow Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>6eb0e6af-03df-4ab1-abd3-d5c1c142f751</itemGUID><!--Heart Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>c86a09d0-8753-4f9c-b964-77bee8d821c2</itemGUID><!--KissCook Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>74befb7b-454b-4a1f-b0a0-131537bdbd8b</itemGUID><!--MuscleF Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>373baffd-7c9b-47cb-a253-8accea7c9945</itemGUID><!--MuscleM Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>282d8a79-9347-4de8-bee6-b7df56729e95</itemGUID><!--PawBlue Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>a532653b-0e85-48cf-bce9-bd931a61d6fa</itemGUID><!--PawBlack Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>da955471-cb10-40eb-9113-563b3cfde46f</itemGUID><!--PawPink Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>ce492db5-284a-4bb3-b950-bcc6cd168568</itemGUID><!--QuailMom Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>f17e0ca1-bf90-43bf-b2c0-bfdc58c41101</itemGUID><!--Camo Desert Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>8dc292e0-870e-47c6-acfe-29c63536d197</itemGUID><!--Camo Urban Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>c257c399-ce65-4042-b33e-eaa22a294bed</itemGUID><!--American Flag Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>2c24b9a7-dd52-4de7-958f-3780db40519c</itemGUID><!--Rainbow Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>4ba432e7-8c7b-42c0-827c-e68c5c57488e</itemGUID><!--TransFlag Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>5588cff0-c9b6-44fc-843f-2db27951adf1</itemGUID><!--Waist Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>927a2805-f853-466d-af81-dd696d4fc0f0</itemGUID><!--Waist PawBlue Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>a3193794-8b94-4e60-80ee-28d726a56a03</itemGUID><!--Waist PawPink Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>d8c192b5-d5e6-4cd6-8cf4-d5c6e003bee7</itemGUID><!--Waist America Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>61ceb873-994d-4dc4-b307-275681bca660</itemGUID><!--Waist Trans Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>250d76aa-e75d-4143-96ed-24eb2b724ac7</itemGUID><!--Waist PawBlack Apron-->
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>7837ebe5-c02d-46af-9e4d-723a0c2a5988</itemGUID>
+		</m_items>
+		<m_items>
+			<itemGUID>17fd31ec-2867-4bd5-8e84-1380561c43aa</itemGUID>
+		</m_items>
+		<m_items>
+			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+		</m_items>
+		<m_items>
+			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>a9573c0b-37e8-4a34-a75f-140497dab44a</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID>
+			<subItems>
+				<itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
+			<subItems>
+				<itemGUID>ce1a8520-7120-432e-8a3a-aa7b3094f0bb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+			</subItems>
+		</m_items>
+	</m_MaleOutfits>
+	
+	
+	<m_FemaleOutfits>
+		<m_Name>Sapph_ChefApron2</m_Name>
+		<m_Guid>c0d08684-8ec2-4e45-814a-6ced94e131e1</m_Guid>
+		<m_Pants>true</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items>
+			<probability>1.0</probability> <!--Chef Aprons-->
+			<itemGUID>ee38ece9-ac3d-490c-bd36-685333da0e2e</itemGUID>
+			<subItems>
+				<itemGUID>d7f77dcb-3297-46a8-93a2-452794d44dea</itemGUID><!--Camo Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>136b821f-7bbe-473d-90c4-6ce09273893a</itemGUID><!--Cow Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>6eb0e6af-03df-4ab1-abd3-d5c1c142f751</itemGUID><!--Heart Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>c86a09d0-8753-4f9c-b964-77bee8d821c2</itemGUID><!--KissCook Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>74befb7b-454b-4a1f-b0a0-131537bdbd8b</itemGUID><!--MuscleF Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>373baffd-7c9b-47cb-a253-8accea7c9945</itemGUID><!--MuscleM Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>282d8a79-9347-4de8-bee6-b7df56729e95</itemGUID><!--PawBlue Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>da955471-cb10-40eb-9113-563b3cfde46f</itemGUID><!--PawPink Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>ce492db5-284a-4bb3-b950-bcc6cd168568</itemGUID><!--QuailMom Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>f17e0ca1-bf90-43bf-b2c0-bfdc58c41101</itemGUID><!--Camo Desert Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>8dc292e0-870e-47c6-acfe-29c63536d197</itemGUID><!--Camo Urban Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>c257c399-ce65-4042-b33e-eaa22a294bed</itemGUID><!--American Flag Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>2c24b9a7-dd52-4de7-958f-3780db40519c</itemGUID><!--Rainbow Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>965090ca-66e0-4ed8-baab-aefc96e71070</itemGUID><!--Hawaii Red Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>f8dc4ac7-b067-445b-b17d-d82e6d8e7a10</itemGUID><!--Hawaii Blue Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>a532653b-0e85-48cf-bce9-bd931a61d6fa</itemGUID><!--PawBlack Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>4ba432e7-8c7b-42c0-827c-e68c5c57488e</itemGUID><!--TransFlag Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>5588cff0-c9b6-44fc-843f-2db27951adf1</itemGUID><!--Waist Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>927a2805-f853-466d-af81-dd696d4fc0f0</itemGUID><!--Waist PawBlue Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>a3193794-8b94-4e60-80ee-28d726a56a03</itemGUID><!--Waist PawPink Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>d8c192b5-d5e6-4cd6-8cf4-d5c6e003bee7</itemGUID><!--Waist America Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>61ceb873-994d-4dc4-b307-275681bca660</itemGUID><!--Waist Trans Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>250d76aa-e75d-4143-96ed-24eb2b724ac7</itemGUID><!--Waist PawBlack Apron-->
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>7837ebe5-c02d-46af-9e4d-723a0c2a5988</itemGUID> <!--Jacket Chef-->
+		</m_items>
+		<m_items>
+			<itemGUID>17fd31ec-2867-4bd5-8e84-1380561c43aa</itemGUID> <!--Trousers Chef-->
+		</m_items>
+		<m_items>
+			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID> <!--Socks Ankle Chef-->
+		</m_items>
+		<m_items>
+			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID> <!--Shoes Black Chef-->
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>a9573c0b-37e8-4a34-a75f-140497dab44a</itemGUID> <!--Chef Hat-->
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID> <!--Glasses -->
+		</m_items>
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>7c3a8a34-9ffa-42e0-83f4-55088f99d8a4</itemGUID> <!--Earrings-->
+			<subItems>
+				<itemGUID>497a8849-6914-40fb-b3a6-9e01629e3e8b</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>62486601-5800-4eba-b317-fbcd9a0e2892</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>09537be2-eebc-4f58-a76d-ac46ea5b3654</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fc9184ea-72cd-4079-8457-5b9f7b5dab75</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>59341911-c4b8-4c30-a712-69df35ba228f</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>033be814-b060-457c-8ed6-43f7358606c3</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>b1c312bf-bc3b-4a52-a15d-fe5564399388</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>ee687253-26b0-4796-82ca-4f4a4976cf81</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>9221f803-d4ec-4947-b380-9c8b1fddebf0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>877f93aa-33c7-4453-9c47-5097038f580c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>404627a1-0fbe-4c95-921d-80eee1bac7f4</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>b53aaf11-929c-4506-8310-e9b26d5f20eb</itemGUID> <!--Necklaces-->
+			<subItems>
+				<itemGUID>3cac5469-f9d2-4462-8fb2-063be1b63450</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>3ae13d94-8df6-45c7-9e99-ad03c7d411ce</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>00b778ca-59bd-45a4-9a72-a74e5a541469</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>354db6a5-970b-477b-a119-f4a65eaa776f</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID> <!--Rings-->
+			<subItems>
+				<itemGUID>c6dd113b-3d04-4833-9f38-8e9840741c0c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fedba460-2edc-439d-89b6-f9607ddbf246</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>5b484f12-b43c-4a83-9009-af05a59ec267</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID> <!--Watches-->
+			<subItems>
+				<itemGUID>ce1a8520-7120-432e-8a3a-aa7b3094f0bb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+			</subItems>
+		</m_items>
+	</m_FemaleOutfits>
+
+
+<m_MaleOutfits>
+		<m_Name>Sapph_ChefApron2</m_Name>
+		<m_Guid>c0d08684-8ec2-4e45-814a-6ced94e131e1</m_Guid>
+		<m_Pants>true</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items>
+			<probability>1.0 </probability> <!--Chef Aprons-->
+			<itemGUID>ee38ece9-ac3d-490c-bd36-685333da0e2e</itemGUID>
+			<subItems>
+				<itemGUID>d7f77dcb-3297-46a8-93a2-452794d44dea</itemGUID><!--Camo Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>136b821f-7bbe-473d-90c4-6ce09273893a</itemGUID><!--Cow Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>6eb0e6af-03df-4ab1-abd3-d5c1c142f751</itemGUID><!--Heart Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>c86a09d0-8753-4f9c-b964-77bee8d821c2</itemGUID><!--KissCook Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>74befb7b-454b-4a1f-b0a0-131537bdbd8b</itemGUID><!--MuscleF Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>373baffd-7c9b-47cb-a253-8accea7c9945</itemGUID><!--MuscleM Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>282d8a79-9347-4de8-bee6-b7df56729e95</itemGUID><!--PawBlue Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>da955471-cb10-40eb-9113-563b3cfde46f</itemGUID><!--PawPink Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>ce492db5-284a-4bb3-b950-bcc6cd168568</itemGUID><!--QuailMom Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>f17e0ca1-bf90-43bf-b2c0-bfdc58c41101</itemGUID><!--Camo Desert Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>8dc292e0-870e-47c6-acfe-29c63536d197</itemGUID><!--Camo Urban Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>c257c399-ce65-4042-b33e-eaa22a294bed</itemGUID><!--American Flag Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>2c24b9a7-dd52-4de7-958f-3780db40519c</itemGUID><!--Rainbow Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>4ba432e7-8c7b-42c0-827c-e68c5c57488e</itemGUID><!--TransFlag Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>5588cff0-c9b6-44fc-843f-2db27951adf1</itemGUID><!--Waist Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>927a2805-f853-466d-af81-dd696d4fc0f0</itemGUID><!--Waist PawBlue Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>a3193794-8b94-4e60-80ee-28d726a56a03</itemGUID><!--Waist PawPink Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>d8c192b5-d5e6-4cd6-8cf4-d5c6e003bee7</itemGUID><!--Waist America Apron-->
+			</subItems>
+			<subItems>
+				<itemGUID>61ceb873-994d-4dc4-b307-275681bca660</itemGUID><!--Waist Trans Apron-->
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.8</probability>
+			<itemGUID>7837ebe5-c02d-46af-9e4d-723a0c2a5988</itemGUID>
+		</m_items>
+		<m_items>
+			<itemGUID>17fd31ec-2867-4bd5-8e84-1380561c43aa</itemGUID>
+		</m_items>
+		<m_items>
+			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+		</m_items>
+		<m_items>
+			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>a9573c0b-37e8-4a34-a75f-140497dab44a</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID>
+			<subItems>
+				<itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
+			<subItems>
+				<itemGUID>ce1a8520-7120-432e-8a3a-aa7b3094f0bb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+			</subItems>
+		</m_items>
+	</m_MaleOutfits>
+</outfitManager>

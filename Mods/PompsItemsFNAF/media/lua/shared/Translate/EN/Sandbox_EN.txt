@@ -1,0 +1,10 @@
+Sandbox_EN = {
+    Sandbox_PompsItems = "Pomp's Items",
+
+	Sandbox_PompsItems_FNAFSpawnRate = "Five Nights at Freddy's Spawn Multiplier",
+    Sandbox_PompsItems_FNAFSpawnRate_tooltip = "Multiplier for the spawn chance of the FNAF mystery boxes.<br> <br> Use caution with higher values! <br>",
+	
+	Sandbox_PompsItems_FNAFZombieSpawnRate = "Five Nights at Freddy's Zombie Spawn Multiplier",
+    Sandbox_PompsItems_FNAFZombieSpawnRate_tooltip = "Multiplier for the spawn chance of the FNAF mystery boxes appearing on zombie corpses.<br> <br> Use caution with higher values! <br>",
+}
+

@@ -1,0 +1,13 @@
+Sandbox_EN = {
+	Sandbox_LagCleaner3000 = "Lag Cleaner 3000",
+	Sandbox_LagCleaner3000_Enabled = "Enable Lag Cleaner 3000",
+	Sandbox_LagCleaner3000_Enabled_tooltip = "Enable or disable the automatic ground item cleanup system. All loose items on the ground (player drops, tree debris, world loot) will be removed after the configured time. Placed objects are never affected.",
+	Sandbox_LagCleaner3000_CleanupMinutes = "Cleanup Time (Minutes)",
+	Sandbox_LagCleaner3000_CleanupMinutes_tooltip = "In-game minutes before loose ground items are removed. Applies to ALL ground items: player drops, tree debris, world loot. Min: 1 (for debugging), Max: 43200 (30 days). Default: 1440 (24 hours). Scans every game minute.",
+	Sandbox_LagCleaner3000_ScanRadius = "Scan Radius (Tiles)",
+	Sandbox_LagCleaner3000_ScanRadius_tooltip = "Radius in tiles around each online player to scan. Larger = more area cleaned but higher CPU usage. Default: 50",
+	Sandbox_LagCleaner3000_MaxZLevel = "Max Z-Level",
+	Sandbox_LagCleaner3000_MaxZLevel_tooltip = "Highest floor level to scan. 0 = ground only, 3 = up to 4th floor. Default: 3",
+	Sandbox_LagCleaner3000_LogCleanups = "Log Cleanups",
+	Sandbox_LagCleaner3000_LogCleanups_tooltip = "Print cleanup results to the server console.",
+}

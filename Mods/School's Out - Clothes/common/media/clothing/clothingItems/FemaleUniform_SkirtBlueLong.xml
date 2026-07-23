@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_weddingdress</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\kate_skirtlong</m_FemaleModel>
+	<m_GUID>415b6bb9-b94a-48a7-bd94-3c20fb0405fa</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes/FemaleUniform/FemaleUniform_SkirtBlueLong</textureChoices>
+</clothingItem>

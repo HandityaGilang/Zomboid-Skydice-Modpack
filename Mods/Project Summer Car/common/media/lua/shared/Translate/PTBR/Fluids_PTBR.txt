@@ -1,0 +1,49 @@
+Fluids_PTBR = {
+    Fluid_Name_Motor_Oil = "Óleo de Motor",
+    Fluid_Name_Used_Motor_Oil = "Óleo de Motor Usado",
+	Fluid_Name_ATF = "Fluido de Transmissão Automática",
+	Fluid_Name_Antifreeze = "Anticongelante",
+
+    Fluid_Container_OilPan1_1 = "Cárter de Óleo (Veículo Padrão)",
+    Fluid_Container_OilPan1_2 = "Cárter de Óleo (Veículo Pesado)",
+    Fluid_Container_OilPan1_3 = "Cárter de Óleo (Veículo Esportivo)",
+	
+	Fluid_Container_PowerSteeringPump1_1 = "Bomba de Direção Hidráulica (Veículo Padrão)",
+	Fluid_Container_PowerSteeringPump1_2 = "Bomba de Direção Hidráulica (Veículo Pesado)",
+	Fluid_Container_PowerSteeringPump1_3 = "Bomba de Direção Hidráulica (Veículo Esportivo)",
+	
+    Fluid_Container_Radiator1_1 = "Radiador (Veículo Padrão)",
+	Fluid_Container_Radiator2_1 = "Radiador (Sport) (Veículo Padrão)",
+	Fluid_Container_Radiator3_1 = "Radiador (Race) (Veículo Padrão)",
+
+    Fluid_Container_Radiator1_2 = "Radiador (Veículo Pesado)",
+	Fluid_Container_Radiator2_2 = "Radiador (Sport) (Veículo Pesado)",
+	Fluid_Container_Radiator3_2 = "Radiador (Race) (Veículo Pesado)",
+
+    Fluid_Container_Radiator1_3 = "Radiador (Veículo Esportivo)",
+	Fluid_Container_Radiator2_3 = "Radiador (Sport) (Veículo Esportivo)",
+	Fluid_Container_Radiator3_3 = "Radiador (Race) (Veículo Esportivo)",
+
+    Fluid_Container_Transmission1_1 = "Transmissão (3M) (Veículo Padrão)",
+    Fluid_Container_Transmission2_1 = "Transmissão (4M) (Veículo Padrão)",
+    Fluid_Container_Transmission3_1 = "Transmissão (HT-4M) (Veículo Padrão)",
+    Fluid_Container_Transmission4_1 = "Transmissão (5M) (Veículo Padrão)",
+    Fluid_Container_Transmission5_1 = "Transmissão (8M) (Veículo Padrão)",
+	
+    Fluid_Container_Transmission1_2 = "Transmissão (3M) (Veículo Pesado)",
+    Fluid_Container_Transmission2_2 = "Transmissão (4M) (Veículo Pesado)",
+    Fluid_Container_Transmission3_2 = "Transmissão (HT-4M) (Veículo Pesado)",
+    Fluid_Container_Transmission4_2 = "Transmissão (5M) (Veículo Pesado)",
+    Fluid_Container_Transmission5_2 = "Transmissão (8M) (Veículo Pesado)",
+
+    Fluid_Container_Transmission1_3 = "Transmissão (3M) (Veículo Esportivo)",
+    Fluid_Container_Transmission2_3 = "Transmissão (4M) (Veículo Esportivo)",
+    Fluid_Container_Transmission3_3 = "Transmissão (HT-4M) (Veículo Esportivo)",
+    Fluid_Container_Transmission4_3 = "Transmissão (5M) (Veículo Esportivo)",
+    Fluid_Container_Transmission5_3 = "Transmissão (8M) (Veículo Esportivo)",
+
+    Fluid_Container_BottleATF = "Frasco de Fluido de Transmissão Automática",
+    Fluid_Container_Motoroil = "Óleo de Motor",
+    Fluid_Container_MotoroilCan = "Galão de Óleo de Motor",
+    Fluid_Container_Antifreeze = "Anticongelante",
+}

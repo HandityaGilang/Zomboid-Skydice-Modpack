@@ -1,0 +1,14 @@
+{
+	"UI_P4HasBeenRead_Marked_Book": "Bu kitabı işaretle",
+	"UI_P4HasBeenRead_Marked_CD": "Bu CD'yi işaretle",
+	"UI_P4HasBeenRead_Marked_VHS": "Bu VHS'i işaretle",
+	"UI_P4HasBeenRead_Unmarked_Book": "Bu kitaptaki işareti kaldır",
+	"UI_P4HasBeenRead_Unmarked_CD": "Bu CD'deki işareti kaldır",
+	"UI_P4HasBeenRead_Unmarked_VHS": "Bu VHS'deki işareti kaldır",
+	"UI_P4HasBeenRead_Marked_ALL": "Seçilen tüm kitapları işaretle",
+	"UI_P4HasBeenRead_Unmarked_ALL": "Seçilen tüm kitapların işaretini kaldır",
+	"UI_P4HasBeenRead_Options_ShowCT_Name": "\"Şimdiki Hedef\" işaretlerini göster (o)",
+	"UI_P4HasBeenRead_Options_ShowCT_Tooltip": "Şu anda okumanız gereken yetenek kitaplarının işaretlerini görmek istiyorsanız kutucuğu işaretleyin.",
+	"UI_P4HasBeenRead_Options_ShowSM_Name": "\"Oyuncunun İşaretlediği\" işaretlerini göster (/)",
+	"UI_P4HasBeenRead_Options_ShowSM_Tooltip": "\"Oyuncunun İşaretlediği\" işaretleri göstermek istiyorsanız kutucuğu işaretleyin."
+}

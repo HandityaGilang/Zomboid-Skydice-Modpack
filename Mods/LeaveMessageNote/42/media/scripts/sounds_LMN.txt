@@ -1,0 +1,23 @@
+module LMN
+{
+    sound NoteOpen1
+    {
+        category = UI,
+        clip = NoteOpen1,
+        volume = 0.8,
+    }
+
+    sound NoteOpen2
+    {
+        category = UI,
+        clip = NoteOpen2,
+        volume = 0.8,
+    }
+
+    sound NoteOpen3
+    {
+        category = UI,
+        clip = NoteOpen3,
+        volume = 0.8,
+    }
+}

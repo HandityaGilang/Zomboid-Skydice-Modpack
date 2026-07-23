@@ -1,0 +1,9 @@
+
+[ ALERT_CONFIG ]
+link1 = Spongies Kofi = https://steamcommunity.com/linkfilter/?u=https://ko-fi.com/lazyspongie,
+link2 = Workshop = https://steamcommunity.com/sharedfiles/filedetails/?id=2463184726,
+[ ------ ]
+
+[ 12/3/26 ]
+- 42.15 translation
+[ ------ ]

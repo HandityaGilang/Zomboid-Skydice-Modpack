@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+	<!--  XML FORMATTING ^ MUST ALWAYS HAVE THESE. -->
+
+
+<clothingItem>
+	<!-- ^ EQUIVALENT TO AN { IN A TXT SCRIPT.	   -->
+
+	<!--  FOR A 3D MODEL YOU SPECIFY IT HERE. -->
+	<m_MaleModel>media\models_X\Skinned\Clothes\CAT_FORCE_ONE_BACKPACK.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\Clothes\CAT_FORCE_ONE_BACKPACK.fbx</m_FemaleModel>
+	<!--  USE FBX FOR MOST THINGS.   GLB IS NEW B42 ONLY METHOD AND CAN BE USED FOR ADVANCED MODELS. BUT SUFFERS MORE STORAGE HIT -->
+
+
+
+
+
+
+	<!--  ALWAYS USE A NEW GUID. EVERY. TIME. FOR NEW ITEMS. -->
+	<m_GUID>5795eaa5-0fb2-4ab4-aec4-3e09d4a5dd4d</m_GUID>
+	<!--  TO OVERRIDE A VANILLA ITEM USE ITS GUID INSTEAD.	 -->	
+
+
+	<!--  USED FOR HATS MAINLY. 							 -->	
+	<m_Static>false</m_Static>
+	
+	<!--  VANILLA RGB & TINTING OF 2D TEXTURED GEAR			 -->	
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+
+	<!--  ATTACH A MODEL LOADED TO A SPECIFIC BONE! 		 -->
+	<!--  REQUIRES STATIC FALSE IN SOME XML TYPES.			 -->	
+	<m_AttachBone></m_AttachBone>
+
+
+
+	<!--  THIS XML USING "textureChoices" IS FOR 3D ITEMS ONLY. -->
+	<textureChoices>Clothes/CAT_FORCE_ONE_BACKPACK</textureChoices>
+
+
+
+	<!-- V EQUIVALENT TO AN } IN A TXT SCRIPT.	   -->
+</clothingItem>

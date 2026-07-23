@@ -1,0 +1,6 @@
+UI_KO = {
+    UI_prof_LabIntern = "연구 실험실 인턴",
+    UI_prof_LabInternDesc = "치료제를 만들 완전한 전문 지식은 없지만, 절차를 이해하고 실험실 작업의 논리를 파악하고 있습니다.",
+    UI_trait_autopsyespecialist = "부검 전문가",
+    UI_trait_autopsyespecialistDesc = "수년간의 연구가 마침내 빛을 발했습니다<br><br>+40% 부검 속도<br>+20% 부검 경험치<br>+영안실 테이블에서 혈액 채취 향상<br>+감염된 뇌 추출 확률 향상",
+}

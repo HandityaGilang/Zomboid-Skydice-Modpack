@@ -1,0 +1,4 @@
+ContextMenu_ES = {
+    ContextMenu_DisableAutoClose = "Desactivar Auto-cerrar",
+    ContextMenu_EnableAutoClose = "Activar Auto-cerrar",
+}

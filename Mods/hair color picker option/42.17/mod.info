@@ -1,0 +1,9 @@
+name=Improved Hair Menu Hair Color Picker [MULTIPLAYER ONLY]
+poster=poster.png
+icon=statsIcon.png
+description=OPTIONAL MULTIPLAYER UNLOCK <LINE> Enable this mod to allow all players to use the Improved Color Picker during character creation. <LINE> This grants access to every available hair color from the start.
+id=ihm_picker
+loadModAfter=improvedhairmenubuild42
+require=improvedhairmenubuild42
+incompatible=improvedhairmenubd42,improvedhairmenu,EvenMoreHairColors
+versionMin=42.17

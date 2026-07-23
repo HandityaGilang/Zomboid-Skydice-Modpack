@@ -1,0 +1,7 @@
+Recipes_TH = {
+  Recipe_Hem_Skirt = "เย็บกระโปรง",
+  Recipe_Tie_Butterfly_Knot = "พันเป็นโบว์ผีเสื้อ",
+  Recipe_Tie_Small-Ribbon_Knot = "พันเป็นริบบิ้นเล็ก",
+  Recipe_Tie_Standard_Knot = "พันเป็นผ้าพันคอ",
+  Recipe_Untie_Triangle_Tie = "คลี่ออก",
+}

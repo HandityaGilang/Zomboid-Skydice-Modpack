@@ -1,0 +1,6 @@
+name=KI5 82 Porsche 911 - Skin
+id=Fabi_82Porsche911Skin
+icon=icon.png
+poster=poster.png
+require=\82porsche911
+versionMin=42.0.0

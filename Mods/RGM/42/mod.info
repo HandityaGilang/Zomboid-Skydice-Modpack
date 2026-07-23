@@ -1,0 +1,6 @@
+name=Random Gear Modifiers
+id=RGM
+poster=poster.png
+modversion=2.0
+pzversion=42
+description=Random modifiers on weapons, bags, footwear and clothing. Profession-themed clothing can roll a legendary XP bonus (+50% XP for the matching skill while worn). Tinkering skill lets you reroll modifiers. All features are individually toggleable in sandbox settings.

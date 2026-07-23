@@ -1,0 +1,49 @@
+VERSION = 1,
+
+option PlayablePool.BoredomReliefPerTurn
+{
+	type = integer, min = 0, max = 100, default = 18,
+	page = PlayablePool, translation = PlayablePool_BoredomReliefPerTurn,
+}
+
+option PlayablePool.MaxPlayDistance
+{
+	type = integer, min = 3, max = 30, default = 8,
+	page = PlayablePool, translation = PlayablePool_MaxPlayDistance,
+}
+
+option PlayablePool.AllowAdminSoloPractice
+{
+	type = boolean, default = true,
+	page = PlayablePool, translation = PlayablePool_AllowAdminSoloPractice,
+}
+
+option PlayablePool.AllowSpectators
+{
+	type = boolean, default = true,
+	page = PlayablePool, translation = PlayablePool_AllowSpectators,
+}
+
+option PlayablePool.EnableBetaMinigames
+{
+	type = boolean, default = false,
+	page = PlayablePool, translation = PlayablePool_EnableBetaMinigames,
+}
+
+option PlayablePool.AbandonedSessionMinutes
+{
+	type = integer, min = 1, max = 120, default = 20,
+	page = PlayablePool, translation = PlayablePool_AbandonedSessionMinutes,
+}
+
+option PlayablePool.StressReliefPerTurn
+{
+	type = integer, min = 0, max = 100, default = 0,
+	page = PlayablePool, translation = PlayablePool_StressReliefPerTurn,
+}
+
+option PlayablePool.UnhappinessReliefPerTurn
+{
+	type = integer, min = 0, max = 100, default = 0,
+	page = PlayablePool, translation = PlayablePool_UnhappinessReliefPerTurn,
+}

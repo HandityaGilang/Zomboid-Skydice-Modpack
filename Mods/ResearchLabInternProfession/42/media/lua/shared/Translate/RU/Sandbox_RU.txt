@@ -1,0 +1,4 @@
+Sandbox_RU = {
+    Sandbox_ZombieVirusVaccineBETA_StartingKit = "Стартовый набор Стажёра-Лаборанта",
+    Sandbox_ZombieVirusVaccineBETA_StartingKit_tooltip = "Включает/Выключает Стартовый набор Стажёра-лаборанта <LINE><LINE> Когда выключено Стажёр-лаборант начнёт игру без файлов для изучения",
+}

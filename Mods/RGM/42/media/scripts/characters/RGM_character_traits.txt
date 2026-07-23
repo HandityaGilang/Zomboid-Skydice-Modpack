@@ -1,0 +1,23 @@
+module RGM
+{
+    character_trait_definition rgm:reforger
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = rgm:reforger,
+        Cost = 4,
+        UIName = UI_trait_reforger,
+        UIDescription = UI_trait_reforger_desc,
+        XPBoosts = Tinkering=1,
+    }
+
+    character_trait_definition rgm:loodoman
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = rgm:loodoman,
+        Cost = 4,
+        UIName = UI_trait_loodoman,
+        UIDescription = UI_trait_loodoman_desc,
+    }
+}

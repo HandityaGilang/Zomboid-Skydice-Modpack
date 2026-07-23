@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>sneakidle_skateboard</m_Name>
+	<m_AnimName>Bob_Skateboard_Idle</m_AnimName>
+	<m_DeferredBoneName>Dummy01</m_DeferredBoneName>
+	<m_deferredBoneAxis>Y</m_deferredBoneAxis>
+	<m_SpeedScale>0.48</m_SpeedScale>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_Scalar>IdleSpeed</m_Scalar>
+	<m_Scalar2>IdleSpeed</m_Scalar2>
+	<m_maxTorsoTwist>70</m_maxTorsoTwist>
+	<m_ConditionPriority>10</m_ConditionPriority>
+	<m_Conditions>
+        <m_Name>SkateboardActive</m_Name>
+        <m_Type>BOOL</m_Type>
+        <m_Value>true</m_Value>
+    </m_Conditions>
+</animNode>

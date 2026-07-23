@@ -1,0 +1,1259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hairStyles>
+    <!-- MALE -->
+	    <male>
+        <name>Ara1</name>
+        <model>skinned\hair\Ara1</model>
+        <texture>Ara48</texture>
+        <alternate category="default" style="Ara1"/>
+        <alternate category="Group01" style="Ara1Hat"/>
+        <alternate category="Group02" style="Ara1"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="Ara1Hat"/>
+        <alternate category="Group05" style="Ara1"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>1</level>
+    </male>
+    <male>
+        <name>Ara1Hat</name>
+        <model>skinned\hair\Ara1Hat</model>
+        <texture>Ara48</texture>
+        <noChoose>true</noChoose>
+	</male>
+	<male>
+        <name>Sea</name>
+        <model>skinned\hair\Sea</model>
+        <texture>Ara33</texture>
+        <alternate category="default" style="Sea"/>
+        <alternate category="Group01" style="SeaHat"/>
+        <alternate category="Group02" style="Sea"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="SeaHat"/>
+        <alternate category="Group05" style="Sea"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>3</level>
+    </male>
+    <male>
+        <name>SeaHat</name>
+        <model>skinned\hair\SeaHat</model>
+        <texture>Ara33</texture>
+        <noChoose>true</noChoose>
+	</male>
+	<male>
+        <name>WildCat</name>
+        <model>skinned\hair\WildCat</model>
+        <texture>Ara33</texture>
+        <alternate category="default" style="WildCat"/>
+        <alternate category="Group01" style="WildCatHat"/>
+        <alternate category="Group02" style="WildCat"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="WildCatHat"/>
+        <alternate category="Group05" style="WildCat"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>2</level>
+    </male>
+    <male>
+        <name>WildCatHat</name>
+        <model>skinned\hair\WildCatHat</model>
+        <texture>Ara33</texture>
+        <noChoose>true</noChoose>
+	</male>
+	<male>
+        <name>Careless2</name>
+        <model>skinned\hair\Careless2</model>
+        <texture>Ara7</texture>
+        <alternate category="default" style="Careless2"/>
+        <alternate category="Group01" style="Careless2Hat"/>
+        <alternate category="Group02" style="Careless2"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="Careless2Hat"/>
+        <alternate category="Group05" style="Careless2"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>2</level>
+    </male>
+    <male>
+        <name>Careless2Hat</name>
+        <model>skinned\hair\Careless2Hat</model>
+        <texture>Ara7</texture>
+        <noChoose>true</noChoose>
+	</male>
+	<male>
+        <name>Wolf</name>
+        <model>skinned\hair\Wolf</model>
+        <texture>Ara46</texture>
+        <alternate category="default" style="Wolf"/>
+        <alternate category="Group01" style="WolfHat"/>
+        <alternate category="Group02" style="Wolf"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="WolfHat"/>
+        <alternate category="Group05" style="Wolf"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>1</level>
+    </male>
+    <male>
+        <name>WolfHat</name>
+        <model>skinned\hair\WolfHat</model>
+        <texture>Ara46</texture>
+        <noChoose>true</noChoose>
+	</male>
+	<male>
+        <name>NeatStrands</name>
+        <model>skinned\hair\NeatStrands</model>
+        <texture>Ara7</texture>
+        <alternate category="default" style="NeatStrands"/>
+        <alternate category="Group01" style="NeatStrandsHat"/>
+        <alternate category="Group02" style="NeatStrands"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="NeatStrandsHat"/>
+        <alternate category="Group05" style="NeatStrands"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>1</level>
+    </male>
+    <male>
+        <name>NeatStrandsHat</name>
+        <model>skinned\hair\NeatStrandsHat</model>
+        <texture>Ara7</texture>
+        <noChoose>true</noChoose>
+	</male>
+	<male>
+        <name>Careless</name>
+        <model>skinned\hair\Careless</model>
+        <texture>Ara13</texture>
+        <alternate category="default" style="Careless"/>
+        <alternate category="Group01" style="CarelessHat"/>
+        <alternate category="Group02" style="Careless"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="CarelessHat"/>
+        <alternate category="Group05" style="Careless"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>1</level>
+    </male>
+    <male>
+        <name>CarelessHat</name>
+        <model>skinned\hair\CarelessHat</model>
+        <texture>Ara13</texture>
+        <noChoose>true</noChoose>
+	</male>
+	<male>
+        <name>IceShine</name>
+        <model>skinned\hair\IceShine</model>
+        <texture>Ara13</texture>
+        <alternate category="default" style="IceShine"/>
+        <alternate category="Group01" style="IceShineHat"/>
+        <alternate category="Group02" style="IceShine"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="IceShineHat"/>
+        <alternate category="Group05" style="IceShine"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>1</level>
+    </male>
+    <male>
+        <name>IceShineHat</name>
+        <model>skinned\hair\IceShineHat</model>
+        <texture>Ara13</texture>
+        <noChoose>true</noChoose>
+	</male>
+	<male>
+        <name>LightStyling</name>
+        <model>skinned\hair\LightStyling</model>
+        <texture>Ara13</texture>
+        <alternate category="default" style="LightStyling"/>
+        <alternate category="Group01" style="LightStylingHat"/>
+        <alternate category="Group02" style="LightStyling"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="LightStylingHat"/>
+        <alternate category="Group05" style="LightStyling"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>1</level>
+    </male>
+    <male>
+        <name>LightStylingHat</name>
+        <model>skinned\hair\LightStylingHat</model>
+        <texture>Ara13</texture>
+        <noChoose>true</noChoose>
+	</male>
+	<male>
+        <name>LightStyling2</name>
+        <model>skinned\hair\LightStyling2</model>
+        <texture>Ara13</texture>
+        <alternate category="default" style="LightStyling2"/>
+        <alternate category="Group01" style="LightStyling2Hat"/>
+        <alternate category="Group02" style="LightStyling"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="LightStyling2Hat"/>
+        <alternate category="Group05" style="LightStyling2"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>1</level>
+    </male>
+    <male>
+        <name>LightStyling2Hat</name>
+        <model>skinned\hair\LightStyling2Hat</model>
+        <texture>Ara49</texture>
+        <noChoose>true</noChoose>
+	</male>
+	<male>
+        <name>Tifa</name>
+        <model>skinned\hair\Tifa</model>
+        <texture>Ara13</texture>
+        <alternate category="default" style="Tifa"/>
+        <alternate category="Group01" style="TifaHat"/>
+        <alternate category="Group02" style="Tifa"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="TifaHat"/>
+        <alternate category="Group05" style="Tifa"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>1</level>
+    </male>
+    <male>
+        <name>TifaHat</name>
+        <model>skinned\hair\TifaHat</model>
+        <texture>Ara13</texture>
+        <noChoose>true</noChoose>
+	</male>
+	<male>
+        <name>EasyLongStyling</name>
+        <model>skinned\hair\EasyLongStyling</model>
+        <texture>Ara45</texture>
+        <alternate category="default" style="EasyLongStyling"/>
+        <alternate category="Group01" style="EasyLongStylingHat"/>
+        <alternate category="Group02" style="EasyLongStyling"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="EasyLongStylingHat"/>
+        <alternate category="Group05" style="EasyLongStyling"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>3</level>
+    </male>
+    <male>
+        <name>EasyLongStylingHat</name>
+        <model>skinned\hair\EasyLongStylingHat</model>
+        <texture>Ara45</texture>
+        <noChoose>true</noChoose>
+	</male>
+	<male>
+        <name>Wolf2</name>
+        <model>skinned\hair\Wolf2</model>
+        <texture>Ara29</texture>
+        <alternate category="default" style="Wolf2"/>
+        <alternate category="Group01" style="Wolf2Hat"/>
+        <alternate category="Group02" style="Wolf2"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="Wolf2Hat"/>
+        <alternate category="Group05" style="Wolf2"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>2</level>
+    </male>
+    <male>
+        <name>Wolf2Hat</name>
+        <model>skinned\hair\Wolf2Hat</model>
+        <texture>Ara29</texture>
+        <noChoose>true</noChoose>
+	</male>
+	<male>
+        <name>Wolf3</name>
+        <model>skinned\hair\Wolf3</model>
+        <texture>Ara29</texture>
+        <alternate category="default" style="Wolf3"/>
+        <alternate category="Group01" style="Wolf3Hat"/>
+        <alternate category="Group02" style="Wolf3"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="Wolf3Hat"/>
+        <alternate category="Group05" style="Wolf3"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>1</level>
+    </male>
+    <male>
+        <name>Wolf3Hat</name>
+        <model>skinned\hair\Wolf3Hat</model>
+        <texture>Ara29</texture>
+        <noChoose>true</noChoose>
+	</male>
+	<male>
+        <name>Wolf4</name>
+        <model>skinned\hair\Wolf4</model>
+        <texture>Ara46</texture>
+        <alternate category="default" style="Wolf4"/>
+        <alternate category="Group01" style="Wolf4Hat"/>
+        <alternate category="Group02" style="Wolf4"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="Wolf4Hat"/>
+        <alternate category="Group05" style="Wolf4"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>2</level>
+    </male>
+    <male>
+        <name>Wolf4Hat</name>
+        <model>skinned\hair\Wolf4Hat</model>
+        <texture>Ara46</texture>
+        <noChoose>true</noChoose>
+	</male>
+	<male>
+        <name>TheWildling</name>
+        <model>skinned\hair\TheWildling</model>
+        <texture>Ara46</texture>
+        <alternate category="default" style="TheWildling"/>
+        <alternate category="Group01" style="TheWildlingHat"/>
+        <alternate category="Group02" style="TheWildling"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="TheWildlingHat"/>
+        <alternate category="Group05" style="TheWildling"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>2</level>
+    </male>
+    <male>
+        <name>TheWildlingHat</name>
+        <model>skinned\hair\TheWildlingHat</model>
+        <texture>Ara46</texture>
+        <noChoose>true</noChoose>
+	</male>
+	<male>
+        <name>Wolf5</name>
+        <model>skinned\hair\Wolf5</model>
+        <texture>Ara36</texture>
+        <alternate category="default" style="Wolf5"/>
+        <alternate category="Group01" style="Wolf5Hat"/>
+        <alternate category="Group02" style="Wolf5"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="Wolf5Hat"/>
+        <alternate category="Group05" style="Wolf5"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>1</level>
+    </male>
+    <male>
+        <name>Wolf5Hat</name>
+        <model>skinned\hair\Wolf5Hat</model>
+        <texture>Ara36</texture>
+        <noChoose>true</noChoose>
+	</male>
+	<male>
+        <name>Leon</name>
+        <model>skinned\hair\Leon</model>
+        <texture>Ara45</texture>
+        <alternate category="default" style="Leon"/>
+        <alternate category="Group01" style="LeonHat"/>
+        <alternate category="Group02" style="Leon"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="LeonHat"/>
+        <alternate category="Group05" style="Leon"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>1</level>
+    </male>
+    <male>
+        <name>LeonHat</name>
+        <model>skinned\hair\LeonHat</model>
+        <texture>Ara45</texture>
+        <noChoose>true</noChoose>
+	</male>
+	<male>
+        <name>VeryShortHair</name>
+        <model>skinned\hair\VeryShortHair</model>
+        <texture>Ara46</texture>
+        <alternate category="default" style="VeryShortHair"/>
+        <alternate category="Group01" style="VeryShortHairHat"/>
+        <alternate category="Group02" style="VeryShortHair"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="VeryShortHairHat"/>
+        <alternate category="Group05" style="VeryShortHair"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>1</level>
+    </male>
+    <male>
+        <name>VeryShortHairHat</name>
+        <model>skinned\hair\VeryShortHairHat</model>
+        <texture>Ara46</texture>
+        <noChoose>true</noChoose>
+	</male>
+	<male>
+        <name>Levi</name>
+        <model>skinned\hair\Levi</model>
+        <texture>Ara45</texture>
+        <alternate category="default" style="Levi"/>
+        <alternate category="Group01" style="LeviHat"/>
+        <alternate category="Group02" style="Levi"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="LeviHat"/>
+        <alternate category="Group05" style="Levi"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>2</level>
+    </male>
+    <male>
+        <name>LeviHat</name>
+        <model>skinned\hair\LeviHat</model>
+        <texture>Ara45</texture>
+        <noChoose>true</noChoose>
+	</male>
+	<male>
+        <name>Asymmetry</name>
+        <model>skinned\hair\Asymmetry</model>
+        <texture>Ara46</texture>
+        <alternate category="default" style="Asymmetry"/>
+        <alternate category="Group01" style="AsymmetryHat"/>
+        <alternate category="Group02" style="Asymmetry"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="AsymmetryHat"/>
+        <alternate category="Group05" style="Asymmetry"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>2</level>
+    </male>
+    <male>
+        <name>AsymmetryHat</name>
+        <model>skinned\hair\AsymmetryHat</model>
+        <texture>Ara46</texture>
+        <noChoose>true</noChoose>
+	</male>
+	<male>
+        <name>Needle</name>
+        <model>skinned\hair\Needle</model>
+        <texture>Ara46</texture>
+        <alternate category="default" style="Needle"/>
+        <alternate category="Group01" style="NeedleHat"/>
+        <alternate category="Group02" style="Needle"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="NeedleHat"/>
+        <alternate category="Group05" style="Needle"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>1</level>
+    </male>
+    <male>
+        <name>NeedleHat</name>
+        <model>skinned\hair\NeedleHat</model>
+        <texture>Ara46</texture>
+        <noChoose>true</noChoose>
+	</male>
+	<male>
+        <name>Ara2</name>
+        <model>skinned\hair\Ara2</model>
+        <texture>Ara48</texture>
+        <alternate category="default" style="Ara2"/>
+        <alternate category="Group01" style="Ara2Hat"/>
+        <alternate category="Group02" style="Ara2"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="Ara2Hat"/>
+        <alternate category="Group05" style="Ara2"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>2</level>
+    </male>
+    <male>
+        <name>Ara2Hat</name>
+        <model>skinned\hair\Ara2Hat</model>
+        <texture>Ara48</texture>
+        <noChoose>true</noChoose>
+	</male>
+	<male>
+        <name>Ara3</name>
+        <model>skinned\hair\Ara3</model>
+        <texture>Ara48</texture>
+        <alternate category="default" style="Ara3"/>
+        <alternate category="Group01" style="Ara3Hat"/>
+        <alternate category="Group02" style="Ara3"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="Ara3Hat"/>
+        <alternate category="Group05" style="Ara3"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>1</level>
+    </male>
+    <male>
+        <name>Ara3Hat</name>
+        <model>skinned\hair\Ara3Hat</model>
+        <texture>Ara48</texture>
+        <noChoose>true</noChoose>
+	</male>
+	<male>
+        <name>Ara4</name>
+        <model>skinned\hair\Ara4</model>
+        <texture>Ara20</texture>
+        <alternate category="default" style="Ara4"/>
+        <alternate category="Group01" style="Ara4Hat"/>
+        <alternate category="Group02" style="Ara4"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="Ara4Hat"/>
+        <alternate category="Group05" style="Ara4"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>2</level>
+    </male>
+    <male>
+        <name>Ara4Hat</name>
+        <model>skinned\hair\Ara4Hat</model>
+        <texture>Ara20</texture>
+        <noChoose>true</noChoose>
+	</male>
+	<male>
+        <name>MoonShadow</name>
+        <model>skinned\hair\MoonShadow</model>
+        <texture>Ara7</texture>
+        <alternate category="default" style="MoonShadow"/>
+        <alternate category="Group01" style="MoonShadowHat"/>
+        <alternate category="Group02" style="MoonShadow"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="MoonShadowHat"/>
+        <alternate category="Group05" style="MoonShadow"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>2</level>
+    </male>
+    <male>
+        <name>MoonShadowHat</name>
+        <model>skinned\hair\MoonShadowHat</model>
+        <texture>Ara7</texture>
+        <noChoose>true</noChoose>
+	</male>
+	<male>
+        <name>LineDance</name>
+        <model>skinned\hair\LineDance</model>
+        <texture>Ara45</texture>
+        <alternate category="default" style="LineDance"/>
+        <alternate category="Group01" style="LineDanceHat"/>
+        <alternate category="Group02" style="LineDance"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="LineDanceHat"/>
+        <alternate category="Group05" style="LineDance"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>2</level>
+    </male>
+    <male>
+        <name>LineDanceHat</name>
+        <model>skinned\hair\LineDanceHat</model>
+        <texture>Ara45</texture>
+        <noChoose>true</noChoose>
+	</male>
+	<male>
+        <name>GlidingEdge</name>
+        <model>skinned\hair\GlidingEdge</model>
+        <texture>Ara20</texture>
+        <alternate category="default" style="GlidingEdge"/>
+        <alternate category="Group01" style="GlidingEdgeHat"/>
+        <alternate category="Group02" style="GlidingEdge"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="GlidingEdgeHat"/>
+        <alternate category="Group05" style="GlidingEdge"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>1</level>
+    </male>
+    <male>
+        <name>GlidingEdgeHat</name>
+        <model>skinned\hair\GlidingEdgeHat</model>
+        <texture>Ara20</texture>
+        <noChoose>true</noChoose>
+	</male>
+	<male>
+        <name>ShortHair4</name>
+        <model>skinned\hair\ShortHair4</model>
+        <texture>Ara50</texture>
+        <alternate category="default" style="ShortHair4"/>
+        <alternate category="Group01" style="ShortHair4Hat"/>
+        <alternate category="Group02" style="ShortHair4"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="ShortHair4Hat"/>
+        <alternate category="Group05" style="ShortHair4"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>1</level>
+    </male>
+    <male>
+        <name>ShortHair4Hat</name>
+        <model>skinned\hair\ShortHair4Hat</model>
+        <texture>Ara50</texture>
+        <noChoose>true</noChoose>
+	</male>
+	<male>
+        <name>Rei</name>
+        <model>skinned\hair\Rei</model>
+        <texture>Ara48</texture>
+        <alternate category="default" style="Rei"/>
+        <alternate category="Group01" style="ReiHat"/>
+        <alternate category="Group02" style="Rei"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="ReiHat"/>
+        <alternate category="Group05" style="Rei"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>2</level>
+    </male>
+    <male>
+        <name>ReiHat</name>
+        <model>skinned\hair\ReiHat</model>
+        <texture>Ara48</texture>
+        <noChoose>true</noChoose>
+	</male>
+	<male>
+        <name>Joker</name>
+        <model>skinned\hair\Joker</model>
+        <texture>Ara55</texture>
+        <alternate category="default" style="Joker"/>
+        <alternate category="Group01" style="JokerHat"/>
+        <alternate category="Group02" style="Joker"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="JokerHat"/>
+        <alternate category="Group05" style="Joker"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>1</level>
+    </male>
+    <male>
+        <name>JokerHat</name>
+        <model>skinned\hair\JokerHat</model>
+        <texture>Ara55</texture>
+        <noChoose>true</noChoose>
+	</male>
+	<male>
+        <name>Emo</name>
+        <model>skinned\hair\Emo</model>
+        <texture>Ara19</texture>
+        <alternate category="default" style="Emo"/>
+        <alternate category="Group01" style="EmoHat"/>
+        <alternate category="Group02" style="Emo"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="EmoHat"/>
+        <alternate category="Group05" style="Emo"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>1</level>
+    </male>
+    <male>
+        <name>EmoHat</name>
+        <model>skinned\hair\EmoHat</model>
+        <texture>Ara19</texture>
+        <noChoose>true</noChoose>
+	</male>
+	<male>
+        <name>Sav</name>
+        <model>skinned\hair\Sav</model>
+        <texture>Ara56</texture>
+        <alternate category="default" style="Sav"/>
+        <alternate category="Group01" style="SavHat"/>
+        <alternate category="Group02" style="Sav"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="SavHat"/>
+        <alternate category="Group05" style="Sav"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>1</level>
+    </male>
+    <male>
+        <name>SavHat</name>
+        <model>skinned\hair\SavHat</model>
+        <texture>Ara56</texture>
+        <noChoose>true</noChoose>
+	</male>
+	    <!-- FEMALE -->
+    <female>
+        <name>Princess</name>
+        <model>skinned\hair\Princess</model>
+        <texture>Ara8</texture>
+        <alternate category="default" style="Princess"/>
+        <alternate category="Group01" style="PrincessHat"/>
+        <alternate category="Group02" style="Princess"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="PrincessHat"/>
+        <alternate category="Group05" style="Princess"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>2</level>
+    </female>
+	<female>
+        <name>PrincessHat</name>
+        <model>skinned\hair\PrincessHat</model>
+        <texture>Ara8</texture>
+        <noChoose>true</noChoose>
+    </female>
+	<female>
+        <name>Lily</name>
+        <model>skinned\hair\Lily</model>
+        <texture>Ara7</texture>
+        <alternate category="default" style="Lily"/>
+        <alternate category="Group01" style="LilyHat"/>
+        <alternate category="Group02" style="Lily"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="LilyHat"/>
+        <alternate category="Group05" style="Lily"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>3</level>
+    </female>
+	 <female>
+        <name>LilyHat</name>
+        <model>skinned\hair\LilyHat</model>
+        <texture>Ara7</texture>
+        <noChoose>true</noChoose>
+    </female>
+	<female>
+        <name>Pigtail</name>
+        <model>skinned\hair\Pigtail</model>
+        <texture>Ara34</texture>
+        <alternate category="default" style="Pigtail"/>
+        <alternate category="Group01" style="PigtailHat"/>
+        <alternate category="Group02" style="Pigtail"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="PigtailHat"/>
+        <alternate category="Group05" style="Pigtail"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>2</level>
+    </female>
+	 <female>
+        <name>PigtailHat</name>
+        <model>skinned\hair\PigtailHat</model>
+        <texture>Ara34</texture>
+        <noChoose>true</noChoose>
+    </female>
+	<female>
+        <name>MessyBun</name>
+        <model>skinned\hair\MessyBun</model>
+        <texture>Ara1</texture>
+        <alternate category="default" style="MessyBun"/>
+        <alternate category="Group01" style="MessyBunHat"/>
+        <alternate category="Group02" style="MessyBun"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="MessyBunHat"/>
+        <alternate category="Group05" style="MessyBun"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>2</level>
+    </female>
+	 <female>
+        <name>MessyBunHat</name>
+        <model>skinned\hair\MessyBunHat</model>
+        <texture>Ara1</texture>
+        <noChoose>true</noChoose>
+    </female>
+	<female>
+        <name>Glow</name>
+        <model>skinned\hair\Glow</model>
+        <texture>Ara13</texture>
+        <alternate category="default" style="Glow"/>
+        <alternate category="Group01" style="GlowHat"/>
+        <alternate category="Group02" style="Glow"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="GlowHat"/>
+        <alternate category="Group05" style="Glow"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>2</level>
+    </female>
+	 <female>
+        <name>GlowHat</name>
+        <model>skinned\hair\GlowHat</model>
+        <texture>Ara13</texture>
+        <noChoose>true</noChoose>
+    </female>
+	<female>
+        <name>BowonHair</name>
+        <model>skinned\hair\BowonHair</model>
+        <texture>Ara14</texture>
+        <alternate category="default" style="BowonHair"/>
+        <alternate category="Group01" style="BowonHairHat"/>
+        <alternate category="Group02" style="BowonHair"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="BowonHairHat"/>
+        <alternate category="Group05" style="BowonHair"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>2</level>
+    </female>
+	 <female>
+        <name>BowonHairHat</name>
+        <model>skinned\hair\BowonHairHat</model>
+        <texture>Ara14</texture>
+        <noChoose>true</noChoose>
+    </female>
+	<female>
+        <name>CurledPonytail</name>
+        <model>skinned\hair\CurledPonytail</model>
+        <texture>Ara20</texture>
+        <alternate category="default" style="CurledPonytail"/>
+        <alternate category="Group01" style="CurledPonytailHat"/>
+        <alternate category="Group02" style="CurledPonytail"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="CurledPonytailHat"/>
+        <alternate category="Group05" style="CurledPonytail"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>3</level>
+    </female>
+	 <female>
+        <name>CurledPonytailHat</name>
+        <model>skinned\hair\CurledPonytailHat</model>
+        <texture>Ara20</texture>
+        <noChoose>true</noChoose>
+    </female>
+	<female>
+        <name>LightStrands</name>
+        <model>skinned\hair\LightStrands</model>
+        <texture>Ara8</texture>
+        <alternate category="default" style="LightStrands"/>
+        <alternate category="Group01" style="LightStrandsHat"/>
+        <alternate category="Group02" style="LightStrands"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="LightStrandsHat"/>
+        <alternate category="Group05" style="LightStrands"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>3</level>
+    </female>
+	 <female>
+        <name>LightStrandsHat</name>
+        <model>skinned\hair\LightStrandsHat</model>
+        <texture>Ara8</texture>
+        <noChoose>true</noChoose>
+    </female>
+	<female>
+        <name>Elegance</name>
+        <model>skinned\hair\Elegance</model>
+        <texture>Ara13</texture>
+        <alternate category="default" style="Elegance"/>
+        <alternate category="Group01" style="EleganceHat"/>
+        <alternate category="Group02" style="Elegance"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="EleganceHat"/>
+        <alternate category="Group05" style="Elegance"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>1</level>
+    </female>
+	 <female>
+        <name>EleganceHat</name>
+        <model>skinned\hair\EleganceHat</model>
+        <texture>Ara13</texture>
+        <noChoose>true</noChoose>
+    </female>
+	<female>
+        <name>LightCurlyPonytail</name>
+        <model>skinned\hair\LightCurlyPonytail</model>
+        <texture>Ara23</texture>
+        <alternate category="default" style="LightCurlyPonytail"/>
+        <alternate category="Group01" style="LightCurlyPonytailHat"/>
+        <alternate category="Group02" style="LightCurlyPonytail"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="LightCurlyPonytailHat"/>
+        <alternate category="Group05" style="LightCurlyPonytail"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>2</level>
+    </female>
+	 <female>
+        <name>LightCurlyPonytailHat</name>
+        <model>skinned\hair\LightCurlyPonytailHat</model>
+        <texture>Ara23</texture>
+        <noChoose>true</noChoose>
+    </female>
+	<female>
+        <name>Rebellion</name>
+        <model>skinned\hair\Rebellion</model>
+        <texture>Ara48</texture>
+        <alternate category="default" style="Rebellion"/>
+        <alternate category="Group01" style="RebellionHat"/>
+        <alternate category="Group02" style="Rebellion"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="RebellionHat"/>
+        <alternate category="Group05" style="Rebellion"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>3</level>
+    </female>
+	 <female>
+        <name>RebellionHat</name>
+        <model>skinned\hair\RebellionHat</model>
+        <texture>Ara48</texture>
+        <noChoose>true</noChoose>
+    </female>
+	<female>
+        <name>TwoPonytails</name>
+        <model>skinned\hair\TwoPonytails</model>
+        <texture>Ara20</texture>
+        <alternate category="default" style="TwoPonytails"/>
+        <alternate category="Group01" style="TwoPonytailsHat"/>
+        <alternate category="Group02" style="TwoPonytails"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="TwoPonytailsHat"/>
+        <alternate category="Group05" style="TwoPonytails"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>3</level>
+    </female>
+	 <female>
+        <name>TwoPonytailsHat</name>
+        <model>skinned\hair\TwoPonytailsHat</model>
+        <texture>Ara20</texture>
+        <noChoose>true</noChoose>
+    </female>
+	<female>
+        <name>GustofWind</name>
+        <model>skinned\hair\GustofWind</model>
+        <texture>Ara1</texture>
+        <alternate category="default" style="GustofWind"/>
+        <alternate category="Group01" style="GustofWindHat"/>
+        <alternate category="Group02" style="GustofWind"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="GustofWindHat"/>
+        <alternate category="Group05" style="GustofWind"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>2</level>
+    </female>
+	 <female>
+        <name>GustofWindHat</name>
+        <model>skinned\hair\GustofWindHat</model>
+        <texture>Ara1</texture>
+        <noChoose>true</noChoose>
+    </female>
+	<female>
+        <name>LightWave</name>
+        <model>skinned\hair\LightWave</model>
+        <texture>Ara13</texture>
+        <alternate category="default" style="LightWave"/>
+        <alternate category="Group01" style="LightWaveHat"/>
+        <alternate category="Group02" style="LightWave"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="LightWaveHat"/>
+        <alternate category="Group05" style="LightWave"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>2</level>
+    </female>
+	 <female>
+        <name>LightWaveHat</name>
+        <model>skinned\hair\LightWaveHat</model>
+        <texture>Ara13</texture>
+        <noChoose>true</noChoose>
+    </female>
+	<female>
+        <name>GatheredinaBow</name>
+        <model>skinned\hair\GatheredinaBow</model>
+        <texture>Ara8</texture>
+        <alternate category="default" style="GatheredinaBow"/>
+        <alternate category="Group01" style="GatheredinaBowHat"/>
+        <alternate category="Group02" style="GatheredinaBow"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="GatheredinaBowHat"/>
+        <alternate category="Group05" style="GatheredinaBow"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>3</level>
+    </female>
+	 <female>
+        <name>GatheredinaBowHat</name>
+        <model>skinned\hair\GatheredinaBowHat</model>
+        <texture>Ara8</texture>
+        <noChoose>true</noChoose>
+    </female>
+	<female>
+        <name>ElegantBob</name>
+        <model>skinned\hair\ElegantBob</model>
+        <texture>Ara23</texture>
+        <alternate category="default" style="ElegantBob"/>
+        <alternate category="Group01" style="ElegantBobHat"/>
+        <alternate category="Group02" style="ElegantBob"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="ElegantBobHat"/>
+        <alternate category="Group05" style="ElegantBob"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>1</level>
+    </female>
+	 <female>
+        <name>ElegantBobHat</name>
+        <model>skinned\hair\ElegantBobHat</model>
+        <texture>Ara23</texture>
+        <noChoose>true</noChoose>
+    </female>
+	<female>
+        <name>TwistedGatheredStrands</name>
+        <model>skinned\hair\TwistedGatheredStrands</model>
+        <texture>Ara45</texture>
+        <alternate category="default" style="TwistedGatheredStrands"/>
+        <alternate category="Group01" style="TwistedGatheredStrandsHat"/>
+        <alternate category="Group02" style="TwistedGatheredStrands"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="TwistedGatheredStrandsHat"/>
+        <alternate category="Group05" style="TwistedGatheredStrands"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>3</level>
+    </female>
+	 <female>
+        <name>TwistedGatheredStrandsHat</name>
+        <model>skinned\hair\TwistedGatheredStrandsHat</model>
+        <texture>Ara45</texture>
+        <noChoose>true</noChoose>
+    </female>
+	<female>
+        <name>PonytailWithBangs</name>
+        <model>skinned\hair\PonytailWithBangs</model>
+        <texture>Ara27</texture>
+        <alternate category="default" style="PonytailWithBangs"/>
+        <alternate category="Group01" style="PonytailWithBangsHat"/>
+        <alternate category="Group02" style="PonytailWithBangs"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="PonytailWithBangsHat"/>
+        <alternate category="Group05" style="PonytailWithBangs"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>3</level>
+    </female>
+	 <female>
+        <name>PonytailWithBangsHat</name>
+        <model>skinned\hair\PonytailWithBangsHat</model>
+        <texture>Ara27</texture>
+        <noChoose>true</noChoose>
+    </female>
+	<female>
+        <name>VeryLongHair</name>
+        <model>skinned\hair\VeryLongHair</model>
+        <texture>Ara28</texture>
+        <alternate category="default" style="VeryLongHair"/>
+        <alternate category="Group01" style="VeryLongHairHat"/>
+        <alternate category="Group02" style="VeryLongHair"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="VeryLongHairHat"/>
+        <alternate category="Group05" style="VeryLongHair"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>3</level>
+    </female>
+	 <female>
+        <name>VeryLongHairHat</name>
+        <model>skinned\hair\VeryLongHairHat</model>
+        <texture>Ara28</texture>
+        <noChoose>true</noChoose>
+    </female>
+	<female>
+        <name>Rose</name>
+        <model>skinned\hair\Rose</model>
+        <texture>Ara1</texture>
+        <alternate category="default" style="Rose"/>
+        <alternate category="Group01" style="RoseHat"/>
+        <alternate category="Group02" style="Rose"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="RoseHat"/>
+        <alternate category="Group05" style="Rose"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>2</level>
+    </female>
+	 <female>
+        <name>RoseHat</name>
+        <model>skinned\hair\RoseHat</model>
+        <texture>Ara1</texture>
+        <noChoose>true</noChoose>
+    </female>
+	<female>
+        <name>SoftStrand</name>
+        <model>skinned\hair\SoftStrand</model>
+        <texture>Ara33</texture>
+        <alternate category="default" style="SoftStrand"/>
+        <alternate category="Group01" style="SoftStrandHat"/>
+        <alternate category="Group02" style="SoftStrand"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="SoftStrandHat"/>
+        <alternate category="Group05" style="SoftStrand"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>3</level>
+    </female>
+	 <female>
+        <name>SoftStrandHat</name>
+        <model>skinned\hair\SoftStrandHat</model>
+        <texture>Ara33</texture>
+        <noChoose>true</noChoose>
+    </female>
+	<female>
+        <name>LongPlait</name>
+        <model>skinned\hair\LongPlait</model>
+        <texture>Ara44</texture>
+        <alternate category="default" style="LongPlait"/>
+        <alternate category="Group01" style="LongPlaitHat"/>
+        <alternate category="Group02" style="LongPlait"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="LongPlaitHat"/>
+        <alternate category="Group05" style="LongPlait"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>3</level>
+    </female>
+	 <female>
+        <name>LongPlaitHat</name>
+        <model>skinned\hair\LongPlaitHat</model>
+        <texture>Ara44</texture>
+        <noChoose>true</noChoose>
+    </female>
+	<female>
+        <name>BraidWithaBow</name>
+        <model>skinned\hair\BraidWithaBow</model>
+        <texture>Ara35</texture>
+        <alternate category="default" style="BraidWithaBow"/>
+        <alternate category="Group01" style="BraidWithaBowHat"/>
+        <alternate category="Group02" style="BraidWithaBow"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="BraidWithaBowHat"/>
+        <alternate category="Group05" style="BraidWithaBow"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>3</level>
+    </female>
+	 <female>
+        <name>BraidWithaBowHat</name>
+        <model>skinned\hair\BraidWithaBowHat</model>
+        <texture>Ara35</texture>
+        <noChoose>true</noChoose>
+    </female>
+	<female>
+        <name>TangledWavyHair</name>
+        <model>skinned\hair\TangledWavyHair</model>
+        <texture>Ara54</texture>
+        <alternate category="default" style="TangledWavyHair"/>
+        <alternate category="Group01" style="TangledWavyHairHat"/>
+        <alternate category="Group02" style="TangledWavyHair"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="TangledWavyHairHat"/>
+        <alternate category="Group05" style="TangledWavyHair"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>3</level>
+    </female>
+	 <female>
+        <name>TangledWavyHairHat</name>
+        <model>skinned\hair\TangledWavyHairHat</model>
+        <texture>Ara54</texture>
+        <noChoose>true</noChoose>
+    </female>
+	<female>
+        <name>TwoLongPonytails</name>
+        <model>skinned\hair\TwoLongPonytails</model>
+        <texture>Ara37</texture>
+        <alternate category="default" style="TwoLongPonytails"/>
+        <alternate category="Group01" style="TwoLongPonytailsHat"/>
+        <alternate category="Group02" style="TwoLongPonytails"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="TwoLongPonytailsHat"/>
+        <alternate category="Group05" style="TwoLongPonytails"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>3</level>
+    </female>
+	 <female>
+        <name>TwoLongPonytailsHat</name>
+        <model>skinned\hair\TwoLongPonytailsHat</model>
+        <texture>Ara37</texture>
+        <noChoose>true</noChoose>
+    </female>
+	<female>
+        <name>Eve</name>
+        <model>skinned\hair\Eve</model>
+        <texture>Ara43</texture>
+        <alternate category="default" style="Eve"/>
+        <alternate category="Group01" style="EveHat"/>
+        <alternate category="Group02" style="Eve"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="EveHat"/>
+        <alternate category="Group05" style="Eve"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>3</level>
+    </female>
+	 <female>
+        <name>EveHat</name>
+        <model>skinned\hair\EveHat</model>
+        <texture>Ara43</texture>
+        <noChoose>true</noChoose>
+    </female>
+	<female>
+        <name>TwoBraids</name>
+        <model>skinned\hair\TwoBraids</model>
+        <texture>Ara42</texture>
+        <alternate category="default" style="TwoBraids"/>
+        <alternate category="Group01" style="TwoBraidsHat"/>
+        <alternate category="Group02" style="TwoBraids"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="TwoBraidsHat"/>
+        <alternate category="Group05" style="TwoBraids"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>3</level>
+    </female>
+	 <female>
+        <name>TwoBraidsHat</name>
+        <model>skinned\hair\TwoBraidsHat</model>
+        <texture>Ara42</texture>
+        <noChoose>true</noChoose>
+    </female>
+	<female>
+        <name>VelvetyLongHair</name>
+        <model>skinned\hair\VelvetyLongHair</model>
+        <texture>Ara45</texture>
+        <alternate category="default" style="VelvetyLongHair"/>
+        <alternate category="Group01" style="VelvetyLongHairHat"/>
+        <alternate category="Group02" style="VelvetyLongHair"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="VelvetyLongHairsHat"/>
+        <alternate category="Group05" style="VelvetyLongHair"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>3</level>
+    </female>
+	 <female>
+        <name>VelvetyLongHairHat</name>
+        <model>skinned\hair\VelvetyLongHairHat</model>
+        <texture>Ara45</texture>
+        <noChoose>true</noChoose>
+    </female>
+	<female>
+        <name>PerfectLine</name>
+        <model>skinned\hair\PerfectLine</model>
+        <texture>Ara45</texture>
+        <alternate category="default" style="PerfectLine"/>
+        <alternate category="Group01" style="PerfectLineHat"/>
+        <alternate category="Group02" style="PerfectLine"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="PerfectLineHat"/>
+        <alternate category="Group05" style="PerfectLine"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>2</level>
+    </female>
+	 <female>
+        <name>PerfectLineHat</name>
+        <model>skinned\hair\PerfectLineHat</model>
+        <texture>Ara45</texture>
+        <noChoose>true</noChoose>
+    </female>
+	<female>
+        <name>Ara5</name>
+        <model>skinned\hair\Ara5</model>
+        <texture>Ara53</texture>
+        <alternate category="default" style="Ara5"/>
+        <alternate category="Group01" style="Ara5Hat"/>
+        <alternate category="Group02" style="Ara5"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="Ara5Hat"/>
+        <alternate category="Group05" style="Ara5"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>3</level>
+    </female>
+	 <female>
+        <name>Ara5Hat</name>
+        <model>skinned\hair\Ara5Hat</model>
+        <texture>Ara53</texture>
+        <noChoose>true</noChoose>
+    </female>
+	<female>
+        <name>Lora</name>
+        <model>skinned\hair\Lora</model>
+        <texture>Ara46</texture>
+        <alternate category="default" style="Lora"/>
+        <alternate category="Group01" style="LoraHat"/>
+        <alternate category="Group02" style="Lora"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="LoraHat"/>
+        <alternate category="Group05" style="Lora"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>2</level>
+    </female>
+	 <female>
+        <name>LoraHat</name>
+        <model>skinned\hair\LoraHat</model>
+        <texture>Ara46</texture>
+        <noChoose>true</noChoose>
+    </female>
+	<female>
+        <name>Maria</name>
+        <model>skinned\hair\Maria</model>
+        <texture>Ara46</texture>
+        <alternate category="default" style="Maria"/>
+        <alternate category="Group01" style="MariaHat"/>
+        <alternate category="Group02" style="Maria"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="MariaHat"/>
+        <alternate category="Group05" style="Maria"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>2</level>
+    </female>
+	 <female>
+        <name>MariaHat</name>
+        <model>skinned\hair\MariaHat</model>
+        <texture>Ara46</texture>
+        <noChoose>true</noChoose>
+    </female>
+	<female>
+        <name>Mar</name>
+        <model>skinned\hair\Mar</model>
+        <texture>Ara57</texture>
+        <alternate category="default" style="Mar"/>
+        <alternate category="Group01" style="MarHat"/>
+        <alternate category="Group02" style="Mar"/>
+        <alternate category="Group03" style="Bald"/>
+        <alternate category="Group04" style="MarHat"/>
+        <alternate category="Group05" style="Mar"/>
+        <alternate category="Group06" style="Bound"/>
+        <level>1</level>
+    </female>
+	 <female>
+        <name>MarHat</name>
+        <model>skinned\hair\MarHat</model>
+        <texture>Ara57</texture>
+        <noChoose>true</noChoose>
+    </female>
+</hairStyles>

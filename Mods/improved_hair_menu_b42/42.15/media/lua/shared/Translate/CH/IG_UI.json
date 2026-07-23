@@ -1,0 +1,14 @@
+{
+    "IGUI_IHM_title":  "改良髮型選單（Build 42）",
+    "IGUI_IHM_use_modal":  "使用模式對話框",
+    "IGUI_IHM_use_modal_tooltip":  "以彈出視窗取代內嵌選單。對低解析度螢幕也很有幫助。",
+    "IGUI_IHM_avatar_size":  "頭像大小",
+    "IGUI_IHM_avatar_size_tooltip":  "選單中每個項目的像素大小。",
+    "IGUI_IHM_hair_rows":  "內嵌髮型選單列數",
+    "IGUI_IHM_hair_cols":  "內嵌髮型選單欄數",
+    "IGUI_IHM_beard_rows":  "內嵌鬍鬚選單列數",
+    "IGUI_IHM_beard_cols":  "內嵌鬍鬚選單欄數",
+    "IGUI_IHM_modal_rows":  "模式對話框列數",
+    "IGUI_IHM_modal_cols":  "模式對話框欄數",
+    "IGUI_IHM_desc":  "變更在重設 Lua、重新載入模組或重新啟動遊戲後生效。遊戲中：請短暫返回主選單。"
+}

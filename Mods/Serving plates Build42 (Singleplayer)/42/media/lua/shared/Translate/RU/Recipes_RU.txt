@@ -1,0 +1,12 @@
+RecipesRU {
+	Recipe_Make1PlateFromPan = "Положить порцию в тарелку"
+	Recipe_Make2PlatesFromPan = "Положить порцию в 2 тарелки"
+	Recipe_Make3PlatesFromPan = "Разложить в 3 тарелки"
+	Recipe_Make4PlatesFromPan = "Разложить в 4 тарелки"
+	Recipe_Make1ClayPlateFromPan = "Положить порцию в керам.тарелку"
+	Recipe_Make2ClayPlatesFromPan = "Положить порцию в 2 керам.тарелки"
+	Recipe_Make3ClayPlatesFromPan = "Разложить в 3 керам.тарелки"
+	Recipe_Make4ClayPlatesFromPan = "Разложить в 4 керам.тарелки"
+
+
+}

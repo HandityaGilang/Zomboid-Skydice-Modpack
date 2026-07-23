@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>62d207c4-4a3a-4041-a097-f3eed9be706c</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>Clothes/GymUniform/GymUniform_ShirtBlue</m_BaseTextures>
+	<m_BaseTextures>Clothes/GymUniform/GymUniform_ShirtRed</m_BaseTextures>
+</clothingItem>

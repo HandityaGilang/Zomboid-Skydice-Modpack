@@ -1,0 +1,19 @@
+VERSION = 1,
+
+option PompsItems.FNAFSpawnRate
+{
+	type = double,
+	min = 0, max = 100,
+	default = 1.0,
+    page = PompsItems,
+    translation = PompsItems_FNAFSpawnRate,
+}
+
+option PompsItems.FNAFZombieSpawnRate
+{
+	type = double,
+	min = 0, max = 100,
+	default = 1.0,
+    page = PompsItems,
+    translation = PompsItems_FNAFZombieSpawnRate,
+}

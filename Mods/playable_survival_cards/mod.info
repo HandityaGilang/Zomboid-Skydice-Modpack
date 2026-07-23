@@ -1,0 +1,7 @@
+name=Playable UNO: The Card Game
+id=playable_uno_cards
+poster=poster.png
+icon=icon.png
+description=Play complete UNO matches in Project Zomboid. Place the deck in the world to host a 2-4 player game, add optional bots, or watch an active match as a spectator. Languages: English, Turkish(ai), Italian(ai), German(ai), Russian(ai), Japanese(ai), and Simplified Chinese(ai)
+modversion=1.2.3
+versionMin=42.0.0

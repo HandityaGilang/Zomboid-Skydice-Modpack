@@ -1,0 +1,14 @@
+IGUI_TR = {
+	IGUI_IHM_title = "Geliştirilmiş Saç Menüsü (Build 42)",
+	IGUI_IHM_use_modal = "Modal iletişim penceresini kullan",
+	IGUI_IHM_use_modal_tooltip = "Satır içi menüyü açılır pencereyle değiştirir. Düşük çözünürlüklü monitörlerde de kullanışlıdır.",
+	IGUI_IHM_avatar_size = "Avatar boyutu",
+	IGUI_IHM_avatar_size_tooltip = "Menüdeki her öğenin piksel boyutu.",
+	IGUI_IHM_hair_rows = "Satır içi saç menüsü satır sayısı",
+	IGUI_IHM_hair_cols = "Satır içi saç menüsü sütun sayısı",
+	IGUI_IHM_beard_rows = "Satır içi sakal menüsü satır sayısı",
+	IGUI_IHM_beard_cols = "Satır içi sakal menüsü sütun sayısı",
+	IGUI_IHM_modal_rows = "Modal iletişim penceresi satır sayısı",
+	IGUI_IHM_modal_cols = "Modal iletişim penceresi sütun sayısı",
+	IGUI_IHM_desc = "Değişiklikler Lua’yı sıfırladıktan, modları yeniden yükledikten veya oyunu yeniden başlattıktan sonra geçerli olur. Oyun içindeyken kısaca ana menüye dönün.",
+}

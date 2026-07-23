@@ -1,0 +1,203 @@
+VERSION = 1,
+
+option SchoolsOut.UseSeifukuZombies
+{
+	type = boolean,
+	default = true,
+
+	page = SchoolsOut,
+	translation = SchoolsOut_UseSeifukuZombies,
+}
+
+option SchoolsOut.UseVanillaZombies
+{
+	type = boolean,
+	default = false,
+
+	page = SchoolsOut,
+	translation = SchoolsOut_UseVanillaZombies,
+}
+
+option SchoolsOut.DefaultRatio
+{
+	type = double,
+	min = 0.0,
+	max = 1000.0,
+	default = 1.0,
+
+	page = SchoolsOut,
+	translation = SchoolsOut_DefaultRatio,
+	valueTranslation = SchoolsOut_DefaultRatio,
+}
+
+option SchoolsOut.GenderRatio
+{
+	type = enum,
+	numValues = 5,
+	default = 4,
+
+	page = SchoolsOut,
+	translation = SchoolsOut_GenderRatio,
+	valueTranslation = SchoolsOut_GenderRatio,
+}
+
+option SchoolsOut.SeifukuStyle
+{
+	type = enum,
+	numValues = 4,
+	default = 1,
+
+	page = SchoolsOut,
+	translation = SchoolsOut_SeifukuStyle,
+	valueTranslation = SchoolsOut_SeifukuStyle,
+}
+
+option SchoolsOut.BlazerStyle
+{
+	type = enum,
+	numValues = 4,
+	default = 1,
+
+	page = SchoolsOut,
+	translation = SchoolsOut_BlazerStyle,
+	valueTranslation = SchoolsOut_BlazerStyle,
+}
+
+option SchoolsOut.BlazerColor
+{
+	type = enum,
+	numValues = 5,
+	default = 1,
+
+	page = SchoolsOut,
+	translation = SchoolsOut_BlazerColor,
+	valueTranslation = SchoolsOut_BlazerColor,
+}
+
+option SchoolsOut.SailorColor
+{
+	type = enum,
+	numValues = 4,
+	default = 1,
+
+	page = SchoolsOut,
+	translation = SchoolsOut_SailorColor,
+	valueTranslation = SchoolsOut_SailorColor,
+}
+
+option SchoolsOut.SweaterColor
+{
+	type = enum,
+	numValues = 6,
+	default = 1,
+
+	page = SchoolsOut,
+	translation = SchoolsOut_SweaterColor,
+	valueTranslation = SchoolsOut_SweaterColor,
+}
+
+option SchoolsOut.BottomStyle
+{
+	type = enum,
+	numValues = 3,
+	default = 1,
+
+	page = SchoolsOut,
+	translation = SchoolsOut_BottomStyle,
+	valueTranslation = SchoolsOut_BottomStyle,
+}
+
+option SchoolsOut.BottomColor
+{
+	type = enum,
+	numValues = 3,
+	default = 1,
+
+	page = SchoolsOut,
+	translation = SchoolsOut_BottomColor,
+	valueTranslation = SchoolsOut_BottomColor,
+}
+
+option SchoolsOut.RibbonStyleBlazer
+{
+	type = enum,
+	numValues = 5,
+	default = 1,
+
+	page = SchoolsOut,
+	translation = SchoolsOut_RibbonStyleBlazer,
+	valueTranslation = SchoolsOut_RibbonStyleBlazer,
+}
+
+option SchoolsOut.RibbonStyleSailor
+{
+	type = enum,
+	numValues = 8,
+	default = 1,
+
+	page = SchoolsOut,
+	translation = SchoolsOut_RibbonStyleSailor,
+	valueTranslation = SchoolsOut_RibbonStyleSailor,
+}
+
+option SchoolsOut.RibbonColor
+{
+	type = enum,
+	numValues = 7,
+	default = 1,
+
+	page = SchoolsOut,
+	translation = SchoolsOut_RibbonColor,
+	valueTranslation = SchoolsOut_RibbonColor,
+}
+
+option SchoolsOut.GymsuitStyle
+{
+	type = enum,
+	numValues = 4,
+	default = 1,
+
+	page = SchoolsOut,
+	translation = SchoolsOut_GymsuitStyle,
+	valueTranslation = SchoolsOut_GymsuitStyle,
+}
+
+option SchoolsOut.SwimsuitStyle
+{
+	type = enum,
+	numValues = 3,
+	default = 3,
+
+	page = SchoolsOut,
+	translation = SchoolsOut_SwimsuitStyle,
+	valueTranslation = SchoolsOut_SwimsuitStyle,
+}
+
+option SchoolsOut.WhiteSwimsuitToggle
+{
+	type = boolean,
+	default = false,
+
+	page = SchoolsOut,
+	translation = SchoolsOut_WhiteSwimsuitToggle,
+}
+
+option SchoolsOut.SpawnChanceToggle
+{
+	type = boolean,
+	default = true,
+
+	page = SchoolsOut,
+	translation = SchoolsOut_SpawnChanceToggle,
+}
+
+option SchoolsOut.SpawnChanceModifier
+{
+	type = double,
+	min = 0.0,
+	max = 10.0,
+	default = 1.0,
+
+	page = SchoolsOut,
+	translation = SchoolsOut_SpawnChanceModifier,
+}

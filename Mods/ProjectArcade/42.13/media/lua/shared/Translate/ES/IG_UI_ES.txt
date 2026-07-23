@@ -1,0 +1,5 @@
+IGUI_ES = {
+
+    IGUI_Recipecategory_Project_Arcade = "Project Arcade",
+
+}

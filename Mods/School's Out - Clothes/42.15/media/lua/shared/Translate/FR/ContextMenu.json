@@ -1,0 +1,13 @@
+{
+    "ContextMenu_HikeUp": "Court",
+    "ContextMenu_LetOut": "Long",
+
+    "ContextMenu_Button": "Boutonné",
+    "ContextMenu_Unbutton": "Déboutonné",
+
+    "ContextMenu_UpRibbon": "Avec Veste",
+    "ContextMenu_DownRibbon": "Avec Costume de Marin",
+
+    "ContextMenu_Zip": "Fermeture éclair fermée",
+    "ContextMenu_Unzip": "Fermeture éclair ouverte"
+}

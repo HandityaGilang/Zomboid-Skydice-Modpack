@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>4e367c21-8950-457a-84c2-d91966320b50</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>Clothes/GymUniform/GymUniform_PoloShirtWhite</m_BaseTextures>
+	<m_BaseTextures>Clothes/GymUniform/GymUniform_PoloShirtWhiteAccent</m_BaseTextures>
+	<m_BaseTextures>Clothes/GymUniform/GymUniform_PoloShirtBlack</m_BaseTextures>
+	<m_BaseTextures>Clothes/GymUniform/GymUniform_PoloShirtRed</m_BaseTextures>
+	<m_BaseTextures>Clothes/GymUniform/GymUniform_PoloShirtBlue</m_BaseTextures>
+	<m_BaseTextures>Clothes/GymUniform/GymUniform_PoloShirtYellow</m_BaseTextures>
+</clothingItem>

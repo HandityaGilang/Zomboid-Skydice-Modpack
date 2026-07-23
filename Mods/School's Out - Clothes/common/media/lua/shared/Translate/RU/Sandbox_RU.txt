@@ -1,0 +1,97 @@
+Sandbox_RU = {
+
+    Sandbox_SchoolsOut = "Каникулы начались",
+
+    Sandbox_SchoolsOut_UseSeifukuZombies = "Использовать сэйфуку-зомби",
+    Sandbox_SchoolsOut_UseSeifukuZombies_tooltip = "Сэйфуку-зомби — это зомби в японской школьной форме. Установите флаг, чтобы сделать их стандартными зомби-формами.",
+
+    Sandbox_SchoolsOut_UseVanillaZombies = "Ванильные зомби",
+    Sandbox_SchoolsOut_UseVanillaZombies_tooltip = "Ванильные зомби используют стандартные облики зомби из игры. Отключает появление сэйфуку-зомби.",
+
+    Sandbox_SchoolsOut_GenderRatio = "Гендерное соотношение",
+    Sandbox_SchoolsOut_GenderRatio_tooltip = "Соотношение полов среди сэйфуку-зомби.",
+    Sandbox_SchoolsOut_GenderRatio_option1 = "Только женщины",
+    Sandbox_SchoolsOut_GenderRatio_option2 = "Преимущественно женщины",
+    Sandbox_SchoolsOut_GenderRatio_option3 = "50/50",
+    Sandbox_SchoolsOut_GenderRatio_option4 = "Преимущественно мужчины",
+    Sandbox_SchoolsOut_GenderRatio_option5 = "Только мужчины",
+
+    Sandbox_SchoolsOut_SeifukuStyle = "Стиль сэйфуку",
+    Sandbox_SchoolsOut_SeifukuStyle_tooltip = "Тип школьной формы для сэйфуку-зомби.",
+    Sandbox_SchoolsOut_SeifukuStyle_option1 = "Нет",
+    Sandbox_SchoolsOut_SeifukuStyle_option2 = "Сэйлор",
+    Sandbox_SchoolsOut_SeifukuStyle_option3 = "Короткая юбка / шорты",
+    Sandbox_SchoolsOut_SeifukuStyle_option4 = "Блейзер",
+
+    Sandbox_SchoolsOut_BlazerStyle = "Стиль блейзера",
+    Sandbox_SchoolsOut_BlazerStyle_tooltip = "Вид блейзера для сэйфуку-зомби, если он включен. Вариант «NyanCat» добавляет яркие элементы.",
+    Sandbox_SchoolsOut_BlazerStyle_option1 = "Нет",
+    Sandbox_SchoolsOut_BlazerStyle_option2 = "Стиль NyanCat",
+    Sandbox_SchoolsOut_BlazerStyle_option3 = "2-рядный",
+    Sandbox_SchoolsOut_BlazerStyle_option4 = "3-рядный",
+
+    Sandbox_SchoolsOut_BlazerColor = "Цвет блейзера",
+    Sandbox_SchoolsOut_BlazerColor_tooltip = "Цвет блейзера для сэйфуку-зомби, если он включен.",
+    Sandbox_SchoolsOut_BlazerColor_option1 = "Нет",
+    Sandbox_SchoolsOut_BlazerColor_option2 = "Черный",
+    Sandbox_SchoolsOut_BlazerColor_option3 = "Белый",
+    Sandbox_SchoolsOut_BlazerColor_option4 = "Красный",
+
+    Sandbox_SchoolsOut_SailorColor = "Цвет сэйлор-формы",
+    Sandbox_SchoolsOut_SailorColor_tooltip = "Цвет сэйлор-формы для сэйфуку-зомби. Например, классические бело-синие или красные вариации.",
+    Sandbox_SchoolsOut_SailorColor_option1 = "Нет",
+    Sandbox_SchoolsOut_SailorColor_option2 = "Белый / Синий",
+    Sandbox_SchoolsOut_SailorColor_option3 = "Белый / Красный",
+    Sandbox_SchoolsOut_SailorColor_option4 = "Синий / Синий",
+
+    Sandbox_SchoolsOut_SweaterColor = "Цвет свитера",
+    Sandbox_SchoolsOut_SweaterColor_tooltip = "Цвет свитера для сэйфуку-зомби.",
+    Sandbox_SchoolsOut_SweaterColor_option1 = "Нет",
+    Sandbox_SchoolsOut_SweaterColor_option2 = "Черный",
+    Sandbox_SchoolsOut_SweaterColor_option3 = "Белый",
+    Sandbox_SchoolsOut_SweaterColor_option4 = "Бежевый",
+    Sandbox_SchoolsOut_SweaterColor_option5 = "Красный",
+    Sandbox_SchoolsOut_SweaterColor_option6 = "Синий",
+
+    Sandbox_SchoolsOut_BottomStyle = "Тип низа",
+    Sandbox_SchoolsOut_BottomStyle_tooltip = "Тип низа для сэйфуку-зомби. Некоторые варианты не подходят для определённых стилей.",
+    Sandbox_SchoolsOut_BottomStyle_option1 = "Нет",
+    Sandbox_SchoolsOut_BottomStyle_option2 = "Стандартный",
+    Sandbox_SchoolsOut_BottomStyle_option3 = "Ретро (80-е)",
+
+    Sandbox_SchoolsOut_BottomColor = "Цвет низа",
+    Sandbox_SchoolsOut_BottomColor_tooltip = "Цвет низа для сэйфуку-зомби.",
+    Sandbox_SchoolsOut_BottomColor_option1 = "Нет",
+    Sandbox_SchoolsOut_BottomColor_option2 = "Черный",
+    Sandbox_SchoolsOut_BottomColor_option3 = "Белый",
+
+    Sandbox_SchoolsOut_RibbonStyleBlazer = "Стиль ленты (блейзер/шорты)",
+    Sandbox_SchoolsOut_RibbonStyleBlazer_tooltip = "Тип ленты для сэйфуку-зомби с блейзером или шортами. Включает стиль NyanCat с яркими элементами.",
+    Sandbox_SchoolsOut_RibbonStyleBlazer_option1 = "Нет",
+    Sandbox_SchoolsOut_RibbonStyleBlazer_option2 = "Обычная",
+    Sandbox_SchoolsOut_RibbonStyleBlazer_option3 = "Классическая лента",
+    Sandbox_SchoolsOut_RibbonStyleBlazer_option4 = "Лента с большим узлом",
+    Sandbox_SchoolsOut_RibbonStyleBlazer_option5 = "Лента-бабочка",
+
+    Sandbox_SchoolsOut_RibbonColor = "Цвет ленты",
+    Sandbox_SchoolsOut_RibbonColor_tooltip = "Цвет ленты для сэйфуку-зомби. Стиль NyanCat добавляет яркие элементы.",
+    Sandbox_SchoolsOut_RibbonColor_option1 = "Нет",
+    Sandbox_SchoolsOut_RibbonColor_option2 = "Черный",
+    Sandbox_SchoolsOut_RibbonColor_option3 = "Белый",
+    Sandbox_SchoolsOut_RibbonColor_option4 = "Красный",
+    Sandbox_SchoolsOut_RibbonColor_option5 = "Синий",
+    Sandbox_SchoolsOut_RibbonColor_option6 = "Желтый",
+
+    Sandbox_SchoolsOut_SwimsuitStyle = "Тип купальника",
+    Sandbox_SchoolsOut_SwimsuitStyle_tooltip = "Тип купальника для сэйфуку-зомби.",
+    Sandbox_SchoolsOut_SwimsuitStyle_option1 = "Нет",
+    Sandbox_SchoolsOut_SwimsuitStyle_option2 = "Старый стиль",
+    Sandbox_SchoolsOut_SwimsuitStyle_option3 = "Новый стиль",
+
+    Sandbox_SchoolsOut_WhiteSwimsuitToggle = "Белый купальник",
+    Sandbox_SchoolsOut_WhiteSwimsuitToggle_tooltip = "Белый купальник для сэйфуку-зомби.",
+
+    Sandbox_SchoolsOut_SpawnChanceModifier = "Модификатор шанса появления",
+    Sandbox_SchoolsOut_SpawnChanceModifier_tooltip = "Определяет частоту появления сэйфуку-зомби в игре. Более высокие значения означают больше таких зомби.",
+
+}

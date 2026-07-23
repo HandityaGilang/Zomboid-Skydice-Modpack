@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\clothes\m_Sapph_waist_apron</m_MaleModel>
+	<m_FemaleModel>Skinned\clothes\f_Sapph_waist_apron</m_FemaleModel>
+	<m_GUID>250d76aa-e75d-4143-96ed-24eb2b724ac7</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\apron\chefapron_PawBlack</textureChoices>
+</clothingItem>

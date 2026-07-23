@@ -1,0 +1,13 @@
+{
+    "ContextMenu_HikeUp": "สั้น",
+    "ContextMenu_LetOut": "ยาว",
+
+    "ContextMenu_Button": "ติดกระดุม",
+    "ContextMenu_Unbutton": "ปลดกระดุม",
+
+    "ContextMenu_Zip": "รูดซิปขึ้น",
+    "ContextMenu_Unzip": "รูดซิปลง",
+
+    "ContextMenu_UpRibbon": "ติดกับเสื้อคลุม",
+    "ContextMenu_DownRibbon": "ติดกับชุดนักเรียน"
+}

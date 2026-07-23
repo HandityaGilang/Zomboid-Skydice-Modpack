@@ -1,0 +1,129 @@
+module Base
+{
+    sound PSCThrowCard
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/throwcard.mp3,
+        }
+    }
+
+    sound PSCDrawCard
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/drawcard.mp3,
+        }
+    }
+
+    sound PSCStartGame
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/startgame.mp3,
+        }
+    }
+
+    sound PSCWin
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/win.mp3,
+        }
+    }
+
+    sound PSCLose
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/lose.mp3,
+        }
+    }
+
+    sound PSCPlayerJoin
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/playerjoin.mp3,
+        }
+    }
+
+    sound PSCPlayerLeave
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/playerleave.mp3,
+        }
+    }
+
+    sound PSCUno
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/uno.mp3,
+        }
+    }
+
+    sound PSCSkipCard
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/skipcard.mp3,
+        }
+    }
+
+    sound PSCReverseCard
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/reversecard.mp3,
+        }
+    }
+
+    sound PSCDrawTwoCard
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/draw2card.mp3,
+        }
+    }
+
+    sound PSCDrawFourCard
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/draw4card.mp3,
+        }
+    }
+
+    sound PSCWildCard
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/wildcard.mp3,
+        }
+    }
+
+    sound PSCVictoryMusic
+    {
+        category = UI,
+        loop = true,
+        clip
+        {
+            file = media/sound/victorymusic.mp3,
+        }
+    }
+}

@@ -1,0 +1,38 @@
+Tooltip_TR = {
+	-- Item tooltip
+	Tooltip_EngineOilPan = "Motordaki yağı tutar.",
+	Tooltip_EngineOilFilter = "Tozu ve kiri filtreleyerek yağın ömrünü uzatır, böylelikle motorun da ömrü uzar.",
+	Tooltip_EngineSparkplug = "Aracın marş basıp çalışabilmesine yarar. Araç o olmadan çalışmaz."
+	Tooltip_EngineCylinderHead = "Silindir kapağı kondisyonu aracın kaç beygir üretebildiğini belirler."
+	Tooltip_EngineHeadGasket = "Silindir kapağı contası silindir kapağını motorda tutar. Eğer kırılırsa soğutucu ve yağ kaybetmeye başlarsın. Üstelik soğutucu ve yağ birbirine karışır."
+	Tooltip_EnginePistons = "Piston kondisyonu aracın kaç beygir üretebildiğini belirler."
+	Tooltip_EngineCrankshaft = "Krank mili kondisyonu aracın kaç beygir üretebildiğini belirler."
+	Tooltip_EngineFlywheel = "Motordan şanzımana güç transfer eder ve aracın çalıştırılmasına yardım eder. Volan ne kadar hafif olursa motorun da bir o kadar hızlı devir artırıp azaltır."
+	Tooltip_EngineStarter = "Aracı çalıştırmaya yarar. Bu olmadan hiçbir yere gidemezsin."
+	Tooltip_EngineTransmission = "Şanzıman vites atmaya yarar. Hasar alması durumunda kötü bir şekilde kayar."
+	Tooltip_EngineTorqueConverter = "Tork konvertörü motoru şanzımana bağlar ve düşük hızlarda torka çarpan uygular. Hasar alması durumunda kötü bir şekilde kayar. Düşük kavraması olan konvertörler gündelik sürüş için idealken, yüksek kavraması olanlar yarış için daha iyi görülür."
+	Tooltip_EngineRadiator = "Radyatörler soğutma sisteminin olmazsa olmazıdır ve soğutucunun çoğunu motorda tutar."
+	Tooltip_EngineFanBelt = "Fan kayışı su pompasına, hidrolik direksiyon pompasına, alternatöre ve klimaya güç verir. Bu olmadan araç pek de dayanmaz."
+	Tooltip_EngineAlternator = "Alternatörler sen aracı sürdükçe aküyü şarj eder. Gücünü fan kayışı aracılığıyla motordan alır."
+	Tooltip_EngineWaterPump = "Su pompası soğutucuyu motordan ve radyatörden dolaştırır. Gücünü fan kayışı aracılığıyla motordan alır."
+	Tooltip_EnginePowerSteeringPump = "Hidrolik direksiyon pompası düşük hızlarda çabucak ve kolayca aracı döndürmenize yarar. ATF ile doldurun. Eğer aracınız dönüşlerde hantallaştıysa bu yüzdendir. Gücünü fan kayışı aracılığıyla motordan alır."
+	Tooltip_EngineBrakeBooster = "Fren güçlendiriciler motor manifoldundan vakum alarak frenlemeye yardımcı olur. Bu olmadan durma gücünüz çok az olacağı için aracı durdurmakta zorluk yaşayacaksınız." 
+	Tooltip_EngineAirConditioner = "Sıcak yaz günlerinde serin tutmaya yarar. Gücünü fan kayışından alır." 
+	Tooltip_EngineHeaterCore = "Soğuk kış günlerinde sıcak tutmaya yarar. Motor soğutucusu kullandığı için sadece motor ısındığında işe yarar." 
+
+	Tooltip_EngineTransmission = "Şanzıman vites atmaya yarar. Hasar alması durumunda kötü bir şekilde kayar."
+	
+	Tooltip_EngineTransmission3S = "2.6, 1.6, 1.0 oranlarına sahip 3 ileri bir şanzımandır. Hasar alması durumunda kötü bir şekilde kayar."
+	Tooltip_EngineTransmission4S = "2.6, 1.6, 1.23, 1.0 oranlarına sahip 4 ileri bir şanzımandır. Hasar alması durumunda kötü bir şekilde kayar."
+	Tooltip_EngineTransmissionHT4S = "3.0, 2.3, 1.7, 1.0 oranlarına sahip 4 ileri yüksek tork bir şanzımandır. Hasar alması durumunda kötü bir şekilde kayar."
+	Tooltip_EngineTransmission5S = "2.6, 1.6, 1.23, 1.0, 0.9 oranlarına sahip 5 ileri bir şanzımandır. Hasar alması durumunda kötü bir şekilde kayar."
+	Tooltip_EngineTransmission8S = "4.0, 2.5, 1.9, 1.5, 1.3, 1.1, 0.9, 0.8 oranlarına sahip 8 ileri bir şanzımandır. Hasar alması durumunda kötü bir şekilde kayar."
+	
+	
+	Tooltip_EngineTorqueConverterLS = "Düşük kavrama tork konvertörü gündelik sürüşler için idealdir. Motoru şanzımana bağlar ve düşük hızlarda torka çarpan uygular. Hasar alması durumunda kötü bir şekilde kayar."
+	Tooltip_EngineTorqueConverterMS = "Orta kavrama tork konvertörü spor araçlar veya daha yüksek devirli motorlar için idealdir. Motoru şanzımana bağlar ve düşük hızlarda torka çarpan uygular. Hasar alması durumunda kötü bir şekilde kayar."
+	Tooltip_EngineTorqueConverterHS = "Yüksek kavrama tork konvertörü yarışlar için iyidir. Yakıt tüketimi kıyasla fazla olmasına rağmen en hızlı ivmeyi sunar. Motoru şanzımana bağlar ve düşük hızlarda torka çarpan uygular. Hasar alması durumunda kötü bir şekilde kayar."
+
+	Tooltip_ToolKit = "Pense, tornavida ve İngiliz anahtarı seti ile donatılmış bir alet kiti.",
+
+}

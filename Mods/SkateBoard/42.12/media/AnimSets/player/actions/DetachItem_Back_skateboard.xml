@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="AttachItem_Back_skateboard.xml">
+	<m_Name>DetachItem_Back_skateboard</m_Name>
+	<m_AnimName>Bob_Skateboard_IdleToAim</m_AnimName>
+	<m_ConditionPriority>10</m_ConditionPriority>
+	<m_Conditions>
+		<m_StringValue>DetachItem</m_StringValue>
+	</m_Conditions>
+	<m_Conditions>
+        <m_Name>SkateboardHeld</m_Name>
+        <m_Type>BOOL</m_Type>
+        <m_Value>true</m_Value>
+    </m_Conditions>
+	<m_Conditions>
+		<m_Name>AttachAnim</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_StringValue>back</m_StringValue>
+	</m_Conditions>
+	<m_Events>
+		<m_EventName>detachConnect</m_EventName>
+	</m_Events>
+</animNode>
