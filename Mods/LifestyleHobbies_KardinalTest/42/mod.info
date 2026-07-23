@@ -1,0 +1,15 @@
+﻿name=LifestyleHobbies_KardinalTest
+id=LifestyleHobbies_KardinalTest
+description=Standalone secure B42 MP rebuild of Lifestyle: Hobbies 0.4.0. Works alone without Kardinal or other packs. Original concept/assets by Angry. Do not enable together with LifestyleHobbies.
+incompatible=LifestyleHobbies
+pack=LS_Tiles
+pack=LS_Tiles.floor
+pack=LS_Artwork
+pack=LS_Artwork2
+pack=LS_Artwork2.floor
+pack=LS_Farming
+tiledef=LS_Tiles 5620
+poster=poster.png
+author=Angry; Kardinal test team
+modversion=0.4.0-test.1
+url=https://steamcommunity.com/sharedfiles/filedetails/?id=3403870858
