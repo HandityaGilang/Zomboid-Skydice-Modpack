@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes2\BootsRE_LegWarmer\MJ_LegWarmer_KneeLow_M.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes2\BootsRE_LegWarmer\MJ_LegWarmer_KneeLow_F.fbx</m_FemaleModel>
+	<m_GUID>e3744f44-3c02-43f9-8b61-c1ba177b5406</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>	
+	<m_Masks>11</m_Masks>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Masks/Special/Masks_WomensShoe_2B</m_UnderlayMasksFolder>
+	<textureChoices>clothes\Shoes2\BootsRE_LegWarmer_MJ\ShoeRE_LegWarmer_A0</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_LegWarmer_MJ\ShoeRE_LegWarmer_A1</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_LegWarmer_MJ\ShoeRE_LegWarmer_A5</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_LegWarmer_MJ\ShoeRE_LegWarmer_A6</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_LegWarmer_MJ\ShoeRE_LegWarmer_A8</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_LegWarmer_MJ\ShoeRE_LegWarmer_A10</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_LegWarmer_MJ\ShoeRE_LegWarmer_B0</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_LegWarmer_MJ\ShoeRE_LegWarmer_B1</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_LegWarmer_MJ\ShoeRE_LegWarmer_B2</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_LegWarmer_MJ\ShoeRE_LegWarmer_B3</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_LegWarmer_MJ\ShoeRE_LegWarmer_B4</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_LegWarmer_MJ\ShoeRE_LegWarmer_B5</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_LegWarmer_MJ\ShoeRE_LegWarmer_B6</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_LegWarmer_MJ\ShoeRE_LegWarmer_B7</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_LegWarmer_MJ\ShoeRE_LegWarmer_B8</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_LegWarmer_MJ\ShoeRE_LegWarmer_B9</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_LegWarmer_MJ\ShoeRE_LegWarmer_B11</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_LegWarmer_MJ\ShoeRE_LegWarmer_B12</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_LegWarmer_MJ\ShoeRE_LegWarmer_B13</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_LegWarmer_MJ\ShoeRE_LegWarmer_B14</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_LegWarmer_MJ\ShoeRE_LegWarmer_B15</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_LegWarmer_MJ\ShoeRE_LegWarmer_B16</textureChoices>
+	
+</clothingItem>

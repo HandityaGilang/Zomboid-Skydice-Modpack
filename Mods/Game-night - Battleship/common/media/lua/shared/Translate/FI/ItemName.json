@@ -1,0 +1,11 @@
+{
+    "Base.BattleShip_Box": "Battleship Box",
+    "Base.BattleShip_GameStand": "Battleship Gamestand",
+    "Base.BattleShip_Peg_Red": "Punainen Peg",
+    "Base.BattleShip_Peg_White": "Valkoinen Peg",
+    "Base.BattleShip_Ship_Battleship": "Taistelulaiva",
+    "Base.BattleShip_Ship_Carrier": "Kuljettaja",
+    "Base.BattleShip_Ship_Destroyer": "Hävittäjä",
+    "Base.BattleShip_Ship_Submarine": "Sukellusvene",
+    "Base.BattleShip_Ship_PatrolBoat": "Partiovene"
+}

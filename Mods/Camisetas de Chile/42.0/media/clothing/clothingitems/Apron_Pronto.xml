@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\Bob_Apron</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\Kate_Apron</m_FemaleModel>
+	<m_GUID>967a8011-b9bd-4ed1-a984-53c5e7e9270b</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes/Apron/Apron_Pronto</textureChoices>
+</clothingItem>

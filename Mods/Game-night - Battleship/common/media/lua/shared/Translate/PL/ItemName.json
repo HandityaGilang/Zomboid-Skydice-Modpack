@@ -1,0 +1,11 @@
+{
+    "Base.BattleShip_Box": "Pudełko z pancernikiem",
+    "Base.BattleShip_GameStand": "Stojak na pancerniki",
+    "Base.BattleShip_Peg_Red": "Czerwony kołek",
+    "Base.BattleShip_Peg_White": "Biały kołek",
+    "Base.BattleShip_Ship_Battleship": "Okręt wojenny",
+    "Base.BattleShip_Ship_Carrier": "Przewoźnik",
+    "Base.BattleShip_Ship_Destroyer": "Niszczyciel",
+    "Base.BattleShip_Ship_Submarine": "Podwodny",
+    "Base.BattleShip_Ship_PatrolBoat": "Łódź patrolowa"
+}

@@ -1,0 +1,91 @@
+local function copyBodyLocationProperties(oldGroup, oldLocID, newGroup)
+	for k = 0, oldGroup:size()-1 do
+		local otherLocID = oldGroup:getLocationByIndex(k):getId()
+		if oldGroup:isExclusive(oldLocID, otherLocID)
+		then
+			newGroup:setExclusive(oldLocID, otherLocID)
+		end
+		if oldGroup:isHideModel(oldLocID, otherLocID)
+		then
+			newGroup:setHideModel(oldLocID, otherLocID)
+		end
+		if oldGroup:isAltModel(oldLocID, otherLocID)
+		then
+			newGroup:setAltModel(oldLocID, otherLocID)
+		end
+	end
+end
+
+local function addBodyLocationAt(groupName, name, reference, before)
+	local newLocID
+	local result
+	-- if not string assume name is already an ItemBodyLocation
+	-- otherwise get ResourceLocation and then ItemBodyLocation
+	if type(name) ~= "string"
+	then
+		newLocID = name
+	else
+		newLocID = ItemBodyLocation.get(ResourceLocation.of(name))
+	end
+	local refLocID
+	-- do same check as for name
+	if type(reference) ~= "string"
+	then
+		refLocID = reference
+	else
+		refLocID = ResourceLocation.of(reference)
+    end
+	-- get list (!!actually a view!!) of all groups and copy to array (BodyLocations.reset() will also clear the view)
+	local allGroupsList = BodyLocations.getAllGroups()
+	local allGroups = {}
+	for i = 0, allGroupsList:size()-1 do
+		allGroups[i + 1] = allGroupsList:get(i)
+	end
+	BodyLocations.reset()
+	-- recreate all groups/bodylocations and insert new bodylocation
+	for i = 1, #allGroups do
+		local oldGroup = allGroups[i]
+		local newGroup = BodyLocations.getGroup(oldGroup:getId())
+		-- copy all bodylocations from old to new group
+		for j = 0, oldGroup:size()-1 do
+			local oldLoc = oldGroup:getLocationByIndex(j)
+			-- check if should add new bodylocation to this group
+			local isTargetGroupAndLoc = oldGroup:getId() == groupName and refLocID == oldLoc:getId()
+			if isTargetGroupAndLoc and before
+			then
+				result = newGroup:getOrCreateLocation(newLocID)
+			end
+			newGroup:getOrCreateLocation(oldLoc:getId())
+			if isTargetGroupAndLoc and not before
+			then
+				result = newGroup:getOrCreateLocation(newLocID)
+			end
+		end
+		-- copy bodylocation properties from old groups to new groups
+		for j = 0, oldGroup:size()-1 do
+			local oldLoc = oldGroup:getLocationByIndex(j)
+			for j = 0, oldGroup:size()-1 do
+				local oldLocID = oldGroup:getLocationByIndex(j):getId()
+				newGroup:setMultiItem(oldLocID, oldGroup:isMultiItem(oldLocID))
+				copyBodyLocationProperties(oldGroup, oldLocID, newGroup)
+			end
+		end
+	end
+	return result;
+end
+
+-- create the new location and add to "Human" group after base:fullrobe
+local newLoc = addBodyLocationAt("Human", "FS2:KIU3", 		ItemBodyLocation.UNDERWEAR_EXTRA1, false)
+local newLoc = addBodyLocationAt("Human", "FS2:KIU2", 		ItemBodyLocation.UNDERWEAR_EXTRA1, false)
+local newLoc = addBodyLocationAt("Human", "FS2:KIU1", 		ItemBodyLocation.UNDERWEAR_EXTRA1, false)
+local newLoc = addBodyLocationAt("Human", "FS2:KIU0", 		ItemBodyLocation.UNDERWEAR_EXTRA1, false)
+		
+local newLoc = addBodyLocationAt("Human", "FS2:KIUA", 		ItemBodyLocation.HAT, false)
+local newLoc = addBodyLocationAt("Human", "FS2:KIUB", 		ItemBodyLocation.HAT, false)
+local newLoc = addBodyLocationAt("Human", "FS2:KIUC", 		ItemBodyLocation.HAT, false)
+
+local newLoc = addBodyLocationAt("Human", "FS2:RightLeg", 	ItemBodyLocation.NECK, false)
+local newLoc = addBodyLocationAt("Human", "FS2:LeftLeg", 	ItemBodyLocation.NECK, false)
+
+local newLoc = addBodyLocationAt("Human", "FS2:KIUX", 		ItemBodyLocation.SWEATER, false)
+	  newLoc:setHideModel(ItemBodyLocation.TankTop)

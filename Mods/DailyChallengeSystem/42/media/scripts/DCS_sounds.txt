@@ -1,0 +1,41 @@
+module Base
+{
+    sound DCS_complete
+    {
+        category = UI,
+        loop = false,
+        is3D = false,
+        clip
+        {
+            file = media/sounds/DCS_complete.ogg,
+            distanceMax = 1,
+            volume = 0.3,
+        }
+    }
+
+    sound DCS_reset
+    {
+        category = UI,
+        loop = false,
+        is3D = false,
+        clip
+        {
+            file = media/sounds/DCS_reset.ogg,
+            distanceMax = 1,
+            volume = 0.3,
+        }
+    }
+
+    sound DCS_reward
+    {
+        category = UI,
+        loop = false,
+        is3D = false,
+        clip
+        {
+            file = media/sounds/DCS_reward.ogg,
+            distanceMax = 1,
+            volume = 0.3,
+        }
+    }
+}

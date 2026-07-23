@@ -1,0 +1,12 @@
+ContextMenu_JP = {
+    /* Opciones para las Gorras */
+    ContextMenu_ForwardCap = "つばを前にする",
+    ContextMenu_ReverseCap = "つばを後ろにする",
+
+    /* Opciones para los Delantales */
+    ContextMenu_Arremangar = "胸元で着る",
+    ContextMenu_Desarremangar = "腰で着る",
+    
+    /* Nombre del Submenú */
+    ContextMenu_Ajustar_Prenda = "着こなしを変える"
+}

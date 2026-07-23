@@ -1,0 +1,20 @@
+Sandbox_JP = {
+    -- Título de la sección en el menú Sandbox
+    Sandbox_ArtequinClothesSandbox = "Artequin's Clothes: 出現設定",
+
+    -- Variable para activar/desactivar
+    Sandbox_ArtequinClothes_EnableMod = "Artequin's Clothesを有効化",
+    Sandbox_ArtequinClothes_EnableMod_Tooltip = "MODの衣装やアイテム出現の有効・無効を切り替えます。",
+
+    -- Configuración de Outfits en Zombis
+    Sandbox_ArtequinClothes_ZombieOutfitMultiplier = "[衣装] MOD衣装を着たゾンビの密度",
+    Sandbox_ArtequinClothes_ZombieOutfitMultiplier_Tooltip = "MODの衣装を着てスポーンするゾンビの確率を倍増させます。 <LINE> <RGB:1,0.5,0> 注意: </RGB> 数値を高くしすぎると（例: 5.0）、同じ格好のゾンビばかりになる可能性があります。",
+
+    -- Configuración de Loot en Inventario de Zombis
+    Sandbox_ArtequinClothes_ZombieLootMultiplier = "[ドロップ] ゾンビの所持アイテム量",
+    Sandbox_ArtequinClothes_ZombieLootMultiplier_Tooltip = "ゾンビのインベントリ内に生成されるアイテムの量を倍増させます。 <LINE> <RGB:1,1,0> 備考: </RGB> 衣類の希少価値を保つため、低めの値（1.0 - 2.0）に設定することをお勧めします。",
+
+    -- Configuración de Loot en Contenedores del Mundo
+    Sandbox_ArtequinClothes_WorldLootMultiplier = "[ワールド] 収納棚や容器内での出現率",
+    Sandbox_ArtequinClothes_WorldLootMultiplier_Tooltip = "タンスやクローゼット、店舗などの容器内に出現するアイテム量を倍増させます。 <LINE> <RGB:1,0,0> 重要: </RGB> 極端に高い値に設定すると、バニラのアイテムが出現しにくくなる恐れがあります。"
+}

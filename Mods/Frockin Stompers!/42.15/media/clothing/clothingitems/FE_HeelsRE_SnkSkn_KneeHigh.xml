@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes2\BootsRE_Heels\HeelsRE_KneeHigh_M.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes2\BootsRE_Heels\HeelsRE_KneeHigh_F.fbx</m_FemaleModel>
+	<m_GUID>a1c5d072-00a1-4053-a40c-c85c1ed3987e</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>	
+	<m_Masks>8</m_Masks>	
+	<m_Masks>10</m_Masks>
+	<m_Masks>11</m_Masks>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Masks/Masks_MediumBoots_2C</m_UnderlayMasksFolder>
+	<textureChoices>clothes\Shoes2\BootsRE_HighHeelsPointy\Boots_Leather_Pointy_1</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_HighHeelsPointy\Boots_Leather_Pointy_2</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_HighHeelsPointy\Boots_Leather_Pointy_3</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_HighHeelsPointy\Boots_Leather_Pointy_4</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_HighHeelsPointy\Boots_Leather_Pointy_5</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_HighHeelsPointy\Boots_Leather_Pointy_6</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_HighHeelsPointy\Boots_Leather_Pointy_7</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_HighHeelsPointy\Boots_Leather_Pointy_8</textureChoices>
+	
+</clothingItem>

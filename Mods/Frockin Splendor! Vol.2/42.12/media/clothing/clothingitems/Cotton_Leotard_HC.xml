@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>7d26e7af-c7b0-49d9-aa0e-15f5989f93bd</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>true</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Cotton\Leotards\Cotton_Leotard_HC_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Leotards\Cotton_Leotard_HC_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Leotards\Cotton_Leotard_HC_3A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Leotards\Cotton_Leotard_HC_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Leotards\Cotton_Leotard_HC_6</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Leotards\Cotton_Leotard_HC_7</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Leotards\Cotton_Leotard_HC_9</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Leotards\Cotton_Leotard_HC_10</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Leotards\Cotton_Leotard_HC_11</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Leotards\Cotton_Leotard_HC_12</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Leotards\Cotton_Leotard_HC_13</m_BaseTextures>
+</clothingItem>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+<files>
+		<path>media/clothing/clothingItems/6PackCansLeft.xml</path>
+		<guid>0d7dd254-0cec-4613-af2d-2df0c197e172</guid>
+</files>
+<files>
+		<path>media/clothing/clothingItems/6PackCansRight.xml</path>
+		<guid>0d7dd254-0cec-4613-af2d-2df0c197e171</guid>
+</files>
+<files>
+		<path>media/clothing/clothingItems/PropaneTankLeft.xml</path>
+		<guid>0d7dd254-0cec-4613-af2d-2df0c197e162</guid>
+</files>
+<files>
+		<path>media/clothing/clothingItems/PropaneTankRight.xml</path>
+		<guid>0d7dd254-0cec-4613-af2d-2df0c197e161</guid>
+</files>
+<files>
+		<path>media/clothing/clothingItems/Log1StackHandsLeft.xml</path>
+		<guid>15ad4210-2264-451a-a018-a15522fcfc15</guid>
+</files>
+<files>
+		<path>media/clothing/clothingItems/Log1StackHandsRight.xml</path>
+		<guid>15ad4210-2264-451a-a018-a15522fcfc14</guid>
+</files>
+<files>
+		<path>media/clothing/clothingItems/Log2StackHandsLeft.xml</path>
+		<guid>15ad4210-2264-451a-a018-a15522fcfc13</guid>
+</files>
+<files>
+		<path>media/clothing/clothingItems/Log2StackHandsRight.xml</path>
+		<guid>15ad4210-2264-451a-a018-a15522fcfc12</guid>
+</files>
+<files>
+		<path>media/clothing/clothingItems/Log3StackHandsLeft.xml</path>
+		<guid>15ad4210-2264-451a-a018-a15522fcfc25</guid>
+</files>
+<files>
+		<path>media/clothing/clothingItems/Log3StackHandsRight.xml</path>
+		<guid>15ad4210-2264-451a-a018-a15522fcfc24</guid>
+</files>
+<files>
+		<path>media/clothing/clothingItems/Log4StackHandsLeft.xml</path>
+		<guid>15ad4210-2264-451a-a018-a15522fcfc11</guid>
+</files>
+<files>
+		<path>media/clothing/clothingItems/Log4StackHandsRight.xml</path>
+		<guid>15ad4210-2264-451a-a018-a15522fcfc10</guid>
+</files>
+
+</fileGuidTable>

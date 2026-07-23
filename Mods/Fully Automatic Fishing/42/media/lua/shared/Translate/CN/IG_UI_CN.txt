@@ -1,0 +1,12 @@
+IG_UI_CN = {
+    IGUI_AutoFish_Reason_Moved = "玩家移动",
+    IGUI_AutoFish_Reason_Vehicle = "玩家在载具中",
+    IGUI_AutoFish_Msg_Baited = "自动挂饵: %1",
+    IGUI_AutoFish_Msg_Stopped = "自动钓鱼: 已停止 (%1)",
+    IGUI_AutoFish_Msg_NoRod = "自动钓鱼: 未装备鱼竿!",
+    IGUI_AutoFish_Msg_NoWater = "自动钓鱼: 附近无水源!",
+    IGUI_AutoFish_Msg_Toggle = "自动钓鱼: %1",
+    IGUI_AutoFish_Status_ON = "开启",
+    IGUI_AutoFish_Status_OFF = "关闭",
+    IGUI_AutoFish_ContextMenu = "自动钓鱼 (B42 %1): %2",
+}

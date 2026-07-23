@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes\Bob_Boots_Generic.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\Boots_FS3_Remake\FSV_BootsNew.fbx</m_FemaleModel>
+	<m_GUID>9bb78f79-e2e2-4467-9c1a-3362b882435d</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>	
+	<m_Masks>8</m_Masks>	
+	<m_Masks>10</m_Masks>		
+	<textureChoices>clothes\Shoes\Boots_Heels\Boots_Leather_1X</textureChoices>
+</clothingItem>

@@ -1,0 +1,12 @@
+ContextMenu_PL = {
+    /* Opciones para las Gorras */
+    ContextMenu_ForwardCap = "Daszek do przodu",
+    ContextMenu_ReverseCap = "Daszek do tyłu",
+
+    /* Opciones para los Delantales */
+    ContextMenu_Arremangar = "Załóż na klatkę",
+    ContextMenu_Desarremangar = "Zwiąż w pasie",
+    
+    /* Nombre del Submenú */
+    ContextMenu_Ajustar_Prenda = "Dopasuj odzież"
+}

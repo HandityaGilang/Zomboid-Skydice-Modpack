@@ -1,0 +1,15 @@
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_jacketleather_fat</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\kate_jacketleather_fat</m_FemaleModel>
+	<m_GUID>bcaa4410-e333-49a9-b06d-78ec16ff8b8c</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone />
+	<m_Masks>12</m_Masks>
+	<m_Masks>13</m_Masks>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Jacket/Masks_Leather</m_UnderlayMasksFolder>
+	<textureChoices>clothes\jacket\jacket_leather_wildraccoons</textureChoices>
+</clothingItem>

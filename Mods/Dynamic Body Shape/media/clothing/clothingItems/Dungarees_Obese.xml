@@ -1,0 +1,12 @@
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_dungerees_obese</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\kate_dungerees_obese</m_FemaleModel>
+	<m_GUID>f5006d92-1880-4303-a85d-d541ca405dda</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone />
+	<m_Masks>2</m_Masks>
+	<m_Masks>7</m_Masks>
+	<m_Masks>9</m_Masks>
+	<textureChoices>clothes\dungarees\dungerees</textureChoices>
+</clothingItem>

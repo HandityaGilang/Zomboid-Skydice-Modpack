@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes2\BootsRE_LegWarmer\BootsRE_LegWarmer_KneeHigh_M.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes2\BootsRE_LegWarmer\BootsRE_LegWarmer_KneeHigh_F.fbx</m_FemaleModel>
+	<m_GUID>33ea1b5c-31fb-4c73-8653-3143c85e46b2</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>	
+	<m_Masks>8</m_Masks>	
+	<m_Masks>10</m_Masks>
+	<m_Masks>11</m_Masks>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Masks/Masks_MediumBoots_2A</m_UnderlayMasksFolder>
+	<textureChoices>clothes\Shoes2\BootsRE_Gaiters\ShoeRE_Gaiters_A1</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Gaiters\ShoeRE_Gaiters_A3</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Gaiters\ShoeRE_Gaiters_A4</textureChoices>	
+	<textureChoices>clothes\Shoes2\BootsRE_Gaiters\ShoeRE_Gaiters_B1</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Gaiters\ShoeRE_Gaiters_B3</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Gaiters\ShoeRE_Gaiters_B4</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Gaiters\ShoeRE_Gaiters_C1</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Gaiters\ShoeRE_Gaiters_C2</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Gaiters\ShoeRE_Gaiters_C3</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Gaiters\ShoeRE_Gaiters_C4</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Gaiters\ShoeRE_Gaiters_D1</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Gaiters\ShoeRE_Gaiters_D2</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Gaiters\ShoeRE_Gaiters_D3</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Gaiters\ShoeRE_Gaiters_E2</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Gaiters\ShoeRE_Gaiters_E3</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Gaiters\ShoeRE_Gaiters_F1</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Gaiters\ShoeRE_Gaiters_F2</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Gaiters\ShoeRE_Gaiters_F3</textureChoices>
+	
+</clothingItem>

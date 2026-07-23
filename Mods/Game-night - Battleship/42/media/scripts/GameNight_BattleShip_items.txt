@@ -1,0 +1,87 @@
+module Base
+{
+    item BattleShip_Box
+    {
+        DisplayCategory = GameBox,
+        ItemType = base:container,
+        Icon = Battleship_Box,
+        WorldStaticModel = WorldItem-Battleship_Box,
+        Weight = 2,
+		Capacity = 2,
+		WeightReduction = 20,
+    }
+
+    item BattleShip_GameStand
+    {
+        DisplayCategory = GameBoard,
+        ItemType = base:container,
+        Icon = OutOfPlayTextures/BattleShip_GameStand,
+        WorldStaticModel = WorldItem-Battleship_Stand,
+        Weight = 0.4,
+        Capacity = 1,
+		WeightReduction = 20,
+    }
+
+    item BattleShip_Peg_Red
+    {
+        DisplayCategory = GamePiece,		
+        ItemType = base:normal,
+        Icon = OutOfPlayTextures/BattleShip_Peg_Red,
+        WorldStaticModel = WorldItem-Battleship_Peg_Red,
+        Weight = 0.001,
+    }
+
+    item BattleShip_Peg_White
+    {
+        DisplayCategory = GamePiece,		
+        ItemType = base:normal,
+        Icon = OutOfPlayTextures/BattleShip_Peg_White,
+        WorldStaticModel = WorldItem-Battleship_Peg_White,
+        Weight = 0.001,
+    }
+
+    item BattleShip_Ship_Carrier
+    {
+        DisplayCategory = GamePiece,		
+        ItemType = base:normal,
+        Icon = OutOfPlayTextures/BattleShip_Ship_Carrier,
+        WorldStaticModel = WorldItem-Battleship_Carrier,
+        Weight = 0.02,
+    }
+
+    item BattleShip_Ship_Battleship
+    {
+        DisplayCategory = GamePiece,		
+        ItemType = base:normal,
+        Icon = OutOfPlayTextures/BattleShip_Ship_Battleship,
+        WorldStaticModel = WorldItem-Battleship_Battleship,
+        Weight = 0.02,
+    }
+
+    item BattleShip_Ship_Destroyer
+    {
+        DisplayCategory = GamePiece,		
+        ItemType = base:normal,
+        Icon = OutOfPlayTextures/BattleShip_Ship_Destroyer,
+        WorldStaticModel = WorldItem-Battleship_Destroyer,
+        Weight = 0.02,
+    }
+
+    item BattleShip_Ship_Submarine
+    {
+        DisplayCategory = GamePiece,		
+        ItemType = base:normal,
+        Icon = OutOfPlayTextures/BattleShip_Ship_Submarine,
+        WorldStaticModel = WorldItem-Battleship_Submarine,
+        Weight = 0.02,
+    }
+
+    item BattleShip_Ship_PatrolBoat
+    {
+        DisplayCategory = GamePiece,		
+        ItemType = base:normal,
+        Icon = OutOfPlayTextures/BattleShip_Ship_PatrolBoat,
+        WorldStaticModel = WorldItem-Battleship_PatrolBoat,
+        Weight = 0.02,
+    }	
+}

@@ -1,0 +1,9 @@
+Items_CH = {
+    DisplayName_BlankSurvivalJournal = "绌虹櫧鐢熷瓨鏃ュ織",
+    DisplayName_BlankSurvivalJournal_Worn = "鐮存棫绌虹櫧鐢熷瓨鏃ュ織",
+    DisplayName_BlankSurvivalJournal_Bloody = "娌捐绌虹櫧鐢熷瓨鏃ュ織",
+    DisplayName_FilledSurvivalJournal = "已填写生存日志",
+    DisplayName_FilledSurvivalJournal_Worn = "鐮存棫鐢熷瓨鏃ュ織",
+    DisplayName_FilledSurvivalJournal_Bloody = "娌捐鐢熷瓨鏃ュ織",
+    DisplayName_CursedJournal = "璇呭拻鏃ュ織",
+}

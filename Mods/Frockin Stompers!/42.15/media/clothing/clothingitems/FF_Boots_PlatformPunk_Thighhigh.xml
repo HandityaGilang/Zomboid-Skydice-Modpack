@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes\Boots_Platform\BootsRE_Platform_ThighHigh_M.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\Boots_Platform\BootsRE_Platform_ThighHigh_F.fbx</m_FemaleModel>
+	<m_GUID>713bb014-0fee-449e-9286-1e6ab3d24e15</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>	
+	<m_Masks>8</m_Masks>	
+	<m_Masks>10</m_Masks>
+	<m_Masks>11</m_Masks>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Masks/Masks_TallBoots</m_UnderlayMasksFolder>
+	<textureChoices>clothes\Shoes\BootsRE_Platform\BootsRE_Leather_Platform_2B</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE_Platform\BootsRE_Leather_Platform_2C</textureChoices>
+
+</clothingItem>

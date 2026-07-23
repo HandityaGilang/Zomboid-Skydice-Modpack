@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes\ShoesRE_Women_M.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\ShoesRE_Women_F.fbx</m_FemaleModel>
+	<m_GUID>f6b27bb5-b736-4bd7-afb1-689ecb9a9c52</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>11</m_Masks>	
+	<m_UnderlayMasksFolder>media\textures\clothes\Masks\Mask_WomensShoe</m_UnderlayMasksFolder>	
+	<textureChoices>clothes\Shoes\ShoesRE\Shoes_Women_1</textureChoices>
+	<textureChoices>clothes\Shoes\ShoesRE\Shoes_Women_1A</textureChoices>
+	<textureChoices>clothes\Shoes\ShoesRE\Shoes_Women_2</textureChoices>
+	<textureChoices>clothes\Shoes\ShoesRE\Shoes_Women_3</textureChoices>
+	<textureChoices>clothes\Shoes\ShoesRE\Shoes_Women_4</textureChoices>
+	<textureChoices>clothes\Shoes\ShoesRE\Shoes_Women_5</textureChoices>
+	<textureChoices>clothes\Shoes\ShoesRE\Shoes_Women_6</textureChoices>
+</clothingItem>

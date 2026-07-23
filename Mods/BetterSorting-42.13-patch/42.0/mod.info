@@ -1,0 +1,9 @@
+name=Better Sorting 42.13+ Patch
+id=BetterSort42-13Patch
+modversion=1.0.0
+author=pimatstudio
+description=Compatibility patch for Better Sorting 42 that applies the Build 42.13+ item categorizer fix.
+require=\BetterSortCC42
+poster=poster.png
+icon=mini-poster.png
+versionMin=42.13.0

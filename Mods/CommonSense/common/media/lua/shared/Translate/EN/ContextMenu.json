@@ -1,0 +1,14 @@
+{
+  "ContextMenu_CS_PryOpen": "Pry Open",
+  "ContextMenu_CS_PryOpen_Door": "Force open door",
+  "ContextMenu_CS_PryOpen_Window": "Force open window",
+  "ContextMenu_CS_Pickup_Logs": "Pick up logs",
+  "ContextMenu_CS_Pickup_Trash": "Pick up trash",
+  "ContextMenu_CS_Only": "Only...",
+  "ContextMenu_CS_WashEquippedOnly": "Equipped Only",
+  "ContextMenu_CS_WashUnequippedOnly": "Unequipped Only",
+  "ContextMenu_CS_WashWeaponsOnly": "Weapons Only",
+  "ContextMenu_CS_Equip": "Equip",
+  "ContextMenu_CS_Replace_Bandage": "Replace bandage",
+  "ContextMenu_CS_ReloadAllMags": "Reload all magazines"
+}

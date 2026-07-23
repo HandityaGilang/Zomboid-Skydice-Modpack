@@ -1,0 +1,76 @@
+module Base
+{
+
+	item Box_FrockinStompersShoeBox
+	{
+		DisplayName = Shoe Box,
+		DisplayCategory = Container,
+		ItemType = base:container,
+		Type = Container,
+		Weight = 0.2,
+		Icon = FStmprShoebox,
+		Capacity = 10,
+		CloseSound = CloseShoeBox,
+        OpenSound = OpenShoeBox,
+        PutInSound = StoreItemShoeBox,
+		WeightReduction = 50,
+		WorldStaticModel = FrockinStompersShoeBox,
+		Tags = base:neverempty;base:isfirefuel;base:isfiretinder;base:bagsfillexception,
+		MaxItemSize = 5.0,
+	}
+	
+	item Box_FrockinStompersShoeBoxLuxury
+	{
+		DisplayName = Luxury Shoe Box,
+		DisplayCategory = Container,
+		ItemType = base:container,
+		Type = Container,
+		Weight = 0.2,
+		Icon = FStmprShoeboxLuxury,
+		Capacity = 10,
+		CloseSound = CloseShoeBox,
+        OpenSound = OpenShoeBox,
+        PutInSound = StoreItemShoeBox,
+		WeightReduction = 50,
+		WorldStaticModel = FrockinStompersShoeBoxLuxury,
+		Tags = base:neverempty;base:isfirefuel;base:isfiretinder;base:bagsfillexception,
+		MaxItemSize = 5.0,
+	}
+	
+	item Box_FrockinStompersShoeBoxLong
+	{
+		DisplayName = Shoe Box - Long,
+		DisplayCategory = Container,
+		ItemType = base:container,
+		Type = Container,
+		Weight = 0.6,
+		Icon = FStmprShoebox,
+		Capacity = 12,
+		CloseSound = CloseShoeBox,
+        OpenSound = OpenShoeBox,
+        PutInSound = StoreItemShoeBox,
+		WeightReduction = 50,
+		WorldStaticModel = FrockinStompersShoeBoxLong,
+		Tags = base:neverempty;base:isfirefuel;base:isfiretinder;base:bagsfillexception,
+		MaxItemSize = 5.0,
+	}
+	
+	item Box_FrockinStompersShoeBoxLongLuxury
+	{
+		DisplayName = Luxury Shoe Box - Long,
+		DisplayCategory = Container,
+		ItemType = base:container,
+		Type = Container,
+		Weight = 0.6,
+		Icon = FStmprShoeboxLuxury,
+		Capacity = 12,
+		CloseSound = CloseShoeBox,
+        OpenSound = OpenShoeBox,
+        PutInSound = StoreItemShoeBox,
+		WeightReduction = 50,
+		WorldStaticModel = FrockinStompersShoeBoxLuxuryLong,
+		Tags = base:neverempty;base:isfirefuel;base:isfiretinder;base:bagsfillexception,
+		MaxItemSize = 5.0,
+	}
+	
+}

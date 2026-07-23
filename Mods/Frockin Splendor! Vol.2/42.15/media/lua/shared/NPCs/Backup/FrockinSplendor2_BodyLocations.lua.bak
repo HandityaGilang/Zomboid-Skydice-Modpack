@@ -1,0 +1,310 @@
+--Based on RabenRabo's bodylocation solution from their mod "Fantasy Bodyparts" and "Fantasy Legs" sub-mod.
+--Modified by GanydeBielovzki with permission for batch use for the Frockin' Splendor franchise and spin-offs.
+--To copy, further modify or otherwise use this code the original creator and the modifier must be credited.
+
+local function copyBodyLocationProperties(oldGroup, oldLocID, newGroup)
+	for k = 0, oldGroup:size()-1 do
+		local otherLocID = oldGroup:getLocationByIndex(k):getId()
+		if oldGroup:isExclusive(oldLocID, otherLocID)
+		then
+			newGroup:setExclusive(oldLocID, otherLocID)
+		end
+		if oldGroup:isHideModel(oldLocID, otherLocID)
+		then
+			newGroup:setHideModel(oldLocID, otherLocID)
+		end
+		if oldGroup:isAltModel(oldLocID, otherLocID)
+		then
+			newGroup:setAltModel(oldLocID, otherLocID)
+		end
+	end
+end
+
+local function addBodyLocationsAt(groupName, locationList)
+	local results = {}
+	
+	local locationsToMove = {}
+	for _, locDef in ipairs(locationList) do
+		local newLocID = type(locDef.name) ~= "string" and locDef.name or 
+					   ItemBodyLocation.get(ResourceLocation.of(locDef.name))
+		locationsToMove[newLocID] = locDef
+	end
+	
+	local allGroupsList = BodyLocations.getAllGroups()
+	local allGroups = {}
+	for i = 0, allGroupsList:size()-1 do
+		allGroups[i + 1] = allGroupsList:get(i)
+	end
+	
+	BodyLocations.reset()  --the NUKE !!!use at your own peril!!!
+	
+	-- recreate all groups/bodylocations and insert new bodylocations
+	for i = 1, #allGroups do
+		local oldGroup = allGroups[i]
+		local newGroup = BodyLocations.getGroup(oldGroup:getId())
+		
+		-- FIRST: Process all original locations AND insert new ones at correct positions
+		for j = 0, oldGroup:size()-1 do
+			local oldLoc = oldGroup:getLocationByIndex(j)
+			local oldLocID = oldLoc:getId()
+			
+			-- Check if this location should be moved (skip adding it now)
+			local shouldSkip = locationsToMove[oldLocID] ~= nil
+			
+			-- For each location definition, check if it should be inserted here
+			for _, locDef in ipairs(locationList) do
+				if oldGroup:getId() == groupName then
+					local newLocID = type(locDef.name) ~= "string" and locDef.name or 
+								   ItemBodyLocation.get(ResourceLocation.of(locDef.name))
+					
+					local refLocID = type(locDef.reference) ~= "string" and locDef.reference or 
+								   ResourceLocation.of(locDef.reference)
+					
+					local isTargetGroupAndLoc = refLocID == oldLocID
+					
+					if isTargetGroupAndLoc and locDef.before then
+						results[locDef.name] = newGroup:getOrCreateLocation(newLocID)
+					end
+				end
+			end
+			
+			-- Add the original location (unless it's one we're moving)
+			if not shouldSkip then
+				newGroup:getOrCreateLocation(oldLocID)
+			end
+			
+			-- Check for "after" insertions
+			for _, locDef in ipairs(locationList) do
+				if oldGroup:getId() == groupName then
+					local newLocID = type(locDef.name) ~= "string" and locDef.name or 
+								   ItemBodyLocation.get(ResourceLocation.of(locDef.name))
+					
+					local refLocID = type(locDef.reference) ~= "string" and locDef.reference or 
+								   ResourceLocation.of(locDef.reference)
+					
+					local isTargetGroupAndLoc = refLocID == oldLocID
+					
+					if isTargetGroupAndLoc and not locDef.before then
+						results[locDef.name] = newGroup:getOrCreateLocation(newLocID)
+					end
+				end
+			end
+		end
+		
+		-- SECOND: copy bodylocation properties from old groups to new groups
+		for j = 0, oldGroup:size()-1 do
+			local oldLocID = oldGroup:getLocationByIndex(j):getId()
+			newGroup:setMultiItem(oldLocID, oldGroup:isMultiItem(oldLocID))
+			copyBodyLocationProperties(oldGroup, oldLocID, newGroup)
+		end
+	end
+	
+	return results
+end
+
+-- Batch add all locations at once
+local results = addBodyLocationsAt("Human", {
+	{name = "FcknSpldr:KIU3", 			reference = ItemBodyLocation.UNDERWEAR_EXTRA1, 	before = false},
+	{name = "FcknSpldr:KIU2", 			reference = ItemBodyLocation.UNDERWEAR_EXTRA1, 	before = false},
+	{name = "FcknSpldr:KIU1", 			reference = ItemBodyLocation.UNDERWEAR_EXTRA1, 	before = false},
+	{name = "FcknSpldr:KIU0", 			reference = ItemBodyLocation.UNDERWEAR_EXTRA1, 	before = false},
+	{name = "FcknSpldr:KIUA", 			reference = ItemBodyLocation.HAT, 				before = false},
+	{name = "FcknSpldr:KIUB", 			reference = ItemBodyLocation.HAT, 				before = false},
+	{name = "FcknSpldr:KIUC", 			reference = ItemBodyLocation.HAT, 				before = false},
+	{name = "FcknSpldr:RightLeg", 		reference = ItemBodyLocation.NECK, 				before = false},
+	{name = "FcknSpldr:LeftLeg", 		reference = ItemBodyLocation.NECK, 				before = false},
+	{name = "FcknSpldr:KIUY", 			reference = ItemBodyLocation.NECK, 				before = false}, -- bodysuit above some clothes
+	{name = "FcknSpldr:KIUX", 			reference = ItemBodyLocation.SWEATER, 			before = false},
+	
+				--Long coat open. Long coat closed in BATH_ROBE.
+	{name = "FcknSpldr:BathRobeCoat", 	reference = ItemBodyLocation.BATH_ROBE, 		before = false}, 
+				--Regular jacket open. Regular jacket closed in JACKET or JACKET_SUIT.
+	{name = "FcknSpldr:JacketOpen", 	reference = ItemBodyLocation.JACKET, 			before = false},
+				--Short jacket and cropped jacket, open or closed.
+	{name = "FcknSpldr:JacketShort", 	reference = ItemBodyLocation.JACKET, 			before = false},
+	
+	{name = ItemBodyLocation.BELT, 		reference = ItemBodyLocation.SWEATER, 			before = false},
+	{name = ItemBodyLocation.BELT_EXTRA,reference = ItemBodyLocation.SWEATER, 			before = false},
+	{name = ItemBodyLocation.SHOES, 	reference = ItemBodyLocation.SKIRT, 			before = true}   --move shoes to below dress
+})
+
+-- Additional rules - exclusivity, hidemodel, altmodel
+	-- Corset outer layers
+local newLoc = results["FcknSpldr:KIUX"]
+if newLoc then
+    newLoc:setExclusive(ItemBodyLocation.TANK_TOP)
+    
+    local humanGroup = BodyLocations.getGroup("Human")
+    humanGroup:setExclusive(ItemBodyLocation.TANK_TOP, newLoc:getId())
+end
+	-- Long coat open
+local newLoc = results["FcknSpldr:BathRobeCoat"]
+if newLoc then
+    local humanGroup = BodyLocations.getGroup("Human")
+    local bathRobeCoatId = newLoc:getId()
+
+    newLoc:setExclusive(ItemBodyLocation.FULL_SUIT_HEAD)			if humanGroup then humanGroup:setExclusive(ItemBodyLocation.FULL_SUIT_HEAD, bathRobeCoatId) end
+    newLoc:setExclusive(ItemBodyLocation.FULL_SUIT)					if humanGroup then humanGroup:setExclusive(ItemBodyLocation.FULL_SUIT, bathRobeCoatId) end
+    newLoc:setExclusive(ItemBodyLocation.FULL_TOP)					if humanGroup then humanGroup:setExclusive(ItemBodyLocation.FULL_TOP, bathRobeCoatId) end
+    newLoc:setExclusive(ItemBodyLocation.BOILERSUIT)				if humanGroup then humanGroup:setExclusive(ItemBodyLocation.BOILERSUIT, bathRobeCoatId) end
+    newLoc:setExclusive(ItemBodyLocation.BATH_ROBE) 				if humanGroup then humanGroup:setExclusive(ItemBodyLocation.BATH_ROBE, bathRobeCoatId) end
+    newLoc:setExclusive(ItemBodyLocation.SWEATER) 					if humanGroup then humanGroup:setExclusive(ItemBodyLocation.SWEATER, bathRobeCoatId) end   
+    newLoc:setExclusive(ItemBodyLocation.SWEATER_HAT) 				if humanGroup then humanGroup:setExclusive(ItemBodyLocation.SWEATER_HAT, bathRobeCoatId) end   
+    newLoc:setExclusive(ItemBodyLocation.JACKET) 					if humanGroup then humanGroup:setExclusive(ItemBodyLocation.JACKET, bathRobeCoatId) end    
+    newLoc:setExclusive(ItemBodyLocation.JACKET_DOWN) 				if humanGroup then humanGroup:setExclusive(ItemBodyLocation.JACKET_DOWN, bathRobeCoatId) end    
+    newLoc:setExclusive(ItemBodyLocation.JACKET_SUIT) 				if humanGroup then humanGroup:setExclusive(ItemBodyLocation.JACKET_SUIT, bathRobeCoatId) end    
+    newLoc:setExclusive(ItemBodyLocation.JACKET_HAT) 				if humanGroup then humanGroup:setExclusive(ItemBodyLocation.JACKET_HAT, bathRobeCoatId) end    
+    newLoc:setExclusive(ItemBodyLocation.JACKET_BULKY) 				if humanGroup then humanGroup:setExclusive(ItemBodyLocation.JACKET_BULKY, bathRobeCoatId) end    
+    newLoc:setExclusive(ItemBodyLocation.JACKET_HAT_BULKY) 			if humanGroup then humanGroup:setExclusive(ItemBodyLocation.JACKET_HAT_BULKY, bathRobeCoatId) end    
+    newLoc:setExclusive(ItemBodyLocation.PANTS_EXTRA) 				if humanGroup then humanGroup:setExclusive(ItemBodyLocation.PANTS_EXTRA, bathRobeCoatId) end   
+    newLoc:setExclusive(ItemBodyLocation.TORSO_EXTRA) 				if humanGroup then humanGroup:setExclusive(ItemBodyLocation.TORSO_EXTRA, bathRobeCoatId) end    
+    newLoc:setExclusive(ItemBodyLocation.TORSO_EXTRA_VEST) 			if humanGroup then humanGroup:setExclusive(ItemBodyLocation.TORSO_EXTRA_VEST, bathRobeCoatId) end    
+    newLoc:setExclusive(ItemBodyLocation.TORSO_EXTRA_VEST_BULLET) 	if humanGroup then humanGroup:setExclusive(ItemBodyLocation.TORSO_EXTRA_VEST_BULLET, bathRobeCoatId) end    
+    newLoc:setExclusive(ItemBodyLocation.WEBBING) 					if humanGroup then humanGroup:setExclusive(ItemBodyLocation.WEBBING, bathRobeCoatId) end    
+    newLoc:setExclusive(ItemBodyLocation.SCBA) 						if humanGroup then humanGroup:setExclusive(ItemBodyLocation.SCBA, bathRobeCoatId) end    
+    newLoc:setExclusive(ItemBodyLocation.SCBANOTANK) 				if humanGroup then humanGroup:setExclusive(ItemBodyLocation.SCBANOTANK, bathRobeCoatId) end   
+    newLoc:setExclusive(ItemBodyLocation.BODY_COSTUME) 				if humanGroup then humanGroup:setExclusive(ItemBodyLocation.BODY_COSTUME, bathRobeCoatId) end
+    
+    newLoc:setHideModel(ItemBodyLocation.LEFT_WRIST)
+    newLoc:setHideModel(ItemBodyLocation.RIGHT_WRIST)
+    newLoc:setHideModel(ItemBodyLocation.FANNY_PACK_BACK)
+    newLoc:setHideModel(ItemBodyLocation.CODPIECE)
+    newLoc:setHideModel(ItemBodyLocation.JERSEY)
+	-- newLoc:setHideModel(ItemBodyLocation.BELT_EXTRA)
+    
+    newLoc:setAltModel(ItemBodyLocation.FORE_ARM_LEFT)
+    newLoc:setAltModel(ItemBodyLocation.FORE_ARM_RIGHT)
+	newLoc:setAltModel(ItemBodyLocation.BELT)
+	newLoc:setAltModel(ItemBodyLocation.BELT_EXTRA)
+end
+	-- Regular jacket open
+local newLoc = results["FcknSpldr:JacketOpen"]
+if newLoc then
+    local humanGroup = BodyLocations.getGroup("Human")
+    local jacketOpenId = newLoc:getId()
+    
+    newLoc:setExclusive(ItemBodyLocation.JACKET)                   if humanGroup then humanGroup:setExclusive(ItemBodyLocation.JACKET, jacketOpenId) end
+    newLoc:setExclusive(ItemBodyLocation.FULL_SUIT_HEAD)           if humanGroup then humanGroup:setExclusive(ItemBodyLocation.FULL_SUIT_HEAD, jacketOpenId) end
+    newLoc:setExclusive(ItemBodyLocation.FULL_SUIT)                if humanGroup then humanGroup:setExclusive(ItemBodyLocation.FULL_SUIT, jacketOpenId) end
+    newLoc:setExclusive(ItemBodyLocation.FULL_TOP)                 if humanGroup then humanGroup:setExclusive(ItemBodyLocation.FULL_TOP, jacketOpenId) end
+    newLoc:setExclusive(ItemBodyLocation.BOILERSUIT)               if humanGroup then humanGroup:setExclusive(ItemBodyLocation.BOILERSUIT, jacketOpenId) end
+    newLoc:setExclusive(ItemBodyLocation.BATH_ROBE)                if humanGroup then humanGroup:setExclusive(ItemBodyLocation.BATH_ROBE, jacketOpenId) end   
+    newLoc:setExclusive(ItemBodyLocation.FULL_ROBE)                if humanGroup then humanGroup:setExclusive(ItemBodyLocation.FULL_ROBE, jacketOpenId) end
+    newLoc:setExclusive(ItemBodyLocation.JACKET_HAT)               if humanGroup then humanGroup:setExclusive(ItemBodyLocation.JACKET_HAT, jacketOpenId) end
+    newLoc:setExclusive(ItemBodyLocation.JACKET_HAT_BULKY)         if humanGroup then humanGroup:setExclusive(ItemBodyLocation.JACKET_HAT_BULKY, jacketOpenId) end
+    newLoc:setExclusive(ItemBodyLocation.SPORT_SHOULDERPAD)        if humanGroup then humanGroup:setExclusive(ItemBodyLocation.SPORT_SHOULDERPAD, jacketOpenId) end
+    newLoc:setExclusive(ItemBodyLocation.JACKET_DOWN)              if humanGroup then humanGroup:setExclusive(ItemBodyLocation.JACKET_DOWN, jacketOpenId) end
+    newLoc:setExclusive(ItemBodyLocation.JACKET_BULKY)             if humanGroup then humanGroup:setExclusive(ItemBodyLocation.JACKET_BULKY, jacketOpenId) end
+    newLoc:setExclusive(ItemBodyLocation.TORSO_EXTRA)              if humanGroup then humanGroup:setExclusive(ItemBodyLocation.TORSO_EXTRA, jacketOpenId) end
+    newLoc:setExclusive(ItemBodyLocation.TORSO_EXTRA_VEST)         if humanGroup then humanGroup:setExclusive(ItemBodyLocation.TORSO_EXTRA_VEST, jacketOpenId) end
+    newLoc:setExclusive(ItemBodyLocation.JACKET_SUIT)              if humanGroup then humanGroup:setExclusive(ItemBodyLocation.JACKET_SUIT, jacketOpenId) end
+		    
+	-- Handle custom location FcknSpldr:BathRobeCoat
+	local bathRobeCoatItemLoc = ItemBodyLocation.get(ResourceLocation.of("FcknSpldr:BathRobeCoat"))
+	if bathRobeCoatItemLoc then
+		newLoc:setExclusive(bathRobeCoatItemLoc)                     
+		if humanGroup then 
+			humanGroup:setExclusive(bathRobeCoatItemLoc, jacketOpenId) 
+		end
+	end
+    
+    newLoc:setHideModel(ItemBodyLocation.LEFT_WRIST)
+    newLoc:setHideModel(ItemBodyLocation.RIGHT_WRIST)
+    newLoc:setHideModel(ItemBodyLocation.FANNY_PACK_BACK)
+    newLoc:setHideModel(ItemBodyLocation.CODPIECE)
+    newLoc:setHideModel(ItemBodyLocation.JERSEY)
+	-- newLoc:setHideModel(ItemBodyLocation.BELT_EXTRA)
+    
+    newLoc:setAltModel(ItemBodyLocation.FORE_ARM_LEFT)
+    newLoc:setAltModel(ItemBodyLocation.FORE_ARM_RIGHT)
+    newLoc:setAltModel(ItemBodyLocation.SHOULDERPAD_RIGHT)
+    newLoc:setAltModel(ItemBodyLocation.SHOULDERPAD_LEFT)
+    newLoc:setAltModel(ItemBodyLocation.ELBOW_LEFT)
+    newLoc:setAltModel(ItemBodyLocation.ELBOW_RIGHT)
+    newLoc:setAltModel(ItemBodyLocation.CUIRASS)
+    newLoc:setAltModel(ItemBodyLocation.WEBBING)
+	newLoc:setAltModel(ItemBodyLocation.BELT)
+	newLoc:setAltModel(ItemBodyLocation.BELT_EXTRA)
+end
+	-- Short jacket open or closed
+local newLoc = results["FcknSpldr:JacketShort"]
+if newLoc then
+    local humanGroup = BodyLocations.getGroup("Human")
+    local JacketShortId = newLoc:getId()
+    
+    newLoc:setExclusive(ItemBodyLocation.JACKET)                   if humanGroup then humanGroup:setExclusive(ItemBodyLocation.JACKET, JacketShortId) end
+    newLoc:setExclusive(ItemBodyLocation.FULL_SUIT_HEAD)           if humanGroup then humanGroup:setExclusive(ItemBodyLocation.FULL_SUIT_HEAD, JacketShortId) end
+    newLoc:setExclusive(ItemBodyLocation.FULL_SUIT)                if humanGroup then humanGroup:setExclusive(ItemBodyLocation.FULL_SUIT, JacketShortId) end
+    newLoc:setExclusive(ItemBodyLocation.FULL_TOP)                 if humanGroup then humanGroup:setExclusive(ItemBodyLocation.FULL_TOP, JacketShortId) end
+    newLoc:setExclusive(ItemBodyLocation.BOILERSUIT)               if humanGroup then humanGroup:setExclusive(ItemBodyLocation.BOILERSUIT, JacketShortId) end
+    newLoc:setExclusive(ItemBodyLocation.BATH_ROBE)                if humanGroup then humanGroup:setExclusive(ItemBodyLocation.BATH_ROBE, JacketShortId) end   
+    newLoc:setExclusive(ItemBodyLocation.FULL_ROBE)                if humanGroup then humanGroup:setExclusive(ItemBodyLocation.FULL_ROBE, JacketShortId) end
+    newLoc:setExclusive(ItemBodyLocation.JACKET_HAT)               if humanGroup then humanGroup:setExclusive(ItemBodyLocation.JACKET_HAT, JacketShortId) end
+    newLoc:setExclusive(ItemBodyLocation.JACKET_HAT_BULKY)         if humanGroup then humanGroup:setExclusive(ItemBodyLocation.JACKET_HAT_BULKY, JacketShortId) end
+    newLoc:setExclusive(ItemBodyLocation.SPORT_SHOULDERPAD)        if humanGroup then humanGroup:setExclusive(ItemBodyLocation.SPORT_SHOULDERPAD, JacketShortId) end
+    newLoc:setExclusive(ItemBodyLocation.JACKET_DOWN)              if humanGroup then humanGroup:setExclusive(ItemBodyLocation.JACKET_DOWN, JacketShortId) end
+    newLoc:setExclusive(ItemBodyLocation.JACKET_BULKY)             if humanGroup then humanGroup:setExclusive(ItemBodyLocation.JACKET_BULKY, JacketShortId) end
+    newLoc:setExclusive(ItemBodyLocation.TORSO_EXTRA)              if humanGroup then humanGroup:setExclusive(ItemBodyLocation.TORSO_EXTRA, JacketShortId) end
+    newLoc:setExclusive(ItemBodyLocation.TORSO_EXTRA_VEST)         if humanGroup then humanGroup:setExclusive(ItemBodyLocation.TORSO_EXTRA_VEST, JacketShortId) end
+    newLoc:setExclusive(ItemBodyLocation.JACKET_SUIT)              if humanGroup then humanGroup:setExclusive(ItemBodyLocation.JACKET_SUIT, JacketShortId) end
+		    
+	-- Handle custom location FcknSpldr:BathRobeCoat
+	local bathRobeCoatItemLoc = ItemBodyLocation.get(ResourceLocation.of("FcknSpldr:BathRobeCoat"))
+	if bathRobeCoatItemLoc then
+		newLoc:setExclusive(bathRobeCoatItemLoc)                     
+		if humanGroup then 
+			humanGroup:setExclusive(bathRobeCoatItemLoc, JacketShortId) 
+		end
+	end
+	
+	-- Handle custom location FcknSpldr:BathRobeCoat
+	local JacketOpenItemLoc = ItemBodyLocation.get(ResourceLocation.of("FcknSpldr:JacketOpen"))
+	if JacketOpenItemLoc then
+		newLoc:setExclusive(JacketOpenItemLoc)                     
+		if humanGroup then 
+			humanGroup:setExclusive(JacketOpenItemLoc, JacketShortId) 
+		end
+	end
+    
+    newLoc:setHideModel(ItemBodyLocation.LEFT_WRIST)
+    newLoc:setHideModel(ItemBodyLocation.RIGHT_WRIST)
+    newLoc:setHideModel(ItemBodyLocation.FANNY_PACK_BACK)
+    newLoc:setHideModel(ItemBodyLocation.CODPIECE)
+    newLoc:setHideModel(ItemBodyLocation.JERSEY)
+	-- newLoc:setHideModel(ItemBodyLocation.BELT_EXTRA)
+    
+    newLoc:setAltModel(ItemBodyLocation.FORE_ARM_LEFT)
+    newLoc:setAltModel(ItemBodyLocation.FORE_ARM_RIGHT)
+    newLoc:setAltModel(ItemBodyLocation.SHOULDERPAD_RIGHT)
+    newLoc:setAltModel(ItemBodyLocation.SHOULDERPAD_LEFT)
+    newLoc:setAltModel(ItemBodyLocation.ELBOW_LEFT)
+    newLoc:setAltModel(ItemBodyLocation.ELBOW_RIGHT)
+    newLoc:setAltModel(ItemBodyLocation.CUIRASS)
+    newLoc:setAltModel(ItemBodyLocation.WEBBING)
+end
+	
+	-- Belt Hide Model
+local group = BodyLocations.getGroup("Human")
+	group:setHideModel(ItemBodyLocation.JACKET, ItemBodyLocation.BELT)
+	group:setHideModel(ItemBodyLocation.JACKET_DOWN, ItemBodyLocation.BELT)
+	group:setHideModel(ItemBodyLocation.JACKET_SUIT, ItemBodyLocation.BELT)
+	group:setHideModel(ItemBodyLocation.JACKET_BULKY, ItemBodyLocation.BELT)
+	group:setHideModel(ItemBodyLocation.TORSO_EXTRA, ItemBodyLocation.BELT)
+	group:setHideModel(ItemBodyLocation.TORSO_EXTRA_VEST, ItemBodyLocation.BELT)
+	group:setHideModel(ItemBodyLocation.TORSO_EXTRA_VEST_BULLET, ItemBodyLocation.BELT)
+	group:setHideModel(ItemBodyLocation.BATH_ROBE, ItemBodyLocation.BELT)
+	-- group:setHideModel(ItemBodyLocation.BATH_ROBE, ItemBodyLocation.BELT_EXTRA)
+	group:setHideModel(ItemBodyLocation.FULL_ROBE, ItemBodyLocation.BELT)
+	group:setHideModel(ItemBodyLocation.FULL_SUIT, ItemBodyLocation.BELT)
+	group:setHideModel(ItemBodyLocation.FULL_TOP, ItemBodyLocation.BELT)
+	group:setHideModel(ItemBodyLocation.JACKET_HAT, ItemBodyLocation.BELT)
+	group:setHideModel(ItemBodyLocation.JACKET_HAT_BULKY, ItemBodyLocation.BELT)
+	group:setHideModel(ItemBodyLocation.BOILERSUIT, ItemBodyLocation.BELT)
+	group:setHideModel(ItemBodyLocation.SWEATER, ItemBodyLocation.BELT)
+	group:setHideModel(ItemBodyLocation.SWEATER_HAT, ItemBodyLocation.BELT)
+	group:setHideModel(ItemBodyLocation.BODY_COSTUME, ItemBodyLocation.BELT)
+	
+	group:setExclusive(ItemBodyLocation.SHIRT, ItemBodyLocation.SHORT_SLEEVE_SHIRT)
+	group:setExclusive(ItemBodyLocation.JACKET, ItemBodyLocation.TORSO_EXTRA_VEST)
+	
+	group:setAltModel(ItemBodyLocation.BATH_ROBE, ItemBodyLocation.BELT_EXTRA)

@@ -1,0 +1,5 @@
+name=CookingSync
+id=CookingSync
+description=Fixes Build 42 multiplayer cooking synchronization bug - ingredients now properly sync when added to pots
+poster=poster.png
+modversion=5.0

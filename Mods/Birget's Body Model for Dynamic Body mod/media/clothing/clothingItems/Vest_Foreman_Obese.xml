@@ -1,0 +1,14 @@
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_huntingvest_obese</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\kate_huntingvest_obese</m_FemaleModel>
+	<m_GUID>5db7d4d2-5b44-43f2-8d46-62645829307f</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone />
+	<m_Masks>12</m_Masks>
+
+	<m_MasksFolder>media/textures/Clothes/BulletVest/Masks_HighViz</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/BulletVest/Masks_HighViz</m_UnderlayMasksFolder>
+	<textureChoices>clothes\bulletvest\foremanvest</textureChoices>
+</clothingItem>

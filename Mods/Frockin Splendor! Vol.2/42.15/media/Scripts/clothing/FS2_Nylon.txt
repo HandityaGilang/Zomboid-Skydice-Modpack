@@ -1,0 +1,32 @@
+module Base
+{
+	item Fitness_Leggings_Black
+	{
+		DisplayName = Fitness Leggings,
+		DisplayCategory = FrockinNylon,
+		ItemType = base:Clothing,
+		Weight = 0.1,
+		Icon = NL_Tights,
+		BodyLocation = base:UnderwearExtra1,
+		ClothingItem = Fitness_Leggings_Black,
+		WorldStaticModel = WorldItem_Generic,
+		Tags = base:IsFireFuel;base:IsFireTinder,
+			ClothingItemExtra = Base.Fitness_Leggings_Black_HW,
+			ClothingItemExtraOption = MoreSkin,			
+	}
+	
+	item Fitness_Leggings_Black_HW
+	{
+		DisplayName = Fitness Leggings (High Waist),
+		DisplayCategory = FrockinNylon,
+		ItemType = base:Clothing,
+		Weight = 0.1,
+		Icon = NL_Tights,
+		BodyLocation = base:UnderwearExtra1,
+		ClothingItem = Fitness_Leggings_Black_HW,
+		WorldStaticModel = WorldItem_Generic,
+		Tags = base:IsFireFuel;base:IsFireTinder,
+			ClothingItemExtra = Base.Fitness_Leggings_Black,
+			ClothingItemExtraOption = LessSkin,			
+	}
+}

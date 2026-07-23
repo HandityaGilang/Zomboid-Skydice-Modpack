@@ -1,0 +1,28 @@
+module Base
+{
+    model ScrabbleTiles
+    {
+        mesh = WorldItems/scrabblePile,
+        texture = Item_ScrabbleTiles/deckTexture,
+        scale = 0.02,
+    }
+
+	model ScrabbleBoard {
+        mesh = WorldItems/CheckerBoard, texture = Item_InPlayTextures/ScrabbleBoard, scale = 0.48,
+        attachment world { offset = -0.215 -0.0700 0.245, rotate = 0.0000 0.0000 0.0000, }
+    }
+
+    model ScrabbleTilesSingle
+    {
+        mesh = WorldItems/scrabbleTile,
+        texture = Item_ScrabbleTiles/deckTexture,
+        scale = 0.02,
+    }
+
+    model ScrabbleBox
+    {
+        mesh = WorldItems/cardpack,
+        texture = Item_Boxes/ScrabbleBox_ground,
+        scale = 0.06,
+    }
+}

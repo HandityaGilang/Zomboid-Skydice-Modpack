@@ -1,0 +1,12 @@
+ContextMenu_IT = {
+    /* Opciones para las Gorras */
+    ContextMenu_ForwardCap = "Mettere con la Visiera Avanti",
+    ContextMenu_ReverseCap = "Mettere con la Visiera all'Indietro",
+
+    /* Opciones para los Delantales */
+    ContextMenu_Arremangar = "Indossare sul Petto",
+    ContextMenu_Desarremangar = "Indossare sulla Vita",
+    
+    /* Nombre del Submenú */
+    ContextMenu_Ajustar_Prenda = "Sistemare l'Abbigliamento"
+}

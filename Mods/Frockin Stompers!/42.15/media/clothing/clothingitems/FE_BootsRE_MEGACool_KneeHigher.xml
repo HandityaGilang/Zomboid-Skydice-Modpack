@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes2\BootsRE_MEGAGoth\BootsRE_MEGAGoth_KneeHigher_M.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes2\BootsRE_MEGAGoth\BootsRE_MEGAGoth_KneeHigher_F.fbx</m_FemaleModel>
+	<m_GUID>3746797c-e0a2-4308-ac8c-9fc76942be07</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>	
+	<m_Masks>8</m_Masks>	
+	<m_Masks>10</m_Masks>
+	<m_Masks>11</m_Masks>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Masks/Masks_MediumBoots_2A</m_UnderlayMasksFolder>
+	<textureChoices>clothes\Shoes2\BootsRE_MEGACool\BootsRE_Cool_Platform_C1</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_MEGACool\BootsRE_Cool_Platform_C2</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_MEGACool\BootsRE_Cool_Platform_C3</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_MEGACool\BootsRE_Cool_Platform_C4</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_MEGACool\BootsRE_Cool_Platform_C5</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_MEGACool\BootsRE_Cool_Platform_C6</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_MEGACool\BootsRE_Cool_Platform_C7</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_MEGACool\BootsRE_Cool_Platform_C8</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_MEGACool\BootsRE_Cool_Platform_C9</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_MEGACool\BootsRE_Cool_Platform_C10</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_MEGACool\BootsRE_Cool_Platform_C11</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_MEGACool\BootsRE_Cool_Platform_C12</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_MEGACool\BootsRE_Cool_Platform_C13</textureChoices>	
+</clothingItem>

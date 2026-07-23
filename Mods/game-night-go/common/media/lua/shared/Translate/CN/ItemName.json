@@ -1,0 +1,6 @@
+{
+    "Base.GoStonesBlack": "走石（黑色）",
+    "Base.GoStonesWhite": "走石（白）",
+    "Base.GoBoard": "走板",
+    "Base.GoBox_sealed": "围棋板（密封）"
+}

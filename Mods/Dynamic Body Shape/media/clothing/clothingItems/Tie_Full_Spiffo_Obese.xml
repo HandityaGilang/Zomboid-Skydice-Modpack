@@ -1,0 +1,10 @@
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_tie_obese</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\bob_tie_obese</m_FemaleModel>
+	<m_GUID>3a1bd68b-6f03-4486-9fc3-d1d1aec45b39</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone />
+	<textureChoices>clothes\tie\tie_spiffofull</textureChoices>
+</clothingItem>

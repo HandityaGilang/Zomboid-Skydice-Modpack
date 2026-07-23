@@ -1,0 +1,692 @@
+module dcollectibles {
+    imports
+    {
+        Base
+    }
+    item DCKirby
+    {
+		DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = Kirby,
+        Icon = DCKirby,
+        WorldStaticModel = DCKirby,
+	ItemType = base:normal,
+    }
+    item BlueKirby
+    {
+		DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = BlueKirby,
+        Icon = BlueKirby,
+        WorldStaticModel = BlueKirby,
+	ItemType = base:normal,
+    }
+    item GreenKirby
+    {
+		DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = GreenKirby,
+        Icon = GreenKirby,
+        WorldStaticModel = GreenKirby,
+	ItemType = base:normal,
+    }
+    item YellowKirby
+    {
+		DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = YellowKirby,
+        Icon = YellowKirby,
+        WorldStaticModel = YellowKirby,
+	ItemType = base:normal,
+    }
+    item GhostKirby
+    {
+		DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = GhostKirby,
+        Icon = GhostKirby,
+        WorldStaticModel = GhostKirby,
+	ItemType = base:normal,
+    }
+    item EvilKirby
+    {
+		DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = EvilKirby,
+        Icon = EvilKirby,
+        WorldStaticModel = EvilKirby,
+	ItemType = base:normal,
+    }
+    item DCRebellion
+			{
+				DisplayCategory = Weapon,
+				ItemType = base:weapon,
+				MaxRange	=	1.4,
+				WeaponSprite	=	DCRebellion,
+				MinAngle	=	0.8,
+				MinimumSwingTime	=	3,
+				HitFloorSound	=	KatanaHit,
+				ImpactSound	=	KatanaHit,
+				DoorHitSound = KatanaHit,
+				HitSound	=	KatanaHit,
+				SwingSound = KatanaSwing,
+				KnockBackOnNoDeath = TRUE,
+				SwingAmountBeforeImpact	=	0.02,
+				Categories	=	LongBlade,
+				Weight	=	6.66,
+				ConditionLowerChanceOneIn	=	100,
+				PushBackMod	=	0.65,
+				SubCategory	=	Swinging,
+				ConditionMax	=	10,
+				MaxHitCount	=	4,
+				DoorDamage	=	9,
+				SwingAnim	=	Bat,
+				CriticalChance	=	35,
+				CritDmgMultiplier = 6,
+				DisplayName	=	Rebellion,
+				MinRange	=	0.61,
+				SwingTime	=	3,
+				HitAngleMod	=	-30,
+				KnockdownMod	=	0,
+				Icon	=	DCRebellion,
+				RunAnim	=	Run_Weapon2,
+				BreakSound  =   KatanaBreak,
+				TreeDamage  =   1,
+				CriticalChance	=	35,
+				CritDmgMultiplier = 10,
+				MinDamage	=	8,
+				MaxDamage	=	8,
+				BaseSpeed = 1,
+				DamageCategory = Slash,
+				DamageMakeHole = TRUE,
+				TwoHandWeapon = TRUE,
+				AttachmentType = BigBlade
+			}
+	    item DCVigilanteBaton
+			{
+				DisplayCategory = Weapon,
+				ItemType = base:weapon,
+				MaxRange	=	1.2,
+				WeaponSprite	=	DCVigilanteBaton,
+				MinAngle	=	0.72,
+				MinimumSwingTime	=	2,
+				KnockBackOnNoDeath	=	FALSE,
+				SwingAmountBeforeImpact	=	0.02,
+				Categories	=	SmallBlunt,
+				ConditionLowerChanceOneIn	=	100,
+				Weight	=	1,
+				SplatNumber	=	1,
+				PushBackMod	=	0.3,
+				SubCategory	=	Swinging,
+				ConditionMax	=	15,
+				MaxHitCount	=	2,
+				DoorDamage	=	1,
+				SwingAnim	=	Bat,
+				DisplayName	=	Vigilante Baton,
+				MinRange	=	0.75,
+				SwingTime	=	2,
+				KnockdownMod	=	0,
+				SplatBloodOnNoDeath	=	FALSE,
+				Icon	=	DCVigilanteBaton,
+				RunAnim	=	Run_Weapon2,
+				IdleAnim	=	Idle_Weapon2,
+				BreakSound  =   NightstickBreak,
+				DoorHitSound = NightstickHit,
+				HitSound = NightstickHit,
+				HitFloorSound = NightstickHit,
+				SwingSound = NightstickSwing,
+				TreeDamage  =   0,
+				CriticalChance	=	35,
+				CritDmgMultiplier = 2,
+				MinDamage	=	0.9,
+				MaxDamage	=	1.4,
+				BaseSpeed = 1.2,
+				WeaponLength = 0.5,
+				AttachmentType = Nightstick,
+			}
+	item DCHKBat
+	{
+	    DisplayCategory = Weapon,
+	ItemType = base:weapon,
+		MaxRange	=	1.28,
+		WeaponSprite	=	DCHKBat,
+		MinAngle	=	0.75,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	Blunt,
+		ConditionLowerChanceOneIn	=	100,
+		Weight	=	2,
+		SplatNumber	=	2,
+		PushBackMod	=	0.5,
+		SubCategory	=	Swinging,
+		ConditionMax	=	15,
+		MaxHitCount	=	2,
+		DoorDamage	=	7,
+		SwingAnim	=	Bat,
+		DisplayName	=	DCHKBat,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		HitAngleMod	=	-30,
+		KnockdownMod	=	2,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	DCHKBat,
+		RunAnim	=	Run_Weapon2,
+        TwoHandWeapon = TRUE,
+        BreakSound  =   SpikedBaseballBatBreak,
+        DoorHitSound = SpikedBaseballBatHit,
+		HitSound = SpikedBaseballBatHit,
+		HitFloorSound = SpikedBaseballBatHit,
+		SwingSound = SpikedBaseballBatSwing,
+        TreeDamage  =   1,
+        MetalValue = 5,
+        CriticalChance	=	35,
+        critDmgMultiplier = 5,
+        MinDamage	=	1,
+        MaxDamage	=	1.5,
+        BaseSpeed = 0.95,
+		WeaponLength = 0.5,
+        DamageCategory = Slash,
+        DamageMakeHole = TRUE,
+        AttachmentType = Shovel,
+	}
+	item DCHKitty
+    {
+	DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = DCHKitty,
+        Icon = DCHKitty,
+        WorldStaticModel = DCHKitty,
+	ItemType = base:normal,
+    }
+	item DCSpongebob
+    {
+	DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = DCSpongebob,
+        Icon = DCSpongebob,
+        WorldStaticModel = DCSpongebob,
+	ItemType = base:normal,
+    }
+	item DCIvysaur
+    {
+	DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = DCIvysaur,
+        Icon = DCIvysaur,
+        WorldStaticModel = DCIvysaur,
+	ItemType = base:normal,
+    }
+	item DCArceus
+    {
+	DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = DCArceus,
+        Icon = DCArceus,
+        WorldStaticModel = DCArceus,
+	ItemType = base:normal,
+    }
+	item DCHooh
+    {
+	DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = DCHooh,
+        Icon = DCHooh,
+        WorldStaticModel = DCHooh,	
+	ItemType = base:normal,
+    }
+	item DCHoohShiny
+    {
+	DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = DCHoohShiny,
+        Icon = DCHoohShiny,
+        WorldStaticModel = DCHoohShiny,
+	ItemType = base:normal,
+    }
+	item DCLugia
+    {
+	DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = DCLugia,
+        Icon = DCLugia,
+        WorldStaticModel = DCLugia,
+	ItemType = base:normal,
+    }
+	item DCMew
+    {
+	DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = DCMew,
+        Icon = DCMew,
+        WorldStaticModel = DCMew,
+	ItemType = base:normal,
+    }
+	item DCMewtwo
+    {
+	DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = DCMewtwo,
+        Icon = DCMewtwo,
+        WorldStaticModel = DCMewtwo,
+	ItemType = base:normal,
+    }
+	item DCMewtwoShiny
+    {
+	DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = DCMewtwoShiny,
+        Icon = DCMewtwoShiny,
+        WorldStaticModel = DCMewtwoShiny,
+	ItemType = base:normal,
+    }
+	item DCMoltres
+    {
+	DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = DCMoltres,
+        Icon = DCMoltres,
+        WorldStaticModel = DCMoltres,
+	ItemType = base:normal,
+    }
+	item DCZapdos
+    {
+	DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = DCZapdos,
+        Icon = DCZapdos,
+        WorldStaticModel = DCZapdos,
+	ItemType = base:normal,
+    }
+	item DCArticuno
+    {
+	DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = DCArticuno,
+        Icon = DCArticuno,
+        WorldStaticModel = DCArticuno,
+	ItemType = base:normal,
+    }
+	item DCEevee
+    {
+	DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = DCEevee,
+        Icon = DCEevee,
+        WorldStaticModel = DCEevee,
+	ItemType = base:normal,
+    }
+	item DCPikachu
+    {
+	DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = DCPikachu,
+        Icon = DCPikachu,
+        WorldStaticModel = DCPikachu,
+	ItemType = base:normal,
+    }
+	item DCSquirtle
+    {
+	DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = DCSquirtle,
+        Icon = DCSquirtle,
+        WorldStaticModel = DCSquirtle,
+	ItemType = base:normal,
+    }
+	item DCCharmander
+    {
+	DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = DCCharmander,
+        Icon = DCCharmander,
+        WorldStaticModel = DCCharmander,
+	ItemType = base:normal,
+    }
+	item DCMCPanda
+    {
+	DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = DCMCPanda,
+        Icon = DCMCPanda,
+        WorldStaticModel = DCMCPanda,
+	ItemType = base:normal,
+    }
+	item DCMCAxolotl
+    {
+	DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = DCMCAxolotl,
+        Icon = DCMCAxolotl,
+        WorldStaticModel = DCMCAxolotl,
+	ItemType = base:normal,
+    }
+	item DCMCCreeper
+    {
+	DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = DCMCCreeper,
+        Icon = DCMCCreeper,
+        WorldStaticModel = DCMCCreeper,
+	ItemType = base:normal,
+    }
+	item DCGir
+    {
+	DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = DCGir,
+        Icon = DCGir,
+        WorldStaticModel = DCGir,
+	ItemType = base:normal,
+    }
+	item DCHatKid
+    {
+	DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = DCHatKid,
+        Icon = DCHatKid,
+        WorldStaticModel = DCHatKid,
+	ItemType = base:normal,
+    }
+	item DCGnomeChompski
+    {
+	DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = DCGnomeChompski,
+        Icon = DCGnomeChompski,
+        WorldStaticModel = DCGnomeChompski,
+	ItemType = base:normal,
+    }
+	item DCSentryTurret
+    {
+	DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = DCSentryTurret,
+        Icon = DCSentryTurret,
+        WorldStaticModel = DCSentryTurret,
+	ItemType = base:normal,
+    }
+	item DCClaptrap
+    {
+	DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = DCClaptrap,
+        Icon = DCClaptrap,
+        WorldStaticModel = DCClaptrap,
+	ItemType = base:normal,
+    }
+	item DCKungFuPanda
+    {
+	DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = DCKungFuPanda,
+        Icon = DCKungFuPanda,
+        WorldStaticModel = DCKungFuPanda,
+	ItemType = base:normal,
+    }
+	item DCCrescentRose
+    {
+        DisplayCategory = ToolWeapon,
+		ItemType = base:weapon,
+        MaxRange	=	1.7,
+        WeaponSprite	=	DCCrescentRose,
+        MinAngle	=	0.65,
+        MinimumSwingTime	=	3.0,
+        KnockBackOnNoDeath	=	TRUE,
+        SwingAmountBeforeImpact	=	0.002,
+        Categories	=	Axe,
+        ConditionLowerChanceOneIn	=	100,
+        Weight	=	5,
+        SplatNumber	=	3,
+        PushBackMod	=	0.3,
+        SubCategory	=	Swinging,
+        ConditionMax	=	13,
+        MaxHitCount	=	3,
+        DoorDamage	=	35,
+        IdleAnim	=	Idle_Weapon2,
+        SwingAnim	=	Bat,
+        DisplayName	=	DCCrescentRose,
+        MinRange	=	0.61,
+        SwingTime	=	3.0,
+        HitAngleMod	=	-30,
+        SplatSize	=	5,
+        KnockdownMod	=	2,
+        SplatBloodOnNoDeath	=	TRUE,
+        Icon	=	DCCrescentRose,
+        RunAnim	=	Run_Weapon2,
+        TwoHandWeapon = TRUE,
+        BreakSound = PickAxeBreak,
+        DoorHitSound = PickAxeHit,
+		HitSound = PickAxeHit,
+		HitFloorSound = PickAxeHit,
+		SwingSound = PickAxeSwing,
+        TreeDamage  =   35,
+        MetalValue = 120,
+        CriticalChance	=	35,
+        CritDmgMultiplier = 9,
+        MinDamage	=	1,
+        MaxDamage	=	2.2,
+        BaseSpeed = 1,
+        DamageCategory = Slash,
+        DamageMakeHole = TRUE,
+        AttachmentType = BigBlade,
+        Tags = DigPlow,
+    }
+	item DCHiddenBlade
+	{
+	    DisplayCategory = Weapon,
+		ItemType = base:weapon,
+		MaxRange	=	0.9,
+		WeaponSprite	=	DCHiddenBlade,
+		MinAngle	=	0.65,
+		MinimumSwingTime	=	2,
+		KnockBackOnNoDeath	=	FALSE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	SmallBlade,
+		ConditionLowerChanceOneIn	=	100,
+		Weight	=	0.3,
+		SplatNumber	=	4,
+		PushBackMod	=	0.3,
+		SubCategory	=	Stab,
+		AimingMod	=	0.8,
+		ConditionMax	=	10,
+		MaxHitCount	=	1,
+		IsAimedHandWeapon	=	TRUE,
+		DoorDamage	=	1,
+		SwingAnim	=	Bat,
+		DisplayName	=	DCHiddenBlade,
+		MinRange	=	0.61,
+		CloseKillMove = Jaw_Stab,
+		SwingTime	=	2,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	DCHiddenBlade,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+        TreeDamage  =   2,
+        EnduranceMod = 0.5,
+        BreakSound  =   HuntingKnifeBreak,
+        MetalValue = 30,
+        CriticalChance	=	60,
+        CritDmgMultiplier = 3,
+        MinDamage	=	0.6,
+        MaxDamage	=	1.2,
+	 	WeaponLength = 0.25,
+        DamageCategory = Slash,
+        DamageMakeHole = TRUE,
+        HitFloorSound	=	HuntingKnifeHit,
+        ImpactSound	=	HuntingKnifeHit,
+        DoorHitSound = HuntingKnifeHit,
+		HitSound	=	HuntingKnifeHit,
+		SwingSound = HuntingKnifeSwing,
+		AttachmentType = Knife,
+        Tags = CutPlant;SharpKnife,
+    }
+    item DCCogTags
+	{
+	    DisplayCategory = Accessory,
+		DisplayName = DCCogTags,
+		ClothingItem = DCCogTags,
+		BodyLocation = Necklace,
+		Icon = DCCogTags,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		WorldStaticModel = DCCogTags,
+		ItemType = base:clothing,
+	}
+    item DCHollowMaskHalf
+	{
+	    DisplayCategory = Accessory,
+		DisplayName = DCHollowMaskHalf,
+		ClothingItem = DCHollowMaskHalf,
+		BodyLocation = MaskEyes,
+		Icon = DCHollowMaskHalf,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		WorldStaticModel = DCHollowMaskHalf,
+		ItemType = base:clothing,
+	}
+	item DCFreddyBobble
+    {
+	DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = DCFreddyBobble,
+        Icon = DCFreddyBobble,
+        WorldStaticModel = DCFreddyBobble,
+		ItemType = base:normal,
+    }
+	item DCChicaBobble
+    {
+	DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = DCChicaBobble,
+        Icon = DCChicaBobble,
+        WorldStaticModel = DCChicaBobble,
+		ItemType = base:normal,
+    }
+	item DCBonnieBobble
+    {
+	DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = DCBonnieBobble,
+        Icon = DCBonnieBobble,
+        WorldStaticModel = DCBonnieBobble,
+		ItemType = base:normal,
+    }
+	item DCR2D2
+    {
+	DisplayCategory = Item,
+        Weight = 0.1,
+        DisplayName = DCR2D2,
+        Icon = DCR2D2,
+        WorldStaticModel = DCR2D2,
+		ItemType = base:normal,
+    }
+
+    item DCPoseidonTrident
+    {
+        DisplayCategory = Weapon,
+		ItemType = base:weapon,
+        MaxRange	=	1.55,
+        WeaponSprite	=	DCPoseidonTrident,
+        MinAngle	=	0.8,
+        MinimumSwingTime	=	2,
+        KnockBackOnNoDeath	=	FALSE,
+        SwingAmountBeforeImpact	=	0.02,
+        Categories	=	Spear,
+        ConditionLowerChanceOneIn	=	100,
+        Weight	=	5,
+        SplatNumber	=	1,
+        PushBackMod	=	0.3,
+        SubCategory	=	Spear,
+        ConditionMax	=	12,
+        MaxHitCount	=	2,
+        DoorDamage	=	10,
+        SwingAnim	=	Spear,
+        DisplayName	=	DCPoseidonTrident,
+        MinRange	=	0.98,
+        SwingTime	=	2,
+        KnockdownMod	=	0,
+        SplatBloodOnNoDeath	=	FALSE,
+        Icon	=	DCPoseidonTrident,
+        RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+        TreeDamage  =   0,
+        TwoHandWeapon = TRUE,
+        CriticalChance	=	35,
+        CritDmgMultiplier = 10,
+        MinDamage	=	1.3,
+        MaxDamage	=	2,
+        BaseSpeed = 0.9,
+        DamageCategory = Slash,
+        DamageMakeHole = TRUE,
+        BreakSound  =   SpearMacheteBreak,
+        HitFloorSound	=	SpearMacheteHit,
+        ImpactSound	=	SpearMacheteHit,
+        DoorHitSound = SpearMacheteHit,
+        HitSound	=	SpearMacheteHit,
+        SwingSound	=	SpearMacheteSwing,
+        SoundMap = SpearStab SpearMacheteStab,
+		AttachmentType = Shovel,
+        Tags = FishingSpear,
+    }
+
+    item DCMjolnir
+	{
+	    DisplayCategory = ToolWeapon,
+		MaxRange	=	1,
+		WeaponSprite	=	DCMjolnir,
+		MinAngle	=	0.65,
+		MinimumSwingTime	=	3,
+		KnockBackOnNoDeath	=	TRUE,
+		SwingAmountBeforeImpact	=	0.02,
+		Categories	=	SmallBlunt,
+		ConditionLowerChanceOneIn	=	100,
+		Weight	=	4,
+		SplatNumber	=	1,
+		PushBackMod	=	0.5,
+		SubCategory	=	Swinging,
+		ConditionMax	=	10,
+		MaxHitCount	=	1,
+		DoorDamage	=	9,
+		CanBarricade	=	TRUE,
+		SwingAnim	=	Bat,
+		DisplayName	=	DCMjolnir,
+		MinRange	=	0.61,
+		SwingTime	=	3,
+		KnockdownMod	=	0,
+		SplatBloodOnNoDeath	=	TRUE,
+		Icon	=	DCMjolnir,
+		RunAnim	=	Run_Weapon2,
+        IdleAnim	=	Idle_Weapon2,
+        BreakSound  =   ClubHammerBreak,
+        DoorHitSound = ClubHammerHit,
+		HitSound = ClubHammerHit,
+		HitFloorSound = ClubHammerHit,
+		SwingSound = ClubHammerSwing,
+        TreeDamage  =   0,
+        MetalValue = 25,
+        CriticalChance	=	25,
+        CritDmgMultiplier = 2,
+        MinDamage	=	1.3,
+        MaxDamage	=	2,
+        BaseSpeed = 1,
+	    WeaponLength = 0.25,
+	    AttachmentType = Hammer,
+		Tooltip = Tooltip_no_nails,
+		ItemType = base:weapon,
+    }
+
+    item DCHollowMask
+	{
+	    DisplayCategory = Accessory,
+		DisplayName = DCHollowMask,
+		ClothingItem = DCHollowMask,
+		BodyLocation = Mask,
+		Icon = DCHollowMask,
+		Weight = 0.1,
+		Cosmetic = TRUE,
+		WorldStaticModel = DCHollowMask,
+		ItemType = base:clothing,
+	}
+}

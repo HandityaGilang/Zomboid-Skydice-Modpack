@@ -1,0 +1,12 @@
+ContextMenu_RU = {
+    /* Opciones para las Gorras */
+    ContextMenu_ForwardCap = "Козырьком вперёд",
+    ContextMenu_ReverseCap = "Козырьком назад",
+
+    /* Opciones para los Delantales */
+    ContextMenu_Arremangar = "Надеть на грудь",
+    ContextMenu_Desarremangar = "Повязать на пояс",
+    
+    /* Nombre del Submenú */
+    ContextMenu_Ajustar_Prenda = "Поправить одежду"
+}

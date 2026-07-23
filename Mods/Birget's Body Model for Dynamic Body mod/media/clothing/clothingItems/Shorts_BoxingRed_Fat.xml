@@ -1,0 +1,14 @@
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Bob_BoxingShorts_Fat</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Kate_BoxingShorts_Fat</m_FemaleModel>
+	<m_GUID>1a944a80-3ae8-47fa-ad91-1d89dcea3a02</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone />
+	<m_Masks>14</m_Masks>
+	<m_Masks>15</m_Masks>
+		<m_Masks>2</m_Masks>
+		<m_UnderlayMasksFolder>media\textures\Clothes\ShortsMask</m_UnderlayMasksFolder>
+	<textureChoices>clothes\shorts_textures\boxingshorts_red</textureChoices>
+</clothingItem>

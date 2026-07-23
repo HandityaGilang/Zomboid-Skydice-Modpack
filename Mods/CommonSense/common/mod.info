@@ -1,0 +1,8 @@
+name=Common Sense
+id=VB_CommonSense
+poster=poster.png
+icon=icon.png
+author=BitBraven, 1Vita
+modversion=3.5.2
+description=This mod adds a variety of Quality of Life improvements to the game!
+incompatible=\BB_CommonSense

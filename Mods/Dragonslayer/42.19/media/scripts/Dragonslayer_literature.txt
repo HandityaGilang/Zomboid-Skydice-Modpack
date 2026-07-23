@@ -1,0 +1,17 @@
+module Dragonslayer
+{
+    item BerserkerMagazine
+    {
+        DisplayCategory = RecipeResource,
+        ItemType = base:literature,
+        Weight = 0.5,
+        Icon = BerserkerMagazine,
+        BoredomChange = -20,
+        StressChange = -15,
+        LearnedRecipes = ForgeDragonslayer,
+        StaticModel = Magazine,
+        WorldStaticModel = Dragonslayer.BerserkerMagazineGround,
+        Tags = base:magazine,
+        OnCreate = ItemCodeOnCreate.onCreateRecipeMagazine,
+    }
+}

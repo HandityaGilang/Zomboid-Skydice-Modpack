@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="idle2.xml">
+	<m_Name>Idle4</m_Name>
+	<m_AnimName>CyberDog_Idle</m_AnimName>
+	<m_Conditions>
+		<m_StringValue>idle3</m_StringValue>
+	</m_Conditions>
+</animNode>

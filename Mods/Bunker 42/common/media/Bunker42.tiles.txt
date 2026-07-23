@@ -1,0 +1,3811 @@
+version = 1
+tileset
+{
+    file = Bunker_01
+    size = 8,26
+    id = 459
+    // Bunker_01_0
+    tile
+    {
+        xy = 0,0
+        MaterialType = Cinderblock
+        WallW = 
+        wall = 
+    }
+    // Bunker_01_1
+    tile
+    {
+        xy = 1,0
+        MaterialType = Cinderblock
+        WallN = 
+        wall = 
+    }
+    // Bunker_01_2
+    tile
+    {
+        xy = 2,0
+        CornerNorthWall = walls_commercial_03_1
+        CornerWestWall = walls_commercial_03_0
+        MaterialType = Cinderblock
+        WallNW = 
+        wall = 
+    }
+    // Bunker_01_3
+    tile
+    {
+        xy = 3,0
+        WallSE = 
+        wall = 
+    }
+    // Bunker_01_4
+    tile
+    {
+        xy = 4,0
+        DoorWallW = 
+        wall = 
+    }
+    // Bunker_01_5
+    tile
+    {
+        xy = 5,0
+        DoorWallN = 
+        wall = 
+    }
+    // Bunker_01_8
+    tile
+    {
+        xy = 0,1
+        WindowW = 
+        wall = 
+    }
+    // Bunker_01_9
+    tile
+    {
+        xy = 1,1
+        WindowN = 
+        wall = 
+    }
+    // Bunker_01_10
+    tile
+    {
+        xy = 2,1
+        DoorWallW = 
+        wall = 
+    }
+    // Bunker_01_16
+    tile
+    {
+        xy = 0,2
+        MaterialType = Cinderblock
+        WallW = 
+        wall = 
+    }
+    // Bunker_01_17
+    tile
+    {
+        xy = 1,2
+        MaterialType = Cinderblock
+        WallN = 
+        wall = 
+    }
+    // Bunker_01_18
+    tile
+    {
+        xy = 2,2
+        CornerNorthWall = walls_commercial_03_1
+        CornerWestWall = walls_commercial_03_0
+        MaterialType = Cinderblock
+        WallNW = 
+        wall = 
+    }
+    // Bunker_01_19
+    tile
+    {
+        xy = 3,2
+        WallSE = 
+        wall = 
+    }
+    // Bunker_01_20
+    tile
+    {
+        xy = 4,2
+        DoorWallW = 
+        wall = 
+    }
+    // Bunker_01_21
+    tile
+    {
+        xy = 5,2
+        DoorWallN = 
+        wall = 
+    }
+    // Bunker_01_24
+    tile
+    {
+        xy = 0,3
+        WindowW = 
+        wall = 
+    }
+    // Bunker_01_25
+    tile
+    {
+        xy = 1,3
+        WindowN = 
+        wall = 
+    }
+    // Bunker_01_26
+    tile
+    {
+        xy = 2,3
+        diamondFloor = 
+        exterior = 
+        solidfloor = 
+    }
+    // Bunker_01_27
+    tile
+    {
+        xy = 3,3
+        diamondFloor = 
+        exterior = 
+        solidfloor = 
+    }
+    // Bunker_01_28
+    tile
+    {
+        xy = 4,3
+        diamondFloor = 
+        exterior = 
+        solidfloor = 
+    }
+    // Bunker_01_29
+    tile
+    {
+        xy = 5,3
+        diamondFloor = 
+        exterior = 
+        solidfloor = 
+    }
+    // Bunker_01_30
+    tile
+    {
+        xy = 6,3
+        diamondFloor = 
+        exterior = 
+        solidfloor = 
+    }
+    // Bunker_01_31
+    tile
+    {
+        xy = 7,3
+        diamondFloor = 
+        exterior = 
+        solidfloor = 
+    }
+    // Bunker_01_32
+    tile
+    {
+        xy = 0,4
+        WallOverlay = 
+        attachedW = 
+    }
+    // Bunker_01_33
+    tile
+    {
+        xy = 1,4
+        WallOverlay = 
+        attachedN = 
+    }
+    // Bunker_01_34
+    tile
+    {
+        xy = 2,4
+        CornerNorthWall = walls_interior_detailing_01_65
+        CornerWestWall = walls_interior_detailing_01_64
+        WallOverlay = 
+        attachedNW = 
+    }
+    // Bunker_01_35
+    tile
+    {
+        xy = 3,4
+        WallOverlay = 
+        attachedSE = 
+    }
+    // Bunker_01_36
+    tile
+    {
+        xy = 4,4
+        WallOverlay = 
+        attachedW = 
+    }
+    // Bunker_01_37
+    tile
+    {
+        xy = 5,4
+        WallOverlay = 
+        attachedN = 
+    }
+    // Bunker_01_38
+    tile
+    {
+        xy = 6,4
+        CornerNorthWall = walls_interior_detailing_01_69
+        CornerWestWall = walls_interior_detailing_01_68
+        WallOverlay = 
+        attachedNW = 
+    }
+    // Bunker_01_39
+    tile
+    {
+        xy = 7,4
+        WallOverlay = 
+        attachedSE = 
+    }
+    // Bunker_01_40
+    tile
+    {
+        xy = 0,5
+        WallOverlay = 
+        attachedW = 
+    }
+    // Bunker_01_41
+    tile
+    {
+        xy = 1,5
+        WallOverlay = 
+        attachedN = 
+    }
+    // Bunker_01_42
+    tile
+    {
+        xy = 2,5
+        WallOverlay = 
+        attachedW = 
+    }
+    // Bunker_01_43
+    tile
+    {
+        xy = 3,5
+        WallOverlay = 
+        attachedN = 
+    }
+    // Bunker_01_44
+    tile
+    {
+        xy = 4,5
+        WallOverlay = 
+        attachedW = 
+    }
+    // Bunker_01_45
+    tile
+    {
+        xy = 5,5
+        WallOverlay = 
+        attachedN = 
+    }
+    // Bunker_01_46
+    tile
+    {
+        xy = 6,5
+        WallOverlay = 
+        attachedW = 
+    }
+    // Bunker_01_47
+    tile
+    {
+        xy = 7,5
+        WallOverlay = 
+        attachedN = 
+    }
+    // Bunker_01_48
+    tile
+    {
+        xy = 0,6
+        CanScrap = 
+        CustomName = Door
+        DoorSound = PrisonMetalDoor
+        Material = MetalPlates
+        Material2 = SmallMetalPlates
+        Material3 = MetalBars
+        MaterialType = Metal
+        attachedW = 
+        doorW = 
+    }
+    // Bunker_01_49
+    tile
+    {
+        xy = 1,6
+        CanScrap = 
+        CustomName = Door
+        DoorSound = PrisonMetalDoor
+        Material = MetalPlates
+        Material2 = SmallMetalPlates
+        Material3 = MetalBars
+        MaterialType = Metal
+        attachedN = 
+        doorN = 
+    }
+    // Bunker_01_50
+    tile
+    {
+        xy = 2,6
+        CanScrap = 
+        CustomName = Door
+        DoorSound = PrisonMetalDoor
+        Material = MetalPlates
+        Material2 = SmallMetalPlates
+        Material3 = MetalBars
+        MaterialType = Metal
+        attachedW = 
+    }
+    // Bunker_01_51
+    tile
+    {
+        xy = 3,6
+        CanScrap = 
+        CustomName = Door
+        DoorSound = PrisonMetalDoor
+        Material = MetalPlates
+        Material2 = SmallMetalPlates
+        Material3 = MetalBars
+        MaterialType = Metal
+        attachedN = 
+    }
+    // Bunker_01_52
+    tile
+    {
+        xy = 4,6
+        attachedW = 
+        doorFrW = 
+    }
+    // Bunker_01_53
+    tile
+    {
+        xy = 5,6
+        attachedN = 
+        doorFrN = 
+    }
+    // Bunker_01_54
+    tile
+    {
+        xy = 6,6
+        BlocksPlacement = 
+        CanAttachAnimal = 
+        CanScrap = 
+        ScrapSize = Small
+    }
+    // Bunker_01_55
+    tile
+    {
+        xy = 7,6
+        BlocksPlacement = 
+        CanAttachAnimal = 
+        CanScrap = 
+        ScrapSize = Small
+    }
+    // Bunker_01_56
+    tile
+    {
+        xy = 0,7
+        BlocksPlacement = 
+        MaterialType = Metal_Light
+        attachedW = 
+    }
+    // Bunker_01_57
+    tile
+    {
+        xy = 1,7
+        BlocksPlacement = 
+        MaterialType = Metal_Light
+        attachedN = 
+    }
+    // Bunker_01_58
+    tile
+    {
+        xy = 2,7
+        BlocksPlacement = 
+        MaterialType = Metal_Light
+        attachedE = 
+    }
+    // Bunker_01_59
+    tile
+    {
+        xy = 3,7
+        BlocksPlacement = 
+        MaterialType = Metal_Light
+        attachedS = 
+    }
+    // Bunker_01_60
+    tile
+    {
+        xy = 4,7
+        BlocksPlacement = 
+        MaterialType = Metal_Light
+        attachedW = 
+    }
+    // Bunker_01_61
+    tile
+    {
+        xy = 5,7
+        BlocksPlacement = 
+        MaterialType = Metal_Light
+        attachedN = 
+    }
+    // Bunker_01_62
+    tile
+    {
+        xy = 6,7
+        BlocksPlacement = 
+        MaterialType = Metal_Light
+        attachedE = 
+    }
+    // Bunker_01_63
+    tile
+    {
+        xy = 7,7
+        BlocksPlacement = 
+        MaterialType = Metal_Light
+        attachedS = 
+    }
+    // Bunker_01_64
+    tile
+    {
+        xy = 0,8
+        attachedS = 
+    }
+    // Bunker_01_65
+    tile
+    {
+        xy = 1,8
+        attachedE = 
+    }
+    // Bunker_01_66
+    tile
+    {
+        xy = 2,8
+        attachedSE = 
+    }
+    // Bunker_01_67
+    tile
+    {
+        xy = 3,8
+        attachedN = 
+    }
+    // Bunker_01_68
+    tile
+    {
+        xy = 4,8
+        attachedW = 
+    }
+    // Bunker_01_69
+    tile
+    {
+        xy = 5,8
+        BlocksPlacement = 
+        CanScrap = 
+        CustomItem = Base.Mov_LightGreenBarrel
+        CustomName = Barrel group
+        Facing = N
+        GroupName = Light Green
+        IsLow = 
+        IsMoveAble = 
+        Material = MetalScrap
+        PickUpWeight = 150
+        SnowTile = object_snow_overlay_01_166
+        solidtrans = 
+    }
+    // Bunker_01_70
+    tile
+    {
+        xy = 6,8
+        BlocksPlacement = 
+        CanScrap = 
+        CustomItem = Base.Mov_LightGreenBarrel
+        CustomName = Barrel group
+        Facing = N
+        GroupName = Light Green
+        IsLow = 
+        IsMoveAble = 
+        Material = MetalScrap
+        PickUpWeight = 150
+        SnowTile = object_snow_overlay_01_166
+        solidtrans = 
+    }
+    // Bunker_01_71
+    tile
+    {
+        xy = 7,8
+        BlocksPlacement = 
+        CanScrap = 
+        CustomItem = Base.Mov_LightGreenBarrel
+        CustomName = Barrel group
+        Facing = N
+        GroupName = Light Green
+        IsLow = 
+        IsMoveAble = 
+        Material = MetalScrap
+        PickUpWeight = 150
+        SnowTile = object_snow_overlay_01_166
+        solidtrans = 
+    }
+    // Bunker_01_72
+    tile
+    {
+        xy = 0,9
+        attachedS = 
+    }
+    // Bunker_01_73
+    tile
+    {
+        xy = 1,9
+        attachedE = 
+    }
+    // Bunker_01_74
+    tile
+    {
+        xy = 2,9
+        attachedSE = 
+    }
+    // Bunker_01_75
+    tile
+    {
+        xy = 3,9
+        attachedN = 
+    }
+    // Bunker_01_76
+    tile
+    {
+        xy = 4,9
+        attachedW = 
+    }
+    // Bunker_01_77
+    tile
+    {
+        xy = 5,9
+        BlocksPlacement = 
+        CanScrap = 
+        CustomItem = Base.Mov_LightGreenBarrel
+        CustomName = Barrel group
+        Facing = N
+        GroupName = Light Green
+        IsLow = 
+        IsMoveAble = 
+        Material = MetalScrap
+        PickUpWeight = 150
+        SnowTile = object_snow_overlay_01_166
+        solidtrans = 
+    }
+    // Bunker_01_78
+    tile
+    {
+        xy = 6,9
+        BlocksPlacement = 
+        CanScrap = 
+        CustomItem = Base.Mov_LightGreenBarrel
+        CustomName = Barrel group
+        Facing = N
+        GroupName = Light Green
+        IsLow = 
+        IsMoveAble = 
+        Material = MetalScrap
+        PickUpWeight = 150
+        SnowTile = object_snow_overlay_01_166
+        solidtrans = 
+    }
+    // Bunker_01_79
+    tile
+    {
+        xy = 7,9
+        BlocksPlacement = 
+        CanScrap = 
+        CustomItem = Base.Mov_LightGreenBarrel
+        CustomName = Barrel group
+        Facing = N
+        GroupName = Light Green
+        IsLow = 
+        IsMoveAble = 
+        Material = MetalScrap
+        PickUpWeight = 150
+        SnowTile = object_snow_overlay_01_166
+        solidtrans = 
+    }
+    // Bunker_01_80
+    tile
+    {
+        xy = 0,10
+        BlocksPlacement = 
+        CanScrap = 
+        ItemHeight = 94
+        Material = Mechanical
+        Material2 = MetalScrap
+        MaterialType = Metal_Light
+        ScrapSize = Large
+        solid = 
+    }
+    // Bunker_01_81
+    tile
+    {
+        xy = 1,10
+        BlocksPlacement = 
+        CanScrap = 
+        ItemHeight = 45
+        Material = Mechanical
+        Material2 = MetalScrap
+        MaterialType = Metal_Light
+        ScrapSize = Large
+        solid = 
+    }
+    // Bunker_01_82
+    tile
+    {
+        xy = 2,10
+        ForceAmbient = 
+        WestRoofT = 
+        exterior = 
+        solidfloor = 
+    }
+    // Bunker_01_83
+    tile
+    {
+        xy = 3,10
+        BlocksPlacement = 
+        CanScrap = 
+        CustomName = Rain Collector Barrel
+        IsMoveAble = 
+        Material = Plastic
+        Material2 = PlasticBag
+        PickUpWeight = 75
+        solidtrans = 
+        waterAmount = 20
+        waterMaxAmount = 100
+    }
+    // Bunker_01_84
+    tile
+    {
+        xy = 4,10
+        BlocksPlacement = 
+        CanScrap = 
+        CustomName = Rain Collector Barrel
+        IsMoveAble = 
+        Material = Plastic
+        Material2 = PlasticBag
+        PickUpWeight = 75
+        solidtrans = 
+        waterAmount = 20
+        waterMaxAmount = 100
+    }
+    // Bunker_01_85
+    tile
+    {
+        xy = 5,10
+        BlocksPlacement = 
+        CanScrap = 
+        ItemHeight = 94
+        Material = Mechanical
+        Material2 = MetalScrap
+        MaterialType = Metal_Light
+        ScrapSize = Large
+        solid = 
+    }
+    // Bunker_01_86
+    tile
+    {
+        xy = 6,10
+        BlocksPlacement = 
+        CanScrap = 
+        ItemHeight = 45
+        Material = Mechanical
+        Material2 = MetalScrap
+        MaterialType = Metal_Light
+        ScrapSize = Large
+        solid = 
+    }
+    // Bunker_01_88
+    tile
+    {
+        xy = 0,11
+        BlocksPlacement = 
+        CanScrap = 
+        ItemHeight = 33
+        Material = Mechanical
+        Material2 = MetalScrap
+        MaterialType = Metal_Light
+        ScrapSize = Large
+        solid = 
+    }
+    // Bunker_01_89
+    tile
+    {
+        xy = 1,11
+        BlocksPlacement = 
+        CanScrap = 
+        ItemHeight = 33
+        Material = Mechanical
+        Material2 = MetalScrap
+        MaterialType = Metal_Light
+        ScrapSize = Large
+        solid = 
+    }
+    // Bunker_01_90
+    tile
+    {
+        xy = 2,11
+        BlocksPlacement = 
+        CanBreak = 
+        CanScrap = 
+        ContainerCloseSound = LockerMetalClose
+        ContainerOpenSound = LockerMetalOpen
+        CustomName = Locker gray
+        Facing = E
+        GroupName = Gray Locker
+        IsMoveAble = 
+        Material = MetalPlates
+        Material2 = SmallMetalPlates
+        Material3 = MetalScrap
+        MaterialType = Metal_Light
+        PickUpLevel = 3
+        PickUpTool = Hammer
+        PickUpWeight = 200
+        PlaceTool = Hammer
+        container = locker
+        solidtrans = 
+    }
+    // Bunker_01_91
+    tile
+    {
+        xy = 3,11
+        BlocksPlacement = 
+        CanBreak = 
+        CanScrap = 
+        ContainerCloseSound = LockerMetalClose
+        ContainerOpenSound = LockerMetalOpen
+        CustomName = Locker gray
+        Facing = S
+        GroupName = Gray Locker
+        IsMoveAble = 
+        Material = MetalPlates
+        Material2 = SmallMetalPlates
+        Material3 = MetalScrap
+        MaterialType = Metal_Light
+        PickUpLevel = 3
+        PickUpTool = Hammer
+        PickUpWeight = 200
+        PlaceTool = Hammer
+        container = locker
+        solidtrans = 
+    }
+    // Bunker_01_92
+    tile
+    {
+        xy = 4,11
+        BlocksPlacement = 
+        CanBreak = 
+        CanScrap = 
+        ContainerCloseSound = LockerMetalClose
+        ContainerOpenSound = LockerMetalOpen
+        CustomName = Locker gray
+        Facing = W
+        GroupName = Gray Locker
+        IsMoveAble = 
+        Material = MetalPlates
+        Material2 = SmallMetalPlates
+        Material3 = MetalScrap
+        MaterialType = Metal_Light
+        PickUpLevel = 3
+        PickUpTool = Hammer
+        PickUpWeight = 200
+        PlaceTool = Hammer
+        container = locker
+        solidtrans = 
+    }
+    // Bunker_01_93
+    tile
+    {
+        xy = 5,11
+        BlocksPlacement = 
+        CanBreak = 
+        CanScrap = 
+        ContainerCloseSound = LockerMetalClose
+        ContainerOpenSound = LockerMetalOpen
+        CustomName = Locker gray
+        Facing = N
+        GroupName = Gray Locker
+        IsMoveAble = 
+        Material = MetalPlates
+        Material2 = SmallMetalPlates
+        Material3 = MetalScrap
+        MaterialType = Metal_Light
+        PickUpLevel = 3
+        PickUpTool = Hammer
+        PickUpWeight = 200
+        PlaceTool = Hammer
+        container = locker
+        solidtrans = 
+    }
+    // Bunker_01_96
+    tile
+    {
+        xy = 0,12
+        MaterialType = Cinderblock
+        WallW = 
+        wall = 
+    }
+    // Bunker_01_97
+    tile
+    {
+        xy = 1,12
+        MaterialType = Cinderblock
+        WallN = 
+        wall = 
+    }
+    // Bunker_01_98
+    tile
+    {
+        xy = 2,12
+        CornerNorthWall = walls_commercial_03_1
+        CornerWestWall = walls_commercial_03_0
+        MaterialType = Cinderblock
+        WallNW = 
+        wall = 
+    }
+    // Bunker_01_99
+    tile
+    {
+        xy = 3,12
+        WallSE = 
+        wall = 
+    }
+    // Bunker_01_104
+    tile
+    {
+        xy = 0,13
+        WindowW = 
+        wall = 
+    }
+    // Bunker_01_105
+    tile
+    {
+        xy = 1,13
+        WindowN = 
+        wall = 
+    }
+    // Bunker_01_106
+    tile
+    {
+        xy = 2,13
+        DoorWallW = 
+        wall = 
+    }
+    // Bunker_01_107
+    tile
+    {
+        xy = 3,13
+        DoorWallN = 
+        wall = 
+    }
+    // Bunker_01_108
+    tile
+    {
+        xy = 4,13
+        BlocksPlacement = 
+        CanScrap = 
+        Material = Mechanical
+        Material2 = MetalScrap
+        ScrapSize = Large
+        solidtrans = 
+    }
+    // Bunker_01_109
+    tile
+    {
+        xy = 5,13
+        BlocksPlacement = 
+        CanScrap = 
+        Material = Mechanical
+        Material2 = MetalScrap
+        ScrapSize = Large
+        solidtrans = 
+    }
+    // Bunker_01_110
+    tile
+    {
+        xy = 6,13
+        BlocksPlacement = 
+        CanScrap = 
+        ItemHeight = 80
+        Material = Mechanical
+        Material2 = MetalScrap
+        MaterialType = Metal
+        ScrapSize = Large
+        solidtrans = 
+    }
+    // Bunker_01_111
+    tile
+    {
+        xy = 7,13
+        BlocksPlacement = 
+        CanScrap = 
+        ItemHeight = 80
+        Material = Mechanical
+        Material2 = MetalScrap
+        MaterialType = Metal
+        ScrapSize = Large
+        solidtrans = 
+    }
+    // Bunker_01_112
+    tile
+    {
+        xy = 0,14
+        WindowShape = 5
+        WindowW = 
+        wall = 
+    }
+    // Bunker_01_113
+    tile
+    {
+        xy = 1,14
+        WindowN = 
+        WindowShape = 5
+        wall = 
+    }
+    // Bunker_01_114
+    tile
+    {
+        xy = 2,14
+        WindowShape = 6
+        WindowW = 
+        wall = 
+    }
+    // Bunker_01_115
+    tile
+    {
+        xy = 3,14
+        WindowN = 
+        WindowShape = 6
+        wall = 
+    }
+    // Bunker_01_116
+    tile
+    {
+        xy = 4,14
+        WindowShape = 7
+        WindowW = 
+        wall = 
+    }
+    // Bunker_01_117
+    tile
+    {
+        xy = 5,14
+        WindowN = 
+        WindowShape = 7
+        wall = 
+    }
+    // Bunker_01_120
+    tile
+    {
+        xy = 0,15
+        WindowShape = 13
+        WindowW = 
+        wall = 
+    }
+    // Bunker_01_121
+    tile
+    {
+        xy = 1,15
+        WindowN = 
+        WindowShape = 13
+        wall = 
+    }
+    // Bunker_01_122
+    tile
+    {
+        xy = 2,15
+        WindowShape = 14
+        WindowW = 
+        wall = 
+    }
+    // Bunker_01_123
+    tile
+    {
+        xy = 3,15
+        WindowN = 
+        WindowShape = 14
+        wall = 
+    }
+    // Bunker_01_124
+    tile
+    {
+        xy = 4,15
+        WindowShape = 15
+        WindowW = 
+        wall = 
+    }
+    // Bunker_01_125
+    tile
+    {
+        xy = 5,15
+        WindowN = 
+        WindowShape = 15
+        wall = 
+    }
+    // Bunker_01_128
+    tile
+    {
+        xy = 0,16
+        MaterialType = Cinderblock
+        WallW = 
+        wall = 
+    }
+    // Bunker_01_129
+    tile
+    {
+        xy = 1,16
+        MaterialType = Cinderblock
+        WallN = 
+        wall = 
+    }
+    // Bunker_01_130
+    tile
+    {
+        xy = 2,16
+        CornerNorthWall = walls_commercial_03_1
+        CornerWestWall = walls_commercial_03_0
+        MaterialType = Cinderblock
+        WallNW = 
+        wall = 
+    }
+    // Bunker_01_131
+    tile
+    {
+        xy = 3,16
+        WallSE = 
+        wall = 
+    }
+    // Bunker_01_136
+    tile
+    {
+        xy = 0,17
+        WindowW = 
+        wall = 
+    }
+    // Bunker_01_137
+    tile
+    {
+        xy = 1,17
+        WindowN = 
+        wall = 
+    }
+    // Bunker_01_138
+    tile
+    {
+        xy = 2,17
+        DoorWallW = 
+        wall = 
+    }
+    // Bunker_01_139
+    tile
+    {
+        xy = 3,17
+        DoorWallN = 
+        wall = 
+    }
+    // Bunker_01_144
+    tile
+    {
+        xy = 0,18
+        WindowShape = 5
+        WindowW = 
+        wall = 
+    }
+    // Bunker_01_145
+    tile
+    {
+        xy = 1,18
+        WindowN = 
+        WindowShape = 5
+        wall = 
+    }
+    // Bunker_01_146
+    tile
+    {
+        xy = 2,18
+        WindowShape = 6
+        WindowW = 
+        wall = 
+    }
+    // Bunker_01_147
+    tile
+    {
+        xy = 3,18
+        WindowN = 
+        WindowShape = 6
+        wall = 
+    }
+    // Bunker_01_148
+    tile
+    {
+        xy = 4,18
+        WindowShape = 7
+        WindowW = 
+        wall = 
+    }
+    // Bunker_01_149
+    tile
+    {
+        xy = 5,18
+        WindowN = 
+        WindowShape = 7
+        wall = 
+    }
+    // Bunker_01_152
+    tile
+    {
+        xy = 0,19
+        WindowShape = 13
+        WindowW = 
+        wall = 
+    }
+    // Bunker_01_153
+    tile
+    {
+        xy = 1,19
+        WindowN = 
+        WindowShape = 13
+        wall = 
+    }
+    // Bunker_01_154
+    tile
+    {
+        xy = 2,19
+        WindowShape = 14
+        WindowW = 
+        wall = 
+    }
+    // Bunker_01_155
+    tile
+    {
+        xy = 3,19
+        WindowN = 
+        WindowShape = 14
+        wall = 
+    }
+    // Bunker_01_156
+    tile
+    {
+        xy = 4,19
+        WindowShape = 15
+        WindowW = 
+        wall = 
+    }
+    // Bunker_01_157
+    tile
+    {
+        xy = 5,19
+        WindowN = 
+        WindowShape = 15
+        wall = 
+    }
+    // Bunker_01_160
+    tile
+    {
+        xy = 0,20
+        MaterialType = Cinderblock
+        WallW = 
+        wall = 
+    }
+    // Bunker_01_161
+    tile
+    {
+        xy = 1,20
+        MaterialType = Cinderblock
+        WallN = 
+        wall = 
+    }
+    // Bunker_01_162
+    tile
+    {
+        xy = 2,20
+        CornerNorthWall = walls_commercial_03_1
+        CornerWestWall = walls_commercial_03_0
+        MaterialType = Cinderblock
+        WallNW = 
+        wall = 
+    }
+    // Bunker_01_163
+    tile
+    {
+        xy = 3,20
+        WallSE = 
+        wall = 
+    }
+    // Bunker_01_168
+    tile
+    {
+        xy = 0,21
+        WindowW = 
+        wall = 
+    }
+    // Bunker_01_169
+    tile
+    {
+        xy = 1,21
+        WindowN = 
+        wall = 
+    }
+    // Bunker_01_170
+    tile
+    {
+        xy = 2,21
+        DoorWallW = 
+        wall = 
+    }
+    // Bunker_01_171
+    tile
+    {
+        xy = 3,21
+        DoorWallN = 
+        wall = 
+    }
+    // Bunker_01_176
+    tile
+    {
+        xy = 0,22
+        WindowShape = 5
+        WindowW = 
+        wall = 
+    }
+    // Bunker_01_177
+    tile
+    {
+        xy = 1,22
+        WindowN = 
+        WindowShape = 5
+        wall = 
+    }
+    // Bunker_01_178
+    tile
+    {
+        xy = 2,22
+        WindowShape = 6
+        WindowW = 
+        wall = 
+    }
+    // Bunker_01_179
+    tile
+    {
+        xy = 3,22
+        WindowN = 
+        WindowShape = 6
+        wall = 
+    }
+    // Bunker_01_180
+    tile
+    {
+        xy = 4,22
+        WindowShape = 7
+        WindowW = 
+        wall = 
+    }
+    // Bunker_01_181
+    tile
+    {
+        xy = 5,22
+        WindowN = 
+        WindowShape = 7
+        wall = 
+    }
+    // Bunker_01_184
+    tile
+    {
+        xy = 0,23
+        WindowShape = 13
+        WindowW = 
+        wall = 
+    }
+    // Bunker_01_185
+    tile
+    {
+        xy = 1,23
+        WindowN = 
+        WindowShape = 13
+        wall = 
+    }
+    // Bunker_01_186
+    tile
+    {
+        xy = 2,23
+        WindowShape = 14
+        WindowW = 
+        wall = 
+    }
+    // Bunker_01_187
+    tile
+    {
+        xy = 3,23
+        WindowN = 
+        WindowShape = 14
+        wall = 
+    }
+    // Bunker_01_188
+    tile
+    {
+        xy = 4,23
+        WindowShape = 15
+        WindowW = 
+        wall = 
+    }
+    // Bunker_01_189
+    tile
+    {
+        xy = 5,23
+        WindowN = 
+        WindowShape = 15
+        wall = 
+    }
+    // Bunker_01_192
+    tile
+    {
+        xy = 0,24
+        BurntTile = fencing_burnt_01_48
+        CanAttachAnimal = 
+        CanScrap = 
+        CloseSneakBonus = 250
+        HitByCar = 
+        Material = MetalWire
+        Material2 = MetalWire
+        SpearOnlyAttackThrough = 
+        TallHoppableN = 
+        WallNTrans = 
+        wall = 
+    }
+    // Bunker_01_193
+    tile
+    {
+        xy = 1,24
+        BurntTile = fencing_burnt_01_49
+        CanAttachAnimal = 
+        CanScrap = 
+        CloseSneakBonus = 250
+        HitByCar = 
+        Material = MetalWire
+        Material2 = MetalWire
+        SpearOnlyAttackThrough = 
+        TallHoppableN = 
+        WallNTrans = 
+        wall = 
+    }
+    // Bunker_01_194
+    tile
+    {
+        xy = 2,24
+        BurntTile = fencing_burnt_01_50
+        CanAttachAnimal = 
+        CanScrap = 
+        CloseSneakBonus = 250
+        HitByCar = 
+        Material = MetalWire
+        Material2 = MetalWire
+        SpearOnlyAttackThrough = 
+        TallHoppableW = 
+        WallWTrans = 
+        wall = 
+    }
+    // Bunker_01_195
+    tile
+    {
+        xy = 3,24
+        BurntTile = fencing_burnt_01_51
+        CanAttachAnimal = 
+        CanScrap = 
+        CloseSneakBonus = 250
+        HitByCar = 
+        Material = MetalWire
+        Material2 = MetalWire
+        SpearOnlyAttackThrough = 
+        TallHoppableW = 
+        WallWTrans = 
+        wall = 
+    }
+    // Bunker_01_196
+    tile
+    {
+        xy = 4,24
+        BurntTile = fencing_burnt_01_52
+        CanAttachAnimal = 
+        CanScrap = 
+        CloseSneakBonus = 250
+        CornerNorthWall = fencing_01_56
+        CornerWestWall = fencing_01_59
+        HitByCar = 
+        Material = MetalWire
+        Material2 = MetalWire
+        SpearOnlyAttackThrough = 
+        TallHoppableN = 
+        TallHoppableW = 
+        WallNWTrans = 
+        wall = 
+    }
+    // Bunker_01_197
+    tile
+    {
+        xy = 5,24
+        BurntTile = fencing_burnt_01_53
+        CanAttachAnimal = 
+        CanScrap = 
+        HitByCar = 
+        Material = MetalBars
+        Material2 = MetalScrap
+        SpearOnlyAttackThrough = 
+    }
+    // Bunker_01_200
+    tile
+    {
+        xy = 0,25
+        CanScrap = 
+        CustomName = Fence gate
+        Material2 = MetalBars
+        Material3 = MetalPipe
+        doorTrans = 
+        doorW = 
+    }
+    // Bunker_01_201
+    tile
+    {
+        xy = 1,25
+        CanScrap = 
+        CustomName = Fence gate
+        Material2 = MetalBars
+        Material3 = MetalPipe
+        doorN = 
+        doorTrans = 
+    }
+    // Bunker_01_202
+    tile
+    {
+        xy = 2,25
+        CanScrap = 
+        CustomName = Fence gate
+        Material2 = MetalBars
+        Material3 = MetalPipe
+        doorTrans = 
+    }
+    // Bunker_01_203
+    tile
+    {
+        xy = 3,25
+        CanScrap = 
+        CustomName = Fence gate
+        Material2 = MetalBars
+        Material3 = MetalPipe
+        doorTrans = 
+    }
+}
+tileset
+{
+    file = Bunker_02
+    size = 8,26
+    id = 460
+    // Bunker_02_0
+    tile
+    {
+        xy = 0,0
+        BlocksPlacement = 
+        CanScrap = 
+        ContainerCapacity = 20
+        CustomName = Bin
+        Facing = N
+        GroupName = Washing
+        IsLow = 
+        IsMoveAble = 
+        Material = Fabric
+        Material2 = MetalBars
+        container = clothingdryerbasic
+        solidtrans = 
+    }
+    // Bunker_02_1
+    tile
+    {
+        xy = 1,0
+        BlocksPlacement = 
+        CanScrap = 
+        ContainerCapacity = 20
+        CustomName = Bin
+        Facing = W
+        GroupName = Washing
+        IsLow = 
+        IsMoveAble = 
+        Material = Fabric
+        Material2 = MetalBars
+        container = clothingdryerbasic
+        solidtrans = 
+    }
+    // Bunker_02_2
+    tile
+    {
+        xy = 2,0
+        BlocksPlacement = 
+        CanScrap = 
+        ContainerCapacity = 20
+        CustomName = Bin
+        Facing = N
+        GroupName = Washing
+        IsLow = 
+        IsMoveAble = 
+        Material = Fabric
+        Material2 = MetalBars
+        container = clothingdryerbasic
+        solidtrans = 
+    }
+    // Bunker_02_3
+    tile
+    {
+        xy = 3,0
+        BlocksPlacement = 
+        CanScrap = 
+        ContainerCapacity = 20
+        CustomName = Bin
+        Facing = W
+        GroupName = Washing
+        IsLow = 
+        IsMoveAble = 
+        Material = Fabric
+        Material2 = MetalBars
+        container = clothingdryerbasic
+        solidtrans = 
+    }
+    // Bunker_02_8
+    tile
+    {
+        xy = 0,1
+        BlocksPlacement = 
+        CanScrap = 
+        ContainerCapacity = 60
+        ContainerPosition = Low
+        CustomName = Crate
+        IsLow = 
+        IsMoveAble = 
+        IsPaintable = 
+        IsStackable = 
+        IsTable = 
+        Material = Wood
+        Material2 = Nails
+        PaintingType = crates
+        PickUpWeight = 75
+        SnowTile = object_snow_overlay_01_184
+        Surface = 32
+        container = crate
+        solidtrans = 
+    }
+    // Bunker_02_9
+    tile
+    {
+        xy = 1,1
+        CanScrap = 
+        ContainerCapacity = 60
+        IsPaintable = 
+        IsStackable = 
+        Material2 = Nails
+        MaterialType = Wood
+        PaintingType = crates
+        SnowTile = object_snow_overlay_01_185
+        StackReplaceTileOffset = -1
+        Surface = 64
+        container = crate
+        solidtrans = 
+    }
+    // Bunker_02_10
+    tile
+    {
+        xy = 2,1
+        CanScrap = 
+        ContainerCapacity = 60
+        ContainerPosition = High
+        IsPaintable = 
+        IsStackable = 
+        Material2 = Nails
+        PaintingType = crates
+        SnowTile = object_snow_overlay_01_186
+        StackReplaceTileOffset = -2
+        Surface = 96
+        container = crate
+        solidtrans = 
+    }
+    // Bunker_02_16
+    tile
+    {
+        xy = 0,2
+        BlocksPlacement = 
+        CanScrap = 
+        CustomItem = Base.HamRadio2
+        CustomName = Radio HG
+        Facing = S
+        GroupName = US ARMY HG
+        IsMoveAble = 
+        IsSurfaceOffset = 
+        IsTableTop = 
+        IsoType = IsoRadio
+        ItemHeight = 20
+        Material = Electric
+        PickUpWeight = 100
+        Surface = 30
+        signal = radio
+    }
+    // Bunker_02_17
+    tile
+    {
+        xy = 1,2
+        BlocksPlacement = 
+        CanScrap = 
+        CustomItem = Base.HamRadio2
+        CustomName = Radio HG
+        Facing = E
+        GroupName = US ARMY HG
+        IsMoveAble = 
+        IsSurfaceOffset = 
+        IsTableTop = 
+        IsoType = IsoRadio
+        ItemHeight = 20
+        Material = Electric
+        PickUpWeight = 100
+        Surface = 30
+        signal = radio
+    }
+    // Bunker_02_18
+    tile
+    {
+        xy = 2,2
+        BlocksPlacement = 
+        CanScrap = 
+        CustomItem = Base.HamRadio2
+        CustomName = Radio HG
+        Facing = N
+        GroupName = US ARMY HG
+        IsMoveAble = 
+        IsSurfaceOffset = 
+        IsTableTop = 
+        IsoType = IsoRadio
+        ItemHeight = 20
+        Material = Electric
+        PickUpWeight = 100
+        Surface = 30
+        signal = radio
+    }
+    // Bunker_02_19
+    tile
+    {
+        xy = 3,2
+        BlocksPlacement = 
+        CanScrap = 
+        CustomItem = Base.HamRadio2
+        CustomName = Radio HG
+        Facing = W
+        GroupName = US ARMY HG
+        IsMoveAble = 
+        IsSurfaceOffset = 
+        IsTableTop = 
+        IsoType = IsoRadio
+        ItemHeight = 20
+        Material = Electric
+        PickUpWeight = 100
+        Surface = 30
+        signal = radio
+    }
+    // Bunker_02_20
+    tile
+    {
+        xy = 4,2
+        CanScrap = 
+        CustomItem = Base.HamRadio2
+        GroupName = US ARMY HG
+        IsSurfaceOffset = 
+        ItemHeight = 20
+        PickUpWeight = 100
+        Surface = 30
+    }
+    // Bunker_02_21
+    tile
+    {
+        xy = 5,2
+        CanScrap = 
+        CustomItem = Base.HamRadio2
+        GroupName = US ARMY HG
+        IsSurfaceOffset = 
+        ItemHeight = 20
+        PickUpWeight = 100
+        Surface = 30
+    }
+    // Bunker_02_22
+    tile
+    {
+        xy = 6,2
+        CanScrap = 
+        CustomItem = Base.HamRadio2
+        GroupName = US ARMY HG
+        IsSurfaceOffset = 
+        ItemHeight = 20
+        PickUpWeight = 100
+        Surface = 30
+    }
+    // Bunker_02_23
+    tile
+    {
+        xy = 7,2
+        CanScrap = 
+        CustomItem = Base.HamRadio2
+        GroupName = US ARMY HG
+        IsSurfaceOffset = 
+        ItemHeight = 20
+        PickUpWeight = 100
+        Surface = 30
+    }
+    // Bunker_02_24
+    tile
+    {
+        xy = 0,3
+        MaterialType = Brick
+        WallW = 
+        wall = 
+    }
+    // Bunker_02_25
+    tile
+    {
+        xy = 1,3
+        MaterialType = Brick
+        WallN = 
+        wall = 
+    }
+    // Bunker_02_26
+    tile
+    {
+        xy = 2,3
+        CornerNorthWall = walls_commercial_03_1
+        CornerWestWall = walls_commercial_03_0
+        MaterialType = Brick
+        WallNW = 
+        wall = 
+    }
+    // Bunker_02_27
+    tile
+    {
+        xy = 3,3
+        MaterialType = Brick
+        WallSE = 
+        wall = 
+    }
+    // Bunker_02_32
+    tile
+    {
+        xy = 0,4
+        MaterialType = Brick
+        WindowW = 
+        wall = 
+    }
+    // Bunker_02_33
+    tile
+    {
+        xy = 1,4
+        MaterialType = Brick
+        WindowN = 
+        wall = 
+    }
+    // Bunker_02_34
+    tile
+    {
+        xy = 2,4
+        DoorWallW = 
+        MaterialType = Brick
+        wall = 
+    }
+    // Bunker_02_35
+    tile
+    {
+        xy = 3,4
+        DoorWallN = 
+        MaterialType = Brick
+        wall = 
+    }
+    // Bunker_02_40
+    tile
+    {
+        xy = 0,5
+        MaterialType = Brick
+        WindowShape = 5
+        WindowW = 
+        wall = 
+    }
+    // Bunker_02_41
+    tile
+    {
+        xy = 1,5
+        MaterialType = Brick
+        WindowN = 
+        WindowShape = 5
+        wall = 
+    }
+    // Bunker_02_42
+    tile
+    {
+        xy = 2,5
+        MaterialType = Brick
+        WindowShape = 6
+        WindowW = 
+        wall = 
+    }
+    // Bunker_02_43
+    tile
+    {
+        xy = 3,5
+        MaterialType = Brick
+        WindowN = 
+        WindowShape = 6
+        wall = 
+    }
+    // Bunker_02_44
+    tile
+    {
+        xy = 4,5
+        WindowShape = 7
+        WindowW = 
+        wall = 
+    }
+    // Bunker_02_45
+    tile
+    {
+        xy = 5,5
+        WindowN = 
+        WindowShape = 7
+        wall = 
+    }
+    // Bunker_02_46
+    tile
+    {
+        xy = 6,5
+        GrimeType = FullWindow
+        WindowShape = 8
+        cutW = 
+    }
+    // Bunker_02_47
+    tile
+    {
+        xy = 7,5
+        GrimeType = FullWindow
+        WindowShape = 8
+        cutN = 
+    }
+    // Bunker_02_48
+    tile
+    {
+        xy = 0,6
+        MaterialType = Brick
+        WindowShape = 13
+        WindowW = 
+        wall = 
+    }
+    // Bunker_02_49
+    tile
+    {
+        xy = 1,6
+        MaterialType = Brick
+        WindowN = 
+        WindowShape = 13
+        wall = 
+    }
+    // Bunker_02_50
+    tile
+    {
+        xy = 2,6
+        MaterialType = Brick
+        WindowShape = 14
+        WindowW = 
+        wall = 
+    }
+    // Bunker_02_51
+    tile
+    {
+        xy = 3,6
+        MaterialType = Brick
+        WindowN = 
+        WindowShape = 14
+        wall = 
+    }
+    // Bunker_02_52
+    tile
+    {
+        xy = 4,6
+        WindowShape = 15
+        WindowW = 
+        wall = 
+    }
+    // Bunker_02_53
+    tile
+    {
+        xy = 5,6
+        WindowN = 
+        WindowShape = 15
+        wall = 
+    }
+    // Bunker_02_56
+    tile
+    {
+        xy = 0,7
+        MaterialType = Cinderblock
+        WallW = 
+        wall = 
+    }
+    // Bunker_02_57
+    tile
+    {
+        xy = 1,7
+        MaterialType = Cinderblock
+        WallN = 
+        wall = 
+    }
+    // Bunker_02_58
+    tile
+    {
+        xy = 2,7
+        CornerNorthWall = walls_commercial_03_1
+        CornerWestWall = walls_commercial_03_0
+        MaterialType = Cinderblock
+        WallNW = 
+        wall = 
+    }
+    // Bunker_02_59
+    tile
+    {
+        xy = 3,7
+        WallSE = 
+        wall = 
+    }
+    // Bunker_02_64
+    tile
+    {
+        xy = 0,8
+        WindowW = 
+        wall = 
+    }
+    // Bunker_02_65
+    tile
+    {
+        xy = 1,8
+        WindowN = 
+        wall = 
+    }
+    // Bunker_02_66
+    tile
+    {
+        xy = 2,8
+        DoorWallW = 
+        wall = 
+    }
+    // Bunker_02_67
+    tile
+    {
+        xy = 3,8
+        DoorWallN = 
+        wall = 
+    }
+    // Bunker_02_72
+    tile
+    {
+        xy = 0,9
+        WindowShape = 5
+        WindowW = 
+        wall = 
+    }
+    // Bunker_02_73
+    tile
+    {
+        xy = 1,9
+        WindowN = 
+        WindowShape = 5
+        wall = 
+    }
+    // Bunker_02_74
+    tile
+    {
+        xy = 2,9
+        WindowShape = 6
+        WindowW = 
+        wall = 
+    }
+    // Bunker_02_75
+    tile
+    {
+        xy = 3,9
+        WindowN = 
+        WindowShape = 6
+        wall = 
+    }
+    // Bunker_02_76
+    tile
+    {
+        xy = 4,9
+        WindowShape = 7
+        WindowW = 
+        wall = 
+    }
+    // Bunker_02_77
+    tile
+    {
+        xy = 5,9
+        WindowN = 
+        WindowShape = 7
+        wall = 
+    }
+    // Bunker_02_78
+    tile
+    {
+        xy = 6,9
+        GrimeType = FullWindow
+        WindowShape = 8
+        cutW = 
+    }
+    // Bunker_02_79
+    tile
+    {
+        xy = 7,9
+        GrimeType = FullWindow
+        WindowShape = 8
+        cutN = 
+    }
+    // Bunker_02_80
+    tile
+    {
+        xy = 0,10
+        WindowShape = 13
+        WindowW = 
+        wall = 
+    }
+    // Bunker_02_81
+    tile
+    {
+        xy = 1,10
+        WindowN = 
+        WindowShape = 13
+        wall = 
+    }
+    // Bunker_02_82
+    tile
+    {
+        xy = 2,10
+        WindowShape = 14
+        WindowW = 
+        wall = 
+    }
+    // Bunker_02_83
+    tile
+    {
+        xy = 3,10
+        WindowN = 
+        WindowShape = 14
+        wall = 
+    }
+    // Bunker_02_84
+    tile
+    {
+        xy = 4,10
+        WindowShape = 15
+        WindowW = 
+        wall = 
+    }
+    // Bunker_02_85
+    tile
+    {
+        xy = 5,10
+        WindowN = 
+        WindowShape = 15
+        wall = 
+    }
+    // Bunker_02_88
+    tile
+    {
+        xy = 0,11
+        MaterialType = Cinderblock
+        WallW = 
+        wall = 
+    }
+    // Bunker_02_89
+    tile
+    {
+        xy = 1,11
+        MaterialType = Cinderblock
+        WallN = 
+        wall = 
+    }
+    // Bunker_02_90
+    tile
+    {
+        xy = 2,11
+        CornerNorthWall = walls_commercial_03_1
+        CornerWestWall = walls_commercial_03_0
+        MaterialType = Cinderblock
+        WallNW = 
+        wall = 
+    }
+    // Bunker_02_91
+    tile
+    {
+        xy = 3,11
+        WallSE = 
+        wall = 
+    }
+    // Bunker_02_96
+    tile
+    {
+        xy = 0,12
+        WindowW = 
+        wall = 
+    }
+    // Bunker_02_97
+    tile
+    {
+        xy = 1,12
+        WindowN = 
+        wall = 
+    }
+    // Bunker_02_98
+    tile
+    {
+        xy = 2,12
+        DoorWallW = 
+        wall = 
+    }
+    // Bunker_02_99
+    tile
+    {
+        xy = 3,12
+        DoorWallN = 
+        wall = 
+    }
+    // Bunker_02_104
+    tile
+    {
+        xy = 0,13
+        MaterialType = Cinderblock
+        WallW = 
+        wall = 
+    }
+    // Bunker_02_105
+    tile
+    {
+        xy = 1,13
+        MaterialType = Cinderblock
+        WallN = 
+        wall = 
+    }
+    // Bunker_02_106
+    tile
+    {
+        xy = 2,13
+        CornerNorthWall = walls_commercial_03_1
+        CornerWestWall = walls_commercial_03_0
+        MaterialType = Cinderblock
+        WallNW = 
+        wall = 
+    }
+    // Bunker_02_107
+    tile
+    {
+        xy = 3,13
+        WallSE = 
+        wall = 
+    }
+    // Bunker_02_112
+    tile
+    {
+        xy = 0,14
+        WindowW = 
+        wall = 
+    }
+    // Bunker_02_113
+    tile
+    {
+        xy = 1,14
+        WindowN = 
+        wall = 
+    }
+    // Bunker_02_114
+    tile
+    {
+        xy = 2,14
+        DoorWallW = 
+        wall = 
+    }
+    // Bunker_02_115
+    tile
+    {
+        xy = 3,14
+        DoorWallN = 
+        wall = 
+    }
+    // Bunker_02_120
+    tile
+    {
+        xy = 0,15
+        WindowShape = 5
+        WindowW = 
+        wall = 
+    }
+    // Bunker_02_121
+    tile
+    {
+        xy = 1,15
+        WindowN = 
+        WindowShape = 5
+        wall = 
+    }
+    // Bunker_02_122
+    tile
+    {
+        xy = 2,15
+        WindowShape = 6
+        WindowW = 
+        wall = 
+    }
+    // Bunker_02_123
+    tile
+    {
+        xy = 3,15
+        WindowN = 
+        WindowShape = 6
+        wall = 
+    }
+    // Bunker_02_124
+    tile
+    {
+        xy = 4,15
+        WindowShape = 7
+        WindowW = 
+        wall = 
+    }
+    // Bunker_02_125
+    tile
+    {
+        xy = 5,15
+        WindowN = 
+        WindowShape = 7
+        wall = 
+    }
+    // Bunker_02_126
+    tile
+    {
+        xy = 6,15
+        GrimeType = FullWindow
+        WindowShape = 8
+        cutW = 
+    }
+    // Bunker_02_127
+    tile
+    {
+        xy = 7,15
+        GrimeType = FullWindow
+        WindowShape = 8
+        cutN = 
+    }
+    // Bunker_02_128
+    tile
+    {
+        xy = 0,16
+        WindowShape = 13
+        WindowW = 
+        wall = 
+    }
+    // Bunker_02_129
+    tile
+    {
+        xy = 1,16
+        WindowN = 
+        WindowShape = 13
+        wall = 
+    }
+    // Bunker_02_130
+    tile
+    {
+        xy = 2,16
+        WindowShape = 14
+        WindowW = 
+        wall = 
+    }
+    // Bunker_02_131
+    tile
+    {
+        xy = 3,16
+        WindowN = 
+        WindowShape = 14
+        wall = 
+    }
+    // Bunker_02_132
+    tile
+    {
+        xy = 4,16
+        WindowShape = 15
+        WindowW = 
+        wall = 
+    }
+    // Bunker_02_133
+    tile
+    {
+        xy = 5,16
+        WindowN = 
+        WindowShape = 15
+        wall = 
+    }
+    // Bunker_02_136
+    tile
+    {
+        xy = 0,17
+        MaterialType = Cinderblock
+        WallW = 
+        wall = 
+    }
+    // Bunker_02_137
+    tile
+    {
+        xy = 1,17
+        MaterialType = Cinderblock
+        WallN = 
+        wall = 
+    }
+    // Bunker_02_138
+    tile
+    {
+        xy = 2,17
+        CornerNorthWall = walls_commercial_03_1
+        CornerWestWall = walls_commercial_03_0
+        MaterialType = Cinderblock
+        WallNW = 
+        wall = 
+    }
+    // Bunker_02_139
+    tile
+    {
+        xy = 3,17
+        WallSE = 
+        wall = 
+    }
+    // Bunker_02_140
+    tile
+    {
+        xy = 4,17
+        MaterialType = Cinderblock
+        WallW = 
+        wall = 
+    }
+    // Bunker_02_141
+    tile
+    {
+        xy = 5,17
+        MaterialType = Cinderblock
+        WallN = 
+        wall = 
+    }
+    // Bunker_02_142
+    tile
+    {
+        xy = 6,17
+        CornerNorthWall = walls_commercial_03_1
+        CornerWestWall = walls_commercial_03_0
+        MaterialType = Cinderblock
+        WallNW = 
+        wall = 
+    }
+    // Bunker_02_143
+    tile
+    {
+        xy = 7,17
+        WallSE = 
+        wall = 
+    }
+    // Bunker_02_144
+    tile
+    {
+        xy = 0,18
+        WindowW = 
+        wall = 
+    }
+    // Bunker_02_145
+    tile
+    {
+        xy = 1,18
+        WindowN = 
+        wall = 
+    }
+    // Bunker_02_146
+    tile
+    {
+        xy = 2,18
+        DoorWallW = 
+        wall = 
+    }
+    // Bunker_02_147
+    tile
+    {
+        xy = 3,18
+        DoorWallN = 
+        wall = 
+    }
+    // Bunker_02_148
+    tile
+    {
+        xy = 4,18
+        WindowW = 
+        wall = 
+    }
+    // Bunker_02_149
+    tile
+    {
+        xy = 5,18
+        WindowN = 
+        wall = 
+    }
+    // Bunker_02_150
+    tile
+    {
+        xy = 6,18
+        DoorWallW = 
+        wall = 
+    }
+    // Bunker_02_151
+    tile
+    {
+        xy = 7,18
+        DoorWallN = 
+        wall = 
+    }
+    // Bunker_02_152
+    tile
+    {
+        xy = 0,19
+        MaterialType = Brick
+        WallW = 
+        wall = 
+    }
+    // Bunker_02_153
+    tile
+    {
+        xy = 1,19
+        MaterialType = Brick
+        WallN = 
+        wall = 
+    }
+    // Bunker_02_154
+    tile
+    {
+        xy = 2,19
+        MaterialType = Brick
+        WallNW = 
+        wall = 
+    }
+    // Bunker_02_155
+    tile
+    {
+        xy = 3,19
+        WallSE = 
+        wall = 
+    }
+    // Bunker_02_160
+    tile
+    {
+        xy = 0,20
+        WindowW = 
+        wall = 
+    }
+    // Bunker_02_161
+    tile
+    {
+        xy = 1,20
+        WindowN = 
+        wall = 
+    }
+    // Bunker_02_162
+    tile
+    {
+        xy = 2,20
+        DoorWallW = 
+        wall = 
+    }
+    // Bunker_02_163
+    tile
+    {
+        xy = 3,20
+        DoorWallN = 
+        wall = 
+    }
+    // Bunker_02_168
+    tile
+    {
+        xy = 0,21
+        BurntTile = walls_burnt_roofs_01_0
+        WallW = 
+        wall = 
+    }
+    // Bunker_02_169
+    tile
+    {
+        xy = 1,21
+        BurntTile = walls_burnt_roofs_01_1
+        WallW = 
+        wall = 
+    }
+    // Bunker_02_170
+    tile
+    {
+        xy = 2,21
+        BurntTile = walls_burnt_roofs_01_2
+        WallW = 
+        wall = 
+    }
+    // Bunker_02_171
+    tile
+    {
+        xy = 3,21
+        BurntTile = walls_burnt_roofs_01_3
+        WallN = 
+        wall = 
+    }
+    // Bunker_02_172
+    tile
+    {
+        xy = 4,21
+        BurntTile = walls_burnt_roofs_01_4
+        WallN = 
+        wall = 
+    }
+    // Bunker_02_173
+    tile
+    {
+        xy = 5,21
+        BurntTile = walls_burnt_roofs_01_5
+        WallN = 
+        wall = 
+    }
+    // Bunker_02_176
+    tile
+    {
+        xy = 0,22
+        BurntTile = walls_burnt_roofs_01_8
+        WallW = 
+        wall = 
+    }
+    // Bunker_02_177
+    tile
+    {
+        xy = 1,22
+        BurntTile = walls_burnt_roofs_01_9
+        WallW = 
+        wall = 
+    }
+    // Bunker_02_178
+    tile
+    {
+        xy = 2,22
+        BurntTile = walls_burnt_roofs_01_10
+        MaterialType = Brick
+        WallW = 
+        wall = 
+    }
+    // Bunker_02_179
+    tile
+    {
+        xy = 3,22
+        BurntTile = walls_burnt_roofs_01_11
+        MaterialType = Brick
+        WallN = 
+        wall = 
+    }
+    // Bunker_02_180
+    tile
+    {
+        xy = 4,22
+        BurntTile = walls_burnt_roofs_01_12
+        WallN = 
+        wall = 
+    }
+    // Bunker_02_181
+    tile
+    {
+        xy = 5,22
+        BurntTile = walls_burnt_roofs_01_13
+        WallN = 
+        wall = 
+    }
+    // Bunker_02_184
+    tile
+    {
+        xy = 0,23
+        WallW = 
+        wall = 
+    }
+    // Bunker_02_185
+    tile
+    {
+        xy = 1,23
+        WallN = 
+        wall = 
+    }
+    // Bunker_02_186
+    tile
+    {
+        xy = 2,23
+        CornerNorthWall = industry_bunker_01_25
+        CornerWestWall = industry_bunker_01_24
+        WallNW = 
+        wall = 
+    }
+    // Bunker_02_187
+    tile
+    {
+        xy = 3,23
+        WallSE = 
+        wall = 
+    }
+}
+tileset
+{
+    file = Bunker_03
+    size = 8,26
+    id = 461
+    // Bunker_03_0
+    tile
+    {
+        xy = 0,0
+        diamondFloor = 
+        exterior = 
+        solidfloor = 
+    }
+    // Bunker_03_1
+    tile
+    {
+        xy = 1,0
+        diamondFloor = 
+        exterior = 
+        solidfloor = 
+    }
+    // Bunker_03_2
+    tile
+    {
+        xy = 2,0
+        diamondFloor = 
+        exterior = 
+        solidfloor = 
+    }
+    // Bunker_03_3
+    tile
+    {
+        xy = 3,0
+        diamondFloor = 
+        exterior = 
+        solidfloor = 
+    }
+    // Bunker_03_4
+    tile
+    {
+        xy = 4,0
+        diamondFloor = 
+        exterior = 
+        solidfloor = 
+    }
+    // Bunker_03_5
+    tile
+    {
+        xy = 5,0
+        diamondFloor = 
+        exterior = 
+        solidfloor = 
+    }
+    // Bunker_03_6
+    tile
+    {
+        xy = 6,0
+        diamondFloor = 
+        exterior = 
+        solidfloor = 
+    }
+    // Bunker_03_8
+    tile
+    {
+        xy = 0,1
+        diamondFloor = 
+        exterior = 
+        solidfloor = 
+    }
+    // Bunker_03_9
+    tile
+    {
+        xy = 1,1
+        diamondFloor = 
+        exterior = 
+        solidfloor = 
+    }
+    // Bunker_03_10
+    tile
+    {
+        xy = 2,1
+        diamondFloor = 
+        exterior = 
+        solidfloor = 
+    }
+    // Bunker_03_11
+    tile
+    {
+        xy = 3,1
+        diamondFloor = 
+        exterior = 
+        solidfloor = 
+    }
+    // Bunker_03_12
+    tile
+    {
+        xy = 4,1
+        diamondFloor = 
+        exterior = 
+        solidfloor = 
+    }
+    // Bunker_03_13
+    tile
+    {
+        xy = 5,1
+        diamondFloor = 
+        exterior = 
+        solidfloor = 
+    }
+    // Bunker_03_14
+    tile
+    {
+        xy = 6,1
+        diamondFloor = 
+        exterior = 
+        solidfloor = 
+    }
+    // Bunker_03_16
+    tile
+    {
+        xy = 0,2
+        diamondFloor = 
+        solidfloor = 
+        transparentFloor = 
+    }
+    // Bunker_03_17
+    tile
+    {
+        xy = 1,2
+        diamondFloor = 
+        solidfloor = 
+        transparentFloor = 
+    }
+    // Bunker_03_18
+    tile
+    {
+        xy = 2,2
+        diamondFloor = 
+        solidfloor = 
+        transparentFloor = 
+    }
+    // Bunker_03_19
+    tile
+    {
+        xy = 3,2
+        diamondFloor = 
+        solidfloor = 
+        transparentFloor = 
+    }
+    // Bunker_03_20
+    tile
+    {
+        xy = 4,2
+        diamondFloor = 
+        solidfloor = 
+        transparentFloor = 
+    }
+    // Bunker_03_21
+    tile
+    {
+        xy = 5,2
+        diamondFloor = 
+        solidfloor = 
+        transparentFloor = 
+    }
+    // Bunker_03_24
+    tile
+    {
+        xy = 0,3
+        FloorOverlay = 
+        diamondFloor = 
+        exterior = 
+        solidfloor = 
+    }
+    // Bunker_03_25
+    tile
+    {
+        xy = 1,3
+        FloorOverlay = 
+        diamondFloor = 
+        exterior = 
+        solidfloor = 
+    }
+    // Bunker_03_26
+    tile
+    {
+        xy = 2,3
+        FloorOverlay = 
+        diamondFloor = 
+        exterior = 
+        solidfloor = 
+    }
+    // Bunker_03_27
+    tile
+    {
+        xy = 3,3
+        FloorOverlay = 
+        diamondFloor = 
+        exterior = 
+        solidfloor = 
+    }
+    // Bunker_03_28
+    tile
+    {
+        xy = 4,3
+        FloorOverlay = 
+        diamondFloor = 
+        exterior = 
+        solidfloor = 
+    }
+    // Bunker_03_29
+    tile
+    {
+        xy = 5,3
+        FloorOverlay = 
+        diamondFloor = 
+        exterior = 
+        solidfloor = 
+    }
+    // Bunker_03_30
+    tile
+    {
+        xy = 6,3
+        FloorOverlay = 
+        diamondFloor = 
+        exterior = 
+        solidfloor = 
+    }
+    // Bunker_03_31
+    tile
+    {
+        xy = 7,3
+        FloorOverlay = 
+        diamondFloor = 
+        exterior = 
+        solidfloor = 
+    }
+    // Bunker_03_40
+    tile
+    {
+        xy = 0,5
+        BlocksPlacement = 
+        CanScrap = 
+        ItemHeight = 80
+        Material = Mechanical
+        Material2 = MetalScrap
+        MaterialType = Metal
+        ScrapSize = Large
+        solid = 
+    }
+    // Bunker_03_41
+    tile
+    {
+        xy = 1,5
+        BlocksPlacement = 
+        CanScrap = 
+        Material = Mechanical
+        Material2 = MetalScrap
+        ScrapSize = Large
+        solidtrans = 
+    }
+    // Bunker_03_42
+    tile
+    {
+        xy = 2,5
+        BlocksPlacement = 
+        CanScrap = 
+        Material = Mechanical
+        Material2 = MetalScrap
+        ScrapSize = Large
+        solidtrans = 
+    }
+    // Bunker_03_43
+    tile
+    {
+        xy = 3,5
+        BlocksPlacement = 
+        CanScrap = 
+        ItemHeight = 80
+        Material = Mechanical
+        Material2 = MetalScrap
+        MaterialType = Metal
+        ScrapSize = Large
+        solidtrans = 
+    }
+    // Bunker_03_44
+    tile
+    {
+        xy = 4,5
+        BlocksPlacement = 
+        CanScrap = 
+        ItemHeight = 80
+        Material = Mechanical
+        Material2 = MetalScrap
+        MaterialType = Metal
+        ScrapSize = Large
+        solidtrans = 
+    }
+    // Bunker_03_56
+    tile
+    {
+        xy = 0,7
+        BlocksPlacement = 
+        CanScrap = 
+        ContainerCapacity = 60
+        ContainerPosition = Low
+        CustomName = Military Crate
+        Facing = S
+        IsLow = 
+        IsMoveAble = 
+        IsTable = 
+        Material = Plastic
+        Material2 = Paper
+        PaintingType = crates
+        PickUpWeight = 75
+        Surface = 62
+        container = crate
+        solidtrans = 
+    }
+    // Bunker_03_57
+    tile
+    {
+        xy = 1,7
+        BlocksPlacement = 
+        CanScrap = 
+        ContainerCapacity = 60
+        ContainerPosition = Low
+        CustomName = Military Crate
+        Facing = E
+        IsLow = 
+        IsMoveAble = 
+        IsTable = 
+        Material = Plastic
+        Material2 = Paper
+        PaintingType = crates
+        PickUpWeight = 75
+        Surface = 62
+        container = crate
+        solidtrans = 
+    }
+    // Bunker_03_58
+    tile
+    {
+        xy = 2,7
+        BlocksPlacement = 
+        CanScrap = 
+        ContainerCapacity = 30
+        ContainerPosition = Low
+        CustomName = Military Crate
+        Facing = S
+        IsLow = 
+        IsMoveAble = 
+        IsTable = 
+        Material = Plastic
+        Material2 = Paper
+        PaintingType = crates
+        PickUpWeight = 34
+        Surface = 42
+        container = crate
+        solidtrans = 
+    }
+    // Bunker_03_59
+    tile
+    {
+        xy = 3,7
+        BlocksPlacement = 
+        CanScrap = 
+        ContainerCapacity = 30
+        ContainerPosition = Low
+        CustomName = Military Crate
+        Facing = E
+        IsLow = 
+        IsMoveAble = 
+        IsTable = 
+        Material = Plastic
+        Material2 = Paper
+        PaintingType = crates
+        PickUpWeight = 34
+        Surface = 42
+        container = crate
+        solidtrans = 
+    }
+    // Bunker_03_64
+    tile
+    {
+        xy = 0,8
+        CustomName = flag
+        Facing = E
+        ForceSingleItem = 
+        IsMoveAble = 
+        MoveType = WallObject
+        SpriteGridPos = 0,0
+    }
+    // Bunker_03_65
+    tile
+    {
+        xy = 1,8
+        CustomName = flag
+        Facing = E
+        ForceSingleItem = 
+        IsMoveAble = 
+        MoveType = WallObject
+        SpriteGridPos = 0,1
+    }
+    // Bunker_03_66
+    tile
+    {
+        xy = 2,8
+        CustomName = flag
+        Facing = S
+        ForceSingleItem = 
+        IsMoveAble = 
+        MoveType = WallObject
+        SpriteGridPos = 0,0
+    }
+    // Bunker_03_67
+    tile
+    {
+        xy = 3,8
+        CustomName = flag
+        Facing = S
+        ForceSingleItem = 
+        IsMoveAble = 
+        MoveType = WallObject
+        SpriteGridPos = 1,0
+    }
+    // Bunker_03_68
+    tile
+    {
+        xy = 4,8
+        CustomName = flag
+        Facing = E
+        ForceSingleItem = 
+        IsMoveAble = 
+        MoveType = WallObject
+        SpriteGridPos = 0,0
+    }
+    // Bunker_03_69
+    tile
+    {
+        xy = 5,8
+        CustomName = flag
+        Facing = E
+        ForceSingleItem = 
+        IsMoveAble = 
+        MoveType = WallObject
+        SpriteGridPos = 0,1
+    }
+    // Bunker_03_70
+    tile
+    {
+        xy = 6,8
+        CustomName = flag
+        Facing = S
+        ForceSingleItem = 
+        IsMoveAble = 
+        MoveType = WallObject
+        SpriteGridPos = 0,0
+    }
+    // Bunker_03_71
+    tile
+    {
+        xy = 7,8
+        CustomName = flag
+        Facing = S
+        ForceSingleItem = 
+        IsMoveAble = 
+        MoveType = WallObject
+        SpriteGridPos = 1,0
+    }
+    // Bunker_03_72
+    tile
+    {
+        xy = 0,9
+        CustomName = flag
+        Facing = E
+        ForceSingleItem = 
+        IsMoveAble = 
+        MoveType = WallObject
+        SpriteGridPos = 0,0
+    }
+    // Bunker_03_73
+    tile
+    {
+        xy = 1,9
+        CustomName = flag
+        Facing = E
+        ForceSingleItem = 
+        IsMoveAble = 
+        MoveType = WallObject
+        SpriteGridPos = 0,1
+    }
+    // Bunker_03_74
+    tile
+    {
+        xy = 2,9
+        CustomName = flag
+        Facing = S
+        ForceSingleItem = 
+        IsMoveAble = 
+        MoveType = WallObject
+        SpriteGridPos = 0,0
+    }
+    // Bunker_03_75
+    tile
+    {
+        xy = 3,9
+        CustomName = flag
+        Facing = S
+        ForceSingleItem = 
+        IsMoveAble = 
+        MoveType = WallObject
+        SpriteGridPos = 1,0
+    }
+    // Bunker_03_76
+    tile
+    {
+        xy = 4,9
+        CustomName = flag
+        ForceSingleItem = 
+        IsMoveAble = 
+        MoveType = WallObject
+    }
+    // Bunker_03_77
+    tile
+    {
+        xy = 5,9
+        CustomName = flag
+        ForceSingleItem = 
+        IsMoveAble = 
+        MoveType = WallObject
+    }
+    // Bunker_03_78
+    tile
+    {
+        xy = 6,9
+        CustomName = flag
+        ForceSingleItem = 
+        IsMoveAble = 
+        MoveType = WallObject
+    }
+    // Bunker_03_79
+    tile
+    {
+        xy = 7,9
+        CustomName = flag
+        ForceSingleItem = 
+        IsMoveAble = 
+        MoveType = WallObject
+    }
+    // Bunker_03_80
+    tile
+    {
+        xy = 0,10
+        AttachedToGlass = 
+        CustomName = Sign
+        Facing = S
+        GroupName = Alerts
+        IsMoveAble = 
+        MoveType = WallObject
+        PickUpWeight = 10
+    }
+    // Bunker_03_81
+    tile
+    {
+        xy = 1,10
+        AttachedToGlass = 
+        CustomName = Sign
+        Facing = E
+        GroupName = Alerts
+        IsMoveAble = 
+        MoveType = WallObject
+        PickUpWeight = 10
+    }
+    // Bunker_03_82
+    tile
+    {
+        xy = 2,10
+        AttachedToGlass = 
+        CustomName = Sign
+        Facing = S
+        GroupName = Alerts
+        IsMoveAble = 
+        MoveType = WallObject
+        PickUpWeight = 10
+    }
+    // Bunker_03_83
+    tile
+    {
+        xy = 3,10
+        AttachedToGlass = 
+        CustomName = Sign
+        Facing = E
+        GroupName = Alerts
+        IsMoveAble = 
+        MoveType = WallObject
+        PickUpWeight = 10
+    }
+    // Bunker_03_84
+    tile
+    {
+        xy = 4,10
+        AttachedToGlass = 
+        CustomName = Sign
+        Facing = S
+        GroupName = Alerts
+        IsMoveAble = 
+        MoveType = WallObject
+        PickUpWeight = 10
+    }
+    // Bunker_03_85
+    tile
+    {
+        xy = 5,10
+        AttachedToGlass = 
+        CustomName = Sign
+        Facing = E
+        GroupName = Alerts
+        IsMoveAble = 
+        MoveType = WallObject
+        PickUpWeight = 10
+    }
+    // Bunker_03_86
+    tile
+    {
+        xy = 6,10
+        AttachedToGlass = 
+        CustomName = Sign
+        Facing = S
+        GroupName = Alerts
+        IsMoveAble = 
+        MoveType = WallObject
+        PickUpWeight = 10
+    }
+    // Bunker_03_87
+    tile
+    {
+        xy = 7,10
+        AttachedToGlass = 
+        CustomName = Sign
+        Facing = E
+        GroupName = Alerts
+        IsMoveAble = 
+        MoveType = WallObject
+        PickUpWeight = 10
+    }
+    // Bunker_03_88
+    tile
+    {
+        xy = 0,11
+        AttachedToGlass = 
+        CustomName = Sign
+        Facing = S
+        GroupName = Alerts
+        IsMoveAble = 
+        MoveType = WallObject
+        PickUpWeight = 10
+    }
+    // Bunker_03_89
+    tile
+    {
+        xy = 1,11
+        AttachedToGlass = 
+        CustomName = Sign
+        Facing = E
+        GroupName = Alerts
+        IsMoveAble = 
+        MoveType = WallObject
+        PickUpWeight = 10
+    }
+    // Bunker_03_90
+    tile
+    {
+        xy = 2,11
+        AttachedToGlass = 
+        CustomName = Sign
+        Facing = S
+        GroupName = Alerts
+        IsMoveAble = 
+        MoveType = WallObject
+        PickUpWeight = 10
+    }
+    // Bunker_03_91
+    tile
+    {
+        xy = 3,11
+        AttachedToGlass = 
+        CustomName = Sign
+        Facing = E
+        GroupName = Alerts
+        IsMoveAble = 
+        MoveType = WallObject
+        PickUpWeight = 10
+    }
+    // Bunker_03_92
+    tile
+    {
+        xy = 4,11
+        AttachedToGlass = 
+        CustomName = Sign
+        Facing = S
+        GroupName = Alerts
+        IsMoveAble = 
+        MoveType = WallObject
+        PickUpWeight = 10
+    }
+    // Bunker_03_93
+    tile
+    {
+        xy = 5,11
+        AttachedToGlass = 
+        CustomName = Sign
+        Facing = E
+        GroupName = Alerts
+        IsMoveAble = 
+        MoveType = WallObject
+        PickUpWeight = 10
+    }
+    // Bunker_03_94
+    tile
+    {
+        xy = 6,11
+        AttachedToGlass = 
+        CustomName = Sign
+        Facing = S
+        GroupName = Alerts
+        IsMoveAble = 
+        MoveType = WallObject
+        PickUpWeight = 10
+    }
+    // Bunker_03_95
+    tile
+    {
+        xy = 7,11
+        AttachedToGlass = 
+        CustomName = Sign
+        Facing = E
+        GroupName = Alerts
+        IsMoveAble = 
+        MoveType = WallObject
+        PickUpWeight = 10
+    }
+    // Bunker_03_96
+    tile
+    {
+        xy = 0,12
+        AttachedToGlass = 
+        CustomName = Sign
+        Facing = S
+        GroupName = Alerts
+        IsMoveAble = 
+        MoveType = WallObject
+        PickUpWeight = 10
+    }
+    // Bunker_03_97
+    tile
+    {
+        xy = 1,12
+        AttachedToGlass = 
+        CustomName = Sign
+        Facing = E
+        GroupName = Alerts
+        IsMoveAble = 
+        MoveType = WallObject
+        PickUpWeight = 10
+    }
+    // Bunker_03_98
+    tile
+    {
+        xy = 2,12
+        AttachedToGlass = 
+        CustomName = Sign
+        Facing = S
+        GroupName = Alerts
+        IsMoveAble = 
+        MoveType = WallObject
+        PickUpWeight = 10
+    }
+    // Bunker_03_99
+    tile
+    {
+        xy = 3,12
+        AttachedToGlass = 
+        CustomName = Sign
+        Facing = E
+        GroupName = Alerts
+        IsMoveAble = 
+        MoveType = WallObject
+        PickUpWeight = 10
+    }
+    // Bunker_03_100
+    tile
+    {
+        xy = 4,12
+        AttachedToGlass = 
+        CustomName = Sign
+        Facing = S
+        GroupName = Alerts
+        IsMoveAble = 
+        MoveType = WallObject
+        PickUpWeight = 10
+    }
+    // Bunker_03_101
+    tile
+    {
+        xy = 5,12
+        AttachedToGlass = 
+        CustomName = Sign
+        Facing = E
+        GroupName = Alerts
+        IsMoveAble = 
+        MoveType = WallObject
+        PickUpWeight = 10
+    }
+    // Bunker_03_102
+    tile
+    {
+        xy = 6,12
+        AttachedToGlass = 
+        CustomName = Sign
+        Facing = S
+        GroupName = Alerts
+        IsMoveAble = 
+        MoveType = WallObject
+        PickUpWeight = 10
+    }
+    // Bunker_03_103
+    tile
+    {
+        xy = 7,12
+        AttachedToGlass = 
+        CustomName = Sign
+        Facing = E
+        GroupName = Alerts
+        IsMoveAble = 
+        MoveType = WallObject
+        PickUpWeight = 10
+    }
+    // Bunker_03_104
+    tile
+    {
+        xy = 0,13
+        CanAttachAnimal = 
+        CanScrap = 
+        CustomName = Plate
+        Facing = S
+        HitByCar = 
+        IsMoveAble = 
+        Material = MetalBars
+        Material2 = MetalScrap
+        MaterialType = Metal_Light
+        MoveType = Vegitation
+        PickUpTool = Shovel
+        PlaceTool = Shovel
+        StopCar = 
+    }
+    // Bunker_03_105
+    tile
+    {
+        xy = 1,13
+        CanAttachAnimal = 
+        CanScrap = 
+        CustomName = Plate
+        Facing = E
+        HitByCar = 
+        IsMoveAble = 
+        Material = MetalBars
+        Material2 = MetalScrap
+        MaterialType = Metal_Light
+        MoveType = Vegitation
+        PickUpTool = Shovel
+        PlaceTool = Shovel
+        StopCar = 
+    }
+    // Bunker_03_106
+    tile
+    {
+        xy = 2,13
+        CanAttachAnimal = 
+        CanScrap = 
+        CustomName = Plate
+        Facing = S
+        HitByCar = 
+        IsMoveAble = 
+        Material = MetalBars
+        Material2 = MetalScrap
+        MaterialType = Metal_Light
+        MoveType = Vegitation
+        PickUpTool = Shovel
+        PlaceTool = Shovel
+        StopCar = 
+    }
+    // Bunker_03_107
+    tile
+    {
+        xy = 3,13
+        CanAttachAnimal = 
+        CanScrap = 
+        CustomName = Plate
+        Facing = E
+        HitByCar = 
+        IsMoveAble = 
+        Material = MetalBars
+        Material2 = MetalScrap
+        MaterialType = Metal_Light
+        MoveType = Vegitation
+        PickUpTool = Shovel
+        PlaceTool = Shovel
+        StopCar = 
+    }
+    // Bunker_03_108
+    tile
+    {
+        xy = 4,13
+        CanAttachAnimal = 
+        CanScrap = 
+        CustomName = Plate
+        Facing = S
+        HitByCar = 
+        IsMoveAble = 
+        Material = MetalBars
+        Material2 = MetalScrap
+        MaterialType = Metal_Light
+        MoveType = Vegitation
+        PickUpTool = Shovel
+        PlaceTool = Shovel
+        StopCar = 
+    }
+    // Bunker_03_109
+    tile
+    {
+        xy = 5,13
+        CanAttachAnimal = 
+        CanScrap = 
+        CustomName = Plate
+        Facing = E
+        HitByCar = 
+        IsMoveAble = 
+        Material = MetalBars
+        Material2 = MetalScrap
+        MaterialType = Metal_Light
+        MoveType = Vegitation
+        PickUpTool = Shovel
+        PlaceTool = Shovel
+        StopCar = 
+    }
+}
+tileset
+{
+    file = Bunkerdoor_01
+    size = 8,26
+    id = 462
+    // Bunkerdoor_01_40
+    tile
+    {
+        xy = 0,5
+        CanScrap = 
+        CustomName = Door
+        DoorSound = MetalDoor
+        Material = MetalPlates
+        Material2 = SmallMetalPlates
+        Material3 = MetalBars
+        MaterialType = Metal
+        attachedW = 
+        doorW = 
+    }
+    // Bunkerdoor_01_41
+    tile
+    {
+        xy = 1,5
+        CanScrap = 
+        CustomName = Door
+        DoorSound = MetalDoor
+        Material = MetalPlates
+        Material2 = SmallMetalPlates
+        Material3 = MetalBars
+        MaterialType = Metal
+        attachedN = 
+        doorN = 
+    }
+    // Bunkerdoor_01_42
+    tile
+    {
+        xy = 2,5
+        CanScrap = 
+        CustomName = Door
+        DoorSound = MetalDoor
+        Material = MetalPlates
+        Material2 = SmallMetalPlates
+        Material3 = MetalBars
+        MaterialType = Metal
+        attachedW = 
+    }
+    // Bunkerdoor_01_43
+    tile
+    {
+        xy = 3,5
+        CanScrap = 
+        CustomName = Door
+        DoorSound = MetalDoor
+        Material = MetalPlates
+        Material2 = SmallMetalPlates
+        Material3 = MetalBars
+        MaterialType = Metal
+        attachedN = 
+    }
+    // Bunkerdoor_01_44
+    tile
+    {
+        xy = 4,5
+        CanScrap = 
+        CustomName = Door
+        DoorSound = MetalDoor
+        Material = MetalPlates
+        Material2 = SmallMetalPlates
+        Material3 = MetalBars
+        MaterialType = Metal
+        attachedW = 
+        doorW = 
+    }
+    // Bunkerdoor_01_45
+    tile
+    {
+        xy = 5,5
+        CanScrap = 
+        CustomName = Door
+        DoorSound = MetalDoor
+        Material = MetalPlates
+        Material2 = SmallMetalPlates
+        Material3 = MetalBars
+        MaterialType = Metal
+        attachedN = 
+        doorN = 
+    }
+    // Bunkerdoor_01_46
+    tile
+    {
+        xy = 6,5
+        CanScrap = 
+        CustomName = Door
+        DoorSound = MetalDoor
+        Material = MetalPlates
+        Material2 = SmallMetalPlates
+        Material3 = MetalBars
+        MaterialType = Metal
+        attachedW = 
+    }
+    // Bunkerdoor_01_47
+    tile
+    {
+        xy = 7,5
+        CanScrap = 
+        CustomName = Door
+        DoorSound = MetalDoor
+        Material = MetalPlates
+        Material2 = SmallMetalPlates
+        Material3 = MetalBars
+        MaterialType = Metal
+        attachedN = 
+    }
+    // Bunkerdoor_01_48
+    tile
+    {
+        xy = 0,6
+        CanScrap = 
+        CustomName = Door
+        DoorSound = PrisonMetalDoor
+        Material = MetalPlates
+        Material2 = SmallMetalPlates
+        Material3 = MetalBars
+        MaterialType = Metal
+        attachedW = 
+        doorW = 
+    }
+    // Bunkerdoor_01_49
+    tile
+    {
+        xy = 1,6
+        CanScrap = 
+        CustomName = Door
+        DoorSound = PrisonMetalDoor
+        Material = MetalPlates
+        Material2 = SmallMetalPlates
+        Material3 = MetalBars
+        MaterialType = Metal
+        attachedN = 
+        doorN = 
+    }
+    // Bunkerdoor_01_50
+    tile
+    {
+        xy = 2,6
+        CanScrap = 
+        CustomName = Door
+        DoorSound = PrisonMetalDoor
+        Material = MetalPlates
+        Material2 = SmallMetalPlates
+        Material3 = MetalBars
+        MaterialType = Metal
+        attachedW = 
+    }
+    // Bunkerdoor_01_51
+    tile
+    {
+        xy = 3,6
+        CanScrap = 
+        CustomName = Door
+        DoorSound = PrisonMetalDoor
+        Material = MetalPlates
+        Material2 = SmallMetalPlates
+        Material3 = MetalBars
+        MaterialType = Metal
+        attachedN = 
+    }
+    // Bunkerdoor_01_52
+    tile
+    {
+        xy = 4,6
+        CanScrap = 
+        CustomName = Door
+        DoorSound = PrisonMetalDoor
+        Material = MetalPlates
+        Material2 = SmallMetalPlates
+        Material3 = MetalBars
+        MaterialType = Metal
+        attachedW = 
+        doorW = 
+    }
+    // Bunkerdoor_01_53
+    tile
+    {
+        xy = 5,6
+        CanScrap = 
+        CustomName = Door
+        DoorSound = PrisonMetalDoor
+        Material = MetalPlates
+        Material2 = SmallMetalPlates
+        Material3 = MetalBars
+        MaterialType = Metal
+        attachedN = 
+        doorN = 
+    }
+    // Bunkerdoor_01_54
+    tile
+    {
+        xy = 6,6
+        CanScrap = 
+        CustomName = Door
+        DoorSound = PrisonMetalDoor
+        Material = MetalPlates
+        Material2 = SmallMetalPlates
+        Material3 = MetalBars
+        MaterialType = Metal
+        attachedW = 
+    }
+    // Bunkerdoor_01_55
+    tile
+    {
+        xy = 7,6
+        CanScrap = 
+        CustomName = Door
+        DoorSound = PrisonMetalDoor
+        Material = MetalPlates
+        Material2 = SmallMetalPlates
+        Material3 = MetalBars
+        MaterialType = Metal
+        attachedN = 
+    }
+}

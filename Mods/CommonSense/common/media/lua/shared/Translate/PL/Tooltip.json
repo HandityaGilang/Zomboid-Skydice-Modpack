@@ -1,0 +1,6 @@
+{
+  "Tooltip_CS_PryOpenDoor": "Próbuj wyważyć te drzwi. Włamywacze są w tym mistrzami!",
+  "Tooltip_CS_CantPryOpenRDoor": "Te drzwi są dla ciebie zbyt mocne, aby je wyważyć. Potrzebujesz siły poziomu %s.",
+  "Tooltip_CS_PryOpenWindow": "Próbuj wyważyć to okno. Pamiętaj, że możesz rozbić szybę!",
+  "Tooltip_CS_CantPryOpenWindow": "To okno jest prawdopodobnie zablokowane lub zaryglowane. Próba wyważenia go byłaby bezcelowa."
+}

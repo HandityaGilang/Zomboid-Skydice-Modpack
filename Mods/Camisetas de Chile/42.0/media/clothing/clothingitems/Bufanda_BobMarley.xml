@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+    <m_MaleModel>skinned\clothes\bob_scarf</m_MaleModel>
+    <m_FemaleModel>skinned\clothes\kate_scarf</m_FemaleModel>
+    <m_GUID>77b2a592-dbd9-44d8-9b5c-ea2d2b98f06b</m_GUID>
+    <m_Static>false</m_Static>
+    <m_AllowRandomHue>false</m_AllowRandomHue>
+    <m_AllowRandomTint>false</m_AllowRandomTint>
+    <m_AttachBone></m_AttachBone>
+    <textureChoices>clothes\Bufanda_BobMarley</textureChoices>
+</clothingItem>

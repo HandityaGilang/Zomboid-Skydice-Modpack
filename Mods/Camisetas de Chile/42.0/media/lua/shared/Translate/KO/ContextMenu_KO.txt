@@ -1,0 +1,12 @@
+ContextMenu_KO = {
+    /* Opciones para las Gorras */
+    ContextMenu_ForwardCap = "모자 바로 쓰기",
+    ContextMenu_ReverseCap = "모자 뒤집어 쓰기",
+
+    /* Opciones para los Delantales */
+    ContextMenu_Arremangar = "앞치마 올려 입기",
+    ContextMenu_Desarremangar = "앞치마 내려 입기",
+    
+    /* Nombre del Submenú */
+    ContextMenu_Ajustar_Prenda = "의상 조정하기"
+}

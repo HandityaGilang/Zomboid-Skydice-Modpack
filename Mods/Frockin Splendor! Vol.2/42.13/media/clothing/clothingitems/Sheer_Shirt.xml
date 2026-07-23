@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>2fe26af4-c391-4154-86b1-36b3bb31ecba</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Shirts\Shirt_A1</m_BaseTextures>
+	<m_BaseTextures>clothes\Shirts\Shirt_B1</m_BaseTextures>
+	<m_BaseTextures>clothes\Shirts\Shirt_C1</m_BaseTextures>
+	<m_BaseTextures>clothes\Shirts\Shirt_D1</m_BaseTextures>
+	<m_BaseTextures>clothes\Shirts\Shirt_E1</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Shirts\Shirt_Black_A1</m_BaseTextures>
+	<m_BaseTextures>clothes\Shirts\Shirt_Black_B1</m_BaseTextures>
+	<m_BaseTextures>clothes\Shirts\Shirt_Black_C1</m_BaseTextures>
+	<m_BaseTextures>clothes\Shirts\Shirt_Black_D1</m_BaseTextures>
+	<m_BaseTextures>clothes\Shirts\Shirt_Black_E1</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Shirts\Shirt_Red_A1</m_BaseTextures>
+	<m_BaseTextures>clothes\Shirts\Shirt_Red_B1</m_BaseTextures>
+	<m_BaseTextures>clothes\Shirts\Shirt_Red_C1</m_BaseTextures>
+	<m_BaseTextures>clothes\Shirts\Shirt_Red_D1</m_BaseTextures>
+	<m_BaseTextures>clothes\Shirts\Shirt_Red_E1</m_BaseTextures>
+</clothingItem>

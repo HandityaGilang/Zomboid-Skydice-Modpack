@@ -1,0 +1,18 @@
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_jacketpadded_fat</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\bob_jacketpadded_fat</m_FemaleModel>
+	<m_GUID>865fa58e-2b7d-4af1-b535-4d210d37ff52</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>true</m_AllowRandomTint>
+	<m_AttachBone />
+	<m_HatCategory>nohair</m_HatCategory>
+	<m_Masks>12</m_Masks>
+	<m_Masks>13</m_Masks>
+	<m_Masks>14</m_Masks>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_MasksFolder>media/textures/Clothes/JacketPadded/Masks</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/JacketPadded/Masks</m_UnderlayMasksFolder>
+	<textureChoices>clothes\jacketpadded\paddedjacket</textureChoices>
+</clothingItem>

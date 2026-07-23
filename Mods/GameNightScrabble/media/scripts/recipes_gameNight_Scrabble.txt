@@ -1,0 +1,4 @@
+module Base
+{
+    recipe Unseal Box { ScrabbleBox_sealed, Result:ScrabbleBox, CanBeDoneFromFloor:true, OnCreate:Recipe.GameNight.Unbox, Time:50.0, }
+}

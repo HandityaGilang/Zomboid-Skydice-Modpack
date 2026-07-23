@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="Dragonslayer-eae6c576-68a3-41ed-af5b-1fd37035779e">
+	<m_Name>Dragonslayer2HUppercut</m_Name>
+	<m_SpeedScale>0.75</m_SpeedScale>
+	<m_Conditions x_name="f4572f30-d209-4f7f-ba90-0ab57a39a29f">
+		<m_Name>DragonslayerWeapon</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+</animNode>

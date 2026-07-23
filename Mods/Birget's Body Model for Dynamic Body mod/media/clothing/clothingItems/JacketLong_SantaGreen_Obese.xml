@@ -1,0 +1,16 @@
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_jacketlong_obese</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\kate_jacketlong_obese</m_FemaleModel>
+	<m_GUID>4d3c2a28-1140-4c77-b69f-b63e75054a2d</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone />
+	<m_Masks>13</m_Masks>
+	<m_Masks>14</m_Masks>
+	<m_Masks>15</m_Masks>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_UnderlayMasksFolder>media/textures/Clothes/JacketLong/Masks</m_UnderlayMasksFolder>
+	<textureChoices>clothes\jacketlong\jacketlong_santagreen</textureChoices>
+</clothingItem>

@@ -1,0 +1,14 @@
+{
+  "ContextMenu_CS_PryOpen": "Abrir a la fuerza",
+  "ContextMenu_CS_PryOpen_Door": "Forzar puerta",
+  "ContextMenu_CS_PryOpen_Window": "Forzar ventana",
+  "ContextMenu_CS_Pickup_Logs": "Recoger troncos",
+  "ContextMenu_CS_Pickup_Trash": "Recoger basura",
+  "ContextMenu_CS_Only": "Solo...",
+  "ContextMenu_CS_WashEquippedOnly": "Solo equipado",
+  "ContextMenu_CS_WashUnequippedOnly": "Solo sin equipar",
+  "ContextMenu_CS_WashWeaponsOnly": "Sólo armas",
+  "ContextMenu_CS_Equip": "Equipar",
+  "ContextMenu_CS_Replace_Bandage": "Reemplazar vendaje",
+  "ContextMenu_CS_ReloadAllMags": "Recargar todos los cargadores"
+}

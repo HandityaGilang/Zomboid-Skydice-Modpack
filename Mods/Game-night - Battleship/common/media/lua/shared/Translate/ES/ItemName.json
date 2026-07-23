@@ -1,0 +1,11 @@
+{
+    "Base.BattleShip_Box": "Caja de acorazado",
+    "Base.BattleShip_GameStand": "Puesto de juegos del acorazado",
+    "Base.BattleShip_Peg_Red": "clavija roja",
+    "Base.BattleShip_Peg_White": "clavija blanca",
+    "Base.BattleShip_Ship_Battleship": "Acorazado",
+    "Base.BattleShip_Ship_Carrier": "Transportador",
+    "Base.BattleShip_Ship_Destroyer": "Destructor",
+    "Base.BattleShip_Ship_Submarine": "Submarino",
+    "Base.BattleShip_Ship_PatrolBoat": "Barco Patrullero"
+}

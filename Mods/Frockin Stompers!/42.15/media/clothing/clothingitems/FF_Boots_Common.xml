@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes\Boots_Generic\BootsRE_Generic_M.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\Boots_Generic\BootsRE_Generic_F.fbx</m_FemaleModel>
+	<m_GUID>7818cd27-72ff-4e71-95a2-70d3d4cd2536</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>	
+	<m_Masks>8</m_Masks>	
+	<m_Masks>10</m_Masks>	
+	<textureChoices>clothes\Shoes\Boots\Boots_Common_1</textureChoices>
+	<textureChoices>clothes\Shoes\Boots\Boots_Common_2</textureChoices>
+	<textureChoices>clothes\Shoes\Boots\Boots_Common_3</textureChoices>
+	<textureChoices>clothes\Shoes\Boots\Boots_Common_4</textureChoices>
+	<textureChoices>clothes\Shoes\Boots\Boots_Common_5</textureChoices>
+	<textureChoices>clothes\Shoes\Boots\Boots_Common_6</textureChoices>
+	<textureChoices>clothes\Shoes\Boots\Boots_Common_6A</textureChoices>
+	<textureChoices>clothes\Shoes\Boots\Boots_Common_7</textureChoices>
+	<textureChoices>clothes\Shoes\Boots\Boots_Common_7A</textureChoices>
+	<textureChoices>clothes\Shoes\Boots\Boots_Common_8</textureChoices>
+	<textureChoices>clothes\Shoes\Boots\Boots_Common_8A</textureChoices>
+	<textureChoices>clothes\Shoes\Boots\Boots_Common_9</textureChoices>
+	<textureChoices>clothes\Shoes\Boots\Boots_Common_10</textureChoices>
+	<textureChoices>clothes\Shoes\Boots\Boots_Common_11</textureChoices>
+
+</clothingItem>

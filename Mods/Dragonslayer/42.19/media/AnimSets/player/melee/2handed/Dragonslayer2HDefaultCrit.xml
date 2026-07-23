@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="Dragonslayer-ee1841df-176d-497c-8b8d-cedebcd35d9d">
+	<m_Name>Dragonslayer2HDefaultCrit</m_Name>
+	<m_SpeedScale>0.75</m_SpeedScale>
+	<m_Conditions x_name="f7ee85c0-d1fe-4793-aec9-0f0e0c3b624c">
+		<m_Name>DragonslayerWeapon</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+</animNode>

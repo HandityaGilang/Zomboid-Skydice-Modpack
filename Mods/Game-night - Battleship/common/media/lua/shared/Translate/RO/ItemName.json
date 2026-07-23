@@ -1,0 +1,11 @@
+{
+    "Base.BattleShip_Box": "Cutia de navă de luptă",
+    "Base.BattleShip_GameStand": "Battleship Gamesstand",
+    "Base.BattleShip_Peg_Red": "Red Peg",
+    "Base.BattleShip_Peg_White": "Peg alb",
+    "Base.BattleShip_Ship_Battleship": "Vas de război",
+    "Base.BattleShip_Ship_Carrier": "Purtător",
+    "Base.BattleShip_Ship_Destroyer": "Distrugător",
+    "Base.BattleShip_Ship_Submarine": "Submarin",
+    "Base.BattleShip_Ship_PatrolBoat": "Barcă de patrulare"
+}

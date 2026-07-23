@@ -1,0 +1,5 @@
+name=Game Night - Scrabble
+id=gamenight_cmg_scrabble
+description=Scrabble expansion for the Game Night addon
+poster=poster.png
+require=gamenight

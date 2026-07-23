@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Bob_Slim_SuitJacket_O</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Kate_Slim_SuitJacket_O</m_FemaleModel>
+	<m_GUID>2b169292-5e56-4f25-bad9-840b0fbd12da</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_MasksFolder>media/textures/Clothes/Suit/Masks_Underlay_OpenJacket</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Suit/Masks_Underlay_OpenJacket</m_UnderlayMasksFolder>
+	<textureChoices>Clothes\Suit\Suits_Mono\Slim_SuitJacket_1_O</textureChoices>
+	<textureChoices>Clothes\Suit\Suits_Mono\Slim_SuitJacket_2_O</textureChoices>
+	<textureChoices>Clothes\Suit\Suits_Mono\Slim_SuitJacket_3_O</textureChoices>
+	<textureChoices>Clothes\Suit\Suits_Mono\Slim_SuitJacket_4_O</textureChoices>
+	<textureChoices>Clothes\Suit\Suits_Mono\Slim_SuitJacket_5_O</textureChoices>
+	<textureChoices>Clothes\Suit\Suits_Mono\Slim_SuitJacket_6_O</textureChoices>
+</clothingItem>

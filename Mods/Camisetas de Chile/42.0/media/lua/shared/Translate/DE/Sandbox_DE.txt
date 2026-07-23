@@ -1,0 +1,20 @@
+Sandbox_DE = {
+    -- Título de la sección en el menú Sandbox
+    Sandbox_ArtequinClothesSandbox = "Artequin's Clothes: Loot-Einstellungen",
+
+    -- Variable para activar/desactivar
+    Sandbox_ArtequinClothes_EnableMod = "Artequin's Clothes aktivieren",
+    Sandbox_ArtequinClothes_EnableMod_Tooltip = "Aktiviert oder deaktiviert die Outfits und den Loot der Mod vollständig.",
+
+    -- Configuración de Outfits en Zombis
+    Sandbox_ArtequinClothes_ZombieOutfitMultiplier = "[Outfits] Dichte der Mod-Kleidung bei Zombies",
+    Sandbox_ArtequinClothes_ZombieOutfitMultiplier_Tooltip = "Multipliziert die Wahrscheinlichkeit, dass Zombies mit Kleidung aus der Mod spawnen. <LINE> <RGB:1,0.5,0> WARNUNG: </RGB> Hohe Werte (z. B. 5.0) führen dazu, dass viele Zombies identisch aussehen.",
+
+    -- Configuración de Loot en Inventario de Zombis
+    Sandbox_ArtequinClothes_ZombieLootMultiplier = "[Loot] Objektmenge bei Zombies",
+    Sandbox_ArtequinClothes_ZombieLootMultiplier_Tooltip = "Multipliziert den Loot, den Zombies in ihrem Inventar hinterlassen. <LINE> <RGB:1,1,0> HINWEIS: </RGB> Es wird empfohlen, diesen Wert niedrig zu halten (1.0 - 2.0), damit die Kleidungsstücke selten und wertvoll bleiben.",
+
+    -- Configuración de Loot en Contenedores del Mundo
+    Sandbox_ArtequinClothes_WorldLootMultiplier = "[Welt] Fundrate in Schränken und Behältern",
+    Sandbox_ArtequinClothes_WorldLootMultiplier_Tooltip = "Multipliziert die Menge der Mod-Items in Containern (Kleiderschränke, Spinde, Läden). <LINE> <RGB:1,0,0> WICHTIG: </RGB> Zu hohe Werte können die Regale überfüllen und den Original-Loot des Spiels verdrängen."
+}

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+
+	<files>
+		<path>media/clothing/clothingItems/DCCogTags.xml</path>
+		<guid>e364be1d-374a-49af-8fc2-521fe1f2a73e</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/DCHollowMaskHalf.xml</path>
+		<guid>cbb2ca0e-633c-4235-ae37-6300e6505c37</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/DCHollowMask.xml</path>
+		<guid>f14a8fec-323b-415a-a2e5-19ce02af1f15</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/DCTopHat.xml</path>
+		<guid>078fc6d4-f9e3-4081-b77c-036bc3dc5a57</guid>
+	</files>
+</fileGuidTable>

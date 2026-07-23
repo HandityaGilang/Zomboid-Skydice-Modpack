@@ -1,0 +1,666 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+
+	<!--DENIM BRANCH ITEMS-->
+
+	<files>
+	<path>media/clothing/clothingItems/Denim_PleatedSkirt.xml</path>
+	<guid>b0644332-ee9f-412c-970a-d279184ab99b</guid>
+	</files>
+	
+	<!--KNITTED COTTON BRANCH ITEMS-->
+	
+						<!--Knitted Cotton Tights Stirrup-->
+						
+	<files>
+	<path>media/clothing/clothingItems/Knitted_Cotton_Tights_1.xml</path>
+	<guid>2af34184-88d9-4087-a90d-047857522c53</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Knitted_Cotton_Tights_1_HW.xml</path>
+	<guid>22979635-d618-4da1-b8ca-c7594e9b551e</guid>
+	</files>
+	
+						<!--Knitted Cotton Tights-->
+						
+	<files>
+	<path>media/clothing/clothingItems/Knitted_Cotton_Tights_2.xml</path>
+	<guid>656bbb68-d285-400a-a21e-080a03850184</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Knitted_Cotton_Tights_2_HW.xml</path>
+	<guid>1fe793a9-19ef-4fed-a16a-5b71fbdcfb4c</guid>
+	</files>
+	
+	
+	<!--COTTON BRANCH ITEMS-->
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_WaistCoat.xml</path>
+	<guid>a5060e9d-96fe-4bcc-8020-d65459b45cf1</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_WaistCoat_T.xml</path>
+	<guid>6db88dfe-20c4-4db3-ad8c-f9b36fbf90d5</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_WaistCoat_DoubleBreasted.xml</path>
+	<guid>f274d47f-145f-41e0-824a-9611a55f1de3</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_WaistCoat_T_DoubleBreasted.xml</path>
+	<guid>202b5b4e-3a9d-4b4f-9738-8c7f91f017af</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Shorts.xml</path>
+	<guid>ea09f8f3-f9d3-4889-a07b-cd660dc014b2</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Boleros.xml</path>
+	<guid>6a06a683-c6f5-4510-8c7f-4f3c4af1579a</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Boleros_Short.xml</path>
+	<guid>6ad80ce1-4ab3-4b29-9577-a4ad2e68dafb</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Boleros_Shorter.xml</path>
+	<guid>f8595e54-5241-43c0-beb4-2e8bba276030</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Top.xml</path>
+	<guid>6f35cab1-707e-42e9-ae1e-a48556e431ff</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_CropTop.xml</path>
+	<guid>dc3d00af-8c8c-4dda-be76-ae5d01641384</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_CropTop_TINY.xml</path>
+	<guid>f9701ec7-9227-4387-ba70-167e8b7aef72</guid>
+	</files>
+						<!--Skirt Models-->
+						
+	<files>
+	<path>media/clothing/clothingItems/Cotton_PleatedSkirt.xml</path>
+	<guid>50b473a3-03b4-47bd-a41a-189968e8ac3f</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_miniSkirt_HW.xml</path>
+	<guid>56a0131f-769b-488d-9be5-6c59b592de3e</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_miniSkirt_HW_1.xml</path>
+	<guid>0afe8539-463b-4bec-9536-bf665abc78e7</guid>
+	</files>
+						
+						<!--Cotton CropTop Sleeves-->		
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Top_Sleeves.xml</path>
+	<guid>c04e9296-e335-47b2-838a-534fa7e9f2ad</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_CropTop_Sleeves.xml</path>
+	<guid>3391805c-1e55-4bc2-a2df-df94dc1c963f</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_CropTop_Sleeves_TINY.xml</path>
+	<guid>4645d014-1e64-4ca1-b463-226e413f8a60</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Top_SleevesSrt.xml</path>
+	<guid>1fbb720d-72a6-4964-9e72-2e7f4edf1d12</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_CropTop_SleevesSrt.xml</path>
+	<guid>c12cb4a7-5e41-4cf1-862e-d9f140a3af28</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_CropTop_SleevesSrt_TINY.xml</path>
+	<guid>95fe8e10-5c1a-4570-a89d-90ccadfdefa6</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Top_SleevesSrter.xml</path>
+	<guid>94c3de15-d0f4-469e-82d3-aaa28f49eea3</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_CropTop_SleevesSrter.xml</path>
+	<guid>316a3436-4787-4273-bbce-2a22eb08e207</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_CropTop_SleevesSrter_TINY.xml</path>
+	<guid>7c740197-f84b-45b8-ba7b-25b0948f469d</guid>
+	</files>
+						<!--Cotton Gloves-->		
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Gloves_Long.xml</path>
+	<guid>5097b642-5bf5-4827-9e8a-fa91ffc25307</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Gloves_Long_2.xml</path>
+	<guid>f081eaf2-03f9-4883-8e38-73b324aebe7e</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Gloves_Short.xml</path>
+	<guid>7e6c3487-1e4a-47c3-9d71-bab6fd488e47</guid>
+	</files>
+	
+						<!--Cotton Leotard-->
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Leotard.xml</path>
+	<guid>cf731260-7e37-4253-9d9f-da44dc9e7253</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Leotard_MC.xml</path>
+	<guid>301bc5c3-eedf-46f5-85ad-23dfd862312f</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Leotard_HC.xml</path>
+	<guid>7d26e7af-c7b0-49d9-aa0e-15f5989f93bd</guid>
+	</files>
+						<!--Cotton Leotard Sleeves-->	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Leotard_Sleeves.xml</path>
+	<guid>abe1c98c-2bf3-4ac2-ab70-a62f150ca44d</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Leotard_Sleeves_MC.xml</path>
+	<guid>934addad-f381-47a0-ac89-943c2fce0406</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Leotard_Sleeves_HC.xml</path>
+	<guid>507247c1-6e22-40a1-82ec-7fcb5c003d99</guid>
+	</files>
+
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Leotard_SleevesSrt.xml</path>
+	<guid>37419698-9db7-4295-8a9e-0e2b9c413496</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Leotard_SleevesSrt_MC.xml</path>
+	<guid>b9adc14f-40ed-43a3-8518-1c6934bdbc9e</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Leotard_SleevesSrt_HC.xml</path>
+	<guid>17016501-86e3-466b-a642-4c09ec917493</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Leotard_SleevesSrter.xml</path>
+	<guid>5a2227d7-974d-422b-990f-1f794fe4d4bc</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Leotard_SleevesSrter_MC.xml</path>
+	<guid>7a3f1cb0-46e9-47e6-a25a-17e1fab87d00</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Leotard_SleevesSrter_HC.xml</path>
+	<guid>dc3f9e4f-cc57-417b-ba02-4d83932f9961</guid>
+	</files>
+	
+						<!--Socks&Stockings-->
+	
+	<files>
+	<path>media/clothing/clothingItems/Socks_ThighHigh1.xml</path>
+	<guid>f90374aa-fec1-44f9-99e5-a95a1db8ed60</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Socks_ThighHigh2.xml</path>
+	<guid>90fe3c32-2aa9-4ed1-9c20-0500cd7047ac</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Socks_ThighHigh3.xml</path>
+	<guid>6f43f8f6-c3a0-4365-8a05-466007931515</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Socks_ThighHigh4.xml</path>
+	<guid>d5611756-9266-4ac2-91a9-c98d325be15a</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Socks_KneeHigh.xml</path>
+	<guid>80749329-8960-49a5-aff1-7cfadb1d8557</guid>
+	</files>
+
+	<files>
+	<path>media/clothing/clothingItems/Socks_Long.xml</path>
+	<guid>fb86bd5f-1931-4b24-a5d7-bd6a43769991</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Socks_Longer.xml</path>
+	<guid>d1f069c7-c625-4d23-8b01-125263e0489d</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Socks_Crew.xml</path>
+	<guid>40eb1dd4-2bc7-4af2-8495-3229b111a248</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Socks_Ankle.xml</path>
+	<guid>ebea15c8-99b3-4e20-905b-d22cf82b8217</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Socks_Heavy.xml</path>
+	<guid>6d9f4838-ed93-449a-9603-4b43e630b5b8</guid>
+	</files>
+	
+						<!--Cotton Beach Skirt-->	
+						
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Skirt_Beach.xml</path>
+	<guid>94b35d65-60db-46fe-890c-d89eb4680f25</guid>
+	</files>
+
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Skirt_Beach_1.xml</path>
+	<guid>30156ecf-5e9e-4183-8cdb-94172f1bb66f</guid>
+	</files>
+	
+						<!--Cotton Pants-->	
+						
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Pants_Higher.xml</path>
+	<guid>1c039ba5-143b-478b-a31c-c18cfb362523</guid>
+	</files>
+
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Pants_High.xml</path>
+	<guid>e57fd3ed-1c04-40db-80a2-98c3f0f04ca2</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Pants.xml</path>
+	<guid>24c20b43-ab8d-4e07-916f-64238b1b070e</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Pants_Low.xml</path>
+	<guid>0963967d-6887-46ce-a694-ce6c784e2074</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Pants_Lower.xml</path>
+	<guid>ac3a7faf-3b92-4f51-98ac-67ab99ab38d6</guid>
+	</files>
+	
+						<!--Cotton Tights Stirrup-->
+						
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Tights_1.xml</path>
+	<guid>e43b54a8-b194-439d-be52-aa8537214c9c</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Tights_1_HW.xml</path>
+	<guid>af6ada2e-d4bd-4991-9eac-03474b9d6f18</guid>
+	</files>
+	
+						<!--Cotton Tights-->
+						
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Tights_2.xml</path>
+	<guid>062ec1d6-4fbd-44d6-ac6b-2cf1962a6616</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Cotton_Tights_2_HW.xml</path>
+	<guid>3a2f0a7e-f7e6-4072-8a57-3645a01142ae</guid>
+	</files>
+
+						<!--Fitness Leggings-->
+						
+	<files>
+	<path>media/clothing/clothingItems/Fitness_Leggings_Black.xml</path>
+	<guid>761235fe-9322-45fe-8970-e3e823338db9</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Fitness_Leggings_Black_HW.xml</path>
+	<guid>623b3182-6942-4da0-ab37-beeb9259817d</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Fitness_Leggings_Fish.xml</path>
+	<guid>345600b5-9100-4188-833e-eee77d11d9b4</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Fitness_Leggings_Fish_HW.xml</path>
+	<guid>c9feca1c-6460-431d-8f04-90e897c190b0</guid>
+	</files>
+	
+	<!--Vanilla items-->
+    <files>
+        <path>media/clothing/clothingItems/TightsBlack.xml</path>
+        <guid>6d483049-2392-47e1-a6f8-c10ef5c1b040</guid>
+	</files>
+    <files>
+        <path>media/clothing/clothingItems/TightsBlackSemiTrans.xml</path>
+        <guid>88225fb4-a18f-46eb-96d1-2ce415f52bf0</guid>
+	</files>
+    <files>
+        <path>media/clothing/clothingItems/TightsBlackTrans.xml</path>
+        <guid>9e71f7e6-a492-4be4-a6a4-95bca7cbdfc3</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/TightsBlackFishnet.xml</path>
+		<guid>e30e2622-0034-4895-8912-ed53dfafd3d0</guid>
+	</files>
+		<files>
+		<path>media/clothing/clothingItems/StockingsBlack.xml</path>
+		<guid>00ae3ec3-4b6b-484c-9edd-501339307b45</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/StockingsBlackSemiTrans.xml</path>
+		<guid>6ba314a1-43c6-4240-b313-0ba75fb2ca6c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/StockingsBlackTrans.xml</path>
+		<guid>eedee622-9309-4948-891b-a69ecd106936</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/StockingsWhite.xml</path>
+		<guid>af3f4a67-9fd8-47aa-8891-2f0c974a4e38</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/JacketLong_Random.xml</path>
+		<guid>a8f1dbc6-6623-40d1-8a1a-adbcd33f5b41</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_Black.xml</path>
+		<guid>9e094ca7-29b4-4c7d-ae70-597fa4c8a330</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieDOWN_WhiteTINT.xml</path>
+		<guid>51851e1a-3c3d-473d-8894-8cde0770b645</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/HoodieUP_WhiteTINT.xml</path>
+		<guid>623c97c5-49f2-4763-bafb-549a881d6495</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_Padded.xml</path>
+		<guid>6f83a2f6-3b02-4e25-b27e-7e112006d7e2</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Jacket_PaddedDOWN.xml</path>
+		<guid>c1d742f9-d5a5-4c5f-99b1-8ee43c131f0f</guid>
+	</files>
+	
+    <files>
+        <path>media/clothing/clothingItems/Shoes_Black.xml</path>
+        <guid>593bea3d-c127-4574-ac1e-2197dc56e486</guid>
+	</files>
+    <files>
+        <path>media/clothing/clothingItems/Shoes_Random.xml</path>
+        <guid>7741404b-9689-4608-a0f5-4e06597776f9</guid>
+	</files>
+	<files>
+        <path>media/clothing/clothingItems/Shoes_Strapped.xml</path>
+        <guid>f6b27bb5-b736-4bd7-afb1-689ecb9a9c52</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Shoes_Fancy.xml</path>
+		<guid>b87c05cc-9a93-4572-99f8-005e350ee723</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Earring_Dangly_Diamond_Both.xml</path>
+		<guid>eb1e345b-9993-4b70-b021-6d1d18a176b1</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Earring_Dangly_Emerald_Both.xml</path>
+		<guid>5cfb7a5d-5e1c-4a5b-9fdc-f21f6a136d7c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Earring_Dangly_Pearl_Both.xml</path>
+		<guid>1cdfc423-a4c7-46cc-a900-7b3ead0fd9c7</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Earring_Dangly_Ruby_Both.xml</path>
+		<guid>ade9c502-76b1-4a6f-9d70-382cb803c82b</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Earring_Dangly_Sapphire_Both.xml</path>
+		<guid>0cc23833-5eb1-4212-af52-5889de7f60d7</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Earring_LoopLrg_Gold_Both.xml</path>
+		<guid>7c3a8a34-9ffa-42e0-83f4-55088f99d8a4</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Earring_LoopLrg_Silver_Both.xml</path>
+		<guid>497a8849-6914-40fb-b3a6-9e01629e3e8b</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Earring_LoopMed_Gold_Both.xml</path>
+		<guid>62486601-5800-4eba-b317-fbcd9a0e2892</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Earring_LoopMed_Silver_Both.xml</path>
+		<guid>09537be2-eebc-4f58-a76d-ac46ea5b3654</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Earring_LoopSmall_Gold_Both.xml</path>
+		<guid>fc9184ea-72cd-4079-8457-5b9f7b5dab75</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Earring_LoopSmall_Gold_Top.xml</path>
+		<guid>59341911-c4b8-4c30-a712-69df35ba228f</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Earring_LoopSmall_Silver_Both.xml</path>
+		<guid>033be814-b060-457c-8ed6-43f7358606c3</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Earring_LoopSmall_Silver_Top.xml</path>
+		<guid>b1c312bf-bc3b-4a52-a15d-fe5564399388</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Earring_Pearl_Both.xml</path>
+		<guid>5d9eec3d-7119-480e-8f8a-b7118463e482</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Earring_Stone_Emerald_Both.xml</path>
+		<guid>028ce25c-036a-44c0-ac3e-1d576cc28dc8</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Earring_Stone_Ruby_Both.xml</path>
+		<guid>570f2884-f8d9-4e8a-a796-864f691a29fe</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Earring_Stone_Sapphire_Both.xml</path>
+		<guid>a0dead26-e3da-4319-ace1-0be733c1e39f</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Earring_Stud_Gold_Both.xml</path>
+		<guid>ee687253-26b0-4796-82ca-4f4a4976cf81</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Earring_Stud_Silver_Both.xml</path>
+		<guid>9221f803-d4ec-4947-b380-9c8b1fddebf0</guid>
+	</files>
+	
+	
+	
+	
+	<files>
+		<path>media/clothing/clothingItems/NecklaceLong_Amber.xml</path>
+		<guid>dd9c41f4-cbcd-4ae1-9ee4-b0202292a57a</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/NecklaceLong_Gold.xml</path>
+		<guid>31d1387a-2dc0-4951-870e-ead0e7dd02de</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/NecklaceLong_GoldDiamond.xml</path>
+		<guid>a6b47c0c-d541-4932-b216-70568ad664dc</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/NecklaceLong_Silver.xml</path>
+		<guid>96f1486d-b177-47ff-a746-3ca9d4dd9fe9</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/NecklaceLong_SilverDiamond.xml</path>
+		<guid>98077c59-2961-45ce-8247-2b14b4876659</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/NecklaceLong_SilverEmerald.xml</path>
+		<guid>e0467d61-85a6-4bec-bcdd-8676d602282a</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/NecklaceLong_SilverSapphire.xml</path>
+		<guid>81a92257-cb26-4034-923d-5f101f92eada</guid>
+	</files>
+	
+	
+	
+	
+	<files>
+		<path>media/clothing/clothingItems/Necklace_Choker.xml</path>
+		<guid>5c4e5d70-62c6-45fd-804c-fbd50d30a5dd</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Necklace_Choker_Amber.xml</path>
+		<guid>950fc74c-d318-49c1-af33-6c251a36b7dc</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Necklace_Choker_Diamond.xml</path>
+		<guid>83bc7ff3-3c43-4306-abee-ac8b708cbea7</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Necklace_Choker_Sapphire.xml</path>
+		<guid>fde08693-6d3e-4897-a1f8-3d4eda1bc711</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Necklace_Crucifix.xml</path>
+		<guid>3cac5469-f9d2-4462-8fb2-063be1b63450</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Necklace_Gold.xml</path>
+		<guid>3ae13d94-8df6-45c7-9e99-ad03c7d411ce</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Necklace_GoldDiamond.xml</path>
+		<guid>778cc04b-761d-4268-9479-09829468775c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Necklace_GoldRuby.xml</path>
+		<guid>bd36d524-dc71-4ee0-80d7-3e5791f85f7d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Necklace_Pearl.xml</path>
+		<guid>0ef4bbd5-b1ba-412a-8d68-ad83a6abfda6</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Necklace_Silver.xml</path>
+		<guid>b53aaf11-929c-4506-8310-e9b26d5f20eb</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Necklace_SilverCrucifix.xml</path>
+		<guid>00b778ca-59bd-45a4-9a72-a74e5a541469</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Necklace_SilverDiamond.xml</path>
+		<guid>0dc0ceda-9162-4abd-b263-7f32ff497e21</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Necklace_SilverSapphire.xml</path>
+		<guid>25c5a9a3-3fe8-4565-9a8e-af2208167902</guid>
+	</files>
+	
+	
+	
+	
+	<files>
+		<path>media/clothing/clothingItems/NoseRing_Gold.xml</path>
+		<guid>e3c57593-72de-4310-ac4b-d6045cb70b86</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/NoseRing_Silver.xml</path>
+		<guid>d59c01dd-6b0c-4686-af83-01dddc4b25ce</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/NoseStud_Gold.xml</path>
+		<guid>877f93aa-33c7-4453-9c47-5097038f580c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/NoseStud_Silver.xml</path>
+		<guid>404627a1-0fbe-4c95-921d-80eee1bac7f4</guid>
+	</files>
+	
+	
+
+	<files>
+		<path>media/clothing/clothingItems/Bracelet_BangleLeftGold.xml</path>
+		<guid>14830a20-18ff-458c-afa4-8c7c288746a4</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bracelet_BangleLeftSilver.xml</path>
+		<guid>356869e4-1727-489f-8cc3-e7a16e76c137</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bracelet_BangleRightGold.xml</path>
+		<guid>f0dd71ac-a98f-4251-899f-30d727167722</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bracelet_BangleRightSilver.xml</path>
+		<guid>582f29b1-29b3-468c-87fe-263b043e1443</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bracelet_ChainLeftGold.xml</path>
+		<guid>187ff9c7-de7d-4e54-a9df-fc32290e8761</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bracelet_ChainLeftSilver.xml</path>
+		<guid>6eabafbb-d4b6-409f-9d13-d6165bb41d4f</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bracelet_ChainRightGold.xml</path>
+		<guid>ea26af86-e01c-45f9-8d06-09ad99c6bc55</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Bracelet_ChainRightSilver.xml</path>
+		<guid>e28e4564-e853-4876-8ee9-63754e28808c</guid>
+	</files>
+
+</fileGuidTable>
+

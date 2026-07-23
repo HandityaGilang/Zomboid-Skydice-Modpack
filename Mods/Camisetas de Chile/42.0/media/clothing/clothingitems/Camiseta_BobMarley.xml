@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+		<m_GUID>9bd360d8-5af7-4d08-8af4-4a341df0217a</m_GUID>
+        <m_Static>false</m_Static>
+		<m_AllowRandomHue>false</m_AllowRandomHue>
+        <m_AllowRandomTint>false</m_AllowRandomTint>
+		<m_AttachBone></m_AttachBone>
+		<m_BaseTextures>clothes\Camiseta_BobMarley</m_BaseTextures>
+</clothingItem>

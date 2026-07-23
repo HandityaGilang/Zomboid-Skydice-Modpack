@@ -1,0 +1,13 @@
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_shortshorts_fat</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\kate_shortshorts_fat</m_FemaleModel>
+	<m_GUID>5fee4fde-b6ac-47eb-94ee-89581f82fd54</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone />
+	<m_Masks>2</m_Masks>
+	<textureChoices>clothes\shorts_textures\shortshorts_sportblue</textureChoices>
+	<textureChoices>clothes\shorts_textures\shortshorts_sportgreen</textureChoices>
+	<textureChoices>clothes\shorts_textures\shortshorts_sportred</textureChoices>
+	<textureChoices>clothes\shorts_textures\shortshorts_sportyellow</textureChoices>
+</clothingItem>

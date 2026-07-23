@@ -1,0 +1,39 @@
+require("NPCs/BodyLocations")
+
+
+local group = BodyLocations.getGroup("Human")
+local locations = group:getAllLocations()
+
+local function AddOrMoveBodyLocation(name, reference, after)
+
+    local bodyLocation = group:getOrCreateLocation(name)
+
+   -- locations:remove(bodyLocation)
+
+    local index = locations:indexOf(reference)
+    if after then
+        index = index + 1
+    end
+
+  --  locations:add(index, bodyLocation)
+end
+
+-- Insertions / reorder rules
+AddOrMoveBodyLocation(FS2Registry.KIU3, ItemBodyLocation.UNDERWEAR_EXTRA1)
+AddOrMoveBodyLocation(FS2Registry.KIU2, ItemBodyLocation.UNDERWEAR_EXTRA1)
+AddOrMoveBodyLocation(FS2Registry.KIU1, ItemBodyLocation.UNDERWEAR_EXTRA1)
+AddOrMoveBodyLocation(FS2Registry.KIU0, ItemBodyLocation.UNDERWEAR_EXTRA1)
+
+AddOrMoveBodyLocation(FS2Registry.KIUA, ItemBodyLocation.HAT)
+AddOrMoveBodyLocation(FS2Registry.KIUB, ItemBodyLocation.HAT)
+AddOrMoveBodyLocation(FS2Registry.KIUC, ItemBodyLocation.HAT)
+
+--	AddOrMoveBodyLocation(FS2.RightLeg, "ItemBodyLocation.NECK")
+--	AddOrMoveBodyLocation(FS2.LeftLeg, "ItemBodyLocation.NECK")
+
+--	AddOrMoveBodyLocation(FS2.KIUX, "ItemBodyLocation.SWEATER")
+--	AddOrMoveBodyLocation(FS2.Shoes, "ItemBodyLocation.SKIRT")
+
+-- Exclusivity rules
+--	local group = BodyLocations.getGroup("Human")
+--	group:setExclusive(ItemBodyLocation.TankTop, FS2.KIUX)

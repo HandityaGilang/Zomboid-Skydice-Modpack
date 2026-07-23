@@ -1,0 +1,11 @@
+{
+    "Base.BattleShip_Box": "전함 상자",
+    "Base.BattleShip_GameStand": "전함 게임 스탠드",
+    "Base.BattleShip_Peg_Red": "빨간 말뚝",
+    "Base.BattleShip_Peg_White": "화이트 페그",
+    "Base.BattleShip_Ship_Battleship": "전함",
+    "Base.BattleShip_Ship_Carrier": "담체",
+    "Base.BattleShip_Ship_Destroyer": "파괴자",
+    "Base.BattleShip_Ship_Submarine": "잠수함",
+    "Base.BattleShip_Ship_PatrolBoat": "순찰선"
+}

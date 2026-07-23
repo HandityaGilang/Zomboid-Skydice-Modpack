@@ -1,0 +1,12 @@
+ContextMenu_ES = {
+    /* Opciones para las Gorras */
+    ContextMenu_ForwardCap = "Poner Visera Adelante",
+    ContextMenu_ReverseCap = "Poner Visera Atrás",
+
+    /* Opciones para los Delantales */
+    ContextMenu_Arremangar = "Usar en el Pecho",
+    ContextMenu_Desarremangar = "Usar en la Cintura",
+    
+    /* Nombre del Submenú */
+    ContextMenu_Ajustar_Prenda = "Ajustar Prenda"
+}

@@ -1,0 +1,12 @@
+ContextMenu_PTBR = {
+    /* Opciones para las Gorras */
+    ContextMenu_ForwardCap = "Usar Aba para Frente",
+    ContextMenu_ReverseCap = "Usar Aba para Trás",
+
+    /* Opciones para los Delantales */
+    ContextMenu_Arremangar = "Prender no Peito",
+    ContextMenu_Desarremangar = "Prender na Cintura",
+    
+    /* Nombre del Submenú */
+    ContextMenu_Ajustar_Prenda = "Ajustar Vestimenta"
+}

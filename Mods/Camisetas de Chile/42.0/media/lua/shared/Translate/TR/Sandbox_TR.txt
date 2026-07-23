@@ -1,0 +1,20 @@
+Sandbox_TR = {
+    -- Título de la sección en el menú Sandbox
+    Sandbox_ArtequinClothesSandbox = "Artequin's Clothes: Ganimet Ayarları",
+
+    -- Variable para activar/desactivar
+    Sandbox_ArtequinClothes_EnableMod = "Artequin's Clothes Aktif",
+    Sandbox_ArtequinClothes_EnableMod_Tooltip = "Modun kıyafetlerini ve ganimetlerini tamamen açar veya kapatır.",
+
+    -- Configuración de Outfits en Zombis
+    Sandbox_ArtequinClothes_ZombieOutfitMultiplier = "[Kıyafetler] Mod Kıyafetli Zombi Yoğunluğu",
+    Sandbox_ArtequinClothes_ZombieOutfitMultiplier_Tooltip = "Zombilerin mod kıyafetleriyle görünme olasılığını belirler. <LINE> <RGB:1,0.5,0> UYARI: </RGB> Yüksek değerler (örneğin 5.0) çok fazla benzer görünümlü zombiye neden olur.",
+
+    -- Configuración de Loot en Inventario de Zombis
+    Sandbox_ArtequinClothes_ZombieLootMultiplier = "[Ganimet] Zombi Üzerindeki Eşya Miktarı",
+    Sandbox_ArtequinClothes_ZombieLootMultiplier_Tooltip = "Zombilerin envanterinde bulunan ganimet miktarını çarpar. <LINE> <RGB:1,1,0> NOT: </RGB> Kıyafetlerin nadir ve değerli kalması için bu değerin düşük (1.0 - 2.0) tutulması önerilir.",
+
+    -- Configuración de Loot en Contenedores del Mundo
+    Sandbox_ArtequinClothes_WorldLootMultiplier = "[Dünya] Gardırop ve Konteynerlerde Çıkma Oranı",
+    Sandbox_ArtequinClothes_WorldLootMultiplier_Tooltip = "Konteynerlerdeki (gardırop, dolap, mağaza) mod eşyalarının miktarını çarpar. <LINE> <RGB:1,0,0> ÖNEMLİ: </RGB> Çok yüksek değerler rafları doldurabilir ve oyunun orijinal ganimetlerini gölgede bırakabilir."
+}

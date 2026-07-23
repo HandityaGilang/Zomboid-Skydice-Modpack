@@ -1,0 +1,17 @@
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_poncho_obese</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\kate_poncho_obese</m_FemaleModel>
+	<m_GUID>3aba4712-fa19-429e-839b-389f07a28d00</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone />
+	<m_HatCategory>nohair</m_HatCategory>
+	<m_Masks>12</m_Masks>
+	<m_Masks>13</m_Masks>
+	<m_Masks>14</m_Masks>
+	<m_Masks>15</m_Masks>
+	<m_MasksFolder>media/textures/Clothes/Poncho/Masks</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Poncho/Masks</m_UnderlayMasksFolder>
+	<textureChoices>clothes\poncho\poncho_green</textureChoices>
+</clothingItem>

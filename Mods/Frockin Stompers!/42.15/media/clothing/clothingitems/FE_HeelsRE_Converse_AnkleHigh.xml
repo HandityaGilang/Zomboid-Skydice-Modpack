@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes2\BootsRE_Stiletto\BootsRE_Stiletto_AnkleHigh_M.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes2\BootsRE_Stiletto\BootsRE_Stiletto_AnkleHigh_F.fbx</m_FemaleModel>
+	<m_GUID>ed0be712-e043-48af-b872-ec143845c44a</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>	
+	<m_Masks>8</m_Masks>	
+	<m_Masks>10</m_Masks>
+	<m_Masks>11</m_Masks>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Masks/Masks_MediumBoots_5</m_UnderlayMasksFolder>
+	<textureChoices>clothes\Shoes2\BootsRE_Converse\BootsRE_Conv_1</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Converse\BootsRE_Conv_2</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Converse\BootsRE_Conv_3</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Converse\BootsRE_Conv_4</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Converse\BootsRE_Conv_5</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Converse\BootsRE_Conv_6</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Converse\BootsRE_Conv_7</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Converse\BootsRE_Conv_8</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Converse\BootsRE_Conv_9</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Converse\BootsRE_Conv_10</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Converse\BootsRE_Conv_11</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Converse\BootsRE_Conv_12</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Converse\BootsRE_Conv_13</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Converse\BootsRE_Conv_14</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Converse\BootsRE_Conv_15</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Converse\BootsRE_Conv_16</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Converse\BootsRE_Conv_15A</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Converse\BootsRE_Conv_16A</textureChoices>
+	
+</clothingItem>

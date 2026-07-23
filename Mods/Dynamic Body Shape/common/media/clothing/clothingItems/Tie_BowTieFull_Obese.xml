@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_bowtie_obese</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\bob_bowtie_obese</m_FemaleModel>
+	<m_GUID>bd283ad1-ec00-4355-b222-21374bcd657f</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\tie\bowtie_blackfull</textureChoices>
+</clothingItem>

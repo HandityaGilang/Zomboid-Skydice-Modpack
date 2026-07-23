@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>dc3d00af-8c8c-4dda-be76-ae5d01641384</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>true</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Cotton\Top_CropTop\Cotton_CropTop_0</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Top_CropTop\Cotton_CropTop_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Top_CropTop\Cotton_CropTop_1A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Top_CropTop\Cotton_CropTop_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Top_CropTop\Cotton_CropTop_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Top_CropTop\Cotton_CropTop_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Top_CropTop\Cotton_CropTop_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Top_CropTop\Cotton_CropTop_6</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Top_CropTop\Cotton_CropTop_7</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Top_CropTop\Cotton_CropTop_8</m_BaseTextures>
+
+</clothingItem>

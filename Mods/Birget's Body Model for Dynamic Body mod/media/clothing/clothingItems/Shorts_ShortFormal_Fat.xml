@@ -1,0 +1,13 @@
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_shortshorts_fat.fbx</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\kate_shortshorts_fat.fbx</m_FemaleModel>
+	<m_GUID>435cdfab-983c-45d2-91c0-e789dd196d18</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>true</m_AllowRandomTint>
+	<m_AttachBone />
+	<m_Masks>14</m_Masks>
+	<m_Masks>15</m_Masks>
+		<m_UnderlayMasksFolder>media\textures\Clothes\ShortsMask</m_UnderlayMasksFolder>
+	<textureChoices>clothes\trousers_mesh\trousersmesh_white</textureChoices>
+</clothingItem>

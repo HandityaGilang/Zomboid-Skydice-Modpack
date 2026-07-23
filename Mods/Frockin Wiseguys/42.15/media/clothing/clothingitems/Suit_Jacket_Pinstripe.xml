@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Bob_SuitJacket</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Kate_SuitJacket</m_FemaleModel>
+	<m_GUID>b43537a1-b670-435e-8eb3-db3f739c1bc5</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_MasksFolder>media/textures/Clothes/Suit/Masks</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Suit/Masks</m_UnderlayMasksFolder>
+	<textureChoices>Clothes\Suit\Suits_Pinstripe\SuitJacket_Pinstripe_0</textureChoices>
+	<textureChoices>Clothes\Suit\Suits_Pinstripe\SuitJacket_Pinstripe_0A</textureChoices>
+	<textureChoices>Clothes\Suit\Suits_Pinstripe\SuitJacket_Pinstripe_1</textureChoices>
+	<textureChoices>Clothes\Suit\Suits_Pinstripe\SuitJacket_Pinstripe_2</textureChoices>
+	<textureChoices>Clothes\Suit\Suits_Pinstripe\SuitJacket_Pinstripe_3</textureChoices>
+</clothingItem>

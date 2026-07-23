@@ -1,0 +1,9 @@
+name=Cleansing Rain [B42+MP]
+id=CleansingRain
+poster=poster.png
+description=A lightweight, performance-friendly mod that naturally cleans blood and dirt from your character, clothes, weapons, bags, and vehicles when it rains. Build 42 ready.
+author=f3int
+modversion=0.2.0
+icon=poster.png
+category=features
+versionMin=42.0.0

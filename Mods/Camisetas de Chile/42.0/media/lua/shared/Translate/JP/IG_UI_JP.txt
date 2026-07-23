@@ -1,0 +1,5 @@
+IGUI_JP = {
+    -- El nombre después de ItemCat_ debe ser idéntico al DisplayCategory de tus ítems
+    IGUI_ItemCat_Artequins_Clothes = "Artequinの服",
+    IGUI_ItemCategory_Artequins_Clothes = "Artequinの服",
+}

@@ -1,0 +1,6 @@
+IGUI_RU = {
+
+    IGUI_Domino = "Домино",
+    IGUI_Dominos = "Домино",
+    IGUI_turnDomino = "Повернуть",
+}

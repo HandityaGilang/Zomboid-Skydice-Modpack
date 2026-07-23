@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes\ShoesRE_Trainer_M.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\ShoesRE_Trainer_F.fbx</m_FemaleModel>
+	<m_GUID>95047b8a-0248-46ad-af29-cde76530915b</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>11</m_Masks>	
+	<m_UnderlayMasksFolder>media\textures\clothes\Masks\Shoe_Generic</m_UnderlayMasksFolder>	
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_C1</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_C2</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_C3</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_C4</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_C5</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_C6</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_C7</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_C8</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_1</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_2</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_3</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_4</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_5</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_6</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_7</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_1A</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_2A</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_3A</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_4A</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_5A</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_6A</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_7A</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_8</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_8A</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_9</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_9A</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_W1</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_W2</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_W3</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_W4</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_W5</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_W6</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_W7</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_W8</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_W9</textureChoices>
+</clothingItem>

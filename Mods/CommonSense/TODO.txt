@@ -1,0 +1,133 @@
+[b]Version 3.5.2[/b]
+[h1][/h1]
+[h3]IMPLEMENTATIONS[/h3]
+
+[h3]BUG FIXES[/h3]
+Multiplayer:
+[list]
+[*] Car trunks do not open after prying them open.
+[*] Broken locks remain broken after prying them open, locking you inside the vehicle if you get in.
+[/list]
+- Reload all magazines: Didn't show the option to reliably.
+- Pry open: Sometimes sfx sound continued playing after prying was cancelled.
+- Pry open: Player now properly face the object to pry open.
+
+
+[h3]MOD COMPATIBILITY[/h3]
+- 
+
+[h3]MOD INCOMPATIBILITIES[/h3]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	craftRecipe CSOpenCannedFoodWithAnyTool
+    {
+        timedAction = OpenTinCan,
+        time = 100,
+        OnCreate = RecipeCodeOnCreate.openAndEat,
+        Tooltip = Tooltip_Recipe_OpenCanWithKnife,
+        Tags = InHandCraft;CanBeDoneInDark,
+        category = Cooking,
+        inputs
+        {
+            item 1 [Base.Screwdriver;Base.Screwdriver_Old;Base.Scissors;Base.ScissorsForged;Base.ScissorsBluntMedical;Base.ScissorsBlunt] mode:keep flags[MayDegradeLight],
+            item 1 [Base.TinnedBeans;Base.CannedBolognese;Base.CannedCarrots2;Base.CannedChili;Base.CannedCorn;Base.CannedFruitCocktail;Base.CannedFruitBeverage;Base.CannedMilk;Base.CannedMushroomSoup;Base.CannedPeaches;Base.CannedPeas;Base.CannedPineapple;Base.CannedPotato2;Base.TinnedSoup;Base.CannedTomato2;Base.TunaTin;Base.Dogfood;VFX.CannedSavoryMince;VFX.CannedBeefRavioli;VFX.CannedSpinachRavioli;VFX.CannedMushroomRavioli;VFX.CannedSpaghettiAndMeatballs;VFX.CannedSpaghetti;VFX.CannedSloppyJoe;VFX.CannedMeatloaf;VFX.CannedVegetarianChili;VFX.CannedRedBeansAndRice;VFX.CannedClamChowder;VFX.CannedBroccoliCheddarSoup;VFX.CannedChickenNoodleSoup;VFX.CannedFrenchOnionSoup;VFX.CannedLaksaNoodleSoup;VFX.CannedLentilSoup;VFX.CannedMinestroneSoup;VFX.CannedPeaHamSoup;VFX.CannedPotatoLeekSoup;VFX.CannedPumpkinSoup;VFX.CannedTomatoSoup;VFX.CannedBeefMushroomStew;VFX.CannedPepperSteakStew;VFX.CannedIrishStew;VFX.CannedSteakOnionStew;VFX.CannedChiliBeanStew;VFX.CannedVegetableStew;VFX.CannedBlackBeans;VFX.CannedChickpeas;VFX.CannedKidneyBeans;VFX.CannedLentils;VFX.CannedWhiteBeans;VFX.CannedThreeBeanMix;VFX.CannedSlicedMushroom;VFX.CannedEdamameBeans;VFX.CannedMixedVegetableMedley;VFX.CannedGreenBeans;VFX.CannedSpinach;VFX.CannedPassionfruit;VFX.CannedAppleSlices;VFX.CannedPearSlices;VFX.CannedMangoSlices;VFX.CannedLychees;VFX.CannedApricots;VFX.CannedHam;VFX.CannedSalmon;VFX.CannedAnchovies;VFX.CannedCatFood;VFX.CannedChicken;VFX.CannedPumpkinPuree;VFX.CannedCreamCorn;VFX.CannedApplePieFilling;VFX.CannedCherryPieFilling;VFX.CannedBlueberryPieFilling;VFX.CannedStrawberryPieFilling;VFX.CannedPeachPieFilling;VFX.CannedMixedBerryPieFilling;VFX.CannedLemonCreamPieFilling;VFX.CannedBlackberryPieFilling;VFX.CannedRaspberryPieFilling;VFX.CannedCoconutMilk;VFX.CannedCoconutCream] mappers[canSorts] flags[Prop2;DontPutBack],
+        }
+        outputs
+        {
+            item 1 mapper:canSorts,
+        }
+        itemMapper canSorts
+        {
+			Base.OpenBeans = Base.TinnedBeans,
+			Base.CannedBologneseOpen = Base.CannedBolognese,
+			Base.CannedCarrotsOpen = Base.CannedCarrots2,
+			Base.CannedChiliOpen = Base.CannedChili,
+			Base.CannedCornOpen = Base.CannedCorn,
+			Base.CannedFruitCocktailOpen = Base.CannedFruitCocktail,
+			Base.CannedFruitBeverageOpen = Base.CannedFruitBeverage,
+			Base.CannedMilkOpen = Base.CannedMilk,
+			Base.CannedMushroomSoupOpen = Base.CannedMushroomSoup,
+			Base.CannedPeachesOpen = Base.CannedPeaches,
+			Base.CannedPeasOpen = Base.CannedPeas,
+			Base.CannedPineappleOpen = Base.CannedPineapple,
+			Base.CannedPotatoOpen = Base.CannedPotato2,
+			Base.TinnedSoupOpen = Base.TinnedSoup,
+			Base.CannedTomatoOpen = Base.CannedTomato2,
+			Base.TunaTinOpen = Base.TunaTin,
+			Base.DogfoodOpen = Base.Dogfood,
+			VFX.CannedSavoryMinceOpen = VFX.CannedSavoryMince,
+			VFX.CannedBeefRavioliOpen = VFX.CannedBeefRavioli,
+			VFX.CannedSpinachRavioliOpen = VFX.CannedSpinachRavioli,
+			VFX.CannedMushroomRavioliOpen = VFX.CannedMushroomRavioli,
+			VFX.CannedSpaghettiAndMeatballsOpen = VFX.CannedSpaghettiAndMeatballs,
+			VFX.CannedSpaghettiOpen = VFX.CannedSpaghetti,
+			VFX.CannedSloppyJoeOpen = VFX.CannedSloppyJoe,
+			VFX.CannedMeatloafOpen = VFX.CannedMeatloaf,
+			VFX.CannedVegetarianChiliOpen = VFX.CannedVegetarianChili,
+			VFX.CannedRedBeansAndRiceOpen = VFX.CannedRedBeansAndRice,
+			VFX.CannedClamChowderOpen = VFX.CannedClamChowder,
+			VFX.CannedBroccoliCheddarSoupOpen = VFX.CannedBroccoliCheddarSoup,
+			VFX.CannedChickenNoodleSoupOpen = VFX.CannedChickenNoodleSoup,
+			VFX.CannedFrenchOnionSoupOpen = VFX.CannedFrenchOnionSoup,
+			VFX.CannedLaksaNoodleSoupOpen = VFX.CannedLaksaNoodleSoup,
+			VFX.CannedLentilSoupOpen = VFX.CannedLentilSoup,
+			VFX.CannedMinestroneSoupOpen = VFX.CannedMinestroneSoup,
+			VFX.CannedPeaHamSoupOpen = VFX.CannedPeaHamSoup,
+			VFX.CannedPotatoLeekSoupOpen = VFX.CannedPotatoLeekSoup,
+			VFX.CannedPumpkinSoupOpen = VFX.CannedPumpkinSoup,
+			VFX.CannedTomatoSoupOpen = VFX.CannedTomatoSoup,
+			VFX.CannedBeefMushroomStewOpen = VFX.CannedBeefMushroomStew,
+			VFX.CannedPepperSteakStewOpen = VFX.CannedPepperSteakStew,
+			VFX.CannedIrishStewOpen = VFX.CannedIrishStew,
+			VFX.CannedSteakOnionStewOpen = VFX.CannedSteakOnionStew,
+			VFX.CannedChiliBeanStewOpen = VFX.CannedChiliBeanStew,
+			VFX.CannedVegetableStewOpen = VFX.CannedVegetableStew,
+			VFX.CannedBlackBeansOpen = VFX.CannedBlackBeans,
+			VFX.CannedChickpeasOpen = VFX.CannedChickpeas,
+			VFX.CannedKidneyBeansOpen = VFX.CannedKidneyBeans,
+			VFX.CannedLentilsOpen = VFX.CannedLentils,
+			VFX.CannedWhiteBeansOpen = VFX.CannedWhiteBeans,
+			VFX.CannedThreeBeanMixOpen = VFX.CannedThreeBeanMix,
+			VFX.CannedSlicedMushroomOpen = VFX.CannedSlicedMushroom,
+			VFX.CannedEdamameBeansOpen = VFX.CannedEdamameBeans,
+			VFX.CannedMixedVegetableMedleyOpen = VFX.CannedMixedVegetableMedley,
+			VFX.CannedGreenBeansOpen = VFX.CannedGreenBeans,
+			VFX.CannedSpinachOpen = VFX.CannedSpinach,
+			VFX.CannedPassionfruitOpen = VFX.CannedPassionfruit,
+			VFX.CannedAppleSlicesOpen = VFX.CannedAppleSlices,
+			VFX.CannedPearSlicesOpen = VFX.CannedPearSlices,
+			VFX.CannedMangoSlicesOpen = VFX.CannedMangoSlices,
+			VFX.CannedLycheesOpen = VFX.CannedLychees,
+			VFX.CannedApricotsOpen = VFX.CannedApricots,
+			VFX.CannedHamOpen = VFX.CannedHam,
+			VFX.CannedSalmonOpen = VFX.CannedSalmon,
+			VFX.CannedAnchoviesOpen = VFX.CannedAnchovies,
+			VFX.CannedCatFoodOpen = VFX.CannedCatFood,
+			VFX.CannedChickenOpen = VFX.CannedChicken,
+			VFX.CannedPumpkinPureeOpen = VFX.CannedPumpkinPuree,
+			VFX.CannedCreamCornOpen = VFX.CannedCreamCorn,
+			VFX.CannedApplePieFillingOpen = VFX.CannedApplePieFilling,
+			VFX.CannedCherryPieFillingOpen = VFX.CannedCherryPieFilling,
+			VFX.CannedBlueberryPieFillingOpen = VFX.CannedBlueberryPieFilling,
+			VFX.CannedStrawberryPieFillingOpen = VFX.CannedStrawberryPieFilling,
+			VFX.CannedPeachPieFillingOpen = VFX.CannedPeachPieFilling,
+			VFX.CannedMixedBerryPieFillingOpen = VFX.CannedMixedBerryPieFilling,
+			VFX.CannedLemonCreamPieFillingOpen = VFX.CannedLemonCreamPieFilling,
+			VFX.CannedBlackberryPieFillingOpen = VFX.CannedBlackberryPieFilling,
+			VFX.CannedRaspberryPieFillingOpen = VFX.CannedRaspberryPieFilling,
+			VFX.CannedCoconutMilkOpen = VFX.CannedCoconutMilk,
+			VFX.CannedCoconutCreamOpen = VFX.CannedCoconutCream
+		}
+    }

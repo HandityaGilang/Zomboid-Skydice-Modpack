@@ -1,0 +1,13 @@
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_bulletvest_fat</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\kate_bulletvest_fat</m_FemaleModel>
+	<m_GUID>fdced10b-b480-4396-95c3-1f10a60ef7da</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone />
+	
+	<m_MasksFolder>media/textures/Clothes/BulletVest/Masks_BulletVest</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/BulletVest/Masks_BulletVest</m_UnderlayMasksFolder>
+	<textureChoices>clothes\bulletvest\vest_bulletpolice</textureChoices>
+</clothingItem>

@@ -1,0 +1,4 @@
+module Base
+{
+    recipe Unseal Box { MahjongBox_sealed, Result:MahjongBox, CanBeDoneFromFloor:true, OnCreate:Recipe.GameNight.Unbox, Time:50.0, }
+}

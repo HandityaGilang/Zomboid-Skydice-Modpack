@@ -1,0 +1,20 @@
+Sandbox_FR = {
+    -- Título de la sección en el menú Sandbox
+    Sandbox_ArtequinClothesSandbox = "Artequin's Clothes : Config. du Butin",
+
+    -- Variable para activar/desactivar
+    Sandbox_ArtequinClothes_EnableMod = "Activer Artequin's Clothes",
+    Sandbox_ArtequinClothes_EnableMod_Tooltip = "Active ou désactive complètement les tenues et l'apparition des objets du mod.",
+
+    -- Configuración de Outfits en Zombis
+    Sandbox_ArtequinClothes_ZombieOutfitMultiplier = "[Tenues] Densité de zombies stylés",
+    Sandbox_ArtequinClothes_ZombieOutfitMultiplier_Tooltip = "Multiplie la probabilité que les zombies portent les vêtements du mod. <LINE> <RGB:1,0.5,0> ATTENTION : </RGB> Des valeurs élevées (ex: 5.0) rendront les zombies un peu trop uniformes.",
+
+    -- Configuración de Loot en Inventario de Zombis
+    Sandbox_ArtequinClothes_ZombieLootMultiplier = "[Butin] Objets portés par les zombies",
+    Sandbox_ArtequinClothes_ZombieLootMultiplier_Tooltip = "Multiplie la quantité d'objets trouvés directement dans l'inventaire des zombies. <LINE> <RGB:1,1,0> NOTE : </RGB> Il est conseillé de garder cette valeur basse (1.0 - 2.0) pour que les pièces restent rares y précieuses.",
+
+    -- Configuración de Loot en Contenedores del Mundo
+    Sandbox_ArtequinClothes_WorldLootMultiplier = "[Monde] Apparition dans les armoires et conteneurs",
+    Sandbox_ArtequinClothes_WorldLootMultiplier_Tooltip = "Multiplie la quantité d'objets du mod dans les conteneurs (penderies, armoires, magasins). <LINE> <RGB:1,0,0> IMPORTANT : </RGB> Des valeurs trop élevées peuvent saturer les étagères et éclipser le butin original du jeu."
+}

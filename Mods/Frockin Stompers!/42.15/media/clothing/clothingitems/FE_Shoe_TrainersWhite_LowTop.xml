@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes2\ShoesRE_Trainers\ShoesRE_Trainers_LowTop_M.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes2\ShoesRE_Trainers\ShoesRE_Trainers_LowTop_F.fbx</m_FemaleModel>
+	<m_GUID>84c36276-572d-4077-879b-e3f6d6d7f38a</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>11</m_Masks>	
+	<m_UnderlayMasksFolder>media\textures\clothes\Masks\Shoe_Generic_LowTop</m_UnderlayMasksFolder>	
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_W1</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_W2</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_W3</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_W4</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_W5</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_W6</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_W7</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_W8</textureChoices>
+	<textureChoices>clothes\Shoes\Shoes\Shoes_Trainers_W9</textureChoices>
+</clothingItem>

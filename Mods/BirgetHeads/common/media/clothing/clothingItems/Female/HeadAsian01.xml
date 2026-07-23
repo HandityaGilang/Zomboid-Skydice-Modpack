@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel>skinned\FemaleAsian01</m_FemaleModel>
+	<m_GUID>c986f214-7396-43b9-b7b8-474a6493680a</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+		<m_UnderlayMasksFolder>media/textures/headMasks</m_UnderlayMasksFolder>
+	<textureChoices>Body\HeadsCompat\FemaleBody01</textureChoices>
+	<textureChoices>Body\HeadsCompat\FemaleBody02</textureChoices>
+	<textureChoices>Body\HeadsCompat\FemaleBody03</textureChoices>
+	<textureChoices>Body\HeadsCompat\FemaleBody04</textureChoices>
+	<textureChoices>Body\HeadsCompat\FemaleBody05</textureChoices>
+	<textureChoices>Body\FemaleBody01_old</textureChoices>
+	<textureChoices>Body\FemaleBody02_old</textureChoices>
+	<textureChoices>Body\FemaleBody03_old</textureChoices>
+	<textureChoices>Body\FemaleBody04_old</textureChoices>
+	<textureChoices>Body\FemaleBody05_old</textureChoices>
+</clothingItem>

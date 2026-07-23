@@ -1,0 +1,6 @@
+{
+    "Base.GoStonesBlack": "Ir piedra (negro)",
+    "Base.GoStonesWhite": "Ir piedra (blanco)",
+    "Base.GoBoard": "Ir a bordo",
+    "Base.GoBox_sealed": "Ir al tablero (sellado)"
+}

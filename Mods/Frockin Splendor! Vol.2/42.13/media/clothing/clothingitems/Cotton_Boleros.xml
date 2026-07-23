@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>6a06a683-c6f5-4510-8c7f-4f3c4af1579a</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>true</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Cotton\Boleros\Cotton_Bolero_1_Long</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Boleros\Cotton_Bolero_2_Long</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Boleros\Cotton_Bolero_2A_Long</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Boleros\Cotton_Bolero_4_Long</m_BaseTextures>
+</clothingItem>

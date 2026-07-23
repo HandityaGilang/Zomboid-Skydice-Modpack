@@ -1,0 +1,14 @@
+{
+  "ContextMenu_CS_PryOpen": "Arrombar",
+  "ContextMenu_CS_PryOpen_Door": "Arrombar porta",
+  "ContextMenu_CS_PryOpen_Window": "Arrombar janela",
+  "ContextMenu_CS_Pickup_Logs": "Pegar toras",
+  "ContextMenu_CS_Pickup_Trash": "Pegar lixo",
+  "ContextMenu_CS_Only": "Apenas...",
+  "ContextMenu_CS_WashEquippedOnly": "Apenas Equipados",
+  "ContextMenu_CS_WashUnequippedOnly": "Apenas Não Equipados ",
+  "ContextMenu_CS_WashWeaponsOnly": "Apenas armas ",
+  "ContextMenu_CS_Equip": "Equipar",
+  "ContextMenu_CS_Replace_Bandage": "Trocar bandagem",
+  "ContextMenu_CS_ReloadAllMags": "Recarregar todos os carregadores"
+}

@@ -1,0 +1,36 @@
+module Dragonslayer
+{
+    model Dragonslayer
+    {
+        mesh = Dragonslayer/Dragonslayer,
+        texture = Dragonslayer/Dragonslayer,
+        scale = 0.006,
+        attachment Bip01_Prop1
+        {
+            offset = 0.0 0.0400 0.0,
+            rotate = 0.0 0.0 0.0,
+        }
+        attachment blade_back
+        {
+            offset = 0.0 -0.2400 0.0,
+            rotate = 0.0 0.0 0.0,
+        }
+        attachment big_blade_back_bag
+        {
+            offset = 0.0 -0.2400 0.0,
+            rotate = 0.0 0.0 0.0,
+        }
+        attachment world
+        {
+            offset = 0.0180 0.4252 0.0,
+            rotate = -180.0 0.0 180.0,
+        }
+    }
+
+    model BerserkerMagazineGround
+    {
+        mesh = WorldItems/Magazine,
+        texture = WorldItems/DragonslayerBerserkerMagazine,
+        scale = 0.4,
+    }
+}

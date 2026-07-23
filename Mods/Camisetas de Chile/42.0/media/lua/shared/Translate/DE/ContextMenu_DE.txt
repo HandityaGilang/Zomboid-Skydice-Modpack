@@ -1,0 +1,12 @@
+ContextMenu_DE = {
+    /* Opciones para las Gorras - (Se usa 'Schirm' para la visera) */
+    ContextMenu_ForwardCap = "Schirm nach vorne",
+    ContextMenu_ReverseCap = "Schirm nach hinten",
+
+    /* Opciones para los Delantales - (Más natural que una traducción literal) */
+    ContextMenu_Arremangar = "Auf der Brust tragen",
+    ContextMenu_Desarremangar = "Um die Hüfte binden",
+    
+    /* Nombre del Submenú */
+    ContextMenu_Ajustar_Prenda = "Kleidung anpassen"
+}

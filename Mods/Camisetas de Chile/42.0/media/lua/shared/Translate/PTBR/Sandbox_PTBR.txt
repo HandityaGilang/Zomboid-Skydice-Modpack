@@ -1,0 +1,20 @@
+Sandbox_PTBR = {
+    -- Título de la sección en el menú Sandbox
+    Sandbox_ArtequinClothesSandbox = "Artequin's Clothes: Configurações de Loot",
+
+    -- Variable para activar/desactivar
+    Sandbox_ArtequinClothes_EnableMod = "Ativar Artequin's Clothes",
+    Sandbox_ArtequinClothes_EnableMod_Tooltip = "Ativa ou desativa completamente os visuais e o loot do mod.",
+
+    -- Configuración de Outfits en Zombis
+    Sandbox_ArtequinClothes_ZombieOutfitMultiplier = "[Visuais] Densidade de Zumbis Estilosos",
+    Sandbox_ArtequinClothes_ZombieOutfitMultiplier_Tooltip = "Multiplica a chance de zumbis aparecerem vestindo as roupas do mod. <LINE> <RGB:1,0.5,0> AVISO: </RGB> Valores altos (ex: 5.0) farão com que muitos zumbis fiquem idênticos.",
+
+    -- Configuración de Loot en Inventario de Zombis
+    Sandbox_ArtequinClothes_ZombieLootMultiplier = "[Loot] Quantidade de Itens em Zumbis",
+    Sandbox_ArtequinClothes_ZombieLootMultiplier_Tooltip = "Multiplica o loot que os zumbis carregam em seus inventários. <LINE> <RGB:1,1,0> NOTA: </RGB> Recomenda-se manter este valor baixo (1.0 - 2.0) para que as peças continuem raras e valiosas.",
+
+    -- Configuración de Loot en Contenedores del Mundo
+    Sandbox_ArtequinClothes_WorldLootMultiplier = "[Mundo] Spawn em Roupeiros e Contêineres",
+    Sandbox_ArtequinClothes_WorldLootMultiplier_Tooltip = "Multiplica a quantidade de itens do mod em contêineres (guarda-roupas, armários, lojas). <LINE> <RGB:1,0,0> IMPORTANTE: </RGB> Valores muito altos podem lotar as prateleiras e ocultar o loot original do jogo."
+}

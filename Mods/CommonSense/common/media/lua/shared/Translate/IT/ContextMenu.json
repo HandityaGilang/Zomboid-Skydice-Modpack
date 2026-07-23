@@ -1,0 +1,14 @@
+{
+  "ContextMenu_CS_PryOpen": "Fai leva per aprire",
+  "ContextMenu_CS_PryOpen_Door": "Forza la porta",
+  "ContextMenu_CS_PryOpen_Window": "Forza la finestra",
+  "ContextMenu_CS_Pickup_Logs": "Raccogli tronchi",
+  "ContextMenu_CS_Pickup_Trash": "Raccogli spazzatura",
+  "ContextMenu_CS_Only": "Solo...",
+  "ContextMenu_CS_WashEquippedOnly": "Solo equipaggiato ",
+  "ContextMenu_CS_WashUnequippedOnly": "Solo non equipaggiato ",
+  "ContextMenu_CS_WashWeaponsOnly": "Solo armi ",
+  "ContextMenu_CS_Equip": "Equipaggia",
+  "ContextMenu_CS_Replace_Bandage": "Sostituisci la benda",
+  "ContextMenu_CS_ReloadAllMags": "Ricarica tutti i caricatori"
+}

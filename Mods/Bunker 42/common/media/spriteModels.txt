@@ -1,0 +1,2342 @@
+spriteModel
+{
+	VERSION = 1,
+
+	tileset
+	{
+		name = Bunkerdoor_01,
+
+		tile
+		{
+			xy = 0 0,
+			runtime = standard_door w closed,
+		}
+
+		tile
+		{
+			xy = 1 0,
+			runtime = standard_door n closed,
+		}
+
+		tile
+		{
+			xy = 2 0,
+			runtime = standard_door w open,
+		}
+
+		tile
+		{
+			xy = 3 0,
+			runtime = standard_door n open,
+		}
+
+		tile
+		{
+			xy = 4 0,
+			runtime = standard_door w closed,
+		}
+
+		tile
+		{
+			xy = 5 0,
+			runtime = standard_door n closed,
+		}
+
+		tile
+		{
+			xy = 6 0,
+			runtime = standard_door w open,
+		}
+
+		tile
+		{
+			xy = 7 0,
+			runtime = standard_door n open,
+		}
+
+		tile
+		{
+			xy = 0 1,
+			runtime = standard_door w closed,
+		}
+
+		tile
+		{
+			xy = 1 1,
+			runtime = standard_door n closed,
+		}
+
+		tile
+		{
+			xy = 2 1,
+			runtime = standard_door w open,
+		}
+
+		tile
+		{
+			xy = 3 1,
+			runtime = standard_door n open,
+		}
+
+		tile
+		{
+			xy = 4 1,
+			runtime = standard_door w closed,
+		}
+
+		tile
+		{
+			xy = 5 1,
+			runtime = standard_door n closed,
+		}
+
+		tile
+		{
+			xy = 6 1,
+			runtime = standard_door w open,
+		}
+
+		tile
+		{
+			xy = 7 1,
+			runtime = standard_door n open,
+		}
+
+		tile
+		{
+			xy = 0 2,
+			runtime = standard_door w closed,
+		}
+
+		tile
+		{
+			xy = 1 2,
+			runtime = standard_door n closed,
+		}
+
+		tile
+		{
+			xy = 2 2,
+			runtime = standard_door w open,
+		}
+
+		tile
+		{
+			xy = 3 2,
+			runtime = standard_door n open,
+		}
+
+		tile
+		{
+			xy = 4 2,
+			runtime = standard_door w closed,
+		}
+
+		tile
+		{
+			xy = 5 2,
+			runtime = standard_door n closed,
+		}
+
+		tile
+		{
+			xy = 6 2,
+			runtime = standard_door w open,
+		}
+
+		tile
+		{
+			xy = 7 2,
+			runtime = standard_door n open,
+		}
+
+		tile
+		{
+			xy = 0 3,
+			runtime = standard_door w closed,
+		}
+
+		tile
+		{
+			xy = 1 3,
+			runtime = standard_door n closed,
+		}
+
+		tile
+		{
+			xy = 2 3,
+			runtime = standard_door w open,
+		}
+
+		tile
+		{
+			xy = 3 3,
+			runtime = standard_door n open,
+		}
+
+		tile
+		{
+			xy = 4 3,
+			runtime = standard_door w closed,
+		}
+
+		tile
+		{
+			xy = 5 3,
+			runtime = standard_door n closed,
+		}
+
+		tile
+		{
+			xy = 6 3,
+			runtime = standard_door w open,
+		}
+
+		tile
+		{
+			xy = 7 3,
+			runtime = standard_door n open,
+		}
+
+		tile
+		{
+			xy = 0 4,
+			runtime = standard_door w closed,
+		}
+
+		tile
+		{
+			xy = 1 4,
+			runtime = standard_door n closed,
+		}
+
+		tile
+		{
+			xy = 2 4,
+			runtime = standard_door w open,
+		}
+
+		tile
+		{
+			xy = 3 4,
+			runtime = standard_door n open,
+		}
+
+		tile
+		{
+			xy = 4 4,
+			runtime = standard_door w closed,
+		}
+
+		tile
+		{
+			xy = 5 4,
+			runtime = standard_door n closed,
+		}
+
+		tile
+		{
+			xy = 6 4,
+			runtime = standard_door w open,
+		}
+
+		tile
+		{
+			xy = 7 4,
+			runtime = standard_door n open,
+		}
+
+		tile
+		{
+			xy = 0 5,
+			runtime = standard_door w closed,
+		}
+
+		tile
+		{
+			xy = 1 5,
+			runtime = standard_door n closed,
+		}
+
+		tile
+		{
+			xy = 2 5,
+			runtime = standard_door w open,
+		}
+
+		tile
+		{
+			xy = 3 5,
+			runtime = standard_door n open,
+		}
+
+		tile
+		{
+			xy = 4 5,
+			runtime = standard_door w closed,
+		}
+
+		tile
+		{
+			xy = 5 5,
+			runtime = standard_door n closed,
+		}
+
+		tile
+		{
+			xy = 6 5,
+			runtime = standard_door w open,
+		}
+
+		tile
+		{
+			xy = 7 5,
+			runtime = standard_door n open,
+		}
+
+		tile
+		{
+			xy = 0 6,
+			runtime = standard_door w closed,
+		}
+
+		tile
+		{
+			xy = 1 6,
+			runtime = standard_door n closed,
+		}
+
+		tile
+		{
+			xy = 2 6,
+			runtime = standard_door w open,
+		}
+
+		tile
+		{
+			xy = 3 6,
+			runtime = standard_door n open,
+		}
+
+		tile
+		{
+			xy = 4 6,
+			runtime = standard_door w closed,
+		}
+
+		tile
+		{
+			xy = 5 6,
+			runtime = standard_door n closed,
+		}
+
+		tile
+		{
+			xy = 6 6,
+			runtime = standard_door w open,
+		}
+
+		tile
+		{
+			xy = 7 6,
+			runtime = standard_door n open,
+		}
+
+		tile
+		{
+			xy = 0 7,
+			runtime = standard_door w closed,
+		}
+
+		tile
+		{
+			xy = 1 7,
+			runtime = standard_door n closed,
+		}
+
+		tile
+		{
+			xy = 2 7,
+			runtime = standard_door w open,
+		}
+
+		tile
+		{
+			xy = 3 7,
+			runtime = standard_door n open,
+		}
+
+		tile
+		{
+			xy = 4 7,
+			runtime = standard_door w closed,
+		}
+
+		tile
+		{
+			xy = 5 7,
+			runtime = standard_door n closed,
+		}
+
+		tile
+		{
+			xy = 6 7,
+			runtime = standard_door w open,
+		}
+
+		tile
+		{
+			xy = 7 7,
+			runtime = standard_door n open,
+		}
+
+		tile
+		{
+			xy = 0 8,
+			runtime = standard_door w closed,
+		}
+
+		tile
+		{
+			xy = 1 8,
+			runtime = standard_door n closed,
+		}
+
+		tile
+		{
+			xy = 2 8,
+			runtime = standard_door w open,
+		}
+
+		tile
+		{
+			xy = 3 8,
+			runtime = standard_door n open,
+		}
+
+		tile
+		{
+			xy = 4 8,
+			runtime = standard_door w closed,
+		}
+
+		tile
+		{
+			xy = 5 8,
+			runtime = standard_door n closed,
+		}
+
+		tile
+		{
+			xy = 6 8,
+			runtime = standard_door w open,
+		}
+
+		tile
+		{
+			xy = 7 8,
+			runtime = standard_door n open,
+		}
+
+		tile
+		{
+			xy = 0 9,
+			runtime = standard_door w closed,
+		}
+
+		tile
+		{
+			xy = 1 9,
+			runtime = standard_door n closed,
+		}
+
+		tile
+		{
+			xy = 2 9,
+			runtime = standard_door w open,
+		}
+
+		tile
+		{
+			xy = 3 9,
+			runtime = standard_door n open,
+		}
+
+		tile
+		{
+			xy = 4 9,
+			runtime = standard_door w closed,
+		}
+
+		tile
+		{
+			xy = 5 9,
+			runtime = standard_door n closed,
+		}
+
+		tile
+		{
+			xy = 6 9,
+			runtime = standard_door w open,
+		}
+
+		tile
+		{
+			xy = 7 9,
+			runtime = standard_door n open,
+		}
+
+		tile
+		{
+			xy = 0 10,
+			runtime = standard_door w closed,
+		}
+
+		tile
+		{
+			xy = 1 10,
+			runtime = standard_door n closed,
+		}
+
+		tile
+		{
+			xy = 2 10,
+			runtime = standard_door w open,
+		}
+
+		tile
+		{
+			xy = 3 10,
+			runtime = standard_door n open,
+		}
+
+		tile
+		{
+			xy = 4 10,
+			runtime = standard_door w closed,
+		}
+
+		tile
+		{
+			xy = 5 10,
+			runtime = standard_door n closed,
+		}
+
+		tile
+		{
+			xy = 6 10,
+			runtime = standard_door w open,
+		}
+
+		tile
+		{
+			xy = 7 10,
+			runtime = standard_door n open,
+		}
+
+		tile
+		{
+			xy = 0 11,
+			runtime = standard_door w closed,
+		}
+
+		tile
+		{
+			xy = 1 11,
+			runtime = standard_door n closed,
+		}
+
+		tile
+		{
+			xy = 2 11,
+			runtime = standard_door w open,
+		}
+
+		tile
+		{
+			xy = 3 11,
+			runtime = standard_door n open,
+		}
+
+		tile
+		{
+			xy = 4 11,
+			runtime = standard_door w closed,
+		}
+
+		tile
+		{
+			xy = 5 11,
+			runtime = standard_door n closed,
+		}
+
+		tile
+		{
+			xy = 6 11,
+			runtime = standard_door w open,
+		}
+
+		tile
+		{
+			xy = 7 11,
+			runtime = standard_door n open,
+		}
+
+		tile
+		{
+			xy = 0 12,
+			runtime = standard_door w closed,
+		}
+
+		tile
+		{
+			xy = 1 12,
+			runtime = standard_door n closed,
+		}
+
+		tile
+		{
+			xy = 2 12,
+			runtime = standard_door w open,
+		}
+
+		tile
+		{
+			xy = 3 12,
+			runtime = standard_door n open,
+		}
+
+		tile
+		{
+			xy = 4 12,
+			runtime = standard_door w closed,
+		}
+
+		tile
+		{
+			xy = 5 12,
+			runtime = standard_door n closed,
+		}
+
+		tile
+		{
+			xy = 6 12,
+			runtime = standard_door w open,
+		}
+
+		tile
+		{
+			xy = 7 12,
+			runtime = standard_door n open,
+		}
+
+		tile
+		{
+			xy = 0 13,
+			runtime = standard_door w closed,
+		}
+
+		tile
+		{
+			xy = 1 13,
+			runtime = standard_door n closed,
+		}
+
+		tile
+		{
+			xy = 2 13,
+			runtime = standard_door w open,
+		}
+
+		tile
+		{
+			xy = 3 13,
+			runtime = standard_door n open,
+		}
+
+		tile
+		{
+			xy = 4 13,
+			runtime = standard_door w closed,
+		}
+
+		tile
+		{
+			xy = 5 13,
+			runtime = standard_door n closed,
+		}
+
+		tile
+		{
+			xy = 6 13,
+			runtime = standard_door w open,
+		}
+
+		tile
+		{
+			xy = 7 13,
+			runtime = standard_door n open,
+		}
+
+		tile
+		{
+			xy = 0 14,
+			runtime = standard_door w closed,
+		}
+
+		tile
+		{
+			xy = 1 14,
+			runtime = standard_door n closed,
+		}
+
+		tile
+		{
+			xy = 2 14,
+			runtime = standard_door w open,
+		}
+
+		tile
+		{
+			xy = 3 14,
+			runtime = standard_door n open,
+		}
+
+		tile
+		{
+			xy = 4 14,
+			runtime = standard_door w closed,
+		}
+
+		tile
+		{
+			xy = 5 14,
+			runtime = standard_door n closed,
+		}
+
+		tile
+		{
+			xy = 6 14,
+			runtime = standard_door w open,
+		}
+
+		tile
+		{
+			xy = 7 14,
+			runtime = standard_door n open,
+		}
+
+		tile
+		{
+			xy = 0 15,
+			runtime = standard_door w closed,
+		}
+
+		tile
+		{
+			xy = 1 15,
+			runtime = standard_door n closed,
+		}
+
+		tile
+		{
+			xy = 2 15,
+			runtime = standard_door w open,
+		}
+
+		tile
+		{
+			xy = 3 15,
+			runtime = standard_door n open,
+		}
+
+		tile
+		{
+			xy = 4 15,
+			runtime = standard_door w closed,
+		}
+
+		tile
+		{
+			xy = 5 15,
+			runtime = standard_door n closed,
+		}
+
+		tile
+		{
+			xy = 6 15,
+			runtime = standard_door w open,
+		}
+
+		tile
+		{
+			xy = 7 15,
+			runtime = standard_door n open,
+		}
+
+		tile
+		{
+			xy = 0 16,
+			runtime = standard_door w closed,
+		}
+
+		tile
+		{
+			xy = 1 16,
+			runtime = standard_door n closed,
+		}
+
+		tile
+		{
+			xy = 2 16,
+			runtime = standard_door w open,
+		}
+
+		tile
+		{
+			xy = 3 16,
+			runtime = standard_door n open,
+		}
+
+	tileset
+	{
+		name = fixtures_doors_erika_02,
+
+		tile
+		{
+			xy = 0 0,
+			runtime = pair_door right w closed,
+		}
+
+		tile
+		{
+			xy = 1 0,
+			runtime = pair_door left n closed,
+		}
+
+		tile
+		{
+			xy = 2 0,
+			runtime = pair_door right w open,
+		}
+
+		tile
+		{
+			xy = 3 0,
+			runtime = pair_door left n open,
+		}
+
+		tile
+		{
+			xy = 4 0,
+			runtime = pair_door left w closed,
+		}
+
+		tile
+		{
+			xy = 5 0,
+			runtime = pair_door right n closed,
+		}
+
+		tile
+		{
+			xy = 6 0,
+			runtime = pair_door left w open,
+		}
+
+		tile
+		{
+			xy = 7 0,
+			runtime = pair_door right n open,
+		}
+
+		tile
+		{
+			xy = 0 1,
+			runtime = pair_door right w closed,
+		}
+
+		tile
+		{
+			xy = 1 1,
+			runtime = pair_door left n closed,
+		}
+
+		tile
+		{
+			xy = 2 1,
+			runtime = pair_door right w open,
+		}
+
+		tile
+		{
+			xy = 3 1,
+			runtime = pair_door left n open,
+		}
+
+		tile
+		{
+			xy = 4 1,
+			runtime = pair_door left w closed,
+		}
+
+		tile
+		{
+			xy = 5 1,
+			runtime = pair_door right n closed,
+		}
+
+		tile
+		{
+			xy = 6 1,
+			runtime = pair_door left w open,
+		}
+
+		tile
+		{
+			xy = 7 1,
+			runtime = pair_door right n open,
+		}
+
+		tile
+		{
+			xy = 0 2,
+			runtime = pair_door right w closed,
+		}
+
+		tile
+		{
+			xy = 1 2,
+			runtime = pair_door left n closed,
+		}
+
+		tile
+		{
+			xy = 2 2,
+			runtime = pair_door right w open,
+		}
+
+		tile
+		{
+			xy = 3 2,
+			runtime = pair_door left n open,
+		}
+
+		tile
+		{
+			xy = 4 2,
+			runtime = pair_door left w closed,
+		}
+
+		tile
+		{
+			xy = 5 2,
+			runtime = pair_door right n closed,
+		}
+
+		tile
+		{
+			xy = 6 2,
+			runtime = pair_door left w open,
+		}
+
+		tile
+		{
+			xy = 7 2,
+			runtime = pair_door right n open,
+		}
+
+		tile
+		{
+			xy = 0 3,
+			runtime = pair_door right w closed,
+		}
+
+		tile
+		{
+			xy = 1 3,
+			runtime = pair_door left n closed,
+		}
+
+		tile
+		{
+			xy = 2 3,
+			runtime = pair_door right w open,
+		}
+
+		tile
+		{
+			xy = 3 3,
+			runtime = pair_door left n open,
+		}
+
+		tile
+		{
+			xy = 4 3,
+			runtime = pair_door left w closed,
+		}
+
+		tile
+		{
+			xy = 5 3,
+			runtime = pair_door right n closed,
+		}
+
+		tile
+		{
+			xy = 6 3,
+			runtime = pair_door left w open,
+		}
+
+		tile
+		{
+			xy = 7 3,
+			runtime = pair_door right n open,
+		}
+
+		tile
+		{
+			xy = 0 4,
+			runtime = pair_door right w closed,
+		}
+
+		tile
+		{
+			xy = 1 4,
+			runtime = pair_door left n closed,
+		}
+
+		tile
+		{
+			xy = 2 4,
+			runtime = pair_door right w open,
+		}
+
+		tile
+		{
+			xy = 3 4,
+			runtime = pair_door left n open,
+		}
+
+		tile
+		{
+			xy = 4 4,
+			runtime = pair_door left w closed,
+		}
+
+		tile
+		{
+			xy = 5 4,
+			runtime = pair_door right n closed,
+		}
+
+		tile
+		{
+			xy = 6 4,
+			runtime = pair_door left w open,
+		}
+
+		tile
+		{
+			xy = 7 4,
+			runtime = pair_door right n open,
+		}
+
+		tile
+		{
+			xy = 0 5,
+			runtime = pair_door right w closed,
+		}
+
+		tile
+		{
+			xy = 1 5,
+			runtime = pair_door left n closed,
+		}
+
+		tile
+		{
+			xy = 2 5,
+			runtime = pair_door right w open,
+		}
+
+		tile
+		{
+			xy = 3 5,
+			runtime = pair_door left n open,
+		}
+
+		tile
+		{
+			xy = 4 5,
+			runtime = pair_door left w closed,
+		}
+
+		tile
+		{
+			xy = 5 5,
+			runtime = pair_door right n closed,
+		}
+
+		tile
+		{
+			xy = 6 5,
+			runtime = pair_door left w open,
+		}
+
+		tile
+		{
+			xy = 7 5,
+			runtime = pair_door right n open,
+		}
+
+		tile
+		{
+			xy = 0 6,
+			runtime = pair_door right w closed,
+		}
+
+		tile
+		{
+			xy = 1 6,
+			runtime = pair_door left n closed,
+		}
+
+		tile
+		{
+			xy = 2 6,
+			runtime = pair_door right w open,
+		}
+
+		tile
+		{
+			xy = 3 6,
+			runtime = pair_door left n open,
+		}
+
+		tile
+		{
+			xy = 4 6,
+			runtime = pair_door left w closed,
+		}
+
+		tile
+		{
+			xy = 5 6,
+			runtime = pair_door right n closed,
+		}
+
+		tile
+		{
+			xy = 6 6,
+			runtime = pair_door left w open,
+		}
+
+		tile
+		{
+			xy = 7 6,
+			runtime = pair_door right n open,
+		}
+
+		tile
+		{
+			xy = 0 7,
+			runtime = pair_door right w closed,
+		}
+
+		tile
+		{
+			xy = 1 7,
+			runtime = pair_door left n closed,
+		}
+
+		tile
+		{
+			xy = 2 7,
+			runtime = pair_door right w open,
+		}
+
+		tile
+		{
+			xy = 3 7,
+			runtime = pair_door left n open,
+		}
+
+		tile
+		{
+			xy = 4 7,
+			runtime = pair_door left w closed,
+		}
+
+		tile
+		{
+			xy = 5 7,
+			runtime = pair_door right n closed,
+		}
+
+		tile
+		{
+			xy = 6 7,
+			runtime = pair_door left w open,
+		}
+
+		tile
+		{
+			xy = 7 7,
+			runtime = pair_door right n open,
+		}
+
+		tile
+		{
+			xy = 0 8,
+			runtime = pair_door right w closed,
+		}
+
+		tile
+		{
+			xy = 1 8,
+			runtime = pair_door left n closed,
+		}
+
+		tile
+		{
+			xy = 2 8,
+			runtime = pair_door right w open,
+		}
+
+		tile
+		{
+			xy = 3 8,
+			runtime = pair_door left n open,
+		}
+
+		tile
+		{
+			xy = 4 8,
+			runtime = pair_door left w closed,
+		}
+
+		tile
+		{
+			xy = 5 8,
+			runtime = pair_door right n closed,
+		}
+
+		tile
+		{
+			xy = 6 8,
+			runtime = pair_door left w open,
+		}
+
+		tile
+		{
+			xy = 7 8,
+			runtime = pair_door right n open,
+		}
+
+		tile
+		{
+			xy = 0 9,
+			runtime = pair_door right w closed,
+		}
+
+		tile
+		{
+			xy = 1 9,
+			runtime = pair_door left n closed,
+		}
+
+		tile
+		{
+			xy = 2 9,
+			runtime = pair_door right w open,
+		}
+
+		tile
+		{
+			xy = 3 9,
+			runtime = pair_door left n open,
+		}
+
+		tile
+		{
+			xy = 4 9,
+			runtime = pair_door left w closed,
+		}
+
+		tile
+		{
+			xy = 5 9,
+			runtime = pair_door right n closed,
+		}
+
+		tile
+		{
+			xy = 6 9,
+			runtime = pair_door left w open,
+		}
+
+		tile
+		{
+			xy = 7 9,
+			runtime = pair_door right n open,
+		}
+
+		tile
+		{
+			xy = 0 10,
+			runtime = pair_door right w closed,
+		}
+
+		tile
+		{
+			xy = 1 10,
+			runtime = pair_door left n closed,
+		}
+
+		tile
+		{
+			xy = 2 10,
+			runtime = pair_door right w open,
+		}
+
+		tile
+		{
+			xy = 3 10,
+			runtime = pair_door left n open,
+		}
+
+		tile
+		{
+			xy = 4 10,
+			runtime = pair_door left w closed,
+		}
+
+		tile
+		{
+			xy = 5 10,
+			runtime = pair_door right n closed,
+		}
+
+		tile
+		{
+			xy = 6 10,
+			runtime = pair_door left w open,
+		}
+
+		tile
+		{
+			xy = 7 10,
+			runtime = pair_door right n open,
+		}
+
+		tile
+		{
+			xy = 0 11,
+			runtime = pair_door right w closed,
+		}
+
+		tile
+		{
+			xy = 1 11,
+			runtime = pair_door left n closed,
+		}
+
+		tile
+		{
+			xy = 2 11,
+			runtime = pair_door right w open,
+		}
+
+		tile
+		{
+			xy = 3 11,
+			runtime = pair_door left n open,
+		}
+
+		tile
+		{
+			xy = 4 11,
+			runtime = pair_door left w closed,
+		}
+
+		tile
+		{
+			xy = 5 11,
+			runtime = pair_door right n closed,
+		}
+
+		tile
+		{
+			xy = 6 11,
+			runtime = pair_door left w open,
+		}
+
+		tile
+		{
+			xy = 7 11,
+			runtime = pair_door right n open,
+		}
+
+		tile
+		{
+			xy = 0 12,
+			runtime = pair_door right w closed,
+		}
+
+		tile
+		{
+			xy = 1 12,
+			runtime = pair_door left n closed,
+		}
+
+		tile
+		{
+			xy = 2 12,
+			runtime = pair_door right w open,
+		}
+
+		tile
+		{
+			xy = 3 12,
+			runtime = pair_door left n open,
+		}
+
+		tile
+		{
+			xy = 4 12,
+			runtime = pair_door left w closed,
+		}
+
+		tile
+		{
+			xy = 5 12,
+			runtime = pair_door right n closed,
+		}
+
+		tile
+		{
+			xy = 6 12,
+			runtime = pair_door left w open,
+		}
+
+		tile
+		{
+			xy = 7 12,
+			runtime = pair_door right n open,
+		}
+
+		tile
+		{
+			xy = 0 13,
+			runtime = pair_door right w closed,
+		}
+
+		tile
+		{
+			xy = 1 13,
+			runtime = pair_door left n closed,
+		}
+
+		tile
+		{
+			xy = 2 13,
+			runtime = pair_door right w open,
+		}
+
+		tile
+		{
+			xy = 3 13,
+			runtime = pair_door left n open,
+		}
+
+		tile
+		{
+			xy = 4 13,
+			runtime = pair_door left w closed,
+		}
+
+		tile
+		{
+			xy = 5 13,
+			runtime = pair_door right n closed,
+		}
+
+		tile
+		{
+			xy = 6 13,
+			runtime = pair_door left w open,
+		}
+
+		tile
+		{
+			xy = 7 13,
+			runtime = pair_door right n open,
+		}
+
+		tile
+		{
+			xy = 0 14,
+			runtime = pair_door right w closed,
+		}
+
+		tile
+		{
+			xy = 1 14,
+			runtime = pair_door left n closed,
+		}
+
+		tile
+		{
+			xy = 2 14,
+			runtime = pair_door right w open,
+		}
+
+		tile
+		{
+			xy = 3 14,
+			runtime = pair_door left n open,
+		}
+
+		tile
+		{
+			xy = 4 14,
+			runtime = pair_door left w closed,
+		}
+
+		tile
+		{
+			xy = 5 14,
+			runtime = pair_door right n closed,
+		}
+
+		tile
+		{
+			xy = 6 14,
+			runtime = pair_door left w open,
+		}
+
+		tile
+		{
+			xy = 7 14,
+			runtime = pair_door right n open,
+		}
+
+		tile
+		{
+			xy = 0 15,
+			runtime = pair_door right w closed,
+		}
+
+		tile
+		{
+			xy = 1 15,
+			runtime = pair_door left n closed,
+		}
+
+		tile
+		{
+			xy = 2 15,
+			runtime = pair_door right w open,
+		}
+
+		tile
+		{
+			xy = 3 15,
+			runtime = pair_door left n open,
+		}
+
+		tile
+		{
+			xy = 4 15,
+			runtime = pair_door left w closed,
+		}
+
+		tile
+		{
+			xy = 5 15,
+			runtime = pair_door right n closed,
+		}
+
+		tile
+		{
+			xy = 6 15,
+			runtime = pair_door left w open,
+		}
+
+		tile
+		{
+			xy = 7 15,
+			runtime = pair_door right n open,
+		}
+
+		tile
+		{
+			xy = 0 16,
+			runtime = pair_door right w closed,
+		}
+
+		tile
+		{
+			xy = 1 16,
+			runtime = pair_door left n closed,
+		}
+
+		tile
+		{
+			xy = 2 16,
+			runtime = pair_door right w open,
+		}
+
+		tile
+		{
+			xy = 3 16,
+			runtime = pair_door left n open,
+		}
+
+		tile
+		{
+			xy = 4 16,
+			runtime = pair_door left w closed,
+		}
+
+		tile
+		{
+			xy = 5 16,
+			runtime = pair_door right n closed,
+		}
+
+		tile
+		{
+			xy = 6 16,
+			runtime = pair_door left w open,
+		}
+
+		tile
+		{
+			xy = 7 16,
+			runtime = pair_door right n open,
+		}
+
+		tile
+		{
+			xy = 0 17,
+			runtime = pair_door right w closed,
+		}
+
+		tile
+		{
+			xy = 1 17,
+			runtime = pair_door left n closed,
+		}
+
+		tile
+		{
+			xy = 2 17,
+			runtime = pair_door right w open,
+		}
+
+		tile
+		{
+			xy = 3 17,
+			runtime = pair_door left n open,
+		}
+
+		tile
+		{
+			xy = 4 17,
+			runtime = pair_door left w closed,
+		}
+
+		tile
+		{
+			xy = 5 17,
+			runtime = pair_door right n closed,
+		}
+
+		tile
+		{
+			xy = 6 17,
+			runtime = pair_door left w open,
+		}
+
+		tile
+		{
+			xy = 7 17,
+			runtime = pair_door right n open,
+		}
+
+
+		tile
+		{
+			xy = 0 18,
+			runtime = pair_door right w closed,
+		}
+
+		tile
+		{
+			xy = 1 18,
+			runtime = pair_door left n closed,
+		}
+
+		tile
+		{
+			xy = 2 18,
+			runtime = pair_door right w open,
+		}
+
+		tile
+		{
+			xy = 3 18,
+			runtime = pair_door left n open,
+		}
+
+		tile
+		{
+			xy = 4 18,
+			runtime = pair_door left w closed,
+		}
+
+		tile
+		{
+			xy = 5 18,
+			runtime = pair_door right n closed,
+		}
+
+		tile
+		{
+			xy = 6 18,
+			runtime = pair_door left w open,
+		}
+
+		tile
+		{
+			xy = 7 18,
+			runtime = pair_door right n open,
+		}
+
+		tile
+		{
+			xy = 0 19,
+			runtime = pair_door right w closed,
+		}
+
+		tile
+		{
+			xy = 1 19,
+			runtime = pair_door left n closed,
+		}
+
+		tile
+		{
+			xy = 2 19,
+			runtime = pair_door right w open,
+		}
+
+		tile
+		{
+			xy = 3 19,
+			runtime = pair_door left n open,
+		}
+
+		tile
+		{
+			xy = 4 19,
+			runtime = pair_door left w closed,
+		}
+
+		tile
+		{
+			xy = 5 19,
+			runtime = pair_door right n closed,
+		}
+
+		tile
+		{
+			xy = 6 19,
+			runtime = pair_door left w open,
+		}
+
+		tile
+		{
+			xy = 7 19,
+			runtime = pair_door right n open,
+		}
+
+		tile
+		{
+			xy = 0 20,
+			runtime = pair_door right w closed,
+		}
+
+		tile
+		{
+			xy = 1 20,
+			runtime = pair_door left n closed,
+		}
+
+		tile
+		{
+			xy = 2 20,
+			runtime = pair_door right w open,
+		}
+
+		tile
+		{
+			xy = 3 20,
+			runtime = pair_door left n open,
+		}
+
+		tile
+		{
+			xy = 4 20,
+			runtime = pair_door left w closed,
+		}
+
+		tile
+		{
+			xy = 5 20,
+			runtime = pair_door right n closed,
+		}
+
+		tile
+		{
+			xy = 6 20,
+			runtime = pair_door left w open,
+		}
+
+		tile
+		{
+			xy = 7 20,
+			runtime = pair_door right n open,
+		}
+
+		tile
+		{
+			xy = 0 21,
+			runtime = pair_door right w closed,
+		}
+
+		tile
+		{
+			xy = 1 21,
+			runtime = pair_door left n closed,
+		}
+
+		tile
+		{
+			xy = 2 21,
+			runtime = pair_door right w open,
+		}
+
+		tile
+		{
+			xy = 3 21,
+			runtime = pair_door left n open,
+		}
+
+		tile
+		{
+			xy = 4 21,
+			runtime = pair_door left w closed,
+		}
+
+		tile
+		{
+			xy = 5 21,
+			runtime = pair_door right n closed,
+		}
+
+		tile
+		{
+			xy = 6 21,
+			runtime = pair_door left w open,
+		}
+
+		tile
+		{
+			xy = 7 21,
+			runtime = pair_door right n open,
+		}
+
+		tile
+		{
+			xy = 0 22,
+			runtime = pair_door right w closed,
+		}
+
+		tile
+		{
+			xy = 1 22,
+			runtime = pair_door left n closed,
+		}
+
+		tile
+		{
+			xy = 2 22,
+			runtime = pair_door right w open,
+		}
+
+		tile
+		{
+			xy = 3 22,
+			runtime = pair_door left n open,
+		}
+
+		tile
+		{
+			xy = 4 22,
+			runtime = pair_door left w closed,
+		}
+
+		tile
+		{
+			xy = 5 22,
+			runtime = pair_door right n closed,
+		}
+
+		tile
+		{
+			xy = 6 22,
+			runtime = pair_door left w open,
+		}
+
+		tile
+		{
+			xy = 7 22,
+			runtime = pair_door right n open,
+		}
+
+		tile
+		{
+			xy = 0 23,
+			runtime = pair_door right w closed,
+		}
+
+		tile
+		{
+			xy = 1 23,
+			runtime = pair_door left n closed,
+		}
+
+		tile
+		{
+			xy = 2 23,
+			runtime = pair_door right w open,
+		}
+
+		tile
+		{
+			xy = 3 23,
+			runtime = pair_door left n open,
+		}
+
+		tile
+		{
+			xy = 4 23,
+			runtime = pair_door left w closed,
+		}
+
+		tile
+		{
+			xy = 5 23,
+			runtime = pair_door right n closed,
+		}
+
+		tile
+		{
+			xy = 6 23,
+			runtime = pair_door left w open,
+		}
+
+		tile
+		{
+			xy = 7 23,
+			runtime = pair_door right n open,
+		}
+
+		tile
+		{
+			xy = 0 24,
+			runtime = pair_door right w closed,
+		}
+
+		tile
+		{
+			xy = 1 24,
+			runtime = pair_door left n closed,
+		}
+
+		tile
+		{
+			xy = 2 24,
+			runtime = pair_door right w open,
+		}
+
+		tile
+		{
+			xy = 3 24,
+			runtime = pair_door left n open,
+		}
+
+		tile
+		{
+			xy = 4 24,
+			runtime = pair_door left w closed,
+		}
+
+		tile
+		{
+			xy = 5 24,
+			runtime = pair_door right n closed,
+		}
+
+		tile
+		{
+			xy = 6 24,
+			runtime = pair_door left w open,
+		}
+
+		tile
+		{
+			xy = 7 24,
+			runtime = pair_door right n open,
+		}
+
+		tile
+		{
+			xy = 0 25,
+			runtime = pair_door right w closed,
+		}
+
+		tile
+		{
+			xy = 1 25,
+			runtime = pair_door left n closed,
+		}
+
+		tile
+		{
+			xy = 2 25,
+			runtime = pair_door right w open,
+		}
+
+		tile
+		{
+			xy = 3 25,
+			runtime = pair_door left n open,
+		}
+
+		tile
+		{
+			xy = 4 25,
+			runtime = pair_door left w closed,
+		}
+
+		tile
+		{
+			xy = 5 25,
+			runtime = pair_door right n closed,
+		}
+
+		tile
+		{
+			xy = 6 25,
+			runtime = pair_door left w open,
+		}
+
+		tile
+		{
+			xy = 7 25,
+			runtime = pair_door right n open,
+		}
+
+		tile
+		{
+			xy = 0 26,
+			runtime = pair_door right w closed,
+		}
+
+		tile
+		{
+			xy = 1 26,
+			runtime = pair_door left n closed,
+		}
+
+		tile
+		{
+			xy = 2 26,
+			runtime = pair_door right w open,
+		}
+
+		tile
+		{
+			xy = 3 26,
+			runtime = pair_door left n open,
+		}
+
+		tile
+		{
+			xy = 4 26,
+			runtime = pair_door left w closed,
+		}
+
+		tile
+		{
+			xy = 5 26,
+			runtime = pair_door right n closed,
+		}
+
+		tile
+		{
+			xy = 6 26,
+			runtime = pair_door left w open,
+		}
+
+		tile
+		{
+			xy = 7 26,
+			runtime = pair_door right n open,
+		}
+
+		tile
+		{
+			xy = 0 27,
+			runtime = pair_door right w closed,
+		}
+
+		tile
+		{
+			xy = 1 27,
+			runtime = pair_door left n closed,
+		}
+
+		tile
+		{
+			xy = 2 27,
+			runtime = pair_door right w open,
+		}
+
+		tile
+		{
+			xy = 3 27,
+			runtime = pair_door left n open,
+		}
+
+		tile
+		{
+			xy = 4 27,
+			runtime = pair_door left w closed,
+		}
+
+		tile
+		{
+			xy = 5 27,
+			runtime = pair_door right n closed,
+		}
+
+		tile
+		{
+			xy = 6 27,
+			runtime = pair_door left w open,
+		}
+
+		tile
+		{
+			xy = 7 27,
+			runtime = pair_door right n open,
+		}
+
+		tile
+		{
+			xy = 0 28,
+			runtime = pair_door right w closed,
+		}
+
+		tile
+		{
+			xy = 1 28,
+			runtime = pair_door left n closed,
+		}
+
+		tile
+		{
+			xy = 2 28,
+			runtime = pair_door right w open,
+		}
+
+		tile
+		{
+			xy = 3 28,
+			runtime = pair_door left n open,
+		}
+
+		tile
+		{
+			xy = 4 28,
+			runtime = pair_door left w closed,
+		}
+
+		tile
+		{
+			xy = 5 28,
+			runtime = pair_door right n closed,
+		}
+
+		tile
+		{
+			xy = 6 28,
+			runtime = pair_door left w open,
+		}
+
+		tile
+		{
+			xy = 7 28,
+			runtime = pair_door right n open,
+		}
+
+		tile
+		{
+			xy = 0 29,
+			runtime = pair_door right w closed,
+		}
+
+		tile
+		{
+			xy = 1 29,
+			runtime = pair_door left n closed,
+		}
+
+		tile
+		{
+			xy = 2 29,
+			runtime = pair_door right w open,
+		}
+
+		tile
+		{
+			xy = 3 29,
+			runtime = pair_door left n open,
+		}
+
+		tile
+		{
+			xy = 4 29,
+			runtime = pair_door left w closed,
+		}
+
+		tile
+		{
+			xy = 5 29,
+			runtime = pair_door right n closed,
+		}
+
+		tile
+		{
+			xy = 6 29,
+			runtime = pair_door left w open,
+		}
+
+		tile
+		{
+			xy = 7 29,
+			runtime = pair_door right n open,
+		}
+
+		tile
+		{
+			xy = 0 30,
+			runtime = pair_door right w closed,
+		}
+
+		tile
+		{
+			xy = 1 30,
+			runtime = pair_door left n closed,
+		}
+
+		tile
+		{
+			xy = 2 30,
+			runtime = pair_door right w open,
+		}
+
+		tile
+		{
+			xy = 3 30,
+			runtime = pair_door left n open,
+		}
+
+		tile
+		{
+			xy = 4 30,
+			runtime = pair_door left w closed,
+		}
+
+		tile
+		{
+			xy = 5 30,
+			runtime = pair_door right n closed,
+		}
+
+		tile
+		{
+			xy = 6 30,
+			runtime = pair_door left w open,
+		}
+
+		tile
+		{
+			xy = 7 30,
+			runtime = pair_door right n open,
+		}
+
+		tile
+		{
+			xy = 0 31,
+			runtime = pair_door right w closed,
+		}
+
+		tile
+		{
+			xy = 1 31,
+			runtime = pair_door left n closed,
+		}
+
+		tile
+		{
+			xy = 2 31,
+			runtime = pair_door right w open,
+		}
+
+		tile
+		{
+			xy = 3 31,
+			runtime = pair_door left n open,
+		}
+
+		tile
+		{
+			xy = 4 31,
+			runtime = pair_door left w closed,
+		}
+
+		tile
+		{
+			xy = 5 31,
+			runtime = pair_door right n closed,
+		}
+
+		tile
+		{
+			xy = 6 31,
+			runtime = pair_door left w open,
+		}
+
+		tile
+		{
+			xy = 7 31,
+			runtime = pair_door right n open,
+		}
+	}
+}

@@ -1,0 +1,5 @@
+IGUI_FR = {
+    -- El nombre después de ItemCat_ debe ser idéntico al DisplayCategory de tus ítems
+    IGUI_ItemCat_Artequins_Clothes = "Vêtements d'Artequin",
+    IGUI_ItemCategory_Artequins_Clothes = "Vêtements d'Artequin",
+}

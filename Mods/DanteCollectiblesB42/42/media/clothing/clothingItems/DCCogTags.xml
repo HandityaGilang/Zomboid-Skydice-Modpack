@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\m_DCCogTags</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\f_DCCogTags</m_FemaleModel>
+	<m_GUID>e364be1d-374a-49af-8fc2-521fe1f2a73e</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>none</m_MasksFolder>
+	<textureChoices>Clothes\DCCogTags</textureChoices>
+</clothingItem>

@@ -1,0 +1,14 @@
+{
+  "ContextMenu_CS_PryOpen": "Aufhebeln",
+  "ContextMenu_CS_PryOpen_Door": "Tür aufbrechen",
+  "ContextMenu_CS_PryOpen_Window": "Fenster aufbrechen",
+  "ContextMenu_CS_Pickup_Logs": "Holzstämme aufheben",
+  "ContextMenu_CS_Pickup_Trash": "Müll aufheben",
+  "ContextMenu_CS_Only": "Nur...",
+  "ContextMenu_CS_WashEquippedOnly": "Nur ausgerüstet",
+  "ContextMenu_CS_WashUnequippedOnly": "Nur unbestückt",
+  "ContextMenu_CS_WashWeaponsOnly": "Nur Waffen",
+  "ContextMenu_CS_Equip": "Ausrüsten",
+  "ContextMenu_CS_Replace_Bandage": "Verband wechseln",
+  "ContextMenu_CS_ReloadAllMags": "Alle Magazine nachladen"
+}

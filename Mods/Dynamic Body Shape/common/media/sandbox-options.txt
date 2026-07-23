@@ -1,0 +1,91 @@
+VERSION = 1,
+
+option DynBodyShape.EmaciatedChanceMale{
+    type = double,
+    min = 0,
+    max = 100,
+    default = 10,
+    page = BodyShapes,
+    translation = DynBodyShape_EmaciatedChanceMale,
+}
+
+option DynBodyShape.UnderweightChanceMale{
+    type = double,
+    min = 0,
+    max = 100,
+    default = 15,
+    page = BodyShapes,
+    translation = DynBodyShape_UnderweightChanceMale,
+}
+
+option DynBodyShape.DefaultChanceMale{
+    type = double,
+    min = 0,
+    max = 100,
+    default = 30,
+    page = BodyShapes,
+    translation = DynBodyShape_DefaultChanceMale,
+}
+
+option DynBodyShape.FatChanceMale{
+    type = double,
+    min = 0,
+    max = 100,
+    default = 20,
+    page = BodyShapes,
+    translation = DynBodyShape_FatChanceMale,
+}
+
+option DynBodyShape.ObeseChanceMale{
+    type = double,
+    min = 0,
+    max = 100,
+    default = 15,
+    page = BodyShapes,
+    translation = DynBodyShape_ObeseChanceMale,
+}
+
+option DynBodyShape.EmaciatedChanceFemale{
+    type = double,
+    min = 0,
+    max = 100,
+    default = 10,
+    page = BodyShapes,
+    translation = DynBodyShape_EmaciatedChanceFemale,
+}
+
+option DynBodyShape.UnderweightChanceFemale{
+    type = double,
+    min = 0,
+    max = 100,
+    default = 15,
+    page = BodyShapes,
+    translation = DynBodyShape_UnderweightChanceFemale,
+}
+
+option DynBodyShape.DefaultChanceFemale{
+    type = double,
+    min = 0,
+    max = 100,
+    default = 30,
+    page = BodyShapes,
+    translation = DynBodyShape_DefaultChanceFemale,
+}
+
+option DynBodyShape.FatChanceFemale{
+    type = double,
+    min = 0,
+    max = 100,
+    default = 20,
+    page = BodyShapes,
+    translation = DynBodyShape_FatChanceFemale,
+}
+
+option DynBodyShape.ObeseChanceFemale{
+    type = double,
+    min = 0,
+    max = 100,
+    default = 15,
+    page = BodyShapes,
+    translation = DynBodyShape_ObeseChanceFemale,
+}

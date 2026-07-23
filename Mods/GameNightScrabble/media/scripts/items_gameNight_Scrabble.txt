@@ -1,0 +1,29 @@
+module Base
+{
+    item ScrabbleTiles
+    {
+        DisplayCategory = Deck, Weight = 0.01, Type = Normal,
+        DisplayName = Scrabble Tiles,
+        Icon = ScrabbleTiles/deck,
+        WorldStaticModel = ScrabbleTilesSingle,
+    }
+	
+	item ScrabbleBoard
+	{
+
+       DisplayCategory = GameBoard, Weight = 0.01, Type = Normal,
+       DisplayName = Scrabble Board, Icon = OutOfPlayTextures/ScrabbleBoard, WorldStaticModel = ScrabbleBoard,
+	}
+
+    item ScrabbleBox
+    {
+        DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, Type = Container, Capacity = 2,
+        DisplayName = Scrabble Box, Icon = Boxes/ScrabbleBox, WorldStaticModel = ScrabbleBox,
+    }
+
+    item ScrabbleBox_sealed
+    {
+        DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, Type = Normal, Capacity = 2,
+        DisplayName = Scrabble Box (Sealed), Icon = Boxes/ScrabbleBox, WorldStaticModel = ScrabbleBox,
+    }
+}

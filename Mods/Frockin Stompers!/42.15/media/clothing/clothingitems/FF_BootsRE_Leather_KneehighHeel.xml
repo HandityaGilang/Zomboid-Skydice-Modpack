@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes\Boots_Heel\BootsRE_KneeHighHeel_M.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\Boots_Heel\BootsRE_KneeHighHeel_F.fbx</m_FemaleModel>
+	<m_GUID>5b1223e6-0255-4095-b752-0ecad6fce790</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>	
+	<m_Masks>8</m_Masks>	
+	<m_Masks>10</m_Masks>
+	<m_Masks>11</m_Masks>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Masks/Masks_MediumBoots_3</m_UnderlayMasksFolder>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_Leather_KneeHigh_0</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_Leather_KneeHigh_1</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_Leather_KneeHigh_2</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_LeatherRed_KneeHigh_0</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_LeatherRed_KneeHigh_1</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_LeatherRed_KneeHigh_2</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_LeatherBrown_KneeHigh_0</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_LeatherBrown_KneeHigh_1</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_LeatherBrown_KneeHigh_2</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_LeatherYellow_KneeHigh_0</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_LeatherYellow_KneeHigh_1</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_LeatherYellow_KneeHigh_2</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_LeatherYellower_KneeHigh_0</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_LeatherYellower_KneeHigh_1</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_LeatherYellower_KneeHigh_2</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_LeatherBlack_KneeHigh_0</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_LeatherBlack_KneeHigh_1</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_LeatherBlack_KneeHigh_2</textureChoices>
+
+</clothingItem>

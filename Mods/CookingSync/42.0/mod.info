@@ -1,0 +1,6 @@
+name=CookingSync
+id=CookingSync
+description=Fixes Build 42 multiplayer cooking sync bug for stoves, ovens, BBQs, and campfires.
+poster=poster.png
+modversion=7.2
+versionMin=42.0

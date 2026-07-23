@@ -1,0 +1,12 @@
+ContextMenu_TH = {
+    /* Opciones para las Gorras */
+    ContextMenu_ForwardCap = "ใส่หมวกไปข้างหน้า",
+    ContextMenu_ReverseCap = "ใส่หมวกกลับด้าน",
+
+    /* Opciones para los Delantales */
+    ContextMenu_Arremangar = "ผูกระดับหน้าอก",
+    ContextMenu_Desarremangar = "ผูกระดับเอว",
+    
+    /* Nombre del Submenú */
+    ContextMenu_Ajustar_Prenda = "ปรับแต่งเครื่องแต่งกาย"
+}

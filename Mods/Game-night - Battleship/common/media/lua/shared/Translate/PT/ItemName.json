@@ -1,0 +1,11 @@
+{
+    "Base.BattleShip_Box": "Caixa de navio de guerra",
+    "Base.BattleShip_GameStand": "Suporte para jogos de batalha",
+    "Base.BattleShip_Peg_Red": "Pega vermelha",
+    "Base.BattleShip_Peg_White": "Pega Branca",
+    "Base.BattleShip_Ship_Battleship": "Encouraçado",
+    "Base.BattleShip_Ship_Carrier": "Operadora",
+    "Base.BattleShip_Ship_Destroyer": "Destruidor",
+    "Base.BattleShip_Ship_Submarine": "Submarino",
+    "Base.BattleShip_Ship_PatrolBoat": "Barco Patrulha"
+}

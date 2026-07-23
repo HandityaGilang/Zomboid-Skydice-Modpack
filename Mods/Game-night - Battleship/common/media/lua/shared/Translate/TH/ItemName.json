@@ -1,0 +1,11 @@
+{
+    "Base.BattleShip_Box": "กล่องเรือรบ",
+    "Base.BattleShip_GameStand": "แท่นวางเกมเรือรบ",
+    "Base.BattleShip_Peg_Red": "หมุดแดง",
+    "Base.BattleShip_Peg_White": "หมุดสีขาว",
+    "Base.BattleShip_Ship_Battleship": "เรือรบ",
+    "Base.BattleShip_Ship_Carrier": "ผู้ให้บริการ",
+    "Base.BattleShip_Ship_Destroyer": "พิฆาต",
+    "Base.BattleShip_Ship_Submarine": "เรือดำน้ำ",
+    "Base.BattleShip_Ship_PatrolBoat": "เรือลาดตระเวน"
+}

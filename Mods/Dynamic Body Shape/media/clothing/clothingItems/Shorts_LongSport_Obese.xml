@@ -1,0 +1,15 @@
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_longshorts_obese</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\kate_longshorts_obese</m_FemaleModel>
+	<m_GUID>38bc6040-144b-4cf7-8ee5-12dbf778ee19</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone />
+	<m_Masks>14</m_Masks>
+	<m_Masks>15</m_Masks>
+	<textureChoices>clothes\shorts_textures\longshorts_sportblue</textureChoices>
+	<textureChoices>clothes\shorts_textures\longshorts_sportgreen</textureChoices>
+	<textureChoices>clothes\shorts_textures\longshorts_sportred</textureChoices>
+	<textureChoices>clothes\shorts_textures\longshorts_sportyellow</textureChoices>
+</clothingItem>

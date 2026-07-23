@@ -1,0 +1,15 @@
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_boilersuit_obese</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\kate_boilersuit_obese</m_FemaleModel>
+	<m_GUID>028bf319-250c-40a8-b185-e30a7968913a</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone />
+	<m_Masks>2</m_Masks>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_Masks>7</m_Masks>
+	<m_Masks>9</m_Masks>
+	<textureChoices>clothes\boliersuit\boilersuit_prisonerkhaki</textureChoices>
+</clothingItem>

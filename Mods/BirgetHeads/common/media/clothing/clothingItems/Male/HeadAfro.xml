@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\MaleAfro</m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>a4a8f36f-535a-40be-9a11-e9c465f8d7ec</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_DecalGroup>MakeUp_EyeContacts</m_DecalGroup>	
+	<m_MasksFolder>media/textures/Body/Masks</m_MasksFolder>	
+	<m_Masks>8</m_Masks>
+		<m_UnderlayMasksFolder>media/textures/IdioticSotutionForMasks</m_UnderlayMasksFolder>
+	<textureChoices>Body\HeadsCompat\MaleBody01</textureChoices>
+	<textureChoices>Body\HeadsCompat\MaleBody02</textureChoices>
+	<textureChoices>Body\HeadsCompat\MaleBody03</textureChoices>
+	<textureChoices>Body\HeadsCompat\MaleBody04</textureChoices>
+	<textureChoices>Body\HeadsCompat\MaleBody05</textureChoices>
+	<textureChoices>Body\MaleBody01_old</textureChoices>
+	<textureChoices>Body\MaleBody02_old</textureChoices>
+	<textureChoices>Body\MaleBody03_old</textureChoices>
+	<textureChoices>Body\MaleBody04_old</textureChoices>
+	<textureChoices>Body\MaleBody05_old</textureChoices>
+</clothingItem>

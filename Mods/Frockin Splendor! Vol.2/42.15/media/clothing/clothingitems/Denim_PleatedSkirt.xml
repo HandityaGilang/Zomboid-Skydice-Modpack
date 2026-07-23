@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\Cotton_PleatedSkirt</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\Cotton_PleatedSkirt</m_FemaleModel>
+	<m_GUID>b0644332-ee9f-412c-970a-d279184ab99b</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\Material_Denim\Denim_Mini_Skirt\Denim_PleatedSkirtMini_1</textureChoices>
+	<textureChoices>clothes\Material_Denim\Denim_Mini_Skirt\Denim_PleatedSkirtMini_2</textureChoices>
+	<textureChoices>clothes\Material_Denim\Denim_Mini_Skirt\Denim_PleatedSkirtMini_3</textureChoices>
+</clothingItem>	

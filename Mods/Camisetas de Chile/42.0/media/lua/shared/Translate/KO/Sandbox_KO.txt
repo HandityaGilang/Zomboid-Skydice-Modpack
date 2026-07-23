@@ -1,0 +1,20 @@
+Sandbox_KO = {
+    -- Título de la sección en el menú Sandbox
+    Sandbox_ArtequinClothesSandbox = "Artequin's Clothes: 아이템 스폰 설정",
+
+    -- Variable para activar/desactivar
+    Sandbox_ArtequinClothes_EnableMod = "Artequin's Clothes 활성화",
+    Sandbox_ArtequinClothes_EnableMod_Tooltip = "모드의 모든 의상과 아이템 스폰 활성화 여부를 결정합니다.",
+
+    -- Configuración de Outfits en Zombis
+    Sandbox_ArtequinClothes_ZombieOutfitMultiplier = "[의상] 모드 의상을 입은 좀비 밀도",
+    Sandbox_ArtequinClothes_ZombieOutfitMultiplier_Tooltip = "좀비가 모드 의상을 입고 나타날 확률을 설정합니다. <LINE> <RGB:1,0.5,0> 주의: </RGB> 값을 너무 높게 설정하면(예: 5.0) 길거리가 온통 같은 옷을 입은 좀비들로 가득 찰지도 모릅니다.",
+
+    -- Configuración de Loot en Inventario de Zombis
+    Sandbox_ArtequinClothes_ZombieLootMultiplier = "[루트] 좀비 소지품 아이템 수량",
+    Sandbox_ArtequinClothes_ZombieLootMultiplier_Tooltip = "좀비 인벤토리에서 발견되는 아이템의 수량을 결정합니다. <LINE> <RGB:1,1,0> 참고: </RGB> 의상의 희소성과 가치를 유지하려면 낮은 값(1.0 - 2.0)을 유지하는 것이 좋습니다.",
+
+    -- Configuración de Loot en Contenedores del Mundo
+    Sandbox_ArtequinClothes_WorldLootMultiplier = "[월드] 보관함 및 컨테이너 스폰",
+    Sandbox_ArtequinClothes_WorldLootMultiplier_Tooltip = "옷장, 사물함, 상점 등의 컨테이너에서 모드 아이템이 등장할 확률을 설정합니다. <LINE> <RGB:1,0,0> 중요: </RGB> 값이 너무 높으면 선반이 모드 아이템으로 도배되어 게임 본연의 밸런스를 해칠 수 있습니다."
+}

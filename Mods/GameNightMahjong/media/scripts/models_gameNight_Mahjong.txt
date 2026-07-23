@@ -1,0 +1,23 @@
+module Base
+{
+    model MahjongTiles
+    {
+        mesh = WorldItems/cardpack,
+        texture = Item_MahjongTiles/deckTexture,
+        scale = 0.02,
+    }
+
+    model MahjongTilesSingle
+    {
+        mesh = WorldItems/card,
+        texture = Item_MahjongTiles/card,
+        scale = 0.02,
+    }
+
+    model MahjongBox
+    {
+        mesh = WorldItems/cardpack,
+        texture = Item_Boxes/MahjongBox_ground,
+        scale = 0.06,
+    }
+}

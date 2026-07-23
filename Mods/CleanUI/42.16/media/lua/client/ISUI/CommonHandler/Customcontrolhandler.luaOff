@@ -1,0 +1,154 @@
+require "ISBaseObject"
+require "ISUI/ISButton"
+require "ISUI/ISPanel"
+
+ISInventoryCommonHandler_CustomControl = ISBaseObject:derive("ISInventoryCommonHandler_CustomControl")
+local Handler = ISInventoryCommonHandler_CustomControl
+local FONT_HGT_SMALL = getTextManager():getFontHeight(UIFont.Small)
+
+function Handler:shouldBeVisible()
+    if getCore():getGameMode() == "Tutorial" then return false end
+    return true
+end
+
+function Handler:getControl()
+    if not self.control then
+        self:createCustomControl()
+    end
+    return self.control
+end
+
+function Handler:createCustomControl()
+    local buttonHeight = math.floor(FONT_HGT_SMALL * 1.2)
+    local iconSize = buttonHeight
+    local buttonWidth = buttonHeight
+    local padding = math.floor(FONT_HGT_SMALL * 0.2)
+
+    local totalWidth = iconSize + padding + (buttonWidth * 3) + (padding * 2)
+
+    self.control = ISPanel:new(0, 0, totalWidth, buttonHeight)
+    self.control:initialise()
+    self.control:noBackground()
+
+    self.iconPanel = ISPanel:new(0, 0, iconSize, buttonHeight)
+    self.iconPanel:initialise()
+    self.iconPanel.prerender = function(panel)
+        local iconTexture = getTexture("media/ui/CleanUI/Icon/Icon_TransferAll.png")
+        local iconDrawSize = math.floor(panel.width * 0.8)
+        local iconOffset = (panel.width - iconDrawSize) / 2
+        panel:drawTextureScaled(
+            iconTexture, 
+            iconOffset, iconOffset, 
+            iconDrawSize, iconDrawSize, 
+            1, 0.7, 0.7, 0.7
+        )
+    end
+    self.control:addChild(self.iconPanel)
+
+    local buttonStartX = iconSize + padding
+
+    self.button1 = self:createButton(
+        buttonStartX, 
+        0, 
+        buttonWidth, 
+        buttonHeight, 
+        "media/ui/CleanUI/Icon/Icon_SortByName.png",
+        function() self:onButton1Click() end
+    )
+    self.control:addChild(self.button1)
+
+    self.button2 = self:createButton(
+        buttonStartX + buttonWidth + padding, 
+        0, 
+        buttonWidth, 
+        buttonHeight, 
+        "media/ui/CleanUI/Icon/Icon_SortByType.png", 
+        function() self:onButton2Click() end
+    )
+    self.control:addChild(self.button2)
+
+    self.button3 = self:createButton(
+        buttonStartX + (buttonWidth + padding) * 2, 
+        0, 
+        buttonWidth, 
+        buttonHeight, 
+        "media/ui/CleanUI/Icon/Icon_Weight.png",
+        function() self:onButton3Click() end
+    )
+    self.control:addChild(self.button3)
+end
+
+function Handler:createButton(x, y, width, height, iconPath, onclick)
+    local button = ISButton:new(x, y, width, height, "", self, onclick)
+    button:initialise()
+    button.iconPath = iconPath
+    
+    button.prerender = function(btn)
+        local brightness = btn.mouseOver and 0.2 or 0.1
+
+        NeatTool.ThreePatch.drawHorizontal(
+            btn, 0, 0, btn.width, btn.height,
+            getTexture("media/ui/CleanUI/Button/LongBackground_L.png"),
+            getTexture("media/ui/CleanUI/Button/LongBackground_M.png"),
+            getTexture("media/ui/CleanUI/Button/LongBackground_R.png"),
+            0.6, brightness, brightness, brightness
+        )
+
+        NeatTool.ThreePatch.drawHorizontal(
+            btn, 0, 0, btn.width, btn.height,
+            getTexture("media/ui/CleanUI/Button/LongBorder_L.png"),
+            getTexture("media/ui/CleanUI/Button/LongBorder_M.png"),
+            getTexture("media/ui/CleanUI/Button/LongBorder_R.png"),
+            1, 0.4, 0.4, 0.4
+        )
+        
+        local iconTexture = getTexture(btn.iconPath)
+        if iconTexture then
+            local iconSize = math.floor(btn.width * 0.7)
+            local iconXY = (btn.width - iconSize) / 2
+            local iconColor = btn.mouseOver and 1 or 0.7
+            btn:drawTextureScaled(
+                iconTexture, 
+                iconXY, iconXY, 
+                iconSize, iconSize, 
+                1, iconColor, iconColor, iconColor
+            )
+        end
+    end
+    
+    return button
+end
+
+function Handler:getWindow()
+    return self.inventoryWindow or self.lootWindow
+end
+
+function Handler:onButton1Click()
+print("Happy Birthday Rocco!")
+end
+
+function Handler:onButton2Click()
+print("Happy Birthday Rocco!")
+end
+
+function Handler:onButton3Click()
+print("Happy Birthday Rocco!")
+end
+
+function Handler:perform()
+print("Happy Birthday Rocco!")
+end
+
+function Handler:handleJoypadContextMenu(context)
+end
+
+function Handler:addJoypadContextMenuOption(context, text)
+    local option = context:addOption(text, self, self.perform)
+    return option
+end
+
+function Handler:new()
+    local o = ISBaseObject.new(self)
+    o.altColor = false
+    return o
+end

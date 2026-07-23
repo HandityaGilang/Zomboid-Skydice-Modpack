@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\Cotton_miniSkirt_HW_1</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\Cotton_miniSkirt_HW_1</m_FemaleModel>
+	<m_GUID>0afe8539-463b-4bec-9536-bf665abc78e7</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder></m_MasksFolder>
+	<textureChoices>clothes\Material_Cotton\SkirtsModels\Cotton_PleatedSkirt_1</textureChoices>
+	<textureChoices>clothes\Material_Cotton\SkirtsModels\Cotton_PleatedSkirt_2</textureChoices>
+	<textureChoices>clothes\Material_Cotton\SkirtsModels\Cotton_PleatedSkirt_3</textureChoices>
+	<textureChoices>clothes\Material_Cotton\SkirtsModels\Cotton_PleatedSkirt_4</textureChoices>
+	<textureChoices>clothes\Material_Cotton\SkirtsModels\Cotton_PleatedSkirt_5</textureChoices>
+	<textureChoices>clothes\Material_Cotton\SkirtsModels\Cotton_PleatedSkirt_6</textureChoices>
+	<textureChoices>clothes\Material_Cotton\SkirtsModels\Cotton_PleatedSkirt_7</textureChoices>
+	<textureChoices>clothes\Material_Cotton\SkirtsModels\Cotton_PleatedSkirt_8</textureChoices>
+	<textureChoices>clothes\Material_Cotton\SkirtsModels\Cotton_PleatedSkirt_9</textureChoices>
+	<textureChoices>clothes\Material_Cotton\SkirtsModels\Cotton_PleatedSkirt_10</textureChoices>
+</clothingItem>	

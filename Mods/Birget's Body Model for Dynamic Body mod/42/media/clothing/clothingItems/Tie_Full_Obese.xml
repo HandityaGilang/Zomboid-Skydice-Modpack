@@ -1,0 +1,17 @@
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_tie_obese</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\Kate_tie_obese</m_FemaleModel>
+	<m_GUID>93f39ae9-abbb-47b0-9c1a-56a6140dbfae</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone />
+	<textureChoices>clothes\tie\tie_blackfull</textureChoices>
+	<textureChoices>clothes\tie\tie_bluefull</textureChoices>
+	<textureChoices>clothes\tie\tie_bluespottedfull</textureChoices>
+	<textureChoices>clothes\tie\tie_bluestripefull</textureChoices>
+	<textureChoices>clothes\tie\tie_multicolouredfull</textureChoices>
+	<textureChoices>clothes\tie\tie_redfull</textureChoices>
+	<textureChoices>clothes\tie\tie_redspottedfull</textureChoices>
+	<textureChoices>clothes\tie\tie_redstripefull</textureChoices>
+</clothingItem>

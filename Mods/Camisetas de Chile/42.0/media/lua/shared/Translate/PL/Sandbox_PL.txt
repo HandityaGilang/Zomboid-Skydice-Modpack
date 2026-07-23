@@ -1,0 +1,20 @@
+Sandbox_PL = {
+    -- Título de la sección en el menú Sandbox
+    Sandbox_ArtequinClothesSandbox = "Artequin's Clothes: Konfiguracja łupów",
+
+    -- Variable para activar/desactivar
+    Sandbox_ArtequinClothes_EnableMod = "Włącz Artequin's Clothes",
+    Sandbox_ArtequinClothes_EnableMod_Tooltip = "Całkowicie włącza lub wyłącza stroje i łupy z tego moda.",
+
+    -- Configuración de Outfits en Zombis
+    Sandbox_ArtequinClothes_ZombieOutfitMultiplier = "[Stroje] Zagęszczenie zombie w ubraniach z moda",
+    Sandbox_ArtequinClothes_ZombieOutfitMultiplier_Tooltip = "Mnożnik szansy na pojawienie się zombie noszących ubrania z moda. <LINE> <RGB:1,0.5,0> UWAGA: </RGB> Wysokie wartości (np. 5.0) sprawią, że wielu zombie będzie wyglądać identycznie.",
+
+    -- Configuración de Loot en Inventario de Zombis
+    Sandbox_ArtequinClothes_ZombieLootMultiplier = "[Łup] Ilość przedmiotów przy zombie",
+    Sandbox_ArtequinClothes_ZombieLootMultiplier_Tooltip = "Mnożnik przedmiotów znajdowanych bezpośrednio w ekwipunku zombie. <LINE> <RGB:1,1,0> NOTATKA: </RGB> Zaleca się utrzymanie niskiej wartości (1.0 - 2.0), aby ubrania pozostały rzadkie i cenne.",
+
+    -- Configuración de Loot en Contenedores del Mundo
+    Sandbox_ArtequinClothes_WorldLootMultiplier = "[Świat] Pojawianie się w szafach i pojemnikach",
+    Sandbox_ArtequinClothes_WorldLootMultiplier_Tooltip = "Mnożnik ilości przedmiotów z moda w pojemnikach (szafy, garderoby, sklepy). <LINE> <RGB:1,0,0> WAŻNE: </RGB> Zbyt wysokie wartości mogą zapchać półki i przytłoczyć oryginalny łup z gry."
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+        <m_GUID>4fb40e89-435b-4532-92a4-df502ce88a3d</m_GUID>
+        <m_Static>false</m_Static>
+		<m_AllowRandomHue>false</m_AllowRandomHue>
+        <m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+        <m_BaseTextures>clothes\Camiseta_HarleyQuin</m_BaseTextures>
+</clothingItem>

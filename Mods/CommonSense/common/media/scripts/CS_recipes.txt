@@ -1,0 +1,136 @@
+module Base
+{
+	craftRecipe CSCleanBandageWithAlcohol
+	{
+        timedAction = ScrubClothWithSoap,
+		Time = 40,
+		Tags = InHandCraft;Health,
+        category = Medical,
+        MetaRecipe = CleanBandage,
+		inputs
+		{
+			item 1 [Base.BandageDirty;Base.DenimStripsDirty;Base.LeatherStripsDirty;Base.RippedSheetsDirty] mode:destroy mappers[ragType],
+			item 1 [*],
+			-fluid 0.08 [Brandy;Cologne;Curacao;Gin;Perfume;RubbingAlcohol;Rum;Scotch;Tequila;Vodka;Whiskey],
+		}
+		outputs
+		{
+			item 1 mapper:ragType,
+		}
+		itemMapper ragType
+		{
+			Base.Bandage = Base.BandageDirty,
+			Base.DenimStrips = Base.DenimStripsDirty,
+			Base.LeatherStrips = Base.LeatherStripsDirty,
+			Base.RippedSheets = Base.RippedSheetsDirty,
+		}
+	}
+
+	craftRecipe CSCutSheetWithClothes
+	{
+		timedAction = SewingCloth,
+		Time = 60,
+		Tags = AnySurfaceCraft,
+        category = Tailoring,
+        MetaRecipe = CutSheet,
+		inputs
+		{
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+			item 1 tags[base:ripclothingcotton],
+		}
+		outputs
+		{
+			item 1 Base.Sheet,
+		}
+	}
+
+    craftRecipe CSOpenWaterRationCanWithAnyTool
+    {
+        time = 80,
+        timedAction = OpenTinCan,
+        OnCreate = RecipeCodeOnCreate.openWaterCan,
+        Tags = InHandCraft;Cooking;CanBeDoneInDark,
+        category = Cooking,
+        inputs
+        {
+            item 1 [Base.Screwdriver;Base.Screwdriver_Old;Base.Scissors;Base.ScissorsForged;Base.ScissorsBluntMedical;Base.ScissorsBlunt] mode:keep flags[MayDegradeLight],
+            item 1 [Base.WaterRationCan] flags[Prop2;DontPutBack],
+        }
+        outputs
+        {
+        }
+    }
+
+    craftRecipe CSOpenUnlabeledCanWithAnyTool
+    {
+        time = 80,
+        timedAction = OpenTinCan,
+        OnCreate = RecipeCodeOnCreate.openMysteryCan,
+        Tags = InHandCraft;Cooking;CanBeDoneInDark,
+        category = Cooking,
+        inputs
+        {
+            item 1 [Base.Screwdriver;Base.Screwdriver_Old;Base.Scissors;Base.ScissorsForged;Base.ScissorsBluntMedical;Base.ScissorsBlunt] mode:keep flags[MayDegradeLight],
+            item 1 [Base.MysteryCan] flags[Prop2;DontPutBack],
+        }
+        outputs
+        {
+        }
+    }
+
+    craftRecipe CSOpenDentedUnlabeledCanWithAnyTool
+    {
+        time = 80,
+        timedAction = OpenTinCan,
+        OnCreate = RecipeCodeOnCreate.openDentedCan,
+        Tags = InHandCraft;Cooking;CanBeDoneInDark,
+        category = Cooking,
+        inputs
+        {
+            item 1 [Base.Screwdriver;Base.Screwdriver_Old;Base.Scissors;Base.ScissorsForged;Base.ScissorsBluntMedical;Base.ScissorsBlunt] mode:keep flags[MayDegradeLight],
+            item 1 [Base.DentedCan] flags[Prop2;DontPutBack],
+        }
+        outputs
+        {
+        }
+    }
+
+	craftRecipe CSOpenCannedFoodWithAnyTool
+    {
+        timedAction = OpenTinCan,
+        time = 100,
+        OnCreate = RecipeCodeOnCreate.openAndEat,
+		Tooltip = Tooltip_Recipe_OpenCanWithKnife,
+        Tags = InHandCraft;CanBeDoneInDark,
+        category = Cooking,
+        inputs
+        {
+            item 1 [Base.Screwdriver;Base.Screwdriver_Old;Base.Scissors;Base.ScissorsForged;Base.ScissorsBluntMedical;Base.ScissorsBlunt] mode:keep flags[MayDegradeLight],
+            item 1 [Base.TinnedBeans;Base.CannedBolognese;Base.CannedCarrots2;Base.CannedChili;Base.CannedCorn;Base.CannedFruitCocktail;Base.CannedFruitBeverage;Base.CannedMilk;Base.CannedMushroomSoup;Base.CannedPeaches;Base.CannedPeas;Base.CannedPineapple;Base.CannedPotato2;Base.TinnedSoup;Base.CannedTomato2;Base.TunaTin;Base.Dogfood] mappers[canSorts] flags[Prop2;DontPutBack],
+        }
+        outputs
+        {
+            item 1 mapper:canSorts,
+        }
+        itemMapper canSorts
+        {
+            Base.OpenBeans = Base.TinnedBeans,
+            Base.CannedBologneseOpen = Base.CannedBolognese,
+            Base.CannedCarrotsOpen = Base.CannedCarrots2,
+            Base.CannedChiliOpen = Base.CannedChili,
+            Base.CannedCornOpen = Base.CannedCorn,
+            Base.CannedFruitCocktailOpen = Base.CannedFruitCocktail,
+            Base.CannedFruitBeverageOpen = Base.CannedFruitBeverage,
+            Base.CannedMilkOpen = Base.CannedMilk,
+            Base.CannedMushroomSoupOpen = Base.CannedMushroomSoup,
+            Base.CannedPeachesOpen = Base.CannedPeaches,
+            Base.CannedPeasOpen = Base.CannedPeas,
+            Base.CannedPineappleOpen = Base.CannedPineapple,
+            Base.CannedPotatoOpen = Base.CannedPotato2,
+            Base.TinnedSoupOpen = Base.TinnedSoup,
+            Base.CannedTomatoOpen = Base.CannedTomato2,
+            Base.TunaTinOpen = Base.TunaTin,
+            Base.DogfoodOpen = Base.Dogfood,
+        }
+    }
+}

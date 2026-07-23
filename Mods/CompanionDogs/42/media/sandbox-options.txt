@@ -1,0 +1,257 @@
+VERSION = 1,
+
+option CompanionDogs.TameThreshold
+{
+	type = integer,
+	min = 1,
+	max = 1000,
+	default = 100,
+	page = CompanionDogs,
+	translation = CompanionDogs_TameThreshold,
+}
+
+option CompanionDogs.MaxCompanions
+{
+	type = integer,
+	min = 0,
+	max = 30,
+	default = 0,
+	page = CompanionDogs,
+	translation = CompanionDogs_MaxCompanions,
+}
+
+option CompanionDogs.CombatEnabled
+{
+	type = boolean,
+	default = true,
+	page = CompanionDogs,
+	translation = CompanionDogs_CombatEnabled,
+}
+
+option CompanionDogs.DogDamageMultiplier
+{
+	type = double,
+	min = 0.0,
+	max = 5.0,
+	default = 1.0,
+	page = CompanionDogs,
+	translation = CompanionDogs_DogDamageMultiplier,
+}
+
+option CompanionDogs.UpkeepEnabled
+{
+	type = boolean,
+	default = true,
+	page = CompanionDogs,
+	translation = CompanionDogs_UpkeepEnabled,
+}
+
+option CompanionDogs.LoyaltyDecayPerDay
+{
+	type = double,
+	min = 0.0,
+	max = 100.0,
+	default = 12.0,
+	page = CompanionDogs,
+	translation = CompanionDogs_LoyaltyDecayPerDay,
+}
+
+option CompanionDogs.SentinelEnabled
+{
+	type = boolean,
+	default = true,
+	page = CompanionDogs,
+	translation = CompanionDogs_SentinelEnabled,
+}
+
+option CompanionDogs.AutoProtectEnabled
+{
+	type = boolean,
+	default = true,
+	page = CompanionDogs,
+	translation = CompanionDogs_AutoProtectEnabled,
+}
+
+option CompanionDogs.BondingEnabled
+{
+	type = boolean,
+	default = true,
+	page = CompanionDogs,
+	translation = CompanionDogs_BondingEnabled,
+}
+
+option CompanionDogs.RestedBuffEnabled
+{
+	type = boolean,
+	default = true,
+	page = CompanionDogs,
+	translation = CompanionDogs_RestedBuffEnabled,
+}
+
+option CompanionDogs.RestedBuffHours
+{
+	type = double,
+	min = 0.5,
+	max = 24.0,
+	default = 2.0,
+	page = CompanionDogs,
+	translation = CompanionDogs_RestedBuffHours,
+}
+
+option CompanionDogs.SkillsEnabled
+{
+	type = boolean,
+	default = true,
+	page = CompanionDogs,
+	translation = CompanionDogs_SkillsEnabled,
+}
+
+option CompanionDogs.SkillXPRate
+{
+	type = double,
+	min = 0.1,
+	max = 10.0,
+	default = 0.5,
+	page = CompanionDogs,
+	translation = CompanionDogs_SkillXPRate,
+}
+
+option CompanionDogs.HuntEnabled
+{
+	type = boolean,
+	default = true,
+	page = CompanionDogs,
+	translation = CompanionDogs_HuntEnabled,
+}
+
+option CompanionDogs.DogNoiseAttractsZombies
+{
+	type = boolean,
+	default = true,
+	page = CompanionDogs,
+	translation = CompanionDogs_DogNoiseAttractsZombies,
+}
+
+option CompanionDogs.ShowNameTags
+{
+	type = boolean,
+	default = true,
+	page = CompanionDogs,
+	translation = CompanionDogs_ShowNameTags,
+}
+
+option CompanionDogs.ShowMapMarker
+{
+	type = boolean,
+	default = true,
+	page = CompanionDogs,
+	translation = CompanionDogs_ShowMapMarker,
+}
+
+option CompanionDogs.UrbanSpawnEnabled
+{
+	type = boolean,
+	default = true,
+	page = CompanionDogs,
+	translation = CompanionDogs_UrbanSpawnEnabled,
+}
+
+option CompanionDogs.DogSpawnMultiplier
+{
+	type = double,
+	min = 0.0,
+	max = 5.0,
+	default = 1.0,
+	page = CompanionDogs,
+	translation = CompanionDogs_DogSpawnMultiplier,
+}
+
+option CompanionDogs.WildDogsInvincible
+{
+	type = boolean,
+	default = false,
+	page = CompanionDogs,
+	translation = CompanionDogs_WildDogsInvincible,
+}
+
+option CompanionDogs.CountDogKillsForPlayer
+{
+	type = boolean,
+	default = true,
+	page = CompanionDogs,
+	translation = CompanionDogs_CountDogKillsForPlayer,
+}
+
+option CompanionDogs.DespawnOnOwnerOffline
+{
+	type = boolean,
+	default = true,
+	page = CompanionDogs,
+	translation = CompanionDogs_DespawnOnOwnerOffline,
+}
+
+option CompanionDogs.AllowDebugSpawn
+{
+	type = boolean,
+	default = true,
+	page = CompanionDogs,
+	translation = CompanionDogs_AllowDebugSpawn,
+}
+
+option CompanionDogs.CargoCapacityBase
+{
+	type = integer,
+	min = 0,
+	max = 50,
+	default = 4,
+	page = CompanionDogs,
+	translation = CompanionDogs_CargoCapacityBase,
+}
+
+option CompanionDogs.CargoCapacitySpan
+{
+	type = integer,
+	min = 0,
+	max = 50,
+	default = 8,
+	page = CompanionDogs,
+	translation = CompanionDogs_CargoCapacitySpan,
+}
+
+option CompanionDogs.BreedingEnabled
+{
+	type = boolean,
+	default = true,
+	page = CompanionDogs,
+	translation = CompanionDogs_BreedingEnabled,
+}
+
+option CompanionDogs.GestationDays
+{
+	type = integer,
+	min = 1,
+	max = 60,
+	default = 4,
+	page = CompanionDogs,
+	translation = CompanionDogs_GestationDays,
+}
+
+option CompanionDogs.MaturityDays
+{
+	type = integer,
+	min = 1,
+	max = 365,
+	default = 90,
+	page = CompanionDogs,
+	translation = CompanionDogs_MaturityDays,
+}
+
+option CompanionDogs.BreedChancePerDay
+{
+	type = double,
+	min = 0.0,
+	max = 100.0,
+	default = 5.0,
+	page = CompanionDogs,
+	translation = CompanionDogs_BreedChancePerDay,
+}

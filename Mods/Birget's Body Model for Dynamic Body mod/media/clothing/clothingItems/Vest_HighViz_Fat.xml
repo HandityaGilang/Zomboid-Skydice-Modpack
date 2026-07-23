@@ -1,0 +1,13 @@
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Bob_HighVisVest_fat</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Kate_HighVisVest_fat</m_FemaleModel>
+	<m_GUID>311186b1-daab-4fc4-8739-9b2568e1e714</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone />
+
+	<m_MasksFolder>media/textures/Clothes/BulletVest/Masks_HighViz</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/BulletVest/Masks_HighViz</m_UnderlayMasksFolder>
+	<textureChoices>clothes\bulletvest\highvisvest</textureChoices>
+</clothingItem>

@@ -1,0 +1,12 @@
+ContextMenu_FR = {
+    /* Opciones para las Gorras */
+    ContextMenu_ForwardCap = "Visière vers l'avant",
+    ContextMenu_ReverseCap = "Visière à l'envers",
+
+    /* Opciones para los Delantales */
+    ContextMenu_Arremangar = "Porter sur la poitrine",
+    ContextMenu_Desarremangar = "Nouer à la taille",
+    
+    /* Nombre del Submenú */
+    ContextMenu_Ajustar_Prenda = "Ajuster le vêtement"
+}

@@ -1,0 +1,18 @@
+module Base {
+
+    sound cardFlip {
+        category = GameNight, is3D = true,
+        clip { file = media/sound/cardFlip.ogg, } }
+
+    sound cardShuffle {
+        category = GameNight, is3D = true,
+        clip { file = media/sound/cardShuffle.ogg, } }
+
+    sound pieceMove {
+        category = GameNight, is3D = true,
+        clip { file = media/sound/pieceMove.ogg, } }
+
+    sound dieRoll {
+        category = GameNight, is3D = true,
+        clip { file = media/sound/dieRoll.ogg, } }
+}

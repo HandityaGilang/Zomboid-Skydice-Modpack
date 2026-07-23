@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel>skinned\FemaleRounderEyes</m_FemaleModel>
+	<m_GUID>0d6f0fe0-3e2d-head-bf8e-8975ee0294b6</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+		<m_DecalGroup>MakeUp_EyeContacts</m_DecalGroup>	
+	<m_MasksFolder>media/textures/Body/Masks</m_MasksFolder>	
+	<m_Masks>8</m_Masks>
+		<m_UnderlayMasksFolder>media/textures/IdioticSotutionForMasks</m_UnderlayMasksFolder>
+	<textureChoices>Body\FemaleBody01</textureChoices>
+	<textureChoices>Body\FemaleBody02</textureChoices>
+	<textureChoices>Body\FemaleBody03</textureChoices>
+	<textureChoices>Body\FemaleBody04</textureChoices>
+	<textureChoices>Body\FemaleBody05</textureChoices>
+	<textureChoices>Body\FemaleBody01_old</textureChoices>
+	<textureChoices>Body\FemaleBody02_old</textureChoices>
+	<textureChoices>Body\FemaleBody03_old</textureChoices>
+	<textureChoices>Body\FemaleBody04_old</textureChoices>
+	<textureChoices>Body\FemaleBody05_old</textureChoices>
+</clothingItem>

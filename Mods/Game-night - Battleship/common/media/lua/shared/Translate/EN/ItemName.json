@@ -1,0 +1,11 @@
+{
+    "Base.BattleShip_Box": "Battleship Box",
+    "Base.BattleShip_GameStand": "Battleship Gamestand",
+    "Base.BattleShip_Peg_Red": "Red Peg",
+    "Base.BattleShip_Peg_White": "White Peg",
+    "Base.BattleShip_Ship_Battleship": "Battleship",
+    "Base.BattleShip_Ship_Carrier": "Carrier",
+    "Base.BattleShip_Ship_Destroyer": "Destroyer",
+    "Base.BattleShip_Ship_Submarine": "Submarine",
+    "Base.BattleShip_Ship_PatrolBoat": "Patrol Boat"
+}

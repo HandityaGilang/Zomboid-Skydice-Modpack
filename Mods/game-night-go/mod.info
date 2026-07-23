@@ -1,0 +1,5 @@
+name=Game Night - Go
+id=gamenight_go
+description=Play the ancient game of Go in Project Zomboid.
+poster=poster.png
+require=gamenight

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+	<files>
+		<path>media/AnimSets/player/melee/2handed/2HDefault.xml</path>
+		<guid>f7859096-06ad-4986-a494-758186d3ecfb</guid>
+	</files>
+	<files>
+		<path>media/AnimSets/player/melee/2handed/2HDefaultCrit.xml</path>
+		<guid>ee1841df-176d-497c-8b8d-cedebcd35d9d</guid>
+	</files>
+	<files>
+		<path>media/AnimSets/player/melee/2handed/2HMiss.xml</path>
+		<guid>09525c80-be51-4091-9a6d-8a8710b289b6</guid>
+	</files>
+	<files>
+		<path>media/AnimSets/player/melee/2handed/2HOnFloor.xml</path>
+		<guid>b0ba7139-5ba5-434f-8ef8-6dc9965f6c88</guid>
+	</files>
+	<files>
+		<path>media/AnimSets/player/melee/2handed/2HOverhead.xml</path>
+		<guid>60b4423c-540c-4808-96f8-35e0aa6a2d1c</guid>
+	</files>
+	<files>
+		<path>media/AnimSets/player/melee/2handed/2HOverheadCrit.xml</path>
+		<guid>0a2a11db-62b9-4ac2-aa6a-4701b7553d70</guid>
+	</files>
+	<files>
+		<path>media/AnimSets/player/melee/2handed/2HUppercut.xml</path>
+		<guid>eae6c576-68a3-41ed-af5b-1fd37035779e</guid>
+	</files>
+	<files>
+		<path>media/AnimSets/player/melee/2handed/2HUppercutCrit.xml</path>
+		<guid>0f0109ae-8429-48b6-a05b-154cec32ed79</guid>
+	</files>
+</fileGuidTable>

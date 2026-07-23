@@ -1,0 +1,319 @@
+module Base {
+    model DCKirby
+	{
+		mesh = WorldItems/DCKirby,
+		texture = WorldItems/DCKirby,
+		scale = 0.00025,
+	}
+	model BlueKirby
+	{
+		mesh = WorldItems/DCKirby,
+		texture = WorldItems/BlueKirby,
+		scale = 0.00025,
+	}
+	model GreenKirby
+	{
+		mesh = WorldItems/DCKirby,
+		texture = WorldItems/GreenKirby,
+		scale = 0.00025,
+	}
+	model DCCogTags
+	{
+		mesh = WorldItems/DCCogTags,
+		texture = Clothes/DCCogTags,
+		scale = 0.003,
+	}
+	model YellowKirby
+	{
+		mesh = WorldItems/DCKirby,
+		texture = WorldItems/YellowKirby,
+		scale = 0.00025,
+	}
+	model GhostKirby
+	{
+		mesh = WorldItems/DCKirby,
+		texture = WorldItems/GhostKirby,
+		scale = 0.00025,
+	}
+	model EvilKirby
+	{
+		mesh = WorldItems/DCKirby,
+		texture = WorldItems/EvilKirby,
+		scale = 0.00025,
+	}
+	model DCRebellion
+	{
+		mesh = weapons/2handed/DCRebellion,
+		texture = weapons/2handed/DCRebellion,
+		
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}
+	}
+	model DCVigilanteBaton
+	{
+		mesh = weapons/1handed/DCVigilanteBaton,
+		texture = weapons/1handed/DCVigilanteBaton,
+		
+		attachment world
+		{
+			offset = 0.0000 0.1000 0.0000,
+			rotate = 0.180000 0.0000 0.0000,
+		}
+	}
+	model DCHKBat
+	{
+		mesh = weapons/2handed/DCHKBat,
+		texture = weapons/2handed/DCHKBat,
+		scale = 0.7,
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 0.0000,
+		}
+	}
+	model DCHKitty
+	{
+		mesh = WorldItems/DCHKitty,
+		texture = WorldItems/DCHKitty,
+		scale = 0.0025,
+	}
+	model DCSpongebob
+	{
+		mesh = WorldItems/DCSpongebob,
+		texture = WorldItems/DCSpongebob,
+		scale = 0.000007,
+	}
+	model DCIvysaur
+	{
+		mesh = WorldItems/DCIvysaur,
+		texture = WorldItems/DCIvysaur,
+		scale = 0.0025,
+	}
+	model DCArceus
+	{
+		mesh = WorldItems/DCArceus,
+		texture = WorldItems/DCArceus,
+		scale = 0.0025,
+	}
+	model DCHooh
+	{
+		mesh = WorldItems/DCHooh,
+		texture = WorldItems/DCHooh,
+		scale = 0.0025,
+	}
+	model DCLugia
+	{
+		mesh = WorldItems/DCLugia,
+		texture = WorldItems/DCLugia,
+		scale = 0.0025,
+	}
+	model DCMew
+	{
+		mesh = WorldItems/DCMew,
+		texture = WorldItems/DCMew,
+		scale = 0.0025,
+	}
+	model DCMewtwo
+	{
+		mesh = WorldItems/DCMewtwo,
+		texture = WorldItems/DCMewtwo,
+		scale = 0.0025,
+	}
+	model DCMewtwoShiny
+	{
+		mesh = WorldItems/DCMewtwo,
+		texture = WorldItems/DCMewtwoShiny,
+		scale = 0.0025,
+	}
+	model DCMoltres
+	{
+		mesh = WorldItems/DCMoltres,
+		texture = WorldItems/DCMoltres,
+		scale = 0.0025,
+	}
+	model DCZapdos
+	{
+		mesh = WorldItems/DCZapdos,
+		texture = WorldItems/DCZapdos,
+		scale = 0.0025,
+	}
+	model DCArticuno
+	{
+		mesh = WorldItems/DCArticuno,
+		texture = WorldItems/DCArticuno,
+		scale = 0.0025,
+	}
+	model DCEevee
+	{
+		mesh = WorldItems/DCEevee,
+		texture = WorldItems/DCEevee,
+		scale = 0.0025,
+	}
+	model DCPikachu
+	{
+		mesh = WorldItems/DCPikachu,
+		texture = WorldItems/DCPikachu,
+		scale = 0.0025,
+	}
+	model DCSquirtle
+	{
+		mesh = WorldItems/DCSquirtle,
+		texture = WorldItems/DCSquirtle,
+		scale = 0.0025,
+	}
+	model DCCharmander
+	{
+		mesh = WorldItems/DCCharmander,
+		texture = WorldItems/DCCharmander,
+		scale = 0.0025,
+	}
+	model DCHoohShiny
+	{
+		mesh = WorldItems/DCHooh,
+		texture = WorldItems/DCHoohShiny,
+		scale = 0.0025,
+	}
+	model DCMCCreeper
+	{
+		mesh = WorldItems/DCMCCreeper,
+		texture = WorldItems/DCMCCreeper,
+		scale = 0.001,
+	}
+	model DCMCPanda
+	{
+		mesh = WorldItems/DCMCPanda,
+		texture = WorldItems/DCMCPanda,
+		scale = 0.001,
+	}
+	model DCMCAxolotl
+	{
+		mesh = WorldItems/DCMCAxolotl,
+		texture = WorldItems/DCMCAxolotl,
+		scale = 0.0012,
+	}
+	model DCGnomeChompski
+	{
+		mesh = WorldItems/DCGnomeChompski,
+		texture = WorldItems/DCGnomeChompski,
+		scale = 0.00017,
+	}
+	model DCGir
+	{
+		mesh = WorldItems/DCGir,
+		texture = WorldItems/DCGir,
+		scale = 0.002,
+	}
+	model DCSentryTurret
+	{
+		mesh = WorldItems/DCSentryTurret,
+		texture = WorldItems/DCSentryTurret,
+		scale = 0.0001,
+	}
+	model DCClaptrap
+	{
+		mesh = WorldItems/DCClaptrap,
+		texture = WorldItems/DCClaptrap,
+		scale = 0.0035,
+	}
+	model DCKungFuPanda
+	{
+		mesh = WorldItems/DCKungFuPanda,
+		texture = WorldItems/DCKungFuPanda,
+		scale = 0.0004,
+	}
+	model DCHatKid
+	{
+		mesh = WorldItems/DCHatKid,
+		texture = WorldItems/DCHatKid,
+		scale = 0.000025,
+	}
+	model DCCrescentRose
+	{
+		mesh = weapons/2handed/DCCrescentRose,
+		texture = weapons/2handed/DCCrescentRose,
+		scale = 0.005,
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model DCHiddenBlade
+	{
+		mesh = weapons/1handed/DCHiddenBlade,
+		texture = weapons/1handed/DCHiddenBlade,
+		scale = 0.005,
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 0.0000,
+		}
+	}
+	model DCMjolnir
+	{
+		mesh = weapons/1handed/DCMjolnir,
+		texture = weapons/1handed/DCMjolnir,
+		scale = 0.005,
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0000 0.0000,
+		}
+	}
+	model DCPoseidonTrident
+	{
+		mesh = weapons/2handed/DCPoseidonTrident,
+		texture = weapons/2handed/DCPoseidonTrident,
+		scale = 0.005,
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 90.0000 0.0000,
+		}
+	}
+	model DCFreddyBobble
+	{
+		mesh = WorldItems/DCFreddyBobble,
+		texture = WorldItems/DCFNAFBobbles,
+		scale = 0.01,
+	}
+	model DCBonnieBobble
+	{
+		mesh = WorldItems/DCBonnieBobble,
+		texture = WorldItems/DCFNAFBobbles,
+		scale = 0.01,
+	}
+	model DCChicaBobble
+	{
+		mesh = WorldItems/DCChicaBobble,
+		texture = WorldItems/DCFNAFBobbles,
+		scale = 0.01,
+	}
+	model DCHollowMaskHalf
+	{
+		mesh = WorldItems/DCHollowMaskHalf,
+		texture = Clothes/DCHollowMaskHalf,
+		scale = 0.008,
+	}
+	model DCR2D2
+	{
+		mesh = WorldItems/DCR2D2,
+		texture = WorldItems/DCR2D2,
+		scale = 0.0035,
+	}
+	model DCHollowMask
+	{
+		mesh = WorldItems/DCHollowMask,
+		texture = Clothes/DCHollowMask1,
+		scale = 0.008,
+	}
+	model DCTopHat
+	{
+		mesh = WorldItems/DCTopHat,
+		texture = WorldItems/DCHatKid,
+		scale = 0.00025,
+	}
+}

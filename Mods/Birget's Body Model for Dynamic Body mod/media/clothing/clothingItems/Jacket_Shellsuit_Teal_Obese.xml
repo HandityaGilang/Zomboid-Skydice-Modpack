@@ -1,0 +1,15 @@
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Bob_JacketShellSuit_obese</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Kate_JacketShellSuit_obese</m_FemaleModel>
+	<m_GUID>2b4623ce-899a-4eef-82ad-8703a27b3be0</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone />
+	<m_Masks>12</m_Masks>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_MasksFolder>media/textures/Clothes/Jacket/Masks _Shellsuit</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Jacket/Masks _Shellsuit</m_UnderlayMasksFolder>
+	<textureChoices>clothes\jacket\jacket_shellsuit_teal</textureChoices>
+</clothingItem>

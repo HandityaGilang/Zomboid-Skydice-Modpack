@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="Dragonslayer-0a2a11db-62b9-4ac2-aa6a-4701b7553d70">
+	<m_Name>Dragonslayer2HOverheadCrit</m_Name>
+	<m_SpeedScale>0.75</m_SpeedScale>
+	<m_Conditions x_name="fe997dea-405c-4482-90c9-2d2aea5f6ffb">
+		<m_Name>DragonslayerWeapon</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+</animNode>

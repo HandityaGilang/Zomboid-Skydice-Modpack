@@ -1,0 +1,11 @@
+name=[B42] Daily Challenges & Leaderboard [SP/MP]
+id=[B42]DailyChallengeSystem
+description=A Daily Challenge System & Leaderboard, for both Singleplayer and Multiplayer Servers
+poster=poster.png
+author=ObnoxiouslyNoxious
+icon=icon.png
+versionMin=42.15.0
+pack=dcs_tiles
+pack=dcs_tiles_on
+tiledef=dcs_tiles 1711
+tiledef=dcs_tiles_on 1712

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\M_PantsWithShoulderStraps</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\F_PantsWithShoulderStraps</m_FemaleModel>
+	<m_GUID>8710bf7a-86f4-4bc5-a841-e17bfd7ac01e</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+    <m_Masks>14</m_Masks>
+	<m_Masks>15</m_Masks>
+	<m_Masks>7</m_Masks>
+	<m_Masks>9</m_Masks>
+	<textureChoices>clothes\PantsWithShoulderStraps_MB</textureChoices>
+</clothingItem>

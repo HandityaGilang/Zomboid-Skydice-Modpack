@@ -1,0 +1,10 @@
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_apron_obese</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\kate_apron_obese</m_FemaleModel>
+	<m_GUID>687cc7ae-1ff3-486f-b6d4-6a37565d4c06</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone />
+	<textureChoices>clothes\apron\apron_pileocrepe</textureChoices>
+</clothingItem>

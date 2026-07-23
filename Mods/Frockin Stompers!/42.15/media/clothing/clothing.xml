@@ -1,0 +1,2680 @@
+<?xml version="1.0" encoding="utf-8"?>
+<outfitManager>
+	<m_FemaleOutfits>
+		<m_Name>Generic01</m_Name>
+		<m_Guid>5a39681b-f64b-4305-b36b-89c6961303db</m_Guid>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>5574c07e-1381-49d8-a0ba-40e5b2cf55cd</itemGUID>
+			<subItems>
+				<itemGUID>7a5f7b89-9de9-4c05-afb6-e62dca97b8a2</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>d44e45d2-dccd-41fb-803a-9ec9f3b46906</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>d9d60d23-421e-4a97-8e74-9e7b3c35d620</itemGUID>
+		</m_items>
+		<m_items>
+			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+		</m_items>
+		<m_items>
+			<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
+			  <subItems>  <itemGUID>a9a182e6-37a2-4b01-975f-ca26dbdde7e2</itemGUID>  </subItems>		 <!--	FE_ShoesRE_Sandals                      -->
+			  <subItems>  <itemGUID>baed5c61-2e3e-493b-a612-a6cec00e97e1</itemGUID>  </subItems>         <!--	FE_ShoesRE_Sandals_T                    -->
+			  <subItems>  <itemGUID>0ae40c45-fb89-4bc6-b91a-9d01f6b0ef2c</itemGUID>  </subItems>         <!--	FE_ShoesRE_Crocs                        -->
+			  <subItems>  <itemGUID>4c4c5cba-e441-4f3a-938b-dc23aec99a5f</itemGUID>  </subItems>         <!--	FE_ShoesRE_CrocsSlipper                 -->
+			  <subItems>  <itemGUID>7a7c8c03-659a-4921-87f5-ab5fb76b21b5</itemGUID>  </subItems>         <!--	FE_ShoesRE_Slippers                     -->
+			  <subItems>  <itemGUID>efd43d3b-4e81-40ae-89ed-bba054857882</itemGUID>  </subItems>         <!--	FE_Shoe_Trainers_LowTop                 -->
+			  <subItems>  <itemGUID>b359716f-ee34-4358-99e1-f7ce298259da</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersBlack_LowTop            -->
+			  <subItems>  <itemGUID>84c36276-572d-4077-879b-e3f6d6d7f38a</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersWhite_LowTop            -->
+			  <subItems>  <itemGUID>33654993-466f-4997-8c1f-33360e58df2f</itemGUID>  </subItems>         <!--	FE_Shoe_Trainers_HighTop                -->
+			  <subItems>  <itemGUID>e2375c59-20b1-4331-9e8f-6fd32bcab34f</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersBlack_HighTop           -->
+			  <subItems>  <itemGUID>3ca1077b-88a9-4dbc-8d31-322a01b8149b</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersWhite_HighTop           -->
+			  <subItems>  <itemGUID>67066305-179f-44e0-87d6-d59242822426</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_KneeHigh            -->
+			  <subItems>  <itemGUID>35e7838f-b72f-418b-8ecb-eea7e716a891</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_AnkleHigher         -->
+			  <subItems>  <itemGUID>47899051-1216-4ad4-bdd0-0d46c3ff1a8d</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_AnkleHigh           -->
+			  <subItems>  <itemGUID>4c625336-b267-48eb-9b67-142965cf97bf</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_Ankle               -->
+			  <subItems>  <itemGUID>b0a0f19f-3c58-4d4e-9697-1ac8ba8221af</itemGUID>  </subItems>         <!--	FE_Boots_Converse_Kneehigh              -->
+			  <subItems>  <itemGUID>8e9bbc5b-6ab8-4e8c-8ca8-7b065da95ba7</itemGUID>  </subItems>         <!--	FE_BootsRE_Chelsea_AnkleHigher          -->
+			  <subItems>  <itemGUID>9fdf99ce-2890-442a-8f18-f1c32cf4bf36</itemGUID>  </subItems>         <!--	FE_BootsRE_Chelsea_AnkleHigh            -->
+			  <subItems>  <itemGUID>f36e172d-efa6-4a90-8ad0-97316f15ee16</itemGUID>  </subItems>         <!--	FE_ShoesRE_Chelsea                      -->
+			  <subItems>  <itemGUID>88ec8f43-cf1e-428d-97d1-e867b39c28f0</itemGUID>  </subItems>         <!--	FE_BootsRE_Combat_AnkleHigher           -->
+			  <subItems>  <itemGUID>967771df-e3e5-4f94-a7c6-9b0051a32e1b</itemGUID>  </subItems>         <!--	FE_BootsRE_Combat_AnkleHigherLoose      -->
+			  <subItems>  <itemGUID>d46340fb-613f-4548-b216-39118c9e1b6c</itemGUID>  </subItems>         <!--	FE_BootsRE_Combat_AnkleHigh             -->
+			  <subItems>  <itemGUID>38e5b700-1264-4953-aa58-7d010054e256</itemGUID>  </subItems>         <!--	FE_ShoesRE_Combat                       -->
+			  <subItems>  <itemGUID>41ac81e1-d34c-4424-afee-420ca507cb02</itemGUID>  </subItems>         <!--	FE_BootsRE_LeatherCasual_AnkleHigher    -->
+			  <subItems>  <itemGUID>adcf0b19-9626-46f9-9183-498a6402ac3a</itemGUID>  </subItems>         <!--	FE_BootsRE_LeatherCasual_AnkleHigh      -->
+			  <subItems>  <itemGUID>fdea3d63-c4af-442e-b580-cd4b6d698ba5</itemGUID>  </subItems>         <!--	FE_ShoesRE_LeatherCasual                -->
+			  <subItems>  <itemGUID>1074804a-96bc-4ea0-9203-9ef4562891ca</itemGUID>  </subItems>         <!--	FE_ShoesRE_Casual                       -->
+			  <subItems>  <itemGUID>33ea1b5c-31fb-4c73-8653-3143c85e46b2</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_KneeHigh             -->
+			  <subItems>  <itemGUID>c9310564-7af1-4a06-aa4c-a7f8fbd307c6</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_KneeLow              -->
+			  <subItems>  <itemGUID>bb857fba-9b1c-4fce-a2bc-70e91c9a92ff</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_AnkleHigh            -->
+			  <subItems>  <itemGUID>132bd25d-6060-4d36-a7ff-6119875f0a56</itemGUID>  </subItems>         <!--	FF_Boots_Leather                        -->
+			  <subItems>  <itemGUID>cb5f35aa-a1ea-46d3-bac4-371cdd9f1030</itemGUID>  </subItems>         <!--	FF_Boots_Leather_Short                  -->
+			  <subItems>  <itemGUID>9f0c6f6c-5766-4e82-81ac-3f2bea7903f3</itemGUID>  </subItems>         <!--	FF_Boots_Cowboy                         -->
+			  <subItems>  <itemGUID>2d3bcd78-73c2-4cba-a619-9cc41bf9444d</itemGUID>  </subItems>         <!--	FF_Boots_Cowboy_Plain                   -->
+			  <subItems>  <itemGUID>7818cd27-72ff-4e71-95a2-70d3d4cd2536</itemGUID>  </subItems>         <!--	FF_Boots_Common                         -->
+			  <subItems>  <itemGUID>1225017d-c696-4c76-ae0a-a7e85fbfea0b</itemGUID>  </subItems>         <!--	FF_Shoe_Common                          -->
+			  <subItems>  <itemGUID>6abee5b2-f3de-4931-93ae-eb90b50dc64e</itemGUID>  </subItems>         <!--	FF_Shoe_Trainers                        -->
+			  <subItems>  <itemGUID>d8292502-acb7-4269-966a-c6609a9db68d</itemGUID>  </subItems>         <!--	FF_Shoe_TrainersBlack                   -->
+			  <subItems>  <itemGUID>09b3d4c4-7ebb-4d03-abf4-fe10788931b6</itemGUID>  </subItems>         <!--	FF_Shoe_TrainersWhite                   -->
+			  <subItems>  <itemGUID>cffb73e7-bd8c-4352-b7af-f7cf1f23ec60</itemGUID>  </subItems>         <!--	FF_Shoe_Boots_Ankle                     -->
+			  <subItems>  <itemGUID>b42f8209-c000-4d2a-b7f6-e38ced16033b</itemGUID>  </subItems>         <!--	FF_Shoe_Boots_Ankle_Steel               -->
+			  <subItems>  <itemGUID>26150dc3-e1d9-49a6-ba7d-004a8c472227</itemGUID>  </subItems>         <!--	FF_Shoe_Boots_Ankle_Platform            -->
+			  <subItems>  <itemGUID>b9a3c342-bd94-47ad-848f-70d0eec2d019</itemGUID>  </subItems>         <!--	FF_Boots_UGG                            -->
+			  <subItems>  <itemGUID>967cf439-c3db-4aac-a2dc-6d8be37aa446</itemGUID>  </subItems>         <!--	FF_Boots_UGG_DwarfHeel                  -->
+			  <subItems>  <itemGUID>7e302f0a-1932-43f9-9b41-840e5836a47a</itemGUID>  </subItems>         <!--	FF_Boots_UGG_Heel                       -->
+			  <subItems>  <itemGUID>8cc2bbe6-03ec-4c8c-ae63-db3f2ab1f109</itemGUID>  </subItems>         <!--	FF_Boots_UGG_Kneehigh                   -->
+			  <subItems>  <itemGUID>a218ac71-9c22-4489-b2fc-ff686f99c9b2</itemGUID>  </subItems>         <!--	FF_Boots_UGG_KneehighHeel               -->
+			  <subItems>  <itemGUID>58d9ad7e-e8cc-4c8b-9a4d-197813f1e148</itemGUID>  </subItems>         <!--	FF_Boots_Platform_Kneehigh              -->
+			  <subItems>  <itemGUID>f8b84cf9-a0ba-49e7-8f87-78c0d3bd7761</itemGUID>  </subItems>         <!--	FF_Boots_Platform_Ankle                 -->
+			  <subItems>  <itemGUID>9fcc376d-4eb4-4509-90b2-49090b77f2de</itemGUID>  </subItems>         <!--	FF_Boots_Platform_AnkleLow              -->
+			  <subItems>  <itemGUID>9933ad81-4891-4af5-bc00-027ef80a7df8</itemGUID>  </subItems>         <!--	FF_Boots_PlatformPunk_Kneehigh          -->
+			  <subItems>  <itemGUID>043f86a6-9ac7-48f7-811d-36825a582743</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_DwarfHeel            -->
+			  <subItems>  <itemGUID>7e94ffec-0934-4d9b-8ccb-5abe9609bbe1</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_Heel                 -->
+			  <subItems>  <itemGUID>5b1223e6-0255-4095-b752-0ecad6fce790</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_KneehighHeel         -->
+			  <subItems>  <itemGUID>33a65ccc-c405-4a2c-82f3-099ba59d7832</itemGUID>  </subItems>         <!--	FF_Boots_Military_Kneehigh              -->
+			  <subItems>  <itemGUID>9121ec65-44c4-4354-94e7-9c97c51dfb1c</itemGUID>  </subItems>         <!--	FF_Boots_Military_Ankle                 -->
+			  <subItems>  <itemGUID>ab9fb434-4d10-4d47-8522-8c5abf3c4df5</itemGUID>  </subItems>         <!--	FF_Boots_Pointy_Kneehigh                -->
+			  <subItems>  <itemGUID>1c1e97e6-6997-4c75-9714-1a414e76ee0b</itemGUID>  </subItems>         <!--	FF_Boots_Pointy_Ankle                   -->
+			  <subItems>  <itemGUID>b602ff83-1667-40f8-a312-2fba91086895</itemGUID>  </subItems>         <!--	FF_Boots_Pointy_AnkleLow                -->
+			  
+			  <subItems>  <itemGUID>ca216761-08b8-4440-8879-0e604a52c5ee</itemGUID>  </subItems>         <!--	FE_BootsRE_LegWarmers_KneeHigh          -->
+			  <subItems>  <itemGUID>fa25f9bf-ef4d-45af-ab4a-75965f89caad</itemGUID>  </subItems>         <!--	FE_BootsRE_LegWarmers_KneeLow           -->
+			  <subItems>  <itemGUID>bc958d55-953c-449a-9a26-e63f1686e0e7</itemGUID>  </subItems>         <!--	FE_BootsRE_LegWarmers_AnkleHigh         -->
+			  <subItems>  <itemGUID>1ac5c84d-ad77-40b4-aacd-e4d3a76200f6</itemGUID>  </subItems>         <!--	FE_BootsRE_LegWarmers_Ankle             -->
+			  <subItems>  <itemGUID>01780e22-79fd-4a5c-8b21-b7cff8c37f2f</itemGUID>  </subItems>         <!--	FE_ShoesRE_LegWarmers_MJ_KneeHigh       -->
+			  <subItems>  <itemGUID>e3744f44-3c02-43f9-8b61-c1ba177b5406</itemGUID>  </subItems>         <!--	FE_ShoesRE_LegWarmers_MJ_KneeLow        -->
+			  <subItems>  <itemGUID>e4c845df-3949-478b-a233-cf8f5651af0b</itemGUID>  </subItems>         <!--	FE_ShoesRE_LegWarmers_MJ_AnkleHigh      -->
+			  <subItems>  <itemGUID>97c436c1-4c26-4ae6-8ecc-3141c35a6436</itemGUID>  </subItems>         <!--	FE_ShoesRE_LegWarmers_MJ_Ankle          -->
+			  <subItems>  <itemGUID>9bb78f79-e2e2-4467-9c1a-3362b882435d</itemGUID>  </subItems>         <!--	FF_Boots_HF_New                         -->
+			  <subItems>  <itemGUID>b24d2aba-d06c-4170-85e9-efb96cd9b1e9</itemGUID>  </subItems>         <!--	FF_Boots_HF_New_Longest                 -->
+			  <subItems>  <itemGUID>3c4b82f3-a13f-4aab-81b2-a71a2aad989a</itemGUID>  </subItems>         <!--	FF_Boots_HF_New_Longer                  -->
+			  <subItems>  <itemGUID>28a07d0e-0aa0-4cb1-ac31-5195061764b4</itemGUID>  </subItems>         <!--	FF_Boots_HF_New_Long                    -->
+			  <subItems>  <itemGUID>01d75d07-28a0-432f-a05a-4990356ccbb2</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGAGoth_KneeHigh            -->
+			  <subItems>  <itemGUID>e57f4c18-946c-4484-b396-8e8ede42b8be</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGAGoth_AnkleHigh           -->
+			  <subItems>  <itemGUID>335539a3-e53d-4bf2-99b9-2758f95af2ab</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGAGoth_Ankle               -->
+			  <subItems>  <itemGUID>d6973126-4e45-419e-94bc-72163b9bb16b</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGACool_KneeHigh            -->
+			  <subItems>  <itemGUID>ea82c1ce-fe88-4e35-a1a6-036e9f397505</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGACool_AnkleHigh           -->
+			  <subItems>  <itemGUID>9b0d1df0-5693-43ad-8374-ad1389949e70</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGACool_Ankle               -->
+			  <subItems>  <itemGUID>be2636a5-3abd-47ee-88cb-194fb411ef13</itemGUID>  </subItems>         <!--	FE_BootsRE_Stiletto_KneeHigh            -->
+			  <subItems>  <itemGUID>5219adce-ed78-402c-afd5-6577acb3fc0e</itemGUID>  </subItems>         <!--	FE_BootsRE_Stiletto_AnkleHigh           -->
+			  <subItems>  <itemGUID>868b66f8-e5ff-4960-8e7f-5d42f8169dc3</itemGUID>  </subItems>         <!--	FE_BootsRE_Stiletto_Ankle               -->
+			  <subItems>  <itemGUID>2db47a11-8d8b-4bf4-9e25-b910cd5fb0a9</itemGUID>  </subItems>         <!--	FE_HeelsRE_Stiletto_Premium_KneeHigh    -->
+			  <subItems>  <itemGUID>e2084901-25dc-40de-abb7-1ec134edb1a5</itemGUID>  </subItems>         <!--	FE_HeelsRE_Stiletto_Premium_AnkleHigh   -->
+			  <subItems>  <itemGUID>31d0a1d3-e34d-43b6-98bb-dca50122774a</itemGUID>  </subItems>         <!--	FE_HeelsRE_Stiletto_Premium_Ankle       -->
+			  <subItems>  <itemGUID>a1c5d072-00a1-4053-a40c-c85c1ed3987e</itemGUID>  </subItems>         <!--	FE_HeelsRE_SnkSkn_KneeHigh              -->
+			  <subItems>  <itemGUID>a5d515eb-79b5-4c3b-96e3-06013de377a5</itemGUID>  </subItems>         <!--	FE_HeelsRE_SnkSkn_AnkleHigh             -->
+			  <subItems>  <itemGUID>9df85d44-367b-4888-8aed-497b354c0217</itemGUID>  </subItems>         <!--	FE_HeelsRE_Leather_KneeHigh             -->
+			  <subItems>  <itemGUID>d12c6fbb-91ce-4c6d-a0d8-c0e0ce2b2921</itemGUID>  </subItems>         <!--	FE_HeelsRE_Leather_AnkleHigh            -->
+			  <subItems>  <itemGUID>2863a4c9-47ec-427d-835a-0b113e251e59</itemGUID>  </subItems>         <!--	FE_HeelsRE_Animal_KneeHigh              -->
+			  <subItems>  <itemGUID>7952e902-af09-48e4-ad12-cc874cc5403f</itemGUID>  </subItems>         <!--	FE_HeelsRE_Animal_AnkleHigh             -->
+			  <subItems>  <itemGUID>95efbcb0-51c8-439f-87d4-4fc0dbd9a661</itemGUID>  </subItems>         <!--	FE_HeelsRE_Converse_KneeHigh            -->
+			  <subItems>  <itemGUID>ed0be712-e043-48af-b872-ec143845c44a</itemGUID>  </subItems>         <!--	FE_HeelsRE_Converse_AnkleHigh           -->
+			  <subItems>  <itemGUID>23ab0bf6-9b32-4e6e-809d-7782f2fd12f8</itemGUID>  </subItems>         <!--	FF_Boots_HighHeels                      -->
+			  <subItems>  <itemGUID>2c009a9a-6272-462d-be2b-9b07a83db660</itemGUID>  </subItems>         <!--	FF_Shoe_Women                           -->
+			  <subItems>  <itemGUID>a268f4a3-2dad-42d9-ada1-4132f33a6004</itemGUID>  </subItems>         <!--	FF_Shoe_Women_Platform                  -->
+			  <subItems>  <itemGUID>bc2db9c8-04e6-410c-90c1-78ad80820f64</itemGUID>  </subItems>         <!--	FF_Shoe_Women_2                         -->
+			  <subItems>  <itemGUID>ce75d11b-49c1-4db2-a500-a82f42f2731b</itemGUID>  </subItems>         <!--	FF_Shoe_Moccasin                        -->
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>7b339ad5-da2e-42a5-8a51-ee87239a943c</itemGUID>
+			<subItems>
+				<itemGUID>b78f9552-1d93-46b7-a42c-6f554ce43e29</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>cfa30053-1c89-4749-8f6f-ce8335b7a031</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+			<subItems>
+				<itemGUID>71f88535-959e-4be6-a60c-87fd2c127b4d</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>9df22d1f-96cd-4d2c-88f2-4e7423d93649</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>7c3a8a34-9ffa-42e0-83f4-55088f99d8a4</itemGUID>
+			<subItems>
+				<itemGUID>497a8849-6914-40fb-b3a6-9e01629e3e8b</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>62486601-5800-4eba-b317-fbcd9a0e2892</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>09537be2-eebc-4f58-a76d-ac46ea5b3654</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fc9184ea-72cd-4079-8457-5b9f7b5dab75</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>59341911-c4b8-4c30-a712-69df35ba228f</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>033be814-b060-457c-8ed6-43f7358606c3</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>b1c312bf-bc3b-4a52-a15d-fe5564399388</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>ee687253-26b0-4796-82ca-4f4a4976cf81</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>9221f803-d4ec-4947-b380-9c8b1fddebf0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>877f93aa-33c7-4453-9c47-5097038f580c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>404627a1-0fbe-4c95-921d-80eee1bac7f4</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>b53aaf11-929c-4506-8310-e9b26d5f20eb</itemGUID>
+			<subItems>
+				<itemGUID>3cac5469-f9d2-4462-8fb2-063be1b63450</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>3ae13d94-8df6-45c7-9e99-ad03c7d411ce</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>00b778ca-59bd-45a4-9a72-a74e5a541469</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>354db6a5-970b-477b-a119-f4a65eaa776f</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID>
+			<subItems>
+				<itemGUID>c6dd113b-3d04-4833-9f38-8e9840741c0c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fedba460-2edc-439d-89b6-f9607ddbf246</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>5b484f12-b43c-4a83-9009-af05a59ec267</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
+			<subItems>
+				<itemGUID>ce1a8520-7120-432e-8a3a-aa7b3094f0bb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>356869e4-1727-489f-8cc3-e7a16e76c137</itemGUID>
+			<subItems>
+				<itemGUID>582f29b1-29b3-468c-87fe-263b043e1443</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>51851e1a-3c3d-473d-8894-8cde0770b645</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.4</probability>
+			<itemGUID>06234961-aab3-4ce4-b5d2-2a7e5af074fb</itemGUID>
+			<subItems>
+				<itemGUID>98afa91b-93cd-4c9a-a936-a7aa17b87518</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>cb46ada7-0aa2-4d33-839d-edaa9409d36c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>cceb85fc-8c41-477e-9167-07513bad2dd9</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.05</probability>
+			<itemGUID>d5da91a6-03ad-44f7-b51f-b8fe5a01e41b</itemGUID>
+			<subItems>
+				<itemGUID>9f994766-9c05-4257-b840-661e9a805c16</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>6e92e4b5-69d0-4e00-b55e-498b8ec2d2eb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e49f1352-8f1a-4d15-8a5d-20395132f797</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fb825d89-c2fe-4fdc-a9ab-94cbf6e5607d</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>907b406e-7637-4ae8-9454-643ff61eb2b7</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e7236933-9139-4d6a-9e5d-ea818b1190dd</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>94dc4673-2c6f-47ba-8750-0749c5452eab</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e44a00b7-ef11-4b8f-9c8b-3e265afb0b67</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>d962c2f4-d1fc-45aa-a099-2c29efb19320</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e9914ee6-96eb-41cc-b6de-980fdbde8edf</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>111b43e6-3121-4537-8d41-b4ca11a7e107</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>d5395b87-1a26-4920-a8f9-2e3cde033f3b</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>737d3d4c-6909-4392-81e7-1d429f94d67d</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>be755761-5bee-4c65-b7bc-0b63332c4f9b</itemGUID>
+			</subItems>
+		</m_items>
+	</m_FemaleOutfits>
+	<m_FemaleOutfits>
+		<m_Name>Generic02</m_Name>
+		<m_Guid>4fcf83f0-b20c-4106-8b92-1699d1094dbc</m_Guid>
+		<m_Pants>false</m_Pants>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>a8f1dbc6-6623-40d1-8a1a-adbcd33f5b41</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>5574c07e-1381-49d8-a0ba-40e5b2cf55cd</itemGUID>
+			<subItems>
+				<itemGUID>7a5f7b89-9de9-4c05-afb6-e62dca97b8a2</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>d44e45d2-dccd-41fb-803a-9ec9f3b46906</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+		</m_items>
+		<m_items>
+			<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
+			  <subItems>  <itemGUID>a9a182e6-37a2-4b01-975f-ca26dbdde7e2</itemGUID>  </subItems>		 <!--	FE_ShoesRE_Sandals                      -->
+			  <subItems>  <itemGUID>baed5c61-2e3e-493b-a612-a6cec00e97e1</itemGUID>  </subItems>         <!--	FE_ShoesRE_Sandals_T                    -->
+			  <subItems>  <itemGUID>0ae40c45-fb89-4bc6-b91a-9d01f6b0ef2c</itemGUID>  </subItems>         <!--	FE_ShoesRE_Crocs                        -->
+			  <subItems>  <itemGUID>4c4c5cba-e441-4f3a-938b-dc23aec99a5f</itemGUID>  </subItems>         <!--	FE_ShoesRE_CrocsSlipper                 -->
+			  <subItems>  <itemGUID>7a7c8c03-659a-4921-87f5-ab5fb76b21b5</itemGUID>  </subItems>         <!--	FE_ShoesRE_Slippers                     -->
+			  <subItems>  <itemGUID>efd43d3b-4e81-40ae-89ed-bba054857882</itemGUID>  </subItems>         <!--	FE_Shoe_Trainers_LowTop                 -->
+			  <subItems>  <itemGUID>b359716f-ee34-4358-99e1-f7ce298259da</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersBlack_LowTop            -->
+			  <subItems>  <itemGUID>84c36276-572d-4077-879b-e3f6d6d7f38a</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersWhite_LowTop            -->
+			  <subItems>  <itemGUID>33654993-466f-4997-8c1f-33360e58df2f</itemGUID>  </subItems>         <!--	FE_Shoe_Trainers_HighTop                -->
+			  <subItems>  <itemGUID>e2375c59-20b1-4331-9e8f-6fd32bcab34f</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersBlack_HighTop           -->
+			  <subItems>  <itemGUID>3ca1077b-88a9-4dbc-8d31-322a01b8149b</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersWhite_HighTop           -->
+			  <subItems>  <itemGUID>67066305-179f-44e0-87d6-d59242822426</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_KneeHigh            -->
+			  <subItems>  <itemGUID>35e7838f-b72f-418b-8ecb-eea7e716a891</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_AnkleHigher         -->
+			  <subItems>  <itemGUID>47899051-1216-4ad4-bdd0-0d46c3ff1a8d</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_AnkleHigh           -->
+			  <subItems>  <itemGUID>4c625336-b267-48eb-9b67-142965cf97bf</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_Ankle               -->
+			  <subItems>  <itemGUID>b0a0f19f-3c58-4d4e-9697-1ac8ba8221af</itemGUID>  </subItems>         <!--	FE_Boots_Converse_Kneehigh              -->
+			  <subItems>  <itemGUID>8e9bbc5b-6ab8-4e8c-8ca8-7b065da95ba7</itemGUID>  </subItems>         <!--	FE_BootsRE_Chelsea_AnkleHigher          -->
+			  <subItems>  <itemGUID>9fdf99ce-2890-442a-8f18-f1c32cf4bf36</itemGUID>  </subItems>         <!--	FE_BootsRE_Chelsea_AnkleHigh            -->
+			  <subItems>  <itemGUID>f36e172d-efa6-4a90-8ad0-97316f15ee16</itemGUID>  </subItems>         <!--	FE_ShoesRE_Chelsea                      -->
+			  <subItems>  <itemGUID>88ec8f43-cf1e-428d-97d1-e867b39c28f0</itemGUID>  </subItems>         <!--	FE_BootsRE_Combat_AnkleHigher           -->
+			  <subItems>  <itemGUID>967771df-e3e5-4f94-a7c6-9b0051a32e1b</itemGUID>  </subItems>         <!--	FE_BootsRE_Combat_AnkleHigherLoose      -->
+			  <subItems>  <itemGUID>d46340fb-613f-4548-b216-39118c9e1b6c</itemGUID>  </subItems>         <!--	FE_BootsRE_Combat_AnkleHigh             -->
+			  <subItems>  <itemGUID>38e5b700-1264-4953-aa58-7d010054e256</itemGUID>  </subItems>         <!--	FE_ShoesRE_Combat                       -->
+			  <subItems>  <itemGUID>41ac81e1-d34c-4424-afee-420ca507cb02</itemGUID>  </subItems>         <!--	FE_BootsRE_LeatherCasual_AnkleHigher    -->
+			  <subItems>  <itemGUID>adcf0b19-9626-46f9-9183-498a6402ac3a</itemGUID>  </subItems>         <!--	FE_BootsRE_LeatherCasual_AnkleHigh      -->
+			  <subItems>  <itemGUID>fdea3d63-c4af-442e-b580-cd4b6d698ba5</itemGUID>  </subItems>         <!--	FE_ShoesRE_LeatherCasual                -->
+			  <subItems>  <itemGUID>1074804a-96bc-4ea0-9203-9ef4562891ca</itemGUID>  </subItems>         <!--	FE_ShoesRE_Casual                       -->
+			  <subItems>  <itemGUID>33ea1b5c-31fb-4c73-8653-3143c85e46b2</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_KneeHigh             -->
+			  <subItems>  <itemGUID>c9310564-7af1-4a06-aa4c-a7f8fbd307c6</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_KneeLow              -->
+			  <subItems>  <itemGUID>bb857fba-9b1c-4fce-a2bc-70e91c9a92ff</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_AnkleHigh            -->
+			  <subItems>  <itemGUID>132bd25d-6060-4d36-a7ff-6119875f0a56</itemGUID>  </subItems>         <!--	FF_Boots_Leather                        -->
+			  <subItems>  <itemGUID>cb5f35aa-a1ea-46d3-bac4-371cdd9f1030</itemGUID>  </subItems>         <!--	FF_Boots_Leather_Short                  -->
+			  <subItems>  <itemGUID>9f0c6f6c-5766-4e82-81ac-3f2bea7903f3</itemGUID>  </subItems>         <!--	FF_Boots_Cowboy                         -->
+			  <subItems>  <itemGUID>2d3bcd78-73c2-4cba-a619-9cc41bf9444d</itemGUID>  </subItems>         <!--	FF_Boots_Cowboy_Plain                   -->
+			  <subItems>  <itemGUID>7818cd27-72ff-4e71-95a2-70d3d4cd2536</itemGUID>  </subItems>         <!--	FF_Boots_Common                         -->
+			  <subItems>  <itemGUID>1225017d-c696-4c76-ae0a-a7e85fbfea0b</itemGUID>  </subItems>         <!--	FF_Shoe_Common                          -->
+			  <subItems>  <itemGUID>6abee5b2-f3de-4931-93ae-eb90b50dc64e</itemGUID>  </subItems>         <!--	FF_Shoe_Trainers                        -->
+			  <subItems>  <itemGUID>d8292502-acb7-4269-966a-c6609a9db68d</itemGUID>  </subItems>         <!--	FF_Shoe_TrainersBlack                   -->
+			  <subItems>  <itemGUID>09b3d4c4-7ebb-4d03-abf4-fe10788931b6</itemGUID>  </subItems>         <!--	FF_Shoe_TrainersWhite                   -->
+			  <subItems>  <itemGUID>cffb73e7-bd8c-4352-b7af-f7cf1f23ec60</itemGUID>  </subItems>         <!--	FF_Shoe_Boots_Ankle                     -->
+			  <subItems>  <itemGUID>b42f8209-c000-4d2a-b7f6-e38ced16033b</itemGUID>  </subItems>         <!--	FF_Shoe_Boots_Ankle_Steel               -->
+			  <subItems>  <itemGUID>26150dc3-e1d9-49a6-ba7d-004a8c472227</itemGUID>  </subItems>         <!--	FF_Shoe_Boots_Ankle_Platform            -->
+			  <subItems>  <itemGUID>b9a3c342-bd94-47ad-848f-70d0eec2d019</itemGUID>  </subItems>         <!--	FF_Boots_UGG                            -->
+			  <subItems>  <itemGUID>967cf439-c3db-4aac-a2dc-6d8be37aa446</itemGUID>  </subItems>         <!--	FF_Boots_UGG_DwarfHeel                  -->
+			  <subItems>  <itemGUID>7e302f0a-1932-43f9-9b41-840e5836a47a</itemGUID>  </subItems>         <!--	FF_Boots_UGG_Heel                       -->
+			  <subItems>  <itemGUID>8cc2bbe6-03ec-4c8c-ae63-db3f2ab1f109</itemGUID>  </subItems>         <!--	FF_Boots_UGG_Kneehigh                   -->
+			  <subItems>  <itemGUID>a218ac71-9c22-4489-b2fc-ff686f99c9b2</itemGUID>  </subItems>         <!--	FF_Boots_UGG_KneehighHeel               -->
+			  <subItems>  <itemGUID>58d9ad7e-e8cc-4c8b-9a4d-197813f1e148</itemGUID>  </subItems>         <!--	FF_Boots_Platform_Kneehigh              -->
+			  <subItems>  <itemGUID>f8b84cf9-a0ba-49e7-8f87-78c0d3bd7761</itemGUID>  </subItems>         <!--	FF_Boots_Platform_Ankle                 -->
+			  <subItems>  <itemGUID>9fcc376d-4eb4-4509-90b2-49090b77f2de</itemGUID>  </subItems>         <!--	FF_Boots_Platform_AnkleLow              -->
+			  <subItems>  <itemGUID>9933ad81-4891-4af5-bc00-027ef80a7df8</itemGUID>  </subItems>         <!--	FF_Boots_PlatformPunk_Kneehigh          -->
+			  <subItems>  <itemGUID>043f86a6-9ac7-48f7-811d-36825a582743</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_DwarfHeel            -->
+			  <subItems>  <itemGUID>7e94ffec-0934-4d9b-8ccb-5abe9609bbe1</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_Heel                 -->
+			  <subItems>  <itemGUID>5b1223e6-0255-4095-b752-0ecad6fce790</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_KneehighHeel         -->
+			  <subItems>  <itemGUID>33a65ccc-c405-4a2c-82f3-099ba59d7832</itemGUID>  </subItems>         <!--	FF_Boots_Military_Kneehigh              -->
+			  <subItems>  <itemGUID>9121ec65-44c4-4354-94e7-9c97c51dfb1c</itemGUID>  </subItems>         <!--	FF_Boots_Military_Ankle                 -->
+			  <subItems>  <itemGUID>ab9fb434-4d10-4d47-8522-8c5abf3c4df5</itemGUID>  </subItems>         <!--	FF_Boots_Pointy_Kneehigh                -->
+			  <subItems>  <itemGUID>1c1e97e6-6997-4c75-9714-1a414e76ee0b</itemGUID>  </subItems>         <!--	FF_Boots_Pointy_Ankle                   -->
+			  <subItems>  <itemGUID>b602ff83-1667-40f8-a312-2fba91086895</itemGUID>  </subItems>         <!--	FF_Boots_Pointy_AnkleLow                -->
+			  
+			  <subItems>  <itemGUID>ca216761-08b8-4440-8879-0e604a52c5ee</itemGUID>  </subItems>         <!--	FE_BootsRE_LegWarmers_KneeHigh          -->
+			  <subItems>  <itemGUID>fa25f9bf-ef4d-45af-ab4a-75965f89caad</itemGUID>  </subItems>         <!--	FE_BootsRE_LegWarmers_KneeLow           -->
+			  <subItems>  <itemGUID>bc958d55-953c-449a-9a26-e63f1686e0e7</itemGUID>  </subItems>         <!--	FE_BootsRE_LegWarmers_AnkleHigh         -->
+			  <subItems>  <itemGUID>1ac5c84d-ad77-40b4-aacd-e4d3a76200f6</itemGUID>  </subItems>         <!--	FE_BootsRE_LegWarmers_Ankle             -->
+			  <subItems>  <itemGUID>01780e22-79fd-4a5c-8b21-b7cff8c37f2f</itemGUID>  </subItems>         <!--	FE_ShoesRE_LegWarmers_MJ_KneeHigh       -->
+			  <subItems>  <itemGUID>e3744f44-3c02-43f9-8b61-c1ba177b5406</itemGUID>  </subItems>         <!--	FE_ShoesRE_LegWarmers_MJ_KneeLow        -->
+			  <subItems>  <itemGUID>e4c845df-3949-478b-a233-cf8f5651af0b</itemGUID>  </subItems>         <!--	FE_ShoesRE_LegWarmers_MJ_AnkleHigh      -->
+			  <subItems>  <itemGUID>97c436c1-4c26-4ae6-8ecc-3141c35a6436</itemGUID>  </subItems>         <!--	FE_ShoesRE_LegWarmers_MJ_Ankle          -->
+			  <subItems>  <itemGUID>9bb78f79-e2e2-4467-9c1a-3362b882435d</itemGUID>  </subItems>         <!--	FF_Boots_HF_New                         -->
+			  <subItems>  <itemGUID>b24d2aba-d06c-4170-85e9-efb96cd9b1e9</itemGUID>  </subItems>         <!--	FF_Boots_HF_New_Longest                 -->
+			  <subItems>  <itemGUID>3c4b82f3-a13f-4aab-81b2-a71a2aad989a</itemGUID>  </subItems>         <!--	FF_Boots_HF_New_Longer                  -->
+			  <subItems>  <itemGUID>28a07d0e-0aa0-4cb1-ac31-5195061764b4</itemGUID>  </subItems>         <!--	FF_Boots_HF_New_Long                    -->
+			  <subItems>  <itemGUID>01d75d07-28a0-432f-a05a-4990356ccbb2</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGAGoth_KneeHigh            -->
+			  <subItems>  <itemGUID>e57f4c18-946c-4484-b396-8e8ede42b8be</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGAGoth_AnkleHigh           -->
+			  <subItems>  <itemGUID>335539a3-e53d-4bf2-99b9-2758f95af2ab</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGAGoth_Ankle               -->
+			  <subItems>  <itemGUID>d6973126-4e45-419e-94bc-72163b9bb16b</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGACool_KneeHigh            -->
+			  <subItems>  <itemGUID>ea82c1ce-fe88-4e35-a1a6-036e9f397505</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGACool_AnkleHigh           -->
+			  <subItems>  <itemGUID>9b0d1df0-5693-43ad-8374-ad1389949e70</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGACool_Ankle               -->
+			  <subItems>  <itemGUID>be2636a5-3abd-47ee-88cb-194fb411ef13</itemGUID>  </subItems>         <!--	FE_BootsRE_Stiletto_KneeHigh            -->
+			  <subItems>  <itemGUID>5219adce-ed78-402c-afd5-6577acb3fc0e</itemGUID>  </subItems>         <!--	FE_BootsRE_Stiletto_AnkleHigh           -->
+			  <subItems>  <itemGUID>868b66f8-e5ff-4960-8e7f-5d42f8169dc3</itemGUID>  </subItems>         <!--	FE_BootsRE_Stiletto_Ankle               -->
+			  <subItems>  <itemGUID>2db47a11-8d8b-4bf4-9e25-b910cd5fb0a9</itemGUID>  </subItems>         <!--	FE_HeelsRE_Stiletto_Premium_KneeHigh    -->
+			  <subItems>  <itemGUID>e2084901-25dc-40de-abb7-1ec134edb1a5</itemGUID>  </subItems>         <!--	FE_HeelsRE_Stiletto_Premium_AnkleHigh   -->
+			  <subItems>  <itemGUID>31d0a1d3-e34d-43b6-98bb-dca50122774a</itemGUID>  </subItems>         <!--	FE_HeelsRE_Stiletto_Premium_Ankle       -->
+			  <subItems>  <itemGUID>a1c5d072-00a1-4053-a40c-c85c1ed3987e</itemGUID>  </subItems>         <!--	FE_HeelsRE_SnkSkn_KneeHigh              -->
+			  <subItems>  <itemGUID>a5d515eb-79b5-4c3b-96e3-06013de377a5</itemGUID>  </subItems>         <!--	FE_HeelsRE_SnkSkn_AnkleHigh             -->
+			  <subItems>  <itemGUID>9df85d44-367b-4888-8aed-497b354c0217</itemGUID>  </subItems>         <!--	FE_HeelsRE_Leather_KneeHigh             -->
+			  <subItems>  <itemGUID>d12c6fbb-91ce-4c6d-a0d8-c0e0ce2b2921</itemGUID>  </subItems>         <!--	FE_HeelsRE_Leather_AnkleHigh            -->
+			  <subItems>  <itemGUID>2863a4c9-47ec-427d-835a-0b113e251e59</itemGUID>  </subItems>         <!--	FE_HeelsRE_Animal_KneeHigh              -->
+			  <subItems>  <itemGUID>7952e902-af09-48e4-ad12-cc874cc5403f</itemGUID>  </subItems>         <!--	FE_HeelsRE_Animal_AnkleHigh             -->
+			  <subItems>  <itemGUID>95efbcb0-51c8-439f-87d4-4fc0dbd9a661</itemGUID>  </subItems>         <!--	FE_HeelsRE_Converse_KneeHigh            -->
+			  <subItems>  <itemGUID>ed0be712-e043-48af-b872-ec143845c44a</itemGUID>  </subItems>         <!--	FE_HeelsRE_Converse_AnkleHigh           -->
+			  <subItems>  <itemGUID>23ab0bf6-9b32-4e6e-809d-7782f2fd12f8</itemGUID>  </subItems>         <!--	FF_Boots_HighHeels                      -->
+			  <subItems>  <itemGUID>2c009a9a-6272-462d-be2b-9b07a83db660</itemGUID>  </subItems>         <!--	FF_Shoe_Women                           -->
+			  <subItems>  <itemGUID>a268f4a3-2dad-42d9-ada1-4132f33a6004</itemGUID>  </subItems>         <!--	FF_Shoe_Women_Platform                  -->
+			  <subItems>  <itemGUID>bc2db9c8-04e6-410c-90c1-78ad80820f64</itemGUID>  </subItems>         <!--	FF_Shoe_Women_2                         -->
+			  <subItems>  <itemGUID>ce75d11b-49c1-4db2-a500-a82f42f2731b</itemGUID>  </subItems>         <!--	FF_Shoe_Moccasin                        -->
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+			<subItems>
+				<itemGUID>71f88535-959e-4be6-a60c-87fd2c127b4d</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>9df22d1f-96cd-4d2c-88f2-4e7423d93649</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<itemGUID>1e2ed52f-9ee7-464b-9581-a450f2fbb403</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>7c3a8a34-9ffa-42e0-83f4-55088f99d8a4</itemGUID>
+			<subItems>
+				<itemGUID>497a8849-6914-40fb-b3a6-9e01629e3e8b</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>62486601-5800-4eba-b317-fbcd9a0e2892</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>09537be2-eebc-4f58-a76d-ac46ea5b3654</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fc9184ea-72cd-4079-8457-5b9f7b5dab75</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>59341911-c4b8-4c30-a712-69df35ba228f</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>033be814-b060-457c-8ed6-43f7358606c3</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>b1c312bf-bc3b-4a52-a15d-fe5564399388</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>ee687253-26b0-4796-82ca-4f4a4976cf81</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>9221f803-d4ec-4947-b380-9c8b1fddebf0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>877f93aa-33c7-4453-9c47-5097038f580c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>404627a1-0fbe-4c95-921d-80eee1bac7f4</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>b53aaf11-929c-4506-8310-e9b26d5f20eb</itemGUID>
+			<subItems>
+				<itemGUID>3cac5469-f9d2-4462-8fb2-063be1b63450</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>3ae13d94-8df6-45c7-9e99-ad03c7d411ce</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>00b778ca-59bd-45a4-9a72-a74e5a541469</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>354db6a5-970b-477b-a119-f4a65eaa776f</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID>
+			<subItems>
+				<itemGUID>c6dd113b-3d04-4833-9f38-8e9840741c0c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fedba460-2edc-439d-89b6-f9607ddbf246</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>5b484f12-b43c-4a83-9009-af05a59ec267</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
+			<subItems>
+				<itemGUID>ce1a8520-7120-432e-8a3a-aa7b3094f0bb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>356869e4-1727-489f-8cc3-e7a16e76c137</itemGUID>
+			<subItems>
+				<itemGUID>582f29b1-29b3-468c-87fe-263b043e1443</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.05</probability>
+			<itemGUID>d5da91a6-03ad-44f7-b51f-b8fe5a01e41b</itemGUID>
+			<subItems>
+				<itemGUID>9f994766-9c05-4257-b840-661e9a805c16</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>6e92e4b5-69d0-4e00-b55e-498b8ec2d2eb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e49f1352-8f1a-4d15-8a5d-20395132f797</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fb825d89-c2fe-4fdc-a9ab-94cbf6e5607d</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>907b406e-7637-4ae8-9454-643ff61eb2b7</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e7236933-9139-4d6a-9e5d-ea818b1190dd</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>94dc4673-2c6f-47ba-8750-0749c5452eab</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e44a00b7-ef11-4b8f-9c8b-3e265afb0b67</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>d962c2f4-d1fc-45aa-a099-2c29efb19320</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e9914ee6-96eb-41cc-b6de-980fdbde8edf</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>111b43e6-3121-4537-8d41-b4ca11a7e107</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>d5395b87-1a26-4920-a8f9-2e3cde033f3b</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>737d3d4c-6909-4392-81e7-1d429f94d67d</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>be755761-5bee-4c65-b7bc-0b63332c4f9b</itemGUID>
+			</subItems>
+		</m_items>
+	</m_FemaleOutfits>
+	<m_FemaleOutfits>
+		<m_Name>Generic03</m_Name>
+		<m_Guid>8e4b7b38-1e6e-4cda-a7d7-f01b75e0c8e6</m_Guid>
+		<m_Pants>false</m_Pants>
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>99b1ff28-3884-4ca3-b827-7fdab685c7a6</itemGUID>
+			<subItems>
+				<itemGUID>ceead19e-1c55-4d89-8a59-864dd72d0c93</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>88b27ecc-8a00-4d1a-882e-1ab4f4a46350</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+			<subItems>
+				<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
+			  <subItems>  <itemGUID>a9a182e6-37a2-4b01-975f-ca26dbdde7e2</itemGUID>  </subItems>		 <!--	FE_ShoesRE_Sandals                      -->
+			  <subItems>  <itemGUID>baed5c61-2e3e-493b-a612-a6cec00e97e1</itemGUID>  </subItems>         <!--	FE_ShoesRE_Sandals_T                    -->
+			  <subItems>  <itemGUID>0ae40c45-fb89-4bc6-b91a-9d01f6b0ef2c</itemGUID>  </subItems>         <!--	FE_ShoesRE_Crocs                        -->
+			  <subItems>  <itemGUID>4c4c5cba-e441-4f3a-938b-dc23aec99a5f</itemGUID>  </subItems>         <!--	FE_ShoesRE_CrocsSlipper                 -->
+			  <subItems>  <itemGUID>7a7c8c03-659a-4921-87f5-ab5fb76b21b5</itemGUID>  </subItems>         <!--	FE_ShoesRE_Slippers                     -->
+			  <subItems>  <itemGUID>efd43d3b-4e81-40ae-89ed-bba054857882</itemGUID>  </subItems>         <!--	FE_Shoe_Trainers_LowTop                 -->
+			  <subItems>  <itemGUID>b359716f-ee34-4358-99e1-f7ce298259da</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersBlack_LowTop            -->
+			  <subItems>  <itemGUID>84c36276-572d-4077-879b-e3f6d6d7f38a</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersWhite_LowTop            -->
+			  <subItems>  <itemGUID>33654993-466f-4997-8c1f-33360e58df2f</itemGUID>  </subItems>         <!--	FE_Shoe_Trainers_HighTop                -->
+			  <subItems>  <itemGUID>e2375c59-20b1-4331-9e8f-6fd32bcab34f</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersBlack_HighTop           -->
+			  <subItems>  <itemGUID>3ca1077b-88a9-4dbc-8d31-322a01b8149b</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersWhite_HighTop           -->
+			  <subItems>  <itemGUID>67066305-179f-44e0-87d6-d59242822426</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_KneeHigh            -->
+			  <subItems>  <itemGUID>35e7838f-b72f-418b-8ecb-eea7e716a891</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_AnkleHigher         -->
+			  <subItems>  <itemGUID>47899051-1216-4ad4-bdd0-0d46c3ff1a8d</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_AnkleHigh           -->
+			  <subItems>  <itemGUID>4c625336-b267-48eb-9b67-142965cf97bf</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_Ankle               -->
+			  <subItems>  <itemGUID>b0a0f19f-3c58-4d4e-9697-1ac8ba8221af</itemGUID>  </subItems>         <!--	FE_Boots_Converse_Kneehigh              -->
+			  <subItems>  <itemGUID>8e9bbc5b-6ab8-4e8c-8ca8-7b065da95ba7</itemGUID>  </subItems>         <!--	FE_BootsRE_Chelsea_AnkleHigher          -->
+			  <subItems>  <itemGUID>9fdf99ce-2890-442a-8f18-f1c32cf4bf36</itemGUID>  </subItems>         <!--	FE_BootsRE_Chelsea_AnkleHigh            -->
+			  <subItems>  <itemGUID>f36e172d-efa6-4a90-8ad0-97316f15ee16</itemGUID>  </subItems>         <!--	FE_ShoesRE_Chelsea                      -->
+			  <subItems>  <itemGUID>88ec8f43-cf1e-428d-97d1-e867b39c28f0</itemGUID>  </subItems>         <!--	FE_BootsRE_Combat_AnkleHigher           -->
+			  <subItems>  <itemGUID>967771df-e3e5-4f94-a7c6-9b0051a32e1b</itemGUID>  </subItems>         <!--	FE_BootsRE_Combat_AnkleHigherLoose      -->
+			  <subItems>  <itemGUID>d46340fb-613f-4548-b216-39118c9e1b6c</itemGUID>  </subItems>         <!--	FE_BootsRE_Combat_AnkleHigh             -->
+			  <subItems>  <itemGUID>38e5b700-1264-4953-aa58-7d010054e256</itemGUID>  </subItems>         <!--	FE_ShoesRE_Combat                       -->
+			  <subItems>  <itemGUID>41ac81e1-d34c-4424-afee-420ca507cb02</itemGUID>  </subItems>         <!--	FE_BootsRE_LeatherCasual_AnkleHigher    -->
+			  <subItems>  <itemGUID>adcf0b19-9626-46f9-9183-498a6402ac3a</itemGUID>  </subItems>         <!--	FE_BootsRE_LeatherCasual_AnkleHigh      -->
+			  <subItems>  <itemGUID>fdea3d63-c4af-442e-b580-cd4b6d698ba5</itemGUID>  </subItems>         <!--	FE_ShoesRE_LeatherCasual                -->
+			  <subItems>  <itemGUID>1074804a-96bc-4ea0-9203-9ef4562891ca</itemGUID>  </subItems>         <!--	FE_ShoesRE_Casual                       -->
+			  <subItems>  <itemGUID>33ea1b5c-31fb-4c73-8653-3143c85e46b2</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_KneeHigh             -->
+			  <subItems>  <itemGUID>c9310564-7af1-4a06-aa4c-a7f8fbd307c6</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_KneeLow              -->
+			  <subItems>  <itemGUID>bb857fba-9b1c-4fce-a2bc-70e91c9a92ff</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_AnkleHigh            -->
+			  <subItems>  <itemGUID>132bd25d-6060-4d36-a7ff-6119875f0a56</itemGUID>  </subItems>         <!--	FF_Boots_Leather                        -->
+			  <subItems>  <itemGUID>cb5f35aa-a1ea-46d3-bac4-371cdd9f1030</itemGUID>  </subItems>         <!--	FF_Boots_Leather_Short                  -->
+			  <subItems>  <itemGUID>9f0c6f6c-5766-4e82-81ac-3f2bea7903f3</itemGUID>  </subItems>         <!--	FF_Boots_Cowboy                         -->
+			  <subItems>  <itemGUID>2d3bcd78-73c2-4cba-a619-9cc41bf9444d</itemGUID>  </subItems>         <!--	FF_Boots_Cowboy_Plain                   -->
+			  <subItems>  <itemGUID>7818cd27-72ff-4e71-95a2-70d3d4cd2536</itemGUID>  </subItems>         <!--	FF_Boots_Common                         -->
+			  <subItems>  <itemGUID>1225017d-c696-4c76-ae0a-a7e85fbfea0b</itemGUID>  </subItems>         <!--	FF_Shoe_Common                          -->
+			  <subItems>  <itemGUID>6abee5b2-f3de-4931-93ae-eb90b50dc64e</itemGUID>  </subItems>         <!--	FF_Shoe_Trainers                        -->
+			  <subItems>  <itemGUID>d8292502-acb7-4269-966a-c6609a9db68d</itemGUID>  </subItems>         <!--	FF_Shoe_TrainersBlack                   -->
+			  <subItems>  <itemGUID>09b3d4c4-7ebb-4d03-abf4-fe10788931b6</itemGUID>  </subItems>         <!--	FF_Shoe_TrainersWhite                   -->
+			  <subItems>  <itemGUID>cffb73e7-bd8c-4352-b7af-f7cf1f23ec60</itemGUID>  </subItems>         <!--	FF_Shoe_Boots_Ankle                     -->
+			  <subItems>  <itemGUID>b42f8209-c000-4d2a-b7f6-e38ced16033b</itemGUID>  </subItems>         <!--	FF_Shoe_Boots_Ankle_Steel               -->
+			  <subItems>  <itemGUID>26150dc3-e1d9-49a6-ba7d-004a8c472227</itemGUID>  </subItems>         <!--	FF_Shoe_Boots_Ankle_Platform            -->
+			  <subItems>  <itemGUID>b9a3c342-bd94-47ad-848f-70d0eec2d019</itemGUID>  </subItems>         <!--	FF_Boots_UGG                            -->
+			  <subItems>  <itemGUID>967cf439-c3db-4aac-a2dc-6d8be37aa446</itemGUID>  </subItems>         <!--	FF_Boots_UGG_DwarfHeel                  -->
+			  <subItems>  <itemGUID>7e302f0a-1932-43f9-9b41-840e5836a47a</itemGUID>  </subItems>         <!--	FF_Boots_UGG_Heel                       -->
+			  <subItems>  <itemGUID>8cc2bbe6-03ec-4c8c-ae63-db3f2ab1f109</itemGUID>  </subItems>         <!--	FF_Boots_UGG_Kneehigh                   -->
+			  <subItems>  <itemGUID>a218ac71-9c22-4489-b2fc-ff686f99c9b2</itemGUID>  </subItems>         <!--	FF_Boots_UGG_KneehighHeel               -->
+			  <subItems>  <itemGUID>58d9ad7e-e8cc-4c8b-9a4d-197813f1e148</itemGUID>  </subItems>         <!--	FF_Boots_Platform_Kneehigh              -->
+			  <subItems>  <itemGUID>f8b84cf9-a0ba-49e7-8f87-78c0d3bd7761</itemGUID>  </subItems>         <!--	FF_Boots_Platform_Ankle                 -->
+			  <subItems>  <itemGUID>9fcc376d-4eb4-4509-90b2-49090b77f2de</itemGUID>  </subItems>         <!--	FF_Boots_Platform_AnkleLow              -->
+			  <subItems>  <itemGUID>9933ad81-4891-4af5-bc00-027ef80a7df8</itemGUID>  </subItems>         <!--	FF_Boots_PlatformPunk_Kneehigh          -->
+			  <subItems>  <itemGUID>043f86a6-9ac7-48f7-811d-36825a582743</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_DwarfHeel            -->
+			  <subItems>  <itemGUID>7e94ffec-0934-4d9b-8ccb-5abe9609bbe1</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_Heel                 -->
+			  <subItems>  <itemGUID>5b1223e6-0255-4095-b752-0ecad6fce790</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_KneehighHeel         -->
+			  <subItems>  <itemGUID>33a65ccc-c405-4a2c-82f3-099ba59d7832</itemGUID>  </subItems>         <!--	FF_Boots_Military_Kneehigh              -->
+			  <subItems>  <itemGUID>9121ec65-44c4-4354-94e7-9c97c51dfb1c</itemGUID>  </subItems>         <!--	FF_Boots_Military_Ankle                 -->
+			  <subItems>  <itemGUID>ab9fb434-4d10-4d47-8522-8c5abf3c4df5</itemGUID>  </subItems>         <!--	FF_Boots_Pointy_Kneehigh                -->
+			  <subItems>  <itemGUID>1c1e97e6-6997-4c75-9714-1a414e76ee0b</itemGUID>  </subItems>         <!--	FF_Boots_Pointy_Ankle                   -->
+			  <subItems>  <itemGUID>b602ff83-1667-40f8-a312-2fba91086895</itemGUID>  </subItems>         <!--	FF_Boots_Pointy_AnkleLow                -->
+			  
+			  <subItems>  <itemGUID>ca216761-08b8-4440-8879-0e604a52c5ee</itemGUID>  </subItems>         <!--	FE_BootsRE_LegWarmers_KneeHigh          -->
+			  <subItems>  <itemGUID>fa25f9bf-ef4d-45af-ab4a-75965f89caad</itemGUID>  </subItems>         <!--	FE_BootsRE_LegWarmers_KneeLow           -->
+			  <subItems>  <itemGUID>bc958d55-953c-449a-9a26-e63f1686e0e7</itemGUID>  </subItems>         <!--	FE_BootsRE_LegWarmers_AnkleHigh         -->
+			  <subItems>  <itemGUID>1ac5c84d-ad77-40b4-aacd-e4d3a76200f6</itemGUID>  </subItems>         <!--	FE_BootsRE_LegWarmers_Ankle             -->
+			  <subItems>  <itemGUID>01780e22-79fd-4a5c-8b21-b7cff8c37f2f</itemGUID>  </subItems>         <!--	FE_ShoesRE_LegWarmers_MJ_KneeHigh       -->
+			  <subItems>  <itemGUID>e3744f44-3c02-43f9-8b61-c1ba177b5406</itemGUID>  </subItems>         <!--	FE_ShoesRE_LegWarmers_MJ_KneeLow        -->
+			  <subItems>  <itemGUID>e4c845df-3949-478b-a233-cf8f5651af0b</itemGUID>  </subItems>         <!--	FE_ShoesRE_LegWarmers_MJ_AnkleHigh      -->
+			  <subItems>  <itemGUID>97c436c1-4c26-4ae6-8ecc-3141c35a6436</itemGUID>  </subItems>         <!--	FE_ShoesRE_LegWarmers_MJ_Ankle          -->
+			  <subItems>  <itemGUID>9bb78f79-e2e2-4467-9c1a-3362b882435d</itemGUID>  </subItems>         <!--	FF_Boots_HF_New                         -->
+			  <subItems>  <itemGUID>b24d2aba-d06c-4170-85e9-efb96cd9b1e9</itemGUID>  </subItems>         <!--	FF_Boots_HF_New_Longest                 -->
+			  <subItems>  <itemGUID>3c4b82f3-a13f-4aab-81b2-a71a2aad989a</itemGUID>  </subItems>         <!--	FF_Boots_HF_New_Longer                  -->
+			  <subItems>  <itemGUID>28a07d0e-0aa0-4cb1-ac31-5195061764b4</itemGUID>  </subItems>         <!--	FF_Boots_HF_New_Long                    -->
+			  <subItems>  <itemGUID>01d75d07-28a0-432f-a05a-4990356ccbb2</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGAGoth_KneeHigh            -->
+			  <subItems>  <itemGUID>e57f4c18-946c-4484-b396-8e8ede42b8be</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGAGoth_AnkleHigh           -->
+			  <subItems>  <itemGUID>335539a3-e53d-4bf2-99b9-2758f95af2ab</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGAGoth_Ankle               -->
+			  <subItems>  <itemGUID>d6973126-4e45-419e-94bc-72163b9bb16b</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGACool_KneeHigh            -->
+			  <subItems>  <itemGUID>ea82c1ce-fe88-4e35-a1a6-036e9f397505</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGACool_AnkleHigh           -->
+			  <subItems>  <itemGUID>9b0d1df0-5693-43ad-8374-ad1389949e70</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGACool_Ankle               -->
+			  <subItems>  <itemGUID>be2636a5-3abd-47ee-88cb-194fb411ef13</itemGUID>  </subItems>         <!--	FE_BootsRE_Stiletto_KneeHigh            -->
+			  <subItems>  <itemGUID>5219adce-ed78-402c-afd5-6577acb3fc0e</itemGUID>  </subItems>         <!--	FE_BootsRE_Stiletto_AnkleHigh           -->
+			  <subItems>  <itemGUID>868b66f8-e5ff-4960-8e7f-5d42f8169dc3</itemGUID>  </subItems>         <!--	FE_BootsRE_Stiletto_Ankle               -->
+			  <subItems>  <itemGUID>2db47a11-8d8b-4bf4-9e25-b910cd5fb0a9</itemGUID>  </subItems>         <!--	FE_HeelsRE_Stiletto_Premium_KneeHigh    -->
+			  <subItems>  <itemGUID>e2084901-25dc-40de-abb7-1ec134edb1a5</itemGUID>  </subItems>         <!--	FE_HeelsRE_Stiletto_Premium_AnkleHigh   -->
+			  <subItems>  <itemGUID>31d0a1d3-e34d-43b6-98bb-dca50122774a</itemGUID>  </subItems>         <!--	FE_HeelsRE_Stiletto_Premium_Ankle       -->
+			  <subItems>  <itemGUID>a1c5d072-00a1-4053-a40c-c85c1ed3987e</itemGUID>  </subItems>         <!--	FE_HeelsRE_SnkSkn_KneeHigh              -->
+			  <subItems>  <itemGUID>a5d515eb-79b5-4c3b-96e3-06013de377a5</itemGUID>  </subItems>         <!--	FE_HeelsRE_SnkSkn_AnkleHigh             -->
+			  <subItems>  <itemGUID>9df85d44-367b-4888-8aed-497b354c0217</itemGUID>  </subItems>         <!--	FE_HeelsRE_Leather_KneeHigh             -->
+			  <subItems>  <itemGUID>d12c6fbb-91ce-4c6d-a0d8-c0e0ce2b2921</itemGUID>  </subItems>         <!--	FE_HeelsRE_Leather_AnkleHigh            -->
+			  <subItems>  <itemGUID>2863a4c9-47ec-427d-835a-0b113e251e59</itemGUID>  </subItems>         <!--	FE_HeelsRE_Animal_KneeHigh              -->
+			  <subItems>  <itemGUID>7952e902-af09-48e4-ad12-cc874cc5403f</itemGUID>  </subItems>         <!--	FE_HeelsRE_Animal_AnkleHigh             -->
+			  <subItems>  <itemGUID>95efbcb0-51c8-439f-87d4-4fc0dbd9a661</itemGUID>  </subItems>         <!--	FE_HeelsRE_Converse_KneeHigh            -->
+			  <subItems>  <itemGUID>ed0be712-e043-48af-b872-ec143845c44a</itemGUID>  </subItems>         <!--	FE_HeelsRE_Converse_AnkleHigh           -->
+			  <subItems>  <itemGUID>23ab0bf6-9b32-4e6e-809d-7782f2fd12f8</itemGUID>  </subItems>         <!--	FF_Boots_HighHeels                      -->
+			  <subItems>  <itemGUID>2c009a9a-6272-462d-be2b-9b07a83db660</itemGUID>  </subItems>         <!--	FF_Shoe_Women                           -->
+			  <subItems>  <itemGUID>a268f4a3-2dad-42d9-ada1-4132f33a6004</itemGUID>  </subItems>         <!--	FF_Shoe_Women_Platform                  -->
+			  <subItems>  <itemGUID>bc2db9c8-04e6-410c-90c1-78ad80820f64</itemGUID>  </subItems>         <!--	FF_Shoe_Women_2                         -->
+			  <subItems>  <itemGUID>ce75d11b-49c1-4db2-a500-a82f42f2731b</itemGUID>  </subItems>         <!--	FF_Shoe_Moccasin                        -->
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>7b339ad5-da2e-42a5-8a51-ee87239a943c</itemGUID>
+			<subItems>
+				<itemGUID>b78f9552-1d93-46b7-a42c-6f554ce43e29</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>cfa30053-1c89-4749-8f6f-ce8335b7a031</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<itemGUID>8973893f-f324-4cdb-a32b-43cd0378174f</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+			<subItems>
+				<itemGUID>71f88535-959e-4be6-a60c-87fd2c127b4d</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>9df22d1f-96cd-4d2c-88f2-4e7423d93649</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>7c3a8a34-9ffa-42e0-83f4-55088f99d8a4</itemGUID>
+			<subItems>
+				<itemGUID>497a8849-6914-40fb-b3a6-9e01629e3e8b</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>62486601-5800-4eba-b317-fbcd9a0e2892</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>09537be2-eebc-4f58-a76d-ac46ea5b3654</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fc9184ea-72cd-4079-8457-5b9f7b5dab75</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>59341911-c4b8-4c30-a712-69df35ba228f</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>033be814-b060-457c-8ed6-43f7358606c3</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>b1c312bf-bc3b-4a52-a15d-fe5564399388</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>ee687253-26b0-4796-82ca-4f4a4976cf81</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>9221f803-d4ec-4947-b380-9c8b1fddebf0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>877f93aa-33c7-4453-9c47-5097038f580c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>404627a1-0fbe-4c95-921d-80eee1bac7f4</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>b53aaf11-929c-4506-8310-e9b26d5f20eb</itemGUID>
+			<subItems>
+				<itemGUID>3cac5469-f9d2-4462-8fb2-063be1b63450</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>3ae13d94-8df6-45c7-9e99-ad03c7d411ce</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>00b778ca-59bd-45a4-9a72-a74e5a541469</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>354db6a5-970b-477b-a119-f4a65eaa776f</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID>
+			<subItems>
+				<itemGUID>c6dd113b-3d04-4833-9f38-8e9840741c0c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fedba460-2edc-439d-89b6-f9607ddbf246</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>5b484f12-b43c-4a83-9009-af05a59ec267</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
+			<subItems>
+				<itemGUID>ce1a8520-7120-432e-8a3a-aa7b3094f0bb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>356869e4-1727-489f-8cc3-e7a16e76c137</itemGUID>
+			<subItems>
+				<itemGUID>582f29b1-29b3-468c-87fe-263b043e1443</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.05</probability>
+			<itemGUID>d5da91a6-03ad-44f7-b51f-b8fe5a01e41b</itemGUID>
+			<subItems>
+				<itemGUID>9f994766-9c05-4257-b840-661e9a805c16</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>6e92e4b5-69d0-4e00-b55e-498b8ec2d2eb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e49f1352-8f1a-4d15-8a5d-20395132f797</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fb825d89-c2fe-4fdc-a9ab-94cbf6e5607d</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>907b406e-7637-4ae8-9454-643ff61eb2b7</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e7236933-9139-4d6a-9e5d-ea818b1190dd</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>94dc4673-2c6f-47ba-8750-0749c5452eab</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e44a00b7-ef11-4b8f-9c8b-3e265afb0b67</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>d962c2f4-d1fc-45aa-a099-2c29efb19320</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e9914ee6-96eb-41cc-b6de-980fdbde8edf</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>111b43e6-3121-4537-8d41-b4ca11a7e107</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>d5395b87-1a26-4920-a8f9-2e3cde033f3b</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>737d3d4c-6909-4392-81e7-1d429f94d67d</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>be755761-5bee-4c65-b7bc-0b63332c4f9b</itemGUID>
+			</subItems>
+		</m_items>
+	</m_FemaleOutfits>
+	<m_FemaleOutfits>
+		<m_Name>Generic04</m_Name>
+		<m_Guid>bdd925eb-c34a-4355-b430-0552cfceba9e</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items>
+			<itemGUID>974489bc-80fa-44b8-a98b-00dad260dd14</itemGUID>
+			<subItems>
+				<itemGUID>d876d21a-b8c3-4865-a063-9bdcf3acaeb1</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<itemGUID>229b23f6-8e8f-4f16-837b-4fe950c48bfc</itemGUID>
+		</m_items>
+		<m_items>
+			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+		</m_items>
+		<m_items>
+			<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
+			<subItems>
+				<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
+			</subItems>
+			  <subItems>  <itemGUID>a9a182e6-37a2-4b01-975f-ca26dbdde7e2</itemGUID>  </subItems>		 <!--	FE_ShoesRE_Sandals                      -->
+			  <subItems>  <itemGUID>baed5c61-2e3e-493b-a612-a6cec00e97e1</itemGUID>  </subItems>         <!--	FE_ShoesRE_Sandals_T                    -->
+			  <subItems>  <itemGUID>0ae40c45-fb89-4bc6-b91a-9d01f6b0ef2c</itemGUID>  </subItems>         <!--	FE_ShoesRE_Crocs                        -->
+			  <subItems>  <itemGUID>4c4c5cba-e441-4f3a-938b-dc23aec99a5f</itemGUID>  </subItems>         <!--	FE_ShoesRE_CrocsSlipper                 -->
+			  <subItems>  <itemGUID>7a7c8c03-659a-4921-87f5-ab5fb76b21b5</itemGUID>  </subItems>         <!--	FE_ShoesRE_Slippers                     -->
+			  <subItems>  <itemGUID>efd43d3b-4e81-40ae-89ed-bba054857882</itemGUID>  </subItems>         <!--	FE_Shoe_Trainers_LowTop                 -->
+			  <subItems>  <itemGUID>b359716f-ee34-4358-99e1-f7ce298259da</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersBlack_LowTop            -->
+			  <subItems>  <itemGUID>84c36276-572d-4077-879b-e3f6d6d7f38a</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersWhite_LowTop            -->
+			  <subItems>  <itemGUID>33654993-466f-4997-8c1f-33360e58df2f</itemGUID>  </subItems>         <!--	FE_Shoe_Trainers_HighTop                -->
+			  <subItems>  <itemGUID>e2375c59-20b1-4331-9e8f-6fd32bcab34f</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersBlack_HighTop           -->
+			  <subItems>  <itemGUID>3ca1077b-88a9-4dbc-8d31-322a01b8149b</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersWhite_HighTop           -->
+			  <subItems>  <itemGUID>67066305-179f-44e0-87d6-d59242822426</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_KneeHigh            -->
+			  <subItems>  <itemGUID>35e7838f-b72f-418b-8ecb-eea7e716a891</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_AnkleHigher         -->
+			  <subItems>  <itemGUID>47899051-1216-4ad4-bdd0-0d46c3ff1a8d</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_AnkleHigh           -->
+			  <subItems>  <itemGUID>4c625336-b267-48eb-9b67-142965cf97bf</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_Ankle               -->
+			  <subItems>  <itemGUID>b0a0f19f-3c58-4d4e-9697-1ac8ba8221af</itemGUID>  </subItems>         <!--	FE_Boots_Converse_Kneehigh              -->
+			  <subItems>  <itemGUID>8e9bbc5b-6ab8-4e8c-8ca8-7b065da95ba7</itemGUID>  </subItems>         <!--	FE_BootsRE_Chelsea_AnkleHigher          -->
+			  <subItems>  <itemGUID>9fdf99ce-2890-442a-8f18-f1c32cf4bf36</itemGUID>  </subItems>         <!--	FE_BootsRE_Chelsea_AnkleHigh            -->
+			  <subItems>  <itemGUID>f36e172d-efa6-4a90-8ad0-97316f15ee16</itemGUID>  </subItems>         <!--	FE_ShoesRE_Chelsea                      -->
+			  <subItems>  <itemGUID>88ec8f43-cf1e-428d-97d1-e867b39c28f0</itemGUID>  </subItems>         <!--	FE_BootsRE_Combat_AnkleHigher           -->
+			  <subItems>  <itemGUID>967771df-e3e5-4f94-a7c6-9b0051a32e1b</itemGUID>  </subItems>         <!--	FE_BootsRE_Combat_AnkleHigherLoose      -->
+			  <subItems>  <itemGUID>d46340fb-613f-4548-b216-39118c9e1b6c</itemGUID>  </subItems>         <!--	FE_BootsRE_Combat_AnkleHigh             -->
+			  <subItems>  <itemGUID>38e5b700-1264-4953-aa58-7d010054e256</itemGUID>  </subItems>         <!--	FE_ShoesRE_Combat                       -->
+			  <subItems>  <itemGUID>41ac81e1-d34c-4424-afee-420ca507cb02</itemGUID>  </subItems>         <!--	FE_BootsRE_LeatherCasual_AnkleHigher    -->
+			  <subItems>  <itemGUID>adcf0b19-9626-46f9-9183-498a6402ac3a</itemGUID>  </subItems>         <!--	FE_BootsRE_LeatherCasual_AnkleHigh      -->
+			  <subItems>  <itemGUID>fdea3d63-c4af-442e-b580-cd4b6d698ba5</itemGUID>  </subItems>         <!--	FE_ShoesRE_LeatherCasual                -->
+			  <subItems>  <itemGUID>1074804a-96bc-4ea0-9203-9ef4562891ca</itemGUID>  </subItems>         <!--	FE_ShoesRE_Casual                       -->
+			  <subItems>  <itemGUID>33ea1b5c-31fb-4c73-8653-3143c85e46b2</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_KneeHigh             -->
+			  <subItems>  <itemGUID>c9310564-7af1-4a06-aa4c-a7f8fbd307c6</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_KneeLow              -->
+			  <subItems>  <itemGUID>bb857fba-9b1c-4fce-a2bc-70e91c9a92ff</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_AnkleHigh            -->
+			  <subItems>  <itemGUID>132bd25d-6060-4d36-a7ff-6119875f0a56</itemGUID>  </subItems>         <!--	FF_Boots_Leather                        -->
+			  <subItems>  <itemGUID>cb5f35aa-a1ea-46d3-bac4-371cdd9f1030</itemGUID>  </subItems>         <!--	FF_Boots_Leather_Short                  -->
+			  <subItems>  <itemGUID>9f0c6f6c-5766-4e82-81ac-3f2bea7903f3</itemGUID>  </subItems>         <!--	FF_Boots_Cowboy                         -->
+			  <subItems>  <itemGUID>2d3bcd78-73c2-4cba-a619-9cc41bf9444d</itemGUID>  </subItems>         <!--	FF_Boots_Cowboy_Plain                   -->
+			  <subItems>  <itemGUID>7818cd27-72ff-4e71-95a2-70d3d4cd2536</itemGUID>  </subItems>         <!--	FF_Boots_Common                         -->
+			  <subItems>  <itemGUID>1225017d-c696-4c76-ae0a-a7e85fbfea0b</itemGUID>  </subItems>         <!--	FF_Shoe_Common                          -->
+			  <subItems>  <itemGUID>6abee5b2-f3de-4931-93ae-eb90b50dc64e</itemGUID>  </subItems>         <!--	FF_Shoe_Trainers                        -->
+			  <subItems>  <itemGUID>d8292502-acb7-4269-966a-c6609a9db68d</itemGUID>  </subItems>         <!--	FF_Shoe_TrainersBlack                   -->
+			  <subItems>  <itemGUID>09b3d4c4-7ebb-4d03-abf4-fe10788931b6</itemGUID>  </subItems>         <!--	FF_Shoe_TrainersWhite                   -->
+			  <subItems>  <itemGUID>cffb73e7-bd8c-4352-b7af-f7cf1f23ec60</itemGUID>  </subItems>         <!--	FF_Shoe_Boots_Ankle                     -->
+			  <subItems>  <itemGUID>b42f8209-c000-4d2a-b7f6-e38ced16033b</itemGUID>  </subItems>         <!--	FF_Shoe_Boots_Ankle_Steel               -->
+			  <subItems>  <itemGUID>26150dc3-e1d9-49a6-ba7d-004a8c472227</itemGUID>  </subItems>         <!--	FF_Shoe_Boots_Ankle_Platform            -->
+			  <subItems>  <itemGUID>b9a3c342-bd94-47ad-848f-70d0eec2d019</itemGUID>  </subItems>         <!--	FF_Boots_UGG                            -->
+			  <subItems>  <itemGUID>967cf439-c3db-4aac-a2dc-6d8be37aa446</itemGUID>  </subItems>         <!--	FF_Boots_UGG_DwarfHeel                  -->
+			  <subItems>  <itemGUID>7e302f0a-1932-43f9-9b41-840e5836a47a</itemGUID>  </subItems>         <!--	FF_Boots_UGG_Heel                       -->
+			  <subItems>  <itemGUID>8cc2bbe6-03ec-4c8c-ae63-db3f2ab1f109</itemGUID>  </subItems>         <!--	FF_Boots_UGG_Kneehigh                   -->
+			  <subItems>  <itemGUID>a218ac71-9c22-4489-b2fc-ff686f99c9b2</itemGUID>  </subItems>         <!--	FF_Boots_UGG_KneehighHeel               -->
+			  <subItems>  <itemGUID>58d9ad7e-e8cc-4c8b-9a4d-197813f1e148</itemGUID>  </subItems>         <!--	FF_Boots_Platform_Kneehigh              -->
+			  <subItems>  <itemGUID>f8b84cf9-a0ba-49e7-8f87-78c0d3bd7761</itemGUID>  </subItems>         <!--	FF_Boots_Platform_Ankle                 -->
+			  <subItems>  <itemGUID>9fcc376d-4eb4-4509-90b2-49090b77f2de</itemGUID>  </subItems>         <!--	FF_Boots_Platform_AnkleLow              -->
+			  <subItems>  <itemGUID>9933ad81-4891-4af5-bc00-027ef80a7df8</itemGUID>  </subItems>         <!--	FF_Boots_PlatformPunk_Kneehigh          -->
+			  <subItems>  <itemGUID>043f86a6-9ac7-48f7-811d-36825a582743</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_DwarfHeel            -->
+			  <subItems>  <itemGUID>7e94ffec-0934-4d9b-8ccb-5abe9609bbe1</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_Heel                 -->
+			  <subItems>  <itemGUID>5b1223e6-0255-4095-b752-0ecad6fce790</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_KneehighHeel         -->
+			  <subItems>  <itemGUID>33a65ccc-c405-4a2c-82f3-099ba59d7832</itemGUID>  </subItems>         <!--	FF_Boots_Military_Kneehigh              -->
+			  <subItems>  <itemGUID>9121ec65-44c4-4354-94e7-9c97c51dfb1c</itemGUID>  </subItems>         <!--	FF_Boots_Military_Ankle                 -->
+			  <subItems>  <itemGUID>ab9fb434-4d10-4d47-8522-8c5abf3c4df5</itemGUID>  </subItems>         <!--	FF_Boots_Pointy_Kneehigh                -->
+			  <subItems>  <itemGUID>1c1e97e6-6997-4c75-9714-1a414e76ee0b</itemGUID>  </subItems>         <!--	FF_Boots_Pointy_Ankle                   -->
+			  <subItems>  <itemGUID>b602ff83-1667-40f8-a312-2fba91086895</itemGUID>  </subItems>         <!--	FF_Boots_Pointy_AnkleLow                -->
+			  
+			  <subItems>  <itemGUID>ca216761-08b8-4440-8879-0e604a52c5ee</itemGUID>  </subItems>         <!--	FE_BootsRE_LegWarmers_KneeHigh          -->
+			  <subItems>  <itemGUID>fa25f9bf-ef4d-45af-ab4a-75965f89caad</itemGUID>  </subItems>         <!--	FE_BootsRE_LegWarmers_KneeLow           -->
+			  <subItems>  <itemGUID>bc958d55-953c-449a-9a26-e63f1686e0e7</itemGUID>  </subItems>         <!--	FE_BootsRE_LegWarmers_AnkleHigh         -->
+			  <subItems>  <itemGUID>1ac5c84d-ad77-40b4-aacd-e4d3a76200f6</itemGUID>  </subItems>         <!--	FE_BootsRE_LegWarmers_Ankle             -->
+			  <subItems>  <itemGUID>01780e22-79fd-4a5c-8b21-b7cff8c37f2f</itemGUID>  </subItems>         <!--	FE_ShoesRE_LegWarmers_MJ_KneeHigh       -->
+			  <subItems>  <itemGUID>e3744f44-3c02-43f9-8b61-c1ba177b5406</itemGUID>  </subItems>         <!--	FE_ShoesRE_LegWarmers_MJ_KneeLow        -->
+			  <subItems>  <itemGUID>e4c845df-3949-478b-a233-cf8f5651af0b</itemGUID>  </subItems>         <!--	FE_ShoesRE_LegWarmers_MJ_AnkleHigh      -->
+			  <subItems>  <itemGUID>97c436c1-4c26-4ae6-8ecc-3141c35a6436</itemGUID>  </subItems>         <!--	FE_ShoesRE_LegWarmers_MJ_Ankle          -->
+			  <subItems>  <itemGUID>9bb78f79-e2e2-4467-9c1a-3362b882435d</itemGUID>  </subItems>         <!--	FF_Boots_HF_New                         -->
+			  <subItems>  <itemGUID>b24d2aba-d06c-4170-85e9-efb96cd9b1e9</itemGUID>  </subItems>         <!--	FF_Boots_HF_New_Longest                 -->
+			  <subItems>  <itemGUID>3c4b82f3-a13f-4aab-81b2-a71a2aad989a</itemGUID>  </subItems>         <!--	FF_Boots_HF_New_Longer                  -->
+			  <subItems>  <itemGUID>28a07d0e-0aa0-4cb1-ac31-5195061764b4</itemGUID>  </subItems>         <!--	FF_Boots_HF_New_Long                    -->
+			  <subItems>  <itemGUID>01d75d07-28a0-432f-a05a-4990356ccbb2</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGAGoth_KneeHigh            -->
+			  <subItems>  <itemGUID>e57f4c18-946c-4484-b396-8e8ede42b8be</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGAGoth_AnkleHigh           -->
+			  <subItems>  <itemGUID>335539a3-e53d-4bf2-99b9-2758f95af2ab</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGAGoth_Ankle               -->
+			  <subItems>  <itemGUID>d6973126-4e45-419e-94bc-72163b9bb16b</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGACool_KneeHigh            -->
+			  <subItems>  <itemGUID>ea82c1ce-fe88-4e35-a1a6-036e9f397505</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGACool_AnkleHigh           -->
+			  <subItems>  <itemGUID>9b0d1df0-5693-43ad-8374-ad1389949e70</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGACool_Ankle               -->
+			  <subItems>  <itemGUID>be2636a5-3abd-47ee-88cb-194fb411ef13</itemGUID>  </subItems>         <!--	FE_BootsRE_Stiletto_KneeHigh            -->
+			  <subItems>  <itemGUID>5219adce-ed78-402c-afd5-6577acb3fc0e</itemGUID>  </subItems>         <!--	FE_BootsRE_Stiletto_AnkleHigh           -->
+			  <subItems>  <itemGUID>868b66f8-e5ff-4960-8e7f-5d42f8169dc3</itemGUID>  </subItems>         <!--	FE_BootsRE_Stiletto_Ankle               -->
+			  <subItems>  <itemGUID>2db47a11-8d8b-4bf4-9e25-b910cd5fb0a9</itemGUID>  </subItems>         <!--	FE_HeelsRE_Stiletto_Premium_KneeHigh    -->
+			  <subItems>  <itemGUID>e2084901-25dc-40de-abb7-1ec134edb1a5</itemGUID>  </subItems>         <!--	FE_HeelsRE_Stiletto_Premium_AnkleHigh   -->
+			  <subItems>  <itemGUID>31d0a1d3-e34d-43b6-98bb-dca50122774a</itemGUID>  </subItems>         <!--	FE_HeelsRE_Stiletto_Premium_Ankle       -->
+			  <subItems>  <itemGUID>a1c5d072-00a1-4053-a40c-c85c1ed3987e</itemGUID>  </subItems>         <!--	FE_HeelsRE_SnkSkn_KneeHigh              -->
+			  <subItems>  <itemGUID>a5d515eb-79b5-4c3b-96e3-06013de377a5</itemGUID>  </subItems>         <!--	FE_HeelsRE_SnkSkn_AnkleHigh             -->
+			  <subItems>  <itemGUID>9df85d44-367b-4888-8aed-497b354c0217</itemGUID>  </subItems>         <!--	FE_HeelsRE_Leather_KneeHigh             -->
+			  <subItems>  <itemGUID>d12c6fbb-91ce-4c6d-a0d8-c0e0ce2b2921</itemGUID>  </subItems>         <!--	FE_HeelsRE_Leather_AnkleHigh            -->
+			  <subItems>  <itemGUID>2863a4c9-47ec-427d-835a-0b113e251e59</itemGUID>  </subItems>         <!--	FE_HeelsRE_Animal_KneeHigh              -->
+			  <subItems>  <itemGUID>7952e902-af09-48e4-ad12-cc874cc5403f</itemGUID>  </subItems>         <!--	FE_HeelsRE_Animal_AnkleHigh             -->
+			  <subItems>  <itemGUID>95efbcb0-51c8-439f-87d4-4fc0dbd9a661</itemGUID>  </subItems>         <!--	FE_HeelsRE_Converse_KneeHigh            -->
+			  <subItems>  <itemGUID>ed0be712-e043-48af-b872-ec143845c44a</itemGUID>  </subItems>         <!--	FE_HeelsRE_Converse_AnkleHigh           -->
+			  <subItems>  <itemGUID>23ab0bf6-9b32-4e6e-809d-7782f2fd12f8</itemGUID>  </subItems>         <!--	FF_Boots_HighHeels                      -->
+			  <subItems>  <itemGUID>2c009a9a-6272-462d-be2b-9b07a83db660</itemGUID>  </subItems>         <!--	FF_Shoe_Women                           -->
+			  <subItems>  <itemGUID>a268f4a3-2dad-42d9-ada1-4132f33a6004</itemGUID>  </subItems>         <!--	FF_Shoe_Women_Platform                  -->
+			  <subItems>  <itemGUID>bc2db9c8-04e6-410c-90c1-78ad80820f64</itemGUID>  </subItems>         <!--	FF_Shoe_Women_2                         -->
+			  <subItems>  <itemGUID>ce75d11b-49c1-4db2-a500-a82f42f2731b</itemGUID>  </subItems>         <!--	FF_Shoe_Moccasin                        -->
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>7b339ad5-da2e-42a5-8a51-ee87239a943c</itemGUID>
+			<subItems>
+				<itemGUID>b78f9552-1d93-46b7-a42c-6f554ce43e29</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>cfa30053-1c89-4749-8f6f-ce8335b7a031</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>ae7791f9-a5df-48d8-882f-a0749b8af2b1</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+			<subItems>
+				<itemGUID>71f88535-959e-4be6-a60c-87fd2c127b4d</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>9df22d1f-96cd-4d2c-88f2-4e7423d93649</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>7c3a8a34-9ffa-42e0-83f4-55088f99d8a4</itemGUID>
+			<subItems>
+				<itemGUID>497a8849-6914-40fb-b3a6-9e01629e3e8b</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>62486601-5800-4eba-b317-fbcd9a0e2892</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>09537be2-eebc-4f58-a76d-ac46ea5b3654</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fc9184ea-72cd-4079-8457-5b9f7b5dab75</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>59341911-c4b8-4c30-a712-69df35ba228f</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>033be814-b060-457c-8ed6-43f7358606c3</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>b1c312bf-bc3b-4a52-a15d-fe5564399388</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>ee687253-26b0-4796-82ca-4f4a4976cf81</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>9221f803-d4ec-4947-b380-9c8b1fddebf0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>877f93aa-33c7-4453-9c47-5097038f580c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>404627a1-0fbe-4c95-921d-80eee1bac7f4</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>b53aaf11-929c-4506-8310-e9b26d5f20eb</itemGUID>
+			<subItems>
+				<itemGUID>3cac5469-f9d2-4462-8fb2-063be1b63450</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>3ae13d94-8df6-45c7-9e99-ad03c7d411ce</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>00b778ca-59bd-45a4-9a72-a74e5a541469</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>354db6a5-970b-477b-a119-f4a65eaa776f</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID>
+			<subItems>
+				<itemGUID>c6dd113b-3d04-4833-9f38-8e9840741c0c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fedba460-2edc-439d-89b6-f9607ddbf246</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>5b484f12-b43c-4a83-9009-af05a59ec267</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
+			<subItems>
+				<itemGUID>ce1a8520-7120-432e-8a3a-aa7b3094f0bb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>356869e4-1727-489f-8cc3-e7a16e76c137</itemGUID>
+			<subItems>
+				<itemGUID>582f29b1-29b3-468c-87fe-263b043e1443</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.05</probability>
+			<itemGUID>d5da91a6-03ad-44f7-b51f-b8fe5a01e41b</itemGUID>
+			<subItems>
+				<itemGUID>9f994766-9c05-4257-b840-661e9a805c16</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>6e92e4b5-69d0-4e00-b55e-498b8ec2d2eb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e49f1352-8f1a-4d15-8a5d-20395132f797</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fb825d89-c2fe-4fdc-a9ab-94cbf6e5607d</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>907b406e-7637-4ae8-9454-643ff61eb2b7</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e7236933-9139-4d6a-9e5d-ea818b1190dd</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>94dc4673-2c6f-47ba-8750-0749c5452eab</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e44a00b7-ef11-4b8f-9c8b-3e265afb0b67</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>d962c2f4-d1fc-45aa-a099-2c29efb19320</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e9914ee6-96eb-41cc-b6de-980fdbde8edf</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>111b43e6-3121-4537-8d41-b4ca11a7e107</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>d5395b87-1a26-4920-a8f9-2e3cde033f3b</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>737d3d4c-6909-4392-81e7-1d429f94d67d</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>be755761-5bee-4c65-b7bc-0b63332c4f9b</itemGUID>
+			</subItems>
+		</m_items>
+	</m_FemaleOutfits>
+	<m_FemaleOutfits>
+		<m_Name>Generic05</m_Name>
+		<m_Guid>2e59b6c2-d232-4f8d-9151-14cf7b6a03c8</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items>
+			<itemGUID>e2822080-de7e-4aca-8fa1-140f118b7043</itemGUID>
+			<subItems>
+				<itemGUID>e275bac3-e804-41cb-a80f-c6e54a9ce7f8</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0cf8f577-6d64-4c62-ac85-1e9621a3b131</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<itemGUID>974489bc-80fa-44b8-a98b-00dad260dd14</itemGUID>
+			<subItems>
+				<itemGUID>d876d21a-b8c3-4865-a063-9bdcf3acaeb1</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>2256166c-64a6-4f81-8285-0779cab92fbd</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+		</m_items>
+		<m_items>
+			<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID> 
+			  <subItems>  <itemGUID>a9a182e6-37a2-4b01-975f-ca26dbdde7e2</itemGUID>  </subItems>		 <!--	FE_ShoesRE_Sandals                      -->
+			  <subItems>  <itemGUID>baed5c61-2e3e-493b-a612-a6cec00e97e1</itemGUID>  </subItems>         <!--	FE_ShoesRE_Sandals_T                    -->
+			  <subItems>  <itemGUID>0ae40c45-fb89-4bc6-b91a-9d01f6b0ef2c</itemGUID>  </subItems>         <!--	FE_ShoesRE_Crocs                        -->
+			  <subItems>  <itemGUID>4c4c5cba-e441-4f3a-938b-dc23aec99a5f</itemGUID>  </subItems>         <!--	FE_ShoesRE_CrocsSlipper                 -->
+			  <subItems>  <itemGUID>7a7c8c03-659a-4921-87f5-ab5fb76b21b5</itemGUID>  </subItems>         <!--	FE_ShoesRE_Slippers                     -->
+			  <subItems>  <itemGUID>efd43d3b-4e81-40ae-89ed-bba054857882</itemGUID>  </subItems>         <!--	FE_Shoe_Trainers_LowTop                 -->
+			  <subItems>  <itemGUID>b359716f-ee34-4358-99e1-f7ce298259da</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersBlack_LowTop            -->
+			  <subItems>  <itemGUID>84c36276-572d-4077-879b-e3f6d6d7f38a</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersWhite_LowTop            -->
+			  <subItems>  <itemGUID>33654993-466f-4997-8c1f-33360e58df2f</itemGUID>  </subItems>         <!--	FE_Shoe_Trainers_HighTop                -->
+			  <subItems>  <itemGUID>e2375c59-20b1-4331-9e8f-6fd32bcab34f</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersBlack_HighTop           -->
+			  <subItems>  <itemGUID>3ca1077b-88a9-4dbc-8d31-322a01b8149b</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersWhite_HighTop           -->
+			  <subItems>  <itemGUID>67066305-179f-44e0-87d6-d59242822426</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_KneeHigh            -->
+			  <subItems>  <itemGUID>35e7838f-b72f-418b-8ecb-eea7e716a891</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_AnkleHigher         -->
+			  <subItems>  <itemGUID>47899051-1216-4ad4-bdd0-0d46c3ff1a8d</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_AnkleHigh           -->
+			  <subItems>  <itemGUID>4c625336-b267-48eb-9b67-142965cf97bf</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_Ankle               -->
+			  <subItems>  <itemGUID>b0a0f19f-3c58-4d4e-9697-1ac8ba8221af</itemGUID>  </subItems>         <!--	FE_Boots_Converse_Kneehigh              -->
+			  <subItems>  <itemGUID>8e9bbc5b-6ab8-4e8c-8ca8-7b065da95ba7</itemGUID>  </subItems>         <!--	FE_BootsRE_Chelsea_AnkleHigher          -->
+			  <subItems>  <itemGUID>9fdf99ce-2890-442a-8f18-f1c32cf4bf36</itemGUID>  </subItems>         <!--	FE_BootsRE_Chelsea_AnkleHigh            -->
+			  <subItems>  <itemGUID>f36e172d-efa6-4a90-8ad0-97316f15ee16</itemGUID>  </subItems>         <!--	FE_ShoesRE_Chelsea                      -->
+			  <subItems>  <itemGUID>88ec8f43-cf1e-428d-97d1-e867b39c28f0</itemGUID>  </subItems>         <!--	FE_BootsRE_Combat_AnkleHigher           -->
+			  <subItems>  <itemGUID>967771df-e3e5-4f94-a7c6-9b0051a32e1b</itemGUID>  </subItems>         <!--	FE_BootsRE_Combat_AnkleHigherLoose      -->
+			  <subItems>  <itemGUID>d46340fb-613f-4548-b216-39118c9e1b6c</itemGUID>  </subItems>         <!--	FE_BootsRE_Combat_AnkleHigh             -->
+			  <subItems>  <itemGUID>38e5b700-1264-4953-aa58-7d010054e256</itemGUID>  </subItems>         <!--	FE_ShoesRE_Combat                       -->
+			  <subItems>  <itemGUID>41ac81e1-d34c-4424-afee-420ca507cb02</itemGUID>  </subItems>         <!--	FE_BootsRE_LeatherCasual_AnkleHigher    -->
+			  <subItems>  <itemGUID>adcf0b19-9626-46f9-9183-498a6402ac3a</itemGUID>  </subItems>         <!--	FE_BootsRE_LeatherCasual_AnkleHigh      -->
+			  <subItems>  <itemGUID>fdea3d63-c4af-442e-b580-cd4b6d698ba5</itemGUID>  </subItems>         <!--	FE_ShoesRE_LeatherCasual                -->
+			  <subItems>  <itemGUID>1074804a-96bc-4ea0-9203-9ef4562891ca</itemGUID>  </subItems>         <!--	FE_ShoesRE_Casual                       -->
+			  <subItems>  <itemGUID>33ea1b5c-31fb-4c73-8653-3143c85e46b2</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_KneeHigh             -->
+			  <subItems>  <itemGUID>c9310564-7af1-4a06-aa4c-a7f8fbd307c6</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_KneeLow              -->
+			  <subItems>  <itemGUID>bb857fba-9b1c-4fce-a2bc-70e91c9a92ff</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_AnkleHigh            -->
+			  <subItems>  <itemGUID>132bd25d-6060-4d36-a7ff-6119875f0a56</itemGUID>  </subItems>         <!--	FF_Boots_Leather                        -->
+			  <subItems>  <itemGUID>cb5f35aa-a1ea-46d3-bac4-371cdd9f1030</itemGUID>  </subItems>         <!--	FF_Boots_Leather_Short                  -->
+			  <subItems>  <itemGUID>9f0c6f6c-5766-4e82-81ac-3f2bea7903f3</itemGUID>  </subItems>         <!--	FF_Boots_Cowboy                         -->
+			  <subItems>  <itemGUID>2d3bcd78-73c2-4cba-a619-9cc41bf9444d</itemGUID>  </subItems>         <!--	FF_Boots_Cowboy_Plain                   -->
+			  <subItems>  <itemGUID>7818cd27-72ff-4e71-95a2-70d3d4cd2536</itemGUID>  </subItems>         <!--	FF_Boots_Common                         -->
+			  <subItems>  <itemGUID>1225017d-c696-4c76-ae0a-a7e85fbfea0b</itemGUID>  </subItems>         <!--	FF_Shoe_Common                          -->
+			  <subItems>  <itemGUID>6abee5b2-f3de-4931-93ae-eb90b50dc64e</itemGUID>  </subItems>         <!--	FF_Shoe_Trainers                        -->
+			  <subItems>  <itemGUID>d8292502-acb7-4269-966a-c6609a9db68d</itemGUID>  </subItems>         <!--	FF_Shoe_TrainersBlack                   -->
+			  <subItems>  <itemGUID>09b3d4c4-7ebb-4d03-abf4-fe10788931b6</itemGUID>  </subItems>         <!--	FF_Shoe_TrainersWhite                   -->
+			  <subItems>  <itemGUID>cffb73e7-bd8c-4352-b7af-f7cf1f23ec60</itemGUID>  </subItems>         <!--	FF_Shoe_Boots_Ankle                     -->
+			  <subItems>  <itemGUID>b42f8209-c000-4d2a-b7f6-e38ced16033b</itemGUID>  </subItems>         <!--	FF_Shoe_Boots_Ankle_Steel               -->
+			  <subItems>  <itemGUID>26150dc3-e1d9-49a6-ba7d-004a8c472227</itemGUID>  </subItems>         <!--	FF_Shoe_Boots_Ankle_Platform            -->
+			  <subItems>  <itemGUID>b9a3c342-bd94-47ad-848f-70d0eec2d019</itemGUID>  </subItems>         <!--	FF_Boots_UGG                            -->
+			  <subItems>  <itemGUID>967cf439-c3db-4aac-a2dc-6d8be37aa446</itemGUID>  </subItems>         <!--	FF_Boots_UGG_DwarfHeel                  -->
+			  <subItems>  <itemGUID>7e302f0a-1932-43f9-9b41-840e5836a47a</itemGUID>  </subItems>         <!--	FF_Boots_UGG_Heel                       -->
+			  <subItems>  <itemGUID>8cc2bbe6-03ec-4c8c-ae63-db3f2ab1f109</itemGUID>  </subItems>         <!--	FF_Boots_UGG_Kneehigh                   -->
+			  <subItems>  <itemGUID>a218ac71-9c22-4489-b2fc-ff686f99c9b2</itemGUID>  </subItems>         <!--	FF_Boots_UGG_KneehighHeel               -->
+			  <subItems>  <itemGUID>58d9ad7e-e8cc-4c8b-9a4d-197813f1e148</itemGUID>  </subItems>         <!--	FF_Boots_Platform_Kneehigh              -->
+			  <subItems>  <itemGUID>f8b84cf9-a0ba-49e7-8f87-78c0d3bd7761</itemGUID>  </subItems>         <!--	FF_Boots_Platform_Ankle                 -->
+			  <subItems>  <itemGUID>9fcc376d-4eb4-4509-90b2-49090b77f2de</itemGUID>  </subItems>         <!--	FF_Boots_Platform_AnkleLow              -->
+			  <subItems>  <itemGUID>9933ad81-4891-4af5-bc00-027ef80a7df8</itemGUID>  </subItems>         <!--	FF_Boots_PlatformPunk_Kneehigh          -->
+			  <subItems>  <itemGUID>043f86a6-9ac7-48f7-811d-36825a582743</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_DwarfHeel            -->
+			  <subItems>  <itemGUID>7e94ffec-0934-4d9b-8ccb-5abe9609bbe1</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_Heel                 -->
+			  <subItems>  <itemGUID>5b1223e6-0255-4095-b752-0ecad6fce790</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_KneehighHeel         -->
+			  <subItems>  <itemGUID>33a65ccc-c405-4a2c-82f3-099ba59d7832</itemGUID>  </subItems>         <!--	FF_Boots_Military_Kneehigh              -->
+			  <subItems>  <itemGUID>9121ec65-44c4-4354-94e7-9c97c51dfb1c</itemGUID>  </subItems>         <!--	FF_Boots_Military_Ankle                 -->
+			  <subItems>  <itemGUID>ab9fb434-4d10-4d47-8522-8c5abf3c4df5</itemGUID>  </subItems>         <!--	FF_Boots_Pointy_Kneehigh                -->
+			  <subItems>  <itemGUID>1c1e97e6-6997-4c75-9714-1a414e76ee0b</itemGUID>  </subItems>         <!--	FF_Boots_Pointy_Ankle                   -->
+			  <subItems>  <itemGUID>b602ff83-1667-40f8-a312-2fba91086895</itemGUID>  </subItems>         <!--	FF_Boots_Pointy_AnkleLow                -->
+			  
+			  <subItems>  <itemGUID>ca216761-08b8-4440-8879-0e604a52c5ee</itemGUID>  </subItems>         <!--	FE_BootsRE_LegWarmers_KneeHigh          -->
+			  <subItems>  <itemGUID>fa25f9bf-ef4d-45af-ab4a-75965f89caad</itemGUID>  </subItems>         <!--	FE_BootsRE_LegWarmers_KneeLow           -->
+			  <subItems>  <itemGUID>bc958d55-953c-449a-9a26-e63f1686e0e7</itemGUID>  </subItems>         <!--	FE_BootsRE_LegWarmers_AnkleHigh         -->
+			  <subItems>  <itemGUID>1ac5c84d-ad77-40b4-aacd-e4d3a76200f6</itemGUID>  </subItems>         <!--	FE_BootsRE_LegWarmers_Ankle             -->
+			  <subItems>  <itemGUID>01780e22-79fd-4a5c-8b21-b7cff8c37f2f</itemGUID>  </subItems>         <!--	FE_ShoesRE_LegWarmers_MJ_KneeHigh       -->
+			  <subItems>  <itemGUID>e3744f44-3c02-43f9-8b61-c1ba177b5406</itemGUID>  </subItems>         <!--	FE_ShoesRE_LegWarmers_MJ_KneeLow        -->
+			  <subItems>  <itemGUID>e4c845df-3949-478b-a233-cf8f5651af0b</itemGUID>  </subItems>         <!--	FE_ShoesRE_LegWarmers_MJ_AnkleHigh      -->
+			  <subItems>  <itemGUID>97c436c1-4c26-4ae6-8ecc-3141c35a6436</itemGUID>  </subItems>         <!--	FE_ShoesRE_LegWarmers_MJ_Ankle          -->
+			  <subItems>  <itemGUID>9bb78f79-e2e2-4467-9c1a-3362b882435d</itemGUID>  </subItems>         <!--	FF_Boots_HF_New                         -->
+			  <subItems>  <itemGUID>b24d2aba-d06c-4170-85e9-efb96cd9b1e9</itemGUID>  </subItems>         <!--	FF_Boots_HF_New_Longest                 -->
+			  <subItems>  <itemGUID>3c4b82f3-a13f-4aab-81b2-a71a2aad989a</itemGUID>  </subItems>         <!--	FF_Boots_HF_New_Longer                  -->
+			  <subItems>  <itemGUID>28a07d0e-0aa0-4cb1-ac31-5195061764b4</itemGUID>  </subItems>         <!--	FF_Boots_HF_New_Long                    -->
+			  <subItems>  <itemGUID>01d75d07-28a0-432f-a05a-4990356ccbb2</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGAGoth_KneeHigh            -->
+			  <subItems>  <itemGUID>e57f4c18-946c-4484-b396-8e8ede42b8be</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGAGoth_AnkleHigh           -->
+			  <subItems>  <itemGUID>335539a3-e53d-4bf2-99b9-2758f95af2ab</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGAGoth_Ankle               -->
+			  <subItems>  <itemGUID>d6973126-4e45-419e-94bc-72163b9bb16b</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGACool_KneeHigh            -->
+			  <subItems>  <itemGUID>ea82c1ce-fe88-4e35-a1a6-036e9f397505</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGACool_AnkleHigh           -->
+			  <subItems>  <itemGUID>9b0d1df0-5693-43ad-8374-ad1389949e70</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGACool_Ankle               -->
+			  <subItems>  <itemGUID>be2636a5-3abd-47ee-88cb-194fb411ef13</itemGUID>  </subItems>         <!--	FE_BootsRE_Stiletto_KneeHigh            -->
+			  <subItems>  <itemGUID>5219adce-ed78-402c-afd5-6577acb3fc0e</itemGUID>  </subItems>         <!--	FE_BootsRE_Stiletto_AnkleHigh           -->
+			  <subItems>  <itemGUID>868b66f8-e5ff-4960-8e7f-5d42f8169dc3</itemGUID>  </subItems>         <!--	FE_BootsRE_Stiletto_Ankle               -->
+			  <subItems>  <itemGUID>2db47a11-8d8b-4bf4-9e25-b910cd5fb0a9</itemGUID>  </subItems>         <!--	FE_HeelsRE_Stiletto_Premium_KneeHigh    -->
+			  <subItems>  <itemGUID>e2084901-25dc-40de-abb7-1ec134edb1a5</itemGUID>  </subItems>         <!--	FE_HeelsRE_Stiletto_Premium_AnkleHigh   -->
+			  <subItems>  <itemGUID>31d0a1d3-e34d-43b6-98bb-dca50122774a</itemGUID>  </subItems>         <!--	FE_HeelsRE_Stiletto_Premium_Ankle       -->
+			  <subItems>  <itemGUID>a1c5d072-00a1-4053-a40c-c85c1ed3987e</itemGUID>  </subItems>         <!--	FE_HeelsRE_SnkSkn_KneeHigh              -->
+			  <subItems>  <itemGUID>a5d515eb-79b5-4c3b-96e3-06013de377a5</itemGUID>  </subItems>         <!--	FE_HeelsRE_SnkSkn_AnkleHigh             -->
+			  <subItems>  <itemGUID>9df85d44-367b-4888-8aed-497b354c0217</itemGUID>  </subItems>         <!--	FE_HeelsRE_Leather_KneeHigh             -->
+			  <subItems>  <itemGUID>d12c6fbb-91ce-4c6d-a0d8-c0e0ce2b2921</itemGUID>  </subItems>         <!--	FE_HeelsRE_Leather_AnkleHigh            -->
+			  <subItems>  <itemGUID>2863a4c9-47ec-427d-835a-0b113e251e59</itemGUID>  </subItems>         <!--	FE_HeelsRE_Animal_KneeHigh              -->
+			  <subItems>  <itemGUID>7952e902-af09-48e4-ad12-cc874cc5403f</itemGUID>  </subItems>         <!--	FE_HeelsRE_Animal_AnkleHigh             -->
+			  <subItems>  <itemGUID>95efbcb0-51c8-439f-87d4-4fc0dbd9a661</itemGUID>  </subItems>         <!--	FE_HeelsRE_Converse_KneeHigh            -->
+			  <subItems>  <itemGUID>ed0be712-e043-48af-b872-ec143845c44a</itemGUID>  </subItems>         <!--	FE_HeelsRE_Converse_AnkleHigh           -->
+			  <subItems>  <itemGUID>23ab0bf6-9b32-4e6e-809d-7782f2fd12f8</itemGUID>  </subItems>         <!--	FF_Boots_HighHeels                      -->
+			  <subItems>  <itemGUID>2c009a9a-6272-462d-be2b-9b07a83db660</itemGUID>  </subItems>         <!--	FF_Shoe_Women                           -->
+			  <subItems>  <itemGUID>a268f4a3-2dad-42d9-ada1-4132f33a6004</itemGUID>  </subItems>         <!--	FF_Shoe_Women_Platform                  -->
+			  <subItems>  <itemGUID>bc2db9c8-04e6-410c-90c1-78ad80820f64</itemGUID>  </subItems>         <!--	FF_Shoe_Women_2                         -->
+			  <subItems>  <itemGUID>ce75d11b-49c1-4db2-a500-a82f42f2731b</itemGUID>  </subItems>         <!--	FF_Shoe_Moccasin                        -->
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>7b339ad5-da2e-42a5-8a51-ee87239a943c</itemGUID>
+			<subItems>
+				<itemGUID>b78f9552-1d93-46b7-a42c-6f554ce43e29</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>cfa30053-1c89-4749-8f6f-ce8335b7a031</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+			<subItems>
+				<itemGUID>71f88535-959e-4be6-a60c-87fd2c127b4d</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>9df22d1f-96cd-4d2c-88f2-4e7423d93649</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>7c3a8a34-9ffa-42e0-83f4-55088f99d8a4</itemGUID>
+			<subItems>
+				<itemGUID>497a8849-6914-40fb-b3a6-9e01629e3e8b</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>62486601-5800-4eba-b317-fbcd9a0e2892</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>09537be2-eebc-4f58-a76d-ac46ea5b3654</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fc9184ea-72cd-4079-8457-5b9f7b5dab75</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>59341911-c4b8-4c30-a712-69df35ba228f</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>033be814-b060-457c-8ed6-43f7358606c3</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>b1c312bf-bc3b-4a52-a15d-fe5564399388</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>ee687253-26b0-4796-82ca-4f4a4976cf81</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>9221f803-d4ec-4947-b380-9c8b1fddebf0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>877f93aa-33c7-4453-9c47-5097038f580c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>404627a1-0fbe-4c95-921d-80eee1bac7f4</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>b53aaf11-929c-4506-8310-e9b26d5f20eb</itemGUID>
+			<subItems>
+				<itemGUID>3cac5469-f9d2-4462-8fb2-063be1b63450</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>3ae13d94-8df6-45c7-9e99-ad03c7d411ce</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>00b778ca-59bd-45a4-9a72-a74e5a541469</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>354db6a5-970b-477b-a119-f4a65eaa776f</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID>
+			<subItems>
+				<itemGUID>c6dd113b-3d04-4833-9f38-8e9840741c0c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fedba460-2edc-439d-89b6-f9607ddbf246</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>5b484f12-b43c-4a83-9009-af05a59ec267</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
+			<subItems>
+				<itemGUID>ce1a8520-7120-432e-8a3a-aa7b3094f0bb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>356869e4-1727-489f-8cc3-e7a16e76c137</itemGUID>
+			<subItems>
+				<itemGUID>582f29b1-29b3-468c-87fe-263b043e1443</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.05</probability>
+			<itemGUID>d5da91a6-03ad-44f7-b51f-b8fe5a01e41b</itemGUID>
+			<subItems>
+				<itemGUID>9f994766-9c05-4257-b840-661e9a805c16</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>6e92e4b5-69d0-4e00-b55e-498b8ec2d2eb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e49f1352-8f1a-4d15-8a5d-20395132f797</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fb825d89-c2fe-4fdc-a9ab-94cbf6e5607d</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>907b406e-7637-4ae8-9454-643ff61eb2b7</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e7236933-9139-4d6a-9e5d-ea818b1190dd</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>94dc4673-2c6f-47ba-8750-0749c5452eab</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e44a00b7-ef11-4b8f-9c8b-3e265afb0b67</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>d962c2f4-d1fc-45aa-a099-2c29efb19320</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e9914ee6-96eb-41cc-b6de-980fdbde8edf</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>111b43e6-3121-4537-8d41-b4ca11a7e107</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>d5395b87-1a26-4920-a8f9-2e3cde033f3b</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>737d3d4c-6909-4392-81e7-1d429f94d67d</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>be755761-5bee-4c65-b7bc-0b63332c4f9b</itemGUID>
+			</subItems>
+		</m_items>
+	</m_FemaleOutfits>
+
+	<m_FemaleOutfits>
+		<m_Name>DressShort</m_Name>
+		<m_Guid>7cc96266-836c-45a5-8ebf-091b315693c2</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_items>
+			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+		</m_items>
+		<m_items>
+			<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
+			  
+							  <subItems>  <itemGUID>ca216761-08b8-4440-8879-0e604a52c5ee</itemGUID>  </subItems>         <!--	FE_BootsRE_LegWarmers_KneeHigh          -->
+							  <subItems>  <itemGUID>fa25f9bf-ef4d-45af-ab4a-75965f89caad</itemGUID>  </subItems>         <!--	FE_BootsRE_LegWarmers_KneeLow           -->
+							  <subItems>  <itemGUID>bc958d55-953c-449a-9a26-e63f1686e0e7</itemGUID>  </subItems>         <!--	FE_BootsRE_LegWarmers_AnkleHigh         -->
+							  <subItems>  <itemGUID>1ac5c84d-ad77-40b4-aacd-e4d3a76200f6</itemGUID>  </subItems>         <!--	FE_BootsRE_LegWarmers_Ankle             -->
+							  <subItems>  <itemGUID>01780e22-79fd-4a5c-8b21-b7cff8c37f2f</itemGUID>  </subItems>         <!--	FE_ShoesRE_LegWarmers_MJ_KneeHigh       -->
+							  <subItems>  <itemGUID>e3744f44-3c02-43f9-8b61-c1ba177b5406</itemGUID>  </subItems>         <!--	FE_ShoesRE_LegWarmers_MJ_KneeLow        -->
+							  <subItems>  <itemGUID>e4c845df-3949-478b-a233-cf8f5651af0b</itemGUID>  </subItems>         <!--	FE_ShoesRE_LegWarmers_MJ_AnkleHigh      -->
+							  <subItems>  <itemGUID>97c436c1-4c26-4ae6-8ecc-3141c35a6436</itemGUID>  </subItems>         <!--	FE_ShoesRE_LegWarmers_MJ_Ankle          -->
+							  <subItems>  <itemGUID>9bb78f79-e2e2-4467-9c1a-3362b882435d</itemGUID>  </subItems>         <!--	FF_Boots_HF_New                         -->
+							  <subItems>  <itemGUID>b24d2aba-d06c-4170-85e9-efb96cd9b1e9</itemGUID>  </subItems>         <!--	FF_Boots_HF_New_Longest                 -->
+							  <subItems>  <itemGUID>3c4b82f3-a13f-4aab-81b2-a71a2aad989a</itemGUID>  </subItems>         <!--	FF_Boots_HF_New_Longer                  -->
+							  <subItems>  <itemGUID>28a07d0e-0aa0-4cb1-ac31-5195061764b4</itemGUID>  </subItems>         <!--	FF_Boots_HF_New_Long                    -->
+							  <subItems>  <itemGUID>01d75d07-28a0-432f-a05a-4990356ccbb2</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGAGoth_KneeHigh            -->
+							  <subItems>  <itemGUID>e57f4c18-946c-4484-b396-8e8ede42b8be</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGAGoth_AnkleHigh           -->
+							  <subItems>  <itemGUID>335539a3-e53d-4bf2-99b9-2758f95af2ab</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGAGoth_Ankle               -->
+							  <subItems>  <itemGUID>d6973126-4e45-419e-94bc-72163b9bb16b</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGACool_KneeHigh            -->
+							  <subItems>  <itemGUID>ea82c1ce-fe88-4e35-a1a6-036e9f397505</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGACool_AnkleHigh           -->
+							  <subItems>  <itemGUID>9b0d1df0-5693-43ad-8374-ad1389949e70</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGACool_Ankle               -->
+							  <subItems>  <itemGUID>be2636a5-3abd-47ee-88cb-194fb411ef13</itemGUID>  </subItems>         <!--	FE_BootsRE_Stiletto_KneeHigh            -->
+							  <subItems>  <itemGUID>5219adce-ed78-402c-afd5-6577acb3fc0e</itemGUID>  </subItems>         <!--	FE_BootsRE_Stiletto_AnkleHigh           -->
+							  <subItems>  <itemGUID>868b66f8-e5ff-4960-8e7f-5d42f8169dc3</itemGUID>  </subItems>         <!--	FE_BootsRE_Stiletto_Ankle               -->
+							  <subItems>  <itemGUID>2db47a11-8d8b-4bf4-9e25-b910cd5fb0a9</itemGUID>  </subItems>         <!--	FE_HeelsRE_Stiletto_Premium_KneeHigh    -->
+							  <subItems>  <itemGUID>e2084901-25dc-40de-abb7-1ec134edb1a5</itemGUID>  </subItems>         <!--	FE_HeelsRE_Stiletto_Premium_AnkleHigh   -->
+							  <subItems>  <itemGUID>31d0a1d3-e34d-43b6-98bb-dca50122774a</itemGUID>  </subItems>         <!--	FE_HeelsRE_Stiletto_Premium_Ankle       -->
+							  <subItems>  <itemGUID>a1c5d072-00a1-4053-a40c-c85c1ed3987e</itemGUID>  </subItems>         <!--	FE_HeelsRE_SnkSkn_KneeHigh              -->
+							  <subItems>  <itemGUID>a5d515eb-79b5-4c3b-96e3-06013de377a5</itemGUID>  </subItems>         <!--	FE_HeelsRE_SnkSkn_AnkleHigh             -->
+							  <subItems>  <itemGUID>9df85d44-367b-4888-8aed-497b354c0217</itemGUID>  </subItems>         <!--	FE_HeelsRE_Leather_KneeHigh             -->
+							  <subItems>  <itemGUID>d12c6fbb-91ce-4c6d-a0d8-c0e0ce2b2921</itemGUID>  </subItems>         <!--	FE_HeelsRE_Leather_AnkleHigh            -->
+							  <subItems>  <itemGUID>2863a4c9-47ec-427d-835a-0b113e251e59</itemGUID>  </subItems>         <!--	FE_HeelsRE_Animal_KneeHigh              -->
+							  <subItems>  <itemGUID>7952e902-af09-48e4-ad12-cc874cc5403f</itemGUID>  </subItems>         <!--	FE_HeelsRE_Animal_AnkleHigh             -->
+							  <subItems>  <itemGUID>95efbcb0-51c8-439f-87d4-4fc0dbd9a661</itemGUID>  </subItems>         <!--	FE_HeelsRE_Converse_KneeHigh            -->
+							  <subItems>  <itemGUID>ed0be712-e043-48af-b872-ec143845c44a</itemGUID>  </subItems>         <!--	FE_HeelsRE_Converse_AnkleHigh           -->
+							  <subItems>  <itemGUID>23ab0bf6-9b32-4e6e-809d-7782f2fd12f8</itemGUID>  </subItems>         <!--	FF_Boots_HighHeels                      -->
+							  <subItems>  <itemGUID>2c009a9a-6272-462d-be2b-9b07a83db660</itemGUID>  </subItems>         <!--	FF_Shoe_Women                           -->
+							  <subItems>  <itemGUID>a268f4a3-2dad-42d9-ada1-4132f33a6004</itemGUID>  </subItems>         <!--	FF_Shoe_Women_Platform                  -->
+							  <subItems>  <itemGUID>bc2db9c8-04e6-410c-90c1-78ad80820f64</itemGUID>  </subItems>         <!--	FF_Shoe_Women_2                         -->
+							  <subItems>  <itemGUID>ce75d11b-49c1-4db2-a500-a82f42f2731b</itemGUID>  </subItems>         <!--	FF_Shoe_Moccasin                        -->
+			  
+							  <subItems>  <itemGUID>f65ae4c2-c63c-4d02-9d50-dd3ec033b3bb</itemGUID>  </subItems>         <!--	FE_HeelsRE_Leather_ThighHigh            -->
+							  <subItems>  <itemGUID>9101fde9-706e-43cd-ba35-e98e7f4b1ac7</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_ThighHigher         -->
+							  <subItems>  <itemGUID>e7c65e90-5a85-4db0-b2b2-5381a598bce7</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_ThighHigh           -->
+							  <subItems>  <itemGUID>361f0c43-567b-4d0a-a42f-30eabc69f369</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGAGoth_ThighHigher         -->
+							  <subItems>  <itemGUID>49c840e5-d31c-41b0-850a-f398c6f7a675</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGAGoth_ThighHigh           -->
+							  <subItems>  <itemGUID>b96e22a7-fb0a-47b4-b002-34fcfad35866</itemGUID>  </subItems>         <!--	FE_BootsRE_Stiletto_ThighHigher         -->
+							  <subItems>  <itemGUID>f27c7e7c-9d82-4893-98ba-07d869d6f03e</itemGUID>  </subItems>         <!--	FE_BootsRE_Stiletto_ThighHigh           -->
+							  <subItems>  <itemGUID>62d56cdd-7b77-449c-9afc-7d7dace1bcc4</itemGUID>  </subItems>         <!--	FE_HeelsRE_Stiletto_Premium_ThighHigher -->
+							  <subItems>  <itemGUID>248e45b5-20a5-42a0-b1f5-67f654a7ba6d</itemGUID>  </subItems>         <!--	FE_HeelsRE_Stiletto_Premium_ThighHigh   -->
+							  <subItems>  <itemGUID>342e68d0-c819-4eb8-8a67-e415a8a8f2b4</itemGUID>  </subItems>         <!--	FE_HeelsRE_Converse_ThighHigh           -->
+							  <subItems>  <itemGUID>b4ff4232-2b48-4dc7-a6b4-e9711aa64486</itemGUID>  </subItems>         <!--	FE_Boots_Converse_Thighhigh             -->
+							  <subItems>  <itemGUID>874c4b6f-799a-45eb-b2b9-6d0a18a1355f</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_ThighHigh            -->
+							  <subItems>  <itemGUID>3b177e8c-e392-4790-ac4c-18f26059c3ce</itemGUID>  </subItems>         <!--	FE_BootsRE_LegWarmers_ThighHigh         -->
+							  <subItems>  <itemGUID>360ef426-1ed7-49ce-b683-521240c49d4a</itemGUID>  </subItems>         <!--	FE_ShoesRE_LegWarmers_MJ_ThighHigh      -->
+							  <subItems>  <itemGUID>5f0c4562-8296-438b-b933-df1d6741517d</itemGUID>  </subItems>         <!--	FF_Boots_UGG_Thighhigh                  -->
+							  <subItems>  <itemGUID>82cc7c26-27b5-4fbf-87a1-07f87b16556b</itemGUID>  </subItems>         <!--	FF_Boots_UGG_ThighhighHeel              -->
+							  <subItems>  <itemGUID>ca2188ca-729f-4ce8-a115-7fa4529fb910</itemGUID>  </subItems>         <!--	FF_Boots_Platform_Thighhigh             -->
+							  <subItems>  <itemGUID>713bb014-0fee-449e-9286-1e6ab3d24e15</itemGUID>  </subItems>         <!--	FF_Boots_PlatformPunk_Thighhigh         -->
+							  <subItems>  <itemGUID>15debb48-1c17-49ef-975e-018ec3ed2c11</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_ThighhighHeel        -->
+							  <subItems>  <itemGUID>41d7ee19-25e4-45f3-af10-61480b20171b</itemGUID>  </subItems>         <!--	FF_Boots_Military_Thighhigher           -->
+							  <subItems>  <itemGUID>10d7ddfa-f133-43ff-a3bf-c8beb3454673</itemGUID>  </subItems>         <!--	FF_Boots_Military_Thighhigh             -->
+							  <subItems>  <itemGUID>30907b26-2a80-404d-80a2-6afbf1588e20</itemGUID>  </subItems>         <!--	FE_HeelsRE_SnkSkn_KneeHigher            -->
+							  <subItems>  <itemGUID>6a1a7b7c-29ff-4ba1-ae61-46feac97576e</itemGUID>  </subItems>         <!--	FE_HeelsRE_Leather_KneeHigher           -->
+							  <subItems>  <itemGUID>0ce08fbc-ac58-4f36-9d90-537532d04dfc</itemGUID>  </subItems>         <!--	FE_HeelsRE_Animal_KneeHigher            -->
+							  <subItems>  <itemGUID>4e6e090e-1926-4659-ae4f-9d9f5ae97c51</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_KneeHigher          -->
+							  <subItems>  <itemGUID>3746797c-e0a2-4308-ac8c-9fc76942be07</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGAGoth_KneeHigher          -->
+							  <subItems>  <itemGUID>233c25fc-c556-4ed9-95ef-fca910a58f17</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGACool_KneeHigher          -->
+							  <subItems>  <itemGUID>d7d7ec81-df0c-4a02-a6ef-df0aa495c2b7</itemGUID>  </subItems>         <!--	FE_BootsRE_Stiletto_KneeHigher          -->
+							  <subItems>  <itemGUID>7d3937c2-de61-4c6e-b952-0e448069c6b0</itemGUID>  </subItems>         <!--	FE_HeelsRE_Stiletto_Premium_KneeHigher  -->
+							  <subItems>  <itemGUID>868c5a48-92a9-4255-aa1d-76ce5751fe00</itemGUID>  </subItems>         <!--	FE_HeelsRE_Converse_KneeHigher          -->
+							  <subItems>  <itemGUID>700c85a3-e4af-4870-9474-43f71a5c7914</itemGUID>  </subItems>         <!--	FE_Boots_Converse_Kneehigher            -->
+							  <subItems>  <itemGUID>eb738e9b-43b4-4133-bfff-526eb716bd49</itemGUID>  </subItems>         <!--	FF_Boots_Platform_Kneehigher            -->
+							  <subItems>  <itemGUID>63490499-cb7b-4b7c-89b5-dc76f604df47</itemGUID>  </subItems>         <!--	FF_Boots_PlatformPunk_Kneehigher        -->
+							  <subItems>  <itemGUID>b0d5f74d-0907-40bc-95d5-11b80da6cacc</itemGUID>  </subItems>         <!--	FF_Boots_Military_Kneehigher            -->
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>a8f1dbc6-6623-40d1-8a1a-adbcd33f5b41</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>f2467000-e675-458c-9f63-5cc2f0ed0f3f</itemGUID>
+		</m_items>
+		<m_items>
+			<itemGUID>02dbb571-5244-4dfe-ab5f-a0f191557ea0</itemGUID>
+			<subItems>
+				<itemGUID>8b783da1-e926-4e21-a510-c06462bbc324</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>742732db-a91d-4685-a125-767befadcc81</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>c1e147c3-5119-4e98-993e-69d748419c1f</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>9904aa27-9fc9-41c8-b108-7c366c0f38ee</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+			<subItems>
+				<itemGUID>71f88535-959e-4be6-a60c-87fd2c127b4d</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>51033d3c-4cfb-4405-926c-4feba617bae7</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>3d6530fd-b3c1-4ae3-ad23-657ed73c51fe</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<itemGUID>7c3a8a34-9ffa-42e0-83f4-55088f99d8a4</itemGUID>
+			<subItems>
+				<itemGUID>eb1e345b-9993-4b70-b021-6d1d18a176b1</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>5cfb7a5d-5e1c-4a5b-9fdc-f21f6a136d7c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>1cdfc423-a4c7-46cc-a900-7b3ead0fd9c7</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>ade9c502-76b1-4a6f-9d70-382cb803c82b</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0cc23833-5eb1-4212-af52-5889de7f60d7</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>497a8849-6914-40fb-b3a6-9e01629e3e8b</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>62486601-5800-4eba-b317-fbcd9a0e2892</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>09537be2-eebc-4f58-a76d-ac46ea5b3654</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fc9184ea-72cd-4079-8457-5b9f7b5dab75</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>59341911-c4b8-4c30-a712-69df35ba228f</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>033be814-b060-457c-8ed6-43f7358606c3</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>b1c312bf-bc3b-4a52-a15d-fe5564399388</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>5d9eec3d-7119-480e-8f8a-b7118463e482</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>028ce25c-036a-44c0-ac3e-1d576cc28dc8</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>570f2884-f8d9-4e8a-a796-864f691a29fe</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>a0dead26-e3da-4319-ace1-0be733c1e39f</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>ee687253-26b0-4796-82ca-4f4a4976cf81</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>9221f803-d4ec-4947-b380-9c8b1fddebf0</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<itemGUID>b53aaf11-929c-4506-8310-e9b26d5f20eb</itemGUID>
+			<subItems>
+				<itemGUID>3cac5469-f9d2-4462-8fb2-063be1b63450</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>3ae13d94-8df6-45c7-9e99-ad03c7d411ce</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>778cc04b-761d-4268-9479-09829468775c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>bd36d524-dc71-4ee0-80d7-3e5791f85f7d</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0ef4bbd5-b1ba-412a-8d68-ad83a6abfda6</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>00b778ca-59bd-45a4-9a72-a74e5a541469</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0dc0ceda-9162-4abd-b263-7f32ff497e21</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>25c5a9a3-3fe8-4565-9a8e-af2208167902</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>354db6a5-970b-477b-a119-f4a65eaa776f</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>dd9c41f4-cbcd-4ae1-9ee4-b0202292a57a</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>31d1387a-2dc0-4951-870e-ead0e7dd02de</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>a6b47c0c-d541-4932-b216-70568ad664dc</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>96f1486d-b177-47ff-a746-3ca9d4dd9fe9</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>98077c59-2961-45ce-8247-2b14b4876659</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e0467d61-85a6-4bec-bcdd-8676d602282a</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>81a92257-cb26-4034-923d-5f101f92eada</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID>
+			<subItems>
+				<itemGUID>c6dd113b-3d04-4833-9f38-8e9840741c0c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fedba460-2edc-439d-89b6-f9607ddbf246</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>5b484f12-b43c-4a83-9009-af05a59ec267</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>9b91619f-3c00-47da-a8e2-8765e80d40c3</itemGUID>
+			<subItems>
+				<itemGUID>dbfbe3c4-d96e-4f8a-bf77-25bdbd9863b9</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>f0dd71ac-a98f-4251-899f-30d727167722</itemGUID>
+			<subItems>
+				<itemGUID>582f29b1-29b3-468c-87fe-263b043e1443</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>ea26af86-e01c-45f9-8d06-09ad99c6bc55</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e28e4564-e853-4876-8ee9-63754e28808c</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>7a7c5043-943b-4407-a46f-c8f0333a8c1c</itemGUID>
+		</m_items>
+	</m_FemaleOutfits>
+
+	<m_FemaleOutfits>
+		<m_Name>StripperBlack</m_Name>
+		<m_Guid>c79cd2b6-b08d-4725-b61d-f8f358ef5eb0</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items>
+			<itemGUID>c4d10706-fb2f-4ec7-8ebb-863b1881706b</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.7</probability>
+			<itemGUID>00ae3ec3-4b6b-484c-9edd-501339307b45</itemGUID>
+			<subItems>
+				<itemGUID>6ba314a1-43c6-4240-b313-0ba75fb2ca6c</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e30e2622-0034-4895-8912-ed53dfafd3d0</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.7</probability>
+			<itemGUID>5e04c786-40fa-4456-9c24-c0b605914ff0</itemGUID>
+		</m_items>
+		<m_items>
+			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
+			<subItems>
+				<itemGUID>b87c05cc-9a93-4572-99f8-005e350ee723</itemGUID>
+			</subItems>
+			<subItems>  <itemGUID>f65ae4c2-c63c-4d02-9d50-dd3ec033b3bb</itemGUID>  </subItems>         <!--	FE_HeelsRE_Leather_ThighHigh            -->
+			<subItems>  <itemGUID>9101fde9-706e-43cd-ba35-e98e7f4b1ac7</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_ThighHigher         -->
+			<subItems>  <itemGUID>e7c65e90-5a85-4db0-b2b2-5381a598bce7</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_ThighHigh           -->
+			<subItems>  <itemGUID>361f0c43-567b-4d0a-a42f-30eabc69f369</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGAGoth_ThighHigher         -->
+			<subItems>  <itemGUID>49c840e5-d31c-41b0-850a-f398c6f7a675</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGAGoth_ThighHigh           -->
+			<subItems>  <itemGUID>b96e22a7-fb0a-47b4-b002-34fcfad35866</itemGUID>  </subItems>         <!--	FE_BootsRE_Stiletto_ThighHigher         -->
+			<subItems>  <itemGUID>f27c7e7c-9d82-4893-98ba-07d869d6f03e</itemGUID>  </subItems>         <!--	FE_BootsRE_Stiletto_ThighHigh           -->
+			<subItems>  <itemGUID>62d56cdd-7b77-449c-9afc-7d7dace1bcc4</itemGUID>  </subItems>         <!--	FE_HeelsRE_Stiletto_Premium_ThighHigher -->
+			<subItems>  <itemGUID>248e45b5-20a5-42a0-b1f5-67f654a7ba6d</itemGUID>  </subItems>         <!--	FE_HeelsRE_Stiletto_Premium_ThighHigh   -->
+			<subItems>  <itemGUID>342e68d0-c819-4eb8-8a67-e415a8a8f2b4</itemGUID>  </subItems>         <!--	FE_HeelsRE_Converse_ThighHigh           -->
+			<subItems>  <itemGUID>b4ff4232-2b48-4dc7-a6b4-e9711aa64486</itemGUID>  </subItems>         <!--	FE_Boots_Converse_Thighhigh             -->
+			<subItems>  <itemGUID>874c4b6f-799a-45eb-b2b9-6d0a18a1355f</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_ThighHigh            -->
+			<subItems>  <itemGUID>3b177e8c-e392-4790-ac4c-18f26059c3ce</itemGUID>  </subItems>         <!--	FE_BootsRE_LegWarmers_ThighHigh         -->
+			<subItems>  <itemGUID>360ef426-1ed7-49ce-b683-521240c49d4a</itemGUID>  </subItems>         <!--	FE_ShoesRE_LegWarmers_MJ_ThighHigh      -->
+			<subItems>  <itemGUID>5f0c4562-8296-438b-b933-df1d6741517d</itemGUID>  </subItems>         <!--	FF_Boots_UGG_Thighhigh                  -->
+			<subItems>  <itemGUID>82cc7c26-27b5-4fbf-87a1-07f87b16556b</itemGUID>  </subItems>         <!--	FF_Boots_UGG_ThighhighHeel              -->
+			<subItems>  <itemGUID>ca2188ca-729f-4ce8-a115-7fa4529fb910</itemGUID>  </subItems>         <!--	FF_Boots_Platform_Thighhigh             -->
+			<subItems>  <itemGUID>713bb014-0fee-449e-9286-1e6ab3d24e15</itemGUID>  </subItems>         <!--	FF_Boots_PlatformPunk_Thighhigh         -->
+			<subItems>  <itemGUID>15debb48-1c17-49ef-975e-018ec3ed2c11</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_ThighhighHeel        -->
+			<subItems>  <itemGUID>41d7ee19-25e4-45f3-af10-61480b20171b</itemGUID>  </subItems>         <!--	FF_Boots_Military_Thighhigher           -->
+			<subItems>  <itemGUID>10d7ddfa-f133-43ff-a3bf-c8beb3454673</itemGUID>  </subItems>         <!--	FF_Boots_Military_Thighhigh             -->
+			<subItems>  <itemGUID>30907b26-2a80-404d-80a2-6afbf1588e20</itemGUID>  </subItems>         <!--	FE_HeelsRE_SnkSkn_KneeHigher            -->
+			<subItems>  <itemGUID>6a1a7b7c-29ff-4ba1-ae61-46feac97576e</itemGUID>  </subItems>         <!--	FE_HeelsRE_Leather_KneeHigher           -->
+			<subItems>  <itemGUID>0ce08fbc-ac58-4f36-9d90-537532d04dfc</itemGUID>  </subItems>         <!--	FE_HeelsRE_Animal_KneeHigher            -->
+			<subItems>  <itemGUID>4e6e090e-1926-4659-ae4f-9d9f5ae97c51</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_KneeHigher          -->
+			<subItems>  <itemGUID>3746797c-e0a2-4308-ac8c-9fc76942be07</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGAGoth_KneeHigher          -->
+			<subItems>  <itemGUID>233c25fc-c556-4ed9-95ef-fca910a58f17</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGACool_KneeHigher          -->
+			<subItems>  <itemGUID>d7d7ec81-df0c-4a02-a6ef-df0aa495c2b7</itemGUID>  </subItems>         <!--	FE_BootsRE_Stiletto_KneeHigher          -->
+			<subItems>  <itemGUID>7d3937c2-de61-4c6e-b952-0e448069c6b0</itemGUID>  </subItems>         <!--	FE_HeelsRE_Stiletto_Premium_KneeHigher  -->
+			<subItems>  <itemGUID>868c5a48-92a9-4255-aa1d-76ce5751fe00</itemGUID>  </subItems>         <!--	FE_HeelsRE_Converse_KneeHigher          -->
+			<subItems>  <itemGUID>700c85a3-e4af-4870-9474-43f71a5c7914</itemGUID>  </subItems>         <!--	FE_Boots_Converse_Kneehigher            -->
+			<subItems>  <itemGUID>eb738e9b-43b4-4133-bfff-526eb716bd49</itemGUID>  </subItems>         <!--	FF_Boots_Platform_Kneehigher            -->
+			<subItems>  <itemGUID>63490499-cb7b-4b7c-89b5-dc76f604df47</itemGUID>  </subItems>         <!--	FF_Boots_PlatformPunk_Kneehigher        -->
+			<subItems>  <itemGUID>b0d5f74d-0907-40bc-95d5-11b80da6cacc</itemGUID>  </subItems>         <!--	FF_Boots_Military_Kneehigher            -->
+			<subItems>
+				<itemGUID>f6b27bb5-b736-4bd7-afb1-689ecb9a9c52</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<itemGUID>235a5c5b-5ceb-4d87-998a-3811cea0d137</itemGUID>
+		</m_items>
+		<m_items>
+			<itemGUID>9d9267cd-a01f-4246-8834-ccd39e3c9525</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>5c4e5d70-62c6-45fd-804c-fbd50d30a5dd</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>d5da91a6-03ad-44f7-b51f-b8fe5a01e41b</itemGUID>
+			<subItems>
+				<itemGUID>9f994766-9c05-4257-b840-661e9a805c16</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>6e92e4b5-69d0-4e00-b55e-498b8ec2d2eb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e49f1352-8f1a-4d15-8a5d-20395132f797</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fb825d89-c2fe-4fdc-a9ab-94cbf6e5607d</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>907b406e-7637-4ae8-9454-643ff61eb2b7</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e7236933-9139-4d6a-9e5d-ea818b1190dd</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>94dc4673-2c6f-47ba-8750-0749c5452eab</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e44a00b7-ef11-4b8f-9c8b-3e265afb0b67</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>d962c2f4-d1fc-45aa-a099-2c29efb19320</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e9914ee6-96eb-41cc-b6de-980fdbde8edf</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>111b43e6-3121-4537-8d41-b4ca11a7e107</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>d5395b87-1a26-4920-a8f9-2e3cde033f3b</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>737d3d4c-6909-4392-81e7-1d429f94d67d</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>be755761-5bee-4c65-b7bc-0b63332c4f9b</itemGUID>
+			</subItems>
+		</m_items>
+	</m_FemaleOutfits>
+	<m_FemaleOutfits>
+		<m_Name>StripperNaked</m_Name>
+		<m_Guid>2268190c-2734-465e-a8b7-5ead3601cbc3</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items>
+			<probability>0.7</probability>
+			<itemGUID>00ae3ec3-4b6b-484c-9edd-501339307b45</itemGUID>
+			<subItems>
+				<itemGUID>af3f4a67-9fd8-47aa-8891-2f0c974a4e38</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e30e2622-0034-4895-8912-ed53dfafd3d0</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>5e04c786-40fa-4456-9c24-c0b605914ff0</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>235a5c5b-5ceb-4d87-998a-3811cea0d137</itemGUID>
+			<subItems>
+				<itemGUID>a5195a5e-af5e-4eb3-bc1b-5f8c0e45520d</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>5c4e5d70-62c6-45fd-804c-fbd50d30a5dd</itemGUID>
+		</m_items>
+		<m_items>
+			<itemGUID>62d56cdd-7b77-449c-9afc-7d7dace1bcc4</itemGUID>
+						  <subItems>  <itemGUID>f65ae4c2-c63c-4d02-9d50-dd3ec033b3bb</itemGUID>  </subItems>         <!--	FE_HeelsRE_Leather_ThighHigh            -->
+						  <subItems>  <itemGUID>9101fde9-706e-43cd-ba35-e98e7f4b1ac7</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_ThighHigher         -->
+						  <subItems>  <itemGUID>e7c65e90-5a85-4db0-b2b2-5381a598bce7</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_ThighHigh           -->
+						  <subItems>  <itemGUID>361f0c43-567b-4d0a-a42f-30eabc69f369</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGAGoth_ThighHigher         -->
+						  <subItems>  <itemGUID>49c840e5-d31c-41b0-850a-f398c6f7a675</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGAGoth_ThighHigh           -->
+						  <subItems>  <itemGUID>b96e22a7-fb0a-47b4-b002-34fcfad35866</itemGUID>  </subItems>         <!--	FE_BootsRE_Stiletto_ThighHigher         -->
+						  <subItems>  <itemGUID>f27c7e7c-9d82-4893-98ba-07d869d6f03e</itemGUID>  </subItems>         <!--	FE_BootsRE_Stiletto_ThighHigh           -->
+						  <subItems>  <itemGUID>62d56cdd-7b77-449c-9afc-7d7dace1bcc4</itemGUID>  </subItems>         <!--	FE_HeelsRE_Stiletto_Premium_ThighHigher -->
+						  <subItems>  <itemGUID>248e45b5-20a5-42a0-b1f5-67f654a7ba6d</itemGUID>  </subItems>         <!--	FE_HeelsRE_Stiletto_Premium_ThighHigh   -->
+						  <subItems>  <itemGUID>342e68d0-c819-4eb8-8a67-e415a8a8f2b4</itemGUID>  </subItems>         <!--	FE_HeelsRE_Converse_ThighHigh           -->
+						  <subItems>  <itemGUID>b4ff4232-2b48-4dc7-a6b4-e9711aa64486</itemGUID>  </subItems>         <!--	FE_Boots_Converse_Thighhigh             -->
+						  <subItems>  <itemGUID>874c4b6f-799a-45eb-b2b9-6d0a18a1355f</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_ThighHigh            -->
+						  <subItems>  <itemGUID>3b177e8c-e392-4790-ac4c-18f26059c3ce</itemGUID>  </subItems>         <!--	FE_BootsRE_LegWarmers_ThighHigh         -->
+						  <subItems>  <itemGUID>360ef426-1ed7-49ce-b683-521240c49d4a</itemGUID>  </subItems>         <!--	FE_ShoesRE_LegWarmers_MJ_ThighHigh      -->
+						  <subItems>  <itemGUID>5f0c4562-8296-438b-b933-df1d6741517d</itemGUID>  </subItems>         <!--	FF_Boots_UGG_Thighhigh                  -->
+						  <subItems>  <itemGUID>82cc7c26-27b5-4fbf-87a1-07f87b16556b</itemGUID>  </subItems>         <!--	FF_Boots_UGG_ThighhighHeel              -->
+						  <subItems>  <itemGUID>ca2188ca-729f-4ce8-a115-7fa4529fb910</itemGUID>  </subItems>         <!--	FF_Boots_Platform_Thighhigh             -->
+						  <subItems>  <itemGUID>713bb014-0fee-449e-9286-1e6ab3d24e15</itemGUID>  </subItems>         <!--	FF_Boots_PlatformPunk_Thighhigh         -->
+						  <subItems>  <itemGUID>15debb48-1c17-49ef-975e-018ec3ed2c11</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_ThighhighHeel        -->
+						  <subItems>  <itemGUID>41d7ee19-25e4-45f3-af10-61480b20171b</itemGUID>  </subItems>         <!--	FF_Boots_Military_Thighhigher           -->
+						  <subItems>  <itemGUID>10d7ddfa-f133-43ff-a3bf-c8beb3454673</itemGUID>  </subItems>         <!--	FF_Boots_Military_Thighhigh             -->
+						  <subItems>  <itemGUID>30907b26-2a80-404d-80a2-6afbf1588e20</itemGUID>  </subItems>         <!--	FE_HeelsRE_SnkSkn_KneeHigher            -->
+						  <subItems>  <itemGUID>6a1a7b7c-29ff-4ba1-ae61-46feac97576e</itemGUID>  </subItems>         <!--	FE_HeelsRE_Leather_KneeHigher           -->
+						  <subItems>  <itemGUID>0ce08fbc-ac58-4f36-9d90-537532d04dfc</itemGUID>  </subItems>         <!--	FE_HeelsRE_Animal_KneeHigher            -->
+						  <subItems>  <itemGUID>4e6e090e-1926-4659-ae4f-9d9f5ae97c51</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_KneeHigher          -->
+						  <subItems>  <itemGUID>3746797c-e0a2-4308-ac8c-9fc76942be07</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGAGoth_KneeHigher          -->
+						  <subItems>  <itemGUID>233c25fc-c556-4ed9-95ef-fca910a58f17</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGACool_KneeHigher          -->
+						  <subItems>  <itemGUID>d7d7ec81-df0c-4a02-a6ef-df0aa495c2b7</itemGUID>  </subItems>         <!--	FE_BootsRE_Stiletto_KneeHigher          -->
+						  <subItems>  <itemGUID>7d3937c2-de61-4c6e-b952-0e448069c6b0</itemGUID>  </subItems>         <!--	FE_HeelsRE_Stiletto_Premium_KneeHigher  -->
+						  <subItems>  <itemGUID>868c5a48-92a9-4255-aa1d-76ce5751fe00</itemGUID>  </subItems>         <!--	FE_HeelsRE_Converse_KneeHigher          -->
+						  <subItems>  <itemGUID>700c85a3-e4af-4870-9474-43f71a5c7914</itemGUID>  </subItems>         <!--	FE_Boots_Converse_Kneehigher            -->
+						  <subItems>  <itemGUID>eb738e9b-43b4-4133-bfff-526eb716bd49</itemGUID>  </subItems>         <!--	FF_Boots_Platform_Kneehigher            -->
+						  <subItems>  <itemGUID>63490499-cb7b-4b7c-89b5-dc76f604df47</itemGUID>  </subItems>         <!--	FF_Boots_PlatformPunk_Kneehigher        -->
+						  <subItems>  <itemGUID>b0d5f74d-0907-40bc-95d5-11b80da6cacc</itemGUID>  </subItems>         <!--	FF_Boots_Military_Kneehigher            -->
+		</m_items>
+		<m_items>
+			<probability>0.4</probability>
+			<itemGUID>9bb04028-4cb6-477b-b892-000f1dd54622</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>d5da91a6-03ad-44f7-b51f-b8fe5a01e41b</itemGUID>
+			<subItems>
+				<itemGUID>9f994766-9c05-4257-b840-661e9a805c16</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>6e92e4b5-69d0-4e00-b55e-498b8ec2d2eb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e49f1352-8f1a-4d15-8a5d-20395132f797</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fb825d89-c2fe-4fdc-a9ab-94cbf6e5607d</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>907b406e-7637-4ae8-9454-643ff61eb2b7</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e7236933-9139-4d6a-9e5d-ea818b1190dd</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>94dc4673-2c6f-47ba-8750-0749c5452eab</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e44a00b7-ef11-4b8f-9c8b-3e265afb0b67</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>d962c2f4-d1fc-45aa-a099-2c29efb19320</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e9914ee6-96eb-41cc-b6de-980fdbde8edf</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>111b43e6-3121-4537-8d41-b4ca11a7e107</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>d5395b87-1a26-4920-a8f9-2e3cde033f3b</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>737d3d4c-6909-4392-81e7-1d429f94d67d</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>be755761-5bee-4c65-b7bc-0b63332c4f9b</itemGUID>
+			</subItems>
+		</m_items>
+	</m_FemaleOutfits>
+	<m_FemaleOutfits>
+		<m_Name>StripperPink</m_Name>
+		<m_Guid>39c0f56e-4cfc-42ed-8190-20952b419838</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>af3f4a67-9fd8-47aa-8891-2f0c974a4e38</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>5e04c786-40fa-4456-9c24-c0b605914ff0</itemGUID>
+		</m_items>
+		<m_items>
+			<itemGUID>2717dfdb-49ef-401a-9715-c4487ce6abea</itemGUID>
+			<subItems>
+				<itemGUID>b87c05cc-9a93-4572-99f8-005e350ee723</itemGUID>
+			</subItems>
+			<subItems>  <itemGUID>f65ae4c2-c63c-4d02-9d50-dd3ec033b3bb</itemGUID>  </subItems>         <!--	FE_HeelsRE_Leather_ThighHigh            -->
+			<subItems>  <itemGUID>9101fde9-706e-43cd-ba35-e98e7f4b1ac7</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_ThighHigher         -->
+			<subItems>  <itemGUID>e7c65e90-5a85-4db0-b2b2-5381a598bce7</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_ThighHigh           -->
+			<subItems>  <itemGUID>361f0c43-567b-4d0a-a42f-30eabc69f369</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGAGoth_ThighHigher         -->
+			<subItems>  <itemGUID>49c840e5-d31c-41b0-850a-f398c6f7a675</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGAGoth_ThighHigh           -->
+			<subItems>  <itemGUID>b96e22a7-fb0a-47b4-b002-34fcfad35866</itemGUID>  </subItems>         <!--	FE_BootsRE_Stiletto_ThighHigher         -->
+			<subItems>  <itemGUID>f27c7e7c-9d82-4893-98ba-07d869d6f03e</itemGUID>  </subItems>         <!--	FE_BootsRE_Stiletto_ThighHigh           -->
+			<subItems>  <itemGUID>62d56cdd-7b77-449c-9afc-7d7dace1bcc4</itemGUID>  </subItems>         <!--	FE_HeelsRE_Stiletto_Premium_ThighHigher -->
+			<subItems>  <itemGUID>248e45b5-20a5-42a0-b1f5-67f654a7ba6d</itemGUID>  </subItems>         <!--	FE_HeelsRE_Stiletto_Premium_ThighHigh   -->
+			<subItems>  <itemGUID>342e68d0-c819-4eb8-8a67-e415a8a8f2b4</itemGUID>  </subItems>         <!--	FE_HeelsRE_Converse_ThighHigh           -->
+			<subItems>  <itemGUID>b4ff4232-2b48-4dc7-a6b4-e9711aa64486</itemGUID>  </subItems>         <!--	FE_Boots_Converse_Thighhigh             -->
+			<subItems>  <itemGUID>874c4b6f-799a-45eb-b2b9-6d0a18a1355f</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_ThighHigh            -->
+			<subItems>  <itemGUID>3b177e8c-e392-4790-ac4c-18f26059c3ce</itemGUID>  </subItems>         <!--	FE_BootsRE_LegWarmers_ThighHigh         -->
+			<subItems>  <itemGUID>360ef426-1ed7-49ce-b683-521240c49d4a</itemGUID>  </subItems>         <!--	FE_ShoesRE_LegWarmers_MJ_ThighHigh      -->
+			<subItems>  <itemGUID>5f0c4562-8296-438b-b933-df1d6741517d</itemGUID>  </subItems>         <!--	FF_Boots_UGG_Thighhigh                  -->
+			<subItems>  <itemGUID>82cc7c26-27b5-4fbf-87a1-07f87b16556b</itemGUID>  </subItems>         <!--	FF_Boots_UGG_ThighhighHeel              -->
+			<subItems>  <itemGUID>ca2188ca-729f-4ce8-a115-7fa4529fb910</itemGUID>  </subItems>         <!--	FF_Boots_Platform_Thighhigh             -->
+			<subItems>  <itemGUID>713bb014-0fee-449e-9286-1e6ab3d24e15</itemGUID>  </subItems>         <!--	FF_Boots_PlatformPunk_Thighhigh         -->
+			<subItems>  <itemGUID>15debb48-1c17-49ef-975e-018ec3ed2c11</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_ThighhighHeel        -->
+			<subItems>  <itemGUID>41d7ee19-25e4-45f3-af10-61480b20171b</itemGUID>  </subItems>         <!--	FF_Boots_Military_Thighhigher           -->
+			<subItems>  <itemGUID>10d7ddfa-f133-43ff-a3bf-c8beb3454673</itemGUID>  </subItems>         <!--	FF_Boots_Military_Thighhigh             -->
+			<subItems>  <itemGUID>30907b26-2a80-404d-80a2-6afbf1588e20</itemGUID>  </subItems>         <!--	FE_HeelsRE_SnkSkn_KneeHigher            -->
+			<subItems>  <itemGUID>6a1a7b7c-29ff-4ba1-ae61-46feac97576e</itemGUID>  </subItems>         <!--	FE_HeelsRE_Leather_KneeHigher           -->
+			<subItems>  <itemGUID>0ce08fbc-ac58-4f36-9d90-537532d04dfc</itemGUID>  </subItems>         <!--	FE_HeelsRE_Animal_KneeHigher            -->
+			<subItems>  <itemGUID>4e6e090e-1926-4659-ae4f-9d9f5ae97c51</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_KneeHigher          -->
+			<subItems>  <itemGUID>3746797c-e0a2-4308-ac8c-9fc76942be07</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGAGoth_KneeHigher          -->
+			<subItems>  <itemGUID>233c25fc-c556-4ed9-95ef-fca910a58f17</itemGUID>  </subItems>         <!--	FE_BootsRE_MEGACool_KneeHigher          -->
+			<subItems>  <itemGUID>d7d7ec81-df0c-4a02-a6ef-df0aa495c2b7</itemGUID>  </subItems>         <!--	FE_BootsRE_Stiletto_KneeHigher          -->
+			<subItems>  <itemGUID>7d3937c2-de61-4c6e-b952-0e448069c6b0</itemGUID>  </subItems>         <!--	FE_HeelsRE_Stiletto_Premium_KneeHigher  -->
+			<subItems>  <itemGUID>868c5a48-92a9-4255-aa1d-76ce5751fe00</itemGUID>  </subItems>         <!--	FE_HeelsRE_Converse_KneeHigher          -->
+			<subItems>  <itemGUID>700c85a3-e4af-4870-9474-43f71a5c7914</itemGUID>  </subItems>         <!--	FE_Boots_Converse_Kneehigher            -->
+			<subItems>  <itemGUID>eb738e9b-43b4-4133-bfff-526eb716bd49</itemGUID>  </subItems>         <!--	FF_Boots_Platform_Kneehigher            -->
+			<subItems>  <itemGUID>63490499-cb7b-4b7c-89b5-dc76f604df47</itemGUID>  </subItems>         <!--	FF_Boots_PlatformPunk_Kneehigher        -->
+			<subItems>  <itemGUID>b0d5f74d-0907-40bc-95d5-11b80da6cacc</itemGUID>  </subItems>         <!--	FF_Boots_Military_Kneehigher            -->
+			<subItems>
+				<itemGUID>f6b27bb5-b736-4bd7-afb1-689ecb9a9c52</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<itemGUID>a5195a5e-af5e-4eb3-bc1b-5f8c0e45520d</itemGUID>
+		</m_items>
+		<m_items>
+			<itemGUID>f13d6450-cdad-4a81-aaf8-65d7d98c46e4</itemGUID>
+		</m_items>
+		<m_items>
+			<itemGUID>9d9267cd-a01f-4246-8834-ccd39e3c9525</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>5c4e5d70-62c6-45fd-804c-fbd50d30a5dd</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>d5da91a6-03ad-44f7-b51f-b8fe5a01e41b</itemGUID>
+			<subItems>
+				<itemGUID>9f994766-9c05-4257-b840-661e9a805c16</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>6e92e4b5-69d0-4e00-b55e-498b8ec2d2eb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e49f1352-8f1a-4d15-8a5d-20395132f797</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>fb825d89-c2fe-4fdc-a9ab-94cbf6e5607d</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>907b406e-7637-4ae8-9454-643ff61eb2b7</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e7236933-9139-4d6a-9e5d-ea818b1190dd</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>94dc4673-2c6f-47ba-8750-0749c5452eab</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e44a00b7-ef11-4b8f-9c8b-3e265afb0b67</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>d962c2f4-d1fc-45aa-a099-2c29efb19320</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e9914ee6-96eb-41cc-b6de-980fdbde8edf</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>111b43e6-3121-4537-8d41-b4ca11a7e107</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>d5395b87-1a26-4920-a8f9-2e3cde033f3b</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>737d3d4c-6909-4392-81e7-1d429f94d67d</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>be755761-5bee-4c65-b7bc-0b63332c4f9b</itemGUID>
+			</subItems>
+		</m_items>
+	</m_FemaleOutfits>
+
+	<m_MaleOutfits>
+		<m_Name>Generic01</m_Name>
+		<m_Guid>5a39681b-f64b-4305-b36b-89c6961303db</m_Guid>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>5574c07e-1381-49d8-a0ba-40e5b2cf55cd</itemGUID>
+			<subItems>
+				<itemGUID>7a5f7b89-9de9-4c05-afb6-e62dca97b8a2</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>d44e45d2-dccd-41fb-803a-9ec9f3b46906</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>d9d60d23-421e-4a97-8e74-9e7b3c35d620</itemGUID>
+		</m_items>
+		<m_items>
+			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+		</m_items>
+		<m_items>
+			<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
+			  <subItems>  <itemGUID>a9a182e6-37a2-4b01-975f-ca26dbdde7e2</itemGUID>  </subItems>		 <!--	FE_ShoesRE_Sandals                      -->
+			  <subItems>  <itemGUID>baed5c61-2e3e-493b-a612-a6cec00e97e1</itemGUID>  </subItems>         <!--	FE_ShoesRE_Sandals_T                    -->
+			  <subItems>  <itemGUID>0ae40c45-fb89-4bc6-b91a-9d01f6b0ef2c</itemGUID>  </subItems>         <!--	FE_ShoesRE_Crocs                        -->
+			  <subItems>  <itemGUID>4c4c5cba-e441-4f3a-938b-dc23aec99a5f</itemGUID>  </subItems>         <!--	FE_ShoesRE_CrocsSlipper                 -->
+			  <subItems>  <itemGUID>7a7c8c03-659a-4921-87f5-ab5fb76b21b5</itemGUID>  </subItems>         <!--	FE_ShoesRE_Slippers                     -->
+			  <subItems>  <itemGUID>efd43d3b-4e81-40ae-89ed-bba054857882</itemGUID>  </subItems>         <!--	FE_Shoe_Trainers_LowTop                 -->
+			  <subItems>  <itemGUID>b359716f-ee34-4358-99e1-f7ce298259da</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersBlack_LowTop            -->
+			  <subItems>  <itemGUID>84c36276-572d-4077-879b-e3f6d6d7f38a</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersWhite_LowTop            -->
+			  <subItems>  <itemGUID>33654993-466f-4997-8c1f-33360e58df2f</itemGUID>  </subItems>         <!--	FE_Shoe_Trainers_HighTop                -->
+			  <subItems>  <itemGUID>e2375c59-20b1-4331-9e8f-6fd32bcab34f</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersBlack_HighTop           -->
+			  <subItems>  <itemGUID>3ca1077b-88a9-4dbc-8d31-322a01b8149b</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersWhite_HighTop           -->
+			  <subItems>  <itemGUID>67066305-179f-44e0-87d6-d59242822426</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_KneeHigh            -->
+			  <subItems>  <itemGUID>35e7838f-b72f-418b-8ecb-eea7e716a891</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_AnkleHigher         -->
+			  <subItems>  <itemGUID>47899051-1216-4ad4-bdd0-0d46c3ff1a8d</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_AnkleHigh           -->
+			  <subItems>  <itemGUID>4c625336-b267-48eb-9b67-142965cf97bf</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_Ankle               -->
+			  <subItems>  <itemGUID>b0a0f19f-3c58-4d4e-9697-1ac8ba8221af</itemGUID>  </subItems>         <!--	FE_Boots_Converse_Kneehigh              -->
+			  <subItems>  <itemGUID>8e9bbc5b-6ab8-4e8c-8ca8-7b065da95ba7</itemGUID>  </subItems>         <!--	FE_BootsRE_Chelsea_AnkleHigher          -->
+			  <subItems>  <itemGUID>9fdf99ce-2890-442a-8f18-f1c32cf4bf36</itemGUID>  </subItems>         <!--	FE_BootsRE_Chelsea_AnkleHigh            -->
+			  <subItems>  <itemGUID>f36e172d-efa6-4a90-8ad0-97316f15ee16</itemGUID>  </subItems>         <!--	FE_ShoesRE_Chelsea                      -->
+			  <subItems>  <itemGUID>88ec8f43-cf1e-428d-97d1-e867b39c28f0</itemGUID>  </subItems>         <!--	FE_BootsRE_Combat_AnkleHigher           -->
+			  <subItems>  <itemGUID>967771df-e3e5-4f94-a7c6-9b0051a32e1b</itemGUID>  </subItems>         <!--	FE_BootsRE_Combat_AnkleHigherLoose      -->
+			  <subItems>  <itemGUID>d46340fb-613f-4548-b216-39118c9e1b6c</itemGUID>  </subItems>         <!--	FE_BootsRE_Combat_AnkleHigh             -->
+			  <subItems>  <itemGUID>38e5b700-1264-4953-aa58-7d010054e256</itemGUID>  </subItems>         <!--	FE_ShoesRE_Combat                       -->
+			  <subItems>  <itemGUID>41ac81e1-d34c-4424-afee-420ca507cb02</itemGUID>  </subItems>         <!--	FE_BootsRE_LeatherCasual_AnkleHigher    -->
+			  <subItems>  <itemGUID>adcf0b19-9626-46f9-9183-498a6402ac3a</itemGUID>  </subItems>         <!--	FE_BootsRE_LeatherCasual_AnkleHigh      -->
+			  <subItems>  <itemGUID>fdea3d63-c4af-442e-b580-cd4b6d698ba5</itemGUID>  </subItems>         <!--	FE_ShoesRE_LeatherCasual                -->
+			  <subItems>  <itemGUID>1074804a-96bc-4ea0-9203-9ef4562891ca</itemGUID>  </subItems>         <!--	FE_ShoesRE_Casual                       -->
+			  <subItems>  <itemGUID>33ea1b5c-31fb-4c73-8653-3143c85e46b2</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_KneeHigh             -->
+			  <subItems>  <itemGUID>c9310564-7af1-4a06-aa4c-a7f8fbd307c6</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_KneeLow              -->
+			  <subItems>  <itemGUID>bb857fba-9b1c-4fce-a2bc-70e91c9a92ff</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_AnkleHigh            -->
+			  <subItems>  <itemGUID>132bd25d-6060-4d36-a7ff-6119875f0a56</itemGUID>  </subItems>         <!--	FF_Boots_Leather                        -->
+			  <subItems>  <itemGUID>cb5f35aa-a1ea-46d3-bac4-371cdd9f1030</itemGUID>  </subItems>         <!--	FF_Boots_Leather_Short                  -->
+			  <subItems>  <itemGUID>9f0c6f6c-5766-4e82-81ac-3f2bea7903f3</itemGUID>  </subItems>         <!--	FF_Boots_Cowboy                         -->
+			  <subItems>  <itemGUID>2d3bcd78-73c2-4cba-a619-9cc41bf9444d</itemGUID>  </subItems>         <!--	FF_Boots_Cowboy_Plain                   -->
+			  <subItems>  <itemGUID>7818cd27-72ff-4e71-95a2-70d3d4cd2536</itemGUID>  </subItems>         <!--	FF_Boots_Common                         -->
+			  <subItems>  <itemGUID>1225017d-c696-4c76-ae0a-a7e85fbfea0b</itemGUID>  </subItems>         <!--	FF_Shoe_Common                          -->
+			  <subItems>  <itemGUID>6abee5b2-f3de-4931-93ae-eb90b50dc64e</itemGUID>  </subItems>         <!--	FF_Shoe_Trainers                        -->
+			  <subItems>  <itemGUID>d8292502-acb7-4269-966a-c6609a9db68d</itemGUID>  </subItems>         <!--	FF_Shoe_TrainersBlack                   -->
+			  <subItems>  <itemGUID>09b3d4c4-7ebb-4d03-abf4-fe10788931b6</itemGUID>  </subItems>         <!--	FF_Shoe_TrainersWhite                   -->
+			  <subItems>  <itemGUID>cffb73e7-bd8c-4352-b7af-f7cf1f23ec60</itemGUID>  </subItems>         <!--	FF_Shoe_Boots_Ankle                     -->
+			  <subItems>  <itemGUID>b42f8209-c000-4d2a-b7f6-e38ced16033b</itemGUID>  </subItems>         <!--	FF_Shoe_Boots_Ankle_Steel               -->
+			  <subItems>  <itemGUID>26150dc3-e1d9-49a6-ba7d-004a8c472227</itemGUID>  </subItems>         <!--	FF_Shoe_Boots_Ankle_Platform            -->
+			  <subItems>  <itemGUID>b9a3c342-bd94-47ad-848f-70d0eec2d019</itemGUID>  </subItems>         <!--	FF_Boots_UGG                            -->
+			  <subItems>  <itemGUID>967cf439-c3db-4aac-a2dc-6d8be37aa446</itemGUID>  </subItems>         <!--	FF_Boots_UGG_DwarfHeel                  -->
+			  <subItems>  <itemGUID>7e302f0a-1932-43f9-9b41-840e5836a47a</itemGUID>  </subItems>         <!--	FF_Boots_UGG_Heel                       -->
+			  <subItems>  <itemGUID>8cc2bbe6-03ec-4c8c-ae63-db3f2ab1f109</itemGUID>  </subItems>         <!--	FF_Boots_UGG_Kneehigh                   -->
+			  <subItems>  <itemGUID>a218ac71-9c22-4489-b2fc-ff686f99c9b2</itemGUID>  </subItems>         <!--	FF_Boots_UGG_KneehighHeel               -->
+			  <subItems>  <itemGUID>58d9ad7e-e8cc-4c8b-9a4d-197813f1e148</itemGUID>  </subItems>         <!--	FF_Boots_Platform_Kneehigh              -->
+			  <subItems>  <itemGUID>f8b84cf9-a0ba-49e7-8f87-78c0d3bd7761</itemGUID>  </subItems>         <!--	FF_Boots_Platform_Ankle                 -->
+			  <subItems>  <itemGUID>9fcc376d-4eb4-4509-90b2-49090b77f2de</itemGUID>  </subItems>         <!--	FF_Boots_Platform_AnkleLow              -->
+			  <subItems>  <itemGUID>9933ad81-4891-4af5-bc00-027ef80a7df8</itemGUID>  </subItems>         <!--	FF_Boots_PlatformPunk_Kneehigh          -->
+			  <subItems>  <itemGUID>043f86a6-9ac7-48f7-811d-36825a582743</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_DwarfHeel            -->
+			  <subItems>  <itemGUID>7e94ffec-0934-4d9b-8ccb-5abe9609bbe1</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_Heel                 -->
+			  <subItems>  <itemGUID>5b1223e6-0255-4095-b752-0ecad6fce790</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_KneehighHeel         -->
+			  <subItems>  <itemGUID>33a65ccc-c405-4a2c-82f3-099ba59d7832</itemGUID>  </subItems>         <!--	FF_Boots_Military_Kneehigh              -->
+			  <subItems>  <itemGUID>9121ec65-44c4-4354-94e7-9c97c51dfb1c</itemGUID>  </subItems>         <!--	FF_Boots_Military_Ankle                 -->
+			  <subItems>  <itemGUID>ab9fb434-4d10-4d47-8522-8c5abf3c4df5</itemGUID>  </subItems>         <!--	FF_Boots_Pointy_Kneehigh                -->
+			  <subItems>  <itemGUID>1c1e97e6-6997-4c75-9714-1a414e76ee0b</itemGUID>  </subItems>         <!--	FF_Boots_Pointy_Ankle                   -->
+			  <subItems>  <itemGUID>b602ff83-1667-40f8-a312-2fba91086895</itemGUID>  </subItems>         <!--	FF_Boots_Pointy_AnkleLow                -->
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>7b339ad5-da2e-42a5-8a51-ee87239a943c</itemGUID>
+			<subItems>
+				<itemGUID>b78f9552-1d93-46b7-a42c-6f554ce43e29</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>cfa30053-1c89-4749-8f6f-ce8335b7a031</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+			<subItems>
+				<itemGUID>62ef5f1f-8eca-4ef2-8ade-fd4fa604762f</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>9df22d1f-96cd-4d2c-88f2-4e7423d93649</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID>
+			<subItems>
+				<itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
+			<subItems>
+				<itemGUID>ce1a8520-7120-432e-8a3a-aa7b3094f0bb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.2</probability>
+			<itemGUID>51851e1a-3c3d-473d-8894-8cde0770b645</itemGUID>
+		</m_items>
+	</m_MaleOutfits>
+	<m_MaleOutfits>
+		<m_Name>Generic02</m_Name>
+		<m_Guid>4fcf83f0-b20c-4106-8b92-1699d1094dbc</m_Guid>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>a8f1dbc6-6623-40d1-8a1a-adbcd33f5b41</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.4</probability>
+			<itemGUID>5574c07e-1381-49d8-a0ba-40e5b2cf55cd</itemGUID>
+			<subItems>
+				<itemGUID>7a5f7b89-9de9-4c05-afb6-e62dca97b8a2</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>d44e45d2-dccd-41fb-803a-9ec9f3b46906</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+		</m_items>
+		<m_items>
+			<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
+			  <subItems>  <itemGUID>a9a182e6-37a2-4b01-975f-ca26dbdde7e2</itemGUID>  </subItems>		 <!--	FE_ShoesRE_Sandals                      -->
+			  <subItems>  <itemGUID>baed5c61-2e3e-493b-a612-a6cec00e97e1</itemGUID>  </subItems>         <!--	FE_ShoesRE_Sandals_T                    -->
+			  <subItems>  <itemGUID>0ae40c45-fb89-4bc6-b91a-9d01f6b0ef2c</itemGUID>  </subItems>         <!--	FE_ShoesRE_Crocs                        -->
+			  <subItems>  <itemGUID>4c4c5cba-e441-4f3a-938b-dc23aec99a5f</itemGUID>  </subItems>         <!--	FE_ShoesRE_CrocsSlipper                 -->
+			  <subItems>  <itemGUID>7a7c8c03-659a-4921-87f5-ab5fb76b21b5</itemGUID>  </subItems>         <!--	FE_ShoesRE_Slippers                     -->
+			  <subItems>  <itemGUID>efd43d3b-4e81-40ae-89ed-bba054857882</itemGUID>  </subItems>         <!--	FE_Shoe_Trainers_LowTop                 -->
+			  <subItems>  <itemGUID>b359716f-ee34-4358-99e1-f7ce298259da</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersBlack_LowTop            -->
+			  <subItems>  <itemGUID>84c36276-572d-4077-879b-e3f6d6d7f38a</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersWhite_LowTop            -->
+			  <subItems>  <itemGUID>33654993-466f-4997-8c1f-33360e58df2f</itemGUID>  </subItems>         <!--	FE_Shoe_Trainers_HighTop                -->
+			  <subItems>  <itemGUID>e2375c59-20b1-4331-9e8f-6fd32bcab34f</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersBlack_HighTop           -->
+			  <subItems>  <itemGUID>3ca1077b-88a9-4dbc-8d31-322a01b8149b</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersWhite_HighTop           -->
+			  <subItems>  <itemGUID>67066305-179f-44e0-87d6-d59242822426</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_KneeHigh            -->
+			  <subItems>  <itemGUID>35e7838f-b72f-418b-8ecb-eea7e716a891</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_AnkleHigher         -->
+			  <subItems>  <itemGUID>47899051-1216-4ad4-bdd0-0d46c3ff1a8d</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_AnkleHigh           -->
+			  <subItems>  <itemGUID>4c625336-b267-48eb-9b67-142965cf97bf</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_Ankle               -->
+			  <subItems>  <itemGUID>b0a0f19f-3c58-4d4e-9697-1ac8ba8221af</itemGUID>  </subItems>         <!--	FE_Boots_Converse_Kneehigh              -->
+			  <subItems>  <itemGUID>8e9bbc5b-6ab8-4e8c-8ca8-7b065da95ba7</itemGUID>  </subItems>         <!--	FE_BootsRE_Chelsea_AnkleHigher          -->
+			  <subItems>  <itemGUID>9fdf99ce-2890-442a-8f18-f1c32cf4bf36</itemGUID>  </subItems>         <!--	FE_BootsRE_Chelsea_AnkleHigh            -->
+			  <subItems>  <itemGUID>f36e172d-efa6-4a90-8ad0-97316f15ee16</itemGUID>  </subItems>         <!--	FE_ShoesRE_Chelsea                      -->
+			  <subItems>  <itemGUID>88ec8f43-cf1e-428d-97d1-e867b39c28f0</itemGUID>  </subItems>         <!--	FE_BootsRE_Combat_AnkleHigher           -->
+			  <subItems>  <itemGUID>967771df-e3e5-4f94-a7c6-9b0051a32e1b</itemGUID>  </subItems>         <!--	FE_BootsRE_Combat_AnkleHigherLoose      -->
+			  <subItems>  <itemGUID>d46340fb-613f-4548-b216-39118c9e1b6c</itemGUID>  </subItems>         <!--	FE_BootsRE_Combat_AnkleHigh             -->
+			  <subItems>  <itemGUID>38e5b700-1264-4953-aa58-7d010054e256</itemGUID>  </subItems>         <!--	FE_ShoesRE_Combat                       -->
+			  <subItems>  <itemGUID>41ac81e1-d34c-4424-afee-420ca507cb02</itemGUID>  </subItems>         <!--	FE_BootsRE_LeatherCasual_AnkleHigher    -->
+			  <subItems>  <itemGUID>adcf0b19-9626-46f9-9183-498a6402ac3a</itemGUID>  </subItems>         <!--	FE_BootsRE_LeatherCasual_AnkleHigh      -->
+			  <subItems>  <itemGUID>fdea3d63-c4af-442e-b580-cd4b6d698ba5</itemGUID>  </subItems>         <!--	FE_ShoesRE_LeatherCasual                -->
+			  <subItems>  <itemGUID>1074804a-96bc-4ea0-9203-9ef4562891ca</itemGUID>  </subItems>         <!--	FE_ShoesRE_Casual                       -->
+			  <subItems>  <itemGUID>33ea1b5c-31fb-4c73-8653-3143c85e46b2</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_KneeHigh             -->
+			  <subItems>  <itemGUID>c9310564-7af1-4a06-aa4c-a7f8fbd307c6</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_KneeLow              -->
+			  <subItems>  <itemGUID>bb857fba-9b1c-4fce-a2bc-70e91c9a92ff</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_AnkleHigh            -->
+			  <subItems>  <itemGUID>132bd25d-6060-4d36-a7ff-6119875f0a56</itemGUID>  </subItems>         <!--	FF_Boots_Leather                        -->
+			  <subItems>  <itemGUID>cb5f35aa-a1ea-46d3-bac4-371cdd9f1030</itemGUID>  </subItems>         <!--	FF_Boots_Leather_Short                  -->
+			  <subItems>  <itemGUID>9f0c6f6c-5766-4e82-81ac-3f2bea7903f3</itemGUID>  </subItems>         <!--	FF_Boots_Cowboy                         -->
+			  <subItems>  <itemGUID>2d3bcd78-73c2-4cba-a619-9cc41bf9444d</itemGUID>  </subItems>         <!--	FF_Boots_Cowboy_Plain                   -->
+			  <subItems>  <itemGUID>7818cd27-72ff-4e71-95a2-70d3d4cd2536</itemGUID>  </subItems>         <!--	FF_Boots_Common                         -->
+			  <subItems>  <itemGUID>1225017d-c696-4c76-ae0a-a7e85fbfea0b</itemGUID>  </subItems>         <!--	FF_Shoe_Common                          -->
+			  <subItems>  <itemGUID>6abee5b2-f3de-4931-93ae-eb90b50dc64e</itemGUID>  </subItems>         <!--	FF_Shoe_Trainers                        -->
+			  <subItems>  <itemGUID>d8292502-acb7-4269-966a-c6609a9db68d</itemGUID>  </subItems>         <!--	FF_Shoe_TrainersBlack                   -->
+			  <subItems>  <itemGUID>09b3d4c4-7ebb-4d03-abf4-fe10788931b6</itemGUID>  </subItems>         <!--	FF_Shoe_TrainersWhite                   -->
+			  <subItems>  <itemGUID>cffb73e7-bd8c-4352-b7af-f7cf1f23ec60</itemGUID>  </subItems>         <!--	FF_Shoe_Boots_Ankle                     -->
+			  <subItems>  <itemGUID>b42f8209-c000-4d2a-b7f6-e38ced16033b</itemGUID>  </subItems>         <!--	FF_Shoe_Boots_Ankle_Steel               -->
+			  <subItems>  <itemGUID>26150dc3-e1d9-49a6-ba7d-004a8c472227</itemGUID>  </subItems>         <!--	FF_Shoe_Boots_Ankle_Platform            -->
+			  <subItems>  <itemGUID>b9a3c342-bd94-47ad-848f-70d0eec2d019</itemGUID>  </subItems>         <!--	FF_Boots_UGG                            -->
+			  <subItems>  <itemGUID>967cf439-c3db-4aac-a2dc-6d8be37aa446</itemGUID>  </subItems>         <!--	FF_Boots_UGG_DwarfHeel                  -->
+			  <subItems>  <itemGUID>7e302f0a-1932-43f9-9b41-840e5836a47a</itemGUID>  </subItems>         <!--	FF_Boots_UGG_Heel                       -->
+			  <subItems>  <itemGUID>8cc2bbe6-03ec-4c8c-ae63-db3f2ab1f109</itemGUID>  </subItems>         <!--	FF_Boots_UGG_Kneehigh                   -->
+			  <subItems>  <itemGUID>a218ac71-9c22-4489-b2fc-ff686f99c9b2</itemGUID>  </subItems>         <!--	FF_Boots_UGG_KneehighHeel               -->
+			  <subItems>  <itemGUID>58d9ad7e-e8cc-4c8b-9a4d-197813f1e148</itemGUID>  </subItems>         <!--	FF_Boots_Platform_Kneehigh              -->
+			  <subItems>  <itemGUID>f8b84cf9-a0ba-49e7-8f87-78c0d3bd7761</itemGUID>  </subItems>         <!--	FF_Boots_Platform_Ankle                 -->
+			  <subItems>  <itemGUID>9fcc376d-4eb4-4509-90b2-49090b77f2de</itemGUID>  </subItems>         <!--	FF_Boots_Platform_AnkleLow              -->
+			  <subItems>  <itemGUID>9933ad81-4891-4af5-bc00-027ef80a7df8</itemGUID>  </subItems>         <!--	FF_Boots_PlatformPunk_Kneehigh          -->
+			  <subItems>  <itemGUID>043f86a6-9ac7-48f7-811d-36825a582743</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_DwarfHeel            -->
+			  <subItems>  <itemGUID>7e94ffec-0934-4d9b-8ccb-5abe9609bbe1</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_Heel                 -->
+			  <subItems>  <itemGUID>5b1223e6-0255-4095-b752-0ecad6fce790</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_KneehighHeel         -->
+			  <subItems>  <itemGUID>33a65ccc-c405-4a2c-82f3-099ba59d7832</itemGUID>  </subItems>         <!--	FF_Boots_Military_Kneehigh              -->
+			  <subItems>  <itemGUID>9121ec65-44c4-4354-94e7-9c97c51dfb1c</itemGUID>  </subItems>         <!--	FF_Boots_Military_Ankle                 -->
+			  <subItems>  <itemGUID>ab9fb434-4d10-4d47-8522-8c5abf3c4df5</itemGUID>  </subItems>         <!--	FF_Boots_Pointy_Kneehigh                -->
+			  <subItems>  <itemGUID>1c1e97e6-6997-4c75-9714-1a414e76ee0b</itemGUID>  </subItems>         <!--	FF_Boots_Pointy_Ankle                   -->
+			  <subItems>  <itemGUID>b602ff83-1667-40f8-a312-2fba91086895</itemGUID>  </subItems>         <!--	FF_Boots_Pointy_AnkleLow                -->
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+			<subItems>
+				<itemGUID>62ef5f1f-8eca-4ef2-8ade-fd4fa604762f</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>9df22d1f-96cd-4d2c-88f2-4e7423d93649</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<itemGUID>1e2ed52f-9ee7-464b-9581-a450f2fbb403</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID>
+			<subItems>
+				<itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
+			<subItems>
+				<itemGUID>ce1a8520-7120-432e-8a3a-aa7b3094f0bb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+			</subItems>
+		</m_items>
+	</m_MaleOutfits>
+	<m_MaleOutfits>
+		<m_Name>Generic03</m_Name>
+		<m_Guid>8e4b7b38-1e6e-4cda-a7d7-f01b75e0c8e6</m_Guid>
+		<m_Pants>false</m_Pants>
+		<m_items>
+			<probability>0.5</probability>
+			<itemGUID>99b1ff28-3884-4ca3-b827-7fdab685c7a6</itemGUID>
+			<subItems>
+				<itemGUID>ceead19e-1c55-4d89-8a59-864dd72d0c93</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>88b27ecc-8a00-4d1a-882e-1ab4f4a46350</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+			<subItems>
+				<itemGUID>fb86bd5f-1931-4b24-a5d7-bd6a43769991</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
+			  <subItems>  <itemGUID>a9a182e6-37a2-4b01-975f-ca26dbdde7e2</itemGUID>  </subItems>		 <!--	FE_ShoesRE_Sandals                      -->
+			  <subItems>  <itemGUID>baed5c61-2e3e-493b-a612-a6cec00e97e1</itemGUID>  </subItems>         <!--	FE_ShoesRE_Sandals_T                    -->
+			  <subItems>  <itemGUID>0ae40c45-fb89-4bc6-b91a-9d01f6b0ef2c</itemGUID>  </subItems>         <!--	FE_ShoesRE_Crocs                        -->
+			  <subItems>  <itemGUID>4c4c5cba-e441-4f3a-938b-dc23aec99a5f</itemGUID>  </subItems>         <!--	FE_ShoesRE_CrocsSlipper                 -->
+			  <subItems>  <itemGUID>7a7c8c03-659a-4921-87f5-ab5fb76b21b5</itemGUID>  </subItems>         <!--	FE_ShoesRE_Slippers                     -->
+			  <subItems>  <itemGUID>efd43d3b-4e81-40ae-89ed-bba054857882</itemGUID>  </subItems>         <!--	FE_Shoe_Trainers_LowTop                 -->
+			  <subItems>  <itemGUID>b359716f-ee34-4358-99e1-f7ce298259da</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersBlack_LowTop            -->
+			  <subItems>  <itemGUID>84c36276-572d-4077-879b-e3f6d6d7f38a</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersWhite_LowTop            -->
+			  <subItems>  <itemGUID>33654993-466f-4997-8c1f-33360e58df2f</itemGUID>  </subItems>         <!--	FE_Shoe_Trainers_HighTop                -->
+			  <subItems>  <itemGUID>e2375c59-20b1-4331-9e8f-6fd32bcab34f</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersBlack_HighTop           -->
+			  <subItems>  <itemGUID>3ca1077b-88a9-4dbc-8d31-322a01b8149b</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersWhite_HighTop           -->
+			  <subItems>  <itemGUID>67066305-179f-44e0-87d6-d59242822426</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_KneeHigh            -->
+			  <subItems>  <itemGUID>35e7838f-b72f-418b-8ecb-eea7e716a891</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_AnkleHigher         -->
+			  <subItems>  <itemGUID>47899051-1216-4ad4-bdd0-0d46c3ff1a8d</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_AnkleHigh           -->
+			  <subItems>  <itemGUID>4c625336-b267-48eb-9b67-142965cf97bf</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_Ankle               -->
+			  <subItems>  <itemGUID>b0a0f19f-3c58-4d4e-9697-1ac8ba8221af</itemGUID>  </subItems>         <!--	FE_Boots_Converse_Kneehigh              -->
+			  <subItems>  <itemGUID>8e9bbc5b-6ab8-4e8c-8ca8-7b065da95ba7</itemGUID>  </subItems>         <!--	FE_BootsRE_Chelsea_AnkleHigher          -->
+			  <subItems>  <itemGUID>9fdf99ce-2890-442a-8f18-f1c32cf4bf36</itemGUID>  </subItems>         <!--	FE_BootsRE_Chelsea_AnkleHigh            -->
+			  <subItems>  <itemGUID>f36e172d-efa6-4a90-8ad0-97316f15ee16</itemGUID>  </subItems>         <!--	FE_ShoesRE_Chelsea                      -->
+			  <subItems>  <itemGUID>88ec8f43-cf1e-428d-97d1-e867b39c28f0</itemGUID>  </subItems>         <!--	FE_BootsRE_Combat_AnkleHigher           -->
+			  <subItems>  <itemGUID>967771df-e3e5-4f94-a7c6-9b0051a32e1b</itemGUID>  </subItems>         <!--	FE_BootsRE_Combat_AnkleHigherLoose      -->
+			  <subItems>  <itemGUID>d46340fb-613f-4548-b216-39118c9e1b6c</itemGUID>  </subItems>         <!--	FE_BootsRE_Combat_AnkleHigh             -->
+			  <subItems>  <itemGUID>38e5b700-1264-4953-aa58-7d010054e256</itemGUID>  </subItems>         <!--	FE_ShoesRE_Combat                       -->
+			  <subItems>  <itemGUID>41ac81e1-d34c-4424-afee-420ca507cb02</itemGUID>  </subItems>         <!--	FE_BootsRE_LeatherCasual_AnkleHigher    -->
+			  <subItems>  <itemGUID>adcf0b19-9626-46f9-9183-498a6402ac3a</itemGUID>  </subItems>         <!--	FE_BootsRE_LeatherCasual_AnkleHigh      -->
+			  <subItems>  <itemGUID>fdea3d63-c4af-442e-b580-cd4b6d698ba5</itemGUID>  </subItems>         <!--	FE_ShoesRE_LeatherCasual                -->
+			  <subItems>  <itemGUID>1074804a-96bc-4ea0-9203-9ef4562891ca</itemGUID>  </subItems>         <!--	FE_ShoesRE_Casual                       -->
+			  <subItems>  <itemGUID>33ea1b5c-31fb-4c73-8653-3143c85e46b2</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_KneeHigh             -->
+			  <subItems>  <itemGUID>c9310564-7af1-4a06-aa4c-a7f8fbd307c6</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_KneeLow              -->
+			  <subItems>  <itemGUID>bb857fba-9b1c-4fce-a2bc-70e91c9a92ff</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_AnkleHigh            -->
+			  <subItems>  <itemGUID>132bd25d-6060-4d36-a7ff-6119875f0a56</itemGUID>  </subItems>         <!--	FF_Boots_Leather                        -->
+			  <subItems>  <itemGUID>cb5f35aa-a1ea-46d3-bac4-371cdd9f1030</itemGUID>  </subItems>         <!--	FF_Boots_Leather_Short                  -->
+			  <subItems>  <itemGUID>9f0c6f6c-5766-4e82-81ac-3f2bea7903f3</itemGUID>  </subItems>         <!--	FF_Boots_Cowboy                         -->
+			  <subItems>  <itemGUID>2d3bcd78-73c2-4cba-a619-9cc41bf9444d</itemGUID>  </subItems>         <!--	FF_Boots_Cowboy_Plain                   -->
+			  <subItems>  <itemGUID>7818cd27-72ff-4e71-95a2-70d3d4cd2536</itemGUID>  </subItems>         <!--	FF_Boots_Common                         -->
+			  <subItems>  <itemGUID>1225017d-c696-4c76-ae0a-a7e85fbfea0b</itemGUID>  </subItems>         <!--	FF_Shoe_Common                          -->
+			  <subItems>  <itemGUID>6abee5b2-f3de-4931-93ae-eb90b50dc64e</itemGUID>  </subItems>         <!--	FF_Shoe_Trainers                        -->
+			  <subItems>  <itemGUID>d8292502-acb7-4269-966a-c6609a9db68d</itemGUID>  </subItems>         <!--	FF_Shoe_TrainersBlack                   -->
+			  <subItems>  <itemGUID>09b3d4c4-7ebb-4d03-abf4-fe10788931b6</itemGUID>  </subItems>         <!--	FF_Shoe_TrainersWhite                   -->
+			  <subItems>  <itemGUID>cffb73e7-bd8c-4352-b7af-f7cf1f23ec60</itemGUID>  </subItems>         <!--	FF_Shoe_Boots_Ankle                     -->
+			  <subItems>  <itemGUID>b42f8209-c000-4d2a-b7f6-e38ced16033b</itemGUID>  </subItems>         <!--	FF_Shoe_Boots_Ankle_Steel               -->
+			  <subItems>  <itemGUID>26150dc3-e1d9-49a6-ba7d-004a8c472227</itemGUID>  </subItems>         <!--	FF_Shoe_Boots_Ankle_Platform            -->
+			  <subItems>  <itemGUID>b9a3c342-bd94-47ad-848f-70d0eec2d019</itemGUID>  </subItems>         <!--	FF_Boots_UGG                            -->
+			  <subItems>  <itemGUID>967cf439-c3db-4aac-a2dc-6d8be37aa446</itemGUID>  </subItems>         <!--	FF_Boots_UGG_DwarfHeel                  -->
+			  <subItems>  <itemGUID>7e302f0a-1932-43f9-9b41-840e5836a47a</itemGUID>  </subItems>         <!--	FF_Boots_UGG_Heel                       -->
+			  <subItems>  <itemGUID>8cc2bbe6-03ec-4c8c-ae63-db3f2ab1f109</itemGUID>  </subItems>         <!--	FF_Boots_UGG_Kneehigh                   -->
+			  <subItems>  <itemGUID>a218ac71-9c22-4489-b2fc-ff686f99c9b2</itemGUID>  </subItems>         <!--	FF_Boots_UGG_KneehighHeel               -->
+			  <subItems>  <itemGUID>58d9ad7e-e8cc-4c8b-9a4d-197813f1e148</itemGUID>  </subItems>         <!--	FF_Boots_Platform_Kneehigh              -->
+			  <subItems>  <itemGUID>f8b84cf9-a0ba-49e7-8f87-78c0d3bd7761</itemGUID>  </subItems>         <!--	FF_Boots_Platform_Ankle                 -->
+			  <subItems>  <itemGUID>9fcc376d-4eb4-4509-90b2-49090b77f2de</itemGUID>  </subItems>         <!--	FF_Boots_Platform_AnkleLow              -->
+			  <subItems>  <itemGUID>9933ad81-4891-4af5-bc00-027ef80a7df8</itemGUID>  </subItems>         <!--	FF_Boots_PlatformPunk_Kneehigh          -->
+			  <subItems>  <itemGUID>043f86a6-9ac7-48f7-811d-36825a582743</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_DwarfHeel            -->
+			  <subItems>  <itemGUID>7e94ffec-0934-4d9b-8ccb-5abe9609bbe1</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_Heel                 -->
+			  <subItems>  <itemGUID>5b1223e6-0255-4095-b752-0ecad6fce790</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_KneehighHeel         -->
+			  <subItems>  <itemGUID>33a65ccc-c405-4a2c-82f3-099ba59d7832</itemGUID>  </subItems>         <!--	FF_Boots_Military_Kneehigh              -->
+			  <subItems>  <itemGUID>9121ec65-44c4-4354-94e7-9c97c51dfb1c</itemGUID>  </subItems>         <!--	FF_Boots_Military_Ankle                 -->
+			  <subItems>  <itemGUID>ab9fb434-4d10-4d47-8522-8c5abf3c4df5</itemGUID>  </subItems>         <!--	FF_Boots_Pointy_Kneehigh                -->
+			  <subItems>  <itemGUID>1c1e97e6-6997-4c75-9714-1a414e76ee0b</itemGUID>  </subItems>         <!--	FF_Boots_Pointy_Ankle                   -->
+			  <subItems>  <itemGUID>b602ff83-1667-40f8-a312-2fba91086895</itemGUID>  </subItems>         <!--	FF_Boots_Pointy_AnkleLow                -->
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>7b339ad5-da2e-42a5-8a51-ee87239a943c</itemGUID>
+			<subItems>
+				<itemGUID>b78f9552-1d93-46b7-a42c-6f554ce43e29</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>cfa30053-1c89-4749-8f6f-ce8335b7a031</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<itemGUID>8973893f-f324-4cdb-a32b-43cd0378174f</itemGUID>
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+			<subItems>
+				<itemGUID>62ef5f1f-8eca-4ef2-8ade-fd4fa604762f</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>9df22d1f-96cd-4d2c-88f2-4e7423d93649</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID>
+			<subItems>
+				<itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
+			<subItems>
+				<itemGUID>ce1a8520-7120-432e-8a3a-aa7b3094f0bb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+			</subItems>
+		</m_items>
+	</m_MaleOutfits>
+	<m_MaleOutfits>
+		<m_Name>Generic04</m_Name>
+		<m_Guid>bdd925eb-c34a-4355-b430-0552cfceba9e</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items>
+			<itemGUID>974489bc-80fa-44b8-a98b-00dad260dd14</itemGUID>
+			<subItems>
+				<itemGUID>d876d21a-b8c3-4865-a063-9bdcf3acaeb1</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<itemGUID>229b23f6-8e8f-4f16-837b-4fe950c48bfc</itemGUID>
+		</m_items>
+		<m_items>
+			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+		</m_items>
+		<m_items>
+			<itemGUID>7741404b-9689-4608-a0f5-4e06597776f9</itemGUID>
+			<subItems>
+				<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
+			</subItems>
+			  <subItems>  <itemGUID>a9a182e6-37a2-4b01-975f-ca26dbdde7e2</itemGUID>  </subItems>		 <!--	FE_ShoesRE_Sandals                      -->
+			  <subItems>  <itemGUID>baed5c61-2e3e-493b-a612-a6cec00e97e1</itemGUID>  </subItems>         <!--	FE_ShoesRE_Sandals_T                    -->
+			  <subItems>  <itemGUID>0ae40c45-fb89-4bc6-b91a-9d01f6b0ef2c</itemGUID>  </subItems>         <!--	FE_ShoesRE_Crocs                        -->
+			  <subItems>  <itemGUID>4c4c5cba-e441-4f3a-938b-dc23aec99a5f</itemGUID>  </subItems>         <!--	FE_ShoesRE_CrocsSlipper                 -->
+			  <subItems>  <itemGUID>7a7c8c03-659a-4921-87f5-ab5fb76b21b5</itemGUID>  </subItems>         <!--	FE_ShoesRE_Slippers                     -->
+			  <subItems>  <itemGUID>efd43d3b-4e81-40ae-89ed-bba054857882</itemGUID>  </subItems>         <!--	FE_Shoe_Trainers_LowTop                 -->
+			  <subItems>  <itemGUID>b359716f-ee34-4358-99e1-f7ce298259da</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersBlack_LowTop            -->
+			  <subItems>  <itemGUID>84c36276-572d-4077-879b-e3f6d6d7f38a</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersWhite_LowTop            -->
+			  <subItems>  <itemGUID>33654993-466f-4997-8c1f-33360e58df2f</itemGUID>  </subItems>         <!--	FE_Shoe_Trainers_HighTop                -->
+			  <subItems>  <itemGUID>e2375c59-20b1-4331-9e8f-6fd32bcab34f</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersBlack_HighTop           -->
+			  <subItems>  <itemGUID>3ca1077b-88a9-4dbc-8d31-322a01b8149b</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersWhite_HighTop           -->
+			  <subItems>  <itemGUID>67066305-179f-44e0-87d6-d59242822426</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_KneeHigh            -->
+			  <subItems>  <itemGUID>35e7838f-b72f-418b-8ecb-eea7e716a891</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_AnkleHigher         -->
+			  <subItems>  <itemGUID>47899051-1216-4ad4-bdd0-0d46c3ff1a8d</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_AnkleHigh           -->
+			  <subItems>  <itemGUID>4c625336-b267-48eb-9b67-142965cf97bf</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_Ankle               -->
+			  <subItems>  <itemGUID>b0a0f19f-3c58-4d4e-9697-1ac8ba8221af</itemGUID>  </subItems>         <!--	FE_Boots_Converse_Kneehigh              -->
+			  <subItems>  <itemGUID>8e9bbc5b-6ab8-4e8c-8ca8-7b065da95ba7</itemGUID>  </subItems>         <!--	FE_BootsRE_Chelsea_AnkleHigher          -->
+			  <subItems>  <itemGUID>9fdf99ce-2890-442a-8f18-f1c32cf4bf36</itemGUID>  </subItems>         <!--	FE_BootsRE_Chelsea_AnkleHigh            -->
+			  <subItems>  <itemGUID>f36e172d-efa6-4a90-8ad0-97316f15ee16</itemGUID>  </subItems>         <!--	FE_ShoesRE_Chelsea                      -->
+			  <subItems>  <itemGUID>88ec8f43-cf1e-428d-97d1-e867b39c28f0</itemGUID>  </subItems>         <!--	FE_BootsRE_Combat_AnkleHigher           -->
+			  <subItems>  <itemGUID>967771df-e3e5-4f94-a7c6-9b0051a32e1b</itemGUID>  </subItems>         <!--	FE_BootsRE_Combat_AnkleHigherLoose      -->
+			  <subItems>  <itemGUID>d46340fb-613f-4548-b216-39118c9e1b6c</itemGUID>  </subItems>         <!--	FE_BootsRE_Combat_AnkleHigh             -->
+			  <subItems>  <itemGUID>38e5b700-1264-4953-aa58-7d010054e256</itemGUID>  </subItems>         <!--	FE_ShoesRE_Combat                       -->
+			  <subItems>  <itemGUID>41ac81e1-d34c-4424-afee-420ca507cb02</itemGUID>  </subItems>         <!--	FE_BootsRE_LeatherCasual_AnkleHigher    -->
+			  <subItems>  <itemGUID>adcf0b19-9626-46f9-9183-498a6402ac3a</itemGUID>  </subItems>         <!--	FE_BootsRE_LeatherCasual_AnkleHigh      -->
+			  <subItems>  <itemGUID>fdea3d63-c4af-442e-b580-cd4b6d698ba5</itemGUID>  </subItems>         <!--	FE_ShoesRE_LeatherCasual                -->
+			  <subItems>  <itemGUID>1074804a-96bc-4ea0-9203-9ef4562891ca</itemGUID>  </subItems>         <!--	FE_ShoesRE_Casual                       -->
+			  <subItems>  <itemGUID>33ea1b5c-31fb-4c73-8653-3143c85e46b2</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_KneeHigh             -->
+			  <subItems>  <itemGUID>c9310564-7af1-4a06-aa4c-a7f8fbd307c6</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_KneeLow              -->
+			  <subItems>  <itemGUID>bb857fba-9b1c-4fce-a2bc-70e91c9a92ff</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_AnkleHigh            -->
+			  <subItems>  <itemGUID>132bd25d-6060-4d36-a7ff-6119875f0a56</itemGUID>  </subItems>         <!--	FF_Boots_Leather                        -->
+			  <subItems>  <itemGUID>cb5f35aa-a1ea-46d3-bac4-371cdd9f1030</itemGUID>  </subItems>         <!--	FF_Boots_Leather_Short                  -->
+			  <subItems>  <itemGUID>9f0c6f6c-5766-4e82-81ac-3f2bea7903f3</itemGUID>  </subItems>         <!--	FF_Boots_Cowboy                         -->
+			  <subItems>  <itemGUID>2d3bcd78-73c2-4cba-a619-9cc41bf9444d</itemGUID>  </subItems>         <!--	FF_Boots_Cowboy_Plain                   -->
+			  <subItems>  <itemGUID>7818cd27-72ff-4e71-95a2-70d3d4cd2536</itemGUID>  </subItems>         <!--	FF_Boots_Common                         -->
+			  <subItems>  <itemGUID>1225017d-c696-4c76-ae0a-a7e85fbfea0b</itemGUID>  </subItems>         <!--	FF_Shoe_Common                          -->
+			  <subItems>  <itemGUID>6abee5b2-f3de-4931-93ae-eb90b50dc64e</itemGUID>  </subItems>         <!--	FF_Shoe_Trainers                        -->
+			  <subItems>  <itemGUID>d8292502-acb7-4269-966a-c6609a9db68d</itemGUID>  </subItems>         <!--	FF_Shoe_TrainersBlack                   -->
+			  <subItems>  <itemGUID>09b3d4c4-7ebb-4d03-abf4-fe10788931b6</itemGUID>  </subItems>         <!--	FF_Shoe_TrainersWhite                   -->
+			  <subItems>  <itemGUID>cffb73e7-bd8c-4352-b7af-f7cf1f23ec60</itemGUID>  </subItems>         <!--	FF_Shoe_Boots_Ankle                     -->
+			  <subItems>  <itemGUID>b42f8209-c000-4d2a-b7f6-e38ced16033b</itemGUID>  </subItems>         <!--	FF_Shoe_Boots_Ankle_Steel               -->
+			  <subItems>  <itemGUID>26150dc3-e1d9-49a6-ba7d-004a8c472227</itemGUID>  </subItems>         <!--	FF_Shoe_Boots_Ankle_Platform            -->
+			  <subItems>  <itemGUID>b9a3c342-bd94-47ad-848f-70d0eec2d019</itemGUID>  </subItems>         <!--	FF_Boots_UGG                            -->
+			  <subItems>  <itemGUID>967cf439-c3db-4aac-a2dc-6d8be37aa446</itemGUID>  </subItems>         <!--	FF_Boots_UGG_DwarfHeel                  -->
+			  <subItems>  <itemGUID>7e302f0a-1932-43f9-9b41-840e5836a47a</itemGUID>  </subItems>         <!--	FF_Boots_UGG_Heel                       -->
+			  <subItems>  <itemGUID>8cc2bbe6-03ec-4c8c-ae63-db3f2ab1f109</itemGUID>  </subItems>         <!--	FF_Boots_UGG_Kneehigh                   -->
+			  <subItems>  <itemGUID>a218ac71-9c22-4489-b2fc-ff686f99c9b2</itemGUID>  </subItems>         <!--	FF_Boots_UGG_KneehighHeel               -->
+			  <subItems>  <itemGUID>58d9ad7e-e8cc-4c8b-9a4d-197813f1e148</itemGUID>  </subItems>         <!--	FF_Boots_Platform_Kneehigh              -->
+			  <subItems>  <itemGUID>f8b84cf9-a0ba-49e7-8f87-78c0d3bd7761</itemGUID>  </subItems>         <!--	FF_Boots_Platform_Ankle                 -->
+			  <subItems>  <itemGUID>9fcc376d-4eb4-4509-90b2-49090b77f2de</itemGUID>  </subItems>         <!--	FF_Boots_Platform_AnkleLow              -->
+			  <subItems>  <itemGUID>9933ad81-4891-4af5-bc00-027ef80a7df8</itemGUID>  </subItems>         <!--	FF_Boots_PlatformPunk_Kneehigh          -->
+			  <subItems>  <itemGUID>043f86a6-9ac7-48f7-811d-36825a582743</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_DwarfHeel            -->
+			  <subItems>  <itemGUID>7e94ffec-0934-4d9b-8ccb-5abe9609bbe1</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_Heel                 -->
+			  <subItems>  <itemGUID>5b1223e6-0255-4095-b752-0ecad6fce790</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_KneehighHeel         -->
+			  <subItems>  <itemGUID>33a65ccc-c405-4a2c-82f3-099ba59d7832</itemGUID>  </subItems>         <!--	FF_Boots_Military_Kneehigh              -->
+			  <subItems>  <itemGUID>9121ec65-44c4-4354-94e7-9c97c51dfb1c</itemGUID>  </subItems>         <!--	FF_Boots_Military_Ankle                 -->
+			  <subItems>  <itemGUID>ab9fb434-4d10-4d47-8522-8c5abf3c4df5</itemGUID>  </subItems>         <!--	FF_Boots_Pointy_Kneehigh                -->
+			  <subItems>  <itemGUID>1c1e97e6-6997-4c75-9714-1a414e76ee0b</itemGUID>  </subItems>         <!--	FF_Boots_Pointy_Ankle                   -->
+			  <subItems>  <itemGUID>b602ff83-1667-40f8-a312-2fba91086895</itemGUID>  </subItems>         <!--	FF_Boots_Pointy_AnkleLow                -->
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>7b339ad5-da2e-42a5-8a51-ee87239a943c</itemGUID>
+			<subItems>
+				<itemGUID>b78f9552-1d93-46b7-a42c-6f554ce43e29</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>cfa30053-1c89-4749-8f6f-ce8335b7a031</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>ae7791f9-a5df-48d8-882f-a0749b8af2b1</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+			<subItems>
+				<itemGUID>62ef5f1f-8eca-4ef2-8ade-fd4fa604762f</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>9df22d1f-96cd-4d2c-88f2-4e7423d93649</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID>
+			<subItems>
+				<itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
+			<subItems>
+				<itemGUID>ce1a8520-7120-432e-8a3a-aa7b3094f0bb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+			</subItems>
+		</m_items>
+	</m_MaleOutfits>
+	<m_MaleOutfits>
+		<m_Name>Generic05</m_Name>
+		<m_Guid>2e59b6c2-d232-4f8d-9151-14cf7b6a03c8</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+		<m_items>
+			<itemGUID>e2822080-de7e-4aca-8fa1-140f118b7043</itemGUID>
+			<subItems>
+				<itemGUID>e275bac3-e804-41cb-a80f-c6e54a9ce7f8</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0cf8f577-6d64-4c62-ac85-1e9621a3b131</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<itemGUID>974489bc-80fa-44b8-a98b-00dad260dd14</itemGUID>
+			<subItems>
+				<itemGUID>d876d21a-b8c3-4865-a063-9bdcf3acaeb1</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>2256166c-64a6-4f81-8285-0779cab92fbd</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+		</m_items>
+		<m_items>
+			<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
+			  <subItems>  <itemGUID>a9a182e6-37a2-4b01-975f-ca26dbdde7e2</itemGUID>  </subItems>		 <!--	FE_ShoesRE_Sandals                      -->
+			  <subItems>  <itemGUID>baed5c61-2e3e-493b-a612-a6cec00e97e1</itemGUID>  </subItems>         <!--	FE_ShoesRE_Sandals_T                    -->
+			  <subItems>  <itemGUID>0ae40c45-fb89-4bc6-b91a-9d01f6b0ef2c</itemGUID>  </subItems>         <!--	FE_ShoesRE_Crocs                        -->
+			  <subItems>  <itemGUID>4c4c5cba-e441-4f3a-938b-dc23aec99a5f</itemGUID>  </subItems>         <!--	FE_ShoesRE_CrocsSlipper                 -->
+			  <subItems>  <itemGUID>7a7c8c03-659a-4921-87f5-ab5fb76b21b5</itemGUID>  </subItems>         <!--	FE_ShoesRE_Slippers                     -->
+			  <subItems>  <itemGUID>efd43d3b-4e81-40ae-89ed-bba054857882</itemGUID>  </subItems>         <!--	FE_Shoe_Trainers_LowTop                 -->
+			  <subItems>  <itemGUID>b359716f-ee34-4358-99e1-f7ce298259da</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersBlack_LowTop            -->
+			  <subItems>  <itemGUID>84c36276-572d-4077-879b-e3f6d6d7f38a</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersWhite_LowTop            -->
+			  <subItems>  <itemGUID>33654993-466f-4997-8c1f-33360e58df2f</itemGUID>  </subItems>         <!--	FE_Shoe_Trainers_HighTop                -->
+			  <subItems>  <itemGUID>e2375c59-20b1-4331-9e8f-6fd32bcab34f</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersBlack_HighTop           -->
+			  <subItems>  <itemGUID>3ca1077b-88a9-4dbc-8d31-322a01b8149b</itemGUID>  </subItems>         <!--	FE_Shoe_TrainersWhite_HighTop           -->
+			  <subItems>  <itemGUID>67066305-179f-44e0-87d6-d59242822426</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_KneeHigh            -->
+			  <subItems>  <itemGUID>35e7838f-b72f-418b-8ecb-eea7e716a891</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_AnkleHigher         -->
+			  <subItems>  <itemGUID>47899051-1216-4ad4-bdd0-0d46c3ff1a8d</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_AnkleHigh           -->
+			  <subItems>  <itemGUID>4c625336-b267-48eb-9b67-142965cf97bf</itemGUID>  </subItems>         <!--	FE_BootsRE_WideCalf_Ankle               -->
+			  <subItems>  <itemGUID>b0a0f19f-3c58-4d4e-9697-1ac8ba8221af</itemGUID>  </subItems>         <!--	FE_Boots_Converse_Kneehigh              -->
+			  <subItems>  <itemGUID>8e9bbc5b-6ab8-4e8c-8ca8-7b065da95ba7</itemGUID>  </subItems>         <!--	FE_BootsRE_Chelsea_AnkleHigher          -->
+			  <subItems>  <itemGUID>9fdf99ce-2890-442a-8f18-f1c32cf4bf36</itemGUID>  </subItems>         <!--	FE_BootsRE_Chelsea_AnkleHigh            -->
+			  <subItems>  <itemGUID>f36e172d-efa6-4a90-8ad0-97316f15ee16</itemGUID>  </subItems>         <!--	FE_ShoesRE_Chelsea                      -->
+			  <subItems>  <itemGUID>88ec8f43-cf1e-428d-97d1-e867b39c28f0</itemGUID>  </subItems>         <!--	FE_BootsRE_Combat_AnkleHigher           -->
+			  <subItems>  <itemGUID>967771df-e3e5-4f94-a7c6-9b0051a32e1b</itemGUID>  </subItems>         <!--	FE_BootsRE_Combat_AnkleHigherLoose      -->
+			  <subItems>  <itemGUID>d46340fb-613f-4548-b216-39118c9e1b6c</itemGUID>  </subItems>         <!--	FE_BootsRE_Combat_AnkleHigh             -->
+			  <subItems>  <itemGUID>38e5b700-1264-4953-aa58-7d010054e256</itemGUID>  </subItems>         <!--	FE_ShoesRE_Combat                       -->
+			  <subItems>  <itemGUID>41ac81e1-d34c-4424-afee-420ca507cb02</itemGUID>  </subItems>         <!--	FE_BootsRE_LeatherCasual_AnkleHigher    -->
+			  <subItems>  <itemGUID>adcf0b19-9626-46f9-9183-498a6402ac3a</itemGUID>  </subItems>         <!--	FE_BootsRE_LeatherCasual_AnkleHigh      -->
+			  <subItems>  <itemGUID>fdea3d63-c4af-442e-b580-cd4b6d698ba5</itemGUID>  </subItems>         <!--	FE_ShoesRE_LeatherCasual                -->
+			  <subItems>  <itemGUID>1074804a-96bc-4ea0-9203-9ef4562891ca</itemGUID>  </subItems>         <!--	FE_ShoesRE_Casual                       -->
+			  <subItems>  <itemGUID>33ea1b5c-31fb-4c73-8653-3143c85e46b2</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_KneeHigh             -->
+			  <subItems>  <itemGUID>c9310564-7af1-4a06-aa4c-a7f8fbd307c6</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_KneeLow              -->
+			  <subItems>  <itemGUID>bb857fba-9b1c-4fce-a2bc-70e91c9a92ff</itemGUID>  </subItems>         <!--	FE_BootsRE_Gaiters_AnkleHigh            -->
+			  <subItems>  <itemGUID>132bd25d-6060-4d36-a7ff-6119875f0a56</itemGUID>  </subItems>         <!--	FF_Boots_Leather                        -->
+			  <subItems>  <itemGUID>cb5f35aa-a1ea-46d3-bac4-371cdd9f1030</itemGUID>  </subItems>         <!--	FF_Boots_Leather_Short                  -->
+			  <subItems>  <itemGUID>9f0c6f6c-5766-4e82-81ac-3f2bea7903f3</itemGUID>  </subItems>         <!--	FF_Boots_Cowboy                         -->
+			  <subItems>  <itemGUID>2d3bcd78-73c2-4cba-a619-9cc41bf9444d</itemGUID>  </subItems>         <!--	FF_Boots_Cowboy_Plain                   -->
+			  <subItems>  <itemGUID>7818cd27-72ff-4e71-95a2-70d3d4cd2536</itemGUID>  </subItems>         <!--	FF_Boots_Common                         -->
+			  <subItems>  <itemGUID>1225017d-c696-4c76-ae0a-a7e85fbfea0b</itemGUID>  </subItems>         <!--	FF_Shoe_Common                          -->
+			  <subItems>  <itemGUID>6abee5b2-f3de-4931-93ae-eb90b50dc64e</itemGUID>  </subItems>         <!--	FF_Shoe_Trainers                        -->
+			  <subItems>  <itemGUID>d8292502-acb7-4269-966a-c6609a9db68d</itemGUID>  </subItems>         <!--	FF_Shoe_TrainersBlack                   -->
+			  <subItems>  <itemGUID>09b3d4c4-7ebb-4d03-abf4-fe10788931b6</itemGUID>  </subItems>         <!--	FF_Shoe_TrainersWhite                   -->
+			  <subItems>  <itemGUID>cffb73e7-bd8c-4352-b7af-f7cf1f23ec60</itemGUID>  </subItems>         <!--	FF_Shoe_Boots_Ankle                     -->
+			  <subItems>  <itemGUID>b42f8209-c000-4d2a-b7f6-e38ced16033b</itemGUID>  </subItems>         <!--	FF_Shoe_Boots_Ankle_Steel               -->
+			  <subItems>  <itemGUID>26150dc3-e1d9-49a6-ba7d-004a8c472227</itemGUID>  </subItems>         <!--	FF_Shoe_Boots_Ankle_Platform            -->
+			  <subItems>  <itemGUID>b9a3c342-bd94-47ad-848f-70d0eec2d019</itemGUID>  </subItems>         <!--	FF_Boots_UGG                            -->
+			  <subItems>  <itemGUID>967cf439-c3db-4aac-a2dc-6d8be37aa446</itemGUID>  </subItems>         <!--	FF_Boots_UGG_DwarfHeel                  -->
+			  <subItems>  <itemGUID>7e302f0a-1932-43f9-9b41-840e5836a47a</itemGUID>  </subItems>         <!--	FF_Boots_UGG_Heel                       -->
+			  <subItems>  <itemGUID>8cc2bbe6-03ec-4c8c-ae63-db3f2ab1f109</itemGUID>  </subItems>         <!--	FF_Boots_UGG_Kneehigh                   -->
+			  <subItems>  <itemGUID>a218ac71-9c22-4489-b2fc-ff686f99c9b2</itemGUID>  </subItems>         <!--	FF_Boots_UGG_KneehighHeel               -->
+			  <subItems>  <itemGUID>58d9ad7e-e8cc-4c8b-9a4d-197813f1e148</itemGUID>  </subItems>         <!--	FF_Boots_Platform_Kneehigh              -->
+			  <subItems>  <itemGUID>f8b84cf9-a0ba-49e7-8f87-78c0d3bd7761</itemGUID>  </subItems>         <!--	FF_Boots_Platform_Ankle                 -->
+			  <subItems>  <itemGUID>9fcc376d-4eb4-4509-90b2-49090b77f2de</itemGUID>  </subItems>         <!--	FF_Boots_Platform_AnkleLow              -->
+			  <subItems>  <itemGUID>9933ad81-4891-4af5-bc00-027ef80a7df8</itemGUID>  </subItems>         <!--	FF_Boots_PlatformPunk_Kneehigh          -->
+			  <subItems>  <itemGUID>043f86a6-9ac7-48f7-811d-36825a582743</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_DwarfHeel            -->
+			  <subItems>  <itemGUID>7e94ffec-0934-4d9b-8ccb-5abe9609bbe1</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_Heel                 -->
+			  <subItems>  <itemGUID>5b1223e6-0255-4095-b752-0ecad6fce790</itemGUID>  </subItems>         <!--	FF_BootsRE_Leather_KneehighHeel         -->
+			  <subItems>  <itemGUID>33a65ccc-c405-4a2c-82f3-099ba59d7832</itemGUID>  </subItems>         <!--	FF_Boots_Military_Kneehigh              -->
+			  <subItems>  <itemGUID>9121ec65-44c4-4354-94e7-9c97c51dfb1c</itemGUID>  </subItems>         <!--	FF_Boots_Military_Ankle                 -->
+			  <subItems>  <itemGUID>ab9fb434-4d10-4d47-8522-8c5abf3c4df5</itemGUID>  </subItems>         <!--	FF_Boots_Pointy_Kneehigh                -->
+			  <subItems>  <itemGUID>1c1e97e6-6997-4c75-9714-1a414e76ee0b</itemGUID>  </subItems>         <!--	FF_Boots_Pointy_Ankle                   -->
+			  <subItems>  <itemGUID>b602ff83-1667-40f8-a312-2fba91086895</itemGUID>  </subItems>         <!--	FF_Boots_Pointy_AnkleLow                -->
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>7b339ad5-da2e-42a5-8a51-ee87239a943c</itemGUID>
+			<subItems>
+				<itemGUID>b78f9552-1d93-46b7-a42c-6f554ce43e29</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>cfa30053-1c89-4749-8f6f-ce8335b7a031</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.1</probability>
+			<itemGUID>6d702d88-4ca0-4bcb-9aee-d88f2be29e69</itemGUID>
+			<subItems>
+				<itemGUID>62ef5f1f-8eca-4ef2-8ade-fd4fa604762f</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>9df22d1f-96cd-4d2c-88f2-4e7423d93649</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>4cbb081e-0e9a-4248-bec1-0aa226e082e1</itemGUID>
+			<subItems>
+				<itemGUID>e4b3135f-a541-4870-a7b9-2ba6f730bc5c</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items>
+			<probability>0.3</probability>
+			<itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
+			<subItems>
+				<itemGUID>ce1a8520-7120-432e-8a3a-aa7b3094f0bb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+			</subItems>
+		</m_items>
+	</m_MaleOutfits>
+</outfitManager>

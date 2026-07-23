@@ -1,0 +1,7 @@
+IGUI_EN = {
+    IGUI_AnimalType_cyberdogpup = "cyberdogpup",
+    IGUI_AnimalType_cyberdog = "cyberdog",
+    IGUI_AnimalType_cyberdoggirl = "cyberdoggirl",
+    IGUI_Breed_cyberdoggie = "cyberdoggie",
+    IGUI_Animal_Group_cyberdoggie = "CyberDog"
+}

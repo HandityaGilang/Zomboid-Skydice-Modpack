@@ -1,0 +1,2 @@
+IG_UI_TR = {
+	IGUI_VehicleNameFordt330 = "Ford T330",

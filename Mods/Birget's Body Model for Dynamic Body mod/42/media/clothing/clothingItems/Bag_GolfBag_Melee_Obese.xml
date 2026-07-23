@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\BackPacks\M_GolfBag_obese</m_MaleModel>
+	<m_FemaleModel>Skinned\BackPacks\F_GolfBag_obese</m_FemaleModel>
+	<m_GUID>caaca74e-96a1-474f-bf1b-812ab457282b</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\bag\golfbag_blue</textureChoices>
+	<textureChoices>clothes\bag\golfbag_green</textureChoices>
+	<textureChoices>clothes\bag\golfbag_red</textureChoices>
+	<textureChoices>clothes\bag\golfbag_purple</textureChoices>
+</clothingItem>

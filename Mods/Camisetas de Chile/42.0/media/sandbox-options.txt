@@ -1,0 +1,43 @@
+VERSION = 1,
+
+option CamisetaChilena.EnableMod
+{
+    type = boolean,
+    default = true,
+    page = ArtequinClothesSandbox,
+    translation = ArtequinClothes_EnableMod,
+    tooltip = ArtequinClothes_EnableMod_Tooltip,
+}
+
+option CamisetaChilena.ZombieOutfitMultiplier
+{
+    type = double,
+    min = 0.0,
+    max = 10.0,
+    default = 1.0,
+    page = ArtequinClothesSandbox,
+    translation = ArtequinClothes_ZombieOutfitMultiplier,
+    tooltip = ArtequinClothes_ZombieOutfitMultiplier_Tooltip,
+}
+
+option CamisetaChilena.ZombieLootMultiplier
+{
+    type = double,
+    min = 0.0,
+    max = 10.0,
+    default = 1.0,
+    page = ArtequinClothesSandbox,
+    translation = ArtequinClothes_ZombieLootMultiplier,
+    tooltip = ArtequinClothes_ZombieLootMultiplier_Tooltip,
+}
+
+option CamisetaChilena.WorldLootMultiplier
+{
+    type = double,
+    min = 0.0,
+    max = 10.0,
+    default = 1.0,
+    page = ArtequinClothesSandbox,
+    translation = ArtequinClothes_WorldLootMultiplier,
+    tooltip = ArtequinClothes_WorldLootMultiplier_Tooltip,
+}

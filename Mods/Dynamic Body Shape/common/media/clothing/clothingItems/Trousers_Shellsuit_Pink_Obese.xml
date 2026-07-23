@@ -1,0 +1,13 @@
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_trousersshellsuit_obese</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\kate_trousersshellsuit_obese</m_FemaleModel>
+	<m_GUID>18296082-5f5b-4394-9d8d-85eafdaad477</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone />
+	<m_Masks>2</m_Masks>
+	<m_Masks>7</m_Masks>
+	<m_Masks>9</m_Masks>
+	<textureChoices>clothes\trousers_mesh\trousers_shellsuit_pink</textureChoices>
+</clothingItem>

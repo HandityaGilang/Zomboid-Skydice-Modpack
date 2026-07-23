@@ -1,0 +1,13 @@
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_shortshorts_obese</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\kate_shortshorts_obese</m_FemaleModel>
+	<m_GUID>99759448-4276-42f1-9c53-815098b17a95</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone />
+	<m_Masks>2</m_Masks>
+	<m_UnderlayMasksFolder>media\textures\Clothes\ShortsMask</m_UnderlayMasksFolder>
+	<textureChoices>clothes\trousers_mesh\trousersmesh_denim</textureChoices>
+	<textureChoices>clothes\trousers_mesh\trousersmesh_denimblack</textureChoices>
+	<textureChoices>clothes\trousers_mesh\trousersmesh_denimlight</textureChoices>
+</clothingItem>

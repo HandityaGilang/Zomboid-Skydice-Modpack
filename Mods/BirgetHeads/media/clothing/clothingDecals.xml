@@ -1,0 +1,19 @@
+<clothingDecals>
+	<group>
+		<name>MakeUp_EyeContacts</name>
+		<decal>MakeUp_EyeContacts_None</decal>
+		<decal>MakeUp_EyeContacts_Black</decal>
+		<decal>MakeUp_EyeContacts_BlankWhite</decal>
+		<decal>MakeUp_EyeContacts_Blue</decal>
+		<decal>MakeUp_EyeContacts_Brown</decal>
+		<decal>MakeUp_EyeContacts_DarkBrown</decal>
+		<decal>MakeUp_EyeContacts_Gray</decal>
+		<decal>MakeUp_EyeContacts_Green</decal>
+		<decal>MakeUp_EyeContacts_Hazel</decal>
+		<decal>MakeUp_EyeContacts_LightBlue</decal>
+		<decal>MakeUp_EyeContacts_LightBrown</decal>
+		<decal>MakeUp_EyeContacts_Red</decal>
+		<decal>MakeUp_EyeContacts_RedWhite</decal>
+		<decal>MakeUp_EyeContacts_White</decal>
+	</group>
+</clothingDecals>

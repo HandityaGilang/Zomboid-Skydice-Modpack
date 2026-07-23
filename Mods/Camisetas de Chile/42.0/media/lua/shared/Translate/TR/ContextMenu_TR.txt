@@ -1,0 +1,12 @@
+ContextMenu_TR = {
+    /* Opciones para las Gorras */
+    ContextMenu_ForwardCap = "Siperliği Öne Çevir",
+    ContextMenu_ReverseCap = "Siperliği Arkaya Çevir",
+
+    /* Opciones para los Delantales */
+    ContextMenu_Arremangar = "Göğüs Hizasına Çek",
+    ContextMenu_Desarremangar = "Bele İndir",
+    
+    /* Nombre del Submenú */
+    ContextMenu_Ajustar_Prenda = "Kıyafeti Ayarla"
+}

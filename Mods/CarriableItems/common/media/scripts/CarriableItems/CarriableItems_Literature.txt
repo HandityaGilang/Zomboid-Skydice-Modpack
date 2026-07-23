@@ -1,0 +1,3357 @@
+module Base
+{  
+item ArmorMag1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item ArmorMag2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item ArmorMag3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item ArmorMag4
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item ArmorMag5
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item ArmorMag6
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item ArmorMag7
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item ArmorSchematic
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BarleyBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BarleyBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BasilBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BasilBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BellPepperBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BellPepperBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BlackSageBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BlackSageBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_AdventureNonFiction
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_Art
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_Baseball
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_Bible
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_Biography
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_Business
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_Childs
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_Cinema
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_Classic
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_ClassicFiction
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_ClassicNonfiction
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_Computer
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_CrimeFiction
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_Fantasy
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_Farming
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_Fashion
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_Fiction
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_GeneralNonFiction
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_GeneralReference
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_Golf
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_History
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_Horror
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_Legal
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_LiteraryFiction
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_Medical
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_Military
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_MilitaryHistory
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_Music
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_Nature
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_Occult
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_Philosophy
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_Policing
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_Politics
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_Quackery
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_Religion
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_Rich
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_Romance
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_SadNonFiction
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_SchoolTextbook
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_Science
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_SciFi
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_Sports
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_Thriller
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_Travel
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Book_Western
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookAiming1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookAiming2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookAiming3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookAiming4
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookAiming5
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookBlacksmith1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookBlacksmith2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookBlacksmith3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookBlacksmith4
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookBlacksmith5
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookButchering1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookButchering2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookButchering3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookButchering4
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookButchering5
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookCarpentry1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookCarpentry2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookCarpentry3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookCarpentry4
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookCarpentry5
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookCarving1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookCarving2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookCarving3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookCarving4
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookCarving5
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookCooking1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookCooking2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookCooking3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookCooking4
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookCooking5
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookElectrician1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookElectrician2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookElectrician3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookElectrician4
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookElectrician5
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookFancy_Bible
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookFancy_Classic
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookFancy_ClassicFiction
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookFancy_ClassicNonfiction
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookFancy_History
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookFancy_Legal
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookFancy_Medical
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookFancy_MilitaryHistory
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookFancy_Occult
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookFancy_Philosophy
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookFancy_Politics
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookFancy_Religion
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookFarming1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookFarming2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookFarming3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookFarming4
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookFarming5
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookFirstAid1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookFirstAid2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookFirstAid3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookFirstAid4
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookFirstAid5
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookFishing1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookFishing2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookFishing3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookFishing4
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookFishing5
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookFlintKnapping1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookFlintKnapping2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookFlintKnapping3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookFlintKnapping4
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookFlintKnapping5
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookForaging1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookForaging2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookForaging3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookForaging4
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookForaging5
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookGlassmaking1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookGlassmaking2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookGlassmaking3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookGlassmaking4
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookGlassmaking5
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookHusbandry1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookHusbandry2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookHusbandry3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookHusbandry4
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookHusbandry5
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookLongBlade1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookLongBlade2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookLongBlade3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookLongBlade4
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookLongBlade5
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookMaintenance1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookMaintenance2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookMaintenance3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookMaintenance4
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookMaintenance5
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookMasonry1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookMasonry2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookMasonry3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookMasonry4
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookMasonry5
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookMechanic1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookMechanic2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookMechanic3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookMechanic4
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookMechanic5
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookMetalWelding1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookMetalWelding2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookMetalWelding3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookMetalWelding4
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookMetalWelding5
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookPottery1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookPottery2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookPottery3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookPottery4
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookPottery5
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookReloading1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookReloading2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookReloading3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookReloading4
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookReloading5
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookTailoring1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookTailoring2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookTailoring3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookTailoring4
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookTailoring5
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookTracking1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookTracking2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookTracking3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookTracking4
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookTracking5
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookTrapping1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookTrapping2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookTrapping3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookTrapping4
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BookTrapping5
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BroadleafPlantainBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BroadleafPlantainBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BroccoliBagSeed2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BroccoliBagSeed2_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Brochure
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BSToolsSchematic
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BusinessCard
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BusinessCard_Nolans
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item BusinessCard_Personal
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item CabbageBagSeed2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item CabbageBagSeed2_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Card_Birthday
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Card_Christmas
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Card_Easter
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Card_Halloween
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Card_Hanukkah
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Card_LunarYear
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Card_StPatrick
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Card_Sympathy
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Card_Valentine
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item CarrotBagSeed2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item CarrotBagSeed2_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Catalog
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item CauliflowerBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item CauliflowerBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item ChamomileBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item ChamomileBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item ChildsPictureBook
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item ChivesBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item ChivesBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item CilantroBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item CilantroBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item ComfreyBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item ComfreyBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item ComicBook
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item ComicBook_Retail
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item CommonMallowBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item CommonMallowBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item CookingMag1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item CookingMag2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item CookingMag3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item CookingMag4
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item CookingMag5
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item CookingMag6
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item CookwareSchematic
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item CornBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item CornBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item CucumberBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item CucumberBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Diary1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Diary2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Doodle
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item DoodleKids
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item ElectronicsMag1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item ElectronicsMag2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item ElectronicsMag3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item ElectronicsMag4
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item ElectronicsMag5
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item EngineerMagazine1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item EngineerMagazine2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item EngineerMagazine3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item ExplosiveSchematic
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item FarmingMag1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item FarmingMag2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item FarmingMag3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item FarmingMag4
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item FarmingMag5
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item FarmingMag6
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item FarmingMag7
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item FarmingMag8
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item FarmingMag9
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item FishingMag1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item FishingMag2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item FlaxBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item FlaxBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Flier
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Flier_Nolans
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item GarlicBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item GarlicBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item GenericMail
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item GlassmakingMag1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item GlassmakingMag2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item GlassmakingMag3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item GraphPaper
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item GreenpeasBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item GreenpeasBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item HabaneroBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item HabaneroBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item HempBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item HempBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item HempMag1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item HerbalistMag
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item HopsBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item HopsBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item HottieZ
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item HottieZ_New
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item HuntingMag1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item HuntingMag2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item HuntingMag3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item HuntingMag4
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item IDcard
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item IDcard_Blank
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item IDcard_Female
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item IDcard_Male
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item IDcard_Stolen
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item IndexCard
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item JalapenoBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item JalapenoBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Journal
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item KaleBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item KaleBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item KeyMag1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item KnittingMag1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item KnittingMag2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item LavenderBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item LavenderBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item LeekBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item LeekBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item LemonGrassBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item LemonGrassBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item LetterHandwritten
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item LettuceBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item LettuceBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Art
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Art_New
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Business
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Business_New
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Car
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Car_New
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Childs
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Childs_New
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Cinema
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Cinema_New
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Crime
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Crime_New
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Fashion
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Fashion_New
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Firearm
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Firearm_New
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Gaming
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Gaming_New
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Golf
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Golf_New
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Health
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Health_New
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Hobby
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Hobby_New
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Horror
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Horror_New
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Humor
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Humor_New
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Military
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Military_New
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Music
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Music_New
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_New
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Outdoors
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Outdoors_New
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Police
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Police_New
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Popular
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Popular_New
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Rich
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Rich_New
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Science
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Science_New
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Sports
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Sports_New
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Tech
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Tech_New
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Teens
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Magazine_Teens_New
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item MagazineCrossword
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item MagazineWordsearch
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item MarigoldBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item MarigoldBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item MechanicMag1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item MechanicMag2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item MechanicMag3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item MeleeWeaponSchematic
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item MenuCard
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item MetalworkMag1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item MetalworkMag2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item MetalworkMag3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item MetalworkMag4
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item MintBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item MintBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Newspaper
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Newspaper_Dispatch_New
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Newspaper_Herald_New
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Newspaper_Knews_New
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Newspaper_New
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Newspaper_Recent
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Newspaper_Times_New
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Note
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Notebook
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Notepad
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item OfficialDocument
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item OnionBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item OnionBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item OreganoBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item OreganoBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_AdventureNonFiction
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Art
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Baseball
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Bible
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Biography
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Business
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Childs
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Cinema
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Classic
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_ClassicFiction
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_ClassicNonfiction
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Computer
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Conspiracy
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_CrimeFiction
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Diet
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Fantasy
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Fashion
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Fiction
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Golf
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Hass
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_History
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Horror
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Legal
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_LiteraryFiction
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Medical
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Military
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_MilitaryHistory
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Music
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Nature
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_NewAge
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Occult
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Philosophy
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Play
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Policing
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Politics
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Poor
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Quackery
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Quigley
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Relationship
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Religion
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Rich
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Romance
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_SadNonFiction
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Scary
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Science
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_SciFi
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_SelfHelp
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Sexy
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Sports
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Teens
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Thriller
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Travel
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_TrueCrime
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperback_Western
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Paperwork
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item ParkingTicket
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item ParsleyBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item ParsleyBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Passport
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Phonebook
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Photo
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Photo_Hass
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Photo_Racy
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Photo_Secret
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Photo_VeryOld
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item PhotoBook
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item PoppyBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item PoppyBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Postcard
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item PotatoBagSeed2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item PotatoBagSeed2_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item PressID
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item PrimitiveToolMag1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item PrimitiveToolMag2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item PrimitiveToolMag3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item PumpkinBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item PumpkinBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item RadioMag1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item RadioMag2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item RadioMag3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item Receipt
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item RecipeClipping
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item RedRadishBagSeed2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item RedRadishBagSeed2_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item RoseBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item RoseBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item RosemaryBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item RosemaryBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item RPGmanual
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item RyeBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item RyeBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item SageBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item SageBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item ScratchTicket
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item ScratchTicket_Loser
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item ScratchTicket_Winner
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item SewingPattern
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item SheetPaper2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item SmithingMag1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item SmithingMag10
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item SmithingMag11
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item SmithingMag2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item SmithingMag3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item SmithingMag4
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item SmithingMag5
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item SmithingMag6
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item SmithingMag7
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item SmithingMag8
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item SmithingMag9
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item SoybeansBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item SoybeansBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item SpeedingTicket
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item SpinachBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item SpinachBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item StockCertificate
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item StrewberrieBagSeed2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item StrewberrieBagSeed2_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item SugarBeetBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item SugarBeetBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item SunflowerBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item SunflowerBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item SurvivalSchematic
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item SweetPotatoBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item SweetPotatoBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item TailoringMag1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item TailoringMag10
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item TailoringMag2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item TailoringMag3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item TailoringMag4
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item TailoringMag5
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item TailoringMag6
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item TailoringMag7
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item TailoringMag8
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item TailoringMag9
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item ThymeBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item ThymeBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item TobaccoBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item TobaccoBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item TomatoBagSeed2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item TomatoBagSeed2_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item TrickMag1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item TrickMag2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item TurnipBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item TurnipBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item TVMagazine
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item TVMagazine_New
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item WatermelonBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item WatermelonBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item WeaponMag1
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item WeaponMag2
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item WeaponMag3
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item WeaponMag4
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item WeaponMag5
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item WeaponMag6
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item WeaponMag7
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item WheatBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item WheatBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item WildGarlicBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item WildGarlicBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item ZucchiniBagSeed
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+item ZucchiniBagSeed_Empty
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+}

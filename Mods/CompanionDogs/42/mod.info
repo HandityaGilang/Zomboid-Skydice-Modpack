@@ -1,0 +1,8 @@
+id=CompanionDogs
+name=Companion Dogs [ALPHA]
+description=Tame a stray dog and raise a loyal companion that follows you, warns of zombies, and fights at your side, but every advantage has a price. Built for Build 42 (42.18+); works in singleplayer, co-op and dedicated servers and is safe to add to existing saves. ALPHA: four breeds so far (the Brazilian street mutt Caramelo, the German Shepherd, the Golden Retriever and the rare winter Husky) plus breeding with puppies, assisted hunting and cargo saddlebags, with more breeds and vet care on the roadmap. Multiplayer: on a co-op host, enable Companion Dogs in the main-menu Mods list (not just the in-game co-op selection) or the dog appears without its model/texture; on dedicated servers each player just needs it enabled. Chinese (简体/繁體) translation by duwenju1203. Italian translation by d4rk83. Japanese translation by 一匹狼. Thai translation by momineko. ASSET USAGE: all models, textures, animations, sounds and code are for use within THIS MOD ONLY; please do not extract, repackage, redistribute or reuse them without explicit permission.
+poster=poster.png
+icon=icon.png
+modversion=0.6.4
+pzversion=42.19.0
+versionMin=42.18.0

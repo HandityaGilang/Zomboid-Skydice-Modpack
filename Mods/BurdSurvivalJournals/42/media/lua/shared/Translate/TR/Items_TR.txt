@@ -1,0 +1,9 @@
+Items_TR = {
+    DisplayName_BlankSurvivalJournal = "Boþ Hayatta Kalma Günlüðü",
+    DisplayName_BlankSurvivalJournal_Worn = "Yýpranmýþ Boþ Günlük",
+    DisplayName_BlankSurvivalJournal_Bloody = "Kanlý Boþ Günlük",
+    DisplayName_FilledSurvivalJournal = "Dolu Hayatta Kalma Günlüðü",
+    DisplayName_FilledSurvivalJournal_Worn = "Yýpranmýþ Hayatta Kalma Günlüðü",
+    DisplayName_FilledSurvivalJournal_Bloody = "Kanlý Hayatta Kalma Günlüðü",
+    DisplayName_CursedJournal = "Lanetli Günlük",
+}

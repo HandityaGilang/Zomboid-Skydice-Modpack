@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\M_ApronWaist</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\F_ApronWaist</m_FemaleModel>
+	<m_GUID>661432ad-14dd-4481-9b6d-a4f2f10e9f8f</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes/Apron/Apron_Juan_Valdez</textureChoices>
+</clothingItem>

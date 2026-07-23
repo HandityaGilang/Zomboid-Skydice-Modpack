@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes2\Boots_LeatherCasual\BootsRE_LeatherCasual_Ankle_M.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes2\Boots_LeatherCasual\BootsRE_LeatherCasual_Ankle_F.fbx</m_FemaleModel>
+	<m_GUID>adcf0b19-9626-46f9-9183-498a6402ac3a</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>	
+	<m_Masks>8</m_Masks>	
+	<m_Masks>10</m_Masks>
+	<m_Masks>11</m_Masks>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+
+	<textureChoices>clothes\Shoes2\BootsRE_LeatherCasual\Boots_LeatherCasual_0</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_LeatherCasual\Boots_LeatherCasual_0A</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_LeatherCasual\Boots_LeatherCasual_1</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_LeatherCasual\Boots_LeatherCasual_2</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_LeatherCasual\Boots_LeatherCasual_3</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_LeatherCasual\Boots_LeatherCasual_4</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_LeatherCasual\Boots_LeatherCasual_5</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_LeatherCasual\Boots_LeatherCasual_6</textureChoices>
+	
+</clothingItem>

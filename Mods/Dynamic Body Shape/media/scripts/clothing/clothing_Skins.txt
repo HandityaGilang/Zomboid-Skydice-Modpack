@@ -1,0 +1,146 @@
+module Base
+{
+    item Underweight_Skin_Male
+    {
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		ClothingItem = Underweight_Skin_Male,
+		BodyLocation = Bandage,
+        WorldStaticModel = False, 
+    }
+
+    item Underweight_Skin_Female
+    {
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		ClothingItem = Underweight_Skin_Female,
+		BodyLocation = Bandage,
+        WorldStaticModel = FALSE, 
+    }
+
+    item Emaciated_Skin_Male
+    {
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		ClothingItem = Emaciated_Skin_Male,
+		BodyLocation = Bandage,
+        WorldStaticModel = FALSE, 
+    }
+
+    item Emaciated_Skin_Female
+    {
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		ClothingItem = Emaciated_Skin_Female,
+		BodyLocation = Bandage,
+        WorldStaticModel = FALSE, 
+    }
+
+    item Muscles_Top_Male_1
+    {
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		ClothingItem = Muscles_Top_Male_1,
+		BodyLocation = Bandage,
+        WorldStaticModel = FALSE, 
+    }
+
+    item Muscles_Bottom_Male_1
+    {
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		ClothingItem = Muscles_Bottom_Male_1,
+		BodyLocation = Bandage,
+        WorldStaticModel = FALSE, 
+    }
+
+    item Muscles_Top_Female_1
+    {
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		ClothingItem = Muscles_Top_Female_1,
+		BodyLocation = Bandage,
+        WorldStaticModel = FALSE, 
+    }
+
+    item Muscles_Bottom_Female_1
+    {
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		ClothingItem = Muscles_Bottom_Female_1,
+		BodyLocation = Bandage,
+        WorldStaticModel = FALSE, 
+    }
+
+    item Muscles_Top_Male_2
+    {
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		ClothingItem = Muscles_Top_Male_2,
+		BodyLocation = Bandage,
+        WorldStaticModel = FALSE, 
+    }
+
+    item Muscles_Bottom_Male_2
+    {
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		ClothingItem = Muscles_Bottom_Male_2,
+		BodyLocation = Bandage,
+        WorldStaticModel = FALSE, 
+    }
+
+    item Muscles_Top_Female_2
+    {
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		ClothingItem = Muscles_Top_Female_2,
+		BodyLocation = Bandage,
+        WorldStaticModel = FALSE, 
+    }
+
+    item Muscles_Bottom_Female_2
+    {
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		ClothingItem = Muscles_Bottom_Female_2,
+		BodyLocation = Bandage,
+        WorldStaticModel = FALSE, 
+    }
+
+    item Muscles_Top_Male_3
+    {
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		ClothingItem = Muscles_Top_Male_3,
+		BodyLocation = Bandage,
+        WorldStaticModel = FALSE, 
+    }
+
+    item Muscles_Bottom_Male_3
+    {
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		ClothingItem = Muscles_Bottom_Male_3,
+		BodyLocation = Bandage,
+        WorldStaticModel = FALSE, 
+    }
+
+    item Muscles_Top_Female_3
+    {
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		ClothingItem = Muscles_Top_Female_3,
+		BodyLocation = Bandage,
+        WorldStaticModel = FALSE, 
+    }
+
+    item Muscles_Bottom_Female_3
+    {
+        DisplayCategory = Clothing,
+		Type = Clothing,
+		ClothingItem = Muscles_Bottom_Female_3,
+		BodyLocation = Bandage,
+        WorldStaticModel = FALSE, 
+    }
+}

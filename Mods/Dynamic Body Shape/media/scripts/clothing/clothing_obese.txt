@@ -1,0 +1,1961 @@
+module Base
+{
+    item AmmoStrap_Bullets_Obese
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Bullets Ammo Strap_Obese,
+		ClothingItem = AmmoStrap_Bullets_Obese,
+		BodyLocation = AmmoStrap,
+		Icon = AmmoStrap,
+		WorldStaticModel = AmmoStrap_Ground,
+		Tags = ReloadFastBullets,
+	}
+
+	item AmmoStrap_Shells_Obese
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Shells Ammo Strap_Obese,
+		ClothingItem = AmmoStrap_Shells_Obese,
+		BodyLocation = AmmoStrap,
+		Icon = AmmoStrap,
+		Tooltip = Tooltip_AmmoStrap,
+		WorldStaticModel = AmmoStrap_Ground,
+		Tags = ReloadFastShells,
+	}
+
+    item Apron_Black_Obese
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Apron_Obese,
+		ClothingItem = Apron_Black_Obese,
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+		Icon = ApronBlack,
+		FabricType = Cotton,
+		WorldStaticModel = Apron_Ground,
+	}
+	item Apron_IceCream_Obese
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Ice Cream Server Apron_Obese,
+		ClothingItem = Apron_IceCream_Obese,
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+		Icon = ApronIceCream,
+		FabricType = Cotton,
+		WorldStaticModel = Apron_Ground,
+	}
+	item Apron_Jay_Obese
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Jay Chicken Server Apron_Obese,
+		ClothingItem = Apron_Jay_Obese,
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+		Icon = ApronJays,
+		FabricType = Cotton,
+		WorldStaticModel = Apron_Ground,
+	}
+	item Apron_PileOCrepe_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = PileOCrepe Server Apron_Obese,
+        ClothingItem = Apron_PileOCrepe_Obese,
+        BodyLocation = TorsoExtra,
+        BloodLocation = Apron,
+        Icon = Apron_Pileocrepes,
+        FabricType = Cotton,
+        WorldStaticModel = Apron_Ground,
+    }
+    item Apron_PizzaWhirled_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = PizzaWhirled Server Apron_Obese,
+        ClothingItem = Apron_PizzaWhirled_Obese,
+        BodyLocation = TorsoExtra,
+        BloodLocation = Apron,
+        Icon = Apron_PizzaWhirled,
+        FabricType = Cotton,
+        WorldStaticModel = Apron_Ground,
+    }
+	item Apron_Spiffos_Obese
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Spiffo's Server Apron_Obese,
+		ClothingItem = Apron_Spiffos_Obese,
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+		Icon = ApronSpiffo,
+		FabricType = Cotton,
+		WorldStaticModel = Apron_Ground,
+	}
+	item Apron_White_Obese
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Apron_Obese,
+		ClothingItem = Apron_White_Obese,
+		BodyLocation = TorsoExtra,
+		BloodLocation = Apron,
+		Icon = ApronWhite,
+		FabricType = Cotton,
+		WorldStaticModel = Apron_Ground,
+	}
+    item Boilersuit_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Coveralls_Obese,
+        ClothingItem = Boilersuit_Obese,
+        BodyLocation = Boilersuit,
+        Icon = BoilerSuitWhite,
+        ColorRed = 161,
+        ColorGreen = 161,
+        ColorBlue = 161,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.65,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+        WorldStaticModel = BoilerSuit_Ground,
+    }
+    item Boilersuit_BlueRed_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Coveralls_Obese,
+        ClothingItem = Boilersuit_BlueRed_Obese,
+        BodyLocation = Boilersuit,
+        BloodLocation = Trousers;Jumper,
+        IconsForTexture = BoilerSuitBlue;BoilerSuitRed,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.65,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+        WorldStaticModel = BoilerSuit_Ground,
+    }
+    item Boilersuit_Yellow_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Coveralls_Obese,
+        ClothingItem = Boilersuit_Yellow_Obese,
+        BodyLocation = Boilersuit,
+        BloodLocation = Trousers;Jumper,
+        IconsForTexture = JumpsuitPrisonKhaki,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.65,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+        WorldStaticModel = BoilerSuit_Ground,
+    }
+    item Boilersuit_Flying_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Airforce Coveralls_Obese,
+        ClothingItem = Boilersuit_Flying_Obese,
+        BodyLocation = Boilersuit,
+        Icon = BoilerSuitGreen,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.75,
+        WindResistance = 0.55,
+        FabricType = Cotton,
+        WorldStaticModel = BoilerSuit_Ground,
+    }
+    item Boilersuit_Prisoner_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Prisoner Jumpsuit_Obese,
+        ClothingItem = Boilersuit_Prisoner_Obese,
+        BodyLocation = Boilersuit,
+        Icon = JumpsuitPrisonOrange,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.45,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        WorldStaticModel = BoilerSuit_Ground,
+    }
+    item Boilersuit_PrisonerKhaki_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Prisoner Jumpsuit_Obese,
+        ClothingItem = Boilersuit_PrisonerKhaki_Obese,
+        BodyLocation = Boilersuit,
+        Icon = JumpsuitPrisonKhaki,
+        BloodLocation = Trousers;Jumper,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.40,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+        WorldStaticModel = BoilerSuit_Ground,
+    }
+
+    item Dungarees_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Overalls_Obese,
+        ClothingItem = Dungarees_Obese,
+        BodyLocation = Pants,
+        Icon = OverallsDenim,
+        BloodLocation = Trousers;ShirtNoSleeves,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.65,
+        WindResistance = 0.5,
+        FabricType = Denim,
+        WaterResistance = 0.20,
+        WorldStaticModel = Dungarees_Ground,
+    }
+
+    item Ghillie_Top_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Ghillie Suit Torso_Obese,
+        ClothingItem = Ghillie_Top_Obese,
+        BodyLocation = FullTop,
+        BloodLocation = Jacket,
+        Icon = JacketGhillie,
+        RunSpeedModifier = 0.75,
+        CombatSpeedModifier = 0.9,
+        BiteDefense = 10,
+        ScratchDefense = 30,
+        Insulation = 0.70,
+        WindResistance = 0.45,
+        WaterResistance = 0.35,
+        Weight = 4,
+        WorldStaticModel = GhillieTop_Ground,
+    }
+
+    item Ghillie_Trousers_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Ghillie Suit Pants_Obese,
+        ClothingItem = Ghillie_Trousers_Obese,
+        BodyLocation = Pants,
+        Icon = TrousersCamoGreen,
+        BloodLocation = Trousers,
+        Icon = TrousersGhillie,
+        RunSpeedModifier = 0.85,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.70,
+        WindResistance = 0.65,
+        WaterResistance = 0.35,
+        WorldStaticModel = GhillieTrousers_Ground,
+    }
+
+    item HospitalGown_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Hospital Gown_Obese,
+        ClothingItem = Gown_Hospital_Obese,
+        BodyLocation = Dress,
+        BloodLocation = Trousers;Shirt,
+        Icon = HospitalGown,
+        Insulation = 0.10,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+        WorldStaticModel = HospitalGown_Ground,
+    }
+
+    item HazmatSuit_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Hazmat Suit_Obese,
+        ClothingItem = HazmatSuit_Obese,
+        BodyLocation = FullSuitHead,
+        Icon = BoilerSuitOrange,
+        BloodLocation = Trousers;Jumper;Head;Neck;Hands;Shoes,
+        Icon = Hazmatsuit,
+        RunSpeedModifier = 0.75,
+        ScratchDefense = 15,
+        BiteDefense = 5,
+        Insulation = 0.65,
+        WindResistance = 0.9,
+        WorldStaticModel = Hazmat_Ground,
+        Tags = GasMask;HazmatSuit,
+    }
+
+    item HoodieDOWN_WhiteTINT_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Hoodie_Obese,
+        ClothingItem = HoodieDOWN_WhiteTINT_Obese,
+        ClothingItemExtra = HoodieUP_WhiteTINT_Obese,
+        ClothingItemExtraOption = UpHoodie,
+        clothingExtraSubmenu = DownHoodie,
+        BodyLocation = Sweater,
+        BloodLocation = Jumper,
+        Icon = HoodieWhite,
+        ScratchDefense = 10,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.6,
+        WindResistance = 0.25,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,
+    }
+
+    item HoodieUP_WhiteTINT_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Hoodie_Obese,
+        ClothingItem = HoodieUP_WhiteTINT_Obese,
+        ClothingItemExtra = HoodieDOWN_WhiteTINT_Obese,
+        ClothingItemExtraOption = DownHoodie,
+        clothingExtraSubmenu = UpHoodie,
+        BodyLocation = SweaterHat,
+        BloodLocation = Jumper;FullHelmet,
+        Icon = HoodieWhite,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Hoodie_Ground,
+    }
+
+    item Jacket_ArmyCamoDesert_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Military Desert Camo Jacket_Obese,
+        ClothingItem = Jacket_ArmyCamoDesert_Obese,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        Icon = ShirtCamoSand,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 30,
+        ScratchDefense = 50,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.35,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WaterResistance = 0.2,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+    item Jacket_ArmyCamoGreen_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Military Green Camo Jacket_Obese,
+        ClothingItem = Jacket_ArmyCamoGreen_Obese,
+        BodyLocation = Jacket,
+        Icon = ShirtCamoGreen,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 30,
+        ScratchDefense = 50,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.45,
+        WindResistance = 0.3,
+        FabricType = Cotton,
+        WaterResistance = 0.45,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+    item Jacket_Black_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Leather Jacket_Obese,
+        ClothingItem = Jacket_Black_Obese,
+        BodyLocation = Jacket,
+        Icon = JacketBlack,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.40,
+        WindResistance = 0.6,
+        FabricType = Leather,
+        WaterResistance = 0.4,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+    item Jacket_Chef_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Chef Jacket_Obese,
+        ClothingItem = Jacket_Chef_Obese,
+        BodyLocation = Jacket,
+        Icon = JacketChef,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.35,
+        WindResistance = 0.15,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+    item Jacket_CoatArmy_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Army Coat_Obese,
+        ClothingItem = Jacket_CoatArmy_Obese,
+        BodyLocation = JacketSuit,
+        Icon = JacketArmyDress,
+        BloodLocation = LongJacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.70,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+        WaterResistance = 0.55,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+
+    item Jacket_Fireman_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Firefighter Jacket_Obese,
+        ClothingItem = Jacket_Fireman_Obese,
+        BodyLocation = Jacket,
+        Icon = JacketFireman,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.87,
+        CombatSpeedModifier = 0.90,
+        BiteDefense = 50,
+        ScratchDefense = 70,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.85,
+        WindResistance = 0.85,
+        WaterResistance = 0.8,
+        Weight = 4,
+        WorldStaticModel = Jacket_Ground,
+    }
+    item Jacket_LeatherWildRacoons_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Wild Raccoons Leather Jacket_Obese,
+        ClothingItem = Jacket_LeatherWildRaccoons_Obese,
+        BodyLocation = Jacket,
+        Icon = BikerJacketRaccoons,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.40,
+        WindResistance = 0.6,
+        FabricType = Leather,
+        WaterResistance = 0.4,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+    item Jacket_LeatherIronRodent_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Iron Rodent Leather Jacket_Obese,
+        ClothingItem = Jacket_LeatherIronRodent_Obese,
+        BodyLocation = Jacket,
+        Icon = BikerJacketRodents,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.40,
+        WindResistance = 0.6,
+        FabricType = Leather,
+        WaterResistance = 0.4,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+
+    item Jacket_LeatherBarrelDogs_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Barrel Dogs Leather Jacket_Obese,
+        ClothingItem = Jacket_LeatherBarrelDogs_Obese,
+        BodyLocation = Jacket,
+        Icon = BikerJacketDogs,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.40,
+        WindResistance = 0.6,
+        FabricType = Leather,
+        WaterResistance = 0.4,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+
+    item Jacket_NavyBlue_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Jacket_Obese,
+        ClothingItem = Jacket_NavyBlue_Obese,
+        BodyLocation = Jacket,
+        Icon = Jacket_White,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        ColorRed = 37,
+        ColorGreen = 37,
+        ColorBlue = 70,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.5,
+        WindResistance = 0.60,
+        FabricType = Cotton,
+        WaterResistance = 0.25,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+
+    item Jacket_Padded_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Padded Jacket_Obese,
+        ClothingItem = Jacket_Padded_Obese,
+        BodyLocation = JacketHat_Bulky,
+        Icon = JacketPadded_White,
+        BloodLocation = Jumper;FullHelmet,
+        RunSpeedModifier = 0.89,
+        CombatSpeedModifier = 0.96,
+        ClothingItemExtra = Jacket_PaddedDOWN_Obese,
+        ClothingItemExtraOption = DownHoodie,
+        clothingExtraSubmenu = UpHoodie,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.95,
+        WindResistance = 0.95,
+        WaterResistance = 0.60,
+        Weight = 3,
+        WorldStaticModel = Hoodie_Ground,
+    }
+
+    item Jacket_PaddedDOWN_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Padded Jacket_Obese,
+        ClothingItem = Jacket_PaddedDOWN_Obese,
+        BodyLocation = Jacket_Bulky,
+        Icon = JacketPadded_White,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.89,
+        CombatSpeedModifier = 0.96,
+        ClothingItemExtra = Jacket_Padded,
+        ClothingItemExtraOption = UpHoodie,
+        clothingExtraSubmenu = DownHoodie,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        NeckProtectionModifier = 0.5,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+        WaterResistance = 0.60,
+        Weight = 3,
+        WorldStaticModel = Hoodie_Ground,
+    }
+
+    item Jacket_Police_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Police Deputy Jacket_Obese,
+        ClothingItem = Jacket_Police_Obese,
+        BodyLocation = Jacket,
+        Icon = JacketPolice,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.98,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.6,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+        WaterResistance = 0.25,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+    item Jacket_Ranger_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Ranger Jacket_Obese,
+        ClothingItem = Jacket_Ranger_Obese,
+        BodyLocation = Jacket,
+        Icon = JacketRanger,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.98,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.7,
+        WindResistance = 0.7,
+        FabricType = Cotton,
+        WaterResistance = 0.5,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+
+    item Jacket_Shellsuit_Black_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Shell Suit Jacket_Obese,
+        ClothingItem = Jacket_Shellsuit_Black_Obese,
+        BodyLocation = Jacket_Bulky,
+        Icon = TracksuitBlack,
+        BloodLocation = Jumper,
+        ScratchDefense = 5,
+        Insulation = 0.45,
+        WindResistance = 0.4,
+        Weight = 1,
+        WorldStaticModel = Jacket_Shellsuit_Ground,
+    }
+    item Jacket_Shellsuit_Blue_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Shell Suit Jacket_Obese,
+        ClothingItem = Jacket_Shellsuit_Blue_Obese,
+        BodyLocation = Jacket_Bulky,
+        Icon = TracksuitBlue,
+        BloodLocation = Jumper,
+        ScratchDefense = 5,
+        Insulation = 0.45,
+        WindResistance = 0.4,
+        Weight = 1,
+        WorldStaticModel = Jacket_Shellsuit_Ground,
+    }
+    item Jacket_Shellsuit_Green_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Shell Suit Jacket_Obese,
+        ClothingItem = Jacket_Shellsuit_Green_Obese,
+        BodyLocation = Jacket_Bulky,
+        Icon = TracksuitGreen,
+        BloodLocation = Jumper,
+        ScratchDefense = 5,
+        Insulation = 0.45,
+        WindResistance = 0.4,
+        Weight = 1,
+        WorldStaticModel = Jacket_Shellsuit_Ground,
+    }
+    item Jacket_Shellsuit_Pink_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Shell Suit Jacket_Obese,
+        ClothingItem = Jacket_Shellsuit_Pink_Obese,
+        BodyLocation = Jacket_Bulky,
+        Icon = TracksuitPink,
+        BloodLocation = Jumper,
+        ScratchDefense = 5,
+        Insulation = 0.45,
+        WindResistance = 0.4,
+        Weight = 1,
+        WorldStaticModel = Jacket_Shellsuit_Ground,
+    }
+    item Jacket_Shellsuit_Teal_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Shell Suit Jacket_Obese,
+        ClothingItem = Jacket_Shellsuit_Teal_Obese,
+        BodyLocation = Jacket_Bulky,
+        Icon = TracksuitTeal,
+        BloodLocation = Jumper,
+        ScratchDefense = 5,
+        Insulation = 0.45,
+        WindResistance = 0.4,
+        Weight = 1,
+        WorldStaticModel = Jacket_Shellsuit_Ground,
+    }
+    item Jacket_Shellsuit_TINT_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Shell Suit Jacket_Obese,
+        ClothingItem = Jacket_Shellsuit_White_Obese,
+        BodyLocation = Jacket_Bulky,
+        Icon = TracksuitGeneric,
+        BloodLocation = Jumper,
+        ScratchDefense = 5,
+        Insulation = 0.45,
+        WindResistance = 0.4,
+        Weight = 1,
+        WorldStaticModel = Jacket_Shellsuit_Ground,
+    }
+    item Jacket_Varsity_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Varsity Jacket_Obese,
+        ClothingItem = Jacket_Varsity_Obese,
+        BodyLocation = Jacket,
+        BloodLocation = Jacket,
+        IconsForTexture = JacketVarsity_KY;JacketVarsity_Alpha,
+        ScratchDefense = 20,
+        BiteDefense = 10,
+        NeckProtectionModifier = 0.3,
+        Insulation = 0.60,
+        WindResistance = 0.5,
+        FabricType = Cotton,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+    item Jacket_WhiteTINT_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Jacket_Obese,
+        ClothingItem = Jacket_WhiteTINT_Obese,
+        BodyLocation = Jacket,
+        Icon = Jacket_White,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.5,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+    item JacketLong_Doctor_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Medical Coat_Obese,
+        ClothingItem = JacketLong_Doctor_Obese,
+        BodyLocation = Jacket,
+        Icon = JacketDoctor,
+        BloodLocation = LongJacket,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        ScratchDefense = 20,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.35,
+        WindResistance = 0.25,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = JacketLong_Ground,
+    }
+    item JacketLong_Random_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Leather Jacket_Obese,
+        ClothingItem = JacketLong_Random_Obese,
+        BodyLocation = Jacket,
+        IconsForTexture = JacketLongBlack;JacketLongBrown;JacketGreen,
+        BloodLocation = LongJacket,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.65,
+        WindResistance = 0.35,
+        FabricType = Leather,
+        WaterResistance = 0.45,
+        Weight = 2,
+        WorldStaticModel = JacketLong_Ground,
+    }
+    item JacketLong_Santa_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Santa Suit Jacket_Obese,
+        ClothingItem = JacketLong_Santa_Obese,
+        BodyLocation = Jacket,
+        BloodLocation = LongJacket,
+        Icon = JacketSantaRed,
+        RunSpeedModifier = 0.85,
+        CombatSpeedModifier = 0.9,
+        BiteDefense = 10,
+        ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.9,
+        WindResistance = 0.6,
+        Weight = 3,
+        FabricType = Cotton,
+        WorldStaticModel = JacketLong_Ground,
+    }
+    item JacketLong_SantaGreen_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Green Santa Suit Jacket_Obese,
+        ClothingItem = JacketLong_SantaGreen_Obese,
+        BodyLocation = Jacket,
+        BloodLocation = LongJacket,
+        Icon = JacketSantaGreen,
+        RunSpeedModifier = 0.85,
+        CombatSpeedModifier = 0.9,
+        BiteDefense = 10,
+        ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.9,
+        WindResistance = 0.6,
+        Weight = 3,
+        FabricType = Cotton,
+        WorldStaticModel = JacketLong_Ground,
+    }
+    item Jumper_DiamondPatternTINT_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Diamond-pattern Sweater_Obese,
+        ClothingItem = Jumper_DiamondPatternTINT_Obese,
+        BodyLocation = Sweater,
+        BloodLocation = Jacket,
+        Icon = SweaterVneckArgyle,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+        WorldStaticModel = Jumper_Ground,
+    }
+    item Jumper_PoloNeck_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Polo Neck Sweater_Obese,
+        ClothingItem = Jumper_PoloNeck_Obese,
+        BodyLocation = Sweater,
+        BloodLocation = Jumper,
+        Icon = SweaterTurtleneckWhite,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.50,
+        FabricType = Cotton,
+        WorldStaticModel = Jumper_Ground,
+    }
+    item Jumper_RoundNeck_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Round Neck Sweater_Obese,
+        ClothingItem = Jumper_RoundNeck_Obese,
+        BodyLocation = Sweater,
+        BloodLocation = Jumper,
+        Icon = SweaterWhite,
+        ScratchDefense = 10,
+        Insulation = 0.4,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        WorldStaticModel = Jumper_Ground,
+    }
+    item Jumper_TankTopDiamondTINT_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Diamond-pattern Sweater Vest_Obese,
+        ClothingItem = Jumper_TankTopDiamondTINT_Obese,
+        BodyLocation = Sweater,
+        BloodLocation = JumperNoSleeves,
+        Icon = SweaterVestArgyle,
+        ScratchDefense = 10,
+        Insulation = 0.4,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = JumperSleeveless_Ground,
+    }
+    item Jumper_TankTopTINT_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = V-Neck Sweater Vest_Obese,
+        ClothingItem = Jumper_TankTopTINT_Obese,
+        BodyLocation = Sweater,
+        BloodLocation = JumperNoSleeves,
+        Icon = SweaterVestWhite,
+        ScratchDefense = 10,
+        Insulation = 0.45,
+        WindResistance = 0.15,
+        FabricType = Cotton,
+        WorldStaticModel = JumperSleeveless_Ground,
+    }
+    item Jumper_VNeck_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = V-Neck Sweater_Obese,
+        ClothingItem = Jumper_VNeck_Obese,
+        BodyLocation = Sweater,
+        BloodLocation = Jumper,
+        Icon = SweaterVneckWhite,
+        ScratchDefense = 10,
+        Insulation = 0.4,
+        WindResistance = 0.20,
+        FabricType = Cotton,
+        WorldStaticModel = Jumper_Ground,
+    }
+    item LongCoat_Bathrobe_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Bath Robe_Obese,
+        ClothingItem = LongCoat_Bathrobe_Obese,
+        BodyLocation = BathRobe,
+        BloodLocation = Trousers;Jumper,
+        Icon = BathrobeWhite,
+        RunSpeedModifier = 0.9,
+        ScratchDefense = 10,
+        Insulation = 0.5,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        WorldStaticModel = Bathrobe_Ground,
+    }
+    item PonchoGreen_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Poncho_Obese,
+        ClothingItem = PonchoGreen_Obese,
+        BodyLocation = JacketHat,
+        Icon = HoodieWhite,
+        ColorRed = 69,
+        ColorGreen = 98,
+        ColorBlue = 36,
+        BloodLocation = Shirt;FullHelmet;Trousers,
+        RunSpeedModifier = 0.9,
+        ClothingItemExtra = PonchoGreenDOWN_Obese,
+        ClothingItemExtraOption = DownHoodie,
+        clothingExtraSubmenu = UpHoodie,
+        ScratchDefense = 10,
+        Insulation = 0.1,
+        WindResistance = 0.75,
+        WaterResistance = 1.0,
+        WorldStaticModel = Poncho_Ground,
+    }
+    item PonchoGreenDOWN_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Poncho_Obese,
+        ClothingItem = PonchoGreenDOWN_Obese,
+        BodyLocation = Jacket_Down,
+        Icon = HoodieWhite,
+        ColorRed = 69,
+        ColorGreen = 98,
+        ColorBlue = 36,
+        BloodLocation = Shirt;FullHelmet;Trousers,
+        RunSpeedModifier = 0.9,
+        ClothingItemExtra = PonchoGreen_Obese,
+        ClothingItemExtraOption = UpHoodie,
+        clothingExtraSubmenu = DownHoodie,
+        ScratchDefense = 10,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.15,
+        WindResistance = 0.8,
+        WaterResistance = 1.0,
+        WorldStaticModel = Poncho_Ground,
+    }
+    item PonchoYellow_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Poncho_Obese,
+        ClothingItem = PonchoYellow_Obese,
+        BodyLocation = JacketHat,
+        Icon = HoodieWhite,
+        ColorRed = 228,
+        ColorGreen = 195,
+        ColorBlue = 88,
+        BloodLocation = Shirt;FullHelmet;Trousers,
+        RunSpeedModifier = 0.9,
+        ClothingItemExtra = PonchoYellowDOWN_Obese,
+        ClothingItemExtraOption = DownHoodie,
+        clothingExtraSubmenu = UpHoodie,
+        ScratchDefense = 10,
+        Insulation = 0.1,
+        WindResistance = 0.75,
+        WaterResistance = 1.0,
+        WorldStaticModel = Poncho_Ground,
+    }
+    item PonchoYellowDOWN_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Poncho_Obese,
+        ClothingItem = PonchoYellowDOWN_Obese,
+        BodyLocation = Jacket_Down,
+        Icon = HoodieWhite,
+        ColorRed = 228,
+        ColorGreen = 195,
+        ColorBlue = 88,
+        BloodLocation = Trousers;Shirt,
+        RunSpeedModifier = 0.9,
+        ClothingItemExtra = PonchoYellow_Obese,
+        ClothingItemExtraOption = UpHoodie,
+        clothingExtraSubmenu = DownHoodie,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.15,
+        WindResistance = 0.8,
+        WaterResistance = 1.0,
+        WorldStaticModel = Poncho_Ground,
+    }
+
+    item Shorts_BoxingRed_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Boxing Shorts_Obese,
+        ClothingItem = Shorts_BoxingRed_Obese,
+        BodyLocation = Pants,
+        BloodLocation = ShortsShort,
+        Icon = BoxingShorts_Red,
+        Insulation = 0.10,
+        WindResistance = 0.1,
+        WorldStaticModel = ShortShorts_Ground,
+    }
+
+    item Shorts_BoxingBlue_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Boxing Shorts_Obese,
+        ClothingItem = Shorts_BoxingBlue_Obese,
+        BodyLocation = Pants,
+        BloodLocation = ShortsShort,
+        Icon = BoxingShorts_Blue,
+        Insulation = 0.10,
+        WindResistance = 0.1,
+        WorldStaticModel = ShortShorts_Ground,
+    }
+
+    item Shorts_CamoGreenLong_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Military Camo Shorts_Obese,
+        ClothingItem = Shorts_CamoGreenLong_Obese,
+        BodyLocation = Pants,
+        Icon = TrousersCamoGreen,
+        BloodLocation = Trousers,
+        Insulation = 0.5,
+        WindResistance = 0.3,
+        WaterResistance = 0.3,
+        FabricType = Cotton,
+        WorldStaticModel = LongShorts_Ground,
+    }
+    item Shorts_CamoUrbanLong_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Military Camo Shorts_Obese,
+        ClothingItem = Shorts_CamoUrbanLong_Obese,
+        BodyLocation = Pants,
+        Icon = TrousersCamoGrey,
+        BloodLocation = Trousers,
+        Insulation = 0.5,
+        WindResistance = 0.3,
+        WaterResistance = 0.3,
+        FabricType = Cotton,
+        WorldStaticModel = LongShorts_Ground,
+    }
+    item Shorts_LongDenim_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Long Denim Shorts_Obese,
+        ClothingItem = Shorts_LongDenim_Obese,
+        BodyLocation = Pants,
+        IconsForTexture = TrousersDenimBlue;TrousersDenimBlack;TrousersDenimLightBlue,
+        BloodLocation = Trousers,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.45,
+        WindResistance = 0.45,
+        FabricType = Denim,
+        WorldStaticModel = LongShorts_Ground,
+    }
+    item Shorts_LongSport_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Long Sport Shorts_Obese,
+        ClothingItem = Shorts_LongSport_Obese,
+        BodyLocation = Pants,
+        IconsForTexture = ShortsLongAthleticBlue;ShortsLongAthleticGreen;ShortsLongAthleticRed;ShortsLongAthleticYellow,
+        BloodLocation = Trousers,
+        Insulation = 0.25,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = LongShorts_Ground,
+    }
+    item Shorts_LongSport_Red_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Long Sport Shorts_Obese,
+        ClothingItem = Shorts_LongSport_Red_Obese,
+        BodyLocation = Pants,
+        Icon = ShortsLongAthleticRed,
+        BloodLocation = Trousers,
+        Insulation = 0.25,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = LongShorts_Ground,
+    }
+    item Shorts_ShortDenim_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Denim Shorts_Obese,
+        ClothingItem = Shorts_ShortDenim_Obese,
+        BodyLocation = Pants,
+        BloodLocation = ShortsShort,
+        IconsForTexture = ShortsDenimDark;ShortsDenim;ShortsDenimBlack,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.30,
+        WindResistance = 0.15,
+        FabricType = Denim,
+        WorldStaticModel = ShortShorts_Ground,
+    }
+    item Shorts_ShortFormal_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Shorts_Obese,
+        ClothingItem = Shorts_ShortFormal_Obese,
+        BodyLocation = Pants,
+        BloodLocation = ShortsShort,
+        Icon = ShortsWhite,
+        Insulation = 0.15,
+        WindResistance = 0.10,
+        FabricType = Cotton,
+        WorldStaticModel = ShortShorts_Ground,
+    }
+    item Shorts_ShortSport_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Sport Shorts_Obese,
+        ClothingItem = Shorts_ShortSport_Obese,
+        BodyLocation = Pants,
+        IconsForTexture = ShortsAthleticBlue;ShortsAthleticGreen;ShortsAthleticRed;ShortsAthleticYellow,
+        BloodLocation = ShortsShort,
+        Insulation = 0.15,
+        WindResistance = 0.05,
+        FabricType = Cotton,
+        WorldStaticModel = ShortShorts_Ground,
+    }
+    item Skirt_Mini_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Mini Skirt_Obese,
+        ClothingItem = Skirt_Mini_Obese,
+        BodyLocation = Skirt,
+        Icon = SkirtGeneric,
+        BloodLocation = ShortsShort,
+        Insulation = 0.1,
+        WindResistance = 0.01,
+        FabricType = Cotton,
+        WorldStaticModel = Skirt_Short_Ground,
+    }
+
+    item SpiffoSuit_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Spiffo Suit_Obese,
+        ClothingItem = SpiffoSuit_Obese,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Jumper,
+        Icon = SpiffoSuit,
+        RunSpeedModifier = 0.7,
+        ScratchDefense = 10,
+        Insulation = 0.85,
+        WindResistance = 0.6,
+        WorldStaticModel = BoilerSuit_Ground,
+    }
+
+    item Suit_Jacket_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Suit Jacket_Obese,
+        ClothingItem = Suit_Jacket_Obese,
+        BodyLocation = JacketSuit,
+        BloodLocation = Jacket,
+        Icon = JacketSuitBlack,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.95,
+        ScratchDefense = 20,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.55,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = SuitJacket_Ground,
+    }
+    item Suit_JacketTINT_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Suit Jacket_Obese,
+        ClothingItem = Suit_JacketTINT_Obese,
+        BodyLocation = JacketSuit,
+        BloodLocation = Jacket,
+        Icon = JacketSuitWhite,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.95,
+        ScratchDefense = 20,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.55,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+    item Tie_Full_Obese
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Tie_Obese,
+		ClothingItem = Tie_Full_Obese,
+		BodyLocation = Neck,
+		IconsForTexture = TieBlack;TieBlue;TieBlueDot;TieBlueStripe;TieMulticolour;TieRed;TieRedDot;TieRedStripe,
+		Weight = 0.1,
+		WorldStaticModel = Tie_Ground,
+	}
+    item Tie_Full_Spiffo_Obese
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Spiffo Tie_Obese,
+        ClothingItem = Tie_Full_Spiffo_Obese,
+        BodyLocation = Neck,
+        Icon = TieSpiffo,
+        Weight = 0.1,
+        WorldStaticModel = Tie_Ground,
+    }
+
+    item Trousers_ArmyService_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Army Pants_Obese,
+        ClothingItem = Trousers_ArmyService_Obese,
+        BodyLocation = Pants,
+        Icon = TrouserstArmyDress,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.7,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+	item Trousers_Black_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Black Trousers_Obese,
+        ClothingItem = Trousers_Black_Obese,
+        BodyLocation = Pants,
+        Icon = Trousers,
+        BloodLocation = Trousers,
+        ColorRed = 37,
+        ColorGreen = 37,
+        ColorBlue = 37,
+        ScratchDefense = 10,
+        Insulation = 0.5,
+        WindResistance = 0.5,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_CamoDesert_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Military Desert Camo Pants_Obese,
+        ClothingItem = Trousers_CamoDesert_Obese,
+        BodyLocation = Pants,
+        Icon = TrousersCamoSand,
+        BloodLocation = Trousers,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.3,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_CamoGreen_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Military Camo Pants_Obese,
+        ClothingItem = Trousers_CamoGreen_Obese,
+        BodyLocation = Pants,
+        Icon = TrousersCamoGreen,
+        BloodLocation = Trousers,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.45,
+        WindResistance = 0.3,
+        WaterResistance = 0.45,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_CamoUrban_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Military Urban Camo Pants_Obese,
+        ClothingItem = Trousers_CamoUrban_Obese,
+        BodyLocation = Pants,
+        Icon = TrousersCamoGrey,
+        BloodLocation = Trousers,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.60,
+        WindResistance = 0.30,
+        WaterResistance = 0.35,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_Chef_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Chef Pants_Obese,
+        ClothingItem = Trousers_Chef_Obese,
+        BodyLocation = Pants,
+        Icon = TrousersChef,
+        BloodLocation = Trousers,
+        Insulation = 0.4,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Pants_Obese,
+        ClothingItem = Trousers_Obese,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = Trousers_White,
+        Insulation = 0.50,
+        WindResistance = 0.40,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_Denim_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Jeans,
+        ClothingItem = Trousers_Denim_Obese,
+        BodyLocation = Pants,
+        IconsForTexture = TrousersDenimBlue;TrousersDenimBlack;TrousersDenimLightBlue,
+        BloodLocation = Trousers,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        RunSpeedModifier = 0.98,
+        Insulation = 0.7,
+        WindResistance = 0.55,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_Fireman_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Firefighter Pants_Obese,
+        ClothingItem = Trousers_Fireman_Obese,
+        BodyLocation = Pants,
+        Icon = TrousersFireman,
+        BloodLocation = Trousers,
+        RunSpeedModifier = 0.82,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        Insulation = 0.85,
+        WindResistance = 0.85,
+        WaterResistance = 0.8,
+        Weight = 4,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_JeanBaggy_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Baggy Jeans_Obese,
+        ClothingItem = Trousers_JeanBaggy_Obese,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = TrousersDenimBlue,
+        RunSpeedModifier = 0.98,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 0.60,
+        WindResistance = 0.65,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_LeatherBlack_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Black Leather Trousers_Obese,
+        ClothingItem = Trousers_LeatherBlack_Obese,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = TrousersDenimLightBlue,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        RunSpeedModifier = 0.98,
+        Insulation = 0.65,
+        WindResistance = 0.60,
+        FabricType = Leather,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_NavyBlue_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Navy Blue Trousers_Obese,
+        ClothingItem = Trousers_NavyBlue_Obese,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = TrousersGeneric,
+        ColorRed = 37,
+        ColorGreen = 37,
+        ColorBlue = 70,
+        ScratchDefense = 10,
+        Insulation = 0.35,
+        WindResistance = 0.5,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_Padded_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Padded Pants_Obese,
+        ClothingItem = Trousers_Padded_Obese,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = PaddedTrousers_White,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+        WaterResistance = 0.6,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_Police_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Police Trooper Pants_Obese,
+        ClothingItem = Trousers_Police_Obese,
+        BodyLocation = Pants,
+        Icon = TrousersPoliceBlue,
+        BloodLocation = Trousers,
+        Insulation = 0.6,
+        WindResistance = 0.3,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_PoliceGrey_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName =  Police Deputy Pants_Obese,
+        ClothingItem = Trousers_PoliceGrey_Obese,
+        BodyLocation = Pants,
+        Icon = TrousersPoliceGrey,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.4,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_PrisonGuard_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Prison Guard Pants_Obese,
+        ClothingItem = Trousers_PrisonGuard_Obese,
+        BodyLocation = Pants,
+        Icon = TrousersPrisonGuard,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.5,
+        WindResistance = 0.5,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_Ranger_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Ranger Pants_Obese,
+        ClothingItem = Trousers_Ranger_Obese,
+        BodyLocation = Pants,
+        Icon = TrousersRanger,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.75,
+        WindResistance = 0.75,
+        WaterResistance = 0.35,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_Scrubs_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Medical Pants_Obese,
+        ClothingItem = Trousers_Scrubs_Obese,
+        BodyLocation = Pants,
+        IconsForTexture = TrousersScrubsBlue;TrousersScrubsGreen,
+        BloodLocation = Trousers,
+        Insulation = 0.2,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+
+    item Trousers_Shellsuit_Black_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Shell Suit Trousers_Obese,
+        ClothingItem = Trousers_Shellsuit_Black_Obese,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = TracksuitPantsBlack,
+        ScratchDefense = 5,
+        Insulation = 0.30,
+        WindResistance = 0.4,
+        WorldStaticModel = Trousers_Shellsuit_Ground,
+    }
+	item Trousers_Shellsuit_Blue_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Shell Suit Trousers_Obese,
+        ClothingItem = Trousers_Shellsuit_Blue_Obese,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = TracksuitPantsBlue,
+        ScratchDefense = 5,
+        Insulation = 0.30,
+        WindResistance = 0.4,
+        WorldStaticModel = Trousers_Shellsuit_Ground,
+    }
+	item Trousers_Shellsuit_Green_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Shell Suit Trousers_Obese,
+        ClothingItem = Trousers_Shellsuit_Green_Obese,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = TracksuitPantsGreen,
+        ScratchDefense = 5,
+        Insulation = 0.30,
+        WindResistance = 0.4,
+        WorldStaticModel = Trousers_Shellsuit_Ground,
+    }
+	item Trousers_Shellsuit_Pink_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Shell Suit Trousers_Obese,
+        ClothingItem = Trousers_Shellsuit_Pink_Obese,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = TracksuitPantsPink,
+        ScratchDefense = 5,
+        Insulation = 0.30,
+        WindResistance = 0.4,
+        WorldStaticModel = Trousers_Shellsuit_Ground,
+    }
+	item Trousers_Shellsuit_Teal_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Shell Suit Trousers_Obese,
+        ClothingItem = Trousers_Shellsuit_Teal_Obese,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = TracksuitPantsTeal,
+        ScratchDefense = 5,
+        Insulation = 0.30,
+        WindResistance = 0.4,
+        WorldStaticModel = Trousers_Shellsuit_Ground,
+    }
+	item Trousers_Shellsuit_TINT_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Shell Suit Trousers_Obese,
+        ClothingItem = Trousers_Shellsuit_White_Obese,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = TracksuitPantsGeneric,
+        ScratchDefense = 5,
+        Insulation = 0.30,
+        WindResistance = 0.4,
+        WorldStaticModel = Trousers_Shellsuit_Ground,
+    }
+
+    item Trousers_Suit_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Suit Pants_Obese,
+        ClothingItem = Trousers_Suit_Obese,
+        BodyLocation = Pants,
+        Icon = TrousersSuitBlack,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.4,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_SuitWhite_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Suit Pants_Obese,
+        ClothingItem = Trousers_SuitWhite_Obese,
+        BodyLocation = Pants,
+        Icon = TrousersSuitWhite,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.4,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_WhiteTEXTURE_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Pants_Obese,
+        ClothingItem = Trousers_WhiteTEXTURE_Obese,
+        BodyLocation = Pants,
+        Icon = TrousersGeneric,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.3,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item TrousersMesh_DenimLight_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Denim Jeans_Obese,
+        ClothingItem = TrousersMesh_DenimLight_Obese,
+        BodyLocation = Pants,
+        BloodLocation = Trousers,
+        Icon = TrousersDenimLightBlue,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        RunSpeedModifier = 0.98,
+        Insulation = 0.65,
+        WindResistance = 0.60,
+        FabricType = Denim,
+        WorldStaticModel = Trousers_Ground,
+    }
+
+    item Vest_BulletArmy_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Military Bulletproof Vest_Obese,
+        ClothingItem = Vest_BulletArmy_Obese,
+        BodyLocation = TorsoExtraVest,
+        Icon = BulletVestCamo,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.75,
+        WindResistance = 0.45,
+        BiteDefense = 30,
+        ScratchDefense = 55,
+        BulletDefense = 100,
+        WorldStaticModel = BulletVest_Ground,
+    }
+    item Vest_BulletCivilian_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Civilian Bulletproof Vest_Obese,
+        ClothingItem = Vest_BulletCivilian_Obese,
+        BodyLocation = TorsoExtraVest,
+        Icon = BulletVestWhite,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.6,
+        WindResistance = 0.25,
+        BiteDefense = 30,
+        ScratchDefense = 55,
+        BulletDefense = 100,
+        WorldStaticModel = BulletVest_Ground,
+    }
+    item Vest_BulletPolice_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Police Bulletproof Vest_Obese,
+        ClothingItem = Vest_BulletPolice_Obese,
+        BodyLocation = TorsoExtraVest,
+        Icon = BulletVestPolice,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.65,
+        WindResistance = 0.30,
+        BiteDefense = 30,
+        ScratchDefense = 55,
+        BulletDefense = 100,
+        WorldStaticModel = BulletVest_Ground,
+    }
+
+    item Vest_Foreman_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Foreman Vest_Obese,
+        ClothingItem = Vest_Foreman_Obese,
+        BodyLocation = TorsoExtraVest,
+        Icon = ForemanVest,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.70,
+        WindResistance = 0.55,
+        WorldStaticModel = HuntingVest_Ground,
+    }
+    item Vest_HighViz_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = High Visibility Vest_Obese,
+        ClothingItem = Vest_HighViz_Obese,
+        BodyLocation = TorsoExtraVest,
+        Icon = ConstructionVest,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.1,
+        WindResistance = 0.05,
+        WorldStaticModel = HuntingVest_Ground,
+    }
+    item Vest_Hunting_Grey_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Grey Hunting Vest_Obese,
+        ClothingItem = Vest_Hunting_Grey_Obese,
+        BodyLocation = TorsoExtraVest,
+        Icon = Huntingvest_Grey,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.90,
+        WindResistance = 0.80,
+        WorldStaticModel = HuntingVest_Ground,
+    }
+    item Vest_Hunting_Orange_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Orange Hunting Vest_Obese,
+        ClothingItem = Vest_Hunting_Orange_Obese,
+        BodyLocation = TorsoExtraVest,
+        Icon = Huntingvest_Orange,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.75,
+        WindResistance = 0.75,
+        WorldStaticModel = HuntingVest_Ground,
+    }
+    item Vest_Hunting_Camo_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Camo Hunting Vest_Obese,
+        ClothingItem = Vest_Hunting_Camo_Obese,
+        BodyLocation = TorsoExtraVest,
+        Icon = Huntingvest_Camo,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.8,
+        WindResistance = 0.65,
+        WorldStaticModel = HuntingVest_Ground,
+    }
+    item Vest_Hunting_CamoGreen_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Green Camo Hunting Vest_Obese,
+        ClothingItem = Vest_Hunting_CamoGreen_Obese,
+        BodyLocation = TorsoExtraVest,
+        Icon = Huntingvest_Camo,
+        BloodLocation = ShirtNoSleeves,
+        Insulation = 0.70,
+        WindResistance = 0.80,
+        WorldStaticModel = HuntingVest_Ground,
+    }
+
+    item WeddingDress_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Wedding Dress_Obese,
+        ClothingItem = WeddingDress_Obese,
+        BodyLocation = FullSuit,
+        BloodLocation = Trousers;Shirt,
+        Icon = DressWedding,
+        RunSpeedModifier = 0.8,
+        ScratchDefense = 10,
+        Insulation = 0.25,
+        WindResistance = 0.1,
+        FabricType = Cotton,
+        WorldStaticModel = WeddingDress_Ground,
+    }
+
+    item WeddingJacket_Obese
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Wedding Jacket_Obese,
+        ClothingItem = WeddingJacket_Obese,
+        BodyLocation = JacketSuit,
+        BloodLocation = Jacket,
+        Icon = JacketSuitTux,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        ScratchDefense = 20,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.40,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = WeddingJacket_Ground,
+    }
+
+    item Tie_BowTieFull_Obese
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Bow Tie_Obese,
+		ClothingItem = Tie_BowTieFull_Obese,
+		BodyLocation = Neck,
+		Icon = TieBowBlack,
+		WorldStaticModel = BowTie_Ground,
+	}
+
+    item Scarf_White_Obese
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Scarf,
+        ClothingItem = Scarf_White_Obese,
+        BodyLocation = Scarf,
+        Icon = ScarfGeneric,
+        Weight = 0.2,
+        BloodLocation = Neck,
+        ScratchDefense = 10,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+        FabricType = Cotton,
+        WorldStaticModel = Scarf_Ground,
+    }
+    item Scarf_StripeBlackWhite_Obese
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Scarf,
+        ClothingItem = Scarf_StripeBlackWhite_Obese,
+        BodyLocation = Scarf,
+        Icon = ScarfStripedBlack,
+        Weight = 0.2,
+        BloodLocation = Neck,
+        ScratchDefense = 10,
+        Insulation = 0.5,
+        WindResistance = 0.55,
+        FabricType = Cotton,
+        WorldStaticModel = Scarf_Ground,
+    }
+    item Scarf_StripeBlueWhite_Obese
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Scarf,
+        ClothingItem = Scarf_StripeBlueWhite_Obese,
+        BodyLocation = Scarf,
+        Icon = ScarfStripedBlue,
+        Weight = 0.2,
+        BloodLocation = Neck,
+        ScratchDefense = 10,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        FabricType = Cotton,
+        WorldStaticModel = Scarf_Ground,
+    }
+    item Scarf_StripeRedWhite_Obese
+    {
+        DisplayCategory = Accessory,
+        Type = Clothing,
+        DisplayName = Scarf,
+        ClothingItem = Scarf_StripeRedWhite_Obese,
+        BodyLocation = Scarf,
+        Icon = ScarfStripedRed,
+        Weight = 0.2,
+        BloodLocation = Neck,
+        ScratchDefense = 10,
+        Insulation = 0.75,
+        WindResistance = 0.75,
+        FabricType = Cotton,
+        WorldStaticModel = Scarf_Ground,
+    }
+}

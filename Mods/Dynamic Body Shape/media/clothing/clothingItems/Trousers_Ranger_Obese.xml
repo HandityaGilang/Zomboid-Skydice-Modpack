@@ -1,0 +1,14 @@
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_trousers_obese</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\kate_trousers_obese</m_FemaleModel>
+	<m_GUID>4a09f726-4d38-4706-af44-b08804e30ce9</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone />
+	<m_Masks>14</m_Masks>
+	<m_Masks>15</m_Masks>
+	<m_Masks>7</m_Masks>
+	<m_Masks>9</m_Masks>
+	<textureChoices>clothes\trousers_mesh\trousersmesh_ranger</textureChoices>
+</clothingItem>

@@ -1,0 +1,12 @@
+IG_UI_EN = {
+    IGUI_AutoFish_Reason_Moved = "Player Moved",
+    IGUI_AutoFish_Reason_Vehicle = "Player in Vehicle",
+    IGUI_AutoFish_Msg_Baited = "Auto-Baited: %1",
+    IGUI_AutoFish_Msg_Stopped = "AutoFish: Stopped (%1)",
+    IGUI_AutoFish_Msg_NoRod = "AutoFish: No Rod!",
+    IGUI_AutoFish_Msg_NoWater = "AutoFish: No Water Nearby!",
+    IGUI_AutoFish_Msg_Toggle = "AutoFish: %1",
+    IGUI_AutoFish_Status_ON = "ON",
+    IGUI_AutoFish_Status_OFF = "OFF",
+    IGUI_AutoFish_ContextMenu = "Auto Fish (B42 %1): %2",
+}

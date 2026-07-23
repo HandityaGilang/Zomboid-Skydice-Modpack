@@ -1,0 +1,27 @@
+module Dragonslayer
+{
+    craftRecipe ForgeDragonslayer
+    {
+        time = 1800,
+        SkillRequired = Blacksmith:9,
+        NeedToBeLearn = true,
+        AutoLearnAll = LongBlade:5,
+        timedAction = HammerMetalStanding,
+        xpAward = Blacksmith:300,
+        Tags = AdvancedForge,
+        category = Blade,
+        inputs
+        {
+            item 10 tags[base:charcoal],
+            item 2 [Base.IronIngot],
+            item 1 tags[base:smithinghammer] mode:keep flags[Prop1;MayDegradeLight],
+            item 1 tags[base:tongs] mode:keep flags[Prop2;MayDegradeLight],
+            item 1 tags[base:file] mode:keep flags[MayDegradeLight],
+            item 3 [Base.RippedSheets] mode:destroy,
+        }
+        outputs
+        {
+            item 1 Dragonslayer.Dragonslayer flags[IsBlunt],
+        }
+    }
+}

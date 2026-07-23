@@ -1,0 +1,14 @@
+{
+  "ContextMenu_CS_PryOpen": "งัดเปิด",
+  "ContextMenu_CS_PryOpen_Door": "งัดประตู",
+  "ContextMenu_CS_PryOpen_Window": "งัดหน้าต่าง",
+  "ContextMenu_CS_Pickup_Logs": "เก็บท่อนไม้",
+  "ContextMenu_CS_Pickup_Trash": "เก็บขยะ",
+  "ContextMenu_CS_Only": "เท่านั้น...",
+  "ContextMenu_CS_WashEquippedOnly": "พร้อมอุปกรณ์เท่านั้น ",
+  "ContextMenu_CS_WashUnequippedOnly": "ไม่มีอุปกรณ์เท่านั้น ",
+  "ContextMenu_CS_WashWeaponsOnly": "อาวุธเท่านั้น ",
+  "ContextMenu_CS_Equip": "ติดตั้ง",
+  "ContextMenu_CS_Replace_Bandage": "เปลี่ยนผ้าพันแผล",
+  "ContextMenu_CS_ReloadAllMags": "บรรจุกระสุนแม็กกาซีนทั้งหมดใหม่"
+}

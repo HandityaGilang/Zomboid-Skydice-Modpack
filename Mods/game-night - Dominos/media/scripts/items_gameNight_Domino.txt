@@ -1,0 +1,126 @@
+module Base
+{
+    item Domino_6_6
+    { Icon = OutOfPlayTextures/Domino_6_6, WorldStaticModel = Domino_6_6,
+    DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, DisplayName = Domino, }
+
+    item Domino_5_6
+    { Icon = OutOfPlayTextures/Domino_5_6, WorldStaticModel = Domino_5_6,
+    DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, DisplayName = Domino, }
+
+    item Domino_4_6
+    { Icon = OutOfPlayTextures/Domino_4_6, WorldStaticModel = Domino_4_6,
+    DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, DisplayName = Domino, }
+
+    item Domino_3_6
+    { Icon = OutOfPlayTextures/Domino_3_6, WorldStaticModel = Domino_3_6,
+    DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, DisplayName = Domino, }
+
+    item Domino_2_6
+    { Icon = OutOfPlayTextures/Domino_2_6, WorldStaticModel = Domino_2_6,
+    DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, DisplayName = Domino, }
+
+    item Domino_1_6
+    { Icon = OutOfPlayTextures/Domino_1_6, WorldStaticModel = Domino_1_6,
+    DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, DisplayName = Domino, }
+
+    item Domino_0_6
+    { Icon = OutOfPlayTextures/Domino_0_6, WorldStaticModel = Domino_0_6,
+    DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, DisplayName = Domino, }
+
+    item Domino_5_5
+    { Icon = OutOfPlayTextures/Domino_5_5, WorldStaticModel = Domino_5_5,
+    DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, DisplayName = Domino, }
+
+    item Domino_4_5
+    { Icon = OutOfPlayTextures/Domino_4_5, WorldStaticModel = Domino_4_5,
+    DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, DisplayName = Domino, }
+
+    item Domino_3_5
+    { Icon = OutOfPlayTextures/Domino_3_5, WorldStaticModel = Domino_3_5,
+    DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, DisplayName = Domino, }
+
+    item Domino_2_5
+    { Icon = OutOfPlayTextures/Domino_2_5, WorldStaticModel = Domino_2_5,
+    DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, DisplayName = Domino, }
+
+    item Domino_1_5
+    { Icon = OutOfPlayTextures/Domino_1_5, WorldStaticModel = Domino_1_5,
+    DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, DisplayName = Domino, }
+
+    item Domino_0_5
+    { Icon = OutOfPlayTextures/Domino_0_5, WorldStaticModel = Domino_0_5,
+    DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, DisplayName = Domino, }
+
+    item Domino_4_4
+    { Icon = OutOfPlayTextures/Domino_4_4, WorldStaticModel = Domino_4_4,
+    DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, DisplayName = Domino, }
+
+    item Domino_3_4
+    { Icon = OutOfPlayTextures/Domino_3_4, WorldStaticModel = Domino_3_4,
+    DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, DisplayName = Domino, }
+
+    item Domino_2_4
+    { Icon = OutOfPlayTextures/Domino_2_4, WorldStaticModel = Domino_2_4,
+    DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, DisplayName = Domino, }
+
+    item Domino_1_4
+    { Icon = OutOfPlayTextures/Domino_1_4, WorldStaticModel = Domino_1_4,
+    DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, DisplayName = Domino, }
+
+    item Domino_0_4
+    { Icon = OutOfPlayTextures/Domino_0_4, WorldStaticModel = Domino_0_4,
+    DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, DisplayName = Domino, }
+
+    item Domino_3_3
+    { Icon = OutOfPlayTextures/Domino_3_3, WorldStaticModel = Domino_3_3,
+    DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, DisplayName = Domino, }
+
+    item Domino_2_3
+    { Icon = OutOfPlayTextures/Domino_2_3, WorldStaticModel = Domino_2_3,
+    DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, DisplayName = Domino, }
+
+    item Domino_1_3
+    { Icon = OutOfPlayTextures/Domino_1_3, WorldStaticModel = Domino_1_3,
+    DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, DisplayName = Domino, }
+
+    item Domino_0_3
+    { Icon = OutOfPlayTextures/Domino_0_3, WorldStaticModel = Domino_0_3,
+    DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, DisplayName = Domino, }
+
+    item Domino_2_2
+    { Icon = OutOfPlayTextures/Domino_2_2, WorldStaticModel = Domino_2_2,
+    DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, DisplayName = Domino, }
+
+    item Domino_1_2
+    { Icon = OutOfPlayTextures/Domino_1_2, WorldStaticModel = Domino_1_2,
+    DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, DisplayName = Domino, }
+
+    item Domino_0_2
+    { Icon = OutOfPlayTextures/Domino_0_2, WorldStaticModel = Domino_0_2,
+    DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, DisplayName = Domino, }
+
+    item Domino_1_1
+    { Icon = OutOfPlayTextures/Domino_1_1, WorldStaticModel = Domino_1_1,
+    DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, DisplayName = Domino, }
+
+    item Domino_0_1
+    { Icon = OutOfPlayTextures/Domino_0_1, WorldStaticModel = Domino_0_1,
+    DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, DisplayName = Domino, }
+
+    item Domino_0_0
+    { Icon = OutOfPlayTextures/Domino_0_0, WorldStaticModel = Domino_0_0,
+    DisplayCategory = GamePiece, Weight = 0.01, Type = Normal, DisplayName = Domino, }
+
+    item DominosBox
+    {
+        DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, Type = Container, Capacity = 2,
+        DisplayName = Dominos Box, Icon = Boxes/dominosBox, WorldStaticModel = DominosBox,
+    }
+
+    item DominosBox_sealed
+    {
+        DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, Type = Normal, Capacity = 2,
+        DisplayName = Dominos Box (Sealed), Icon = Boxes/dominosBox, WorldStaticModel = DominosBox,
+    }
+}

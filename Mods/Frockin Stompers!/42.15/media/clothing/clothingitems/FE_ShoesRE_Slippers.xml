@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes2\ShoesRE_Crocs\ShoesRE_Crocs_M.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes2\ShoesRE_Crocs\ShoesRE_Crocs_F.fbx</m_FemaleModel>
+	<m_GUID>7a7c8c03-659a-4921-87f5-ab5fb76b21b5</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>	
+	<m_Masks>11</m_Masks>	
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Masks/Mask_Slippers</m_UnderlayMasksFolder>
+	
+	<textureChoices>clothes\Shoes2\ShoesRE_Slippers\ShoeRE_Slippers_0</textureChoices>
+	<textureChoices>clothes\Shoes2\ShoesRE_Slippers\ShoeRE_Slippers_1</textureChoices>
+	<textureChoices>clothes\Shoes2\ShoesRE_Slippers\ShoeRE_Slippers_2</textureChoices>
+	<textureChoices>clothes\Shoes2\ShoesRE_Slippers\ShoeRE_Slippers_3</textureChoices>
+	<textureChoices>clothes\Shoes2\ShoesRE_Slippers\ShoeRE_Slippers_4</textureChoices>
+	<textureChoices>clothes\Shoes2\ShoesRE_Slippers\ShoeRE_Slippers_5</textureChoices>
+	<textureChoices>clothes\Shoes2\ShoesRE_Slippers\ShoeRE_Slippers_6</textureChoices>
+	<textureChoices>clothes\Shoes2\ShoesRE_Slippers\ShoeRE_Slippers_7</textureChoices>
+	<textureChoices>clothes\Shoes2\ShoesRE_Slippers\ShoeRE_Slippers_8</textureChoices>
+	<textureChoices>clothes\Shoes2\ShoesRE_Slippers\ShoeRE_Slippers_9</textureChoices>
+	<textureChoices>clothes\Shoes2\ShoesRE_Slippers\ShoeRE_Slippers_10</textureChoices>
+	
+</clothingItem>

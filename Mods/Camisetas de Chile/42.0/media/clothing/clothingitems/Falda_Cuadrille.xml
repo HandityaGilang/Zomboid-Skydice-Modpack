@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\ahzpleatedminiskirt</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\ahzpleatedminiskirt</m_FemaleModel>
+	<m_GUID>3c9e1db0-51e0-4971-95c6-0a8265889936</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\Falda_Cuadrille</textureChoices>
+</clothingItem>

@@ -1,0 +1,18 @@
+module Base
+{
+    model Fordt330Body
+    {
+        mesh = vehicles/Vehicles_Fordt330_Body,
+        shader = vehicle_multiuv,
+        invertX = false,
+        scale = 0.43,
+    }
+	
+	model Fordt330Wheel
+    {
+        mesh = Vehicles/Vehicles_Fordt330_Wheel,
+		texture = Vehicles/Vehicle_Fordt330_base,
+		shader = vehicle_multiuv,
+		scale = 0.40,
+    }
+}

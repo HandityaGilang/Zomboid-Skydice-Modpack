@@ -1,0 +1,10 @@
+name=CleanUI [B42.16-42.18]
+id=CleanUI
+poster=poster.png
+icon=icon1.png
+author=Rocco, Afyrmo
+modversion=2.6.14
+versionMin=42.16.0
+versionMax=42.18.999
+require=\NeatUI_Framework
+description=CleanUI replaces the default inventory, loot, and context UI with a cleaner and more compact layout. <LINE> This is the Build 42.16-42.18 version. <LINE> Includes defensive fixes for invalid repair/fixing definitions, context-menu event hook failures, recent 42.17/42.18 inventory/UI edge cases and safer long-button texture handling. <LINE> There are also variants for builds 42.15.x, 42.13-42.14 and legacy 42.12.x. <LINE> Adds a guard for right-click context menus on stale or virtual containers in MP.

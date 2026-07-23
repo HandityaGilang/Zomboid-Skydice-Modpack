@@ -1,0 +1,471 @@
+module Base
+{
+	vehicle Fordt330
+    {
+        mechanicType = 2,
+        engineRepairLevel = 5,
+        playerDamageProtection = 1.1,
+        engineRPMType = van,
+        specialKeyRing = Base.KeyRing_EagleFlag;Base.KeyRing_EightBall;Base.KeyRing_Hotdog;Base.KeyRing_Kitty;Base.KeyRing_Panther;Base.KeyRing_RabbitFoot;Base.KeyRing_RainbowStar;Base.KeyRing_RubberDuck;Base.KeyRing_Sexy,
+        specialLootChance = 40,
+
+        model
+        {
+            file = Fordt330Body,
+            scale = 1.8200,
+            offset = 0.0000 0.0811 0.0000,
+        }
+
+        spawnOffsetY = 0.5,
+
+        skin
+        {
+            texture = Vehicles/Vehicle_Fordt330_base,
+        }
+
+        textureMask = Vehicles/Vehicle_Fordt330_mask,
+        textureLights = Vehicles/Vehicle_Fordt330_light,
+        textureDamage1Overlay = Vehicles/Vehicle_Fordt330_Overlays_blood,
+        textureDamage2Overlay = Vehicles/Vehicle_Fordt330_Overlays_blood,
+        textureDamage1Shell = Vehicles/Vehicle_Fordt330_Overlays_damage,
+        textureDamage2Shell = Vehicles/Vehicle_Fordt330_Overlays_damage,
+        textureRust = Vehicles/Vehicle_Fordt330_Overlays_dust,
+        extents = 0.9341 0.7253 2.3297,
+        mass = 816,
+        physicsChassisShape = 0.9341 0.7363 2.3626,
+        centerOfMassOffset = 0.0000 0.3846 0.0000,
+        shadowExtents = 0.9341 2.3846,
+        shadowOffset = 0.0000 0.0000,
+        extentsOffset = 0.5 0.5,
+        engineForce = 3700,
+        engineQuality = 70,
+        engineLoudness = 100,
+        maxSpeed = 65.0,
+        brakingForce = 70,
+        stoppingMovementForce = 5.0,
+        rollInfluence = 0.7,
+        steeringIncrement = 0.03,
+        steeringClamp = 0.3,
+        suspensionStiffness = 30.0,
+        suspensionCompression = 3.83,
+        suspensionDamping = 2.88,
+        maxSuspensionTravelCm = 10.0,
+        suspensionRestLength = 0.2,
+        wheelFriction = 1.4,
+        frontEndHealth = 150,
+        rearEndHealth = 150,
+        seats = 2,
+        isSmallVehicle = false,
+
+        wheel FrontLeft
+        {
+            front = true,
+            offset = 0.4011 -0.0010 0.7802,
+            radius = 0.15,
+            width = 0.2,
+        }
+
+        wheel FrontRight
+        {
+            front = true,
+            offset = -0.4011 -0.0010 0.7802,
+            radius = 0.15,
+            width = 0.2,
+        }
+
+        wheel RearLeft
+        {
+            front = false,
+            offset = 0.4011 -0.0010 -0.6923,
+            radius = 0.15,
+            width = 0.2,
+        }
+
+        wheel RearRight
+        {
+            front = false,
+            offset = -0.4011 -0.0010 -0.6923,
+            radius = 0.15,
+            width = 0.2,
+        }
+
+        template = PassengerSeat2,
+        template = Trunk/part/TruckBed,
+        template = Seat/part/SeatFrontLeft,
+        template = Seat/part/SeatFrontRight,
+        template = GloveBox,
+        template = GasTank,
+        template = Battery,
+        template = Engine,
+        template = Muffler,
+        template = EngineDoor,
+        template = Heater,
+        template = Windshield/part/Windshield,
+        template = Windshield/part/WindshieldRear,
+        template = Window/part/WindowFrontLeft,
+        template = Window/part/WindowFrontRight,
+        template = Door/part/DoorFrontLeft,
+        template = Door/part/DoorFrontRight,
+        template = Door/part/DoorRear,
+        template = Tire,
+
+        part TireFrontLeft
+        {
+            model InflatedTirePlusWheel
+            {
+                file = Fordt330Wheel,
+                offset = 0.0000 0.0000 0.0000,
+                rotate = 180.0000 0.0000 180.0000,
+            }
+        }
+
+        part TireFrontRight
+        {
+            model InflatedTirePlusWheel
+            {
+                file = Fordt330Wheel,
+                offset = 0.0000 0.0000 0.0000,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+        }
+
+        part TireRearLeft
+        {
+            model InflatedTirePlusWheel
+            {
+                file = Fordt330Wheel,
+                offset = 0.0000 0.0000 0.0000,
+                rotate = 180.0000 0.0000 180.0000,
+            }
+        }
+
+        part TireRearRight
+        {
+            model InflatedTirePlusWheel
+            {
+                file = Fordt330Wheel,
+                offset = 0.0000 0.0000 0.0000,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+        }
+
+        template = Brake,
+        template = Suspension,
+        template = Radio,
+        template = Headlight,
+        template = VanCollision,
+
+        passenger FrontLeft
+        {
+            door2 = DoorRear,
+
+            position inside
+            {
+                offset = 0.1923 0.4011 0.2889,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+
+            position outside
+            {
+                offset = 0.6044 0.0275 0.3329,
+                rotate = 0.0000 0.0000 0.0000,
+                area = SeatFrontLeft,
+            }
+
+            position outside2
+            {
+                offset = 0.0000 -0.4725 -1.5989,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+        }
+
+        passenger FrontRight
+        {
+            door2 = DoorRear,
+
+            position inside
+            {
+                offset = -0.1923 0.4011 0.2889,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+
+            position outside
+            {
+                offset = -0.6044 0.0275 0.3329,
+                rotate = 0.0000 0.0000 0.0000,
+                area = SeatFrontRight,
+            }
+
+            position outside2
+            {
+                offset = 0.0000 -0.4725 -1.5989,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+        }
+
+        area Engine
+        {
+            xywh = 0.0000 1.4697 0.8901 0.4725,
+        }
+
+        area TruckBed
+        {
+            xywh = 0.0000 -1.4637 0.8901 0.4725,
+        }
+
+        area SeatFrontLeft
+        {
+            xywh = 0.7260 0.4670 0.4725 0.4725,
+        }
+
+        area SeatFrontRight
+        {
+            xywh = -0.6813 0.4670 0.4725 0.4725,
+        }
+
+        area GasTank
+        {
+            xywh = 0.7253 0.1532 0.4725 0.4725,
+        }
+
+        area TireFrontLeft
+        {
+            xywh = 0.7253 0.7966 0.4725 0.4725,
+        }
+
+        area TireFrontRight
+        {
+            xywh = -0.6813 0.7966 0.4725 0.4725,
+        }
+
+        area TireRearLeft
+        {
+            xywh = 0.7253 -0.6577 0.4725 0.4725,
+        }
+
+        area TireRearRight
+        {
+            xywh = -0.6813 -0.6577 0.4725 0.4725,
+        }
+
+        part TruckBed
+        {
+            container
+            {
+                capacity = 130,
+                test = Vehicles.ContainerAccess.TruckBedOpenInside,
+            }
+        }
+
+        part SeatRear*
+        {
+        }
+
+        part Seat*
+        {
+            table install
+            {
+                skills = Mechanics:2,
+                recipes = Intermediate Mechanics,
+            }
+
+            table uninstall
+            {
+                skills = Mechanics:2,
+                recipes = Intermediate Mechanics,
+            }
+        }
+
+        part GasTank
+        {
+            table install
+            {
+                skills = Mechanics:7,
+                recipes = Intermediate Mechanics,
+            }
+
+            table uninstall
+            {
+                skills = Mechanics:7,
+                recipes = Intermediate Mechanics,
+            }
+        }
+
+        part Muffler
+        {
+            table install
+            {
+                recipes = Intermediate Mechanics,
+            }
+
+            table uninstall
+            {
+                recipes = Intermediate Mechanics,
+            }
+        }
+
+        part EngineDoor
+        {
+            table install
+            {
+                recipes = Intermediate Mechanics,
+            }
+
+            table uninstall
+            {
+                recipes = Intermediate Mechanics,
+            }
+        }
+
+        part Heater
+        {
+            category = engine,
+
+            lua
+            {
+                update = Vehicles.Update.Heater,
+            }
+        }
+
+        part PassengerCompartment
+        {
+            category = nodisplay,
+
+            lua
+            {
+                update = Vehicles.Update.PassengerCompartment,
+            }
+        }
+
+        part Windshield*
+        {
+            table install
+            {
+                recipes = Intermediate Mechanics,
+            }
+
+            table uninstall
+            {
+                recipes = Intermediate Mechanics,
+            }
+        }
+
+        part WindshieldRear
+        {
+            table install
+            {
+                requireInstalled = DoorRear,
+            }
+        }
+
+        part Window*
+        {
+            table install
+            {
+                recipes = Intermediate Mechanics,
+            }
+
+            table uninstall
+            {
+                recipes = Intermediate Mechanics,
+            }
+        }
+
+        part Door*
+        {
+            table install
+            {
+                recipes = Intermediate Mechanics,
+            }
+
+            table uninstall
+            {
+                recipes = Intermediate Mechanics,
+            }
+        }
+
+        part DoorRear
+        {
+            table uninstall
+            {
+                requireUninstalled = WindshieldRear,
+            }
+
+            hasLightsRear = true,
+
+            lua
+            {
+                create = Vehicles.Create.TrunkDoor,
+                update = Vehicles.Update.TrunkDoor,
+                use = Vehicles.Use.TrunkDoor,
+            }
+        }
+
+        part Brake*
+        {
+            table install
+            {
+                skills = Mechanics:6,
+                recipes = Intermediate Mechanics,
+            }
+
+            table uninstall
+            {
+                skills = Mechanics:6,
+                recipes = Intermediate Mechanics,
+            }
+        }
+
+        part Suspension*
+        {
+            table install
+            {
+                skills = Mechanics:6,
+                recipes = Intermediate Mechanics,
+            }
+
+            table uninstall
+            {
+                skills = Mechanics:6,
+                recipes = Intermediate Mechanics,
+            }
+        }
+
+        template! = SoundsVan,
+
+        physics box
+        {
+            offset = 0.0000 0.3314 -0.0055,
+            extents = 0.8956 0.4451 2.3846,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+
+        physics box
+        {
+            offset = 0.0000 0.6593 0.7992,
+            extents = 0.8956 0.2198 0.6209,
+            rotate = 40.0000 0.0000 0.0000,
+        }
+
+        physics box
+        {
+            offset = 0.0000 0.7473 -0.2627,
+            extents = 0.8956 0.3901 1.7857,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+
+        attachment trailer
+        {
+            offset = -0.2303 0.1158 -1.2359,
+            rotate = 0.0000 0.0000 0.0000,
+            zoffset = -1.0000,
+        }
+
+        attachment trailerfront
+        {
+            offset = 0.0000 -0.2747 1.2917,
+            rotate = 0.0000 0.0000 0.0000,
+            zoffset = 1.0000,
+        }
+    }
+}

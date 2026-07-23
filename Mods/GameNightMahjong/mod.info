@@ -1,0 +1,5 @@
+name=Game Night - Mahjong
+id=gamenight_cmg_mahjong
+description=Adds a Mahjong set that contains 144 tiles, typical of Hong Kong mahjong (9x4 Dots, Bamboo, Characters; 4x4 Winds; 3x4 Dragons & 4x1 Flowers and Seasons). Allows you to play Hong Kong, Sichuan, Japanese 4 player and both Japanese and Korean 3-player variants of Mahjong.
+poster=poster.png
+require=gamenight

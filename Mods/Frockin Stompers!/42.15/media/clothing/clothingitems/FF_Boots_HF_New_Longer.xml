@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes\Boots_FS3_Remake\FSV_BootsNew_Longer.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\Boots_FS3_Remake\FSV_BootsNew_Longer.fbx</m_FemaleModel>
+	<m_GUID>3c4b82f3-a13f-4aab-81b2-a71a2aad989a</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>	
+	<m_Masks>8</m_Masks>	
+	<m_Masks>10</m_Masks>
+	<m_Masks>11</m_Masks>
+	<m_MasksFolder></m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Masks/Masks_MediumBoots</m_UnderlayMasksFolder>
+	<textureChoices>clothes\Shoes\Boots_Heels\Boots_Leather_1X</textureChoices>		
+	<textureChoices>clothes\Shoes\Boots_Heels\Boots_LeatherRed_1X</textureChoices>		
+	<textureChoices>clothes\Shoes\Boots_Heels\Boots_LeatherBrown_1X</textureChoices>				
+</clothingItem>

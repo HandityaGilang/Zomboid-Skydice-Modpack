@@ -1,0 +1,14 @@
+{
+  "ContextMenu_CS_PryOpen": "Вскрыть",
+  "ContextMenu_CS_PryOpen_Door": "Вскрыть дверь силой",
+  "ContextMenu_CS_PryOpen_Window": "Вскрыть окно силой",
+  "ContextMenu_CS_Pickup_Logs": "Подобрать брёвна",
+  "ContextMenu_CS_Pickup_Trash": "Подобрать мусор",
+  "ContextMenu_CS_Only": "Только...",
+  "ContextMenu_CS_WashEquippedOnly": "Только оборудовано ",
+  "ContextMenu_CS_WashUnequippedOnly": "Только без оборудования ",
+  "ContextMenu_CS_WashWeaponsOnly": "Только оружие ",
+  "ContextMenu_CS_Equip": "Оснастить",
+  "ContextMenu_CS_Replace_Bandage": "Сменить повязку",
+  "ContextMenu_CS_ReloadAllMags": "Перезарядить все магазины"
+}

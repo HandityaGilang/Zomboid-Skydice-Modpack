@@ -1,0 +1,11 @@
+{
+    "Base.BattleShip_Box": "Kotak Kapal Perang",
+    "Base.BattleShip_GameStand": "Tempat Permainan Kapal Perang",
+    "Base.BattleShip_Peg_Red": "Pasak Merah",
+    "Base.BattleShip_Peg_White": "Pasak Putih",
+    "Base.BattleShip_Ship_Battleship": "kapal perang",
+    "Base.BattleShip_Ship_Carrier": "Pembawa",
+    "Base.BattleShip_Ship_Destroyer": "Perusak",
+    "Base.BattleShip_Ship_Submarine": "Kapal selam",
+    "Base.BattleShip_Ship_PatrolBoat": "Kapal Patroli"
+}

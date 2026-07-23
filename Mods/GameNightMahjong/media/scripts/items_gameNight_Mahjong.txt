@@ -1,0 +1,22 @@
+module Base
+{
+    item MahjongTiles
+    {
+        DisplayCategory = Deck, Weight = 0.01, Type = Normal,
+        DisplayName = Mahjong Tiles,
+        Icon = MahjongTiles/deck,
+        WorldStaticModel = MahjongTiles,
+    }
+
+    item MahjongBox
+    {
+        DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, Type = Container, Capacity = 2,
+        DisplayName = Mahjong Set, Icon = Boxes/MahjongBox, WorldStaticModel = MahjongBox,
+    }
+
+    item MahjongBox_sealed
+    {
+        DisplayCategory = GameBox, WeightReduction = 20, Weight = 0.1, Type = Normal, Capacity = 2,
+        DisplayName = Mahjong Set (Sealed), Icon = Boxes/MahjongBox, WorldStaticModel = MahjongBox,
+    }
+}

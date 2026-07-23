@@ -1,0 +1,35 @@
+CompanionDogs: Asset Credits & Licenses
+========================================
+
+Sounds
+------
+Dog voices (bark / growl / whine / idle / death): media/sound/CDDog*.ogg
+Source: BigSoundBank.com (Joseph Sardin), CC0 (public domain).
+Attribution optional; credited with thanks.
+The growl (CDDogGrowl) is made from "Growling cat" (ID 1886 / 1887),
+pitch-shifted down with high/low-pass EQ into a deep dog growl.
+Clips cut/converted to mono 44.1 kHz with ffmpeg.
+
+Eating / drinking foley: media/sound/CDDogEat1.ogg, CDDogDrink1.ogg
+Source: Freesound.org, CC0 (public domain).
+Eating: "a dog eats his kibble" by aisselles (#725619).
+Drinking: "Dog drinking water" by artemditkovsky (#860331).
+Cut/converted to mono 44.1 kHz with ffmpeg. Credited with thanks.
+
+Bite foley reuses the vanilla "ZombieBite" sound.
+
+Models
+------
+German Shepherd body mesh: our own 3D model.
+Re-skinned to a custom Biped skeleton and adapted for the game.
+
+Skeleton + skinning: original work.
+Pipeline tooling (Blender headless + io_directx_x): in _dogrig/ (dev only).
+
+Translations
+------------
+Chinese (Simplified / Traditional): duwenju1203.
+Italian: d4rk83.
+Japanese: 一匹狼 (https://steamcommunity.com/profiles/76561198253359995/).
+Thai: momineko (https://steamcommunity.com/id/momineko/).
+Thanks to all for the community translations.

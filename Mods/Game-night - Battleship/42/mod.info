@@ -1,0 +1,8 @@
+name=Game Night - Battleship
+id=Gamenight_Battleship
+description=Adds the board game, Battleship, to the game using the GameNight UI. Make sure that's enabled alongside this.
+poster=poster.png
+require=\gamenight,
+author=Authentic Peach (with help from Chuckleberry Finn)
+icon=icon.png
+versionMin=42.0

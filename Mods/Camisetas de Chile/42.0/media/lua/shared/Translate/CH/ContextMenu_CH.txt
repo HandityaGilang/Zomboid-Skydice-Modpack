@@ -1,0 +1,12 @@
+ContextMenu_CH = {
+    /* Opciones para las Gorras */
+    ContextMenu_ForwardCap = "鴨舌帽正戴 (帥氣)",
+    ContextMenu_ReverseCap = "鴨舌帽反戴 (叛逆)",
+
+    /* Opciones para los Delantales */
+    ContextMenu_Arremangar = "圍裙掛胸 (正式)",
+    ContextMenu_Desarremangar = "圍裙繫腰 (隨性)",
+    
+    /* Nombre del Submenú */
+    ContextMenu_Ajustar_Prenda = "服飾調整"
+}

@@ -1,0 +1,155 @@
+VERSION = 1,
+
+option CommonSense.ObviousCollecting
+{
+    type = boolean,
+    default = true,
+    page = CommonSense,
+    translation = CommonSense_ObviousCollecting,
+}
+
+option CommonSense.DisableLoot
+{
+    type = boolean,
+    default = false,
+    page = CommonSense,
+    translation = CommonSense_OC_DisableLoot,
+}
+
+option CommonSense.LootMultiplier
+{
+    type = double,
+    min = 0,
+    default = 1,
+    max = 100,
+    page = CommonSense,
+    translation = CommonSense_OC_LootMultiplier,
+}
+
+option CommonSense.PryingMechanic
+{
+    type = boolean,
+    default = true,
+    page = CommonSense,
+    translation = CommonSense_PryingMechanic,
+}
+
+option CommonSense.PryingChanceMultiplier
+{
+    type = double,
+    min = 0,
+    default = 1,
+    max = 5,
+    page = CommonSense,
+    translation = CommonSense_PryingChanceMultiplier,
+}
+
+option CommonSense.PryBuildingDoors
+{
+    type = boolean,
+    default = true,
+    page = CommonSense,
+    translation = CommonSense_PryBuildingDoors,
+}
+
+option CommonSense.PryWindows
+{
+    type = boolean,
+    default = true,
+    page = CommonSense,
+    translation = CommonSense_PryWindows,
+}
+
+option CommonSense.WindowShatterChance
+{
+    type = integer,
+    min = 0,
+    default = 20,
+    max = 100,
+    page = CommonSense,
+    translation = CommonSense_WindowShatterChance,
+}
+
+option CommonSense.PryGarageDoors
+{
+    type = boolean,
+    default = true,
+    page = CommonSense,
+    translation = CommonSense_PryGarageDoors,
+}
+
+option CommonSense.PryVehicleDoors
+{
+    type = boolean,
+    default = true,
+    page = CommonSense,
+    translation = CommonSense_PryVehicleDoors,
+}
+
+option CommonSense.ShatterVehicleWindows
+{
+    type = boolean,
+    default = true,
+    page = CommonSense,
+    translation = CommonSense_ShatterVehicleWindows,
+}
+
+option CommonSense.PrySafeDoors
+{
+    type = boolean,
+    default = false,
+    page = CommonSense,
+    translation = CommonSense_PrySafeDoors,
+}
+
+option CommonSense.ReinforcedDoorLevel
+{
+    type = integer,
+    min = 0,
+    default = 8,
+    max = 10,
+    page = CommonSense,
+    translation = CommonSense_ReinforcedDoorLevel,
+}
+
+option CommonSense.GunStats
+{
+    type = boolean,
+    default = true,
+    page = CommonSense,
+    translation = CommonSense_GunStats,
+}
+
+option CommonSense.CanWoundChance
+{
+    type = integer,
+    min = 0,
+    default = 33,
+    max = 100,
+    page = CommonSense,
+    translation = CommonSense_CanWoundChance,
+}
+
+option CommonSense.ReplaceBandage
+{
+    type = boolean,
+    default = true,
+    page = CommonSense,
+    translation = CommonSense_ReplaceBandage,
+}
+
+option CommonSense.WashOnly
+{
+    type = boolean,
+    default = true,
+    page = CommonSense,
+    translation = CommonSense_WashOnly,
+}
+
+option CommonSense.ReloadAllMags
+{
+    type = boolean,
+    default = true,
+    page = CommonSense,
+    translation = CommonSense_ReloadAllMags,
+}

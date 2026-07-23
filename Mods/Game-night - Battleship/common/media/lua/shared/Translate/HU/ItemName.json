@@ -1,0 +1,11 @@
+{
+    "Base.BattleShip_Box": "Battleship Box",
+    "Base.BattleShip_GameStand": "Battleship Gamestand",
+    "Base.BattleShip_Peg_Red": "Red Peg",
+    "Base.BattleShip_Peg_White": "Fehér Peg",
+    "Base.BattleShip_Ship_Battleship": "Csatahajó",
+    "Base.BattleShip_Ship_Carrier": "Hordozó",
+    "Base.BattleShip_Ship_Destroyer": "Romboló",
+    "Base.BattleShip_Ship_Submarine": "Tengeralattjáró",
+    "Base.BattleShip_Ship_PatrolBoat": "Járőrhajó"
+}

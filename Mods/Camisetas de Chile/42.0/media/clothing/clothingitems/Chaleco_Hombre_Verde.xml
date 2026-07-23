@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+    <m_GUID>8949232e-2a76-4ad2-8716-dcb47192e4b3</m_GUID>
+    <m_Static>false</m_Static>
+	<m_BodyLocation>Vest</m_BodyLocation>
+	<coveredParts>
+        <part>Torso</part>
+    </coveredParts>
+    <m_AllowRandomHue>false</m_AllowRandomHue>
+    <m_AllowRandomTint>false</m_AllowRandomTint>
+    <m_AttachBone></m_AttachBone>
+    <m_BaseTextures>clothes\Chaleco_Hombre_Verde</m_BaseTextures>
+</clothingItem>
