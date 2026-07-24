@@ -1,0 +1,4 @@
+Recipes_HU = {
+    Recipe_DismantleTCElectronics = "Zenelejátszó szétszerelése",
+    Recipe_DismantleWalkmanElectronics = "Szerelje szét a hordozható lejátszót",
+}

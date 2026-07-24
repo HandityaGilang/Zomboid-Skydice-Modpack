@@ -1,0 +1,8 @@
+{
+    "ContextMenu_Connect_Device": "Conectar",
+    "ContextMenu_Disconnect_Device": "Desconectar",
+    "ContextMenu_MergeWire": "Combinar haces de cables",
+    "ContextMenu_PickUp_Speaker": "Recoger el altavoz",
+    "ContextMenu_TM_CDCase_PutIn": "Colocar en la caja del CD",
+    "ContextMenu_TM_CDCase_TakeOut": "Saca el CD"
+}

@@ -1,0 +1,263 @@
+module Tsarcraft
+{
+	sound CassetteIPZMusicAllofMe
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/IPZ Music - All of Me.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteIPZMusicAWAKE
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/IPZ Music - AWAKE.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteIPZMusicBansanka
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/IPZ Music - Bansanka.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteIPZMusicBelindaAmigosxSiempre
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/IPZ Music - Belinda Amigos x Siempre.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteIPZMusicBLOODHOUNDS
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/IPZ Music - BLOODHOUNDS.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteIPZMusicBreakingBadThemeSong
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/IPZ Music - Breaking Bad Theme Song.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteIPZMusicCalifornication
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/IPZ Music - Californication.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteIPZMusiccomet
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/IPZ Music - comet.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteIPZMusicDearGod
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/IPZ Music - Dear God.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteIPZMusicDebutantBall
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/IPZ Music - Debutant Ball.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteIPZMusicFeelSpecial
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/IPZ Music - Feel Special.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteIPZMusicGooGooDollsIris
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/IPZ Music - Goo Goo Dolls Iris.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteIPZMusicHindiaeverythinguare
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/IPZ Music - Hindia - everything u are.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteIPZMusicHINKIRO
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/IPZ Music - HINKIRO.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteIPZMusicIReallyWanttoStayAtYourHouse
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/IPZ Music - I Really Want to Stay At Your House.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteIPZMusicInitialDBlackOut
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/IPZ Music - Initial D - Black Out.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteIPZMusicListenNot
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/IPZ Music - Listen Not.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteIPZMusicLostinParadise
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/IPZ Music - Lost in Paradise.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteIPZMusicMahalKitaBobo
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/IPZ Music - Mahal Kita Bobo.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteIPZMusicMEGITSUNE
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/IPZ Music - MEGITSUNE.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteIPZMusicMICDrop(SteveAokiRemix)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/IPZ Music - MIC Drop (Steve Aoki Remix).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteIPZMusicOverdose
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/IPZ Music - Overdose.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteIPZMusicSANTEMIKINAH
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/IPZ Music - SANTE MI KI NAH.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteIPZMusicSTECUSTECU
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/IPZ Music - STECU STECU.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteIPZMusicSunflower
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/IPZ Music - Sunflower.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteIPZMusicWelcomeToTheBlackParade
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/IPZ Music - Welcome To The Black Parade.ogg,
+			distanceMax = 75,
+		}
+	}
+}

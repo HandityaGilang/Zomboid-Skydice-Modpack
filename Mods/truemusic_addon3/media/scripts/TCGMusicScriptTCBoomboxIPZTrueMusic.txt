@@ -1,0 +1,963 @@
+module Tsarcraft
+{
+	imports
+	{
+		Base
+	}
+/********************Generated Music Carriers********************/
+
+	item Cassette30SecondsToMarsTheKill(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette 30 Seconds To Mars - The Kill (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteAManWithoutLoveEngelbertHumperdinck(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette A Man Without Love - Engelbert Humperdinck (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteABBADancingQueen(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette ABBA - Dancing Queen (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteABBASOS(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette ABBA - SOS (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteAdaBandManusiaBodoh(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Ada Band - Manusia Bodoh (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteAdzan(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Adzan (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteAerosmithIDon'tWanttoMissaThing(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Aerosmith - I Don't Want to Miss a Thing (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteAvengedSevenfoldMIA(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Avenged Sevenfold - M.I.A. (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteBabyGrootSingsASong(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Baby Groot Sings A Song (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteBattotai(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Battotai (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteBeeGeesHowDeepIsYourLove(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Bee Gees - How Deep Is Your Love (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteBeeGeesToLoveSomebody(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Bee Gees - To Love Somebody (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteBenEKingStandbyMe(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Ben E. King - Stand by Me (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteBillWithersJusttheTwoofUs(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Bill Withers - Just the Two of Us (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteBobbyMcFerrinDon'tWorryBeHappy(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Bobby McFerrin - Don't Worry Be Happy (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteBonJoviAlways(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Bon Jovi - Always (IPZ) ,
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteBringMeTheHorizonDrown(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette Bring Me The Horizon - Drown (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteBringMeTheHorizonSleepwalking(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Bring Me The Horizon - Sleepwalking (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteBulletForMyValentineRoadToNowhere(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Bullet For My Valentine - Road To Nowhere (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteCakeIWillSurvive(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette Cake - I Will Survive (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteChibiMarukoChanIndonesianVersion(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Chibi Maruko Chan Indonesian Version (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteChibiMarukoChanSoundtrack(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Chibi Maruko Chan Soundtrack (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteCreedOneLastBreath(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Creed - One Last Breath (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteDaftPunkAroundTheWorld(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Daft Punk - Around The World (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteDaveRodgersDeJavu(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Dave Rodgers - De Javu (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteDragonForceThroughTheFireAndFlames(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette DragonForce - Through The Fire And Flames (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteEaglesHotelCalifornia(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Eagles - Hotel California (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteEarthWindandFireSeptember(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Earth Wind and Fire - September (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteEltonJohnSaturdayNightsAlright(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Elton John - Saturday Nights Alright (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteEvanescenceBringMeToLife(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Evanescence - Bring Me To Life (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteFluxCupsKillYourIdol(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Flux Cups - Kill Your Idol (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteFranzFerdinandTakeMeOut(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Franz Ferdinand - Take Me Out (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteGeorgeBensonNothingsGonnaChangeMyLoveForYou(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette George Benson - Nothings Gonna Change My Love For You (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteGreenDayBasketCase(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette Green Day - Basket Case (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteGreenDayBoulevardOfBrokenDreams(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Green Day - Boulevard Of Broken Dreams (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteGreenDayWakeMeUpWhenSeptemberEnds(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Green Day - Wake Me Up When September Ends (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteGunsNRosesWelcometotheJungle(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Guns N Roses - Welcome to the Jungle (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteGunsN'RosesSweetChildO'Mine(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Guns N' Roses - Sweet Child O' Mine (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteHarlemYuQingFeiDeYi(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Harlem Yu - Qing Fei De Yi (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteHeartBarracuda(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Heart - Barracuda (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteHomeFreeSeaShantyMedleyExtendedVersion(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Home Free - Sea Shanty Medley Extended Version (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteIkimonoGakariBlueBird(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Ikimono Gakari - Blue Bird (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteIndonesiaRaya(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Indonesia Raya (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteIvaLolaGakMauPulangMaunyaDigoyang(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Iva Lola - Gak Mau Pulang Maunya Digoyang (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteJKT48FortuneCookie(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette JKT48 - Fortune Cookie (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteKanyeWestPraiseGod
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Kanye West - Praise God,
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteKC&TheSunshineBandGiveItUp(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette KC & The Sunshine Band - Give It Up (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteKiryuBakaMitai(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Kiryu - Baka Mitai (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteKoboKanaeruMantraHujan(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Kobo Kanaeru - Mantra Hujan (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteLastChildMenyerah(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape6,
+		DisplayName		=	Cassette Last Child - Menyerah (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape6,
+	}
+
+	item CassetteLedZeppelinStairwaytoHeaven(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Led Zeppelin - Stairway to Heaven (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteLilUziVertBankTeller(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Lil Uzi Vert - Bank Teller (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteLinkedHorizonGurenNoYumiya(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette Linked Horizon - Guren No Yumiya (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteLinkedHorizonShinzowoSasageyo(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Linked Horizon - Shinzo wo Sasageyo (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteLinkinParkInTheEnd(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Linkin Park - In The End (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteLinkinParkNumb(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Linkin Park - Numb (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteLinkinParkWhatI'veDone(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Linkin Park - What I've Done (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteLynyrdSkynyrdFreeBird(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Lynyrd Skynyrd - Free Bird (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteMaroon5ftChristinaAguileraMovesLikeJagger
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Maroon 5 ft. Christina Aguilera - Moves Like Jagger,
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteMasafumiTakadaDANGANRONPAReissue(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Masafumi Takada - DANGANRONPA Reissue (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteMichaelJacksonBeatIt(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Michael Jackson - Beat It (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteMichaelJacksonHealTheWorld(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette Michael Jackson - Heal The World (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteMichaelJacksonThriller(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Michael Jackson - Thriller (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteMickGordonTheOnlyThingTheyFearIsYou(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Mick Gordon  The Only Thing They Fear Is You (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteMyChemicalRomanceDisenchanted(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette My Chemical Romance - Disenchanted (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteMyChemicalRomanceIDontLoveYou(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette My Chemical Romance - I Dont Love You (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteNarutoTheRaisingFightingSpirit(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Naruto - The Raising Fighting Spirit (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteNatalieImbrugliaTorn(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette Natalie Imbruglia - Torn (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteNovoAmorStateLines(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Novo Amor - State Lines (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteOasisStandByMe(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette Oasis - Stand By Me (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteONEOKROCKTheBeginning(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette ONE OK ROCK - The Beginning (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteONEOKROCKWhereverYouAre(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette ONE OK ROCK - Wherever You Are (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteOnePieceFightMusic(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette One Piece Fight Music (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassettePlayboiCartiSky(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Playboi Carti - Sky (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassettePocoPoco(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Poco Poco (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteProjectPopGoyangDuyu(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Project Pop - Goyang Duyu (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteProjectPopIWillNotSurvive(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Project Pop - I Will Not Survive (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteQueenBicycle(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Queen - Bicycle (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteQueenDontStopMeNow(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Queen - Dont Stop Me Now (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteQUEENDOMRainychVer(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape11,
+		DisplayName		=	Cassette QUEENDOM Rainych Ver (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape11,
+	}
+
+	item CassetteRainychBlackRoverCover(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Rainych - Black Rover Cover (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteRasputinDangdutRemix(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Rasputin Dangdut Remix (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteRedHotChiliPeppersCalifornication(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Red Hot Chili Peppers - Californication (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteRickAstleyNeverGonnaGiveYouUp(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Rick Astley - Never Gonna Give You Up (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteSabilulunganInstrumental(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette Sabilulungan Instrumental (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteSaykojiJalanPanjangftGunturSimbolon(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Saykoji - Jalan Panjang ft. Guntur Simbolon (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteSeringaiProgramPartySeringai(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette Seringai - Program Party Seringai (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteSiMTheRumbling(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette SiM - The Rumbling (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteSlipknotTheDevilinI(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette Slipknot - The Devil in I (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteSpillerGroovejet(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Spiller - Groovejet (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteSpongebobSoundtrackGrassSkirtChase(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette Spongebob Soundtrack - Grass Skirt Chase (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteSpongeBobSoundtrackTwelfthStreetRag(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape3,
+		DisplayName		=	Cassette SpongeBob Soundtrack - Twelfth Street Rag (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape3,
+	}
+
+	item CassetteSurvivorEyeoftheTiger(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Survivor - Eye of the Tiger (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteTakashiTakeuchiMeltyBloodTypeLuminaOST(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Takashi Takeuchi - Melty Blood Type Lumina OST (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+	item CassetteTheCranberriesZombie(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape8,
+		DisplayName		=	Cassette The Cranberries - Zombie (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape8,
+	}
+
+	item CassetteTheKillersCaution(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape9,
+		DisplayName		=	Cassette The Killers - Caution (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape9,
+	}
+
+	item CassetteTheWhiteStripesSevenNationArmy(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette The White Stripes - Seven Nation Army (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteTokyoDriftFastFurious(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape7,
+		DisplayName		=	Cassette Tokyo Drift Fast - Furious (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape7,
+	}
+
+	item CassetteVickeBlankaBlackCatcher(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Vicke Blanka - Black Catcher (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteVickeBlankaBlackRover(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Vicke Blanka - Black Rover (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteWarkopDKIAndecaAndeci(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape10,
+		DisplayName		=	Cassette Warkop DKI - Andeca Andeci (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape10,
+	}
+
+	item CassetteWeezerIslandInTheSun(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Weezer - Island In The Sun (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteWestlifeMyLove(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape4,
+		DisplayName		=	Cassette Westlife - My Love (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape4,
+	}
+
+	item CassetteWestlifeUptownGirl(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape2,
+		DisplayName		=	Cassette Westlife - Uptown Girl (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape2,
+	}
+
+	item CassetteYeatPoppin(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape1,
+		DisplayName		=	Cassette Yeat - Poppin (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape1,
+	}
+
+	item CassetteYugoKannoilventod'oro(IPZ)
+	{
+		Type			=	Normal,
+		Weight			=	0.2,
+		Icon			=	TCTape5,
+		DisplayName		=	Cassette Yugo Kanno - il vento d'oro (IPZ),
+		WorldStaticModel = Tsarcraft.TCTape5,
+	}
+
+}

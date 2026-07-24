@@ -1,0 +1,9 @@
+name=True MooZic B42.13+ SP/MP
+poster=poster.png
+id=TrueMoozic
+versionMin=42.13
+pack=tsarcraft_music
+tiledef=tsarcraft_music 222
+icon=icon.png
+description=TrueMusic for B42.13+ SP/MP
+author=a_cow_says, hasteL, talismon

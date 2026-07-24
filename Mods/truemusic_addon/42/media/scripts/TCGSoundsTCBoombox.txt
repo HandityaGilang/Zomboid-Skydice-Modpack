@@ -1,0 +1,643 @@
+module Tsarcraft
+{
+	sound CassetteAndraandtheBackboneSempurna
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Andra and the Backbone - Sempurna.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteBaseJamBukanPujangga
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Base Jam - Bukan Pujangga.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteCandraDarusmanKau
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Candra Darusman - Kau.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteChrisyeAnakSekolah
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Chrisye - Anak Sekolah.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteChrisyeCintaku
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Chrisye - Cintaku.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteChrisyeKalaCintaMenggoda
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Chrisye - Kala Cinta Menggoda.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteChrisyedanVinaPanduwinataKisahInsani
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Chrisye dan Vina Panduwinata - Kisah Insani.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteClub80sGejolakKawulaMuda
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Club 80s - Gejolak Kawula Muda.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteCokelatJauh
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Cokelat - Jauh.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteCokelatKarma
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Cokelat - Karma.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteDewaAkuMilikmu
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Dewa - Aku Milikmu.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteDewaCintakanMembawamuKembali
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Dewa - Cintakan Membawamu Kembali.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteDewaCukupSitiNurbaya
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Dewa - Cukup Siti Nurbaya.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteDewaKangen
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Dewa - Kangen.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteDewaKirana
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Dewa - Kirana.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteDewaMistikusCinta
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Dewa - Mistikus Cinta.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteDewaRisalahHati
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Dewa - Risalah Hati.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteDewaRomanPicisan
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Dewa - Roman Picisan.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteDiskoriaCHRISYE
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Diskoria - CHRISYE.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteDiskoriadanDianSastroSerenataJiwaLara
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Diskoria dan Dian Sastro - Serenata Jiwa Lara.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteEbietGAdeBeritaPadaKawan
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Ebiet G Ade - Berita Pada Kawan.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteFarizRMSakura
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Fariz RM - Sakura.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteGigiAndai
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Gigi - Andai.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteGigiTerbang
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Gigi - Terbang.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteGodblessRumahKita
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Godbless - Rumah Kita.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteIwaKBebas
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Iwa K - Bebas.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteJamrudPelangiDiMatamu
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Jamrud - Pelangi Di Matamu.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteJamrudSurtiTedjo
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Jamrud - Surti Tedjo.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteKillingMeInsideBiarlah
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Killing Me Inside - Biarlah.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteKLAProjectYogyakarta
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/KLA Project - Yogyakarta.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteKoesPlusAndaikanKauDatang
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Koes Plus - Andaikan Kau Datang.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteKoesPlusKembaliKeJakarta
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Koes Plus - Kembali Ke Jakarta.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteMEInikahCinta
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/ME - Inikah Cinta.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteNaifBenciUntukMencinta
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Naif - Benci Untuk Mencinta.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteNaifMobilBalap
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Naif - Mobil Balap.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteNaifPiknik72
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Naif - Piknik 72.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteNetralPertempuranHati
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Netral - Pertempuran Hati.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteNetralSorry
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Netral - Sorry.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteNetralTerbangTenggelam
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Netral - Terbang Tenggelam.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteNikeArdillaBintangKehidupan
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Nike Ardilla - Bintang Kehidupan.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteNikeArdillaDiAntaraPilihan
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Nike Ardilla - Di Antara Pilihan.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteNikeArdillaSeberkasSinar
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Nike Ardilla - Seberkas Sinar.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassettePasBandfeatTereKesepianKita
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Pas Band feat Tere - Kesepian Kita.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassettePeterpanBintangdiSurga
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Peterpan - Bintang di Surga.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassettePeterpanHariYangCerahUntukJiwaYangSepi
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Peterpan - Hari Yang Cerah Untuk Jiwa Yang Sepi.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteRezaArtameviaBiarJadiKenangan
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Reza Artamevia - Biar Jadi Kenangan.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteRezaArtameviaKeabadian
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Reza Artamevia - Keabadian.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteRezaArtameviaSatuYangTakBisaLepas
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Reza Artamevia - Satu Yang Tak Bisa Lepas.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteRomeoBungaTerakhir
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Romeo - Bunga Terakhir.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteSheilaOn7Dan
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Sheila On 7 - Dan.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteSheilaOn7Kita
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Sheila On 7 - Kita.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteSlankKuTakBisa
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Slank - Ku Tak Bisa.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteSlankTerlaluManis
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Slank - Terlalu Manis.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteSlankVirus
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Slank - Virus.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteTheFlyTerbang
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/The Fly - Terbang.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteTipeXKamuEnggakSendirian
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Tipe-X - Kamu Enggak Sendirian.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteTipeXMawarHitam
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Tipe-X - Mawar Hitam.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteUnguDiSiniUntukmu
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Ungu - Di Sini Untukmu.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteUthaLikumahuwaEsokkanMasihAda
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Utha Likumahuwa - Esokkan Masih Ada.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteUthaLikumahuwaSesaatKauHadir
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Utha Likumahuwa - Sesaat Kau Hadir.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteUthaLikumahuwaTersiksaLagi
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Utha Likumahuwa - Tersiksa Lagi.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteVierraPerih
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Vierra - Perih.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteVierraSeandainya
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Vierra - Seandainya.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteVinaPanduwinataDia
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Vina Panduwinata - Dia.ogg,
+			distanceMax = 75,
+		}
+	}
+}

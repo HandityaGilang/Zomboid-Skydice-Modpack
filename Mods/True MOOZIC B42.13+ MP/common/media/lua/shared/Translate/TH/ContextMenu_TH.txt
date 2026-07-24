@@ -1,0 +1,8 @@
+ContextMenu_TH = {
+    ContextMenu_Connect_Device = "เชื่อมต่อ",
+    ContextMenu_Disconnect_Device = "ตัดการเชื่อมต่อ",
+    ContextMenu_MergeWire = "รวมกลุ่มสายไฟ",
+    ContextMenu_PickUp_Speaker = "หยิบลำโพงขึ้นมา",
+    ContextMenu_TM_CDCase_PutIn = "ใส่ในกล่องซีดี",
+    ContextMenu_TM_CDCase_TakeOut = "นำแผ่นซีดีออก",
+}

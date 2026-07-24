@@ -1,0 +1,13 @@
+module Tsarcraft
+{
+	sound VinylLucifer'sHymn(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Lucifer's Hymn (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+}

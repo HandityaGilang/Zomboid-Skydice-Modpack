@@ -1,0 +1,12 @@
+module Base
+{
+    model TM_CDCase
+    {
+        mesh = WorldItems/TM_CDCase,
+        texture = WorldItems/TM_CDCase,
+        scale = 0.3,
+    }
+
+}
+
+

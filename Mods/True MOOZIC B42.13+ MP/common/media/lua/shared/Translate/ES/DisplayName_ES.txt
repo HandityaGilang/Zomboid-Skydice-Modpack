@@ -1,0 +1,7 @@
+DisplayName_ES = {
+    DisplayName_Zony_Walkman = "Reproductor portatil 'Zony Walkman'",
+    DisplayName_Vinyl_player = "Tocadiscos",
+    DisplayName_Boombox = "Bombona",
+    DisplayName_Vinyl_Project_Zomboid_-_Finally_Calm = "Vinilo Project Zomboid - Finalmente la calma",
+    DisplayName_Cassette_Project_Zomboid_-_Introduction = "Cassette Project Zomboid - Introducción",
+}

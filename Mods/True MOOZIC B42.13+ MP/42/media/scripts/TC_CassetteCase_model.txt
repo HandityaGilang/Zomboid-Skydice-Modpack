@@ -1,0 +1,18 @@
+module Tsarcraft
+{
+	imports
+	{
+		Base
+
+	}
+
+model CassetteCase
+    {
+        mesh = WorldItems/CassetteCase,
+        texture = WorldItems/Cassette/CassetteCase,
+        category = Bag,
+        scale = 0.00035,
+        ItemType = container,
+    }
+
+}

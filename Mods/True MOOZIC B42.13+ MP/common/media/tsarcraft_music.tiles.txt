@@ -1,0 +1,490 @@
+version = 1
+tileset
+{
+    file = TrueMoozic_music_01
+    size = 8,5
+    id = 154
+    // TrueMoozic_music_01_0
+    tile
+    {
+        xy = 0,0
+        CustomName = Piano
+        Facing = S
+        GroupName = Rare
+        IsLow = 
+        IsMoveAble = 
+        PickUpWeight = 20
+        SpriteGridPos = 1,1
+        Surface = 20
+    }
+    // TrueMoozic_music_01_1
+    tile
+    {
+        xy = 1,0
+        CustomName = Piano
+        Facing = S
+        GroupName = Rare
+        IsLow = 
+        IsMoveAble = 
+        PickUpWeight = 20
+        SpriteGridPos = 0,1
+        Surface = 20
+    }
+    // TrueMoozic_music_01_2
+    tile
+    {
+        xy = 2,0
+        CustomName = Piano
+        Facing = S
+        GroupName = Rare
+        IsHigh = 
+        IsMoveAble = 
+        PickUpWeight = 300
+        SpriteGridPos = 0,0
+        Surface = 80
+        solid = 
+    }
+    // TrueMoozic_music_01_3
+    tile
+    {
+        xy = 3,0
+        CustomName = Piano
+        Facing = S
+        GroupName = Rare
+        IsHigh = 
+        IsMoveAble = 
+        PickUpWeight = 300
+        SpriteGridPos = 1,0
+        Surface = 80
+        solid = 
+    }
+    // TrueMoozic_music_01_4
+    tile
+    {
+        xy = 4,0
+        CustomName = Piano
+        Facing = E
+        GroupName = Rare
+        IsHigh = 
+        IsMoveAble = 
+        PickUpWeight = 300
+        SpriteGridPos = 0,1
+        Surface = 80
+        solid = 
+    }
+    // TrueMoozic_music_01_5
+    tile
+    {
+        xy = 5,0
+        CustomName = Piano
+        Facing = E
+        GroupName = Rare
+        IsHigh = 
+        IsMoveAble = 
+        PickUpWeight = 300
+        SpriteGridPos = 0,0
+        Surface = 80
+        solid = 
+    }
+    // TrueMoozic_music_01_6
+    tile
+    {
+        xy = 6,0
+        CustomName = Piano
+        Facing = E
+        GroupName = Rare
+        IsLow = 
+        IsMoveAble = 
+        PickUpWeight = 20
+        SpriteGridPos = 1,0
+        Surface = 20
+    }
+    // TrueMoozic_music_01_7
+    tile
+    {
+        xy = 7,0
+        CustomName = Piano
+        Facing = E
+        GroupName = Rare
+        IsLow = 
+        IsMoveAble = 
+        PickUpWeight = 20
+        SpriteGridPos = 1,1
+        Surface = 20
+    }
+    // TrueMoozic_music_01_8
+    tile
+    {
+        xy = 0,1
+        BlocksPlacement = 
+        CustomName = Piano
+        Facing = S
+        GroupName = Grand
+        IsMoveAble = 
+        PickUpWeight = 100
+        SpriteGridPos = 0,2
+        solid = 
+    }
+    // TrueMoozic_music_01_9
+    tile
+    {
+        xy = 1,1
+        BlocksPlacement = 
+        CustomName = Piano
+        Facing = S
+        GroupName = Grand
+        IsMoveAble = 
+        PickUpWeight = 100
+        SpriteGridPos = 1,2
+        solid = 
+    }
+    // TrueMoozic_music_01_10
+    tile
+    {
+        xy = 2,1
+        BlocksPlacement = 
+        CustomName = Piano
+        Facing = S
+        GroupName = Grand
+        IsMoveAble = 
+        PickUpWeight = 100
+        SpriteGridPos = 1,1
+        solid = 
+    }
+    // TrueMoozic_music_01_11
+    tile
+    {
+        xy = 3,1
+        BlocksPlacement = 
+        CustomName = Piano
+        Facing = S
+        GroupName = Grand
+        IsMoveAble = 
+        PickUpWeight = 100
+        SpriteGridPos = 0,1
+        solid = 
+    }
+    // TrueMoozic_music_01_12
+    tile
+    {
+        xy = 4,1
+        BlocksPlacement = 
+        CustomName = Piano
+        Facing = S
+        GroupName = Grand
+        IsMoveAble = 
+        PickUpWeight = 100
+        SpriteGridPos = 0,0
+        solid = 
+    }
+    // TrueMoozic_music_01_13
+    tile
+    {
+        xy = 5,1
+        BlocksPlacement = 
+        CustomName = Piano
+        Facing = S
+        GroupName = Grand
+        IsMoveAble = 
+        PickUpWeight = 100
+        SpriteGridPos = 1,0
+    }
+    // TrueMoozic_music_01_14
+    tile
+    {
+        xy = 6,1
+        CustomName = Piano
+        Facing = S
+        GroupName = Grand
+        IsMoveAble = 
+        SpriteGridPos = 2,0
+    }
+    // TrueMoozic_music_01_15
+    tile
+    {
+        xy = 7,1
+        CustomName = Piano
+        Facing = S
+        GroupName = Grand
+        IsMoveAble = 
+        SpriteGridPos = 2,1
+    }
+    // TrueMoozic_music_01_16
+    tile
+    {
+        xy = 0,2
+        BlocksPlacement = 
+        CustomName = Piano
+        Facing = E
+        GroupName = Grand
+        IsMoveAble = 
+        PickUpWeight = 100
+        SpriteGridPos = 2,0
+        solid = 
+    }
+    // TrueMoozic_music_01_17
+    tile
+    {
+        xy = 1,2
+        BlocksPlacement = 
+        CustomName = Piano
+        Facing = E
+        GroupName = Grand
+        IsMoveAble = 
+        PickUpWeight = 100
+        SpriteGridPos = 2,1
+        solid = 
+    }
+    // TrueMoozic_music_01_18
+    tile
+    {
+        xy = 2,2
+        BlocksPlacement = 
+        CustomName = Piano
+        Facing = E
+        GroupName = Grand
+        IsMoveAble = 
+        PickUpWeight = 100
+        SpriteGridPos = 1,1
+        solid = 
+    }
+    // TrueMoozic_music_01_19
+    tile
+    {
+        xy = 3,2
+        BlocksPlacement = 
+        CustomName = Piano
+        Facing = E
+        GroupName = Grand
+        IsMoveAble = 
+        PickUpWeight = 100
+        SpriteGridPos = 1,0
+        solid = 
+    }
+    // TrueMoozic_music_01_20
+    tile
+    {
+        xy = 4,2
+        BlocksPlacement = 
+        CustomName = Piano
+        Facing = E
+        GroupName = Grand
+        IsMoveAble = 
+        PickUpWeight = 100
+        SpriteGridPos = 0,0
+        solid = 
+    }
+    // TrueMoozic_music_01_21
+    tile
+    {
+        xy = 5,2
+        BlocksPlacement = 
+        CustomName = Piano
+        Facing = E
+        GroupName = Grand
+        IsMoveAble = 
+        PickUpWeight = 100
+        SpriteGridPos = 0,1
+    }
+    // TrueMoozic_music_01_22
+    tile
+    {
+        xy = 6,2
+        CustomName = Piano
+        Facing = E
+        GroupName = Grand
+        IsMoveAble = 
+        SpriteGridPos = 0,2
+    }
+    // TrueMoozic_music_01_23
+    tile
+    {
+        xy = 7,2
+        CustomName = Piano
+        Facing = E
+        GroupName = Grand
+        IsMoveAble = 
+        SpriteGridPos = 1,2
+    }
+    // TrueMoozic_music_01_24
+    tile
+    {
+        xy = 0,3
+        BlocksPlacement = 
+        CustomName = Kit
+        Facing = S
+        GroupName = Drum
+        IsMoveAble = 
+        SpriteGridPos = 0,0
+        solidtrans = 
+    }
+    // TrueMoozic_music_01_25
+    tile
+    {
+        xy = 1,3
+        BlocksPlacement = 
+        CustomName = Kit
+        Facing = S
+        GroupName = Drum
+        IsMoveAble = 
+        SpriteGridPos = 1,0
+        solidtrans = 
+    }
+    // TrueMoozic_music_01_26
+    tile
+    {
+        xy = 2,3
+        BlocksPlacement = 
+        CustomName = Kit
+        Facing = E
+        GroupName = Drum
+        IsMoveAble = 
+        SpriteGridPos = 0,1
+        solidtrans = 
+    }
+    // TrueMoozic_music_01_27
+    tile
+    {
+        xy = 3,3
+        BlocksPlacement = 
+        CustomName = Kit
+        Facing = E
+        GroupName = Drum
+        IsMoveAble = 
+        SpriteGridPos = 0,0
+        solidtrans = 
+    }
+    // TrueMoozic_music_01_28
+    tile
+    {
+        xy = 4,3
+        BlocksPlacement = 
+        CustomName = Guitar
+        Facing = S
+        GroupName = Bass
+        IsMoveAble = 
+        PickUpWeight = 100
+        solidtrans = 
+    }
+    // TrueMoozic_music_01_29
+    tile
+    {
+        xy = 5,3
+        BlocksPlacement = 
+        CustomName = Guitar
+        Facing = E
+        GroupName = Bass
+        IsMoveAble = 
+        PickUpWeight = 100
+        solidtrans = 
+    }
+    // TrueMoozic_music_01_30
+    tile
+    {
+        xy = 6,3
+        CustomName = Piano
+        Facing = S
+        GroupName = Grand
+        IsMoveAble = 
+        SpriteGridPos = 2,2
+    }
+    // TrueMoozic_music_01_31
+    tile
+    {
+        xy = 7,3
+        CustomName = Piano
+        Facing = E
+        GroupName = Grand
+        IsMoveAble = 
+        SpriteGridPos = 2,2
+    }
+    // TrueMoozic_music_01_32
+    tile
+    {
+        xy = 0,4
+        BlocksPlacement = 
+        CustomName = Microphone
+        Facing = S
+        GroupName = Scene
+        IsHigh = 
+        IsMoveAble = 
+    }
+    // TrueMoozic_music_01_33
+    tile
+    {
+        xy = 1,4
+        BlocksPlacement = 
+        CustomName = Microphone
+        Facing = E
+        GroupName = Scene
+        IsHigh = 
+        IsMoveAble = 
+    }
+    // TrueMoozic_music_01_34
+    tile
+    {
+        xy = 2,4
+        BlocksPlacement = 
+        ContainerCapacity = 1
+        CustomItem = TrueMoozic.TCBoombox
+        CustomName = Boombox
+        Facing = E
+        GroupName = Premium
+        IsLow = 
+        IsMoveAble = 
+        IsTableTop = 
+        IsoType = IsoRadio
+        PickUpWeight = 15
+        container = tcmusic
+    }
+    // TrueMoozic_music_01_35
+    tile
+    {
+        xy = 3,4
+        BlocksPlacement = 
+        ContainerCapacity = 1
+        CustomItem = TrueMoozic.TCBoombox
+        CustomName = Boombox
+        Facing = S
+        GroupName = Premium
+        IsLow = 
+        IsMoveAble = 
+        IsTableTop = 
+        IsoType = IsoRadio
+        PickUpWeight = 15
+        container = tcmusic
+    }
+    // TrueMoozic_music_01_36
+    tile
+    {
+        xy = 4,4
+        BlocksPlacement = 
+        ContainerCapacity = 1
+        CustomItem = TrueMoozic.TCVinylplayer
+        CustomName = Player
+        GroupName = Vinyl
+        IsLow = 
+        IsMoveAble = 
+        IsTableTop = 
+        IsoType = IsoRadio
+        PickUpWeight = 25
+        container = tcmusic
+    }
+    // TrueMoozic_music_01_37
+    tile
+    {
+        xy = 5,4
+        BlocksPlacement = 
+        ContainerCapacity = 1
+        CustomItem = TrueMoozic.TCVinylplayer
+        CustomName = Player
+        GroupName = Vinyl
+        IsLow = 
+        IsMoveAble = 
+        IsTableTop = 
+        IsoType = IsoRadio
+        PickUpWeight = 25
+        container = tcmusic
+    }
+}
+

@@ -1,0 +1,4 @@
+Recipes_DA = {
+    Recipe_DismantleTCElectronics = "Afmonter musikafspilleren",
+    Recipe_DismantleWalkmanElectronics = "Demonter den bærbare afspiller",
+}

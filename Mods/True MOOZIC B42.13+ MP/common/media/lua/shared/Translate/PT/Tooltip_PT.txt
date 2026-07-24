@@ -1,0 +1,4 @@
+Tooltip_PT = {
+    Tooltip_WireBundle = "Um feixe de fios para alto-falantes. Use para conectar alto-falantes a um dispositivo de música (toca-discos ou aparelho de som Hi-Fi). <LINE> <LINE> Contém 60 metros de fio. Cada conexão utiliza 1,5 metro por unidade de distância.",
+    Tooltip_item_Walkman = "O famoso jogador de Zony.",
+}

@@ -1,0 +1,649 @@
+module Tsarcraft
+{
+	imports
+	{
+		Base
+	}
+/********************Generated Music Carriers********************/
+
+	item VinylAndraandtheBackboneSempurna
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Andra and the Backbone - Sempurna,
+		WorldStaticModel = Tsarcraft.TCVinylrecord3,
+	}
+
+	item VinylBaseJamBukanPujangga
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord10,
+		DisplayName		=	Vinyl Base Jam - Bukan Pujangga,
+		WorldStaticModel = Tsarcraft.TCVinylrecord10,
+	}
+
+	item VinylCandraDarusmanKau
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Candra Darusman - Kau,
+		WorldStaticModel = Tsarcraft.TCVinylrecord2,
+	}
+
+	item VinylChrisyeAnakSekolah
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord8,
+		DisplayName		=	Vinyl Chrisye - Anak Sekolah,
+		WorldStaticModel = Tsarcraft.TCVinylrecord8,
+	}
+
+	item VinylChrisyeCintaku
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Chrisye - Cintaku,
+		WorldStaticModel = Tsarcraft.TCVinylrecord5,
+	}
+
+	item VinylChrisyeKalaCintaMenggoda
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Chrisye - Kala Cinta Menggoda,
+		WorldStaticModel = Tsarcraft.TCVinylrecord5,
+	}
+
+	item VinylChrisyedanVinaPanduwinataKisahInsani
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Chrisye dan Vina Panduwinata - Kisah Insani,
+		WorldStaticModel = Tsarcraft.TCVinylrecord3,
+	}
+
+	item VinylClub80sGejolakKawulaMuda
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord11,
+		DisplayName		=	Vinyl Club 80s - Gejolak Kawula Muda,
+		WorldStaticModel = Tsarcraft.TCVinylrecord11,
+	}
+
+	item VinylCokelatJauh
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord6,
+		DisplayName		=	Vinyl Cokelat - Jauh,
+		WorldStaticModel = Tsarcraft.TCVinylrecord6,
+	}
+
+	item VinylCokelatKarma
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Cokelat - Karma,
+		WorldStaticModel = Tsarcraft.TCVinylrecord5,
+	}
+
+	item VinylDewaAkuMilikmu
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Dewa - Aku Milikmu,
+		WorldStaticModel = Tsarcraft.TCVinylrecord5,
+	}
+
+	item VinylDewaCintakanMembawamuKembali
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord10,
+		DisplayName		=	Vinyl Dewa - Cintakan Membawamu Kembali,
+		WorldStaticModel = Tsarcraft.TCVinylrecord10,
+	}
+
+	item VinylDewaCukupSitiNurbaya
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Dewa - Cukup Siti Nurbaya,
+		WorldStaticModel = Tsarcraft.TCVinylrecord4,
+	}
+
+	item VinylDewaKangen
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord10,
+		DisplayName		=	Vinyl Dewa - Kangen,
+		WorldStaticModel = Tsarcraft.TCVinylrecord10,
+	}
+
+	item VinylDewaKirana
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord9,
+		DisplayName		=	Vinyl Dewa - Kirana,
+		WorldStaticModel = Tsarcraft.TCVinylrecord9,
+	}
+
+	item VinylDewaMistikusCinta
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Dewa - Mistikus Cinta,
+		WorldStaticModel = Tsarcraft.TCVinylrecord1,
+	}
+
+	item VinylDewaRisalahHati
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord8,
+		DisplayName		=	Vinyl Dewa - Risalah Hati,
+		WorldStaticModel = Tsarcraft.TCVinylrecord8,
+	}
+
+	item VinylDewaRomanPicisan
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord11,
+		DisplayName		=	Vinyl Dewa - Roman Picisan,
+		WorldStaticModel = Tsarcraft.TCVinylrecord11,
+	}
+
+	item VinylDiskoriaCHRISYE
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord11,
+		DisplayName		=	Vinyl Diskoria - CHRISYE,
+		WorldStaticModel = Tsarcraft.TCVinylrecord11,
+	}
+
+	item VinylDiskoriadanDianSastroSerenataJiwaLara
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord7,
+		DisplayName		=	Vinyl Diskoria dan Dian Sastro - Serenata Jiwa Lara,
+		WorldStaticModel = Tsarcraft.TCVinylrecord7,
+	}
+
+	item VinylEbietGAdeBeritaPadaKawan
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord8,
+		DisplayName		=	Vinyl Ebiet G Ade - Berita Pada Kawan,
+		WorldStaticModel = Tsarcraft.TCVinylrecord8,
+	}
+
+	item VinylFarizRMSakura
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord10,
+		DisplayName		=	Vinyl Fariz RM - Sakura,
+		WorldStaticModel = Tsarcraft.TCVinylrecord10,
+	}
+
+	item VinylGigiAndai
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord9,
+		DisplayName		=	Vinyl Gigi - Andai,
+		WorldStaticModel = Tsarcraft.TCVinylrecord9,
+	}
+
+	item VinylGigiTerbang
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Gigi - Terbang,
+		WorldStaticModel = Tsarcraft.TCVinylrecord3,
+	}
+
+	item VinylGodblessRumahKita
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord6,
+		DisplayName		=	Vinyl Godbless - Rumah Kita,
+		WorldStaticModel = Tsarcraft.TCVinylrecord6,
+	}
+
+	item VinylIwaKBebas
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Iwa K - Bebas,
+		WorldStaticModel = Tsarcraft.TCVinylrecord3,
+	}
+
+	item VinylJamrudPelangiDiMatamu
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord9,
+		DisplayName		=	Vinyl Jamrud - Pelangi Di Matamu,
+		WorldStaticModel = Tsarcraft.TCVinylrecord9,
+	}
+
+	item VinylJamrudSurtiTedjo
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Jamrud - Surti Tedjo,
+		WorldStaticModel = Tsarcraft.TCVinylrecord4,
+	}
+
+	item VinylKillingMeInsideBiarlah
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord7,
+		DisplayName		=	Vinyl Killing Me Inside - Biarlah,
+		WorldStaticModel = Tsarcraft.TCVinylrecord7,
+	}
+
+	item VinylKLAProjectYogyakarta
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl KLA Project - Yogyakarta,
+		WorldStaticModel = Tsarcraft.TCVinylrecord5,
+	}
+
+	item VinylKoesPlusAndaikanKauDatang
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Koes Plus - Andaikan Kau Datang,
+		WorldStaticModel = Tsarcraft.TCVinylrecord2,
+	}
+
+	item VinylKoesPlusKembaliKeJakarta
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Koes Plus - Kembali Ke Jakarta,
+		WorldStaticModel = Tsarcraft.TCVinylrecord2,
+	}
+
+	item VinylMEInikahCinta
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl ME - Inikah Cinta,
+		WorldStaticModel = Tsarcraft.TCVinylrecord2,
+	}
+
+	item VinylNaifBenciUntukMencinta
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Naif - Benci Untuk Mencinta,
+		WorldStaticModel = Tsarcraft.TCVinylrecord3,
+	}
+
+	item VinylNaifMobilBalap
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Naif - Mobil Balap,
+		WorldStaticModel = Tsarcraft.TCVinylrecord5,
+	}
+
+	item VinylNaifPiknik72
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Naif - Piknik 72,
+		WorldStaticModel = Tsarcraft.TCVinylrecord5,
+	}
+
+	item VinylNetralPertempuranHati
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Netral - Pertempuran Hati,
+		WorldStaticModel = Tsarcraft.TCVinylrecord4,
+	}
+
+	item VinylNetralSorry
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Netral - Sorry,
+		WorldStaticModel = Tsarcraft.TCVinylrecord2,
+	}
+
+	item VinylNetralTerbangTenggelam
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord7,
+		DisplayName		=	Vinyl Netral - Terbang Tenggelam,
+		WorldStaticModel = Tsarcraft.TCVinylrecord7,
+	}
+
+	item VinylNikeArdillaBintangKehidupan
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord8,
+		DisplayName		=	Vinyl Nike Ardilla - Bintang Kehidupan,
+		WorldStaticModel = Tsarcraft.TCVinylrecord8,
+	}
+
+	item VinylNikeArdillaDiAntaraPilihan
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord11,
+		DisplayName		=	Vinyl Nike Ardilla - Di Antara Pilihan,
+		WorldStaticModel = Tsarcraft.TCVinylrecord11,
+	}
+
+	item VinylNikeArdillaSeberkasSinar
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Nike Ardilla - Seberkas Sinar,
+		WorldStaticModel = Tsarcraft.TCVinylrecord1,
+	}
+
+	item VinylPasBandfeatTereKesepianKita
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord7,
+		DisplayName		=	Vinyl Pas Band feat Tere - Kesepian Kita,
+		WorldStaticModel = Tsarcraft.TCVinylrecord7,
+	}
+
+	item VinylPeterpanBintangdiSurga
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Peterpan - Bintang di Surga,
+		WorldStaticModel = Tsarcraft.TCVinylrecord5,
+	}
+
+	item VinylPeterpanHariYangCerahUntukJiwaYangSepi
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord6,
+		DisplayName		=	Vinyl Peterpan - Hari Yang Cerah Untuk Jiwa Yang Sepi,
+		WorldStaticModel = Tsarcraft.TCVinylrecord6,
+	}
+
+	item VinylRezaArtameviaBiarJadiKenangan
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord8,
+		DisplayName		=	Vinyl Reza Artamevia - Biar Jadi Kenangan,
+		WorldStaticModel = Tsarcraft.TCVinylrecord8,
+	}
+
+	item VinylRezaArtameviaKeabadian
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord7,
+		DisplayName		=	Vinyl Reza Artamevia - Keabadian,
+		WorldStaticModel = Tsarcraft.TCVinylrecord7,
+	}
+
+	item VinylRezaArtameviaSatuYangTakBisaLepas
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Reza Artamevia - Satu Yang Tak Bisa Lepas,
+		WorldStaticModel = Tsarcraft.TCVinylrecord4,
+	}
+
+	item VinylRomeoBungaTerakhir
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord9,
+		DisplayName		=	Vinyl Romeo - Bunga Terakhir,
+		WorldStaticModel = Tsarcraft.TCVinylrecord9,
+	}
+
+	item VinylSheilaOn7Dan
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord9,
+		DisplayName		=	Vinyl Sheila On 7 - Dan,
+		WorldStaticModel = Tsarcraft.TCVinylrecord9,
+	}
+
+	item VinylSheilaOn7Kita
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord9,
+		DisplayName		=	Vinyl Sheila On 7 - Kita,
+		WorldStaticModel = Tsarcraft.TCVinylrecord9,
+	}
+
+	item VinylSlankKuTakBisa
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Slank - Ku Tak Bisa,
+		WorldStaticModel = Tsarcraft.TCVinylrecord5,
+	}
+
+	item VinylSlankTerlaluManis
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Slank - Terlalu Manis,
+		WorldStaticModel = Tsarcraft.TCVinylrecord1,
+	}
+
+	item VinylSlankVirus
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Slank - Virus,
+		WorldStaticModel = Tsarcraft.TCVinylrecord1,
+	}
+
+	item VinylTheFlyTerbang
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl The Fly - Terbang,
+		WorldStaticModel = Tsarcraft.TCVinylrecord5,
+	}
+
+	item VinylTipeXKamuEnggakSendirian
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Tipe-X - Kamu Enggak Sendirian,
+		WorldStaticModel = Tsarcraft.TCVinylrecord2,
+	}
+
+	item VinylTipeXMawarHitam
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord9,
+		DisplayName		=	Vinyl Tipe-X - Mawar Hitam,
+		WorldStaticModel = Tsarcraft.TCVinylrecord9,
+	}
+
+	item VinylUnguDiSiniUntukmu
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord11,
+		DisplayName		=	Vinyl Ungu - Di Sini Untukmu,
+		WorldStaticModel = Tsarcraft.TCVinylrecord11,
+	}
+
+	item VinylUthaLikumahuwaEsokkanMasihAda
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Utha Likumahuwa - Esokkan Masih Ada,
+		WorldStaticModel = Tsarcraft.TCVinylrecord1,
+	}
+
+	item VinylUthaLikumahuwaSesaatKauHadir
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Utha Likumahuwa - Sesaat Kau Hadir,
+		WorldStaticModel = Tsarcraft.TCVinylrecord1,
+	}
+
+	item VinylUthaLikumahuwaTersiksaLagi
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord9,
+		DisplayName		=	Vinyl Utha Likumahuwa - Tersiksa Lagi,
+		WorldStaticModel = Tsarcraft.TCVinylrecord9,
+	}
+
+	item VinylVierraPerih
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord9,
+		DisplayName		=	Vinyl Vierra - Perih,
+		WorldStaticModel = Tsarcraft.TCVinylrecord9,
+	}
+
+	item VinylVierraSeandainya
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord11,
+		DisplayName		=	Vinyl Vierra - Seandainya,
+		WorldStaticModel = Tsarcraft.TCVinylrecord11,
+	}
+
+	item VinylVinaPanduwinataDia
+	{
+		ItemType = base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord10,
+		DisplayName		=	Vinyl Vina Panduwinata - Dia,
+		WorldStaticModel = Tsarcraft.TCVinylrecord10,
+	}
+
+}

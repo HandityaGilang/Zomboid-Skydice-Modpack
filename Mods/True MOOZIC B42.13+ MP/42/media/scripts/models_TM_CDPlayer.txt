@@ -1,0 +1,271 @@
+
+module Base
+{
+	model CDplayerBelt
+	{
+		mesh = WorldItems/TM_CDplayer,
+		texture = WorldItems/CDplayer_Blue,
+        scale = 0.75,
+        
+		attachment walkie_belt_right
+		{
+            offset = -0.0250 0.1000 0.0150,
+			rotate = -90.0000 0.0000 -140.0000,
+            bone = Bip01_Pelvis,
+		}
+
+		attachment walkie_belt_left
+		{
+			offset = -0.0150 0.1000 -0.0450,
+			rotate = -90.0000 0.0000 -60.0000,
+            bone = Bip01_Pelvis,
+		}
+	}
+	model CDplayerGround
+	{
+		mesh = WorldItems/TM_CDplayer,
+		texture = WorldItems/CDplayer_Blue,
+        scale = 1.3,
+	} 
+
+	model CDplayerBelt_Purple
+	{
+		mesh = WorldItems/TM_CDplayer,
+		texture = WorldItems/CDplayer_Purple,
+		scale = 0.75,
+		attachment walkie_belt_right
+		{
+			offset = -0.0250 0.1000 0.0150,
+			rotate = -90.0000 0.0000 -140.0000,
+			bone = Bip01_Pelvis,
+		}
+		attachment walkie_belt_left
+		{
+			offset = -0.0150 0.1000 -0.0450,
+			rotate = -90.0000 0.0000 -60.0000,
+			bone = Bip01_Pelvis,
+		}
+	}
+	model CDplayerGround_Purple
+	{
+		mesh = WorldItems/TM_CDplayer,
+		texture = WorldItems/CDplayer_Purple,
+		scale = 1.3,
+	}
+
+	model CDplayerBelt_Red
+	{
+		mesh = WorldItems/TM_CDplayer,
+		texture = WorldItems/CDplayer_Red,
+		scale = 0.75,
+		attachment walkie_belt_right
+		{
+			offset = -0.0250 0.1000 0.0150,
+			rotate = -90.0000 0.0000 -140.0000,
+			bone = Bip01_Pelvis,
+		}
+		attachment walkie_belt_left
+		{
+			offset = -0.0150 0.1000 -0.0450,
+			rotate = -90.0000 0.0000 -60.0000,
+			bone = Bip01_Pelvis,
+		}
+	}
+	model CDplayerGround_Red
+	{
+		mesh = WorldItems/TM_CDplayer,
+		texture = WorldItems/CDplayer_Red,
+		scale = 1.3,
+	}
+
+	model CDplayerBelt_Black
+	{
+		mesh = WorldItems/TM_CDplayer,
+		texture = WorldItems/CDplayer_Black,
+		scale = 0.75,
+		attachment walkie_belt_right
+		{
+			offset = -0.0250 0.1000 0.0150,
+			rotate = -90.0000 0.0000 -140.0000,
+			bone = Bip01_Pelvis,
+		}
+		attachment walkie_belt_left
+		{
+			offset = -0.0150 0.1000 -0.0450,
+			rotate = -90.0000 0.0000 -60.0000,
+			bone = Bip01_Pelvis,
+		}
+	}
+	model CDplayerGround_Black
+	{
+		mesh = WorldItems/TM_CDplayer,
+		texture = WorldItems/CDplayer_Black,
+		scale = 1.3,
+	}
+
+	model CDplayerBelt_Green
+	{
+		mesh = WorldItems/TM_CDplayer,
+		texture = WorldItems/CDplayer_Green,
+		scale = 0.75,
+		attachment walkie_belt_right
+		{
+			offset = -0.0250 0.1000 0.0150,
+			rotate = -90.0000 0.0000 -140.0000,
+			bone = Bip01_Pelvis,
+		}
+		attachment walkie_belt_left
+		{
+			offset = -0.0150 0.1000 -0.0450,
+			rotate = -90.0000 0.0000 -60.0000,
+			bone = Bip01_Pelvis,
+		}
+	}
+	model CDplayerGround_Green
+	{
+		mesh = WorldItems/TM_CDplayer,
+		texture = WorldItems/CDplayer_Green,
+		scale = 1.3,
+	}
+
+	model CDplayerBelt_White
+	{
+		mesh = WorldItems/TM_CDplayer,
+		texture = WorldItems/CDplayer_White,
+		scale = 0.75,
+		attachment walkie_belt_right
+		{
+			offset = -0.0250 0.1000 0.0150,
+			rotate = -90.0000 0.0000 -140.0000,
+			bone = Bip01_Pelvis,
+		}
+		attachment walkie_belt_left
+		{
+			offset = -0.0150 0.1000 -0.0450,
+			rotate = -90.0000 0.0000 -60.0000,
+			bone = Bip01_Pelvis,
+		}
+	}
+	model CDplayerGround_White
+	{
+		mesh = WorldItems/TM_CDplayer,
+		texture = WorldItems/CDplayer_White,
+		scale = 1.3,
+	}
+
+	model CDplayerBelt_Orange
+	{
+		mesh = WorldItems/TM_CDplayer,
+		texture = WorldItems/CDplayer_Orange,
+		scale = 0.75,
+		attachment walkie_belt_right
+		{
+			offset = -0.0250 0.1000 0.0150,
+			rotate = -90.0000 0.0000 -140.0000,
+			bone = Bip01_Pelvis,
+		}
+		attachment walkie_belt_left
+		{
+			offset = -0.0150 0.1000 -0.0450,
+			rotate = -90.0000 0.0000 -60.0000,
+			bone = Bip01_Pelvis,
+		}
+	}
+	model CDplayerGround_Orange
+	{
+		mesh = WorldItems/TM_CDplayer,
+		texture = WorldItems/CDplayer_Orange,
+		scale = 1.3,
+	}
+
+	model CDplayerBelt_TrueMoozic
+	{
+		mesh = WorldItems/TM_CDplayer,
+		texture = WorldItems/CDplayer_TrueMoozic,
+		scale = 0.75,
+		attachment walkie_belt_right
+		{
+			offset = -0.0250 0.1000 0.0150,
+			rotate = -90.0000 0.0000 -140.0000,
+			bone = Bip01_Pelvis,
+		}
+		attachment walkie_belt_left
+		{
+			offset = -0.0150 0.1000 -0.0450,
+			rotate = -90.0000 0.0000 -60.0000,
+			bone = Bip01_Pelvis,
+		}
+	}
+	model CDplayerGround_TrueMoozic
+	{
+		mesh = WorldItems/TM_CDplayer,
+		texture = WorldItems/CDplayer_TrueMoozic,
+		scale = 1.3,
+	}
+}
+
+module Base
+{
+		model FemaleBody
+	{
+		mesh = Skinned/FemaleBody,
+		static = false,
+		animationsMesh = Human,
+
+		attachment starwalkman_belt_left
+		{
+            offset = 0.0000 0.0450 -0.0035,
+			rotate = -40.0000 0.0000 0.0000,
+            bone = Bip01_Pelvis,
+		}
+		
+		attachment starwalkman_belt_right
+		{
+			offset = 0.0000 -0.0500 -0.0070,
+			rotate = 35.0000 0.0000 0.0000,
+            bone = Bip01_Pelvis,				
+		}
+
+	}
+	
+
+
+	model MaleBody
+	{
+		mesh = Skinned/MaleBody,
+		static = false,
+		animationsMesh = Human,
+
+		attachment starwalkman_belt_left
+		{
+            offset = 0.0000 0.0450 0.0035,
+			rotate = -40.0000 0.0000 0.0000,
+            bone = Bip01_Pelvis,
+		}
+
+		attachment starwalkman_belt_right
+		{
+			offset = 0.0000 -0.0500 0.0000,
+			rotate = 35.0000 0.0000 0.0000,
+            bone = Bip01_Pelvis,	
+		}	
+  			
+	}
+
+	model StarWalkman
+	 {
+		mesh = StarWalkman,
+		texture = StarWalkman,
+        scale = 0.65,
+	 }
+
+	model StarWalkmanGround
+	{
+		mesh = WorldItems/StarWalkman,
+		texture = StarWalkman,
+        scale = 1,
+	}  
+
+}
+
+

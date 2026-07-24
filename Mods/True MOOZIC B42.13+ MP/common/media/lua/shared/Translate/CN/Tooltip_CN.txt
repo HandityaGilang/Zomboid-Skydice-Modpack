@@ -1,0 +1,4 @@
+Tooltip_CN = {
+    Tooltip_WireBundle = "一捆音箱线。用于将音箱连接到音乐设备（黑胶唱片机或高保真音响）。<LINE> <LINE> 包含 200 英尺长的线。每次连接每节线长使用 5 英尺。",
+    Tooltip_item_Walkman = "来自佐尼的著名球员。",
+}

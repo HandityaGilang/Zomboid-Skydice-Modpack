@@ -1,0 +1,4 @@
+Recipes_ID = {
+    Recipe_DismantleTCElectronics = "Membongkar Pemutar Musik",
+    Recipe_DismantleWalkmanElectronics = "Membongkar Pemutar Portabel",
+}

@@ -1,0 +1,4 @@
+Tooltip_FR = {
+    Tooltip_WireBundle = "Un faisceau de câbles pour haut-parleurs. À utiliser pour connecter des haut-parleurs à un appareil audio (platine vinyle ou chaîne hi-fi). Contient 61 m de câble. Chaque connexion nécessite 1,5 m par segment de câble.",
+    Tooltip_item_Walkman = "Le célèbre joueur de Zony.",
+}

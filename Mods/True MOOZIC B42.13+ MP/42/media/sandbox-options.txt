@@ -1,0 +1,169 @@
+VERSION = 1,
+
+option PZTrueMusicSandbox.SpawnTrueMoozicVan
+{
+    type = boolean,
+    default = true,
+    page = PZTrueMusicSandbox,
+    translation = PZTrueMusicSandbox_SpawnTrueMoozicVan,
+}
+
+option PZTrueMusicSandbox.SkypeRingChance
+{
+    type = integer,
+    min = 0,
+    max = 100,
+    default = 5,
+    page = PZTrueMusicSandbox,
+    translation = PZTrueMusicSandbox_SkypeRingChance,
+}
+
+option PZTrueMusicSandbox.SkypeRingCooldownDays
+{
+    type = integer,
+    min = 1,
+    max = 365,
+    default = 47,
+    page = PZTrueMusicSandbox,
+    translation = PZTrueMusicSandbox_SkypeRingCooldownDays,
+}
+
+option PZTrueMusicSandbox.CassetteSpawnRate
+{
+    type = integer,
+    min = 0,
+    max = 100000,
+    default = 100,
+    page = PZTrueMusicSandbox,
+    translation = PZTrueMusicSandbox_CassetteSpawnRate,
+}
+
+option PZTrueMusicSandbox.CassetteCaseSpawnRate
+{
+    type = integer,
+    min = 0,
+    max = 100000,
+    default = 100,
+    page = PZTrueMusicSandbox,
+    translation = PZTrueMusicSandbox_CassetteCaseSpawnRate,
+}
+
+option PZTrueMusicSandbox.VinylSpawn
+{
+    type = integer,
+    min = 0,
+    max = 100000,
+    default = 100,
+    page = PZTrueMusicSandbox,
+    translation = PZTrueMusicSandbox_VinylSpawn,
+}
+
+option PZTrueMusicSandbox.VinylPlayerSpawn
+{
+    type = integer,
+    min = 0,
+    max = 100000,
+    default = 100,
+    page = PZTrueMusicSandbox,
+    translation = PZTrueMusicSandbox_VinylPlayerSpawn,
+}
+
+option PZTrueMusicSandbox.WalkmanSpawn
+{
+    type = integer,
+    min = 0,
+    max = 100000,
+    default = 100,
+    page = PZTrueMusicSandbox,
+    translation = PZTrueMusicSandbox_WalkmanSpawn,
+}
+
+option PZTrueMusicSandbox.BoomboxSpawn
+{
+    type = integer,
+    min = 0,
+    max = 100000,
+    default = 100,
+    page = PZTrueMusicSandbox,
+    translation = PZTrueMusicSandbox_BoomboxSpawn,
+}
+
+option PZTrueMusicSandbox.ZombieWalkmanSpawnRate
+{
+    type = integer,
+    min = 0,
+    max = 100000,
+    default = 100,
+    page = PZTrueMusicSandbox,
+    translation = PZTrueMusicSandbox_ZombieWalkmanSpawnRate,
+}
+
+option PZTrueMusicSandbox.StartWithDevice
+{
+    type = enum,
+    numValues = 3,
+    default = 1,
+    page = PZTrueMusicSandbox,
+    translation = PZTrueMusicSandbox_StartWithDevice,
+    valueTranslation = PZTrueMusicSandbox_StartWithDevice,
+}
+
+option PZTrueMusicSandbox.MusicPlaybackTimeoutSeconds
+{
+    type = integer,
+    min = 600,
+    max = 172800,
+    default = 2100,
+    page = PZTrueMusicSandbox,
+    translation = PZTrueMusicSandbox_MusicPlaybackTimeoutSeconds,
+}
+
+option PZTrueMusicSandbox.MusicTimer
+{
+    type = integer,
+    min = 1,
+    max = 50,
+    default = 5,
+    page = PZTrueMusicSandbox,
+    translation = PZTrueMusicSandbox_MusicTimer,
+}
+
+option PZTrueMusicSandbox.EnableDisassembly
+{
+    type = boolean,
+    default = true,
+    page = PZTrueMusicSandbox,
+    translation = PZTrueMusicSandbox_EnableDisassembly,
+}
+
+option PZTrueMusicSandbox.TMSpeakerDebug
+{
+    type = boolean,
+    default = false,
+    page = PZTrueMoozicDebug,
+    translation = PZTrueMusicSandbox_TMSpeakerDebug,
+}
+
+option PZTrueMusicSandbox.AudioSilenceDebug
+{
+    type = boolean,
+    default = false,
+    page = PZTrueMoozicDebug,
+    translation = PZTrueMusicSandbox_AudioSilenceDebug,
+}
+
+option PZTrueMusicSandbox.SkypeRingDebugAlwaysFire
+{
+    type = boolean,
+    default = false,
+    page = PZTrueMoozicDebug,
+    translation = PZTrueMusicSandbox_SkypeRingDebugAlwaysFire,
+}
+
+option PZTrueMusicSandbox.SkypeRingEnabled
+{
+    type = boolean,
+    default = true,
+    page = PZTrueMoozicHoliday,
+    translation = PZTrueMusicSandbox_SkypeRingEnabled,
+}

@@ -1,0 +1,13 @@
+module Base
+{
+
+
+    model TM_CDCarryingCase
+    {
+        mesh = WorldItems/TM_CDCarryingCase,
+        texture = WorldItems/TM_CDCarryingCase,
+        scale = 0.1
+    ,
+    }
+
+}

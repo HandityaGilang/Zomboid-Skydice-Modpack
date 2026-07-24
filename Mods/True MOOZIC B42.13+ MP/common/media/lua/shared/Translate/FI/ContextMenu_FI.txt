@@ -1,0 +1,8 @@
+ContextMenu_FI = {
+    ContextMenu_Connect_Device = "Yhdistä",
+    ContextMenu_Disconnect_Device = "Katkaise yhteys",
+    ContextMenu_MergeWire = "Yhdistä johtoniput",
+    ContextMenu_PickUp_Speaker = "Vastaanota kaiutin",
+    ContextMenu_TM_CDCase_PutIn = "Laita CD-koteloon",
+    ContextMenu_TM_CDCase_TakeOut = "Ota CD-levy ulos",
+}

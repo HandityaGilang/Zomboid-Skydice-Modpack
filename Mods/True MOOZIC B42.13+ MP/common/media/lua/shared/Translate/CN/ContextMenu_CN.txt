@@ -1,0 +1,8 @@
+ContextMenu_CN = {
+    ContextMenu_Connect_Device = "连接",
+    ContextMenu_Disconnect_Device = "断开",
+    ContextMenu_MergeWire = "合并线束",
+    ContextMenu_PickUp_Speaker = "拿起扬声器",
+    ContextMenu_TM_CDCase_PutIn = "放入CD盒",
+    ContextMenu_TM_CDCase_TakeOut = "取出CD",
+}

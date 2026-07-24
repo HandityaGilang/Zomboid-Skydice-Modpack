@@ -1,0 +1,4 @@
+Recipes_AR = {
+    Recipe_DismantleTCElectronics = "تفكيك مشغل الموسيقى",
+    Recipe_DismantleWalkmanElectronics = "فك مشغل الموسيقى المحمول",
+}

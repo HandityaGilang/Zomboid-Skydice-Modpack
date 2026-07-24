@@ -1,0 +1,8 @@
+ContextMenu_PT = {
+    ContextMenu_Connect_Device = "Conectar",
+    ContextMenu_Disconnect_Device = "Desconectar",
+    ContextMenu_MergeWire = "Unir feixes de fios",
+    ContextMenu_PickUp_Speaker = "Pegue o alto-falante",
+    ContextMenu_TM_CDCase_PutIn = "Coloque na caixa do CD",
+    ContextMenu_TM_CDCase_TakeOut = "Retire o CD",
+}

@@ -1,0 +1,4 @@
+Tooltip_PL = {
+    Tooltip_WireBundle = "Wiązka przewodów głośnikowych. Służy do podłączania głośników do urządzenia muzycznego (odtwarzacza płyt winylowych lub wieży HiFi). <LINIA> <LINIA> Zawiera przewód o długości 60 metrów. Każde połączenie wymaga 1,5 metra na płytkę dystansu.",
+    Tooltip_item_Walkman = "Słynny zawodnik z Zony.",
+}

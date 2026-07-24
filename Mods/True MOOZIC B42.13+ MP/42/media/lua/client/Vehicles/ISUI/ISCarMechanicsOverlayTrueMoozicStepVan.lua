@@ -1,0 +1,1 @@
+ISCarMechanicsOverlay.CarList["Base.TrueMoozicStepVan"] = {imgPrefix = "van_", x=10,y=0};

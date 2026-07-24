@@ -1,0 +1,8 @@
+ContextMenu_AR = {
+    ContextMenu_Connect_Device = "يتصل",
+    ContextMenu_Disconnect_Device = "قطع الاتصال",
+    ContextMenu_MergeWire = "دمج حزم الأسلاك",
+    ContextMenu_PickUp_Speaker = "مكبر الصوت",
+    ContextMenu_TM_CDCase_PutIn = "ضعها في علبة الأقراص المدمجة",
+    ContextMenu_TM_CDCase_TakeOut = "أخرج القرص المضغوط",
+}

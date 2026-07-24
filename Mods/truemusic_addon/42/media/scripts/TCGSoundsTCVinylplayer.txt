@@ -1,0 +1,643 @@
+module Tsarcraft
+{
+	sound VinylAndraandtheBackboneSempurna
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Andra and the Backbone - Sempurna.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylBaseJamBukanPujangga
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Base Jam - Bukan Pujangga.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylCandraDarusmanKau
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Candra Darusman - Kau.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylChrisyeAnakSekolah
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Chrisye - Anak Sekolah.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylChrisyeCintaku
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Chrisye - Cintaku.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylChrisyeKalaCintaMenggoda
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Chrisye - Kala Cinta Menggoda.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylChrisyedanVinaPanduwinataKisahInsani
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Chrisye dan Vina Panduwinata - Kisah Insani.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylClub80sGejolakKawulaMuda
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Club 80s - Gejolak Kawula Muda.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylCokelatJauh
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Cokelat - Jauh.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylCokelatKarma
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Cokelat - Karma.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylDewaAkuMilikmu
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Dewa - Aku Milikmu.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylDewaCintakanMembawamuKembali
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Dewa - Cintakan Membawamu Kembali.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylDewaCukupSitiNurbaya
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Dewa - Cukup Siti Nurbaya.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylDewaKangen
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Dewa - Kangen.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylDewaKirana
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Dewa - Kirana.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylDewaMistikusCinta
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Dewa - Mistikus Cinta.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylDewaRisalahHati
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Dewa - Risalah Hati.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylDewaRomanPicisan
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Dewa - Roman Picisan.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylDiskoriaCHRISYE
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Diskoria - CHRISYE.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylDiskoriadanDianSastroSerenataJiwaLara
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Diskoria dan Dian Sastro - Serenata Jiwa Lara.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylEbietGAdeBeritaPadaKawan
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Ebiet G Ade - Berita Pada Kawan.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylFarizRMSakura
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Fariz RM - Sakura.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylGigiAndai
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Gigi - Andai.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylGigiTerbang
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Gigi - Terbang.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylGodblessRumahKita
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Godbless - Rumah Kita.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylIwaKBebas
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Iwa K - Bebas.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylJamrudPelangiDiMatamu
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Jamrud - Pelangi Di Matamu.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylJamrudSurtiTedjo
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Jamrud - Surti Tedjo.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylKillingMeInsideBiarlah
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Killing Me Inside - Biarlah.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylKLAProjectYogyakarta
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/KLA Project - Yogyakarta.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylKoesPlusAndaikanKauDatang
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Koes Plus - Andaikan Kau Datang.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylKoesPlusKembaliKeJakarta
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Koes Plus - Kembali Ke Jakarta.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylMEInikahCinta
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/ME - Inikah Cinta.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylNaifBenciUntukMencinta
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Naif - Benci Untuk Mencinta.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylNaifMobilBalap
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Naif - Mobil Balap.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylNaifPiknik72
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Naif - Piknik 72.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylNetralPertempuranHati
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Netral - Pertempuran Hati.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylNetralSorry
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Netral - Sorry.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylNetralTerbangTenggelam
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Netral - Terbang Tenggelam.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylNikeArdillaBintangKehidupan
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Nike Ardilla - Bintang Kehidupan.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylNikeArdillaDiAntaraPilihan
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Nike Ardilla - Di Antara Pilihan.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylNikeArdillaSeberkasSinar
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Nike Ardilla - Seberkas Sinar.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylPasBandfeatTereKesepianKita
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Pas Band feat Tere - Kesepian Kita.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylPeterpanBintangdiSurga
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Peterpan - Bintang di Surga.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylPeterpanHariYangCerahUntukJiwaYangSepi
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Peterpan - Hari Yang Cerah Untuk Jiwa Yang Sepi.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylRezaArtameviaBiarJadiKenangan
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Reza Artamevia - Biar Jadi Kenangan.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylRezaArtameviaKeabadian
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Reza Artamevia - Keabadian.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylRezaArtameviaSatuYangTakBisaLepas
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Reza Artamevia - Satu Yang Tak Bisa Lepas.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylRomeoBungaTerakhir
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Romeo - Bunga Terakhir.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylSheilaOn7Dan
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Sheila On 7 - Dan.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylSheilaOn7Kita
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Sheila On 7 - Kita.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylSlankKuTakBisa
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Slank - Ku Tak Bisa.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylSlankTerlaluManis
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Slank - Terlalu Manis.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylSlankVirus
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Slank - Virus.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylTheFlyTerbang
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/The Fly - Terbang.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylTipeXKamuEnggakSendirian
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Tipe-X - Kamu Enggak Sendirian.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylTipeXMawarHitam
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Tipe-X - Mawar Hitam.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylUnguDiSiniUntukmu
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Ungu - Di Sini Untukmu.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylUthaLikumahuwaEsokkanMasihAda
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Utha Likumahuwa - Esokkan Masih Ada.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylUthaLikumahuwaSesaatKauHadir
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Utha Likumahuwa - Sesaat Kau Hadir.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylUthaLikumahuwaTersiksaLagi
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Utha Likumahuwa - Tersiksa Lagi.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylVierraPerih
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Vierra - Perih.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylVierraSeandainya
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Vierra - Seandainya.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound VinylVinaPanduwinataDia
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCVinylplayer/Vina Panduwinata - Dia.ogg,
+			distanceMax = 75,
+		}
+	}
+}

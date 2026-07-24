@@ -1,0 +1,9 @@
+module Tsarcraft
+{
+	model TM_HiFiStereo_Ground
+	{
+		mesh = WorldItems/HiFiStereo,
+		texture = WorldItems/HIFIStereo,
+		scale = 0.05,
+	}
+}

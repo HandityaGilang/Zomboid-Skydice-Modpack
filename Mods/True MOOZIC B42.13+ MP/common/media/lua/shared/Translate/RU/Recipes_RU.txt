@@ -1,0 +1,4 @@
+Recipes_RU = {
+    Recipe_DismantleTCElectronics = "Демонтаж музыкального проигрывателя",
+    Recipe_DismantleWalkmanElectronics = "Разборка портативного плеера",
+}

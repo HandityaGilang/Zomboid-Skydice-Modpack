@@ -1,0 +1,26 @@
+module Tsarcraft
+{
+	imports
+	{
+		Base
+
+	}
+
+    item CassetteCase
+    {
+        DisplayName = Cassette Case,
+        ItemType = base:container,
+		DisplayCategory = Entertainment,
+        Weight = 0.5,
+        Icon = CassetteCase,
+        Capacity = 30,
+        WorldStaticModel = Tsarcraft.CassetteCase,
+        Tooltip = "A case for storing cassettes.",
+        WeightReduction = 60,
+        OpenSound = BagUnpack,
+        CloseSound = BagPack,
+        PutInSound = PutItemInBag,
+        OnCreate = CassetteCase_OnCreate,
+    }
+}
+

@@ -1,0 +1,1063 @@
+module Tsarcraft
+{
+	sound Cassette30SecondsToMarsTheKill(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/30 Seconds To Mars - The Kill (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteAManWithoutLoveEngelbertHumperdinck(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/A Man Without Love - Engelbert Humperdinck (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteABBADancingQueen(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/ABBA - Dancing Queen (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteABBASOS(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/ABBA - SOS (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteAdaBandManusiaBodoh(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Ada Band - Manusia Bodoh (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteAdzan(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Adzan (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteAerosmithIDon'tWanttoMissaThing(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Aerosmith - I Don't Want to Miss a Thing (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteAvengedSevenfoldMIA(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Avenged Sevenfold - M.I.A. (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteBabyGrootSingsASong(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Baby Groot Sings A Song (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteBattotai(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Battotai (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteBeeGeesHowDeepIsYourLove(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Bee Gees - How Deep Is Your Love (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteBeeGeesToLoveSomebody(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Bee Gees - To Love Somebody (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteBenEKingStandbyMe(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Ben E. King - Stand by Me (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteBillWithersJusttheTwoofUs(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Bill Withers - Just the Two of Us (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteBobbyMcFerrinDon'tWorryBeHappy(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Bobby McFerrin - Don't Worry Be Happy (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteBonJoviAlways(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Bon Jovi - Always (IPZ) .ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteBringMeTheHorizonDrown(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Bring Me The Horizon - Drown (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteBringMeTheHorizonSleepwalking(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Bring Me The Horizon - Sleepwalking (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteBulletForMyValentineRoadToNowhere(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Bullet For My Valentine - Road To Nowhere (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteCakeIWillSurvive(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Cake - I Will Survive (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteChibiMarukoChanIndonesianVersion(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Chibi Maruko Chan Indonesian Version (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteChibiMarukoChanSoundtrack(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Chibi Maruko Chan Soundtrack (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteCreedOneLastBreath(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Creed - One Last Breath (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteDaftPunkAroundTheWorld(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Daft Punk - Around The World (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteDaveRodgersDeJavu(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Dave Rodgers - De Javu (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteDragonForceThroughTheFireAndFlames(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/DragonForce - Through The Fire And Flames (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteEaglesHotelCalifornia(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Eagles - Hotel California (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteEarthWindandFireSeptember(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Earth Wind and Fire - September (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteEltonJohnSaturdayNightsAlright(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Elton John - Saturday Nights Alright (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteEvanescenceBringMeToLife(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Evanescence - Bring Me To Life (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteFluxCupsKillYourIdol(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Flux Cups - Kill Your Idol (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteFranzFerdinandTakeMeOut(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Franz Ferdinand - Take Me Out (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteGeorgeBensonNothingsGonnaChangeMyLoveForYou(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/George Benson - Nothings Gonna Change My Love For You (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteGreenDayBasketCase(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Green Day - Basket Case (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteGreenDayBoulevardOfBrokenDreams(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Green Day - Boulevard Of Broken Dreams (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteGreenDayWakeMeUpWhenSeptemberEnds(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Green Day - Wake Me Up When September Ends (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteGunsNRosesWelcometotheJungle(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Guns N Roses - Welcome to the Jungle (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteGunsN'RosesSweetChildO'Mine(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Guns N' Roses - Sweet Child O' Mine (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteHarlemYuQingFeiDeYi(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Harlem Yu - Qing Fei De Yi (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteHeartBarracuda(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Heart - Barracuda (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteHomeFreeSeaShantyMedleyExtendedVersion(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Home Free - Sea Shanty Medley Extended Version (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteIkimonoGakariBlueBird(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Ikimono Gakari - Blue Bird (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteIndonesiaRaya(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Indonesia Raya (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteIvaLolaGakMauPulangMaunyaDigoyang(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Iva Lola - Gak Mau Pulang Maunya Digoyang (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteJKT48FortuneCookie(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/JKT48 - Fortune Cookie (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteKanyeWestPraiseGod
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Kanye West - Praise God.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteKC&TheSunshineBandGiveItUp(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/KC & The Sunshine Band - Give It Up (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteKiryuBakaMitai(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Kiryu - Baka Mitai (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteKoboKanaeruMantraHujan(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Kobo Kanaeru - Mantra Hujan (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteLastChildMenyerah(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Last Child - Menyerah (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteLedZeppelinStairwaytoHeaven(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Led Zeppelin - Stairway to Heaven (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteLilUziVertBankTeller(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Lil Uzi Vert - Bank Teller (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteLinkedHorizonGurenNoYumiya(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Linked Horizon - Guren No Yumiya (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteLinkedHorizonShinzowoSasageyo(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Linked Horizon - Shinzo wo Sasageyo (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteLinkinParkInTheEnd(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Linkin Park - In The End (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteLinkinParkNumb(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Linkin Park - Numb (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteLinkinParkWhatI'veDone(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Linkin Park - What I've Done (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteLynyrdSkynyrdFreeBird(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Lynyrd Skynyrd - Free Bird (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteMaroon5ftChristinaAguileraMovesLikeJagger
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Maroon 5 ft. Christina Aguilera - Moves Like Jagger.ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteMasafumiTakadaDANGANRONPAReissue(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Masafumi Takada - DANGANRONPA Reissue (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteMichaelJacksonBeatIt(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Michael Jackson - Beat It (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteMichaelJacksonHealTheWorld(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Michael Jackson - Heal The World (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteMichaelJacksonThriller(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Michael Jackson - Thriller (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteMickGordonTheOnlyThingTheyFearIsYou(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Mick Gordon  The Only Thing They Fear Is You (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteMyChemicalRomanceDisenchanted(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/My Chemical Romance - Disenchanted (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteMyChemicalRomanceIDontLoveYou(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/My Chemical Romance - I Dont Love You (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteNarutoTheRaisingFightingSpirit(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Naruto - The Raising Fighting Spirit (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteNatalieImbrugliaTorn(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Natalie Imbruglia - Torn (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteNovoAmorStateLines(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Novo Amor - State Lines (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteOasisStandByMe(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Oasis - Stand By Me (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteONEOKROCKTheBeginning(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/ONE OK ROCK - The Beginning (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteONEOKROCKWhereverYouAre(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/ONE OK ROCK - Wherever You Are (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteOnePieceFightMusic(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/One Piece Fight Music (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassettePlayboiCartiSky(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Playboi Carti - Sky (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassettePocoPoco(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Poco Poco (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteProjectPopGoyangDuyu(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Project Pop - Goyang Duyu (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteProjectPopIWillNotSurvive(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Project Pop - I Will Not Survive (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteQueenBicycle(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Queen - Bicycle (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteQueenDontStopMeNow(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Queen - Dont Stop Me Now (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteQUEENDOMRainychVer(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/QUEENDOM Rainych Ver (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteRainychBlackRoverCover(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Rainych - Black Rover Cover (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteRasputinDangdutRemix(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Rasputin Dangdut Remix (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteRedHotChiliPeppersCalifornication(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Red Hot Chili Peppers - Californication (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteRickAstleyNeverGonnaGiveYouUp(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Rick Astley - Never Gonna Give You Up (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteSabilulunganInstrumental(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Sabilulungan Instrumental (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteSaykojiJalanPanjangftGunturSimbolon(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Saykoji - Jalan Panjang ft. Guntur Simbolon (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteSeringaiProgramPartySeringai(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Seringai - Program Party Seringai (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteSiMTheRumbling(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/SiM - The Rumbling (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteSlipknotTheDevilinI(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Slipknot - The Devil in I (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteSpillerGroovejet(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Spiller - Groovejet (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteSpongebobSoundtrackGrassSkirtChase(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Spongebob Soundtrack - Grass Skirt Chase (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteSpongeBobSoundtrackTwelfthStreetRag(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/SpongeBob Soundtrack - Twelfth Street Rag (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteSurvivorEyeoftheTiger(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Survivor - Eye of the Tiger (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteTakashiTakeuchiMeltyBloodTypeLuminaOST(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Takashi Takeuchi - Melty Blood Type Lumina OST (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteTheCranberriesZombie(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/The Cranberries - Zombie (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteTheKillersCaution(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/The Killers - Caution (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteTheWhiteStripesSevenNationArmy(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/The White Stripes - Seven Nation Army (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteTokyoDriftFastFurious(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Tokyo Drift Fast - Furious (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteVickeBlankaBlackCatcher(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Vicke Blanka - Black Catcher (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteVickeBlankaBlackRover(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Vicke Blanka - Black Rover (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteWarkopDKIAndecaAndeci(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Warkop DKI - Andeca Andeci (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteWeezerIslandInTheSun(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Weezer - Island In The Sun (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteWestlifeMyLove(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Westlife - My Love (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteWestlifeUptownGirl(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Westlife - Uptown Girl (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteYeatPoppin(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Yeat - Poppin (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+	sound CassetteYugoKannoilventod'oro(IPZ)
+	{
+		category = True Music,
+		master = Ambient,
+		clip
+		{
+			file = media/yourMusic/TCBoombox/Yugo Kanno - il vento d'oro (IPZ).ogg,
+			distanceMax = 75,
+		}
+	}
+}

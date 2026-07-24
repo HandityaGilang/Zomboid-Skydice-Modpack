@@ -1,0 +1,30 @@
+module Tsarcraft
+{
+    imports
+    {
+        Base
+    }
+
+    item TM_CDCarryingCase
+    {
+        DisplayName = CD Carrying Case,
+        DisplayCategory = Bag,
+        ItemType = Container,
+        Weight = 0.35,
+        Icon = TM_CDCarryingCase,
+        WorldStaticModel = TM_CDCarryingCase,
+        Capacity = 12,
+        BodyLocation = FannyPackFront,
+        CanBeEquipped = FannyPackFront,
+        ClothingItem = Bag_TM_CDCarryingCase,
+        CloseSound = CloseLeatherBag,
+        EquipSound = EquipFannyPack,
+        OpenSound = OpenLeatherBag,
+        PutInSound = StoreItemLeatherBag,
+        RunSpeedModifier = 0.98,
+        WeightReduction = 85,
+        Tags = base:music,
+        OnCreate = CDCarryingCase_OnCreate,
+    }
+
+}

@@ -1,0 +1,4 @@
+Tooltip_DA = {
+    Tooltip_WireBundle = "Et bundt højttalerkabel. Bruges til at forbinde højttalere til en musikenhed (vinylafspiller eller hi-fi-stereo). <LINE> <LINE> Indeholder 60 meter ledning. Hver forbindelse bruger 1,5 meter pr. flise afstand.",
+    Tooltip_item_Walkman = "Den berømte spiller fra Zony.",
+}

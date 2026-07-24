@@ -1,0 +1,8 @@
+ContextMenu_CS = {
+    ContextMenu_Connect_Device = "Připojit",
+    ContextMenu_Disconnect_Device = "Odpojit",
+    ContextMenu_MergeWire = "Sloučit svazky vodičů",
+    ContextMenu_PickUp_Speaker = "Zvedněte reproduktor",
+    ContextMenu_TM_CDCase_PutIn = "Vložte do obalu na CD",
+    ContextMenu_TM_CDCase_TakeOut = "Vyjměte CD",
+}
