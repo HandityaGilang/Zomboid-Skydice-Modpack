@@ -1,7 +1,6 @@
 name=2024 IPZ
 poster=poster.png
 id=2024IPZ19
-require=truemusic
 description=Music Playlist for Indonesia Project Zomboid Server. [January 2024 Batch]
 Playlist based on players vote.
 
