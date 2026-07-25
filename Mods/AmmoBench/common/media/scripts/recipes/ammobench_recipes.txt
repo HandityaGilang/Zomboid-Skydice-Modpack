@@ -1,0 +1,394 @@
+/* Ammo Reloading Bench - recipes. All gated to the bench via its CraftBench component. */
+
+module Base {
+
+/* ---- COMPONENTS ---- */
+
+	craftRecipe AB_MakePrimers
+	{
+		Time = 80,
+		Tags = AmmoBench,
+		NeedToBeLearn = False,
+		category = Reloading,
+		xpAward = MetalWelding:5,
+		inputs
+		{
+			item 1 [Base.ScrapMetal],
+			item 1 [Base.GunPowder],
+		}
+		outputs
+		{
+			item 12 ammobench.Primer,
+		}
+	}
+
+	craftRecipe AB_MakeBulletTipsSmall
+	{
+		Time = 80,
+		Tags = AmmoBench,
+		NeedToBeLearn = False,
+		category = Reloading,
+		xpAward = MetalWelding:5,
+		inputs
+		{
+			item 1 [Base.LeadPipe],
+		}
+		outputs
+		{
+			item 20 ammobench.BulletTipSmall,
+		}
+	}
+
+	craftRecipe AB_MakeBulletTipsLarge
+	{
+		Time = 80,
+		Tags = AmmoBench,
+		NeedToBeLearn = False,
+		category = Reloading,
+		xpAward = MetalWelding:5,
+		inputs
+		{
+			item 1 [Base.LeadPipe],
+		}
+		outputs
+		{
+			item 12 ammobench.BulletTipLarge,
+		}
+	}
+
+	craftRecipe AB_MakeShot
+	{
+		Time = 80,
+		Tags = AmmoBench,
+		NeedToBeLearn = False,
+		category = Reloading,
+		xpAward = MetalWelding:5,
+		inputs
+		{
+			item 1 [Base.LeadPipe],
+		}
+		outputs
+		{
+			item 8 ammobench.Shot,
+		}
+	}
+
+	craftRecipe AB_MakeGunpowder
+	{
+		Time = 200,
+		Tags = AmmoBench,
+		NeedToBeLearn = False,
+		category = Reloading,
+		xpAward = MetalWelding:5,
+		inputs
+		{
+			item 8 [Base.Dung_Chicken;Base.Dung_Turkey;Base.Dung_Rabbit;Base.Dung_Deer;Base.Dung_Raccoon;1:Base.Dung_Cow;1:Base.Dung_Pig;4:Base.Dung_Sheep;16:Base.Dung_Mouse;16:Base.Dung_Rat],
+			item 2 [Base.Charcoal;Base.CharcoalCrafted],
+		}
+		outputs
+		{
+			item 1 Base.GunPowder,
+		}
+	}
+
+/* ---- CASINGS ---- */
+
+	craftRecipe AB_MakeCasings9mm
+	{
+		Time = 60,
+		Tags = AmmoBench,
+		NeedToBeLearn = False,
+		category = Reloading,
+		xpAward = MetalWelding:5,
+		inputs
+		{
+			item 1 [Base.ScrapMetal],
+		}
+		outputs
+		{
+			item 12 ammobench.Casing9mm,
+		}
+	}
+
+	craftRecipe AB_MakeCasings38
+	{
+		Time = 60,
+		Tags = AmmoBench,
+		NeedToBeLearn = False,
+		category = Reloading,
+		xpAward = MetalWelding:5,
+		inputs
+		{
+			item 1 [Base.ScrapMetal],
+		}
+		outputs
+		{
+			item 12 ammobench.Casing38,
+		}
+	}
+
+	craftRecipe AB_MakeCasings45
+	{
+		Time = 60,
+		Tags = AmmoBench,
+		NeedToBeLearn = False,
+		category = Reloading,
+		xpAward = MetalWelding:5,
+		inputs
+		{
+			item 1 [Base.ScrapMetal],
+		}
+		outputs
+		{
+			item 12 ammobench.Casing45,
+		}
+	}
+
+	craftRecipe AB_MakeCasings44
+	{
+		Time = 60,
+		Tags = AmmoBench,
+		NeedToBeLearn = False,
+		category = Reloading,
+		xpAward = MetalWelding:5,
+		inputs
+		{
+			item 1 [Base.ScrapMetal],
+		}
+		outputs
+		{
+			item 12 ammobench.Casing44,
+		}
+	}
+
+	craftRecipe AB_MakeCasings357
+	{
+		Time = 60,
+		Tags = AmmoBench,
+		NeedToBeLearn = False,
+		category = Reloading,
+		xpAward = MetalWelding:5,
+		inputs
+		{
+			item 1 [Base.ScrapMetal],
+		}
+		outputs
+		{
+			item 12 ammobench.Casing357,
+		}
+	}
+
+	craftRecipe AB_MakeCasings556
+	{
+		Time = 60,
+		Tags = AmmoBench,
+		NeedToBeLearn = False,
+		category = Reloading,
+		xpAward = MetalWelding:5,
+		inputs
+		{
+			item 1 [Base.ScrapMetal],
+		}
+		outputs
+		{
+			item 10 ammobench.Casing556,
+		}
+	}
+
+	craftRecipe AB_MakeCasings308
+	{
+		Time = 60,
+		Tags = AmmoBench,
+		NeedToBeLearn = False,
+		category = Reloading,
+		xpAward = MetalWelding:5,
+		inputs
+		{
+			item 1 [Base.ScrapMetal],
+		}
+		outputs
+		{
+			item 10 ammobench.Casing308,
+		}
+	}
+
+	craftRecipe AB_MakeShellHulls
+	{
+		Time = 60,
+		Tags = AmmoBench,
+		NeedToBeLearn = False,
+		category = Reloading,
+		xpAward = MetalWelding:5,
+		inputs
+		{
+			item 1 [Base.ScrapMetal],
+			item 2 [Base.PlasticTray;Base.CuttingBoardPlastic;4:Base.PopBottle;4:Base.WaterBottle;4:Base.Sportsbottle;4:Base.FeedingBottle;4:Base.Plasticbag;4:Base.Garbagebag;8:Base.PlasticCup;16:Base.PlasticFork;16:Base.PlasticKnife;16:Base.PlasticSpoon;16:Base.Comb;16:Base.Toothbrush;16:Base.Straw2],
+		}
+		outputs
+		{
+			item 16 ammobench.ShellHull,
+		}
+	}
+
+/* ---- LOADING ---- */
+
+	craftRecipe AB_Load9mm
+	{
+		Time = 120,
+		Tags = AmmoBench,
+		NeedToBeLearn = False,
+		category = Reloading,
+		xpAward = MetalWelding:10,
+		inputs
+		{
+			item 12 [ammobench.Casing9mm],
+			item 12 [ammobench.BulletTipSmall],
+			item 12 [ammobench.Primer],
+			item 1 [Base.GunPowder],
+		}
+		outputs
+		{
+			item 12 Base.Bullets9mm,
+		}
+	}
+
+	craftRecipe AB_Load38
+	{
+		Time = 120,
+		Tags = AmmoBench,
+		NeedToBeLearn = False,
+		category = Reloading,
+		xpAward = MetalWelding:10,
+		inputs
+		{
+			item 12 [ammobench.Casing38],
+			item 12 [ammobench.BulletTipSmall],
+			item 12 [ammobench.Primer],
+			item 1 [Base.GunPowder],
+		}
+		outputs
+		{
+			item 12 Base.Bullets38,
+		}
+	}
+
+	craftRecipe AB_Load45
+	{
+		Time = 120,
+		Tags = AmmoBench,
+		NeedToBeLearn = False,
+		category = Reloading,
+		xpAward = MetalWelding:10,
+		inputs
+		{
+			item 12 [ammobench.Casing45],
+			item 12 [ammobench.BulletTipSmall],
+			item 12 [ammobench.Primer],
+			item 1 [Base.GunPowder],
+		}
+		outputs
+		{
+			item 12 Base.Bullets45,
+		}
+	}
+
+	craftRecipe AB_Load44
+	{
+		Time = 120,
+		Tags = AmmoBench,
+		NeedToBeLearn = False,
+		category = Reloading,
+		xpAward = MetalWelding:10,
+		inputs
+		{
+			item 12 [ammobench.Casing44],
+			item 12 [ammobench.BulletTipSmall],
+			item 12 [ammobench.Primer],
+			item 1 [Base.GunPowder],
+		}
+		outputs
+		{
+			item 12 Base.Bullets44,
+		}
+	}
+
+	craftRecipe AB_Load357
+	{
+		Time = 120,
+		Tags = AmmoBench,
+		NeedToBeLearn = False,
+		category = Reloading,
+		xpAward = MetalWelding:10,
+		inputs
+		{
+			item 12 [ammobench.Casing357],
+			item 12 [ammobench.BulletTipSmall],
+			item 12 [ammobench.Primer],
+			item 1 [Base.GunPowder],
+		}
+		outputs
+		{
+			item 12 Base.Bullets357,
+		}
+	}
+
+	craftRecipe AB_Load556
+	{
+		Time = 150,
+		Tags = AmmoBench,
+		NeedToBeLearn = False,
+		category = Reloading,
+		xpAward = MetalWelding:10,
+		inputs
+		{
+			item 10 [ammobench.Casing556],
+			item 10 [ammobench.BulletTipLarge],
+			item 10 [ammobench.Primer],
+			item 1 [Base.GunPowder],
+		}
+		outputs
+		{
+			item 10 Base.556Bullets,
+		}
+	}
+
+	craftRecipe AB_Load308
+	{
+		Time = 150,
+		Tags = AmmoBench,
+		NeedToBeLearn = False,
+		category = Reloading,
+		xpAward = MetalWelding:10,
+		inputs
+		{
+			item 10 [ammobench.Casing308],
+			item 10 [ammobench.BulletTipLarge],
+			item 10 [ammobench.Primer],
+			item 1 [Base.GunPowder],
+		}
+		outputs
+		{
+			item 10 Base.308Bullets,
+		}
+	}
+
+	craftRecipe AB_LoadShells
+	{
+		Time = 150,
+		Tags = AmmoBench,
+		NeedToBeLearn = False,
+		category = Reloading,
+		xpAward = MetalWelding:10,
+		inputs
+		{
+			item 6 [ammobench.ShellHull],
+			item 6 [ammobench.Shot],
+			item 6 [ammobench.Primer],
+			item 1 [Base.GunPowder],
+		}
+		outputs
+		{
+			item 6 Base.ShotgunShells,
+		}
+	}
+}

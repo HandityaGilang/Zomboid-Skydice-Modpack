@@ -1,0 +1,135 @@
+/* Ammo Reloading Bench - components */
+
+module ammobench {
+
+	imports
+	{
+		Base
+	}
+
+/* CASINGS - pressed from scrap metal at the bench */
+
+	item Casing9mm
+	{
+		DisplayName			=	9mm Casings,
+		DisplayCategory		=	Ammo,
+		ItemType			=	base:normal,
+		Icon				=	PistolAmmo,
+		WorldStaticModel	=	9mmRounds,
+		Weight				=	0.01,
+	}
+
+	item Casing38
+	{
+		DisplayName			=	.38 Casings,
+		DisplayCategory		=	Ammo,
+		ItemType			=	base:normal,
+		Icon				=	PistolAmmo,
+		WorldStaticModel	=	9mmRounds,
+		Weight				=	0.01,
+	}
+
+	item Casing45
+	{
+		DisplayName			=	.45 Casings,
+		DisplayCategory		=	Ammo,
+		ItemType			=	base:normal,
+		Icon				=	PistolAmmo,
+		WorldStaticModel	=	9mmRounds,
+		Weight				=	0.01,
+	}
+
+	item Casing44
+	{
+		DisplayName			=	.44 Casings,
+		DisplayCategory		=	Ammo,
+		ItemType			=	base:normal,
+		Icon				=	PistolAmmo,
+		WorldStaticModel	=	9mmRounds,
+		Weight				=	0.01,
+	}
+
+	item Casing357
+	{
+		DisplayName			=	.357 Casings,
+		DisplayCategory		=	Ammo,
+		ItemType			=	base:normal,
+		Icon				=	PistolAmmo,
+		WorldStaticModel	=	9mmRounds,
+		Weight				=	0.01,
+	}
+
+	item Casing556
+	{
+		DisplayName			=	5.56 Casings,
+		DisplayCategory		=	Ammo,
+		ItemType			=	base:normal,
+		Icon				=	RifleAmmo308loose,
+		WorldStaticModel	=	RifleAmmo,
+		Weight				=	0.015,
+	}
+
+	item Casing308
+	{
+		DisplayName			=	.308 Casings,
+		DisplayCategory		=	Ammo,
+		ItemType			=	base:normal,
+		Icon				=	RifleAmmo308loose,
+		WorldStaticModel	=	RifleAmmo,
+		Weight				=	0.015,
+	}
+
+	item ShellHull
+	{
+		DisplayName			=	Shotgun Shell Hulls,
+		DisplayCategory		=	Ammo,
+		ItemType			=	base:normal,
+		Icon				=	ShotgunAmmo,
+		WorldStaticModel	=	ShotGunShells,
+		Weight				=	0.02,
+	}
+
+/* PROJECTILES - cast from lead */
+
+	item BulletTipSmall
+	{
+		DisplayName			=	Small Bullet Tips,
+		DisplayCategory		=	Ammo,
+		ItemType			=	base:normal,
+		Icon				=	PistolAmmo,
+		WorldStaticModel	=	9mmRounds,
+		Weight				=	0.01,
+	}
+
+	item BulletTipLarge
+	{
+		DisplayName			=	Rifle Bullet Tips,
+		DisplayCategory		=	Ammo,
+		ItemType			=	base:normal,
+		Icon				=	RifleAmmo308loose,
+		WorldStaticModel	=	RifleAmmo,
+		Weight				=	0.015,
+	}
+
+	item Shot
+	{
+		DisplayName			=	Lead Shot,
+		DisplayCategory		=	Ammo,
+		ItemType			=	base:normal,
+		Icon				=	ShotgunAmmo,
+		WorldStaticModel	=	ShotGunShells,
+		Weight				=	0.02,
+	}
+
+/* PRIMERS */
+
+	item Primer
+	{
+		DisplayName			=	Primers,
+		DisplayCategory		=	Ammo,
+		ItemType			=	base:normal,
+		Icon				=	ScrapMetal,
+		WorldStaticModel	=	ScrapMetal,
+		Weight				=	0.005,
+	}
+}

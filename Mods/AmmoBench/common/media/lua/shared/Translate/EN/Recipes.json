@@ -1,0 +1,23 @@
+{
+    "AB_MakePrimers": "Make Primers",
+    "AB_MakeBulletTipsSmall": "Cast Small Bullet Tips",
+    "AB_MakeBulletTipsLarge": "Cast Rifle Bullet Tips",
+    "AB_MakeShot": "Cast Lead Shot",
+    "AB_MakeCasings9mm": "Press 9mm Casings",
+    "AB_MakeCasings38": "Press .38 Casings",
+    "AB_MakeCasings45": "Press .45 Casings",
+    "AB_MakeCasings44": "Press .44 Casings",
+    "AB_MakeCasings357": "Press .357 Casings",
+    "AB_MakeCasings556": "Press 5.56 Casings",
+    "AB_MakeCasings308": "Press .308 Casings",
+    "AB_MakeShellHulls": "Press Shotgun Hulls",
+    "AB_Load9mm": "Load 9mm Rounds",
+    "AB_Load38": "Load .38 Special Rounds",
+    "AB_Load45": "Load .45 Auto Rounds",
+    "AB_Load44": "Load .44 Magnum Rounds",
+    "AB_Load357": "Load .357 Magnum Rounds",
+    "AB_Load556": "Load 5.56 Rounds",
+    "AB_Load308": "Load .308 Rounds",
+    "AB_LoadShells": "Load Shotgun Shells",
+    "AB_MakeGunpowder": "Make Gunpowder"
+}

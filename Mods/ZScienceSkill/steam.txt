@@ -1,0 +1,101 @@
+Are you tired of finding all these specimens, microscopes, and science magazines but having nothing useful to do with them? Same.
+
+Introducing the Science skill - finally a reason to hoard all that nerdy stuff!
+
+[h1]What does Science do?[/h1]
+
+[b]Research Specimens[/b]
+Found a jar with a brain in it? A dead rat? Some weird mushrooms? Now you can actually study them! Just find a microscope, plop your specimen nearby, and get that sweet, sweet Science XP.
+
+Where to find microscopes: schools, medical clinics, hospitals, police stations (forensics), and the occasional fancy house.
+
+[b]Unlockable traits[/b]
+Some specimens are tagged for [i]trait research[/i]: each [b]unique[/b] item type you study at a microscope counts toward that trait. By default you need [b]10 different[/b] tagged specimens per trait (see mod data — [i]vanilla.lua[/i] — if you want the full lists). You still get Science XP every time. If your character already has the trait, you keep the XP but no longer progress that unlock.
+
+[list]
+[*][b]Herbalist[/b] — berries, mushrooms, medicinal plants, and many wild forage plants. Reaching the threshold unlocks Herbalist (including the usual recipe/knowledge you’d expect).
+[*][b]Blacksmith[/b] — metal specimens: ingots, ore, scrap, and related items (the mod often merges variants of the same metal into one research “slot”).
+[*][b]Gardener[/b] — crop and herb [b]seeds[/b] (research the seed items as specimens).
+[/list]
+
+Look for the small gray "R" on item icons - that means you haven't read/researched it yet and it can give you Science XP!
+
+[b]Faster Learning[/b]
+Higher Science = faster skill book reading.
+- Up to 50% faster at Science 10
+- Also speeds up recipe research from items
+
+[b]XP Boost[/b]
+Science makes you smarter at everything (except punching zombies):
+- +2% bonus to all non-combat XP per Science level
+- That's +20% at max level.
+
+[b]Electrical Synergy[/b]
+- Gain Science XP when gaining Electrical XP (half amount)
+
+[b]Medical Knowledge[/b]
+- Bandages last longer (+5% per Science level)
+- Faster medical treatments (bandaging, disinfecting, splinting)
+
+[h1]How to level Science?[/h1]
+- Read Science books and magazines (duh)
+- Read SciFi books (small amount - it's fiction, but it inspires curiosity!)
+- Read ANY skill book (tiny amount)
+- Research specimens at a microscope
+- Research recipes from items
+- Do electrical stuff
+
+[h1]Researchable Items[/h1]
+Pretty much anything that looks sciency:
+- Specimen jars (brain, insects, fetal animals, etc.)
+- Dead critters (rats, mice, birds, squirrels)
+- Insects, berries, mushrooms
+- Medicinal plants
+- Gems, crystals, minerals
+- Medical equipment (first time studying it)
+- And more!
+
+[h1]Requirements[/h1]
+- Game version: 42.13 / 42.14 / 42.15 SP/MP
+- No other mods required
+
+[h1]Integrations[/h1]
+[list]
+   [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=2999183635]Better Electronics[/url]
+   [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3665315101]Energy Routing System[/url]
+   [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3399263137]Factory Pieces[/url]
+   [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3387934550]Functional Computer[/url]
+   [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3671173479]Glass Cutter[/url]
+   [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3539339798]Hacking Skill[/url]
+   [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3693550188]Jeeve's Personal Computer[/url]
+   [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3668197831]Phobos' Industrial Pathways: Biomass[/url]
+   [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3686101131]Phobos' Industrial Pathways: Pathology[/url]
+   [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3628922658]Printer3D[/url]
+   [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3564950449]Project Summer Car[/url]
+   [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3555588616]Sewing Workbranch[/url]
+   [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3508513470]Support Goods - MyComputer![/url] (printable Science Skillbooks!)
+   [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3434920270]Support Goods [B42] My Photo[/url]
+   [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3512993822]Support Goods Mega Mod[/url] (printable Science Skillbooks!)
+   [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3652517636]Tank Water[/url]
+   [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3171167894]that DAMN Library[/url]
+   [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3611718925]Vanilla Firearms Expansion[/url]
+   [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3577903007]Vanilla Foods Expanded[/url]
+   [*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3615135168]Zombie Virus Vaccine[/url]
+   [*]SpaceShip Z-001 (WIP, coming soon!)
+[/list]
+
+[h1]Support Goods mods and B42.13+[/h1]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3677147974]Zed's Universal Mod Unbork[/url] makes them work on newer game versions.
+
+[h1]Compatibility[/h1]
+Should work with most mods. We hook into vanilla functions cleanly and call originals when possible.
+
+[b]Multiplayer:[/b] Fully supported! Works on dedicated servers and co-op.
+
+[b]✓ Safe to add or remove mid-game.[/b]
+
+---
+
+Now go forth and science the apocalypse! 🔬🧪
+
+[url=https://ko-fi.com/zed_0xff][img]https://i.imgur.com/Utx6OIH.png[/img][/url]

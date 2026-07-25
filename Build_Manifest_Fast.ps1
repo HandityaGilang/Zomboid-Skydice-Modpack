@@ -10,10 +10,9 @@ $ErrorActionPreference = "Stop"
 Set-StrictMode -Version 2.0
 
 $BuilderVersion = "2.0"
-$DrivePath = "Mods/LifestyleHobbies_KardinalTest/common/media/texturepacks/LS_Artwork.pack"
-$DriveUrl  = "https://drive.google.com/uc?export=download&id=1pTtNBJhH8Djhbh9tR3pnZAF88bq4mpvO"
-$DriveHash = "48fe9c8e39740ec3b299ae56fc250571d9be61e3979f0766e24a8306964ccaea"
-$DriveSize = [Int64]143840426
+$ExternalPath = "Mods/LifestyleHobbies_KardinalTest/common/media/texturepacks/LS_Artwork.pack"
+# Dropbox direct download: dl=1 wajib agar updater menerima file, bukan halaman HTML.
+$ExternalUrl  = "https://www.dropbox.com/scl/fi/oprab9zm7q57aelb156t0/LS_Artwork.pack?rlkey=0fijr6zbzjztyfo0cb25o6gny&st=cgnhk4e6&dl=1"
 
 function Format-Bytes {
     param([Int64]$Bytes)
@@ -153,11 +152,11 @@ for ($i = 0; $i -lt $files.Count; $i++) {
     $ticks = [Int64]$file.LastWriteTimeUtc.Ticks
     $sha = $null
 
-    # File Google Drive memakai hash tetap yang sudah diverifikasi.
-    if ($relativePath -eq $DrivePath) {
-        $sha = $DriveHash
-        $size = $DriveSize
-        $reused++
+    # File eksternal selalu dihitung langsung dari file lokal setiap build.
+    # Dengan begitu SHA256 dan ukuran otomatis mengikuti LS_Artwork.pack terbaru.
+    if ($relativePath -eq $ExternalPath) {
+        $sha = (Get-FileHash -LiteralPath $file.FullName -Algorithm SHA256).Hash.ToLowerInvariant()
+        $hashed++
     }
     elseif (-not $FullRehash -and $cacheByPath.ContainsKey($relativePath)) {
         $cached = $cacheByPath[$relativePath]
@@ -194,8 +193,8 @@ for ($i = 0; $i -lt $files.Count; $i++) {
         $hashed++
     }
 
-    $url = if ($relativePath -eq $DrivePath) {
-        $DriveUrl
+    $url = if ($relativePath -eq $ExternalPath) {
+        $ExternalUrl
     } else {
         Get-RawUrl -RawBase $RawBase -RelativePath $relativePath
     }
@@ -294,8 +293,9 @@ Write-Host ""
 Write-Host "Manifest:"
 Write-Host "  $ManifestPath" -ForegroundColor Cyan
 Write-Host ""
-Write-Host "URL Google Drive sudah diterapkan otomatis pada:" -ForegroundColor Green
-Write-Host "  $DrivePath"
+Write-Host "URL Dropbox direct-download sudah diterapkan otomatis pada:" -ForegroundColor Green
+Write-Host "  $ExternalPath"
+Write-Host "SHA256 dan ukuran file tersebut dihitung otomatis dari file lokal." -ForegroundColor Green
 Write-Host ""
 Write-Host "PENTING UNTUK SEKALI SAJA setelah menambah .gitattributes:" -ForegroundColor Yellow
 Write-Host "  git add .gitattributes"

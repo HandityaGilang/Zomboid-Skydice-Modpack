@@ -1,0 +1,9 @@
+name=Ammo Reloading Bench
+description=Adds an Ammo Reloading Bench and a full reloading chain: press casings, cast bullet tips, make primers, and load every base-game caliber from scratch. Components are fully craftable from scrap and lead.
+poster=poster.png
+id=ammobench
+author=Orithil
+modversion=1.1.0
+versionMin=42.0.0
+pack=ammobench_tileset
+tiledef=ammobench_tiledef 501
