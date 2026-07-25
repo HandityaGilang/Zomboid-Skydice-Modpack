@@ -1,0 +1,4518 @@
+module SkidisSong1
+{
+	imports
+	{
+		Base
+	}
+
+	item VinylAlbumAndraandtheBackboneSempurna
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum5,
+		DisplayName		=	Vinyl Album Andra and the Backbone - Sempurna,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_AndraandtheBackboneSempurna,
+		CanSpawn		=	true,
+	}
+
+	item VinylAndraandtheBackboneSempurna
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Andra and the Backbone - Sempurna (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_AndraandtheBackboneSempurna,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumBaseJamBukanPujangga
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum3,
+		DisplayName		=	Vinyl Album Base Jam - Bukan Pujangga,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_BaseJamBukanPujangga,
+		CanSpawn		=	true,
+	}
+
+	item VinylBaseJamBukanPujangga
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Base Jam - Bukan Pujangga (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_BaseJamBukanPujangga,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumCandraDarusmanKau
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum3,
+		DisplayName		=	Vinyl Album Candra Darusman - Kau,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_CandraDarusmanKau,
+		CanSpawn		=	true,
+	}
+
+	item VinylCandraDarusmanKau
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Candra Darusman - Kau (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_CandraDarusmanKau,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumChrisyeAnakSekolah
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum11,
+		DisplayName		=	Vinyl Album Chrisye - Anak Sekolah,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_ChrisyeAnakSekolah,
+		CanSpawn		=	true,
+	}
+
+	item VinylChrisyeAnakSekolah
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Chrisye - Anak Sekolah (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_ChrisyeAnakSekolah,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumChrisyeCintaku
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum12,
+		DisplayName		=	Vinyl Album Chrisye - Cintaku,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_ChrisyeCintaku,
+		CanSpawn		=	true,
+	}
+
+	item VinylChrisyeCintaku
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Chrisye - Cintaku (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_ChrisyeCintaku,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumChrisyeKalaCintaMenggoda
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum5,
+		DisplayName		=	Vinyl Album Chrisye - Kala Cinta Menggoda,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_ChrisyeKalaCintaMenggoda,
+		CanSpawn		=	true,
+	}
+
+	item VinylChrisyeKalaCintaMenggoda
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Chrisye - Kala Cinta Menggoda (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_ChrisyeKalaCintaMenggoda,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumChrisyedanVinaPanduwinataKisahInsani
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum5,
+		DisplayName		=	Vinyl Album Chrisye dan Vina Panduwinata - Kisah Insani,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_ChrisyedanVinaPanduwinataKisahInsani,
+		CanSpawn		=	true,
+	}
+
+	item VinylChrisyedanVinaPanduwinataKisahInsani
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Chrisye dan Vina Panduwinata - Kisah Insani (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_ChrisyedanVinaPanduwinataKisahInsani,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumClub80sGejolakKawulaMuda
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum12,
+		DisplayName		=	Vinyl Album Club 80s - Gejolak Kawula Muda,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_Club80sGejolakKawulaMuda,
+		CanSpawn		=	true,
+	}
+
+	item VinylClub80sGejolakKawulaMuda
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Club 80s - Gejolak Kawula Muda (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_Club80sGejolakKawulaMuda,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumCokelatJauh
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum12,
+		DisplayName		=	Vinyl Album Cokelat - Jauh,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_CokelatJauh,
+		CanSpawn		=	true,
+	}
+
+	item VinylCokelatJauh
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Cokelat - Jauh (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_CokelatJauh,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumCokelatKarma
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum6,
+		DisplayName		=	Vinyl Album Cokelat - Karma,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_CokelatKarma,
+		CanSpawn		=	true,
+	}
+
+	item VinylCokelatKarma
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Cokelat - Karma (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_CokelatKarma,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumDewaAkuMilikmu
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum4,
+		DisplayName		=	Vinyl Album Dewa - Aku Milikmu,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_DewaAkuMilikmu,
+		CanSpawn		=	true,
+	}
+
+	item VinylDewaAkuMilikmu
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Dewa - Aku Milikmu (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_DewaAkuMilikmu,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumDewaCintakanMembawamuKembali
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum4,
+		DisplayName		=	Vinyl Album Dewa - Cintakan Membawamu Kembali,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_DewaCintakanMembawamuKembali,
+		CanSpawn		=	true,
+	}
+
+	item VinylDewaCintakanMembawamuKembali
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Dewa - Cintakan Membawamu Kembali (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_DewaCintakanMembawamuKembali,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumDewaCukupSitiNurbaya
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum9,
+		DisplayName		=	Vinyl Album Dewa - Cukup Siti Nurbaya,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_DewaCukupSitiNurbaya,
+		CanSpawn		=	true,
+	}
+
+	item VinylDewaCukupSitiNurbaya
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Dewa - Cukup Siti Nurbaya (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_DewaCukupSitiNurbaya,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumDewaKangen
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum1,
+		DisplayName		=	Vinyl Album Dewa - Kangen,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_DewaKangen,
+		CanSpawn		=	true,
+	}
+
+	item VinylDewaKangen
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Dewa - Kangen (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_DewaKangen,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumDewaKirana
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum5,
+		DisplayName		=	Vinyl Album Dewa - Kirana,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_DewaKirana,
+		CanSpawn		=	true,
+	}
+
+	item VinylDewaKirana
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Dewa - Kirana (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_DewaKirana,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumDewaMistikusCinta
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum2,
+		DisplayName		=	Vinyl Album Dewa - Mistikus Cinta,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_DewaMistikusCinta,
+		CanSpawn		=	true,
+	}
+
+	item VinylDewaMistikusCinta
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Dewa - Mistikus Cinta (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_DewaMistikusCinta,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumDewaRisalahHati
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum12,
+		DisplayName		=	Vinyl Album Dewa - Risalah Hati,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_DewaRisalahHati,
+		CanSpawn		=	true,
+	}
+
+	item VinylDewaRisalahHati
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Dewa - Risalah Hati (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_DewaRisalahHati,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumDewaRomanPicisan
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum7,
+		DisplayName		=	Vinyl Album Dewa - Roman Picisan,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_DewaRomanPicisan,
+		CanSpawn		=	true,
+	}
+
+	item VinylDewaRomanPicisan
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Dewa - Roman Picisan (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_DewaRomanPicisan,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumDiskoriaCHRISYE
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum10,
+		DisplayName		=	Vinyl Album Diskoria - CHRISYE,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_DiskoriaCHRISYE,
+		CanSpawn		=	true,
+	}
+
+	item VinylDiskoriaCHRISYE
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Diskoria - CHRISYE (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_DiskoriaCHRISYE,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumDiskoriadanDianSastroSerenataJiwaLara
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum10,
+		DisplayName		=	Vinyl Album Diskoria dan Dian Sastro - Serenata Jiwa Lara,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_DiskoriadanDianSastroSerenataJiwaLara,
+		CanSpawn		=	true,
+	}
+
+	item VinylDiskoriadanDianSastroSerenataJiwaLara
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Diskoria dan Dian Sastro - Serenata Jiwa Lara (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_DiskoriadanDianSastroSerenataJiwaLara,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumEbietGAdeBeritaPadaKawan
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum2,
+		DisplayName		=	Vinyl Album Ebiet G Ade - Berita Pada Kawan,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_EbietGAdeBeritaPadaKawan,
+		CanSpawn		=	true,
+	}
+
+	item VinylEbietGAdeBeritaPadaKawan
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Ebiet G Ade - Berita Pada Kawan (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_EbietGAdeBeritaPadaKawan,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumFarizRMSakura
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum6,
+		DisplayName		=	Vinyl Album Fariz RM - Sakura,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_FarizRMSakura,
+		CanSpawn		=	true,
+	}
+
+	item VinylFarizRMSakura
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Fariz RM - Sakura (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_FarizRMSakura,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumGigiAndai
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum1,
+		DisplayName		=	Vinyl Album Gigi - Andai,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_GigiAndai,
+		CanSpawn		=	true,
+	}
+
+	item VinylGigiAndai
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Gigi - Andai (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_GigiAndai,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumGigiTerbang
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum6,
+		DisplayName		=	Vinyl Album Gigi - Terbang,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_GigiTerbang,
+		CanSpawn		=	true,
+	}
+
+	item VinylGigiTerbang
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Gigi - Terbang (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_GigiTerbang,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumGodblessRumahKita
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum1,
+		DisplayName		=	Vinyl Album Godbless - Rumah Kita,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_GodblessRumahKita,
+		CanSpawn		=	true,
+	}
+
+	item VinylGodblessRumahKita
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Godbless - Rumah Kita (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_GodblessRumahKita,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumIwaKBebas
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum7,
+		DisplayName		=	Vinyl Album Iwa K - Bebas,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_IwaKBebas,
+		CanSpawn		=	true,
+	}
+
+	item VinylIwaKBebas
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Iwa K - Bebas (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_IwaKBebas,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumJamrudPelangiDiMatamu
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum3,
+		DisplayName		=	Vinyl Album Jamrud - Pelangi Di Matamu,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_JamrudPelangiDiMatamu,
+		CanSpawn		=	true,
+	}
+
+	item VinylJamrudPelangiDiMatamu
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Jamrud - Pelangi Di Matamu (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_JamrudPelangiDiMatamu,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumJamrudSurtiTedjo
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum5,
+		DisplayName		=	Vinyl Album Jamrud - Surti Tedjo,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_JamrudSurtiTedjo,
+		CanSpawn		=	true,
+	}
+
+	item VinylJamrudSurtiTedjo
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Jamrud - Surti Tedjo (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_JamrudSurtiTedjo,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumKillingMeInsideBiarlah
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum4,
+		DisplayName		=	Vinyl Album Killing Me Inside - Biarlah,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_KillingMeInsideBiarlah,
+		CanSpawn		=	true,
+	}
+
+	item VinylKillingMeInsideBiarlah
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Killing Me Inside - Biarlah (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_KillingMeInsideBiarlah,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumKLAProjectYogyakarta
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum12,
+		DisplayName		=	Vinyl Album KLA Project - Yogyakarta,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_KLAProjectYogyakarta,
+		CanSpawn		=	true,
+	}
+
+	item VinylKLAProjectYogyakarta
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl KLA Project - Yogyakarta (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_KLAProjectYogyakarta,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumKoesPlusAndaikanKauDatang
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum7,
+		DisplayName		=	Vinyl Album Koes Plus - Andaikan Kau Datang,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_KoesPlusAndaikanKauDatang,
+		CanSpawn		=	true,
+	}
+
+	item VinylKoesPlusAndaikanKauDatang
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Koes Plus - Andaikan Kau Datang (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_KoesPlusAndaikanKauDatang,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumKoesPlusKembaliKeJakarta
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum8,
+		DisplayName		=	Vinyl Album Koes Plus - Kembali Ke Jakarta,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_KoesPlusKembaliKeJakarta,
+		CanSpawn		=	true,
+	}
+
+	item VinylKoesPlusKembaliKeJakarta
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Koes Plus - Kembali Ke Jakarta (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_KoesPlusKembaliKeJakarta,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumMEInikahCinta
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum5,
+		DisplayName		=	Vinyl Album ME - Inikah Cinta,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_MEInikahCinta,
+		CanSpawn		=	true,
+	}
+
+	item VinylMEInikahCinta
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl ME - Inikah Cinta (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_MEInikahCinta,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumNaifBenciUntukMencinta
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum1,
+		DisplayName		=	Vinyl Album Naif - Benci Untuk Mencinta,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_NaifBenciUntukMencinta,
+		CanSpawn		=	true,
+	}
+
+	item VinylNaifBenciUntukMencinta
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Naif - Benci Untuk Mencinta (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_NaifBenciUntukMencinta,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumNaifMobilBalap
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum8,
+		DisplayName		=	Vinyl Album Naif - Mobil Balap,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_NaifMobilBalap,
+		CanSpawn		=	true,
+	}
+
+	item VinylNaifMobilBalap
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Naif - Mobil Balap (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_NaifMobilBalap,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumNaifPiknik72
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum9,
+		DisplayName		=	Vinyl Album Naif - Piknik 72,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_NaifPiknik72,
+		CanSpawn		=	true,
+	}
+
+	item VinylNaifPiknik72
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Naif - Piknik 72 (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_NaifPiknik72,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumNetralPertempuranHati
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum3,
+		DisplayName		=	Vinyl Album Netral - Pertempuran Hati,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_NetralPertempuranHati,
+		CanSpawn		=	true,
+	}
+
+	item VinylNetralPertempuranHati
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Netral - Pertempuran Hati (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_NetralPertempuranHati,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumNetralSorry
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum10,
+		DisplayName		=	Vinyl Album Netral - Sorry,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_NetralSorry,
+		CanSpawn		=	true,
+	}
+
+	item VinylNetralSorry
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Netral - Sorry (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_NetralSorry,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumNetralTerbangTenggelam
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum2,
+		DisplayName		=	Vinyl Album Netral - Terbang Tenggelam,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_NetralTerbangTenggelam,
+		CanSpawn		=	true,
+	}
+
+	item VinylNetralTerbangTenggelam
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Netral - Terbang Tenggelam (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_NetralTerbangTenggelam,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumNikeArdillaBintangKehidupan
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum9,
+		DisplayName		=	Vinyl Album Nike Ardilla - Bintang Kehidupan,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_NikeArdillaBintangKehidupan,
+		CanSpawn		=	true,
+	}
+
+	item VinylNikeArdillaBintangKehidupan
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Nike Ardilla - Bintang Kehidupan (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_NikeArdillaBintangKehidupan,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumNikeArdillaDiAntaraPilihan
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum9,
+		DisplayName		=	Vinyl Album Nike Ardilla - Di Antara Pilihan,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_NikeArdillaDiAntaraPilihan,
+		CanSpawn		=	true,
+	}
+
+	item VinylNikeArdillaDiAntaraPilihan
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Nike Ardilla - Di Antara Pilihan (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_NikeArdillaDiAntaraPilihan,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumNikeArdillaSeberkasSinar
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum8,
+		DisplayName		=	Vinyl Album Nike Ardilla - Seberkas Sinar,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_NikeArdillaSeberkasSinar,
+		CanSpawn		=	true,
+	}
+
+	item VinylNikeArdillaSeberkasSinar
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Nike Ardilla - Seberkas Sinar (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_NikeArdillaSeberkasSinar,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumPasBandfeatTereKesepianKita
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum2,
+		DisplayName		=	Vinyl Album Pas Band feat Tere - Kesepian Kita,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_PasBandfeatTereKesepianKita,
+		CanSpawn		=	true,
+	}
+
+	item VinylPasBandfeatTereKesepianKita
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Pas Band feat Tere - Kesepian Kita (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_PasBandfeatTereKesepianKita,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumPeterpanBintangdiSurga
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum10,
+		DisplayName		=	Vinyl Album Peterpan - Bintang di Surga,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_PeterpanBintangdiSurga,
+		CanSpawn		=	true,
+	}
+
+	item VinylPeterpanBintangdiSurga
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Peterpan - Bintang di Surga (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_PeterpanBintangdiSurga,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumPeterpanHariYangCerahUntukJiwaYangSepi
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum3,
+		DisplayName		=	Vinyl Album Peterpan - Hari Yang Cerah Untuk Jiwa Yang Sepi,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_PeterpanHariYangCerahUntukJiwaYangSepi,
+		CanSpawn		=	true,
+	}
+
+	item VinylPeterpanHariYangCerahUntukJiwaYangSepi
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Peterpan - Hari Yang Cerah Untuk Jiwa Yang Sepi (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_PeterpanHariYangCerahUntukJiwaYangSepi,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumRezaArtameviaBiarJadiKenangan
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum10,
+		DisplayName		=	Vinyl Album Reza Artamevia - Biar Jadi Kenangan,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_RezaArtameviaBiarJadiKenangan,
+		CanSpawn		=	true,
+	}
+
+	item VinylRezaArtameviaBiarJadiKenangan
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Reza Artamevia - Biar Jadi Kenangan (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_RezaArtameviaBiarJadiKenangan,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumRezaArtameviaKeabadian
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum11,
+		DisplayName		=	Vinyl Album Reza Artamevia - Keabadian,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_RezaArtameviaKeabadian,
+		CanSpawn		=	true,
+	}
+
+	item VinylRezaArtameviaKeabadian
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Reza Artamevia - Keabadian (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_RezaArtameviaKeabadian,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumRezaArtameviaSatuYangTakBisaLepas
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum10,
+		DisplayName		=	Vinyl Album Reza Artamevia - Satu Yang Tak Bisa Lepas,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_RezaArtameviaSatuYangTakBisaLepas,
+		CanSpawn		=	true,
+	}
+
+	item VinylRezaArtameviaSatuYangTakBisaLepas
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Reza Artamevia - Satu Yang Tak Bisa Lepas (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_RezaArtameviaSatuYangTakBisaLepas,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumRomeoBungaTerakhir
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum6,
+		DisplayName		=	Vinyl Album Romeo - Bunga Terakhir,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_RomeoBungaTerakhir,
+		CanSpawn		=	true,
+	}
+
+	item VinylRomeoBungaTerakhir
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Romeo - Bunga Terakhir (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_RomeoBungaTerakhir,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumSheilaOn7Dan
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum8,
+		DisplayName		=	Vinyl Album Sheila On 7 - Dan,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_SheilaOn7Dan,
+		CanSpawn		=	true,
+	}
+
+	item VinylSheilaOn7Dan
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Sheila On 7 - Dan (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_SheilaOn7Dan,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumSheilaOn7Kita
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum8,
+		DisplayName		=	Vinyl Album Sheila On 7 - Kita,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_SheilaOn7Kita,
+		CanSpawn		=	true,
+	}
+
+	item VinylSheilaOn7Kita
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Sheila On 7 - Kita (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_SheilaOn7Kita,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumSlankKuTakBisa
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum5,
+		DisplayName		=	Vinyl Album Slank - Ku Tak Bisa,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_SlankKuTakBisa,
+		CanSpawn		=	true,
+	}
+
+	item VinylSlankKuTakBisa
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Slank - Ku Tak Bisa (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_SlankKuTakBisa,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumSlankTerlaluManis
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum12,
+		DisplayName		=	Vinyl Album Slank - Terlalu Manis,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_SlankTerlaluManis,
+		CanSpawn		=	true,
+	}
+
+	item VinylSlankTerlaluManis
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Slank - Terlalu Manis (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_SlankTerlaluManis,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumSlankVirus
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum3,
+		DisplayName		=	Vinyl Album Slank - Virus,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_SlankVirus,
+		CanSpawn		=	true,
+	}
+
+	item VinylSlankVirus
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Slank - Virus (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_SlankVirus,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumTheFlyTerbang
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum10,
+		DisplayName		=	Vinyl Album The Fly - Terbang,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_TheFlyTerbang,
+		CanSpawn		=	true,
+	}
+
+	item VinylTheFlyTerbang
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl The Fly - Terbang (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_TheFlyTerbang,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumTipeXKamuEnggakSendirian
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum1,
+		DisplayName		=	Vinyl Album Tipe-X - Kamu Enggak Sendirian,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_TipeXKamuEnggakSendirian,
+		CanSpawn		=	true,
+	}
+
+	item VinylTipeXKamuEnggakSendirian
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Tipe-X - Kamu Enggak Sendirian (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_TipeXKamuEnggakSendirian,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumTipeXMawarHitam
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum6,
+		DisplayName		=	Vinyl Album Tipe-X - Mawar Hitam,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_TipeXMawarHitam,
+		CanSpawn		=	true,
+	}
+
+	item VinylTipeXMawarHitam
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Tipe-X - Mawar Hitam (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_TipeXMawarHitam,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumUnguDiSiniUntukmu
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum9,
+		DisplayName		=	Vinyl Album Ungu - Di Sini Untukmu,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_UnguDiSiniUntukmu,
+		CanSpawn		=	true,
+	}
+
+	item VinylUnguDiSiniUntukmu
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Ungu - Di Sini Untukmu (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_UnguDiSiniUntukmu,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumUthaLikumahuwaEsokkanMasihAda
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum3,
+		DisplayName		=	Vinyl Album Utha Likumahuwa - Esokkan Masih Ada,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_UthaLikumahuwaEsokkanMasihAda,
+		CanSpawn		=	true,
+	}
+
+	item VinylUthaLikumahuwaEsokkanMasihAda
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Utha Likumahuwa - Esokkan Masih Ada (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_UthaLikumahuwaEsokkanMasihAda,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumUthaLikumahuwaSesaatKauHadir
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum10,
+		DisplayName		=	Vinyl Album Utha Likumahuwa - Sesaat Kau Hadir,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_UthaLikumahuwaSesaatKauHadir,
+		CanSpawn		=	true,
+	}
+
+	item VinylUthaLikumahuwaSesaatKauHadir
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Utha Likumahuwa - Sesaat Kau Hadir (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_UthaLikumahuwaSesaatKauHadir,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumUthaLikumahuwaTersiksaLagi
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum10,
+		DisplayName		=	Vinyl Album Utha Likumahuwa - Tersiksa Lagi,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_UthaLikumahuwaTersiksaLagi,
+		CanSpawn		=	true,
+	}
+
+	item VinylUthaLikumahuwaTersiksaLagi
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Utha Likumahuwa - Tersiksa Lagi (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_UthaLikumahuwaTersiksaLagi,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumVierraPerih
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum3,
+		DisplayName		=	Vinyl Album Vierra - Perih,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_VierraPerih,
+		CanSpawn		=	true,
+	}
+
+	item VinylVierraPerih
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Vierra - Perih (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_VierraPerih,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumVierraSeandainya
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum6,
+		DisplayName		=	Vinyl Album Vierra - Seandainya,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_VierraSeandainya,
+		CanSpawn		=	true,
+	}
+
+	item VinylVierraSeandainya
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Vierra - Seandainya (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_VierraSeandainya,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumVinaPanduwinataDia
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum8,
+		DisplayName		=	Vinyl Album Vina Panduwinata - Dia,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_VinaPanduwinataDia,
+		CanSpawn		=	true,
+	}
+
+	item VinylVinaPanduwinataDia
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Vina Panduwinata - Dia (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_VinaPanduwinataDia,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumIPZMusicAllofMe
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum2,
+		DisplayName		=	Vinyl Album IPZ Music - All of Me,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_IPZMusicAllofMe,
+		CanSpawn		=	true,
+	}
+
+	item VinylIPZMusicAllofMe
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl IPZ Music - All of Me (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_IPZMusicAllofMe,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumIPZMusicAWAKE
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum3,
+		DisplayName		=	Vinyl Album IPZ Music - AWAKE,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_IPZMusicAWAKE,
+		CanSpawn		=	true,
+	}
+
+	item VinylIPZMusicAWAKE
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl IPZ Music - AWAKE (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_IPZMusicAWAKE,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumIPZMusicBansanka
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum12,
+		DisplayName		=	Vinyl Album IPZ Music - Bansanka,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_IPZMusicBansanka,
+		CanSpawn		=	true,
+	}
+
+	item VinylIPZMusicBansanka
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl IPZ Music - Bansanka (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_IPZMusicBansanka,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumIPZMusicBelindaAmigosxSiempre
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum11,
+		DisplayName		=	Vinyl Album IPZ Music - Belinda Amigos x Siempre,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_IPZMusicBelindaAmigosxSiempre,
+		CanSpawn		=	true,
+	}
+
+	item VinylIPZMusicBelindaAmigosxSiempre
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl IPZ Music - Belinda Amigos x Siempre (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_IPZMusicBelindaAmigosxSiempre,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumIPZMusicBLOODHOUNDS
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum12,
+		DisplayName		=	Vinyl Album IPZ Music - BLOODHOUNDS,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_IPZMusicBLOODHOUNDS,
+		CanSpawn		=	true,
+	}
+
+	item VinylIPZMusicBLOODHOUNDS
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl IPZ Music - BLOODHOUNDS (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_IPZMusicBLOODHOUNDS,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumIPZMusicBreakingBadThemeSong
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum2,
+		DisplayName		=	Vinyl Album IPZ Music - Breaking Bad Theme Song,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_IPZMusicBreakingBadThemeSong,
+		CanSpawn		=	true,
+	}
+
+	item VinylIPZMusicBreakingBadThemeSong
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl IPZ Music - Breaking Bad Theme Song (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_IPZMusicBreakingBadThemeSong,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumIPZMusicCalifornication
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum10,
+		DisplayName		=	Vinyl Album IPZ Music - Californication,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_IPZMusicCalifornication,
+		CanSpawn		=	true,
+	}
+
+	item VinylIPZMusicCalifornication
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl IPZ Music - Californication (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_IPZMusicCalifornication,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumIPZMusiccomet
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum12,
+		DisplayName		=	Vinyl Album IPZ Music - comet,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_IPZMusiccomet,
+		CanSpawn		=	true,
+	}
+
+	item VinylIPZMusiccomet
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl IPZ Music - comet (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_IPZMusiccomet,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumIPZMusicDearGod
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum11,
+		DisplayName		=	Vinyl Album IPZ Music - Dear God,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_IPZMusicDearGod,
+		CanSpawn		=	true,
+	}
+
+	item VinylIPZMusicDearGod
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl IPZ Music - Dear God (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_IPZMusicDearGod,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumIPZMusicDebutantBall
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum5,
+		DisplayName		=	Vinyl Album IPZ Music - Debutant Ball,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_IPZMusicDebutantBall,
+		CanSpawn		=	true,
+	}
+
+	item VinylIPZMusicDebutantBall
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl IPZ Music - Debutant Ball (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_IPZMusicDebutantBall,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumIPZMusicFeelSpecial
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum9,
+		DisplayName		=	Vinyl Album IPZ Music - Feel Special,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_IPZMusicFeelSpecial,
+		CanSpawn		=	true,
+	}
+
+	item VinylIPZMusicFeelSpecial
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl IPZ Music - Feel Special (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_IPZMusicFeelSpecial,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumIPZMusicGooGooDollsIris
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum9,
+		DisplayName		=	Vinyl Album IPZ Music - Goo Goo Dolls Iris,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_IPZMusicGooGooDollsIris,
+		CanSpawn		=	true,
+	}
+
+	item VinylIPZMusicGooGooDollsIris
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl IPZ Music - Goo Goo Dolls Iris (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_IPZMusicGooGooDollsIris,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumIPZMusicHindiaeverythinguare
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum2,
+		DisplayName		=	Vinyl Album IPZ Music - Hindia - everything u are,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_IPZMusicHindiaeverythinguare,
+		CanSpawn		=	true,
+	}
+
+	item VinylIPZMusicHindiaeverythinguare
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl IPZ Music - Hindia - everything u are (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_IPZMusicHindiaeverythinguare,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumIPZMusicHINKIRO
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum1,
+		DisplayName		=	Vinyl Album IPZ Music - HINKIRO,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_IPZMusicHINKIRO,
+		CanSpawn		=	true,
+	}
+
+	item VinylIPZMusicHINKIRO
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl IPZ Music - HINKIRO (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_IPZMusicHINKIRO,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumIPZMusicIReallyWanttoStayAtYourHouse
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum2,
+		DisplayName		=	Vinyl Album IPZ Music - I Really Want to Stay At Your House,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_IPZMusicIReallyWanttoStayAtYourHouse,
+		CanSpawn		=	true,
+	}
+
+	item VinylIPZMusicIReallyWanttoStayAtYourHouse
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl IPZ Music - I Really Want to Stay At Your House (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_IPZMusicIReallyWanttoStayAtYourHouse,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumIPZMusicInitialDBlackOut
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum4,
+		DisplayName		=	Vinyl Album IPZ Music - Initial D - Black Out,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_IPZMusicInitialDBlackOut,
+		CanSpawn		=	true,
+	}
+
+	item VinylIPZMusicInitialDBlackOut
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl IPZ Music - Initial D - Black Out (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_IPZMusicInitialDBlackOut,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumIPZMusicListenNot
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum5,
+		DisplayName		=	Vinyl Album IPZ Music - Listen Not,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_IPZMusicListenNot,
+		CanSpawn		=	true,
+	}
+
+	item VinylIPZMusicListenNot
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl IPZ Music - Listen Not (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_IPZMusicListenNot,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumIPZMusicLostinParadise
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum11,
+		DisplayName		=	Vinyl Album IPZ Music - Lost in Paradise,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_IPZMusicLostinParadise,
+		CanSpawn		=	true,
+	}
+
+	item VinylIPZMusicLostinParadise
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl IPZ Music - Lost in Paradise (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_IPZMusicLostinParadise,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumIPZMusicMahalKitaBobo
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum7,
+		DisplayName		=	Vinyl Album IPZ Music - Mahal Kita Bobo,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_IPZMusicMahalKitaBobo,
+		CanSpawn		=	true,
+	}
+
+	item VinylIPZMusicMahalKitaBobo
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl IPZ Music - Mahal Kita Bobo (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_IPZMusicMahalKitaBobo,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumIPZMusicMEGITSUNE
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum4,
+		DisplayName		=	Vinyl Album IPZ Music - MEGITSUNE,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_IPZMusicMEGITSUNE,
+		CanSpawn		=	true,
+	}
+
+	item VinylIPZMusicMEGITSUNE
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl IPZ Music - MEGITSUNE (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_IPZMusicMEGITSUNE,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumIPZMusicMICDropSteveAokiRemix
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum4,
+		DisplayName		=	Vinyl Album IPZ Music - MIC Drop (Steve Aoki Remix),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_IPZMusicMICDropSteveAokiRemix,
+		CanSpawn		=	true,
+	}
+
+	item VinylIPZMusicMICDropSteveAokiRemix
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl IPZ Music - MIC Drop (Steve Aoki Remix) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_IPZMusicMICDropSteveAokiRemix,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumIPZMusicOverdose
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum11,
+		DisplayName		=	Vinyl Album IPZ Music - Overdose,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_IPZMusicOverdose,
+		CanSpawn		=	true,
+	}
+
+	item VinylIPZMusicOverdose
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl IPZ Music - Overdose (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_IPZMusicOverdose,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumIPZMusicSANTEMIKINAH
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum6,
+		DisplayName		=	Vinyl Album IPZ Music - SANTE MI KI NAH,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_IPZMusicSANTEMIKINAH,
+		CanSpawn		=	true,
+	}
+
+	item VinylIPZMusicSANTEMIKINAH
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl IPZ Music - SANTE MI KI NAH (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_IPZMusicSANTEMIKINAH,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumIPZMusicSTECUSTECU
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum4,
+		DisplayName		=	Vinyl Album IPZ Music - STECU STECU,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_IPZMusicSTECUSTECU,
+		CanSpawn		=	true,
+	}
+
+	item VinylIPZMusicSTECUSTECU
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl IPZ Music - STECU STECU (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_IPZMusicSTECUSTECU,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumIPZMusicSunflower
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum5,
+		DisplayName		=	Vinyl Album IPZ Music - Sunflower,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_IPZMusicSunflower,
+		CanSpawn		=	true,
+	}
+
+	item VinylIPZMusicSunflower
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl IPZ Music - Sunflower (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_IPZMusicSunflower,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumIPZMusicWelcomeToTheBlackParade
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum9,
+		DisplayName		=	Vinyl Album IPZ Music - Welcome To The Black Parade,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_IPZMusicWelcomeToTheBlackParade,
+		CanSpawn		=	true,
+	}
+
+	item VinylIPZMusicWelcomeToTheBlackParade
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl IPZ Music - Welcome To The Black Parade (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_IPZMusicWelcomeToTheBlackParade,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbum30SecondsToMarsTheKillIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum2,
+		DisplayName		=	Vinyl Album 30 Seconds To Mars - The Kill (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_30SecondsToMarsTheKillIPZ,
+		CanSpawn		=	true,
+	}
+
+	item Vinyl30SecondsToMarsTheKillIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl 30 Seconds To Mars - The Kill (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_30SecondsToMarsTheKillIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumAManWithoutLoveEngelbertHumperdinckIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum2,
+		DisplayName		=	Vinyl Album A Man Without Love - Engelbert Humperdinck (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_AManWithoutLoveEngelbertHumperdinckIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAManWithoutLoveEngelbertHumperdinckIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl A Man Without Love - Engelbert Humperdinck (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_AManWithoutLoveEngelbertHumperdinckIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumABBADancingQueenIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum4,
+		DisplayName		=	Vinyl Album ABBA - Dancing Queen (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_ABBADancingQueenIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylABBADancingQueenIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl ABBA - Dancing Queen (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_ABBADancingQueenIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumABBASOSIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum5,
+		DisplayName		=	Vinyl Album ABBA - SOS (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_ABBASOSIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylABBASOSIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl ABBA - SOS (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_ABBASOSIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumAdaBandManusiaBodohIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum1,
+		DisplayName		=	Vinyl Album Ada Band - Manusia Bodoh (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_AdaBandManusiaBodohIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAdaBandManusiaBodohIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Ada Band - Manusia Bodoh (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_AdaBandManusiaBodohIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumAdzanIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum5,
+		DisplayName		=	Vinyl Album Adzan (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_AdzanIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAdzanIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Adzan (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_AdzanIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumAerosmithIDontWanttoMissaThingIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum11,
+		DisplayName		=	Vinyl Album Aerosmith - I Don't Want to Miss a Thing (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_AerosmithIDontWanttoMissaThingIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAerosmithIDontWanttoMissaThingIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Aerosmith - I Don't Want to Miss a Thing (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_AerosmithIDontWanttoMissaThingIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumAvengedSevenfoldMIAIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum7,
+		DisplayName		=	Vinyl Album Avenged Sevenfold - M.I.A. (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_AvengedSevenfoldMIAIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAvengedSevenfoldMIAIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Avenged Sevenfold - M.I.A. (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_AvengedSevenfoldMIAIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumBabyGrootSingsASongIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum9,
+		DisplayName		=	Vinyl Album Baby Groot Sings A Song (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_BabyGrootSingsASongIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylBabyGrootSingsASongIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Baby Groot Sings A Song (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_BabyGrootSingsASongIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumBattotaiIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum3,
+		DisplayName		=	Vinyl Album Battotai (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_BattotaiIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylBattotaiIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Battotai (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_BattotaiIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumBeeGeesHowDeepIsYourLoveIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum4,
+		DisplayName		=	Vinyl Album Bee Gees - How Deep Is Your Love (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_BeeGeesHowDeepIsYourLoveIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylBeeGeesHowDeepIsYourLoveIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Bee Gees - How Deep Is Your Love (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_BeeGeesHowDeepIsYourLoveIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumBeeGeesToLoveSomebodyIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum2,
+		DisplayName		=	Vinyl Album Bee Gees - To Love Somebody (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_BeeGeesToLoveSomebodyIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylBeeGeesToLoveSomebodyIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Bee Gees - To Love Somebody (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_BeeGeesToLoveSomebodyIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumBenEKingStandbyMeIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum12,
+		DisplayName		=	Vinyl Album Ben E. King - Stand by Me (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_BenEKingStandbyMeIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylBenEKingStandbyMeIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Ben E. King - Stand by Me (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_BenEKingStandbyMeIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumBillWithersJusttheTwoofUsIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum2,
+		DisplayName		=	Vinyl Album Bill Withers - Just the Two of Us (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_BillWithersJusttheTwoofUsIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylBillWithersJusttheTwoofUsIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Bill Withers - Just the Two of Us (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_BillWithersJusttheTwoofUsIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumBobbyMcFerrinDontWorryBeHappyIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum6,
+		DisplayName		=	Vinyl Album Bobby McFerrin - Don't Worry Be Happy (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_BobbyMcFerrinDontWorryBeHappyIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylBobbyMcFerrinDontWorryBeHappyIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Bobby McFerrin - Don't Worry Be Happy (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_BobbyMcFerrinDontWorryBeHappyIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumBonJoviAlwaysIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum1,
+		DisplayName		=	Vinyl Album Bon Jovi - Always (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_BonJoviAlwaysIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylBonJoviAlwaysIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Bon Jovi - Always (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_BonJoviAlwaysIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumBringMeTheHorizonDrownIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum8,
+		DisplayName		=	Vinyl Album Bring Me The Horizon - Drown (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_BringMeTheHorizonDrownIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylBringMeTheHorizonDrownIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Bring Me The Horizon - Drown (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_BringMeTheHorizonDrownIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumBringMeTheHorizonSleepwalkingIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum2,
+		DisplayName		=	Vinyl Album Bring Me The Horizon - Sleepwalking (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_BringMeTheHorizonSleepwalkingIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylBringMeTheHorizonSleepwalkingIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Bring Me The Horizon - Sleepwalking (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_BringMeTheHorizonSleepwalkingIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumBulletForMyValentineRoadToNowhereIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum12,
+		DisplayName		=	Vinyl Album Bullet For My Valentine - Road To Nowhere (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_BulletForMyValentineRoadToNowhereIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylBulletForMyValentineRoadToNowhereIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Bullet For My Valentine - Road To Nowhere (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_BulletForMyValentineRoadToNowhereIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumCakeIWillSurviveIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum8,
+		DisplayName		=	Vinyl Album Cake - I Will Survive (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_CakeIWillSurviveIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylCakeIWillSurviveIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Cake - I Will Survive (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_CakeIWillSurviveIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumChibiMarukoChanIndonesianVersionIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum1,
+		DisplayName		=	Vinyl Album Chibi Maruko Chan Indonesian Version (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_ChibiMarukoChanIndonesianVersionIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylChibiMarukoChanIndonesianVersionIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Chibi Maruko Chan Indonesian Version (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_ChibiMarukoChanIndonesianVersionIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumChibiMarukoChanSoundtrackIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum4,
+		DisplayName		=	Vinyl Album Chibi Maruko Chan Soundtrack (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_ChibiMarukoChanSoundtrackIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylChibiMarukoChanSoundtrackIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Chibi Maruko Chan Soundtrack (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_ChibiMarukoChanSoundtrackIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumCreedOneLastBreathIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum6,
+		DisplayName		=	Vinyl Album Creed - One Last Breath (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_CreedOneLastBreathIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylCreedOneLastBreathIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Creed - One Last Breath (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_CreedOneLastBreathIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumDaftPunkAroundTheWorldIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum6,
+		DisplayName		=	Vinyl Album Daft Punk - Around The World (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_DaftPunkAroundTheWorldIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylDaftPunkAroundTheWorldIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Daft Punk - Around The World (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_DaftPunkAroundTheWorldIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumDaveRodgersDeJavuIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum5,
+		DisplayName		=	Vinyl Album Dave Rodgers - De Javu (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_DaveRodgersDeJavuIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylDaveRodgersDeJavuIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Dave Rodgers - De Javu (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_DaveRodgersDeJavuIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumDragonForceThroughTheFireAndFlamesIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum9,
+		DisplayName		=	Vinyl Album DragonForce - Through The Fire And Flames (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_DragonForceThroughTheFireAndFlamesIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylDragonForceThroughTheFireAndFlamesIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl DragonForce - Through The Fire And Flames (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_DragonForceThroughTheFireAndFlamesIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumEaglesHotelCaliforniaIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum2,
+		DisplayName		=	Vinyl Album Eagles - Hotel California (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_EaglesHotelCaliforniaIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylEaglesHotelCaliforniaIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Eagles - Hotel California (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_EaglesHotelCaliforniaIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumEarthWindandFireSeptemberIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum2,
+		DisplayName		=	Vinyl Album Earth Wind and Fire - September (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_EarthWindandFireSeptemberIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylEarthWindandFireSeptemberIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Earth Wind and Fire - September (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_EarthWindandFireSeptemberIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumEltonJohnSaturdayNightsAlrightIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum8,
+		DisplayName		=	Vinyl Album Elton John - Saturday Nights Alright (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_EltonJohnSaturdayNightsAlrightIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylEltonJohnSaturdayNightsAlrightIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Elton John - Saturday Nights Alright (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_EltonJohnSaturdayNightsAlrightIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumEvanescenceBringMeToLifeIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum9,
+		DisplayName		=	Vinyl Album Evanescence - Bring Me To Life (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_EvanescenceBringMeToLifeIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylEvanescenceBringMeToLifeIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Evanescence - Bring Me To Life (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_EvanescenceBringMeToLifeIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumFluxCupsKillYourIdolIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum9,
+		DisplayName		=	Vinyl Album Flux Cups - Kill Your Idol (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_FluxCupsKillYourIdolIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylFluxCupsKillYourIdolIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Flux Cups - Kill Your Idol (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_FluxCupsKillYourIdolIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumFranzFerdinandTakeMeOutIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum6,
+		DisplayName		=	Vinyl Album Franz Ferdinand - Take Me Out (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_FranzFerdinandTakeMeOutIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylFranzFerdinandTakeMeOutIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Franz Ferdinand - Take Me Out (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_FranzFerdinandTakeMeOutIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumGeorgeBensonNothingsGonnaChangeMyLoveForYouIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum7,
+		DisplayName		=	Vinyl Album George Benson - Nothings Gonna Change My Love For You (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_GeorgeBensonNothingsGonnaChangeMyLoveForYouIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylGeorgeBensonNothingsGonnaChangeMyLoveForYouIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl George Benson - Nothings Gonna Change My Love For You (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_GeorgeBensonNothingsGonnaChangeMyLoveForYouIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumGreenDayBasketCaseIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum5,
+		DisplayName		=	Vinyl Album Green Day - Basket Case (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_GreenDayBasketCaseIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylGreenDayBasketCaseIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Green Day - Basket Case (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_GreenDayBasketCaseIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumGreenDayBoulevardOfBrokenDreamsIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum10,
+		DisplayName		=	Vinyl Album Green Day - Boulevard Of Broken Dreams (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_GreenDayBoulevardOfBrokenDreamsIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylGreenDayBoulevardOfBrokenDreamsIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Green Day - Boulevard Of Broken Dreams (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_GreenDayBoulevardOfBrokenDreamsIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumGreenDayWakeMeUpWhenSeptemberEndsIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum12,
+		DisplayName		=	Vinyl Album Green Day - Wake Me Up When September Ends (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_GreenDayWakeMeUpWhenSeptemberEndsIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylGreenDayWakeMeUpWhenSeptemberEndsIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Green Day - Wake Me Up When September Ends (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_GreenDayWakeMeUpWhenSeptemberEndsIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumGunsNRosesSweetChildOMineIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum1,
+		DisplayName		=	Vinyl Album Guns N' Roses - Sweet Child O' Mine (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_GunsNRosesSweetChildOMineIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylGunsNRosesSweetChildOMineIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Guns N' Roses - Sweet Child O' Mine (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_GunsNRosesSweetChildOMineIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumGunsNRosesWelcometotheJungleIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum10,
+		DisplayName		=	Vinyl Album Guns N Roses - Welcome to the Jungle (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_GunsNRosesWelcometotheJungleIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylGunsNRosesWelcometotheJungleIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Guns N Roses - Welcome to the Jungle (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_GunsNRosesWelcometotheJungleIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumHarlemYuQingFeiDeYiIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum1,
+		DisplayName		=	Vinyl Album Harlem Yu - Qing Fei De Yi (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_HarlemYuQingFeiDeYiIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylHarlemYuQingFeiDeYiIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Harlem Yu - Qing Fei De Yi (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_HarlemYuQingFeiDeYiIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumHeartBarracudaIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum1,
+		DisplayName		=	Vinyl Album Heart - Barracuda (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_HeartBarracudaIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylHeartBarracudaIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Heart - Barracuda (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_HeartBarracudaIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumHomeFreeSeaShantyMedleyExtendedVersionIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum11,
+		DisplayName		=	Vinyl Album Home Free - Sea Shanty Medley Extended Version (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_HomeFreeSeaShantyMedleyExtendedVersionIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylHomeFreeSeaShantyMedleyExtendedVersionIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Home Free - Sea Shanty Medley Extended Version (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_HomeFreeSeaShantyMedleyExtendedVersionIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumIkimonoGakariBlueBirdIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum12,
+		DisplayName		=	Vinyl Album Ikimono Gakari - Blue Bird (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_IkimonoGakariBlueBirdIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylIkimonoGakariBlueBirdIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Ikimono Gakari - Blue Bird (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_IkimonoGakariBlueBirdIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumIndonesiaRayaIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum1,
+		DisplayName		=	Vinyl Album Indonesia Raya (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_IndonesiaRayaIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylIndonesiaRayaIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Indonesia Raya (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_IndonesiaRayaIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumIvaLolaGakMauPulangMaunyaDigoyangIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum9,
+		DisplayName		=	Vinyl Album Iva Lola - Gak Mau Pulang Maunya Digoyang (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_IvaLolaGakMauPulangMaunyaDigoyangIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylIvaLolaGakMauPulangMaunyaDigoyangIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Iva Lola - Gak Mau Pulang Maunya Digoyang (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_IvaLolaGakMauPulangMaunyaDigoyangIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumJKT48FortuneCookieIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum2,
+		DisplayName		=	Vinyl Album JKT48 - Fortune Cookie (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_JKT48FortuneCookieIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylJKT48FortuneCookieIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl JKT48 - Fortune Cookie (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_JKT48FortuneCookieIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumKanyeWestPraiseGod
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum12,
+		DisplayName		=	Vinyl Album Kanye West - Praise God,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_KanyeWestPraiseGod,
+		CanSpawn		=	true,
+	}
+
+	item VinylKanyeWestPraiseGod
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Kanye West - Praise God (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_KanyeWestPraiseGod,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumKCTheSunshineBandGiveItUpIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum12,
+		DisplayName		=	Vinyl Album KC & The Sunshine Band - Give It Up (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_KCTheSunshineBandGiveItUpIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylKCTheSunshineBandGiveItUpIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl KC & The Sunshine Band - Give It Up (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_KCTheSunshineBandGiveItUpIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumKiryuBakaMitaiIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum2,
+		DisplayName		=	Vinyl Album Kiryu - Baka Mitai (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_KiryuBakaMitaiIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylKiryuBakaMitaiIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Kiryu - Baka Mitai (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_KiryuBakaMitaiIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumKoboKanaeruMantraHujanIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum7,
+		DisplayName		=	Vinyl Album Kobo Kanaeru - Mantra Hujan (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_KoboKanaeruMantraHujanIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylKoboKanaeruMantraHujanIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Kobo Kanaeru - Mantra Hujan (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_KoboKanaeruMantraHujanIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumLastChildMenyerahIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum12,
+		DisplayName		=	Vinyl Album Last Child - Menyerah (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_LastChildMenyerahIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylLastChildMenyerahIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Last Child - Menyerah (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_LastChildMenyerahIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumLedZeppelinStairwaytoHeavenIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum1,
+		DisplayName		=	Vinyl Album Led Zeppelin - Stairway to Heaven (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_LedZeppelinStairwaytoHeavenIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylLedZeppelinStairwaytoHeavenIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Led Zeppelin - Stairway to Heaven (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_LedZeppelinStairwaytoHeavenIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumLilUziVertBankTellerIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum11,
+		DisplayName		=	Vinyl Album Lil Uzi Vert - Bank Teller (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_LilUziVertBankTellerIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylLilUziVertBankTellerIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Lil Uzi Vert - Bank Teller (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_LilUziVertBankTellerIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumLinkedHorizonGurenNoYumiyaIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum5,
+		DisplayName		=	Vinyl Album Linked Horizon - Guren No Yumiya (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_LinkedHorizonGurenNoYumiyaIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylLinkedHorizonGurenNoYumiyaIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Linked Horizon - Guren No Yumiya (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_LinkedHorizonGurenNoYumiyaIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumLinkedHorizonShinzowoSasageyoIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum5,
+		DisplayName		=	Vinyl Album Linked Horizon - Shinzo wo Sasageyo (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_LinkedHorizonShinzowoSasageyoIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylLinkedHorizonShinzowoSasageyoIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Linked Horizon - Shinzo wo Sasageyo (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_LinkedHorizonShinzowoSasageyoIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumLinkinParkInTheEndIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum11,
+		DisplayName		=	Vinyl Album Linkin Park - In The End (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_LinkinParkInTheEndIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylLinkinParkInTheEndIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Linkin Park - In The End (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_LinkinParkInTheEndIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumLinkinParkNumbIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum9,
+		DisplayName		=	Vinyl Album Linkin Park - Numb (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_LinkinParkNumbIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylLinkinParkNumbIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Linkin Park - Numb (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_LinkinParkNumbIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumLinkinParkWhatIveDoneIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum2,
+		DisplayName		=	Vinyl Album Linkin Park - What I've Done (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_LinkinParkWhatIveDoneIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylLinkinParkWhatIveDoneIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Linkin Park - What I've Done (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_LinkinParkWhatIveDoneIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumLynyrdSkynyrdFreeBirdIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum4,
+		DisplayName		=	Vinyl Album Lynyrd Skynyrd - Free Bird (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_LynyrdSkynyrdFreeBirdIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylLynyrdSkynyrdFreeBirdIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Lynyrd Skynyrd - Free Bird (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_LynyrdSkynyrdFreeBirdIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumMaroon5ftChristinaAguileraMovesLikeJagger
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum1,
+		DisplayName		=	Vinyl Album Maroon 5 ft. Christina Aguilera - Moves Like Jagger,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_Maroon5ftChristinaAguileraMovesLikeJagger,
+		CanSpawn		=	true,
+	}
+
+	item VinylMaroon5ftChristinaAguileraMovesLikeJagger
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Maroon 5 ft. Christina Aguilera - Moves Like Jagger (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_Maroon5ftChristinaAguileraMovesLikeJagger,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumMasafumiTakadaDANGANRONPAReissueIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum7,
+		DisplayName		=	Vinyl Album Masafumi Takada - DANGANRONPA Reissue (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_MasafumiTakadaDANGANRONPAReissueIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylMasafumiTakadaDANGANRONPAReissueIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Masafumi Takada - DANGANRONPA Reissue (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_MasafumiTakadaDANGANRONPAReissueIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumMichaelJacksonBeatItIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum1,
+		DisplayName		=	Vinyl Album Michael Jackson - Beat It (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_MichaelJacksonBeatItIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylMichaelJacksonBeatItIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Michael Jackson - Beat It (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_MichaelJacksonBeatItIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumMichaelJacksonHealTheWorldIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum2,
+		DisplayName		=	Vinyl Album Michael Jackson - Heal The World (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_MichaelJacksonHealTheWorldIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylMichaelJacksonHealTheWorldIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Michael Jackson - Heal The World (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_MichaelJacksonHealTheWorldIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumMichaelJacksonThrillerIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum6,
+		DisplayName		=	Vinyl Album Michael Jackson - Thriller (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_MichaelJacksonThrillerIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylMichaelJacksonThrillerIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Michael Jackson - Thriller (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_MichaelJacksonThrillerIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumMickGordonTheOnlyThingTheyFearIsYouIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum6,
+		DisplayName		=	Vinyl Album Mick Gordon The Only Thing They Fear Is You (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_MickGordonTheOnlyThingTheyFearIsYouIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylMickGordonTheOnlyThingTheyFearIsYouIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Mick Gordon The Only Thing They Fear Is You (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_MickGordonTheOnlyThingTheyFearIsYouIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumMyChemicalRomanceDisenchantedIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum5,
+		DisplayName		=	Vinyl Album My Chemical Romance - Disenchanted (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_MyChemicalRomanceDisenchantedIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylMyChemicalRomanceDisenchantedIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl My Chemical Romance - Disenchanted (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_MyChemicalRomanceDisenchantedIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumMyChemicalRomanceIDontLoveYouIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum4,
+		DisplayName		=	Vinyl Album My Chemical Romance - I Dont Love You (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_MyChemicalRomanceIDontLoveYouIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylMyChemicalRomanceIDontLoveYouIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl My Chemical Romance - I Dont Love You (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_MyChemicalRomanceIDontLoveYouIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumNarutoTheRaisingFightingSpiritIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum7,
+		DisplayName		=	Vinyl Album Naruto - The Raising Fighting Spirit (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_NarutoTheRaisingFightingSpiritIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylNarutoTheRaisingFightingSpiritIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Naruto - The Raising Fighting Spirit (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_NarutoTheRaisingFightingSpiritIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumNatalieImbrugliaTornIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum4,
+		DisplayName		=	Vinyl Album Natalie Imbruglia - Torn (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_NatalieImbrugliaTornIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylNatalieImbrugliaTornIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Natalie Imbruglia - Torn (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_NatalieImbrugliaTornIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumNovoAmorStateLinesIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum8,
+		DisplayName		=	Vinyl Album Novo Amor - State Lines (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_NovoAmorStateLinesIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylNovoAmorStateLinesIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Novo Amor - State Lines (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_NovoAmorStateLinesIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumOasisStandByMeIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum5,
+		DisplayName		=	Vinyl Album Oasis - Stand By Me (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_OasisStandByMeIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylOasisStandByMeIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Oasis - Stand By Me (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_OasisStandByMeIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumONEOKROCKTheBeginningIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum10,
+		DisplayName		=	Vinyl Album ONE OK ROCK - The Beginning (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_ONEOKROCKTheBeginningIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylONEOKROCKTheBeginningIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl ONE OK ROCK - The Beginning (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_ONEOKROCKTheBeginningIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumONEOKROCKWhereverYouAreIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum9,
+		DisplayName		=	Vinyl Album ONE OK ROCK - Wherever You Are (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_ONEOKROCKWhereverYouAreIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylONEOKROCKWhereverYouAreIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl ONE OK ROCK - Wherever You Are (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_ONEOKROCKWhereverYouAreIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumOnePieceFightMusicIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum12,
+		DisplayName		=	Vinyl Album One Piece Fight Music (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_OnePieceFightMusicIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylOnePieceFightMusicIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl One Piece Fight Music (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_OnePieceFightMusicIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumPlayboiCartiSkyIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum5,
+		DisplayName		=	Vinyl Album Playboi Carti - Sky (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_PlayboiCartiSkyIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylPlayboiCartiSkyIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Playboi Carti - Sky (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_PlayboiCartiSkyIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumPocoPocoIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum2,
+		DisplayName		=	Vinyl Album Poco Poco (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_PocoPocoIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylPocoPocoIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Poco Poco (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_PocoPocoIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumProjectPopGoyangDuyuIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum2,
+		DisplayName		=	Vinyl Album Project Pop - Goyang Duyu (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_ProjectPopGoyangDuyuIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylProjectPopGoyangDuyuIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Project Pop - Goyang Duyu (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_ProjectPopGoyangDuyuIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumProjectPopIWillNotSurviveIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum1,
+		DisplayName		=	Vinyl Album Project Pop - I Will Not Survive (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_ProjectPopIWillNotSurviveIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylProjectPopIWillNotSurviveIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Project Pop - I Will Not Survive (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_ProjectPopIWillNotSurviveIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumQueenBicycleIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum7,
+		DisplayName		=	Vinyl Album Queen - Bicycle (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_QueenBicycleIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylQueenBicycleIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Queen - Bicycle (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_QueenBicycleIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumQueenDontStopMeNowIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum7,
+		DisplayName		=	Vinyl Album Queen - Dont Stop Me Now (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_QueenDontStopMeNowIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylQueenDontStopMeNowIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Queen - Dont Stop Me Now (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_QueenDontStopMeNowIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumQUEENDOMRainychVerIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum1,
+		DisplayName		=	Vinyl Album QUEENDOM Rainych Ver (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_QUEENDOMRainychVerIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylQUEENDOMRainychVerIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl QUEENDOM Rainych Ver (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_QUEENDOMRainychVerIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumRainychBlackRoverCoverIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum1,
+		DisplayName		=	Vinyl Album Rainych - Black Rover Cover (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_RainychBlackRoverCoverIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylRainychBlackRoverCoverIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Rainych - Black Rover Cover (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_RainychBlackRoverCoverIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumRasputinDangdutRemixIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum9,
+		DisplayName		=	Vinyl Album Rasputin Dangdut Remix (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_RasputinDangdutRemixIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylRasputinDangdutRemixIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Rasputin Dangdut Remix (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_RasputinDangdutRemixIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumRedHotChiliPeppersCalifornicationIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum8,
+		DisplayName		=	Vinyl Album Red Hot Chili Peppers - Californication (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_RedHotChiliPeppersCalifornicationIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylRedHotChiliPeppersCalifornicationIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Red Hot Chili Peppers - Californication (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_RedHotChiliPeppersCalifornicationIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumRickAstleyNeverGonnaGiveYouUpIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum3,
+		DisplayName		=	Vinyl Album Rick Astley - Never Gonna Give You Up (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_RickAstleyNeverGonnaGiveYouUpIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylRickAstleyNeverGonnaGiveYouUpIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Rick Astley - Never Gonna Give You Up (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_RickAstleyNeverGonnaGiveYouUpIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumSabilulunganInstrumentalIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum5,
+		DisplayName		=	Vinyl Album Sabilulungan Instrumental (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_SabilulunganInstrumentalIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylSabilulunganInstrumentalIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Sabilulungan Instrumental (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_SabilulunganInstrumentalIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumSaykojiJalanPanjangftGunturSimbolonIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum10,
+		DisplayName		=	Vinyl Album Saykoji - Jalan Panjang ft. Guntur Simbolon (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_SaykojiJalanPanjangftGunturSimbolonIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylSaykojiJalanPanjangftGunturSimbolonIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Saykoji - Jalan Panjang ft. Guntur Simbolon (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_SaykojiJalanPanjangftGunturSimbolonIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumSeringaiProgramPartySeringaiIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum10,
+		DisplayName		=	Vinyl Album Seringai - Program Party Seringai (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_SeringaiProgramPartySeringaiIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylSeringaiProgramPartySeringaiIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Seringai - Program Party Seringai (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_SeringaiProgramPartySeringaiIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumSiMTheRumblingIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum10,
+		DisplayName		=	Vinyl Album SiM - The Rumbling (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_SiMTheRumblingIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylSiMTheRumblingIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl SiM - The Rumbling (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_SiMTheRumblingIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumSlipknotTheDevilinIIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum2,
+		DisplayName		=	Vinyl Album Slipknot - The Devil in I (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_SlipknotTheDevilinIIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylSlipknotTheDevilinIIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Slipknot - The Devil in I (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_SlipknotTheDevilinIIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumSpillerGroovejetIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum4,
+		DisplayName		=	Vinyl Album Spiller - Groovejet (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_SpillerGroovejetIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylSpillerGroovejetIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Spiller - Groovejet (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_SpillerGroovejetIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumSpongebobSoundtrackGrassSkirtChaseIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum10,
+		DisplayName		=	Vinyl Album Spongebob Soundtrack - Grass Skirt Chase (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_SpongebobSoundtrackGrassSkirtChaseIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylSpongebobSoundtrackGrassSkirtChaseIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Spongebob Soundtrack - Grass Skirt Chase (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_SpongebobSoundtrackGrassSkirtChaseIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumSpongeBobSoundtrackTwelfthStreetRagIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum2,
+		DisplayName		=	Vinyl Album SpongeBob Soundtrack - Twelfth Street Rag (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_SpongeBobSoundtrackTwelfthStreetRagIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylSpongeBobSoundtrackTwelfthStreetRagIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl SpongeBob Soundtrack - Twelfth Street Rag (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_SpongeBobSoundtrackTwelfthStreetRagIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumSurvivorEyeoftheTigerIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum3,
+		DisplayName		=	Vinyl Album Survivor - Eye of the Tiger (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_SurvivorEyeoftheTigerIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylSurvivorEyeoftheTigerIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Survivor - Eye of the Tiger (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_SurvivorEyeoftheTigerIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumTakashiTakeuchiMeltyBloodTypeLuminaOSTIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum6,
+		DisplayName		=	Vinyl Album Takashi Takeuchi - Melty Blood Type Lumina OST (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_TakashiTakeuchiMeltyBloodTypeLuminaOSTIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylTakashiTakeuchiMeltyBloodTypeLuminaOSTIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Takashi Takeuchi - Melty Blood Type Lumina OST (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_TakashiTakeuchiMeltyBloodTypeLuminaOSTIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumTheCranberriesZombieIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum6,
+		DisplayName		=	Vinyl Album The Cranberries - Zombie (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_TheCranberriesZombieIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylTheCranberriesZombieIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl The Cranberries - Zombie (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_TheCranberriesZombieIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumTheKillersCautionIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum12,
+		DisplayName		=	Vinyl Album The Killers - Caution (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_TheKillersCautionIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylTheKillersCautionIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl The Killers - Caution (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_TheKillersCautionIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumTheWhiteStripesSevenNationArmyIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum4,
+		DisplayName		=	Vinyl Album The White Stripes - Seven Nation Army (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_TheWhiteStripesSevenNationArmyIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylTheWhiteStripesSevenNationArmyIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl The White Stripes - Seven Nation Army (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_TheWhiteStripesSevenNationArmyIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumTokyoDriftFastFuriousIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum8,
+		DisplayName		=	Vinyl Album Tokyo Drift Fast - Furious (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_TokyoDriftFastFuriousIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylTokyoDriftFastFuriousIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Tokyo Drift Fast - Furious (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_TokyoDriftFastFuriousIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumVickeBlankaBlackCatcherIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum12,
+		DisplayName		=	Vinyl Album Vicke Blanka - Black Catcher (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_VickeBlankaBlackCatcherIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylVickeBlankaBlackCatcherIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Vicke Blanka - Black Catcher (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_VickeBlankaBlackCatcherIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumVickeBlankaBlackRoverIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum3,
+		DisplayName		=	Vinyl Album Vicke Blanka - Black Rover (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_VickeBlankaBlackRoverIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylVickeBlankaBlackRoverIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Vicke Blanka - Black Rover (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_VickeBlankaBlackRoverIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumWarkopDKIAndecaAndeciIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum10,
+		DisplayName		=	Vinyl Album Warkop DKI - Andeca Andeci (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_WarkopDKIAndecaAndeciIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylWarkopDKIAndecaAndeciIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Warkop DKI - Andeca Andeci (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_WarkopDKIAndecaAndeciIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumWeezerIslandInTheSunIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum5,
+		DisplayName		=	Vinyl Album Weezer - Island In The Sun (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_WeezerIslandInTheSunIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylWeezerIslandInTheSunIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Weezer - Island In The Sun (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_WeezerIslandInTheSunIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumWestlifeMyLoveIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum10,
+		DisplayName		=	Vinyl Album Westlife - My Love (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_WestlifeMyLoveIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylWestlifeMyLoveIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Westlife - My Love (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_WestlifeMyLoveIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumWestlifeUptownGirlIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum12,
+		DisplayName		=	Vinyl Album Westlife - Uptown Girl (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_WestlifeUptownGirlIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylWestlifeUptownGirlIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Westlife - Uptown Girl (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_WestlifeUptownGirlIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumYeatPoppinIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum11,
+		DisplayName		=	Vinyl Album Yeat - Poppin (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_YeatPoppinIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylYeatPoppinIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl Yeat - Poppin (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_YeatPoppinIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumYugoKannoilventodoroIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum11,
+		DisplayName		=	Vinyl Album Yugo Kanno - il vento d'oro (IPZ),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_YugoKannoilventodoroIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylYugoKannoilventodoroIPZ
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Yugo Kanno - il vento d'oro (IPZ) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_YugoKannoilventodoroIPZ,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumCOVERTilKontalKantilKoesPlusCoverbyMioKohana1
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum4,
+		DisplayName		=	Vinyl Album 【COVER】Til Kontal Kantil - Koes Plus Cover by Mio Kohana (1),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_COVERTilKontalKantilKoesPlusCoverbyMioKohana1,
+		CanSpawn		=	true,
+	}
+
+	item VinylCOVERTilKontalKantilKoesPlusCoverbyMioKohana1
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl 【COVER】Til Kontal Kantil - Koes Plus Cover by Mio Kohana (1) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_COVERTilKontalKantilKoesPlusCoverbyMioKohana1,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumNdarboyGenkMendungTanpoUdanLyrics
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum7,
+		DisplayName		=	Vinyl Album Ndarboy Genk - Mendung Tanpo Udan (Lyrics),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_NdarboyGenkMendungTanpoUdanLyrics,
+		CanSpawn		=	true,
+	}
+
+	item VinylNdarboyGenkMendungTanpoUdanLyrics
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord3,
+		DisplayName		=	Vinyl Ndarboy Genk - Mendung Tanpo Udan (Lyrics) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_NdarboyGenkMendungTanpoUdanLyrics,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumAlterEgoPreciousRemix
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum4,
+		DisplayName		=	Vinyl Album Alter Ego (Precious Remix),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_AlterEgoPreciousRemix,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlterEgoPreciousRemix
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Alter Ego (Precious Remix) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_AlterEgoPreciousRemix,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumnonarollerbladeLyrics
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum8,
+		DisplayName		=	Vinyl Album no na - rollerblade (Lyrics),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_nonarollerbladeLyrics,
+		CanSpawn		=	true,
+	}
+
+	item VinylnonarollerbladeLyrics
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl no na - rollerblade (Lyrics) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_nonarollerbladeLyrics,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumJuicyLuicyLampuKuning
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum11,
+		DisplayName		=	Vinyl Album Juicy Luicy - Lampu Kuning,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_JuicyLuicyLampuKuning,
+		CanSpawn		=	true,
+	}
+
+	item VinylJuicyLuicyLampuKuning
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl Juicy Luicy - Lampu Kuning (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_JuicyLuicyLampuKuning,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumSalPriadiFotoKitaBlur
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum11,
+		DisplayName		=	Vinyl Album Sal Priadi - Foto Kita Blur,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_SalPriadiFotoKitaBlur,
+		CanSpawn		=	true,
+	}
+
+	item VinylSalPriadiFotoKitaBlur
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord5,
+		DisplayName		=	Vinyl Sal Priadi - Foto Kita Blur (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_SalPriadiFotoKitaBlur,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumObhCombiSachet
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum3,
+		DisplayName		=	Vinyl Album Obh Combi Sachet,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_ObhCombiSachet,
+		CanSpawn		=	true,
+	}
+
+	item VinylObhCombiSachet
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord4,
+		DisplayName		=	Vinyl Obh Combi Sachet (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_ObhCombiSachet,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumKICAUMANIANDARBOYGENKBANDITOZYAOW86
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum10,
+		DisplayName		=	Vinyl Album KICAU MANIA – NDARBOY GENK - BANDITOZ YAOW 86,
+		WorldStaticModel = SkidisSong1.TMVinylalbum_KICAUMANIANDARBOYGENKBANDITOZYAOW86,
+		CanSpawn		=	true,
+	}
+
+	item VinylKICAUMANIANDARBOYGENKBANDITOZYAOW86
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord1,
+		DisplayName		=	Vinyl KICAU MANIA – NDARBOY GENK - BANDITOZ YAOW 86 (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_KICAUMANIANDARBOYGENKBANDITOZYAOW86,
+		CanSpawn		=	true,
+	}
+
+	item VinylAlbumTerranovaPanderaAirplayEdit
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.05,
+		Icon			=	TCAlbum12,
+		DisplayName		=	Vinyl Album 담담 디디디디 고양이 밈 한국어 자막 Terranova (Pandera Airplay Edit),
+		WorldStaticModel = SkidisSong1.TMVinylalbum_TerranovaPanderaAirplayEdit,
+		CanSpawn		=	true,
+	}
+
+	item VinylTerranovaPanderaAirplayEdit
+	{
+		ItemType		=	base:normal,
+		DisplayCategory = Entertainment,
+		Weight			=	0.02,
+		Icon			=	TCVinylrecord2,
+		DisplayName		=	Vinyl 담담 디디디디 고양이 밈 한국어 자막 Terranova (Pandera Airplay Edit) (A-Side),
+		WorldStaticModel = SkidisSong1.TMVinylrecord_TerranovaPanderaAirplayEdit,
+		CanSpawn		=	true,
+	}
+
+}
