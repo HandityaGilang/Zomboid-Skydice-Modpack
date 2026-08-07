@@ -1,4 +1,0 @@
-UI_EN = {
-	UI_ClothingType_JacketSuitSlim = "Suit Jacket Slim*",
-	UI_ClothingType_BathRobeCoat = "Bathrobe Coat*",
-}

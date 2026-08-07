@@ -1,4 +1,0 @@
-ContextMenu_EN = {
-	ContextMenu_Open = "Open",
-	ContextMenu_Close = "Close",
-}
