@@ -11,7 +11,7 @@ Set-StrictMode -Version 2.0
 
 $BuilderVersion = "2.0"
 $DrivePath = "mods/LifestyleHobbies_KardinalTest/common/media/texturepacks/LS_Artwork.pack"
-$DriveUrl  = "https://drive.google.com/uc?export=download&id=1pTtNBJhH8Djhbh9tR3pnZAF88bq4mpvO"
+$DriveUrl  = "https://www.dropbox.com/scl/fi/oprab9zm7q57aelb156t0/LS_Artwork.pack?rlkey=0fijr6zbzjztyfo0cb25o6gny&st=w444gs0s&dl=1"
 $DriveHash = "48fe9c8e39740ec3b299ae56fc250571d9be61e3979f0766e24a8306964ccaea"
 $DriveSize = [Int64]143840426
 
