@@ -1,0 +1,706 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+	
+	<files>
+    <path>media/clothing/clothingItems/Tie_BoloTie_NoCollar.xml</path>
+    <guid>ac17933b-acf7-4aa6-8dcb-e489c7fbd4aa</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Tie_BoloTieFull.xml</path>
+    <guid>ff7e2d46-5220-4067-b9ab-8954639ac1bc</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Tie_BowTieFull.xml</path>
+    <guid>ab416002-d83f-486e-94a7-049a16eb641f</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Tie_BowTie_NoCollar.xml</path>
+    <guid>f5a11d5c-e19d-42d4-95aa-66d912ee583e</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/T_Tie_BowTieFull.xml</path>
+    <guid>6af2a1df-db12-44cd-a180-82a68057164a</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/T_Tie_BowTie_NoCollar.xml</path>
+    <guid>4255cdb5-b0da-4edd-bd1d-d56a6c8f8c65</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Tie_Stripe_Full.xml</path>
+    <guid>79d2b648-3e8f-4b27-acf8-fb32fbb52434</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Tie_Stripe_Full_NoCollar.xml</path>
+    <guid>5ffd4e7e-0e0b-44d9-a2dd-a74836104a45</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Tie_Dots_Full.xml</path>
+    <guid>f8d862fe-812a-4cb8-adf8-c27c1f3f9b28</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Tie_Dots_Full_NoCollar.xml</path>
+    <guid>76960c13-0578-4b93-8e5e-e45d62910fb6</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Tie_Sq_Full.xml</path>
+    <guid>3539bfa7-668d-4b8f-9df9-1f1c2c4c5f28</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Tie_Sq_Full_NoCollar.xml</path>
+    <guid>209b003e-de75-47ce-9109-938fcd7955a9</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Tie_Grd_Full.xml</path>
+    <guid>b0421ac7-52ee-492c-b5a5-85d4444b6f24</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Tie_Grd_Full_NoCollar.xml</path>
+    <guid>9811411d-17f9-4605-8ee4-5049cb134159</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Tie_Full_NoCollar.xml</path>
+    <guid>307a300a-abc2-4900-b949-85d38bc71570</guid>
+	</files>
+	
+	<!--Vanilla-->
+		<files> 
+		<path>media/clothing/clothingItems/Tie_Full.xml</path>
+		<guid>d53c3cb1-4c67-4627-b9d9-0da2cc024980</guid>
+		</files>
+	
+		<files>
+		<path>media/clothing/clothingItems/Tie_BowTieWorn.xml</path>
+		<guid>1fe17091-4008-4017-8631-6cee29928550</guid>
+		</files>
+		
+		<files>
+		<path>media/clothing/clothingItems/Tie_Worn.xml</path>
+		<guid>1be7cae9-82bd-473f-8de9-23a8d9ca3117</guid>
+		</files>
+		
+		<files>
+		<path>media/clothing/clothingItems/Tie_Worn_Spiffo.xml</path>
+		<guid>a14cc5d1-dab8-48e2-a03d-0a9dfd0cb4d7</guid>
+		</files>
+		
+	<!--Vanilla Suit-->
+	
+		<files>
+        <path>media/clothing/clothingItems/Suit_Jacket.xml</path>
+        <guid>eecd5923-4944-4b33-9c4c-66045ea6984e</guid>
+		</files>
+	
+	<!--Cotton Shirt Long Basic-->
+	
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_00.xml</path>
+    <guid>b9f76d56-07da-4f55-bcbf-dfa903931c13</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_01.xml</path>
+    <guid>26442d51-c9cb-46df-b060-91dccaf7fde4</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_02.xml</path>
+    <guid>30e2bded-bb0f-43ed-aab4-f55708050897</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_03.xml</path>
+    <guid>21f59274-7875-4b76-8ba1-256cb5bf7c41</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_04.xml</path>
+    <guid>bfca46ff-c30d-4cb4-83b9-1f7b1c52fb9f</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_05.xml</path>
+    <guid>96507b01-2233-402e-bce1-6c45d933021b</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_10.xml</path>
+    <guid>f682d91a-0112-47d8-927e-59171e7d746b</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_11.xml</path>
+    <guid>4d5102e3-e3c0-403a-84f9-c22cbe9c1117</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_12.xml</path>
+    <guid>f5766c06-0c5e-4c26-b1e3-c430e66efc85</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_13.xml</path>
+    <guid>89f4cf1b-665b-4ff8-b291-5f2b39e29f77</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_14.xml</path>
+    <guid>b7ce1a57-b4fe-4af2-9ce7-7700b687e7ed</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_15.xml</path>
+    <guid>5cf1ced4-32bb-424b-8e0a-38e2883fdf8f</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_20.xml</path>
+    <guid>0827e35f-2245-49db-9acc-c230215fa534</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_21.xml</path>
+    <guid>e0a6a240-bc22-4238-af18-e365468b0287</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_22.xml</path>
+    <guid>63d570ff-5274-4229-bb94-febd435f91ff</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_23.xml</path>
+    <guid>d62667e4-b021-4319-b4d1-a40f40d44ea3</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_24.xml</path>
+    <guid>2382d4c3-afc5-4270-a648-0b8601b2134e</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_25.xml</path>
+    <guid>53ec888b-fdaf-4ba4-a964-515aa07dd197</guid>
+	</files>
+	
+	<!--Cotton Shirt Short Basic-->
+	
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_B_00.xml</path>
+    <guid>d51a3356-bca0-4ef4-bece-7afdf10a6b1c</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_B_01.xml</path>
+    <guid>e345c1c9-f2c1-4a3c-82dd-c40f65184a14</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_B_02.xml</path>
+    <guid>6b9384a1-1ebb-4b43-a231-f698e60e7df3</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_B_03.xml</path>
+    <guid>d1c8891b-6223-4eaa-8c90-3bd7d2379424</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_B_04.xml</path>
+    <guid>dfa51df8-e7be-481c-9ad0-83e4fde63f74</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_B_10.xml</path>
+    <guid>957bb67e-42cd-4ebb-a65e-b4aafbf62143</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_B_11.xml</path>
+    <guid>cefc3d37-f04f-4b53-98cb-d1f389236420</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_B_12.xml</path>
+    <guid>fedc1784-2a3b-4ace-843f-d96b7fbca841</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_B_13.xml</path>
+    <guid>7d185133-34ac-4b21-8fb2-5ec04e052ba8</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_B_14.xml</path>
+    <guid>5dfc2b09-cfa2-4bdc-b07a-cb79cc3a6742</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_B_20.xml</path>
+    <guid>ea30bc17-4839-4a28-b9df-c3aec942629c</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_B_21.xml</path>
+    <guid>47bfd976-81bc-4890-b11d-9e111396cc16</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_B_22.xml</path>
+    <guid>684b64ae-2ffc-4fe8-aebc-a719f3709b20</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_B_23.xml</path>
+    <guid>f4d2a373-1492-4b87-ab8c-cee233c6a85b</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_B_24.xml</path>
+    <guid>1d8ff22f-d9d6-43ff-81f9-7d1f0768d486</guid>
+	</files>
+	
+	<!--Cotton Shirt Cropped Basic-->
+	
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_C_00.xml</path>
+    <guid>81b6bd76-f5ac-4c53-83af-2c3f309d6e3e</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_C_01.xml</path>
+    <guid>63df44e8-a25e-45ef-9875-d2364eef5a3e</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_C_02.xml</path>
+    <guid>993304b4-39bf-4497-869f-b71e68295a2c</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_C_03.xml</path>
+    <guid>fbfd5fd2-15ee-4ac0-bd07-e5822b6d457f</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_C_04.xml</path>
+    <guid>e4584e9e-c08a-427c-bcec-6f86b12ac5be</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_C_10.xml</path>
+    <guid>362c283c-6e33-4a67-be9b-c53b4141e5e7</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_C_11.xml</path>
+    <guid>ba6f06be-979c-41f9-828c-0e5489321094</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_C_12.xml</path>
+    <guid>4a7da657-c049-4de1-a85c-d82a1dc2ed95</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_C_13.xml</path>
+    <guid>b8ad3a87-0924-47f3-8ddb-c2c57ee04c65</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_C_14.xml</path>
+    <guid>ffde2ea9-dae1-4827-a6ef-2c15945d027f</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_C_20.xml</path>
+    <guid>c42e6449-1c26-4886-885e-f16718d5d482</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_C_21.xml</path>
+    <guid>87f9d4f8-df76-4b64-b1ff-caa2e5db7a53</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_C_22.xml</path>
+    <guid>226a2299-4803-4d41-9445-6b16cd9ac609</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_C_23.xml</path>
+    <guid>d2339e4e-dc6f-4ff7-bda8-2852c3727b58</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_C_24.xml</path>
+    <guid>78093ac4-fdd8-46a4-b9e0-c13e598d6394</guid>
+	</files>
+	
+	<!--Cotton Shirt Sleeveless Basic-->
+	
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_D_00.xml</path>
+    <guid>7d8062ce-1918-4086-955c-c8a8fe818005</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_D_01.xml</path>
+    <guid>79b54fe2-a151-495b-bef5-4d0bcc1e6de8</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_D_02.xml</path>
+    <guid>82b550fa-bacc-4f2f-a208-fb4356d25b1d</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_D_03.xml</path>
+    <guid>5f51d8d4-9437-47dd-b2d9-6938bf1b6dfc</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_D_04.xml</path>
+    <guid>fde38695-bbba-4a30-a5e6-e6f0f990dc68</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_E_00.xml</path>
+    <guid>feef6fdd-4101-4a16-bde8-bda1b530ccdf</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_E_01.xml</path>
+    <guid>38c5ce86-5848-4a8d-ad86-bee694e32dec</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_E_02.xml</path>
+    <guid>6c44f2a0-d6e7-42bf-8a26-8145bbb785b1</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_E_03.xml</path>
+    <guid>f41b5565-6186-4c4c-95a8-4b99ef3b9b95</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Shirt_E_04.xml</path>
+    <guid>5eec7ba4-a0a9-4d6b-b5c9-1f58d7825abf</guid>
+	</files>
+
+	<!--TAINTABLE TAINTABLE TAINTABLE TAINTABLE TAINTABLE TAINTABLE-->
+
+	<!--TAINTABLE Cotton Shirt Long Basic-->
+	
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_00.xml</path>
+    <guid>6068b5d9-0f9b-4ebf-b55a-4dcd3c13d995</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_01.xml</path>
+    <guid>4c1866f8-1361-4093-928e-dee8fcef05aa</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_02.xml</path>
+    <guid>47640b1c-b9f3-4957-8c30-f1ab3bb474c9</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_03.xml</path>
+    <guid>9d1b3b2b-647f-471d-94b6-9c966a556c3b</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_04.xml</path>
+    <guid>2d2394a7-06f0-4b9c-bbc0-be9f8b3ae4eb</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_05.xml</path>
+    <guid>830ef417-6e5a-4f72-9e2f-f2e2898c4a05</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_10.xml</path>
+    <guid>b7dbda12-3f73-4c8c-9da1-3b5ff2814562</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_11.xml</path>
+    <guid>186404f5-89f7-4ab5-9998-8e97fd0ccca9</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_12.xml</path>
+    <guid>d9a75c2f-6dc2-4975-a1d2-ca873fa59493</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_13.xml</path>
+    <guid>17aeb0f1-0c6a-4958-b769-2724b6953bb0</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_14.xml</path>
+    <guid>a4eca71a-3e07-4297-b7ac-31dfdca08202</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_15.xml</path>
+    <guid>9f0018db-0d38-4309-8b82-3d7566f7180c</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_20.xml</path>
+    <guid>88d26447-f594-418c-ae3a-5ecee56c61e4</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_21.xml</path>
+    <guid>24bf900b-5b4c-4868-a30e-d47ae9d888c4</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_22.xml</path>
+    <guid>36958e64-534d-4dfa-8e4a-9ce6c5c9f83e</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_23.xml</path>
+    <guid>15d3fdfa-343e-4eba-985f-674b1d655536</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_24.xml</path>
+    <guid>fc13ac62-f0fe-47ff-8f09-2b7b6f82de5b</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_25.xml</path>
+    <guid>cadfb2a7-31a6-461e-97d6-b6736aac8634</guid>
+	</files>
+	
+	<!--TAINTABLE Cotton Shirt Short Basic-->
+	
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_B_00.xml</path>
+    <guid>85fd2a59-837c-4b8b-845d-36c2eb9228f7</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_B_01.xml</path>
+    <guid>f5b87eca-9f80-4472-93a3-0b6aff2b0973</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_B_02.xml</path>
+    <guid>2b507158-5339-49ef-9223-a7afc6fc14ea</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_B_03.xml</path>
+    <guid>42f997c4-73fb-4a27-ab59-f7b8c11406de</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_B_04.xml</path>
+    <guid>61e333ff-0e9b-48f8-a5d1-667443535ac3</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_B_10.xml</path>
+    <guid>4e935956-e176-4e9a-847c-362955166213</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_B_11.xml</path>
+    <guid>1a93384e-bc09-4b5d-be62-a9a89464cb8a</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_B_12.xml</path>
+    <guid>1f5f91f8-9090-4ebe-82f7-0cc04a787b2c</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_B_13.xml</path>
+    <guid>aae59b28-3cdb-4af8-a868-c8c41de7caed</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_B_14.xml</path>
+    <guid>61a6f055-33da-4c16-8598-3c4d369e9b32</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_B_20.xml</path>
+    <guid>30b2bab7-e915-4f97-adb8-081b14a840bf</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_B_21.xml</path>
+    <guid>cc4ebaf2-75d6-4781-9350-46a0139b3529</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_B_22.xml</path>
+    <guid>6e14fa81-b6a0-400b-aa4d-14d407937cbe</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_B_23.xml</path>
+    <guid>ce5094d1-d2f6-4a6a-a27c-8162a36225ae</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_B_24.xml</path>
+    <guid>62594655-387f-4f6f-b685-294cc0926b44</guid>
+	</files>
+	
+	<!--TAINTABLE Cotton Shirt Cropped Basic-->
+	
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_C_00.xml</path>
+    <guid>a25be1c3-bba3-4672-973a-2a1351325c36</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_C_01.xml</path>
+    <guid>8966612f-12b1-4c6a-bea9-b4aabf3caf6b</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_C_02.xml</path>
+    <guid>463bfede-dfc2-4518-8287-26a3c29c7898</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_C_03.xml</path>
+    <guid>d70c1cb5-8c8e-4815-8356-5b94403b7655</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_C_04.xml</path>
+    <guid>bdc7907f-6b43-4aa7-a0dc-c904c4694514</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_C_10.xml</path>
+    <guid>fd3e08ef-7d6e-493b-9384-cbe543ff75b6</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_C_11.xml</path>
+    <guid>1273c280-6532-4ce9-aea0-0c17b301d6cc</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_C_12.xml</path>
+    <guid>2d0fa291-240c-48f6-a137-b0446786c1ba</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_C_13.xml</path>
+    <guid>d8e989c0-a013-4c4f-99c8-a2bb0c9a7c5f</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_C_14.xml</path>
+    <guid>c871d122-9ada-49f8-9e45-2529a3324940</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_C_20.xml</path>
+    <guid>cb9906f8-048a-46bd-a7a1-8b409073541c</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_C_21.xml</path>
+    <guid>8bfc6280-42c7-41c5-9803-3bc8b5594f07</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_C_22.xml</path>
+    <guid>0e98eaa2-f5dc-45cc-bf6b-3803caeea901</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_C_23.xml</path>
+    <guid>554c9795-9d08-48a2-bd54-c063972f7d4c</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_C_24.xml</path>
+    <guid>b156c77f-65d6-4334-928e-ce6be4834b80</guid>
+	</files>
+	
+	<!--TAINTABLE Cotton Shirt Sleeveless Basic-->
+	
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_D_00.xml</path>
+    <guid>3173b763-4f32-4a3e-be46-9fdce8b8c07e</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_D_01.xml</path>
+    <guid>d59ab627-9e84-42e9-8ffa-ce37ca4cd8d7</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_D_02.xml</path>
+    <guid>924be6a5-77e5-43f8-86ed-b9f1278881fe</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_D_03.xml</path>
+    <guid>13adcea9-536b-47c8-82cb-7ead4359bb8a</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_D_04.xml</path>
+    <guid>cfd05834-0321-4a85-8b22-36e1d2b44b8e</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_E_00.xml</path>
+    <guid>061744b6-d2fa-4eff-a4ef-260f0b33bc73</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_E_01.xml</path>
+    <guid>31f545dc-6e19-4c22-8826-014467bf56eb</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_E_02.xml</path>
+    <guid>a89e3135-7ec4-4801-8b7e-1d03554352cc</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_E_03.xml</path>
+    <guid>b9b82e0b-2f15-464c-bcf9-a10c1f765e16</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/T_Cotton_Shirt_E_04.xml</path>
+    <guid>c1b2f530-2c25-4fef-83ea-78766c2860e2</guid>
+	</files>
+
+</fileGuidTable>
+

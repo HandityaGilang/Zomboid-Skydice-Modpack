@@ -1,0 +1,23 @@
+{
+	"Sandbox_DGMC_Cleaning_Wipes": "dustinguished cleaning wipes",
+
+	"Sandbox_DGMC_Cleaning_Wipes_Clean_Body": "Can Clean Body",
+	"Sandbox_DGMC_Cleaning_Wipes_Clean_Body_tooltip" : "Whether you can clean your body with cleaning wipes.",
+
+	"Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing": "Can Clean Clothing",
+	"Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing_tooltip": "Whether you can clean clothing with cleaning wipes.",
+
+	"Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons": "Can Clean Melee Weapons",
+	"Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons_tooltip": "Whether you can clean melee weapons with cleaning wipes.",
+
+	"Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup": "Removes Makeup",
+	"Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup_tooltip": "Whether to remove makeup when cleaning your body.",
+
+	"Sandbox_DGMC_Cleaning_Wipes_Speed_Mult": "Duration Multiplier",
+	"Sandbox_DGMC_Cleaning_Wipes_Speed_Mult_tooltip": "How long it takes to clean with wipes, relative to washing with water only.  Lower for faster, higher for slower.",
+
+	"Sandbox_DGMC_Cleaning_Wipes_Wetness": "Clothing Wetness",
+	"Sandbox_DGMC_Cleaning_Wipes_Wetness_tooltip": "When cleaning clothes, their wetness level will be set to a maximum of this value or its current level.  For example with the default value, clothes at 0 wetness would be set to 25, while clothes already at 50 wetness would stay at 50.",
+
+	"Sandbox_DGMC_Cleaning_Wipes_Debug_Logging": "Debug Logging"	
+}

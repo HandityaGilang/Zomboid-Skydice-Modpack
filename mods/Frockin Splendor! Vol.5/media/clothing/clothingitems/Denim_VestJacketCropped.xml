@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Overshirts\Overshirt_Cropped_M</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Overshirts\Overshirt_Cropped_F</m_FemaleModel>
+	<m_GUID>834c7bbb-1744-481b-879b-35f622c747d6</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>media/textures/Clothes/Suit/Masks</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Suit/Masks</m_UnderlayMasksFolder>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Vest\Denim_JacketCropped_A_O</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Vest\Denim_JacketCropped_B_O</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Vest\DenimBlue_JacketCropped_A_O</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Vest\DenimBlue_JacketCropped_B_O</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Vest\DenimBluer_JacketCropped_A_O</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Vest\DenimBluer_JacketCropped_B_O</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Vest\DenimBluest_JacketCropped_A_O</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Vest\DenimBluest_JacketCropped_B_O</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Vest\DenimBlack_JacketCropped_A_O</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Vest\DenimBlack_JacketCropped_B_O</textureChoices>
+</clothingItem>

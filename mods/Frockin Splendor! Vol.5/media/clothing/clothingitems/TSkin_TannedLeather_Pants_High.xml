@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>79643dd7-8547-449b-85bc-0a4993f721b9</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Pants_Skin\LeatherTanned_Pants_High</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Pants_Skin\LeatherTanned_Pants_1_High</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Pants_Skin\LeatherTanned_Pants_2_High</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Pants_Skin\LeatherTanned_Pants_3_High</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_LeatherTanned\Pants_Skin\LeatherTannedRed_Pants_High</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Pants_Skin\LeatherTannedRed_Pants_1_High</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Pants_Skin\LeatherTannedRed_Pants_2_High</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Pants_Skin\LeatherTannedRed_Pants_3_High</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_LeatherTanned\Pants_Skin\LeatherTannedYellow_Pants_High</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Pants_Skin\LeatherTannedYellow_Pants_1_High</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Pants_Skin\LeatherTannedYellow_Pants_2_High</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Pants_Skin\LeatherTannedYellow_Pants_3_High</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_LeatherTanned\Pants_Skin\LeatherTannedYellower_Pants_High</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Pants_Skin\LeatherTannedYellower_Pants_1_High</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Pants_Skin\LeatherTannedYellower_Pants_2_High</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Pants_Skin\LeatherTannedYellower_Pants_3_High</m_BaseTextures>
+
+</clothingItem>

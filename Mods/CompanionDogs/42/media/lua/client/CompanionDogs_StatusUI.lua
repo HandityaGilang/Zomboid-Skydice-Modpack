@@ -554,6 +554,11 @@ function ISCDCommandsView:doLayout()
     L.huntLabelY = y;       y = y + sm + ROW_GAP
     L.huntBtnY = y;         y = y + BTN_H + SECT_GAP
 
+    if self.showCare then
+        L.careLabelY = y;   y = y + sm + ROW_GAP
+        L.careBtnY = y;     y = y + BTN_H + SECT_GAP
+    end
+
     if self.showBag then
         L.bagBtnY = y;      y = y + BTN_H + SECT_GAP
     end
@@ -570,6 +575,9 @@ end
 function ISCDCommandsView:createChildren()
     self.showBag = false
     pcall(function() self.showBag = (not self.stashed) and CD.hasBag(self.animal) == true end)
+    -- Cuidar do gado: some no modo "no veiculo" (precisa do cao no mundo, num curral) e quando a sandbox desliga.
+    self.showCare = false
+    pcall(function() self.showCare = (not self.stashed) and CD.careEnabled() == true end)
     self:doLayout()
 
     self.followBtn = self:makeBtn(10, getText("IGUI_PD_CmdFollow"), ISCDCommandsView.onModeFollow, "CDFOLLOW")
@@ -582,6 +590,10 @@ function ISCDCommandsView:createChildren()
 
     self.protectBtn = self:makeBtn(10, getText("IGUI_PD_AutoProtect"), ISCDCommandsView.onToggleProtect, "CDPROTECT")
     self.huntBtn = self:makeBtn(10, getText("IGUI_PD_HuntMode"), ISCDCommandsView.onToggleHunt, "CDHUNT")
+
+    if self.showCare then
+        self.careBtn = self:makeBtn(10, getText("IGUI_PD_CareStart"), ISCDCommandsView.onToggleCare, "CDCARE")
+    end
 
     if self.showBag then
         self.bagBtn = self:makeBtn(10, getText("IGUI_PD_OpenBag"), ISCDCommandsView.onOpenBag, "CDBAG")
@@ -623,6 +635,10 @@ function ISCDCommandsView:layout()
 
     self.protectBtn:setX(PAD); self.protectBtn:setY(L.protectBtnY); self.protectBtn:setWidth(fullW)
     self.huntBtn:setX(PAD);    self.huntBtn:setY(L.huntBtnY);       self.huntBtn:setWidth(fullW)
+
+    if self.careBtn and L.careBtnY then
+        self.careBtn:setX(PAD); self.careBtn:setY(L.careBtnY); self.careBtn:setWidth(fullW)
+    end
 
     if self.bagBtn and L.bagBtnY then
         self.bagBtn:setX(PAD); self.bagBtn:setY(L.bagBtnY); self.bagBtn:setWidth(fullW)
@@ -680,6 +696,13 @@ function ISCDCommandsView:prerender()
         if self.huntBtn then
             self.huntBtn.title = getText(hunt and "IGUI_PD_HuntModeOn" or "IGUI_PD_HuntModeOff")
         end
+
+        if self.careBtn then
+            local caring = false
+            pcall(function() caring = CD.getCareMode(self.animal) end)
+            self:markActive(self.careBtn, caring)
+            self.careBtn.title = getText(caring and "IGUI_PD_CareStop" or "IGUI_PD_CareStart")
+        end
     end
     CD.UI.viewBeginRender(self)
 end
@@ -702,6 +725,9 @@ function ISCDCommandsView:drawContent()
     self:drawText(getText("IGUI_PD_SentinelLabel"), x, L.alertLabelY, LBL.r, LBL.g, LBL.b, 1, UIFont.Small)
     self:drawText(getText("IGUI_PD_AutoProtectLabel"), x, L.protectLabelY, LBL.r, LBL.g, LBL.b, 1, UIFont.Small)
     self:drawText(getText("IGUI_PD_HuntLabel"), x, L.huntLabelY, LBL.r, LBL.g, LBL.b, 1, UIFont.Small)
+    if L.careLabelY then
+        self:drawText(getText("IGUI_PD_CareLabel"), x, L.careLabelY, LBL.r, LBL.g, LBL.b, 1, UIFont.Small)
+    end
     self:drawText(getText("IGUI_PD_ActionsLabel"), x, L.actionsLabelY, LBL.r, LBL.g, LBL.b, 1, UIFont.Small)
 
     local w3 = math.floor((cw - PAD * 2 - BTN_GAP * 2) / 3)
@@ -731,6 +757,14 @@ function ISCDCommandsView:drawContent()
     end
     if hoverRect(PAD, L.huntBtnY, cw - PAD * 2, BTN_H) then
         infoTip = { title = getText("IGUI_PD_HuntMode"), body = getText("IGUI_PD_HuntModeDesc", breedNoun) }
+    end
+    if L.careBtnY and hoverRect(PAD, L.careBtnY, cw - PAD * 2, BTN_H) then
+        local caring = false
+        pcall(function() caring = CD.getCareMode(self.animal) end)
+        infoTip = {
+            title = caring and getText("IGUI_PD_CareStop") or getText("IGUI_PD_CareStart"),
+            body = getText("IGUI_PD_CareModeDesc", breedNoun) .. " " .. getText("IGUI_PD_CareDeselectWarn"),
+        }
     end
 
     if infoTip then
@@ -767,6 +801,32 @@ function ISCDCommandsView.onToggleHunt(view)
     local on = false
     pcall(function() on = CD.getHuntMode(view.animal) end)
     CD.request("sethuntmode", view.animal, { on = not on })
+end
+
+-- Confirmacao do "cuidar do gado". Atribuir DESSELECIONA o cao (server-side, CD.Server.setcaremode): ele vira um
+-- trabalhador independente e some da janela de comandos, entao pede confirmacao antes -- mesmo padrao do Soltar.
+-- PARAR de cuidar nao pede nada (nao perde nada; o cao so volta a ser um passivo comum).
+local function onCareConfirm(target, button)
+    local internal = (type(button) == "table") and button.internal or button
+    if internal == "YES" and target and target.animal then
+        CD.request("setcaremode", target.animal, { on = true })
+        if target.window then target.window:close() end
+    end
+end
+
+function ISCDCommandsView.onToggleCare(view)
+    if view.stashed or not view.animal then return end
+    local caring = false
+    pcall(function() caring = CD.getCareMode(view.animal) end)
+    if caring then
+        CD.request("setcaremode", view.animal, { on = false })
+        return
+    end
+    local p = getPlayer()
+    local modal = ISModalDialog:new(0, 0, 380, 160,
+        getText("IGUI_PD_CareDeselectConfirm", view:dogName()), true, view, onCareConfirm,
+        p and p:getPlayerNum() or 0)
+    modal:initialise(); modal:addToUIManager()
 end
 
 function ISCDCommandsView.onFetch(view)

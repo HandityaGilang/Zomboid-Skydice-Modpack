@@ -1,0 +1,553 @@
+module Base
+{
+    imports
+    {
+        Base
+    }
+
+    craftRecipe FirefighterHelmetVisor
+    {
+        timedAction = Making,
+        Time = 150,
+        category = Tailoring,
+        Tags = AnySurfaceCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 2 tags[base:thread],
+            item 1 [Base.Hat_Army;Base.Hat_ArmyDesert;Base.Hat_MetalScrapHelmet;Base.Hat_RiotHelmet;Base.Hat_SPHhelmet;Base.Hat_Fireman;Base.Hat_CrashHelmet;Base.Firefighter_Helmet],
+        }
+        outputs
+        {
+            item 1 Base.Firefighter_Helmet_VisorDown,
+        }
+    }
+
+    craftRecipe FirefighterHelmetNoVisor
+    {
+        timedAction = Making,
+        Time = 150,
+        category = Tailoring,
+        Tags = AnySurfaceCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 2 tags[base:thread],
+            item 1 [Base.Hat_Army;Base.Hat_ArmyDesert;Base.Hat_MetalScrapHelmet;Base.Hat_RiotHelmet;Base.Hat_SPHhelmet;Base.Hat_Fireman;Base.Hat_CrashHelmet;Base.Firefighter_Helmet_VisorDown],
+        }
+        outputs
+        {
+            item 1 Base.Firefighter_Helmet,
+        }
+    }
+
+    craftRecipe FirefighterJacket
+    {
+        timedAction = Making,
+        Time = 120,
+        category = Tailoring,
+        Tags = InHandCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+            item 6 [Base.LeatherStrips],
+            item 4 tags[base:thread],
+            item 4 [Base.RippedSheets],
+            item 2 tags[base:twine],
+        }
+        outputs
+        {
+            item 1 Base.Firefighter_Jacket,
+        }
+    }
+
+    craftRecipe FirefighterVest
+    {
+        timedAction = Making,
+        Time = 180,
+        category = Tailoring,
+        Tags = AnySurfaceCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+            item 2 [Base.LeatherStrips],
+            item 4 tags[base:thread],
+            item 2 [Base.Sheet],
+            item 1 tags[base:wire],
+            item 2 tags[base:smallsheetmetal] mode:destroy flags[ItemCount],
+        }
+        outputs
+        {
+            item 1 Base.Firefighter_BulletproofVest_Patriot,
+        }
+    }
+
+    craftRecipe FirefighterShoulderPadsHeavy
+    {
+        timedAction = Making,
+        Time = 120,
+        category = Tailoring,
+        Tags = AnySurfaceCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+            item 2 [Base.LeatherStrips],
+            item 4 tags[base:thread],
+            item 2 [Base.RippedSheets],
+            item 2 tags[base:smallsheetmetal] mode:destroy flags[ItemCount],
+        }
+        outputs
+        {
+            item 1 Base.Firefighter_ShoulderPads_Vanguard,
+        }
+    }
+
+    craftRecipe FirefighterShoulderPads
+    {
+        timedAction = Making,
+        Time = 120,
+        category = Tailoring,
+        Tags = AnySurfaceCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+            item 2 [Base.LeatherStrips],
+            item 4 tags[base:thread],
+            item 2 [Base.RippedSheets],
+            item 1 tags[base:smallsheetmetal] mode:destroy flags[ItemCount],
+        }
+        outputs
+        {
+            item 1 Base.Firefighter_ShoulderPads_Patriot,
+        }
+    }
+
+    craftRecipe FirefighterElbowPads
+    {
+        timedAction = Making,
+        Time = 120,
+        category = Tailoring,
+        Tags = AnySurfaceCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+            item 2 [Base.LeatherStrips],
+            item 4 tags[base:thread],
+            item 2 [Base.RippedSheets],
+            item 1 tags[base:smallsheetmetal] mode:destroy flags[ItemCount],
+        }
+        outputs
+        {
+            item 1 Base.Firefighter_ElbowPads,
+        }
+    }
+
+    craftRecipe FirefighterKneePads
+    {
+        timedAction = Making,
+        Time = 120,
+        category = Tailoring,
+        Tags = AnySurfaceCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+            item 2 [Base.LeatherStrips],
+            item 4 tags[base:thread],
+            item 2 [Base.RippedSheets],
+            item 1 tags[base:smallsheetmetal] mode:destroy flags[ItemCount],
+        }
+        outputs
+        {
+            item 1 Base.Firefighter_KneePads,
+        }
+    }
+
+    craftRecipe FirefighterKneePadsHeavy
+    {
+        timedAction = Making,
+        Time = 160,
+        category = Tailoring,
+        Tags = AnySurfaceCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+            item 2 [Base.LeatherStrips],
+            item 4 tags[base:thread],
+            item 4 [Base.RippedSheets],
+            item 2 tags[base:smallsheetmetal] mode:destroy flags[ItemCount],
+        }
+        outputs
+        {
+            item 1 Base.Firefighter_HeavyKneePads,
+        }
+    }
+
+    craftRecipe FirefighterGloves
+    {
+        timedAction = Making,
+        Time = 100,
+        category = Tailoring,
+        Tags = InHandCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_HuntingCamo;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black],
+            item 2 tags[base:thread],
+            item 2 [Base.RippedSheets],
+            item 2 [Base.LeatherStrips],
+        }
+        outputs
+        {
+            item 1 Base.Firefighter_Gloves,
+        }
+    }
+
+    craftRecipe FirefighterStrap
+    {
+        timedAction = Making,
+        Time = 100,
+        category = Tailoring,
+        Tags = InHandCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+            item 2 tags[base:thread],
+            item 2 [Base.RippedSheets],
+            item 2 [Base.LeatherStrips],
+        }
+        outputs
+        {
+            item 1 Base.Firefighter_Strap,
+        }
+    }
+
+    craftRecipe FirefighterPants
+    {
+        timedAction = Making,
+        Time = 120,
+        category = Tailoring,
+        Tags = InHandCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+            item 2 [Base.LeatherStrips],
+            item 2 tags[base:thread],
+            item 4 [Base.RippedSheets],
+            item 1 tags[base:button],
+            item 2 tags[base:twine],
+        }
+        outputs
+        {
+            item 1 Base.Firefighter_Pants,
+        }
+    }
+
+    craftRecipe FirefighterBoots
+    {
+        timedAction = Making,
+        Time = 120,
+        category = Tailoring,
+        Tags = InHandCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+            item 1 [Base.Shoes_ArmyBoots;Base.Shoes_ArmyBootsDesert;Base.Shoes_WorkBoots;Base.Shoes_HikingBoots;Base.Shoes_BlackBoots],
+            item 4 [Base.LeatherStrips],
+            item 2 tags[base:thread],
+            item 2 [Base.RippedSheets],
+        }
+        outputs
+        {
+            item 1 Base.Firefighter_Boots,
+        }
+    }
+
+    craftRecipe FirefighterGastankBackpack
+    {
+        timedAction = Making,
+        Time = 160,
+        category = Tailoring,
+        Tags = AnySurfaceCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+            item 1 [Base.Bag_SurvivorBag;Base.Bag_ALICEpack;Base.Bag_ALICEpack_Army;Base.Bag_ALICEpack_DesertCamo;Base.Bag_Schoolbag;Base.Bag_Schoolbag_Travel;Base.Bag_Schoolbag_Patches;Base.Bag_Schoolbag_Kids;Base.Bag_Schoolbag_Medical;Base.Bag_BigHikingBag;Base.Bag_BigHikingBag_Travel],
+            item 2 [Base.LeatherStrips],
+            item 4 tags[base:thread],
+            item 1 [Base.Sheet],
+        }
+        outputs
+        {
+            item 1 Base.Firefighter_GasTankBackpack,
+        }
+    }
+
+    craftRecipe FirefighterGasMask
+    {
+        timedAction = Making,
+        Time = 200,
+        category = Tailoring,
+        Tags = AnySurfaceCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+            item 1 [Base.Hat_GasMask;Base.Hat_GasMask_nofilter;Base.Hat_ImprovisedGasMask;Base.Hat_ImprovisedGasMask_nofilter],
+            item 4 [Base.LeatherStrips],
+            item 2 tags[base:thread],
+        }
+        outputs
+        {
+            item 1 Base.Firefighter_GasMask_Filter,
+        }
+    }
+
+    craftRecipe EmergencyAxeHeavySwingMode
+    {
+        timedAction = Welding_Surface,
+        Time = 20,
+        category = Weaponry,
+        inputs
+        {
+            item 1 [Base.Emergency_Axe_QuickSwing] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.Emergency_Axe_HeavySwing,
+        }
+    }
+
+    craftRecipe EmergencyAxeQuickSwingMode
+    {
+        timedAction = Welding_Surface,
+        Time = 20,
+        category = Weaponry,
+        inputs
+        {
+            item 1 [Base.Emergency_Axe_HeavySwing] flags[InheritCondition],
+        }
+        outputs
+        {
+            item 1 Base.Emergency_Axe_QuickSwing,
+        }
+    }
+
+    craftRecipe 1HandedRustyAxe
+    {
+        timedAction = Welding_Surface,
+        time = 600,
+        category = Weaponry,
+        tags = AnySurfaceCraft,
+        SkillRequired = MetalWelding:3,
+        xpAward = MetalWelding:10,
+        inputs
+        {
+            item 2 [Base.BlowTorch],
+            item 1 tags[WeldingMask] mode:keep,
+            item 1 tags[base:smallsheetmetal] mode:destroy flags[ItemCount],
+            item 1 [Base.LeatherStrips] mode:destroy,
+            item 1 [Base.MetalBar],
+            item 1 tags[SheetMetalSnips;MetalSaw] mode:keep flags[MayDegradeLight],
+            item 1 tags[Hammer] mode:keep flags[MayDegradeVeryLight],
+        }
+        outputs
+        {
+            item 1 Base.1Handed_RustyAxe,
+        }
+    }
+
+    craftRecipe 1HandedFireAxe
+    {
+        timedAction = Welding_Surface,
+        time = 800,
+        category = Weaponry,
+        tags = AnySurfaceCraft,
+        SkillRequired = MetalWelding:4,
+        xpAward = MetalWelding:10,
+        inputs
+        {
+            item 2 [Base.BlowTorch],
+            item 1 tags[WeldingMask] mode:keep,
+            item 1 tags[base:smallsheetmetal] mode:destroy flags[ItemCount],
+            item 2 [Base.LeatherStrips] mode:destroy,
+            item 1 [Base.MetalBar],
+            item 1 tags[SheetMetalSnips;MetalSaw] mode:keep flags[MayDegradeLight],
+            item 1 tags[Hammer] mode:keep flags[MayDegradeVeryLight],
+        }
+        outputs
+        {
+            item 1 Base.1Handed_FireAxe,
+        }
+    }
+
+    craftRecipe VikingAxe
+    {
+        timedAction = Welding_Surface,
+        time = 1000,
+        category = Weaponry,
+        tags = AnySurfaceCraft,
+        SkillRequired = MetalWelding:5,
+        xpAward = MetalWelding:10,
+        inputs
+        {
+            item 2 [Base.BlowTorch],
+            item 1 tags[WeldingMask] mode:keep,
+            item 2 tags[base:smallsheetmetal] mode:destroy flags[ItemCount],
+            item 3 [Base.LeatherStrips] mode:destroy,
+            item 2 [Base.MetalPipe],
+            item 1 tags[SheetMetalSnips;MetalSaw] mode:keep flags[MayDegradeLight],
+            item 1 tags[Hammer] mode:keep flags[MayDegradeVeryLight],
+        }
+        outputs
+        {
+            item 1 Base.Viking_Axe,
+        }
+    }
+
+    craftRecipe EmergencyAxe
+    {
+        timedAction = Welding_Surface,
+        time = 1200,
+        category = Weaponry,
+        tags  = AnySurfaceCraft,
+        SkillRequired = MetalWelding:6,
+        xpAward = MetalWelding:10,
+        inputs
+        {
+            item 2 [Base.BlowTorch],
+            item 1 tags[WeldingMask] mode:keep,
+            item 2 tags[base:smallsheetmetal] mode:destroy flags[ItemCount],
+            item 4 [Base.Screws],
+            item 3 [Base.LeatherStrips] mode:destroy,
+            item 1 [Base.MetalPipe],
+            item 1 [Base.MetalBar],
+            item 1 tags[SheetMetalSnips;MetalSaw] mode:keep flags[MayDegradeLight],
+            item 1 tags[Hammer] mode:keep flags[MayDegradeVeryLight],
+        }
+        outputs
+        {
+            item 1 Base.Emergency_Axe_QuickSwing,
+        }
+    }
+
+    craftRecipe ModernAxe
+    {
+        timedAction = Welding_Surface,
+        time = 1400,
+        category = Weaponry,
+        tags = AnySurfaceCraft,
+        SkillRequired = MetalWelding:6,
+        xpAward = MetalWelding:10,
+        inputs
+        {
+            item 2 [Base.BlowTorch],
+            item 1 tags[WeldingMask] mode:keep,
+            item 2 tags[base:smallsheetmetal] mode:destroy flags[ItemCount],
+            item 3 [Base.LeatherStrips] mode:destroy,
+            item 1 [Base.MetalPipe],
+            item 2 [Base.MetalBar],
+            item 1 tags[SheetMetalSnips;MetalSaw] mode:keep flags[MayDegradeLight],
+            item 1 tags[Hammer] mode:keep flags[MayDegradeVeryLight],
+        }
+        outputs
+        {
+            item 1 Base.Modern_Axe,
+        }
+    }
+
+    craftRecipe HeavyDutyFireAxe
+    {
+        timedAction = Welding_Surface,
+        time = 1400,
+        category = Weaponry,
+        tags = AnySurfaceCraft,
+        SkillRequired = MetalWelding:6,
+        xpAward = MetalWelding:10,
+        inputs
+        {
+            item 2 [Base.BlowTorch],
+            item 1 tags[WeldingMask] mode:keep,
+            item 2 tags[base:smallsheetmetal] mode:destroy flags[ItemCount],
+            item 4 [Base.LeatherStrips] mode:destroy,
+            item 1 [Base.MetalBar],
+            item 1 tags[SheetMetalSnips;MetalSaw] mode:keep flags[MayDegradeLight],
+            item 1 tags[Hammer] mode:keep flags[MayDegradeVeryLight],
+        }
+        outputs
+        {
+            item 1 Base.HeavyDuty_FireAxe,
+        }
+    }
+}

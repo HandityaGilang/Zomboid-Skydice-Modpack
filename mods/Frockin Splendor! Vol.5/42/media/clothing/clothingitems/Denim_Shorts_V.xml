@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<guid>c2b7099e-7621-4afa-94d7-634739e6e8f0</guid>	
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>	
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Denim\Shorts_Skin\DenimWhite_Shorts_1_V</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Shorts_Skin\DenimWhite_Shorts_2_V</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Shorts_Skin\DenimWhite_Shorts_3_V</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Shorts_Skin\DenimWhite_Shorts_4_V</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Shorts_Skin\DenimWhite_Shorts_5_V</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Denim\Shorts_Skin\Denim_Shorts_1_V</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Shorts_Skin\Denim_Shorts_2_V</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Shorts_Skin\Denim_Shorts_3_V</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Shorts_Skin\Denim_Shorts_4_V</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Shorts_Skin\Denim_Shorts_5_V</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Denim\Shorts_Skin\DenimBlue_Shorts_1_V</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Shorts_Skin\DenimBlue_Shorts_2_V</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Shorts_Skin\DenimBlue_Shorts_3_V</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Shorts_Skin\DenimBlue_Shorts_4_V</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Shorts_Skin\DenimBlue_Shorts_5_V</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Denim\Shorts_Skin\DenimBlueDarker_Shorts_1_V</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Shorts_Skin\DenimBlueDarker_Shorts_2_V</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Shorts_Skin\DenimBlueDarker_Shorts_3_V</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Shorts_Skin\DenimBlueDarker_Shorts_4_V</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Shorts_Skin\DenimBlueDarker_Shorts_5_V</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Denim\Shorts_Skin\DenimBluer_Shorts_1_V</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Shorts_Skin\DenimBluer_Shorts_2_V</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Shorts_Skin\DenimBluer_Shorts_3_V</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Shorts_Skin\DenimBluer_Shorts_4_V</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Shorts_Skin\DenimBluer_Shorts_5_V</m_BaseTextures>
+
+</clothingItem>

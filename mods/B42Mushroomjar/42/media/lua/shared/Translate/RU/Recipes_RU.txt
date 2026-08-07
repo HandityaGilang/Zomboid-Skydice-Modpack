@@ -1,0 +1,8 @@
+Recipes_RU =
+{
+    Recipe_MakeJarMushroomGenericTrex = "Засолить грибы",
+    Recipe_MakemushroomjarTrex = "Замариновать грибы",
+    Recipe_OpenJarOfmushroomTrex = "Открыть банку с грибами",
+    Recipe_MushroomDriedTrex = "Засушить грибы",
+    Recipe_MakemushroomjarpreparationTrex = "Приготовить грибы для засолки",
+}

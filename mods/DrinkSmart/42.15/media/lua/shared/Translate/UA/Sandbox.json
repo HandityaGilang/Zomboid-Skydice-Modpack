@@ -1,0 +1,5 @@
+{
+    "Sandbox_DrinkSmart": "Drink Smart",
+    "Sandbox_DrinkSmart_AllowWaterDrinkLowThirst": "Дозволити пити воду при низькій спразі",
+    "Sandbox_DrinkSmart_AllowWaterDrinkLowThirst_tooltip": "Якщо увімкнено, джерела води показуватимуть меню «Пити» навіть коли спрага нижче 10％ (інвентар/контейнери/панель землі)."
+}

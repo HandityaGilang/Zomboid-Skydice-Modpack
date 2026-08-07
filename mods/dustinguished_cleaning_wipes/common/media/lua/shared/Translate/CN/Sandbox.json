@@ -1,0 +1,16 @@
+{
+    "Sandbox_DGMC_Cleaning_Wipes": "清洁湿巾",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body": "可以清洁身体",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body_tooltip": "是否可以用清洁湿巾清洁身体。",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing": "可以清洁衣物",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing_tooltip": "是否可以用清洁湿巾清洁衣物。",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons": "可以清洁近战武器",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons_tooltip": "是否可以使用清洁湿巾清洁近战武器。",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup": "卸妆",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup_tooltip": "清洁身体时是否要卸妆。",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult": "持续时间乘数",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult_tooltip": "相对于仅用水清洗，用湿巾清洁需要多长时间。  越低则越快，越高则越慢。",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness": "衣服湿度",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness_tooltip": "清洁衣服时，其湿度水平将设置为该值或当前水平的最大值。  例如，使用默认值时，湿度为 0 的衣服将设置为 25，而湿度已经为 50 的衣服将保持在 50。",
+    "Sandbox_DGMC_Cleaning_Wipes_Debug_Logging": "调试日志记录"
+}

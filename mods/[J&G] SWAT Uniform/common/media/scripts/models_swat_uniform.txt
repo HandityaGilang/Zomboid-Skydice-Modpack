@@ -1,0 +1,25 @@
+module Base
+{
+    imports
+    {
+        Base
+    }
+
+    model Helmet_AM-95_VisorDown_Ground
+    {
+        mesh = WorldItems/Clothing/Helmet_AM-95_VisorDown_Ground,
+        scale = 1,
+    }
+
+    model Helmet_Rook_Ground
+    {
+        mesh = WorldItems/Clothing/Helmet_Rook_Ground,
+        scale = 1,
+    }
+
+    model ThighPads_Ground
+    {
+        mesh = WorldItems/Clothing/ThighPads_Ground,
+        scale = 1,
+    }
+}

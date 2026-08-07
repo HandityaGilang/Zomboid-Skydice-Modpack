@@ -1,0 +1,11 @@
+Tooltip_PL = {
+    Tooltip_Cooking_NeedToBeCooked = "Wymaga ugotowania.",
+    Tooltip_HempBuds = "Należy umieścić w słoiku, aby dojrzały, lub ugotować w celu dekarboksylacji.",
+    Tooltip_CannedHempBuds = "Kiełki dojrzewają.",
+    Tooltip_OilHemp = "Zapewnia znaczną ulgę w bólu.",
+    Tooltip_MouldAndDeckle = "Służy do wytwarzania arkuszy papieru.",
+    Tooltip_PaperSheetWet = "Papier musi wyschnąć przed użyciem.",
+    Tooltip_HempModerate = "Zapewnia umiarkowaną ulgę w bólu.",
+    Tooltip_HempMild = "Zapewnia łagodną ulgę w bólu.",
+    Tooltip_Recipe_MakeJarOfHemp = "Rozpoczyna proces dojrzewania, jeśli konopie są wysuszone.",
+}

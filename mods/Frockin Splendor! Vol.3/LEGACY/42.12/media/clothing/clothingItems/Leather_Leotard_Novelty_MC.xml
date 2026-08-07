@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>28ae5083-1711-4cc9-aa66-e5bec716d731</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_Novelty\Leather_Leotard_MC_0C</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_Novelty\Leather_Leotard_MC_0D</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_Novelty\Leather_Leotard_MC_0E</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_Novelty\Leather_Leotard_MC_0F</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_Novelty\Leather_Leotard_MC_0G</m_BaseTextures>
+
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_Novelty\Leather_Leotard_MC_11A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_Novelty\Leather_Leotard_MC_11B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_Novelty\Leather_Leotard_MC_11C</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_Novelty\Leather_Leotard_MC_12A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_Novelty\Leather_Leotard_MC_12B</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_Novelty\Leather_Leotard_MC_14</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_Novelty\Leather_Leotard_MC_15</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_Novelty\Leather_Leotard_MC_15B</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_Novelty\Leather_Leotard_MC_16</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_Novelty\Leather_Leotard_MC_16A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_Novelty\Leather_Leotard_MC_18</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_Novelty\Leather_Leotard_MC_18A</m_BaseTextures>
+</clothingItem>

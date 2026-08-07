@@ -1,0 +1,19 @@
+VERSION = 1,
+
+option JordanalSpawns.Desert_Camo_UnitChance = {
+	type = double,
+	default = 0.04,
+	min = 0.00,
+	max = 100,
+	page = JordanalSpawns,
+	translation = JordanalSpawns.Desert_Camo_UnitChance,
+}
+
+option JordanalSpawns.Desert_Camo_UnitChance_General = {
+	type = double,
+	default = 0.02,
+	min = 0.00,
+	max = 100,
+	page = JordanalSpawns,
+	translation = JordanalSpawns.Desert_Camo_UnitChance_General,
+}

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>static\clothes\M_Js_FireFighter_Helmet_VisorUp</m_MaleModel>
+	<m_FemaleModel>static\clothes\F_Js_FireFighter_Helmet_VisorUp</m_FemaleModel>
+	<m_GUID>42bad0ff-c592-4a14-a9ce-75685878ae1e</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_HatCategory>Group04</m_HatCategory>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>Clothes\Military\Helmets\FireFighter_RedHelmet</textureChoices>
+	<textureChoices>Clothes\Military\Helmets\FireFighter_YellowHelmet</textureChoices>	
+	<textureChoices>Clothes\Military\Helmets\FireFighter_BlueHelmet</textureChoices>	
+</clothingItem>

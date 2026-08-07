@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\Clothes\Reworks\LongestCoatRE_Winter_M_O.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\Clothes\Reworks\LongestCoatRE_Winter_F_O.fbx</m_FemaleModel>
+	<m_GUID>279c4a49-e4a7-4d59-8810-74c438ec57e0</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_MasksFolder>media/textures/clothes/Masks/Masks_Underlay_OpenJacket</m_MasksFolder>
+	<textureChoices>clothes\Material_LeatherTanned\Jackets_Coats_Winter\LeatherTanned_TrenchCoat_4O</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Jackets_Coats_Winter\LeatherTannedRed_TrenchCoat_4O</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Jackets_Coats_Winter\LeatherTannedBlue_TrenchCoat_4O</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Jackets_Coats_Winter\LeatherTannedGreen_TrenchCoat_4O</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Jackets_Coats_Winter\LeatherTannedGrey_TrenchCoat_4O</textureChoices>
+
+</clothingItem>

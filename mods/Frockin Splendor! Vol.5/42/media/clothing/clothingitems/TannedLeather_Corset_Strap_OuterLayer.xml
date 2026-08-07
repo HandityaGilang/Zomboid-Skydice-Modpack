@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+    <m_MaleModel></m_MaleModel>
+    <m_FemaleModel></m_FemaleModel>
+    <m_GUID>d1ed3432-fd6b-4df7-8b21-df5a2f0a0854</m_GUID>
+    <m_Static>false</m_Static>
+    <m_AllowRandomTint>false</m_AllowRandomTint>
+    <m_AttachBone></m_AttachBone>
+    <m_BaseTextures>clothes\Material_LeatherTanned\Corsets\LeatherTanned_Corset_7</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets\LeatherTanned_Corset_8</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets\LeatherTanned_Corset_8A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets\LeatherTanned_Corset_9</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets\LeatherTanned_Corset_10</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets\LeatherTanned_Corset_11</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets\LeatherTannedRed_Corset_7</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets\LeatherTannedRed_Corset_8</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets\LeatherTannedRed_Corset_8A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets\LeatherTannedRed_Corset_9</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets\LeatherTannedRed_Corset_10</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets\LeatherTannedRed_Corset_11</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets\LeatherTannedBlack_Corset_7</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets\LeatherTannedBlack_Corset_8</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets\LeatherTannedBlack_Corset_8A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets\LeatherTannedBlack_Corset_9</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets\LeatherTannedBlack_Corset_10</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets\LeatherTannedBlack_Corset_11</m_BaseTextures>
+
+</clothingItem>

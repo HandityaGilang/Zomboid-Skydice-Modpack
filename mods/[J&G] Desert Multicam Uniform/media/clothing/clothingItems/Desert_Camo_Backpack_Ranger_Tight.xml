@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\backpacks\M_Backpack_Ranger_Large_Tight</m_MaleModel>
+	<m_FemaleModel>skinned\backpacks\F_Backpack_Ranger_Large_Tight</m_FemaleModel>
+	<m_GUID>5679bcb8-ded3-4427-823b-c281a344317b</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\Military\Bags\Backpack\DesertCamo_Backpack_Ranger_Camo</textureChoices>
+	<textureChoices>Clothes\Military\Bags\Backpack\DesertCamo_Backpack_Ranger_Plain</textureChoices>
+</clothingItem>

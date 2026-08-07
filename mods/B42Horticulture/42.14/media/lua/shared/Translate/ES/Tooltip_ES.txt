@@ -1,0 +1,11 @@
+Tooltip_ES = {
+    Tooltip_Cooking_NeedToBeCooked = "Debe cocinarse.",
+    Tooltip_HempBuds = "Debe guardarse en un tarro para curarse o cocinarse para descarboxilarse.",
+    Tooltip_CannedHempBuds = "Los cogollos se están curando.",
+    Tooltip_OilHemp = "Proporciona un alivio considerable del dolor.",
+    Tooltip_MouldAndDeckle = "Se usa para fabricar hojas de papel.",
+    Tooltip_PaperSheetWet = "El papel debe estar seco antes de usarse.",
+    Tooltip_HempModerate = "Proporciona un alivio moderado del dolor.",
+    Tooltip_HempMild = "Proporciona un alivio leve del dolor.",
+    Tooltip_Recipe_MakeJarOfHemp = "Inicia el proceso de curado si está seco.",
+}

@@ -1,0 +1,16 @@
+{
+    "Sandbox_DGMC_Cleaning_Wipes": "servetele de curatare",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body": "Poate curăța corpul",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body_tooltip": "Fie că vă puteți curăța corpul cu șervețele de curățare.",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing": "Poate curăța hainele",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing_tooltip": "Fie că puteți curăța hainele cu șervețele de curățare.",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons": "Poate curăța armele corp la corp",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons_tooltip": "Indiferent dacă puteți curăța armele corp la corp cu șervețele de curățare.",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup": "Îndepărtează machiajul",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup_tooltip": "Indiferent dacă trebuie să demachiezi atunci când îți cureți corpul.",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult": "Multiplicator de durată",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult_tooltip": "Cât timp durează curățarea cu șervețele, comparativ cu spălarea numai cu apă.  Mai jos pentru mai repede, mai mare pentru mai lent.",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness": "Umiditatea îmbrăcămintei",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness_tooltip": "La curățarea hainelor, nivelul de umiditate al acestora va fi setat la un maxim de această valoare sau nivelul actual.  De exemplu, cu valoarea implicită, hainele la 0 umiditate ar fi setate la 25, în timp ce hainele deja la 50 umiditate ar rămâne la 50.",
+    "Sandbox_DGMC_Cleaning_Wipes_Debug_Logging": "Înregistrare de depanare"
+}

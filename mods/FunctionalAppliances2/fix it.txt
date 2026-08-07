@@ -1,0 +1,126 @@
+add bank vault storage locations and safe deposit boxes, maybe a break in option?
+Need to get tumblers to work for both beer and soda
+Correct the label of the kegs and sodas on the dispensers to make them look nicer
+add additional pay phones support and now I know how to get the sound to work for that process
+napkins use as tissues
+need a patch dedicated to recipes for everything 
+flavored popcorn, soda jerk evolved recipes, more fried foods integrating things like deep fried cookies
+check for anticheat 21 issues on all mods
+maybe napkin notes
+broken tv's and such
+white boards requested
+make hotdog and popcorn machine inventory searchable for making foods
+add trash hot dogs
+soulfilchers coffee beans
+coffee machine facing issues
+pay phones need to be in same square walking
+fire extinguisher wall mounts
+add sapph's new items need to update
+laundry soap to enhance washer cleaning time
+bathroom scales
+check for soap use in washing and how it grabs it for maybe a soap dispenser or soap dish
+write tests for container issues in context menus in case inventory container updates fail
+russian translation issues
+possible error with recipe to make empty syrup container
+stale foods in the hot dog machines don't work
+create fall back for silo moddata
+add ice
+add ability to fill generator with tankers
+fix test marker
+need sausage making recipe
+fuel api support for tanks
+fry vat cook all option
+check spawning on fresh items when set to none
+add compatibility with Bianca Boxes to use alternative and bigger canisters to fill Green Silo Generator
+"Suggestion: Add info about plumbing to description."
+noted, will see how sinks are done and try to replicate it.
+sandbox fuel tank max capacity
+
+I have a suggestion for your function-appliances2 mod, Those being gas stoves and water heaters. 
+Yeah, I know there propane grills that you can find but not every house has an "electric" stove, plus it would give propane more use and also more valuable. Now I'm not sure what you'd use, at least in PZ anyway, a water heater for except for when your doing laundry. Be creative on the water heater.
+
+look into range again and consumption time from capacity like "generator time remaining" mod
+
+"heads up, it's not so much a bug as it is a bit unbalanced and exploity, but if you get a very small unit amount of Chicken, ie by using sapph's to get chicken slices off of it and down to only .05 encumbrance worth left, you can just convert that into chicken fillet and it magically gains calories/hunger fill/encumbrance by a factor of like 5. might be worth to make food items use a set unit amount instead of just using the item directly regardless of its stats."
+Yeah, I need a rewrite. This was my first mod and I understand the systems a bit better now. I need a code rewrite and a balance. added to the list.
+
+set displays to cold
+I can change that default setting, it is based on the room name for defaults, like pizza places default to warm and ice cream shops default to cold. I can make them all cold of maybe do a sandbox. 
+
+I tried doing as it says in the instructions, and even picked it up, and dropped it back down in a few separate spots. It didn't even let me try plumbing it with a water barrel right behind it, nor above it, and not even above and behind it.
+check on this bug
+
+potato wedges staleness removed from stale potato
+can More Maps be added to the bulletin board spawns and limit maps of nearby locations
+
+recursive material searching
+
+The refrigeration function of the Food Display Counters does not take effect. It just gives the item a blue filter. Maybe the temperature isn't cool enough? Or is this set up on purpose.
+
+I found a espresso machine at a cafe with the interaction menu working, brought it home (have power at home) set it up and turned it on, but its just behaves like an oven now, no more interaction menu other than turn on and settings where I can set temperature, any idea why?
+
+"For the Espresso Deluxe machine I used the vanilla coffee for the instant coffee option, but when it finished it used the entire thing. 
+It used an item that had -50 Fatigue just to make something with only -5 Fatigue."
+I will take a look at this for balancing. If the instant coffee has a use() amount to it, I will make it use a partial amount instead. 
+Adding this to my list.
+
+My coffee machine used the entire jar of instant coffee for one mug?
+It also duplicates the mugs, gives me a mug of coffee and a empty mug back.
+
+could you look into making the gen compatible with the "iso fuel tank" and other fuel tanker trucks and trailers for ki5 and autotsar 
+
+I have leveled up Electrical to 4 and Metalworking to 4 in order to repair the generator, and I also read the generator book. I have scrap metal and scrap electronics, but the 'Repair' button does not appear. Only 'Refuel' and 'Check Status' options are available. What should I do?
+
+Great mod, however I'd like to note some minor things.
+The nutrition between fries and fried potato skins are somewhat unbalanced. Currently,
+Fries
+Hunger: -10
+Unhappiness: -10
+Calories: 203
+Carbohydrates: 35.97
+Proteins: 3.35
+Fat: 5.19
+Fried Potato Skins
+Hunger: -15, Thrist +5
+Unhappiness: -15
+Calories: 320
+Carbohydrates: 65
+Proteins: 4
+Fat: 30
+And considering that with just 1 potato, you can make 2 potato skins compare to 1 fries.
+The easiest fix is to just changed fried potato skin's nutrition to half that of fries. (The nutrition conversion of fries from potato is around doubled already. So it's still more than enough IMO.)
+Also, would really love to be able to make simple fried fish fillet and rabbits for them vanilla mid/end game players. (similar to how you make onion rings currently), nutrition-wise make it similar to regular cooked fish/rabbit but with higher fat and slightly more carbohydrates.
+Joined briefly to continue with the balancing notes,
+Currently, the coffee machine uses An entire coffee bottle for just one cup. And the nutrition is worse than that of vanilla coffee beverage, I'm not sure if this is to balanced with Sapph's Cooking mod or not.
+Theater popcorn's nutrition is in the same situation as the potato skin situation.
+Bucket of Buttered theather popcorn uses over 400 calories/44 fat worth of butter yet only yield 150 calories/2 fat total.
+Blooming onion should have roughly the same nutrition as regular onion, shouldn't have high fat value when it's just battered and the carbohydrates value are doubled when fried.
+(Fun fact: Onion rings are pretty OP, you get over 6.6 times more nutrition from just flour and baking powder, however this is the base's game value and not the mod's tweaks. Just thought that's pretty funny.)
+Soda are relatively balanced nutrition-wise, however. I personally think you should need more than 5 berries to make a soda syrup for... 15-20 soda bottles? I think around 12 or so is on the lowbar here. Also, the thought of using a single sugar packet to make that much soda is... interesting.
+Continuing with soda. Currently you're only allowed to dispensed 4 types. (Even if you have 5 or more in the Slurp machine)
+Continuing with soda again, while I think having an option to make every foragables fruits into soda could be an interesting "subculture-mod" to this mod, I think having just a mixed fruit soda is a nice addition. However if you went with the former, more power to you.
+
+Hey, the Food Island or Bullet Island, I can't move, dismantle, or interact with it in a way other than to switch functions like warm, hot, and cold, but I can't pick it up. Why would this be?
+
+error with loading it mid game, try to supress
+`attempted index: setCustomTemperature of non-table: null
+function: doBuildMenu -- file: PopcornMachineMenu.lua line # 5 | MOD: Functional Appliances 2
+function: doBuildMenu -- file: FAInitContextMenus.lua line # 62 | MOD: Functional Appliances 2
+Callframe at: se.krka.kahlua.integration.expose.MultiLuaJavaInvoker@631f372d
+
+same error on the hotdog machine
+
+check on corn kernal cans not working
+
+"when i refill the CO2 tank, it creates a new tank instead of filling the empty one."
+"It was in a cupboard and not in my inventory when im refilling"
+I will take a look at this, out of curiosity was the original tank completely empty?
+
+known issue - berry syrup boxes will not craft correctly if you don't have enough berries in total
+
+v2.07 - Updated to B42
+Will most likely end upgrades to the pre 42 version
+
+
+
+

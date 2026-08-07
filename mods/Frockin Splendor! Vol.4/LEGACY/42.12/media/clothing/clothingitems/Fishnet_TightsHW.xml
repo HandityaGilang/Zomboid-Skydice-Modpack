@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>10e0b0c3-d6d0-4107-9054-ca17abf7bbda</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Fishnet\Tights\Fishnet_Tights_HW</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Fishnet\Tights\Fishnet_Tights_HW2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Fishnet\Tights\Fishnet_Tights_HW3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Fishnet\Tights\Fishnet_Tights_HW4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Fishnet\Tights\Fishnet_Tights_HW5</m_BaseTextures>
+
+</clothingItem>

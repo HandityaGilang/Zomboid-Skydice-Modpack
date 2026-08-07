@@ -13,7 +13,9 @@ UI_EN = {
 
     /*ModOption*/
     UI_CleanUI_ContainerBackgroundOpacity = "Sidebar Opacity",
+    UI_CleanUI_ContainerBackgroundOpacityPercent = "Sidebar Opacity (%%)",
     UI_CleanUI_BackgroundOpacity = "Background Opacity",
+    UI_CleanUI_BackgroundOpacityPercent = "Background Opacity (%%)",
     UI_CleanUI_PlayerContainerPosition = "Inventory Panel (Requires Restart)",
     UI_CleanUI_LootContainerPosition = "Loot Panel (Requires Restart)",
     UI_CleanUI_ContainerPositionLeft = "Left",
@@ -43,5 +45,11 @@ UI_EN = {
     UI_CleanUI_TransferMethodNearbyTooltip = "Transfer method: Nearby Containers <LINE> Click to change method",
     UI_CleanUI_TransferByNameTooltip = "Transfer by Item Names",
     UI_CleanUI_TransferByCategoryTooltip = "Transfer by Categories",
+    UI_CleanUI_ShowWeightColumn = "Show Weight Column",
+    UI_CleanUI_ShowWeightColumn_Tooltip = "Show a separate weight column for item and stack rows in CleanUI inventory/loot panels.",
+    UI_CleanUI_ShowColumnHeaders = "Show Column Headers",
+    UI_CleanUI_ShowColumnHeaders_Tooltip = "Show the clickable column header row above inventory and loot item lists.",
     UI_CleanUI_MoveToFloorTooltip = "Move To Floor",
+    UI_CleanUI_Column_Rarity = "Rarity",
+    UI_CleanUI_Column_Weight = "Weight",
 }

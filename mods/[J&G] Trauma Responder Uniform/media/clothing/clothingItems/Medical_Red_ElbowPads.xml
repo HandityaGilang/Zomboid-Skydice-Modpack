@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Armor\M_ArmsProtectionLower_Patriot_Light</m_MaleModel>
+	<m_FemaleModel>Skinned\Armor\F_ArmsProtectionLower_Patriot_Light</m_FemaleModel>
+	<m_GUID>f93adc05-109b-4c5c-9db8-9322c4918736</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>Clothes\ArmsProtectionLower\Masks</m_MasksFolder>
+	<textureChoices>Clothes\Military\ArmourPads\Military_ArmsProtectionLower_Patriot_Light-Medical-Insignia</textureChoices>
+	<textureChoices>Clothes\Military\ArmourPads\Military_ArmsProtectionLower_Patriot_Light-Medical-Plain</textureChoices>
+	<textureChoices>Clothes\Military\ArmourPads\Military_ArmsProtectionLower_Patriot_Light-Medical-Insignia-White</textureChoices>
+	<textureChoices>Clothes\Military\ArmourPads\Military_ArmsProtectionLower_Patriot_Light-Medical-InsigniaWhitePads</textureChoices>
+	<textureChoices>Clothes\Military\ArmourPads\Military_ArmsProtectionLower_Patriot_Light-Medical-InsigniaWhitePadsRed</textureChoices>
+</clothingItem>

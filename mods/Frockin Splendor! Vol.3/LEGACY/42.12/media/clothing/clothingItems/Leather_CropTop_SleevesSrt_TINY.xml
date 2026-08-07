@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>a03e6387-0f7f-41a9-a700-988c0409796a</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Leather\CropTop_Sleeves\Leather_CropTopSleeves_Short_TINY_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\CropTop_Sleeves\Leather_CropTopSleeves_Short_TINY_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\CropTop_Sleeves\Leather_CropTopSleeves_Short_TINY_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\CropTop_Sleeves\Leather_CropTopSleeves_Short_TINY_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\CropTop_Sleeves\Leather_CropTopSleeves_Short_TINY_4A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\CropTop_Sleeves\Leather_CropTopSleeves_Short_TINY_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\CropTop_Sleeves\Leather_CropTopSleeves_Short_TINY_6</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\CropTop_Sleeves\Leather_CropTopSleeves_Short_TINY_6A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\CropTop_Sleeves\Leather_CropTopSleeves_Short_TINY_A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\CropTop_Sleeves\Leather_CropTopSleeves_Short_TINY_A1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\CropTop_Sleeves\Leather_CropTopSleeves_Short_TINY_C</m_BaseTextures>
+
+</clothingItem>

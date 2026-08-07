@@ -7,9 +7,11 @@
     "Sandbox_CompanionDogs_CombatEnabled": "同伴攻击僵尸",
     "Sandbox_CompanionDogs_CombatEnabled_tooltip": "允许同伴犬攻击附近的僵尸。",
     "Sandbox_CompanionDogs_DogDamageMultiplier": "同伴犬伤害倍率",
-    "Sandbox_CompanionDogs_DogDamageMultiplier_tooltip": "缩放同伴犬对僵尸造成的伤害，在品种威力、技能等级和力量基因之上叠加。1.0 为校准后的默认值；更高则咬得更狠，0 则让撕咬毫无伤害。无论此值调多高，体弱的小卡流浪狗仍无法独自了结一只僵尸——这是刻意设计。",
+    "Sandbox_CompanionDogs_DogDamageMultiplier_tooltip": "缩放同伴犬对僵尸造成的伤害，在品种威力、技能等级和力量基因之上叠加。1.0 为校准后的默认值；更高则咬得更狠，0 则让撕咬毫无伤害。无论此值调多高，体弱的小卡流浪狗仍无法独自了结一只僵尸，这是刻意设计。",
     "Sandbox_CompanionDogs_UpkeepEnabled": "需求与维持",
     "Sandbox_CompanionDogs_UpkeepEnabled_tooltip": "同伴需要照顾：喂食以控制饥饿、忠诚度和压力。被忽视的狗会不服从命令。",
+    "Sandbox_CompanionDogs_NeedsRateMultiplier": "饥饿与口渴速度",
+    "Sandbox_CompanionDogs_NeedsRateMultiplier_tooltip": "调整伙伴犬变饿和口渴的速度。1.0 是平衡后的默认值：吃饱的狗大约 3 天从饱腹变为饥饿，需要喝水的次数约为两倍。数值越高越需要照顾，越低则越省心。设为 0 会完全冻结饥饿与口渴，狗再也不需要进食或饮水 - 但忠诚度仍会下降，它依然需要你的关注。若想彻底关闭整个照料系统，请使用“需求与维持”。",
     "Sandbox_CompanionDogs_LoyaltyDecayPerDay": "每日忠诚度衰减",
     "Sandbox_CompanionDogs_LoyaltyDecayPerDay_tooltip": "得到照顾的狗每个游戏日内损失的忠诚度点数（0-100）。当狗饥饿或口渴时，衰减速度会加快。",
     "Sandbox_CompanionDogs_SentinelEnabled": "哨兵：僵尸警报",
@@ -57,5 +59,7 @@
     "Sandbox_CompanionDogs_MaturityDays": "幼犬成熟时间（天）",
     "Sandbox_CompanionDogs_MaturityDays_tooltip": "幼犬长成成犬所需的游戏内天数，期间保留羁绊、基因和技能。幼犬仅在玩家附近加载时成长；对幼犬使用“暂停成长”会覆盖此设置。",
     "Sandbox_CompanionDogs_BreedChancePerDay": "每日繁殖几率",
-    "Sandbox_CompanionDogs_BreedChancePerDay_tooltip": "同一主人的相邻成年公犬与母犬每个游戏日自行受孕的百分比几率（按小时结算）。与手动繁殖条件相同：吃饱、忠诚、健康、不在冷却中、有空闲槽位、双方均未禁止繁殖。仅在你附近加载时生效。0 = 关闭。"
+    "Sandbox_CompanionDogs_BreedChancePerDay_tooltip": "同一主人的相邻成年公犬与母犬每个游戏日自行受孕的百分比几率（按小时结算）。与手动繁殖条件相同：吃饱、忠诚、健康、不在冷却中、有空闲槽位、双方均未禁止繁殖。仅在你附近加载时生效。0 = 关闭。",
+    "Sandbox_CompanionDogs_FarmCareEnabled": "Farm care (herding)",
+    "Sandbox_CompanionDogs_FarmCareEnabled_tooltip": "Master switch for the farm care mode. When on, you can assign a dog to care for a designated animal pen: it stays in the pen, calms the herd (reducing stress that lowers milk and wool), and silently drives off nearby zombies, working on its own even when you are away."
 }

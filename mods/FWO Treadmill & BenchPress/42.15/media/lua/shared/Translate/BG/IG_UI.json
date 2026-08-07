@@ -1,0 +1,10 @@
+{
+    "IGUI_BenchPress": "Bench Press",
+    "IGUI_BenchPress_Tooltip": "Тренирай на bench press",
+    "IGUI_Treadmill": "Пътека за бягане",
+    "IGUI_Treadmill_Tooltip": "Бягай на пътеката за бягане",
+    "IGUI_need_barbell": "Имам нужда от щанга за това упражнение",
+    "IGUI_low_endurance": "Прекалено съм изтощен",
+    "IGUI_pain": "Прекалено ме боли",
+    "IGUI_heavy": "Прекалено тежко за използване сега"
+}

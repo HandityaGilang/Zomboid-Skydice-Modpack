@@ -1,0 +1,16 @@
+{
+    "Sandbox_DGMC_Cleaning_Wipes": "puhdistuspyyhkeet",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body": "Voi puhdistaa kehon",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body_tooltip": "Voitko puhdistaa kehosi puhdistuspyyhkeillä.",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing": "Voi puhdistaa vaatteet",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing_tooltip": "Pystytkö puhdistamaan vaatteet puhdistuspyyhkeillä.",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons": "Voi puhdistaa lähitaisteluaseita",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons_tooltip": "Voitko puhdistaa lähitaisteluaseet puhdistuspyyhkeillä.",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup": "Poistaa meikin",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup_tooltip": "Poistetaanko meikki vartaloa puhdistaessasi.",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult": "Kestokerroin",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult_tooltip": "Kuinka kauan pyyhkeillä puhdistaminen kestää verrattuna pelkkään vedellä pesuun.  Matala nopeampaa, korkeampi hitaampaa.",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness": "Vaatteiden kosteus",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness_tooltip": "Vaatteita puhdistettaessa niiden kosteustaso asetetaan maksimissaan tälle arvolle tai sen nykyiselle tasolle.  Esimerkiksi oletusarvolla vaatteet, joiden kosteusaste on 0, asetetaan arvoon 25, kun taas vaatteet, joiden kosteusaste on 50, pysyvät 50:ssä.",
+    "Sandbox_DGMC_Cleaning_Wipes_Debug_Logging": "Virheenkorjausloki"
+}

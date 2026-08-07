@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>3c7ad72f-bb5e-49de-9f11-4aa01fb2c5ac</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Denim\Bandeau\Denim_Top_1</m_BaseTextures>		
+	<m_BaseTextures>clothes\Material_Denim\Bandeau\Denim_Top_1B</m_BaseTextures>	
+	<m_BaseTextures>clothes\Material_Denim\Bandeau\Denim_Top_2</m_BaseTextures>	
+	
+	<m_BaseTextures>clothes\Material_Denim\Bandeau\Denim_Top_A_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Bandeau\Denim_Top_A_1B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Bandeau\Denim_Top_A_2</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Denim\Bandeau\DenimBlue_Top_1</m_BaseTextures>		
+	<m_BaseTextures>clothes\Material_Denim\Bandeau\DenimBlue_Top_1B</m_BaseTextures>	
+	<m_BaseTextures>clothes\Material_Denim\Bandeau\DenimBlue_Top_2</m_BaseTextures>	
+	
+	<m_BaseTextures>clothes\Material_Denim\Bandeau\DenimBlue_Top_A_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Bandeau\DenimBlue_Top_A_1B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Bandeau\DenimBlue_Top_A_2</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Denim\Bandeau\DenimBlueDarker_Top_1</m_BaseTextures>		
+	<m_BaseTextures>clothes\Material_Denim\Bandeau\DenimBlueDarker_Top_1B</m_BaseTextures>	
+	<m_BaseTextures>clothes\Material_Denim\Bandeau\DenimBlueDarker_Top_2</m_BaseTextures>	
+</clothingItem>

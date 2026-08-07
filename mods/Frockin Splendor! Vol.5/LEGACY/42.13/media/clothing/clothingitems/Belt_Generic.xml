@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Misc\Belt_Generic_M.fbx</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Misc\Belt_Generic_F.fbx</m_FemaleModel>
+	<m_AltMaleModel>media\models_X\Skinned\Clothes\Misc\Belt_Generic_Alt_M.fbx</m_AltMaleModel>
+	<m_AltFemaleModel>media\models_X\Skinned\Clothes\Misc\Belt_Generic_Alt_F.fbx</m_AltFemaleModel>
+	<m_GUID>0b21f998-f59a-48b5-9198-c6eda5eeced6</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\Misc\Belts\Belt_Generic_0</textureChoices>
+	
+	<textureChoices>clothes\Misc\Belts\BeltB_Generic_0</textureChoices>
+	
+	<textureChoices>clothes\Misc\Belts\BeltY_Generic_0</textureChoices>
+
+</clothingItem>

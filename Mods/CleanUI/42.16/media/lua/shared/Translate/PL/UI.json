@@ -12,7 +12,9 @@
     "UI_CleanUI_TransferMenu": "Przenieś przedmioty",
     "UI_CleanUI_EquippedItems": "Założone przedmioty",
     "UI_CleanUI_ContainerBackgroundOpacity": "Przezroczystość paska bocznego",
+    "UI_CleanUI_ContainerBackgroundOpacityPercent": "Przezroczystość paska bocznego (%%)",
     "UI_CleanUI_BackgroundOpacity": "Przezroczystość tła",
+    "UI_CleanUI_BackgroundOpacityPercent": "Przezroczystość tła (%%)",
     "UI_CleanUI_PlayerContainerPosition": "Panel ekwipunku (wymaga restartu)",
     "UI_CleanUI_LootContainerPosition": "Panel łupów (wymaga restartu)",
     "UI_CleanUI_ContainerPositionLeft": "Lewo",
@@ -45,5 +47,11 @@
     "UI_CleanUI_TransferMethodNearbyTooltip": "Metoda: pobliskie pojemniki <LINE> Kliknij, aby zmienić",
     "UI_CleanUI_TransferByNameTooltip": "Przenieś według nazw przedmiotów",
     "UI_CleanUI_TransferByCategoryTooltip": "Przenieś według kategorii",
-    "UI_CleanUI_MoveToFloorTooltip": "Przenieś na podłogę"
+    "UI_CleanUI_MoveToFloorTooltip": "Przenieś na podłogę",
+    "UI_CleanUI_ShowWeightColumn": "Pokaż kolumnę obciążenia",
+    "UI_CleanUI_ShowWeightColumn_Tooltip": "Pokazuje osobną kolumnę obciążenia dla wierszy przedmiotów i stosów w panelach ekwipunku i łupu CleanUI.",
+    "UI_CleanUI_Column_Rarity": "Rzadkość",
+    "UI_CleanUI_Column_Weight": "Obciążenie",
+    "UI_CleanUI_ShowColumnHeaders": "Pokaż nagłówki kolumn",
+    "UI_CleanUI_ShowColumnHeaders_Tooltip": "Pokazuje klikalny wiersz nagłówków kolumn nad listami przedmiotów w panelach ekwipunku i łupu."
 }

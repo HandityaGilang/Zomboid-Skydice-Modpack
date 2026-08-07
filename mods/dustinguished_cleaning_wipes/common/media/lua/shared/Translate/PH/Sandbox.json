@@ -1,0 +1,16 @@
+{
+    "Sandbox_DGMC_Cleaning_Wipes": "panlinis ng mga punasan",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body": "Malinis ang Katawan",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body_tooltip": "Kung maaari mong linisin ang iyong katawan gamit ang mga panlinis na punasan.",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing": "Malinis na Damit",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing_tooltip": "Kung maaari mong linisin ang damit gamit ang mga panlinis na punasan.",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons": "Marunong Maglinis ng Melee Weapons",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons_tooltip": "Kung maaari mong linisin ang mga armas ng suntukan gamit ang mga panlinis na punasan.",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup": "Tinatanggal ang Makeup",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup_tooltip": "Kung mag-aalis ng makeup kapag nililinis ang iyong katawan.",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult": "Tagal Multiplier",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult_tooltip": "Gaano katagal bago maglinis gamit ang mga wipe, na may kaugnayan sa paghuhugas gamit ang tubig lamang.  Mas mababa para sa mas mabilis, mas mataas para sa mas mabagal.",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness": "Basa ng Damit",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness_tooltip": "Kapag naglilinis ng mga damit, ang antas ng kanilang basa ay itatakda sa maximum na halagang ito o sa kasalukuyang antas nito.  Halimbawa sa default na halaga, ang mga damit sa 0 basa ay itatakda sa 25, habang ang mga damit na nasa 50 na basa ay mananatili sa 50.",
+    "Sandbox_DGMC_Cleaning_Wipes_Debug_Logging": "Debug Log"
+}

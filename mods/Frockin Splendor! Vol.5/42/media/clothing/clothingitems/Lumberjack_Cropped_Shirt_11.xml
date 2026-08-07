@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+    <m_MaleModel></m_MaleModel>
+    <m_FemaleModel></m_FemaleModel>
+    <m_GUID>3d32ed77-e1c1-4ab1-a04e-1751d4374539</m_GUID>
+    <m_Static>false</m_Static>
+    <m_AllowRandomTint>false</m_AllowRandomTint>
+    <m_AttachBone></m_AttachBone>
+    <m_BaseTextures>clothes\Material_Cotton\Shirts_Cropped\Denim_Shirt_11</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Shirts_Cropped\DenimBlue_Shirt_11</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Shirts_Cropped\DenimGrey_Shirt_11</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Shirts_Cropped\DenimPink_Shirt_11</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Shirts_Cropped\DenimYellow_Shirt_11</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Shirts_Cropped\DenimYellower_Shirt_11</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Shirts_Cropped\DenimGreen_Shirt_11</m_BaseTextures>
+</clothingItem>

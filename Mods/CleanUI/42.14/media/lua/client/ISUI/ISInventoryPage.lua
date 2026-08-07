@@ -144,6 +144,39 @@ function ISInventoryPage:titleBarHeight(selected)
 	return math.max(16, math.floor(self.titleFontHgt * 1.2))
 end
 
+function ISInventoryPage:cleanUIUpdateResizeWidgetBounds()
+    -- Keep the enlarged resize widget exactly anchored to the panel bottom-right corner.
+    if not self.resizeWidget then return end
+    local size = math.max(1, tonumber(self.resizeWidgetSize) or 10)
+    local pageWidth = (type(self.getWidth) == "function" and tonumber(self:getWidth())) or tonumber(self.width) or 0
+    local pageHeight = (type(self.getHeight) == "function" and tonumber(self:getHeight())) or tonumber(self.height) or 0
+    local x = math.max(0, math.ceil(pageWidth - size))
+    local y = math.max(0, math.ceil(pageHeight - size))
+    self.resizeWidget:setX(x)
+    self.resizeWidget:setY(y)
+    self.resizeWidget:setWidth(size)
+    self.resizeWidget:setHeight(size)
+end
+
+function ISInventoryPage:cleanUIGetLockConfigKey()
+    -- Keep inventory and loot lock states stored independently.
+    return self.onCharacter and "lockInventoryWindow" or "lockLootWindow"
+end
+
+function ISInventoryPage:cleanUIRefreshBothPageLocks()
+    -- Refresh both panels after a lock state change so the icons and resize widgets stay in sync.
+    local playerIndex = self.player or 0
+    local inventoryPage = getPlayerInventory(playerIndex)
+    local lootPage = getPlayerLoot(playerIndex)
+
+    if inventoryPage and inventoryPage.setPagelocked then
+        inventoryPage:setPagelocked()
+    end
+    if lootPage and lootPage.setPagelocked then
+        lootPage:setPagelocked()
+    end
+end
+
 function ISInventoryPage:initialise()
 	ISPanel.initialise(self)
 end
@@ -162,7 +195,7 @@ function ISInventoryPage:new (x, y, width, height, inventory, onCharacter, zoom)
 	o.width = width
 	o.height = height
     o.padding = math.floor(FONT_HGT_SMALL * 0.2)
-    o.resizeWidgetSize = math.floor(FONT_HGT_SMALL * 0.4)
+    o.resizeWidgetSize = math.max(10, math.floor(FONT_HGT_SMALL * 0.6))
 	o.anchorLeft = true
     o.backpackChoice = 1
     o.zoom = zoom
@@ -240,7 +273,45 @@ function ISInventoryPage:isPageLeft()
     end
 end
 
+
+-- CleanUI: convert potentially stale/string/nil UI dimensions to safe numbers.
+-- This avoids hard errors if another mod temporarily leaves page dimensions in an unexpected state.
+local function CleanUI_safePageNumber(value, fallback)
+    if type(value) == "number" then
+        return value
+    end
+
+    if value ~= nil then
+        local ok, converted = pcall(tonumber, value)
+        if ok and type(converted) == "number" then
+            return converted
+        end
+    end
+
+    if type(fallback) == "number" then
+        return fallback
+    end
+
+    return 0
+end
+
+local function CleanUI_safePageMethodNumber(object, methodName, fallback)
+    if object ~= nil and type(object[methodName]) == "function" then
+        local ok, value = pcall(object[methodName], object)
+        if ok then
+            return CleanUI_safePageNumber(value, fallback)
+        end
+    end
+
+    return CleanUI_safePageNumber(fallback, 0)
+end
+
 function ISInventoryPage:createChildren()
+    self.buttonSize = CleanUI_safePageNumber(self.buttonSize, 32)
+    self.containerButtonPanelWidth = CleanUI_safePageNumber(self.containerButtonPanelWidth, math.floor(self.buttonSize * 1.2))
+    self.width = CleanUI_safePageNumber(self.width, CleanUI_safePageMethodNumber(self, "getWidth", 256 + self.containerButtonPanelWidth))
+    self.height = CleanUI_safePageNumber(self.height, CleanUI_safePageMethodNumber(self, "getHeight", 100))
+
     self.minimumHeight = 100
     self.minimumWidth = 256 + self.buttonSize * 2
 
@@ -298,6 +369,7 @@ function ISInventoryPage:createChildren()
 	resizeWidget:initialise()
 	self:addChild(resizeWidget)
 	self.resizeWidget = resizeWidget
+    self:cleanUIUpdateResizeWidgetBounds()
     local config = CleanUIConfig and CleanUIConfig.getConfig and CleanUIConfig.getConfig() or {}
     local isLocked = config["lockPanel"] or false
     if isLocked then
@@ -341,9 +413,20 @@ function ISInventoryPage:createChildren()
         local isLocked = config[configKey] or false
 
         local icon = isLocked and self.buttonIcon.lock or self.buttonIcon.unlock
-        local iconSize = btn.width
-        local brightness = isLocked and 0.8 or 0.6
-        btn:drawTextureScaled(icon, 0, 0, iconSize, iconSize, btn.mouseOver and 1 or 0.8, brightness, brightness, brightness)
+        if isLocked then
+            -- Draw an orange active-state background so locked panels are easy to recognize.
+            local color = btn.mouseOver and {r = 1, g = 0.55, b = 0.15} or {r = 0.95, g = 0.5, b = 0.1}
+            btn:drawTextureScaled(self.buttonTex.bg, 0, 0, btn.width, btn.height, 1, color.r, color.g, color.b)
+            btn:drawTextureScaled(self.buttonTex.border, 0, 0, btn.width, btn.height, 1, 0.4, 0.4, 0.4)
+
+            local iconSize = btn.width * 0.8
+            local iconXY = (btn.width - iconSize) / 2
+            btn:drawTextureScaled(icon, iconXY, iconXY, iconSize, iconSize, 1, 1, 1, 1)
+        else
+            local iconSize = btn.width
+            local brightness = 0.6
+            btn:drawTextureScaled(icon, 0, 0, iconSize, iconSize, btn.mouseOver and 1 or 0.8, brightness, brightness, brightness)
+        end
     end
     self:addChild(self.lockButton)
 
@@ -668,29 +751,47 @@ end
 
 
 function ISInventoryPage:toggleLock()
-    if CleanUIConfig and CleanUIConfig.updateConfig then
-        local config = CleanUIConfig.getConfig()
-        local configKey = self.onCharacter and "lockInventoryWindow" or "lockLootWindow"
-        local currentLock = config[configKey] or false
-        CleanUIConfig.updateConfig(configKey, not currentLock)
-        self:setPagelocked()
+    if not CleanUIConfig or not CleanUIConfig.getConfig or not CleanUIConfig.saveConfig then
+        return
     end
+
+    local config = CleanUIConfig.getConfig()
+    local configKey = self:cleanUIGetLockConfigKey()
+    local currentLock = config[configKey] == true
+
+    -- Save the current panel lock without touching the other panel lock state.
+    config[configKey] = not currentLock
+    CleanUIConfig.saveConfig(config)
+    self:cleanUIRefreshBothPageLocks()
 end
 
 function ISInventoryPage:setPagelocked()
     local config = CleanUIConfig.getConfig()
-    local configKey = self.onCharacter and "lockInventoryWindow" or "lockLootWindow"
-    local isLocked = config[configKey] or false
+    local configKey = self:cleanUIGetLockConfigKey()
+    local isLocked = config[configKey] == true
 
     if self.resizeWidget then
+        -- Keep the resize widget state in sync after loading a session or rebuilding the page.
+        self.resizeWidget.target = self
+        self.resizeWidget.resizing = false
+        self.resizeWidget:setCapture(false)
+        self:cleanUIUpdateResizeWidgetBounds()
         self.resizeWidget:setVisible(not isLocked)
+        if not isLocked then
+            self.resizeWidget:bringToTop()
+        end
+    end
+
+    if isLocked and self.inventoryPane and self.inventoryPane.cleanUICancelColumnResize then
+        -- A locked page must also stop in-progress column divider drags.
+        self.inventoryPane:cleanUICancelColumnResize()
     end
 end
 
 function ISInventoryPage:isPagelocked()
     local config = CleanUIConfig.getConfig()
-    local configKey = self.onCharacter and "lockInventoryWindow" or "lockLootWindow"
-    return config[configKey] or false
+    local configKey = self:cleanUIGetLockConfigKey()
+    return config[configKey] == true
 end
 
 function ISInventoryPage:toggleStove()
@@ -1285,8 +1386,9 @@ function ISInventoryPage:onMouseDown(x, y)
 
 	if not self:getIsVisible() then return end
 
-    if self:isPagelocked() then return end
-
+    -- Keep the normal mouse-capture flow even when the panel is locked.
+    -- Item drag/drop and drag-selection rely on this path; locked panels are
+    -- prevented from moving in onMouseMove/onMouseMoveOutside instead.
 	getSpecificPlayer(self.player):nullifyAiming()
 
 	self.downX = self:getMouseX()
@@ -2374,7 +2476,8 @@ function ISInventoryPage:render()
     -- Draw backpack border over backpacks....
     if not self.isCollapsed then
         if not self:isPagelocked() then
-            self:drawTextureScaled(self.resizeimage, self.width - self.resizeWidgetSize, self.height - self.resizeWidgetSize, self.resizeWidgetSize, self.resizeWidgetSize, self.resizeWidget.mouseOver and 1 or 0.6, 1, 1, 1)
+            self:cleanUIUpdateResizeWidgetBounds()
+            self:drawTextureScaled(self.resizeimage, self.resizeWidget.x, self.resizeWidget.y, self.resizeWidget.width, self.resizeWidget.height, self.resizeWidget.mouseOver and 1 or 0.6, 1, 1, 1)
         end
         if self.controlsUI and self.controlsUI:isVisible() then
             self:drawRectStatic(self.controlsUI.x + self.padding, self.inventoryPane.y, self.controlsUI.width - self.padding * 2, 1, 0.6, 0.6, 0.6, 0.6)

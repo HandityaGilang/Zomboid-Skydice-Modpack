@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>7a910e25-ddd9-423d-aee5-8c3ea082416b</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>	
+	<m_BaseTextures>clothes\Material_Denim\CropTops\Denim_CropTop_4</m_BaseTextures>	
+	<m_BaseTextures>clothes\Material_Denim\CropTops\Denim_CropTop_5</m_BaseTextures>	
+	<m_BaseTextures>clothes\Material_Denim\CropTops\Denim_CropTop_6</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Denim\CropTops\Denim_CropTop_A_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\CropTops\Denim_CropTop_A_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\CropTops\Denim_CropTop_A_6</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Denim\CropTops\DenimBlue_CropTop_4</m_BaseTextures>	
+	<m_BaseTextures>clothes\Material_Denim\CropTops\DenimBlue_CropTop_5</m_BaseTextures>	
+	<m_BaseTextures>clothes\Material_Denim\CropTops\DenimBlue_CropTop_6</m_BaseTextures>
+
+	<m_BaseTextures>clothes\Material_Denim\CropTops\DenimBlue_CropTop_A_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\CropTops\DenimBlue_CropTop_A_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\CropTops\DenimBlue_CropTop_A_6</m_BaseTextures>
+
+	<m_BaseTextures>clothes\Material_Denim\CropTops\DenimBlueDarker_CropTop_4</m_BaseTextures>	
+	<m_BaseTextures>clothes\Material_Denim\CropTops\DenimBlueDarker_CropTop_5</m_BaseTextures>	
+	<m_BaseTextures>clothes\Material_Denim\CropTops\DenimBlueDarker_CropTop_6</m_BaseTextures>
+</clothingItem>

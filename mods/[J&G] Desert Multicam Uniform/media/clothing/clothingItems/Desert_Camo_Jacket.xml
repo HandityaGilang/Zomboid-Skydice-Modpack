@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\M_Jacket_Lightweight</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\F_Jacket_Lightweight</m_FemaleModel>
+	<m_GUID>8f9b6029-38b1-48e3-8181-4e17255adf75</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>13</m_Masks>
+	<m_Masks>14</m_Masks>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<textureChoices>Clothes\Military\Jacket\DesertCamo_LightJacket_Camo</textureChoices>
+	<textureChoices>Clothes\Military\Jacket\DesertCamo_LightJacket_Plain</textureChoices>
+</clothingItem>

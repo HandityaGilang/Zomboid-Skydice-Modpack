@@ -1,0 +1,19 @@
+module Base
+{
+
+	
+	model CannedCheese22_Ground
+	{
+		mesh = Worlditems/CannedCheese22,
+		texture = Worlditems/CannedCheese22,
+		scale = 0.0075,
+	}
+	model OpenCannedCheese22_Ground
+	{
+		mesh = Worlditems/Open_CannedCheese22,
+		texture = Worlditems/OpenCannedCheese22,
+		scale = 0.0075,
+	}
+
+
+}

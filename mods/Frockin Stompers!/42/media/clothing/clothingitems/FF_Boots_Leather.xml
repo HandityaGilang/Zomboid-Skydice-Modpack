@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes\Bob_Boots_Generic.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\Kate_Boots_Generic.fbx</m_FemaleModel>
+	<m_GUID>132bd25d-6060-4d36-a7ff-6119875f0a56</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>	
+	<m_Masks>8</m_Masks>	
+	<m_Masks>10</m_Masks>
+	<m_Masks>11</m_Masks>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Masks/Masks_MediumBoots_3</m_UnderlayMasksFolder>	
+	<textureChoices>clothes\Shoes\Boots\Boots_Leather</textureChoices>
+	<textureChoices>clothes\Shoes\Boots\Boots_Leather_1</textureChoices>
+	<textureChoices>clothes\Shoes\Boots\Boots_Leather_2</textureChoices>
+	<textureChoices>clothes\Shoes\Boots\Boots_Leather_3</textureChoices>
+	<textureChoices>clothes\Shoes\Boots\Boots_Leather_4</textureChoices>
+	
+	<textureChoices>clothes\Shoes\Boots\Boots_Leather_1B</textureChoices>
+	<textureChoices>clothes\Shoes\Boots\Boots_Leather_2B</textureChoices>
+	<textureChoices>clothes\Shoes\Boots\Boots_Leather_3B</textureChoices>
+	<textureChoices>clothes\Shoes\Boots\Boots_Leather_4B</textureChoices>
+	
+	<textureChoices>clothes\Shoes\Boots\Boots_Leather_1C</textureChoices>
+	<textureChoices>clothes\Shoes\Boots\Boots_Leather_2C</textureChoices>
+	<textureChoices>clothes\Shoes\Boots\Boots_Leather_3C</textureChoices>
+	<textureChoices>clothes\Shoes\Boots\Boots_Leather_4C</textureChoices>
+	
+	<textureChoices>clothes\Shoes\Boots\Boots_Leather_1D</textureChoices>
+	<textureChoices>clothes\Shoes\Boots\Boots_Leather_1E</textureChoices>
+</clothingItem>

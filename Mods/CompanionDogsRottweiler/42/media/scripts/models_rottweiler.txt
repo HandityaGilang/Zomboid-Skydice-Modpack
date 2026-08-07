@@ -12,24 +12,51 @@ module Base
             rotate = -179.0 -5.0 95.0,
             bone = Dummy01,
         }
+        /* ALFORJE. Estes valores foram ajustados AO VIVO DENTRO DO JOGO (2026-07-21) e conferidos
+           na tela antes de virem pra ca. NAO os derive de novo por proporcao.
+
+           COMO AJUSTAR (unico jeito que funcionou): skill `dogs-saddlebag`. Ela instala um
+           tuner Lua descartavel que abre uma janela com os sete campos de cada attachment; o que
+           se digita entra no cao NA HORA, sem reiniciar, porque o ModelAttachment expoe
+           offset/rotate como Vector3f mutavel e a engine le esses objetos a cada frame. No fim do
+           ajuste o tuner e REMOVIDO - ele nao mora no mod.
+
+           HISTORICO, pra ninguem repetir: derivar estes numeros por regra de tres (razao de
+           meia-largura do flanco), por medicao no GLB, ou por ajuste no Blender via .blend
+           espelhando a cadeia de transform - as tres abordagens produziram valores que pareciam
+           bem fundamentados e falharam TODAS em jogo. Duas armadilhas especificas:
+             - o Blender deixa escalar por eixo, a engine NAO (getScale() e um float unico), entao
+               forma ajustada com escala nao-uniforme nao e reproduzivel;
+             - render de conferencia com as bolsas visiveis ESCONDE o arco central; se for
+               renderizar pra conferir, renderize a peca isolada.
+
+           Convencao, util pra LER os valores (do decompile, memoria
+           pz-b42-model-attachment-rotate-convention):
+             localX = LATERAL | localY = FRENTE/TRAS | localZ = VERTICAL com +Z = BAIXO
+           (ou seja CIMA = mais negativo). rotate = Rx*Ry*Rz mesh-local; a PZ ainda aplica um bake
+           B = Rx(-90) no load do FBX.
+
+           ATENCAO: este .txt so e reparseado no BOOT do jogo. Recarregar o save NAO pega valor novo.
+           SYNC: rodar sync-workshop-rott.ps1 (3 copias; o jogo carrega a INSCRITA da Steam). Quando
+           uma mudanca "nao aparece em jogo", conferir as COPIAS antes de teorizar cache. */
         attachment saddlebags_l
         {
-            offset = 0.065 0.04 0.05,
+            offset = 0.07 0.038 0.075,
             rotate = 8.0 -90.0 90.0,
-            scale = 0.5,
+            scale = 0.6,
             bone = Spine_03,
         }
         attachment saddlebags_r
         {
-            offset = -0.065 0.04 0.05,
+            offset = -0.07 0.038 0.075,
             rotate = 8.0 90.0 -90.0,
-            scale = 0.5,
+            scale = 0.6,
             bone = Spine_03,
         }
         attachment saddlebags_c
         {
-            offset = 0.0 0.04 -0.03,
-            rotate = 90.0 90.0 0.0,
+            offset = 0.0 0.05 -0.05,
+            rotate = 90.0 -90.0 0.0,
             scale = 0.35,
             bone = Spine_03,
         }

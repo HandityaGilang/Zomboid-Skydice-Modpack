@@ -58,7 +58,44 @@ function CleanUI_Vanilla_ISInventoryPage:titleBarHeight(selected)
 	return math.max(16, self.titleFontHgt + 1)
 end
 
+
+-- CleanUI: convert potentially stale/string/nil UI dimensions to safe numbers.
+-- This avoids hard errors if another mod temporarily leaves page dimensions in an unexpected state.
+local function CleanUI_safePageNumber(value, fallback)
+    if type(value) == "number" then
+        return value
+    end
+
+    if value ~= nil then
+        local ok, converted = pcall(tonumber, value)
+        if ok and type(converted) == "number" then
+            return converted
+        end
+    end
+
+    if type(fallback) == "number" then
+        return fallback
+    end
+
+    return 0
+end
+
+local function CleanUI_safePageMethodNumber(object, methodName, fallback)
+    if object ~= nil and type(object[methodName]) == "function" then
+        local ok, value = pcall(object[methodName], object)
+        if ok then
+            return CleanUI_safePageNumber(value, fallback)
+        end
+    end
+
+    return CleanUI_safePageNumber(fallback, 0)
+end
+
 function CleanUI_Vanilla_ISInventoryPage:createChildren()
+    self.buttonSize = CleanUI_safePageNumber(self.buttonSize, 32)
+    self.width = CleanUI_safePageNumber(self.width, CleanUI_safePageMethodNumber(self, "getWidth", 256 + self.buttonSize))
+    self.height = CleanUI_safePageNumber(self.height, CleanUI_safePageMethodNumber(self, "getHeight", 100))
+
     self.minimumHeight = 100;
     -- This must be buttonSize pixels wider than InventoryPane's minimum width
     -- TODO: parent widgets respect min size of child widgets.
@@ -1427,7 +1464,7 @@ function CleanUI_Vanilla_ISInventoryPage:onBackpackRightMouseDown(x, y)
     if ISLootZed.cheat or isAdmin() then
         local playerObj = getSpecificPlayer(page.player)
         if hasWorldObjectParent then
-            context:addOption("Refill container", container, function(container)
+            context:addOption((getTextOrNull and getTextOrNull("ContextMenu_RefillContainer")) or "Refill container", container, function(container)
                 if container:getSourceGrid() then
                     if isClient() then
                         local items = container:getItems()
@@ -1473,7 +1510,7 @@ function CleanUI_Vanilla_ISInventoryPage:onBackpackRightMouseDown(x, y)
             end, playerObj)
         end
         if ISLootZed.cheat then
-            context:addOption("Open LootZed", container, function(container, playerObj)
+            context:addOption((getTextOrNull and getTextOrNull("ContextMenu_LootZed")) or "Open LootZed", container, function(container, playerObj)
                 LootZedTool.SpawnItemCheckerList = {}
                 LootZedTool.fillContainer_CalcChances(container, playerObj)
 
@@ -2034,6 +2071,23 @@ function CleanUI_Vanilla_ISInventoryPage:new (x, y, width, height, inventory, on
    return o
 end
 
+function CleanUI_Vanilla_ISInventoryPage:shouldSetOutlineHighlight(button)
+    -- Keep the B42.20 vanilla outline-highlight guard while staying defensive for B42.19 and modded containers.
+    if not getCore():getOptionDoContainerOutline() then return false end
+    if not button or not button.inventory then return false end
+
+    local object = self:getContainerParent(button.inventory)
+    if object == nil then return false end
+    if object == self.mouseOverColoredContainer then return false end
+    if object == self:getContainerParent(self.coloredInv) then return false end
+
+    local highlightedElsewhere = ObjectsHighlightedElsewhere and ObjectsHighlightedElsewhere[self.player + 1]
+    if highlightedElsewhere and highlightedElsewhere[object] then return false end
+    if instanceof(object, "IsoPlayer") then return false end
+
+    return true
+end
+
 function CleanUI_Vanilla_ISInventoryPage:onMouseOverButton(button,x,y)
     if button.inventory:getContainingItem() and button.inventory:getContainingItem():getName() ~= button.name then
         self:refreshBackpacks()
@@ -2047,7 +2101,7 @@ function CleanUI_Vanilla_ISInventoryPage:onMouseOverButton(button,x,y)
         self:stopHighlightContainer(self.mouseOverColoredContainer);
     end
 
-    if newMouseOverColoredContainer and newMouseOverColoredContainer ~= self.mouseOverColoredContainer and self:getContainerParent(self.coloredInv) ~= newMouseOverColoredContainer and not ObjectsHighlightedElsewhere[self.player+1][newMouseOverColoredContainer] and getCore():getOptionDoContainerOutline() then
+    if self:shouldSetOutlineHighlight(button) then
         self.mouseOverColoredContainer = newMouseOverColoredContainer;
         self.mouseOverColoredContainerInv = button.inventory;
         self.mouseOverColoredContainer:setOutlineHighlight(self.player, true);

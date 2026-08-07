@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+    <m_MaleModel></m_MaleModel>
+    <m_FemaleModel></m_FemaleModel>
+    <m_GUID>35fecbca-c146-4552-a858-84039957081e</m_GUID>
+    <m_Static>false</m_Static>
+    <m_AllowRandomTint>false</m_AllowRandomTint>
+    <m_AttachBone></m_AttachBone>
+    <m_BaseTextures>clothes\Material_LeatherTanned\Corsets_UB\LeatherTanned_Corset_7</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets_UB\LeatherTanned_Corset_8</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets_UB\LeatherTanned_Corset_8A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets_UB\LeatherTanned_Corset_9</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets_UB\LeatherTanned_Corset_9A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets_UB\LeatherTanned_Corset_10</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets_UB\LeatherTanned_Corset_11</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets_UB\LeatherTannedRed_Corset_7</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets_UB\LeatherTannedRed_Corset_8</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets_UB\LeatherTannedRed_Corset_8A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets_UB\LeatherTannedRed_Corset_9</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets_UB\LeatherTannedRed_Corset_9A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets_UB\LeatherTannedRed_Corset_10</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets_UB\LeatherTannedRed_Corset_11</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets_UB\LeatherTannedBlack_Corset_7</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets_UB\LeatherTannedBlack_Corset_8</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets_UB\LeatherTannedBlack_Corset_8A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets_UB\LeatherTannedBlack_Corset_9</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets_UB\LeatherTannedBlack_Corset_9A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets_UB\LeatherTannedBlack_Corset_10</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Corsets_UB\LeatherTannedBlack_Corset_11</m_BaseTextures>
+
+</clothingItem>

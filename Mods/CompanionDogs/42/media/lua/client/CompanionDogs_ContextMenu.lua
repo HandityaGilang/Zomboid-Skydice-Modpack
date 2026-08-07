@@ -150,6 +150,32 @@ local function onAttack(animal, playerObj)
     CD.request("attack", animal)
 end
 
+-- Cuidar de fazenda: liga/desliga o cuidador. Sem x/y/z: o server usa a posicao ATUAL do cao como ancora do curral
+-- (o jogador estaciona o cao no curral e clica aqui). O server exige uma DesignationZoneAnimal na ancora.
+local function onCareConfirm(target, button)
+    local internal = (type(button) == "table") and button.internal or button
+    if internal == "YES" and target and target.animal then
+        CD.request("setcaremode", target.animal, { on = true })
+    end
+end
+
+local function onToggleCare(animal, playerObj)
+    local on = false
+    pcall(function() on = CD.getCareMode(animal) end)
+    if on then
+        CD.request("setcaremode", animal, { on = false })   -- PARAR nao pede confirmacao: nao se perde nada
+        return
+    end
+    -- Atribuir DESSELECIONA o cao (server-side, CD.Server.setcaremode). Mesmo aviso da janela de acao, pra que a
+    -- consequencia apareca independente de por onde o jogador entrou.
+    local nm = ""
+    pcall(function() nm = CD.data(animal).name or CD.breedNoun(animal) end)
+    local modal = ISModalDialog:new(0, 0, 380, 160,
+        getText("IGUI_PD_CareDeselectConfirm", nm), true, { animal = animal }, onCareConfirm,
+        playerObj and playerObj:getPlayerNum() or 0)
+    modal:initialise(); modal:addToUIManager()
+end
+
 local function onInspect(animal, playerObj)
     if ISCDStatusWindow then ISCDStatusWindow.OpenFor(animal) end
 end
@@ -188,7 +214,8 @@ local function onDebugAllNeeds(animal, playerObj)
 end
 
 local DEBUG_SKILLS = { { key = "hunt", label = "Caca" }, { key = "combat", label = "Combate" },
-                       { key = "obedience", label = "Obediencia" }, { key = "scent", label = "Faro" } }
+                       { key = "obedience", label = "Obediencia" }, { key = "scent", label = "Faro" },
+                       { key = "herding", label = "Pastoreio" } }
 
 -- set == nil -> +1 nivel; caso contrario, define direto para aquele nivel.
 local function onDebugSkill(animal, playerObj, skill, set)
@@ -398,6 +425,23 @@ local function onAnimalMenu(player, context, animals)
                     if CD.bondingEnabled() then
                         menu:addOption(getText("IGUI_PD_Pet"), playerObj, onPetDog, animal)
                     end
+                    -- Cuidar do gado tambem no PASSIVO: cuidar e trabalho independente do dono, entao exigir que o cao
+                    -- fosse o ativo era arbitrario -- e como atribuir DESSELECIONA, forcar a selecao antes era um
+                    -- vai-e-volta inutil. A ancora e a posicao atual do cao; o server recusa (carenopen) se nao houver
+                    -- curral ali, que e o mesmo gate do ramo ativo.
+                    if CD.careEnabled() then
+                        local caring = false
+                        pcall(function() caring = CD.getCareMode(animal) end)
+                        local clbl = caring and getText("IGUI_PD_CareStop") or getText("IGUI_PD_CareStart")
+                        local cOpt = menu:addOption(clbl, animal, onToggleCare, playerObj)
+                        local cTip = ISWorldObjectContextMenu.addToolTip()
+                        cTip:setName(clbl)
+                        cTip.description = getText("IGUI_PD_CareModeDesc", CD.breedNoun(animal))
+                        if not caring then
+                            cTip.description = cTip.description .. " " .. getText("IGUI_PD_CareDeselectWarn")
+                        end
+                        cOpt.toolTip = cTip
+                    end
                     menu:addOption(getText("IGUI_PD_Inspect"), animal, onInspect, playerObj)
                     menu:addOption(getText("IGUI_PD_Rename"), animal, onRename, playerObj)
                     menu:addOption(getText("IGUI_PD_Carry"), animal, onCarry, playerObj)
@@ -423,6 +467,20 @@ local function onAnimalMenu(player, context, animals)
                     menu:addOption(getText("IGUI_PD_CmdCome"), animal, onCome, playerObj)
                     if CD.combatEnabled() then
                         menu:addOption(getText("IGUI_PD_CmdAttack"), animal, onAttack, playerObj)
+                    end
+                    -- Cuidar de fazenda: estaciona o cao no curral onde ele esta (o server exige uma zona de animais la).
+                    if CD.careEnabled() then
+                        local caring = false
+                        pcall(function() caring = CD.getCareMode(animal) end)
+                        local clbl = caring and getText("IGUI_PD_CareStop") or getText("IGUI_PD_CareStart")
+                        local cOpt = menu:addOption(clbl, animal, onToggleCare, playerObj)
+                        local cTip = ISWorldObjectContextMenu.addToolTip()
+                        cTip:setName(getText("IGUI_PD_CareStart"))
+                        cTip.description = getText("IGUI_PD_CareModeDesc", CD.breedNoun(animal))
+                        if not caring then
+                            cTip.description = cTip.description .. " " .. getText("IGUI_PD_CareDeselectWarn")
+                        end
+                        cOpt.toolTip = cTip
                     end
                     -- Alforje (cargo): abrir/desequipar quando equipado, senao oferece equipar uma bag do inventario.
                     if CD.hasBag(animal) then
@@ -588,8 +646,16 @@ function ISCDPlaceDish:start()
     self.sound = self.character:playSound("PutItemInBag")
 end
 
+-- O efeito sai daqui, por contagem de ticks, e NAO do complete(): num client MP o
+-- LuaTimedActionNew.complete() so repassa pro Lua quando !GameClient.client (o engine espera que o
+-- SERVIDOR rode o complete autoritativo). Mesmo padrao ja usado por ISCDFillDish/ISCDBaseDogAction.
 function ISCDPlaceDish:update()
     self.item:setJobDelta(self:getJobDelta())
+    self.cdTicks = (self.cdTicks or 0) + 1
+    if self.cdTicks >= self.cdMaxTicks and not self.cdDone then
+        self:doPlace()
+        self:forceComplete()
+    end
 end
 
 function ISCDPlaceDish:stopSound()
@@ -616,16 +682,19 @@ function ISCDPlaceDish:stop()
 end
 
 function ISCDPlaceDish:perform()
+    -- Rede de seguranca pro modo instantaneo (maxTime=1), onde o contador de ticks nao chega em
+    -- cdMaxTicks. doPlace e idempotente via cdDone.
+    self:doPlace()
     self:stopSound()
     self.item:setJobDelta(0.0)
     ISInventoryPage.renderDirty = true
     ISBaseTimedAction.perform(self)
 end
 
-function ISCDPlaceDish:complete()
-    self:doPlace()
-    return true
-end
+-- SEM complete(): defini-lo faz o LuaTimedActionNew optar pelo net-action sync
+-- (useCustomRemoteTimedActionSync=false), que chama setWaitForFinished(true) e espera um aceite do
+-- servidor. O servidor reconstroi a acao por nome, mas ele NAO executa media/lua/client (carrega com
+-- onlyChecksum=true), entao ISCDPlaceDish nao existe la e o aceite nunca vem: barra travada pra sempre.
 
 function ISCDPlaceDish:getDuration()
     if self.character:isTimedActionInstant() then return 1 end
@@ -640,6 +709,7 @@ function ISCDPlaceDish:new(character, item, sq, xoffset, yoffset, rotation)
     o.yoffset = yoffset
     o.rotation = rotation
     o.maxTime = o:getDuration()
+    o.cdMaxTicks = 15
     o.stopOnWalk = false
     o.stopOnRun = false
     return o

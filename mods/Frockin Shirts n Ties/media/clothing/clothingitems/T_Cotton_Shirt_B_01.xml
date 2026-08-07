@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+    <m_MaleModel></m_MaleModel>
+    <m_FemaleModel></m_FemaleModel>
+    <m_GUID>f5b87eca-9f80-4472-93a3-0b6aff2b0973</m_GUID>
+    <m_Static>false</m_Static>
+    <m_AllowRandomTint>true</m_AllowRandomTint>
+    <m_AttachBone></m_AttachBone>
+    <m_BaseTextures>clothes\Material_Cotton\Shirts_Short_Basic\Shirt_B_01</m_BaseTextures>
+</clothingItem>

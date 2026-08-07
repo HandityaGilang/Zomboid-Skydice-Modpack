@@ -1,0 +1,16 @@
+module Base
+{
+    recipe Refill Blow Torch
+    {
+       destroy BlowTorch=1,
+       PropaneTank,
+
+       Result:BlowTorch,
+       Time:50.0,
+       Category:Welding,
+	   Override:True,
+       OnTest:Refill.OnTest.RefillBlowTorch,
+       OnCreate:Refill.OnCreate.RefillBlowTorch,
+    }
+
+}

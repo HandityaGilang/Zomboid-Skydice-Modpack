@@ -1,0 +1,16 @@
+{
+    "Base.StringBox": "Caixa de Cordéis",
+    "Base.ButtonWood": "Botão - Madeira",
+    "Base.FlintFirestarter": "Acendedor de Pederneira",
+    "Base.CandleJar": "Vela",
+    "Base.CandleJarLit": "Vela Acesa",
+    "Base.CandleTinCan": "Vela",
+    "Base.CandleTinCanLit": "Vela Acesa",
+    "Base.CandleWaterRationCan": "Vela",
+    "Base.CandleWaterRationCanLit": "Vela Acesa",
+    "Base.TorchCloth": "Tocha",
+    "Base.TorchDenim": "Tocha",
+    "Base.TorchFiber": "Tocha",
+    "Base.TorchBurnt": "Tocha",
+    "Base.TorchLit": "Tocha Acesa"
+}

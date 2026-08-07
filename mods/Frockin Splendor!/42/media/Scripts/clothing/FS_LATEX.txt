@@ -1,0 +1,27 @@
+module Base
+{
+/******************************* Leather SERIES *******************************/
+	
+	item LATEX_Dress
+	{
+        DisplayCategory = FrockinDresses,
+        ItemType = base:Clothing,
+			DisplayName = Rubber Dress,
+			ClothingItem = LATEX_Dress,
+			BodyLocation = base:Dress,
+			BloodLocation = Bag;Groin;LowerBody;UpperLegs;LowerLegs;UpperBody;UpperArms;LowerArms;Neck,
+			Icon = LT_Dress,
+        Weight = 2,
+        Insulation = 0.65,
+        WindResistance = 0.60,
+		WaterResistance = 1.00,
+		ScratchDefense = 40,
+        BiteDefense = 20,
+        FabricType = Leather,
+		Tags = RipClothingLeather,
+		CanHaveHoles = true,
+		RunSpeedModifier = 0.98,
+			WorldStaticModel = WorldItem_Generic,
+	}
+	
+}

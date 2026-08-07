@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>704c328c-3b99-4716-8e95-a6e0b4997a48</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>true</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_Dress_DS\Cotton_Dress_0_DS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_Dress_DS\Cotton_Dress_0A_DS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_Dress_DS\Cotton_Dress_0B_DS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_Dress_DS\Cotton_Dress_0C_DS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_Dress_DS\Cotton_Dress_1_DS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_Dress_DS\Cotton_Dress_1A_DS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_Dress_DS\Cotton_Dress_3_DS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_Dress_DS\Cotton_Dress_3A_DS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_Dress_DS\Cotton_Dress_5_DS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_Dress_DS\Cotton_Dress_5A_DS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_Dress_DS\Cotton_Dress_6_DS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_Dress_DS\Cotton_Dress_7_DS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_Dress_DS\Cotton_Dress_9_DS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_Dress_DS\Cotton_Dress_10_DS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_Dress_DS\Cotton_Dress_10A_DS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_Dress_DS\Cotton_Dress_11_DS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_Dress_DS\Cotton_Dress_12_DS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_Dress_DS\Cotton_Dress_13A_DS</m_BaseTextures>
+
+</clothingItem>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\Cotton_Gothic_Skirt_HW</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\Cotton_Gothic_Skirt_HW</m_FemaleModel>
+	<m_GUID>dba83da3-5b7c-4aab-82e8-a2fc247bdb1e</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>14</m_Masks>
+	<m_MasksFolder></m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Masks/Skirts_nocrotch5</m_UnderlayMasksFolder>
+	
+	<textureChoices>clothes\Material_Cotton\SkirtsModels\Cotton_GothicSkirt_9A</textureChoices>
+	<textureChoices>clothes\Material_Cotton\SkirtsModels\Cotton_GothicSkirt_10A</textureChoices>
+	<textureChoices>clothes\Material_Cotton\SkirtsModels\Cotton_GothicSkirt_11A</textureChoices>
+	<textureChoices>clothes\Material_Cotton\SkirtsModels\Cotton_GothicSkirt_12A</textureChoices>
+	<textureChoices>clothes\Material_Cotton\SkirtsModels\Cotton_GothicSkirt_13A</textureChoices>
+	<textureChoices>clothes\Material_Cotton\SkirtsModels\Cotton_GothicSkirt_14A</textureChoices>
+	<textureChoices>clothes\Material_Cotton\SkirtsModels\Cotton_GothicSkirt_15A</textureChoices>
+
+</clothingItem>	

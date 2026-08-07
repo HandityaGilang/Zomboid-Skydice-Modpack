@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>c0052685-b1ac-419b-a8b5-c4119f75cd70</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Leather\Armband\Leather_Armband_Double</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Armband\Leather_Armband_Double_Alt</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Armband\Leather_Armband_Double_Alt2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Armband\Leather_Armband_Double_Alt3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Armband\Leather_Armband_Double_Alt4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Armband\Leather_Armband_Double_Alt5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Armband\Leather_Armband_Double_Alt6</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Armband\Leather_Armband_Double_Alt7</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Armband\Leather_Armband_Double_Alt8</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Armband\Leather_Armband_Double_Alt9</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Armband\Leather_Armband_Double_Alt10</m_BaseTextures>
+</clothingItem>

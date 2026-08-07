@@ -1,0 +1,8 @@
+{
+    "ContextMenu_ComputerMod_Computer": "\u043a\u043e\u043c\u043f'\u044e\u0442\u0435\u0440",
+    "ContextMenu_ComputerMod_InsertCD": "\u0412\u0441\u0442\u0430\u0432\u0442\u0435 CD",
+    "ContextMenu_ComputerMod_NetworkTerminal": "\u041c\u0435\u0440\u0435\u0436\u0435\u0432\u0438\u0439 \u0442\u0435\u0440\u043c\u0456\u043d\u0430\u043b",
+    "ContextMenu_ComputerMod_RemoveCD": "\u0412\u0438\u0434\u0430\u043b\u0438\u0442\u0438 \u043a\u043e\u043c\u043f\u0430\u043a\u0442-\u0434\u0438\u0441\u043a",
+    "ContextMenu_ComputerMod_ResumeSession": "\u0412\u0456\u0434\u043d\u043e\u0432\u0438\u0442\u0438 \u0441\u0435\u0430\u043d\u0441",
+    "ContextMenu_ComputerMod_TurnOn": "\u0423\u0432\u0456\u043c\u043a\u043d\u0443\u0442\u0438"
+}

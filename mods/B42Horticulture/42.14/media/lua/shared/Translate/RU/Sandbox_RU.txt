@@ -1,0 +1,6 @@
+Sandbox_RU = {
+    Sandbox_B42Horticulture = "[B42] Садоводство",
+    Sandbox_HorticultureLearnedRecipe = "Изучить по оригинальному журналу",
+    Sandbox_HorticultureLearnedRecipe_tooltip =
+        "Добавляет рецепт «Изготовить стеклянную трубку» в «Журнал: руководство по муранскому стеклу».",
+}

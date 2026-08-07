@@ -1,0 +1,38 @@
+module Base
+{
+    item RangerDossierPage1
+    {
+        DisplayName = Ranger Dossier Page 1,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Icon = RangerDossierPage,
+        Weight = 0.1,
+        WorldStaticModel = Magazine,
+        Tags = FitsWallet,
+        Tooltip = Tooltip_DMD_RangerPage1,
+    }
+
+    item RangerDossierPage2
+    {
+        DisplayName = Ranger Dossier Page 2,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Icon = RangerDossierPage,
+        Weight = 0.1,
+        WorldStaticModel = Magazine,
+        Tags = FitsWallet,
+        Tooltip = Tooltip_DMD_RangerPage2,
+    }
+
+    item RangerDossierComplete
+    {
+        DisplayName = Ranger Dossier,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Icon = RangerDossierComplete,
+        Weight = 0.2,
+        WorldStaticModel = Magazine,
+        Tags = FitsWallet,
+        Tooltip = Tooltip_DMD_RangerComplete,
+    }
+}

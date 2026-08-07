@@ -1,0 +1,16 @@
+{
+    "Sandbox_DGMC_Cleaning_Wipes": "クリーニングワイプ",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body": "本体を清潔にできる",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body_tooltip": "お掃除ワイプで体をきれいにできるかどうか。",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing": "衣類をきれいにできる",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing_tooltip": "クリーニングワイプで衣類をきれいにできるかどうか。",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons": "近接武器を掃除できる",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons_tooltip": "近接武器をクリーニングワイプで掃除できるかどうか。",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup": "メイクを落とします",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup_tooltip": "体を洗うときにメイクを落とすかどうか。",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult": "期間乗数",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult_tooltip": "水だけで洗う場合と比較して、ワイプで掃除するのにかかる時間。  低くすると速くなり、高くすると遅くなります。",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness": "衣服の濡れ",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness_tooltip": "衣類をクリーニングする場合、衣類の湿り度レベルはこの値または現在のレベルの最大値に設定されます。  たとえば、デフォルト値では、濡れ度 0 の衣類は 25 に設定されますが、すでに濡れ度 50 の衣類は 50 のままになります。",
+    "Sandbox_DGMC_Cleaning_Wipes_Debug_Logging": "デバッグログ"
+}

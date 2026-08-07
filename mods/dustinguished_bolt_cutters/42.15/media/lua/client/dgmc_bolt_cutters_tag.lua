@@ -1,0 +1,1 @@
+DGMC_Bolt_Cutters_Tag = ItemTag.BOLT_CUTTERS

@@ -1,0 +1,16 @@
+{
+    "Sandbox_DGMC_Cleaning_Wipes": "ผ้าเช็ดทำความสะอาด",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body": "สามารถทำความสะอาดร่างกายได้",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body_tooltip": "ไม่ว่าคุณจะสามารถทำความสะอาดร่างกายด้วยผ้าเช็ดทำความสะอาดได้หรือไม่",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing": "สามารถทำความสะอาดเสื้อผ้าได้",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing_tooltip": "ไม่ว่าคุณจะสามารถทำความสะอาดเสื้อผ้าด้วยผ้าเช็ดทำความสะอาดได้หรือไม่",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons": "สามารถทำความสะอาดอาวุธระยะประชิดได้",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons_tooltip": "ไม่ว่าคุณจะสามารถทำความสะอาดอาวุธระยะประชิดด้วยผ้าเช็ดทำความสะอาดได้หรือไม่",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup": "ลบแต่งหน้า",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup_tooltip": "ไม่ว่าจะล้างเครื่องสำอางเมื่อทำความสะอาดร่างกาย",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult": "ตัวคูณระยะเวลา",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult_tooltip": "ใช้เวลาทำความสะอาดด้วยผ้าเช็ดทำความสะอาดนานเท่าใด เทียบกับการล้างด้วยน้ำเพียงอย่างเดียว  ลดให้เร็วขึ้น สูงขึ้นให้ช้าลง",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness": "เสื้อผ้าเปียก",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness_tooltip": "เมื่อทำความสะอาดเสื้อผ้า ระดับความเปียกจะถูกตั้งค่าไว้ที่ค่าสูงสุดหรือระดับปัจจุบัน  ตัวอย่างเช่น ด้วยค่าเริ่มต้น เสื้อผ้าที่มีความชื้น 0 จะถูกตั้งค่าเป็น 25 ในขณะที่เสื้อผ้าที่มีความเปียกอยู่แล้ว 50 จะอยู่ที่ 50",
+    "Sandbox_DGMC_Cleaning_Wipes_Debug_Logging": "การบันทึกการแก้ไขข้อบกพร่อง"
+}

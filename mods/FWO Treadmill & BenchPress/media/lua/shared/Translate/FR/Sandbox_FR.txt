@@ -1,0 +1,8 @@
+Sandbox_FR = {
+	Sandbox_FWOWorkingTreadmill =						"FWO Tapis de course et d?velopp? couch?",
+	Sandbox_FWOWorkingTreadmill_StrengthXPMultiply =	"Multiplicateur XP de force sur tapis de course",
+	Sandbox_FWOWorkingTreadmill_SprintingXPMultiply =	"Multiplicateur XP de sprint sur tapis de course",
+	Sandbox_FWOWorkingTreadmill_TreadmillDropBags =		"D?poser les sacs au sol lors du d?s?quipement du tapis de course",
+	Sandbox_FWOWorkingTreadmill_BenchpressDropBags =	"D?poser les sacs au sol lors du d?s?quipement du banc de musculation",
+	Sandbox_FWOWorkingTreadmill_BenchTreadKeepBagsOn =	"Garder les sacs ?quip?s",
+}

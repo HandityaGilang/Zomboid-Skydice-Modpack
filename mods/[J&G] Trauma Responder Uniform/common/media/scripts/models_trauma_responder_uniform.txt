@@ -1,0 +1,19 @@
+module Base
+{
+    imports
+    {
+        Base
+    }
+
+    model Helmet_Rook_Ground
+    {
+        mesh = WorldItems/Clothing/Helmet_Rook_Ground,
+        scale = 1,
+    }
+
+    model DarkZonePack_Ground
+    {
+        mesh = WorldItems/Clothing/DarkZonePack_Ground,
+        scale = 1,
+    }
+}

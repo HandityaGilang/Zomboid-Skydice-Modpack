@@ -1,0 +1,5 @@
+Sandbox_PL = {
+    Sandbox_DrinkSmart = "Drink Smart",
+    Sandbox_DrinkSmart_AllowWaterDrinkLowThirst = "Pozwól pić wodę przy niskim pragnieniu",
+    Sandbox_DrinkSmart_AllowWaterDrinkLowThirst_tooltip = "Jeśli włączone, źródła wody pokażą menu Pij nawet gdy pragnienie jest poniżej 10% (ekwipunek/pojemniki/panel podłoża).",
+}

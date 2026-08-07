@@ -1,0 +1,5 @@
+Sandbox_CH = {
+    Sandbox_DrinkSmart = "Drink Smart",
+    Sandbox_DrinkSmart_AllowWaterDrinkLowThirst = "允許在不口渴時喝水",
+    Sandbox_DrinkSmart_AllowWaterDrinkLowThirst_tooltip = "啟用後，即使口渴低於10%，水源也會顯示「飲用」選單（背包/容器/地面面板）。",
+}

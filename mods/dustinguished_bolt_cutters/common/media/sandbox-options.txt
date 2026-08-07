@@ -1,0 +1,103 @@
+VERSION = 1,
+
+option DGMC_Bolt_Cutters.Allow_Garage_Doors
+{
+	type = boolean,
+	default = true,
+	page = DGMC_Bolt_Cutters,
+	translation = DGMC_Bolt_Cutters_Allow_Garage_Doors,
+}
+
+option DGMC_Bolt_Cutters.Allow_Fence_Gates
+{
+	type = boolean,
+	default = true,
+	page = DGMC_Bolt_Cutters,
+	translation = DGMC_Bolt_Cutters_Allow_Fence_Gates,
+}
+
+option DGMC_Bolt_Cutters.Allow_Fences
+{
+	type = boolean,
+	default = true,
+	page = DGMC_Bolt_Cutters,
+	translation = DGMC_Bolt_Cutters_Allow_Fences,
+}
+
+option DGMC_Bolt_Cutters.Fence_Wire_Chance
+{
+	type = integer,
+	min = 0,
+	max = 100,
+	default = 0,
+	page = DGMC_Bolt_Cutters,
+	translation = DGMC_Bolt_Cutters_Fence_Wire_Chance,
+}
+
+option DGMC_Bolt_Cutters.Allow_Shutters
+{
+	type = boolean,
+	default = false,
+	page = DGMC_Bolt_Cutters,
+	translation = DGMC_Bolt_Cutters_Allow_Shutters,
+}
+
+option DGMC_Bolt_Cutters.Easy_Strength_Req
+{
+	type = integer,
+	min = 0,
+	max = 10,
+	default = 3,
+	page = DGMC_Bolt_Cutters,
+	translation = DGMC_Bolt_Cutters_Easy_Strength_Req,
+}
+
+option DGMC_Bolt_Cutters.Medium_Strength_Req
+{
+	type = integer,
+	min = 0,
+	max = 10,
+	default = 5,
+	page = DGMC_Bolt_Cutters,
+	translation = DGMC_Bolt_Cutters_Medium_Strength_Req,
+}
+
+option DGMC_Bolt_Cutters.Hard_Strength_Req
+{
+	type = integer,
+	min = 0,
+	max = 10,
+	default = 7,
+	page = DGMC_Bolt_Cutters,
+	translation = DGMC_Bolt_Cutters_Hard_Strength_Req,
+}
+
+option DGMC_Bolt_Cutters.Base_Duration
+{
+	type = integer,
+	min = 0,
+	max = 60,
+	default = 22,
+	page = DGMC_Bolt_Cutters,
+	translation = DGMC_Bolt_Cutters_Base_Duration,
+}
+
+option DGMC_Bolt_Cutters.Base_Muscle_Strain
+{
+	type = double,
+	min = 0.0,
+	max = 40.0,
+	default = 4.0,
+	page = DGMC_Bolt_Cutters,
+	translation = DGMC_Bolt_Cutters_Base_Muscle_Strain,
+}
+
+option DGMC_Bolt_Cutters.Debug_Logging
+{
+	type = boolean,
+	default = false,
+
+	page = DGMC_Bolt_Cutters,
+	translation = DGMC_Bolt_Cutters_Debug_Logging,
+}
+

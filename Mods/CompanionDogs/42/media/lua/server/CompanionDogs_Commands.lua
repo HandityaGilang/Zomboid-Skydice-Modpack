@@ -242,7 +242,7 @@ CD.Server.debugskill = function(player, args)
     if not CD.debugAllowed(player) then return end
     local animal = resolveAnimal(args)
     if not animal or not CD.isDog(animal) then return end
-    local list = (args.skill == "all") and { "scent", "combat", "obedience", "hunt" } or { args.skill }
+    local list = (args.skill == "all") and { "scent", "combat", "obedience", "hunt", "herding" } or { args.skill }
     for _, sk in ipairs(list) do
         if sk then
             local target
@@ -489,6 +489,42 @@ CD.Server.sethuntmode = function(player, args)
     CD.transmit(animal)
 end
 
+-- Atribui/remove o cao como cuidador de um curral. ON: exige uma DesignationZoneAnimal (o curral) na ancora (tile
+-- clicado ou a posicao do cao), grava a ancora e estaciona o cao (STAY). O comportamento roda na varredura
+-- independente tickCareDogs (Companion.lua), nao neste handler. OFF: limpa o modo/ancora (o cao fica parado onde esta).
+CD.Server.setcaremode = function(player, args)
+    local animal = resolveAnimal(args)
+    if not animal or not CD.isDog(animal) then return end
+    if not CD.isOwnedBy(animal, player) then return end
+    local on = args.on == true
+    if on then
+        local ax = args.x or animal:getX()
+        local ay = args.y or animal:getY()
+        local az = args.z or animal:getZ()
+        local zone = nil
+        pcall(function() zone = DesignationZoneAnimal.getZone(math.floor(ax), math.floor(ay), math.floor(az)) end)
+        if not zone then
+            notifyOwner(player, "carenopen", { id = animal:getOnlineID(), breed = CD.getBreed(animal) })
+            return
+        end
+        CD.setCareMode(animal, true, ax, ay, az)
+        CD.setState(animal, CD.STATE_STAY)
+        -- DESSELECIONA: cuidar do gado e trabalho independente, incompativel com "cao que me acompanha". Nao existia
+        -- caminho de desselecao (pd.token so era zerado em soltar/morte/perdido), entao e aqui que ele nasce. Nao ha
+        -- risco de auto-promocao: promoteSuccessor so roda na MORTE do ativo, nao em todo pd.token nil.
+        local pd = CD.playerData(player)
+        if pd and pd.token ~= nil and pd.token == CD.data(animal).companionToken then
+            pd.token = nil
+            pd.name = nil
+            pcall(function() player:transmitModData() end)
+        end
+    else
+        CD.setCareMode(animal, false)
+    end
+    notifyOwner(player, "caremode", { id = animal:getOnlineID(), on = on, breed = CD.getBreed(animal) })
+    CD.transmit(animal)
+end
+
 -- Heartbeat do client do dono: o dono esta (ou acabou de parar de estar) numa acao vulneravel/estacionaria.
 -- args.off limpa a janela imediatamente (acao terminou) para uma liberacao pronta; senao (re)armamos uma janela
 -- de failsafe generosa. updateCompanion checa d.autoProtect + esta janela para fazer guarda-ancora no dono. Estado de
@@ -567,6 +603,14 @@ CD.Server.select = function(player, args)
     if not CD.isCompanion(animal) or not CD.isOwnedBy(animal, player) then return end
     local d = CD.data(animal)
     local pd = CD.playerData(player)
+    -- Selecionar TIRA do cuidado do gado: os dois modos sao mutuamente exclusivos (um segue voce, o outro fica no
+    -- curral). Antes do setState de FOLLOW abaixo, senao o tickCareDogs continuaria conduzindo o cao pro curral.
+    local wasCaring = false
+    pcall(function() wasCaring = CD.getCareMode(animal) end)
+    if wasCaring then
+        CD.setCareMode(animal, false)
+        notifyOwner(player, "caremode", { id = animal:getOnlineID(), on = false, breed = CD.getBreed(animal) })
+    end
     -- Resolve o cao ativo antigo ANTES de trocar o token (getCompanionAnimal e ciente do token).
     local prev = CD.getCompanionAnimal(player)
     -- Torna este cao o ativo. Um companheiro legado pode ainda nao ter token -> cunha um.
@@ -1018,9 +1062,14 @@ CD.Server.carry = function(player, args)
         if not owned then return end
     end
     local pd = CD.playerData(player)
+    -- animalId = prova de identidade contra o onlineID de sessao reciclado apos restart (ver CD.carriedIdentityOk).
+    -- Lido do animal VIVO na mao, nunca do client: o valor do args nunca chegava (o Carry.lua nem envia o campo) e
+    -- dado de identidade vindo do client nao e confiavel. Sem item resolvivel fica nil = guarda inativa (permissiva).
+    local aid = nil
+    if held then pcall(function() aid = held:getAnimalID() end) end
     pd.carried = {
         onlineID = onlineID,
-        animalId = tonumber(args.animalId),
+        animalId = aid,
         data = data,
     }
     -- carried (na mao) e stashed (num veiculo) sao estados mutuamente exclusivos.

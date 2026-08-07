@@ -1,0 +1,28 @@
+module DGMC
+{
+    item CleaningWipes
+    {
+        DisplayCategory = Household,
+        ItemType = base:drainable,
+        Icon = cleaning_wipes_icon,
+        Weight = 1.0,
+        WorldStaticModel = CleaningWipesModel,
+        UseDelta = 0.1,
+        ConsolidateOption = ContextMenu_Merge,
+        UseWhileEquipped = false,
+        Tags = dgmc:cleaningwipe,
+        KeepOnDeplete = false,
+        scaleWorldIcon = 0.35,
+    }
+
+    item CleaningWipesBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 10.0,
+        Icon = Parcel_Medium_Food,
+        WorldStaticModel = Parcel_Food_Medium,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+}

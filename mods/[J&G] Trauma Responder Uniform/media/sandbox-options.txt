@@ -1,0 +1,28 @@
+VERSION = 1,
+
+option JordanalSpawns.Trauma_ResponderChance = {
+	type = double,
+	default = 0.02,
+	min = 0.00,
+	max = 100,
+	page = JordanalSpawns,
+	translation = JordanalSpawns.Trauma_ResponderChance,
+}
+
+option JordanalSpawns.Trauma_ResponderChance_General = {
+	type = double,
+	default = 0.01,
+	min = 0.00,
+	max = 100,
+	page = JordanalSpawns,
+	translation = JordanalSpawns.Trauma_ResponderChance_General,
+}
+
+option JordanalSpawns.Trauma_ResponderChance_Medical = {
+	type = double,
+	default = 0.04,
+	min = 0.00,
+	max = 100,
+	page = JordanalSpawns,
+	translation = JordanalSpawns.Trauma_ResponderChance_Medical,
+}

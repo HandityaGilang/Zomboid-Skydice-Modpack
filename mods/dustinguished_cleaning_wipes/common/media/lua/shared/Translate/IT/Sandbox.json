@@ -1,0 +1,16 @@
+{
+    "Sandbox_DGMC_Cleaning_Wipes": "salviette detergenti",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body": "Può pulire il corpo",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body_tooltip": "Se puoi pulire il tuo corpo con le salviette detergenti.",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing": "Può pulire gli indumenti",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing_tooltip": "Se puoi pulire gli indumenti con le salviette detergenti.",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons": "Può pulire le armi da mischia",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons_tooltip": "Se puoi pulire le armi da mischia con le salviette detergenti.",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup": "Rimuove il trucco",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup_tooltip": "Se rimuovere il trucco durante la pulizia del corpo.",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult": "Moltiplicatore di durata",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult_tooltip": "Quanto tempo occorre per pulire con le salviette, rispetto al lavaggio con sola acqua.  Più basso per più veloce, più alto per più lento.",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness": "Umidità degli indumenti",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness_tooltip": "Quando si puliscono i vestiti, il loro livello di umidità sarà impostato al massimo su questo valore o sul suo livello attuale.  Ad esempio, con il valore predefinito, i vestiti con umidità 0 verrebbero impostati su 25, mentre i vestiti già con umidità 50 rimarrebbero su 50.",
+    "Sandbox_DGMC_Cleaning_Wipes_Debug_Logging": "Registrazione del debug"
+}

@@ -1,0 +1,8 @@
+Recipes_FR =
+{
+    Recipe_MakeJarMushroomGenericTrex = "Faire un Bocal de champignons",
+    Recipe_MakemushroomjarTrex = "Faire des bocaux de champignons marinés",
+    Recipe_OpenJarOfmushroomTrex = "Ouvrir le Bocal de champignons",
+    Recipe_MushroomDriedTrex = "Faire des champignons séchés",
+    Recipe_MakemushroomjarpreparationTrex = "Faire une marmite de champignons marinés",
+}

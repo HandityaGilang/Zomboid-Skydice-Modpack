@@ -1,0 +1,31 @@
+module Base
+{
+	item SurvivalTabs{
+	    DisplayCategory				=	Food,
+	    Count						=	1,
+		Weight						=	0.50,
+		Type						=	Food,
+		Packaged 					= 	TRUE,
+		DisplayName					=	Survival Tabs,
+		StressChange				=	-1,
+		UnhappyChange				=	-1,
+		BoredomChange				=	-1,
+		EnduranceChange				= 	+1,
+		HungerChange 				= 	-5,
+		Calories					= 	5,
+		Carbohydrates 				= 	5,
+		Lipids 						= 	5,
+		Proteins 					= 	5,
+		Icon 						= 	JunkiezMassGainer,
+		CustomContextMenu			=	SKAL_UseSmokeless,
+		CantBeFrozen				=	TRUE,
+		OnEat						=	OnEat_SurvivalTabs,
+		StaticModel 				=	JunkiezMassPowder2,
+		EatType						=	OpenCannedFood,
+		WorldStaticModel			=	JunkiezMassPowder,
+		DisappearOnUse				=	FALSE,
+		Tooltip 					= 	"A compact lightweight life saving food ration for any emergency." Smells like plastic.,
+		Tags 						= 	IgnoreZombieDensity;Consumable,
+    }
+	
+}

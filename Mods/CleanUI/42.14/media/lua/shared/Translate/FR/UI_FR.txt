@@ -14,7 +14,9 @@ UI_FR = {
 
     /*ModOption*/
     UI_CleanUI_ContainerBackgroundOpacity = "Opacité de la barre latérale",
+    UI_CleanUI_ContainerBackgroundOpacityPercent = "Opacité de la barre latérale (%%)",
     UI_CleanUI_BackgroundOpacity = "Opacité de l’arrière-plan",
+    UI_CleanUI_BackgroundOpacityPercent = "Opacité de l’arrière-plan (%%)",
     UI_CleanUI_PlayerContainerPosition = "Panneau d’inventaire (redémarrage requis)",
     UI_CleanUI_LootContainerPosition = "Panneau de butin (redémarrage requis)",
     UI_CleanUI_ContainerPositionLeft = "Gauche",
@@ -44,5 +46,11 @@ UI_FR = {
     UI_CleanUI_TransferMethodNearbyTooltip = "Méthode : conteneurs proches <LINE> Cliquer pour changer",
     UI_CleanUI_TransferByNameTooltip = "Transférer par noms d’objets",
     UI_CleanUI_TransferByCategoryTooltip = "Transférer par catégories",
+    UI_CleanUI_ShowWeightColumn = "Afficher la colonne de poids",
+    UI_CleanUI_ShowWeightColumn_Tooltip = "Affiche une colonne de poids séparée pour les lignes d’objets et de piles dans les panneaux d’inventaire et de butin de CleanUI.",
+    UI_CleanUI_ShowColumnHeaders = "Afficher les en-têtes de colonne",
+    UI_CleanUI_ShowColumnHeaders_Tooltip = "Affiche la ligne d’en-tête cliquable au-dessus des listes d’objets des panneaux d’inventaire et de butin.",
     UI_CleanUI_MoveToFloorTooltip = "Déplacer au sol",
+    UI_CleanUI_Column_Rarity = "Rareté",
+    UI_CleanUI_Column_Weight = "Poids",
 }

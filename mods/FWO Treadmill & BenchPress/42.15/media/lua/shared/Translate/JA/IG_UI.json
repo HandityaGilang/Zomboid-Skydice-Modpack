@@ -1,0 +1,10 @@
+{
+    "IGUI_BenchPress": "ベンチプレス",
+    "IGUI_BenchPress_Tooltip": "ベンチプレスでトレーニング",
+    "IGUI_Treadmill": "ランニングマシン",
+    "IGUI_Treadmill_Tooltip": "ランニングマシンで走る",
+    "IGUI_need_barbell": "このエクササイズにはバーベルが必要です",
+    "IGUI_low_endurance": "疲れすぎています",
+    "IGUI_pain": "痛みが強すぎます",
+    "IGUI_heavy": "重すぎて使用できません"
+}

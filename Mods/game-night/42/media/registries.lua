@@ -1,3 +1,0 @@
-GAME_NIGHT_TAGS = GAME_NIGHT_TAGS or {}
-GAME_NIGHT_TAGS.GAME_NIGHT = ItemTag.register("gamenight:GAME_NIGHT")
-

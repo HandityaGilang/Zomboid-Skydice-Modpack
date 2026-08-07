@@ -1,0 +1,8 @@
+name=dustinguished cleaning wipes
+id=dustinguished_cleaning_wipes
+author=dustinguished
+description=Add ability to clean things with moistened wipes
+modversion=1.0
+versionMin=42.19
+icon=dgmc_cleaning_wipes_icon.png
+poster=dgmc_cleaning_wipes_poster.png

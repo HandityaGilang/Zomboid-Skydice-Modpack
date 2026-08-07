@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Misc\Belt_Large_M</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Misc\Belt_Large_F</m_FemaleModel>
+	<m_AltMaleModel>Skinned\Clothes\Misc\Belt_Large_M</m_AltMaleModel>
+	<m_AltFemaleModel>Skinned\Clothes\Misc\Belt_Large_F</m_AltFemaleModel>
+	<m_GUID>ba67e289-8287-447c-aa62-8e083e9bb66d</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\Misc\BeltsLarge\Belt_Large_C1</textureChoices>
+	<textureChoices>clothes\Misc\BeltsLarge\Belt_Large_C2</textureChoices>
+	<textureChoices>clothes\Misc\BeltsLarge\Belt_Large_C3</textureChoices>
+	<textureChoices>clothes\Misc\BeltsLarge\Belt_Large_C4</textureChoices>
+	<textureChoices>clothes\Misc\BeltsLarge\Belt_Large_C5</textureChoices>
+	<textureChoices>clothes\Misc\BeltsLarge\Belt_Large_C6</textureChoices>
+	<textureChoices>clothes\Misc\BeltsLarge\Belt_Large_C7</textureChoices>
+	<textureChoices>clothes\Misc\BeltsLarge\Belt_Large_C8</textureChoices>
+	<textureChoices>clothes\Misc\BeltsLarge\Belt_Large_C9</textureChoices>
+	
+	<textureChoices>clothes\Misc\BeltsLarge\BeltB_Large_C1</textureChoices>
+	<textureChoices>clothes\Misc\BeltsLarge\BeltB_Large_C2</textureChoices>
+	<textureChoices>clothes\Misc\BeltsLarge\BeltB_Large_C3</textureChoices>
+	<textureChoices>clothes\Misc\BeltsLarge\BeltB_Large_C4</textureChoices>
+	<textureChoices>clothes\Misc\BeltsLarge\BeltB_Large_C5</textureChoices>
+	<textureChoices>clothes\Misc\BeltsLarge\BeltB_Large_C6</textureChoices>
+	<textureChoices>clothes\Misc\BeltsLarge\BeltB_Large_C7</textureChoices>
+	<textureChoices>clothes\Misc\BeltsLarge\BeltB_Large_C8</textureChoices>
+	<textureChoices>clothes\Misc\BeltsLarge\BeltB_Large_C9</textureChoices>
+	
+	<textureChoices>clothes\Misc\BeltsLarge\BeltY_Large_C1</textureChoices>
+	<textureChoices>clothes\Misc\BeltsLarge\BeltY_Large_C2</textureChoices>
+	<textureChoices>clothes\Misc\BeltsLarge\BeltY_Large_C3</textureChoices>
+	<textureChoices>clothes\Misc\BeltsLarge\BeltY_Large_C4</textureChoices>
+	<textureChoices>clothes\Misc\BeltsLarge\BeltY_Large_C5</textureChoices>
+	<textureChoices>clothes\Misc\BeltsLarge\BeltY_Large_C6</textureChoices>
+	<textureChoices>clothes\Misc\BeltsLarge\BeltY_Large_C7</textureChoices>
+	<textureChoices>clothes\Misc\BeltsLarge\BeltY_Large_C8</textureChoices>
+	<textureChoices>clothes\Misc\BeltsLarge\BeltY_Large_C9</textureChoices>
+
+</clothingItem>

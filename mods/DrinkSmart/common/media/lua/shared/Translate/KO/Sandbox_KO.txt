@@ -1,0 +1,5 @@
+Sandbox_KO = {
+    Sandbox_DrinkSmart = "Drink Smart",
+    Sandbox_DrinkSmart_AllowWaterDrinkLowThirst = "목마르지 않아도 물 마시기 허용",
+    Sandbox_DrinkSmart_AllowWaterDrinkLowThirst_tooltip = "활성화하면 목마름이 10% 미만이어도 물 공급원에 '마시기' 메뉴가 표시됩니다(인벤토리/컨테이너/바닥 패널).",
+}

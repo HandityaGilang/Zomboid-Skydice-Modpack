@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>e3f5b499-2e31-4646-9563-f672c7a4c316</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses_Fancy\Fancy_Dress_MA1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses_Fancy\Fancy_Dress_MA2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses_Fancy\Fancy_Dress_MA3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses_Fancy\Fancy_Dress_MA4</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Cotton\Dresses_Fancy\Fancy_Dress_MB1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses_Fancy\Fancy_Dress_MB2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses_Fancy\Fancy_Dress_MB3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses_Fancy\Fancy_Dress_MB4</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Cotton\Dresses_Fancy\Fancy_Dress_MC1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses_Fancy\Fancy_Dress_MC2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses_Fancy\Fancy_Dress_MC3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses_Fancy\Fancy_Dress_MC4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses_Fancy\Fancy_Dress_MC5</m_BaseTextures>
+</clothingItem>

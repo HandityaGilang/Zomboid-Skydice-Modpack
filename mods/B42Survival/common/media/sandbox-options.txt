@@ -1,0 +1,15 @@
+VERSION = 1,
+
+option B42Survival.LearnedRecipe
+{
+	type = boolean, default = true,
+	page = B42Survival,
+	translation = SurvivalLearnedRecipe,
+}
+
+option B42Survival.TorchSmoking
+{
+	type = boolean, default = true,
+	page = B42Survival,
+	translation = SurvivalTorchSmoking,
+}

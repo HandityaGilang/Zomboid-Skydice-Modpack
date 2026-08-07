@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<guid>a29370cb-bb7b-448c-a4f5-3394db78c128</guid>	
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>	
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Leather\HotPants\Leather_Micro_Shorts</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\HotPants\Leather_Micro_Shorts_Alt</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\HotPants\Leather_Micro_Shorts_Alt2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\HotPants\Leather_Micro_Shorts_Alt3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\HotPants\Leather_Micro_Shorts_Alt4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\HotPants\Leather_Shorts</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\HotPants\Leather_Shorts_Alt</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\HotPants\Leather_Micro_Shorts_Alt5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\HotPants\Leather_Micro_Shorts_Alt6</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\HotPants\Leather_Micro_Shorts_Alt7</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\HotPants\Leather_Micro_Shorts_Alt8</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\HotPants\Leather_Micro_Shorts_Alt9</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\HotPants\Leather_Micro_Shorts_Alt10</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\HotPants\Leather_Micro_Shorts_Alt11</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\HotPants\Leather_Micro_Shorts_Alt12</m_BaseTextures>
+</clothingItem>

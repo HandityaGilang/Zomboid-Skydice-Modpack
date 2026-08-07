@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+    <m_MaleModel></m_MaleModel>
+    <m_FemaleModel></m_FemaleModel>
+    <m_GUID>50dccff4-f338-48ac-adf7-4fbfa138d736</m_GUID>
+    <m_Static>false</m_Static>
+    <m_AllowRandomTint>false</m_AllowRandomTint>
+    <m_AttachBone></m_AttachBone>
+    <m_BaseTextures>clothes\Material_LeatherTanned\Shorts\LeatherTanned_Shorts_1_High</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Shorts\LeatherTanned_Shorts_2_High</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Shorts\LeatherTanned_Shorts_3_High</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Shorts\LeatherTanned_Shorts_4_High</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_LeatherTanned\Shorts\LeatherTannedRed_Shorts_1_High</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Shorts\LeatherTannedRed_Shorts_2_High</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Shorts\LeatherTannedRed_Shorts_3_High</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Shorts\LeatherTannedRed_Shorts_4_High</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_LeatherTanned\Shorts\LeatherTannedYellower_Shorts_1_High</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Shorts\LeatherTannedYellower_Shorts_2_High</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Shorts\LeatherTannedYellower_Shorts_3_High</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Shorts\LeatherTannedYellower_Shorts_4_High</m_BaseTextures>
+
+</clothingItem>

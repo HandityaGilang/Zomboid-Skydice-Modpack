@@ -1,0 +1,9 @@
+ItemName_FR = {
+    ItemName_Trex.CannedMushroomGeneric_Trex = "Bocal de champignons",
+    ItemName_Trex.CannedMushroomGeneric_Open_Trex = "Bocal de champignons ouvert",
+    ItemName_Trex.CannedMushroomGeneric2_Trex = "Bocal de champignons marinés",
+    ItemName_Trex.CannedMushroomGeneric2_Open_Trex = "Bocal de champignons marinés ouvert",
+    ItemName_Trex.MushroomGenericDried_Trex = "Champignons séchés",
+    ItemName_Trex.WaterPotmushroomjarpreparation_Trex = "Marmite de Champignons marinés",
+    ItemName_Trex.WaterPotForgedmushroomjarpreparation_Trex = "Marmite forgée de Champignons marinés",
+}

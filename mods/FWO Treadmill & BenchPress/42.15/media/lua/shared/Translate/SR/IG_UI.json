@@ -1,0 +1,10 @@
+{
+    "IGUI_BenchPress": "Bench Press",
+    "IGUI_BenchPress_Tooltip": "Тренирај на bench press",
+    "IGUI_Treadmill": "Трака за трчање",
+    "IGUI_Treadmill_Tooltip": "Трчи на траци за трчање",
+    "IGUI_need_barbell": "Потребан ми је шипка за ову вежбу",
+    "IGUI_low_endurance": "Превише сам исцрпљен",
+    "IGUI_pain": "Превише ме боли",
+    "IGUI_heavy": "Превише тешко за коришћење сада"
+}

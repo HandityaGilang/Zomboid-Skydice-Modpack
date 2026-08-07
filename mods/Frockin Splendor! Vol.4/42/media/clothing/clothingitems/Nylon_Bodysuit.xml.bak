@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>2c6ee11b-074b-4210-8558-0fae123ad1fa</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Nylon\Bodysuits\Nylon_Bodysuit_D_Alt</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Bodysuits\Nylon_Bodysuit_D</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Bodysuits\Nylon_Bodysuit_D_Alt1</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Nylon\Bodysuits\Nylon_Bodysuit_D_Red</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Bodysuits\Nylon_Bodysuit_D_Red2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Bodysuits\Nylon_Bodysuit_D_Red3</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Nylon\Bodysuits\Nylon_Bodysuit_D_Nude</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Bodysuits\Nylon_Bodysuit_D_Purp</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Bodysuits\Nylon_Bodysuit_D_Whit</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Nylon\Bodysuits\Nylon_New</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Bodysuits\Nylon_New_Black</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Bodysuits\Nylon_New_BlackRed</m_BaseTextures>
+	
+</clothingItem>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_tie</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\bob_tie</m_FemaleModel>
+	<m_GUID>f8d862fe-812a-4cb8-adf8-c27c1f3f9b28</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\tie\tie_bluespottedfull</textureChoices>
+	<textureChoices>clothes\tie\tie_redspottedfull</textureChoices>
+
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_1</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_2</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_3</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_4</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_5</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_6</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_7</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_8</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_9</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_10</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_11</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_12</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_13</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_14</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_15</textureChoices>
+
+</clothingItem>

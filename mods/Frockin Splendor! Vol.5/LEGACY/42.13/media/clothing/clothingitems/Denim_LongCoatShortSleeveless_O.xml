@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\Clothes\Coats_Long\LongCoat_Tail_M_O.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\Clothes\Coats_Long\LongCoat_Tail_F_O.fbx</m_FemaleModel>
+	<m_GUID>8dcb1312-541f-4345-8994-23a5c6fd1267</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>media/textures/clothes/Masks/Masks_Underlay_OpenJacket</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/clothes/Masks/Masks_Underlay_OpenJacket</m_UnderlayMasksFolder>
+	<textureChoices>clothes\Material_Denim\Coats_Sleeveless\Denim_CoatShort_1</textureChoices>
+	<textureChoices>clothes\Material_Denim\Coats_Sleeveless\Denim_CoatShort_2</textureChoices>
+	<textureChoices>clothes\Material_Denim\Coats_Sleeveless\Denim_CoatShort_2A</textureChoices>
+	<textureChoices>clothes\Material_Denim\Coats_Sleeveless\Denim_CoatShort_3</textureChoices>
+	<textureChoices>clothes\Material_Denim\Coats_Sleeveless\Denim_CoatShort_3A</textureChoices>
+	<textureChoices>clothes\Material_Denim\Coats_Sleeveless\Denim_CoatShort_4</textureChoices>
+	<textureChoices>clothes\Material_Denim\Coats_Sleeveless\Denim_CoatShort_5</textureChoices>
+</clothingItem>

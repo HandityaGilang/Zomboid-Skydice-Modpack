@@ -241,6 +241,76 @@ CD.DogMoodles[#CD.DogMoodles + 1] = {
     end,
 }
 
+-- "Instinto de Pastor" do Border Collie: o moodle de FAZENDA. Enquanto um collie proximo, alimentado e leal esta por
+-- perto, o dono aprende Animal Care (Husbandry) e Farming mais rapido -- mesmo mecanismo de multiplicador de XP do
+-- Golden, com as mesmas duas salvaguardas de engine (nunca baixar um mult. de livro maior; limpar so o NOSSO na borda
+-- active->inactive, porque o multiplicador e persistente). O outro efeito da raca, acalmar o gado ao redor, NAO vive
+-- aqui: e server-side (CD.collieCalmPass em CompanionDogs_Companion.lua), porque animal e simulado pelo servidor e
+-- um changeStress vindo do client nao replicaria. Este moodle e o feedback no HUD dos dois efeitos.
+local colliePerks
+local function resolveColliePerks()
+    if colliePerks ~= nil then return colliePerks end
+    colliePerks = {}
+    if Perks then
+        if Perks.Husbandry then colliePerks[#colliePerks + 1] = Perks.Husbandry end -- "Animal Care" (cuidado animal)
+        if Perks.Farming then colliePerks[#colliePerks + 1] = Perks.Farming end
+    end
+    return colliePerks
+end
+
+local function applyCollieXP(player)
+    if not player then return end
+    local perks = resolveColliePerks()
+    if #perks == 0 then return end
+    local mult = CD.collieXPMult()
+    local maxLvl = CD.SKILL_MAX_LEVEL or 10
+    pcall(function()
+        local xp = player:getXp()
+        for _, p in ipairs(perks) do
+            if xp:getMultiplier(p) < mult then xp:addXpMultiplier(p, mult, 1, maxLvl) end -- nunca baixa um mult de book maior
+        end
+    end)
+end
+
+local function clearCollieXP(player)
+    if not player then return end
+    local perks = resolveColliePerks()
+    if #perks == 0 then return end
+    local mult = CD.collieXPMult()
+    local maxLvl = CD.SKILL_MAX_LEVEL or 10
+    pcall(function()
+        local xp = player:getXp()
+        for _, p in ipairs(perks) do
+            local cur = xp:getMultiplier(p)                                       -- 0 = nenhum, >1 turbina no AddXP
+            if cur > 0 and cur <= mult then xp:addXpMultiplier(p, 1.0, 1, maxLvl) end -- limpa SO o nosso, deixa os books
+        end
+    end)
+end
+
+CD.DogMoodles[#CD.DogMoodles + 1] = {
+    id = "herdinginstinct",
+    breed = "bordercollie",
+    nameKey = "IGUI_PD_Moodle_CollieHerding",
+    descKey = "IGUI_PD_Moodle_CollieHerding_desc",
+    icon = "CD_Moodle_CollieHerding",
+    fg = "CD_MoodCollieHerdingFG",
+    tintR = 0.26, tintG = 0.72, tintB = 0.64, -- frame teal "de pasto" (o unico tom livre entre os verdes/ambar/laranjas)
+    condition = function(player, dog)
+        if not dog or dog:isDead() then return 0 end
+        if CD.getBreed(dog) ~= "bordercollie" then return 0 end
+        if CD.isDisloyal(dog) then return 0 end
+        if CD.isSick(dog) then return 0 end
+        if not dogIsCaredFor(dog) then return 0 end
+        return 1
+    end,
+    apply = function(player, dog, elapsedMin)
+        applyCollieXP(player)
+    end,
+    onDeactivate = function(player)
+        clearCollieXP(player)
+    end,
+}
+
 -- "Intoxicated": aparece depois que o dono dá uma comida tóxica (CD.isBadDogFood -> CD.Server.feed seta um
 -- d.sickUntilMin temporizado). NÃO é travado por breed (qualquer cão) e é puramente informativo: sem efeito
 -- contínuo nos stats do dono (sem `apply`), só te avisa que o cão está passando mal. Mesmo estilo de cão-no-centro

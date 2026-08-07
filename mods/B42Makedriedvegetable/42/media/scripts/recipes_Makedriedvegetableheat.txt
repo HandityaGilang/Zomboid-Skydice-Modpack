@@ -1,0 +1,92 @@
+module Trex
+{
+    imports
+	{
+		Base
+	}
+
+	craftRecipe Makebakingtraydriedveggietrex
+	{
+        timedAction = SliceFood_Surface,
+        time = 50,
+        category = Cooking,
+        Tags = AnySurfaceCraft;Cooking,
+        xpAward = Cooking:3,
+		inputs
+		{
+            item 1 tags[base:dullknife;base:sharpknife;base:meatcleaver] mode:keep flags[MayDegradeVeryLight],
+            item 1 [Base.BakingTray] mode:destroy flags[IsEmpty],
+            item 2 [Base.BellPepper;Base.Broccoli;Base.Carrots;Base.Cauliflower;Base.Cucumber;Base.Onion;Base.Pumpkin;Base.Spinach;Base.SweetPotato;Base.Turnip;Base.Zucchini;Base.Tomato] mappers[veggieTypes;seedTypes] flags[IsUncookedFoodItem;InheritFoodAge;ItemCount] mode:destroy,
+		}
+		outputs
+		{
+			item 1 mapper:veggieTypes,
+			item 3 mapper:seedTypes,			
+		}
+		itemMapper veggieTypes
+		{
+			Trex.CookBellPepperdriedTrex = Base.BellPepper,
+			Trex.CookBroccolidriedTrex = Base.Broccoli,
+			Trex.CookCarrotsdriedTrex = Base.Carrots,
+			Trex.CookCauliflowerdriedTrex = Base.Cauliflower, 
+			Trex.CookCucumberdriedTrex = Base.Cucumber,
+			Trex.CookOniondriedTrex = Base.Onion,
+			Trex.CookPumpkindriedTrex = Base.Pumpkin,
+			Trex.CookSpinachdriedTrex = Base.Spinach,
+			Trex.CookSweetPotatodriedTrex = Base.SweetPotato,
+			Trex.CookTurnipdriedTrex = Base.Turnip,
+			Trex.CookZucchinidriedTrex = Base.Zucchini,
+			Trex.CookTomatodriedTrex = Base.Tomato,		
+		}
+		itemMapper seedTypes
+		{
+			Base.BellPepperSeed = Base.BellPepper,
+			Base.BroccoliSeed = Base.Broccoli,
+			Base.CarrotSeed = Base.Carrots,
+			Base.CauliflowerSeed = Base.Cauliflower, 
+			Base.CucumberSeed = Base.Cucumber,
+			Base.OnionSeed = Base.Onion,
+			Base.PumpkinSeed = Base.Pumpkin,
+			Base.SpinachSeed = Base.Spinach,
+			Base.SweetPotatoSeed = Base.SweetPotato,
+			Base.TurnipSeed = Base.Turnip,
+			Base.ZucchiniSeed = Base.Zucchini,
+			Base.TomatoSeed = Base.Tomato,		
+		}		
+	}
+	
+	craftRecipe Get4driedveggietrex
+	{
+        timedAction = Making,
+        time = 60,
+        Tooltip = Tooltip_Recipe_MustCookedGet,
+        category = Cooking,
+        Tags = InHandCraft;Cooking,
+		inputs
+		{
+			item 1 [Trex.CookBellPepperdriedTrex;Trex.CookBroccolidriedTrex;Trex.CookCarrotsdriedTrex;Trex.CookCauliflowerdriedTrex;Trex.CookCucumberdriedTrex;Trex.CookOniondriedTrex;Trex.CookPumpkindriedTrex;Trex.CookSpinachdriedTrex;Trex.CookSweetPotatodriedTrex;Trex.CookTurnipdriedTrex;Trex.CookZucchinidriedTrex;Trex.CookTomatodriedTrex] mappers[veggieTypes] flags[IsCookedFoodItem;InheritFoodAge;ItemCount],
+		}
+		outputs
+		{
+			item 4 mapper:veggieTypes,
+			item 1 Base.BakingTray,
+		}
+        	itemMapper veggieTypes
+        {
+			Trex.BellPepperdriedTrex     = Trex.CookBellPepperdriedTrex,
+			Trex.BroccolidriedTrex       = Trex.CookBroccolidriedTrex,
+			Trex.CarrotsdriedTrex        = Trex.CookCarrotsdriedTrex,
+			Trex.CauliflowerdriedTrex    = Trex.CookCauliflowerdriedTrex,
+			Trex.CucumberdriedTrex       = Trex.CookCucumberdriedTrex,
+			Trex.OniondriedTrex          = Trex.CookOniondriedTrex,
+			Trex.PumpkindriedTrex        = Trex.CookPumpkindriedTrex,
+			Trex.SpinachdriedTrex        = Trex.CookSpinachdriedTrex,
+			Trex.SweetPotatodriedTrex    = Trex.CookSweetPotatodriedTrex,
+			Trex.TurnipdriedTrex         = Trex.CookTurnipdriedTrex,
+			Trex.ZucchinidriedTrex       = Trex.CookZucchinidriedTrex,
+			Trex.TomatodriedTrex         = Trex.CookTomatodriedTrex,
+		}
+	}	
+	
+	 	 
+}

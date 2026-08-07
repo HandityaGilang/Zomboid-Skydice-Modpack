@@ -1,0 +1,16 @@
+{
+    "Sandbox_DGMC_Cleaning_Wipes": "чистящие салфетки",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body": "Можно очистить тело",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body_tooltip": "Можно ли очистить тело чистящими салфетками.",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing": "Можно ли чистить одежду",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing_tooltip": "Можно ли чистить одежду чистящими салфетками.",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons": "Можно чистить оружие ближнего боя",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons_tooltip": "Можно ли чистить оружие ближнего боя чистящими салфетками.",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup": "Удаляет макияж",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup_tooltip": "Стоит ли снимать макияж при чистке тела.",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult": "Множитель продолжительности",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult_tooltip": "Сколько времени занимает очистка салфетками по сравнению с мытьем только водой.  Ниже — быстрее, выше — медленнее.",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness": "Влажность одежды",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness_tooltip": "При чистке одежды уровень ее влажности будет установлен на максимум этого значения или его текущий уровень.  Например, при значении по умолчанию для одежды с влажностью 0 будет установлено значение 25, а для одежды с влажностью 50 останется значение 50.",
+    "Sandbox_DGMC_Cleaning_Wipes_Debug_Logging": "Ведение журнала отладки"
+}

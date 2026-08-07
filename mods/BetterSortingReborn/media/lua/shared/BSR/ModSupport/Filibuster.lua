@@ -1,0 +1,86 @@
+--------------------------------------------------------------------------------
+-- Better Sorting Reborn — mod-support pack: Filibuster Rhymes' Used Cars.
+-- https://steamcommunity.com/sharedfiles/filedetails/?id=1510950729
+--
+-- Vehicle trunks and parts sorted into Mechanics.
+--
+-- Mappings migrated from Better Sorting (Filibuster_Items.lua).
+--------------------------------------------------------------------------------
+
+BSR = BSR or {}
+BSR.ModPacks = BSR.ModPacks or {}
+
+table.insert(BSR.ModPacks, {
+    name = "Filibuster",
+    mods = { "FRUsedCars" },
+    data = {
+        Mech = {
+            items = {
+                "Base.BigCarSeat8",
+                "Base.BigGasTank8",
+                "Base.CarBattery8",
+                "Base.EngineDoor8",
+                "Base.FRBigTrunk1",
+                "Base.FRBigTrunk2",
+                "Base.FRBigTrunk3",
+                "Base.FRBigTrunk8",
+                "Base.FRCargoTrunk1",
+                "Base.FRCargoTrunk2",
+                "Base.FRCargoTrunk3",
+                "Base.FRCargoTrunk8",
+                "Base.FRLargeTrunk1",
+                "Base.FRLargeTrunk2",
+                "Base.FRLargeTrunk3",
+                "Base.FRLargeTrunk8",
+                "Base.FRNormalTrunk1",
+                "Base.FRNormalTrunk2",
+                "Base.FRNormalTrunk3",
+                "Base.FRNormalTrunk8",
+                "Base.FRSideContainer1",
+                "Base.FRSideContainer2",
+                "Base.FRSideContainer3",
+                "Base.FRSideContainer8",
+                "Base.FRSmallTrunk1",
+                "Base.FRSmallTrunk2",
+                "Base.FRSmallTrunk3",
+                "Base.FRSmallTrunk8",
+                "Base.FRTinyTrunk1",
+                "Base.FRTinyTrunk2",
+                "Base.FRTinyTrunk3",
+                "Base.FRTinyTrunk8",
+                "Base.FRTrailerTrunk1",
+                "Base.FRTrailerTrunk2",
+                "Base.FRTrailerTrunk3",
+                "Base.FRXLCargoTrunk1",
+                "Base.FRXLCargoTrunk2",
+                "Base.FRXLCargoTrunk3",
+                "Base.FRXLCargoTrunk8",
+                "Base.FR_VehicleArmory",
+                "Base.FrontCarDoor8",
+                "Base.FrontWindow8",
+                "Base.GloveBox8",
+                "Base.ModernBrake8",
+                "Base.ModernCarMuffler8",
+                "Base.ModernSuspension8",
+                "Base.ModernTire8",
+                "Base.NormalBrake8",
+                "Base.NormalCarMuffler8",
+                "Base.NormalCarSeat8",
+                "Base.NormalGasTank8",
+                "Base.NormalSuspension8",
+                "Base.NormalTire8",
+                "Base.OldBrake8",
+                "Base.OldCarMuffler8",
+                "Base.OldTire8",
+                "Base.RearCarDoor8",
+                "Base.RearCarDoorDouble8",
+                "Base.RearWindow8",
+                "Base.RearWindshield8",
+                "Base.SmallGasTank8",
+                "Base.SportCarSeat8",
+                "Base.TrunkDoor8",
+                "Base.Windshield8",
+            },
+        },
+    },
+})

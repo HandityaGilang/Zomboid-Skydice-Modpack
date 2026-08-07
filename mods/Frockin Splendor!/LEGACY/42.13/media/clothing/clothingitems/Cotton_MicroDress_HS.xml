@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>403a9c56-fdb4-4942-89c1-46ebb448d948</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>true</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MicroDress_HS\Cotton_MicroDress_0_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MicroDress_HS\Cotton_MicroDress_0A_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MicroDress_HS\Cotton_MicroDress_0B_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MicroDress_HS\Cotton_MicroDress_0C_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MicroDress_HS\Cotton_MicroDress_1_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MicroDress_HS\Cotton_MicroDress_1A_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MicroDress_HS\Cotton_MicroDress_3_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MicroDress_HS\Cotton_MicroDress_3A_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MicroDress_HS\Cotton_MicroDress_5_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MicroDress_HS\Cotton_MicroDress_5A_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MicroDress_HS\Cotton_MicroDress_6_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MicroDress_HS\Cotton_MicroDress_7_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MicroDress_HS\Cotton_MicroDress_9_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MicroDress_HS\Cotton_MicroDress_10_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MicroDress_HS\Cotton_MicroDress_10A_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MicroDress_HS\Cotton_MicroDress_11_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MicroDress_HS\Cotton_MicroDress_12_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MicroDress_HS\Cotton_MicroDress_13A_HS</m_BaseTextures>
+
+</clothingItem>

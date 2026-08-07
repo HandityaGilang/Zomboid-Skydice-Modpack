@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Bob_PantsFlared</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Kate_PantsFlared</m_FemaleModel>
+	<m_GUID>f0a6cbf9-4159-4c34-829b-83611159bd52</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>14</m_Masks>
+	<m_Masks>15</m_Masks>
+	<m_Masks>7</m_Masks>
+	<m_Masks>9</m_Masks>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\Denim_PantsChaps_A1</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\Denim_PantsChaps_A2</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\Denim_PantsChaps_A3</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\Denim_PantsChaps_A4</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\Denim_PantsChaps_A5</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\Denim_PantsChaps_B1</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\Denim_PantsChaps_B2</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\Denim_PantsChaps_B3</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\Denim_PantsChaps_B4</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\Denim_PantsChaps_B5</textureChoices>
+	
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\DenimBlue_PantsChaps_A1</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\DenimBlue_PantsChaps_A2</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\DenimBlue_PantsChaps_A3</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\DenimBlue_PantsChaps_A4</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\DenimBlue_PantsChaps_A5</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\DenimBlue_PantsChaps_B1</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\DenimBlue_PantsChaps_B2</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\DenimBlue_PantsChaps_B3</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\DenimBlue_PantsChaps_B4</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\DenimBlue_PantsChaps_B5</textureChoices>
+	
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\DenimBluer_PantsChaps_B1</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\DenimBluer_PantsChaps_B2</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\DenimBluer_PantsChaps_B3</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\DenimBluer_PantsChaps_B4</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\DenimBluer_PantsChaps_B5</textureChoices>
+	
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\DenimBluest_PantsChaps_B1</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\DenimBluest_PantsChaps_B2</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\DenimBluest_PantsChaps_B3</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\DenimBluest_PantsChaps_B4</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\DenimBluest_PantsChaps_B5</textureChoices>
+		
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\DenimBlack_PantsChaps_A1</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\DenimBlack_PantsChaps_A2</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\DenimBlack_PantsChaps_A3</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\DenimBlack_PantsChaps_A4</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\DenimBlack_PantsChaps_A5</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\DenimBlack_PantsChaps_B1</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\DenimBlack_PantsChaps_B2</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\DenimBlack_PantsChaps_B3</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\DenimBlack_PantsChaps_B4</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants_Chaps\DenimBlack_PantsChaps_B5</textureChoices>
+
+</clothingItem>

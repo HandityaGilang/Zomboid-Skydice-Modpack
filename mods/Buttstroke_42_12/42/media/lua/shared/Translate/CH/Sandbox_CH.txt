@@ -1,0 +1,6 @@
+Sandbox_CH = {
+    Sandbox_ButtstrokeOption = "槍托傷害設置",
+    Sandbox_ButtstrokeOption_Damage = "傷害",
+    Sandbox_ButtstrokeOption_EnduranceLost = "每次擊打僵尸減少的玩家耐力",
+    Sandbox_ButtstrokeOption_WeaponConditionLost = "每次擊打僵尸減少的武器耐久",
+}

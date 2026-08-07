@@ -1,0 +1,7 @@
+name=Crafting XP Display
+id=CraftingXPDisplay
+poster=poster.png
+description=
+require=\StarlitLibrary
+pzversion=42
+modVersion=1

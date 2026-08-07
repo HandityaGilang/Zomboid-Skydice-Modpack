@@ -14,7 +14,9 @@ UI_KO = {
 
     /*ModOption*/
     UI_CleanUI_ContainerBackgroundOpacity = "사이드바 불투명도",
+    UI_CleanUI_ContainerBackgroundOpacityPercent = "사이드바 불투명도 (%%)",
     UI_CleanUI_BackgroundOpacity = "배경 불투명도",
+    UI_CleanUI_BackgroundOpacityPercent = "배경 불투명도 (%%)",
     UI_CleanUI_PlayerContainerPosition = "소지품함 패널 (재시작 필요)",
     UI_CleanUI_LootContainerPosition = "루팅 패널 (재시작 필요)",
     UI_CleanUI_ContainerPositionLeft = "왼쪽",
@@ -44,5 +46,11 @@ UI_KO = {
     UI_CleanUI_TransferMethodNearbyTooltip = "방식: 주변 보관함 <LINE> 클릭하여 방식 변경",
     UI_CleanUI_TransferByNameTooltip = "아이템 이름별 옮기기",
     UI_CleanUI_TransferByCategoryTooltip = "분류별 옮기기",
+    UI_CleanUI_ShowWeightColumn = "무게 열 표시",
+    UI_CleanUI_ShowWeightColumn_Tooltip = "CleanUI 소지품창/루팅 패널의 아이템 및 묶음 행에 별도의 무게 열을 표시합니다.",
+    UI_CleanUI_ShowColumnHeaders = "열 머리글 표시",
+    UI_CleanUI_ShowColumnHeaders_Tooltip = "소지품창과 루팅 패널의 아이템 목록 위에 클릭 가능한 열 머리글 행을 표시합니다.",
     UI_CleanUI_MoveToFloorTooltip = "바닥으로 이동",
+    UI_CleanUI_Column_Rarity = "희귀도",
+    UI_CleanUI_Column_Weight = "무게",
 }

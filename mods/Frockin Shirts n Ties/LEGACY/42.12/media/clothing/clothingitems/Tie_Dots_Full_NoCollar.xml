@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_tie</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\bob_tie</m_FemaleModel>
+	<m_GUID>76960c13-0578-4b93-8e5e-e45d62910fb6</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\tie\tie_bluespotted_noneck</textureChoices>
+	<textureChoices>clothes\tie\tie_redspotted_noneck</textureChoices>
+
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_1_noneck</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_2_noneck</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_3_noneck</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_4_noneck</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_5_noneck</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_6_noneck</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_7_noneck</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_8_noneck</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_9_noneck</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_10_noneck</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_11_noneck</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_12_noneck</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_13_noneck</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_14_noneck</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_15_noneck</textureChoices>
+
+</clothingItem>

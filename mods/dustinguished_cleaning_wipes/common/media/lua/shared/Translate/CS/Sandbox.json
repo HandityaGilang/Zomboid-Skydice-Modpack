@@ -1,0 +1,16 @@
+{
+    "Sandbox_DGMC_Cleaning_Wipes": "čistící ubrousky",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body": "Může čistit tělo",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body_tooltip": "Zda si můžete vyčistit tělo čisticími ubrousky.",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing": "Může vyčistit oblečení",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing_tooltip": "Zda můžete vyčistit oblečení čisticími ubrousky.",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons": "Dokáže vyčistit zbraně na blízko",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons_tooltip": "Zda můžete čistit zbraně na blízko pomocí čisticích ubrousků.",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup": "Odstraňuje make-up",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup_tooltip": "Zda odstranit make-up při čištění těla.",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult": "Násobitel trvání",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult_tooltip": "Jak dlouho trvá čištění ubrousky ve srovnání s mytím pouze vodou.  Nižší pro rychlejší, vyšší pro pomalejší.",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness": "Vlhkost oblečení",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness_tooltip": "Při čištění oděvů bude úroveň jejich vlhkosti nastavena maximálně na tuto hodnotu nebo její aktuální úroveň.  Například s výchozí hodnotou by oblečení při vlhkosti 0 bylo nastaveno na 25, zatímco oblečení již při vlhkosti 50 by zůstalo na 50.",
+    "Sandbox_DGMC_Cleaning_Wipes_Debug_Logging": "Protokolování ladění"
+}

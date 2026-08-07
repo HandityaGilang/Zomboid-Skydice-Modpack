@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\ArmGuards_Long_M</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\ArmGuards_Long_F</m_FemaleModel>
+	<m_GUID>238c0059-0024-4a48-8715-1d66be734b0a</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\Material_LeatherTanned\Misc\LeatherTanned_Armguards_LongR</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Misc\LeatherTanned_Armguards_LongR_1</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Misc\LeatherTannedBlack_Armguards_LongR</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Misc\LeatherTannedBlack_Armguards_LongR_1</textureChoices>
+
+</clothingItem>

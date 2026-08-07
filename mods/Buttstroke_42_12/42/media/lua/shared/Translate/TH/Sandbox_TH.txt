@@ -1,0 +1,6 @@
+Sandbox_TH = {
+        Sandbox_ButtstrokeOption = "การโจมตีด้วยด้ามปืน",
+        Sandbox_ButtstrokeOption_Damage = "พลังโจมตีของพานท้ายปืน",
+        Sandbox_ButtstrokeOption_EnduranceLost = "ลดความอดทนเมื่อโจมตี",
+        Sandbox_ButtstrokeOption_WeaponConditionLost = "ลดสภาพของอาวุธเมื่อโจมตี",
+}

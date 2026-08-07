@@ -1,0 +1,10 @@
+{
+    "IGUI_BenchPress": "Fekvenyomás",
+    "IGUI_BenchPress_Tooltip": "Edzés fekvenyomáson",
+    "IGUI_Treadmill": "Futópad",
+    "IGUI_Treadmill_Tooltip": "Futás futópadon",
+    "IGUI_need_barbell": "Szükségem van egy rúdra ehhez a gyakorlathoz",
+    "IGUI_low_endurance": "Túl kimerült vagyok",
+    "IGUI_pain": "Túl nagy a fájdalom",
+    "IGUI_heavy": "Túl nehéz most használni"
+}

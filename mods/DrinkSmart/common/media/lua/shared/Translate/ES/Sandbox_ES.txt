@@ -1,0 +1,5 @@
+Sandbox_ES = {
+    Sandbox_DrinkSmart = "Drink Smart",
+    Sandbox_DrinkSmart_AllowWaterDrinkLowThirst = "Permitir beber agua con poca sed",
+    Sandbox_DrinkSmart_AllowWaterDrinkLowThirst_tooltip = "Si está activado, las fuentes de agua mostrarán el menú de Beber incluso con menos del 10% de sed (inventario/contenedores/panel del suelo).",
+}

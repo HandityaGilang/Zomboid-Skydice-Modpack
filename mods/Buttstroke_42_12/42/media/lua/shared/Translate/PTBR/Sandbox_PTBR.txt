@@ -1,0 +1,6 @@
+Sandbox_PTBR = {
+        Sandbox_ButtstrokeOption = "Configura‡„o de dano da coronhada",
+        Sandbox_ButtstrokeOption_Damage = "Dano da Coronhada",
+        Sandbox_ButtstrokeOption_EnduranceLost = "Resistˆncia Extra Reduzida",
+        Sandbox_ButtstrokeOption_WeaponConditionLost = "Condi‡„o Reduzida",
+}

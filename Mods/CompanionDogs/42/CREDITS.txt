@@ -31,5 +31,9 @@ Translations
 Chinese (Simplified / Traditional): duwenju1203.
 Italian: d4rk83.
 Japanese: 一匹狼 (https://steamcommunity.com/profiles/76561198253359995/).
+Spanish: 一匹狼 (https://steamcommunity.com/profiles/76561198253359995/).
 Thai: momineko (https://steamcommunity.com/id/momineko/).
+Russian: Jackson WalWhite (https://steamcommunity.com/profiles/76561199176671433/)
+         and MechJeb2 (https://steamcommunity.com/profiles/76561199611785440/).
+Ukrainian: MechJeb2 (https://steamcommunity.com/profiles/76561199611785440/).
 Thanks to all for the community translations.

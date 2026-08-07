@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+<files>
+		<path>media/clothing/clothingItems/M9Sheath.xml</path>
+		<guid>a17c7385-f8bb-4a67-8d3a-b343919f820d</guid>
+</files>
+<files>
+		<path>media/clothing/clothingItems/AliceFieldpack.xml</path>
+		<guid>cc6a3d35-9eae-4090-9352-2965b388d365</guid>
+</files>
+<files>
+		<path>media/clothing/clothingItems/AliceBackpack.xml</path>
+		<guid>09702c0b-48a3-45f7-abcd-364a73e549e0</guid>
+</files>
+<files>
+		<path>media/clothing/clothingItems/AliceBackpackRightHand.xml</path>
+		<guid>f09738a4-f751-49a5-8b41-9e9bc4e1ce9b</guid>
+</files>
+<files>
+		<path>media/clothing/clothingItems/AliceBackpackLeftHand.xml</path>
+		<guid>9337aef6-7818-4391-bdb9-90f479d05474</guid>
+</files>
+
+
+
+
+<files>
+		<path>media/clothing/clothingItems/AliceVest4P2CTight.xml</path>
+		<guid>4c1d1c19-0dd1-4e40-bb46-e5d793cbb037</guid>
+</files>
+<files>
+		<path>media/clothing/clothingItems/AliceVest4P2CLoosen.xml</path>
+		<guid>15fa87fd-3158-410d-bed5-63f96a41de6e</guid>
+</files>
+
+
+
+
+
+
+<files>
+		<path>media/clothing/clothingItems/AliceVest2P2CTight.xml</path>
+		<guid>f2b8e07e-5369-49e5-ac99-6a1c9c335efe</guid>
+</files>
+<files>
+		<path>media/clothing/clothingItems/AliceVest2P2CLoosen.xml</path>
+		<guid>96ea44e9-5820-4b7b-9602-b7c08cb28107</guid>
+</files>
+
+
+
+
+<files>
+		<path>media/clothing/clothingItems/AliceVest4P1C1ETight.xml</path>
+		<guid>a445ec59-2bb1-4005-bcb4-a2ac8a870e4d</guid>
+</files>
+<files>
+		<path>media/clothing/clothingItems/AliceVest4P1C1ELoosen.xml</path>
+		<guid>3f09ec8f-fdd2-4081-acb3-e187165cbdee</guid>
+</files>
+
+
+
+<files>
+		<path>media/clothing/clothingItems/AliceVest2P1C1ETight.xml</path>
+		<guid>a4de1c2a-5651-467a-ab63-4f2058460498</guid>
+</files>
+<files>
+		<path>media/clothing/clothingItems/AliceVest2P1C1ELoosen.xml</path>
+		<guid>e100d85e-021d-47a5-9eb4-63a3438dc6d5</guid>
+</files>
+
+
+
+
+<files>
+		<path>media/clothing/clothingItems/AliceVest4PTight.xml</path>
+		<guid>4306b49d-2600-48b6-842a-4974cc5f6713</guid>
+</files>
+<files>
+		<path>media/clothing/clothingItems/AliceVest4PLoosen.xml</path>
+		<guid>f6b3e5da-72a5-45ad-9132-8f094d1a873b</guid>
+</files>
+
+
+
+
+<files>
+		<path>media/clothing/clothingItems/AliceVest2PTight.xml</path>
+		<guid>6ec137f1-8364-4207-ad2a-3c635d271bc5</guid>
+</files>
+<files>
+		<path>media/clothing/clothingItems/AliceVest2PLoosen.xml</path>
+		<guid>596ccafe-51ef-40cf-8c7e-9ac920f079d0</guid>
+</files>
+
+
+</fileGuidTable>

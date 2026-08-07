@@ -1,0 +1,88 @@
+module Trex
+{
+    imports
+	{
+		Base
+	}
+
+	craftRecipe Makebakingtraydriedfruittrex
+	{
+        timedAction = SliceFood_Surface,
+		Time = 30,
+		Tags = AnySurfaceCraft;Cooking,
+		category = Cooking,
+		xpAward = Cooking:3,
+		inputs
+		{
+		    item 1 tags[SharpKnife;MeatCleaver] mode:keep flags[MayDegradeLight;IsNotDull;SharpnessCheck],
+			item 1 [Base.BakingTray] mode:destroy,
+            item 2 [Base.Pear;Base.Apple;Base.Banana;Base.Cherry;Base.Lemon;Base.Lime;Base.Mango;Base.Orange;Base.Peach;Base.Pineapple;Base.Grapefruit;Base.Grapes;Base.Strewberrie;Base.BerryBlack;Base.BerryGeneric1;Base.BerryGeneric2;Base.BerryGeneric3;Base.BerryGeneric4;Base.BerryGeneric5;Base.HollyBerry;Base.BeautyBerry;Base.WinterBerry] mappers[fruitType] flags[InheritFoodAge;ItemCount] mode:destroy,
+		}
+		outputs
+		{
+			item 1 mapper:fruitType,
+		}
+		itemMapper fruitType
+		{
+			Trex.CookPeardriedTrex        = Base.Pear,
+			Trex.CookAppledriedTrex       = Base.Apple,
+			Trex.CookBananadriedTrex      = Base.Banana,
+			Trex.CookCherrydriedTrex      = Base.Cherry,
+			Trex.CookLemondriedTrex       = Base.Lemon,
+			Trex.CookLimedriedTrex        = Base.Lime,
+			Trex.CookMangodriedTrex       = Base.Mango,
+			Trex.CookOrangedriedTrex      = Base.Orange,
+			Trex.CookPeachdriedTrex       = Base.Peach,
+			Trex.CookPineappledriedTrex   = Base.Pineapple,
+			Trex.CookGrapefruitdriedTrex  = Base.Grapefruit,
+			Trex.CookGrapesdriedTrex      = Base.Grapes,
+			Trex.CookStrewberriedriedTrex = Base.Strewberrie,	
+			Trex.CookBerrydriedTrex       = Base.BerryBlack,
+			Trex.CookBerrydriedTrex       = Base.BerryGeneric1,
+			Trex.CookBerrydriedTrex       = Base.BerryGeneric2,
+			Trex.CookBerrydriedTrex       = Base.BerryGeneric3,
+			Trex.CookBerrydriedTrex       = Base.BerryGeneric4,			
+			Trex.CookBerrydriedTrex       = Base.BerryGeneric5,
+			Trex.CookBerrydriedTrex       = Base.HollyBerry,	
+			Trex.CookBerrydriedTrex       = Base.BeautyBerry,	
+			Trex.CookBerrydriedTrex       = Base.WinterBerry,				
+		}
+	}
+	
+	craftRecipe Get4driedfruittrex
+	{
+        timedAction = Making,
+        time = 60,
+        Tooltip = Tooltip_Recipe_MustCookedGet,
+        category = Cooking,
+        Tags = InHandCraft;Cooking,
+		inputs
+		{
+			item 1 [Trex.CookPeardriedTrex;Trex.CookAppledriedTrex;Trex.CookBananadriedTrex;Trex.CookCherrydriedTrex;Trex.CookLemondriedTrex;Trex.CookLimedriedTrex;Trex.CookMangodriedTrex;Trex.CookOrangedriedTrex;Trex.CookPeachdriedTrex;Trex.CookPineappledriedTrex;Trex.CookGrapefruitdriedTrex;Trex.CookGrapesdriedTrex;Trex.CookStrewberriedriedTrex;Trex.CookBerrydriedTrex] mappers[fruitTypes] flags[IsCookedFoodItem;InheritFoodAge;ItemCount],
+		}
+		outputs
+		{
+			item 4 mapper:fruitTypes,
+			item 1 Base.BakingTray,
+		}
+        	itemMapper fruitTypes
+        	{
+			Trex.PeardriedTrex        = Trex.CookPeardriedTrex,       
+			Trex.AppledriedTrex       = Trex.CookAppledriedTrex,    
+			Trex.BananadriedTrex      = Trex.CookBananadriedTrex,     
+			Trex.CherrydriedTrex      = Trex.CookCherrydriedTrex,     
+			Trex.LemondriedTrex       = Trex.CookLemondriedTrex,      
+			Trex.LimedriedTrex        = Trex.CookLimedriedTrex,       
+			Trex.MangodriedTrex       = Trex.CookMangodriedTrex,      
+			Trex.OrangedriedTrex      = Trex.CookOrangedriedTrex,     
+			Trex.PeachdriedTrex       = Trex.CookPeachdriedTrex,      
+			Trex.PineappledriedTrex   = Trex.CookPineappledriedTrex,  
+			Trex.GrapefruitdriedTrex  = Trex.CookGrapefruitdriedTrex, 
+			Trex.GrapesdriedTrex      = Trex.CookGrapesdriedTrex,     
+			Trex.StrewberriedriedTrex = Trex.CookStrewberriedriedTrex,
+			Trex.BerrydriedTrex       = Trex.CookBerrydriedTrex,
+		}
+	}	
+	
+	 	 
+}

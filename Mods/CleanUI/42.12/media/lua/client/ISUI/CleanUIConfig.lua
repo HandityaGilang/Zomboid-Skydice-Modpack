@@ -38,23 +38,31 @@ end
 -- ----------------------------------------- --
 -- load / save
 -- ----------------------------------------- --
+CleanUIConfig.configFileName = "CleanUIConfig.txt"
+CleanUIConfig.legacyConfigFileName = "CleanUIConfig.lua"
+
 function CleanUIConfig.saveConfig(config)
-    local file = getFileWriter("CleanUIConfig.lua", true, false)
-    if file == nil then return nil end
+    -- Build 42.20 no longer allows getFileWriter() to create/update .lua
+    -- files in the user Lua cache folder. Keep the same Lua-table payload,
+    -- but store it in a .txt file and keep the in-memory cache updated even
+    -- if writing to disk fails.
+    CleanUIConfig.configCache = config
+
+    local file = getFileWriter(CleanUIConfig.configFileName, true, false)
+    if file == nil then
+        print("CleanUI: Could not open " .. tostring(CleanUIConfig.configFileName) .. " for writing")
+        return nil
+    end
 
     local contents = "return " .. CleanUIConfig.serializeTable(config)
     file:write(contents)
     file:close()
 
-    CleanUIConfig.configCache = config
+    return true
 end
 
-function CleanUIConfig.loadConfig()
-    if CleanUIConfig.configCache then
-        return CleanUIConfig.configCache
-    end
-    
-    local file = getFileReader("CleanUIConfig.lua", true)
+function CleanUIConfig.loadConfigFile(fileName)
+    local file = getFileReader(fileName, true)
     if file == nil then return nil end
 
     local content = ""
@@ -64,18 +72,45 @@ function CleanUIConfig.loadConfig()
         line = file:readLine()
     end
     file:close()
-    
+
     if content == "" then return nil end
-    
+
     local fn, errorMsg = loadstring(content)
-    if fn then
-        local config = fn()
-        CleanUIConfig.configCache = config
-        return config
-    else
-        print("CleanUI: Error loading config - " .. tostring(errorMsg))
+    if not fn then
+        print("CleanUI: Error loading " .. tostring(fileName) .. " - " .. tostring(errorMsg))
         return nil
     end
+
+    local ok, config = pcall(fn)
+    if ok and type(config) == "table" then
+        return config
+    end
+
+    print("CleanUI: Invalid config in " .. tostring(fileName))
+    return nil
+end
+
+function CleanUIConfig.loadConfig()
+    if CleanUIConfig.configCache then
+        return CleanUIConfig.configCache
+    end
+
+    local config = CleanUIConfig.loadConfigFile(CleanUIConfig.configFileName)
+    if config then
+        CleanUIConfig.configCache = config
+        return config
+    end
+
+    -- Fallback for users upgrading from older CleanUI versions. If the old
+    -- .lua config is found and valid, migrate it to the new .txt file.
+    config = CleanUIConfig.loadConfigFile(CleanUIConfig.legacyConfigFileName)
+    if config then
+        CleanUIConfig.configCache = config
+        CleanUIConfig.saveConfig(config)
+        return config
+    end
+
+    return nil
 end
 
 -- ----------------------------------------- --

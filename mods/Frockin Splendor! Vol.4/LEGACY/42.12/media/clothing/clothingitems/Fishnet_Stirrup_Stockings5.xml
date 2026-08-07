@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>c5838335-5d0b-45d0-ad8c-efcb1215ad56</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Fishnet\Stirrups\Fishnet_Stirrup_Stockings_7A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Fishnet\Stirrups\Fishnet_Stirrup_Stockings_7B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Fishnet\Stirrups\Fishnet_Stirrup_Stockings_7C</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Fishnet\Stirrups\Fishnet_Stirrup_Stockings_7D</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Fishnet\Stirrups\Fishnet_Stirrup_Stockings_7E</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Fishnet\Stirrups\Fishnet_Stirrup_Stockings_7F</m_BaseTextures>
+
+</clothingItem>

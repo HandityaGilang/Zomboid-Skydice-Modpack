@@ -1,0 +1,10 @@
+{
+    "IGUI_BenchPress": "Bench Press",
+    "IGUI_BenchPress_Tooltip": "Train op bench press",
+    "IGUI_Treadmill": "Loopband",
+    "IGUI_Treadmill_Tooltip": "Ren op loopband",
+    "IGUI_need_barbell": "Ik heb een barbell nodig voor deze oefening",
+    "IGUI_low_endurance": "Ik ben te uitgeput",
+    "IGUI_pain": "Ik heb te veel pijn",
+    "IGUI_heavy": "Te zwaar om nu te gebruiken"
+}

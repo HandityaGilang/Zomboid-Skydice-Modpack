@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Misc\Tie_BigNob.fbx</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Misc\Tie_BigNob.fbx</m_FemaleModel>
+	<m_GUID>1997a4af-3f03-45c5-9b38-fd5c2d287180</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\Misc\TieBolo\Bolo_Tie_Moon_1</textureChoices>
+	<textureChoices>clothes\Misc\TieBolo\Bolo_Tie_Moon_2</textureChoices>
+</clothingItem>

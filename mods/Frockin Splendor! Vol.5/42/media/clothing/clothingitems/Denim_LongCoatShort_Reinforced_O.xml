@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\Clothes\Coats_Long\LongCoat_Tail_M_O.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\Clothes\Coats_Long\LongCoat_Tail_F_O.fbx</m_FemaleModel>
+	<m_GUID>18d6f7c3-4b84-4d21-989a-4e875288d29a</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_MasksFolder>media/textures/clothes/Masks/Masks_Underlay_OpenJacket</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/clothes/Masks/Masks_Underlay_OpenJacket</m_UnderlayMasksFolder>
+	<textureChoices>clothes\Material_Denim\Coats_Reinforced\Denim_CoatShort_1A</textureChoices>
+	<textureChoices>clothes\Material_Denim\Coats_Reinforced\Denim_CoatShort_1B</textureChoices>
+	<textureChoices>clothes\Material_Denim\Coats_Reinforced\Denim_CoatShort_1C</textureChoices>
+	<textureChoices>clothes\Material_Denim\Coats_Reinforced\Denim_CoatShort_1D</textureChoices>
+	<textureChoices>clothes\Material_Denim\Coats_Reinforced\Denim_CoatShort_1E</textureChoices>
+	
+	<textureChoices>clothes\Material_Denim\Coats_Reinforced\Denim_CoatShort_2A</textureChoices>
+	<textureChoices>clothes\Material_Denim\Coats_Reinforced\Denim_CoatShort_2B</textureChoices>
+	<textureChoices>clothes\Material_Denim\Coats_Reinforced\Denim_CoatShort_2C</textureChoices>
+	<textureChoices>clothes\Material_Denim\Coats_Reinforced\Denim_CoatShort_2D</textureChoices>
+	<textureChoices>clothes\Material_Denim\Coats_Reinforced\Denim_CoatShort_2E</textureChoices>
+	
+	<textureChoices>clothes\Material_Denim\Coats_Reinforced\Denim_CoatShort_3A</textureChoices>
+	<textureChoices>clothes\Material_Denim\Coats_Reinforced\Denim_CoatShort_3B</textureChoices>
+	<textureChoices>clothes\Material_Denim\Coats_Reinforced\Denim_CoatShort_3C</textureChoices>
+	<textureChoices>clothes\Material_Denim\Coats_Reinforced\Denim_CoatShort_3D</textureChoices>
+	<textureChoices>clothes\Material_Denim\Coats_Reinforced\Denim_CoatShort_3E</textureChoices>
+	
+	<textureChoices>clothes\Material_Denim\Coats_Reinforced\Denim_CoatShort_4A</textureChoices>
+	<textureChoices>clothes\Material_Denim\Coats_Reinforced\Denim_CoatShort_4B</textureChoices>
+	<textureChoices>clothes\Material_Denim\Coats_Reinforced\Denim_CoatShort_4C</textureChoices>
+	<textureChoices>clothes\Material_Denim\Coats_Reinforced\Denim_CoatShort_4D</textureChoices>
+	<textureChoices>clothes\Material_Denim\Coats_Reinforced\Denim_CoatShort_4E</textureChoices>
+	
+	<textureChoices>clothes\Material_Denim\Coats_Reinforced\Denim_CoatShort_5A</textureChoices>
+	<textureChoices>clothes\Material_Denim\Coats_Reinforced\Denim_CoatShort_5B</textureChoices>
+	<textureChoices>clothes\Material_Denim\Coats_Reinforced\Denim_CoatShort_5C</textureChoices>
+	<textureChoices>clothes\Material_Denim\Coats_Reinforced\Denim_CoatShort_5D</textureChoices>
+	<textureChoices>clothes\Material_Denim\Coats_Reinforced\Denim_CoatShort_5E</textureChoices>
+</clothingItem>

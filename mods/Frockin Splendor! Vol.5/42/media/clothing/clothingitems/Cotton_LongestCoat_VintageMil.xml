@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\Clothes\Reworks\LongestCoatRE_VintageMil_M_C.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\Clothes\Reworks\LongestCoatRE_VintageMil_F_C.fbx</m_FemaleModel>
+	<m_GUID>1f410c68-4af1-4f65-a2f3-98916bd7282b</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>13</m_Masks>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder> 
+	<m_UnderlayMasksFolder>media/textures/clothes/Masks/LongCoat</m_UnderlayMasksFolder>
+	<textureChoices>clothes\Material_Cotton\Jackets_Coats\LeatherTanned_TrenchCoat_4</textureChoices>
+	<textureChoices>clothes\Material_Cotton\Jackets_Coats\Ceremonial_Coat</textureChoices>
+
+</clothingItem>

@@ -14,7 +14,9 @@ UI_ES = {
 
     /*ModOption*/
     UI_CleanUI_ContainerBackgroundOpacity = "Opacidad de la barra lateral",
+    UI_CleanUI_ContainerBackgroundOpacityPercent = "Opacidad de la barra lateral (%%)",
     UI_CleanUI_BackgroundOpacity = "Opacidad del fondo",
+    UI_CleanUI_BackgroundOpacityPercent = "Opacidad del fondo (%%)",
     UI_CleanUI_PlayerContainerPosition = "Panel de inventario (requiere reinicio)",
     UI_CleanUI_LootContainerPosition = "Panel de saqueo (requiere reinicio)",
     UI_CleanUI_ContainerPositionLeft = "Izquierda",
@@ -47,5 +49,11 @@ UI_ES = {
     UI_CleanUI_TransferMethodNearbyTooltip = "Método: contenedores cercanos <LINE> Clic para cambiar método",
     UI_CleanUI_TransferByNameTooltip = "Transferir por nombres de objetos",
     UI_CleanUI_TransferByCategoryTooltip = "Transferir por categorías",
+    UI_CleanUI_ShowWeightColumn = "Mostrar columna de peso",
+    UI_CleanUI_ShowWeightColumn_Tooltip = "Muestra una columna de peso separada para las filas de objetos y pilas en los paneles de inventario y saqueo de CleanUI.",
+    UI_CleanUI_ShowColumnHeaders = "Mostrar encabezados de columna",
+    UI_CleanUI_ShowColumnHeaders_Tooltip = "Muestra la fila de encabezados clicable sobre las listas de objetos de los paneles de inventario y saqueo.",
     UI_CleanUI_MoveToFloorTooltip = "Mover al suelo",
+    UI_CleanUI_Column_Rarity = "Rareza",
+    UI_CleanUI_Column_Weight = "Peso",
 }

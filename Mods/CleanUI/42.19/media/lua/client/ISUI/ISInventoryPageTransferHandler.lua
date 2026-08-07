@@ -2,16 +2,11 @@ ISInventoryPageTransferHandler = {}
 
 
 local function CleanUI_safeIsItemAllowed(container, item)
+    -- Match vanilla direct validation and avoid pcall around Java/Lua bridge calls.
     if not container or not item then
         return false
     end
-    local ok, result = pcall(function()
-        return container:isItemAllowed(item)
-    end)
-    if ok then
-        return result == true
-    end
-    return false
+    return container:isItemAllowed(item) == true
 end
 
 -- ----------------------------------------------------------------------------------------------------- --

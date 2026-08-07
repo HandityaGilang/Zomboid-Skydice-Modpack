@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>e2e3f033-91ed-482b-a1bc-d79d7bd1af58</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Alt_0</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Alt_0A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Alt_0B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Alt_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Alt_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Alt_6</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Alt_8</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Alt_11</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Alt_13</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_0</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_0A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_0B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_6</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_8</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_11</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_13</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Alt1_0</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Alt1_0A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Alt1_0B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Alt1_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Alt1_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Alt1_6</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Alt1_8</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Alt1_11</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Alt1_13</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Nude_0</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Nude_0A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Nude_0B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Nude_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Nude_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Nude_6</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Nude_8</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Nude_11</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Nude_13</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Purp_0</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Purp_0A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Purp_0B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Purp_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Purp_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Purp_6</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Purp_8</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Purp_11</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Purp_13</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Red_0</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Red_0A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Red_0B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Red_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Red_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Red_6</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Red_8</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Red_11</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Red_13</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Whit_0</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Whit_0A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Whit_0B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Whit_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Whit_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Whit_6</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Whit_8</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Whit_11</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\LEOTARDS\Nylon_Leotard_Whit_13</m_BaseTextures>
+
+</clothingItem>

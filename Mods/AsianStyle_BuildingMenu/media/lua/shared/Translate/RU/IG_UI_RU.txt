@@ -1,8 +1,0 @@
-IGUI_RU = {
-
-    	IGUI_BuildingMenuSubCat_Misc = "Разное",
-	IGUI_BuildingMenuSubCat_Walls_Half_Wooden = "Половинчатые",
-	IGUI_BuildingMenuSubCat_Interior_Walls = "Интерьерные",
-	IGUI_BuildingMenuSubCat_Exterior_Walls = "Наружные",
-
-}

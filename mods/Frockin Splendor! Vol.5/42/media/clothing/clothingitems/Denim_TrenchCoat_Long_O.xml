@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\Bob_FS3_TrenchCoat_Long_O.fbx</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\Kate_FS3_TrenchCoat_Long_O.fbx</m_FemaleModel>
+	<m_GUID>9b8ba863-ba66-4c25-b376-7895b2701e4b</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<textureChoices>clothes\Material_Denim\Jackets\FS3\Denim_TrenchCoat_FS3</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\FS3\Denim_TrenchCoat_FS3_1</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\FS3\DenimBlack_TrenchCoat_FS3</textureChoices>
+</clothingItem>	

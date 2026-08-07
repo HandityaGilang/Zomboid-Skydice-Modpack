@@ -1,0 +1,10 @@
+{
+    "IGUI_BenchPress": "Bench Press",
+    "IGUI_BenchPress_Tooltip": "Bench Press'te antrenman yap",
+    "IGUI_Treadmill": "Koşu Bandı",
+    "IGUI_Treadmill_Tooltip": "Koşu bandında koş",
+    "IGUI_need_barbell": "Bu egzersiz için bir barbele ihtiyacım var",
+    "IGUI_low_endurance": "Çok yorgunum",
+    "IGUI_pain": "Çok acım var",
+    "IGUI_heavy": "Şu anda kullanmak için çok ağır"
+}

@@ -1,0 +1,98 @@
+--------------------------------------------------------------------------------
+-- Better Sorting Reborn — mod-support pack: MoreSkillBooks.
+-- Every added skill book sorted to Literature - Skill.
+--
+-- Covers (one guard per mod in the original):
+--   MoreSkillBooks (MoreSkillBooks) — https://steamcommunity.com/sharedfiles/filedetails/?id=2462898835
+--
+-- Mappings migrated from Better Sorting (MoreSkillBooks_Items.lua).
+--------------------------------------------------------------------------------
+
+BSR = BSR or {}
+BSR.ModPacks = BSR.ModPacks or {}
+
+table.insert(BSR.ModPacks, {
+    name = "MoreSkillBooks",
+    mods = { "MoreSkillBooks" },
+    data = {
+        LitS = {
+            items = {
+                "MoreSkillBooks.BookAiming1",
+                "MoreSkillBooks.BookAiming2",
+                "MoreSkillBooks.BookAiming3",
+                "MoreSkillBooks.BookAiming4",
+                "MoreSkillBooks.BookAiming5",
+                "MoreSkillBooks.BookAxe1",
+                "MoreSkillBooks.BookAxe2",
+                "MoreSkillBooks.BookAxe3",
+                "MoreSkillBooks.BookAxe4",
+                "MoreSkillBooks.BookAxe5",
+                "MoreSkillBooks.BookBlunt1",
+                "MoreSkillBooks.BookBlunt2",
+                "MoreSkillBooks.BookBlunt3",
+                "MoreSkillBooks.BookBlunt4",
+                "MoreSkillBooks.BookBlunt5",
+                "MoreSkillBooks.BookFitness1",
+                "MoreSkillBooks.BookFitness2",
+                "MoreSkillBooks.BookFitness3",
+                "MoreSkillBooks.BookFitness4",
+                "MoreSkillBooks.BookFitness5",
+                "MoreSkillBooks.BookLightfoot1",
+                "MoreSkillBooks.BookLightfoot2",
+                "MoreSkillBooks.BookLightfoot3",
+                "MoreSkillBooks.BookLightfoot4",
+                "MoreSkillBooks.BookLightfoot5",
+                "MoreSkillBooks.BookLongBlade1",
+                "MoreSkillBooks.BookLongBlade2",
+                "MoreSkillBooks.BookLongBlade3",
+                "MoreSkillBooks.BookLongBlade4",
+                "MoreSkillBooks.BookLongBlade5",
+                "MoreSkillBooks.BookMaintenance1",
+                "MoreSkillBooks.BookMaintenance2",
+                "MoreSkillBooks.BookMaintenance3",
+                "MoreSkillBooks.BookMaintenance4",
+                "MoreSkillBooks.BookMaintenance5",
+                "MoreSkillBooks.BookNimble1",
+                "MoreSkillBooks.BookNimble2",
+                "MoreSkillBooks.BookNimble3",
+                "MoreSkillBooks.BookNimble4",
+                "MoreSkillBooks.BookNimble5",
+                "MoreSkillBooks.BookReloading1",
+                "MoreSkillBooks.BookReloading2",
+                "MoreSkillBooks.BookReloading3",
+                "MoreSkillBooks.BookReloading4",
+                "MoreSkillBooks.BookReloading5",
+                "MoreSkillBooks.BookSmallBlade1",
+                "MoreSkillBooks.BookSmallBlade2",
+                "MoreSkillBooks.BookSmallBlade3",
+                "MoreSkillBooks.BookSmallBlade4",
+                "MoreSkillBooks.BookSmallBlade5",
+                "MoreSkillBooks.BookSmallBlunt1",
+                "MoreSkillBooks.BookSmallBlunt2",
+                "MoreSkillBooks.BookSmallBlunt3",
+                "MoreSkillBooks.BookSmallBlunt4",
+                "MoreSkillBooks.BookSmallBlunt5",
+                "MoreSkillBooks.BookSneak1",
+                "MoreSkillBooks.BookSneak2",
+                "MoreSkillBooks.BookSneak3",
+                "MoreSkillBooks.BookSneak4",
+                "MoreSkillBooks.BookSneak5",
+                "MoreSkillBooks.BookSpear1",
+                "MoreSkillBooks.BookSpear2",
+                "MoreSkillBooks.BookSpear3",
+                "MoreSkillBooks.BookSpear4",
+                "MoreSkillBooks.BookSpear5",
+                "MoreSkillBooks.BookSprinting1",
+                "MoreSkillBooks.BookSprinting2",
+                "MoreSkillBooks.BookSprinting3",
+                "MoreSkillBooks.BookSprinting4",
+                "MoreSkillBooks.BookSprinting5",
+                "MoreSkillBooks.BookStrength1",
+                "MoreSkillBooks.BookStrength2",
+                "MoreSkillBooks.BookStrength3",
+                "MoreSkillBooks.BookStrength4",
+                "MoreSkillBooks.BookStrength5",
+            },
+        },
+    },
+})

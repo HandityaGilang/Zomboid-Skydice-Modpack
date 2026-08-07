@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Overshirts\Overshirt_Short_M</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Overshirts\Overshirt_Short_F</m_FemaleModel>
+	<m_GUID>ae944697-706f-40db-9584-c141b4cae5a9</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_MasksFolder>media/textures/Clothes/Suit/Masks</m_MasksFolder>
+	
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Short\Denim_JacketShort_A_O</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Short\Denim_JacketShort_B_O</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Short\DenimBlue_JacketShort_A_O</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Short\DenimBlue_JacketShort_B_O</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Short\DenimBluer_JacketShort_A_O</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Short\DenimBluer_JacketShort_B_O</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Short\DenimBluest_JacketShort_A_O</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Short\DenimBluest_JacketShort_B_O</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Short\DenimDark_JacketShort_A_O</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Short\DenimDark_JacketShort_B_O</textureChoices>
+
+</clothingItem>

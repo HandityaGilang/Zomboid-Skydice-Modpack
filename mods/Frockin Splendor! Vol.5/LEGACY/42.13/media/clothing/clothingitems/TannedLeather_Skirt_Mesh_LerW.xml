@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\Bob_Skirt_Generic.fbx</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\Kate_Skirt_Generic.fbx</m_FemaleModel>
+	<m_GUID>73b612e9-c1ea-450b-81c3-eeb926f6498d</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder></m_MasksFolder>
+	
+	
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTanned_Skirt_LerW_Mesh_0</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTanned_Skirt_LerW_Mesh_1</textureChoices>
+	
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTannedRed_Skirt_LerW_Mesh_0</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTannedRed_Skirt_LerW_Mesh_1</textureChoices>
+	
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTannedRedder_Skirt_LerW_Mesh_0</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTannedRedder_Skirt_LerW_Mesh_1</textureChoices>
+	
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTannedYellow_Skirt_LerW_Mesh_0</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTannedYellow_Skirt_LerW_Mesh_1</textureChoices>
+	
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTannedYellower_Skirt_LerW_Mesh_0</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTannedYellower_Skirt_LerW_Mesh_1</textureChoices>
+	
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTannedBlack_Skirt_LerW_Mesh_0</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTannedBlack_Skirt_LerW_Mesh_1</textureChoices>
+
+</clothingItem>	

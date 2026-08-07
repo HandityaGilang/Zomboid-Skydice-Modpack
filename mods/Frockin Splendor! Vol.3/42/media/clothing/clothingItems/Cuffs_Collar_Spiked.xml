@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes\KIU_Collar_Spiked_Bob.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\KIU_Collar_Spiked.fbx</m_FemaleModel>
+	<m_GUID>d070dd2d-2865-4f23-b3f4-802ed0d0259b</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\misc\KIU_Collar_2</textureChoices>
+</clothingItem>

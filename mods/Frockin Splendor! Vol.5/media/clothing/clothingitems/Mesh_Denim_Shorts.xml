@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Bob_FS_Shorts</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Kate_FS_Shorts</m_FemaleModel>
+	<m_GUID>47419ebc-d1a3-4e77-94d1-143222d427cd</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>2</m_Masks>
+	
+	
+	
+	<textureChoices>clothes\Material_Denim\Pants\DenimWhite_Shorts_1</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants\DenimWhite_Shorts_B1</textureChoices>
+	
+	<textureChoices>clothes\Material_Denim\Pants\Denim_Shorts_1</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants\Denim_Shorts_B1</textureChoices>
+	
+	<textureChoices>clothes\Material_Denim\Pants\DenimBlue_Shorts_1</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants\DenimBlue_Shorts_B1</textureChoices>
+	
+	<textureChoices>clothes\Material_Denim\Pants\DenimBlueDarker_Shorts_B1</textureChoices>
+	
+	<textureChoices>clothes\Material_Denim\Pants\DenimBlack_Shorts_1</textureChoices>
+	<textureChoices>clothes\Material_Denim\Pants\DenimBlack_Shorts_B1</textureChoices>
+	
+	<textureChoices>clothes\Material_Denim\Pants\DenimBluer_Shorts_B1</textureChoices>
+</clothingItem>

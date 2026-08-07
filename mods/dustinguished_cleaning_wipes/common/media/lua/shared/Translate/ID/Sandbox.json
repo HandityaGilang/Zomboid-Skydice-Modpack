@@ -1,0 +1,16 @@
+{
+    "Sandbox_DGMC_Cleaning_Wipes": "tisu pembersih",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body": "Dapat Membersihkan Badan",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body_tooltip": "Apakah Anda bisa membersihkan tubuh Anda dengan tisu pembersih.",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing": "Dapat Membersihkan Pakaian",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing_tooltip": "Apakah Anda bisa membersihkan pakaian dengan tisu pembersih.",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons": "Dapat Membersihkan Senjata Jarak Dekat",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons_tooltip": "Apakah Anda bisa membersihkan senjata jarak dekat dengan tisu pembersih.",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup": "Menghapus Riasan",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup_tooltip": "Apakah akan menghapus riasan saat membersihkan tubuh Anda.",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult": "Pengganda Durasi",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult_tooltip": "Berapa lama waktu yang dibutuhkan untuk membersihkan dengan tisu, dibandingkan mencuci dengan air saja.  Lebih rendah untuk lebih cepat, lebih tinggi untuk lebih lambat.",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness": "Pakaian Basah",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness_tooltip": "Saat membersihkan pakaian, tingkat kebasahan pakaian akan diatur ke nilai maksimum atau tingkat kebasahan saat ini.  Misalnya dengan nilai default, pakaian dengan tingkat kebasahan 0 akan disetel ke 25, sedangkan pakaian yang sudah memiliki tingkat kebasahan 50 akan tetap di angka 50.",
+    "Sandbox_DGMC_Cleaning_Wipes_Debug_Logging": "Pencatatan Debug"
+}

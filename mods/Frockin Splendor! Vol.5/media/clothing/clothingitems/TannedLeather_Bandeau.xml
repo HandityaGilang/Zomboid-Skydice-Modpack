@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>220fa641-4252-4c4d-a4ad-d93a374e9e46</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Bandeau\LeatherTanned_Bandeau_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Bandeau\LeatherTanned_Bandeau_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Bandeau\LeatherTanned_Bandeau_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Bandeau\LeatherTanned_Bandeau_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Bandeau\LeatherTanned_Bandeau_5</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Bandeau\LeatherTannedRed_Bandeau_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Bandeau\LeatherTannedRed_Bandeau_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Bandeau\LeatherTannedRed_Bandeau_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Bandeau\LeatherTannedRed_Bandeau_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Bandeau\LeatherTannedRed_Bandeau_5</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Bandeau\LeatherTannedRedder_Bandeau_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Bandeau\LeatherTannedRedder_Bandeau_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Bandeau\LeatherTannedRedder_Bandeau_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Bandeau\LeatherTannedRedder_Bandeau_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Bandeau\LeatherTannedRedder_Bandeau_5</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Bandeau\LeatherTannedBlack_Bandeau_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Bandeau\LeatherTannedBlack_Bandeau_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Bandeau\LeatherTannedBlack_Bandeau_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Bandeau\LeatherTannedBlack_Bandeau_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Bandeau\LeatherTannedBlack_Bandeau_5</m_BaseTextures>
+
+</clothingItem>

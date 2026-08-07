@@ -3,6 +3,8 @@ local NAME_COLOR_ID = "itemNameColor"
 local CATEGORY_COLOR_ID = "itemCategoryColor"
 local USE_CLEANUI_INVENTORY_ID = "useCleanUIInventory"
 local CATEGORY_TEXT_ALIGNMENT_ID = "categoryTextAlignment"
+local WEIGHT_COLUMN_ENABLED_ID = "showWeightColumn"
+local COLUMN_HEADER_ENABLED_ID = "showColumnHeaders"
 local TIMED_ACTION_FIX_NOTIFY_ID = "notifyTimedActionFix"
 local TRANSFER_BUTTON_LAYOUT_ID = "transferButtonLayout"
 
@@ -190,6 +192,20 @@ local function InitCleanUIModOptions()
     categoryTextAlignmentOption:addItem(getText("UI_CleanUI_TextAlignLeft"), false)
     categoryTextAlignmentOption:addItem(getText("UI_CleanUI_TextAlignRight"), true)
 
+    options:addTickBox(
+        WEIGHT_COLUMN_ENABLED_ID,
+        getText("UI_CleanUI_ShowWeightColumn"),
+        false,
+        getText("UI_CleanUI_ShowWeightColumn_Tooltip")
+    )
+
+    options:addTickBox(
+        COLUMN_HEADER_ENABLED_ID,
+        getText("UI_CleanUI_ShowColumnHeaders"),
+        true,
+        getText("UI_CleanUI_ShowColumnHeaders_Tooltip")
+    )
+
     local buttonScaleOption = options:addComboBox("containerButtonScale",getText("UI_CleanUI_ContainerButtonScale"))
     buttonScaleOption:addItem("1x (default)", true)
     buttonScaleOption:addItem("1.2x", false)
@@ -200,9 +216,8 @@ local function InitCleanUIModOptions()
     buttonScaleOption:addItem("0.8x", false)
     buttonScaleOption:addItem("0.7x", false)
 
-    options:addSlider("backgroundOpacity", getText("UI_CleanUI_BackgroundOpacity").."(%)", 0.1, 1.0, 0.05, 0.65, nil)
-    options:addSlider("containerBackgroundOpacity", getText("UI_CleanUI_ContainerBackgroundOpacity").."(%)", 0.1, 1.0, 0.05, 0.9, nil)
-
+    options:addSlider("backgroundOpacity", "UI_CleanUI_BackgroundOpacityPercent", 0.1, 1.0, 0.05, 0.65, nil)
+    options:addSlider("containerBackgroundOpacity", "UI_CleanUI_ContainerBackgroundOpacityPercent", 0.1, 1.0, 0.05, 0.9, nil)
     options:addColorPicker(NAME_COLOR_ID,getText("UI_CleanUI_ItemNameColor"),defaultNameColor.r, defaultNameColor.g, defaultNameColor.b, defaultNameColor.a)
     options:addColorPicker(CATEGORY_COLOR_ID,getText("UI_CleanUI_ItemCategoryColor"),defaultCategoryColor.r, defaultCategoryColor.g, defaultCategoryColor.b, defaultCategoryColor.a)
 
@@ -339,6 +354,45 @@ function CleanUI_getCategoryTextAlignment()
         end
     end
     return "2"
+end
+
+function CleanUI_shouldShowWeightColumn()
+    -- Return whether the optional item/stack weight column should be drawn.
+    if not (PZAPI and PZAPI.ModOptions) then
+        return false
+    end
+
+    CleanUI_loadModOptionsOnce()
+
+    local options = PZAPI.ModOptions:getOptions(MOD_ID)
+    local option = options and options:getOption(WEIGHT_COLUMN_ENABLED_ID)
+    if not option then
+        return false
+    end
+    return CleanUI_toBool(option:getValue())
+end
+
+function CleanUI_shouldShowColumnHeaders()
+    -- Return whether the optional clickable column header row should be drawn.
+    if not (PZAPI and PZAPI.ModOptions) then
+        return true
+    end
+
+    CleanUI_loadModOptionsOnce()
+
+    local options = PZAPI.ModOptions:getOptions(MOD_ID)
+    local option = options and options:getOption(COLUMN_HEADER_ENABLED_ID)
+    if not option then
+        return true
+    end
+    return CleanUI_toBool(option:getValue())
+end
+
+function CleanUI_getColumnHeaderOpacity()
+    -- Return the fixed opacity used by the optional column header row.
+    -- This is intentionally not exposed as a Mod Option yet, because the
+    -- final customization model may change in a future version.
+    return 0.15
 end
 
 function CleanUI_getItemNameColor()

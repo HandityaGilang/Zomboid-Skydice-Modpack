@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>512770e6-9d4e-4fbb-82c2-71cab7c9abdc</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Fishnet\Leotards\Fishnet_LeotardSleeves_MC_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Fishnet\Leotards\Fishnet_LeotardSleeves_MC_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Fishnet\Leotards\Fishnet_LeotardSleeves_MC_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Fishnet\Leotards\Fishnet_LeotardSleeves_MC_3B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Fishnet\Leotards\Fishnet_LeotardSleeves_MC_6A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Fishnet\Leotards\Fishnet_LeotardSleeves_MC_7</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Fishnet\Leotards\Fishnet_LeotardSleeves_MC_7A</m_BaseTextures>
+</clothingItem>

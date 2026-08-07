@@ -1,0 +1,1593 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+
+<!--Misc-->
+	
+	<files>
+    <path>media/clothing/clothingItems/Accessory_Wild_Rag.xml</path>
+    <guid>a0464b36-454f-40f2-97d3-37b12d9e78ce</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Accessory_Wild_Rag_Bandana.xml</path>
+    <guid>3393c2f9-29c3-42ac-a124-5db81b24727e</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Accessory_Wild_Rag_Scarf.xml</path>
+    <guid>eaabb4e1-5b74-46c2-80b8-abb3cf6c45dd</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Accessory_Tie_Bolo.xml</path>
+    <guid>d8c7222e-30e8-49b2-919b-7b4fa47d277c</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Accessory_Tie_Bolo_NoCollar.xml</path>
+    <guid>45f56b87-680f-4d41-96d5-441d82e41fe3</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Accessory_Tie_Bolo_Letters.xml</path>
+    <guid>ec7b480f-e6df-4ccd-a630-ed306ae09153</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Accessory_Tie_Bolo_Letters_NoCollar.xml</path>
+    <guid>f65e2cd0-2f6e-41ac-95a1-bb34b987ffd5</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Accessory_Tie_Bolo_Star.xml</path>
+    <guid>9a9fa7c0-594f-4fc2-96cb-c5fcbb2f649d</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Accessory_Tie_Bolo_Star_NoCollar.xml</path>
+    <guid>a8a649bd-5814-4b7c-b2cb-a6ca62b06768</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Accessory_Tie_Bolo_Sun.xml</path>
+    <guid>7fc2e614-45f7-4bfa-9476-58424937f721</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Accessory_Tie_Bolo_Sun_NoCollar.xml</path>
+    <guid>a2769cbc-6d10-4ab9-93cf-78a909a8c92f</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Accessory_Tie_Bolo_Moon.xml</path>
+    <guid>1997a4af-3f03-45c5-9b38-fd5c2d287180</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Accessory_Tie_Bolo_Moon_NoCollar.xml</path>
+    <guid>dd026f1a-9ea5-450b-a265-6bb5fbd59819</guid>
+	</files>
+
+<!--Material Denim-->
+<!--Skinned Clothes-->
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_Bandeau.xml</path>
+    <guid>3c7ad72f-bb5e-49de-9f11-4aa01fb2c5ac</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_Bandeau_Tiny.xml</path>
+    <guid>2f6060ef-3af4-4fb1-969e-d3b4b1122c02</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_CropTop.xml</path>
+    <guid>7a910e25-ddd9-423d-aee5-8c3ea082416b</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_Top.xml</path>
+    <guid>f192d061-8dbf-4139-9c2d-3f485eb46507</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_Skirt_Short.xml</path>
+    <guid>cb6e7e02-da89-46bc-b5d9-ee206824a6af</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_Skirt_Short_LW.xml</path>
+    <guid>5fe805bc-1ca2-4ba0-80a2-a2a1103701dc</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_Skirt_Longer.xml</path>
+    <guid>31d8862d-27ae-424d-ac55-c725b081b42f</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_Skirt_Long.xml</path>
+    <guid>b0da8fac-0994-411a-85b5-7898039a31e7</guid>
+	</files>
+
+<!--Mesh Denim Skirt-->
+
+	<files>
+    <path>media/clothing/clothingItems/Denim_Skirt_Mesh_HW.xml</path>
+    <guid>18ddff5d-93db-40fc-9abb-adb250f59acc</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_Skirt_Mesh_LW.xml</path>
+    <guid>cce85917-6ea2-4927-875f-d087cf81225d</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Denim_SkirtPleated.xml</path>
+	<guid>18a94458-b51d-4cc4-a7c0-8c38cd378ccd</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Denim_SkirtPleated_Frilled.xml</path>
+	<guid>1cfeff3f-7e16-4afc-aea2-70c4256d1241</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/Mesh_Denim_Skirt_Longer.xml</path>
+	<guid>8a32f72c-5433-40cd-ae9e-50a02bea5bf8</guid>
+	</files>
+
+
+<!--Jackets-->
+
+	<files>
+    <path>media/clothing/clothingItems/Denim_Jacket_Cropped.xml</path>
+    <guid>09fb8e8a-f7e4-48bf-87ee-8c59a7c5313b</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_Jacket.xml</path>
+    <guid>0a548723-de4d-4695-95bf-4ded4e5fc21d</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_Jacket_O.xml</path>
+    <guid>65e273eb-85d5-41e7-9398-88d2dfb5c736</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_JacketReinforced.xml</path>
+    <guid>d56fe0fa-88a0-43b9-a62c-3584858ebdad</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_JacketReinforced_O.xml</path>
+    <guid>22c26dbe-bd75-492f-8652-e8a045c260f3</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_JacketShort.xml</path>
+    <guid>ae944697-706f-40db-9584-c141b4cae5a9</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_JacketShort_O.xml</path>
+    <guid>c2652680-b192-4fce-a8f4-cb37f0cac623</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_VestJacket.xml</path>
+    <guid>f52f1b4e-4d72-4480-80d4-1292c4579869</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_VestJacket_O.xml</path>
+    <guid>15909405-13db-4384-bf75-f02c0c2b8fb4</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_VestJacketCropped.xml</path>
+    <guid>834c7bbb-1744-481b-879b-35f622c747d6</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_VestJacketCropped_O.xml</path>
+    <guid>ab0fdcd4-48bc-42be-b171-97d9d49ace68</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_VestJacketShort.xml</path>
+    <guid>ae481da4-f98a-4aa3-9b1d-2a3fdc175c30</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_VestJacketShort_O.xml</path>
+    <guid>54087b0b-99e6-46e5-8813-404a135c5091</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_LongCoat.xml</path>
+    <guid>f706063b-db3c-43a3-ad8d-2614d3fe9fb1</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_LongCoat_O.xml</path>
+    <guid>5556b986-d3b2-4014-baf2-d8af9728876d</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_LongCoatShort.xml</path>
+    <guid>3b2534ce-3311-4af5-9a3d-c2bb24a9a59a</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_LongCoatShort_O.xml</path>
+    <guid>fcfe0e99-b2be-4b6f-b52f-84d280380e72</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_LongCoatShort_Reinforced.xml</path>
+    <guid>adadd1bb-4897-4caf-a580-d75b01406075</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_LongCoatShort_Reinforced_O.xml</path>
+    <guid>18d6f7c3-4b84-4d21-989a-4e875288d29a</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_LongCoatShortSleeveless.xml</path>
+    <guid>e67500d8-b5a8-46f2-903b-c8a75f1e7c68</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_LongCoatShortSleeveless_O.xml</path>
+    <guid>8dcb1312-541f-4345-8994-23a5c6fd1267</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_TrenchCoat_Long_O.xml</path>
+    <guid>9b8ba863-ba66-4c25-b376-7895b2701e4b</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_TrenchCoat_Short_O.xml</path>
+    <guid>f30ace98-79ae-493d-8e77-0866f9fcf73a</guid>
+	</files>
+		
+<!--Mesh Denim Pants-->	
+	
+	<files>
+    <path>media/clothing/clothingItems/Mesh_Denim_Pants.xml</path>
+    <guid>a77163bf-dc42-4440-a119-bfe74a961897</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Mesh_Denim_PantsFlared.xml</path>
+    <guid>04c75777-b0b5-4a67-8795-daafcca5ca69</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Mesh_Denim_PantsChaps.xml</path>
+    <guid>f0a6cbf9-4159-4c34-829b-83611159bd52</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Mesh_Denim_LongShorts.xml</path>
+    <guid>afb329c7-a5e6-456e-9b93-baedf4de1cae</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Mesh_Denim_Shorts.xml</path>
+    <guid>47419ebc-d1a3-4e77-94d1-143222d427cd</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Mesh_Denim_ShortShorts.xml</path>
+    <guid>0fb90f12-2ac1-41d0-83fb-26a2d45281d4</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Mesh_Denim_ShorterShorts.xml</path>
+    <guid>86d9314b-112f-459f-bf2f-1750a7409188</guid>
+	</files>
+
+<!--Skinny Denim Pants-->
+	
+	<files>
+    <path>media/clothing/clothingItems/Skin_Denim_Pants_High.xml</path>
+    <guid>1bc8f4c1-2528-48a3-82b3-9e0a4a35636c</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Skin_Denim_Pants_J.xml</path>
+    <guid>511af2af-a994-441d-8121-d704ed27f466</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Skin_Denim_Pants_Low.xml</path>
+    <guid>4c527994-55ae-460b-9fcf-121c81de0754</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Skin_Denim_Pants_Lower.xml</path>
+    <guid>f16ff5ea-765f-4048-9981-34821bd9f525</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Skin_Denim_Pants_V.xml</path>
+    <guid>cc219fa9-4cb4-4d91-925f-962a236c8c07</guid>
+	</files>
+	
+	
+	
+	<files>
+    <path>media/clothing/clothingItems/Skin_Denim_Shorts.xml</path>
+    <guid>b99d6710-deec-4680-a07a-7045b7e96c19</guid>
+	</files>
+	
+<!--Skin Denim Shorts-->		
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_Shorts_High.xml</path>
+    <guid>313589bb-0ac5-421c-afcc-f50bcafcef13</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_Shorts_J.xml</path>
+    <guid>c25f4534-94e6-4ca6-bdb2-b33b73a53aaa</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_Shorts_Low.xml</path>
+    <guid>69ff843c-0f6a-4728-a227-326916d221fe</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_Shorts_Lower.xml</path>
+    <guid>d9cdaa47-f708-497e-bfb0-1d96451a6910</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_Shorts_V.xml</path>
+    <guid>c2b7099e-7621-4afa-94d7-634739e6e8f0</guid>
+	</files>
+	
+<!--Meshed Shirts-->
+
+	<files>
+    <path>media/clothing/clothingItems/Denim_Overshirt.xml</path>
+    <guid>23497d94-5b54-4f12-9f76-78f2f121a5a2</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_Overshirt_O.xml</path>
+    <guid>a4978b70-f568-481c-a5c8-1bbf5e2405a0</guid>
+	</files>
+
+<!--Shirts-->
+
+	<files>
+    <path>media/clothing/clothingItems/Denim_Shirt_10.xml</path>
+    <guid>70b25d16-487f-4ed2-8608-aa2c014ddd30</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_Shirt_11.xml</path>
+    <guid>965d1eaf-b2c9-47c8-9b62-2b42386fb211</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_Shirt_12.xml</path>
+    <guid>47f492cb-3d46-4699-ac1d-d28ab38d2bea</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_Shirt_15.xml</path>
+    <guid>f2f5a987-1e8d-40a4-bde1-f0362d2d5e46</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_Shirt_20.xml</path>
+    <guid>ea9de9da-5f52-47f1-b0cc-8f479765aa8a</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_Shirt_21.xml</path>
+    <guid>40e618e4-2322-4a9f-8775-73a36a6708ad</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_Shirt_22.xml</path>
+    <guid>97ecec4d-f1e2-4844-98ec-c6996a35d96e</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_Shirt_25.xml</path>
+    <guid>ffc54d9c-963c-485e-a2cd-19019f5e570b</guid>
+	</files>
+	
+<!--Shirts Sleeveless-->
+
+	<files>
+    <path>media/clothing/clothingItems/Denim_Sleeveless_Shirt_10.xml</path>
+    <guid>754878c1-9b6a-4c7f-9ee1-42269041a095</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_Sleeveless_Shirt_11.xml</path>
+    <guid>a2fd4cff-04dc-4250-997c-67e32722375b</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_Sleeveless_Shirt_12.xml</path>
+    <guid>27208e7e-8e72-4f57-95d6-fec7a6b64180</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Denim_Sleeveless_Shirt_15.xml</path>
+    <guid>cb1089d6-87d0-42a0-805f-0d1a92960c67</guid>
+	</files>
+
+<!--Shirts Lumberjack-->
+
+	<files>
+    <path>media/clothing/clothingItems/Lumberjack_Shirt_10.xml</path>
+    <guid>3fffb5c3-bb85-4c0e-a808-fb50f544c6b5</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Lumberjack_Shirt_11.xml</path>
+    <guid>804ab41a-2bd5-437e-bb35-e630dc9ddcae</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Lumberjack_Shirt_12.xml</path>
+    <guid>20f4077e-e2d2-41dd-8961-74d7b5e84265</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Lumberjack_Shirt_15.xml</path>
+    <guid>063199f2-6111-45f2-a6c5-0147add394e2</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Lumberjack_Shirt_20.xml</path>
+    <guid>c0787d76-3608-4808-8e95-b0f63060bdb1</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Lumberjack_Shirt_21.xml</path>
+    <guid>5c28d89e-bf53-4bb2-a436-be28b22928cb</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Lumberjack_Shirt_22.xml</path>
+    <guid>07465453-ab14-4043-a0fa-b521ef8a985a</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Lumberjack_Shirt_25.xml</path>
+    <guid>6776c459-8a62-4930-9c83-fab5094f90cc</guid>
+	</files>
+	
+<!--Shirts Lumberjack Cropped-->	
+	
+	<files>
+    <path>media/clothing/clothingItems/Lumberjack_Cropped_Shirt_10.xml</path>
+    <guid>bd6065d8-15a4-455f-a095-68e9a2666753</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Lumberjack_Cropped_Shirt_11.xml</path>
+    <guid>3d32ed77-e1c1-4ab1-a04e-1751d4374539</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Lumberjack_Cropped_Shirt_12.xml</path>
+    <guid>719e3c02-399a-4b92-b41a-0a3fd0aee424</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Lumberjack_Cropped_Shirt_15.xml</path>
+    <guid>ddd9348d-3d8d-4772-b952-c8d563e827f0</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Lumberjack_Cropped_Shirt_20.xml</path>
+    <guid>824a2499-dcb1-49f1-b4e4-620f362187f8</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Lumberjack_Cropped_Shirt_21.xml</path>
+    <guid>d700c1ca-3c24-45e3-9bcf-d17e63c5e282</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Lumberjack_Cropped_Shirt_22.xml</path>
+    <guid>8f80c768-4920-4cf3-b132-827083007b3f</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Lumberjack_Cropped_Shirt_25.xml</path>
+    <guid>9e4b9e06-cd1b-4d72-b781-6ee402c7a2aa</guid>
+	</files>
+	
+<!--Shirts Lumberjack Sleeveless-->	
+
+	<files>
+    <path>media/clothing/clothingItems/Lumberjack_Sleeveless_Shirt_10.xml</path>
+    <guid>63b12860-9bd8-4b79-8886-dd9bc124986f</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Lumberjack_Sleeveless_Shirt_11.xml</path>
+    <guid>c7c3979e-48b2-4990-8af9-91c4e0796809</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Lumberjack_Sleeveless_Shirt_12.xml</path>
+    <guid>7133e93b-f603-4a94-88b2-83bdef8df6cd</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Lumberjack_Sleeveless_Shirt_15.xml</path>
+    <guid>69b9309a-9534-4de5-9303-9371939deb0b</guid>
+	</files>
+
+
+
+
+<!--Material Cotton-->
+<!--Blouses & Tops-->	
+	
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Blouse.xml</path>
+    <guid>ce95c63c-4385-4ef8-b26f-79d64ebd2a79</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Blouse_V.xml</path>
+    <guid>9d41d011-b2ab-4665-b859-16517f5e70de</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Blouse_V_Cropped.xml</path>
+    <guid>7a03ab63-4fba-4226-b1db-6758a95ea090</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Cotton_Blouse_V_Cropped_Tiny.xml</path>
+    <guid>11f97de3-f7fd-4a34-bc2a-a6c9e7f0111a</guid>
+	</files>
+	
+<!--Vintage Winter Coats-->	
+	
+	<files>
+    <path>media/clothing/clothingItems/Cotton_LongestCoat_VintageMil.xml</path>
+    <guid>1f410c68-4af1-4f65-a2f3-98916bd7282b</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Cotton_LongestCoat_VintageMil_O.xml</path>
+    <guid>0268c915-aaca-4ada-85ae-8dda21462865</guid>
+	</files>
+
+
+
+	
+<!--Material Tanned Leather-->
+<!--Mesh Tanned Leather Pants-->	
+	
+	<files>
+    <path>media/clothing/clothingItems/TMesh_TannedLeather_Pants.xml</path>
+    <guid>1859a9f0-7b22-4a63-b655-909ea56978cd</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TMesh_TannedLeather_LongShorts.xml</path>
+    <guid>cff9d801-4de0-4cb6-8f1b-14f9f5035523</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TMesh_TannedLeather_ShorterShorts.xml</path>
+    <guid>8cb5b343-d0c0-42f1-8177-b644dd4a2489</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TMesh_TannedLeather_Shorts.xml</path>
+    <guid>6077a9ee-c981-4060-9779-9c9694ed88d0</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TMesh_TannedLeather_ShortShorts.xml</path>
+    <guid>5dfdf2e5-604f-4b84-a73b-ed8fe0e9451f</guid>
+	</files>
+	
+<!--Skinny Tanned Leather Pants-->
+
+	<files>
+    <path>media/clothing/clothingItems/TSkin_TannedLeather_Pants_High.xml</path>
+    <guid>79643dd7-8547-449b-85bc-0a4993f721b9</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TSkin_TannedLeather_Pants.xml</path>
+    <guid>fcbedffd-15a5-41b8-b348-cd4327c39469</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TSkin_TannedLeather_Pants_Low.xml</path>
+    <guid>585ac2ed-1e83-48e7-85ca-a0498d7b38f1</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TSkin_TannedLeather_Pants_Lower.xml</path>
+    <guid>c4c6b331-b380-42c6-b736-9ca2451bda38</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TSkin_TannedLeather_Pants_V.xml</path>
+    <guid>5e661fba-07e2-44f9-b114-42e8b9b2036e</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Shorts_High.xml</path>
+    <guid>50dccff4-f338-48ac-adf7-4fbfa138d736</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Shorts_J.xml</path>
+    <guid>12de16e1-5205-4fd1-a7e8-072c65206e24</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Shorts_Low.xml</path>
+    <guid>56082070-5dcf-41d2-abac-8cb4d500cd36</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Shorts_Lower.xml</path>
+    <guid>baaae0db-1e56-4603-9208-37500babb23b</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Shorts_V.xml</path>
+    <guid>8c65a425-3527-4dd7-a79d-bc8e3feb3e29</guid>
+	</files>
+	
+<!--Skinned Clothes-->	
+<!--Corsets-->	
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Corset.xml</path>
+    <guid>c23228e3-6c3f-4541-bc85-2d4c8936eec6</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Corset_OuterLayer.xml</path>
+    <guid>2b53dcce-6f33-4232-ad60-75d77740d53a</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Corset_UB.xml</path>
+    <guid>8fafc4dc-ed53-432c-b61c-973ac50e7b7c</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Corset_UB_OuterLayer.xml</path>
+    <guid>52db28e3-71f3-4d2d-882d-1a278d9b2bec</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Corset_Strap.xml</path>
+    <guid>021c4110-bea6-4e11-ba95-a84eacee9da4</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Corset_Strap_OuterLayer.xml</path>
+    <guid>d1ed3432-fd6b-4df7-8b21-df5a2f0a0854</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Corset_UB_Strap.xml</path>
+    <guid>72d5c4b0-f6f1-4be1-8a51-56d16b56d6fe</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Corset_UB_Strap_OuterLayer.xml</path>
+    <guid>35fecbca-c146-4552-a858-84039957081e</guid>
+	</files>
+
+<!--Tops & CropTops-->	
+
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Top.xml</path>
+    <guid>b0435018-8ded-46d8-944f-a59c61995be8</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_TopSkimpy.xml</path>
+    <guid>c2f84d6a-2c14-435f-b0bd-50352ef62495</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_CropTop.xml</path>
+    <guid>faa638f5-e2eb-4aaf-ae98-af419c5ac3d3</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Bandeau.xml</path>
+    <guid>220fa641-4252-4c4d-a4ad-d93a374e9e46</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Bandeau_Tiny.xml</path>
+    <guid>1fe7c829-6dbf-4014-9727-e96b3fc68744</guid>
+	</files>
+	
+<!--Skirts - Side-->	
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Long_Skirt.xml</path>
+    <guid>fff7f0ae-bad1-46e6-9994-ae8521d16eba</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Skirt_Mid.xml</path>
+    <guid>e0c32db2-d89d-486a-b695-f120fee721a1</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Skirt_Short.xml</path>
+    <guid>e8896385-c551-45fa-a394-e68fa56ae6a1</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Skirt_Shorter.xml</path>
+    <guid>ba65ff8f-0ab6-4a19-9ee8-89a05b609a61</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Loincloth.xml</path>
+    <guid>acbbd573-c4aa-45b4-998e-1fa9400f8c81</guid>
+	</files>
+	
+<!--Skirts_Mesh-->	
+
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Skirt_Mesh_HW.xml</path>
+    <guid>4cf8afba-79ed-4df7-b3df-d0f879fcacb1</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Skirt_Mesh_LW.xml</path>
+    <guid>51d69e8e-195a-439c-8480-0391c911c4e3</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Skirt_Mesh_LerW.xml</path>
+    <guid>73b612e9-c1ea-450b-81c3-eeb926f6498d</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Skirt_MeshFrilled_HW.xml</path>
+    <guid>19c79961-ed37-4e97-934b-89bdb2e1a2c7</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Skirt_MeshFrilled_LW.xml</path>
+    <guid>3626b3be-0e72-40ea-82a7-523d6a379da6</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Skirt_MeshFrilled_LerW.xml</path>
+    <guid>9f50d332-8006-466f-bb47-6c82d2a2d1fa</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_SkirtMicro_Mesh.xml</path>
+    <guid>0352c007-a4f6-4489-ada5-928cb06177cc</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_SkirtMicro_MeshFrilled.xml</path>
+    <guid>44ec9023-da3b-4f03-88fb-e6c7a1e7b57a</guid>
+	</files>
+	
+<!--Leotards-->	
+
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Leotard.xml</path>
+    <guid>d1c13065-deb2-47b9-86e2-a839bc1a71d5</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Leotard_MC.xml</path>
+    <guid>1e14169a-cde4-4385-89eb-e268154801ab</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Leotard_HC.xml</path>
+    <guid>fae3a0ac-623d-4a1c-9bc4-be9046a76bad</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_LeotardUB.xml</path>
+    <guid>f6e76595-025e-41d7-a919-28195a44737b</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_LeotardUB_MC.xml</path>
+    <guid>bf82f150-548a-4a3f-81c0-58230cea31ce</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_LeotardUB_HC.xml</path>
+    <guid>99180c36-e942-4536-bfca-4c6bf61ae370</guid>
+	</files>
+
+<!--Jackets-->	
+
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_LongestCoat.xml</path>
+    <guid>6c3781c6-758f-4f53-ab5a-366521a87c12</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_LongestCoat_O.xml</path>
+    <guid>41a4acd9-908b-4710-a219-9862cd8510e2</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_LongestCoat_Winter.xml</path>
+    <guid>05e598bf-55f7-4bf1-be36-40841327649b</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_LongestCoat_Winter_O.xml</path>
+    <guid>279c4a49-e4a7-4d59-8810-74c438ec57e0</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_LongerCoat.xml</path>
+    <guid>dcce861b-bc7e-4c87-aa4f-5e06841e8f6a</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_LongerCoat_O.xml</path>
+    <guid>6495f379-0898-4808-b764-59410f0bba4c</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_LongerCoat_Winter.xml</path>
+    <guid>2888fa04-37ea-4874-b8ff-5483055e0aaa</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_LongerCoat_Winter_O.xml</path>
+    <guid>8080f576-c148-4cbf-bdf2-2cc443508b30</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_LongCoat.xml</path>
+    <guid>9bed67d4-a52a-452d-8b65-bc428903b246</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_LongCoat_O.xml</path>
+    <guid>62a57dff-904a-452c-9a7c-52dd19941352</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Jacket_Cropped.xml</path>
+    <guid>ead11d60-961c-41f0-8b10-45204388b66f</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Jacket.xml</path>
+    <guid>710cf65a-7e07-4dc7-9398-d34ab5a4417e</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Jacket_O.xml</path>
+    <guid>1f5877a7-01e3-4122-9134-37055b449777</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Jacket_MidLength.xml</path>
+    <guid>aced7434-1d3d-4c9a-9839-fd5e47e2e4b1</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Jacket_MidLength_O.xml</path>
+    <guid>ee5d4b95-ac22-46eb-bd65-839509a60a09</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_TrenchCoat_Long_O.xml</path>
+    <guid>d5817db0-728d-449f-aa02-0207794f08ca</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_TrenchCoat_Short_O.xml</path>
+    <guid>8120c6dc-cb15-40a0-9ec1-78efd52e6286</guid>
+	</files>
+
+<!--Misc-->	
+	
+	<files>
+    <path>media/clothing/clothingItems/Belt_Generic.xml</path>
+    <guid>0b21f998-f59a-48b5-9198-c6eda5eeced6</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Belt_Cowboy.xml</path>
+    <guid>b9334b4e-126d-4963-bf6f-20888d7982e8</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Belt_Gemstone.xml</path>
+    <guid>f1e9487c-55b8-454b-aa84-70c91f11b612</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Belt_Gold.xml</path>
+    <guid>18581bed-7342-422d-b700-2026f67c514d</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Belt_Silver.xml</path>
+    <guid>c9a397f3-3934-4ff1-b91e-354e7b2b08a1</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/BeltLarge_Skulls.xml</path>
+    <guid>4bc7ef49-81e9-416c-a618-1498505e0746</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/BeltLarge.xml</path>
+    <guid>f1e9c830-8112-4d0c-b3cb-27ab4740d649</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/BeltLarge_Gemstone.xml</path>
+    <guid>9c276c74-1fd6-40e9-abf2-0e1d545debe6</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/BeltLarge_Star.xml</path>
+    <guid>c534d063-f398-4239-9438-6a47372d0c38</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/BeltLarge_Letters.xml</path>
+    <guid>ba67e289-8287-447c-aa62-8e083e9bb66d</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/BeltLargeFur.xml</path>
+    <guid>77a4e9e1-ca88-4932-8238-920a0a3a8d2d</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Armour_PouchStrap.xml</path>
+    <guid>56719719-aaa9-45a1-86fd-264e3173976e</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Armour_Faulds.xml</path>
+    <guid>5c025212-8f44-4f83-8f13-c42531144772</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Armour_Faulds_Short.xml</path>
+    <guid>6477d876-a56b-4364-a3b4-49c86d7cc618</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Armour_Armguards_R.xml</path>
+    <guid>dcc5bfd2-f8bd-4dfd-8d6f-80e9338de853</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Armour_Armguards_L.xml</path>
+    <guid>c822d2be-9b6d-4e99-a5e2-fb4c8a1d9900</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Armour_ArmguardsLong_R.xml</path>
+    <guid>238c0059-0024-4a48-8715-1d66be734b0a</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Armour_ArmguardsLong_L.xml</path>
+    <guid>399aa384-9746-4045-97be-084ce2270faf</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Hat_Cowboy_Flat.xml</path>
+    <guid>6ac05b0c-91f3-4e2b-ad61-1e42695b1686</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_WaistCoat.xml</path>
+    <guid>8437cf79-4d2a-45b2-a8af-119c00b50c2e</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_WaistCoat_O.xml</path>
+    <guid>52b699a1-755a-4d0b-a6e4-a4bca5febff2</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_SleevesLeg_L.xml</path>
+    <guid>c0188f0d-ea50-43c6-a539-33aa703004ef</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_SleevesLeg_R.xml</path>
+    <guid>741d7e15-4e95-4274-9ed8-b4128d5d6701</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Sleeves_L.xml</path>
+    <guid>e112fb5c-a62a-407b-b537-fd26a0521a8a</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TannedLeather_Sleeves_R.xml</path>
+    <guid>fb53771e-04bf-47c4-bdb5-fc4a6405871d</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Armour_ShoulderPad_R.xml</path>
+    <guid>dcdea57b-0eb2-407c-97a9-8376d3c7db6b</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Armour_ShoulderPad_L.xml</path>
+    <guid>00edbfa6-4743-4f36-810a-69d849054174</guid>
+	</files>
+	
+
+
+
+	
+<!--Furs-->
+
+	<files>
+    <path>media/clothing/clothingItems/FurCoat_Fur.xml</path>
+    <guid>0fc10b63-7a12-40ca-9515-6ac765c35b93</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FurJacketShort.xml</path>
+    <guid>13d64f76-94a0-4e0b-90e6-75fd64fd731d</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FurJacketShort_O.xml</path>
+    <guid>911bbb69-f6e3-46d6-9497-927a7c9e5f80</guid>
+	</files>
+
+
+
+
+	
+<!--Shoes-->
+<!--FS3 Heels Reworks-->	
+
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_HF_New.xml</path>
+    <guid>9bb78f79-e2e2-4467-9c1a-3362b882435d</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_HF_New_Longest.xml</path>
+    <guid>b24d2aba-d06c-4170-85e9-efb96cd9b1e9</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_HF_New_Longer.xml</path>
+    <guid>3c4b82f3-a13f-4aab-81b2-a71a2aad989a</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_HF_New_Long.xml</path>
+    <guid>28a07d0e-0aa0-4cb1-ac31-5195061764b4</guid>
+	</files>
+
+<!--Western-->	
+
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_Leather.xml</path>
+    <guid>132bd25d-6060-4d36-a7ff-6119875f0a56</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_Leather_Short.xml</path>
+    <guid>cb5f35aa-a1ea-46d3-bac4-371cdd9f1030</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_Cowboy.xml</path>
+    <guid>9f0c6f6c-5766-4e82-81ac-3f2bea7903f3</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_Cowboy_Plain.xml</path>
+    <guid>2d3bcd78-73c2-4cba-a619-9cc41bf9444d</guid>
+	</files>
+
+<!--Casual-->	
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_HighHeels.xml</path>
+    <guid>23ab0bf6-9b32-4e6e-809d-7782f2fd12f8</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_Common.xml</path>
+    <guid>7818cd27-72ff-4e71-95a2-70d3d4cd2536</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Shoe_Common.xml</path>
+    <guid>1225017d-c696-4c76-ae0a-a7e85fbfea0b</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Shoe_Trainers.xml</path>
+    <guid>6abee5b2-f3de-4931-93ae-eb90b50dc64e</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Shoe_TrainersBlack.xml</path>
+    <guid>d8292502-acb7-4269-966a-c6609a9db68d</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Shoe_TrainersWhite.xml</path>
+    <guid>09b3d4c4-7ebb-4d03-abf4-fe10788931b6</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Shoe_Women.xml</path>
+    <guid>2c009a9a-6272-462d-be2b-9b07a83db660</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Shoe_Women_Platform.xml</path>
+    <guid>a268f4a3-2dad-42d9-ada1-4132f33a6004</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Shoe_Women_2.xml</path>
+    <guid>bc2db9c8-04e6-410c-90c1-78ad80820f64</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Shoe_Moccasin.xml</path>
+    <guid>ce75d11b-49c1-4db2-a500-a82f42f2731b</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Shoe_Boots_Ankle.xml</path>
+    <guid>cffb73e7-bd8c-4352-b7af-f7cf1f23ec60</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Shoe_Boots_Ankle_Steel.xml</path>
+    <guid>b42f8209-c000-4d2a-b7f6-e38ced16033b</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Shoe_Boots_Ankle_Platform.xml</path>
+    <guid>26150dc3-e1d9-49a6-ba7d-004a8c472227</guid>
+	</files>
+
+<!--UGG-->	
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_UGG.xml</path>
+    <guid>b9a3c342-bd94-47ad-848f-70d0eec2d019</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_UGG_DwarfHeel.xml</path>
+    <guid>967cf439-c3db-4aac-a2dc-6d8be37aa446</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_UGG_Heel.xml</path>
+    <guid>7e302f0a-1932-43f9-9b41-840e5836a47a</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_UGG_Thighhigh.xml</path>
+    <guid>5f0c4562-8296-438b-b933-df1d6741517d</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_UGG_ThighhighHeel.xml</path>
+    <guid>82cc7c26-27b5-4fbf-87a1-07f87b16556b</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_UGG_Kneehigh.xml</path>
+    <guid>8cc2bbe6-03ec-4c8c-ae63-db3f2ab1f109</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_UGG_KneehighHeel.xml</path>
+    <guid>a218ac71-9c22-4489-b2fc-ff686f99c9b2</guid>
+	</files>
+
+<!--Platform Goth/Punk-->	
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_Platform_Thighhigh.xml</path>
+    <guid>ca2188ca-729f-4ce8-a115-7fa4529fb910</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_Platform_Kneehigher.xml</path>
+    <guid>eb738e9b-43b4-4133-bfff-526eb716bd49</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_Platform_Kneehigh.xml</path>
+    <guid>58d9ad7e-e8cc-4c8b-9a4d-197813f1e148</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_Platform_Ankle.xml</path>
+    <guid>f8b84cf9-a0ba-49e7-8f87-78c0d3bd7761</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_Platform_AnkleLow.xml</path>
+    <guid>9fcc376d-4eb4-4509-90b2-49090b77f2de</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_PlatformPunk_Thighhigh.xml</path>
+    <guid>713bb014-0fee-449e-9286-1e6ab3d24e15</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_PlatformPunk_Kneehigher.xml</path>
+    <guid>63490499-cb7b-4b7c-89b5-dc76f604df47</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_PlatformPunk_Kneehigh.xml</path>
+    <guid>9933ad81-4891-4af5-bc00-027ef80a7df8</guid>
+	</files>
+
+<!--Leather-->	
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_BootsRE_Leather_DwarfHeel.xml</path>
+    <guid>043f86a6-9ac7-48f7-811d-36825a582743</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_BootsRE_Leather_Heel.xml</path>
+    <guid>7e94ffec-0934-4d9b-8ccb-5abe9609bbe1</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_BootsRE_Leather_ThighhighHeel.xml</path>
+    <guid>15debb48-1c17-49ef-975e-018ec3ed2c11</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_BootsRE_Leather_KneehighHeel.xml</path>
+    <guid>5b1223e6-0255-4095-b752-0ecad6fce790</guid>
+	</files>
+	
+<!--Military-->	
+
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_Military_Thighhigh.xml</path>
+    <guid>10d7ddfa-f133-43ff-a3bf-c8beb3454673</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_Military_Kneehigher.xml</path>
+    <guid>b0d5f74d-0907-40bc-95d5-11b80da6cacc</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_Military_Kneehigh.xml</path>
+    <guid>33a65ccc-c405-4a2c-82f3-099ba59d7832</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_Military_Ankle.xml</path>
+    <guid>9121ec65-44c4-4354-94e7-9c97c51dfb1c</guid>
+	</files>
+	
+<!--Pointy-->	
+
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_Pointy_Kneehigh.xml</path>
+    <guid>ab9fb434-4d10-4d47-8522-8c5abf3c4df5</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_Pointy_Ankle.xml</path>
+    <guid>1c1e97e6-6997-4c75-9714-1a414e76ee0b</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_Pointy_AnkleLow.xml</path>
+    <guid>b602ff83-1667-40f8-a312-2fba91086895</guid>
+	</files>
+
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_PointySkull_Kneehigh.xml</path>
+    <guid>f98c794c-5bdb-4ead-b434-d72bb4e081fb</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Boots_PointySkull_AnkleLow.xml</path>
+    <guid>45975108-4e81-468d-872a-0ac3fd030718</guid>
+	</files>		
+	
+	
+	
+	
+<!--Vanilla-->	
+
+	<files>
+		<path>media/clothing/clothingItems/Vest_HolsteinHide.xml</path>
+		<guid>06b4bbb6-f98a-4479-9591-3f03034b602e</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Vest_DefaultTEXTURE.xml</path>
+		<guid>903c06ea-78e7-4f42-a3da-768be61f216f</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Vest_AngusHide.xml</path>
+		<guid>cdbe1384-bec2-419e-b632-c12d1c3424bf</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Vest_SimmentalHide.xml</path>
+		<guid>068efe76-cd55-4258-81ef-8d1ada21d753</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/Hat_Cowboy_Angus.xml</path>
+		<guid>3c4a2a88-0208-4fc1-88ad-e6037c96d5df</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_Cowboy_Black.xml</path>
+		<guid>23301725-e006-4c21-9758-9795e4d354dc</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_Cowboy_CowHide.xml</path>
+		<guid>2d56443f-18a5-4cfa-9c07-c8c14c18c605</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_Cowboy_Holstein.xml</path>
+		<guid>fd206954-4a72-42e6-aeb6-5540b3622903</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_BaseballCapBlue.xml</path>
+		<guid>3db63ccb-9014-45c2-bb9c-287ca24e335b</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_BaseballCapBlue_Reverse.xml</path>
+		<guid>17b078c1-dc3e-4b8f-a3e1-191c9d4efaa8</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_BaseballCapGreen.xml</path>
+		<guid>fce4e0fd-047d-483a-ad43-873e4440c3aa</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_BaseballCapGreen_Reverse.xml</path>
+		<guid>f1766ddb-1fdc-4a4c-b26b-5a5aacb209a2</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_BaseballCapKY.xml</path>
+		<guid>b78f9552-1d93-46b7-a42c-6f554ce43e29</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_BaseballCapKY_Red.xml</path>
+		<guid>ee133478-bfc7-4517-af9b-c9da2148d9fd</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_BaseballCapKY_Red_Reverse.xml</path>
+		<guid>fd46d30d-ab35-4c80-97ff-fdfd0630674c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_BaseballCapKY_Reverse.xml</path>
+		<guid>7f5d4c0c-d536-4279-9495-68216def74c2</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_BaseballCapRed.xml</path>
+		<guid>3dff8ffe-20d7-4b9b-80b4-9cfb550c67b6</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_BaseballCapRed_Reverse.xml</path>
+		<guid>92ff40a4-6756-40fc-a453-fb7764df0e23</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Socks_Ankle.xml</path>
+		<guid>ebea15c8-99b3-4e20-905b-d22cf82b8217</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Socks_Ankle_Black.xml</path>
+		<guid>a1209137-d0a3-4c77-ae25-b0e5f24b7cf8</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Socks_Long.xml</path>
+		<guid>fb86bd5f-1931-4b24-a5d7-bd6a43769991</guid>
+	</files>
+		<!-- Tights & Stockings-->
+	<files>
+		<path>media/clothing/clothingItems/TightsBlack.xml</path>
+		<guid>6d483049-2392-47e1-a6f8-c10ef5c1b040</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/TightsBlackFishnet.xml</path>
+		<guid>e30e2622-0034-4895-8912-ed53dfafd3d0</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/TightsBlackSemiTrans.xml</path>
+		<guid>88225fb4-a18f-46eb-96d1-2ce415f52bf0</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/TightsBlackTrans.xml</path>
+		<guid>9e71f7e6-a492-4be4-a6a4-95bca7cbdfc3</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/StockingsBlack.xml</path>
+		<guid>00ae3ec3-4b6b-484c-9edd-501339307b45</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/StockingsBlackSemiTrans.xml</path>
+		<guid>6ba314a1-43c6-4240-b313-0ba75fb2ca6c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/StockingsBlackTrans.xml</path>
+		<guid>eedee622-9309-4948-891b-a69ecd106936</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/StockingsWhite.xml</path>
+		<guid>af3f4a67-9fd8-47aa-8891-2f0c974a4e38</guid>
+	</files>	
+	<!-- Bandana-->	
+	<files>
+		<path>media/clothing/clothingItems/Hat_RagBandanaMask.xml</path>
+		<guid>b8e5e6ed-8704-4542-94dd-acf825b0d18c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_BandanaMask.xml</path>
+		<guid>e9e67eaf-4871-4d1d-887e-01f2ef884dee</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_BandanaMaskTINT.xml</path>
+		<guid>7ac27303-88f1-417d-9914-dbc66cbdc84c</guid>
+	</files>	
+	<!-- Wraps-->		
+	<files>
+		<path>media/clothing/clothingItems/Gloves_BurlapWrap.xml</path>
+		<guid>d58966e7-ef3e-4f6c-a802-86c9431afbcf</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Gloves_DenimWrap.xml</path>
+		<guid>e794d000-2d1b-40c7-9d87-e1bcd2d85b04</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Gloves_RagWrap.xml</path>
+		<guid>47f7213b-0135-4cd0-95a7-bb95ba1f5995</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Gloves_LeatherWrap.xml</path>
+		<guid>c40b19a9-0e01-45a2-9a5f-f165d97265e6</guid>
+	</files>	
+	<!-- Gloves-->			
+	<files>
+		<path>media/clothing/clothingItems/Gloves_FingerlessGloves.xml</path>
+		<guid>cf0b766a-c273-49b0-bee4-5a0bb6496491</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Gloves_FingerlessLeatherGloves.xml</path>
+		<guid>5b375379-8f0f-46cc-93fb-4909193bdcbd</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Gloves_FingerlessLeatherGloves_Black.xml</path>
+		<guid>baec3522-a05d-4b62-ac11-24898d50f5f5</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Gloves_FingerlessLeatherGloves_Brown.xml</path>
+		<guid>baec3522-a05d-4b62-ac11-24898d50f500</guid>
+	</files>	
+	<!-- Skirts-->			
+	<files>
+		<path>media/clothing/clothingItems/Skirt_Knees_Crafted_Cotton.xml</path>
+		<guid>a408fd99-888c-46ca-803c-86c5f487ba5b</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Skirt_Knees_Crafted_Denim.xml</path>
+		<guid>8c917c42-8623-4ab5-a2b2-d8c5f4c9695b</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Skirt_Knees_Crafted_DenimBlack.xml</path>
+		<guid>c76a23b5-c5c1-48fd-9a42-eb39f905d01d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Skirt_Knees_Crafted_DenimLight.xml</path>
+		<guid>e7add570-8e2a-42e8-81ee-4ba3a65adcee</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Skirt_Long_Crafted_Cotton.xml</path>
+		<guid>addbd7d9-1e9c-462f-81b0-067ab056bcd3</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Skirt_Long_Crafted_Denim.xml</path>
+		<guid>5a124f24-49a7-4a4e-873e-440ea0eeb97d</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Skirt_Long_Crafted_DenimBlack.xml</path>
+		<guid>376fd5b3-9b68-4d4d-a6bc-9747732a152a</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Skirt_Long_Crafted_DenimLight.xml</path>
+		<guid>5e2a9fa7-11b8-4392-8dd1-439c73a7869e</guid>
+	</files>	
+	<!-- Armour Pieces-->				
+	<files>
+		<path>media/clothing/clothingItems/Chainmail_SleeveFull_L.xml</path>
+		<guid>8a2480b6-df5e-4b8d-9a12-14058ed1dd26</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Chainmail_SleeveFull_R.xml</path>
+		<guid>b3858baa-bd32-4807-87c6-2c40a1bd82f6</guid>
+	</files>	
+	<files>
+		<path>media/clothing/clothingItems/ShinKneeGuardSpike_L_Metal.xml</path>
+		<guid>be0d059f-53af-47f6-b026-c545ce4f5276</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/ShinKneeGuardSpike_R_Metal.xml</path>
+		<guid>641f0bf3-2544-4f34-9938-c20e6d9a347a</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/ShinKneeGuard_L_Metal.xml</path>
+		<guid>72c4157b-13c6-4844-b381-41bcbcf07fc1</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/ShinKneeGuard_R_Metal.xml</path>
+		<guid>0541dc0d-8742-4197-944f-2337b9ad8bca</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Shoulderpad_Articulated_L_Metal.xml</path>
+		<guid>5d19cb74-a014-46b6-84ee-9edbf29fb21b</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Shoulderpad_Articulated_R_Metal.xml</path>
+		<guid>366e6d83-5ecc-402e-b950-f24c7aef0eae</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Shoulderpad_Metal_L.xml</path>
+		<guid>13998b5c-72af-44de-ab5f-163788bcf7b2</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Shoulderpad_Metal_R.xml</path>
+		<guid>e65dc2e2-b1fd-4587-9022-29d4901d1e4f</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Glasses_Aviators.xml</path>
+		<guid>6b01e5b3-860d-4361-b43f-7b8ea152f1bf</guid>
+	</files>
+	
+	
+
+</fileGuidTable>
+

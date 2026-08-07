@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>f192d061-8dbf-4139-9c2d-3f485eb46507</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Denim\Tops\Denim_Top_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Tops\Denim_Top_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Tops\Denim_Top_5A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Tops\Denim_Top_5B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Tops\Denim_Top_6</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Tops\Denim_Top_6A</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Denim\Tops\Denim_Top_A_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Tops\Denim_Top_A_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Tops\Denim_Top_A_5A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Tops\Denim_Top_A_5B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Tops\Denim_Top_A_6</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Tops\Denim_Top_A_6A</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Denim\Tops\DenimBlue_Top_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Tops\DenimBlue_Top_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Tops\DenimBlue_Top_5A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Tops\DenimBlue_Top_5B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Tops\DenimBlue_Top_6</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Tops\DenimBlue_Top_6A</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Denim\Tops\DenimBlue_Top_A_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Tops\DenimBlue_Top_A_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Tops\DenimBlue_Top_A_5A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Tops\DenimBlue_Top_A_5B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Tops\DenimBlue_Top_A_6</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Tops\DenimBlue_Top_A_6A</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Denim\Tops\DenimBlueDarker_Top_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Tops\DenimBlueDarker_Top_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Tops\DenimBlueDarker_Top_5A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Tops\DenimBlueDarker_Top_5B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Tops\DenimBlueDarker_Top_6</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Tops\DenimBlueDarker_Top_6A</m_BaseTextures>
+</clothingItem>

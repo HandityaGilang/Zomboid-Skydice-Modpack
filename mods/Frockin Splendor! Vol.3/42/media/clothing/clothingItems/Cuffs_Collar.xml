@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes\KIU_Collar_Bob.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\KIU_Collar.fbx</m_FemaleModel>
+	<m_GUID>99c01c43-aff9-4105-8cbf-eb8b7b2ebe32</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\misc\KIU_Collar</textureChoices>
+	<textureChoices>clothes\misc\KIU_Collar_2</textureChoices>
+</clothingItem>

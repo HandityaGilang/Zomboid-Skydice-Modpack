@@ -1,0 +1,10 @@
+IGUI_FR = {
+	IGUI_BenchPress=			"D?velopp? couch?",
+	IGUI_BenchPress_Tooltip=	"S'entra?ner sur un d?velopp? couch?",
+	IGUI_Treadmill=				"Tapis de course",
+	IGUI_Treadmill_Tooltip=		"Courir sur un tapis de course",
+	IGUI_need_barbell=			"J'ai besoin d'une barre pour faire cet exercice",
+	IGUI_low_endurance=			"Je suis trop ?puis?",
+	IGUI_pain=					"J'ai trop mal",
+	IGUI_heavy=					"Trop lourd pour ?tre utilis? en ce moment",
+}

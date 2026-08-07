@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Misc\Tie_BigNob</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Misc\Tie_BigNob</m_FemaleModel>
+	<m_GUID>d8c7222e-30e8-49b2-919b-7b4fa47d277c</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\Misc\TieBolo\Bolo_Tie_Ring_1</textureChoices>
+	<textureChoices>clothes\Misc\TieBolo\Bolo_Tie_Ring_2</textureChoices>
+	<textureChoices>clothes\Misc\TieBolo\Bolo_Tie_Ring_3</textureChoices>
+	<textureChoices>clothes\Misc\TieBolo\Bolo_Tie_Ring_4</textureChoices>
+</clothingItem>

@@ -1,0 +1,16 @@
+{
+    "Sandbox_DGMC_Cleaning_Wipes": "toallitas de limpieza",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body": "Puede limpiar el cuerpo",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body_tooltip": "Si puedes limpiar tu cuerpo con toallitas limpiadoras.",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing": "Puede limpiar la ropa",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing_tooltip": "Si puedes limpiar la ropa con toallitas limpiadoras.",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons": "Puede limpiar armas cuerpo a cuerpo",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons_tooltip": "Si puedes limpiar armas cuerpo a cuerpo con toallitas limpiadoras.",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup": "Elimina el maquillaje",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup_tooltip": "Ya sea para quitar el maquillaje al limpiar tu cuerpo.",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult": "Multiplicador de duración",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult_tooltip": "Cuánto tiempo lleva limpiar con toallitas, en comparación con lavar solo con agua.  Baje para más rápido, más alto para más lento.",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness": "Humedad de la ropa",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness_tooltip": "Al limpiar la ropa, su nivel de humedad se establecerá en un máximo de este valor o de su nivel actual.  Por ejemplo, con el valor predeterminado, la ropa con 0 humedad se establecería en 25, mientras que la ropa que ya tiene 50 humedad se mantendría en 50.",
+    "Sandbox_DGMC_Cleaning_Wipes_Debug_Logging": "Registro de depuración"
+}

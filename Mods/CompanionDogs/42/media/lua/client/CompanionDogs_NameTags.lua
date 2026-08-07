@@ -94,6 +94,11 @@ function ISCDNameTag:prerender()
                 -- Caca ligada mas em cooldown depois de desistir de uma presa: sem isso o cao parece so estar ignorando o modo.
                 lines[#lines + 1] = { text = getText("IGUI_PD_HuntCooldown"), r = 0.60, g = 0.60, b = 0.62 }
             end
+            -- Cuidando do gado: modo persistente atribuido a um curral. Le d.careMode direto (ja transmitido na borda
+            -- pelo setcaremode), entao nao custa nenhum trafego novo por passada.
+            if CD.data(dog).careMode then
+                lines[#lines + 1] = { text = getText("IGUI_PD_CareTag"), r = 0.55, g = 0.82, b = 0.70 }
+            end
         end
         -- Gravida: sinalizacao persistente sobre a cabeca (sempre, independente do toggle de status texts).
         if CD.isPregnant(dog) then

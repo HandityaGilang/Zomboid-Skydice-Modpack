@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>26128fcb-136c-4200-a218-2b13112f4b3f</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Leather\Leather_SupGLov</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_SupGLov_Alt</m_BaseTextures>
+</clothingItem>

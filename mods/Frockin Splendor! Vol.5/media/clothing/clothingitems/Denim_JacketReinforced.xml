@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Reworks\Bob_JacketRE_C</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Reworks\Kate_JacketRE_C</m_FemaleModel>
+	<m_GUID>d56fe0fa-88a0-43b9-a62c-3584858ebdad</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+
+	<m_Masks>13</m_Masks>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_MasksFolder>media/textures/Clothes/Jacket/Masks_Leather</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Jacket/Masks</m_UnderlayMasksFolder>
+	
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Reinforced\Denim_Jacket_A</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Reinforced\Denim_Jacket_B</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Reinforced\Denim_Jacket_A1</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Reinforced\Denim_Jacket_B1</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Reinforced\Denim_Jacket_A2</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Reinforced\Denim_Jacket_B2</textureChoices>
+	
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Reinforced\DenimBlue_Jacket_A</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Reinforced\DenimBlue_Jacket_B</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Reinforced\DenimBlue_Jacket_A1</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Reinforced\DenimBlue_Jacket_B1</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Reinforced\DenimBlue_Jacket_A2</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Reinforced\DenimBlue_Jacket_B2</textureChoices>
+	
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Reinforced\DenimBlack_Jacket_A</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Reinforced\DenimBlack_Jacket_B</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Reinforced\DenimBlack_Jacket_A1</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Reinforced\DenimBlack_Jacket_B1</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Reinforced\DenimBlack_Jacket_A2</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Reinforced\DenimBlack_Jacket_B2</textureChoices>
+
+</clothingItem>

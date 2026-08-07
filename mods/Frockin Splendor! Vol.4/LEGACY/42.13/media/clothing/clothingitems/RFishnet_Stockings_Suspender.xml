@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>8aa9fc18-8670-44c2-909b-6698377bcce8</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_FishnetR\Stockings\Fishnet_Stockings_Suspender_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_FishnetR\Stockings\Fishnet_Stockings_Suspender_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_FishnetR\Stockings\Fishnet_Stockings_Suspender_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_FishnetR\Stockings\Fishnet_Stockings_Suspender_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_FishnetR\Stockings\Fishnet_Stockings_Suspender_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_FishnetR\Stockings\Fishnet_Stockings_Suspender_6</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_FishnetR\Stockings\Fishnet_Stockings_Suspender_7</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_FishnetR\Stockings\Fishnet_Stockings_Suspender_8</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_FishnetR\Stockings\Fishnet_Stockings_Suspender_9</m_BaseTextures>
+	
+</clothingItem>

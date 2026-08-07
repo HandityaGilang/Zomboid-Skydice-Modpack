@@ -10,6 +10,8 @@
     "Sandbox_CompanionDogs_DogDamageMultiplier_tooltip": "Escala quanto dano os cães companheiros causam aos zumbis, por cima da força da raça, do nível de habilidade e do gene de Força. 1.0 é o padrão calibrado; maior bate mais forte, 0 deixa a mordida inofensiva. O viralata caramelo, fraco, ainda não finaliza um zumbi sozinho por mais alto que esteja isto: é de propósito.",
     "Sandbox_CompanionDogs_UpkeepEnabled": "Necessidades e cuidado",
     "Sandbox_CompanionDogs_UpkeepEnabled_tooltip": "Companheiros precisam de cuidado: alimente-os para controlar fome, lealdade e stress. Um cão negligenciado desobedece.",
+    "Sandbox_CompanionDogs_NeedsRateMultiplier": "Ritmo de fome e sede",
+    "Sandbox_CompanionDogs_NeedsRateMultiplier_tooltip": "Ajusta a velocidade com que o cão companheiro sente fome e sede. 1.0 é o padrão balanceado: um cão bem alimentado vai de saciado a faminto em cerca de 3 dias, e precisa de água mais ou menos o dobro de vezes. Valores maiores exigem mais cuidado, menores exigem menos. 0 congela fome e sede de vez, e o cão nunca mais precisa comer nem beber - a lealdade continua caindo, então ele ainda vai querer a sua atenção. Para desligar o sistema de cuidados inteiro, use 'Necessidades e cuidado'.",
     "Sandbox_CompanionDogs_LoyaltyDecayPerDay": "Perda de lealdade por dia",
     "Sandbox_CompanionDogs_LoyaltyDecayPerDay_tooltip": "Pontos de lealdade (0-100) que um cão bem cuidado perde por dia de jogo. A perda é mais rápida com fome ou sede.",
     "Sandbox_CompanionDogs_SentinelEnabled": "Sentinela: alerta de zumbis",
@@ -57,5 +59,7 @@
     "Sandbox_CompanionDogs_MaturityDays": "Tempo de maturação do filhote (dias)",
     "Sandbox_CompanionDogs_MaturityDays_tooltip": "Quantos dias-de-jogo um filhote leva pra virar adulto, mantendo vínculo, genes e skills. Filhotes só envelhecem carregados perto de um jogador; 'Pausar crescimento' num filhote ignora isto.",
     "Sandbox_CompanionDogs_BreedChancePerDay": "Chance de cruzamento por dia",
-    "Sandbox_CompanionDogs_BreedChancePerDay_tooltip": "Chance em % por dia-de-jogo de um macho e uma fêmea adultos do mesmo dono, próximos, conceberem sozinhos (rolada por hora). Mesmas condições do cruzamento manual: alimentados, leais, saudáveis, fora do cooldown, slot livre, cruzamento não bloqueado em nenhum dos dois. Só perto de você. 0 = desligado."
+    "Sandbox_CompanionDogs_BreedChancePerDay_tooltip": "Chance em % por dia-de-jogo de um macho e uma fêmea adultos do mesmo dono, próximos, conceberem sozinhos (rolada por hora). Mesmas condições do cruzamento manual: alimentados, leais, saudáveis, fora do cooldown, slot livre, cruzamento não bloqueado em nenhum dos dois. Só perto de você. 0 = desligado.",
+    "Sandbox_CompanionDogs_FarmCareEnabled": "Cuidados de fazenda (pastoreio)",
+    "Sandbox_CompanionDogs_FarmCareEnabled_tooltip": "Chave mestra do modo de cuidados de fazenda. Quando ligado, você pode atribuir um cão para cuidar de uma zona de animais designada: ele fica no curral, acalma o rebanho (reduzindo o estresse que derruba leite e lã) e despacha em silêncio os zumbis próximos, trabalhando sozinho mesmo com você longe."
 }

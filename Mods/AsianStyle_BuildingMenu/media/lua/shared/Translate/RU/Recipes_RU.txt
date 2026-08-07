@@ -1,5 +1,0 @@
-Recipes_RU = {
-
-	Recipe_Craft_Bonsai_Tree = "Посадить бонсай",
-		
-}

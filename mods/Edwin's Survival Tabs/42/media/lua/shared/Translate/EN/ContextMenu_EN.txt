@@ -1,0 +1,3 @@
+ContextMenu_EN = {
+	ContextMenu_SKAL_UseSmokeless = "Eat a Survival Tab",
+}

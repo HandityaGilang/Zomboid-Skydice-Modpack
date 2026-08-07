@@ -14,7 +14,9 @@ UI_RU = {
 
     /*ModOption*/
     UI_CleanUI_ContainerBackgroundOpacity = "Непрозрачность боковой панели",
+    UI_CleanUI_ContainerBackgroundOpacityPercent = "Непрозрачность боковой панели (%%)",
     UI_CleanUI_BackgroundOpacity = "Непрозрачность фона",
+    UI_CleanUI_BackgroundOpacityPercent = "Непрозрачность фона (%%)",
     UI_CleanUI_PlayerContainerPosition = "Панель инвентаря (требуется перезапуск)",
     UI_CleanUI_LootContainerPosition = "Панель лута (требуется перезапуск)",
     UI_CleanUI_ContainerPositionLeft = "Слева",
@@ -44,5 +46,11 @@ UI_RU = {
     UI_CleanUI_TransferMethodNearbyTooltip = "Метод: ближайшие контейнеры <LINE> Нажмите, чтобы изменить",
     UI_CleanUI_TransferByNameTooltip = "Перенести по названиям предметов",
     UI_CleanUI_TransferByCategoryTooltip = "Перенести по категориям",
+    UI_CleanUI_ShowWeightColumn = "Показывать столбец веса",
+    UI_CleanUI_ShowWeightColumn_Tooltip = "Показывает отдельный столбец веса для строк предметов и стопок в панелях инвентаря и добычи CleanUI.",
+    UI_CleanUI_ShowColumnHeaders = "Показывать заголовки столбцов",
+    UI_CleanUI_ShowColumnHeaders_Tooltip = "Показывает кликабельную строку заголовков столбцов над списками предметов в панелях инвентаря и добычи.",
     UI_CleanUI_MoveToFloorTooltip = "Переместить на пол",
+    UI_CleanUI_Column_Rarity = "Редкость",
+    UI_CleanUI_Column_Weight = "Вес",
 }

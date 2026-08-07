@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>466276e0-0e50-40b4-acf7-40530c6b35d3</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_0</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_0A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_0B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_6</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_7</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_8</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_9</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_10</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_11</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_12A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_12</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_13</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_14A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_15A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_17</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_18</m_BaseTextures>
+</clothingItem>

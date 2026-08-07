@@ -1,0 +1,61 @@
+VERSION = 1,
+
+option DGMC_Cleaning_Wipes.Clean_Body
+{
+	type = boolean,
+	default = true,
+	page = DGMC_Cleaning_Wipes,
+	translation = DGMC_Cleaning_Wipes_Clean_Body,
+}
+
+option DGMC_Cleaning_Wipes.Clean_Clothing
+{
+	type = boolean,
+	default = true,
+	page = DGMC_Cleaning_Wipes,
+	translation = DGMC_Cleaning_Wipes_Clean_Clothing,
+}
+
+option DGMC_Cleaning_Wipes.Clean_Weapons
+{
+	type = boolean,
+	default = true,
+	page = DGMC_Cleaning_Wipes,
+	translation = DGMC_Cleaning_Wipes_Clean_Weapons,
+}
+
+option DGMC_Cleaning_Wipes.Remove_Makeup
+{
+	type = boolean,
+	default = true,
+	page = DGMC_Cleaning_Wipes,
+	translation = DGMC_Cleaning_Wipes_Remove_Makeup,
+}
+
+option DGMC_Cleaning_Wipes.Speed_Mult
+{
+	type = double,
+	min = 0.0,
+	max = 10.0,
+	default = 1.0,
+	page = DGMC_Cleaning_Wipes,
+	translation = DGMC_Cleaning_Wipes_Speed_Mult,
+}
+
+option DGMC_Cleaning_Wipes.Wetness
+{
+	type = integer,
+	min = 0,
+	max = 100,
+	default = 25,
+	page = DGMC_Cleaning_Wipes,
+	translation = DGMC_Cleaning_Wipes_Wetness,
+}
+
+option DGMC_Cleaning_Wipes.Debug_Logging
+{
+	type = boolean,
+	default = false,
+	page = DGMC_Cleaning_Wipes,
+	translation = DGMC_Cleaning_Wipes_Debug_Logging,
+}

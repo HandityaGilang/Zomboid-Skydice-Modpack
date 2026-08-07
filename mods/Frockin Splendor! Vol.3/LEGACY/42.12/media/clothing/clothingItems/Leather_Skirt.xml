@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>eafb598d-4f21-4e11-aec0-43cc0ba54e1d</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Leather\Skirts\Leather_Skirt</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Skirts\Leather_Skirt_Brw</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Skirts\Leather_Skirt_Red</m_BaseTextures>
+
+</clothingItem>

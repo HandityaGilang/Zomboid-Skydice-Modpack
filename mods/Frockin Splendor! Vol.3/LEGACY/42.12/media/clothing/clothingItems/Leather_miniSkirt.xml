@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\miniSkirt_HW</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\miniSkirt_HW</m_FemaleModel>
+	<m_GUID>d3f1b73b-ac55-46d5-93e9-f8f1b7a89078</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>14</m_Masks>
+	<m_MasksFolder></m_MasksFolder>
+	<textureChoices>clothes\Material_Leather\PleatedSkirts\Leather_PleatedSkirt_2</textureChoices>
+	<textureChoices>clothes\Material_Leather\PleatedSkirts\Leather_PleatedSkirt_3</textureChoices>
+	<textureChoices>clothes\Material_Leather\PleatedSkirts\Leather_PleatedSkirt_4</textureChoices>
+</clothingItem>	

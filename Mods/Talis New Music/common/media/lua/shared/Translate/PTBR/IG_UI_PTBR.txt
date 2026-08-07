@@ -1,3 +1,0 @@
-IG_UI_PTBR = {
-    IGUI_NM_NewMusic = "Música nova",
-}

@@ -27,4 +27,5 @@ if AnimalPartsDefinitions and AnimalPartsDefinitions.animals then
     CompanionDogs.defineDogParts("gs", "germanshepherd")
     CompanionDogs.defineDogParts("retriever", "golden")
     CompanionDogs.defineDogParts("husky", "husky")
+    CompanionDogs.defineDogParts("bc", "bordercollie")
 end

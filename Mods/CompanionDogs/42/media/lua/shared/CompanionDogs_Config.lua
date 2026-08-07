@@ -3,11 +3,18 @@ local CD = CompanionDogs
 
 CD.MODULE = "CompanionDogs"
 
+-- CARIMBO DE BUILD. Existem varias copias do mod no disco (dev, Workshop\CompanionDogs, CompanionDogsStaging, os itens
+-- inscritos do Steam) e QUAL delas o jogo carrega nao e deterministico -- ja custou uma rodada inteira de diagnostico em
+-- cima de codigo que nao estava rodando. Esta linha no log diz exatamente qual copia subiu. Bumpar a cada sync de teste.
+CD.BUILD = "2026-07-21 01:40 lease-follow-orfao"
+print("[CompanionDogs] BUILD " .. CD.BUILD)
+
 CD.BREED = "brown"
 CD.TYPES = { dogpup = true, dogfemale = true, dogmale = true,
              gspup = true, gsfemale = true, gsmale = true,
              retrieverpup = true, retrieverfemale = true, retrievermale = true,
-             huskypup = true, huskyfemale = true, huskymale = true }
+             huskypup = true, huskyfemale = true, huskymale = true,
+             bcpup = true, bcfemale = true, bcmale = true }
 CD.SPAWN_TYPES = { "dogmale", "dogfemale" }
 
 CD.TRUST_MAX = 100
@@ -221,7 +228,7 @@ CD.AUTO_PROTECT_ACTIONS = {
 }
 CD.ZOMBIE_ATTACK_RADIUS = 8
 -- Em FOLLOW o cao so engaja zumbi AUTONOMAMENTE (auto-protect/dono lutando) dentro deste raio do DONO, nao dos 8
--- tiles ao redor do proprio cao: em follow ele protege uma bolha em torno de voce em vez de sair caÃ§ando longe
+-- tiles ao redor do proprio cao: em follow ele protege uma bolha em torno de voce em vez de sair caçando longe
 -- atras de cerca. O comando explicito Atacar mantem o alcance amplo (ATTACK_COMMAND_RADIUS).
 CD.FOLLOW_DEFEND_RADIUS = 5
 CD.FOLLOW_DEFEND_DROP = 8      -- solta o alvo engajado que sair desta bolha em torno do dono (histerese vs o raio de aquisicao)
@@ -242,7 +249,7 @@ CD.FOLLOW_STALL_EPS = 0.05       -- deslocamento (tiles por passada de follow) a
 CD.FOLLOW_STALL_REPATH_MS = 600  -- nao-avancando por este tempo no mesmo goal -> forca um re-path
 -- (RC5) O A* async roda em UMA thread worker compartilhada. Num servidor dedicado carregado a busca indoor/inalcancavel
 -- resolve mais devagar que o stall de 600ms acima, entao cancelar-e-reemitir (setData) ficava matando antes dela retornar
--- OU uma rota (por uma porta aberta) OU um Failed (para auto-abrir uma fechada) -> "cÃ£o nÃ£o entra em casa no MP, no SP
+-- OU uma rota (por uma porta aberta) OU um Failed (para auto-abrir uma fechada) -> "cão não entra em casa no MP, no SP
 -- entra". Quando o dono esta PARADO (mesmo tile de goal) deixa a busca em voo cozinhar por este tempo antes de cancelar.
 CD.FOLLOW_PATH_RESOLVE_MS = 1500
 -- Backstop nunca-encalhar: quando o cachorro esta provadamente preso abaixo de TELEPORT_DIST (a engine reportou o path Failed
@@ -329,13 +336,13 @@ CD.OWNER_STILL_MS = 450
 -- Apenas cadencia de GAIT (velocidade visual das pernas). NOTA: no regime do node-mover (bPathfind forcado) a engine seta
 -- a velocidade de TRAVEL = getDeferredMovement().getLength() = a magnitude do root-motion do Translation_Data no GLB, NAO
 -- esta var (animalSpeed nao tem efeito de travel ali). Entao a SPEED real de walk/run do cachorro e ajustada escalando o
--- root motion do GLB. Magnitudes atuais: walk +1.427, run +3.252 (o pass de "+30% speed" de 2026-06-14 = o anterior
--- validado walk +1.098 / run +2.50 escalado x1.3, via _scale_rootmotion.py lendo o GLB deployado com um
--- fator POSITIVO 1.3, preserva o sinal +Z/yaw 180; equiv. fator PREYAW x-4.16 walk / x-2.76 run a partir do
--- base raccoon 0.343/1.18). Mantenha estas cadencias = as antigas 3.2/2.1 tambem escaladas x1.3 para a cadencia das pernas acompanhar o
--- travel (preserva a razao validada de foot-slide, tudo so se move proporcionalmente mais rapido).
-CD.WALK_ANIM_SPEED = 4.16
-CD.RUN_ANIM_SPEED = 2.73
+-- root motion do GLB. O que importa e a TAXA net/duracao (as 7 racas tem duracao de clipe diferente mas a MESMA taxa):
+-- walk 1.015 tile/s, run 4.620 tile/s (pass de 2026-07-21, walk x1.45 / run x1.40 sobre os 0.700 / 3.300 anteriores,
+-- via _scale_rootmotion.py fator POSITIVO in-place em todos os GLBs deployados; Rac_ClimbUp/Down e Rac_AttackRun
+-- intocados). Mantenha estas cadencias escaladas pelos MESMOS fatores (as anteriores eram 4.16 / 2.73) para a cadencia
+-- das pernas acompanhar o travel (preserva a razao validada de foot-slide, tudo so se move proporcionalmente mais rapido).
+CD.WALK_ANIM_SPEED = 6.03
+CD.RUN_ANIM_SPEED = 3.82
 -- Recuperacao de bond de trailer de animal (recoverTraileredDogs): por quantos ticks throttled um bond capturado no trailer e
 -- mantido enquanto o cachorro esta irresoluvel (trailer levado a um chunk descarregado) antes do registro ser descartado. A
 -- engine recarrega o cachorro no trailer COM seu ModData, entao uma re-captura acontece no reload antes de qualquer remocao.
@@ -539,6 +546,7 @@ CD.FEED_MIN_BITE = 0.05
 -- Needs manuais (porque a invencibilidade permanente congela o acumulo nativo de hunger/thirst e o dreno de HP da engine).
 -- Os defaults espelham o ritmo nativo do caramelo adulto: hungerMultiplier 0.008 / thirstMultiplier 0.016 por game-HOUR
 -- (DogDefinitions) x ~1.6 fator de gene de resistencia neutro x 24h. Ajuste aqui ao gosto; leia defensivamente no server.
+-- Estes sao a BASE: o sandbox NeedsRateMultiplier escala os dois juntos (leia por CD.hungerPerDay/CD.thirstPerDay).
 CD.HUNGER_PER_DAY = 0.30
 CD.THIRST_PER_DAY = 0.60
 -- HP perdida por dia enquanto hunger OU thirst esta severa (> SEVERE_NEED), conduzindo a permadeath-por-descuido (o proprio
@@ -673,6 +681,16 @@ CD.HUSKY_COLD_EXIT = 37.4          -- e acima da qual desliga (histerese, evita 
 CD.HUSKY_CARRY_BONUS = 2           -- bonus de peso maximo do dono (setMaxWeight) enquanto um husky cuidado esta perto (alivio de peso; base 8)
 CD.HUSKY_ENDURANCE_PER_MIN = 0.001 -- endurance (0-1) reposto por game-minute pelo husky (folego SUTIL: ~0.67x a regen
                                    -- natural parado, ImobileEnduranceIncrease*48 ~= 0.0015; liquida de leve contra o exert() de correr)
+-- Border Collie "Instinto de Pastor": o moodle de FAZENDA. Dois efeitos, em camadas diferentes de propósito:
+-- (1) XP de Animal Care (Husbandry) + Farming no dono, client-side igual ao golden (o XP dessas pericias e
+-- concedido client-side, entao o multiplicador pertence la); (2) aura de calma no gado ao redor do cao, que roda
+-- SERVER-side no updateCompanion (animal e simulado pelo servidor: changeStress vindo do client nao replica).
+-- A eficiencia da calma em si mora no calmMult da raca (Skills.lua), nao aqui, pra valer tambem no modo Cuidar.
+CD.COLLIE_XP_MULT = 1.2          -- multiplicador de XP do dono (Husbandry/Farming) enquanto um border collie alimentado e leal esta perto
+CD.COLLIE_CALM_RADIUS = 8        -- tiles ao redor do cao em que a aura de companheiro acalma o gado (mesmo raio do moodle)
+CD.COLLIE_CALM_THROTTLE_MIN = 2  -- game-minutes entre passadas de calma. ALTO (vs 0.25 do cuidador) porque aqui nao ha
+                                 -- zumbi re-injetando estresse todo tick, e a passada varre os animais da cell
+CD.COLLIE_CALM_MAX_HERD = 12     -- cap de animais tratados por passada (metade do cuidador: e efeito de campo, nao de curral)
 
 CD.COMBAT_XP_PER_STRIKE = 1
 CD.COMBAT_XP_PER_KILL = 5
@@ -726,6 +744,46 @@ CD.HUNT_FORAGE_CATEGORY_BONUS = 0.5 -- fracao extra na deteccao de foraging de A
 CD.HUNT_FORAGE_SCOUT_RADIUS = 20       -- tiles que o CLIENTE DO DONO busca ao redor do cachorro por um icone de forage de bicho JA EXISTENTE
 CD.HUNT_FORAGE_SCOUT_TTL_MIN = 3       -- game-minutes que um alvo de forage enviado pelo cliente continua valido no server entre os heartbeats
 CD.HUNT_FORAGE_SCOUT_CATEGORIES = { Animals = true, Insects = true, DeadAnimals = true } -- icones de bicho existentes ate os quais o faro do cachorro guia
+
+-- ===== Cuidados de fazenda (cao-cuidador estacionado num curral) ==================================
+-- O cao e ATRIBUIDO a um curral (DesignationZoneAnimal) pela acao "Cuidar deste gado", fica la andando (nao sai) e
+-- opera INDEPENDENTE do dono (varredura server-side cell-wide, roda sempre que a area esta carregada por qualquer player).
+-- E SILENCIOSO (nunca late/addSound), acalma o gado (reduz o estresse, que na engine derruba leite/la e causa
+-- debandada) e despacha zumbi no raio sem barulho. So cao treinado (Pastoreio) + leal + calmo acalma; predador nao.
+CD.CARE_RADIUS = 12               -- tiles ao redor da ancora onde o cuidador detecta/despacha zumbi
+CD.CARE_CALM_BASE = 6             -- magnitude MAXIMA de calma (estresse 0..100) por passada, no L10 Pastoreio + leal + calmo
+CD.CARE_PREDATOR_STRESS = 2       -- estresse ADICIONADO ao gado por passada quando o cuidador e desleal/apavorado (custo simetrico)
+CD.CARE_CALM_THROTTLE_MIN = 0.25  -- game-minutes entre passadas de calma. BAIXO de proposito: BaseAnimalBehavior.spotted
+                                  -- RE-INJETA estresse a cada tick com zumbi a <=10 tiles, entao um throttle alto nunca
+                                  -- segura o teto e o rebanho dispara. O custo real por passada e o cap de contagem abaixo.
+CD.CARE_CALM_CAP_MIN = 40         -- menor teto de estresse que um cuidador consegue segurar (L10 + leal). 40 = limiar exato da
+                                  -- engine onde leite/la comecam a cair (milkInc *= 40/stress), e bem abaixo de 50 (fuga CORRENDO).
+CD.CARE_PATROL_DWELL_MIN = 3      -- game-minutes entre sorteios de um novo ponto de patrulha dentro do curral
+CD.CARE_DETOUR_FACTOR = 4         -- desvio a pe tolerado p/ alcancar zumbi (vs COMBAT_DETOUR_FACTOR 1.5 do combate normal):
+                                  -- o cuidador esta ancorado e volta ao posto, entao pode dar a volta pelo portao da cerca
+CD.CARE_UNREACH_MS = 20000        -- ms reais que um zumbi fica marcado "inalcancavel" pro cuidador depois de um stall
+                                  -- (o scan pula ele) -> o cao volta a patrulhar em vez de moer na cerca pra sempre
+CD.CARE_DEBUG = false             -- diagnostico do cuidador: [CD-CARE] narrativa de decisao + flags da aresta de cerca +
+                                  -- veredito do vault + boletim de convergencia [CD-CARE~]. Ligar so pra depurar.
+CD.CARE_DEBUG_TICK = false        -- watchdog por-OnTick: denuncia DESCONTINUIDADE de posicao (alguem chamou setX/setY na
+                                  -- mao) e cao parado com path em voo. E o log que enxerga driver CONCORRENTE, que o log
+                                  -- de decisao nao ve. Exige CD.CARE_DEBUG tambem. Custa 1 amostra por cuidador por tick.
+CD.ADOPT_DEBUG = false            -- diagnostico da adocao por animalId (CD.adoptByAnimalId): [CD-ADOPT] imprime cada cao
+                                  -- SEM VINCULO avaliado com id/familia/distancia e o veredito, mais o desfecho do Trazer
+                                  -- (adotou x caiu no respawn). Existe porque o SUCESSO da adocao e visualmente identico ao
+                                  -- respawn (um cao, com vinculo) e ao caso em que a Camada 1 ja resolveu antes -- sem isto
+                                  -- o teste nao distingue os tres. Tambem e como se verifica que um cao selvagem por perto e
+                                  -- RECUSADO sem precisar de uma colisao real de id (1 em 10.000). Ligar so pra depurar.
+CD.CARE_JUMP_EPS = 0.35           -- tile/tick acima do qual o passo e impossivel a pe (correndo da ~0.06/tick a 60fps) e
+                                  -- portanto foi hand-move: snap-back de lock, steer, land-glide ou teleport
+CD.CARE_STUCK_TICKS = 90          -- ticks parado (<0.01 tile) com objetivo de movimento ativo antes de denunciar travamento
+CD.CARE_CONVERGE_MIN_WALK = 6     -- tiles andados antes de julgar convergencia (da espaco pra um desvio LEGITIMO pelo portao)
+CD.CARE_CONVERGE_MIN_EFF = 0.35   -- deslocamento liquido / distancia andada. 1.0 = linha reta; abaixo disto = deu voltas
+CD.CARE_CALM_MAX_HERD = 24        -- teto de animais processados por passada (curral gigante nao custa por tick)
+CD.CARE_ALERT_COOLDOWN_MIN = 30   -- game-minutes minimos entre avisos ao dono (throttle; so pro dono, nunca broadcast)
+CD.CARE_STRESS_ALERT = 60         -- estresse medio do rebanho que dispara o aviso "rebanho estressado" ao dono
+CD.CARE_XP_PER_CALM = 2           -- XP de Pastoreio por passada de calma efetiva (edge-only via addSkillXP)
+CD.CARE_XP_PER_KILL = 4           -- XP de Pastoreio por zumbi despachado defendendo o curral
 CD.HUNT_FORAGE_SCOUT_PLACE_CATEGORIES = { Animals = true, Insects = true } -- so bichos vivos sao farejados e fixados num square
 CD.HUNT_FORAGE_SCOUT_PLACE_RADIUS = 12 -- tiles ao redor do cachorro onde um bicho farejado e colocado (o cachorro guia ~ate aqui, nao em cima de voce)
 CD.HUNT_FORAGE_SCOUT_ZONE_PROBE = 4    -- tiles que o cliente sonda por uma zona de forage proxima quando o proprio tile do cachorro nao tem nenhuma (bordas de estrada/campo)
@@ -740,6 +798,7 @@ CD.POLICE_SHEPHERD_CHANCE = 20     -- % de chance de um predio policial/militar 
 CD.GOLDEN_STRAY_RARITY = 4         -- a rolagem por casa do golden = chance do caramelo / isto (aditivo, 4x mais raro)
 CD.HUSKY_STRAY_RARITY = 8          -- rolagem por casa do husky (so no inverno) = chance do caramelo / isto (8x mais raro)
 CD.HUSKY_PETVET_CHANCE = 10        -- % por predio de pet shop/veterinario spawnar um husky (escala com DogSpawnMultiplier)
+CD.FARM_BORDER_CHANCE = 15         -- % por predio de fazenda (celeiro/estabulo) spawnar um border collie (escala com DogSpawnMultiplier)
 
 function CD.sandbox()
     return SandboxVars and SandboxVars.CompanionDogs or nil
@@ -884,6 +943,22 @@ function CD.loyaltyDecayPerDay()
     return (sv and sv.LoyaltyDecayPerDay) or CD.LOYALTY_DECAY_PER_DAY
 end
 
+-- Escala fome E sede juntas, preservando a razao 2:1 ja balanceada. 0 congela as duas (o cao nunca mais precisa
+-- comer nem beber) sem desligar lealdade/stress, que e o que UpkeepEnabled=false faria. 0 e truthy em Lua, entao
+-- o `or` so cai no default quando a opcao esta ausente (save antigo / sandbox ainda nao carregado).
+function CD.needsRateMultiplier()
+    local sv = CD.sandbox()
+    return (sv and sv.NeedsRateMultiplier) or 1.0
+end
+
+function CD.hungerPerDay()
+    return CD.HUNGER_PER_DAY * CD.needsRateMultiplier()
+end
+
+function CD.thirstPerDay()
+    return CD.THIRST_PER_DAY * CD.needsRateMultiplier()
+end
+
 function CD.loyaltyFloor()
     return CD.LOYALTY_FLOOR
 end
@@ -945,6 +1020,16 @@ function CD.huntForageBonusEnabled() return true end
 function CD.huntForageRadiusBonus() return CD.HUNT_FORAGE_RADIUS_BONUS end
 function CD.huntForageCategoryBonus() return CD.HUNT_FORAGE_CATEGORY_BONUS end
 function CD.huntForagePointEnabled() return true end
+
+-- Master do modo Cuidar de fazenda (default on). Sub-params fixos nos consts CD.CARE_* (padrao da caca).
+function CD.careEnabled()
+    local sv = CD.sandbox()
+    if sv == nil then return true end
+    return sv.FarmCareEnabled ~= false
+end
+function CD.careRadius() return CD.CARE_RADIUS end
+function CD.careCalmThrottleMin() return CD.CARE_CALM_THROTTLE_MIN end
+function CD.careAlertCooldownMin() return CD.CARE_ALERT_COOLDOWN_MIN end
 
 function CD.feedHealthBonus()
     return CD.FEED_HEALTH_BONUS
@@ -1085,6 +1170,18 @@ function CD.goldenForageVisionExtra()
     return CD.GOLDEN_FORAGE_VISION_EXTRA
 end
 
+function CD.collieXPMult()
+    return CD.COLLIE_XP_MULT
+end
+
+function CD.collieCalmRadius()
+    return CD.COLLIE_CALM_RADIUS
+end
+
+function CD.collieCalmThrottleMin()
+    return CD.COLLIE_CALM_THROTTLE_MIN
+end
+
 function CD.skillsEnabled()
     local sv = CD.sandbox()
     if sv == nil then return true end
@@ -1202,6 +1299,11 @@ function CD.huskyPetVetChance()
     return (CD.HUSKY_PETVET_CHANCE or 10) * CD.dogSpawnMultiplier()
 end
 
+-- Chance por predio de fazenda (celeiro/estabulo) spawnar um border collie de rua, escala com DogSpawnMultiplier.
+function CD.farmBorderChance()
+    return (CD.FARM_BORDER_CHANCE or 15) * CD.dogSpawnMultiplier()
+end
+
 -- ===== Registry de spawn selvagem (contrato de addon) =============================================
 -- Classes de predio: name -> { match=fn(def)->bool, exclusive, skipUrbanGate }. As 3 classes base
 -- (house/police/petvet, registradas em Spawn.lua) sao EXCLUSIVAS entre si na ordem de registro
@@ -1241,6 +1343,7 @@ CD.registerStraySpawns({
     { id = "gs",       class = "police", chance = CD.policeShepherdChance, breed = "germanshepherd" },
     { id = "huskyw",   class = "house",  chance = CD.huskyStrayChance,     suffix = "|h",  breed = "husky", gate = CD.isWinter },
     { id = "huskypv",  class = "petvet", chance = CD.huskyPetVetChance,    suffix = "|hv", breed = "husky" },
+    { id = "bcfarm",   class = "farm",   chance = CD.farmBorderChance,     suffix = "|bc", breed = "bordercollie" },
 })
 
 -- "Este square esta numa town/city": o gate que mantem vira-latas caramelo urbanos (nao em cabanas de floresta). O

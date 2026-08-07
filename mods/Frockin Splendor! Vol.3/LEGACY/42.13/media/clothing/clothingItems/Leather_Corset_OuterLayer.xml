@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>22f8dee1-4169-4a73-bfc5-3a5568757214</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_Corset</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_Corset_Alt</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_Corset_Alt2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_Corset_Alt4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_Corset_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_Corset_1A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_Corset_1B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_Corset_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_Corset_2A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_Corset_2B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_Corset_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_Corset_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_Corset_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_Corset_5A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_Corset_5B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_Corset_5C</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_Corset_6</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_Corset_6A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_Corset_6B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_Corset_6C</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_Corset_Red_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_Corset_Red_1A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_Corset_Red_1B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_Corset_Red_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_Corset_Red_2A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_Corset_Red_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_Corset_Red_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_Corset_Red_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_Corset_Red_5A</m_BaseTextures>
+</clothingItem>

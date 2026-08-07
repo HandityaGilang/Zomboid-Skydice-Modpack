@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+
+<!--                                    Desert CAMO CLOTHING!                                 -->
+<!-- Helmet -->
+    <files>
+        <path>media/clothing/clothingItems/Desert_Camo_Helmet.xml</path>
+        <guid>d139f2a1-ae92-47e2-93c6-255e975d6faf</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Desert_Camo_Helmet_NoBelts.xml</path>
+        <guid>b3a47263-10bb-46c9-8b42-19322816ec3b</guid>
+    </files>
+    <files>
+     <path>media/clothing/clothingItems/Desert_Camo_Helmet_Patriot.xml</path>
+        <guid>1328f5b7-582c-43e7-9031-71b92f9dce4b</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Desert_Camo_Helmet_Patriot_NoBelts.xml</path>
+        <guid>b8e7c524-34d4-4828-a24f-d3aa7f3e226b</guid>
+    </files>
+<!-- Hat -->
+    <files>
+        <path>media/clothing/clothingItems/Desert_Camo_Hat.xml</path>
+        <guid>ad0d464c-597a-457d-aee5-6cc25f03f773</guid>
+    </files>
+<!-- Masks -->
+    <files>
+        <path>media/clothing/clothingItems/Desert_Camo_Balaclava.xml</path>
+        <guid>5384a707-8562-4ff9-8cf0-956b42ae9ed1</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Desert_Camo_GasMask-M80.xml</path>
+        <guid>14092fc4-4c26-4fce-9b01-3d04e9faf751</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Desert_Camo_GasMask-M80_NoFilter.xml</path>
+        <guid>5a3f1a91-fdc4-411b-a12e-5f7c5109d98d</guid>
+    </files>
+<!-- Shoulder Pads -->
+    <files>
+        <path>media/clothing/clothingItems/Desert_Camo_ShoulderPads_Patriot.xml</path>
+        <guid>59f03b07-2e9c-4016-9f0a-a59950040458</guid>
+    </files>
+<!-- Jacket -->
+    <files>
+        <path>media/clothing/clothingItems/Desert_Camo_Jacket.xml</path>
+        <guid>8f9b6029-38b1-48e3-8181-4e17255adf75</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Desert_Camo_Jacket_Closed_SleevesUp.xml</path>
+        <guid>a380dd4f-a70c-4c2c-9537-2d45e72a32d0</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Desert_Camo_Jacket_Open.xml</path>
+        <guid>c63a5845-c4e7-49ea-b5cb-d6c9a2fda5f1</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Desert_Camo_Jacket_Open_SleevesUp.xml</path>
+        <guid>f4f88da3-9d7b-426d-80d3-08866b33c83e</guid>
+    </files>
+<!-- BulletproofVest -->
+    <files>
+        <path>media/clothing/clothingItems/Desert_Camo_Vest.xml</path>
+        <guid>89c1826b-9e90-43ba-835b-adefef4face9</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Desert_Camo_LightVest.xml</path>
+        <guid>c5c66850-d5c0-48dd-aee8-691d3b229ee7</guid>
+    </files>
+<!-- Elbow Pads -->
+    <files>
+        <path>media/clothing/clothingItems/Desert_Camo_Elbow_Pads.xml</path>
+        <guid>00495e69-7cb2-4d20-a48f-07bd5e000bf7</guid>
+    </files>
+<!-- Knee Pads -->
+    <files>
+        <path>media/clothing/clothingItems/Desert_Camo_Knee_Pads.xml</path>
+        <guid>02a2f569-8d75-4d49-954e-0a48c7458a89</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Desert_Camo_KneePads_Defender.xml</path>
+        <guid>a334aba2-b080-49d8-b171-e1911c705009</guid>
+    </files>
+<!-- Gloves -->
+    <files>
+        <path>media/clothing/clothingItems/Desert_Camo_Gloves.xml</path>
+        <guid>f412e483-7b11-4691-a66f-df6a2996b8dd</guid>
+    </files>
+<!-- Pants -->
+    <files>
+        <path>media/clothing/clothingItems/Desert_Camo_Pants.xml</path>
+        <guid>04383ba6-342b-4f9c-84d7-b6e0085c5b11</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Desert_Camo_Pants_Tuck.xml</path>
+        <guid>13a6591a-3295-4022-88fc-55c517120fad</guid>
+    </files>
+<!-- Shoes -->
+    <files>
+        <path>media/clothing/clothingItems/Desert_Camo_Boots.xml</path>
+        <guid>50271dd1-5ac7-41a6-acdd-5d33a7ddadd7</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Desert_Camo_TacBoots.xml</path>
+        <guid>734d7229-7bdc-4c86-be05-a819e87b6327</guid>
+    </files>
+<!-- Backpack -->
+    <files>
+        <path>media/clothing/clothingItems/Desert_Camo_Backpack_Ranger_Tight.xml</path>
+        <guid>5679bcb8-ded3-4427-823b-c281a344317b</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Desert_Camo_Backpack_Ranger_LHand.xml</path>
+        <guid>b5ec3cbb-96c2-4d6e-812c-dcc88d50531b</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Desert_Camo_Backpack_Ranger_RHand.xml</path>
+        <guid>c4bf2d41-f770-45b0-957d-d43421bf617f</guid>
+    </files>
+</fileGuidTable>

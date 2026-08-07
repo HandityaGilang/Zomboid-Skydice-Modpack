@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\Bob_Skirt_Generic</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\Kate_Skirt_Generic</m_FemaleModel>
+	<m_GUID>3626b3be-0e72-40ea-82a7-523d6a379da6</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder></m_MasksFolder>
+	
+	
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTanned_SkirtF_LW_Mesh_0</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTanned_SkirtF_LW_Mesh_1</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTanned_SkirtF_LW_Mesh_2</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTanned_SkirtF_LW_Mesh_3</textureChoices>
+	
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTannedRed_SkirtF_LW_Mesh_0</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTannedRed_SkirtF_LW_Mesh_1</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTannedRed_SkirtF_LW_Mesh_2</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTannedRed_SkirtF_LW_Mesh_3</textureChoices>
+	
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTannedRedder_SkirtF_LW_Mesh_0</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTannedRedder_SkirtF_LW_Mesh_1</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTannedRedder_SkirtF_LW_Mesh_2</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTannedRedder_SkirtF_LW_Mesh_3</textureChoices>
+	
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTannedYellow_SkirtF_LW_Mesh_0</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTannedYellow_SkirtF_LW_Mesh_1</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTannedYellow_SkirtF_LW_Mesh_2</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTannedYellow_SkirtF_LW_Mesh_3</textureChoices>
+	
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTannedYellower_SkirtF_LW_Mesh_0</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTannedYellower_SkirtF_LW_Mesh_1</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTannedYellower_SkirtF_LW_Mesh_2</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTannedYellower_SkirtF_LW_Mesh_3</textureChoices>
+	
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTannedBlack_SkirtF_LW_Mesh_0</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTannedBlack_SkirtF_LW_Mesh_1</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTannedBlack_SkirtF_LW_Mesh_2</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\SKirts_Mesh\LeatherTannedBlack_SkirtF_LW_Mesh_3</textureChoices>
+</clothingItem>	

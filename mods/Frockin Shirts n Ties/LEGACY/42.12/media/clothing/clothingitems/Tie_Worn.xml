@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_tie</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\bob_tie</m_FemaleModel>
+	<m_GUID>1be7cae9-82bd-473f-8de9-23a8d9ca3117</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\tie\tie_black_noneck</textureChoices>
+	<textureChoices>clothes\tie\tie_blue_noneck</textureChoices>
+	<textureChoices>clothes\tie\tie_red_noneck</textureChoices>
+	
+	<textureChoices>clothes\Ties_mono\Tie_BlueBright_noneck</textureChoices>
+	<textureChoices>clothes\Ties_mono\Tie_Grey_noneck</textureChoices>
+	<textureChoices>clothes\Ties_mono\Tie_Orange_noneck</textureChoices>
+	<textureChoices>clothes\Ties_mono\Tie_Pink_noneck</textureChoices>
+	<textureChoices>clothes\Ties_mono\Tie_Purp_noneck</textureChoices>
+	<textureChoices>clothes\Ties_mono\Tie_RedBright_noneck</textureChoices>
+	<textureChoices>clothes\Ties_mono\Tie_White_noneck</textureChoices>
+	<textureChoices>clothes\Ties_mono\Tie_Yellow_noneck</textureChoices>
+	
+	<textureChoices>clothes\Ties_mono\Tie_Jungle_noneck</textureChoices>
+	<textureChoices>clothes\Ties_mono\Tie_Green_noneck</textureChoices>
+	<textureChoices>clothes\Ties_mono\Tie_Cyan_noneck</textureChoices>
+	<textureChoices>clothes\Ties_mono\Tie_Scarlet_noneck</textureChoices>
+	
+	<textureChoices>clothes\tie\Tie_BlueStripe_noneck</textureChoices>
+	<textureChoices>clothes\tie\Tie_RedStripe_noneck</textureChoices>
+	
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_16_noneck</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_15_noneck</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_14_noneck</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_13_noneck</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_12_noneck</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_11_noneck</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_10_noneck</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_9_noneck</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_8_noneck</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_7_noneck</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_6_noneck</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_5_noneck</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_4_noneck</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_3_noneck</textureChoices>
+	
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_17_noneck</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_18_noneck</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_19_noneck</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_20_noneck</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_21_noneck</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_22_noneck</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_23_noneck</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_24_noneck</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_25_noneck</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_26_noneck</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_27_noneck</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_28_noneck</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_29_noneck</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_30_noneck</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_31_noneck</textureChoices>
+	
+	<textureChoices>clothes\tie\tie_bluespotted_noneck</textureChoices>
+	<textureChoices>clothes\tie\tie_redspotted_noneck</textureChoices>
+
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_1_noneck</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_2_noneck</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_3_noneck</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_4_noneck</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_5_noneck</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_6_noneck</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_7_noneck</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_8_noneck</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_9_noneck</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_10_noneck</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_11_noneck</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_12_noneck</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_13_noneck</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_14_noneck</textureChoices>
+	<textureChoices>clothes\Ties_Dot\Tie_Dot_15_noneck</textureChoices>
+</clothingItem>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>6e153e0d-b3d0-47e2-ac8e-89def63156af</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Fishnet\Corset\Fishnet_Corset</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Fishnet\Corset\Fishnet_Corset_1X</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Fishnet\Corset\Fishnet_Corset_6C</m_BaseTextures>
+</clothingItem>

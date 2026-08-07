@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>f40c8082-4314-469c-ab45-1a9a762d335d</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Nylon\Stockings_Short\Nylon_StockingsShort_Suspender_Alt_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Stockings_Short\Nylon_StockingsShort_Suspender_Alt_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Stockings_Short\Nylon_StockingsShort_Suspender_Alt_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Stockings_Short\Nylon_StockingsShort_Suspender_Alt_6</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Nylon\Stockings_Short\Nylon_StockingsShort_Suspender_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Stockings_Short\Nylon_StockingsShort_Suspender_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Stockings_Short\Nylon_StockingsShort_Suspender_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Stockings_Short\Nylon_StockingsShort_Suspender_6</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Nylon\Stockings_Short\Nylon_StockingsShort_Suspender_Alt1_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Stockings_Short\Nylon_StockingsShort_Suspender_Alt1_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Stockings_Short\Nylon_StockingsShort_Suspender_Alt1_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Stockings_Short\Nylon_StockingsShort_Suspender_Alt1_6</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Nylon\Stockings_Short\Nylon_StockingsShort_Suspender_Nude_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Stockings_Short\Nylon_StockingsShort_Suspender_Nude_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Stockings_Short\Nylon_StockingsShort_Suspender_Nude_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Stockings_Short\Nylon_StockingsShort_Suspender_Nude_6</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Nylon\Stockings_Short\Nylon_StockingsShort_Suspender_Purp_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Stockings_Short\Nylon_StockingsShort_Suspender_Purp_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Stockings_Short\Nylon_StockingsShort_Suspender_Purp_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Stockings_Short\Nylon_StockingsShort_Suspender_Purp_6</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Nylon\Stockings_Short\Nylon_StockingsShort_Suspender_Red_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Stockings_Short\Nylon_StockingsShort_Suspender_Red_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Stockings_Short\Nylon_StockingsShort_Suspender_Red_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Stockings_Short\Nylon_StockingsShort_Suspender_Red_6</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Nylon\Stockings_Short\Nylon_StockingsShort_Suspender_Whit_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Stockings_Short\Nylon_StockingsShort_Suspender_Whit_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Stockings_Short\Nylon_StockingsShort_Suspender_Whit_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Stockings_Short\Nylon_StockingsShort_Suspender_Whit_6</m_BaseTextures>
+
+</clothingItem>

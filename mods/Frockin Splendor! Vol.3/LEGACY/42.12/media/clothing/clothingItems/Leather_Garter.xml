@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>d39f0314-e933-47ac-9ee3-532e94568eaa</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Leather\Garter\Leather_Garter</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Garter\Leather_Garter_Alt2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Garter\Leather_Garter_Alt3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Garter\Leather_Garter_Alt4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Garter\Leather_Garter_Alt5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Garter\Leather_Garter_Alt6</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Garter\Leather_Garter_Alt7</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Garter\Leather_Garter_B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Garter\Leather_Garter_BAlt</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Garter\Leather_Garter_BAlt2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Garter\Leather_Garter_BAlt2A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Garter\Leather_Garter_BAlt3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Garter\Leather_Garter_BAlt4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Garter\Leather_Garter_BAlt5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Garter\Leather_Garter_BAlt6</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Garter\Leather_Garter_BAlt7</m_BaseTextures>
+</clothingItem>

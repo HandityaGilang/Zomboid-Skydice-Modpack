@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>e3dbc150-d353-4376-a363-e9f028c4b97c</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>true</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MiniDress_HS\Cotton_MiniDress_0_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MiniDress_HS\Cotton_MiniDress_0A_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MiniDress_HS\Cotton_MiniDress_0B_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MiniDress_HS\Cotton_MiniDress_0C_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MiniDress_HS\Cotton_MiniDress_1_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MiniDress_HS\Cotton_MiniDress_1A_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MiniDress_HS\Cotton_MiniDress_3_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MiniDress_HS\Cotton_MiniDress_3A_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MiniDress_HS\Cotton_MiniDress_5_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MiniDress_HS\Cotton_MiniDress_5A_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MiniDress_HS\Cotton_MiniDress_6_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MiniDress_HS\Cotton_MiniDress_7_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MiniDress_HS\Cotton_MiniDress_9_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MiniDress_HS\Cotton_MiniDress_10_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MiniDress_HS\Cotton_MiniDress_10A_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MiniDress_HS\Cotton_MiniDress_11_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MiniDress_HS\Cotton_MiniDress_12_HS</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses\Cotton_MiniDress_HS\Cotton_MiniDress_13A_HS</m_BaseTextures>
+
+</clothingItem>

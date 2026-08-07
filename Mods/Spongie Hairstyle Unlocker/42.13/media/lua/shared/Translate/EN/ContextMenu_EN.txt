@@ -1,3 +1,0 @@
-ContextMenu_EN = {
-    ContextMenu_GelHairFor = "Style Hair for %1",
-} 

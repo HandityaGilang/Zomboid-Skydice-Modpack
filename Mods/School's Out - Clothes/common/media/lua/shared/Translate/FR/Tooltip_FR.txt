@@ -1,3 +1,0 @@
-Tooltip_FR {
-    Tooltip_TriangleTie = "Un accessoire polyvalent porté avec un costume de marin. Doit être attaché avant de pouvoir être porté.",
-}

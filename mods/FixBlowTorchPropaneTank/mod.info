@@ -1,0 +1,13 @@
+name=Fix BlowTorch & PropaneTank
+poster=Preview.png
+id=FixBlowTorchPropaneTank
+icon=icon.png
+description=프로판 토치와 프로판 통 수정! <LINE> <LINE>
+description=용량이 10으로 줄어든 프로판 토치의 용량을 100으로 증가 <LINE>
+description=프로판 통으로 프로판 토치 16회 충전 가능하게 수정 <LINE> <LINE>
+description=원래 용량 10짜리 프로판 토치를 충전할 시 16회 충전이 가능하지만<LINE>
+description=용량을 100으로 늘릴 시 1.6회밖에 충전이 안되는 문제를 수정한 모드 입니다. <LINE> <LINE>
+description=프로판 통의 아이템 능력치를 수정하지 않아서 <LINE>
+description=Real Metalworking 같은 프로판 통의 아이템 능력치를 수정하는 모드와도 호환이 됩니다. <LINE> <LINE>
+description=충전하기 누르면 프로판 토치의 남은 양 상관없이 <LINE>
+description=프로판 통 1씩 소모가 되니 주의! <LINE>

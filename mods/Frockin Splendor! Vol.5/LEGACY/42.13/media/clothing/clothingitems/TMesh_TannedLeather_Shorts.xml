@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Bob_FS_Shorts</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Kate_FS_Shorts</m_FemaleModel>
+	<m_GUID>6077a9ee-c981-4060-9779-9c9694ed88d0</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>2</m_Masks>
+	
+	
+	
+	<textureChoices>clothes\Material_LeatherTanned\Pants\LeatherTanned_Pants</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Pants\LeatherTanned_Pants_1_High</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Pants\LeatherTanned_Pants_2_High</textureChoices>
+	
+	<textureChoices>clothes\Material_LeatherTanned\Pants\LeatherTannedRed_Pants</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Pants\LeatherTannedRed_Pants_1_High</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Pants\LeatherTannedRed_Pants_2_High</textureChoices>
+	
+	<textureChoices>clothes\Material_LeatherTanned\Pants\LeatherTannedYellow_Pants</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Pants\LeatherTannedYellow_Pants_1_High</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Pants\LeatherTannedYellow_Pants_2_High</textureChoices>
+	
+	<textureChoices>clothes\Material_LeatherTanned\Pants\LeatherTannedYellower_Pants</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Pants\LeatherTannedYellower_Pants_1_High</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Pants\LeatherTannedYellower_Pants_2_High</textureChoices>
+	
+	<textureChoices>clothes\Material_LeatherTanned\Pants\LeatherTannedBlack_Pants</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Pants\LeatherTannedBlack_Pants_1_High</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Pants\LeatherTannedBlack_Pants_2_High</textureChoices>
+</clothingItem>

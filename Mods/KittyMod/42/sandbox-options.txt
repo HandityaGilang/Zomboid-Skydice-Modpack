@@ -1,8 +1,0 @@
-VERSION = 1,
-
-option AnimalsEssentials.FriendlinessMode
-{
-	type = enum, numValues=3, default = 2,
-	page = AnimalsEssentials,
-	translation = AnimalsEssentials_FriendlinessMode,
-}

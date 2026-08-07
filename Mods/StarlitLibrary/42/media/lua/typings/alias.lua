@@ -1,2 +1,0 @@
---deprecated Starlit namespace aliases
----@alias Starlit.BaseSquareCursor starlit.BaseSquareCursor

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>5cc028d8-7565-46e1-85f4-e3d4a390150c</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Nylon\Boleros\Nylon_Bolero_Shorter_Alt_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Boleros\Nylon_Bolero_Shorter_Alt_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Boleros\Nylon_Bolero_Shorter_Alt_4</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Nylon\Boleros\Nylon_Bolero_Shorter_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Boleros\Nylon_Bolero_Shorter_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Boleros\Nylon_Bolero_Shorter_4</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Nylon\Boleros\Nylon_Bolero_Alt1_Shorter_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Boleros\Nylon_Bolero_Alt1_Shorter_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Boleros\Nylon_Bolero_Alt1_Shorter_4</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Nylon\Boleros\Nylon_Bolero_Shorter_Nude_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Boleros\Nylon_Bolero_Shorter_Nude_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Boleros\Nylon_Bolero_Shorter_Nude_4</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Nylon\Boleros\Nylon_Bolero_Shorter_Purp_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Boleros\Nylon_Bolero_Shorter_Purp_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Boleros\Nylon_Bolero_Shorter_Purp_4</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Nylon\Boleros\Nylon_Bolero_Shorter_Red_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Boleros\Nylon_Bolero_Shorter_Red_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Boleros\Nylon_Bolero_Shorter_Red_4</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Nylon\Boleros\Nylon_Bolero_Shorter_Whit_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Boleros\Nylon_Bolero_Shorter_Whit_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Boleros\Nylon_Bolero_Shorter_Whit_4</m_BaseTextures>
+
+</clothingItem>

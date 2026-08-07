@@ -1,0 +1,5 @@
+{
+    "Sandbox_DrinkSmart": "Drink Smart",
+    "Sandbox_DrinkSmart_AllowWaterDrinkLowThirst": "Az susuzlukta su içmeye izin ver",
+    "Sandbox_DrinkSmart_AllowWaterDrinkLowThirst_tooltip": "Etkinleştirilirse, su kaynakları susuzluk %10'un altındayken bile İç menüsünü gösterir (envanter/konteynerler/zemin paneli)."
+}

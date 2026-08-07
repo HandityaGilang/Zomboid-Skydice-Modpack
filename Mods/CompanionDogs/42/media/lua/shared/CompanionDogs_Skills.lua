@@ -1,6 +1,6 @@
 local CD = CompanionDogs
 
-CD.SKILLS = { "scent", "combat", "obedience", "hunt" }
+CD.SKILLS = { "scent", "combat", "obedience", "hunt", "herding" }
 CD.SKILL_MAX_LEVEL = 10
 CD.SKILL_XP_BASE = 20
 
@@ -13,7 +13,7 @@ CD.BREEDS = {
         nameKey = "IGUI_PD_Breed_caramelo",
         -- Tamanho da ninhada (vira-lata comum = ninhada maior). Ver CD.rollLitterSize.
         litter = { 2, 4 },
-        xpMult = { scent = 1, combat = 1, obedience = 1, hunt = 1 },
+        xpMult = { scent = 1, combat = 1, obedience = 1, hunt = 1, herding = 1 },
         combatPower = 0.2,
         -- Mesma forma de curva por nivel do GS, mas combatPower 0.2 o mantem fraco. canKill=false torna "nunca mata sozinho"
         -- uma regra RIGIDA (nao uma corrida fragil de panico-antes-de-arrancar-o-abate): seus golpes desgastam o zumbi e o
@@ -35,7 +35,7 @@ CD.BREEDS = {
         nameKey = "IGUI_PD_Breed_germanshepherd",
         litter = { 1, 2 },
         -- Cao de guerra: especialista em combate (2x), cacador modesto (1.2x).
-        xpMult = { scent = 1, combat = 2.0, obedience = 1.5, hunt = 1.2 },
+        xpMult = { scent = 1, combat = 2.0, obedience = 1.5, hunt = 1.2, herding = 1.0 },
         combatPower = 0.6,
         -- A letalidade e conquistada pela skill de Combate: fraco em L0/L1 (~10 golpes para matar um zumbi normal),
         -- subindo ate o poder pleno da raca em nivel alto. levelMult = min + (max-min)*(level/SKILL_MAX_LEVEL).
@@ -60,9 +60,10 @@ CD.BREEDS = {
         typePrefix = "retriever",
         nameKey = "IGUI_PD_Breed_retriever",
         litter = { 1, 2 },
-        -- Golden: especialista em caca (hunt 2x), lutador leve (combat 1.2x). Mata, mas devagar (combatPower 0.34:
-        -- nerf 07-06 0.33->0.28, depois 0.28->0.34 a pedido; teto 1.5->1.3; o GS (0.6) segue o guerreiro de verdade).
-        xpMult = { scent = 1.3, combat = 1.2, obedience = 1.3, hunt = 2.0 },
+        -- Golden: especialista em caca (hunt 2x), faro de gundog (1.5, casa com o moodle Keen Nose), obediente (1.2).
+        -- Combate cai pro neutro na padronizacao 07-23: combatPower 0.34 ja dizia que nao e lutador
+        -- (nerf 07-06 0.33->0.28, depois 0.28->0.34 a pedido; teto 1.5->1.3; o GS (0.6) segue o guerreiro de verdade).
+        xpMult = { scent = 1.5, combat = 1, obedience = 1.2, hunt = 2.0, herding = 1.0 },
         combatPower = 0.34,
         lethalityCurve = { min = 0.40, max = 1.3 },
         canKill = true,
@@ -83,10 +84,13 @@ CD.BREEDS = {
         nameKey = "IGUI_PD_Breed_husky",
         litter = { 1, 2 },
         -- Cao de trenó: carga (Forca a mais alta do jogo) + sobrevivencia no frio, com um pe no combate.
-        -- Teimoso de proposito (obedience 0.8 treina devagar). combatPower 0.44 fica entre o retriever (0.34) e
+        -- Ganhou principal na padronizacao 07-23: faro 2.0 (o cao de trenó acha a trilha no branco pelo nariz),
+        -- caca 1.5 (prey drive alto e o traco real mais forte da raca), combate 1.2.
+        -- Teimoso de proposito: obedience 0.8 e a UNICA penalidade do mod, mantida de caso pensado -- e um quarto
+        -- eixo, nao substitui o 2.0/1.5/1.2. combatPower 0.44 fica entre o retriever (0.34) e
         -- o GS (0.6): mata, mas nao e especialista; a Forca alta da o soco extra via effectiveHitDamage.
         -- Nerf 07-06: 0.45->0.38 + teto da curva 1.5->1.3; depois 0.38->0.44 a pedido (bump leve).
-        xpMult = { scent = 1.0, combat = 1.2, obedience = 0.8, hunt = 1.2 },
+        xpMult = { scent = 2.0, combat = 1.2, obedience = 0.8, hunt = 1.5, herding = 1.0 },
         combatPower = 0.44,
         lethalityCurve = { min = 0.40, max = 1.3 },
         canKill = true,
@@ -99,6 +103,32 @@ CD.BREEDS = {
             aggressiveness = { 0.10, 0.30 },  -- amigavel: huskies sao maus caes de guarda
             resistance     = { 0.40, 0.60 },  -- robusto
             stress         = { 0.20, 0.45 },  -- calmo/estavel
+        },
+    },
+    bordercollie = {
+        key = "bordercollie",
+        engineBreed = "bordercollie",
+        typePrefix = "bc",
+        nameKey = "IGUI_PD_Breed_bordercollie",
+        litter = { 1, 3 },
+        -- Cao central da mecanica de FAZENDA: especialista em Pastoreio (herding 2.0), aprende a cuidar do gado
+        -- (aura de calma) mais rapido. Combate/genes seguem neutros de proposito (nao e cao de guerra).
+        -- Obediencia 1.5 (a raca mais treinavel que existe, e o trabalho de pastoreio E obedecer comando a distancia)
+        -- e faro 1.2 (rastreia rebanho); combate/caca ficam em 1.0 pra nao virar concorrente do GS/golden.
+        xpMult = { scent = 1.2, combat = 1, obedience = 1.5, hunt = 1, herding = 2.0 },
+        combatPower = 0.34,
+        lethalityCurve = { min = 0.40, max = 1.3 },
+        canKill = true,
+        canKnockdown = true,
+        combatStressMult = 0.33,
+        panicThreshold = 0.85,
+        calmMult = 1.5,  -- pastor nato: +50% de eficiencia na aura de calma POR NIVEL (o herding 2.0 acima e a
+                         -- velocidade de APRENDER; isto e o quanto rende cada nivel). Ver CD.effectiveCalmStrength/Cap.
+        geneRange = {
+            strength       = { 0.20, 0.45 },
+            aggressiveness = { 0.15, 0.40 },
+            resistance     = { 0.25, 0.50 },
+            stress         = { 0.30, 0.60 },
         },
     },
 }
@@ -481,6 +511,44 @@ function CD.effectiveHuntRadius(animal)
     local mult = 1 + 0.06 * lvl(animal, "hunt")
     if mult > 1.6 then mult = 1.6 end
     return math.floor(CD.huntRadius() * mult + 0.5)
+end
+
+-- Delta de estresse (escala 0..100 da engine) que o cao-cuidador aplica a CADA animal do curral por passada de calma.
+-- Negativo = acalma; positivo = ESTRESSA (custo simetrico do cao-predador). Investimento: so cao treinado + leal +
+-- calmo acalma; cao desleal ou apavorado assusta o rebanho; cao de Pastoreio 0 e neutro (predador destreinado, sem efeito).
+function CD.effectiveCalmStrength(animal)
+    if CD.isDisloyal(animal) then return CD.CARE_PREDATOR_STRESS or 2 end
+    local dogStress = CD.getStress(animal)
+    if dogStress >= (CD.breedPanicThreshold(animal) or 0.85) then return CD.CARE_PREDATOR_STRESS or 2 end
+    local l = lvl(animal, "herding")
+    if l <= 0 then return 0 end
+    local loy = CD.loyalty(animal) / CD.TRUST_MAX
+    -- calmMult da raca (border collie 1.5, ausente = 1): aplicado SO neste ramo, o que qualifica. Nos early-returns
+    -- acima o cao e predador/neutro, e um collie desleal nao pode assustar o rebanho MAIS que as outras racas.
+    local breedMult = (CD.getBreedDef(animal).calmMult or 1)
+    local calm = (CD.CARE_CALM_BASE or 6) * (l / CD.SKILL_MAX_LEVEL) * (0.5 + 0.5 * loy) * (1 - dogStress) * breedMult
+    return -calm
+end
+
+-- Teto de estresse (0..100) que o cuidador consegue SEGURAR no rebanho (clamp duro por passada). 100 = nao segura nada.
+-- Por que um clamp e nao so o decremento acima: a fuga de zumbi na engine e DETERMINISTICA (BaseAnimalBehavior.spotted
+-- chama fleeFromChr a <=6 tiles, sem sorteio e sem acceptance) e o spotted RE-INJETA estresse a cada tick a <=10 tiles.
+-- Nao da pra impedir a fuga do Lua (timerFleeAgain/spottedChr sao privados; setBlockMovement nao intercepta fuga; o unico
+-- desligamento e adef.fleeZombies, global por TIPO no load). O que da pra fazer e impedir o PANICO: stress>50 forca fugir
+-- CORRENDO (fleeFromChr:1268) e stress>40 derruba leite/la. Segurando abaixo disso o gado se afasta ANDANDO e volta rapido.
+function CD.effectiveCalmCap(animal)
+    if CD.isDisloyal(animal) then return 100 end
+    if CD.getStress(animal) >= (CD.breedPanicThreshold(animal) or 0.85) then return 100 end
+    local l = lvl(animal, "herding")
+    if l <= 0 then return 100 end
+    local loy = CD.loyalty(animal) / CD.TRUST_MAX
+    local floor = CD.CARE_CALM_CAP_MIN or 40
+    -- Mesmo calmMult da raca, aplicado ao termo de REDUCAO: o collie chega perto do piso com menos nivel/lealdade.
+    -- O piso continua sendo o limite duro (o clamp abaixo), entao a raca acelera, nao quebra o teto.
+    local breedMult = (CD.getBreedDef(animal).calmMult or 1)
+    local cap = 100 - (100 - floor) * (l / CD.SKILL_MAX_LEVEL) * (0.5 + 0.5 * loy) * breedMult
+    if cap < floor then cap = floor end
+    return cap
 end
 
 -- Tiles somados a visao de coleta do dono enquanto um companheiro proximo, alimentado e leal esta por perto (Fase F);

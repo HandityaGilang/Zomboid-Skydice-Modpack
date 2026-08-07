@@ -10,6 +10,8 @@
     "Sandbox_CompanionDogs_DogDamageMultiplier_tooltip": "Scales how much damage companion dogs deal to zombies, on top of each breed's power, skill level and Strength gene. 1.0 is the tuned default; higher hits harder, 0 makes their bite harmless. The weak caramelo mutt still can't finish a zombie on its own no matter how high this is set - that is by design.",
     "Sandbox_CompanionDogs_UpkeepEnabled": "Needs & upkeep",
     "Sandbox_CompanionDogs_UpkeepEnabled_tooltip": "Companions need care: feed them to keep hunger, loyalty and stress in check. A neglected dog disobeys.",
+    "Sandbox_CompanionDogs_NeedsRateMultiplier": "Hunger & thirst rate",
+    "Sandbox_CompanionDogs_NeedsRateMultiplier_tooltip": "Scales how fast a companion dog gets hungry and thirsty. 1.0 is the tuned default: a well-fed dog goes from full to starving in about 3 days, and needs water roughly twice as often. Higher means more upkeep, lower means less. 0 freezes hunger and thirst entirely, so the dog never needs food or water again - loyalty still decays, so it will still want your attention. To switch the whole care system off instead, use 'Needs & upkeep'.",
     "Sandbox_CompanionDogs_LoyaltyDecayPerDay": "Loyalty decay per day",
     "Sandbox_CompanionDogs_LoyaltyDecayPerDay_tooltip": "Loyalty points (0-100) a cared-for dog loses each in-game day. Decay is faster while it is hungry or thirsty.",
     "Sandbox_CompanionDogs_SentinelEnabled": "Sentinel: zombie alerts",
@@ -57,5 +59,7 @@
     "Sandbox_CompanionDogs_MaturityDays": "Puppy maturation time (days)",
     "Sandbox_CompanionDogs_MaturityDays_tooltip": "How many in-game days a puppy takes to grow into an adult, keeping its bond, genes and skills. Puppies age only while loaded near a player; 'Pause growth' on a puppy overrides this.",
     "Sandbox_CompanionDogs_BreedChancePerDay": "Breeding chance per day",
-    "Sandbox_CompanionDogs_BreedChancePerDay_tooltip": "Percent chance per in-game day that a nearby adult male and female of the same owner conceive on their own (rolled hourly). Same conditions as manual breeding: fed, loyal, healthy, off cooldown, a free dog slot, breeding not blocked on either. Only while loaded near you. 0 = off."
+    "Sandbox_CompanionDogs_BreedChancePerDay_tooltip": "Percent chance per in-game day that a nearby adult male and female of the same owner conceive on their own (rolled hourly). Same conditions as manual breeding: fed, loyal, healthy, off cooldown, a free dog slot, breeding not blocked on either. Only while loaded near you. 0 = off.",
+    "Sandbox_CompanionDogs_FarmCareEnabled": "Farm care (herding)",
+    "Sandbox_CompanionDogs_FarmCareEnabled_tooltip": "Master switch for the farm care mode. When on, you can assign a dog to care for a designated animal pen: it stays in the pen, calms the herd (reducing stress that lowers milk and wool), and silently drives off nearby zombies, working on its own even when you are away."
 }

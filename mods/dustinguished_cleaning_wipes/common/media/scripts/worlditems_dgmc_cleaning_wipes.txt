@@ -1,0 +1,9 @@
+module DGMC
+{
+    model CleaningWipesModel
+    {
+        mesh = cleaning_wipes_model,
+        texture = cleaning_wipes_world_item,
+        scale = 0.002,
+    }
+}

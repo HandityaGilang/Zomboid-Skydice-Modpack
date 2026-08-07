@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+
+<!--Firefighter Head -->
+    <files>
+		<path>media/clothing/clothingItems/Firefighter_Helmet.xml</path>
+		<guid>43de727a-520e-4753-b309-bd312556871f</guid>
+	</files>
+    <files>
+		<path>media/clothing/clothingItems/Firefighter_Helmet_VisorDown.xml</path>
+		<guid>5351a879-9e4c-4914-a7d1-4216f8697c2c</guid>
+	</files>
+    <files>
+		<path>media/clothing/clothingItems/Firefighter_Helmet_VisorUp.xml</path>
+		<guid>42bad0ff-c592-4a14-a9ce-75685878ae1e</guid>
+	</files>
+
+<!--Firefighter Masks -->
+
+    <files>
+		<path>media/clothing/clothingItems/Firefighter_GasMask_Filter.xml</path>
+		<guid>ec54d414-0664-44d9-9db5-3b8d424c7901</guid>
+	</files>
+
+    <files>
+		<path>media/clothing/clothingItems/Firefighter_GasMask_NoFilter.xml</path>
+		<guid>2b77ab9b-1105-4e06-83e2-eee8d1727f0f</guid>
+	</files>
+
+<!--Firefighter Jacket -->
+    <files>
+        <path>media/clothing/clothingItems/Firefighter_Jacket.xml</path>
+        <guid>80cbf589-84e9-4fdb-b513-6138a772ca89</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Firefighter_Jacket_Closed_SleevesUp.xml</path>
+        <guid>cef062e1-3ea0-40ca-9060-24e1d1be6f75</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Firefighter_Jacket_Open.xml</path>
+        <guid>110307c4-680d-4909-a262-54b376127a6c</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Firefighter_Jacket_Open_SleevesUp.xml</path>
+        <guid>24a71d89-dac4-4767-82b2-cee43382221d</guid>
+    </files>
+
+<!--Firefighter Shoulder Pads -->
+    <files>
+        <path>media/clothing/clothingItems/Firefighter_ShoulderPads_Patriot.xml</path>
+        <guid>a365265b-10a3-40b4-905a-2ddbbach184o</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Firefighter_ShoulderPads_Vanguard.xml</path>
+        <guid>feabdb6c-6610-8295-921d-45255476ce6f</guid>
+    </files>
+
+<!--Firefighter Elbow Pads -->
+    <files>
+		<path>media/clothing/clothingItems/Firefighter_ElbowPads.xml</path>
+		<guid>02f153ba-01d6-4c7d-a10c-fe1bad3a29d0</guid>
+	</files>
+
+<!--Firefighter Knee Pads -->
+    <files>
+		<path>media/clothing/clothingItems/Firefighter_KneePads.xml</path>
+		<guid>99daea0a-b2ce-41d0-8f9e-7ab4f02246e9</guid>
+	</files>
+    <files>
+		<path>media/clothing/clothingItems/Firefighter_HeavyKneePads.xml</path>
+		<guid>605cc284-d148-4d47-aa55-640457029d6a</guid>
+	</files>
+
+<!--Firefighter Armoured Vests --> 
+    <files>
+		<path>media/clothing/clothingItems/Firefighter_BulletproofVest_Patriot.xml</path>
+		<guid>a438c944-4fd1-472d-b703-7888ea0c4235</guid>
+	</files>
+
+<!--Firefighter Strap --> 
+    <files>
+		<path>media/clothing/clothingItems/Firefighter_Strap.xml</path>
+		<guid>2f3e9bff-1af4-4846-83d2-658b36759359</guid>
+	</files>
+
+
+<!--Firefighter Gloves -->
+    <files>
+        <path>media/clothing/clothingItems/Firefighter_Gloves.xml</path>
+        <guid>b00dd14d-8f5c-4814-9c39-1742f5a2ceea</guid>
+    </files>
+
+<!--Firefighter Pants -->
+    <files>
+        <path>media/clothing/clothingItems/Firefighter_Pants.xml</path>
+        <guid>95a93ad1-484f-436d-8216-82564f185af5</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Firefighter_Pants_Tuck.xml</path>
+        <guid>df6a6e79-ac95-4562-a13d-f7e450ff0ee4</guid>
+    </files>
+
+<!--Firefighter Boots -->
+    <files>
+        <path>media/clothing/clothingItems/Firefighter_Boots.xml</path>
+        <guid>122a92a5-0ebe-46f8-b9ef-b40268602580</guid>
+    </files>
+
+<!--Firefighter Backpack -->
+
+    <files>
+        <path>media/clothing/clothingItems/Firefighter_GasTankBackpack.xml</path>
+        <guid>4e437f95-3547-4389-a2da-d0056a37c46e</guid>
+    </files>
+</fileGuidTable>

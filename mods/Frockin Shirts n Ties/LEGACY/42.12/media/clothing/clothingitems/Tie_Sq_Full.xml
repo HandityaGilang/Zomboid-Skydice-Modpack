@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_tie</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\bob_tie</m_FemaleModel>
+	<m_GUID>3539bfa7-668d-4b8f-9df9-1f1c2c4c5f28</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\Ties_Sq\Tie_Sq_1</textureChoices>
+	<textureChoices>clothes\Ties_Sq\Tie_Sq_2</textureChoices>
+	<textureChoices>clothes\Ties_Sq\Tie_Sq_3</textureChoices>
+	<textureChoices>clothes\Ties_Sq\Tie_Sq_4</textureChoices>
+	<textureChoices>clothes\Ties_Sq\Tie_Sq_5</textureChoices>
+	<textureChoices>clothes\Ties_Sq\Tie_Sq_6</textureChoices>
+	<textureChoices>clothes\Ties_Sq\Tie_Sq_7</textureChoices>
+	<textureChoices>clothes\Ties_Sq\Tie_Sq_8</textureChoices>
+	<textureChoices>clothes\Ties_Sq\Tie_Sq_9</textureChoices>
+	<textureChoices>clothes\Ties_Sq\Tie_Sq_10</textureChoices>
+	<textureChoices>clothes\Ties_Sq\Tie_Sq_A1</textureChoices>
+	<textureChoices>clothes\Ties_Sq\Tie_Sq_A2</textureChoices>
+	<textureChoices>clothes\Ties_Sq\Tie_Sq_A3</textureChoices>
+	<textureChoices>clothes\Ties_Sq\Tie_Sq_A4</textureChoices>	
+	<textureChoices>clothes\Ties_Sq\Tie_Sq_A5</textureChoices>
+	<textureChoices>clothes\Ties_Sq\Tie_Sq_A6</textureChoices>
+	<textureChoices>clothes\Ties_Sq\Tie_Sq_A7</textureChoices>
+</clothingItem>

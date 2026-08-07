@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Overshirts\Overshirt_M_O</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Overshirts\Overshirt_F_O</m_FemaleModel>
+	<m_GUID>15909405-13db-4384-bf75-f02c0c2b8fb4</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>media/textures/Clothes/Masks/Masks_Underlay_OpenJacket</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Masks/LongCoat</m_UnderlayMasksFolder>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Vest\Denim_Jacket_A_O</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Vest\Denim_Jacket_B_O</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Vest\DenimBlue_Jacket_A_O</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Vest\DenimBlue_Jacket_B_O</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Vest\DenimBluer_Jacket_A_O</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Vest\DenimBluer_Jacket_B_O</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Vest\DenimBluest_Jacket_A_O</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Vest\DenimBluest_Jacket_B_O</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Vest\DenimBlack_Jacket_A_O</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets_Vest\DenimBlack_Jacket_B_O</textureChoices>
+</clothingItem>

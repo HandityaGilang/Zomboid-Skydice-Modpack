@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\TrenchCoat_Bob.fbx</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\Cropped_Jacket.fbx</m_FemaleModel>
+	<m_GUID>c9f63327-3a02-47d0-89aa-2068c50b0963</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<textureChoices>clothes\Material_Leather\TrenchCoat\TrenchCoat_1</textureChoices>
+</clothingItem>	

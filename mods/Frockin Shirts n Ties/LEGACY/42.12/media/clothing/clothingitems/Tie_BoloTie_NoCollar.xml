@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_tie</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\bob_tie</m_FemaleModel>
+	<m_GUID>ac17933b-acf7-4aa6-8dcb-e489c7fbd4aa</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\Ties_Bolo\Bolo_Tie_noneck_1</textureChoices>
+	<textureChoices>clothes\Ties_Bolo\Bolo_Tie_noneck_2</textureChoices>
+	<textureChoices>clothes\Ties_Bolo\Bolo_Tie_noneck_3</textureChoices>
+	<textureChoices>clothes\Ties_Bolo\Bolo_Tie_noneck_4</textureChoices>
+	<textureChoices>clothes\Ties_Bolo\Bolo_Tie_noneck_5</textureChoices>
+	<textureChoices>clothes\Ties_Bolo\Bolo_Tie_noneck_6</textureChoices>
+	<textureChoices>clothes\Ties_Bolo\Bolo_Tie_noneck_A1</textureChoices>
+	<textureChoices>clothes\Ties_Bolo\Bolo_Tie_noneck_A2</textureChoices>
+</clothingItem>

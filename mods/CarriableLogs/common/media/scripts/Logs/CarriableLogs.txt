@@ -1,0 +1,32 @@
+module Base
+{   
+    item Log
+    {
+        ReplaceInPrimaryHand = Log1StackHandsRight holdingbagright,
+        ReplaceInSecondHand = Log1StackHandsLeft holdingbagleft,
+    }
+
+    item LogStacks2
+    {
+        ReplaceInPrimaryHand = Log2StackHandsRight holdingbagright,
+        ReplaceInSecondHand = Log2StackHandsLeft holdingbagleft,
+    }
+
+
+    item LogStacks3
+    {
+        ReplaceInPrimaryHand = Log3StackHandsRight holdingbagright,
+        ReplaceInSecondHand = Log3StackHandsLeft holdingbagleft,
+    }
+
+    item LogStacks4
+    {
+        ReplaceInPrimaryHand = Log4StackHandsRight holdingbagright,
+        ReplaceInSecondHand = Log4StackHandsLeft holdingbagleft,
+    }
+    
+}
+
+
+
+         

@@ -1,0 +1,6 @@
+Recipes_FR =
+{
+    Recipe_FruitDriedTrex = "Faire un fruit séché",
+    Recipe_Makebakingtraydriedfruittrex = "Faire une plaque de fruit à sécher",
+    Recipe_Get4driedfruittrex = "Faire 4 fruits séchés",
+}

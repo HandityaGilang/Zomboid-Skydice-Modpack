@@ -10,6 +10,8 @@
     "Sandbox_CompanionDogs_DogDamageMultiplier_tooltip": "コンパニオンドッグがゾンビに与えるダメージを、品種の強さ・スキルレベル・筋力遺伝子に上乗せして調整します。1.0が調整済みの初期値で、高いほど強く噛みつき、0で噛みつきは無害になります。この値をどれだけ上げても、非力な野良のカラーメロは単独でゾンビにとどめを刺せません。これは仕様です。",
     "Sandbox_CompanionDogs_UpkeepEnabled": "欲求と世話",
     "Sandbox_CompanionDogs_UpkeepEnabled_tooltip": "相棒には世話が必要です。餌をやることで空腹、忠誠度、ストレスを管理してください。放置された犬は言うことを聞かなくなります。",
+    "Sandbox_CompanionDogs_NeedsRateMultiplier": "空腹と喉の渇きの速さ",
+    "Sandbox_CompanionDogs_NeedsRateMultiplier_tooltip": "相棒の犬が空腹や喉の渇きを覚える速さを調整します。1.0 が調整済みの初期値で、十分に食べた犬は約3日で満腹から空腹になり、水は約2倍の頻度で必要になります。高くするほど世話が大変になり、低くするほど楽になります。0 にすると空腹と喉の渇きが完全に止まり、犬は二度と食事も水も必要としません - ただし忠誠度は変わらず下がるので、かまってもらいたがります。世話のシステム全体を切りたい場合は「欲求と世話」を使ってください。",
     "Sandbox_CompanionDogs_LoyaltyDecayPerDay": "1日あたりの忠誠度減少",
     "Sandbox_CompanionDogs_LoyaltyDecayPerDay_tooltip": "世話をされている犬がゲーム内1日ごとに失う忠誠度ポイント（0～100）です。空腹や喉の渇きがあると減少が速くなります。",
     "Sandbox_CompanionDogs_SentinelEnabled": "見張り：ゾンビ警告",
@@ -57,5 +59,7 @@
     "Sandbox_CompanionDogs_MaturityDays": "子犬の成長期間（日）",
     "Sandbox_CompanionDogs_MaturityDays_tooltip": "子犬が絆・遺伝子・スキルを保ったまま成犬になるまでのゲーム内日数です。子犬はプレイヤーの近くで読み込まれている間だけ成長します。子犬への「成長を止める」が優先されます。",
     "Sandbox_CompanionDogs_BreedChancePerDay": "1日あたりの繁殖確率",
-    "Sandbox_CompanionDogs_BreedChancePerDay_tooltip": "同じ飼い主の近くにいる成犬のオスとメスが自然に受胎する、ゲーム内1日あたりの確率（％、1時間ごとに判定）。手動繁殖と同じ条件：満腹・忠実・健康・クールダウン外・空き枠あり・どちらも繁殖が禁止されていないこと。プレイヤーの近くで読み込まれている間だけ有効。0 = 無効。"
+    "Sandbox_CompanionDogs_BreedChancePerDay_tooltip": "同じ飼い主の近くにいる成犬のオスとメスが自然に受胎する、ゲーム内1日あたりの確率（％、1時間ごとに判定）。手動繁殖と同じ条件：満腹・忠実・健康・クールダウン外・空き枠あり・どちらも繁殖が禁止されていないこと。プレイヤーの近くで読み込まれている間だけ有効。0 = 無効。",
+    "Sandbox_CompanionDogs_FarmCareEnabled": "Farm care (herding)",
+    "Sandbox_CompanionDogs_FarmCareEnabled_tooltip": "Master switch for the farm care mode. When on, you can assign a dog to care for a designated animal pen: it stays in the pen, calms the herd (reducing stress that lowers milk and wool), and silently drives off nearby zombies, working on its own even when you are away."
 }

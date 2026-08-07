@@ -1,0 +1,49 @@
+module Trex
+{
+    imports
+	{
+		Base
+	}
+
+    craftRecipe FruitDriedTrex
+     {
+        time     = 86400,
+	    tags     = DryingRackHerb,
+        category = Farming,
+        overlayStyle = Herb,		
+        inputs
+        {
+            item 1 [Base.Pear;Base.Apple;Base.Banana;Base.Cherry;Base.Lemon;Base.Lime;Base.Mango;Base.Orange;Base.Peach;Base.Pineapple;Base.Grapefruit;Base.Grapes;Base.Strewberrie;Base.BerryBlack;Base.BerryGeneric1;Base.BerryGeneric2;Base.BerryGeneric3;Base.BerryGeneric4;Base.BerryGeneric5;Base.HollyBerry;Base.BeautyBerry;Base.WinterBerry] mappers[fruitType] flags[InheritFoodAge;ItemCount] mode:destroy,
+        }
+		outputs
+		{
+			item 1 mapper:fruitType,
+		}
+		itemMapper fruitType
+		{
+			Trex.PeardriedTrex        = Base.Pear,
+			Trex.AppledriedTrex       = Base.Apple,
+			Trex.BananadriedTrex      = Base.Banana,
+			Trex.CherrydriedTrex      = Base.Cherry,
+			Trex.LemondriedTrex       = Base.Lemon,
+			Trex.LimedriedTrex        = Base.Lime,
+			Trex.MangodriedTrex       = Base.Mango,
+			Trex.OrangedriedTrex      = Base.Orange,
+			Trex.PeachdriedTrex       = Base.Peach,
+			Trex.PineappledriedTrex   = Base.Pineapple,
+			Trex.GrapefruitdriedTrex  = Base.Grapefruit,
+			Trex.GrapesdriedTrex      = Base.Grapes,
+			Trex.StrewberriedriedTrex = Base.Strewberrie,	
+			Trex.BerrydriedTrex       = Base.BerryBlack,
+			Trex.BerrydriedTrex       = Base.BerryGeneric1,
+			Trex.BerrydriedTrex       = Base.BerryGeneric2,
+			Trex.BerrydriedTrex       = Base.BerryGeneric3,
+			Trex.BerrydriedTrex       = Base.BerryGeneric4,			
+			Trex.BerrydriedTrex       = Base.BerryGeneric5,		
+			Trex.BerrydriedTrex       = Base.HollyBerry,
+			Trex.BerrydriedTrex       = Base.BeautyBerry,			
+			Trex.BerrydriedTrex       = Base.WinterBerry,				
+		}
+	}
+	 	 
+}

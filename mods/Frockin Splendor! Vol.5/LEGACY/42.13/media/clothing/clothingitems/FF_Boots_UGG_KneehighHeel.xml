@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes\Boots_Heel\BootsRE_KneeHighHeel_M.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\Boots_Heel\BootsRE_KneeHighHeel_F.fbx</m_FemaleModel>
+	<m_GUID>a218ac71-9c22-4489-b2fc-ff686f99c9b2</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>	
+	<m_Masks>8</m_Masks>	
+	<m_Masks>10</m_Masks>
+	<m_Masks>11</m_Masks>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Masks/Masks_MediumBoots_3</m_UnderlayMasksFolder>
+	<textureChoices>clothes\Shoes\Boots\Boots_Ugg_Kneehigh_0</textureChoices>
+	<textureChoices>clothes\Shoes\Boots\Boots_Ugg_Kneehigh_1</textureChoices>
+	<textureChoices>clothes\Shoes\Boots\Boots_Ugg_Kneehigh_2</textureChoices>
+	<textureChoices>clothes\Shoes\Boots\Boots_Ugg_Kneehigh_3</textureChoices>
+	<textureChoices>clothes\Shoes\Boots\Boots_Ugg_Kneehigh_4</textureChoices>
+	<textureChoices>clothes\Shoes\Boots\Boots_Ugg_Kneehigh_5</textureChoices>
+	<textureChoices>clothes\Shoes\Boots\Boots_Ugg_Kneehigh_6</textureChoices>
+	<textureChoices>clothes\Shoes\Boots\Boots_Ugg_Kneehigh_7</textureChoices>
+
+</clothingItem>

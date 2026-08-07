@@ -10,6 +10,8 @@
     "Sandbox_CompanionDogs_DogDamageMultiplier_tooltip": "Regola quanto danno i cani compagni infliggono agli zombie, oltre alla potenza della razza, al livello di abilità e al gene di Forza. 1.0 è il valore calibrato; più alto colpisce più forte, 0 rende il morso innocuo. Il debole bastardino caramelo comunque non finisce uno zombie da solo per quanto alto sia questo valore: è voluto.",
     "Sandbox_CompanionDogs_UpkeepEnabled": "Bisogni e manutenzione",
     "Sandbox_CompanionDogs_UpkeepEnabled_tooltip": "I compagni hanno bisogno di cure.",
+    "Sandbox_CompanionDogs_NeedsRateMultiplier": "Ritmo di fame e sete",
+    "Sandbox_CompanionDogs_NeedsRateMultiplier_tooltip": "Regola la velocità con cui un cane compagno diventa affamato e assetato. 1.0 è il valore bilanciato predefinito: un cane ben nutrito passa da sazio ad affamato in circa 3 giorni, e ha bisogno d'acqua circa il doppio delle volte. Valori più alti richiedono più cure, valori più bassi meno. 0 congela del tutto fame e sete, e il cane non avrà mai più bisogno di cibo o acqua - la lealtà continua comunque a calare, quindi vorrà lo stesso le tue attenzioni. Per disattivare invece l'intero sistema di cure, usa 'Bisogni e manutenzione'.",
     "Sandbox_CompanionDogs_LoyaltyDecayPerDay": "Calo lealtà giornaliero",
     "Sandbox_CompanionDogs_LoyaltyDecayPerDay_tooltip": "Punti lealtà persi al giorno.",
     "Sandbox_CompanionDogs_SentinelEnabled": "Sentinella attiva",
@@ -57,5 +59,7 @@
     "Sandbox_CompanionDogs_MaturityDays": "Tempo di maturazione del cucciolo (giorni)",
     "Sandbox_CompanionDogs_MaturityDays_tooltip": "Quanti giorni di gioco un cucciolo impiega a diventare adulto, mantenendo legame, geni e abilità. I cuccioli invecchiano solo quando caricati vicino a un giocatore; 'Ferma la crescita' su un cucciolo ha la precedenza.",
     "Sandbox_CompanionDogs_BreedChancePerDay": "Probabilità di accoppiamento al giorno",
-    "Sandbox_CompanionDogs_BreedChancePerDay_tooltip": "Probabilità in % per giorno di gioco che un maschio e una femmina adulti dello stesso proprietario, vicini, concepiscano da soli (tirata ogni ora). Stesse condizioni dell'accoppiamento manuale: nutriti, leali, sani, fuori cooldown, slot libero, accoppiamento non bloccato. Solo quando caricati vicino a te. 0 = disattivato."
+    "Sandbox_CompanionDogs_BreedChancePerDay_tooltip": "Probabilità in % per giorno di gioco che un maschio e una femmina adulti dello stesso proprietario, vicini, concepiscano da soli (tirata ogni ora). Stesse condizioni dell'accoppiamento manuale: nutriti, leali, sani, fuori cooldown, slot libero, accoppiamento non bloccato. Solo quando caricati vicino a te. 0 = disattivato.",
+    "Sandbox_CompanionDogs_FarmCareEnabled": "Farm care (herding)",
+    "Sandbox_CompanionDogs_FarmCareEnabled_tooltip": "Master switch for the farm care mode. When on, you can assign a dog to care for a designated animal pen: it stays in the pen, calms the herd (reducing stress that lowers milk and wool), and silently drives off nearby zombies, working on its own even when you are away."
 }

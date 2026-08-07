@@ -1,0 +1,38 @@
+module Base
+{
+    item PoliceDossierPage1
+    {
+        DisplayName = Police Dossier Page 1,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Icon = PoliceDossierPage,
+        Weight = 0.1,
+        WorldStaticModel = Magazine,
+        Tags = FitsWallet,
+        Tooltip = Tooltip_DMD_PolicePage1,
+    }
+
+    item PoliceDossierPage2
+    {
+        DisplayName = Police Dossier Page 2,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Icon = PoliceDossierPage,
+        Weight = 0.1,
+        WorldStaticModel = Magazine,
+        Tags = FitsWallet,
+        Tooltip = Tooltip_DMD_PolicePage2,
+    }
+
+    item PoliceDossierComplete
+    {
+        DisplayName = Police Dossier,
+        DisplayCategory = Literature,
+        ItemType = base:normal,
+        Icon = PoliceDossierComplete,
+        Weight = 0.2,
+        WorldStaticModel = Magazine,
+        Tags = FitsWallet,
+        Tooltip = Tooltip_DMD_PoliceComplete,
+    }
+}

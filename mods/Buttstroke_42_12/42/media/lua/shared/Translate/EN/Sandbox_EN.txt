@@ -1,0 +1,8 @@
+Sandbox_EN = {
+    Sandbox_ButtstrokeOption = "Gun Stock Attack Options",
+    Sandbox_ButtstrokeOption_Damage = "Damage",
+    Sandbox_ButtstrokeOption_EnduranceLost = "Player Endurance Lost Per Hit Zombie",
+    Sandbox_ButtstrokeOption_WeaponConditionLost = "Weapon Condition Lost Per Hit Zombie",
+    Sandbox_ButtstrokeOption_RifleSpeed = "Two Handed Gun Shove Speed",
+    Sandbox_ButtstrokeOption_PistolSpeed = "One Handed Gun Shove Speed",
+}

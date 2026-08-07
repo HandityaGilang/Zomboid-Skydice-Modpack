@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>57beb99d-b14d-441e-bbbd-f3ac40ef5e68</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Leather\Leather_SupStockings</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_SupStockings_Alt</m_BaseTextures>
+</clothingItem>

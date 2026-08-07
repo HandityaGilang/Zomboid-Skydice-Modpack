@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>c7b7cbc2-3a69-41f7-90d8-228ed398560f</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Leather\Leather_MiniDress</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_MiniDress_Alt</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_MiniDress_Alt2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_MiniDress_Alt3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_MiniDress_Alt4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_MiniDress_Alt5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_MiniDress_Alt6</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_MiniDress_Alt7</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_MiniDress_Alt8</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_MiniDress_Alt9</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_MiniDress_Alt10</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_MiniDress_Alt11</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_MiniDress_Alt12</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressRed</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressRed_Alt</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressRed_Alt2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressRed_Alt3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressRed_Alt4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressRed_Alt5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressRed_Alt6</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressRed_Alt7</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressRed_Alt8</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressRed_Alt9</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressRed_Alt10</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressRed_Alt11</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressRed_Alt12</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressWhite</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressWhite_Alt</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressWhite_Alt2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressWhite_Alt3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressWhite_Alt4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressWhite_Alt5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressWhite_Alt6</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressWhite_Alt7</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressWhite_Alt8</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressWhite_Alt9</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressWhite_Alt10</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressWhite_Alt11</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressWhite_Alt12</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressPurp</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressPurp_Alt</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressPurp_Alt2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressPurp_Alt3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressPurp_Alt4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressPurp_Alt5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressPurp_Alt6</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressPurp_Alt7</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressPurp_Alt8</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressPurp_Alt9</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressPurp_Alt10</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressPurp_Alt11</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Coloured\Leather_MiniDressPurp_Alt12</m_BaseTextures>
+</clothingItem>

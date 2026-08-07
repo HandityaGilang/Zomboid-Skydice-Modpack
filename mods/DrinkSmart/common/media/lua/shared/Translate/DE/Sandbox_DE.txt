@@ -1,0 +1,5 @@
+Sandbox_DE = {
+    Sandbox_DrinkSmart = "Drink Smart",
+    Sandbox_DrinkSmart_AllowWaterDrinkLowThirst = "Wasser trinken bei geringem Durst erlauben",
+    Sandbox_DrinkSmart_AllowWaterDrinkLowThirst_tooltip = "Wenn aktiviert, zeigen Wasserquellen das Trink-Menü auch bei weniger als 10% Durst (Inventar/Container/Boden-Panel).",
+}

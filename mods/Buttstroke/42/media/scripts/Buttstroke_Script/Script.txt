@@ -1,0 +1,20 @@
+/* By SportXAI */
+module Base
+{
+	sound Buttstroke_Swing
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/Buttstroke_Sound/Swing.wav,
+		}
+	}
+	sound Buttstroke_Hit
+	{
+		category = Player,
+		clip
+		{
+			file = media/sound/Buttstroke_Sound/Hit.wav,
+		}			
+	}
+}

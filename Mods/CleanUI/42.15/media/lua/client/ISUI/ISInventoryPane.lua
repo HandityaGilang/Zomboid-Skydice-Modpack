@@ -16,22 +16,41 @@ ISInventoryPaneDraggedItems = {}
 local DraggedItems = ISInventoryPaneDraggedItems
 
 local function CleanUI_safeIsItemAllowed(container, item)
+    -- Keep this hot-path check pcall-free.
+    -- Some inventory render hooks can create nested Java/Lua calls where pcall itself
+    -- triggers Kahlua return-frame issues. Vanilla also calls isItemAllowed directly.
     if not container or not item then
         return false
     end
-    local ok, result = pcall(function()
-        return container:isItemAllowed(item)
-    end)
-    if ok then
-        return result == true
-    end
-    return false
+    return container:isItemAllowed(item) == true
 end
 
 
 local favoriteRecipeInputStarSize = 16
 local normalTextColor = {r=0.7, g=0.7, b=0.7, a=1.0}
 local unwantedTextColor = {r=0.5, g=0.5, b=0.5, a=0.65}
+
+local CleanUI_invalidRefreshContainerLogged = false
+
+local function CleanUI_isValidInventoryContainerReference(container)
+    return container ~= nil and tostring(container) ~= "null"
+end
+
+local function CleanUI_logInvalidRefreshContainer(panel)
+    if CleanUI_invalidRefreshContainerLogged then
+        return
+    end
+    CleanUI_invalidRefreshContainerLogged = true
+    local pageName = "unknown"
+    if panel and panel.parent then
+        if panel.parent.onCharacter then
+            pageName = "inventory"
+        else
+            pageName = "loot"
+        end
+    end
+    print("[CleanUI] Skipped refreshContainer with invalid inventory container on " .. pageName .. " panel.")
+end
 
 local function predicateNotEmpty(item)
 	return item:getCurrentUsesFloat() > 0
@@ -77,19 +96,11 @@ local function CleanUI_logSkippedInventoryTransfer(reason, item, srcContainer, d
 end
 
 local function CleanUI_transferGuardIsItemAllowed(container, item)
-    -- Keep item-allowed checks safe for unusual vehicle, seat, or modded containers.
+    -- Match vanilla's direct validation path and avoid pcall in transfer hot paths.
     if not container or not item then
         return false
     end
-
-    local ok, result = pcall(function()
-        return container:isItemAllowed(item)
-    end)
-    if ok then
-        return result == true
-    end
-
-    return false
+    return container:isItemAllowed(item) == true
 end
 
 local function CleanUI_queueTimedActionSafely(action, reason, item, srcContainer, destContainer)
@@ -101,14 +112,9 @@ local function CleanUI_queueTimedActionSafely(action, reason, item, srcContainer
         return false
     end
 
-    local addOk, addResult = pcall(function()
-        return ISTimedActionQueue.add(action)
-    end)
-    if not addOk then
-        CleanUI_logSkippedInventoryTransfer(reason .. " queue error " .. tostring(addResult), item, srcContainer, destContainer)
-        return false
-    end
-
+    -- Queue directly, as vanilla does. Wrapping ISTimedActionQueue.add() in pcall can
+    -- interact badly with nested Java/Lua return values when other mods hook the same UI path.
+    ISTimedActionQueue.add(action)
     return true
 end
 
@@ -296,6 +302,8 @@ function ISInventoryPane:new (x, y, width, height, inventory, zoom)
     o.noFavoriteRecipeInputStar = getTexture("media/ui/inventoryPanes/nocraft.png")
     o.favoriteRecipeInputStar = getTexture("media/ui/inventoryPanes/craftok.png")
     o.columnResizerIcon = getTexture("media/ui/CleanUI/ICON/Icon_ColumnResizer.png")
+    o.sortAscIcon = getTexture("media/ui/CleanUI/ICON/Icon_AscendentArrow.png")
+    o.sortDescIcon = getTexture("media/ui/CleanUI/ICON/Icon_DescendentArrow.png")
     o.equippedCollapsed = CleanUIConfig.getConfig()["hideEquipped"] or false
    return o
 end
@@ -304,10 +312,846 @@ end
 -- Create Children
 -- ----------------------------------------------------------------------------------------------------- --
 
+
+local CleanUI_equipmentUISettingsModuleMissing = false
+local CleanUI_equipmentUIModActive = nil
+
+local function CleanUI_isEquipmentUIModActive()
+    -- Avoid requiring Equipment UI files when the optional mod is not enabled.
+    -- In B42.20, require("EquipmentUI/Settings") logs a warning if the file is absent,
+    -- even when wrapped in pcall.
+    if CleanUI_equipmentUIModActive ~= nil then
+        return CleanUI_equipmentUIModActive
+    end
+
+    CleanUI_equipmentUIModActive = false
+
+    if type(getActivatedMods) == "function" then
+        local activeMods = getActivatedMods()
+        if activeMods then
+            CleanUI_equipmentUIModActive = activeMods:contains("EQUIPMENT_UI") or activeMods:contains("\EQUIPMENT_UI")
+        end
+    end
+
+    return CleanUI_equipmentUIModActive
+end
+
+local function CleanUI_equipmentUIHiddenOptionToBool(value)
+    -- Accept booleans, strings, and numeric values returned by Equipment UI settings.
+    return value == true or value == 1 or value == "1" or value == "true"
+end
+
+local function CleanUI_isEquipmentUIHidingEquippedItems()
+    -- Detect Equipment UI's own Hide Equipped Items setting without taking a hard dependency on that mod.
+    local settings = rawget(_G, "EQUIPMENT_UI_SETTINGS")
+
+    if not settings and not CleanUI_equipmentUISettingsModuleMissing and type(require) == "function" and CleanUI_isEquipmentUIModActive() then
+        local ok, result = pcall(require, "EquipmentUI/Settings")
+        if ok and type(result) == "table" then
+            settings = result
+        else
+            CleanUI_equipmentUISettingsModuleMissing = true
+        end
+    end
+
+    if type(settings) ~= "table" then
+        return false
+    end
+
+    return CleanUI_equipmentUIHiddenOptionToBool(settings.HIDE_EQUIPPED_ITEMS)
+end
+
+local function CleanUI_shouldSuppressEquippedItemsHeader(self)
+    -- Only let Equipment UI suppress the CleanUI header in the player's main inventory pane.
+    if not self or not self.parent or not self.parent.onCharacter then
+        return false
+    end
+
+    local playerObj = getSpecificPlayer(self.player)
+    if not playerObj or not self.inventory or self.inventory ~= playerObj:getInventory() then
+        return false
+    end
+
+    return CleanUI_isEquipmentUIHidingEquippedItems()
+end
+
+local function CleanUI_weightOptionToBool(value)
+    -- Accept booleans, strings, and numeric values returned by ModOptions.
+    return value == true or value == 1 or value == "1" or value == "true"
+end
+
+local function CleanUI_cacheWeightColumnMetrics(self, cacheKey, now, value)
+    -- Store nil and non-nil weight metrics to avoid repeated measurements in one render burst.
+    self._cleanUIWeightMetricsCache = {
+        key = cacheKey,
+        time = now,
+        value = value,
+        hasValue = true,
+    }
+    return value
+end
+
+local function CleanUI_isWeightColumnEnabled()
+    -- Keep this feature owned by CleanUI ModOptions, with a safe fallback if ModOptions is unavailable.
+    if type(CleanUI_shouldShowWeightColumn) == "function" then
+        local ok, value = pcall(CleanUI_shouldShowWeightColumn)
+        if ok then
+            return CleanUI_weightOptionToBool(value)
+        end
+    end
+    return false
+end
+
+local function CleanUI_truncateForWeightColumn(text, width, font)
+    -- Use the truncation helper available in the current branch.
+    if NeatTool and type(NeatTool.truncateText) == "function" then
+        return NeatTool.truncateText(text, width, font)
+    end
+    if CleanUI and type(CleanUI.truncateText) == "function" then
+        return CleanUI.truncateText(text, width, font)
+    end
+    return text
+end
+
+local function CleanUI_getWeightColumnMaxTextWidth(self)
+    -- Reserve enough room for common item and stack weights without recomputing text width every row.
+    local cacheKey = tostring(self.font)
+    if self.cleanUIWeightTextWidthCache and self.cleanUIWeightTextWidthCache.fontKey == cacheKey then
+        return self.cleanUIWeightTextWidthCache.value
+    end
+
+    local samples = { "0.00", "99.99", "999.99" }
+    local maxWidth = 0
+    for _, value in ipairs(samples) do
+        maxWidth = math.max(maxWidth, getTextManager():MeasureStringX(self.font, value))
+    end
+
+    maxWidth = math.floor(maxWidth + self.padding * 2 + 8)
+    maxWidth = math.max(46, maxWidth)
+
+    self.cleanUIWeightTextWidthCache = {
+        fontKey = cacheKey,
+        value = maxWidth,
+    }
+    return maxWidth
+end
+
+local function CleanUI_getWeightColumnMetrics(self, scrollBarWid)
+    -- Reserve a right-side weight column inside the Category area when the option is enabled.
+    local now = getTimestampMs and getTimestampMs() or 0
+    local cacheKey = tostring(self.width) .. "|" .. tostring(self.column3) .. "|" .. tostring(self.padding)
+        .. "|" .. tostring(scrollBarWid) .. "|" .. tostring(self.font) .. "|" .. tostring(self.cleanUIWeightColumnWidth)
+    local cache = self._cleanUIWeightMetricsCache
+    if cache and cache.hasValue and cache.key == cacheKey and (now == 0 or (now - cache.time) < 250) then
+        return cache.value
+    end
+
+    if not CleanUI_isWeightColumnEnabled() then
+        return CleanUI_cacheWeightColumnMetrics(self, cacheKey, now, nil)
+    end
+
+    local contentRight = self.width - self.padding - scrollBarWid
+    local categoryLeft = self.column3 + self.padding
+    local availableWidth = math.max(0, contentRight - categoryLeft)
+    local minCategoryWidth = 60
+    local maxAutoWeightWidth = CleanUI_getWeightColumnMaxTextWidth(self)
+    local maxAvailableWeightWidth = math.floor(math.max(0, availableWidth - minCategoryWidth - self.padding))
+    local weightWidth = maxAutoWeightWidth
+    local storedWeightWidth = tonumber(self.cleanUIWeightColumnWidth)
+    if storedWeightWidth and storedWeightWidth > 0 then
+        local maxStoredWeightWidth = math.max(maxAutoWeightWidth, math.floor(self.width * 0.35))
+        weightWidth = math.floor(math.max(maxAutoWeightWidth, math.min(storedWeightWidth, maxStoredWeightWidth)))
+    end
+
+    if maxAvailableWeightWidth < maxAutoWeightWidth then
+        return CleanUI_cacheWeightColumnMetrics(self, cacheKey, now, nil)
+    end
+
+    if weightWidth > maxAvailableWeightWidth then
+        -- Use a temporary fitted width for the current panel size, but do not
+        -- overwrite the restored/manual width from CleanUIConfig.txt or layout.ini.
+        -- Startup can call onResize() with transient dimensions before the saved
+        -- window size is fully applied.
+        weightWidth = maxAvailableWeightWidth
+    end
+
+    if availableWidth < minCategoryWidth + weightWidth + self.padding then
+        return CleanUI_cacheWeightColumnMetrics(self, cacheKey, now, nil)
+    end
+
+    local weightLeft = math.floor(contentRight - weightWidth)
+    local metrics = {
+        contentRight = contentRight,
+        weightLeft = weightLeft,
+        weightWidth = weightWidth,
+        categoryRight = weightLeft - self.padding,
+    }
+    return CleanUI_cacheWeightColumnMetrics(self, cacheKey, now, metrics)
+end
+
+local function CleanUI_formatWeightColumnValue(value)
+    -- Format weights compactly while keeping small weights readable.
+    value = tonumber(value) or 0
+    if value < 0 then
+        value = 0
+    end
+
+    if value < 10 then
+        return string.format("%.2f", value)
+    end
+
+    local rounded = round and round(value, 2) or value
+    return tostring(rounded)
+end
+
+local function CleanUI_getDisplayedWeight(itemGroup, item)
+    -- Stack rows use the precomputed total stack weight; expanded item rows use the item weight.
+    if itemGroup and type(itemGroup.weight) == "number" then
+        return itemGroup.weight
+    end
+
+    if item and type(item.getUnequippedWeight) == "function" then
+        local ok, weight = pcall(function()
+            return item:getUnequippedWeight()
+        end)
+        if ok and type(weight) == "number" then
+            return weight
+        end
+    end
+
+    if item and type(item.getWeight) == "function" then
+        local ok, weight = pcall(function()
+            return item:getWeight()
+        end)
+        if ok and type(weight) == "number" then
+            return weight
+        end
+    end
+
+    return 0
+end
+
+local function CleanUI_drawWeightColumnText(self, weightMetrics, weightText, y, xoff)
+    -- Draw item/stack weights as a dedicated right-aligned numeric column.
+    if not weightMetrics or not weightText then
+        return
+    end
+
+    local maxWeightWidth = math.max(0, math.floor(weightMetrics.contentRight - weightMetrics.weightLeft))
+    local truncatedWeight = CleanUI_truncateForWeightColumn(weightText, maxWeightWidth, self.font)
+    self:drawTextRight(truncatedWeight, weightMetrics.contentRight + xoff, y, 0.75, 0.75, 0.75, 0.9, self.font)
+end
+
+
+local function CleanUI_headerText(key, fallback)
+    -- Use translated labels when available and fall back to concise English labels.
+    if type(getText) == "function" then
+        local ok, value = pcall(getText, key)
+        if ok and type(value) == "string" and value ~= "" and value ~= key then
+            return value
+        end
+    end
+    return fallback
+end
+
+local function CleanUI_setButtonTitleSafe(button, title)
+    -- Keep title updates compatible with ISButton and ISResizableButton across B42 builds.
+    if not button then return end
+    if type(button.setTitle) == "function" then
+        button:setTitle(title)
+    else
+        button.title = title
+    end
+end
+
+local function CleanUI_clamp(value, minValue, maxValue)
+    value = tonumber(value) or minValue
+    minValue = tonumber(minValue) or value
+    maxValue = tonumber(maxValue) or value
+    if value < minValue then return minValue end
+    if value > maxValue then return maxValue end
+    return value
+end
+
+local function CleanUI_isColumnHeaderEnabled()
+    -- Default to the new header row being enabled when ModOptions are unavailable.
+    if type(CleanUI_shouldShowColumnHeaders) == "function" then
+        local ok, value = pcall(CleanUI_shouldShowColumnHeaders)
+        if ok then
+            return value == true
+        end
+    end
+    return true
+end
+
+local function CleanUI_getColumnHeaderOpacitySafe()
+    -- Keep the header opacity fixed for now. The previous Mod Option is
+    -- intentionally hidden until the final customization behavior is decided.
+    return 0.15
+end
+
+local function CleanUI_getColumnHeaderBaseHeight(self)
+    -- Store the non-zero header height so the option can be toggled at runtime.
+    if not self.cleanUIColumnHeaderBaseHgt then
+        self.cleanUIColumnHeaderBaseHgt = math.max(12, math.floor((self.itemHgt or 18) * 0.72))
+    end
+    return self.cleanUIColumnHeaderBaseHgt
+end
+
+local function CleanUI_getColumnDividerSize(self)
+    -- Keep divider hitboxes compact even when the optional header row is enabled.
+    return math.max(8, math.floor((self.itemHgt or 18) / 2))
+end
+
+local function CleanUI_applyColumnHeaderState(self)
+    -- Hide the new header row completely when the option is disabled, restoring the old zero-height layout.
+    if not self then return false end
+    local enabled = CleanUI_isColumnHeaderEnabled()
+    local targetHeaderHeight = enabled and CleanUI_getColumnHeaderBaseHeight(self) or 0
+    if self.headerHgt ~= targetHeaderHeight then
+        self.headerHgt = targetHeaderHeight
+    end
+    self.columnResizeButtonSize = CleanUI_getColumnDividerSize(self)
+    return enabled
+end
+
+local function CleanUI_getHeaderSortSuffix(self, ascFunc, descFunc)
+    -- Sort direction is drawn with ASCII-safe icons, not text suffixes.
+    return ""
+end
+
+local function CleanUI_drawHeaderSortIcon(inventoryPane, button, ascFunc, descFunc)
+    -- Draw a PNG arrow on the active sort header to avoid non-ASCII glyph issues.
+    if not inventoryPane or not button or not CleanUI_isColumnHeaderEnabled() then return end
+    local icon = nil
+    if inventoryPane.itemSortFunc == ascFunc then
+        icon = inventoryPane.sortAscIcon
+    elseif inventoryPane.itemSortFunc == descFunc then
+        icon = inventoryPane.sortDescIcon
+    end
+    if not icon then return end
+    local h = button.height or inventoryPane.headerHgt or 0
+    if h <= 0 then return end
+    local size = math.max(6, math.min(h - 4, 12))
+    local buttonWidth = button.width or size
+    local dividerReserve = math.max(8, (inventoryPane.columnResizeButtonSize or 8)) + 6
+    local x = buttonWidth - size - dividerReserve
+    if x < 2 then x = 2 end
+    local y = math.max(1, math.floor((h - size) / 2))
+    button:drawTextureScaled(icon, x, y, size, size, 1.0, 1.0, 1.0, 1.0)
+end
+
+local function CleanUI_attachHeaderSortIcon(button, inventoryPane, ascFunc, descFunc)
+    -- Keep the vanilla button rendering, then draw the active sort icon above it.
+    if not button or button.cleanUISortIconAttached then return end
+    button.cleanUISortIconAttached = true
+    local originalRender = button.render
+    button.render = function(btn)
+        if originalRender then
+            originalRender(btn)
+        end
+        CleanUI_drawHeaderSortIcon(inventoryPane, btn, ascFunc, descFunc)
+    end
+end
+
+local function CleanUI_getHeaderColumnMetrics(self)
+    -- Build the current column geometry from the same metrics used by row rendering.
+    local scrollBarWid = self:isVScrollBarVisible() and math.floor(FONT_HGT_SMALL * 0.6) or 0
+    local contentRight = self.width - self.padding - scrollBarWid
+    local weightMetrics = CleanUI_getWeightColumnMetrics(self, scrollBarWid)
+    local rarityMetrics = nil
+    if type(CleanUI_getItemRarityMetrics) == "function" then
+        rarityMetrics = CleanUI_getItemRarityMetrics(self, scrollBarWid, weightMetrics and weightMetrics.categoryRight or nil)
+    end
+
+    local nameLeft = 0
+    local nameRight = self.column3
+    local categoryLeft = self.column3
+    local categoryTextRight = contentRight
+    local categoryHeaderRight = contentRight
+    local rarityLeft = nil
+    local rarityRight = nil
+    local rarityHeaderLeft = nil
+    local rarityHeaderRight = nil
+    local weightLeft = nil
+    local weightRight = nil
+
+    if weightMetrics then
+        weightLeft = weightMetrics.weightLeft
+        weightRight = weightMetrics.contentRight
+        categoryTextRight = math.min(categoryTextRight, weightMetrics.categoryRight)
+        categoryHeaderRight = math.min(categoryHeaderRight, weightMetrics.weightLeft)
+    end
+
+    if rarityMetrics and not rarityMetrics.isHidden then
+        -- Text rendering keeps padding around the separator, but the clickable
+        -- header buttons should span the full visual column up to the separator.
+        rarityLeft = rarityMetrics.rarityLeft
+        rarityRight = rarityMetrics.contentRight
+        rarityHeaderLeft = rarityMetrics.separatorX
+        rarityHeaderRight = weightMetrics and weightMetrics.weightLeft or rarityMetrics.contentRight
+        categoryTextRight = math.min(categoryTextRight, rarityMetrics.categoryRight)
+        categoryHeaderRight = math.min(categoryHeaderRight, rarityMetrics.separatorX)
+    end
+
+    categoryTextRight = math.max(categoryLeft + 1, categoryTextRight)
+    categoryHeaderRight = math.max(categoryLeft + 1, categoryHeaderRight)
+    if rarityHeaderLeft and rarityHeaderRight then
+        rarityHeaderRight = math.max(rarityHeaderLeft + 1, rarityHeaderRight)
+    end
+
+    return {
+        scrollBarWid = scrollBarWid,
+        contentRight = contentRight,
+        nameLeft = nameLeft,
+        nameRight = nameRight,
+        categoryLeft = categoryLeft,
+        categoryRight = categoryTextRight,
+        categoryHeaderRight = categoryHeaderRight,
+        rarityLeft = rarityLeft,
+        rarityRight = rarityRight,
+        rarityHeaderLeft = rarityHeaderLeft,
+        rarityHeaderRight = rarityHeaderRight,
+        weightLeft = weightLeft,
+        weightRight = weightRight,
+        weightMetrics = weightMetrics,
+        rarityMetrics = rarityMetrics,
+    }
+end
+
+local function CleanUI_setHeaderButtonBounds(button, x, y, width, height, visible)
+    -- Move and size a header button without assuming every branch has the same setters.
+    if not button then return end
+    button:setVisible(visible == true)
+    if visible ~= true then return end
+    button:setX(math.floor(x))
+    button:setY(math.floor(y))
+    button:setWidth(math.max(1, math.floor(width)))
+    button:setHeight(math.max(1, math.floor(height)))
+end
+
+local function CleanUI_updateHeaderSortTitles(self)
+    -- Keep the clickable column header text in sync with the active sort.
+    CleanUI_setButtonTitleSafe(self.nameHeader,
+        CleanUI_headerText("IGUI_invpanel_Type", "Name") .. CleanUI_getHeaderSortSuffix(self, ISInventoryPane.itemSortByNameInc, ISInventoryPane.itemSortByNameDesc))
+    CleanUI_setButtonTitleSafe(self.typeHeader,
+        CleanUI_headerText("IGUI_invpanel_Category", "Category") .. CleanUI_getHeaderSortSuffix(self, ISInventoryPane.itemSortByCatInc, ISInventoryPane.itemSortByCatDesc))
+    CleanUI_setButtonTitleSafe(self.rarityHeader,
+        CleanUI_headerText("UI_CleanUI_Column_Rarity", "Rarity") .. CleanUI_getHeaderSortSuffix(self, ISInventoryPane.itemSortByRarityInc, ISInventoryPane.itemSortByRarityDesc))
+    CleanUI_setButtonTitleSafe(self.weightHeader,
+        CleanUI_headerText("UI_CleanUI_Column_Weight", "Weight") .. CleanUI_getHeaderSortSuffix(self, ISInventoryPane.itemSortByWeightAsc, ISInventoryPane.itemSortByWeightDesc))
+end
+
+local function CleanUI_updateColumnHeaderLayout(self)
+    -- Align the clickable header row and separator hitboxes with the current column layout.
+    if not self then return end
+    local headersEnabled = CleanUI_applyColumnHeaderState(self)
+    local metrics = CleanUI_getHeaderColumnMetrics(self)
+    local headerHgt = self.headerHgt or 0
+    local dividerSize = self.columnResizeButtonSize or CleanUI_getColumnDividerSize(self)
+    local headerOpacity = CleanUI_getColumnHeaderOpacitySafe()
+
+    CleanUI_setHeaderButtonBounds(self.nameHeader, metrics.nameLeft, 0, metrics.nameRight - metrics.nameLeft, headerHgt, headersEnabled and headerHgt > 0)
+    CleanUI_setHeaderButtonBounds(self.typeHeader, metrics.categoryLeft, 0, (metrics.categoryHeaderRight or metrics.categoryRight) - metrics.categoryLeft, headerHgt, headersEnabled and headerHgt > 0)
+    CleanUI_setHeaderButtonBounds(self.rarityHeader, metrics.rarityHeaderLeft or 0, 0,
+        metrics.rarityHeaderLeft and ((metrics.rarityHeaderRight or metrics.rarityRight) - metrics.rarityHeaderLeft) or 1, headerHgt, headersEnabled and headerHgt > 0 and metrics.rarityHeaderLeft ~= nil)
+    CleanUI_setHeaderButtonBounds(self.weightHeader, metrics.weightLeft or 0, 0,
+        metrics.weightLeft and (metrics.weightRight - metrics.weightLeft) or 1, headerHgt, headersEnabled and headerHgt > 0 and metrics.weightLeft ~= nil)
+
+    local headerButtons = { self.nameHeader, self.typeHeader, self.rarityHeader, self.weightHeader }
+    for _, headerButton in ipairs(headerButtons) do
+        if headerButton then
+            if headerButton.backgroundColor then
+                headerButton.backgroundColor.a = headerOpacity
+            end
+            if headerButton.backgroundColorMouseOver then
+                headerButton.backgroundColorMouseOver.a = math.min(1.0, headerOpacity + 0.15)
+            end
+            if headerButton.borderColor then
+                headerButton.borderColor.a = math.min(0.5, math.max(0.15, headerOpacity * 0.5))
+            end
+        end
+    end
+
+    if self.columnResizeButton then
+        self.columnResizeButton:setX(math.floor(self.column3 - dividerSize / 2))
+        self.columnResizeButton:setY(0)
+        self.columnResizeButton:setWidth(dividerSize)
+        self.columnResizeButton:setHeight(dividerSize)
+        self.columnResizeButton:setVisible(true)
+    end
+
+    if self.rarityColumnResizeButton then
+        local showRarityDivider = metrics.rarityMetrics and metrics.rarityMetrics.separatorX and not metrics.rarityMetrics.isHidden
+        self.rarityColumnResizeButton:setVisible(showRarityDivider == true)
+        if showRarityDivider then
+            self.rarityColumnResizeButton:setX(math.floor(metrics.rarityMetrics.separatorX - dividerSize / 2))
+            self.rarityColumnResizeButton:setY(0)
+            self.rarityColumnResizeButton:setWidth(dividerSize)
+            self.rarityColumnResizeButton:setHeight(dividerSize)
+        end
+    end
+
+    if self.weightColumnResizeButton then
+        self.weightColumnResizeButton:setVisible(metrics.weightLeft ~= nil)
+        if metrics.weightLeft then
+            self.weightColumnResizeButton:setX(math.floor(metrics.weightLeft - dividerSize / 2))
+            self.weightColumnResizeButton:setY(0)
+            self.weightColumnResizeButton:setWidth(dividerSize)
+            self.weightColumnResizeButton:setHeight(dividerSize)
+        end
+    end
+
+    CleanUI_updateHeaderSortTitles(self)
+end
+
+local function CleanUI_getColumnDoubleClickTime()
+    -- Prefer the game timestamp, with a wall-clock fallback for older branches.
+    if type(getTimestampMs) == "function" then
+        local ok, value = pcall(getTimestampMs)
+        if ok and type(value) == "number" then return value end
+    end
+    return os.time() * 1000
+end
+
+local function CleanUI_getItemDisplayNameForMeasure(self, itemGroup)
+    if not itemGroup then return "" end
+    local name = itemGroup.name or ""
+    if itemGroup.count and itemGroup.count > 2 then
+        name = tostring(name) .. " (" .. tostring(itemGroup.count - 1) .. ")"
+    end
+    return tostring(name)
+end
+
+local function CleanUI_getItemCategoryForMeasure(item)
+    if not item then return "" end
+    local okDisplay, displayCategory = pcall(function() return item:getDisplayCategory() end)
+    if okDisplay and type(displayCategory) == "string" and displayCategory ~= "" then
+        return displayCategory
+    end
+    local okCategory, category = pcall(function() return item:getCategory() end)
+    if okCategory and type(category) == "string" then
+        return category
+    end
+    return ""
+end
+
+local function CleanUI_measureTextWidth(self, text)
+    if type(text) ~= "string" then text = tostring(text or "") end
+    return getTextManager():MeasureStringX(self.font, text)
+end
+
+local function CleanUI_measureColumnContentWidth(self, columnKey)
+    -- Measure all current rows for double-click auto-sizing.
+    -- The name column returns text-only width; its icon/tree reserve is added
+    -- separately where column3 is calculated. Other columns keep their local
+    -- padding here because their measured area starts at the column boundary.
+    if not self.itemslist then
+        self:refreshContainer()
+    end
+
+    local maxWidth = 0
+    for _, itemGroup in ipairs(self.itemslist or {}) do
+        if itemGroup.type ~= "separator" then
+            if columnKey == "name" then
+                maxWidth = math.max(maxWidth, CleanUI_measureTextWidth(self, CleanUI_getItemDisplayNameForMeasure(self, itemGroup)))
+            elseif columnKey == "category" then
+                maxWidth = math.max(maxWidth, CleanUI_measureTextWidth(self, tostring(itemGroup.cat or "")))
+                for _, item in ipairs(itemGroup.items or {}) do
+                    maxWidth = math.max(maxWidth, CleanUI_measureTextWidth(self, CleanUI_getItemCategoryForMeasure(item)))
+                end
+            elseif columnKey == "rarity" and type(CleanUI_getItemRarityDisplay) == "function" then
+                for _, item in ipairs(itemGroup.items or {}) do
+                    local text = CleanUI_getItemRarityDisplay(item)
+                    maxWidth = math.max(maxWidth, CleanUI_measureTextWidth(self, tostring(text or "")))
+                end
+            elseif columnKey == "weight" then
+                maxWidth = math.max(maxWidth, CleanUI_measureTextWidth(self, CleanUI_formatWeightColumnValue(CleanUI_getDisplayedWeight(itemGroup, nil))))
+                for _, item in ipairs(itemGroup.items or {}) do
+                    maxWidth = math.max(maxWidth, CleanUI_measureTextWidth(self, CleanUI_formatWeightColumnValue(CleanUI_getDisplayedWeight(nil, item))))
+                end
+            end
+        end
+    end
+
+    if columnKey == "name" then
+        return math.floor(maxWidth)
+    end
+    return math.floor(maxWidth + (self.padding or 0) * 2 + 12)
+end
+
+local function CleanUI_getPaneColumnStatePrefix(self)
+    local page = self and self.inventoryPage
+    local playerNum = tostring((self and self.player) or 0)
+    local panelName = "inventory"
+    if page and page.onCharacter == false then
+        panelName = "loot"
+    end
+    return "pane_" .. playerNum .. "_" .. panelName
+end
+
+local function CleanUI_getPaneColumnConfigKey(self, suffix)
+    return CleanUI_getPaneColumnStatePrefix(self) .. "_" .. tostring(suffix)
+end
+
+local function CleanUI_getPaneSortKey(self)
+    if not self then return nil end
+    if self.itemSortFunc == ISInventoryPane.itemSortByNameInc then return "nameInc" end
+    if self.itemSortFunc == ISInventoryPane.itemSortByNameDesc then return "nameDesc" end
+    if self.itemSortFunc == ISInventoryPane.itemSortByCatInc then return "catInc" end
+    if self.itemSortFunc == ISInventoryPane.itemSortByCatDesc then return "catDesc" end
+    if self.itemSortFunc == ISInventoryPane.itemSortByWeightAsc then return "weightAsc" end
+    if self.itemSortFunc == ISInventoryPane.itemSortByWeightDesc then return "weightDesc" end
+    if self.itemSortFunc == ISInventoryPane.itemSortByRarityInc then return "rarityInc" end
+    if self.itemSortFunc == ISInventoryPane.itemSortByRarityDesc then return "rarityDesc" end
+    return nil
+end
+
+local function CleanUI_applyPaneSortKey(self, sortKey)
+    if not self or type(sortKey) ~= "string" then return false end
+    if sortKey == "nameInc" then self.itemSortFunc = ISInventoryPane.itemSortByNameInc return true end
+    if sortKey == "nameDesc" then self.itemSortFunc = ISInventoryPane.itemSortByNameDesc return true end
+    if sortKey == "catInc" then self.itemSortFunc = ISInventoryPane.itemSortByCatInc return true end
+    if sortKey == "catDesc" then self.itemSortFunc = ISInventoryPane.itemSortByCatDesc return true end
+    if sortKey == "weightAsc" then self.itemSortFunc = ISInventoryPane.itemSortByWeightAsc return true end
+    if sortKey == "weightDesc" then self.itemSortFunc = ISInventoryPane.itemSortByWeightDesc return true end
+    if sortKey == "rarityInc" then self.itemSortFunc = ISInventoryPane.itemSortByRarityInc return true end
+    if sortKey == "rarityDesc" then self.itemSortFunc = ISInventoryPane.itemSortByRarityDesc return true end
+    return false
+end
+
+local function CleanUI_savePaneColumnPersistence(self)
+    -- Keep CleanUI-specific column state in CleanUIConfig.txt, not only in layout.ini.
+    -- This makes header sort choice and the optional Weight column width persist reliably in B42.20.
+    if not self or not CleanUIConfig or not CleanUIConfig.getConfig or not CleanUIConfig.saveConfig then return end
+
+    local config = CleanUIConfig.getConfig() or {}
+    local sortKey = CleanUI_getPaneSortKey(self)
+    if sortKey then
+        config[CleanUI_getPaneColumnConfigKey(self, "sortBy")] = sortKey
+    end
+
+    local weightWidth = tonumber(self.cleanUIWeightColumnWidth)
+    if weightWidth and weightWidth > 0 then
+        config[CleanUI_getPaneColumnConfigKey(self, "weightColumnWidth")] = math.floor(weightWidth)
+    end
+
+    CleanUIConfig.saveConfig(config)
+end
+
+local function CleanUI_restorePaneColumnPersistence(self)
+    if not self or not CleanUIConfig or not CleanUIConfig.getConfig then return end
+
+    local config = CleanUIConfig.getConfig() or {}
+    CleanUI_applyPaneSortKey(self, config[CleanUI_getPaneColumnConfigKey(self, "sortBy")])
+
+    local weightWidth = tonumber(config[CleanUI_getPaneColumnConfigKey(self, "weightColumnWidth")])
+    if weightWidth and weightWidth > 0 then
+        self.cleanUIWeightColumnWidth = math.floor(weightWidth)
+        self._cleanUIWeightMetricsCache = nil
+    end
+end
+
+local function CleanUI_autoSizeColumnToRight(self, columnKey)
+    -- Double-click a separator to fit the related column to its visible text,
+    -- capped to a sensible panel fraction so one column cannot consume the UI.
+    local metrics = CleanUI_getHeaderColumnMetrics(self)
+    local panelWidth = tonumber(self.width) or 256
+    local maxLogicalWidth = math.max(80, math.floor(panelWidth * 0.70))
+    local measuredWidth = CleanUI_measureColumnContentWidth(self, columnKey)
+
+    if columnKey == "name" then
+        local nameLeft = metrics.nameLeft or 0
+        local iconAndTreeReserve = math.max(0, tonumber(self.column2) or 0)
+        local textLeftPadding = math.max(0, tonumber(self.padding) or 0)
+        local textRightPadding = math.max(6, math.floor((tonumber(self.padding) or 0) * 2 + 4))
+        local minNameWidth = math.max(iconAndTreeReserve + 45, 90)
+        local minCategoryWidth = 70
+        local rightBoundary = metrics.categoryRight or math.max(self.column3 + minCategoryWidth, panelWidth - self.padding)
+        local maxNameWidth = math.min(maxLogicalWidth, rightBoundary - minCategoryWidth - nameLeft)
+        if maxNameWidth < minNameWidth then maxNameWidth = minNameWidth end
+        local targetWidth = CleanUI_clamp(iconAndTreeReserve + textLeftPadding + measuredWidth + textRightPadding, minNameWidth, maxNameWidth)
+        local newColumn3 = math.floor(nameLeft + targetWidth)
+        newColumn3 = CleanUI_clamp(newColumn3, nameLeft + minNameWidth, rightBoundary - minCategoryWidth)
+        self.column3 = newColumn3
+        if self.nameHeader then
+            self.nameHeader:setWidth(math.max(1, self.column3 - nameLeft))
+        end
+        if self.typeHeader then
+            self.typeHeader:setX(self.column3 - 1)
+            self.typeHeader:setWidth(math.max(1, panelWidth - self.typeHeader.x))
+        end
+        self:onResizeColumn(self.nameHeader)
+    elseif columnKey == "category" then
+        local minCategoryWidth = 70
+        local rightBoundary = metrics.categoryRight or math.max(self.column3 + minCategoryWidth, panelWidth - self.padding)
+        local maxCategoryWidth = math.min(maxLogicalWidth, rightBoundary - self.column2 - 70)
+        if maxCategoryWidth < minCategoryWidth then maxCategoryWidth = minCategoryWidth end
+        local width = CleanUI_clamp(measuredWidth, minCategoryWidth, maxCategoryWidth)
+        local newColumn3 = math.floor(rightBoundary - width)
+        newColumn3 = CleanUI_clamp(newColumn3, self.column2 + 70, rightBoundary - minCategoryWidth)
+        self.column3 = newColumn3
+        if self.nameHeader then
+            local nameHeaderLeft = self.nameHeader.x or 0
+            self.nameHeader:setWidth(math.max(1, self.column3 - nameHeaderLeft))
+        end
+        self:onResizeColumn(self.nameHeader)
+    elseif columnKey == "rarity" and type(ItemRarityUI) == "table" then
+        local rarityMetrics = metrics.rarityMetrics
+        if rarityMetrics then
+            local availableWidth = math.max(0, (rarityMetrics.contentRight or metrics.contentRight or panelWidth) - self.column3)
+            local minWidth = rarityMetrics.minRarityWidth or 44
+            local maxWidth = math.min(maxLogicalWidth, rarityMetrics.maxRarityWidth or availableWidth)
+            if maxWidth < minWidth then maxWidth = minWidth end
+            ItemRarityUI.rarityColumnWidth = CleanUI_clamp(measuredWidth, minWidth, maxWidth)
+            self._cleanUIRarityMetricsCache = nil
+        end
+    elseif columnKey == "weight" then
+        local availableWidth = math.max(0, (metrics.contentRight or panelWidth) - self.column3)
+        local minWeightWidth = CleanUI_getWeightColumnMaxTextWidth(self)
+        local maxWeightWidth = math.min(maxLogicalWidth, math.max(minWeightWidth, availableWidth))
+        self.cleanUIWeightColumnWidth = CleanUI_clamp(measuredWidth, minWeightWidth, maxWeightWidth)
+        self._cleanUIWeightMetricsCache = nil
+    end
+
+    self._cleanUIWeightMetricsCache = nil
+    self._cleanUIRarityMetricsCache = nil
+    CleanUI_updateColumnHeaderLayout(self)
+    CleanUI_savePaneColumnPersistence(self)
+    self:refreshContainer()
+end
+
+local function CleanUI_startColumnResize(self, columnKey)
+    -- Start resize only after the pointer actually moves, so double-click auto-fit does not jump.
+    self._cleanUIDividerPendingResize = nil
+    if columnKey == "name" or columnKey == "category" then
+        self.resizingColumn = true
+    elseif columnKey == "rarity" then
+        self.resizingRarityColumn = true
+    elseif columnKey == "weight" then
+        self.resizingWeightColumn = true
+    end
+end
+
+local function CleanUI_cancelColumnResize(self)
+    -- Clear all divider resize states after auto-fit or mouse release.
+    self._cleanUIDividerPendingResize = nil
+    self.resizingColumn = false
+    self.resizingRarityColumn = false
+    self.resizingWeightColumn = false
+end
+
+local function CleanUI_isInventoryPageLocked(self)
+    -- Column dividers belong to the panel layout and must obey the same lock as panel drag/resize.
+    local page = self and self.inventoryPage
+    return page and type(page.isPagelocked) == "function" and page:isPagelocked() == true
+end
+
+function ISInventoryPane:cleanUICancelColumnResize()
+    -- Allow the owning inventory page to cancel divider drags when the page is locked.
+    CleanUI_cancelColumnResize(self)
+end
+
+local function CleanUI_handleColumnDividerDoubleClick(self, columnKey)
+    CleanUI_cancelColumnResize(self)
+    self._cleanUILastDividerClick = nil
+    if CleanUI_isInventoryPageLocked(self) then
+        return true
+    end
+    CleanUI_autoSizeColumnToRight(self, columnKey)
+    return true
+end
+
+local function CleanUI_handleColumnDividerMouseDown(self, columnKey)
+    if CleanUI_isInventoryPageLocked(self) then
+        CleanUI_cancelColumnResize(self)
+        return true
+    end
+
+    -- Treat a fast second press on a divider as auto-fit; otherwise wait for movement before resizing.
+    local now = CleanUI_getColumnDoubleClickTime()
+    local last = self._cleanUILastDividerClick
+    if last and last.key == columnKey and now - last.time <= 350 then
+        return CleanUI_handleColumnDividerDoubleClick(self, columnKey)
+    end
+
+    self._cleanUILastDividerClick = { key = columnKey, time = now }
+    self._cleanUIDividerPendingResize = { key = columnKey, x = self:getMouseX(), y = self:getMouseY() }
+    return true
+end
+
+local function CleanUI_getColumnDividerAtPoint(self, x, y)
+    -- Detect double-clicks anywhere on a column divider hitbox, not only on the top icon button.
+    if not self or x == nil then return nil end
+    local metrics = CleanUI_getHeaderColumnMetrics(self)
+    local hitWidth = math.max(8, (self.columnResizeButtonSize or CleanUI_getColumnDividerSize(self)) + 2)
+    local halfHit = hitWidth / 2
+
+    local function isNearDivider(dividerX)
+        return dividerX ~= nil and math.abs(x - dividerX) <= halfHit
+    end
+
+    if isNearDivider(self.column3) then
+        return "name"
+    end
+    if metrics.rarityMetrics and not metrics.rarityMetrics.isHidden and isNearDivider(metrics.rarityMetrics.separatorX) then
+        return "rarity"
+    end
+    if metrics.weightLeft and isNearDivider(metrics.weightLeft) then
+        return "weight"
+    end
+
+    return nil
+end
+
+local function CleanUI_getRaritySortValue(itemGroup)
+    -- Use the first concrete item in the group as the representative rarity value.
+    if type(CleanUI_getItemRarityDisplay) ~= "function" or not itemGroup or not itemGroup.items then
+        return ""
+    end
+    for _, item in ipairs(itemGroup.items) do
+        local text = CleanUI_getItemRarityDisplay(item)
+        if type(text) == "string" and text ~= "" then
+            return string.lower(text)
+        end
+    end
+    return ""
+end
+
+local function CleanUI_keepSpecialRowsFirst(a, b)
+    -- Preserve CleanUI's existing equipped/separator grouping before applying column sorts.
+    if a.equipped and not b.equipped then return false end
+    if b.equipped and not a.equipped then return true end
+    if not a.equipped and not b.equipped then
+        if a.type == "separator" then return false end
+        if b.type == "separator" then return true end
+    end
+    return nil
+end
+
+ISInventoryPane.itemSortByRarityInc = function(a, b)
+    local special = CleanUI_keepSpecialRowsFirst(a, b)
+    if special ~= nil then return special end
+    local rarityA = CleanUI_getRaritySortValue(a)
+    local rarityB = CleanUI_getRaritySortValue(b)
+    if rarityA == rarityB then return not string.sort(a.name, b.name) end
+    return not string.sort(rarityA, rarityB)
+end
+
+ISInventoryPane.itemSortByRarityDesc = function(a, b)
+    local special = CleanUI_keepSpecialRowsFirst(a, b)
+    if special ~= nil then return special end
+    local rarityA = CleanUI_getRaritySortValue(a)
+    local rarityB = CleanUI_getRaritySortValue(b)
+    if rarityA == rarityB then return not string.sort(a.name, b.name) end
+    return string.sort(rarityA, rarityB)
+end
+
 function ISInventoryPane:createChildren()
     self.minimumHeight = 50
     self.minimumWidth = 256
-    self.headerHgt = 0
+    self.cleanUIColumnHeaderBaseHgt = math.max(12, math.floor(self.itemHgt * 0.72))
+    self.headerHgt = CleanUI_isColumnHeaderEnabled() and self.cleanUIColumnHeaderBaseHgt or 0
 
     self.column2 = (FONT_HGT_SMALL + 1)*2
     self.column3 = math.ceil(self.column3*self.zoom)
@@ -318,12 +1162,13 @@ function ISInventoryPane:createChildren()
         self.column3 = self.width - categoryWid + 1
     end
 
-    self.nameHeader = ISResizableButton:new(self.column2, 0, (self.column3 - self.column2), self.headerHgt, getText("IGUI_invpanel_Type"), self, ISInventoryPane.sortByName)
+    self.nameHeader = ISResizableButton:new(0, 0, self.column3, self.headerHgt, getText("IGUI_invpanel_Type"), self, ISInventoryPane.sortByName)
 	self.nameHeader:initialise()
 	self.nameHeader.borderColor.a = 0.2
 	self.nameHeader.minimumWidth = 100
 	self.nameHeader.onresize = { ISInventoryPane.onResizeColumn, self, self.nameHeader }
-    self.nameHeader:setVisible(false)
+    self.nameHeader:setVisible(CleanUI_isColumnHeaderEnabled())
+    self.nameHeader:setFont(UIFont.Small)
 	self:addChild(self.nameHeader)
 
 	self.typeHeader = ISResizableButton:new(self.column3-1, 0, self.column4 - self.column3 + 1, self.headerHgt, getText("IGUI_invpanel_Category"), self, ISInventoryPane.sortByType)
@@ -333,10 +1178,30 @@ function ISInventoryPane:createChildren()
 	self.typeHeader.resizeLeft = true
 	self.typeHeader.onresize = { ISInventoryPane.onResizeColumn, self, self.typeHeader }
 	self.typeHeader:initialise()
-    self.typeHeader:setVisible(false)
+    self.typeHeader:setVisible(CleanUI_isColumnHeaderEnabled())
+    self.typeHeader:setFont(UIFont.Small)
 	self:addChild(self.typeHeader)
 
-    self.columnResizeButtonSize = self.itemHgt / 2
+    self.rarityHeader = ISButton:new(0, 0, 1, self.headerHgt, CleanUI_headerText("UI_CleanUI_Column_Rarity", "Rarity"), self, ISInventoryPane.sortByRarity)
+    self.rarityHeader:initialise()
+    self.rarityHeader:setFont(UIFont.Small)
+    self.rarityHeader.borderColor.a = 0.2
+    self.rarityHeader:setVisible(false)
+    self:addChild(self.rarityHeader)
+
+    self.weightHeader = ISButton:new(0, 0, 1, self.headerHgt, CleanUI_headerText("UI_CleanUI_Column_Weight", "Weight"), self, ISInventoryPane.sortByWeightHeader)
+    self.weightHeader:initialise()
+    self.weightHeader:setFont(UIFont.Small)
+    self.weightHeader.borderColor.a = 0.2
+    self.weightHeader:setVisible(false)
+    self:addChild(self.weightHeader)
+
+    CleanUI_attachHeaderSortIcon(self.nameHeader, self, ISInventoryPane.itemSortByNameInc, ISInventoryPane.itemSortByNameDesc)
+    CleanUI_attachHeaderSortIcon(self.typeHeader, self, ISInventoryPane.itemSortByCatInc, ISInventoryPane.itemSortByCatDesc)
+    CleanUI_attachHeaderSortIcon(self.rarityHeader, self, ISInventoryPane.itemSortByRarityInc, ISInventoryPane.itemSortByRarityDesc)
+    CleanUI_attachHeaderSortIcon(self.weightHeader, self, ISInventoryPane.itemSortByWeightAsc, ISInventoryPane.itemSortByWeightDesc)
+
+    self.columnResizeButtonSize = CleanUI_getColumnDividerSize(self)
     self.columnResizeButton = ISButton:new(self.column3 - self.columnResizeButtonSize, 0, self.columnResizeButtonSize, self.columnResizeButtonSize, "", self, nil)
     self.columnResizeButton:initialise()
     self.columnResizeButton.prerender = function(btn)
@@ -346,17 +1211,48 @@ function ISInventoryPane:createChildren()
 
     self.columnResizeButton:setVisible(true)
     self.columnResizeButton.onMouseDown = function(button, x, y)
-        self.resizingColumn = true
-        return true
+        return CleanUI_handleColumnDividerMouseDown(self, "name")
+    end
+    self.columnResizeButton.onMouseDoubleClick = function(button, x, y)
+        return CleanUI_handleColumnDividerDoubleClick(self, "name")
     end
 
     self:addChild(self.columnResizeButton)
+
+    self.weightColumnResizeButton = ISButton:new(self.column3 - self.columnResizeButtonSize, 0, self.columnResizeButtonSize, self.columnResizeButtonSize, "", self, nil)
+    self.weightColumnResizeButton:initialise()
+    self.weightColumnResizeButton.prerender = function(btn)
+        local alpha = (self.resizingWeightColumn or btn.mouseOver) and 1 or 0.6
+        btn:drawTextureScaled(self.columnResizerIcon, 0, 0, btn.width, btn.height, alpha, 0.8, 0.8, 0.8)
+    end
+    self.weightColumnResizeButton:setVisible(false)
+    self.weightColumnResizeButton.onMouseDown = function(button, x, y)
+        return CleanUI_handleColumnDividerMouseDown(self, "weight")
+    end
+    self.weightColumnResizeButton.onMouseDoubleClick = function(button, x, y)
+        return CleanUI_handleColumnDividerDoubleClick(self, "weight")
+    end
+    self:addChild(self.weightColumnResizeButton)
 
 	local btnHgt = self.itemHgt
     self.contextButton1 = CleanUI_LongButton:new(0, 0, 10, btnHgt, getText("ContextMenu_Grab"), self, ISInventoryPane.onContext)
     self.contextButton1:initialise()
     self:addChild(self.contextButton1)
     self.contextButton1:setFont(self.font)
+    if self.resizingWeightColumn then
+        local metrics = CleanUI_getHeaderColumnMetrics(self)
+        local contentRight = metrics.contentRight
+        local categoryLeft = self.column3 + self.padding
+        local newSeparatorX = math.floor(x)
+        local minWeightWidth = CleanUI_getWeightColumnMaxTextWidth(self)
+        local maxWeightWidth = math.floor(math.min(self.width * 0.35, math.max(minWeightWidth, contentRight - categoryLeft - 60)))
+        local proposedWeightWidth = math.floor(contentRight - newSeparatorX)
+        self.cleanUIWeightColumnWidth = CleanUI_clamp(proposedWeightWidth, minWeightWidth, maxWeightWidth)
+        self._cleanUIWeightMetricsCache = nil
+        CleanUI_updateColumnHeaderLayout(self)
+        return
+    end
+
     self.contextButton1:setVisible(false)
 
     self.contextButton2 = CleanUI_LongButton:new(0, 0, 10, btnHgt, getText("IGUI_invpanel_Pack"), self, ISInventoryPane.onContext)
@@ -383,7 +1279,8 @@ function ISInventoryPane:onResizeColumn(button)
 		self.typeHeader:setWidth(self.width - self.typeHeader.x)
 	end
 	if button == self.typeHeader then
-		self.nameHeader:setWidth(self.typeHeader.x - self.column2 + 1)
+        local nameHeaderLeft = self.nameHeader and (self.nameHeader.x or 0) or 0
+		self.nameHeader:setWidth(self.typeHeader.x - nameHeaderLeft + 1)
 		self.column3 = self.typeHeader.x
 	end
     if self.columnResizeButton then
@@ -392,16 +1289,56 @@ function ISInventoryPane:onResizeColumn(button)
 end
 
 function ISInventoryPane:onResize()
-	ISPanel.onResize(self)
-	if self.typeHeader:getWidth() == self.typeHeader.minimumWidth then
-		self.column3 = self.width - self.typeHeader:getWidth() + 1
-		self.nameHeader:setWidth(self.column3 - self.column2)
-		self.typeHeader:setX(self.column3 - 1)
-	end
-	self.column4 = self.width
-    
+    ISPanel.onResize(self)
+    self.column4 = self.width
+
+    -- Preserve restored column boundaries during startup/deferred resizes.
+    -- Vanilla forces column3 to width - typeHeader.minimumWidth whenever the
+    -- category header is at its minimum width. With CleanUI's Weight column,
+    -- that can overwrite saved column2/column3 values after RestoreLayout()
+    -- and make the Weight column fail its fit check on load.
+    local panelWidth = tonumber(self.width) or 0
+    local nameHeaderLeft = self.nameHeader and tonumber(self.nameHeader.x or 0) or 0
+    local minNameWidth = math.max(45, (tonumber(self.column2) or 0) + 45)
+    local minCategoryWidth = 100
+    if self.typeHeader and self.typeHeader.minimumWidth then
+        minCategoryWidth = math.max(60, tonumber(self.typeHeader.minimumWidth) or minCategoryWidth)
+    end
+
+    local currentColumn3 = tonumber(self.column3)
+    if not currentColumn3 then
+        currentColumn3 = panelWidth - minCategoryWidth + 1
+    end
+
+    local maxColumn3 = math.max(nameHeaderLeft + minNameWidth, panelWidth - minCategoryWidth + 1)
+    local minColumn3 = math.min(nameHeaderLeft + minNameWidth, maxColumn3)
+    if currentColumn3 < minColumn3 then currentColumn3 = minColumn3 end
+    if currentColumn3 > maxColumn3 then currentColumn3 = maxColumn3 end
+    self.column3 = math.floor(currentColumn3)
+
+    if self.nameHeader then
+        self.nameHeader:setWidth(math.max(1, self.column3 - nameHeaderLeft))
+    end
+    if self.typeHeader then
+        self.typeHeader:setX(self.column3 - 1)
+        local typeHeaderX = tonumber(self.typeHeader.x or (self.column3 - 1)) or (self.column3 - 1)
+        self.typeHeader:setWidth(math.max(1, panelWidth - typeHeaderX))
+    end
+
+    self._cleanUIWeightMetricsCache = nil
+    self._cleanUIRarityMetricsCache = nil
+
     if self.columnResizeButton then
         self.columnResizeButton:setX(self.column3 - self.columnResizeButtonSize)
+    end
+    if self.rarityColumnResizeButton then
+        self.rarityColumnResizeButton:setVisible(false)
+    end
+    if self.weightColumnResizeButton then
+        self.weightColumnResizeButton:setVisible(false)
+    end
+    if CleanUI_updateColumnHeaderLayout then
+        CleanUI_updateColumnHeaderLayout(self)
     end
 end
 
@@ -487,12 +1424,34 @@ end
 function ISInventoryPane:sortByWeight(_isAscending)
     if _isAscending and self.itemSortFunc ~= ISInventoryPane.itemSortByWeightAsc then
         self.itemSortFunc = ISInventoryPane.itemSortByWeightAsc
+        CleanUI_savePaneColumnPersistence(self)
         self:refreshContainer()
     end
     if (not _isAscending) and self.itemSortFunc ~= ISInventoryPane.itemSortByWeightDesc then
         self.itemSortFunc = ISInventoryPane.itemSortByWeightDesc
+        CleanUI_savePaneColumnPersistence(self)
         self:refreshContainer()
     end
+end
+
+function ISInventoryPane:sortByWeightHeader(button)
+    if self.itemSortFunc == ISInventoryPane.itemSortByWeightDesc then
+        self.itemSortFunc = ISInventoryPane.itemSortByWeightAsc
+    else
+        self.itemSortFunc = ISInventoryPane.itemSortByWeightDesc
+    end
+    CleanUI_savePaneColumnPersistence(self)
+    self:refreshContainer()
+end
+
+function ISInventoryPane:sortByRarity(button)
+    if self.itemSortFunc == ISInventoryPane.itemSortByRarityInc then
+        self.itemSortFunc = ISInventoryPane.itemSortByRarityDesc
+    else
+        self.itemSortFunc = ISInventoryPane.itemSortByRarityInc
+    end
+    CleanUI_savePaneColumnPersistence(self)
+    self:refreshContainer()
 end
 
 function ISInventoryPane:sortByName(button)
@@ -501,6 +1460,7 @@ function ISInventoryPane:sortByName(button)
     else
         self.itemSortFunc = ISInventoryPane.itemSortByNameInc
     end
+    CleanUI_savePaneColumnPersistence(self)
     self:refreshContainer()
 end
 
@@ -510,26 +1470,49 @@ function ISInventoryPane:sortByType(button)
     else
         self.itemSortFunc = ISInventoryPane.itemSortByCatInc
     end
+    CleanUI_savePaneColumnPersistence(self)
     self:refreshContainer()
 end
 
 function ISInventoryPane:SaveLayout(name, layout)
-    layout.column2 = self.nameHeader.width
+    -- Preserve the vanilla meaning of layout.column2 as the text-name area width,
+    -- even though CleanUI's clickable Item header now starts at x=0.
+    layout.column2 = math.max(1, (self.column3 or 0) - (self.column2 or 0))
     if self.itemSortFunc == self.itemSortByNameInc then layout.sortBy = "nameInc" end
     if self.itemSortFunc == self.itemSortByNameDesc then layout.sortBy = "nameDesc" end
     if self.itemSortFunc == self.itemSortByCatInc then layout.sortBy = "catInc" end
     if self.itemSortFunc == self.itemSortByCatDesc then layout.sortBy = "catDesc" end
+    if self.itemSortFunc == self.itemSortByWeightAsc then layout.sortBy = "weightAsc" end
+    if self.itemSortFunc == self.itemSortByWeightDesc then layout.sortBy = "weightDesc" end
+    if self.itemSortFunc == self.itemSortByRarityInc then layout.sortBy = "rarityInc" end
+    if self.itemSortFunc == self.itemSortByRarityDesc then layout.sortBy = "rarityDesc" end
+    if self.cleanUIWeightColumnWidth then layout.cleanUIWeightColumnWidth = self.cleanUIWeightColumnWidth end
+    CleanUI_savePaneColumnPersistence(self)
 end
 
 function ISInventoryPane:RestoreLayout(name, layout)
     if layout.column2 and tonumber(layout.column2) then
-        self.nameHeader:setWidth(tonumber(layout.column2))
+        local savedNameTextWidth = tonumber(layout.column2)
+        local nameHeaderLeft = self.nameHeader and (self.nameHeader.x or 0) or 0
+        local targetColumn3 = (self.column2 or 0) + savedNameTextWidth
+        self.nameHeader:setWidth(math.max(1, targetColumn3 - nameHeaderLeft))
         self:onResizeColumn(self.nameHeader)
     end
     if layout.sortBy == "nameInc" then self.itemSortFunc = self.itemSortByNameInc end
     if layout.sortBy == "nameDesc" then self.itemSortFunc = self.itemSortByNameDesc end
     if layout.sortBy == "catInc" then self.itemSortFunc = self.itemSortByCatInc end
     if layout.sortBy == "catDesc" then self.itemSortFunc = self.itemSortByCatDesc end
+    if layout.sortBy == "weightAsc" then self.itemSortFunc = self.itemSortByWeightAsc end
+    if layout.sortBy == "weightDesc" then self.itemSortFunc = self.itemSortByWeightDesc end
+    if layout.sortBy == "rarityInc" then self.itemSortFunc = self.itemSortByRarityInc end
+    if layout.sortBy == "rarityDesc" then self.itemSortFunc = self.itemSortByRarityDesc end
+    if layout.cleanUIWeightColumnWidth and tonumber(layout.cleanUIWeightColumnWidth) then
+        self.cleanUIWeightColumnWidth = tonumber(layout.cleanUIWeightColumnWidth)
+    end
+    CleanUI_restorePaneColumnPersistence(self)
+    self._cleanUIWeightMetricsCache = nil
+    self._cleanUIRarityMetricsCache = nil
+    CleanUI_updateColumnHeaderLayout(self)
     self:refreshContainer()
 end
 
@@ -1093,17 +2076,39 @@ function ISInventoryPane:onMouseMove(dx, dy)
     local x = self:getMouseX()
     local y = self:getMouseY()
 
+    if CleanUI_isInventoryPageLocked(self) then
+        -- Locked panels must only block layout changes, not item interaction.
+        -- Dragging items and drag-selecting with the marquee need the normal
+        -- mouse-move path to keep updating selection while the panel is locked.
+        if self._cleanUIDividerPendingResize or self.resizingColumn or self.resizingRarityColumn or self.resizingWeightColumn then
+            CleanUI_cancelColumnResize(self)
+            return true
+        end
+    end
+
+    if self._cleanUIDividerPendingResize then
+        local pending = self._cleanUIDividerPendingResize
+        if math.abs(x - (pending.x or x)) + math.abs(y - (pending.y or y)) >= 4 then
+            CleanUI_startColumnResize(self, pending.key)
+        else
+            return true
+        end
+    end
+
     if self.resizingColumn then
-        local newColumn3 = x + self.columnResizeButtonSize / 2
-        newColumn3 = math.max(self.column2 + 100, math.min(self.width - 100, newColumn3))
-        
-        local newNameWidth = newColumn3 - self.column2
+        local metrics = CleanUI_getHeaderColumnMetrics(self)
+        local rightBoundary = metrics.categoryRight or (self.width - 100)
+        local nameHeaderLeft = self.nameHeader and (self.nameHeader.x or 0) or 0
+        local minNameWidth = math.max((tonumber(self.column2) or 0) + 45, 90)
+        local minCategoryWidth = 70
+        local newColumn3 = CleanUI_clamp(math.floor(x), nameHeaderLeft + minNameWidth, rightBoundary - minCategoryWidth)
+
+        local newNameWidth = newColumn3 - nameHeaderLeft
         self.nameHeader:setWidth(newNameWidth)
         self:onResizeColumn(self.nameHeader)
-        
-        if self.columnResizeButton then
-            self.columnResizeButton:setX(newColumn3 - self.columnResizeButtonSize)
-        end
+        self._cleanUIWeightMetricsCache = nil
+        self._cleanUIRarityMetricsCache = nil
+        CleanUI_updateColumnHeaderLayout(self)
         return
     end
 
@@ -1269,8 +2274,13 @@ function ISInventoryPane:onMouseDownOutside(x, y)
 end
 
 function ISInventoryPane:onMouseUpOutside(x, y)
+    if self._cleanUIDividerPendingResize then
+        CleanUI_cancelColumnResize(self)
+        return
+    end
     if self.resizingColumn then
         self.resizingColumn = false
+        CleanUI_savePaneColumnPersistence(self)
         return
     end
     self.previousMouseUp = self.mouseOverOption
@@ -1549,6 +2559,11 @@ function ISInventoryPane:onMouseDoubleClick(x, y)
 	if self.vscroll and self:isMouseOverScrollBar() then
 		return self.vscroll:onMouseDoubleClick(x - self.vscroll.x, y + self:getYScroll() - self.vscroll.y)
 	end
+
+    local cleanUIDividerKey = CleanUI_getColumnDividerAtPoint(self, x, y)
+    if cleanUIDividerKey then
+        return CleanUI_handleColumnDividerDoubleClick(self, cleanUIDividerKey)
+    end
 	if self.items and self.mouseOverOption and self.previousMouseUp == self.mouseOverOption then
 		if getCore():getGameMode() == "Tutorial" then
 			if TutorialData.chosenTutorial.doubleClickInventory(self, x, y, self.mouseOverOption) then
@@ -1618,8 +2633,14 @@ end
 function ISInventoryPane:onMouseUp(x, y)
 	if self.player ~= 0 then return end
 
+    if self._cleanUIDividerPendingResize then
+        CleanUI_cancelColumnResize(self)
+        return true
+    end
+
     if self.resizingColumn then
         self.resizingColumn = false
+        CleanUI_savePaneColumnPersistence(self)
         return true
     end
 
@@ -2069,6 +3090,11 @@ function ISInventoryPane:onMouseDown(x, y)
     self.downX = x
     self.downY = y
 
+    local cleanUIDividerKey = CleanUI_getColumnDividerAtPoint(self, x, y)
+    if cleanUIDividerKey then
+        return CleanUI_handleColumnDividerMouseDown(self, cleanUIDividerKey)
+    end
+
     if self.selected == nil then
 		self.selected = {}
     end
@@ -2221,8 +3247,10 @@ function ISInventoryPane:prerender()
 		self:onMouseMove(0, self:getMouseY() - mouseY)
 	end
 
-	self.nameHeader.maximumWidth = self.width - self.typeHeader.minimumWidth - self.column2
-	self.typeHeader.maximumWidth = self.width - self.nameHeader.minimumWidth - self.column2
+    CleanUI_applyColumnHeaderState(self)
+	self.nameHeader.maximumWidth = self.width - self.typeHeader.minimumWidth - (self.nameHeader and (self.nameHeader.x or 0) or 0)
+	self.typeHeader.maximumWidth = self.width - self.nameHeader.minimumWidth - (self.nameHeader and (self.nameHeader.x or 0) or 0)
+    CleanUI_updateColumnHeaderLayout(self)
 	self:setStencilRect(0,0,self.width-1, self.height-1)
 
 	if self.mode == "icons" then
@@ -2507,10 +3535,18 @@ function ISInventoryPane:refreshContainer()
 		self.selected = {}
 	end
 
+    if not CleanUI_isValidInventoryContainerReference(self.inventory) then
+        CleanUI_logInvalidRefreshContainer(self)
+        return
+    end
+
 	local selected = self:saveSelection({})
 	table.wipe(self.selected)
 
 	local playerObj = getSpecificPlayer(self.player)
+    if not playerObj then
+        return
+    end
 
 	if not self.hotbar then
 		self.hotbar = getPlayerHotbar(self.player)
@@ -2677,7 +3713,7 @@ function ISInventoryPane:refreshContainer()
         end
 
         local playerObj = getSpecificPlayer(self.player)
-        if self.parent.onCharacter and self.inventory == playerObj:getInventory() then
+        if self.parent.onCharacter and self.inventory == playerObj:getInventory() and not CleanUI_shouldSuppressEquippedItemsHeader(self) then
             table.insert(self.itemslist, {
                 type = "separator",
                 equipped = false,
@@ -2761,7 +3797,8 @@ function ISInventoryPane:renderdetails(doDragged)
     -- Go through all the stacks of items.
     for k, v in ipairs(self.itemslist) do
         if v.type == "separator" then
-            if not doDragged then
+            local suppressEquippedHeader = CleanUI_shouldSuppressEquippedItemsHeader(self)
+            if not suppressEquippedHeader and not doDragged then
                 table.insert(self.items, v)
 
                 local bgY = (y * self.itemHgt) + self.headerHgt
@@ -2813,7 +3850,9 @@ function ISInventoryPane:renderdetails(doDragged)
                     self:drawText(weightText, weightTextX, textY, 0.7, 0.7, 0.7, 1.0, self.font)
                 end
             end
-            y = y + 1
+            if not suppressEquippedHeader then
+                y = y + 1
+            end
         else
             if self.equippedCollapsed and v.equipped then
         else
@@ -3143,8 +4182,10 @@ function ISInventoryPane:renderdetails(doDragged)
 
                 else
                     if count == 1 then
+                        local weightMetrics = CleanUI_getWeightColumnMetrics(self, scrollBarWid)
                         local rightBoundary = self.width - self.padding - scrollBarWid
-                        local maxCategoryWidth = math.floor(rightBoundary - self.column3 - self.padding)
+                        local categoryRightBoundary = weightMetrics and weightMetrics.categoryRight or rightBoundary
+                        local maxCategoryWidth = math.floor(categoryRightBoundary - self.column3 - self.padding)
                         
                         if doDragged then
                             -- Don't draw the category when dragging
@@ -3158,7 +4199,7 @@ function ISInventoryPane:renderdetails(doDragged)
                                 local leftBoundary = self.column3 + self.padding + xoff
                                 self:drawText(truncatedCategory, leftBoundary, categoryTextY, categoryColor.r, categoryColor.g, categoryColor.b, categoryColor.a, self.font)
                             else
-                                self:drawTextRight(truncatedCategory, rightBoundary+xoff, categoryTextY, categoryColor.r, categoryColor.g, categoryColor.b, categoryColor.a, self.font)
+                                self:drawTextRight(truncatedCategory, categoryRightBoundary+xoff, categoryTextY, categoryColor.r, categoryColor.g, categoryColor.b, categoryColor.a, self.font)
                             end
                         else
                             local categoryColor = CleanUI_getItemCategoryColor()
@@ -3170,12 +4211,23 @@ function ISInventoryPane:renderdetails(doDragged)
                                 local leftBoundary = self.column3 + self.padding + xoff
                                 self:drawText(truncatedCategory, leftBoundary, categoryTextY, categoryColor.r, categoryColor.g, categoryColor.b, categoryColor.a, self.font)
                             else
-                                self:drawTextRight(truncatedCategory, rightBoundary+xoff, categoryTextY, categoryColor.r, categoryColor.g, categoryColor.b, categoryColor.a, self.font)
+                                self:drawTextRight(truncatedCategory, categoryRightBoundary+xoff, categoryTextY, categoryColor.r, categoryColor.g, categoryColor.b, categoryColor.a, self.font)
                             end
+                        end
+                        if weightMetrics and not doDragged then
+                            local weightTextY = (y*self.itemHgt)+self.headerHgt+textDY+yoff
+                            local weightText = CleanUI_formatWeightColumnValue(CleanUI_getDisplayedWeight(v, item))
+                            CleanUI_drawWeightColumnText(self, weightMetrics, weightText, weightTextY, xoff)
                         end
                     else
                         local redDetail = false
                         self:drawItemDetails(item, y, xoff, yoff, redDetail)
+                        local weightMetrics = CleanUI_getWeightColumnMetrics(self, scrollBarWid)
+                        if weightMetrics and not doDragged then
+                            local weightTextY = (y*self.itemHgt)+self.headerHgt+textDY+yoff
+                            local weightText = CleanUI_formatWeightColumnValue(CleanUI_getDisplayedWeight(nil, item))
+                            CleanUI_drawWeightColumnText(self, weightMetrics, weightText, weightTextY, xoff)
+                        end
                     end
                 end
                 
@@ -3220,8 +4272,8 @@ function ISInventoryPane:renderdetails(doDragged)
     end
 
 
-    if not doDragged then
-		self:drawRectStatic(1, 0, self.width-2, self.headerHgt, 1, 0, 0, 0)
+    if not doDragged and CleanUI_isColumnHeaderEnabled() and (self.headerHgt or 0) > 0 then
+		self:drawRectStatic(1, 0, self.width-2, self.headerHgt, CleanUI_getColumnHeaderOpacitySafe(), 0, 0, 0)
     end
 
 end

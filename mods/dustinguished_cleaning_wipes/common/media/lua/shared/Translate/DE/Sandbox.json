@@ -1,0 +1,16 @@
+{
+    "Sandbox_DGMC_Cleaning_Wipes": "Reinigungstücher",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body": "Kann den Körper reinigen",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body_tooltip": "Ob Sie Ihren Körper mit Reinigungstüchern reinigen können.",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing": "Kann Kleidung reinigen",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing_tooltip": "Ob man Kleidung mit Reinigungstüchern reinigen kann.",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons": "Kann Nahkampfwaffen reinigen",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons_tooltip": "Ob man Nahkampfwaffen mit Reinigungstüchern reinigen kann.",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup": "Entfernt Make-up",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup_tooltip": "Ob Sie beim Reinigen Ihres Körpers Make-up entfernen sollten.",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult": "Dauermultiplikator",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult_tooltip": "Wie lange dauert die Reinigung mit Tüchern im Vergleich zum Waschen nur mit Wasser?  Niedriger für schneller, höher für langsamer.",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness": "Kleidungsnässe",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness_tooltip": "Beim Reinigen der Kleidung wird deren Feuchtigkeitsgrad maximal auf diesen oder den aktuellen Wert eingestellt.  Mit dem Standardwert würde beispielsweise Kleidung mit einem Feuchtigkeitsgehalt von 0 auf 25 eingestellt, während Kleidung, die bereits einen Feuchtigkeitsgehalt von 50 aufweist, auf 50 bleibt.",
+    "Sandbox_DGMC_Cleaning_Wipes_Debug_Logging": "Debug-Protokollierung"
+}

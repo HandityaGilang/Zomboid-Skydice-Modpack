@@ -645,3 +645,135 @@ AnimalAvatarDefinition["huskymale"] = {}
 applyDogAvatar(AnimalAvatarDefinition["huskypup"])
 applyDogAvatar(AnimalAvatarDefinition["huskyfemale"])
 applyDogAvatar(AnimalAvatarDefinition["huskymale"])
+
+-- ==== Border Collie (pack Cartoon new-models, mesmo pipeline de asset do Rottweiler) ====
+-- Cao central da mecanica de FAZENDA (em dev). Medio/agil: tamanhos e apetite espelham o Retriever
+-- (cao medio, hunger 0.008 / thirst 0.016 default). Tipo separado "bc*" vincula a propria MESH (BorderCollie_Body).
+AnimalDefinitions.stages["bordercollie"] = {}
+AnimalDefinitions.stages["bordercollie"].stages = {}
+AnimalDefinitions.stages["bordercollie"].stages["bcpup"] = {}
+AnimalDefinitions.stages["bordercollie"].stages["bcpup"].ageToGrow = 3 * 30
+AnimalDefinitions.stages["bordercollie"].stages["bcpup"].nextStage = "bcfemale"
+AnimalDefinitions.stages["bordercollie"].stages["bcpup"].nextStageMale = "bcmale"
+AnimalDefinitions.stages["bordercollie"].stages["bcmale"] = {}
+AnimalDefinitions.stages["bordercollie"].stages["bcmale"].ageToGrow = 3 * 30
+AnimalDefinitions.stages["bordercollie"].stages["bcfemale"] = {}
+AnimalDefinitions.stages["bordercollie"].stages["bcfemale"].ageToGrow = 3 * 30
+
+AnimalDefinitions.breeds["bordercollie"] = {}
+AnimalDefinitions.breeds["bordercollie"].breeds = {}
+AnimalDefinitions.breeds["bordercollie"].breeds["bordercollie"] = {}
+AnimalDefinitions.breeds["bordercollie"].breeds["bordercollie"].name = "bordercollie"
+AnimalDefinitions.breeds["bordercollie"].breeds["bordercollie"].texture = "BorderCollie"
+AnimalDefinitions.breeds["bordercollie"].breeds["bordercollie"].textureMale = "BorderCollie"
+AnimalDefinitions.breeds["bordercollie"].breeds["bordercollie"].rottenTexture = "Raccoon_Rotting"
+AnimalDefinitions.breeds["bordercollie"].breeds["bordercollie"].invIconMale = "CDDogPaw_64"
+AnimalDefinitions.breeds["bordercollie"].breeds["bordercollie"].invIconFemale = "CDDogPaw_64"
+AnimalDefinitions.breeds["bordercollie"].breeds["bordercollie"].invIconBaby = "CDDogPaw_64"
+AnimalDefinitions.breeds["bordercollie"].breeds["bordercollie"].invIconMaleDead = "CDDogPawDead_64"
+AnimalDefinitions.breeds["bordercollie"].breeds["bordercollie"].invIconFemaleDead = "CDDogPawDead_64"
+AnimalDefinitions.breeds["bordercollie"].breeds["bordercollie"].invIconBabyDead = "CDDogPawDead_64"
+AnimalDefinitions.breeds["bordercollie"].breeds["bordercollie"].invIconMaleSkel = "Item_Skeleton_Raccoon"
+AnimalDefinitions.breeds["bordercollie"].breeds["bordercollie"].invIconFemaleSkel = "Item_Skeleton_Raccoon"
+AnimalDefinitions.breeds["bordercollie"].breeds["bordercollie"].invIconBabySkel = "Item_Skeleton_Raccoon"
+
+local bcpup = {}
+applyDogModel(bcpup, "BorderCollie_Body")
+applyDogBehaviour(bcpup)
+bcpup.shadoww = 0.2
+bcpup.shadowfm = 0.2
+bcpup.shadowbm = 0.2
+bcpup.minSize = 1.05
+bcpup.maxSize = 1.55
+bcpup.wanderMul = 500
+bcpup.hungerMultiplier = 0.001
+bcpup.thirstMultiplier = 0.002
+bcpup.hungerBoost = 25
+bcpup.thirstBoost = 30
+bcpup.baseEncumbrance = 10
+bcpup.trailerBaseSize = 30
+bcpup.minEnclosureSize = 40
+bcpup.needMom = false
+bcpup.eatFromMother = true
+bcpup.litterEatTogether = true
+bcpup.minWeight = 1
+bcpup.maxWeight = 8
+bcpup.wildFleeTimeUntilDeadTimer = STRAY_NO_BLEEDOUT
+bcpup.breeds = AnimalDefinitions.breeds["bordercollie"].breeds
+bcpup.stages = AnimalDefinitions.stages["bordercollie"].stages
+bcpup.genes = AnimalDefinitions.genome["dog"].genes
+AnimalDefinitions.animals["bcpup"] = bcpup
+
+local bcfemale = {}
+applyDogModel(bcfemale, "BorderCollie_Body")
+applyDogBehaviour(bcfemale)
+bcfemale.female = true
+bcfemale.mate = "bcmale"
+bcfemale.babyType = "bcpup"
+bcfemale.shadoww = 0.3
+bcfemale.shadowfm = 0.5
+bcfemale.shadowbm = 0.5
+bcfemale.minSize = 1.5
+bcfemale.maxSize = 2.0
+bcfemale.wanderMul = 600
+bcfemale.hungerMultiplier = 0.008
+bcfemale.thirstMultiplier = 0.016
+bcfemale.hungerBoost = 20
+bcfemale.thirstBoost = 25
+bcfemale.baseEncumbrance = 20
+bcfemale.trailerBaseSize = 50
+bcfemale.minEnclosureSize = 40
+bcfemale.minAge = 3 * 30
+bcfemale.maxAgeGeriatric = 19 * 30
+bcfemale.minAgeForBaby = 3 * 30
+bcfemale.timeBeforeNextPregnancy = 7
+bcfemale.pregnantPeriod = 35
+bcfemale.minWeight = 9
+bcfemale.maxWeight = 16
+bcfemale.wildFleeTimeUntilDeadTimer = STRAY_NO_BLEEDOUT
+bcfemale.breeds = AnimalDefinitions.breeds["bordercollie"].breeds
+bcfemale.stages = AnimalDefinitions.stages["bordercollie"].stages
+bcfemale.genes = AnimalDefinitions.genome["dog"].genes
+AnimalDefinitions.animals["bcfemale"] = bcfemale
+
+local bcmale = {}
+applyDogModel(bcmale, "BorderCollie_Body")
+applyDogBehaviour(bcmale)
+bcmale.male = true
+bcmale.mate = "bcfemale"
+bcmale.babyType = "bcpup"
+bcmale.dontAttackOtherMale = true
+bcmale.shadoww = 0.3
+bcmale.shadowfm = 0.5
+bcmale.shadowbm = 0.5
+bcmale.minSize = 1.5
+bcmale.maxSize = 2.15
+bcmale.wanderMul = 600
+bcmale.hungerMultiplier = 0.008
+bcmale.thirstMultiplier = 0.016
+bcmale.hungerBoost = 20
+bcmale.thirstBoost = 25
+bcmale.baseEncumbrance = 20
+bcmale.trailerBaseSize = 50
+bcmale.minEnclosureSize = 40
+bcmale.minAge = 3 * 30
+bcmale.maxAgeGeriatric = 19 * 30
+bcmale.minAgeForBaby = 3 * 30
+bcmale.minWeight = 10
+bcmale.maxWeight = 18
+bcmale.wildFleeTimeUntilDeadTimer = STRAY_NO_BLEEDOUT
+bcmale.breeds = AnimalDefinitions.breeds["bordercollie"].breeds
+bcmale.stages = AnimalDefinitions.stages["bordercollie"].stages
+bcmale.genes = AnimalDefinitions.genome["dog"].genes
+AnimalDefinitions.animals["bcmale"] = bcmale
+
+AnimalDefinitions.animals["bcpup"].breeds["bordercollie"].sounds = dog_sounds
+AnimalDefinitions.animals["bcfemale"].breeds["bordercollie"].sounds = dog_sounds
+AnimalDefinitions.animals["bcmale"].breeds["bordercollie"].sounds = dog_sounds
+
+AnimalAvatarDefinition["bcpup"] = {}
+AnimalAvatarDefinition["bcfemale"] = {}
+AnimalAvatarDefinition["bcmale"] = {}
+applyDogAvatar(AnimalAvatarDefinition["bcpup"])
+applyDogAvatar(AnimalAvatarDefinition["bcfemale"])
+applyDogAvatar(AnimalAvatarDefinition["bcmale"])

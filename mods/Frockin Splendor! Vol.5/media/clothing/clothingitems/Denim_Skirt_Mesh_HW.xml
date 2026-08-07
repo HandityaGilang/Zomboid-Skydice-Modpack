@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\Bob_Skirt_Generic</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\Kate_Skirt_Generic</m_FemaleModel>
+	<m_GUID>18ddff5d-93db-40fc-9abb-adb250f59acc</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder></m_MasksFolder>
+	
+	
+	<textureChoices>clothes\Material_Denim\Skirts\Denim_Skirt_2</textureChoices>
+	<textureChoices>clothes\Material_Denim\Skirts\Denim_Skirt_3</textureChoices>
+	
+	<textureChoices>clothes\Material_Denim\Skirts\DenimBlue_Skirt_2</textureChoices>
+	<textureChoices>clothes\Material_Denim\Skirts\DenimBlue_Skirt_3</textureChoices>
+	
+	<textureChoices>clothes\Material_Denim\Skirts\DenimBlueDarker_Skirt_2</textureChoices>
+	<textureChoices>clothes\Material_Denim\Skirts\DenimBlueDarker_Skirt_3</textureChoices>
+
+</clothingItem>	

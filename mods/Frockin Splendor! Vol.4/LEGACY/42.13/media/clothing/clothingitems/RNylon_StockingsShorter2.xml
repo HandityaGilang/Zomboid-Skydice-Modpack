@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>95d86461-b5c8-4bf7-859b-56b608a4691d</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_NylonR\Stockings_ShorterStill\Nylon_StockingsShorter_Alt_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_NylonR\Stockings_ShorterStill\Nylon_StockingsShorter_Alt_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_NylonR\Stockings_ShorterStill\Nylon_StockingsShorter_Alt_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_NylonR\Stockings_ShorterStill\Nylon_StockingsShorter_Alt_6</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_NylonR\Stockings_ShorterStill\Nylon_StockingsShorter_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_NylonR\Stockings_ShorterStill\Nylon_StockingsShorter_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_NylonR\Stockings_ShorterStill\Nylon_StockingsShorter_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_NylonR\Stockings_ShorterStill\Nylon_StockingsShorter_6</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_NylonR\Stockings_ShorterStill\Nylon_StockingsShorter_Alt1_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_NylonR\Stockings_ShorterStill\Nylon_StockingsShorter_Alt1_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_NylonR\Stockings_ShorterStill\Nylon_StockingsShorter_Alt1_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_NylonR\Stockings_ShorterStill\Nylon_StockingsShorter_Alt1_6</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_NylonR\Stockings_ShorterStill\Nylon_StockingsShorter_Nude_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_NylonR\Stockings_ShorterStill\Nylon_StockingsShorter_Nude_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_NylonR\Stockings_ShorterStill\Nylon_StockingsShorter_Nude_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_NylonR\Stockings_ShorterStill\Nylon_StockingsShorter_Nude_6</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_NylonR\Stockings_ShorterStill\Nylon_StockingsShorter_Purp_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_NylonR\Stockings_ShorterStill\Nylon_StockingsShorter_Purp_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_NylonR\Stockings_ShorterStill\Nylon_StockingsShorter_Purp_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_NylonR\Stockings_ShorterStill\Nylon_StockingsShorter_Purp_6</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_NylonR\Stockings_ShorterStill\Nylon_StockingsShorter_Red_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_NylonR\Stockings_ShorterStill\Nylon_StockingsShorter_Red_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_NylonR\Stockings_ShorterStill\Nylon_StockingsShorter_Red_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_NylonR\Stockings_ShorterStill\Nylon_StockingsShorter_Red_6</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_NylonR\Stockings_ShorterStill\Nylon_StockingsShorter_Whit_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_NylonR\Stockings_ShorterStill\Nylon_StockingsShorter_Whit_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_NylonR\Stockings_ShorterStill\Nylon_StockingsShorter_Whit_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_NylonR\Stockings_ShorterStill\Nylon_StockingsShorter_Whit_6</m_BaseTextures>
+
+</clothingItem>

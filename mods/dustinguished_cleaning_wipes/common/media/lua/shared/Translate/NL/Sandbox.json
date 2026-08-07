@@ -1,0 +1,16 @@
+{
+    "Sandbox_DGMC_Cleaning_Wipes": "schoonmaakdoekjes",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body": "Kan lichaam reinigen",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body_tooltip": "Of je je lichaam kunt reinigen met schoonmaakdoekjes.",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing": "Kan kleding reinigen",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing_tooltip": "Of je kleding kunt reinigen met schoonmaakdoekjes.",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons": "Kan contactwapens reinigen",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons_tooltip": "Of je slagwapens kunt schoonmaken met schoonmaakdoekjes.",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup": "Verwijdert make-up",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup_tooltip": "Of u make-up moet verwijderen bij het reinigen van uw lichaam.",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult": "Duurvermenigvuldiger",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult_tooltip": "Hoe lang het duurt om schoon te maken met doekjes, vergeleken met wassen met alleen water.  Lager voor sneller, hoger voor langzamer.",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness": "Kleding Natheid",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness_tooltip": "Bij het reinigen van kleding wordt het natheidsniveau ingesteld op maximaal deze waarde of het huidige niveau.  Met de standaardwaarde wordt kleding met een vochtigheidsgraad van 0 bijvoorbeeld ingesteld op 25, terwijl kleding die al een vochtigheidsgraad van 50 heeft, op 50 blijft.",
+    "Sandbox_DGMC_Cleaning_Wipes_Debug_Logging": "Foutopsporing in logboekregistratie"
+}

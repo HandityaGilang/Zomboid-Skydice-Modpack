@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>659b1fed-774f-4a66-a75e-b90937e5ae25</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Leather\HarnessBelt\HarnessBelt</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\HarnessBelt\HarnessBelt_Alt</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\HarnessBelt\HarnessBelt_Alt3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\HarnessBelt\HarnessBelt_Alt4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\HarnessBelt\HarnessBelt_Alt5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\HarnessBelt\HarnessBeltRed</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\HarnessBelt\HarnessBeltRed_Alt</m_BaseTextures>
+</clothingItem>

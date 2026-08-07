@@ -1,3 +1,0 @@
-Tooltip_EN = {
- Tooltip_DoorFrameSim = "Place before Sliding door to fix temperature bug"
-}

@@ -1,0 +1,16 @@
+{
+    "Sandbox_DGMC_Cleaning_Wipes": "чистячі серветки",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body": "Може очистити тіло",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body_tooltip": "Чи можна очищати тіло очисними серветками.",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing": "Може почистити одяг",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing_tooltip": "Чи можна чистити одяг чистячими серветками.",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons": "Може чистити холодну зброю",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons_tooltip": "Чи можна чистити холодну зброю серветками для чищення.",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup": "Знімає макіяж",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup_tooltip": "Чи знімати макіяж під час чищення тіла.",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult": "Множник тривалості",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult_tooltip": "Скільки часу потрібно для чищення серветками порівняно з миттям лише водою.  Нижче для швидшого, вище для повільнішого.",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness": "Вологість одягу",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness_tooltip": "Під час чищення одягу його рівень вологості буде встановлено на максимум цього значення або поточного рівня.  Наприклад, зі значенням за замовчуванням для одягу з вологістю 0 буде встановлено значення 25, а для одягу з вологістю 50 залишиться значення 50.",
+    "Sandbox_DGMC_Cleaning_Wipes_Debug_Logging": "Журналування налагодження"
+}

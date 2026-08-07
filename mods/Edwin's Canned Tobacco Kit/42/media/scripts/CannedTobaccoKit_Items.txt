@@ -1,0 +1,47 @@
+module CannedTobaccoKit
+{
+	imports
+	{
+		Base,
+	}
+	item CannedTobaccoKit
+	{
+		DisplayName = Export "A" Canned Tobacco Kit,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.3,
+		Icon = CannedTobaccoKit,
+		CannedFood = TRUE,
+		Packaged = TRUE,
+		Calories = 0,
+		Carbohydrates = 0,
+		Lipids = 0,
+		Proteins = 0,
+		CantEat = TRUE,
+		StaticModel = OpenTobaccoCan_Ground,
+		WorldStaticModel = TobaccoCan_Ground,
+		Tooltip = Export "A" finest viginia tobacco kit. Smells like relaxation.,
+	}
+
+	craftRecipe Open Export "A" Canned Survival Kit
+    {
+        timedAction = OpenTinCan,
+        time            = 40,
+        category = Cooking,
+	CanWalk = true,
+        Tags = InHandCraft;Cooking,
+        inputs
+        {
+            item 1 [CannedTobaccoKit.CannedTobaccoKit] mode:destroy flags[Prop2],
+        }
+       outputs
+        {
+           item 1 Base.Matches,
+           item 1 Base.CigaretteRollingPapers,
+		   item 2 Base.TobaccoLoose,
+		   item 1 Base.Plasticbag,
+		   item 1 Base.TinCanEmpty,  
+        }
+    }
+
+}

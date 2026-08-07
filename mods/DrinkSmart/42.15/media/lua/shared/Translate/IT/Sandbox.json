@@ -1,0 +1,5 @@
+{
+    "Sandbox_DrinkSmart": "Drink Smart",
+    "Sandbox_DrinkSmart_AllowWaterDrinkLowThirst": "Consenti di bere acqua con poca sete",
+    "Sandbox_DrinkSmart_AllowWaterDrinkLowThirst_tooltip": "Se attivo, le fonti d'acqua mostreranno il menu Bevi anche quando la sete è sotto il 10％ (inventario/contenitori/pannello del suolo)."
+}

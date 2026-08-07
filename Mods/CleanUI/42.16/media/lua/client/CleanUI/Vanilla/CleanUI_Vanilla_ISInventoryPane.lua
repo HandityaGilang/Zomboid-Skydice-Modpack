@@ -11,6 +11,28 @@ local favoriteRecipeInputStarSize = 16
 local normalTextColor = {r=0.7, g=0.7, b=0.7, a=1.0}
 local unwantedTextColor = {r=0.5, g=0.5, b=0.5, a=0.65}
 
+local CleanUI_invalidRefreshContainerLogged = false
+
+local function CleanUI_isValidInventoryContainerReference(container)
+    return container ~= nil and tostring(container) ~= "null"
+end
+
+local function CleanUI_logInvalidRefreshContainer(panel)
+    if CleanUI_invalidRefreshContainerLogged then
+        return
+    end
+    CleanUI_invalidRefreshContainerLogged = true
+    local pageName = "unknown"
+    if panel and panel.parent then
+        if panel.parent.onCharacter then
+            pageName = "inventory"
+        else
+            pageName = "loot"
+        end
+    end
+    print("[CleanUI] Skipped refreshContainer with invalid inventory container on " .. pageName .. " panel.")
+end
+
 local function predicateNotEmpty(item)
 	return item:getCurrentUsesFloat() > 0
 end
@@ -55,19 +77,11 @@ local function CleanUI_logSkippedInventoryTransfer(reason, item, srcContainer, d
 end
 
 local function CleanUI_transferGuardIsItemAllowed(container, item)
-    -- Keep item-allowed checks safe for unusual vehicle, seat, or modded containers.
+    -- Match vanilla's direct validation path and avoid pcall in transfer hot paths.
     if not container or not item then
         return false
     end
-
-    local ok, result = pcall(function()
-        return container:isItemAllowed(item)
-    end)
-    if ok then
-        return result == true
-    end
-
-    return false
+    return container:isItemAllowed(item) == true
 end
 
 local function CleanUI_queueTimedActionSafely(action, reason, item, srcContainer, destContainer)
@@ -79,14 +93,9 @@ local function CleanUI_queueTimedActionSafely(action, reason, item, srcContainer
         return false
     end
 
-    local addOk, addResult = pcall(function()
-        return ISTimedActionQueue.add(action)
-    end)
-    if not addOk then
-        CleanUI_logSkippedInventoryTransfer(reason .. " queue error " .. tostring(addResult), item, srcContainer, destContainer)
-        return false
-    end
-
+    -- Queue directly, as vanilla does. Wrapping ISTimedActionQueue.add() in pcall can
+    -- interact badly with nested Java/Lua return values when other mods hook the same UI path.
+    ISTimedActionQueue.add(action)
     return true
 end
 
@@ -2147,10 +2156,18 @@ function CleanUI_Vanilla_ISInventoryPane:refreshContainer()
 		self.selected = {}
 	end
 
+    if not CleanUI_isValidInventoryContainerReference(self.inventory) then
+        CleanUI_logInvalidRefreshContainer(self)
+        return
+    end
+
 	local selected = self:saveSelection({})
 	table.wipe(self.selected)
 
 	local playerObj = getSpecificPlayer(self.player)
+    if not playerObj then
+        return
+    end
 
 	if not self.hotbar then
 		self.hotbar = getPlayerHotbar(self.player);

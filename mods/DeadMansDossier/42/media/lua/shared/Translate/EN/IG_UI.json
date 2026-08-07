@@ -1,0 +1,36 @@
+{
+    "IGUI_DMD_Tier_Police": "Police",
+    "IGUI_DMD_Tier_Military": "Military",
+    "IGUI_DMD_Tier_Medical": "Medical",
+    "IGUI_DMD_Tier_Firefighter": "Firefighter",
+    "IGUI_DMD_Tier_Ranger": "Ranger",
+
+    "IGUI_DMD_Assemble": "Assemble %1 Dossier",
+    "IGUI_DMD_AssembleIncomplete": "Assemble %1 Dossier (%2/%3)",
+    "IGUI_DMD_ViewMap": "View %1 Stash Map",
+    "IGUI_DMD_VerifyLocation": "Verify %1 Stash Location",
+    "IGUI_DMD_AbandonMission": "Abandon %1 Mission",
+
+    "IGUI_DMD_StashLocated": "Stash in %1. Added mark to map.",
+    "IGUI_DMD_AssembleFail": "Assembly failed.",
+    "IGUI_DMD_AlreadyActive": "You already have an active mission for this tier.",
+    "IGUI_DMD_MissingPages": "You don't have all the pages.",
+    "IGUI_DMD_RewardGranted": "Stash found! Check the ground for loot.",
+    "IGUI_DMD_NotCloseEnough": "You're not close enough to any stash.",
+
+    "IGUI_DMD_ProximityVeryClose": "You're very close to the %1 stash! Keep looking around.",
+    "IGUI_DMD_ProximityWarm": "Getting warmer... the %1 stash is nearby.",
+    "IGUI_DMD_ProximityNearby": "You sense the %1 stash is somewhere in this area.",
+
+    "IGUI_DMD_MissionAbandoned": "%1 mission abandoned.",
+    "IGUI_DMD_AbandonFail": "Could not abandon mission.",
+    "IGUI_DMD_RestoringMarker": "Restoring map marker... try again.",
+    "IGUI_DMD_MarkerLost": "Map marker lost. Use Abandon Mission to discard.",
+
+    "IGUI_DMD_MarkersOn": "Stash Markers: ON",
+    "IGUI_DMD_MarkersOff": "Stash Markers: OFF",
+
+    "IGUI_DMD_JobAssembling": "Assembling Dossier",
+    "IGUI_DMD_JobVerifying": "Verifying Location",
+    "IGUI_DMD_JobAbandoning": "Abandoning Mission"
+}

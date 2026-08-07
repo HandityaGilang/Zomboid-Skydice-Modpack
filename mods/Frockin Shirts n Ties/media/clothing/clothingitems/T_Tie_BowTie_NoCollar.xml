@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\Bowtie</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\Bowtie</m_FemaleModel>
+	<m_GUID>4255cdb5-b0da-4edd-bd1d-d56a6c8f8c65</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>true</m_AllowRandomTint>
+	<textureChoices>clothes\tie\BowTie_T_NoNeck</textureChoices>
+</clothingItem>

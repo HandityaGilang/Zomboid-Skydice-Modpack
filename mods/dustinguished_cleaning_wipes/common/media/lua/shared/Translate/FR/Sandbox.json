@@ -1,0 +1,16 @@
+{
+    "Sandbox_DGMC_Cleaning_Wipes": "lingettes nettoyantes",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body": "Peut nettoyer le corps",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body_tooltip": "Si vous pouvez nettoyer votre corps avec des lingettes nettoyantes.",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing": "Peut nettoyer les vêtements",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing_tooltip": "Si vous pouvez nettoyer les vêtements avec des lingettes nettoyantes.",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons": "Peut nettoyer les armes de mêlée",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons_tooltip": "Si vous pouvez nettoyer les armes de mêlée avec des lingettes nettoyantes.",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup": "Démaquille",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup_tooltip": "Que ce soit pour se démaquiller lors du nettoyage de votre corps.",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult": "Multiplicateur de durée",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult_tooltip": "Combien de temps faut-il pour nettoyer avec des lingettes, par rapport à un lavage à l'eau uniquement.  Baissez pour plus vite, plus haut pour plus lentement.",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness": "Humidité des vêtements",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness_tooltip": "Lors du nettoyage des vêtements, leur niveau d'humidité sera réglé au maximum de cette valeur ou de son niveau actuel.  Par exemple, avec la valeur par défaut, les vêtements à 0 humidité seraient réglés à 25, tandis que les vêtements déjà à 50 humidité resteraient à 50.",
+    "Sandbox_DGMC_Cleaning_Wipes_Debug_Logging": "Journalisation du débogage"
+}

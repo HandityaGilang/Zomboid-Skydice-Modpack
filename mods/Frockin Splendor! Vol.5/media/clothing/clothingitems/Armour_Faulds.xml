@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Misc\Faulds_M</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Misc\Faulds_F</m_FemaleModel>
+	<m_GUID>5c025212-8f44-4f83-8f13-c42531144772</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>media/textures/clothes/Masks/LongCoat</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/clothes/Masks/LongCoat</m_UnderlayMasksFolder>
+	<textureChoices>clothes\Material_LeatherTanned\Misc\LeatherTanned_Faulds</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Misc\LeatherTanned_Faulds_A</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Misc\LeatherTanned_Faulds_B</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Misc\LeatherTannedRed_Faulds</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Misc\LeatherTannedRed_Faulds_A</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Misc\LeatherTannedRed_Faulds_B</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Misc\LeatherTannedYellow_Faulds</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Misc\LeatherTannedYellow_Faulds_A</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Misc\LeatherTannedYellow_Faulds_B</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Misc\LeatherTannedYellower_Faulds</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Misc\LeatherTannedYellower_Faulds_A</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Misc\LeatherTannedYellower_Faulds_B</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Misc\LeatherTannedBlack_Faulds</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Misc\LeatherTannedBlack_Faulds_A</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Misc\LeatherTannedBlack_Faulds_B</textureChoices>
+
+</clothingItem>

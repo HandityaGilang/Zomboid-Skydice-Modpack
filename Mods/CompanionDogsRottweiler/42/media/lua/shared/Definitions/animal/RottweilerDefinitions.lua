@@ -44,8 +44,12 @@ CD.applyDogBehaviour(rottpup)
 rottpup.shadoww = 0.2
 rottpup.shadowfm = 0.2
 rottpup.shadowbm = 0.2
-rottpup.minSize = 1.12
-rottpup.maxSize = 1.68
+-- Escala x0.8547 sobre a faixa do GS: a mesh do pack Cartoon tem o dorso em 0.3166 contra 0.2465-0.2856
+-- das outras racas (cao inteiro maior, NAO pernalta -- o vao livre sob a barriga dele e 47.5%, igual ao
+-- do GS). Corrigir isso na mesh encurtaria perna que ja estava certa; a escala uniforme preserva a
+-- proporcao do artista. Alvo = dorso efetivo 0.2706.
+rottpup.minSize = 0.957
+rottpup.maxSize = 1.436
 rottpup.wanderMul = 500
 rottpup.hungerMultiplier = 0.001
 rottpup.thirstMultiplier = 0.002
@@ -74,8 +78,8 @@ rottfemale.babyType = "rottpup"
 rottfemale.shadoww = 0.3
 rottfemale.shadowfm = 0.5
 rottfemale.shadowbm = 0.5
-rottfemale.minSize = 1.68
-rottfemale.maxSize = 2.24
+rottfemale.minSize = 1.436
+rottfemale.maxSize = 1.915
 rottfemale.wanderMul = 600
 rottfemale.hungerMultiplier = 0.008
 rottfemale.thirstMultiplier = 0.016
@@ -107,8 +111,8 @@ rottmale.dontAttackOtherMale = true
 rottmale.shadoww = 0.3
 rottmale.shadowfm = 0.5
 rottmale.shadowbm = 0.5
-rottmale.minSize = 1.68
-rottmale.maxSize = 2.43
+rottmale.minSize = 1.436
+rottmale.maxSize = 2.077
 rottmale.wanderMul = 600
 rottmale.hungerMultiplier = 0.008
 rottmale.thirstMultiplier = 0.016

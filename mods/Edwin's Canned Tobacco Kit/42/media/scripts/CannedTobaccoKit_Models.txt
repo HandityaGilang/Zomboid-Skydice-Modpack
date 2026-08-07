@@ -1,0 +1,19 @@
+module Base
+{
+
+
+	model TobaccoCan_Ground
+	{
+		mesh = Worlditems/TobaccoCan,
+		texture = Worlditems/TobaccoCan,
+		scale = 1.2,
+	}
+	model OpenTobaccoCan_Ground
+	{
+		mesh = Worlditems/Open_TobaccoCan,
+		texture = Worlditems/OpenTobaccoCan,
+		scale = 1.2,
+	}
+
+
+}

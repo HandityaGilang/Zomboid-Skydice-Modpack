@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Misc\Belt_Large_M.fbx</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Misc\Belt_Large_F.fbx</m_FemaleModel>
+	<m_AltMaleModel>media\models_X\Skinned\Clothes\Misc\Belt_Large_M.fbx</m_AltMaleModel>
+	<m_AltFemaleModel>media\models_X\Skinned\Clothes\Misc\Belt_Large_F.fbx</m_AltFemaleModel>
+	<m_GUID>f1e9c830-8112-4d0c-b3cb-27ab4740d649</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\Misc\BeltsLarge\Belt_Large_0</textureChoices>
+	<textureChoices>clothes\Misc\BeltsLarge\Belt_Large_1</textureChoices>
+	<textureChoices>clothes\Misc\BeltsLarge\Belt_Large_2</textureChoices>
+	<textureChoices>clothes\Misc\BeltsLarge\Belt_Large_3</textureChoices>
+	
+	<textureChoices>clothes\Misc\BeltsLarge\BeltB_Large_0</textureChoices>
+	<textureChoices>clothes\Misc\BeltsLarge\BeltB_Large_1</textureChoices>
+	<textureChoices>clothes\Misc\BeltsLarge\BeltB_Large_2</textureChoices>
+	<textureChoices>clothes\Misc\BeltsLarge\BeltB_Large_3</textureChoices>
+	
+	<textureChoices>clothes\Misc\BeltsLarge\BeltY_Large_0</textureChoices>
+	<textureChoices>clothes\Misc\BeltsLarge\BeltY_Large_1</textureChoices>
+	<textureChoices>clothes\Misc\BeltsLarge\BeltY_Large_2</textureChoices>
+	<textureChoices>clothes\Misc\BeltsLarge\BeltY_Large_3</textureChoices>
+
+</clothingItem>

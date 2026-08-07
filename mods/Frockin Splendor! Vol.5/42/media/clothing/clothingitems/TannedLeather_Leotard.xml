@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>d1c13065-deb2-47b9-86e2-a839bc1a71d5</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTanned_Leotard_0</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTanned_Leotard_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTanned_Leotard_1A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTanned_Leotard_1B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTanned_Leotard_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTanned_Leotard_2A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTanned_Leotard_9</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTanned_Leotard_11</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTanned_Leotard_12</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTanned_Leotard_12A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTanned_Leotard_12B</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTannedRed_Leotard_0</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTannedRed_Leotard_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTannedRed_Leotard_1A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTannedRed_Leotard_1B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTannedRed_Leotard_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTannedRed_Leotard_2A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTannedRed_Leotard_9</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTannedRed_Leotard_11</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTannedRed_Leotard_12</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTannedRed_Leotard_12A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTannedRed_Leotard_12B</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTannedRedder_Leotard_0</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTannedRedder_Leotard_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTannedRedder_Leotard_1A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTannedRedder_Leotard_1B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTannedRedder_Leotard_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTannedRedder_Leotard_2A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTannedRedder_Leotard_9</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTannedRedder_Leotard_11</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTannedRedder_Leotard_12</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTannedRedder_Leotard_12A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTannedRedder_Leotard_12B</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTannedBlack_Leotard_0</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTannedBlack_Leotard_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTannedBlack_Leotard_1A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTannedBlack_Leotard_1B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTannedBlack_Leotard_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTannedBlack_Leotard_2A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTannedBlack_Leotard_9</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTannedBlack_Leotard_11</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTannedBlack_Leotard_12</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTannedBlack_Leotard_12A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Leotards\LeatherTannedBlack_Leotard_12B</m_BaseTextures>
+</clothingItem>

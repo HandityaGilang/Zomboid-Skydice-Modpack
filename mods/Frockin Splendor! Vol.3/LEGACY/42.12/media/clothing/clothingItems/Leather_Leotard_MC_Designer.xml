@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>7329c83a-74b0-482f-89ed-569fe7f78754</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_Designer_MC</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_Designer_MCAlt</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leather_Leotard_Designer_MCAlt4</m_BaseTextures>
+
+</clothingItem>

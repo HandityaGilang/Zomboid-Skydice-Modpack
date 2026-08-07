@@ -1,0 +1,20 @@
+{
+    "PickString": "Sicim Topla",
+    "PlaceStringInBox": "Sicimleri Kutuya Yerleştir",
+    "OpenBoxOfString": "Sicim Kutusunu Aç",
+    "CraftRopeTwine": "Sicimden Halat Üret",
+    "CarveButton": "Düğme Oy",
+    "CarveLongStick2": "Uzun Çubuk Oy",
+    "MakeStonesFromLargeSmoothFlatStone": "Büyük Pürüzsüz Düz Taştan Taş Elde Et",
+    "MakeSackofGravel": "Çakıl Çuvalı Yap",
+    "ExtractClay": "Topraktan Kil Çıkar",
+    "PutClayinSack": "8 Kili Çuvala Koy",
+    "MakeCrudeFirestarter": "İlkel Ateş Başlatıcı Yap",
+    "MakeCannedCandle": "Konserve Mum Yap",
+    "LightCannedCandle": "Konserve Mumu Yak",
+    "ExtinguishCannedCandle": "Konserve Mumu Söndür",
+    "MakeTorch": "Meşale Yap",
+    "LightTorch": "Meşaleyi Yak",
+    "LightTorch2": "Meşaleyi Yak",
+    "ExtinguishTorch": "Meşaleyi Söndür"
+}

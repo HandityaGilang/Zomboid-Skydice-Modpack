@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<outfitManager>
+
+    <m_FemaleOutfits>
+		<m_Name>Trauma_Responder</m_Name>
+		<m_Guid>e05af677-7e4f-47d7-bc18-eed8f0920e10</m_Guid> 
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Helmet -->
+		<m_items>
+			<probability>1</probability>
+			<itemGUID>48324c4c-6690-47b2-9df2-8ebb841f97c2</itemGUID> <!-- Medical_Red Helmet Rook -->
+			<subItems>
+			<itemGUID>fe1a27f5-75c4-42dd-81b0-007001a2bb95</itemGUID> <!-- Medical_Red Helmet Defender -->
+			</subItems>		
+		</m_items>
+<!-- Hat -->
+		<m_items>
+			<probability>1</probability>
+			<itemGUID>00a22a71-c7e3-4df2-9258-741f8c63122a</itemGUID> <!-- Medical_Red Hat -->
+			<subItems>
+			</subItems>		
+		</m_items>
+<!-- ArmsProtectionUpper -->
+		<m_items>
+			<probability>1</probability>
+			<itemGUID>a365265b-10a3-40b4-905a-2ddbbabb127e</itemGUID> <!-- Shoulder Pads -->
+			<subItems>
+			</subItems>
+		</m_items>
+<!-- ArmsProtectionLower -->
+		<m_items>
+			<probability>1</probability>
+			<itemGUID>f93adc05-109b-4c5c-9db8-9322c4918736</itemGUID> <!-- Elbow Pads -->
+			<subItems>
+			</subItems>
+		</m_items>
+<!-- Bulletproof Vests -->		
+		<m_items>
+			<probability>1</probability>
+			<itemGUID>51e6dbc8-fcbe-4a8f-8aae-2bce8e319be8</itemGUID> <!-- Medical_Red Vest -->
+			<subItems>
+				<itemGUID>38c1e824-bc68-4b8f-b173-c14bf95a906a</itemGUID> <!-- Medical_Red Light Vest -->
+			</subItems>
+		</m_items>
+<!-- Gloves -->		
+		<m_items>
+			<probability>1</probability>
+			<itemGUID>6bb692d3-ade8-4a7d-80ab-53f1c9651349</itemGUID> <!-- Medical_Red Gloves -->
+			<subItems>
+			</subItems>
+		</m_items>
+<!-- Jackets -->			
+		<m_items>
+			<probability>1</probability>
+			<itemGUID>31ecce09-9155-400d-a2c5-cc1f07a89cb1</itemGUID> <!-- Medical_Red Jacket -->
+			<subItems>
+			</subItems>
+		</m_items>
+<!-- Leg Protection Lower -->			
+		<m_items>
+			<probability>1</probability>
+			<itemGUID>239bf118-d49e-4388-933e-ac68c0751f4b</itemGUID> <!--  Medical_Red Knee-pads -->
+			<subItems>
+			<itemGUID>493c0da0-5041-4537-8bc6-a4eae190ec66</itemGUID> <!--  Medical_Red Knee-pads Defender -->
+			</subItems>
+		</m_items>
+<!-- Pants -->			
+		<m_items>
+		    <probability>1</probability>
+			<itemGUID>97706585-e61f-41ca-9cb6-fc6af285b065</itemGUID> <!-- Medical_Red Pants-->
+			<subItems>
+				<itemGUID>df688d64-1e95-43cd-acdb-40aa0e2b64b5</itemGUID> <!-- Medical_Red Tuck -->
+			</subItems>
+		</m_items>
+<!-- Boots -->			
+		<m_items>
+			<probability>1</probability>
+			<itemGUID>703f446f-9aa4-4923-808f-6e9449051b64</itemGUID> <!-- Medical_Red Boots-->
+			<subItems>
+				<itemGUID>d48d910c-9e9a-48dc-b9c8-7724958a11a9</itemGUID> <!-- Medical_Red Tac Shoes-->
+			</subItems>
+		</m_items>
+<!-- Backpacks -->			
+		<m_items>
+			<probability>1</probability>
+			<itemGUID>18b7c17d-7b1f-45e4-bd23-08828c5d4e19</itemGUID> <!-- Medical_Red Backpack-->
+			<subItems>
+			</subItems>
+		</m_items>
+	</m_FemaleOutfits>
+	<m_MaleOutfits>
+		<m_Name>Trauma_Responder</m_Name>
+		<m_Guid>e05af677-7e4f-47d7-bc18-eed8f0920e10</m_Guid> 
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Helmet -->
+		<m_items>
+			<probability>1</probability>
+			<itemGUID>48324c4c-6690-47b2-9df2-8ebb841f97c2</itemGUID> <!-- Medical_Red Helmet Rook -->
+			<subItems>
+			<itemGUID>fe1a27f5-75c4-42dd-81b0-007001a2bb95</itemGUID> <!-- Medical_Red Helmet Defender -->
+			</subItems>		
+		</m_items>
+<!-- Hat -->
+		<m_items>
+			<probability>1</probability>
+			<itemGUID>00a22a71-c7e3-4df2-9258-741f8c63122a</itemGUID> <!-- Medical_Red Hat -->
+			<subItems>
+			</subItems>		
+		</m_items>
+<!-- ArmsProtectionUpper -->
+		<m_items>
+			<probability>1</probability>
+			<itemGUID>a365265b-10a3-40b4-905a-2ddbbabb127e</itemGUID> <!-- Shoulder Pads -->
+			<subItems>
+			</subItems>
+		</m_items>
+<!-- ArmsProtectionLower -->
+		<m_items>
+			<probability>1</probability>
+			<itemGUID>f93adc05-109b-4c5c-9db8-9322c4918736</itemGUID> <!-- Elbow Pads -->
+			<subItems>
+			</subItems>
+		</m_items>
+<!-- Bulletproof Vests -->		
+		<m_items>
+			<probability>1</probability>
+			<itemGUID>51e6dbc8-fcbe-4a8f-8aae-2bce8e319be8</itemGUID> <!-- Medical_Red Vest -->
+			<subItems>
+				<itemGUID>38c1e824-bc68-4b8f-b173-c14bf95a906a</itemGUID> <!-- Medical_Red Light Vest -->
+			</subItems>
+		</m_items>
+<!-- Gloves -->		
+		<m_items>
+			<probability>1</probability>
+			<itemGUID>6bb692d3-ade8-4a7d-80ab-53f1c9651349</itemGUID> <!-- Medical_Red Gloves -->
+			<subItems>
+			</subItems>
+		</m_items>
+<!-- Jackets -->			
+		<m_items>
+			<probability>1</probability>
+			<itemGUID>31ecce09-9155-400d-a2c5-cc1f07a89cb1</itemGUID> <!-- Medical_Red Jacket -->
+			<subItems>
+			</subItems>
+		</m_items>
+<!-- Leg Protection Lower -->			
+		<m_items>
+			<probability>1</probability>
+			<itemGUID>239bf118-d49e-4388-933e-ac68c0751f4b</itemGUID> <!--  Medical_Red Knee-pads -->
+			<subItems>
+			<itemGUID>493c0da0-5041-4537-8bc6-a4eae190ec66</itemGUID> <!--  Medical_Red Knee-pads Defender -->
+			</subItems>
+		</m_items>
+<!-- Pants -->			
+		<m_items>
+		    <probability>1</probability>
+			<itemGUID>97706585-e61f-41ca-9cb6-fc6af285b065</itemGUID> <!-- Medical_Red Pants-->
+			<subItems>
+				<itemGUID>df688d64-1e95-43cd-acdb-40aa0e2b64b5</itemGUID> <!-- Medical_Red Tuck -->
+			</subItems>
+		</m_items>
+<!-- Boots -->			
+		<m_items>
+			<probability>1</probability>
+			<itemGUID>703f446f-9aa4-4923-808f-6e9449051b64</itemGUID> <!-- Medical_Red Boots-->
+			<subItems>
+				<itemGUID>d48d910c-9e9a-48dc-b9c8-7724958a11a9</itemGUID> <!-- Medical_Red Tac Shoes-->
+			</subItems>
+		</m_items>
+<!-- Backpacks -->			
+		<m_items>
+			<probability>1</probability>
+			<itemGUID>18b7c17d-7b1f-45e4-bd23-08828c5d4e19</itemGUID> <!-- Medical_Red Backpack-->
+			<subItems>
+			</subItems>
+		</m_items>
+	</m_MaleOutfits>
+</outfitManager>

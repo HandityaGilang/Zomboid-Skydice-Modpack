@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Static\Clothes\M_Helmet_Patriot</m_MaleModel>
+	<m_FemaleModel>Static\Clothes\F_Helmet_Patriot</m_FemaleModel>
+	<m_GUID>1328f5b7-582c-43e7-9031-71b92f9dce4b</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_HatCategory>Group04</m_HatCategory>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>Clothes\Military\Helmets\Military_Helmet_Patriot-Desert_Camo</textureChoices>
+	<textureChoices>Clothes\Military\Helmets\Military_Helmet_Patriot-Desert_Plain</textureChoices>
+</clothingItem>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>b0cceb85-a910-46ef-b3b8-a42a05c0eb81</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_UBCorset</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_UBCorset_Alt</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_UBCorset_Alt2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_UBCorset_Alt4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_UBCorset_Alt5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_UBCorset_Alt6</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_UBCorset_Alt7</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_UBCorset_Alt8</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_UBCorset_Alt10</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Corsets\Leather_UBCorset_RedAlt2</m_BaseTextures>
+</clothingItem>

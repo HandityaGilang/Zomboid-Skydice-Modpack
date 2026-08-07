@@ -32,6 +32,92 @@ local function CleanUI_safeTriggerInventoryContextEvent(eventName, ...)
     return ok
 end
 
+local CleanUI_reportedUnsafeContextTimedActions = {}
+
+local function CleanUI_reportUnsafeContextTimedAction(contextName, item, reason)
+    -- Report each context/action failure once. This avoids hard errors from
+    -- malformed or stale transfer actions while keeping enough detail for logs.
+    local key = tostring(contextName) .. "|" .. tostring(item) .. "|" .. tostring(reason)
+    if CleanUI_reportedUnsafeContextTimedActions[key] then
+        return
+    end
+    CleanUI_reportedUnsafeContextTimedActions[key] = true
+    print("[CleanUI] Skipped unsafe context timed action in " .. tostring(contextName) .. ": " .. tostring(reason) .. " item=" .. tostring(item))
+end
+
+local function CleanUI_isContextInventoryItem(item)
+    return item ~= nil and instanceof(item, "InventoryItem")
+end
+
+local function CleanUI_getSafeActualContextItems(items, contextName)
+    -- Some MP/modded selection states can contain row/group Lua tables instead
+    -- of real InventoryItem objects. Filter them before creating vanilla timed
+    -- actions, because B42.20 MP item transactions require InventoryItem values.
+    local ok, actualItems = pcall(ISInventoryPane.getActualItems, items)
+    if not ok or not actualItems then
+        CleanUI_reportUnsafeContextTimedAction(contextName, items, "getActualItems failed: " .. tostring(actualItems))
+        return {}
+    end
+
+    local safeItems = {}
+    for _, actualItem in ipairs(actualItems) do
+        if CleanUI_isContextInventoryItem(actualItem) then
+            table.insert(safeItems, actualItem)
+        else
+            CleanUI_reportUnsafeContextTimedAction(contextName, actualItem, "non-InventoryItem selection entry")
+        end
+    end
+    return safeItems
+end
+
+local function CleanUI_addContextInventoryTransferAction(playerObj, item, srcContainer, destContainer, time, contextName)
+    -- Build 42.20 / MP guard: some stale or modded item/container states can
+    -- create a transfer action table that lacks the base timed-action methods.
+    -- Do not pass that object to ISTimedActionQueue.add(), because the queue
+    -- will otherwise fail inside addToQueue() when it tries action:begin().
+    if not playerObj then
+        CleanUI_reportUnsafeContextTimedAction(contextName, item, "missing player")
+        return false
+    end
+    if not item then
+        CleanUI_reportUnsafeContextTimedAction(contextName, item, "missing item")
+        return false
+    end
+    if not CleanUI_isContextInventoryItem(item) then
+        CleanUI_reportUnsafeContextTimedAction(contextName, item, "item is not an InventoryItem")
+        return false
+    end
+    if not srcContainer then
+        CleanUI_reportUnsafeContextTimedAction(contextName, item, "missing source container")
+        return false
+    end
+    if not destContainer then
+        CleanUI_reportUnsafeContextTimedAction(contextName, item, "missing destination container")
+        return false
+    end
+
+    local action = ISInventoryTransferUtil.newInventoryTransferAction(playerObj, item, srcContainer, destContainer, time)
+    if not action then
+        CleanUI_reportUnsafeContextTimedAction(contextName, item, "transfer action was nil")
+        return false
+    end
+    if not action.begin then
+        CleanUI_reportUnsafeContextTimedAction(contextName, item, "transfer action has no begin method")
+        return false
+    end
+    if not action.character then
+        CleanUI_reportUnsafeContextTimedAction(contextName, item, "transfer action has no character")
+        return false
+    end
+
+    local okAdd, addErr = pcall(ISTimedActionQueue.add, action)
+    if not okAdd then
+        CleanUI_reportUnsafeContextTimedAction(contextName, item, "ISTimedActionQueue.add failed: " .. tostring(addErr))
+        return false
+    end
+    return true
+end
+
 local CleanUI_reportedEvolvedRecipeRenameErrors = {}
 
 local function CleanUI_reportEvolvedRecipeRenameError(item, err)
@@ -2018,23 +2104,40 @@ function ISInventoryPaneContextMenu.transferIfNeeded(playerObj, item, preventTra
 
 	if instanceof(item, "InventoryItem") then
 		if luautils.haveToBeTransfered(playerObj, item) then
-			ISTimedActionQueue.add(ISInventoryTransferUtil.newInventoryTransferAction(playerObj, item, item:getContainer(), playerObj:getInventory()))
+			return CleanUI_addContextInventoryTransferAction(playerObj, item, item:getContainer(), playerObj:getInventory(), nil, "transferIfNeeded")
 		end
+        return true
     elseif instanceof(item, "IsoWorldInventoryObject") then
         if luautils.walkAdj(playerObj, item:getSquare()) then
             if not preventTransferWorldObjects then
-			    ISTimedActionQueue.add(ISInventoryTransferUtil.newInventoryTransferAction(playerObj, item:getItem(), item:getItem():getContainer(), playerObj:getInventory()))
+                local invItem = item:getItem()
+                if invItem then
+			        return CleanUI_addContextInventoryTransferAction(playerObj, invItem, invItem:getContainer(), playerObj:getInventory(), nil, "transferIfNeededWorldItem")
+                end
+                CleanUI_reportUnsafeContextTimedAction("transferIfNeededWorldItem", item, "world item has no inventory item")
+                return false
             end
         end
+        return true
 	elseif instanceof(item, "ArrayList") then
+        local ok = true
 		local items = item
 		for i=1,items:size() do
 			local item = items:get(i-1)
-			if luautils.haveToBeTransfered(playerObj, item) then
-				ISTimedActionQueue.add(ISInventoryTransferUtil.newInventoryTransferAction(playerObj, item, item:getContainer(), playerObj:getInventory()))
+            if CleanUI_isContextInventoryItem(item) then
+				if luautils.haveToBeTransfered(playerObj, item) then
+					if not CleanUI_addContextInventoryTransferAction(playerObj, item, item:getContainer(), playerObj:getInventory(), nil, "transferIfNeededList") then
+                        ok = false
+                    end
+				end
+            else
+                CleanUI_reportUnsafeContextTimedAction("transferIfNeededList", item, "ArrayList entry is not an InventoryItem")
+                ok = false
 			end
 		end
+        return ok
 	end
+    return true
 end
 
 ISInventoryPaneContextMenu.onEjectMagazine = function(playerObj, weapon)
@@ -2970,7 +3073,7 @@ ISInventoryPaneContextMenu.unequipItem = function(item, player)
 end
 
 ISInventoryPaneContextMenu.onWearItems = function(items, player)
-    items = ISInventoryPane.getActualItems(items)
+    items = CleanUI_getSafeActualContextItems(items, "onWearItems")
     local typeDone = {}; -- we keep track of what type of clothes we already wear to avoid wearing 2 times the same type (click on a stack of socks, select wear and you'll wear them 1 by 1 otherwise)
     for i,k in pairs(items) do
         if not (k:getBodyLocation() and typeDone[k:getBodyLocation()]) and not (k:canBeEquipped() and typeDone[k:canBeEquipped()]) then
@@ -3010,10 +3113,21 @@ end
 ISInventoryPaneContextMenu.wearItem = function(item, player)
 	-- if clothing isn't in main inventory, put it there first.
 	local playerObj = getSpecificPlayer(player);
+    if not CleanUI_isContextInventoryItem(item) then
+        CleanUI_reportUnsafeContextTimedAction("wearItem", item, "item is not an InventoryItem")
+        return
+    end
 	-- This stuff was removed in that it forced the first optional clothing option when trying to wear clothing items with multiple options.
 	-- It seems to work fine as intended without it.
-    ISInventoryPaneContextMenu.transferIfNeeded(playerObj, item);
-    ISTimedActionQueue.add(ISWearClothing:new(playerObj, item, 50));
+    if ISInventoryPaneContextMenu.transferIfNeeded(playerObj, item) == false then
+        return
+    end
+    local action = ISWearClothing:new(playerObj, item, 50)
+    if not action or not action.begin then
+        CleanUI_reportUnsafeContextTimedAction("wearItem", item, "wear action is invalid")
+        return
+    end
+    ISTimedActionQueue.add(action);
 end
 
 ISInventoryPaneContextMenu.onPutItems = function(items, player)
@@ -3909,23 +4023,43 @@ end
 -- Function that equip the selected weapon
 ISInventoryPaneContextMenu.equipWeapon = function(weapon, primary, twoHands, player, alwaysTurnOn)
 	local playerObj = getSpecificPlayer(player)
+    if not playerObj then
+        CleanUI_reportUnsafeContextTimedAction("equipWeapon", weapon, "missing player")
+        return
+    end
+    if not CleanUI_isContextInventoryItem(weapon) then
+        CleanUI_reportUnsafeContextTimedAction("equipWeapon", weapon, "weapon is not an InventoryItem")
+        return
+    end
 	-- Drop corpse or generator
 	if isForceDropHeavyItem(playerObj:getPrimaryHandItem()) then
 		ISTimedActionQueue.add(ISUnequipAction:new(playerObj, playerObj:getPrimaryHandItem(), 50));
 	end
 	if weapon:getWorldItem() then
-        local action = ISInventoryTransferUtil.newInventoryTransferAction(playerObj, weapon, weapon:getContainer(), playerObj:getInventory())
         -- Equipping an item from the ground to the hands is faster than putting it into the player's inventory.
-        action.maxTime = 20
-        ISTimedActionQueue.add(action)
+        if CleanUI_addContextInventoryTransferAction(playerObj, weapon, weapon:getContainer(), playerObj:getInventory(), 20, "equipWeaponWorldItem") == false then
+            return
+        end
         -- Then equip it.
-        ISTimedActionQueue.add(ISEquipWeaponAction:new(playerObj, weapon, 1, primary, twoHands, alwaysTurnOn));
+        local equipAction = ISEquipWeaponAction:new(playerObj, weapon, 1, primary, twoHands, alwaysTurnOn)
+        if not equipAction or not equipAction.begin then
+            CleanUI_reportUnsafeContextTimedAction("equipWeaponWorldItem", weapon, "equip action is invalid")
+            return
+        end
+        ISTimedActionQueue.add(equipAction);
         return
 	end
 	-- if weapon isn't in main inventory, put it there first.
-	ISInventoryPaneContextMenu.transferIfNeeded(playerObj, weapon)
+	if ISInventoryPaneContextMenu.transferIfNeeded(playerObj, weapon) == false then
+        return
+    end
     -- Then equip it.
-    ISTimedActionQueue.add(ISEquipWeaponAction:new(playerObj, weapon, 50, primary, twoHands, alwaysTurnOn));
+    local equipAction = ISEquipWeaponAction:new(playerObj, weapon, 50, primary, twoHands, alwaysTurnOn)
+    if not equipAction or not equipAction.begin then
+        CleanUI_reportUnsafeContextTimedAction("equipWeapon", weapon, "equip action is invalid")
+        return
+    end
+    ISTimedActionQueue.add(equipAction);
 end
 
 ISInventoryPaneContextMenu.onInformationItems = function(items)
@@ -4600,46 +4734,147 @@ ISInventoryPaneContextMenu.onClothingItemExtra = function(item, extra, playerObj
     ISTimedActionQueue.add(ISClothingExtraAction:new(playerObj, item, extra))
 end
 
-ISInventoryPaneContextMenu.doPlace3DItemOption = function(items, player, context)
-    if player:getVehicle() then return end
-    local all3D = true;
-    local noFavourites = true;
-    items = ISInventoryPane.getActualItems(items)
-    for _,item in ipairs(items) do
-        if not item:getWorldStaticItem() and not instanceof(item, "HandWeapon") and not instanceof(item, "Clothing") then
-            all3D = false;
-        end
+CleanUI_Place3DContextGuardLogged = CleanUI_Place3DContextGuardLogged or {}
 
-		if item:getType() == "CarBatteryCharger" then
-			all3D = false
-		end
-		
-        if all3D and instanceof(item, "Clothing") then
-            all3D = item:canBe3DRender();
-        end
-        if(item:isFavorite()) then
-            noFavourites = false;
+local function CleanUI_getPlace3DItemNameSafe(item)
+    if item == nil then return "nil" end
+
+    local okFullType, fullType = pcall(function()
+        return item:getFullType()
+    end)
+    if okFullType and fullType then return tostring(fullType) end
+
+    local okType, itemType = pcall(function()
+        return item:getType()
+    end)
+    if okType and itemType then return tostring(itemType) end
+
+    return tostring(item)
+end
+
+local function CleanUI_logPlace3DContextGuard(item, reason)
+    local itemName = CleanUI_getPlace3DItemNameSafe(item)
+    local key = tostring(reason) .. "|" .. itemName
+    if CleanUI_Place3DContextGuardLogged[key] then return end
+    CleanUI_Place3DContextGuardLogged[key] = true
+    print("[CleanUI] Skipped unsafe 3D placement context check reason " .. tostring(reason) .. " item " .. itemName)
+end
+
+local function CleanUI_itemIsInstanceOfSafe(item, className)
+    local ok, result = pcall(function()
+        return instanceof(item, className)
+    end)
+    if not ok then
+        CleanUI_logPlace3DContextGuard(item, "instanceof failed for " .. tostring(className))
+        return false
+    end
+    return result == true
+end
+
+ISInventoryPaneContextMenu.doPlace3DItemOption = function(items, player, context)
+    if not player or not context then return end
+
+    -- Some SP/MP/modded contexts can provide stale objects here; keep the context menu safe.
+    local okVehicle, vehicle = pcall(function()
+        return player:getVehicle()
+    end)
+    if okVehicle and vehicle then return end
+    if not okVehicle then return end
+
+    local okItems, actualItems = pcall(function()
+        return ISInventoryPane.getActualItems(items)
+    end)
+    if not okItems or not actualItems then
+        CleanUI_logPlace3DContextGuard(nil, "getActualItems failed")
+        return
+    end
+    items = actualItems
+    if #items == 0 then return end
+
+    local all3D = true
+    local noFavourites = true
+
+    for _,item in ipairs(items) do
+        if item == nil then
+            all3D = false
+        else
+            local isHandWeapon = CleanUI_itemIsInstanceOfSafe(item, "HandWeapon")
+            local isClothing = CleanUI_itemIsInstanceOfSafe(item, "Clothing")
+
+            local okStatic, worldStaticItem = pcall(function()
+                return item:getWorldStaticItem()
+            end)
+            if not okStatic then
+                CleanUI_logPlace3DContextGuard(item, "getWorldStaticItem failed")
+                all3D = false
+            elseif not worldStaticItem and not isHandWeapon and not isClothing then
+                all3D = false
+            end
+
+            local okType, itemType = pcall(function()
+                return item:getType()
+            end)
+            if okType and itemType == "CarBatteryCharger" then
+                all3D = false
+            elseif not okType then
+                CleanUI_logPlace3DContextGuard(item, "getType failed")
+                all3D = false
+            end
+
+            if all3D and isClothing then
+                local okRender, canRender = pcall(function()
+                    return item:canBe3DRender()
+                end)
+                if okRender then
+                    all3D = canRender == true
+                else
+                    CleanUI_logPlace3DContextGuard(item, "canBe3DRender failed")
+                    all3D = false
+                end
+            end
+
+            local okFavourite, favourite = pcall(function()
+                return item:isFavorite()
+            end)
+            if okFavourite and favourite then
+                noFavourites = false
+            elseif not okFavourite then
+                CleanUI_logPlace3DContextGuard(item, "isFavorite failed")
+            end
         end
     end
+
     if all3D then
-             local placeOption = context:addOption(getText("ContextMenu_PlaceItemOnGround"), items, ISInventoryPaneContextMenu.onPlaceItemOnGround, player);
-              if (noFavourites == false) then
-                  placeOption.notAvailable = true;
-                  local tooltip = ISInventoryPaneContextMenu.addToolTip();
-                  tooltip.description = getText("Tooltip_CantPlaceFavoriteItems");
-                  placeOption.toolTip = tooltip;
-              end
-        local testItem = items[1];
-        if testItem and #items > 1 and (testItem:getContainer() ~= player:getInventory()) then
-            placeOption.onSelect = nil
-            local subMenu = context:getNew(context);
-            context:addSubMenu(placeOption, subMenu);
-            subMenu:addOption(getText("ContextMenu_PlaceOne"), {items[1]}, ISInventoryPaneContextMenu.onPlaceItemOnGround, player);
-            if #items > 2 then
-                subMenu:addOption(getText("ContextMenu_PlaceHalf"), {unpack(items, 1, math.ceil(#items / 2))}, ISInventoryPaneContextMenu.onPlaceItemOnGround, player);
-            end;
-            subMenu:addOption(getText("ContextMenu_PlaceAll"), items, ISInventoryPaneContextMenu.onPlaceItemOnGround, player);
-        end;
+        local placeOption = context:addOption(getText("ContextMenu_PlaceItemOnGround"), items, ISInventoryPaneContextMenu.onPlaceItemOnGround, player)
+        if noFavourites == false then
+            placeOption.notAvailable = true
+            local tooltip = ISInventoryPaneContextMenu.addToolTip()
+            tooltip.description = getText("Tooltip_CantPlaceFavoriteItems")
+            placeOption.toolTip = tooltip
+        end
+
+        local testItem = items[1]
+        if testItem and #items > 1 then
+            local okContainer, itemContainer = pcall(function()
+                return testItem:getContainer()
+            end)
+            local okInventory, playerInventory = pcall(function()
+                return player:getInventory()
+            end)
+
+            if okContainer and okInventory and itemContainer ~= playerInventory then
+                placeOption.onSelect = nil
+                local subMenu = context:getNew(context)
+                context:addSubMenu(placeOption, subMenu)
+                subMenu:addOption(getText("ContextMenu_PlaceOne"), {items[1]}, ISInventoryPaneContextMenu.onPlaceItemOnGround, player)
+                if #items > 2 then
+                    subMenu:addOption(getText("ContextMenu_PlaceHalf"), {unpack(items, 1, math.ceil(#items / 2))}, ISInventoryPaneContextMenu.onPlaceItemOnGround, player)
+                end
+                subMenu:addOption(getText("ContextMenu_PlaceAll"), items, ISInventoryPaneContextMenu.onPlaceItemOnGround, player)
+            elseif not okContainer or not okInventory then
+                CleanUI_logPlace3DContextGuard(testItem, "container submenu check failed")
+            end
+        end
     end
 end
 

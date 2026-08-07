@@ -1,0 +1,16 @@
+{
+    "Sandbox_DGMC_Cleaning_Wipes": "rengjøringsservietter",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body": "Kan rense kroppen",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body_tooltip": "Om du kan rense kroppen med rengjøringsservietter.",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing": "Kan rengjøre klær",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing_tooltip": "Om du kan rengjøre klær med rengjøringsservietter.",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons": "Kan rense nærkampsvåpen",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons_tooltip": "Om du kan rense nærkampvåpen med rengjøringsservietter.",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup": "Fjerner sminke",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup_tooltip": "Om du skal fjerne sminke når du rengjør kroppen.",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult": "Varighet multiplikator",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult_tooltip": "Hvor lang tid det tar å rengjøre med kluter, i forhold til vask med kun vann.  Lavere for raskere, høyere for langsommere.",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness": "Klær fuktighet",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness_tooltip": "Ved rengjøring av klær vil fuktighetsnivået være satt til maksimalt denne verdien eller gjeldende nivå.  For eksempel med standardverdien, vil klær ved 0 fuktighet bli satt til 25, mens klær allerede ved 50 fuktighet vil forbli på 50.",
+    "Sandbox_DGMC_Cleaning_Wipes_Debug_Logging": "Feilsøkingslogging"
+}

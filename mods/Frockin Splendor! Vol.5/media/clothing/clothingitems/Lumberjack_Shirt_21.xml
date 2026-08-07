@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+    <m_MaleModel></m_MaleModel>
+    <m_FemaleModel></m_FemaleModel>
+    <m_GUID>5c28d89e-bf53-4bb2-a436-be28b22928cb</m_GUID>
+    <m_Static>false</m_Static>
+    <m_AllowRandomTint>false</m_AllowRandomTint>
+    <m_AttachBone></m_AttachBone>
+    <m_BaseTextures>clothes\Material_Cotton\Shirts\Denim_Shirt_21</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Shirts\DenimBlue_Shirt_21</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Shirts\DenimBlueRed_Shirt_21</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Shirts\DenimGrey_Shirt_21</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Shirts\DenimPink_Shirt_21</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Shirts\DenimPurple_Shirt_21</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Shirts\DenimYellow_Shirt_21</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Shirts\DenimYellower_Shirt_21</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Shirts\DenimGreen_Shirt_21</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Shirts\DenimGreenYellow_Shirt_21</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Shirts\DenimWhite_Shirt_21</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Shirts\DenimWhiteRed_Shirt_21</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Shirts\DenimWhiteBlue_Shirt_21</m_BaseTextures>
+</clothingItem>

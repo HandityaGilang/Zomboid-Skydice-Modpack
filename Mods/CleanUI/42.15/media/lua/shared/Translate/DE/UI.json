@@ -12,7 +12,9 @@
     "UI_CleanUI_TransferMenu": "Gegenstände verschieben",
     "UI_CleanUI_EquippedItems": "Ausgerüstete Gegenstände",
     "UI_CleanUI_ContainerBackgroundOpacity": "Deckkraft der Seitenleiste",
+    "UI_CleanUI_ContainerBackgroundOpacityPercent": "Deckkraft der Seitenleiste (%%)",
     "UI_CleanUI_BackgroundOpacity": "Hintergrunddeckkraft",
+    "UI_CleanUI_BackgroundOpacityPercent": "Hintergrunddeckkraft (%%)",
     "UI_CleanUI_PlayerContainerPosition": "Inventarfenster (Neustart erforderlich)",
     "UI_CleanUI_LootContainerPosition": "Beutefenster (Neustart erforderlich)",
     "UI_CleanUI_ContainerPositionLeft": "Links",
@@ -45,5 +47,11 @@
     "UI_CleanUI_TransferMethodNearbyTooltip": "Methode: Nahegelegene Behälter <LINE> Klicken zum Ändern",
     "UI_CleanUI_TransferByNameTooltip": "Nach Gegenstandsnamen verschieben",
     "UI_CleanUI_TransferByCategoryTooltip": "Nach Kategorien verschieben",
-    "UI_CleanUI_MoveToFloorTooltip": "Auf den Boden legen"
+    "UI_CleanUI_MoveToFloorTooltip": "Auf den Boden legen",
+    "UI_CleanUI_ShowWeightColumn": "Gewichtsspalte anzeigen",
+    "UI_CleanUI_ShowWeightColumn_Tooltip": "Zeigt eine separate Gewichtsspalte für Objekt- und Stapelzeilen in den Inventar- und Loot-Fenstern von CleanUI an.",
+    "UI_CleanUI_Column_Rarity": "Seltenheit",
+    "UI_CleanUI_Column_Weight": "Gewicht",
+    "UI_CleanUI_ShowColumnHeaders": "Spaltenüberschriften anzeigen",
+    "UI_CleanUI_ShowColumnHeaders_Tooltip": "Zeigt die anklickbare Spaltenüberschriftszeile über den Objektlisten in Inventar- und Loot-Fenstern an."
 }

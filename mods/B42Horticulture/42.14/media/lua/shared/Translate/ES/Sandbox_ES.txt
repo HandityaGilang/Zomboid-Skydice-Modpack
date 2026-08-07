@@ -1,0 +1,6 @@
+Sandbox_ES =
+{
+    Sandbox_B42Horticulture = "[B42] Horticultura",
+    Sandbox_HorticultureLearnedRecipe = "Aprender desde revista original",
+    Sandbox_HorticultureLearnedRecipe_tooltip = "Añade la receta «Fabricar pipa de cristal» a «Revista: Manual de vidrio de Murano».",
+}

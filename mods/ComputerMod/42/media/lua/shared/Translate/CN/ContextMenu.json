@@ -1,0 +1,8 @@
+{
+    "ContextMenu_ComputerMod_Computer": "\u7535\u8111",
+    "ContextMenu_ComputerMod_InsertCD": "\u63d2\u5165CD",
+    "ContextMenu_ComputerMod_NetworkTerminal": "\u7f51\u7edc\u7ec8\u7aef",
+    "ContextMenu_ComputerMod_RemoveCD": "\u53d6\u51fa\u5149\u76d8",
+    "ContextMenu_ComputerMod_ResumeSession": "\u6062\u590d\u4f1a\u8bdd",
+    "ContextMenu_ComputerMod_TurnOn": "\u6253\u5f00"
+}

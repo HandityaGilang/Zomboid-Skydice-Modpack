@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\Cotton_Gothic_Skirt</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\Cotton_Gothic_Skirt</m_FemaleModel>
+	<m_GUID>a5a92df2-c8a5-4bf3-8b8e-e23093285f64</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder></m_MasksFolder>
+	
+	<textureChoices>clothes\Material_Cotton\SkirtsModels\Cotton_GothicSkirt_9A</textureChoices>
+	<textureChoices>clothes\Material_Cotton\SkirtsModels\Cotton_GothicSkirt_10A</textureChoices>
+	<textureChoices>clothes\Material_Cotton\SkirtsModels\Cotton_GothicSkirt_11A</textureChoices>
+	<textureChoices>clothes\Material_Cotton\SkirtsModels\Cotton_GothicSkirt_12A</textureChoices>
+	<textureChoices>clothes\Material_Cotton\SkirtsModels\Cotton_GothicSkirt_13A</textureChoices>
+	<textureChoices>clothes\Material_Cotton\SkirtsModels\Cotton_GothicSkirt_14A</textureChoices>
+	<textureChoices>clothes\Material_Cotton\SkirtsModels\Cotton_GothicSkirt_15A</textureChoices>	
+</clothingItem>	

@@ -14,7 +14,9 @@ UI_TH = {
 
     /*ModOption*/
     UI_CleanUI_ContainerBackgroundOpacity = "ความทึบของแถบด้านข้าง",
+    UI_CleanUI_ContainerBackgroundOpacityPercent = "ความทึบของแถบด้านข้าง (%%)",
     UI_CleanUI_BackgroundOpacity = "ความทึบของพื้นหลัง",
+    UI_CleanUI_BackgroundOpacityPercent = "ความทึบของพื้นหลัง (%%)",
     UI_CleanUI_PlayerContainerPosition = "แผงช่องเก็บของ (ต้องรีสตาร์ท)",
     UI_CleanUI_LootContainerPosition = "แผงสิ่งของ (ต้องรีสตาร์ท)",
     UI_CleanUI_ContainerPositionLeft = "ซ้าย",
@@ -47,5 +49,11 @@ UI_TH = {
     UI_CleanUI_TransferMethodNearbyTooltip = "วิธี: คอนเทนเนอร์ใกล้เคียง <LINE> คลิกเพื่อเปลี่ยน",
     UI_CleanUI_TransferByNameTooltip = "ย้ายตามชื่อไอเทม",
     UI_CleanUI_TransferByCategoryTooltip = "ย้ายตามหมวดหมู่",
+    UI_CleanUI_ShowWeightColumn = "แสดงคอลัมน์น้ำหนัก",
+    UI_CleanUI_ShowWeightColumn_Tooltip = "แสดงคอลัมน์น้ำหนักแยกสำหรับแถวสิ่งของและแถวกองสิ่งของในแผงช่องเก็บของและแผงของที่ค้นเจอของ CleanUI",
+    UI_CleanUI_ShowColumnHeaders = "แสดงหัวคอลัมน์",
+    UI_CleanUI_ShowColumnHeaders_Tooltip = "แสดงแถวหัวคอลัมน์ที่คลิกได้เหนือรายการสิ่งของในแผงช่องเก็บของและแผงของที่ค้นเจอ",
     UI_CleanUI_MoveToFloorTooltip = "ย้ายลงพื้น",
+    UI_CleanUI_Column_Rarity = "ความหายาก",
+    UI_CleanUI_Column_Weight = "น้ำหนัก",
 }

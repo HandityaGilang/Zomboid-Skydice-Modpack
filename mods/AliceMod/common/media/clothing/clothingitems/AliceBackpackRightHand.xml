@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\clothes\AliceBackpackRightHand</m_MaleModel>
+	<m_FemaleModel>Skinned\clothes\AliceBackpackRightHand</m_FemaleModel>
+	<m_GUID>f09738a4-f751-49a5-8b41-9e9bc4e1ce9b</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>	
+	<textureChoices>AliceBackpackV1</textureChoices>
+	<textureChoices>AliceBackpackV2</textureChoices>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+</clothingItem>

@@ -14,7 +14,9 @@ UI_PTBR = {
 
     /*ModOption*/
     UI_CleanUI_ContainerBackgroundOpacity = "Opacidade da barra lateral",
+    UI_CleanUI_ContainerBackgroundOpacityPercent = "Opacidade da barra lateral (%%)",
     UI_CleanUI_BackgroundOpacity = "Opacidade do fundo",
+    UI_CleanUI_BackgroundOpacityPercent = "Opacidade do fundo (%%)",
     UI_CleanUI_PlayerContainerPosition = "Painel de inventário (requer reinício)",
     UI_CleanUI_LootContainerPosition = "Painel de loot (requer reinício)",
     UI_CleanUI_ContainerPositionLeft = "Esquerda",
@@ -47,5 +49,11 @@ UI_PTBR = {
     UI_CleanUI_TransferMethodNearbyTooltip = "Método: recipientes próximos <LINE> Clique para alterar",
     UI_CleanUI_TransferByNameTooltip = "Transferir por nomes de itens",
     UI_CleanUI_TransferByCategoryTooltip = "Transferir por categorias",
+    UI_CleanUI_ShowWeightColumn = "Mostrar coluna de peso",
+    UI_CleanUI_ShowWeightColumn_Tooltip = "Mostra uma coluna de peso separada para linhas de itens e pilhas nos painéis de inventário e saque da CleanUI.",
+    UI_CleanUI_ShowColumnHeaders = "Mostrar cabeçalhos de coluna",
+    UI_CleanUI_ShowColumnHeaders_Tooltip = "Mostra a linha clicável de cabeçalhos de coluna acima das listas de itens nos painéis de inventário e saque.",
     UI_CleanUI_MoveToFloorTooltip = "Mover para o chão",
+    UI_CleanUI_Column_Rarity = "Raridade",
+    UI_CleanUI_Column_Weight = "Peso",
 }

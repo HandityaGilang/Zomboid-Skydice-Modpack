@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<outfitManager>
+
+    <m_FemaleOutfits>
+		<m_Name>Desert_Camo_Unit</m_Name>
+		<m_Guid>235695cf-794b-49a6-a543-38d4b6fe4ffc</m_Guid> 
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Helmet -->
+		<m_items>
+			<probability>2</probability>
+			<itemGUID>d139f2a1-ae92-47e2-93c6-255e975d6faf</itemGUID> <!-- Desert_Camo Helmet Defender -->
+			<subItems>
+			<itemGUID>1328f5b7-582c-43e7-9031-71b92f9dce4b</itemGUID> <!-- Desert_Camo Helmet Patriot -->
+			</subItems>		
+		</m_items>
+<!-- Hat -->
+		<m_items>
+			<probability>2</probability>
+			<itemGUID>ad0d464c-597a-457d-aee5-6cc25f03f773</itemGUID> <!-- Desert_Camo Hat -->
+			<subItems>
+			</subItems>		
+		</m_items>
+<!-- ArmsProtectionUpper -->
+		<m_items>
+			<probability>2</probability>
+			<itemGUID>59f03b07-2e9c-4016-9f0a-a59950040458</itemGUID> <!-- Elbow Pads -->
+			<subItems>
+			</subItems>
+		</m_items>
+<!-- ArmsProtectionLower -->
+		<m_items>
+			<probability>2</probability>
+			<itemGUID>00495e69-7cb2-4d20-a48f-07bd5e000bf7</itemGUID> <!-- Elbow Pads -->
+			<subItems>
+			</subItems>
+		</m_items>
+<!-- Bulletproof Vests -->		
+		<m_items>
+			<probability>2</probability>
+			<itemGUID>89c1826b-9e90-43ba-835b-adefef4face9</itemGUID> <!-- Desert_Camo Vest -->
+			<subItems>
+				<itemGUID>c5c66850-d5c0-48dd-aee8-691d3b229ee7</itemGUID> <!-- Desert_Camo Light Vest -->
+			</subItems>
+		</m_items>
+<!-- Gloves -->		
+		<m_items>
+			<probability>2</probability>
+			<itemGUID>f412e483-7b11-4691-a66f-df6a2996b8dd</itemGUID> <!-- Desert_Camo Gloves -->
+			<subItems>
+			</subItems>
+		</m_items>
+<!-- Jackets -->			
+		<m_items>
+			<probability>2</probability>
+			<itemGUID>8f9b6029-38b1-48e3-8181-4e17255adf75</itemGUID> <!-- Desert_Camo Jacket -->
+			<subItems>
+			</subItems>
+		</m_items>
+<!-- Leg Protection Lower -->			
+		<m_items>
+			<probability>2</probability>
+			<itemGUID>02a2f569-8d75-4d49-954e-0a48c7458a89</itemGUID> <!--  Desert_Camo Knee-pads -->
+			<subItems>
+			<itemGUID>a334aba2-b080-49d8-b171-e1911c705009</itemGUID> <!--  Desert_Camo Knee-pads Defender -->
+			</subItems>
+		</m_items>
+<!-- Pants -->			
+		<m_items>
+		    <probability>2</probability>
+			<itemGUID>04383ba6-342b-4f9c-84d7-b6e0085c5b11</itemGUID> <!-- Desert_Camo Pants-->
+			<subItems>
+				<itemGUID>13a6591a-3295-4022-88fc-55c517120fad</itemGUID> <!-- Desert_Camo Tuck -->
+			</subItems>
+		</m_items>
+<!-- Boots -->			
+		<m_items>
+			<probability>2</probability>
+			<itemGUID>50271dd1-5ac7-41a6-acdd-5d33a7ddadd7</itemGUID> <!-- Desert_Camo Boots-->
+			<subItems>
+				<itemGUID>734d7229-7bdc-4c86-be05-a819e87b6327</itemGUID> <!-- Desert_Camo Tac Shoes-->
+			</subItems>
+		</m_items>
+<!-- Backpacks -->			
+		<m_items>
+			<probability>1</probability>
+			<itemGUID>5679bcb8-ded3-4427-823b-c281a344317b</itemGUID> <!-- Desert_Camo Backpack-->
+			<subItems>
+			</subItems>
+		</m_items>
+	</m_FemaleOutfits>
+	<m_MaleOutfits>
+		<m_Name>Desert_Camo_Unit</m_Name>
+		<m_Guid>a74533ea-05e7-432e-9409-516e87506cf9</m_Guid> 
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowPantsHue>false</m_AllowPantsHue>
+		<m_AllowTopTint>false</m_AllowTopTint>
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal>
+<!-- Helmet -->
+		<m_items>
+			<probability>2</probability>
+			<itemGUID>d139f2a1-ae92-47e2-93c6-255e975d6faf</itemGUID> <!-- Desert_Camo Helmet Defender -->
+			<subItems>
+			<itemGUID>1328f5b7-582c-43e7-9031-71b92f9dce4b</itemGUID> <!-- Desert_Camo Helmet Patriot -->
+			</subItems>		
+		</m_items>
+<!-- Hat -->
+		<m_items>
+			<probability>2</probability>
+			<itemGUID>ad0d464c-597a-457d-aee5-6cc25f03f773</itemGUID> <!-- Desert_Camo Hat -->
+			<subItems>
+			</subItems>		
+		</m_items>
+<!-- ArmsProtectionUpper -->
+		<m_items>
+			<probability>2</probability>
+			<itemGUID>59f03b07-2e9c-4016-9f0a-a59950040458</itemGUID> <!-- Elbow Pads -->
+			<subItems>
+			</subItems>
+		</m_items>
+<!-- ArmsProtectionLower -->
+		<m_items>
+			<probability>2</probability>
+			<itemGUID>00495e69-7cb2-4d20-a48f-07bd5e000bf7</itemGUID> <!-- Elbow Pads -->
+			<subItems>
+			</subItems>
+		</m_items>
+<!-- Bulletproof Vests -->		
+		<m_items>
+			<probability>2</probability>
+			<itemGUID>89c1826b-9e90-43ba-835b-adefef4face9</itemGUID> <!-- Desert_Camo Vest -->
+			<subItems>
+				<itemGUID>c5c66850-d5c0-48dd-aee8-691d3b229ee7</itemGUID> <!-- Desert_Camo Light Vest -->
+			</subItems>
+		</m_items>
+<!-- Gloves -->		
+		<m_items>
+			<probability>2</probability>
+			<itemGUID>f412e483-7b11-4691-a66f-df6a2996b8dd</itemGUID> <!-- Desert_Camo Gloves -->
+			<subItems>
+			</subItems>
+		</m_items>
+<!-- Jackets -->			
+		<m_items>
+			<probability>2</probability>
+			<itemGUID>8f9b6029-38b1-48e3-8181-4e17255adf75</itemGUID> <!-- Desert_Camo Jacket -->
+			<subItems>
+			</subItems>
+		</m_items>
+<!-- Leg Protection Lower -->			
+		<m_items>
+			<probability>2</probability>
+			<itemGUID>02a2f569-8d75-4d49-954e-0a48c7458a89</itemGUID> <!--  Desert_Camo Knee-pads -->
+			<subItems>
+			<itemGUID>a334aba2-b080-49d8-b171-e1911c705009</itemGUID> <!--  Desert_Camo Knee-pads Defender -->
+			</subItems>
+		</m_items>
+<!-- Pants -->			
+		<m_items>
+		    <probability>2</probability>
+			<itemGUID>04383ba6-342b-4f9c-84d7-b6e0085c5b11</itemGUID> <!-- Desert_Camo Pants-->
+			<subItems>
+				<itemGUID>13a6591a-3295-4022-88fc-55c517120fad</itemGUID> <!-- Desert_Camo Tuck -->
+			</subItems>
+		</m_items>
+<!-- Boots -->			
+		<m_items>
+			<probability>2</probability>
+			<itemGUID>50271dd1-5ac7-41a6-acdd-5d33a7ddadd7</itemGUID> <!-- Desert_Camo Boots-->
+			<subItems>
+				<itemGUID>734d7229-7bdc-4c86-be05-a819e87b6327</itemGUID> <!-- Desert_Camo Tac Shoes-->
+			</subItems>
+		</m_items>
+<!-- Backpacks -->			
+		<m_items>
+			<probability>1</probability>
+			<itemGUID>5679bcb8-ded3-4427-823b-c281a344317b</itemGUID> <!-- Desert_Camo Backpack-->
+			<subItems>
+			</subItems>
+		</m_items>
+	</m_MaleOutfits>
+</outfitManager>

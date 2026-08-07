@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>afb11997-3f78-41b0-9487-3cbd64d82cfc</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Alt_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Alt_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Alt_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Alt_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Alt_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Alt_6</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_6</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Alt1_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Alt1_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Alt1_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Alt1_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Alt1_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Alt1_6</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Nude_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Nude_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Nude_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Nude_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Nude_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Nude_6</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Purp_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Purp_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Purp_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Purp_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Purp_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Purp_6</m_BaseTextures>
+
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Red_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Red_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Red_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Red_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Red_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Red_6</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Whit_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Whit_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Whit_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Whit_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Whit_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Tops_CropTops_Sleeves\Nylon_CropTopSleeves_TINY_Whit_6</m_BaseTextures>
+
+</clothingItem>

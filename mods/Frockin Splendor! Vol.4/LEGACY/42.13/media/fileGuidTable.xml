@@ -1,0 +1,679 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+
+	<!--COTTON BRANCH ITEMS-->
+	
+	<files>
+		<path>media/clothing/clothingItems/Cotton_Layered_Skirt_HC.xml</path>
+		<guid>9648832a-fe7f-4bb3-ad35-2a4d5d6dc22a</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Cotton_Layered_Skirt_MC.xml</path>
+		<guid>a67cc1cc-37e2-4831-86f9-212e5970fbf9</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Cotton_Gothic_Skirt.xml</path>
+		<guid>c83b754c-b267-4aa7-ace0-71c6ca7a8d3b</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Cotton_Gothic_Skirt_MC.xml</path>
+		<guid>2e78dee4-8e85-4e12-8839-df1d3a57e88a</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Cotton_Gothic_Skirt_HC.xml</path>
+		<guid>a6bd6f13-7d13-4d35-b424-a7f611518b80</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/CottonLace_Gothic_Skirt.xml</path>
+		<guid>a5a92df2-c8a5-4bf3-8b8e-e23093285f64</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/CottonLace_Gothic_Skirt_MC.xml</path>
+		<guid>6b2b27c5-067a-4daf-8d2b-3326c5af4f6b</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/CottonLace_Gothic_Skirt_HC.xml</path>
+		<guid>dba83da3-5b7c-4aab-82e8-a2fc247bdb1e</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/CottonWhite_Gothic_Skirt.xml</path>
+		<guid>a7939d81-0fb8-4230-bf4a-8470685e834f</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/CottonWhite_Gothic_Skirt_HC.xml</path>
+		<guid>020e8eb1-bc66-4b49-a19c-0154c4fea7fd</guid>
+	</files>
+
+	<!--Nylon items-->	
+
+	<files>
+		<path>media/clothing/clothingItems/Nylon_Bodysuit.xml</path>
+		<guid>2c6ee11b-074b-4210-8558-0fae123ad1fa</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Nylon_Bolero.xml</path>
+		<guid>5c7dac71-d4ee-4a02-9da6-d01bb2cf2a1c</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Nylon_Bolero_Short.xml</path>
+		<guid>72eeaf5d-bc97-49e6-b7db-0617469c0805</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Nylon_Bolero_Shorter.xml</path>
+		<guid>5cc028d8-7565-46e1-85f4-e3d4a390150c</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Nylon_Long_Gloves.xml</path>
+		<guid>eb2ead58-bd63-4452-8119-e8e626ea1273</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Nylon_Long_Gloves_Designer.xml</path>
+		<guid>6d81d823-1f55-4913-9406-be80ff1b98c4</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Nylon_Stockings.xml</path>
+		<guid>648a01d4-0b5f-4ce0-ad88-9accddafda0e</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Nylon_Stockings_Suspender.xml</path>
+		<guid>3cdfcf27-5da4-4106-aa23-ef8b7e0849bc</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Nylon_StockingsShort.xml</path>
+		<guid>816cdf51-9c3d-49f7-a0f0-2b44b14e0f67</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Nylon_StockingsShort_Suspender.xml</path>
+		<guid>f40c8082-4314-469c-ab45-1a9a762d335d</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Nylon_StockingsShorter.xml</path>
+		<guid>30b9faad-9bef-450b-8f84-c5d6b42951c3</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Nylon_StockingsShorter2.xml</path>
+		<guid>1d999709-3457-4681-a814-3cebd36c8a85</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Nylon_Stockings_Designer.xml</path>
+		<guid>6af412f1-4ad8-4047-a6e0-181a24d093b6</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Nylon_Tights.xml</path>
+		<guid>6959c309-4298-41e8-b1e8-235aba900f5d</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Nylon_TightsHW.xml</path>
+		<guid>b94e427a-0bb9-4faa-aa2f-fbd72d0cf66a</guid>
+	</files>	
+	
+	<files>
+		<path>media/clothing/clothingItems/Nylon_CropTop.xml</path>
+		<guid>c90446a8-9f2d-42b7-9e6e-d1c5a0dc34ec</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Nylon_Top.xml</path>
+		<guid>2b0dd7fe-c733-4f71-ba39-9df6c0597282</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Nylon_Top_Sleeves.xml</path>
+		<guid>25353f22-5376-45e4-b915-eb2fe5b6e11f</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Nylon_CropTop_Sleeves.xml</path>
+		<guid>df996bd3-a5df-4a1e-ae2f-bd003344d636</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Nylon_CropTop_Sleeves_TINY.xml</path>
+		<guid>afb11997-3f78-41b0-9487-3cbd64d82cfc</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Nylon_Leotard.xml</path>
+		<guid>e2e3f033-91ed-482b-a1bc-d79d7bd1af58</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Nylon_Leotard_MC.xml</path>
+		<guid>a042a5e1-5bfc-457d-9995-47e76bf9696f</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Nylon_Leotard_HC.xml</path>
+		<guid>03b0bf31-fe28-4055-9480-6946e179f810</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Nylon_Leotard_Sleeves.xml</path>
+		<guid>512c0876-ec8e-41fc-8fc9-c38097f395d1</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Nylon_Leotard_Sleeves_MC.xml</path>
+		<guid>b5d664a6-07f9-45ac-af88-9edf43c80999</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Nylon_Leotard_Sleeves_HC.xml</path>
+		<guid>782b2143-56c9-42c1-a0ae-c1b145532402</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Nylon_Sleeves.xml</path>
+		<guid>186a9917-33da-4a73-ad0f-a584b8cb6320</guid>
+	</files>
+
+
+
+						<!--Lace items-->	
+	<files>
+		<path>media/clothing/clothingItems/Lace_Fishnet_Stockings.xml</path>
+		<guid>b4780d25-7161-4c26-a473-d902778ed901</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Lace_Fishnet_StockingsShort.xml</path>
+		<guid>a3c97985-cec5-4584-a91d-c6502e652751</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Lace_Fishnet_StockingsShorter.xml</path>
+		<guid>3dde17b4-8d57-4673-a2c9-456dd35444f2</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Lace_Fishnet_StockingsShortest.xml</path>
+		<guid>a84d8fb3-df04-4bd3-9757-d7df1f1a539c</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Lace_Fishnet_Tights.xml</path>
+		<guid>9e25fb29-909a-4791-bb26-39672ff9b863</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Lace_Fishnet_Tights_HW.xml</path>
+		<guid>49e98e13-1a51-483f-865e-bd4f6b8762b9</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Lace_Fishnet_Bolero.xml</path>
+		<guid>3c4603d1-03a9-4378-b8bd-58c272394d6a</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Lace_Fishnet_Bolero_Short.xml</path>
+		<guid>c2d218e0-6437-490f-8ba2-4057441d61ec</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Lace_Fishnet_Bolero_Shorter.xml</path>
+		<guid>323dcb7c-4950-49d7-af53-4e20b932524d</guid>
+	</files>
+
+						<!--Fishnet items-->	
+
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_Bodysuit.xml</path>
+		<guid>1db683f9-0784-4a41-b099-eaa6238a83e9</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_Corset.xml</path>
+		<guid>6e153e0d-b3d0-47e2-ac8e-89def63156af</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_Lingerie.xml</path>
+		<guid>06148c5f-a0ee-4146-a97c-b4b85345d757</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_Gloves_Long.xml</path>
+		<guid>36f48d20-7019-4ba3-967b-afb211b21a97</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_Gloves.xml</path>
+		<guid>88bc0c08-6da7-475f-9d55-53df98f38694</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_TopCrop.xml</path>
+		<guid>399483c7-c7ca-4fa3-bea1-9b9a0da34687</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_Top.xml</path>
+		<guid>f006dd10-4d29-426b-9e05-44e1fb23bf20</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_Shorts.xml</path>
+		<guid>be3765d9-b626-45b2-9676-21ffe18499df</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_Bolero.xml</path>
+		<guid>d42191c4-c63a-45e6-8cf2-df52cd30f8ac</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_Bolero_Short.xml</path>
+		<guid>a15dc011-ab79-498d-90ac-2533b2ca3fda</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_Bolero_Shorter.xml</path>
+		<guid>cd8728ed-a00e-44b5-ae4b-605dff421d5d</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_Bandeau.xml</path>
+		<guid>0d5b7121-024f-4203-a29f-c8ec3dd7bb85</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_Bandeau_Tiny.xml</path>
+		<guid>04a526e3-2ed4-4042-990b-442165e16c10</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_PleatedSkirt.xml</path>
+		<guid>bcb264f1-84b9-415f-8c91-36e5ba871798</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_Leotard.xml</path>
+		<guid>91427e40-ca08-4867-a2c3-ff139043c17e</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_Leotard_MC.xml</path>
+		<guid>62346457-2cb8-43cb-8d9c-5a6992ba4456</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_Leotard_HC.xml</path>
+		<guid>eb8f7011-3222-4aa2-8c3d-b4ad917cf02e</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_Leotard_Sleeves.xml</path>
+		<guid>f9ed82e6-287d-48b4-8149-350960e8aedb</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_Leotard_Sleeves_MC.xml</path>
+		<guid>512770e6-9d4e-4fbb-82c2-71cab7c9abdc</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_Leotard_Sleeves_HC.xml</path>
+		<guid>d11c1782-d7b0-47f0-a64a-65d331faf470</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_TightsHA.xml</path>
+		<guid>650fb7fd-c92f-4085-8a49-bb7ee196f367</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_TightsHW.xml</path>
+		<guid>10e0b0c3-d6d0-4107-9054-ca17abf7bbda</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_Stockings.xml</path>
+		<guid>b4cb6946-e0f7-4292-8e79-0dd3553d585a</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_Stockings_Suspender.xml</path>
+		<guid>0672b8f0-32e5-47f0-a38e-d48d41e61b24</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_StockingsShort.xml</path>
+		<guid>a91e82d3-6a09-4484-9163-e962346ea95f</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_StockingsShort_Suspender.xml</path>
+		<guid>3d99622f-35c2-4956-b936-37c01b25a039</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_Stirrup_Stockings1.xml</path>
+		<guid>735a2b90-7544-40c4-acfe-64b87a8cc37f</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_Stirrup_Stockings2.xml</path>
+		<guid>4ef801b9-c690-42e9-bef3-d79d3bbe837c</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_Stirrup_Stockings3.xml</path>
+		<guid>429386ae-ccb7-4d88-a774-fd8db692e4f0</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_Stirrup_Stockings4.xml</path>
+		<guid>9c31c8fe-7e25-4123-9793-241579e445cc</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_Stirrup_Stockings5.xml</path>
+		<guid>c5838335-5d0b-45d0-ad8c-efcb1215ad56</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_Socks.xml</path>
+		<guid>3930f9cf-fbad-4aeb-a0d0-777fd4a05572</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_Socks_Short.xml</path>
+		<guid>95291e2c-876c-476e-8211-c928a03f9a5f</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_Dress.xml</path>
+		<guid>df85c004-b883-43b8-b505-aa7af6e8b293</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_Skirt_Beach.xml</path>
+		<guid>c3948510-1300-4ed8-8b57-55a86563a810</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_Skirt_Beach_Alt.xml</path>
+		<guid>deb8b359-8e2c-48cb-86bc-aa63e5e914a6</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_Gloves_Designer.xml</path>
+		<guid>b79e7b12-10bc-4098-a190-39c5a5a06116</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_Leotard_Designer.xml</path>
+		<guid>2a28afb7-05ee-4545-9853-e6126ad112b5</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/Fishnet_Stockings_Designer.xml</path>
+		<guid>c89ae7eb-5a8a-4cce-b7a4-c6daa7db3fa3</guid>
+	</files>
+
+	
+	
+	
+	
+	
+						<!--Ripped Nylon items-->
+
+	<files>
+		<path>media/clothing/clothingItems/RNylon_Bolero.xml</path>
+		<guid>3750b3e1-63b0-495e-90d9-2b7f0fa7e84e</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/RNylon_Bolero_Short.xml</path>
+		<guid>0b53a286-ff6e-43b5-83c1-f9dfd76ab11a</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/RNylon_Bolero_Shorter.xml</path>
+		<guid>de57ec41-1a22-4dd4-babc-dbd0f01580be</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/RNylon_Long_Gloves.xml</path>
+		<guid>2d8a6c08-681f-4427-8365-959332bf00ea</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/RNylon_Stockings.xml</path>
+		<guid>049d103b-0276-42ba-abf3-f780dd56acd3</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/RNylon_Stockings_Suspender.xml</path>
+		<guid>1a9b34cf-c8b8-4fc1-b3d1-f4850f5e498a</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/RNylon_StockingsShort.xml</path>
+		<guid>dd73b32c-7172-4d4b-8f16-6711e4248850</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/RNylon_StockingsShort_Suspender.xml</path>
+		<guid>b79ce263-c521-4706-894e-661fbc18cdc1</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/RNylon_StockingsShorter.xml</path>
+		<guid>7f3f109c-413b-449a-9a7f-4f0049bd2a55</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/RNylon_StockingsShorter2.xml</path>
+		<guid>95d86461-b5c8-4bf7-859b-56b608a4691d</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/RNylon_Tights.xml</path>
+		<guid>0d517b80-117d-4894-a48a-03a1d9f813d8</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/RNylon_TightsHW.xml</path>
+		<guid>4073e530-6145-4589-a1c2-fe15c625eac9</guid>
+	</files>	
+
+						<!--Ripped Fishnet items-->
+	
+	<files>
+		<path>media/clothing/clothingItems/RFishnet_Bandeau.xml</path>
+		<guid>576c3970-7eb2-470c-bd25-dea581e4170d</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/RFishnet_Bandeau_Tiny.xml</path>
+		<guid>5e54e431-d07b-4b27-9fbf-638ebe26ff9d</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/RFishnet_Bolero.xml</path>
+		<guid>3a58dc86-2a38-43c3-a0e1-86dde819a347</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/RFishnet_Bolero_Short.xml</path>
+		<guid>2bb4f839-dda2-43d3-8b35-5072efb19df8</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/RFishnet_Bolero_Shorter.xml</path>
+		<guid>aaf24a96-104b-4513-92ce-966ea163b8a8</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/RFishnet_Gloves_Long.xml</path>
+		<guid>7957fbde-37f8-4d84-847a-f9b4c6c553eb</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/RFishnet_Gloves.xml</path>
+		<guid>2b1855fd-0c63-4d52-bdf8-4df5b704a3a4</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/RFishnet_TightsHA.xml</path>
+		<guid>19e4441b-bd11-4b25-ab2e-74bf9761bfd8</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/RFishnet_TightsHW.xml</path>
+		<guid>813b73cf-ecc9-46f5-a92c-4c4596a81cb3</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/RFishnet_TopCrop.xml</path>
+		<guid>6d6bb93a-ce6f-4585-96b0-05646226ced2</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/RFishnet_Top.xml</path>
+		<guid>718d95a1-f2c1-420d-bfc3-df79af3a604c</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/RFishnet_Stockings.xml</path>
+		<guid>e5430d2f-e10f-4f82-b35e-ebb40685dac7</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/RFishnet_Stockings_Suspender.xml</path>
+		<guid>8aa9fc18-8670-44c2-909b-6698377bcce8</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/RFishnet_StockingsShort.xml</path>
+		<guid>28e58990-3913-4919-9b90-2e720f24b1fb</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/RFishnet_StockingsShort_Suspender.xml</path>
+		<guid>4a260769-6210-45cd-9442-1ec10d2284c5</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/RFishnet_Dress.xml</path>
+		<guid>ad0e4d5a-02c3-4e40-8f5c-7e191a1d6c89</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/RFishnet_Skirt_Beach.xml</path>
+		<guid>3d7b8060-449d-41a6-bcdb-a3fe27433031</guid>
+	</files>
+	
+	<files>
+		<path>media/clothing/clothingItems/RFishnet_Skirt_Beach_Alt.xml</path>
+		<guid>cff3b80d-0000-4dfe-b34e-cc871e0f610c</guid>
+	</files>
+	
+	
+	
+	
+	
+						<!--Vanilla items-->		
+	<files>
+		<path>media/clothing/clothingItems/Shoes_ArmyBoots.xml</path>
+		<guid>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Shoes_Black.xml</path>
+		<guid>593bea3d-c127-4574-ac1e-2197dc56e486</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Shirt_FormalTINT.xml</path>
+		<guid>d556b848-5a37-400c-9322-2504bff33433</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Shirt_FormalWhite.xml</path>
+		<guid>ac7976de-2c73-44ea-9392-5d24ac1fb649</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Shirt_FormalWhite_ShortSleeve.xml</path>
+		<guid>00d77803-6b57-453b-89b6-135d2d642719</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Vest_DefaultTEXTURE.xml</path>
+		<guid>903c06ea-78e7-4f42-a3da-768be61f216f</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Vest_DefaultTEXTURE_TINT.xml</path>
+		<guid>a700a956-32c2-49a6-bd5f-5a2895073f19</guid>
+	</files>
+	    <files>
+        <path>media/clothing/clothingItems/TightsBlack.xml</path>
+        <guid>6d483049-2392-47e1-a6f8-c10ef5c1b040</guid>
+	</files>
+    <files>
+        <path>media/clothing/clothingItems/TightsBlackSemiTrans.xml</path>
+        <guid>88225fb4-a18f-46eb-96d1-2ce415f52bf0</guid>
+	</files>
+    <files>
+        <path>media/clothing/clothingItems/TightsBlackTrans.xml</path>
+        <guid>9e71f7e6-a492-4be4-a6a4-95bca7cbdfc3</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/TightsBlackFishnet.xml</path>
+		<guid>e30e2622-0034-4895-8912-ed53dfafd3d0</guid>
+	</files>
+		<files>
+		<path>media/clothing/clothingItems/StockingsBlack.xml</path>
+		<guid>00ae3ec3-4b6b-484c-9edd-501339307b45</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/StockingsBlackSemiTrans.xml</path>
+		<guid>6ba314a1-43c6-4240-b313-0ba75fb2ca6c</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/StockingsBlackTrans.xml</path>
+		<guid>eedee622-9309-4948-891b-a69ecd106936</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/StockingsWhite.xml</path>
+		<guid>af3f4a67-9fd8-47aa-8891-2f0c974a4e38</guid>
+	</files>
+	
+	
+	
+	<files>
+		<path>media/clothing/clothingItems/BunnyTail.xml</path>
+		<guid>9d9267cd-a01f-4246-8834-ccd39e3c9525</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_BunnyEarsBlack.xml</path>
+		<guid>235a5c5b-5ceb-4d87-998a-3811cea0d137</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Hat_BunnyEarsWhite.xml</path>
+		<guid>a5195a5e-af5e-4eb3-bc1b-5f8c0e45520d</guid>
+	</files>
+
+</fileGuidTable>
+

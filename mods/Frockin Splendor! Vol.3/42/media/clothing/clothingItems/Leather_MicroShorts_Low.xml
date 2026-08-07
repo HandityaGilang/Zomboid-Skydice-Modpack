@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>11472294-a0fe-4aef-9f74-2f207827aa5d</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Leather\Shorts\MicroShorts\Leather_MicroShorts_Low_0</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Shorts\MicroShorts\Leather_MicroShorts_Low_0A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Shorts\MicroShorts\Leather_MicroShorts_Low_0B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Shorts\MicroShorts\Leather_MicroShorts_Low_0C</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Shorts\MicroShorts\Leather_MicroShorts_Low_0D</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Shorts\MicroShorts\Leather_MicroShorts_Low_0E</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Shorts\MicroShorts\Leather_MicroShorts_Low_0F</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Leather\Shorts\MicroShorts\Leather_MicroShorts_Low_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Shorts\MicroShorts\Leather_MicroShorts_Low_1A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Shorts\MicroShorts\Leather_MicroShorts_Low_1B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Shorts\MicroShorts\Leather_MicroShorts_Low_1D</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Shorts\MicroShorts\Leather_MicroShorts_Low_1E</m_BaseTextures>
+
+</clothingItem>

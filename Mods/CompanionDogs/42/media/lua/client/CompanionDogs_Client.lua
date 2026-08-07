@@ -166,6 +166,14 @@ function CD.clientNotify(command, args)
         haloInfo(player, getText(on and "IGUI_PD_HuntModeOnMsg" or "IGUI_PD_HuntModeOffMsg", cdSubject(args)))
     elseif command == "huntpoint" then
         haloInfo(player, getText("IGUI_PD_HuntPoint", cdSubject(args)))
+    elseif command == "caremode" then
+        local on = args and args.on
+        haloInfo(player, getText(on and "IGUI_PD_CareOnMsg" or "IGUI_PD_CareOffMsg", cdSubject(args)))
+    elseif command == "carenopen" then
+        haloBad(player, getText("IGUI_PD_CareNoPen", cdSubject(args)))
+    elseif command == "carealert" then
+        local kind = args and args.kind
+        haloBad(player, getText(kind == "stress" and "IGUI_PD_CareAlertStress" or "IGUI_PD_CareAlertZombie", cdSubject(args)))
     elseif command == "dogzombiekill" then
         -- roda no cliente do dono: espelha a morte no "Zombie Kills" nativo (o toggle ja foi conferido no server).
         -- Sem halo: uma mensagem por zumbi morto seria spam.

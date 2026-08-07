@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>eb2ead58-bd63-4452-8119-e8e626ea1273</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Alt_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Alt_2A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Alt_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Alt_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Alt_5</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_2A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_5</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Alt1_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Alt1_2A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Alt1_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Alt1_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Alt1_5</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Nude_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Nude_2A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Nude_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Nude_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Nude_5</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Purp_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Purp_2A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Purp_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Purp_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Purp_5</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Red_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Red_2A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Red_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Red_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Red_5</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Whit_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Whit_2A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Whit_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Whit_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Whit_5</m_BaseTextures>
+	
+</clothingItem>

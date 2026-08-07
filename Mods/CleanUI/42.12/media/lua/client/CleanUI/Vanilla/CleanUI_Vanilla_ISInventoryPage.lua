@@ -77,7 +77,44 @@ end
 --** ISPanel:instantiate
 --**
 --************************************************************************--
+
+-- CleanUI: convert potentially stale/string/nil UI dimensions to safe numbers.
+-- This avoids hard errors if another mod temporarily leaves page dimensions in an unexpected state.
+local function CleanUI_safePageNumber(value, fallback)
+    if type(value) == "number" then
+        return value
+    end
+
+    if value ~= nil then
+        local ok, converted = pcall(tonumber, value)
+        if ok and type(converted) == "number" then
+            return converted
+        end
+    end
+
+    if type(fallback) == "number" then
+        return fallback
+    end
+
+    return 0
+end
+
+local function CleanUI_safePageMethodNumber(object, methodName, fallback)
+    if object ~= nil and type(object[methodName]) == "function" then
+        local ok, value = pcall(object[methodName], object)
+        if ok then
+            return CleanUI_safePageNumber(value, fallback)
+        end
+    end
+
+    return CleanUI_safePageNumber(fallback, 0)
+end
+
 function CleanUI_Vanilla_ISInventoryPage:createChildren()
+    self.buttonSize = CleanUI_safePageNumber(self.buttonSize, 32)
+    self.width = CleanUI_safePageNumber(self.width, CleanUI_safePageMethodNumber(self, "getWidth", 256 + self.buttonSize))
+    self.height = CleanUI_safePageNumber(self.height, CleanUI_safePageMethodNumber(self, "getHeight", 100))
+
     self.minimumHeight = 100;
     -- This must be buttonSize pixels wider than InventoryPane's minimum width
     -- TODO: parent widgets respect min size of child widgets.

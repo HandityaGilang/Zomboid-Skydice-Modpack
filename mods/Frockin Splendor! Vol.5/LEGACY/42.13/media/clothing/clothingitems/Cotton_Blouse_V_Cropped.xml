@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>7a03ab63-4fba-4226-b1db-6758a95ea090</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Cotton\Blouses\Cotton_BlouseShirt_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Blouses\Cotton_BlouseShirt_2A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Blouses\Cotton_BlouseShirt_2B</m_BaseTextures>
+</clothingItem>

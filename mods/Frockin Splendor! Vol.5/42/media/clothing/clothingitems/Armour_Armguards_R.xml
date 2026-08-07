@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Bob_Armguard_Generic.fbx</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Kate_Armguard_Generic.fbx</m_FemaleModel>
+	<m_GUID>dcc5bfd2-f8bd-4dfd-8d6f-80e9338de853</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\Material_LeatherTanned\Misc\LeatherTanned_ArmguardsR</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Misc\LeatherTanned_ArmguardsR_1</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Misc\LeatherTanned_ArmguardsR_2</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Misc\LeatherTannedBlack_ArmguardsR</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Misc\LeatherTannedBlack_ArmguardsR_1</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Misc\LeatherTannedBlack_ArmguardsR_2</textureChoices>
+
+</clothingItem>

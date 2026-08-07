@@ -1,3 +1,0 @@
-IG_UI_ES = {
-    IGUI_NM_NewMusic = "Música nueva",
-}

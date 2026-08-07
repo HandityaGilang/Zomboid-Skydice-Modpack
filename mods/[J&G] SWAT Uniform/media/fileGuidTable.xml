@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+
+<!--                                    SWAT CLOTHING!                                 -->
+<!-- Helmet -->
+    <files>
+        <path>media/clothing/clothingItems/SWAT_Helmet_Rook_FaceShield.xml</path>
+        <guid>ffc10548-5b8d-4792-92d5-2647dabb279d</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/SWAT_Helmet_Rook_FaceShieldUp.xml</path>
+        <guid>b9c53d27-b45b-4777-95c9-87751b6a0884</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/SWAT_Helmet.xml</path>
+        <guid>cd3d48b5-3df1-40a9-a0a2-4458b81ed55f</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/SWAT_Helmet_NoBelts.xml</path>
+        <guid>5aa61974-1f65-49ed-9192-67ba1e8e3edb</guid>
+    </files>
+    <files>
+     <path>media/clothing/clothingItems/SWAT_Helmet_Patriot.xml</path>
+        <guid>3da6dbe7-708d-423a-ad4c-fcceabd75988</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/SWAT_Helmet_Patriot_NoBelts.xml</path>
+        <guid>ffca24a6-dc56-404e-ac19-856f6b8af42d</guid>
+    </files>
+    <files>
+		<path>media/clothing/clothingItems/SWAT_Helmet_AM-95_VisorDown.xml</path>
+		<guid>b51db98c-91a5-4946-9cb3-70cf4ed6256d</guid>
+	</files>
+    <files>
+		<path>media/clothing/clothingItems/SWAT_Helmet_AM-95_VisorUp.xml</path>
+		<guid>1a78133a-53a3-4d5d-a3bb-712b5b34be20</guid>
+	</files>
+<!-- Hat -->
+    <files>
+        <path>media/clothing/clothingItems/SWAT_Hat.xml</path>
+        <guid>8e712121-4162-4d08-be76-3ed730325040</guid>
+    </files>
+<!-- Masks -->
+    <files>
+        <path>media/clothing/clothingItems/SWAT_Balaclava.xml</path>
+        <guid>8b42f5ee-fe7d-4429-bd31-e711c092cb6b</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/SWAT_GasMask-M80.xml</path>
+        <guid>0b07deb3-da84-462c-8c60-9a6a2e76f350</guid>
+    </files>
+<!-- Shoulder Pads -->
+    <files>
+        <path>media/clothing/clothingItems/SWAT_ShoulderPads_Patriot.xml</path>
+        <guid>36fc1ad2-9bfa-4ce9-b9b8-33cc7a31e277</guid>
+    </files>
+    <files>
+		<path>media/clothing/clothingItems/SWAT_ShoulderPads_Vanguard.xml</path>
+		<guid>feabdb6c-6610-4573-921d-45255476ce6f</guid>
+	</files>
+<!-- Jacket -->
+    <files>
+        <path>media/clothing/clothingItems/SWAT_Jacket.xml</path>
+        <guid>7709bcf4-9b00-439c-94e7-b662ebe871c2</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/SWAT_Jacket_Closed_SleevesUp.xml</path>
+        <guid>f4477691-d0a4-458c-9b94-2d4123d3e3e8</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/SWAT_Jacket_Open.xml</path>
+        <guid>397adaab-214b-4405-8ec6-87107b7255eb</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/SWAT_Jacket_Open_SleevesUp.xml</path>
+        <guid>8de70c6d-e197-4e70-91cb-f3a44a7a579e</guid>
+    </files>
+<!-- BulletproofVest -->
+    <files>
+        <path>media/clothing/clothingItems/SWAT_Vest.xml</path>
+        <guid>58aad3f9-fd79-45dd-b56a-19bb0032ec3e</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/SWAT_LightVest.xml</path>
+        <guid>1e3c11da-63ae-4891-968a-6a2ca7d1ea0d</guid>
+    </files>
+<!-- Elbow Pads -->
+    <files>
+        <path>media/clothing/clothingItems/SWAT_Elbow_Pads.xml</path>
+        <guid>490f55ff-01c9-4482-8d6e-9f151e636f75</guid>
+    </files>
+<!-- Thigh Pads -->
+    <files>
+        <path>media/clothing/clothingItems/SWAT_Thigh_Pads.xml</path>
+        <guid>131ed10d-91a3-4308-a22a-08bfab7649f0</guid>
+    </files>
+<!-- Knee Pads -->
+    <files>
+        <path>media/clothing/clothingItems/SWAT_Knee_Pads.xml</path>
+        <guid>a65cef90-ca0c-4aa2-98fc-99ca2c625126</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/SWAT_KneePads_Defender.xml</path>
+        <guid>e8bbdc83-4cee-47fa-9615-b8a24427a04e</guid>
+    </files>
+<!-- Gloves -->
+    <files>
+        <path>media/clothing/clothingItems/SWAT_Gloves.xml</path>
+        <guid>6a6c6a46-3360-40cf-80f4-c35088352563</guid>
+    </files>
+<!-- Pants -->
+    <files>
+        <path>media/clothing/clothingItems/SWAT_Pants.xml</path>
+        <guid>6ed42174-5200-444c-9646-32c12cfe62c9</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/SWAT_Pants_Tuck.xml</path>
+        <guid>41e01148-c05b-4cfe-b0b7-da9606e7d097</guid>
+    </files>
+<!-- Shoes -->
+    <files>
+        <path>media/clothing/clothingItems/SWAT_Boots.xml</path>
+        <guid>8e8274c7-61b3-4f1c-a1ce-50f1fb79f1a7</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/SWAT_TacBoots.xml</path>
+        <guid>c617507b-005e-4d17-8085-1e53af4487c7</guid>
+    </files>
+<!-- Backpack -->
+    <files>
+        <path>media/clothing/clothingItems/SWAT_Backpack_Radio_Tight.xml</path>
+        <guid>c5a67055-b7b7-483f-964a-74fa372ccef0</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/SWAT_Backpack_Radio_LHand.xml</path>
+        <guid>f8dabab2-7444-44eb-9e11-cd532b640a9f</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/SWAT_Backpack_Radio_RHand.xml</path>
+        <guid>f2cc18c0-53fa-4b67-8082-08edf944726c</guid>
+    </files>
+</fileGuidTable>

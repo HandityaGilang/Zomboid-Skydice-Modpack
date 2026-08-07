@@ -1,0 +1,16 @@
+{
+    "Sandbox_DGMC_Cleaning_Wipes": "청소용 물티슈",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body": "본체를 청소할 수 있음",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body_tooltip": "청소용 물티슈로 몸을 닦아도 되는지.",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing": "옷을 청소할 수 있습니다",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing_tooltip": "청소용 물티슈로 옷을 청소할 수 있는지 여부.",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons": "근접 무기를 청소할 수 있음",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons_tooltip": "청소용 물티슈로 근접 무기를 청소할 수 있는지 여부.",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup": "메이크업을 제거합니다",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup_tooltip": "몸을 청소할 때 화장을 지울지 여부.",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult": "기간 승수",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult_tooltip": "물로만 씻는 것에 비해 물티슈로 닦는 데 걸리는 시간입니다.  빠르면 낮고 느리면 높음.",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness": "의류의 젖음",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness_tooltip": "옷을 세탁할 때 습기 수준은 이 값 또는 현재 수준의 최대값으로 설정됩니다.  예를 들어 기본값을 사용하면 젖음량이 0인 옷은 25로 설정되고 이미 젖음량이 50인 옷은 50으로 유지됩니다.",
+    "Sandbox_DGMC_Cleaning_Wipes_Debug_Logging": "디버그 로깅"
+}

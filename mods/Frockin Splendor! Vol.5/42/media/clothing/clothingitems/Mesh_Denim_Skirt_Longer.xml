@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\Skirts_Long\Skirt_Long_M.fbx</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\Skirts_Long\Skirt_Long_F.fbx</m_FemaleModel>
+	<m_GUID>8a32f72c-5433-40cd-ae9e-50a02bea5bf8</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>clothes\Material_Denim\Skirts\Denim_Skirt_Longer_Side_0</textureChoices>
+	<textureChoices>clothes\Material_Denim\Skirts\Denim_Skirt_Longer_Side_1</textureChoices>
+	<textureChoices>clothes\Material_Denim\Skirts\Denim_Skirt_Longer_Side_2</textureChoices>
+	<textureChoices>clothes\Material_Denim\Skirts\Denim_Skirt_Longer_Side_3</textureChoices>
+	<textureChoices>clothes\Material_Denim\Skirts\Denim_Skirt_Longer_Side_4</textureChoices>
+
+</clothingItem>

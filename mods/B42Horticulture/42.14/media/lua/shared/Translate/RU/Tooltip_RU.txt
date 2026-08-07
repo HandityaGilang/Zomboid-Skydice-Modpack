@@ -1,0 +1,11 @@
+Tooltip_RU = {
+    Tooltip_Cooking_NeedToBeCooked = "Необходимо приготовить.",
+    Tooltip_HempBuds = "Необходимо хранить в банке для вяления или приготовить для декарбоксилирования.",
+    Tooltip_CannedHempBuds = "Шишки проходят процесс вяления.",
+    Tooltip_OilHemp = "Обеспечивает значительное облегчение боли.",
+    Tooltip_MouldAndDeckle = "Используется для изготовления листов бумаги.",
+    Tooltip_PaperSheetWet = "Бумага должна высохнуть перед использованием.",
+    Tooltip_HempModerate = "Обеспечивает умеренное облегчение боли.",
+    Tooltip_HempMild = "Обеспечивает слабое облегчение боли.",
+    Tooltip_Recipe_MakeJarOfHemp = "Запускает процесс вяления, если содержимое сухое.",
+}

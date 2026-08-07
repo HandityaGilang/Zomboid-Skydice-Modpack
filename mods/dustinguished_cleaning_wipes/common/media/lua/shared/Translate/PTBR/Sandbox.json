@@ -1,0 +1,16 @@
+{
+    "Sandbox_DGMC_Cleaning_Wipes": "lenços de limpeza",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body": "Pode limpar o corpo",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body_tooltip": "Se você pode limpar seu corpo com lenços de limpeza.",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing": "Pode limpar roupas",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing_tooltip": "Se você pode limpar roupas com lenços de limpeza.",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons": "Pode limpar armas brancas",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons_tooltip": "Se você pode limpar armas brancas com lenços de limpeza.",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup": "Remove maquiagem",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup_tooltip": "Seja para tirar a maquiagem na hora de limpar o corpo.",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult": "Multiplicador de duração",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult_tooltip": "Quanto tempo leva para limpar com lenços, em relação à lavagem apenas com água.  Mais baixo para mais rápido, mais alto para mais lento.",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness": "Umidade nas roupas",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness_tooltip": "Ao limpar a roupa, o seu nível de humidade será definido para um máximo deste valor ou do seu nível atual.  Por exemplo, com o valor padrão, as roupas com umidade 0 seriam definidas como 25, enquanto as roupas com umidade 50 permaneceriam em 50.",
+    "Sandbox_DGMC_Cleaning_Wipes_Debug_Logging": "Registro de depuração"
+}

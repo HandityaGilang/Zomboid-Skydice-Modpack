@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+    <m_MaleModel></m_MaleModel>
+    <m_FemaleModel></m_FemaleModel>
+    <m_GUID>b0435018-8ded-46d8-944f-a59c61995be8</m_GUID>
+    <m_Static>false</m_Static>
+    <m_AllowRandomTint>false</m_AllowRandomTint>
+    <m_AttachBone></m_AttachBone>
+    <m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTanned_Top_0</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTanned_Top_0A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTanned_Top_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTanned_Top_1B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTanned_Top_1B1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTanned_Top_1C</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTanned_Top_1C1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTanned_Top_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTanned_Top_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTanned_Top_5B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTanned_Top_9</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTanned_Top_9A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTanned_Top_9B</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedRed_Top_0</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedRed_Top_0A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedRed_Top_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedRed_Top_1B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedRed_Top_1B1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedRed_Top_1C</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedRed_Top_1C1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedRed_Top_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedRed_Top_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedRed_Top_5B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedRed_Top_9</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedRed_Top_9A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedRed_Top_9B</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedYellower_Top_0</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedYellower_Top_0A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedYellower_Top_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedYellower_Top_1B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedYellower_Top_1B1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedYellower_Top_1C</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedYellower_Top_1C1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedYellower_Top_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedYellower_Top_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedYellower_Top_5B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedYellower_Top_9</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedYellower_Top_9A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedYellower_Top_9B</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedBlack_Top_0</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedBlack_Top_0A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedBlack_Top_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedBlack_Top_1B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedBlack_Top_1B1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedBlack_Top_1C</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedBlack_Top_1C1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedBlack_Top_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedBlack_Top_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedBlack_Top_5B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedBlack_Top_9</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedBlack_Top_9A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\TopsRE\Tops\LeatherTannedBlack_Top_9B</m_BaseTextures>
+
+</clothingItem>

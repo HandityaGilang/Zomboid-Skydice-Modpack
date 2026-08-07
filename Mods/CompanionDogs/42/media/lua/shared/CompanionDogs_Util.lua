@@ -279,7 +279,8 @@ function CD.serializeItem(it)
     pcall(function() r.cond = it:getCondition() end)
     -- afiacao vive nos Attributes (nao no ModData), entao some no round-trip: faca volta no maximo. Cobre qualquer lamina.
     pcall(function() if it:hasSharpness() then r.sharp = it:getSharpness() end end)
-    pcall(function() if instanceof(it, "DrainableComboItem") then r.delta = it:getUsedDelta() end end)
+    -- B42 nao tem getter getUsedDelta() (so o setter, deprecated): o preenchimento (0..1) le por getCurrentUsesFloat().
+    pcall(function() if it.getCurrentUsesFloat and instanceof(it, "DrainableComboItem") then r.delta = it:getCurrentUsesFloat() end end)
     -- FluidContainer (B42): instanceItem recria com o fluido do SCRIPT (PetrolCan nasce CHEIO de Petrol), entao
     -- o estado real (vazio/parcial/mistura) precisa de round-trip explicito.
     pcall(function()
@@ -403,7 +404,9 @@ function CD.bagItemFromRecord(r)
     if r.cond  then pcall(function() it:setCondition(r.cond) end) end
     -- DEPOIS de setCondition: setSharpness limita por getMaxSharpness() (razao da condition).
     if r.sharp then pcall(function() it:setSharpness(r.sharp) end) end
-    if r.delta then pcall(function() it:setUsedDelta(r.delta) end) end
+    if r.delta then pcall(function()
+        if it.setCurrentUsesFloat then it:setCurrentUsesFloat(r.delta) else it:setUsedDelta(r.delta) end
+    end) end
     -- Empty() SEMPRE antes de repor: o item novo pode ja nascer com fluido do script.
     if r.fluids then pcall(function()
         local fc = it:getFluidContainer()
@@ -500,6 +503,13 @@ end
 -- CompanionDogs_Attach.lua + models_dog.txt). Lado autoritativo somente (SP: isClient false; dedicated: o server),
 -- depois replicado para clients remotos com o comando vanilla "animal"/"attach" (espelha ClientCommands
 -- Commands.animal.attach). Re-aplicado nos sites de rebuild do copyFrom (a engine descarta itens anexados ali exatamente como ModData).
+-- ONDE FICA A POSICAO DAS PECAS: nao e aqui. Cada `attachment saddlebags_l/_r/_c` vive no
+-- models_*.txt do mod que define o corpo da raca (base: scripts/models_dog.txt; addons: o
+-- models_<raca>.txt deles), com offset/rotate/scale proprios por raca. Este arquivo so decide
+-- QUAL ITEM vai em cada location.
+-- Pra AJUSTAR essa posicao use a skill `dogs-saddlebag` (tuner ao vivo em jogo). Nao derive
+-- os numeros por medicao de GLB nem por regra de tres sobre a largura do flanco: ja falhou em
+-- jogo tres vezes seguidas. O .txt do Rottweiler tem o historico.
 CD.SADDLEBAG_STRAP_TYPE = "Base.CompanionDogsSaddlebagStrap"
 -- location -> tipo de item anexado: as duas bags laterais mais a correia de couro central que as liga sobre a espinha.
 CD.SADDLEBAG_PARTS = {
@@ -1005,6 +1015,38 @@ function CD.setHuntMode(animal, on)
     CD.data(animal).huntMode = (on == true) or nil
 end
 
+-- Modo "Cuidar de fazenda": cao ATRIBUIDO a um curral (ancora careX/Y/Z), estacionado e INDEPENDENTE do dono
+-- (dirigido pela varredura cell-wide tickCareDogs, nao pelo loop owner-gated). setCareMode(on) grava/limpa a ancora.
+function CD.getCareMode(animal)
+    return CD.data(animal).careMode == true
+end
+
+function CD.setCareMode(animal, on, x, y, z)
+    local d = CD.data(animal)
+    if on == true then
+        d.careMode = true
+        if x then d.careX, d.careY, d.careZ = math.floor(x), math.floor(y), math.floor(z or 0) end
+        -- TODA atividade transitoria e mantida/limpa DENTRO do updateCompanion, de onde o cuidador faz early-return: o
+        -- que estiver ligado na hora da atribuicao congela pra sempre (selo "detecta zumbis!" fixado no nametag foi o
+        -- caso relatado; auto-feed/caca/combate teriam o mesmo destino, e inCombat ainda e um lock que transmite).
+        -- Zera tudo aqui, na borda. O cuidador tem o proprio canal de aviso (carealert) e o selo "Cuidando do gado".
+        d.alertTier = nil
+        d.inCombat, d.retreating = nil, nil
+        d.autoFeeding, d.autoFeedKind = nil, nil
+        d.hunting, d.huntTargetId, d.huntGoingSinceMin = nil, nil, nil
+        d.forageGoingSinceMin = nil
+        d.recallUntilMin, d.attackUntilMin, d.attackArmed = nil, nil, nil
+    else
+        d.careMode = nil
+        d.careX, d.careY, d.careZ = nil, nil, nil
+        d.careGoalTx, d.careGoalTy = nil, nil
+        d.careBackTx, d.careBackTy = nil, nil
+        d.careHop, d.careHopTx, d.careHopTy = nil, nil, nil
+        d.carePatrolTx, d.carePatrolTy, d.carePatrolMin = nil, nil, nil
+        d.lastCareCalmMin, d.lastCareAlertMin = nil, nil
+    end
+end
+
 function CD.notifyOwner(owner, command, args)
     if not owner then return end
     if isServer() then
@@ -1046,6 +1088,8 @@ local KENNEL_FIELDS = {
     "name", "trust", "state",
     -- Campos pro recall-respawn fiel (tela Meus Caes): filhote, bolsa, limiar de ferido e preferencias por-cao.
     "isPup", "bornMin", "growthPaused", "bag", "maxHealth", "autoProtect", "alertMode", "huntMode",
+    -- Cuidador de fazenda: modo + ancora do curral, pra o cao retomar o cuidado apos recall-respawn/relog.
+    "careMode", "careX", "careY", "careZ",
     -- Contadores de morte do cao (mostrados na janela): sobrevivem ao respawn-from-kennel.
     "zombieKills", "preyKills",
 }
@@ -1092,6 +1136,8 @@ function CD.kennelSnapshot(player, animal)
     snap.growthPaused = d.growthPaused
     snap.autoProtect = d.autoProtect
     snap.huntMode = d.huntMode
+    snap.careMode = d.careMode
+    snap.careX, snap.careY, snap.careZ = d.careX, d.careY, d.careZ
     -- d.sex so existe em filhote (makePuppy); adulto domado depende do TYPE da engine. Sem isto o recall de
     -- longe respawnaria toda femea domada como MACHO (mesh errada + inelegivel como matriz no breeding).
     if snap.sex == nil then
@@ -1100,6 +1146,11 @@ function CD.kennelSnapshot(player, animal)
     end
     snap.companionToken = token
     snap.fp = CD.kennelFingerprint(animal)
+    -- Identidade de ENGINE do cao (animalId). Ao contrario de uid/companionToken -- que vivem no ModData e o
+    -- copyFrom APAGA -- este campo sobrevive ao copyFrom (this.animalId = animal.animalId) E ao save/load, entao
+    -- e a unica chave que ainda identifica o cao depois que a engine o reconstroi. Gravado FORA do animal (no
+    -- canil do dono) justamente pra continuar existindo quando o do animal se perde. Ver CD.carriedIdentityOk.
+    pcall(function() snap.animalId = animal:getAnimalID() end)
     snap.savedAtMin = CD.worldMinutes()
     -- Ultima posicao/idade/needs vistas (recall + "visto por ultimo" da tela Meus Caes). Padrao de leitura de
     -- buildStashRecord (gunHungerSave cobre o snapshot de gun-guard). Snapshot de animal vivo prova que nao esta perdido.
@@ -1371,6 +1422,13 @@ function CD.demote(animal)
     d.mounted = nil
     d.gunHungerSave = nil
     d.huntMode = nil
+    d.careMode = nil
+    d.careX, d.careY, d.careZ = nil, nil, nil
+    d.careGoalTx, d.careGoalTy = nil, nil
+    d.careBackTx, d.careBackTy = nil, nil
+    d.careHop, d.careHopTx, d.careHopTy = nil, nil, nil
+    d.carePatrolTx, d.carePatrolTy, d.carePatrolMin = nil, nil, nil
+    d.lastCareCalmMin, d.lastCareAlertMin = nil, nil
     d.hunting = nil
     d.huntCooling = nil
     d.huntTargetId = nil
@@ -1496,8 +1554,14 @@ function CD.getCompanionAnimal(playerObj)
     for i = 0, list:size() - 1 do
         local a = list:get(i)
         if CD.isDog(a) and CD.isCompanion(a) and CD.isOwnedBy(a, playerObj) then
-            if token ~= nil and CD.data(a).companionToken == token then return a end
-            anyOwned = anyOwned or a
+            -- Cuidador de fazenda NUNCA e o companheiro ativo: ele trabalha no curral, nao acompanha o dono. Sem esta
+            -- excecao o fallback sem-token (que existe pra saves legados) devolveria justamente ele assim que o
+            -- setcaremode zerasse o pd.token, e StatusUI/radial/marcador de mapa/auto-protecao passariam a apontar
+            -- pra um cao que nao aceita comando de acompanhamento. "Nenhum selecionado" tem que significar nil.
+            if not CD.data(a).careMode then
+                if token ~= nil and CD.data(a).companionToken == token then return a end
+                anyOwned = anyOwned or a
+            end
         end
     end
     return anyOwned

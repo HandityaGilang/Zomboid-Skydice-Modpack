@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Bob_Sleeves</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Kate_Sleeves</m_FemaleModel>
+	<m_GUID>782b2143-56c9-42c1-a0ae-c1b145532402</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Alt_3</textureChoices>
+	<textureChoices>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Alt_3X</textureChoices>
+	
+	<textureChoices>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_3</textureChoices>
+	<textureChoices>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_3X</textureChoices>
+	
+	<textureChoices>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Alt1_3</textureChoices>
+	<textureChoices>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Alt1_3X</textureChoices>
+	
+	<textureChoices>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Nude_3</textureChoices>
+	<textureChoices>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Nude_3X</textureChoices>
+	
+	<textureChoices>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Purp_3</textureChoices>
+	<textureChoices>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Purp_3X</textureChoices>
+	
+	<textureChoices>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Red_3</textureChoices>
+	<textureChoices>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Red_3X</textureChoices>
+	
+	<textureChoices>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Whit_3</textureChoices>
+	<textureChoices>clothes\Material_Nylon\Gloves\Nylon_Gloves_Long_Whit_3X</textureChoices>
+	
+</clothingItem>

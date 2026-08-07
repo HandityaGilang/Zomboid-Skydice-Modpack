@@ -1,0 +1,5 @@
+Sandbox_RU = {
+    Sandbox_DrinkSmart = "Drink Smart",
+    Sandbox_DrinkSmart_AllowWaterDrinkLowThirst = "Разрешить пить воду при низкой жажде",
+    Sandbox_DrinkSmart_AllowWaterDrinkLowThirst_tooltip = "Если включено, источники воды будут показывать меню «Пить» даже когда жажда ниже 10% (инвентарь/контейнеры/панель земли).",
+}

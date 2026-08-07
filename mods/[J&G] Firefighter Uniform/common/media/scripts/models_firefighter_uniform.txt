@@ -1,0 +1,109 @@
+module Base
+{
+    imports
+    {
+        Base
+    }
+
+    model FireFighter_Js_Helmet_Ground
+    {
+        mesh = WorldItems/Clothing/FireFighter_Js_Helmet_Ground,
+    }
+
+    model FireFighter_Js_HelmetVisor_Ground
+    {
+        mesh = WorldItems/Clothing/FireFighter_Js_HelmetVisor_Ground,
+    }
+
+    model FireFighter_GasMask_Ground
+    {
+        mesh = WorldItems/Clothing/FireFighter_GasMask_Ground,
+    }
+
+    model Helmet_Rook_Ground
+    {
+        mesh = WorldItems/Clothing/Helmet_Rook_Ground,
+        scale = 1,
+    }
+
+    model Firefighter_Strap_Ground
+    {
+        mesh = WorldItems/AmmoStrap,
+        scale = 0.4,
+    }
+
+    model Slim_Hazmat_GasTank_Ground
+    {
+        mesh = Worlditems/Clothing/Slim_Hazmat_GasTank_Ground,
+    }
+
+    model 1Handed_FireAxe
+    {
+        mesh = Weapons/1handed/1Handed_FireAxe,
+        texture = weapons/1handed/1Handed_FireAxeDefault,
+        attachment world
+        {
+            offset = 0.0000 0.0000 0.0200,
+            rotate = 180.0000 0.0000 180.0000,
+        }
+    }
+
+    model 1Handed_RustyAxe
+    {
+        mesh = Weapons/1handed/1Handed_RustyAxe,
+        texture = weapons/1handed/1Handed_RustyAxeDefault,
+        attachment world
+        {
+            offset = 0.0000 0.0000 0.0200,
+            rotate = 180.0000 0.0000 180.0000,
+        }
+    }
+
+    model Viking_Axe
+    {
+        mesh = Weapons/2handed/Viking_Axe,
+        texture = weapons/2handed/Viking_AxeDefault,
+
+        attachment world
+        {
+            offset = 0.0000 0.0000 0.0200,
+            rotate = 180.0000 0.0000 180.0000,
+        }
+    }
+
+    model Emergency_Axe
+    {
+        mesh = Weapons/2Handed/Emergency_Axe,
+        texture = weapons/2handed/Emergency_AxeDefault,
+
+        attachment world
+        {
+            offset = 0.0000 0.0000 0.0200,
+            rotate = 180.0000 0.0000 180.0000,
+        }
+    }
+
+    model Modern_Axe
+    {
+        mesh = Weapons/2handed/Modern_Axe,
+        texture = weapons/2handed/Modern_FireAxeDefault,
+
+        attachment world
+        {
+            offset = 0.0000 0.0000 0.0200,
+            rotate = 180.0000 0.0000 180.0000,
+        }
+    }
+
+    model HeavyDuty_FireAxe
+    {
+        mesh = Weapons/2handed/HeavyDuty_FireAxe,
+        texture = weapons/2handed/HeavyDuty_FireAxeDefault,
+
+        attachment world
+        {
+            offset = 0.0000 0.0000 0.0200,
+            rotate = 180.0000 0.0000 180.0000,
+        }
+    }
+}

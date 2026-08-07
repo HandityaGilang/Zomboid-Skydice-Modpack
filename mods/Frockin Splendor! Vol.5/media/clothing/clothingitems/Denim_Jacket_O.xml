@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Reworks\Bob_JacketRE_O</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Reworks\Kate_JacketRE_O</m_FemaleModel>
+	<m_GUID>65e273eb-85d5-41e7-9398-88d2dfb5c736</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+
+
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	
+	
+	
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets\Denim_Jacket_O</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets\Denim_Jacket_B_O</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets\DenimBlue_Jacket_O</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets\DenimBlue_Jacket_B_O</textureChoices>	
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets\DenimBluer_Jacket_O</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets\DenimBluer_Jacket_B_O</textureChoices>	
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets\DenimBluest_Jacket_O</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets\DenimBluest_Jacket_B_O</textureChoices>	
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets\DenimBlack_Jacket_O</textureChoices>
+	<textureChoices>clothes\Material_Denim\Jackets\Jackets\DenimBlack_Jacket_B_O</textureChoices>	
+</clothingItem>

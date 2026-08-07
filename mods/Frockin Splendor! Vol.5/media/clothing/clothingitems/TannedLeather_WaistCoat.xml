@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>8437cf79-4d2a-45b2-a8af-119c00b50c2e</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Waistcoats\LeatherTanned_Waistcoat</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Waistcoats\LeatherTanned_Waistcoat_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Waistcoats\LeatherTannedRed_Waistcoat</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Waistcoats\LeatherTannedRed_Waistcoat_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Waistcoats\LeatherTannedYellow_Waistcoat</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Waistcoats\LeatherTannedYellow_Waistcoat_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Waistcoats\LeatherTannedYellower_Waistcoat</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Waistcoats\LeatherTannedYellower_Waistcoat_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Waistcoats\LeatherTannedBlack_Waistcoat</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_LeatherTanned\Waistcoats\LeatherTannedBlack_Waistcoat_1</m_BaseTextures>
+</clothingItem>

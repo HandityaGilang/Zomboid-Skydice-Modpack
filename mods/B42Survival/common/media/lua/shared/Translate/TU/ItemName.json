@@ -1,0 +1,16 @@
+{
+    "Base.StringBox": "Sicim Kutusu",
+    "Base.ButtonWood": "Ahşap Düğme",
+    "Base.FlintFirestarter": "Çakmaktaşı Ateş Başlatıcı",
+    "Base.CandleJar": "Kavanoz Mum",
+    "Base.CandleJarLit": "Yanan Kavanoz Mum",
+    "Base.CandleTinCan": "Teneke Mum",
+    "Base.CandleTinCanLit": "Yanan Teneke Mum",
+    "Base.CandleWaterRationCan": "Su Konservesi Mum",
+    "Base.CandleWaterRationCanLit": "Yanan Su Konservesi Mum",
+    "Base.TorchCloth": "Bez Meşale",
+    "Base.TorchDenim": "Kot Meşale",
+    "Base.TorchFiber": "Lif Meşale",
+    "Base.TorchBurnt": "Yanmış Meşale",
+    "Base.TorchLit": "Yanan Meşale"
+}

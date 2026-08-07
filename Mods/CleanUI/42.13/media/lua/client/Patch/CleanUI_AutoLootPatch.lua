@@ -6,10 +6,44 @@ local Handler = ISInventoryWindowControlHandler_AutoLoot
 
 local FONT_HGT_SMALL = getTextManager():getFontHeight(UIFont.Small)
 
+local function CleanUI_hasAutoLootToggle()
+    if AutoLoot and type(AutoLoot.isOn) == "function" and type(AutoLoot.setOn) == "function" then
+        return true
+    end
+
+    if type(AutoDrop_isOn) == "function" and type(AutoDrop_setOn) == "function" then
+        return true
+    end
+
+    return false
+end
+
+local function CleanUI_isAutoLootEnabled()
+    if AutoLoot and type(AutoLoot.isOn) == "function" then
+        return AutoLoot.isOn() == true
+    end
+
+    if type(AutoDrop_isOn) == "function" then
+        return AutoDrop_isOn() == true
+    end
+
+    return false
+end
+
+local function CleanUI_toggleAutoLoot()
+    if AutoLoot and type(AutoLoot.isOn) == "function" and type(AutoLoot.setOn) == "function" then
+        AutoLoot.setOn(not AutoLoot.isOn())
+        return
+    end
+
+    if type(AutoDrop_isOn) == "function" and type(AutoDrop_setOn) == "function" then
+        AutoDrop_setOn(not AutoDrop_isOn())
+    end
+end
+
 function Handler:shouldBeVisible()
     if getCore():getGameMode() == "Tutorial" then return false end
-    if AutoLoot then return true end
-    return false
+    return CleanUI_hasAutoLootToggle()
 end
 
 function Handler:getControl()
@@ -29,7 +63,7 @@ function Handler:createAutoLootControl()
         btn:drawTextureScaled(getTexture("media/ui/CleanUI/Button/2_3Background.png"), 0, 0, btn.width, btn.height, alpha, 0.2, 0.2, 0.2)
         btn:drawTextureScaled(getTexture("media/ui/CleanUI/Button/2_3Border.png"), 0, 0, btn.width, btn.height, 1, 0.4, 0.4, 0.4)
 
-        local color = AutoLoot.isOn() and {r=0.95, g=0.5, b=0.1} or {r=0.7, g=0.7, b=0.7}
+        local color = CleanUI_isAutoLootEnabled() and {r=0.95, g=0.5, b=0.1} or {r=0.7, g=0.7, b=0.7}
         btn:drawTextureScaled(getTexture("media/ui/CleanUI/Icon/Icon_AutoLoot.png"), 0, 0, btn.width, btn.height, 1, color.r, color.g, color.b)
     end
 end
@@ -39,7 +73,7 @@ function Handler:getWindow()
 end
 
 function Handler:perform()
-    AutoLoot.setOn( not AutoLoot.isOn() )
+    CleanUI_toggleAutoLoot()
 end
 
 

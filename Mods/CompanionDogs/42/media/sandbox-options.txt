@@ -46,6 +46,16 @@ option CompanionDogs.UpkeepEnabled
 	translation = CompanionDogs_UpkeepEnabled,
 }
 
+option CompanionDogs.NeedsRateMultiplier
+{
+	type = double,
+	min = 0.0,
+	max = 5.0,
+	default = 1.0,
+	page = CompanionDogs,
+	translation = CompanionDogs_NeedsRateMultiplier,
+}
+
 option CompanionDogs.LoyaltyDecayPerDay
 {
 	type = double,
@@ -122,6 +132,14 @@ option CompanionDogs.HuntEnabled
 	default = true,
 	page = CompanionDogs,
 	translation = CompanionDogs_HuntEnabled,
+}
+
+option CompanionDogs.FarmCareEnabled
+{
+	type = boolean,
+	default = true,
+	page = CompanionDogs,
+	translation = CompanionDogs_FarmCareEnabled,
 }
 
 option CompanionDogs.DogNoiseAttractsZombies

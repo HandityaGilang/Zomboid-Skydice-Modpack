@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Static\Clothes\M_Rook_straps_FS_VisorUp</m_MaleModel>
+	<m_FemaleModel>Static\Clothes\F_Rook_straps_FS_VisorUp</m_FemaleModel>
+	<m_GUID>b9c53d27-b45b-4777-95c9-87751b6a0884</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_HatCategory>Group04</m_HatCategory>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>Clothes\Military\Helmets\Military_Helmet_Rook-SWATPlain</textureChoices>
+	<textureChoices>Clothes\Military\Helmets\Military_Helmet_Rook-SWATBlack</textureChoices>
+</clothingItem>

@@ -753,10 +753,19 @@ local function tickFenceHops()
                 -- Pouso de COMBATE no servidor: conduz na mao ate o ZUMBI (land-glide de combate, tickLandGlide/g.combat) e
                 -- PULA o ROOT-FIX-pro-dono abaixo (senao arrastaria o cao de volta pra cerca). SP e follow ficam no caminho
                 -- de hoje (byte-inalterado). Ver CD.COMBAT_FENCE_HOP_MP.
+                -- Pouso do CUIDADOR de fazenda: mesmo land-glide de combate (conduz ate o zumbi), mas sem coleira de dono e
+                -- sem handoff pro maintainCombat (owner-gated). Sem esta marca o pouso caia no glide/re-path de DONO abaixo,
+                -- que arrastava o cuidador pra longe do curral ("pulou, atacou e se perdeu").
+                local careHop = d.careHop
+                local careTx, careTy = d.careHopTx, d.careHopTy   -- alvo PONTO (retorno pro curral); nil = alvo e o zumbi
                 local combatLanding = d.combatHop and isServer()
                 d.combatHop = nil
+                d.careHop = nil
+                d.careHopTx, d.careHopTy = nil, nil
                 if combatLanding then
-                    landGlide[id] = { animal = animal, startMs = now, combat = true }
+                    landGlide[id] = { animal = animal, startMs = now, combat = true, care = careHop, tx = careTx, ty = careTy }
+                elseif careHop then
+                    landGlide[id] = nil   -- SP: careDog reassume no proximo sweep (o congelamento de animador e do servidor)
                 elseif CD.FENCE_LAND_GLIDE and isServer() then
                     -- SP-only: o congelamento do animador pos-hop e do SERVIDOR; em single-player o glide e
                     -- desnecessario e nocivo (setX com deferredMovement off = anima idle enquanto desliza =
@@ -769,7 +778,7 @@ local function tickFenceHops()
                 -- pouso pra que o cao ja esteja Moving-EM-DIRECAO-ao-dono desde o primeiro pacote de sync, em vez de ficar Static
                 -- na cerca (cuja previsao obsoleta o client remoto extrapola DE VOLTA pra cerca). O followOwner pesado
                 -- assume no proximo ciclo; pre-semeia a contabilidade dele pra que nao cancele este path.
-                if not combatLanding then
+                if not combatLanding and not careHop then
                     local owner = CD.getOwnerPlayer and CD.getOwnerPlayer(animal) or nil
                     if owner and owner:getCurrentSquare()
                        and math.floor(owner:getZ()) == math.floor(animal:getZ())
@@ -912,7 +921,10 @@ end
 -- mirando dono/cao. allowNil=true (follow proativo) retorna nil sem alcancavel (reagrupa); false (comando/guarda)
 -- cai pro mais proximo ALCANCAVEL (obedece quando da, e honesto quando nao da: nil -> clearAttack/posto).
 local SCAN_LOS_CAP = 8
-local function scanZombies(animal, radius, owner, ref, allowNil)
+-- detourMult (opcional): tolerancia de desvio a pe para considerar um zumbi alcancavel. nil = COMBAT_DETOUR_FACTOR
+-- (1.5, combate normal, que desiste rapido pra nao orbitar). O cuidador de fazenda passa um valor maior: ele esta
+-- ancorado no curral e volta ao posto, entao pode dar a volta pelo portao em vez de ignorar zumbi atras da cerca.
+local function scanZombies(animal, radius, owner, ref, allowNil, detourMult)
     local cell = getCell()
     if not cell then return nil, 0, false end
     local ax = math.floor(animal:getX())
@@ -971,7 +983,7 @@ local function scanZombies(animal, radius, owner, ref, allowNil)
                                     if not region.truncated and inWindow then
                                         if not depth then
                                             reach = false   -- inalcancavel a pe dentro do raio (parede/cerca sem volta)
-                                        elseif depth > dDog * (CD.COMBAT_DETOUR_FACTOR or 1.5) + (CD.COMBAT_DETOUR_ADD or 2) then
+                                        elseif depth > dDog * (detourMult or CD.COMBAT_DETOUR_FACTOR or 1.5) + (CD.COMBAT_DETOUR_ADD or 2) then
                                             reach = false   -- so alcancavel por desvio grande (atras de cerca) -> nao persegue, orbitaria
                                         end
                                     end
@@ -1302,24 +1314,34 @@ local function tickLandGlide()
             if g.combat then
                 local z = combatTarget[id]
                 local zvalid = false
-                pcall(function()
-                    zvalid = z ~= nil and not z:isDead() and z:getSquare() ~= nil
-                        and math.floor(z:getZ()) == math.floor(animal:getZ())
-                end)
+                -- g.tx: alvo do glide e um PONTO fixo (cuidador voltando pro curral apos pular pra fora), nao um zumbi.
+                if g.tx then
+                    zvalid = true
+                else
+                    pcall(function()
+                        zvalid = z ~= nil and not z:isDead() and z:getSquare() ~= nil
+                            and math.floor(z:getZ()) == math.floor(animal:getZ())
+                    end)
+                end
                 if not zvalid then
+                    -- Cuidador: alvo sumiu -> solta e deixa o careDog reassumir. NUNCA cair no glide de dono abaixo (o cuidador
+                    -- e independente; ir atras do dono o tirava do curral).
+                    if g.care then pcall(function() letMove(animal) end); landGlide[id] = nil; return end
                     g.combat = nil   -- zumbi morreu/sumiu: fall-through pro glide de dono abaixo
                 else
-                    local zx, zy = z:getX(), z:getY()
+                    local zx, zy = g.tx or z:getX(), g.ty or z:getY()
                     local x, y = animal:getX(), animal:getY()
                     local ddx, ddy = zx - x, zy - y
                     local dist = math.sqrt(ddx * ddx + ddy * ddy)
                     if dist <= (CD.STRIKE_DIST or 1.0) + 0.2 then   -- alcancou: handoff pro maintainCombat (o hold no alcance = idle que recupera o animador)
                         pcall(function() letMove(animal) end)
-                        combatMaintainDogs[id] = animal
+                        if not g.care then combatMaintainDogs[id] = animal end   -- cuidador: maintainCombat e owner-gated, quem golpeia e o careDog
                         landGlide[id] = nil
                         return
                     end
-                    local cowner = CD.getOwnerPlayer and CD.getOwnerPlayer(animal) or nil   -- coleira: nunca longe demais do dono
+                    -- Cuidador NAO tem coleira de dono: ele e independente e o dono costuma estar longe: o teleportRecover
+                    -- abaixo o arrancaria do curral pro lado do dono.
+                    local cowner = (not g.care) and CD.getOwnerPlayer and CD.getOwnerPlayer(animal) or nil
                     if cowner and CD.dist2D(animal, cowner) > (CD.TELEPORT_DIST or 24) then
                         if not teleportRecover(animal, cowner) then drop = false end
                         return
@@ -1545,6 +1567,13 @@ local function respawnCompanion(oldDog, owner, rec, atSq)
     -- Ja avancamos fome/sede durante a viagem (advanceMountedNeeds); reseta o relogio de upkeep pra que o
     -- primeiro updateUpkeep apos o desembarque nao recupere a viagem inteira de novo por cima dela (contagem dupla).
     nd.lastUpkeepMin = worldMinutes()
+    -- O cao respawnado e um IsoAnimal NOVO, entao a engine cunhou um animalId NOVO no init (Rand.Next(10000)) --
+    -- o snap.animalId do canil ainda aponta pro objeto DELETADO. Como o d.* aqui e copia do antigo, ele traz o
+    -- lastKennelMin junto e o throttle de KENNEL_MIRROR_MIN (30 min-jogo) seguraria o refresh: a ancora de
+    -- identidade ficaria stale por meia hora de jogo apos CADA viagem de veiculo/desembarque/recall, e nessa
+    -- janela CD.adoptByAnimalId nao casa com nada (falha fechada, mas com a feature desligada em silencio).
+    -- Zerar aqui faz o proximo updateCompanion regravar o snapshot com o id novo. Mesmo espirito do reset acima.
+    nd.lastKennelMin = nil
     -- Relogio de needs resetado pro agora, entao descarta a divida offline acumulada (senao ela depois congela o acrescimo online).
     nd.ownerId = nil   -- id de SESSAO: nunca mais gravado (ver CD.isOwnedBy)
     if owner then CD.playerData(owner).offlineDebtMin = 0 end
@@ -2547,8 +2576,8 @@ local function updateUpkeep(animal, owner, d)
     if elapsedMin > 0 then
         local step = math.min(elapsedMin, CD.UPKEEP_MAX_CATCHUP_MIN or 360)
         local dDay = step / 1440
-        hunger = math.min(1, hunger + (CD.HUNGER_PER_DAY or 0.30) * dDay)
-        thirst = math.min(1, thirst + (CD.THIRST_PER_DAY or 0.60) * dDay)
+        hunger = math.min(1, hunger + CD.hungerPerDay() * dDay)
+        thirst = math.min(1, thirst + CD.thirstPerDay() * dDay)
         setNeed(animal, "hunger", hunger)
         setNeed(animal, "thirst", thirst)
         -- Dreno de HP por negligencia. Reducoes de setHealth sao bloqueadas enquanto invencivel, entao desliga pra exatamente estes dois
@@ -3719,7 +3748,12 @@ local function tryForagePoint(animal, owner, d)
         animal:setVariable("animalSpeed", 0)
         animal:stopAllMovementNow()
     end)
-    pcall(function() animal:faceLocation(spot.x, spot.y) end)
+    -- so vira se o alvo nao for a propria tile do cao (dx/dy ~0 = faceLocationF loga "at itself!").
+    local fx = (spot.x + 0.5) - animal:getX()
+    local fy = (spot.y + 0.5) - animal:getY()
+    if (fx * fx + fy * fy) > 0.0025 then
+        pcall(function() animal:faceLocation(spot.x, spot.y) end)
+    end
     holdStill(animal)
     return true
 end
@@ -4040,6 +4074,10 @@ local function updateCompanion(animal, owner)
     followMaintainDogs[animal:getOnlineID()] = nil
     combatMaintainDogs[animal:getOnlineID()] = nil
 
+    -- Cuidador de fazenda: dirigido pela varredura INDEPENDENTE tickCareDogs (nao por este loop owner-gated). Sai aqui
+    -- (upkeep/invencibilidade/comportamento rodam la) pra evitar dupla conducao/duplo upkeep quando o dono passa perto.
+    if d.careMode then return end
+
     pcall(function() animal:setShootable(false) end)
 
     -- Skills sumidas num companion vivo (copyFrom parcial / serializacao perdeu a sub-tabela): reidrata do canil
@@ -4050,6 +4088,10 @@ local function updateCompanion(animal, owner)
     end
 
     if CD.upkeepEnabled() then updateUpkeep(animal, owner, d) end
+
+    -- Aura de calma da raca de pastoreio (border collie). Depois do upkeep de proposito: ele acabou de recomputar
+    -- estresse/needs do cao, que sao justamente o que dosa a forca da calma. No-op nas outras racas (gate por calmMult).
+    CD.collieCalmPass(animal, d)
 
     -- Espelha o snapshot durável do cao ativo periodicamente (captura o XP parcial ganho lutando/farejando).
     if not d.lastKennelMin or (worldMinutes() - d.lastKennelMin) >= (CD.KENNEL_MIRROR_MIN or 30) then
@@ -4681,7 +4723,7 @@ end
 -- Mantem caes guardados no owner a cada tick (o loop pesado abaixo so roda a cada COMPANION_TICK_INTERVAL). Des-esconde/restaura quando o owner sai do veiculo ou se afasta.
 -- O cao montado e deletado, entao updateUpkeep nunca roda pra ele e fome/sede ficariam congeladas por
 -- toda a viagem. Avanca eles no registro de stash na MESMA taxa de upkeep manual (o cao e invencivel,
--- entao nao ha acrescimo nativo a espelhar; updateUpkeep usa HUNGER_PER_DAY/THIRST_PER_DAY). Throttle no
+-- entao nao ha acrescimo nativo a espelhar; updateUpkeep usa CD.hungerPerDay/CD.thirstPerDay). Throttle no
 -- intervalo de upkeep e cap como updateUpkeep; respawnCompanion aplica isso ao desmontar. Vida/lealdade ficam
 -- congeladas de proposito: o cao nao pode morrer durante a viagem, e updateUpkeep retoma isso assim que ele volta.
 local function advanceMountedNeeds(owner)
@@ -4701,8 +4743,8 @@ local function advanceMountedNeeds(owner)
     if elapsed <= 0 then return end
     local step = math.min(elapsed, CD.UPKEEP_MAX_CATCHUP_MIN or 360)
     local dDay = step / 1440
-    rec.hunger = math.min(1, (rec.hunger or 0) + (CD.HUNGER_PER_DAY or 0.30) * dDay)
-    rec.thirst = math.min(1, (rec.thirst or 0) + (CD.THIRST_PER_DAY or 0.60) * dDay)
+    rec.hunger = math.min(1, (rec.hunger or 0) + CD.hungerPerDay() * dDay)
+    rec.thirst = math.min(1, (rec.thirst or 0) + CD.thirstPerDay() * dDay)
     owner:transmitModData()
 end
 
@@ -4810,8 +4852,9 @@ local function tickCompanionInvincible()
                     toStash[#toStash + 1] = a
                 else
                     local activeForOwner = owner ~= nil and CD.data(a).companionToken == CD.playerData(owner).token
-                    -- femea indo cruzar (breedTarget) precisa andar ate o macho: nao a fixa, mesmo passiva.
-                    if not activeForOwner and not CD.data(a).breedTarget then holdStill(a) end
+                    -- femea indo cruzar (breedTarget) e cuidador de fazenda (careMode) precisam andar/patrulhar: nao os fixa,
+                    -- mesmo passivos (o cuidador remoto seria congelado por este holdStill; tickCareDogs dirige a movimentacao dele).
+                    if not activeForOwner and not CD.data(a).breedTarget and not CD.data(a).careMode then holdStill(a) end
                 end
             end
         end
@@ -5377,6 +5420,76 @@ CD.Server.stashcarried = function(player, args)
     CD.convertCarriedToStash(player)
 end
 
+-- O onlineID e um id de SESSAO de 16 bits (IsoObjectID.allocateID comeca em Rand.Next(32766) a CADA boot e da
+-- wrap sem checar colisao; o server ainda DESCARTA o id salvo em IsoAnimal.load e realoca no init), entao depois
+-- de um restart ele pode resolver pra OUTRO cao vivo. animalId sobrevive ao copyFrom (this.animalId =
+-- animal.animalId) E ao save/load, entao e a prova de identidade barata. Registro sem animalId (save antigo) ou
+-- getter indisponivel -> passa, mantendo o comportamento anterior (a guarda so RECUSA quando prova divergencia).
+CD.carriedIdentityOk = function(rec, dog)
+    if rec == nil or rec.animalId == nil or dog == nil then return true end
+    local aid = nil
+    pcall(function() aid = dog:getAnimalID() end)
+    if aid == nil then return true end
+    return aid == rec.animalId
+end
+
+-- Re-anexa o bond de um registro de carry ao cao reconstruido pelo drop: acha por onlineID (preservado pelo
+-- AnimalInstanceManager.add do drop), carimba o ModData de volta e re-arma wild=false/shootable=false/invencivel.
+-- NAO mexe em pd.carried (o caller decide). Retorna o cao re-anexado, ou nil se ainda nao resolvivel/ja e companion.
+-- CD.* (nao local): Companion.lua esta no teto de 200 locals do Kahlua. Extraido do ramo (2) pra ser reusado pelo
+-- flush do carry-swap no ramo (1).
+CD.reattachCarried = function(player, rec)
+    if not rec then return nil end
+    local dog = nil
+    pcall(function() dog = getAnimal(rec.onlineID) end)
+    local inWorld = false
+    pcall(function() inWorld = dog ~= nil and dog:getSquare() ~= nil end)
+    if not (dog and inWorld and CD.isDog(dog) and not CD.isCompanion(dog)) then return nil end
+    if not CD.carriedIdentityOk(rec, dog) then return nil end   -- id de sessao reciclado: NAO carimba no cao errado
+    pcall(function() dog:getModData().CompanionDogs = rec.data end)
+    local nd = CD.data(dog)
+    nd.mounted = nil
+    nd.stashed = nil
+    nd.diedNotified = nil
+    nd.ownerId = nil
+    pcall(function() CD.restoreFromKennel(player, dog) end)   -- marca d'agua contra record stale
+    pcall(function() dog:setWild(false) end)
+    pcall(function() dog:setShootable(false) end)
+    -- Re-afirma imunidade a roadkill (copyFrom limpou); espelha o caminho do trailer.
+    pcall(function() dog:setIsInvincible(true) end)
+    CD.transmit(dog)
+    if CD.hasBag(dog) then pcall(function() CD.applyBagVisual(dog) end) end
+    return dog
+end
+
+-- JANELA MORTAL DO DROP: o copyFrom da engine nao copia `invincible` NEM `shootable` (IsoAnimal.copyFrom so leva
+-- health/animalId/genome/data/wild/customName/...), entao entre o drop e o re-anexo do heavy tick o cao fica
+-- vulneravel E atiravel -- a bala-fantasma do mod so protege quem e companion. Foi essa janela que matava o cao
+-- solto embaixo do carro (dai o convertCarriedToStash); a pe ela vale pra tiro/fogo/veiculo do mesmo jeito.
+-- Aqui so RE-ARMA a protecao, no tick RAPIDO: nada de contabilidade (pd.carried, bond, auto-select seguem no
+-- heavy tick), pra nao interferir na deteccao de carry-swap. Custo ~zero: so age com registro de colo, e enquanto
+-- o cao esta NA MAO getSquare() e nil, entao sai na hora (um getAnimal + um getSquare).
+CD.tickCarriedGuard = function()
+    eachOnlinePlayer(function(player)
+        local pd = CD.playerData(player)
+        local rec = pd.carried
+        if not rec then return end
+        -- Mesmo gate do ramo (2): registro cujo token nao esta mais bonded sera DESCARTADO la sem re-anexar, e
+        -- proteger aqui deixaria um cao selvagem invencivel pra sempre (ninguem desarma depois).
+        if not recordStillBonded(pd, rec.data and rec.data.companionToken) then return end
+        local dog = nil
+        pcall(function() dog = getAnimal(rec.onlineID) end)
+        if not dog then return end
+        local inWorld = false
+        pcall(function() inWorld = dog:getSquare() ~= nil end)
+        if not inWorld or not CD.isDog(dog) or CD.isCompanion(dog) then return end
+        if not CD.carriedIdentityOk(rec, dog) then return end
+        pcall(function() dog:setWild(false) end)
+        pcall(function() dog:setShootable(false) end)
+        pcall(function() dog:setIsInvincible(true) end)
+    end)
+end
+
 -- O owner carrega o cao como o item Animal nativo (segurado nas duas maos). No drop a engine reconstroi
 -- um cao NOVO via copyFrom, que DERRUBA nosso getModData(), o cao volta pra nao-companion ("wild").
 -- Nao ha evento Lua no drop, entao reconcilia aqui: o onlineID e preservado no pickup->drop
@@ -5397,16 +5510,37 @@ local function recoverCarriedDogs()
             local d = CD.data(held)
             local oid = held:getOnlineID()
             if not pd.carried or pd.carried.onlineID ~= oid then
-                pd.carried = { onlineID = oid, data = d }
+                -- CARRY-SWAP: pegar um 2o cao (B) no colo forca o 1o (A) pro chao SEM VINCULO -- ISPickupAnimal:complete
+                -- chama forceDropHeavyItems ANTES de trocar o item das maos. Sobrescrever pd.carried aqui destruiria o
+                -- registro de A antes do ramo (2) re-anexar -> A vira gemeo permanente quando o dono aperta Trazer.
+                -- Re-anexa A AGORA (onlineID de A preservado pelo AnimalInstanceManager.add do drop) antes de repontar pra B.
+                local droppedActive = nil
+                if pd.carried and pd.carried.data and pd.carried.data.companionToken ~= d.companionToken then
+                    droppedActive = CD.reattachCarried(player, pd.carried)
+                end
+                -- animalId (sobrevive ao copyFrom E ao save) = prova de identidade contra o onlineID de sessao
+                -- reciclado apos restart; lido do animal VIVO na mao, nunca do client. Ver CD.carriedIdentityOk.
+                local aid = nil
+                pcall(function() aid = held:getAnimalID() end)
+                pd.carried = { onlineID = oid, animalId = aid, data = d }
                 -- carried (nas maos) e stashed (num veiculo) sao mutuamente exclusivos; um stash pra ESTE mesmo cao
                 -- agora e stale (espelha CD.Server.carry). Deixar la deixaria recoverStashedDogs respawnar um twin.
                 if pd.stash and pd.stash.data and pd.stash.data.companionToken == d.companionToken then pd.stash = nil end
                 -- Entrada durável recuperável se o dono morrer com o cao no colo (ver L725); idempotente.
                 if CD.kennelSeedFromData and d.companionToken then CD.kennelSeedFromData(player, d.companionToken, d) end
                 pcall(function() player:transmitModData() end)
+                -- Pedido do dev: quando A cai involuntariamente porque voce pegou OUTRO cao (B) no colo, A vira o
+                -- ativo que te segue (auto-select) -- SO neste caso (o drop normal, ramo 2, nao seleciona). Roda apos
+                -- pd.carried=B, entao o proprio CD.Server.select ja marca B (agora carregado) como passivo.
+                if droppedActive and CD.Server and CD.Server.select then
+                    CD.Server.select(player, { __animal = droppedActive })
+                end
             else
                 pd.carried.data = d -- mantem o registro apontando pro bond vivo (que decai) pro restore no drop
                 pd.carried.missingMs = nil
+                -- Backfill pra registro gravado ANTES da guarda de identidade: sem isto ele so ganharia animalId
+                -- quando o onlineID mudasse, e a guarda ficaria inativa pra sempre nesse save.
+                if pd.carried.animalId == nil then pcall(function() pd.carried.animalId = held:getAnimalID() end) end
             end
 
             local hp = 1
@@ -5453,24 +5587,7 @@ local function recoverCarriedDogs()
             pcall(function() player:transmitModData() end)
             return
         end
-        local dog = nil
-        pcall(function() dog = getAnimal(rec.onlineID) end)
-        local inWorld = false
-        pcall(function() inWorld = dog ~= nil and dog:getSquare() ~= nil end)
-        if dog and inWorld and CD.isDog(dog) and not CD.isCompanion(dog) then
-            pcall(function() dog:getModData().CompanionDogs = rec.data end)
-            local nd = CD.data(dog)
-            nd.mounted = nil
-            nd.stashed = nil
-            nd.diedNotified = nil
-            nd.ownerId = nil
-            pcall(function() CD.restoreFromKennel(player, dog) end)   -- marca d'agua contra record stale
-            pcall(function() dog:setWild(false) end)
-            pcall(function() dog:setShootable(false) end)
-            -- Re-afirma imunidade a roadkill (copyFrom limpou); espelha o caminho do trailer.
-            pcall(function() dog:setIsInvincible(true) end)
-            CD.transmit(dog)
-            if CD.hasBag(dog) then pcall(function() CD.applyBagVisual(dog) end) end
+        if CD.reattachCarried(player, rec) then
             pd.carried = nil
             pcall(function() player:transmitModData() end)
         end
@@ -6088,19 +6205,29 @@ local function reapPhantomCompanions(player)
                 if (now - lost[t]) >= grace then
                     local nm = (type(pd.dogPositions) == "table" and pd.dogPositions[t] and pd.dogPositions[t].name)
                         or (t == pd.token and pd.name) or nil
+                    -- Antes de anunciar que sumiu: o cao pode estar VISIVEL ao lado, so sem vinculo (o copyFrom do
+                    -- drop apaga o ModData, e ai nenhum predicado daqui o enxerga). Declarar Perdido nessa situacao e
+                    -- o passo 1 da duplicacao -- o Trazer seguinte cunha o gemeo. Recarimba por PROVA de animalId
+                    -- (CD.adoptByAnimalId, Kennel.lua) e so declara se nao houver prova nenhuma.
+                    local re = CD.adoptByAnimalId and pd.kennel and pd.kennel[t]
+                        and CD.adoptByAnimalId(player, t, pd.kennel[t], CD.TELEPORT_DIST or 24)
+                    if re then
+                        changed = true
                     -- Com snapshot no canil o cao vira PERDIDO (recuperavel pelo Trazer da tela Meus Caes) em vez de ter o
                     -- vinculo limpo; anchor/pd.dogPositions ficam como "visto por ultimo". Sem snapshot (save antigo): limpeza legada.
-                    local marked = CD.markCompanionLost and CD.markCompanionLost(player, t)
-                    if marked ~= nil then
-                        if marked then
-                            CD.notifyOwner(player, "lost", { name = nm, breed = pd.kennel[t] and pd.kennel[t].breed })
+                    else
+                        local marked = CD.markCompanionLost and CD.markCompanionLost(player, t)
+                        if marked ~= nil then
+                            if marked then
+                                CD.notifyOwner(player, "lost", { name = nm, breed = pd.kennel[t] and pd.kennel[t].breed })
+                                changed = true
+                            end
+                        else
+                            clearCompanionSlot(player, t, nm, nil, nil)
+                            pd.tokenAnchor[t] = nil
+                            if type(pd.dogPositions) == "table" then pd.dogPositions[t] = nil end
                             changed = true
                         end
-                    else
-                        clearCompanionSlot(player, t, nm, nil, nil)
-                        pd.tokenAnchor[t] = nil
-                        if type(pd.dogPositions) == "table" then pd.dogPositions[t] = nil end
-                        changed = true
                     end
                     lost[t] = nil
                 end
@@ -6224,8 +6351,6 @@ CD.repairOwnership = function()
                     -- personagem por natureza.)
                     if isServer() and d.ownerKey ~= nil and d.ownerKey ~= "" and d.ownerName ~= nil and d.ownerName ~= ""
                        and d.ownerKey ~= d.ownerName then
-                        print(string.format("[CD-FIX] carimbo de dono errado: uid=%s ownerKey=%s -> %s (ownerName)",
-                            tostring(d.uid), tostring(d.ownerKey), tostring(d.ownerName)))
                         d.ownerKey = d.ownerName
                         CD.transmit(a)
                     end
@@ -6259,8 +6384,6 @@ CD.repairOwnership = function()
             for i = 1, #entries do
                 local e = entries[i]
                 if e.key ~= owner then
-                    print(string.format("[CD-FIX] canil roubado: uid=%s tirado de %s (token %s), dono real=%s",
-                        tostring(uid), tostring(e.key), tostring(e.tok), tostring(owner)))
                     CD.kennelGlobalDrop(e.key, e.tok)
                     stolen[e.key] = stolen[e.key] or {}
                     stolen[e.key][e.tok] = uid
@@ -6290,9 +6413,7 @@ CD.repairOwnership = function()
         end
         if not drops then return end
         local changed = false
-        for tok, uid in pairs(drops) do
-            print(string.format("[CD-FIX] espelho roubado: %s perde o token %s (uid=%s)",
-                tostring(key), tostring(tok), tostring(uid)))
+        for tok, _ in pairs(drops) do
             if type(pd.kennel) == "table" then pd.kennel[tok] = nil end
             if type(pd.companions) == "table" then pd.companions[tok] = nil end
             if type(pd.tokenAnchor) == "table" then pd.tokenAnchor[tok] = nil end
@@ -6331,6 +6452,18 @@ end
 -- Pra um cao que se aproxima, re-conduz rumo a posicao FRESCA do zumbi a cada tick leve e planta no momento em que
 -- esta no alcance de strike (pra parar JUNTO ao zumbi em vez de deslizar adiante por root motion desatualizada); pra um
 -- cao em retreat, re-conduz rumo a tile de retreat armazenada. Nunca golpeia (o loop pesado aplica os golpes no HIT_COOLDOWN_MIN).
+-- O registro em followMaintainDogs/combatMaintainDogs e um LEASE que so o topo do updateCompanion renova ou derruba.
+-- So que o updateCompanion nao roda quando o cao deixa de ser o ATIVO: o maybeUpdate barra antes (companionToken ~=
+-- pd.token), e um cao solto nem companion e mais. O lease ficava orfao e o maintainer conduzia o cao atras do dono
+-- PRA SEMPRE -- foi o que fez cao mandado cuidar do gado (pd.token zerado) e cao solto na natureza continuarem
+-- seguindo o jogador. Espelha aqui o mesmo gate do maybeUpdate: quem nao e o ativo deste dono perde o lease.
+local function stillActiveFor(animal, owner)
+    if not CD.isCompanion(animal) then return false end
+    local tok = CD.data(animal).companionToken
+    if tok == nil then return false end
+    return tok == CD.playerData(owner).token
+end
+
 local function maintainCombat()
     for id, animal in pairs(combatMaintainDogs) do
         local keep = false
@@ -6338,6 +6471,7 @@ local function maintainCombat()
             if not animal:isExistInTheWorld() then return end
             local owner = CD.getOwnerPlayer(animal)
             if not owner then return end
+            if not stillActiveFor(animal, owner) then return end   -- lease orfao: ver stillActiveFor (mesmo caso do follow)
             keep = true
             local d = CD.data(animal)
             if d.fenceHop then return end   -- no meio de um vault de cerca: tickFenceHops conduz o glide; nao brigar com ele (keep segue true)
@@ -6398,6 +6532,7 @@ local function maintainFollowers()
             if not animal:isExistInTheWorld() then return end
             local owner = CD.getOwnerPlayer(animal)
             if not owner then return end
+            if not stillActiveFor(animal, owner) then return end
             keep = true
             if CD.data(animal).breedTarget then return end   -- breeding: a aproximacao conduz este cao, nao o follow
             local _fok = math.floor(owner:getZ()) == math.floor(animal:getZ())
@@ -6480,7 +6615,11 @@ end
 local SHOUT_LOCK_STILL_MS = 400
 local function cancelShoutNudge(animal)
     local d = CD.data(animal)
-    if d.fenceHop or d.breedTarget or d.autoFeeding or d.hunting or d.inCombat or d.retreating
+    -- careMode: o cuidador de fazenda fica em STATE_STAY (Commands.setcaremode) mas NAO e um cao parado -- ele patrulha o
+    -- curral e persegue zumbi conduzido por tickCareDogs. Sem esta saida o lock daqui fazia snap-back por OnTick contra o
+    -- A* dele: o cao avancava um passo e era puxado de volta (o "teleportando a cada passo"), andava de re rumo a ancora
+    -- depois de atacar, e travava. So o pulo escapava, porque d.fenceHop ja estava nesta lista.
+    if d.careMode or d.fenceHop or d.breedTarget or d.autoFeeding or d.hunting or d.inCombat or d.retreating
        or d.huntTargetId or d.forageGoingSinceMin or d.recallUntilMin or d.protectX then
         d.lockX = nil; return
     end
@@ -6749,6 +6888,576 @@ CD.reclaimKennelFromGlobal = function(player)
     end
 end
 
+-- ===== Cuidador de fazenda (varredura INDEPENDENTE do dono) ======================================
+-- O cao-cuidador (d.careMode) e estacionado num curral (DesignationZoneAnimal) e processado aqui, cell-wide, sem
+-- depender da proximidade do dono (so precisa da area carregada por qualquer player, que e quando o gado simula). E
+-- SILENCIOSO (nunca bark/addSound). Server-only. careDog/careAlert aninhados pra nao gastar local do chunk (teto 200).
+-- Aura de calma do border collie COMPANHEIRO (o cao que anda com voce, nao o cuidador estacionado num curral). Enquanto
+-- um collie vivo, leal, saudavel e alimentado te acompanha, o gado ao redor DELE assenta: da pra ordenhar/tosquiar/
+-- manejar no campo sem a debandada. Server-side de proposito -- o animal e simulado pelo servidor, entao changeStress/
+-- setDebugStress vindos do client nao replicariam; o moodle "Instinto de Pastor" no HUD e so o feedback visual disto.
+-- SEM transmit: a engine replica o estresse do gado sozinha, igual a aura do cuidador em tickCareDogs.
+-- Chamada por updateCompanion, que ja fez early-return em d.careMode -> as duas auras nunca somam no mesmo cao.
+-- Definida como CD.* (nao local function) de proposito: este arquivo esta perto do teto de 200 locals do Kahlua.
+function CD.collieCalmPass(animal, d)
+    if isClient() then return end
+    -- So raca de pastoreio paga o custo do scan (border collie 1.5; addon pode optar via calmMult no registerBreed).
+    if (CD.getBreedDef(animal).calmMult or 1) <= 1 then return end
+    if CD.isDisloyal(animal) or CD.isSick(animal) then return end
+    -- Mesmo custo simetrico do moodle: cao negligenciado nao trabalha.
+    local h, t = 0, 0
+    pcall(function() h = animal:getHunger() or 0; t = animal:getThirst() or 0 end)
+    if h >= CD.MOODLE_NEGLECT_MAX or t >= CD.MOODLE_NEGLECT_MAX then return end
+
+    local now = worldMinutes()
+    if d.lastCollieCalmMin and (now - d.lastCollieCalmMin) < CD.collieCalmThrottleMin() then return end
+    d.lastCollieCalmMin = now
+
+    -- delta >= 0 = Pastoreio 0 (neutro). No modo companheiro o cao NUNCA estressa: o custo de predador desleal/apavorado
+    -- e do cuidador (que voce escolheu deixar tomando conta do curral); aqui ele so nao ajuda.
+    local delta = CD.effectiveCalmStrength(animal)
+    if delta >= 0 then return end
+    local cap = CD.effectiveCalmCap(animal)
+
+    local cell = getCell()
+    if not cell then return end
+    local list = nil
+    pcall(function() list = cell:getAnimals() end)
+    if not list then return end
+
+    local ax, ay, az = animal:getX(), animal:getY(), math.floor(animal:getZ())
+    local radius = CD.collieCalmRadius()
+    local maxHerd = CD.COLLIE_CALM_MAX_HERD or 12
+    local n, applied = 0, false
+    for i = 0, list:size() - 1 do
+        if n >= maxHerd then break end
+        local la = list:get(i)
+        local ok = false
+        pcall(function()
+            ok = la ~= nil and not CD.isDog(la) and not la:isWild() and not la:isDead()
+                and math.floor(la:getZ()) == az
+                and math.abs(la:getX() - ax) <= radius and math.abs(la:getY() - ay) <= radius
+        end)
+        if ok then
+            n = n + 1
+            applied = true
+            pcall(function() la:changeStress(delta) end)
+            -- Mesmo clamp duro do cuidador: o decremento sozinho perde a corrida contra o spotted (que re-injeta
+            -- estresse todo tick com zumbi perto). O teto e o que segura o gado abaixo de correr (>50) / perder leite (>40).
+            if cap < 100 then
+                pcall(function() if la:getStress() > cap then la:setDebugStress(cap) end end)
+            end
+        end
+    end
+    if applied then CD.addSkillXP(animal, "herding", CD.CARE_XP_PER_CALM or 2) end
+end
+
+local function tickCareDogs(now)
+    if isClient() then return end
+    if not CD.careEnabled() then return end
+    local cell = getCell()
+    if not cell then return end
+    local list = nil
+    pcall(function() list = cell:getAnimals() end)
+    if not list then return end
+
+    -- Aviso ao DONO (throttled, direcionado; nunca broadcast). kind = "zombie" | "stress".
+    local function careAlert(owner, a, d, kind)
+        if not owner then return end
+        if d.lastCareAlertMin and (now - d.lastCareAlertMin) < CD.careAlertCooldownMin() then return end
+        d.lastCareAlertMin = now
+        CD.notifyOwner(owner, "carealert", { id = a:getOnlineID(), kind = kind, breed = CD.getBreed(a) })
+    end
+
+    -- DIAGNOSTICO (CD.CARE_DEBUG): por que o cao nao cruza a cerca ate o zumbi. Imprime as flags da ARESTA cardinal
+    -- dominante entre cao e alvo, do square DONO da aresta (oeste pertence ao square leste, norte ao square sul, mesma
+    -- convencao do CD.lowFenceCrossable). Leitura: hop=1 -> saltavel; tall=1 e hop=0 -> alambrado/arame, NAO saltavel
+    -- nem pelo mod nem pela engine (IsoMovingObject.checkHitHoppableAnimal so olha HoppableW/N) -> o cao TEM que desistir.
+    local function careDebug(a, z, gap, tag)
+        if not CD.CARE_DEBUG then return end
+        local info = "sem-aresta"
+        pcall(function()
+            local cell = getCell()
+            local ax, ay, az = math.floor(a:getX()), math.floor(a:getY()), math.floor(a:getZ())
+            local zx, zy = math.floor(z:getX()), math.floor(z:getY())
+            local sdx, sdy = 0, 0
+            if math.abs(zx - ax) >= math.abs(zy - ay) then sdx = (zx > ax) and 1 or ((zx < ax) and -1 or 0)
+            else sdy = (zy > ay) and 1 or ((zy < ay) and -1 or 0) end
+            local from = cell:getGridSquare(ax, ay, az)
+            local to = cell:getGridSquare(ax + sdx, ay + sdy, az)
+            if not from or not to then return end
+            local owner, hop, tall, trans
+            if sdx > 0 then     owner, hop, tall, trans = to,   IsoFlagType.HoppableW, IsoFlagType.TallHoppableW, IsoFlagType.WallWTrans
+            elseif sdx < 0 then owner, hop, tall, trans = from, IsoFlagType.HoppableW, IsoFlagType.TallHoppableW, IsoFlagType.WallWTrans
+            elseif sdy > 0 then owner, hop, tall, trans = to,   IsoFlagType.HoppableN, IsoFlagType.TallHoppableN, IsoFlagType.WallNTrans
+            else                owner, hop, tall, trans = from, IsoFlagType.HoppableN, IsoFlagType.TallHoppableN, IsoFlagType.WallNTrans
+            end
+            local function fl(f) local r = false; pcall(function() r = owner:has(f) end); return r and 1 or 0 end
+            -- Sprites do square dono: identifica a cerca exata (ex.: fencing_01_56 = alambrado, nao saltavel).
+            local sprites = {}
+            pcall(function()
+                local objs = owner:getObjects()
+                for i = 0, math.min(objs:size(), 4) - 1 do
+                    local sp = objs:get(i):getSprite()
+                    if sp and sp:getName() then sprites[#sprites + 1] = sp:getName() end
+                end
+            end)
+            local sfw = false
+            pcall(function() sfw = a:shouldFollowWall() == true end)
+            info = string.format("passo=%d,%d hop=%d tall=%d trans=%d lowCross=%s sfw=%s sprites=[%s]",
+                sdx, sdy, fl(hop), fl(tall), fl(trans),
+                tostring(CD.lowFenceCrossable(from, to, sdx, sdy)), tostring(sfw), table.concat(sprites, ","))
+        end)
+        print(string.format("[CD-CARE] %s cao=(%d,%d) alvo=(%d,%d) gap=%.1f %s", tag,
+            math.floor(a:getX()), math.floor(a:getY()), math.floor(z:getX()), math.floor(z:getY()), gap, info))
+    end
+
+    -- Vault do CUIDADOR. Difere do CD.tryCombatVault em um ponto decisivo: NAO usa o steer conduzido-na-mao
+    -- (steerToFenceTile). Aquele steer avanca por dt e depende do driver por-OnTick do combate (tickFenceSteer, que exige
+    -- dono); no cuidador ele so era chamado 1x por passada do sweep, entao o cao "teleportava a cada passo". Aqui a
+    -- aproximacao ate a borda vai por A* normal (o chamador faz moveTo em nearSq) e so o SALTO e conduzido na mao.
+    -- Retorna: saltou(bool), nearSq(square da borda pra caminhar ate, quando ha cerca baixa na linha mas ainda longe).
+    -- Linha de ESTADO por passada: o que o cuidador DECIDIU e com que dados. Complementa o [CD-CARE!] por-tick (que mostra
+    -- quem MOVEU o cao). Imprime na TRANSICAO de decisao + um heartbeat a cada 20 passadas, pra virar uma narrativa legivel
+    -- em vez de 3 linhas por segundo. Tambem publica o objetivo corrente pro detector de travamento do watchdog.
+    local function careLog(a, d, tag, gap, gx, gy)
+        if not CD.CARE_DEBUG then return end
+        local goal = gx and string.format("(%d,%d)", gx, gy) or nil
+        if CD.careWatch then
+            local r = CD.careWatch[a:getOnlineID()]
+            if r and (r.gx ~= gx or r.gy ~= gy) then
+                -- Objetivo trocou: fecha o BOLETIM do anterior (eficiencia = quanto do que ele andou virou progresso
+                -- liquido; 1.0 = linha reta, <0.4 = deu voltas) e reinicia a medicao de convergencia.
+                if r.gx and (r.walked or 0) > 1 then
+                    local net = math.abs(a:getX() - (r.ox or 0)) + math.abs(a:getY() - (r.oy or 0))
+                    print(string.format("[CD-CARE~] objetivo (%d,%d) encerrado: andou %.1f tiles, liquido %.1f, eficiencia %.2f, distFinal %.1f, %d ticks",
+                        r.gx, r.gy, r.walked or 0, net, (r.walked or 0) > 0 and (net / r.walked) or 0,
+                        r.lastDg or -1, r.ticks or 0))
+                end
+                r.gx, r.gy = gx, gy
+                r.bestDg, r.lastDg, r.walked, r.ticks, r.warned = nil, nil, 0, 0, nil
+                r.ox, r.oy = a:getX(), a:getY()
+            end
+        end
+        d._careN = (d._careN or 0) + 1
+        if d._careTag == tag and (d._careN % 20) ~= 0 then return false end
+        d._careTag = tag
+        local inZone = "?"
+        pcall(function()
+            inZone = (DesignationZoneAnimal.getZone(math.floor(a:getX()), math.floor(a:getY()), math.floor(a:getZ())) ~= nil)
+                     and "S" or "N"
+        end)
+        print(string.format("[CD-CARE] %-16s cao=(%.1f,%.1f,%d) noCurral=%s ancora=(%s,%s) zumbi=%s alvo=%s lock=%s hop=%s",
+            tag, a:getX(), a:getY(), math.floor(a:getZ()), inZone,
+            tostring(d.careX or "-"), tostring(d.careY or "-"),
+            gap and string.format("%.1f", gap) or "-", goal or "-",
+            d.lockX and "SIM" or "-", d.fenceHop and "SIM" or "-"))
+        return true   -- o chamador usa isto pra pendurar uma linha extra sem furar o throttle
+    end
+
+    local function careVault(a, ref, d, anchorPt)
+        if not CD.COMBAT_FENCE_HOP then return false, nil end
+        if isServer() and not CD.COMBAT_FENCE_HOP_MP then return false, nil end
+        local nowMs = getTimestampMs()
+        -- Marca o salto e o ALVO do land-glide. Zumbi = alvo movel (combatTarget, o glide o persegue); ancora = PONTO fixo
+        -- (careHopTx/Ty), que e o caso do retorno pro curral depois de pular pra fora e matar.
+        local function mark()
+            d.cstall = nil
+            d.combatHop, d.careHop = true, true   -- pouso sem coleira/handoff de dono (ver tickFenceHops/tickLandGlide)
+            if anchorPt then
+                d.careHopTx, d.careHopTy = anchorPt.x + 0.5, anchorPt.y + 0.5   -- centro do tile: o glide compara distancia
+                combatTarget[a:getOnlineID()] = nil
+            else
+                d.careHopTx, d.careHopTy = nil, nil
+                combatTarget[a:getOnlineID()] = ref
+            end
+        end
+        -- owner=nil no startFenceHop: DESLIGA o overshoot (pousar um tile ALEM da cerca quando aquele tile esta mais perto do
+        -- alvo). Com um zumbi de referencia ele disparava quase sempre, virando um salto de 2 tiles na mesma duracao/arco =
+        -- o "pulo mais alto do que deveria". O cuidador salta 1 tile, limpo.
+        local toSq, dx, dy, key = findFenceCrossing(a, ref, d, nowMs, CD.lowFenceCrossable)
+        if toSq then
+            mark()
+            startFenceHop(a, toSq, dx, dy, nil, key)
+            return true, nil
+        end
+        local fSq, fdx, fdy, fkey, nearSq = findFenceTowardOwner(a, ref, CD.FENCE_GHOST_SCAN or 8, d, nowMs, CD.lowFenceCrossable)
+        if fSq and nearSq then
+            local cs = a:getCurrentSquare()
+            if cs and cs:getX() == nearSq:getX() and cs:getY() == nearSq:getY() then
+                mark()
+                startFenceHop(a, fSq, fdx, fdy, nil, fkey)
+                return true, nil
+            end
+            return false, nearSq
+        end
+        return false, nil
+    end
+
+    local function careDog(a, d)
+        -- Travessia em andamento: tickFenceHops (salto) / tickLandGlide (pouso) conduzem a posicao por OnTick. Nao brigar
+        -- com eles nesta passada, senao o path daqui cancela o glide no meio.
+        -- COM PRAZO: tickFenceHops solta o cao de fenceHopping em varios caminhos de saida (isExistInTheWorld falso num
+        -- troca de square, pcall que estourou) SEM limpar d.fenceHop. Um deferimento incondicional aqui viraria
+        -- early-return PERMANENTE: o cuidador nunca mais seria conduzido e so o wanderIdle da engine o moveria.
+        local hid = a:getOnlineID()
+        if d.fenceHop then
+            local st = d.fenceHop.startMs
+            if st and (getTimestampMs() - st) > (CD.FENCE_HOP_DURATION_MS or 800) + 1000 then
+                CD.clearClimbVars(a)   -- hop orfao: limpa d.fenceHop + vars de climb e segue conduzindo
+            else
+                return
+            end
+        end
+        local lg = landGlide[hid]
+        if lg then
+            if lg.startMs and (getTimestampMs() - lg.startMs) > 5000 then
+                landGlide[hid] = nil   -- glide orfao: mesma razao
+            else
+                return
+            end
+        end
+        local owner = CD.getOwnerPlayer(a)   -- pode ser nil (dono longe/offline): tudo abaixo tolera
+
+        -- Skills sumidas num companion vivo (copyFrom parcial): reidrata do canil, como updateCompanion faz.
+        if not d.skills then
+            CD.restoreFromKennel(owner, a)
+            CD.initSkills(a)
+        end
+        -- Upkeep proprio: fome/sede/estresse do CAO progridem mesmo sem o dono (a invencibilidade congela o nativo).
+        if CD.upkeepEnabled() then updateUpkeep(a, owner, d) end
+        local dead = false
+        pcall(function() dead = a:isDead() end)
+        if dead then return end   -- permadeath por negligencia pode ter matado no upkeep
+
+        -- Selo de sentinela preso: o updateSentinel (unico que seta/limpa alertTier) vive dentro do updateCompanion, de
+        -- onde o cuidador faz early-return -- entao um tier herdado da hora em que ele virou cuidador ficava FIXADO no
+        -- nametag pra sempre. O setCareMode ja limpa na borda; isto cura os caes que ja estao presos em saves antigos.
+        -- Edge-only: so transmite quando havia tier (uma vez por cao), entao nao gera trafego por passada.
+        if d.alertTier ~= nil or d.autoFeeding ~= nil or d.hunting ~= nil or d.inCombat then
+            d.alertTier, d.autoFeeding, d.autoFeedKind = nil, nil, nil
+            d.hunting, d.huntTargetId = nil, nil
+            d.inCombat, d.retreating = nil, nil
+            CD.transmit(a)
+        end
+
+        local ax, ay, az = d.careX, d.careY, d.careZ
+        if not ax then ax, ay, az = a:getX(), a:getY(), a:getZ() end
+
+        -- (1) Despacho SILENCIOSO de zumbi no raio do curral (sem bark: strikeExchange so emite som posicional, nao addSound).
+        -- Deteccao ANCORADA NO CURRAL, nao no cao. Com ref ~= animal o scanZombies centra a janela no meio-do-caminho
+        -- cao<->ref, alarga ate R+6 e admite alvo por distancia ao REF tambem -- entao zumbi a <=CARE_RADIUS da ANCORA
+        -- conta mesmo com o cao patrulhando o canto oposto, e o ranking prefere quem ameaca o CURRAL. Passando ref=a (o
+        -- proprio cao) isso ficava desligado: o circulo de deteccao passeava junto com ele e metade do curral ficava sem
+        -- vigia. O raio 12 ja era maior que o do guard (10); estava medido do lugar errado.
+        local aref = {
+            getX = function() return ax end,
+            getY = function() return ay end,
+            getZ = function() return az or a:getZ() end,
+        }
+        local z, count = scanZombies(a, CD.careRadius(), nil, aref, false, CD.CARE_DETOUR_FACTOR)
+        if z then
+            d.carePatrolTx, d.carePatrolTy = nil, nil   -- sai da patrulha; re-sorteia o ponto ao voltar
+            local gap = CD.dist2D(a, z)
+            if gap <= CD.STRIKE_DIST and not pathBlocked(a, z) then
+                standUp(a)
+                pcall(function() a:faceThisObject(z) end)
+                strikeExchange(a, z, count or 1)
+                CD.addSkillXP(a, "herding", CD.CARE_XP_PER_KILL or 4)
+                d.cstall = nil
+                d.careGoalTx, d.careGoalTy = nil, nil   -- memo limpo: a proxima aproximacao SEMPRE re-emite (moveTo religa o movimento)
+                holdStill(a)   -- planta no golpe: sem isto o wanderIdle da engine arrasta o cao pra longe entre as passadas
+                careLog(a, d, "GOLPE", gap, nil)
+                careAlert(owner, a, d, "zombie")
+                return
+            end
+            -- Salto de cerca BAIXA (so Hoppable*; alambrado/muro nao entram). Se a cerca esta na linha mas ainda longe,
+            -- caminha ate a borda por A* (nearSq) em vez de conduzir na mao: A* e continuo, o steer teleportava por passada.
+            local hopped, nearSq = careVault(a, z, d)
+            if hopped then
+                careLog(a, d, "PULOU-CERCA", gap, nil)
+                careDebug(a, z, gap, "vault")
+                careAlert(owner, a, d, "zombie")
+                return
+            end
+            -- Stall: sem progresso LIQUIDO rumo ao alvo (o caso "anda travado na cerca e nao pula"). Espelha o backstop
+            -- do combate: desiste, marca o zumbi como inalcancavel por um tempo (o scan passa a pular) e volta a
+            -- patrulhar, em vez de moer na cerca pra sempre. Desvio legitimo (dando a volta) mantem progresso e nao dispara.
+            local nowMs = getTimestampMs()
+            local st = d.cstall
+            if not st then st = { bg = gap, ax = a:getX(), ay = a:getY(), sfw = 0 }; d.cstall = st end
+            local net = math.abs(a:getX() - st.ax) + math.abs(a:getY() - st.ay)
+            local gained = gap + 0.2 < st.bg
+            if gained then st.bg = gap end
+            if gained or net > (CD.COMBAT_STALL_RADIUS or 2.5) then
+                st.ax, st.ay, st.ms, st.sfw = a:getX(), a:getY(), nil, 0
+            else
+                st.ms = st.ms or nowMs
+                local sfw = false
+                pcall(function() sfw = a:shouldFollowWall() == true end)
+                st.sfw = sfw and (st.sfw + 1) or 0
+            end
+            if st.sfw >= 2 or (st.ms and (nowMs - st.ms) > (CD.COMBAT_STALL_MS or 2500)) then
+                local id = a:getOnlineID()
+                local unr = CD.combatUnreach[id]
+                if not unr then unr = {}; CD.combatUnreach[id] = unr end
+                unr[z] = nowMs + (CD.CARE_UNREACH_MS or 20000)
+                d.cstall = nil
+                d.careGoalTx, d.careGoalTy = nil, nil
+                combatTarget[id] = nil   -- nao segurar ref java de um alvo que desistimos
+                careLog(a, d, "DESISTIU", gap, nil)
+                careDebug(a, z, gap, "DESISTIU-inalcancavel")
+                -- sem return: cai pra patrulha nesta passada e o cao volta pro curral
+            else
+                -- Aproxima com memo de goal-tile: re-emitir pathToLocation todo tick cancela o A* em voo (corre no lugar).
+                -- Com cerca baixa na linha o alvo do path e a BORDA (nearSq), nao o zumbi: dali a passada seguinte salta.
+                local tx, ty, tz, tag = math.floor(z:getX()), math.floor(z:getY()), math.floor(z:getZ()), "aproximando"
+                if nearSq then tx, ty, tz, tag = nearSq:getX(), nearSq:getY(), nearSq:getZ(), "indo-a-borda" end
+                careLog(a, d, nearSq and "INDO-A-BORDA" or "PERSEGUINDO", gap, tx, ty)
+                if d.careGoalTx ~= tx or d.careGoalTy ~= ty then
+                    d.careGoalTx, d.careGoalTy = tx, ty
+                    moveTo(a, true, CD.runAnimSpeed(), tx, ty, tz)
+                    careDebug(a, z, gap, tag)
+                else
+                    forcePathfind(a)
+                end
+                careAlert(owner, a, d, "zombie")
+                return
+            end
+        else
+            d.cstall = nil
+            combatTarget[a:getOnlineID()] = nil
+            -- DIAGNOSTICO de "demora pra detectar": havia zumbi BRUTO por perto e mesmo assim o scan FILTRADO devolveu
+            -- nil? Separa "nao havia zumbi" de "havia e um gate o barrou" (inalcancavel a pe / cooldown de desistencia).
+            if CD.CARE_DEBUG then
+                local raw, rd = scanSentinelZombies(a, CD.careRadius() + 6)
+                if raw and careLog(a, d, "NAO-ENGAJOU", rd, nil) then
+                    local unr = CD.combatUnreach[a:getOnlineID()]
+                    local dAnchor = math.sqrt((raw:getX() - ax) ^ 2 + (raw:getY() - ay) ^ 2)
+                    print(string.format("[CD-CARE] filtrado: zumbi a %.1f do cao e %.1f da ancora (raio %d) | cooldownInalcancavel=%s",
+                        rd, dAnchor, CD.careRadius(), tostring(unr and unr[raw] or false)))
+                end
+            end
+        end
+        d.careGoalTx, d.careGoalTy = nil, nil
+
+        -- Zona do curral resolvida uma vez por passada (patrulha e calma usam a mesma).
+        local zone = nil
+        pcall(function() zone = DesignationZoneAnimal.getZone(math.floor(ax), math.floor(ay), math.floor(az or a:getZ())) end)
+
+        -- (2) PATRULHA dentro do curral (nao fica sentado): caminha ate um tile livre sorteado da zona, espera, sorteia
+        --     outro. Fora da zona (ou sem zona) volta pra ancora. Sem holdStill: era ele que deixava o cao sentado.
+        --     zone:getRandomFreeSquare() ja respeita os bounds + isFree (DesignationZone:183); pode vir nil, trate.
+        local inZone = false
+        pcall(function()
+            inZone = DesignationZoneAnimal.getZone(math.floor(a:getX()), math.floor(a:getY()), math.floor(a:getZ())) ~= nil
+        end)
+        if not zone or not inZone then
+            -- RETORNO pro curral. NAO usa returnToAnchor: (a) dentro de GUARD_RETURN_DIST ele faz holdStill, e "2 tiles do
+            -- anchor" nao quer dizer nada quando ha uma CERCA no meio -- o cao congelava do lado de fora; (b) o
+            -- pathToLocation puro nao cruza cerca saltavel (o A* a trata como parede), entao o cao raspava a cerca
+            -- procurando portao. Ele saiu pulando: volta pulando. Mesmo vault, agora mirando a ANCORA.
+            d.carePatrolTx, d.carePatrolTy = nil, nil
+            -- Por que ele esta FORA e nao esta atacando: separa "nao ha zumbi" de "ha zumbi mas o scan o filtrou"
+            -- (inalcancavel a pe / cooldown de desistencia). scanSentinelZombies e o scan CRU, sem filtro de alcance.
+            if CD.CARE_DEBUG then
+                local raw, rd = scanSentinelZombies(a, CD.careRadius())
+                local unr = CD.combatUnreach[a:getOnlineID()]
+                print(string.format("[CD-CARE] fora-do-curral cao=(%d,%d) ancora=(%d,%d) zumbiBruto=%s dist=%.1f cooldownInalcancavel=%s",
+                    math.floor(a:getX()), math.floor(a:getY()), math.floor(ax), math.floor(ay),
+                    raw and "SIM" or "nao", rd or -1, tostring(raw and unr and unr[raw] or false)))
+            end
+            local anchor = { x = math.floor(ax), y = math.floor(ay) }
+            local aref = { getX = function() return anchor.x + 0.5 end, getY = function() return anchor.y + 0.5 end }
+            local hopped, nearSq = careVault(a, aref, d, anchor)
+            if hopped then
+                careLog(a, d, "VOLTA-PULANDO", nil, nil)
+                careDebug(a, aref, 0, "voltando-vault")
+            else
+                local tx, ty, tz = anchor.x, anchor.y, math.floor(az or a:getZ())
+                if nearSq then tx, ty, tz = nearSq:getX(), nearSq:getY(), nearSq:getZ() end
+                careLog(a, d, nearSq and "VOLTA-A-BORDA" or "VOLTANDO", nil, tx, ty)
+                if d.careBackTx ~= tx or d.careBackTy ~= ty then
+                    d.careBackTx, d.careBackTy = tx, ty
+                    moveTo(a, true, CD.runAnimSpeed(), tx, ty, tz)
+                    careDebug(a, aref, 0, nearSq and "voltando-a-borda" or "voltando")
+                else
+                    forcePathfind(a)
+                end
+            end
+        else
+            d.careBackTx, d.careBackTy = nil, nil
+            local px, py = d.carePatrolTx, d.carePatrolTy
+            local arrived = px == nil
+            if px then
+                local ddx, ddy = a:getX() - (px + 0.5), a:getY() - (py + 0.5)
+                if (ddx * ddx + ddy * ddy) <= 2.25 then arrived = true end
+            end
+            if arrived and (not d.carePatrolMin or (now - d.carePatrolMin) >= (CD.CARE_PATROL_DWELL_MIN or 3)) then
+                local nx, ny, nz
+                pcall(function()
+                    local sq = zone:getRandomFreeSquare()
+                    if sq then nx, ny, nz = sq:getX(), sq:getY(), sq:getZ() end
+                end)
+                if nx then
+                    d.carePatrolTx, d.carePatrolTy, d.carePatrolMin = nx, ny, now
+                    careLog(a, d, "PATRULHA", nil, nx, ny)
+                    moveTo(a, false, 1.0, nx, ny, nz or math.floor(a:getZ()))   -- caminhando, nao correndo
+                else
+                    careLog(a, d, "PATRULHA-SEM-TILE", nil, nil)   -- zone:getRandomFreeSquare() nao achou tile livre
+                    holdStill(a)
+                end
+            elseif px and not arrived then
+                careLog(a, d, "INDO-AO-PONTO", nil, px, py)
+                forcePathfind(a)   -- mantem o path em voo sem re-emitir (re-emitir cancelaria o A* assincrono)
+            else
+                -- Parado no ponto da patrulha esperando o dwell: BLOQUEIA o movimento. O wanderIdle da engine re-patha
+                -- animal TAMED por conta propria (ver pz-b42-animal-wanderidle-hijack) e era ele que tirava o cao do
+                -- curral e o punha "andando em volta da cerca" sem alvo entre as passadas do sweep.
+                careLog(a, d, "PARADO-NO-POSTO", nil, nil)
+                holdStill(a)
+                updateRest(a, d)
+            end
+        end
+
+        -- (3) Aura de calma no rebanho (throttle + cap de contagem; server-side, SEM transmit: a engine replica o estresse).
+        if not d.lastCareCalmMin or (now - d.lastCareCalmMin) >= CD.careCalmThrottleMin() then
+            d.lastCareCalmMin = now
+            local delta = CD.effectiveCalmStrength(a)
+            local cap = CD.effectiveCalmCap(a)
+            if zone then
+                local herd = nil
+                pcall(function() herd = zone:getAnimalsConnected() end)
+                if herd then
+                    local n = herd:size()
+                    local maxHerd = CD.CARE_CALM_MAX_HERD or 24   -- NAO chamar de "cap": colidiria com o teto de estresse acima
+                    if n > maxHerd then n = maxHerd end
+                    local applied, stressSum, stressN = false, 0, 0
+                    for i = 0, n - 1 do
+                        local la = herd:get(i)
+                        local live = false
+                        pcall(function() live = la ~= nil and not CD.isDog(la) and not la:isWild() and not la:isDead() end)
+                        if live then
+                            if delta ~= 0 then pcall(function() la:changeStress(delta) end) end
+                            -- Clamp duro: o decremento acima sozinho perde a corrida contra o spotted (que re-injeta
+                            -- estresse todo tick com zumbi a <=10). O teto e o que impede o rebanho de debandar CORRENDO
+                            -- (>50) e de perder leite/la (>40). cap=100 quando o cao nao qualifica (nao segura nada).
+                            if cap < 100 then
+                                pcall(function() if la:getStress() > cap then la:setDebugStress(cap) end end)
+                            end
+                            applied = true
+                            pcall(function() stressSum = stressSum + la:getStress(); stressN = stressN + 1 end)
+                        end
+                    end
+                    if applied and delta < 0 then CD.addSkillXP(a, "herding", CD.CARE_XP_PER_CALM or 2) end
+                    if CD.CARE_DEBUG then
+                        -- delta<0 = acalmando; delta>0 = o cao NAO qualifica (predador: desleal/estressado/skill 0).
+                        -- teto=100 significa que o clamp esta desligado, entao o gado ainda debanda (>50) e perde leite (>40).
+                        print(string.format("[CD-CARE] rebanho n=%d estresseMedio=%.0f delta=%+.2f teto=%.0f pastoreio=%d",
+                            stressN, stressN > 0 and (stressSum / stressN) or -1, delta, cap, CD.getSkillLevel(a, "herding") or 0))
+                    end
+                    if stressN > 0 and (stressSum / stressN) >= (CD.CARE_STRESS_ALERT or 60) then
+                        careAlert(owner, a, d, "stress")
+                    end
+                end
+            end
+        end
+    end
+
+    -- get(i) tambem em pcall: careDog->updateUpkeep pode matar um cao por negligencia (permadeath) e encolher a lista
+    -- java no meio do loop (o limite foi avaliado uma vez), entao um get(i) fora do range estouraria a varredura inteira.
+    for i = 0, list:size() - 1 do
+        local a = nil
+        pcall(function() a = list:get(i) end)
+        local ok = false
+        if a then pcall(function() ok = CD.isDog(a) and CD.isCompanion(a) and not a:isDead() and CD.data(a).careMode == true end) end
+        if ok then
+            if CD.CARE_DEBUG and CD.CARE_DEBUG_TICK then   -- registra pro watchdog por-tick (tickCareWatch)
+                pcall(function()
+                    local w = CD.careWatch
+                    if not w then w = {}; CD.careWatch = w end
+                    local id = a:getOnlineID()
+                    if not w[id] then w[id] = { a = a } else w[id].a = a end
+                end)
+            end
+            pcall(function() careDog(a, CD.data(a)) end)
+        end
+    end
+end
+
+-- Watchdog de movimento do cuidador (CD.CARE_DEBUG_TICK). Amostra a posicao a CADA OnTick e denuncia o que o log de
+-- DECISAO nao consegue ver: um DRIVER CONCORRENTE. A pe o cao anda no maximo ~0.06 tile/tick, entao qualquer salto acima
+-- de CARE_JUMP_EPS foi setX/setY na mao (snap-back de lock, steer de cerca, land-glide, teleport). Foi essa classe de bug
+-- que custou tres rodadas de diagnostico. Tambem denuncia o inverso: parado por CARE_STUCK_TICKS com objetivo ativo.
+-- Registro alimentado por tickCareDogs; CD.careWatch (nao local) por causa do teto de 200 locals.
+local function tickCareWatch()
+    if not CD.CARE_DEBUG or not CD.CARE_DEBUG_TICK then return end
+    local w = CD.careWatch
+    if not w then return end
+    for id, rec in pairs(w) do
+        local drop = true
+        pcall(function()
+            local a = rec.a
+            if not a or not a:isExistInTheWorld() then return end
+            local d = CD.data(a)
+            if not d or not d.careMode then return end
+            drop = false
+            local x, y = a:getX(), a:getY()
+            if rec.x then
+                local step = math.abs(x - rec.x) + math.abs(y - rec.y)
+                if step > (CD.CARE_JUMP_EPS or 0.35) then
+                    -- Quem provavelmente moveu: reporta os donos por-tick conhecidos + a ancora do lock de posicao.
+                    print(string.format("[CD-CARE!] SALTO %.2f tile em 1 tick (%.2f,%.2f)->(%.2f,%.2f) | hop=%s glide=%s steer=%s lock=%s",
+                        step, rec.x, rec.y, x, y,
+                        d.fenceHop and "SIM" or "-", landGlide[id] and "SIM" or "-",
+                        d.fenceSteer and "SIM" or "-",
+                        d.lockX and string.format("(%.2f,%.2f)", d.lockX, d.lockY) or "-"))
+                    rec.still = 0
+                elseif step < 0.01 then
+                    rec.still = (rec.still or 0) + 1
+                    if rec.still == (CD.CARE_STUCK_TICKS or 90) and rec.gx then
+                        local sfw, bp = "?", "?"
+                        pcall(function() sfw = tostring(a:shouldFollowWall()) end)
+                        pcall(function() bp = tostring(a:getVariableBoolean("bPathfind")) end)
+                        print(string.format("[CD-CARE!] PARADO %d ticks em (%.2f,%.2f) com objetivo (%d,%d) | seguindoParede=%s bPathfind=%s hop=%s lock=%s",
+                            rec.still, x, y, rec.gx, rec.gy, sfw, bp,
+                            d.fenceHop and "SIM" or "-", d.lockX and "SIM" or "-"))
+                    end
+                else
+                    rec.still = 0
+                end
+                -- CONVERGENCIA: ele esta se movendo, mas esta CHEGANDO? Este e o caso que nem o detector de salto nem o de
+                -- parado pegam: cao andando bonito e nunca alcancando (deu a volta errada, orbita a cerca, anda de re).
+                if rec.gx then
+                    rec.ticks = (rec.ticks or 0) + 1
+                    rec.walked = (rec.walked or 0) + step
+                    local dg = math.abs(x - (rec.gx + 0.5)) + math.abs(y - (rec.gy + 0.5))
+                    rec.lastDg = dg
+                    if not rec.bestDg or dg < rec.bestDg then rec.bestDg = dg end
+                    -- So julga depois de ele ter andado o bastante pra um desvio legitimo ja ter aparecido como progresso.
+                    if not rec.warned and rec.walked > (CD.CARE_CONVERGE_MIN_WALK or 6) then
+                        local net = math.abs(x - (rec.ox or x)) + math.abs(y - (rec.oy or y))
+                        local eff = rec.walked > 0 and (net / rec.walked) or 0
+                        if dg > rec.bestDg + 2.0 then
+                            rec.warned = true
+                            print(string.format("[CD-CARE!] AFASTANDO-SE do objetivo (%d,%d): dist agora %.1f, melhor foi %.1f | andou %.1f liquido %.1f efic %.2f",
+                                rec.gx, rec.gy, dg, rec.bestDg, rec.walked, net, eff))
+                        elseif eff < (CD.CARE_CONVERGE_MIN_EFF or 0.35) then
+                            rec.warned = true
+                            local sfw = "?"
+                            pcall(function() sfw = tostring(a:shouldFollowWall()) end)
+                            print(string.format("[CD-CARE!] ORBITANDO rumo a (%d,%d): andou %.1f tiles mas liquido so %.1f (efic %.2f) | dist %.1f melhor %.1f seguindoParede=%s",
+                                rec.gx, rec.gy, rec.walked, net, eff, dg, rec.bestDg, sfw))
+                        end
+                    end
+                end
+            end
+            rec.x, rec.y = x, y
+        end)
+        if drop then w[id] = nil end
+    end
+end
+
 local counter = 0
 local followCounter = 0
 local function companionTick()
@@ -6760,6 +7469,7 @@ local function companionTick()
     tickFenceLandPush()   -- por OnTick: forca pacotes frescos brevemente apos um pouso (anti back-drag)
     tickLandGlide()       -- pos-hop: conduz o cao na mao ate o dono (engine nao translada por animador travado); solta quando recupera/chega
     tickLandStream()      -- pos-pouso: streama a pos autoritativa pro client desenhar o path REAL (nao o render da engine)
+    tickCareWatch()   -- DIAGNOSTICO: amostra a posicao do cuidador todo tick e denuncia hand-move concorrente / travamento
     tickFallGuard()   -- anti-crash por OnTick: mantem TODO cao carregado fora do caminho humano de fall/land da engine (NPE de fallenOnKnees)
     tickGunGuard()
     tickCompanionFire()
@@ -6769,6 +7479,7 @@ local function companionTick()
         followCounter = 0
         maintainFollowers()
         maintainCombat()
+        CD.tickCarriedGuard()   -- re-arma invencivel/shootable do cao recem-solto (janela mortal do copyFrom)
     end
     tickDenseSync()   -- MP: forca pacotes de posicao mais densos pro cao ativo em movimento (throttled por cao internamente)
     tickFollowStream()  -- MP: nosso proprio stream de posicao a ~15Hz pro cao ativo (o client renderiza um path interpolado)
@@ -6792,6 +7503,7 @@ local function companionTick()
     eachOnlinePlayer(processNearbyDogs)
     eachOnlinePlayer(reapPhantomCompanions)
     CD.reapClonesCellWide()   -- dedup por-uid na cell inteira (pega o clone do RV sem exigir co-load perto do dono)
+    tickCareDogs(worldMinutes())   -- cuidador de fazenda: independente do dono, cell-wide (so precisa da area carregada)
 end
 
 if not isClient() then

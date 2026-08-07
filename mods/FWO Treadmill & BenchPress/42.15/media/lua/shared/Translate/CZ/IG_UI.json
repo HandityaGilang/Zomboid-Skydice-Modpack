@@ -1,0 +1,10 @@
+{
+    "IGUI_BenchPress": "Bench Press",
+    "IGUI_BenchPress_Tooltip": "Cvičit na bench pressu",
+    "IGUI_Treadmill": "Běžecký pás",
+    "IGUI_Treadmill_Tooltip": "Běhat na běžeckém pásu",
+    "IGUI_need_barbell": "Potřebuji činku na toto cvičení",
+    "IGUI_low_endurance": "Jsem příliš vyčerpaný",
+    "IGUI_pain": "Mám příliš velkou bolest",
+    "IGUI_heavy": "Příliš těžké na použití nyní"
+}

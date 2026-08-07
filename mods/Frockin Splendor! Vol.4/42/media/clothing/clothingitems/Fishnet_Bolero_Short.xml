@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>a15dc011-ab79-498d-90ac-2533b2ca3fda</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Fishnet\Boleros\Fishnet_Bolero_Short_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Fishnet\Boleros\Fishnet_Bolero_Short_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Fishnet\Boleros\Fishnet_Bolero_Short_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Fishnet\Boleros\Fishnet_Bolero_Short_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Fishnet\Boleros\Fishnet_Bolero_Short_5</m_BaseTextures>
+</clothingItem>

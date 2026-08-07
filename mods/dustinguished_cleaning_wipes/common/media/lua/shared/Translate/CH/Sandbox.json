@@ -1,0 +1,16 @@
+{
+    "Sandbox_DGMC_Cleaning_Wipes": "清潔濕紙巾",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body": "可以清潔身體",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body_tooltip": "是否可以用清潔濕巾清潔身體。",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing": "可以清潔衣物",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing_tooltip": "是否可用清潔濕紙巾清潔衣物。",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons": "可以清潔近戰武器",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons_tooltip": "是否可以使用清潔濕紙巾清潔近戰武器。",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup": "卸妝",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup_tooltip": "清潔身體時是否要卸妝。",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult": "持續時間乘數",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult_tooltip": "相對於僅用水清洗，用濕紙巾清潔需要多長時間。  越低則越快，越高則越慢。",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness": "衣服濕度",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness_tooltip": "清潔衣服時，其濕度水平將設定為該值或目前水平的最大值。  例如，使用預設值時，濕度為 0 的衣服將設定為 25，而濕度已經為 50 的衣服將保持在 50。",
+    "Sandbox_DGMC_Cleaning_Wipes_Debug_Logging": "調試日誌記錄"
+}

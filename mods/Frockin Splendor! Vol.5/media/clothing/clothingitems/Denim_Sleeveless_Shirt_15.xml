@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+    <m_MaleModel></m_MaleModel>
+    <m_FemaleModel></m_FemaleModel>
+    <m_GUID>cb1089d6-87d0-42a0-805f-0d1a92960c67</m_GUID>
+    <m_Static>false</m_Static>
+    <m_AllowRandomTint>false</m_AllowRandomTint>
+    <m_AttachBone></m_AttachBone>
+    <m_BaseTextures>clothes\Material_Denim\Shirts_Sleeveless\DenimWhite_Shirt_15</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Shirts_Sleeveless\DenimLight_Shirt_15</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Shirts_Sleeveless\Denim_Shirt_15</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Shirts_Sleeveless\DenimBlue_Shirt_15</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Shirts_Sleeveless\DenimDarker_Shirt_15</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Shirts_Sleeveless\DenimBlack_Shirt_15</m_BaseTextures>
+</clothingItem>

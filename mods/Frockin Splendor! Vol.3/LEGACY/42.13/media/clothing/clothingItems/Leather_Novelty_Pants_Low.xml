@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>064ff2f7-2631-416d-9c6f-f2a8c791623c</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Leather\Pants\Leather_Pants_Novelty\Leather_Pants_Low_2A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Pants\Leather_Pants_Novelty\Leather_Pants_Low_2B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Pants\Leather_Pants_Novelty\Leather_Pants_Low_3A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Pants\Leather_Pants_Novelty\Leather_Pants_Low_3B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Pants\Leather_Pants_Novelty\Leather_Pants_Low_4A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Pants\Leather_Pants_Novelty\Leather_Pants_Low_5A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Pants\Leather_Pants_Novelty\Leather_Pants_Low_5B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Pants\Leather_Pants_Novelty\Leather_Pants_Low_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Pants\Leather_Pants_Novelty\Leather_Pants_Low_6</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Pants\Leather_Pants_Novelty\Leather_Pants_Low_7</m_BaseTextures>
+</clothingItem>

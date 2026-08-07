@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>b9eb8fa8-c8bf-4b28-90fa-0ae81ffae5b1</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Leather\Stirrups\Leather_Stirrup_Stockings_2A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Stirrups\Leather_Stirrup_Stockings_2B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Stirrups\Leather_Stirrup_Stockings_2C</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Stirrups\Leather_Stirrup_Stockings_2D</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Stirrups\Leather_Stirrup_Stockings_2E</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Stirrups\Leather_Stirrup_Stockings_2F</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Stirrups\Leather_Stirrup_Stockings_2G</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Stirrups\Leather_Stirrup_Stockings_2H</m_BaseTextures>
+
+</clothingItem>

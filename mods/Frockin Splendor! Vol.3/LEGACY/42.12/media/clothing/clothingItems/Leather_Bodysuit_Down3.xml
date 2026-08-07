@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>78b79e59-2aeb-4d10-9f96-a338d29c3595</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Leather\Catsuits\Leather_Catsuit_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Catsuits\Leather_CatsuitZipper_Down5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Catsuits\Leather_CatsuitZipper2_Down5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Catsuits\Leather_CatsuitZipper3_Down5</m_BaseTextures>
+</clothingItem>

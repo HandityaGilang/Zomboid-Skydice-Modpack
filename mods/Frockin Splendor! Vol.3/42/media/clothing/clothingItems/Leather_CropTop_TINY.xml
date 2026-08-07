@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>691da5c4-18ec-4bb0-9d0a-1f8906b79549</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Leather\Top_CropTop\Leather_CropTop_TINY_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Top_CropTop\Leather_CropTop_TINY_1A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Top_CropTop\Leather_CropTop_TINY_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Top_CropTop\Leather_CropTop_TINY_2A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Top_CropTop\Leather_CropTop_TINY_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Top_CropTop\Leather_CropTop_TINY_3A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Top_CropTop\Leather_CropTop_TINY_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Top_CropTop\Leather_CropTop_TINY_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Top_CropTop\Leather_CropTop_TINY_6</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Top_CropTop\Leather_CropTop_TINY_7</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Top_CropTop\Leather_CropTop_TINY_8</m_BaseTextures>
+
+</clothingItem>

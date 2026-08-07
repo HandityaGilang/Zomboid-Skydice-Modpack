@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\clothes\M_AliceVest2P1C1ELoosen</m_MaleModel>
+	<m_FemaleModel>Skinned\clothes\F_AliceVest2P1C1ELoosen</m_FemaleModel>
+	<m_GUID>e100d85e-021d-47a5-9eb4-63a3438dc6d5</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>	
+	<textureChoices>AliceVestV1</textureChoices>
+	<textureChoices>AliceVestV2</textureChoices>
+	<textureChoices>AliceVestV3</textureChoices>
+	<textureChoices>AliceVestV4</textureChoices>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+</clothingItem>

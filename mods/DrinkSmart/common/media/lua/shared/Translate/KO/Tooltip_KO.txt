@@ -1,0 +1,3 @@
+Tooltip_KO = {
+	Tooltip_Not_enough_drink = "음료가 부족합니다"
+}

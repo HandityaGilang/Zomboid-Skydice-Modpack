@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+<files>
+		<path>media/clothing/clothingItems/Log1StackHandsLeft.xml</path>
+		<guid>15ad4210-2264-451a-a018-a15522fcfc15</guid>
+</files>
+<files>
+		<path>media/clothing/clothingItems/Log1StackHandsRight.xml</path>
+		<guid>15ad4210-2264-451a-a018-a15522fcfc14</guid>
+</files>
+<files>
+		<path>media/clothing/clothingItems/Log2StackHandsLeft.xml</path>
+		<guid>15ad4210-2264-451a-a018-a15522fcfc13</guid>
+</files>
+<files>
+		<path>media/clothing/clothingItems/Log2StackHandsRight.xml</path>
+		<guid>15ad4210-2264-451a-a018-a15522fcfc12</guid>
+</files>
+<files>
+		<path>media/clothing/clothingItems/Log3StackHandsLeft.xml</path>
+		<guid>15ad4210-2264-451a-a018-a15522fcfc25</guid>
+</files>
+<files>
+		<path>media/clothing/clothingItems/Log3StackHandsRight.xml</path>
+		<guid>15ad4210-2264-451a-a018-a15522fcfc24</guid>
+</files>
+<files>
+		<path>media/clothing/clothingItems/Log4StackHandsLeft.xml</path>
+		<guid>15ad4210-2264-451a-a018-a15522fcfc11</guid>
+</files>
+<files>
+		<path>media/clothing/clothingItems/Log4StackHandsRight.xml</path>
+		<guid>15ad4210-2264-451a-a018-a15522fcfc10</guid>
+</files>
+
+</fileGuidTable>

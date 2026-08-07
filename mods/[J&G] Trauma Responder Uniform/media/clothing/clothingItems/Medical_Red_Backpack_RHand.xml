@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\backpacks\Backpack_Echo_Radio_RHand</m_MaleModel>
+	<m_FemaleModel>skinned\backpacks\Backpack_Echo_Radio_RHand</m_FemaleModel>
+	<m_GUID>fca9f7b6-7222-45a2-8a43-88537cc1f966</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>Clothes\Military\Bags\Backpack\Medical_Radio_BlackRed</textureChoices>
+	<textureChoices>Clothes\Military\Bags\Backpack\Medical_Radio_WhiteRed</textureChoices>
+</clothingItem>

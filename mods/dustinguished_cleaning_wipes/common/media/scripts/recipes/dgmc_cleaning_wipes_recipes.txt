@@ -1,0 +1,45 @@
+module DGMC
+{
+	craftRecipe DGMC_PackCleaningWipes
+	{
+		timedAction = PackingBox,
+		time = 25,
+		OnTest = RecipeCodeOnTest.genericPacking,
+		OnCreate = RecipeCodeOnCreate.placeInBox,
+		Tags = InHandCraft;Packing;CanBeDoneInDark,
+		category = Packing,
+		inputs
+		{
+			item 12 [DGMC.CleaningWipes] mappers[itemType] flags[ItemCount],
+		}
+		outputs
+		{
+			item 1 mapper:itemType,
+		}
+		itemMapper itemType
+		{
+			DGMC.CleaningWipesBox = DGMC.CleaningWipes,
+		}
+	}
+
+	craftRecipe DGMC_UnpackCleaningWipes
+	{
+		timedAction = UnPackBox,
+		time = 5,
+		Tags = InHandCraft;Packing;CanBeDoneInDark,
+		OnCreate = RecipeCodeOnCreate.unpackBox,
+		category = Packing,
+		inputs
+		{
+			item 1 [DGMC.CleaningWipesBox] mappers[itemType] flags[AllowFavorite],
+		}
+		outputs
+		{
+			item 12 mapper:itemType,
+		}
+		itemMapper itemType
+		{
+			DGMC.CleaningWipes = DGMC.CleaningWipesBox,
+		}
+	}
+}

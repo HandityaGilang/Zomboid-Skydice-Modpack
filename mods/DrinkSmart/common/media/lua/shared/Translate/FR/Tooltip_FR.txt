@@ -1,0 +1,3 @@
+Tooltip_FR = {
+	Tooltip_Not_enough_drink = "Pas assez de boisson"
+}

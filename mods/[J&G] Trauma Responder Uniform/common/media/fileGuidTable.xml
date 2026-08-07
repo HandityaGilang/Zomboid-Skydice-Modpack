@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+
+<!-- Medical Red Head -->
+    <files>
+		<path>media/clothing/clothingItems/Medical_Red_Helmet_Rook_FaceShield.xml</path>
+		<guid>af27ea3b-9fd3-4c0a-a4a2-da7aa8b0d9b2</guid>
+	</files>
+    <files>
+		<path>media/clothing/clothingItems/Medical_Red_Helmet_Rook_FaceShieldUp.xml</path>
+		<guid>48324c4c-6690-47b2-9df2-8ebb841f97c2</guid>
+	</files>
+
+    <files>
+		<path>media/clothing/clothingItems/Medical_Red_Helmet.xml</path>
+		<guid>fe1a27f5-75c4-42dd-81b0-007001a2bb95</guid>
+	</files>
+    <files>
+		<path>media/clothing/clothingItems/Medical_Red_Helmet_NoBelts.xml</path>
+		<guid>b05f967c-a03a-4ce2-8463-0ae0f24bbe02</guid>
+	</files>
+	
+    <files>
+		<path>media/clothing/clothingItems/Medical_Red_Helmet_Patriot.xml</path>
+		<guid>dfb33f66-fe5d-4d79-b4f7-927cfdb24a79</guid>
+	</files>
+    <files>
+		<path>media/clothing/clothingItems/Medical_Red_Helmet_Patriot_NoBelts.xml</path>
+		<guid>da88d243-a957-44e8-ae90-efb4e1b7a3f1</guid>
+	</files>
+
+<!-- Medical Red Masks -->
+    <files>
+        <path>media/clothing/clothingItems/Medical_Red_Balaclava_1Hole.xml</path>
+        <guid>d9810882-d4b3-4003-b0df-2779a560de69</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Medical_Red_Balaclava_2Hole.xml</path>
+        <guid>11f6fa60-1335-4483-8614-7fc366c285eb</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Medical_Red_Balaclava_3Hole.xml</path>
+        <guid>77501adb-6de1-43c7-b993-f7d63c4928ea</guid>
+    </files>
+    <files>
+		<path>media/clothing/clothingItems/Medical_Red_GasMask.xml</path>
+		<guid>a6624c57-bf31-42a0-935a-f3b7f866b4f1</guid>
+	</files>
+    <files>
+		<path>media/clothing/clothingItems/Medical_Red_GasMask_NoFilter.xml</path>
+		<guid>7f110abb-0a8a-408f-9751-a4df019da1ec</guid>
+	</files>
+
+<!-- Hat -->
+    <files>
+        <path>media/clothing/clothingItems/Medical_Red_Hat.xml</path>
+        <guid>00a22a71-c7e3-4df2-9258-741f8c63122a</guid>
+    </files>
+
+<!-- Medical Red Jacket -->
+    <files>
+        <path>media/clothing/clothingItems/Medical_Red_Jacket.xml</path>
+        <guid>31ecce09-9155-400d-a2c5-cc1f07a89cb1</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Medical_Red_Jacket_Closed_SleevesUp.xml</path>
+        <guid>6c6a5a63-b7dd-4de9-bba7-95796e34863e</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Medical_Red_Jacket_Open.xml</path>
+        <guid>5f68e690-c1fa-4f22-8ea9-85ac973e046a</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Medical_Red_Jacket_Open_SleevesUp.xml</path>
+        <guid>82aa6f9f-7d43-457a-a084-37fe4f36c6d2</guid>
+    </files>
+
+<!-- Medical Red Shoulder Pads -->
+    <files>
+        <path>media/clothing/clothingItems/Medical_Red_ShoulderPads_Patriot.xml</path>
+        <guid>a365265b-10a3-40b4-905a-2ddbbabb127e</guid>
+    </files>
+
+<!-- Medical Red Elbow Pads -->
+    <files>
+		<path>media/clothing/clothingItems/Medical_Red_ElbowPads.xml</path>
+		<guid>f93adc05-109b-4c5c-9db8-9322c4918736</guid>
+	</files>
+
+<!-- Medical Red Knee Pads -->
+    <files>
+		<path>media/clothing/clothingItems/Medical_Red_KneePads.xml</path>
+		<guid>239bf118-d49e-4388-933e-ac68c0751f4b</guid>
+	</files>
+    <files>
+		<path>media/clothing/clothingItems/Medical_Red_HeavyKneePads.xml</path>
+		<guid>493c0da0-5041-4537-8bc6-a4eae190ec66</guid>
+	</files>
+
+<!-- Medical Red Armoured Vests -->
+    <files>
+		<path>media/clothing/clothingItems/Medical_Red_BulletproofVest_Patriot.xml</path>
+		<guid>38c1e824-bc68-4b8f-b173-c14bf95a906a</guid>
+	</files>
+
+<!-- Medical Red Gloves -->
+    <files>
+        <path>media/clothing/clothingItems/Medical_Red_Gloves.xml</path>
+        <guid>6bb692d3-ade8-4a7d-80ab-53f1c9651349</guid>
+    </files>
+
+<!-- Medical Red Pants -->
+    <files>
+        <path>media/clothing/clothingItems/Medical_Red_Pants.xml</path>
+        <guid>97706585-e61f-41ca-9cb6-fc6af285b065</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Medical_Red_Pants_Tuck.xml</path>
+        <guid>df688d64-1e95-43cd-acdb-40aa0e2b64b5</guid>
+    </files>
+
+<!-- Medical Red Boots -->
+    <files>
+        <path>media/clothing/clothingItems/Medical_Red_Boots.xml</path>
+        <guid>703f446f-9aa4-4923-808f-6e9449051b64</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Medical_Red_TacBoots.xml</path>
+        <guid>d48d910c-9e9a-48dc-b9c8-7724958a11a9</guid>
+    </files>
+
+<!-- Medical Red Backpack -->
+
+    <files>
+        <path>media/clothing/clothingItems/Medical_Red_Backpack.xml</path>
+        <guid>18b7c17d-7b1f-45e4-bd23-08828c5d4e19</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Medical_Red_Backpack_LHand.xml</path>
+        <guid>67950715-5a7e-4274-a657-fbc159504a0a</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/Medical_Red_Backpack_RHand.xml</path>
+        <guid>fca9f7b6-7222-45a2-8a43-88537cc1f966</guid>
+    </files>
+
+	<files>       <!-- [==== Leg Utility Medical Pouches! ====] -->
+		<path>media/clothing/clothingItems/Pouch_Utility_Medium-Medic_LHand.xml</path>
+		<guid>f904a86a-6c52-41d4-95aa-a6576e42f3d1</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Pouch_Utility_Medium-Medic_RHand.xml</path>
+		<guid>070dfefd-9f71-41b7-ab42-3c395e801276</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Pouch_Utility_Medium-Medic_Left.xml</path>
+		<guid>00fddbeb-7901-4fb4-a927-66990adedc18</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Pouch_Utility_Medium-Medic_Right.xml</path>
+		<guid>f5607312-bbd8-4389-9258-c15cfebf90f1</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Pouch_Utility_Medium-Medic_ArmorLeft.xml</path>
+		<guid>9bcfeda8-4e47-4f49-a9e9-7ec5df0c83cf</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/Pouch_Utility_Medium-Medic_ArmorRight.xml</path>
+		<guid>474537f9-4ab7-4123-a4c4-4c31f0869705</guid>
+	</files>
+
+   <files>       <!-- [==== BagBack Large Medical Pouches! ====] -->
+        <path>media/clothing/clothingItems/BagBack_StormPack_Large-Medic.xml</path>
+        <guid>49b8767e-2890-4f5c-9428-4aad8b63b4ec</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/BagBack_StormPack_Large-Medic_LHand.xml</path>
+        <guid>0c042119-f4cf-4547-a478-0e28e1cbfd5b</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/BagBack_StormPack_Large-Medic_RHand.xml</path>
+        <guid>9eea0995-61a8-4c14-aea1-ba1207664d9c</guid>
+    </files>
+
+    <files>       <!-- [==== BagBack Medium Medical Pouches! ====] -->
+        <path>media/clothing/clothingItems/BagBack_StormPack_Medium-Medic.xml</path>
+        <guid>668a188f-5580-4f04-a478-4f8803604395</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/BagBack_StormPack_Medium-Medic_LHand.xml</path>
+        <guid>e912ed2f-fd78-4506-a7ad-2969ce5c6525</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/BagBack_StormPack_Medium-Medic_RHand.xml</path>
+        <guid>cdeb063f-ecb0-470a-be74-937cb60d7a6e</guid>
+    </files>
+
+    <files>       <!-- [==== BagBack Small Medical Pouches! ====] -->
+        <path>media/clothing/clothingItems/BagBack_StormPack_Small-Medic.xml</path>
+        <guid>d11b3cfe-6f46-4a54-b5bd-c25e2795f6c8</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/BagBack_StormPack_Small-Medic_LHand.xml</path>
+        <guid>cf363146-093b-43e4-af36-eb02fda51b0b</guid>
+    </files>
+    <files>
+        <path>media/clothing/clothingItems/BagBack_StormPack_Small-Medic_RHand.xml</path>
+        <guid>0d81059a-8ad9-418a-8dd6-e27e375d6857</guid>
+    </files>
+
+    <files>       <!-- [==== DarkZone Pack Medical Pouches! ====] -->
+        <path>media/clothing/clothingItems/Medical_Red_DarkZonePack.xml</path>
+        <guid>b5d7481b-8d62-4216-9e54-26c52a488144</guid>
+    </files>
+    
+</fileGuidTable>

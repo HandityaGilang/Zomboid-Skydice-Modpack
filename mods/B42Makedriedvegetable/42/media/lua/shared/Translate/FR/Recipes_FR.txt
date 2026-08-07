@@ -1,0 +1,9 @@
+Recipes_FR =
+{
+    Recipe_veggieTypeDriedTrex = "Faire un légume séché",
+    Recipe_Makebakingtraydriedveggietrex = "Faire une plaque de légumes à sécher",
+    Recipe_Get4driedveggietrex = "Faire 4 légumes séchés",
+    Recipe_Makebakingtraychipshomemadetrex = "Faire une plaque de chips maison",
+    Recipe_Getchipshomemadetrex = "Faire 2 paquets de chips maison",
+    Recipe_MakeLunchbagchipsTrex = "Faire 2 paquets de chips maison vide",
+}

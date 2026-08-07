@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>ce95c63c-4385-4ef8-b26f-79d64ebd2a79</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Cotton\Blouses\Cotton_Blouse_Frilled_0</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Blouses\Cotton_Blouse_Frilled_1</m_BaseTextures>
+</clothingItem>

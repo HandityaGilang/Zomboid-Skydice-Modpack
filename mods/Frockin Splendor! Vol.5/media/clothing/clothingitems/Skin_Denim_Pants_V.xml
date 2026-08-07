@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>cc219fa9-4cb4-4d91-925f-962a236c8c07</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+
+	<m_BaseTextures>clothes\Material_Denim\Pants_Skin\DenimWhite_Pants_V</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Pants_Skin\DenimWhite_Pants_V_B</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Denim\Pants_Skin\Denim_Pants_V</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Pants_Skin\Denim_Pants_V_B</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Denim\Pants_Skin\DenimBlue_Pants_V</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Pants_Skin\DenimBlue_Pants_V_B</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Denim\Pants_Skin\DenimBluer_Pants_V_B</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Denim\Pants_Skin\DenimBlueDarker_Pants_V</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Pants_Skin\DenimBlueDarker_Pants_V_B</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Denim\Pants_Skin\DenimBlack_Pants_V</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Denim\Pants_Skin\DenimBlack_Pants_V_B</m_BaseTextures>
+	
+</clothingItem>

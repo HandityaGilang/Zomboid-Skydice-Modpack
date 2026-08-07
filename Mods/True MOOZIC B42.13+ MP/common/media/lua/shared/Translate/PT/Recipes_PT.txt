@@ -1,4 +1,0 @@
-Recipes_PT = {
-    Recipe_DismantleTCElectronics = "Desmontar reprodutor de música",
-    Recipe_DismantleWalkmanElectronics = "Desmontar reprodutor portátil",
-}

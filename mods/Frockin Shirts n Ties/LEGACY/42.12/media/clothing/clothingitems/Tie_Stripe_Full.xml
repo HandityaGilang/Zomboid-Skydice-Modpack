@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\bob_tie</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\bob_tie</m_FemaleModel>
+	<m_GUID>79d2b648-3e8f-4b27-acf8-fb32fbb52434</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<textureChoices>clothes\tie\Tie_BlueStripeFull</textureChoices>
+	<textureChoices>clothes\tie\Tie_RedStripeFull</textureChoices>
+	
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_16</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_15</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_14</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_13</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_12</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_11</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_10</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_9</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_8</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_7</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_6</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_5</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_4</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_3</textureChoices>
+	
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_17</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_18</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_19</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_20</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_21</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_22</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_23</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_24</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_25</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_26</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_27</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_28</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_29</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_30</textureChoices>
+	<textureChoices>clothes\Ties_stripe\Tie_Stripe_31</textureChoices>
+
+</clothingItem>

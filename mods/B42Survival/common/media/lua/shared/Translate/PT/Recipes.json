@@ -1,0 +1,20 @@
+{
+    "PickString": "Colher Cordel",
+    "PlaceStringInBox": "Guardar Cordéis na Caixa",
+    "OpenBoxOfString": "Abrir Caixa de Cordéis",
+    "CraftRopeTwine": "Trançar Corda de Barbante",
+    "CarveButton": "Entalhar Botão",
+    "CarveLongStick2": "Entalhar Graveto Comprido",
+    "MakeStonesFromLargeSmoothFlatStone": "Quebrar Pedra Lisa Grande em Pedras",
+    "MakeSackofGravel": "Fazer Saco de Cascalho",
+    "ExtractClay": "Extrair Argila da Terra",
+    "PutClayinSack": "Guardar 8 Argilas no Saco",
+    "MakeCrudeFirestarter": "Fazer Acendedor Improvisado",
+    "MakeCannedCandle": "Fazer Vela",
+    "LightCannedCandle": "Acender Vela",
+    "ExtinguishCannedCandle": "Apagar Vela",
+    "MakeTorch": "Fazer Tocha",
+    "LightTorch": "Acender Tocha",
+    "LightTorch2": "Acender Tocha",
+    "ExtinguishTorch": "Apagar Tocha"
+}

@@ -1,5 +1,0 @@
-IGUI_FR = {
-    IGUI_Domino = "Domino",
-    IGUI_Dominos = "Dominos",
-    IGUI_turnDomino = "Tourner",
-}

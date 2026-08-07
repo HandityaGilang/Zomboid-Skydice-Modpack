@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\M_Jacket_Classic_RolledUpSleeves</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\F_Jacket_Classic_RolledUpSleeves</m_FemaleModel>
+	<m_GUID>6c6a5a63-b7dd-4de9-bba7-95796e34863e</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>13</m_Masks>
+	<m_Masks>14</m_Masks>
+	<m_UnderlayMasksFolder>media\textures\Clothes\Masks\JacketRolledUpSleeves</m_UnderlayMasksFolder>
+	<textureChoices>Clothes\Military\Jacket\Jacket_Lightweight-Medic_Insignia</textureChoices>
+	<textureChoices>Clothes\Military\Jacket\Jacket_Lightweight-Medic_Plain</textureChoices>
+	<textureChoices>Clothes\Military\Jacket\Jacket_Lightweight-Medic_InsigniaStripe</textureChoices>
+	<textureChoices>Clothes\Military\Jacket\Jacket_Lightweight-Medic_InsigniaRedSleeves</textureChoices>
+	<textureChoices>Clothes\Military\Jacket\Jacket_Lightweight-Medic_InsigniaWhiteSleeves</textureChoices>
+	<textureChoices>Clothes\Military\Jacket\Jacket_Lightweight-MedicWhite_Insignia</textureChoices>
+</clothingItem>

@@ -515,8 +515,8 @@ end
 
 -- ===================== janela admin: registro global de donos e caes =====================
 -- Aberta pelo submenu de debug do context menu (gate CD.debugAllowed). Pede ao server o canil global inteiro
--- (CD.Server.kenneladmin) e lista dono -> caes em texto simples; Refresh repede, Log imprime no console
--- (triagem de tickets fora do jogo). Mora neste arquivo (ja carregado) pra nao criar .lua novo.
+-- (CD.Server.kenneladmin) e lista dono -> caes em texto simples; Refresh repede a lista.
+-- Mora neste arquivo (ja carregado) pra nao criar .lua novo.
 
 ISCDAdminKennelWindow = ISCollapsableWindow:derive("ISCDAdminKennelWindow")
 ISCDAdminKennelScroll = ISPanel:derive("ISCDAdminKennelScroll")
@@ -585,9 +585,6 @@ function ISCDAdminKennelWindow:createChildren()
     self.refreshBtn = ISButton:new(0, 0, 10, BTN_H, getText("IGUI_PD_AdminRefresh"), self, ISCDAdminKennelWindow.onRefresh)
     self.refreshBtn:initialise()
     self:addChild(self.refreshBtn)
-    self.logBtn = ISButton:new(0, 0, 10, BTN_H, getText("IGUI_PD_AdminLog"), self, ISCDAdminKennelWindow.onLog)
-    self.logBtn:initialise()
-    self:addChild(self.logBtn)
     CD.UI.initResizable(self, "dogadmin", ADM_MIN_W, ADM_MIN_H)
     self:reflow()
 end
@@ -610,9 +607,7 @@ function ISCDAdminKennelWindow:reflow()
     self.scroll:setWidth(listW); self.scroll:setHeight(listH)
     self.scroll:setScrollHeight(#self.lines * ADM_ROW_H + 8)
     local btnY = listY + listH + PAD
-    local bw = math.floor((listW - PAD) / 2)
-    self.refreshBtn:setX(PAD); self.refreshBtn:setY(btnY); self.refreshBtn:setWidth(bw)
-    self.logBtn:setX(PAD * 2 + bw); self.logBtn:setY(btnY); self.logBtn:setWidth(bw)
+    self.refreshBtn:setX(PAD); self.refreshBtn:setY(btnY); self.refreshBtn:setWidth(listW)
 end
 
 -- Rotulo do campo de busca + filtro reativo: reconstroi as linhas quando o texto digitado muda.
@@ -679,13 +674,6 @@ function ISCDAdminKennelWindow:onRefresh()
     self.lines = {}
     self:reflow()
     pcall(function() CD.request("kenneladmin", nil, {}) end)
-end
-
-function ISCDAdminKennelWindow:onLog()
-    print("[CompanionDogs] admin dog registry dump:")
-    for _, ln in ipairs(self.lines or {}) do
-        print(string.rep("    ", ln.lvl or 0) .. ln.text)
-    end
 end
 
 function ISCDAdminKennelWindow:close()

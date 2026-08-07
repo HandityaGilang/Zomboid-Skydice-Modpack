@@ -1,0 +1,7 @@
+{
+    "ContextMenu_DGMC_Bolt_Cutters_Garage_Cut": "Срезать замок на двери гаража",
+    "ContextMenu_DGMC_Bolt_Cutters_Gate_Cut": "Срезать замок на воротах",
+    "ContextMenu_DGMC_Bolt_Cutters_Fence_Cut": "Отрезаем секцию забора",
+    "ContextMenu_DGMC_Bolt_Cutters_Shutter_Cut": "Разрежьте замок и поднимите ставню.",
+    "ContextMenu_DGMC_Bolt_Cutters_Strength_Tooltip": "Недостаточная сила"
+}

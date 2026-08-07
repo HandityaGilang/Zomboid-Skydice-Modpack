@@ -1,0 +1,5 @@
+{
+    "Sandbox_DrinkSmart": "Drink Smart",
+    "Sandbox_DrinkSmart_AllowWaterDrinkLowThirst": "อนุญาตให้ดื่มน้ำแม้ไม่ค่อยกระหาย",
+    "Sandbox_DrinkSmart_AllowWaterDrinkLowThirst_tooltip": "หากเปิดใช้ แหล่งน้ำจะแสดงเมนู \"ดื่ม\" แม้เมื่อค่าความกระหายต่ำกว่า 10％ (ช่องเก็บของ/ภาชนะ/แผงพื้น)."
+}

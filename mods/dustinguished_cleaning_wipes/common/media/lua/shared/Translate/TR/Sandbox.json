@@ -1,0 +1,16 @@
+{
+    "Sandbox_DGMC_Cleaning_Wipes": "temizlik mendilleri",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body": "Vücudu Temizleyebilir",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Body_tooltip": "Vücudunuzu temizleme mendilleriyle temizleyebilirsiniz.",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing": "Giysileri Temizleyebilir",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Clothing_tooltip": "Giysilerinizi temizlik mendilleriyle temizleyip temizleyemeyeceğiniz.",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons": "Yakın Dövüş Silahlarını Temizleyebilir",
+    "Sandbox_DGMC_Cleaning_Wipes_Clean_Weapons_tooltip": "Yakın dövüş silahlarını temizleme mendilleriyle temizleyip temizleyemeyeceğinizi.",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup": "Makyajı Kaldırır",
+    "Sandbox_DGMC_Cleaning_Wipes_Remove_Makeup_tooltip": "Vücudunuzu temizlerken makyajın çıkarılıp çıkarılmayacağı.",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult": "Süre Çarpanı",
+    "Sandbox_DGMC_Cleaning_Wipes_Speed_Mult_tooltip": "Sadece suyla yıkamaya göre mendille temizlemenin ne kadar sürdüğü.  Daha hızlı için daha düşük, daha yavaş için daha yüksek.",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness": "Giysi Islaklığı",
+    "Sandbox_DGMC_Cleaning_Wipes_Wetness_tooltip": "Giysileri temizlerken ıslaklık seviyeleri bu değerin maksimumuna veya mevcut seviyesine ayarlanacaktır.  Örneğin, varsayılan değerle, ıslaklık derecesi 0 olan giysiler 25'e ayarlanırken ıslaklık düzeyi zaten 50 olan giysiler 50'de kalır.",
+    "Sandbox_DGMC_Cleaning_Wipes_Debug_Logging": "Hata Ayıklama Günlüğü"
+}

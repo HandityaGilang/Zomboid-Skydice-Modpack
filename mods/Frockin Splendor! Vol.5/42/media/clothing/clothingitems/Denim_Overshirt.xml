@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Skinned\Clothes\Overshirts\Overshirt_M.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Skinned\Clothes\Overshirts\Overshirt_F.fbx</m_FemaleModel>
+	<m_GUID>23497d94-5b54-4f12-9f76-78f2f121a5a2</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+
+	<m_Masks>12</m_Masks>
+
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_MasksFolder>media/textures/Clothes/Jacket/Masks_Leather</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Jacket/Masks_Leather</m_UnderlayMasksFolder>
+	
+	<textureChoices>clothes\Material_Denim\Overshirts\DenimBlueLight_Shirt_1</textureChoices>
+	<textureChoices>clothes\Material_Denim\Overshirts\Denim_Shirt_1</textureChoices>
+	<textureChoices>clothes\Material_Denim\Overshirts\DenimBlue_Shirt_1</textureChoices>
+	<textureChoices>clothes\Material_Denim\Overshirts\DenimDarker_Shirt_1</textureChoices>
+	<textureChoices>clothes\Material_Denim\Overshirts\DenimBlack_Shirt_1</textureChoices>
+	<textureChoices>clothes\Material_Denim\Overshirts\DenimPurple_Shirt_1</textureChoices>	
+
+</clothingItem>

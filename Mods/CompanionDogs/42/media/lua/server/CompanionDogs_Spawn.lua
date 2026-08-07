@@ -82,11 +82,35 @@ function CD.isPetVetBuilding(def)
     return false
 end
 
+-- Um predio conta como fazenda se algum comodo tem nome de celeiro/estabulo/galinheiro. Mesma tecnica do
+-- police/petvet (sem API nativa). ADITIVA (nao exclusiva) + skipUrbanGate: fazenda e rural (fora de TownZone)
+-- e pode ser tambem residencial (uma casa de fazenda com celeiro rola casa E fazenda, suffixes distintos). Casa
+-- do border collie, cao de pastoreio/fazenda.
+local FARM_ROOM_KEYS = { "barn", "farm", "stable", "coop", "silo", "henhouse", "chickencoop", "cowshed", "stables" }
+function CD.isFarmBuilding(def)
+    if not def or not def.getRooms then return false end
+    local rooms
+    local ok = pcall(function() rooms = def:getRooms() end)
+    if not ok or not rooms then return false end
+    for i = 0, rooms:size() - 1 do
+        local rd = rooms:get(i)
+        local nm = rd and rd:getName()
+        if nm then
+            nm = string.lower(nm)
+            for _, k in ipairs(FARM_ROOM_KEYS) do
+                if string.find(nm, k, 1, true) then return true end
+            end
+        end
+    end
+    return false
+end
+
 -- Classes base de predio (contrato de addon: ver CD.registerBuildingClass no Config). Exclusivas
 -- entre si na ordem de registro, espelhando o elseif historico house > police > petvet.
 CD.registerBuildingClass("house", function(def) return def:isResidential() and not def:isShop() end, { exclusive = true })
 CD.registerBuildingClass("police", CD.isPoliceLikeBuilding, { exclusive = true })
 CD.registerBuildingClass("petvet", CD.isPetVetBuilding, { exclusive = true })
+CD.registerBuildingClass("farm", CD.isFarmBuilding, { skipUrbanGate = true })
 
 -- Monta uma spec de stray ({atype, breed, kind}) para uma key de raca, com sexo aleatorio (espelha o ramo do GS).
 function CD.makeStrayKind(breedKey)

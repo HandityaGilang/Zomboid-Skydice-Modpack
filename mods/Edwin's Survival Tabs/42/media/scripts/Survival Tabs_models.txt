@@ -1,0 +1,19 @@
+module Base
+{
+	
+	model JunkiezMassPowder
+	{
+		mesh = WorldItems/JunkiezMassPowder,
+		texture	= WorldItems/JunkiezMassPowder,
+		scale = 0.0125,
+    }
+	model JunkiezMassPowder2
+	{
+		mesh = WorldItems/JunkiezMassPowder2,
+		texture	= WorldItems/JunkiezMassPowder,
+		scale = 0.0125,
+    }
+
+
+    }
+}

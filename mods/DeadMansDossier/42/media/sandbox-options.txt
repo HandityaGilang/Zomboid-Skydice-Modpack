@@ -1,0 +1,82 @@
+VERSION = 1,
+
+option DeadMansDossier.DropChance_Police
+{
+    type = enum,
+    numValues = 4,
+    default = 2,
+    page = DeadMansDossier,
+    translation = DeadMansDossier_DropChance_Police,
+}
+
+option DeadMansDossier.DropChance_Military
+{
+    type = enum,
+    numValues = 4,
+    default = 2,
+    page = DeadMansDossier,
+    translation = DeadMansDossier_DropChance_Military,
+}
+
+option DeadMansDossier.DropChance_Medical
+{
+    type = enum,
+    numValues = 4,
+    default = 2,
+    page = DeadMansDossier,
+    translation = DeadMansDossier_DropChance_Medical,
+}
+
+option DeadMansDossier.DropChance_Firefighter
+{
+    type = enum,
+    numValues = 4,
+    default = 2,
+    page = DeadMansDossier,
+    translation = DeadMansDossier_DropChance_Firefighter,
+}
+
+option DeadMansDossier.DropChance_Ranger
+{
+    type = enum,
+    numValues = 4,
+    default = 2,
+    page = DeadMansDossier,
+    translation = DeadMansDossier_DropChance_Ranger,
+}
+
+option DeadMansDossier.ContainerSpawnRate
+{
+    type = enum,
+    numValues = 4,
+    default = 2,
+    page = DeadMansDossier,
+    translation = DeadMansDossier_ContainerSpawnRate,
+}
+
+option DeadMansDossier.RewardRarity
+{
+    type = enum,
+    numValues = 4,
+    default = 2,
+    page = DeadMansDossier,
+    translation = DeadMansDossier_RewardRarity,
+}
+
+option DeadMansDossier.ProximityRadius
+{
+    type = integer,
+    min = 5,
+    max = 50,
+    default = 15,
+    page = DeadMansDossier,
+    translation = DeadMansDossier_ProximityRadius,
+}
+
+option DeadMansDossier.UseCustomRewards
+{
+    type = boolean,
+    default = false,
+    page = DeadMansDossier,
+    translation = DeadMansDossier_UseCustomRewards,
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>efd5d5ae-2895-474b-82ba-cba6693c6410</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Leather\Leotard_Sleeves\Leather_LeotardSleeves_Short_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leotard_Sleeves\Leather_LeotardSleeves_Short_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leotard_Sleeves\Leather_LeotardSleeves_Short_2A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leotard_Sleeves\Leather_LeotardSleeves_Short_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leotard_Sleeves\Leather_LeotardSleeves_Short_3A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leotard_Sleeves\Leather_LeotardSleeves_Short_3B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leotard_Sleeves\Leather_LeotardSleeves_Short_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leotard_Sleeves\Leather_LeotardSleeves_Short_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leotard_Sleeves\Leather_LeotardSleeves_Short_6</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leotard_Sleeves\Leather_LeotardSleeves_Short_6A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leotard_Sleeves\Leather_LeotardSleeves_Short_7</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Leotard_Sleeves\Leather_LeotardSleeves_Short_7A</m_BaseTextures>
+</clothingItem>

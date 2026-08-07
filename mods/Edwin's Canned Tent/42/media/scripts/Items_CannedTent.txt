@@ -1,0 +1,45 @@
+module CannedTent
+{
+	imports
+	{
+		Base,
+	}
+	item CannedTent
+	{
+		DisplayName = Doughboy Inc. Tent in a Can,
+		DisplayCategory = Camping,
+		Type = Food,
+		Weight = 2.0,
+		Icon = CannedTent,
+		CannedFood = TRUE,
+		CantEat = TRUE,
+		Packaged = TRUE,
+		Calories = 0,
+		Carbohydrates = 0,
+		Lipids = 0,
+		Proteins = 0,
+		StaticModel = OpenCannedCheese22_Ground,
+		WorldStaticModel = CannedCheese22_Ground,
+		Tooltip = Date Packed: Oct 23 1964. Smells like vinyl.,
+	}
+
+
+	craftRecipe Open Canned Tent
+    {
+        timedAction 	= OpenTinCan,
+        time            = 40,
+        category 		= Cooking,
+		CanWalk 		= true,
+        Tags 			= InHandCraft;Cooking,
+        inputs
+        {
+            item 1 [CannedTent.CannedTent] mode:destroy flags[Prop2],
+        }
+       outputs
+        {
+           item 1 Base.TentGreen_Packed,
+           item 1 Base.TinCanEmpty,
+        }
+    }
+
+}

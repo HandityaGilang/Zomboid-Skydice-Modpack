@@ -14,7 +14,9 @@ UI_CN = {
 
     /*ModOption*/
     UI_CleanUI_ContainerBackgroundOpacity = "侧边栏不透明度",
+    UI_CleanUI_ContainerBackgroundOpacityPercent = "侧边栏不透明度 (%%)",
     UI_CleanUI_BackgroundOpacity = "背景不透明度",
+    UI_CleanUI_BackgroundOpacityPercent = "背景不透明度 (%%)",
     UI_CleanUI_PlayerContainerPosition = "物品栏面板（需要重启）",
     UI_CleanUI_LootContainerPosition = "战利品面板（需要重启）",
     UI_CleanUI_ContainerPositionLeft = "左侧",
@@ -47,5 +49,11 @@ UI_CN = {
     UI_CleanUI_TransferMethodNearbyTooltip = "转移方式：附近容器 <LINE> 点击更改方式",
     UI_CleanUI_TransferByNameTooltip = "按物品名称转移",
     UI_CleanUI_TransferByCategoryTooltip = "按类型转移",
+    UI_CleanUI_ShowWeightColumn = "显示重量列",
+    UI_CleanUI_ShowWeightColumn_Tooltip = "在 CleanUI 的物品栏和拾取面板中，为物品行和堆叠行显示单独的重量列。",
+    UI_CleanUI_ShowColumnHeaders = "显示列标题",
+    UI_CleanUI_ShowColumnHeaders_Tooltip = "在物品栏和拾取面板的物品列表上方显示可点击的列标题行。",
     UI_CleanUI_MoveToFloorTooltip = "移到地板",
+    UI_CleanUI_Column_Rarity = "稀有度",
+    UI_CleanUI_Column_Weight = "重量",
 }

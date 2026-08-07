@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\M_Shoes_Boots</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\F_Shoes_Boots</m_FemaleModel>
+	<m_GUID>703f446f-9aa4-4923-808f-6e9449051b64</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_Masks>8</m_Masks>
+	<m_Masks>10</m_Masks>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder></m_MasksFolder>
+	<textureChoices>Clothes\Military\Boots\Military_Shoes_HighBoots-MedicBlack</textureChoices>
+	<textureChoices>Clothes\Military\Boots\Military_Shoes_HighBoots-MedicWhite</textureChoices>
+</clothingItem>	

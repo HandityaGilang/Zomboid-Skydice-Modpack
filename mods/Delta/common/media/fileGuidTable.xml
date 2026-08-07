@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+	<files>
+		<path>media/clothing/clothingItems/Holster_Black.xml</path>
+		<guid>f25bba7d-5935-44a6-8e1f-e8a7befca172</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Holster_Brown.xml</path>
+		<guid>cf488d82-f655-4c5c-8ca9-234d6c613e13</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Holster_Green.xml</path>
+		<guid>d5701f1b-bfe6-4eb6-b1d6-efc16aaa1243</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/Holster.xml</path>
+		<guid>88f11c9e-e717-446c-82ec-f749320df25a</guid>
+	</files>
+
+	<files>
+		<path>media/clothing/clothingItems/HolsterDouble.xml</path>
+		<guid>124e9f8a-d83b-4e69-a7b2-34fc44cae7e9</guid>
+	</files>
+
+</fileGuidTable>

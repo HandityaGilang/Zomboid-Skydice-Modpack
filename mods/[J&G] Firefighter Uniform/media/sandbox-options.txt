@@ -1,0 +1,10 @@
+VERSION = 1,
+
+option JordanalSpawns.FireFighter_UnitChance_FireDept = {
+	type = double,
+	default = 0.04,
+	min = 0.00,
+	max = 100,
+	page = JordanalSpawns,
+	translation = JordanalSpawns.FireFighter_UnitChance_FireDept,
+}

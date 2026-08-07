@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes\Bob_Boots_Generic.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\Kate_Boots_HighHeels.fbx</m_FemaleModel>
+	<m_GUID>23ab0bf6-9b32-4e6e-809d-7782f2fd12f8</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>	
+	<m_Masks>8</m_Masks>	
+	<m_Masks>10</m_Masks>	
+	<textureChoices>clothes\Shoes\Boots_Heels\Boots_Leather_1D</textureChoices>
+	<textureChoices>clothes\Shoes\Boots_Heels\Boots_Leather_1E</textureChoices>
+	<textureChoices>clothes\Shoes\Boots_Heels\Boots_Leather_HighHeels_1</textureChoices>
+	<textureChoices>clothes\Shoes\Boots_Heels\Boots_Leather_HighHeels_2</textureChoices>
+
+</clothingItem>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>930328e8-313d-4580-92bc-55c57aba85cd</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses_Fancy\Fancy_Dress_G1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses_Fancy\Fancy_Dress_G2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses_Fancy\Fancy_Dress_G3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses_Fancy\Fancy_Dress_G4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses_Fancy\Fancy_Dress_G5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses_Fancy\Fancy_Dress_GA1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses_Fancy\Fancy_Dress_GA2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses_Fancy\Fancy_Dress_GA3</m_BaseTextures>
+
+	<m_BaseTextures>clothes\Material_Cotton\Dresses_Fancy\Fancy_Dress_H1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses_Fancy\Fancy_Dress_H2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses_Fancy\Fancy_Dress_H3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses_Fancy\Fancy_Dress_H4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses_Fancy\Fancy_Dress_H5</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Cotton\Dresses_Fancy\Fancy_Dress_GB1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses_Fancy\Fancy_Dress_GB2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses_Fancy\Fancy_Dress_GB3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Dresses_Fancy\Fancy_Dress_GB4</m_BaseTextures>
+</clothingItem>

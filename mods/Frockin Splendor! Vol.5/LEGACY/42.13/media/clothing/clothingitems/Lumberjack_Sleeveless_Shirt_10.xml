@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+    <m_MaleModel></m_MaleModel>
+    <m_FemaleModel></m_FemaleModel>
+    <m_GUID>63b12860-9bd8-4b79-8886-dd9bc124986f</m_GUID>
+    <m_Static>false</m_Static>
+    <m_AllowRandomTint>false</m_AllowRandomTint>
+    <m_AttachBone></m_AttachBone>
+    <m_BaseTextures>clothes\Material_Cotton\Shirts_Sleeveless\Denim_Shirt_10</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Shirts_Sleeveless\DenimBlue_Shirt_10</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Shirts_Sleeveless\DenimGrey_Shirt_10</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Shirts_Sleeveless\DenimWhiteBlue_Shirt_10</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Shirts_Sleeveless\DenimWhiteRed_Shirt_10</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Shirts_Sleeveless\DenimPink_Shirt_10</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Shirts_Sleeveless\DenimPurple_Shirt_10</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Shirts_Sleeveless\DenimYellow_Shirt_10</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Shirts_Sleeveless\DenimYellower_Shirt_10</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Shirts_Sleeveless\DenimGreen_Shirt_10</m_BaseTextures>
+</clothingItem>

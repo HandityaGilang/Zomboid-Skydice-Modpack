@@ -1,0 +1,77 @@
+VERSION = 1,
+
+option ammomakerOptions.NitreYield
+{
+	type = integer,
+	min = 1,
+	max = 100,
+	default = 10,
+	page = ammomaker,
+	translation = ammomaker_NitreYield,
+}
+
+option ammomakerOptions.BirdExYield
+{
+	type = integer,
+	min = 1,
+	max = 5,
+	default = 1,
+	page = ammomaker,
+	translation = ammomaker_BirdExYield,
+}
+
+option ammomakerOptions.BirdExSpawnMin
+{
+	type = integer,
+	min = 1,
+	max = 200,
+	default = 8,
+	page = ammomaker,
+	translation = ammomaker_BirdExSpawnMin,
+}
+
+option ammomakerOptions.BirdExSpawnMax
+{
+	type = integer,
+	min = 1,
+	max = 200,
+	default = 24,
+	page = ammomaker,
+	translation = ammomaker_BirdExSpawnMax,
+}
+
+option ammomakerOptions.BirdFeatherSpawnMin
+{
+	type = integer,
+	min = 1,
+	max = 10,
+	default = 1,
+	page = ammomaker,
+	translation = ammomaker_BirdFeatherSpawnMin,
+}
+
+option ammomakerOptions.BirdFeatherSpawnMax
+{
+	type = integer,
+	min = 1,
+	max = 10,
+	default = 3,
+	page = ammomaker,
+	translation = ammomaker_BirdFeatherSpawnMax,
+}
+
+option ammomakerOptions.DeactivateCharcoalRecipes
+{
+	type = boolean,
+	default = false,
+	page = ammomaker,
+	translation = ammomaker_DeactivateCharcoalRecipes,
+}
+
+option ammomakerOptions.ActivateArchery
+{
+	type = boolean,
+	default = true,
+	page = ammomaker,
+	translation = ammomaker_ActivateArchery,
+}

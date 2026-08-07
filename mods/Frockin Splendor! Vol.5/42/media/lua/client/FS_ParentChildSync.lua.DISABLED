@@ -1,0 +1,117 @@
+--========================================================
+-- Parent–Child Item Sync System
+-- Automatically creates, removes, and tints a child item 
+-- based on the player's currently worn parent item.
+--========================================================
+
+local ParentChildPairs = {
+    {
+        parentTypes = {               -- Parent item(s) that trigger child creation
+            ["Base.Denim_Shirt_10"] = true,
+        },
+        childType = "Base.Denim_Skirt_Mesh_HW", -- The child item to auto-manage
+        wornSlot = { parent = "FSShirt", child = "Skirt" }
+    },
+    -- You can add more item pairs here:
+    -- {
+    --     parentTypes = { ["Base.Jacket_Black"] = true },
+    --     childType = "Base.ScarfAuto",
+    --     wornSlot = { parent = "Jacket", child = "Scarf" }
+    -- },
+}
+
+--========================================================
+-- Utility Functions
+--========================================================
+
+local function isTypeInSet(item, typeSet)
+    return item and typeSet[item:getFullType()] == true
+end
+
+local function getItemTint(item)
+    if not item then return nil end
+    return item:getVisual():getTint()
+end
+
+local function setItemTint(item, tint)
+    if not item or not tint then return end
+    item:getVisual():setTint(tint)
+end
+
+local function getOrCreateItem(inventory, itemType)
+    local existing = inventory:FindAndReturn(itemType)
+    if existing then return existing end
+
+    local definition = getScriptManager():FindItem(itemType)
+    if not definition then return nil end
+
+    return inventory:AddItem(itemType)
+end
+
+local function removeItemFromWorld(player, item)
+    if not item then return end
+    player:setWornItem(item:getCategory(), nil)
+    local container = item:getContainer()
+    if container then container:Remove(item) end
+end
+
+--========================================================
+-- Main Synchronisation Logic
+--========================================================
+
+local function syncParentChild(player)
+    if not player or player:isDead() then return end
+
+    for _, pair in ipairs(ParentChildPairs) do
+        local parent = player:getWornItem(pair.wornSlot.parent)
+        local child  = player:getWornItem(pair.wornSlot.child)
+        local inventory = player:getInventory()
+
+        -- CASE 1: Parent is worn and valid
+        if parent and isTypeInSet(parent, pair.parentTypes) then
+            -- (a) Create child if missing
+            if not child then
+                local newChild = getOrCreateItem(inventory, pair.childType)
+                if newChild then
+                    local tint = getItemTint(parent)
+                    setItemTint(newChild, tint)
+                    player:setWornItem(pair.wornSlot.child, newChild)
+                    if player.resetModel then player:resetModel() end
+                end
+            -- (b) Sync tint if both exist and differ
+            elseif child:getFullType() == pair.childType then
+                local parentTint = getItemTint(parent)
+                local childTint  = getItemTint(child)
+                if parentTint and (not childTint or not parentTint:equals(childTint)) then
+                    setItemTint(child, parentTint)
+                    if player.resetModel then player:resetModel() end
+                end
+            end
+
+        -- CASE 2: Parent removed or not matching
+        elseif child and child:getFullType() == pair.childType then
+            player:setWornItem(pair.wornSlot.child, nil)
+            local container = child:getContainer()
+            if container then container:Remove(child) end
+            if player.resetModel then player:resetModel() end
+        end
+
+        -- CASE 3: Clean up leftover items in inventory (safely)
+        local leftover = inventory:FindAndReturn(pair.childType)
+        if leftover and leftover ~= player:getWornItem(pair.wornSlot.child) then
+            inventory:Remove(leftover)
+        end
+    end
+end
+
+--========================================================
+-- Event Binding
+--========================================================
+
+local function onClothingChange(player)
+    syncParentChild(player)
+end
+
+Events.OnClothingUpdated.Add(onClothingChange)
+-- Alternative fallback if your PZ build lacks this event:
+-- Events.OnClothingUpdated.Add(onClothingChange)

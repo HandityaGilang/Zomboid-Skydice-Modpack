@@ -1,0 +1,419 @@
+VERSION = 1,
+
+option ammomakerOptions.NitreYield
+{
+	type = integer,
+	min = 1,
+	max = 100,
+	default = 10,
+	page = ammomaker,
+	translation = ammomaker_NitreYield,
+}
+
+option ammomakerOptions.BirdExYield
+{
+	type = integer,
+	min = 1,
+	max = 5,
+	default = 1,
+	page = ammomaker,
+	translation = ammomaker_BirdExYield,
+}
+
+option ammomakerOptions.BirdExSpawnMin
+{
+	type = integer,
+	min = 1,
+	max = 200,
+	default = 8,
+	page = ammomaker,
+	translation = ammomaker_BirdExSpawnMin,
+}
+
+option ammomakerOptions.BirdExSpawnMax
+{
+	type = integer,
+	min = 1,
+	max = 200,
+	default = 24,
+	page = ammomaker,
+	translation = ammomaker_BirdExSpawnMax,
+}
+
+option ammomakerOptions.BirdFeatherSpawnMin
+{
+	type = integer,
+	min = 1,
+	max = 10,
+	default = 1,
+	page = ammomaker,
+	translation = ammomaker_BirdFeatherSpawnMin,
+}
+
+option ammomakerOptions.BirdFeatherSpawnMax
+{
+	type = integer,
+	min = 1,
+	max = 10,
+	default = 3,
+	page = ammomaker,
+	translation = ammomaker_BirdFeatherSpawnMax,
+}
+
+option ammomakerOptions.CasingsSpawnMin
+{
+	type = integer,
+	min = 1,
+	max = 20,
+	default = 1,
+	page = ammomaker,
+	translation = ammomaker_CasingsSpawnMin,
+}
+
+option ammomakerOptions.CasingsSpawnMax
+{
+	type = integer,
+	min = 1,
+	max = 20,
+	default = 3,
+	page = ammomaker,
+	translation = ammomaker_CasingsSpawnMax,
+}
+
+option ammomakerOptions.DroppedCasingsLifetime
+{
+	type = integer,
+	min = 1,
+	max = 720,
+	default = 168,
+	page = ammomaker,
+	translation = ammomaker_DroppedCasingsLifetime,
+}
+
+option ammomakerOptions.ProduceAmmoBulkSize
+{
+	type = integer,
+	min = 10,
+	max = 100,
+	default = 10,
+	page = ammomaker,
+	translation = ammomaker_ProduceAmmoBulkSize,
+}
+
+option ammomakerOptions.AllowConvertRecipes
+{
+	type = boolean,
+	default = false,
+	page = ammomaker,
+	translation = ammomaker_AllowConvertRecipes,
+}
+
+option ammomakerOptions.ChanceArmyStorageAmmunition
+{
+	type = double,
+	default = 10,
+	min = 0,
+	max = 30,
+	page = ammomaker,
+	translation = ammomaker_ChanceArmyStorageAmmunition,
+}
+
+option ammomakerOptions.ChanceArmySurplusMisc
+{
+	type = double,
+	default = 10,
+	min = 0,
+	max = 30,
+	page = ammomaker,
+	translation = ammomaker_ChanceArmySurplusMisc,
+}
+
+option ammomakerOptions.ChanceDrugLabGuns
+{
+	type = double,
+	default = 5,
+	min = 0,
+	max = 20,
+	page = ammomaker,
+	translation = ammomaker_ChanceDrugLabGuns,
+}
+
+option ammomakerOptions.ChanceFirearmWeapons
+{
+	type = double,
+	default = 4,
+	min = 0,
+	max = 20,
+	page = ammomaker,
+	translation = ammomaker_ChanceFirearmWeapons,
+}
+
+option ammomakerOptions.ChanceFirearmWeapons_Mid
+{
+	type = double,
+	default = 4,
+	min = 0,
+	max = 20,
+	page = ammomaker,
+	translation = ammomaker_ChanceFirearmWeapons_Mid,
+}
+
+option ammomakerOptions.ChanceFirearmWeapons_Late
+{
+	type = double,
+	default = 4,
+	min = 0,
+	max = 20,
+	page = ammomaker,
+	translation = ammomaker_ChanceFirearmWeapons_Late,
+}
+
+option ammomakerOptions.ChanceGunStoreAmmunition
+{
+	type = double,
+	default = 10,
+	min = 0,
+	max = 20,
+	page = ammomaker,
+	translation = ammomaker_ChanceGunStoreAmmunition,
+}
+
+option ammomakerOptions.ChanceGunStoreMagsAmmo
+{
+	type = double,
+	default = 15,
+	min = 0,
+	max = 50,
+	page = ammomaker,
+	translation = ammomaker_ChanceGunStoreMagsAmmo,
+}
+
+option ammomakerOptions.ChanceGunStoreGuns
+{
+	type = double,
+	default = 5,
+	min = 0,
+	max = 20,
+	page = ammomaker,
+	translation = ammomaker_ChanceGunStoreGuns,
+}
+
+option ammomakerOptions.ChancePoliceStorageAmmunition
+{
+	type = double,
+	default = 3,
+	min = 0,
+	max = 20,
+	page = ammomaker,
+	translation = ammomaker_ChancePoliceStorageAmmunition,
+}
+
+option ammomakerOptions.ChancePoliceStorageGuns
+{
+	type = double,
+	default = 3,
+	min = 0,
+	max = 20,
+	page = ammomaker,
+	translation = ammomaker_ChancePoliceStorageGuns,
+}
+
+option ammomakerOptions.ChanceWardrobeRedneck
+{
+	type = double,
+	default = 0.1,
+	min = 0,
+	max = 2,
+	page = ammomaker,
+	translation = ammomaker_ChanceWardrobeRedneck,
+}
+
+option ammomakerOptions.ChanceGunStorePistols
+{
+	type = double,
+	default = 15,
+	min = 0,
+	max = 50,
+	page = ammomaker,
+	translation = ammomaker_ChanceGunStorePistols,
+}
+
+option ammomakerOptions.ChanceGunStoreRifles
+{
+	type = double,
+	default = 10,
+	min = 0,
+	max = 50,
+	page = ammomaker,
+	translation = ammomaker_ChanceGunStoreRifles,
+}
+
+option ammomakerOptions.ChanceGunStoreShotguns
+{
+	type = double,
+	default = 10,
+	min = 0,
+	max = 50,
+	page = ammomaker,
+	translation = ammomaker_ChanceGunStoreShotguns,
+}
+
+option ammomakerOptions.ChanceHuntingLockers
+{
+	type = double,
+	default = 5,
+	min = 0,
+	max = 10,
+	page = ammomaker,
+	translation = ammomaker_ChanceHuntingLockers,
+}
+
+option ammomakerOptions.ChanceArmyBunkerStorage
+{
+	type = double,
+	default = 1,
+	min = 0,
+	max = 5,
+	page = ammomaker,
+	translation = ammomaker_ChanceArmyBunkerStorage,
+}
+
+option ammomakerOptions.ChanceLockerArmyBedroomHome
+{
+	type = double,
+	default = 0.4,
+	min = 0,
+	max = 2,
+	page = ammomaker,
+	translation = ammomaker_ChanceLockerArmyBedroomHome,
+}
+
+option ammomakerOptions.ChancePoliceEvidence
+{
+	type = double,
+	default = 35,
+	min = 0,
+	max = 50,
+	page = ammomaker,
+	translation = ammomaker_ChancePoliceEvidence,
+}
+
+option ammomakerOptions.ChanceBedroomDresserRedneck
+{
+	type = double,
+	default = 0.5,
+	min = 0,
+	max = 5,
+	page = ammomaker,
+	translation = ammomaker_ChanceBedroomDresserRedneck,
+}
+
+option ammomakerOptions.ChanceDrugShackWeapons
+{
+	type = double,
+	default = 4,
+	min = 0,
+	max = 10,
+	page = ammomaker,
+	translation = ammomaker_ChanceDrugShackWeapons,
+}
+
+option ammomakerOptions.ChanceGarageFirearms
+{
+	type = double,
+	default = 4,
+	min = 0,
+	max = 8,
+	page = ammomaker,
+	translation = ammomaker_ChanceGarageFirearms,
+}
+
+option ammomakerOptions.ChanceBedroomSidetable
+{
+	type = double,
+	default = 0.03,
+	min = 0,
+	max = 2,
+	page = ammomaker,
+	translation = ammomaker_ChanceBedroomSidetable,
+}
+
+option ammomakerOptions.ChanceBedroomSidetableClassy
+{
+	type = double,
+	default = 0.02,
+	min = 0,
+	max = 2,
+	page = ammomaker,
+	translation = ammomaker_ChanceBedroomSidetableClassy,
+}
+
+option ammomakerOptions.ChanceBedroomSidetableRedneck
+{
+	type = double,
+	default = 0.06,
+	min = 0,
+	max = 2,
+	page = ammomaker,
+	translation = ammomaker_ChanceBedroomSidetableRedneck,
+}
+
+option ammomakerOptions.ChanceDresserGeneric
+{
+	type = double,
+	default = 0.04,
+	min = 0,
+	max = 2,
+	page = ammomaker,
+	translation = ammomaker_ChanceDresserGeneric,
+}
+
+option ammomakerOptions.ChancePlankStashGun
+{
+	type = double,
+	default = 5,
+	min = 0,
+	max = 10,
+	page = ammomaker,
+	translation = ammomaker_ChancePlankStashGun,
+}
+
+option ammomakerOptions.ChanceSecurityDesk
+{
+	type = double,
+	default = 2,
+	min = 0,
+	max = 10,
+	page = ammomaker,
+	translation = ammomaker_ChanceSecurityDesk,
+}
+
+option ammomakerOptions.ChanceSecurityLockers
+{
+	type = double,
+	default = 2,
+	min = 0,
+	max = 10,
+	page = ammomaker,
+	translation = ammomaker_ChanceSecurityLockers,
+}
+
+option ammomakerOptions.ChanceHunter
+{
+	type = double,
+	default = 4,
+	min = 0,
+	max = 10,
+	page = ammomaker,
+	translation = ammomaker_ChanceHunter,
+}
+
+option ammomakerOptions.ChancePrisonArmoryShotguns
+{
+	type = double,
+	default = 5,
+	min = 0,
+	max = 20,
+	page = ammomaker,
+	translation = ammomaker_ChancePrisonArmoryShotguns,
+}

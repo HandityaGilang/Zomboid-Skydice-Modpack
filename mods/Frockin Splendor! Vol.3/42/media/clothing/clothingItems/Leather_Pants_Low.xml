@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>6844afb4-a30b-440c-a213-cdbcfa8f5a7f</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Leather\Pants\Leather_Pants\Leather_Pants_Low_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Pants\Leather_Pants\Leather_Pants_Low_1A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Pants\Leather_Pants\Leather_Pants_Low_1B</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Pants\Leather_Pants\Leather_Pants_Low_1C</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Pants\Leather_Pants\Leather_Pants_Low_1D</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Pants\Leather_Pants\Leather_Pants_Low_1E</m_BaseTextures>
+</clothingItem>

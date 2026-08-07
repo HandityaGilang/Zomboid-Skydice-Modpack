@@ -1,0 +1,10 @@
+{
+    "IGUI_BenchPress": "Bench-Press",
+    "IGUI_BenchPress_Tooltip": "Train on Bench-Press",
+    "IGUI_Treadmill": "Treadmill",
+    "IGUI_Treadmill_Tooltip": "Run on Treadmill",
+    "IGUI_need_barbell": "I need a barbell to do this exercise",
+    "IGUI_low_endurance": "I'm Too Exhausted",
+    "IGUI_pain": "I'm in Too Much Pain",
+    "IGUI_heavy": "Too Heavy to Use Right Now"
+}

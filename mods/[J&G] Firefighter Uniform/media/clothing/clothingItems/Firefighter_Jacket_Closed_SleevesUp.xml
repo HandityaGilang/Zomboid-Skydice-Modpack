@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\M_Jacket_Classic_RolledUpSleeves</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\F_Jacket_Classic_RolledUpSleeves</m_FemaleModel>
+	<m_GUID>cef062e1-3ea0-40ca-9060-24e1d1be6f75</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>13</m_Masks>
+	<m_Masks>14</m_Masks>
+	<m_UnderlayMasksFolder>media\textures\Clothes\Masks\JacketRolledUpSleeves</m_UnderlayMasksFolder>
+	<textureChoices>Clothes\Military\Jacket\FirefighterJacket-Black-HighVis</textureChoices>
+	<textureChoices>Clothes\Military\Jacket\FirefighterJacket-Brown-HighVis</textureChoices>
+	<textureChoices>Clothes\Military\Jacket\FirefighterJacket-Black-BlueHighVis</textureChoices>
+</clothingItem>

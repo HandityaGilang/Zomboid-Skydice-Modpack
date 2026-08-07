@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes\Boots_Heel\BootsRE_ThighHighHeel_M.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\Boots_Heel\BootsRE_ThighHighHeel_F.fbx</m_FemaleModel>
+	<m_GUID>15debb48-1c17-49ef-975e-018ec3ed2c11</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>	
+	<m_Masks>8</m_Masks>	
+	<m_Masks>10</m_Masks>
+	<m_Masks>11</m_Masks>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Masks/Masks_MediumBoots</m_UnderlayMasksFolder>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_Leather_ThighHigh_0</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_Leather_ThighHigh_1</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_Leather_ThighHigh_2</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_LeatherRed_ThighHigh_0</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_LeatherRed_ThighHigh_1</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_LeatherRed_ThighHigh_2</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_LeatherBrown_ThighHigh_0</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_LeatherBrown_ThighHigh_1</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_LeatherBrown_ThighHigh_2</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_LeatherYellow_ThighHigh_0</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_LeatherYellow_ThighHigh_1</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_LeatherYellow_ThighHigh_2</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_LeatherYellower_ThighHigh_0</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_LeatherYellower_ThighHigh_1</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_LeatherYellower_ThighHigh_2</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_LeatherBlack_ThighHigh_0</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_LeatherBlack_ThighHigh_1</textureChoices>
+	<textureChoices>clothes\Shoes\BootsRE\Boots_LeatherBlack_ThighHigh_2</textureChoices>
+
+</clothingItem>

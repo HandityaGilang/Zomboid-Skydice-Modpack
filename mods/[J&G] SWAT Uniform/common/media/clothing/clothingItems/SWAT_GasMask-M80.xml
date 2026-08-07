@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Static\Clothes\M_MaskHelmet_GasMask-M80</m_MaleModel>
+	<m_FemaleModel>Static\Clothes\F_MaskHelmet_GasMask-M80</m_FemaleModel>
+	<m_GUID>0b07deb3-da84-462c-8c60-9a6a2e76f350</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Head</m_AttachBone>
+	<m_HatCategory>nobeard</m_HatCategory>
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<textureChoices>Clothes\Military\Mask\SWAT1-GasMask-Tex</textureChoices>
+</clothingItem>

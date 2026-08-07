@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>8e293fea-37c1-499e-b816-1d65d000da04</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Leather\Gloves\Leather_Gloves_Short_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Gloves\Leather_Gloves_Short_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Gloves\Leather_Gloves_Short_2A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Gloves\Leather_Gloves_Short_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Gloves\Leather_Gloves_Short_4</m_BaseTextures>
+	
+	<m_BaseTextures>clothes\Material_Leather\Gloves\Leather_Short_Gloves</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Gloves\Leather_Short_Gloves_Alt</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Gloves\Leather_Short_Gloves_Alt2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Gloves\Leather_Short_Gloves_Alt3</m_BaseTextures>
+	
+</clothingItem>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>0098c182-fae6-4ab3-814d-b65fdcb43759</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Leather\Stockings\Leather_Stockings_Belt_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Stockings\Leather_Stockings_Belt_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Stockings\Leather_Stockings_Belt_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Stockings\Leather_Stockings_Belt_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Stockings\Leather_Stockings_Belt_4A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Stockings\Leather_Stockings_Belt_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Stockings\Leather_Stockings_Belt_6</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Stockings\Leather_Stockings_Belt_7</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Leather\Stockings\Leather_Stockings_Belt_8</m_BaseTextures>
+
+</clothingItem>

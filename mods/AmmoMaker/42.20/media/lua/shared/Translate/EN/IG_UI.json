@@ -1,0 +1,19 @@
+{
+
+"_AM_IGUI_comment_0": "CRAFT RECIPE CATEGORIES",
+
+    "IGUI_CraftingCategories_AmmoMaker": "Ammo Maker",
+    "IGUI_CraftingCategories_AmmoMakerAmmo": "Ammo Maker Ammo",
+    "IGUI_CraftingCategories_AmmoMakerParts": "Ammo Maker Parts",
+    "IGUI_CraftingCategories_AmmoMakerRecycle": "Ammo Maker Recycle",
+
+"_AM_IGUI_comment_1": "FORAGING CATEGORIES",
+
+    "IGUI_SearchMode_Categories_Casings": "Casings",
+    "IGUI_SearchMode_Categories_BirdProducts": "Bird Products",
+
+"_AM_IGUI_comment_2": "CONTAINER TITLES",
+
+    "IGUI_ContainerTitle_ammomaker_BirdFeeder": "Bird Feeder"
+
+}

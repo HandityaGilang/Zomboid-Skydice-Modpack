@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>skinned\clothes\M_ThighPads</m_MaleModel>
+	<m_FemaleModel>skinned\clothes\F_ThighPads</m_FemaleModel>
+	<m_GUID>131ed10d-91a3-4308-a22a-08bfab7649f0</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>Clothes\LegsProtection\Masks</m_MasksFolder>
+	<textureChoices>Clothes\Military\ArmourPads\SWAT_ThighPads_Black</textureChoices>
+</clothingItem>

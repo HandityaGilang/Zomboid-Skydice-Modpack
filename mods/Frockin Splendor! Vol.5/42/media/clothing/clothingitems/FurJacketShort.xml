@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Jacket_Puff\FurJacket_M.fbx</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Jacket_Puff\FurJacket_F.fbx</m_FemaleModel>
+	<m_GUID>13d64f76-94a0-4e0b-90e6-75fd64fd731d</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_MasksFolder>media/textures/Clothes/Suit/Masks</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Suit/Masks</m_UnderlayMasksFolder>
+	<textureChoices>clothes\Material_Furrrr\Jackets\FurCoatShort_1</textureChoices>
+	<textureChoices>clothes\Material_Furrrr\Jackets\FurCoatShort_2</textureChoices>
+</clothingItem>

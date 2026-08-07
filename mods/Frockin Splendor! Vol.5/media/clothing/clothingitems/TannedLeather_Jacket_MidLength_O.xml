@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Bob_Jacket_MidLength_O</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Kate_Jacket_MidLength_O</m_FemaleModel>
+	<m_GUID>ee5d4b95-ac22-46eb-bd65-839509a60a09</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+
+
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_MasksFolder>media/textures/Clothes/Masks_Underlay_OpenJacket</m_MasksFolder>
+	
+	<textureChoices>clothes\Material_LeatherTanned\Jackets\LeatherTanned_Jacket_MidLength_O</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Jackets\LeatherTannedRed_Jacket_MidLength_O</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Jackets\LeatherTannedYellow_Jacket_MidLength_O</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Jackets\LeatherTannedYellower_Jacket_MidLength_O</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Jackets\LeatherTannedBlack_Jacket_MidLength_O</textureChoices>
+</clothingItem>

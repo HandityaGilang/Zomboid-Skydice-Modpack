@@ -1,0 +1,5 @@
+Sandbox_JP = {
+    Sandbox_DrinkSmart = "Drink Smart",
+    Sandbox_DrinkSmart_AllowWaterDrinkLowThirst = "喉が渇いていなくても水を飲める",
+    Sandbox_DrinkSmart_AllowWaterDrinkLowThirst_tooltip = "有効にすると、喉の渇きが10%未満でも水源に「飲む」メニューが表示されます（インベントリ/コンテナ/地面パネル）。",
+}

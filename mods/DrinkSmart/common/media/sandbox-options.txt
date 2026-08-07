@@ -1,0 +1,9 @@
+VERSION = 1,
+
+option DrinkSmart.AllowWaterDrinkLowThirst
+{
+    type = boolean,
+    default = false,
+    page = DrinkSmart,
+    translation = DrinkSmart_AllowWaterDrinkLowThirst,
+}

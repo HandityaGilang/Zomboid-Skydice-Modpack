@@ -39,8 +39,11 @@ CD.registerBreed({
     typePrefix = "rott",
     nameKey = "IGUI_PD_Breed_rottweiler",
     litter = { 1, 2 },
-    -- Espelho do GS: guerreiro pleno (combate 2x, obediencia 1.5x, caca 1.2x).
-    xpMult = { scent = 1, combat = 2.0, obedience = 1.5, hunt = 1.2 },
+    -- Guerreiro pleno (combate 2x) como o GS, mas o resto do perfil e proprio desde a padronizacao 07-23: era um
+    -- ESPELHO exato do GS (mesmo xpMult, combatPower, curva, genes), entao nao havia razao mecanica pra preferir um.
+    -- Faro 1.5 = cao de guarda que DETECTA (o scent alimenta a sentinela); pastoreio 1.2 = a origem real da raca,
+    -- boiadeiro de Rottweil. Obediencia e caca caem pro neutro: sao os eixos que ficaram com o GS.
+    xpMult = { scent = 1.5, combat = 2.0, obedience = 1, hunt = 1, herding = 1.2 },
     combatPower = 0.6,
     lethalityCurve = { min = 0.40, max = 1.3 },
     canKnockdown = true,

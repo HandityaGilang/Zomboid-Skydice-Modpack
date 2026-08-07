@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Bob_PantsGeneric</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Kate_Trousers</m_FemaleModel>
+	<m_GUID>1859a9f0-7b22-4a63-b655-909ea56978cd</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>14</m_Masks>
+	<m_Masks>15</m_Masks>
+	<m_Masks>7</m_Masks>
+	<m_Masks>9</m_Masks>
+	
+	
+	<textureChoices>clothes\Material_LeatherTanned\Pants\LeatherTanned_Pants</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Pants\LeatherTanned_Pants_1_High</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Pants\LeatherTanned_Pants_2_High</textureChoices>
+	
+	<textureChoices>clothes\Material_LeatherTanned\Pants\LeatherTannedRed_Pants</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Pants\LeatherTannedRed_Pants_1_High</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Pants\LeatherTannedRed_Pants_2_High</textureChoices>
+	
+	<textureChoices>clothes\Material_LeatherTanned\Pants\LeatherTannedYellow_Pants</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Pants\LeatherTannedYellow_Pants_1_High</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Pants\LeatherTannedYellow_Pants_2_High</textureChoices>
+	
+	<textureChoices>clothes\Material_LeatherTanned\Pants\LeatherTannedYellower_Pants</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Pants\LeatherTannedYellower_Pants_1_High</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Pants\LeatherTannedYellower_Pants_2_High</textureChoices>
+	
+	<textureChoices>clothes\Material_LeatherTanned\Pants\LeatherTannedBlack_Pants</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Pants\LeatherTannedBlack_Pants_1_High</textureChoices>
+	<textureChoices>clothes\Material_LeatherTanned\Pants\LeatherTannedBlack_Pants_2_High</textureChoices>
+
+</clothingItem>

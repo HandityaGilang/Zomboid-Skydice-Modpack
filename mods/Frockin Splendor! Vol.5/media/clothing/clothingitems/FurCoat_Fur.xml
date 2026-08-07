@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Bob_FurCoat</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Kate_FurCoat</m_FemaleModel>
+	<m_GUID>0fc10b63-7a12-40ca-9515-6ac765c35b93</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_MasksFolder>media/textures/clothes/Masks/Masks_Underlay_OpenJacket</m_MasksFolder>
+	<textureChoices>clothes\Material_Furrrr\Jackets\FurCoat_1</textureChoices>
+	<textureChoices>clothes\Material_Furrrr\Jackets\FurCoat_2</textureChoices>
+	<textureChoices>clothes\Material_Furrrr\Jackets\FurCoat_3</textureChoices>
+
+</clothingItem>

@@ -1,0 +1,42 @@
+module Trex
+{
+    imports
+	{
+		Base
+	}
+
+    craftRecipe veggieTypeDriedTrex
+     {
+        time     = 86400,
+	    tags     = DryingRackHerb,
+        category = Farming,
+        overlayStyle = Herb,		
+        inputs
+        {
+            item 1 [Base.BellPepper;Base.Broccoli;Base.BrusselSprouts;Base.Carrots;Base.Cauliflower;Base.Cucumber;Base.Daikon;Base.Eggplant;Base.Onion;Base.Pumpkin;Base.Spinach;Base.SweetPotato;Base.Turnip;Base.Zucchini;Base.Tomato] mappers[veggieType] flags[InheritFoodAge;ItemCount] mode:destroy,
+        }
+		outputs
+		{
+			item 1 mapper:veggieType,
+		}
+		itemMapper veggieType
+		{
+			Trex.BellPepperdriedTrex     = Base.BellPepper,
+			Trex.BroccolidriedTrex       = Base.Broccoli,
+			Trex.BrusselSproutsdriedTrex = Base.BrusselSprouts, 
+			Trex.CarrotsdriedTrex        = Base.Carrots,
+			Trex.CauliflowerdriedTrex    = Base.Cauliflower, 
+			Trex.CucumberdriedTrex       = Base.Cucumber,
+			Trex.DaikondriedTrex         = Base.Daikon,
+			Trex.EggplantdriedTrex       = Base.Eggplant,
+			Trex.OniondriedTrex          = Base.Onion,
+			Trex.PumpkindriedTrex        = Base.Pumpkin,
+			Trex.SpinachdriedTrex        = Base.Spinach,
+			Trex.SweetPotatodriedTrex    = Base.SweetPotato,
+			Trex.TurnipdriedTrex         = Base.Turnip,
+			Trex.ZucchinidriedTrex       = Base.Zucchini,
+			Trex.TomatodriedTrex         = Base.Tomato,
+		}
+	}
+	 	 
+}

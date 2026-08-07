@@ -1,0 +1,567 @@
+module Base
+{
+    imports
+    {
+        Base
+    }
+
+    craftRecipe TraumaResponderHelmetRook
+    {
+        timedAction = Making,
+        Time = 180,
+        category = Tailoring,
+        tags = AnySurfaceCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 2 tags[base:thread],
+            item 1 [Base.Hat_Army;Base.Hat_ArmyDesert;Base.Hat_MetalScrapHelmet;Base.Hat_RiotHelmet;Base.Hat_SPHhelmet],
+        }
+        outputs
+        {
+            item 1 Base.Medical_Red_Helmet_Rook_FaceShield,
+        }
+    }
+
+    craftRecipe TraumaResponderHelmetDefender
+    {
+        timedAction = Making,
+        Time = 180,
+        category = Tailoring,
+        tags = AnySurfaceCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 2 tags[base:thread],
+            item 1 [Base.Hat_Army;Base.Hat_ArmyDesert;Base.Hat_MetalScrapHelmet;Base.Hat_RiotHelmet;Base.Hat_SPHhelmet],
+        }
+        outputs
+        {
+            item 1 Base.Medical_Red_Helmet,
+        }
+    }
+
+    craftRecipe TraumaResponderHelmetPatriot
+    {
+        timedAction = Making,
+        Time = 180,
+        category = Tailoring,
+        tags = AnySurfaceCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 2 tags[base:thread],
+            item 1 [Base.Hat_Army;Base.Hat_ArmyDesert;Base.Hat_MetalScrapHelmet;Base.Hat_RiotHelmet;Base.Hat_SPHhelmet],
+        }
+        outputs
+        {
+            item 1 Base.Medical_Red_Helmet_Patriot,
+        }
+    }
+
+    craftRecipe TraumaResponderCap
+    {
+        timedAction = Making,
+        Time = 100,
+        category = Tailoring,
+        tags = InHandCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+            item 2 tags[base:thread],
+            item 2 [Base.RippedSheets],
+            item 2 [Base.LeatherStrips],
+        }
+        outputs
+        {
+            item 1 Base.Medical_Red_Hat,
+        }
+    }
+
+    craftRecipe TraumaResponderBalaclava1Hole
+    {
+        timedAction = Making,
+        Time = 100,
+        category = Tailoring,
+        tags = InHandCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+            item 2 tags[base:thread],
+            item 4 [Base.RippedSheets],
+            item 2 [Base.LeatherStrips],
+        }
+        outputs
+        {
+            item 1 Base.Medical_Red_Balaclava_1Hole,
+        }
+    }
+
+    craftRecipe TraumaResponderBalaclava2Hole
+    {
+        timedAction = Making,
+        Time = 100,
+        category = Tailoring,
+        tags = InHandCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+            item 2 tags[base:thread],
+            item 4 [Base.RippedSheets],
+            item 2 [Base.LeatherStrips],
+        }
+        outputs
+        {
+            item 1 Base.Medical_Red_Balaclava_2Hole,
+        }
+    }
+
+    craftRecipe TraumaResponderGasMask
+    {
+        timedAction = Making,
+        Time = 200,
+        category = Tailoring,
+        tags = AnySurfaceCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+            item 1 [Base.Hat_GasMask;Base.Hat_GasMask_nofilter;Base.Hat_ImprovisedGasMask;Base.Hat_ImprovisedGasMask_nofilter],
+            item 4 [Base.LeatherStrips],
+            item 2 tags[base:thread],
+        }
+        outputs
+        {
+            item 1 Base.Medical_Red_GasMask,
+        }
+    }
+
+    craftRecipe TraumaResponderBalaclava3Hole
+    {
+        timedAction = Making,
+        Time = 100,
+        category = Tailoring,
+        tags = InHandCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+            item 2 tags[base:thread],
+            item 4 [Base.RippedSheets],
+            item 2 [Base.LeatherStrips],
+        }
+        outputs
+        {
+            item 1 Base.Medical_Red_Balaclava_3Hole,
+        }
+    }
+
+    craftRecipe TraumaResponderJacket
+    {
+        timedAction = Making,
+        Time = 120,
+        category = Tailoring,
+        tags = InHandCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+            item 6 [Base.LeatherStrips],
+            item 4 tags[base:thread],
+            item 4 [Base.RippedSheets],
+            item 2 tags[base:button],
+            item 2 tags[base:twine],
+        }
+        outputs
+        {
+            item 1 Base.Medical_Red_Jacket,
+        }
+    }
+
+    craftRecipe TraumaResponderVest
+    {
+        timedAction = Making,
+        Time = 180,
+        category = Tailoring,
+        tags = AnySurfaceCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+            item 2 [Base.LeatherStrips],
+            item 4 tags[base:thread],
+            item 2 [Base.Sheet],
+            item 1 tags[base:wire],
+            item 2 tags[base:smallsheetmetal] mode:destroy flags[ItemCount],
+        }
+        outputs
+        {
+            item 1 Base.Medical_Red_BulletproofVest_Patriot,
+        }
+    }
+
+    craftRecipe TraumaResponderShoulderPads
+    {
+        timedAction = Making,
+        Time = 120,
+        category = Tailoring,
+        tags = AnySurfaceCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+            item 2 [Base.LeatherStrips],
+            item 4 tags[base:thread],
+            item 2 [Base.RippedSheets],
+            item 1 tags[base:smallsheetmetal] mode:destroy flags[ItemCount],
+        }
+        outputs
+        {
+            item 1 Base.Medical_Red_ShoulderPads_Patriot,
+        }
+    }
+
+    craftRecipe TraumaResponderElbowPads
+    {
+        timedAction = Making,
+        Time = 120,
+        category = Tailoring,
+        tags = AnySurfaceCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+            item 2 [Base.LeatherStrips],
+            item 4 tags[base:thread],
+            item 2 [Base.RippedSheets],
+            item 1 tags[base:smallsheetmetal] mode:destroy flags[ItemCount],
+        }
+        outputs
+        {
+            item 1 Base.Medical_Red_ElbowPads,
+        }
+    }
+
+    craftRecipe TraumaResponderKneePads
+    {
+        timedAction = Making,
+        Time = 120,
+        category = Tailoring,
+        tags = AnySurfaceCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+            item 2 [Base.LeatherStrips],
+            item 4 tags[base:thread],
+            item 2 [Base.RippedSheets],
+            item 1 tags[base:smallsheetmetal] mode:destroy flags[ItemCount],
+        }
+        outputs
+        {
+            item 1 Base.Medical_Red_KneePads,
+        }
+    }
+
+    craftRecipe TraumaResponderKneePadsHeavy
+    {
+        timedAction = Making,
+        Time = 160,
+        category = Tailoring,
+        tags = AnySurfaceCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+            item 2 [Base.LeatherStrips],
+            item 4 tags[base:thread],
+            item 4 [Base.RippedSheets],
+            item 2 tags[base:smallsheetmetal] mode:destroy flags[ItemCount],
+        }
+        outputs
+        {
+            item 1 Base.Medical_Red_HeavyKneePads,
+        }
+    }
+
+    craftRecipe TraumaResponderGloves
+    {
+        timedAction = Making,
+        Time = 100,
+        category = Tailoring,
+        tags = InHandCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+            item 1 [Base.Gloves_LeatherGloves;Base.Gloves_LeatherGlovesBlack;Base.Gloves_LeatherGlovesBrown;Base.Gloves_HuntingCamo;Base.Gloves_FingerlessLeatherGloves;Base.Gloves_FingerlessLeatherGloves_Black],
+            item 2 tags[base:thread],
+            item 2 [Base.RippedSheets],
+            item 2 [Base.LeatherStrips],
+        }
+        outputs
+        {
+            item 1 Base.Medical_Red_Gloves,
+        }
+    }
+
+    craftRecipe TraumaResponderPants
+    {
+        timedAction = Making,
+        Time = 120,
+        category = Tailoring,
+        tags = InHandCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+            item 2 [Base.LeatherStrips],
+            item 2 tags[base:thread],
+            item 4 [Base.RippedSheets],
+            item 1 tags[base:button],
+            item 2 tags[base:twine],
+        }
+        outputs
+        {
+            item 1 Base.Medical_Red_Pants,
+        }
+    }
+
+    craftRecipe TraumaResponderBoots
+    {
+        timedAction = Making,
+        Time = 120,
+        category = Tailoring,
+        tags = InHandCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+            item 1 [Base.Shoes_ArmyBoots;Base.Shoes_ArmyBootsDesert;Base.Shoes_WorkBoots;Base.Shoes_HikingBoots;Base.Shoes_BlackBoots],
+            item 4 [Base.LeatherStrips],
+            item 2 tags[base:thread],
+            item 2 [Base.RippedSheets],
+        }
+        outputs
+        {
+            item 1 Base.Medical_Red_Boots,
+        }
+    }
+
+    craftRecipe TraumaResponderTacBoots
+    {
+        timedAction = Making,
+        Time = 100,
+        category = Tailoring,
+        tags = InHandCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+            item 1 [Base.Shoes_ArmyBoots;Base.Shoes_ArmyBootsDesert;Base.Shoes_WorkBoots;Base.Shoes_HikingBoots;Base.Shoes_BlackBoots],
+            item 4 [Base.LeatherStrips],
+            item 2 tags[base:thread],
+            item 2 [Base.RippedSheets],
+        }
+        outputs
+        {
+            item 1 Base.Medical_Red_TacBoots,
+        }
+    }
+
+    craftRecipe TraumaResponderStormPouchLarge
+    {
+        timedAction = Making,
+        Time = 200,
+        category = Tailoring,
+        tags = AnySurfaceCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+            item 4 [Base.LeatherStrips],
+            item 6 tags[base:thread],
+            item 2 [Base.Sheet],
+        }
+        outputs
+        {
+            item 1 Base.BagBack_StormPack_Large-Medic,
+        }
+    }
+
+    craftRecipe TraumaResponderStormPouchMedium
+    {
+        timedAction = Making,
+        Time = 180,
+        category = Tailoring,
+        tags = AnySurfaceCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+            item 4 [Base.LeatherStrips],
+            item 4 tags[base:thread],
+            item 2 [Base.Sheet],
+        }
+        outputs
+        {
+            item 1 Base.BagBack_StormPack_Medium-Medic,
+        }
+    }
+
+    craftRecipe TraumaResponderStormPouchSmall
+    {
+        timedAction = Making,
+        Time = 160,
+        category = Tailoring,
+        tags = AnySurfaceCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+            item 2 [Base.LeatherStrips],
+            item 2 tags[base:thread],
+            item 1 [Base.Sheet],
+        }
+        outputs
+        {
+            item 1 Base.BagBack_StormPack_Small-Medic,
+        }
+    }
+
+    craftRecipe TraumaResponderPackMedium
+    {
+        timedAction = Making,
+        Time = 200,
+        category = Tailoring,
+        tags = AnySurfaceCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+            item 4 [Base.LeatherStrips],
+            item 6 tags[base:thread],
+            item 2 [Base.Sheet],
+        }
+        outputs
+        {
+            item 1 Base.Medical_Red_DarkZonePack,
+        }
+    }
+
+    craftRecipe TraumaResponderRadioBackpack
+    {
+        timedAction = Making,
+        Time = 160,
+        category = Tailoring,
+        tags = AnySurfaceCraft,
+        SkillRequired = Tailoring:6,
+        xpAward = Tailoring:1,
+        NeedToBeLearn = True,
+        AutoLearnAny = Tailoring:6,
+        inputs
+        {
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:scissors] mode:keep flags[MayDegradeLight],
+            item 1 [Base.Bag_SurvivorBag;Base.Bag_ALICEpack;Base.Bag_ALICEpack_Army;Base.Bag_ALICEpack_DesertCamo;Base.Bag_Schoolbag;Base.Bag_Schoolbag_Travel;Base.Bag_Schoolbag_Patches;Base.Bag_Schoolbag_Kids;Base.Bag_Schoolbag_Medical;Base.Bag_BigHikingBag;Base.Bag_BigHikingBag_Travel],
+            item 2 [Base.LeatherStrips],
+            item 4 tags[base:thread],
+            item 1 [Base.Sheet],
+        }
+        outputs
+        {
+            item 1 Base.Medical_Red_Backpack,
+        }
+    }
+}

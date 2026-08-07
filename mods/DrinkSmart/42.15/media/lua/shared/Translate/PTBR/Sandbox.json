@@ -1,0 +1,5 @@
+{
+    "Sandbox_DrinkSmart": "Drink Smart",
+    "Sandbox_DrinkSmart_AllowWaterDrinkLowThirst": "Permitir beber água com pouca sede",
+    "Sandbox_DrinkSmart_AllowWaterDrinkLowThirst_tooltip": "Se ativado, as fontes de água mostrarão o menu Beber mesmo quando a sede estiver abaixo de 10％ (inventário/contêineres/painel do chão)."
+}
