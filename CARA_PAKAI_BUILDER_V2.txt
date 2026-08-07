@@ -1,0 +1,36 @@
+SKYDICE MANIFEST BUILDER v2.0
+
+LETAK FILE
+Taruh Build_Manifest_Fast.ps1 dan Build_Manifest_Fast.bat
+di folder utama repository, sejajar dengan folder Mods.
+
+Contoh:
+Zomboid-Skydice-Modpack\
+  Build_Manifest_Fast.bat
+  Build_Manifest_Fast.ps1
+  .gitattributes
+  Mods\
+
+CARA PAKAI
+Klik dua kali Build_Manifest_Fast.bat.
+
+HASIL
+Manifest dibuat otomatis di:
+Mods\manifest.json
+
+KECEPATAN
+- Run pertama dapat memakai hash dari manifest lama untuk membuat cache.
+- Run berikutnya hanya file baru/berubah yang dihitung SHA256.
+- Tidak memakai pengecekan bertahap pada updater.
+- URL LS_Artwork.pack otomatis diganti ke Google Drive.
+
+SEKALI SAJA
+Setelah builder membuat .gitattributes, jalankan dari Git Bash:
+git add .gitattributes
+git rm --cached -r .
+git add .
+git commit -m "Preserve exact mod file bytes"
+git push
+
+FULL REHASH (opsional)
+powershell -ExecutionPolicy Bypass -File .\Build_Manifest_Fast.ps1 -FullRehash

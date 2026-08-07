@@ -3,336 +3,306 @@
     [string]$Owner = "HandityaGilang",
     [string]$Repository = "Zomboid-Skydice-Modpack",
     [string]$Branch = "main",
-    [int]$HashWorkers = 8,
     [switch]$FullRehash
 )
 
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version 2.0
 
-$BuilderVersion = "FINAL-MODS-1.0"
-$ExternalPath = "Mods/LifestyleHobbies_KardinalTest/common/media/texturepacks/LS_Artwork.pack"
-$ExternalUrl  = "https://www.dropbox.com/scl/fi/oprab9zm7q57aelb156t0/LS_Artwork.pack?rlkey=0fijr6zbzjztyfo0cb25o6gny&st=cgnhk4e6&dl=1"
+$BuilderVersion = "2.0"
+$DrivePath = "mods/LifestyleHobbies_KardinalTest/common/media/texturepacks/LS_Artwork.pack"
+$DriveUrl  = "https://drive.google.com/uc?export=download&id=1pTtNBJhH8Djhbh9tR3pnZAF88bq4mpvO"
+$DriveHash = "48fe9c8e39740ec3b299ae56fc250571d9be61e3979f0766e24a8306964ccaea"
+$DriveSize = [Int64]143840426
 
-function Format-Bytes([Int64]$Bytes) {
+function Format-Bytes {
+    param([Int64]$Bytes)
     if ($Bytes -ge 1GB) { return "{0:N2} GB" -f ($Bytes / 1GB) }
     if ($Bytes -ge 1MB) { return "{0:N2} MB" -f ($Bytes / 1MB) }
     if ($Bytes -ge 1KB) { return "{0:N2} KB" -f ($Bytes / 1KB) }
     return "$Bytes B"
 }
 
-function Get-RelativeUnixPath([string]$BasePath, [string]$FullPath) {
-    $base = [IO.Path]::GetFullPath($BasePath).TrimEnd('\','/')
+function Get-RelativeUnixPath {
+    param([string]$BasePath, [string]$FullPath)
+
+    $base = [IO.Path]::GetFullPath($BasePath).TrimEnd('\', '/')
     $full = [IO.Path]::GetFullPath($FullPath)
     $prefix = $base + [IO.Path]::DirectorySeparatorChar
-    if (-not $full.StartsWith($prefix,[StringComparison]::OrdinalIgnoreCase)) {
+
+    if (-not $full.StartsWith($prefix, [StringComparison]::OrdinalIgnoreCase)) {
         throw "File berada di luar repository: $FullPath"
     }
-    return $full.Substring($prefix.Length).Replace('\','/')
+
+    return $full.Substring($prefix.Length).Replace('\', '/')
 }
 
-function Get-RawUrl([string]$RawBase,[string]$RelativePath) {
-    $parts = New-Object System.Collections.Generic.List[string]
-    foreach($part in ($RelativePath -split '/')) {
-        $parts.Add([Uri]::EscapeDataString($part))
+function Get-RawUrl {
+    param([string]$RawBase, [string]$RelativePath)
+
+    $parts = foreach ($part in ($RelativePath -split '/')) {
+        [Uri]::EscapeDataString($part)
     }
-    return $RawBase.TrimEnd('/') + "/" + ($parts -join '/')
+    return "$RawBase/" + ($parts -join '/')
 }
 
-function Load-JsonSafe([string]$Path) {
+function Load-JsonSafe {
+    param([string]$Path)
     if (-not (Test-Path -LiteralPath $Path -PathType Leaf)) { return $null }
-    try { return Get-Content -LiteralPath $Path -Raw -Encoding UTF8 | ConvertFrom-Json }
+
+    try {
+        return Get-Content -LiteralPath $Path -Raw -Encoding UTF8 | ConvertFrom-Json
+    }
     catch {
-        Write-Host "[WARN] Cache/manifest lama tidak dapat dibaca; file terkait akan di-hash ulang." -ForegroundColor Yellow
+        Write-Host "[WARN] Tidak dapat membaca $Path; file akan dibuat ulang." -ForegroundColor Yellow
         return $null
     }
 }
 
-function Write-JsonAtomic([object]$Object,[string]$Path,[int]$Depth) {
-    $tmp=$Path+".tmp"
-    [IO.File]::WriteAllText($tmp,($Object|ConvertTo-Json -Depth $Depth),(New-Object Text.UTF8Encoding($false)))
-    if(Test-Path -LiteralPath $Path){Remove-Item -LiteralPath $Path -Force}
-    Move-Item -LiteralPath $tmp -Destination $Path -Force
-}
-
-Clear-Host
-Write-Host "==========================================================" -ForegroundColor Cyan
-Write-Host " SKYDICE MANIFEST BUILDER $BuilderVersion" -ForegroundColor Cyan
-Write-Host " FAST CACHE + PARALLEL SHA256" -ForegroundColor Cyan
-Write-Host "==========================================================" -ForegroundColor Cyan
+Write-Host ""
+Write-Host "=================================================" -ForegroundColor Cyan
+Write-Host " SKYDICE MANIFEST BUILDER v$BuilderVersion - FAST CACHE" -ForegroundColor Cyan
+Write-Host "=================================================" -ForegroundColor Cyan
 Write-Host ""
 
-$RepositoryRoot=[IO.Path]::GetFullPath($RepositoryRoot.Trim().Trim('"'))
-$ModsRoot=Join-Path $RepositoryRoot "Mods"
-$ManifestPath=Join-Path $ModsRoot "manifest.json"
-$CachePath=Join-Path $RepositoryRoot ".skydice_manifest_cache.json"
-$AttributesPath=Join-Path $RepositoryRoot ".gitattributes"
-$RawBase="https://raw.githubusercontent.com/$Owner/$Repository/$Branch"
+$RepositoryRoot = [IO.Path]::GetFullPath($RepositoryRoot.Trim().Trim('"'))
+$modsRoot       = Join-Path $RepositoryRoot "mods"
+$ManifestPath   = Join-Path $modsRoot "manifest.json"
+$CachePath      = Join-Path $RepositoryRoot ".skydice_manifest_cache.json"
+$AttributesPath = Join-Path $RepositoryRoot ".gitattributes"
+$RawBase        = "https://raw.githubusercontent.com/$Owner/$Repository/$Branch"
 
-if(-not(Test-Path -LiteralPath $ModsRoot -PathType Container)){throw "Folder Mods tidak ditemukan: $ModsRoot"}
-
-if(-not(Test-Path -LiteralPath $AttributesPath -PathType Leaf) -or
-   ((Get-Content -LiteralPath $AttributesPath -Raw -ErrorAction SilentlyContinue)-notmatch '(?m)^\*\s+-text\s*$')){
-    [IO.File]::WriteAllText($AttributesPath,"* -text"+[Environment]::NewLine,(New-Object Text.UTF8Encoding($false)))
-    Write-Host "[OK]   .gitattributes: * -text" -ForegroundColor Green
+if (-not (Test-Path -LiteralPath $modsRoot -PathType Container)) {
+    Write-Host "[ERROR] Folder mods tidak ditemukan: $modsRoot" -ForegroundColor Red
+    exit 1
 }
 
-Write-Host "[INFO] Repository  : $RepositoryRoot"
-Write-Host "[INFO] Manifest    : $ManifestPath"
-Write-Host "[INFO] Hash worker : $HashWorkers"
-Write-Host "[INFO] Mode        : $(if($FullRehash){'FULL REHASH'}else{'FAST CACHE'})"
+# Pastikan Git tidak mengubah byte file teks.
+$requiredAttributes = "* -text"
+$writeAttributes = $true
+if (Test-Path -LiteralPath $AttributesPath -PathType Leaf) {
+    $existingAttributes = Get-Content -LiteralPath $AttributesPath -Raw
+    if ($existingAttributes -match '(?m)^\*\s+-text\s*$') {
+        $writeAttributes = $false
+    }
+}
+if ($writeAttributes) {
+    [IO.File]::WriteAllText(
+        $AttributesPath,
+        $requiredAttributes + [Environment]::NewLine,
+        (New-Object Text.UTF8Encoding($false))
+    )
+    Write-Host "[OK] .gitattributes dibuat otomatis: * -text" -ForegroundColor Green
+}
+
+Write-Host "[INFO] Repository : $RepositoryRoot"
+Write-Host "[INFO] Manifest   : $ManifestPath"
+Write-Host "[INFO] Cache      : $CachePath"
+Write-Host "[INFO] Mode       : $(if ($FullRehash) {'FULL REHASH'} else {'FAST CACHE'})"
 Write-Host ""
 
-$scanSw=[Diagnostics.Stopwatch]::StartNew()
-$files=@(
-    Get-ChildItem -LiteralPath $ModsRoot -File -Recurse -Force |
+$excludedNames = @("Thumbs.db", ".DS_Store", "manifest.json")
+
+$files = @(
+    Get-ChildItem -LiteralPath $modsRoot -File -Recurse -Force |
     Where-Object {
-        $_.Name -notin @("manifest.json","Thumbs.db",".DS_Store") -and
+        $excludedNames -notcontains $_.Name -and
         $_.FullName -notmatch '[\\/]\.git([\\/]|$)'
     } |
     Sort-Object FullName
 )
-$scanSw.Stop()
-if($files.Count-eq0){throw "Folder Mods tidak berisi file."}
-Write-Host "[INFO] Scan selesai : $($files.Count) file dalam $([Math]::Round($scanSw.Elapsed.TotalSeconds,2)) detik"
 
-$topLevelMods=@(
-    Get-ChildItem -LiteralPath $ModsRoot -Directory -Force |
-    Where-Object {$_.Name -notin @(".git",".github",".skydice","_updater","Updater")} |
+$topLevelmods = @(
+    Get-ChildItem -LiteralPath $modsRoot -Directory -Force |
+    Where-Object { $_.Name -notin @(".git", ".github", ".skydice", "_updater", "Updater") } |
     Sort-Object Name
 )
 
-$cacheJson=Load-JsonSafe $CachePath
-$cacheByPath=@{}
-if($cacheJson -and $cacheJson.files){
-    foreach($p in $cacheJson.files.PSObject.Properties){$cacheByPath[$p.Name]=$p.Value}
+if ($files.Count -eq 0) {
+    Write-Host "[ERROR] Tidak ada file mod yang ditemukan." -ForegroundColor Red
+    exit 1
 }
 
-# Old manifest is only a secondary bootstrap source. We DO NOT trust it based
-# on size alone. Cache remains the trusted fast path.
-$oldManifest=Load-JsonSafe $ManifestPath
-$oldByPath=@{}
-if($oldManifest -and $oldManifest.files){
-    foreach($e in @($oldManifest.files)){if($e.path){$oldByPath[[string]$e.path]=$e}}
+$oldManifest = Load-JsonSafe -Path $ManifestPath
+$oldByPath = @{}
+if ($oldManifest -and $oldManifest.files) {
+    foreach ($entry in $oldManifest.files) {
+        $oldByPath[[string]$entry.path] = $entry
+    }
 }
 
-# Prepare records first; hash only files that cannot be safely reused from cache.
-$records=New-Object System.Collections.Generic.List[object]
-$hashQueue=New-Object System.Collections.Generic.List[object]
-$totalBytes=0L
-$reused=0
+$cacheJson = Load-JsonSafe -Path $CachePath
+$cacheByPath = @{}
+if ($cacheJson -and $cacheJson.files) {
+    foreach ($property in $cacheJson.files.PSObject.Properties) {
+        $cacheByPath[$property.Name] = $property.Value
+    }
+}
 
-for($i=0;$i-lt$files.Count;$i++){
-    $f=$files[$i]
-    $relative=Get-RelativeUnixPath $RepositoryRoot $f.FullName
-    $size=[Int64]$f.Length
-    $ticks=[Int64]$f.LastWriteTimeUtc.Ticks
-    $sha=$null
+$start = Get-Date
+$manifestFiles = New-Object System.Collections.Generic.List[object]
+$newCache = @{}
+$totalBytes = [Int64]0
+$reused = 0
+$hashed = 0
 
-    # External Dropbox payload is always hashed to guarantee exact published metadata.
-    if($relative-ne$ExternalPath -and -not$FullRehash -and $cacheByPath.ContainsKey($relative)){
-        $c=$cacheByPath[$relative]
-        if([Int64]$c.size-eq$size -and
-           [Int64]$c.lastWriteTimeUtcTicks-eq$ticks -and
-           -not[string]::IsNullOrWhiteSpace([string]$c.sha256)){
-            $sha=([string]$c.sha256).ToLowerInvariant()
+for ($i = 0; $i -lt $files.Count; $i++) {
+    $file = $files[$i]
+    $relativePath = Get-RelativeUnixPath -BasePath $RepositoryRoot -FullPath $file.FullName
+    $size = [Int64]$file.Length
+    $ticks = [Int64]$file.LastWriteTimeUtc.Ticks
+    $sha = $null
+
+    # File Google Drive memakai hash tetap yang sudah diverifikasi.
+    if ($relativePath -eq $DrivePath) {
+        $sha = $DriveHash
+        $size = $DriveSize
+        $reused++
+    }
+    elseif (-not $FullRehash -and $cacheByPath.ContainsKey($relativePath)) {
+        $cached = $cacheByPath[$relativePath]
+        if (
+            [Int64]$cached.size -eq $size -and
+            [Int64]$cached.lastWriteTimeUtcTicks -eq $ticks -and
+            -not [string]::IsNullOrWhiteSpace([string]$cached.sha256)
+        ) {
+            $sha = ([string]$cached.sha256).ToLowerInvariant()
             $reused++
         }
     }
 
-    $rec=[pscustomobject]@{
-        Index=$i
-        File=$f
-        Path=$relative
-        Size=$size
-        Ticks=$ticks
-        Sha256=$sha
-    }
-    $records.Add($rec)
-    if(-not$sha){$hashQueue.Add($rec)}
-    $totalBytes+=$size
-
-    if(($i%2000)-eq0 -or $i-eq($files.Count-1)){
-        Write-Progress -Activity "Menyiapkan manifest" `
-            -Status "$($i+1) / $($files.Count) | cache $reused | perlu hash $($hashQueue.Count)" `
-            -PercentComplete ([int](100*($i+1)/$files.Count))
-    }
-}
-Write-Progress -Activity "Menyiapkan manifest" -Completed
-
-$hashedCount=0
-$hashedBytes=0L
-$hashSw=[Diagnostics.Stopwatch]::StartNew()
-
-if($hashQueue.Count-gt0){
-    Write-Host "[INFO] SHA256 diperlukan untuk $($hashQueue.Count) file."
-    Write-Host "[INFO] $reused file tidak di-hash ulang karena cache valid."
-
-    # Batch prevents 90k PowerShell jobs. Only ~N/256 runspace jobs are created.
-    $chunkSize=256
-    $chunks=New-Object System.Collections.Generic.List[object]
-    for($offset=0;$offset-lt$hashQueue.Count;$offset+=$chunkSize){
-        $count=[Math]::Min($chunkSize,$hashQueue.Count-$offset)
-        $arr=New-Object object[] $count
-        for($j=0;$j-lt$count;$j++){$arr[$j]=$hashQueue[$offset+$j]}
-        $chunks.Add($arr)
-    }
-
-    $pool=[RunspaceFactory]::CreateRunspacePool(1,[Math]::Max(1,$HashWorkers))
-    $pool.Open()
-    $active=New-Object System.Collections.Generic.List[object]
-    $next=0
-
-    $worker={
-        param([object[]]$Items)
-        $out=New-Object System.Collections.Generic.List[object]
-        foreach($x in $Items){
-            $stream=New-Object IO.FileStream(
-                [string]$x.File.FullName,
-                [IO.FileMode]::Open,
-                [IO.FileAccess]::Read,
-                [IO.FileShare]::Read,
-                1048576,
-                [IO.FileOptions]::SequentialScan
-            )
-            try{
-                $sha=[Security.Cryptography.SHA256]::Create()
-                try{$hb=$sha.ComputeHash($stream)}finally{$sha.Dispose()}
-            }finally{$stream.Dispose()}
-
-            $out.Add([pscustomobject]@{
-                Index=[int]$x.Index
-                Hash=[BitConverter]::ToString($hb).Replace('-','').ToLowerInvariant()
-                Bytes=[Int64]$x.Size
-            })
+    # Bootstrap cepat: manifest lama dibuat dari file lokal yang sama.
+    # Dipakai hanya bila cache belum ada dan ukuran file cocok.
+    if (
+        -not $sha -and
+        -not $FullRehash -and
+        -not $cacheJson -and
+        $oldByPath.ContainsKey($relativePath)
+    ) {
+        $old = $oldByPath[$relativePath]
+        if (
+            [Int64]$old.size -eq $size -and
+            -not [string]::IsNullOrWhiteSpace([string]$old.sha256)
+        ) {
+            $sha = ([string]$old.sha256).ToLowerInvariant()
+            $reused++
         }
-        return $out.ToArray()
     }
 
-    try{
-        while($next-lt$chunks.Count -or $active.Count-gt0){
-            while($next-lt$chunks.Count -and $active.Count-lt$HashWorkers){
-                $ps=[PowerShell]::Create()
-                $ps.RunspacePool=$pool
-                [void]$ps.AddScript($worker.ToString())
-                [void]$ps.AddArgument([object[]]$chunks[$next])
-                $active.Add([pscustomobject]@{PowerShell=$ps;Handle=$ps.BeginInvoke()})
-                $next++
-            }
-
-            for($a=$active.Count-1;$a-ge0;$a--){
-                $job=$active[$a]
-                if($job.Handle.IsCompleted){
-                    $out=$job.PowerShell.EndInvoke($job.Handle)
-                    $job.PowerShell.Dispose()
-                    $active.RemoveAt($a)
-
-                    foreach($r in $out){
-                        $records[[int]$r.Index].Sha256=[string]$r.Hash
-                        $hashedCount++
-                        $hashedBytes+=[Int64]$r.Bytes
-                    }
-                }
-            }
-
-            $rate=if($hashSw.Elapsed.TotalSeconds-gt0){[Int64]($hashedBytes/$hashSw.Elapsed.TotalSeconds)}else{0}
-            Write-Progress -Activity "SHA256 paralel ($HashWorkers worker)" `
-                -Status "$hashedCount / $($hashQueue.Count) | $(Format-Bytes $hashedBytes) | $(Format-Bytes $rate)/s" `
-                -PercentComplete ([int](100*$hashedCount/[Math]::Max(1,$hashQueue.Count)))
-            Start-Sleep -Milliseconds 10
-        }
-    }finally{
-        Write-Progress -Activity "SHA256 paralel ($HashWorkers worker)" -Completed
-        foreach($j in $active.ToArray()){try{$j.PowerShell.Stop();$j.PowerShell.Dispose()}catch{}}
-        $pool.Close();$pool.Dispose()
+    if (-not $sha) {
+        $sha = (Get-FileHash -LiteralPath $file.FullName -Algorithm SHA256).Hash.ToLowerInvariant()
+        $hashed++
     }
-}
-$hashSw.Stop()
 
-$manifestFiles=New-Object System.Collections.Generic.List[object]
-$newCache=@{}
-$modStats=@{}
-
-foreach($folder in $topLevelMods){
-    $modStats[$folder.Name]=[ordered]@{fileCount=0;size=0L}
-}
-
-foreach($r in $records){
-    if([string]::IsNullOrWhiteSpace([string]$r.Sha256)){throw "Hash kosong: $($r.Path)"}
-
-    $url=if($r.Path-eq$ExternalPath){$ExternalUrl}else{Get-RawUrl $RawBase $r.Path}
+    $url = if ($relativePath -eq $DrivePath) {
+        $DriveUrl
+    } else {
+        Get-RawUrl -RawBase $RawBase -RelativePath $relativePath
+    }
 
     $manifestFiles.Add([pscustomobject][ordered]@{
-        path=$r.Path
-        url=$url
-        size=[Int64]$r.Size
-        sha256=([string]$r.Sha256).ToLowerInvariant()
+        url    = $url
+        path   = $relativePath
+        sha256 = $sha
+        size   = $size
     })
 
-    $newCache[$r.Path]=[ordered]@{
-        size=[Int64]$r.Size
-        lastWriteTimeUtcTicks=[Int64]$r.Ticks
-        sha256=([string]$r.Sha256).ToLowerInvariant()
+    $newCache[$relativePath] = [ordered]@{
+        size                  = $size
+        lastWriteTimeUtcTicks = $ticks
+        sha256                = $sha
     }
 
-    # O(N), not nested O(mods*N)
-    if($r.Path -match '^Mods/([^/]+)/'){
-        $modName=$matches[1]
-        if($modStats.ContainsKey($modName)){
-            $modStats[$modName].fileCount++
-            $modStats[$modName].size+=[Int64]$r.Size
+    $totalBytes += $size
+
+    if (($i % 100) -eq 0 -or $i -eq ($files.Count - 1)) {
+        $done = $i + 1
+        $percent = [Math]::Floor(($done / $files.Count) * 100)
+        Write-Progress `
+            -Activity "Membangun manifest" `
+            -Status "$done / $($files.Count) | cache: $reused | hash baru: $hashed" `
+            -PercentComplete $percent
+    }
+}
+
+Write-Progress -Activity "Membangun manifest" -Completed
+
+$modsSummary = New-Object System.Collections.Generic.List[object]
+foreach ($modFolder in $topLevelmods) {
+    $prefix = "mods/$($modFolder.Name)/"
+    $count = 0
+    $modsize = [Int64]0
+
+    foreach ($entry in $manifestFiles) {
+        if ($entry.path.StartsWith($prefix, [StringComparison]::OrdinalIgnoreCase)) {
+            $count++
+            $modsize += [Int64]$entry.size
         }
     }
-}
 
-$modsSummary=New-Object System.Collections.Generic.List[object]
-foreach($folder in $topLevelMods){
-    $s=$modStats[$folder.Name]
     $modsSummary.Add([pscustomobject][ordered]@{
-        name=$folder.Name
-        fileCount=[int]$s.fileCount
-        size=[Int64]$s.size
+        name      = $modFolder.Name
+        fileCount = $count
+        size      = $modsize
     })
 }
 
-$manifest=[pscustomobject][ordered]@{
-    schemaVersion=2
-    generatedAt=(Get-Date).ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ")
-    repository=[pscustomobject][ordered]@{
-        owner=$Owner
-        name=$Repository
-        branch=$Branch
-        modsPath="Mods"
-        manifestPath="Mods/manifest.json"
-        rawBaseUrl=$RawBase
+$manifest = [pscustomobject][ordered]@{
+    schemaVersion = 1
+    generatedAt   = (Get-Date).ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ")
+    repository    = [pscustomobject][ordered]@{
+        owner      = $Owner
+        name       = $Repository
+        branch     = $Branch
+        modsPath   = "mods"
+        rawBaseUrl = $RawBase
     }
-    totals=[pscustomobject][ordered]@{
-        mods=$topLevelMods.Count
-        files=$manifestFiles.Count
-        size=$totalBytes
+    totals = [pscustomobject][ordered]@{
+        mods  = $topLevelmods.Count
+        files = $manifestFiles.Count
+        size  = $totalBytes
     }
-    mods=$modsSummary
-    files=$manifestFiles
+    mods  = $modsSummary
+    files = $manifestFiles
 }
 
-$cacheOut=[pscustomobject][ordered]@{
-    version=3
-    generatedAt=(Get-Date).ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ")
-    files=[pscustomobject]$newCache
+$cacheObject = [pscustomobject][ordered]@{
+    version     = 1
+    generatedAt = (Get-Date).ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ")
+    files       = [pscustomobject]$newCache
 }
 
-Write-JsonAtomic $manifest $ManifestPath 12
-Write-JsonAtomic $cacheOut $CachePath 8
+$utf8NoBom = New-Object Text.UTF8Encoding($false)
+[IO.File]::WriteAllText($ManifestPath, ($manifest | ConvertTo-Json -Depth 10), $utf8NoBom)
+[IO.File]::WriteAllText($CachePath, ($cacheObject | ConvertTo-Json -Depth 6), $utf8NoBom)
+
+$elapsed = (Get-Date) - $start
+$manifestSize = (Get-Item -LiteralPath $ManifestPath).Length
 
 Write-Host ""
-Write-Host "==========================================================" -ForegroundColor Green
-Write-Host " MANIFEST SELESAI" -ForegroundColor Green
-Write-Host "==========================================================" -ForegroundColor Green
-Write-Host "Total file       : $($manifestFiles.Count)"
-Write-Host "Ukuran modpack   : $(Format-Bytes $totalBytes)"
-Write-Host "Cache digunakan  : $reused"
-Write-Host "File di-hash     : $hashedCount"
-Write-Host "Data di-hash     : $(Format-Bytes $hashedBytes)"
-Write-Host "Waktu hashing    : $([Math]::Round($hashSw.Elapsed.TotalSeconds,2)) detik"
-Write-Host "Manifest         : $ManifestPath"
+Write-Host "[OK] manifest.json berhasil dibuat." -ForegroundColor Green
 Write-Host ""
+Write-Host "Ringkasan:"
+Write-Host "  Folder mod      : $($topLevelmods.Count)"
+Write-Host "  Total file      : $($manifestFiles.Count)"
+Write-Host "  Cache digunakan : $reused"
+Write-Host "  File di-hash    : $hashed"
+Write-Host "  Ukuran modpack  : $(Format-Bytes $totalBytes)"
+Write-Host "  Ukuran manifest : $(Format-Bytes $manifestSize)"
+Write-Host "  Waktu           : $([Math]::Round($elapsed.TotalSeconds, 2)) detik"
+Write-Host ""
+Write-Host "Manifest:"
+Write-Host "  $ManifestPath" -ForegroundColor Cyan
+Write-Host ""
+Write-Host "URL Google Drive sudah diterapkan otomatis pada:" -ForegroundColor Green
+Write-Host "  $DrivePath"
+Write-Host ""
+Write-Host "PENTING UNTUK SEKALI SAJA setelah menambah .gitattributes:" -ForegroundColor Yellow
+Write-Host "  git add .gitattributes"
+Write-Host "  git rm --cached -r ."
+Write-Host "  git add ."
+Write-Host "  git commit -m `"Preserve exact mod file bytes`""
+Write-Host "  git push"
+Write-Host ""
+Write-Host "Untuk memaksa pemeriksaan SHA256 seluruh file:" -ForegroundColor DarkGray
+Write-Host "  .\Build_Manifest_Fast.ps1 -FullRehash"
