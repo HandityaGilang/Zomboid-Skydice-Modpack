@@ -1,0 +1,24 @@
+module BasementBuilder
+{
+    craftRecipe MakeBasementStarterKit
+    {
+        timedAction = Making,
+        Time = 120,
+        NeedToBeLearn = false,
+        category = Carpentry,
+        Tags = InHandCraft;CanBeDoneFromFloor,
+        inputs
+        {
+            item 2 [Base.Wire],
+            item 1 [Base.LightBulb] flags[NoBrokenItems],
+            item 10 [Base.Nails],
+            item 20 [Base.Log],
+            item 10 [Base.SheetRope],
+            item 1 [Base.EmptySandbag],
+        }
+        outputs
+        {
+            item 1 BasementBuilder.BasementStarterKit,
+        }
+    }
+}

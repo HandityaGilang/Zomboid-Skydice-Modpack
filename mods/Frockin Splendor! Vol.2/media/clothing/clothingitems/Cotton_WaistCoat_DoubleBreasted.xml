@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>f274d47f-145f-41e0-824a-9611a55f1de3</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Cotton\Cotton_WaistCoat\WaistCoat_DoubleBreasted_T</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Cotton_WaistCoat\WaistCoat_DoubleBreasted_Grey</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Cotton_WaistCoat\WaistCoat_DoubleBreasted_Dark</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Cotton_WaistCoat\WaistCoat_DoubleBreasted_Black</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Cotton_WaistCoat\WaistCoat_DoubleBreasted_Red</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Cotton_WaistCoat\WaistCoat_DoubleBreasted_Brown</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Cotton_WaistCoat\WaistCoat_DoubleBreasted_Purp</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Cotton_WaistCoat\WaistCoat_DoubleBreasted_Blu</m_BaseTextures>
+</clothingItem>

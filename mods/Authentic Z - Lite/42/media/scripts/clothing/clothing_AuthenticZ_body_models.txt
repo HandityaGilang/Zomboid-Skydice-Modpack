@@ -1,0 +1,133 @@
+module AuthenticZLite {
+  imports {
+      Base
+  }	
+	item AlienBody
+	{
+       DisplayCategory = Clothing,		
+        ItemType				= base:Clothing,
+		ClothingItem = AlienBody,
+		BodyLocation = Torso1Legs1,
+		Icon = AZGrayAlien,
+		WorldStaticModel = 	WorldItem_AlienBody,		
+	}
+	item FatBody01
+	{
+       DisplayCategory = Clothing,		
+        ItemType				= base:Clothing,
+		ClothingItem = FatBody01_DadBod,
+		BodyLocation = Torso1Legs1,
+		Icon = AZDadBod,
+        WorldRender = false,
+        hidden = true,		
+	}
+	item FatBody01_DadBod
+	{
+       DisplayCategory = Clothing,		
+        ItemType				= base:Clothing,
+		ClothingItem = FatBody01_DadBod,
+		BodyLocation = Torso1Legs1,
+		Icon = AZDadBod,
+        WorldRender = false,
+        hidden = true,		
+	}
+	item FatBody01_MiddleAged
+	{
+       DisplayCategory = Clothing,		
+        ItemType				= base:Clothing,
+		ClothingItem = FatBody01_MiddleAged,
+		BodyLocation = Torso1Legs1,
+		Icon = AZDadBod,
+        WorldRender = false,
+        hidden = true,		
+	}	
+	item FatBody02_BurgerLover
+	{
+       DisplayCategory = Clothing,		
+        ItemType				= base:Clothing,
+		ClothingItem = FatBody02_BurgerLover,
+		BodyLocation = Torso1Legs1,
+		Icon = AZDadBod,
+        WorldRender = false,
+        hidden = true,		
+	}
+	item FatBody02_PlusSize
+	{
+       DisplayCategory = Clothing,		
+        ItemType				= base:Clothing,
+		ClothingItem = FatBody02_PlusSize,
+		BodyLocation = Torso1Legs1,
+		Icon = AZDadBod,
+        WorldRender = false,
+        hidden = true,		
+	}
+	item FatBody02_Cheese
+	{
+       DisplayCategory = Clothing,		
+        ItemType				= base:Clothing,
+		ClothingItem = FatBody02_Cheese,
+		BodyLocation = Torso1Legs1,
+		Icon = AZDadBod,
+        WorldRender = false,
+        hidden = true,		
+	}	
+	item FatBody03_ObeseBod
+	{
+        DisplayCategory = Clothing,		
+        ItemType				= base:Clothing,
+		ClothingItem = FatBody03_ObeseBod,
+		BodyLocation = Torso1Legs1,
+		Icon = AZDadBod,
+        WorldRender = false,
+        hidden = true,		
+	}
+	item FatBody03_ObeseFemale
+	{
+        DisplayCategory = Clothing,		
+        ItemType				= base:Clothing,
+		ClothingItem = FatBody03_ObeseFemale,
+		BodyLocation = Torso1Legs1,
+		Icon = AZDadBod,
+        WorldRender = false,
+        hidden = true,		
+	}	
+	item FatBody03_ObeseBod_Clown
+	{
+        DisplayCategory = Clothing,		
+        ItemType				= base:Clothing,
+		ClothingItem = FatBody03_ObeseBod_Clown,
+		BodyLocation = Torso1Legs1,
+		Icon = AZDadBod,
+        WorldRender = false,
+        hidden = true,		
+	}
+	item FatBody03_ObeseBod_Shockmaster
+	{
+        DisplayCategory = Clothing,		
+        ItemType				= base:Clothing,
+		ClothingItem = FatBody03_ObeseBod_Shockmaster,
+		BodyLocation = Torso1Legs1,
+		Icon = AZDadBod,
+        WorldRender = false,
+        hidden = true,		
+	}
+	item SkeletonBody
+	{
+       DisplayCategory = Clothing,		
+        ItemType				= base:Clothing,
+		ClothingItem = SkeletonBody,
+		BodyLocation = Torso1Legs1,
+		IconsForTexture = SkeletonBod;MeatySkeletonBod;SkeletonWhiteBod;SkeletonBlackBod,
+		WorldStaticModel = WorldItem_Skele_Body,		
+	}		
+	item SkinnyBody_M
+	{
+        DisplayCategory = Clothing,		
+        ItemType				= base:Clothing,
+		ClothingItem = Thin01_Body,
+		BodyLocation = Torso1Legs1,
+		Icon = AZDadBod,
+        WorldRender = false,
+        hidden = true,		
+	}	
+}

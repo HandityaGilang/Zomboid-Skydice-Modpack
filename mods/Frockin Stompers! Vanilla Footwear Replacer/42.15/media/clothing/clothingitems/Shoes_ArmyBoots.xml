@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes2\BootsRE_Chelsea\BootsRE_Chelsea_AnkleHigher_M.fbx</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes2\BootsRE_Chelsea\BootsRE_Chelsea_AnkleHigher_F.fbx</m_FemaleModel>
+	<m_GUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>	
+	<m_Masks>8</m_Masks>	
+	<m_Masks>10</m_Masks>
+
+	<m_MasksFolder>media/textures/Clothes/Hat/Masks</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Masks/Masks_MediumBoots_5B</m_UnderlayMasksFolder>
+	<textureChoices>clothes\Shoes2\BootsRE_Chelsea\Boots_Chelsea_Combat_5</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Chelsea\Boots_Chelsea_Combat_6</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Chelsea\Boots_Chelsea_Combat_7</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Chelsea\Boots_Chelsea_Combat_8</textureChoices>
+	<textureChoices>clothes\Shoes2\BootsRE_Chelsea\Boots_Chelsea_Combat_9</textureChoices>
+	
+</clothingItem>

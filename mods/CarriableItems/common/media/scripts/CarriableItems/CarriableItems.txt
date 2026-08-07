@@ -1,0 +1,1873 @@
+module Base
+{   
+item Sponge
+{
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+}
+item CleaningLiquid2
+{
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+}
+item Bleach
+{
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+}
+
+item BeerCanEmpty
+{
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+}
+item MayonnaiseEmpty
+{
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+}
+item RemouladeEmpty
+{
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+}
+item PopEmpty
+{
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+}
+item Pop2Empty
+{
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+}
+item Pop3Empty
+{
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+}
+item TinCanEmpty
+{
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+}
+item WaterRationCanEmpty
+{
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+}
+item BeerEmpty
+{
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+}
+item BeerCan
+{
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+}
+item Whiskey
+{
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+}
+item Wine
+{
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+}
+item Wine2
+{
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+}
+item WineOpen
+{
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+}
+item Wine2Open
+{
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+}
+item WineAged
+{
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+}
+item WineScrewtop
+{
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+}
+item BeerCanPack
+{
+        StaticModel = BeerCanSixpack_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+}
+item BeerPack
+{
+        StaticModel = BeerBottleSixpack_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+}
+item Spiffo
+{
+        StaticModel = SpiffoPlushie_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+}
+item SpiffoBig
+{
+        StaticModel = SpiffoPlushieBig_Hand,
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+item TrashGoblin
+{
+        StaticModel = PlushieTrashGoblin_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+item ToyBear
+{
+        StaticModel = ToyBear_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+item ToyBear_Crafted_Cotton
+{
+        StaticModel = ToyBear_Crafted_Cotton_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+item ToyBear_Crafted_Burlap
+{
+        StaticModel = ToyBear_Crafted_Denim,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+item BorisBadger
+{
+        StaticModel = PlushieBadger_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+item EyeOfCthulhu
+{
+        StaticModel = PlushieEyeOfChulhu_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+item FluffyfootBunny
+{
+        StaticModel = PlushieRabbit_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+item FreddyFox
+{
+        StaticModel = PlushieFox_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+item FurbertSquirrel
+{
+        StaticModel = PlushieSquirrel_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+item MoleyMole
+{
+        StaticModel = PlushieMole_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+item PancakeHedgehog
+{
+        StaticModel = PlushieHedgehog_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+item PanchoDog
+{
+        StaticModel = Pancho_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+item Plushabug
+{
+        StaticModel = Plushabug_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+
+
+
+item Paintbrush
+    {
+        StaticModel = PaintBrush_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+    item PaintbrushCrafted
+    {
+        StaticModel = PaintBrush_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+item Soap2
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+item FrontCarDoor1
+{
+    StaticModel = CarDoor_Hand,
+    primaryAnimMask = holdingbagright,
+    secondaryAnimMask = holdingbagleft,
+}
+item FrontCarDoor2
+{
+    StaticModel = CarDoor_Hand,
+    primaryAnimMask = holdingbagright,
+    secondaryAnimMask = holdingbagleft,
+}
+item FrontCarDoor3
+{
+    StaticModel = CarDoor_Hand,
+    primaryAnimMask = holdingbagright,
+    secondaryAnimMask = holdingbagleft,
+}
+item RearCarDoor1
+{
+    StaticModel = CarDoor_Hand,
+    primaryAnimMask = holdingbagright,
+    secondaryAnimMask = holdingbagleft,
+}
+item RearCarDoor2
+{
+    StaticModel = CarDoor_Hand,
+    primaryAnimMask = holdingbagright,
+    secondaryAnimMask = holdingbagleft,
+}
+item RearCarDoor3
+{
+    StaticModel = CarDoor_Hand,
+    primaryAnimMask = holdingbagright,
+    secondaryAnimMask = holdingbagleft,
+}
+item RearCarDoorDouble1
+{
+    StaticModel = CarDoor_Hand,
+    primaryAnimMask = holdingbagright,
+    secondaryAnimMask = holdingbagleft,
+}
+item RearCarDoorDouble2
+{
+    StaticModel = CarDoor_Hand,
+    primaryAnimMask = holdingbagright,
+    secondaryAnimMask = holdingbagleft,
+}
+item RearCarDoorDouble3
+{
+    StaticModel = CarDoor_Hand,
+    primaryAnimMask = holdingbagright,
+    secondaryAnimMask = holdingbagleft,
+}
+item EngineDoor1
+{
+    StaticModel = CarHood_Hand,
+    primaryAnimMask = holdingbagright,
+    secondaryAnimMask = holdingbagleft,
+}
+item EngineDoor2
+{
+    StaticModel = CarHood_Hand,
+    primaryAnimMask = holdingbagright,
+    secondaryAnimMask = holdingbagleft,
+}
+item EngineDoor3
+{
+    StaticModel = CarHood_Hand,
+    primaryAnimMask = holdingbagright,
+    secondaryAnimMask = holdingbagleft,
+}
+item TrunkDoor1
+{
+    StaticModel = CarTrunk_Hand,
+    primaryAnimMask = holdingbagright,
+    secondaryAnimMask = holdingbagleft,
+}
+item TrunkDoor2
+{
+    StaticModel = CarTrunk_Hand,
+    primaryAnimMask = holdingbagright,
+    secondaryAnimMask = holdingbagleft,
+}
+item TrunkDoor3
+{
+    StaticModel = CarTrunk_Hand,
+    primaryAnimMask = holdingbagright,
+    secondaryAnimMask = holdingbagleft,
+}
+item OldCarMuffler1
+{
+    StaticModel = Muffler_Hand,
+    primaryAnimMask = holdingbagright,
+    secondaryAnimMask = holdingbagleft,
+}
+item OldCarMuffler2
+{
+    StaticModel = Muffler_Hand,
+    primaryAnimMask = holdingbagright,
+    secondaryAnimMask = holdingbagleft,
+}
+item OldCarMuffler3
+{
+    StaticModel = Muffler_Hand,
+    primaryAnimMask = holdingbagright,
+    secondaryAnimMask = holdingbagleft,
+}
+item NormalCarMuffler1
+{
+    StaticModel = Muffler_Hand,
+    primaryAnimMask = holdingbagright,
+    secondaryAnimMask = holdingbagleft,
+}
+item NormalCarMuffler2
+{
+    StaticModel = Muffler_Hand,
+    primaryAnimMask = holdingbagright,
+    secondaryAnimMask = holdingbagleft,
+}
+item NormalCarMuffler3
+{
+    StaticModel = Muffler_Hand,
+    primaryAnimMask = holdingbagright,
+    secondaryAnimMask = holdingbagleft,
+}
+item ModernCarMuffler1
+{
+    StaticModel = Muffler_Hand,
+    primaryAnimMask = holdingbagright,
+    secondaryAnimMask = holdingbagleft,
+}
+item ModernCarMuffler2
+{
+    StaticModel = Muffler_Hand,
+    primaryAnimMask = holdingbagright,
+    secondaryAnimMask = holdingbagleft,
+}
+item ModernCarMuffler3
+{
+    StaticModel = Muffler_Hand,
+    primaryAnimMask = holdingbagright,
+    secondaryAnimMask = holdingbagleft,
+}
+item OldTire1
+    {
+    StaticModel = Wheel_Hand,
+    primaryAnimMask = holdingbagright,
+    secondaryAnimMask = holdingbagleft,
+}
+item OldTire2
+{
+    StaticModel = Wheel_Hand,
+    primaryAnimMask = holdingbagright,
+    secondaryAnimMask = holdingbagleft,
+}
+item OldTire3
+{
+    StaticModel = Wheel_Hand,
+    primaryAnimMask = holdingbagright,
+    secondaryAnimMask = holdingbagleft,
+}
+item NormalTire1
+{
+    StaticModel = Wheel_Hand,
+    primaryAnimMask = holdingbagright,
+    secondaryAnimMask = holdingbagleft,
+}
+item NormalTire2
+{
+    StaticModel = Wheel_Hand,
+    primaryAnimMask = holdingbagright,
+    secondaryAnimMask = holdingbagleft,
+}
+item NormalTire3
+{
+    StaticModel = Wheel_Hand,
+    primaryAnimMask = holdingbagright,
+    secondaryAnimMask = holdingbagleft,
+}
+item ModernTire1
+{
+    StaticModel = Wheel_Hand,
+    primaryAnimMask = holdingbagright,
+    secondaryAnimMask = holdingbagleft,
+}
+item ModernTire2
+{
+    StaticModel = Wheel_Hand,
+    primaryAnimMask = holdingbagright,
+    secondaryAnimMask = holdingbagleft,
+}
+item ModernTire3
+{
+    StaticModel = Wheel_Hand,
+    primaryAnimMask = holdingbagright,
+    secondaryAnimMask = holdingbagleft,
+}
+    item WalkieTalkie1
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item WalkieTalkie2
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item WalkieTalkie3
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    
+    item WalkieTalkie4
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item WalkieTalkie5
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item WalkieTalkieMakeShift
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+     item RemoteCraftedV1
+    {
+        StaticModel = RemoteController_Hand,
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item RemoteCraftedV2
+        {
+            StaticModel = RemoteController_Hand,
+            primaryAnimMask = HoldingUmbrellaRight,
+            secondaryAnimMask = HoldingUmbrellaLeft,
+        }
+    item RemoteCraftedV3
+        {
+            StaticModel = RemoteController_Hand,
+            primaryAnimMask = HoldingUmbrellaRight,
+            secondaryAnimMask = HoldingUmbrellaLeft,
+        }
+    item CDplayer
+    {
+        StaticModel = CDPlayer_Hand,
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item RadioBlack
+    {
+        StaticModel = RadioBlack_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item RadioMakeShift
+    {
+        StaticModel = RadioBlue_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item RadioRed
+    {
+        StaticModel = RadioRed_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+
+    item SheepElectricShears
+    {
+        StaticModel = SheepShears_Electric_Ground,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item TinOpener
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item BakingPan
+    {
+        StaticModel = BakingPan,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item BakingTray
+    {
+        StaticModel = BakingTray,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item BastingBrush
+    {
+        StaticModel = BastingBrush,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item BottleOpener
+    {
+        StaticModel = BottleOpener,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item CheeseGrater
+    {
+        StaticModel = CheeseGrater,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item Kettle_Copper
+    {
+        StaticModel = Kettle_Copper_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        
+    }
+    item Kettle
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item JarCrafted
+    {
+        primaryAnimMask = holdingUmbrellaRight,
+        secondaryAnimMask = holdingUmbrellaLeft,
+    }
+    item EmptyJar
+    {
+        primaryAnimMask = holdingUmbrellaRight,
+        secondaryAnimMask = holdingUmbrellaLeft,
+    }
+    item Pot
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item PotForged
+    {   
+        StaticModel = PotForged_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item P38
+    {
+        StaticModel = CanopenerP38,
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item PancakeMix
+    {
+        StaticModel = PancakeMix_Ground,
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+
+
+    item BBQStarterFluid
+    {
+        StaticModel = BBQStarterFluid,
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item LighterFluid
+    {
+        StaticModel = LighterFluid,
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item Vinegar2
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item Vinegar_Jug
+    {
+        StaticModel = VinegarJug_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item Propane_Refill
+    {
+        StaticModel = Propane_Refill,
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item RatPoison
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item ToiletPaper
+    {
+        StaticModel = ToiletPaper,
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item CorrectionFluid
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item Twine
+    {
+        StaticModel = Twine,
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item Matches
+    {
+        StaticModel = Matches,
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item Matchbox
+    {
+        StaticModel = Matchbox,
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item CigarettePack
+    {
+        ReplaceInPrimaryHand = CigarettePack_Closed HoldingUmbrellaRight,
+        ReplaceInSecondHand = CigarettePack_Closed HoldingUmbrellaLeft,
+    }
+    item DentalFloss
+    {
+        StaticModel = DentalFloss,
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item CarBattery1
+    {
+        StaticModel = CarBattery_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item CarBattery2
+    {
+        StaticModel = CarBattery_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item CarBattery3
+    {
+        StaticModel = CarBattery_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item Bullhorn
+    {
+        StaticModel = Megaphone_Hands,
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item FabricRoll_Cotton
+    {
+        StaticModel = FabricRoll_White_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item FabricRoll_DenimBlack
+    {
+        StaticModel = FabricRoll_Black_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item FabricRoll_DenimBlue
+    {
+        StaticModel = FabricRoll_Blue_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item FabricRoll_DenimDarkBlue
+    {
+        StaticModel = FabricRoll_DarkBlue_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item SlugRepellent
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item AnimalFeedBag
+    {   
+        StaticModel = CompostBag,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item AnimalMilkPowder
+    {
+        StaticModel = MilkPowder_Sack,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item WaterPurificationTablets
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item Pills
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+
+    item PillsAntiDep
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+
+    item PillsBeta
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+
+    item PillsSleepingTablets
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+
+    item PillsVitamins
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+
+    item BlowTorch
+    {
+        primaryAnimMask = HoldingTorchRight,
+        secondaryAnimMask = HoldingTorchLeft,
+    }
+
+    item PropaneTank
+    {
+        ReplaceInPrimaryHand = PropaneTankRight holdingbagright,
+        ReplaceInSecondHand =PropaneTankLeft holdingbagleft,
+    }
+    item Oxygen_Tank
+    {
+        StaticModel = OxygenTank_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item Extinguisher
+    {
+        StaticModel = Extinguisher_Hand,
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item Bowl
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item ClayBowl
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+
+    item ClayBowlUnfired
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item PaintBlack
+    {   
+        StaticModel = PaintTin2Black_Ground,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+    item PaintBlue
+    {
+        StaticModel = PaintTin2Blue_Ground,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+    item PaintBrown
+    {
+        StaticModel = PaintTin2Brown_Ground,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+    item PaintCyan
+    {
+        StaticModel = PaintTin2Cyan_Ground,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+    item PaintGreen
+    {
+        StaticModel = PaintTin2Green_Ground,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+    item PaintGrey
+    {
+        StaticModel = PaintTin2Grey_Ground,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+    item PaintLightBlue
+    {
+        StaticModel = PaintTin2LightBlue_Ground,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+    item PaintLightBrown
+    {
+        StaticModel = PaintTin2LightBrown_Ground,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+    item PaintOrange
+    {
+        StaticModel = PaintTin2Orange_Ground,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+    item PaintPink
+    {
+        StaticModel = PaintTin2Pink_Ground,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+    item PaintPurple
+    {
+        StaticModel = PaintTin2Purple_Ground,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+    item PaintRed
+    {
+        StaticModel = PaintTin2Red_Ground,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+    item PaintTurquoise
+    {
+        StaticModel = PaintTin2Turquoise_Ground,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+    item PaintWhite
+    {
+        StaticModel = PaintTin2White_Ground,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+    item PaintYellow
+    {
+        StaticModel = PaintTin2Yellow_Ground,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+    item SprayPaint
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item Bucket
+    {
+        StaticModel = Bucket,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item BucketCarved
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item BucketForged
+    {
+        StaticModel = Bucket_Forged_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item BucketEmpty
+    {
+        StaticModel = Bucket,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item Canteen
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item GlassTumbler
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item CanteenClay
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item DrinkingGlass
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item FountainCupWater
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item Goblet
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item Goblet_Gold
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item Goblet_Silver
+     {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item Goblet_Wood
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item HotWaterBottle
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item SimpleSyrup
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item Woodglue
+    {
+        StaticModel = WoodGlue,
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item DuctTape
+    {
+        StaticModel = DuctTape,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item Epoxy
+    {
+        StaticModel = Epoxy,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item FiberglassTape
+    {
+        StaticModel = FiberglassTape,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item Glue
+    {
+        StaticModel = Glue,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item Wire
+    {
+        StaticModel = Wire,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item Wallpaper_BeigeStripe
+    {
+        StaticModel = Wallpaper_BeigeStripe_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item Wallpaper_BlackFloral
+    {
+        StaticModel = Wallpaper_BlackFloral_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item Wallpaper_BlueStripe
+    {
+        StaticModel = Wallpaper_BlueStripe_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item Wallpaper_GreenDiamond
+    {
+        StaticModel = Wallpaper_GreenDiamond_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item Wallpaper_GreenFloral
+    {
+        StaticModel = Wallpaper_GreenFloral_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item Wallpaper_PinkChevron
+    {
+        StaticModel = Wallpaper_PinkChevron_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item Wallpaper_PinkFloral
+    {
+        StaticModel = Wallpaper_PinkFloral_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+    item Mugl
+    {
+        primaryAnimMask = HoldingAngleTorchRight,
+        secondaryAnimMask = HoldingAngleTorchLeft,
+    }
+    item MugWhite
+    {
+        primaryAnimMask = HoldingAngleTorchRight,
+        secondaryAnimMask = HoldingAngleTorchLeft,
+    }
+    item MugSpiffo
+    {
+        primaryAnimMask = HoldingAngleTorchRight,
+        secondaryAnimMask = HoldingAngleTorchLeft,
+    }
+    item Teacup
+    {
+        primaryAnimMask = HoldingAngleTorchRight,
+        secondaryAnimMask = HoldingAngleTorchLeft,
+    }
+    item ClayMug
+    {
+        primaryAnimMask = HoldingAngleTorchRight,
+        secondaryAnimMask = HoldingAngleTorchLeft,
+    }
+    item ClayMugUnfired
+    {
+        primaryAnimMask = HoldingAngleTorchRight,
+        secondaryAnimMask = HoldingAngleTorchLeft,
+    }
+    item CeramicTeacup
+    {
+        primaryAnimMask = HoldingAngleTorchRight,
+        secondaryAnimMask = HoldingAngleTorchLeft,
+    }
+    item CeramicTeacupUnfired
+    {
+        primaryAnimMask = HoldingAngleTorchRight,
+        secondaryAnimMask = HoldingAngleTorchLeft,
+    }
+    item CopperCup
+    {
+        primaryAnimMask = HoldingAngleTorchRight,
+        secondaryAnimMask = HoldingAngleTorchLeft,
+    }
+    item FountainCup
+    {
+        primaryAnimMask = HoldingAngleTorchRight,
+        secondaryAnimMask = HoldingAngleTorchLeft,
+    }
+    item FountainCupWater
+    {
+        primaryAnimMask = HoldingAngleTorchRight,
+        secondaryAnimMask = HoldingAngleTorchLeft,
+    }
+    item GoldCup
+    {
+        primaryAnimMask = HoldingAngleTorchRight,
+        secondaryAnimMask = HoldingAngleTorchLeft,
+    }
+    item MetalCup
+    {
+        primaryAnimMask = HoldingAngleTorchRight,
+        secondaryAnimMask = HoldingAngleTorchLeft,
+    }
+    item PlasticCup
+    {
+        primaryAnimMask = HoldingAngleTorchRight,
+        secondaryAnimMask = HoldingAngleTorchLeft,
+    }
+    item SilverCup
+    {
+        primaryAnimMask = HoldingAngleTorchRight,
+        secondaryAnimMask = HoldingAngleTorchLeft,
+    }
+    item Teacup
+    {
+        primaryAnimMask = HoldingAngleTorchRight,
+        secondaryAnimMask = HoldingAngleTorchLeft,
+    }
+
+
+    item BeerBottle
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item BeerImported
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item PopBottleRare
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item BottleCrafted
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item MilkBottle
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item WaterDispenserBottle
+    {
+        StaticModel = WaterTank_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item HotWaterBottle
+    {   
+        StaticModel = HotWaterBottle,
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item PopBottle
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item Sportsbottle
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item WaterBottle
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item Pop
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item Pop2
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item Pop3
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+
+
+
+
+
+
+
+
+
+    item BucketLargeWood
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item CanteenMilitary
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item CanteenMilitaryFull
+    {
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item PaintbucketEmpty
+    {
+
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+    item WateredCan
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+    item BucketWaterDebug
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item BucketWood
+    {
+        StaticModel = BucketLargeWood_Hand,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    
+    
+
+    item BucketClayCement
+    {
+        StaticModel = Bucket,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item BucketConcreteFull
+    {
+        StaticModel = Bucket,
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+     item BucketCarvedClayCement
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+    item BucketCarvedConcreteFull
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+    item BucketPlasterFull
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+    item BucketCarvedPlasterFull
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+
+    item BucketWallpaperPaste
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+     item GardeningSprayEmpty
+    {
+        StaticModel = GardenSpray_Hand,
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+    item GardeningSprayMilk
+    {
+        StaticModel = GardenSpray_Hand,
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+
+    item GardeningSprayAphids
+    {
+        StaticModel = GardenSpray_Hand,
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+
+    item GardeningSprayCigarettes
+    {
+        StaticModel = GardenSpray_Hand,
+        primaryAnimMask = HoldingUmbrellaRight,
+        secondaryAnimMask = HoldingUmbrellaLeft,
+    }
+
+
+
+    item CompostBag
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+    item Fertilizer
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+    }
+
+    item Leather_Crude_Large
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Crude,
+
+    }
+
+    item Leather_Crude_Large_Tan_Wet
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_CrudeTainted,
+    }
+
+    item Leather_Crude_Large_Tan
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_CrudeTainted,
+    }
+
+    item Leather_Crude_Medium
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Crude_Medium,
+    }
+
+    item Leather_Crude_Medium_Tan_Wet
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_CrudeTainted_Medium,
+    }
+
+    item Leather_Crude_Medium_Tan
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_CrudeTainted_Medium,
+
+    }
+
+    item Leather_Crude_Small
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Crude_Small,
+    }
+
+    item Leather_Crude_Small_Tan_Wet
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_CrudeTainted_Small,
+    }
+
+    item Leather_Crude_Small_Tan
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_CrudeTainted_Small,
+    }
+
+    item CowLeather_Angus_Full
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Black,
+
+    }
+
+    item CowLeather_Angus_Fur
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Black,
+    }
+
+    item CowLeather_Angus_Fur_Tan_Wet
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Black,
+    }
+
+    item CowLeather_Angus_Fur_Tan_Medium
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Black_Medium,
+    }
+
+    item CowLeather_Angus_Fur_Tan_Small
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Black_Small,
+    }
+
+    item CowLeather_Holstein_Full
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_WhitePatches,
+
+    }
+
+    item CowLeather_Holstein_Fur
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_WhitePatches,
+    }
+
+    item CowLeather_Holstein_Fur_Tan_Wet
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_WhitePatches,
+    }
+
+    item CowLeather_Holstein_Fur_Tan_Medium
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_WhitePatches_Medium,
+    }
+
+    item CowLeather_Holstein_Fur_Tan_Small
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_WhitePatches_Small,
+    }
+
+    item CowLeather_Simmental_Full
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_BrownPatches,
+    }
+
+    item CowLeather_Simmental_Fur
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_BrownPatches,
+    }
+
+    item CowLeather_Simmental_Fur_Tan_Medium
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_BrownPatches_Medium,
+    }
+
+    item CowLeather_Simmental_Fur_Tan_Small
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_BrownPatches_Small,
+    }
+
+    item CowLeather_Simmental_Fur_Tan_Wet
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_BrownPatches,
+    }
+
+    item CalfLeather_Angus_Full
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Black_Small,
+    }
+
+    item CalfLeather_Angus_Fur
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Black_Small,
+    }
+
+    item CalfLeather_Angus_Fur_Tan_Wet
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Black_Small,
+    }
+
+    item CalfLeather_Holstein_Full
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_WhitePatches_Small,
+
+    }
+
+    item CalfLeather_Holstein_Fur
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_WhitePatches_Small,
+
+    }
+
+    item CalfLeather_Holstein_Fur_Tan_Wet
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_WhitePatches_Small,
+    }
+
+    item CalfLeather_Simmental_Full
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_BrownPatches_Small,
+    }
+
+    item CalfLeather_Simmental_Fur
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_BrownPatches_Small,
+
+    }
+
+    item CalfLeather_Simmental_Fur_Tan_Wet
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_BrownPatches_Small,
+    }
+
+    item SheepLeather_Full
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_White_Medium,
+    }
+
+    item SheepLeather_Fur
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_White_Medium,
+
+    }
+
+    item SheepLeather_Fur_Tan_Wet
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_White_Medium,
+    }
+
+    item SheepLeather_Fur_Tan_Small
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_White_Small,
+    }
+
+    item LambLeather_Full
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_White_Small,
+
+    }
+
+    item LambLeather_Fur
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_White_Small,
+    }
+
+    item LambLeather_Fur_Tan_Wet
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_White_Small,
+    }
+
+    item PigLeather_Landrace_Full
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Pink_Medium,
+    }
+
+    item PigLeather_Landrace_Fur
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Pink_Medium,
+    }
+
+    item PigLeather_Landrace_Fur_Tan_Wet
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Pink_Medium,
+    }
+
+    item PigLeather_Landrace_Fur_Tan_Small
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Pink_Small,
+    }
+
+    item PigLeather_Black_Full
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Black_Medium,
+
+    }
+
+    item PigLeather_Black_Fur
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Black_Medium,
+
+    }
+
+    item PigLeather_Black_Fur_Tan_Wet
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Black_Medium,
+    }
+
+    item PigLeather_Black_Fur_Tan_Small
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Black_Small,
+    }
+
+    item PigletLeather_Landrace_Full
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Pink_Small,
+    }
+
+    item PigletLeather_Landrace_Fur
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Pink_Small,
+
+    }
+    item PigletLeather_Landrace_Fur_Tan_Wet
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Pink_Small,
+    }
+
+    item PigletLeather_Black_Full
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Black_Small,
+    }
+
+    item PigletLeather_Black_Fur
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Black_Small,
+    }
+
+    item PigletLeather_Black_Fur_Tan_Wet
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Black_Small,
+    }
+
+    item DeerLeather_Full
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Brown_Medium,
+    }
+
+    item DeerLeather_Fur
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Brown_Medium,
+    }
+
+    item DeerLeather_Fur_Tan_Small
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Brown_Small,
+    }
+
+    item DeerLeather_Fur_Tan_Wet
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Brown_Medium,
+    }
+
+    item FawnLeather_Full
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Brown_Small,
+
+    }
+
+    item FawnLeather_Fur
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Brown_Small,
+    }
+
+    item FawnLeather_Fur_Tan_Wet
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Brown_Small,
+    }
+
+    item RabbitLeather_Full
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Brown_Small,
+    }
+
+    item RabbitLeather_Fur
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Brown_Small,
+    }
+
+    item RabbitLeather_Fur_Tan_Wet
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Brown_Small,
+    }
+
+    item RabbitLeather_Grey_Full
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Grey_Small,
+    }
+
+    item RabbitLeather_Grey_Fur
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Grey_Small,
+    }
+
+    item RabbitLeather_Grey_Fur_Tan_Wet
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Grey_Small,
+    }
+
+    item RabbitLeather_Grey_Fur_Tan
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Grey_Small,
+    }
+
+    item RaccoonLeather_Grey_Full
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Grey_Small,
+
+    }
+
+    item RaccoonLeather_Grey_Fur
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Grey_Small,
+    }
+
+    item RaccoonLeather_Grey_Fur_Tan_Wet
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Grey_Small,
+    }
+
+    item RaccoonLeather_Grey_Fur_Tan
+    {
+        primaryAnimMask = holdingbagright,
+        secondaryAnimMask = holdingbagleft,
+        StaticModel = Leather_Grey_Small,
+    }
+
+}
+
+
+
+         

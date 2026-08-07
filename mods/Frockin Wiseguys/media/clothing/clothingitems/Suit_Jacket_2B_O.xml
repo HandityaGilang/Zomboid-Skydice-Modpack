@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Bob_SuitJacket_Open</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Kate_SuitJacket_Open</m_FemaleModel>
+	<m_GUID>a0115f4c-ff0f-4029-9c6b-231f5bbc929b</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_MasksFolder>media/textures/Clothes/Suit/Masks_Underlay_OpenJacket</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Suit/Masks_Underlay_OpenJacket</m_UnderlayMasksFolder>
+	<textureChoices>Clothes\Suit\Suits_Mono\SuitJacket_O</textureChoices>
+</clothingItem>

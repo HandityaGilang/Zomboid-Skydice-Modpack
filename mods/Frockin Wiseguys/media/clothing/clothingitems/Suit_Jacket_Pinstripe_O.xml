@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>Skinned\Clothes\Bob_SuitJacket_Open</m_MaleModel>
+	<m_FemaleModel>Skinned\Clothes\Kate_SuitJacket_Open</m_FemaleModel>
+	<m_GUID>bcefb3c5-444d-4cb5-a5cd-1ffed177bae5</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomHue>false</m_AllowRandomHue>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_Masks>3</m_Masks>
+	<m_Masks>5</m_Masks>
+	<m_MasksFolder>media/textures/Clothes/Suit/Masks_Underlay_OpenJacket</m_MasksFolder>
+	<m_UnderlayMasksFolder>media/textures/Clothes/Suit/Masks_Underlay_OpenJacket</m_UnderlayMasksFolder>
+	<textureChoices>Clothes\Suit\Suits_Pinstripe\SuitJacket_Pinstripe_0_O</textureChoices>
+	<textureChoices>Clothes\Suit\Suits_Pinstripe\SuitJacket_Pinstripe_0A_O</textureChoices>
+	<textureChoices>Clothes\Suit\Suits_Pinstripe\SuitJacket_Pinstripe_1_O</textureChoices>
+	<textureChoices>Clothes\Suit\Suits_Pinstripe\SuitJacket_Pinstripe_2_O</textureChoices>
+	<textureChoices>Clothes\Suit\Suits_Pinstripe\SuitJacket_Pinstripe_3_O</textureChoices>
+</clothingItem>

@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Shoes_Leather.xml</path>
+    <guid>74d8f26c-3edd-414c-bc42-4b3fc36a2b94</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Shoes_Leather_Black.xml</path>
+    <guid>d6b7b37b-ba9a-422c-8fd0-03098f31b357</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Shoes_Pointy.xml</path>
+    <guid>c52b268e-f67d-4225-9943-b154b3cfeee3</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Shoes_Pointy_White.xml</path>
+    <guid>8ab74c31-c964-45c9-93d8-53035605685f</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/FF_Shoes_Gator.xml</path>
+    <guid>3879fb34-83a5-4c97-a7f2-7539e3ca55b8</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/TrenchCoat.xml</path>
+    <guid>67014384-64bc-4b43-ae6f-5964c7dbaccf</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/LongCoat_Bathrobe.xml</path>
+	<guid>ceec6067-c842-41a1-bc73-b9f70879c45c</guid>
+	</files>
+	
+	<files>
+	<path>media/clothing/clothingItems/LongCoat_Bathrobe_C.xml</path>
+	<guid>8846c2a6-69c1-414d-9af1-9a54025515cd</guid>
+	</files>
+	
+	
+	<files>
+    <path>media/clothing/clothingItems/Slim_SuitJacket.xml</path>
+    <guid>f4157df2-14df-400a-bc37-ac1fca041580</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Slim_SuitJacket_O.xml</path>
+    <guid>07c83d4e-da9e-4ef4-8402-977d5107e639</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Slim_SuitJacket_White.xml</path>
+    <guid>3e2159b9-62eb-47b0-8cdb-6ff48ad80250</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Slim_SuitJacket_White_O.xml</path>
+    <guid>628198b5-97db-4d6c-8b5f-364e75ff8324</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Slim_SuitJacket_Colour.xml</path>
+    <guid>22ae3658-dede-4e23-adcd-66935da969db</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Slim_SuitJacket_Colour_O.xml</path>
+    <guid>2b169292-5e56-4f25-bad9-840b0fbd12da</guid>
+	</files>
+	
+	
+	
+	<files>
+    <path>media/clothing/clothingItems/Suit_Jacket_2B.xml</path>
+    <guid>86d2f56c-43d6-4306-94a5-5cd7f5914f00</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Suit_Jacket_2B_O.xml</path>
+    <guid>a0115f4c-ff0f-4029-9c6b-231f5bbc929b</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Suit_Pants.xml</path>
+    <guid>780088c8-38ca-4b06-b083-19bad0939d22</guid>
+	</files>
+	
+	
+	
+	<files>
+    <path>media/clothing/clothingItems/Suit_Jacket_White_2B.xml</path>
+    <guid>a7872d3a-4f6f-48c5-b8c2-69ac183cc96a</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Suit_Jacket_White_2B_O.xml</path>
+    <guid>d4500d07-9720-4437-acd5-43f3898cefa7</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Suit_Pants_White.xml</path>
+    <guid>802ec5ca-53df-4890-a22d-dab374ba35f6</guid>
+	</files>
+	
+	
+	
+	<files>
+    <path>media/clothing/clothingItems/Suit_Jacket_Colour_2B.xml</path>
+    <guid>ef18c21a-a5ca-4f84-bfe4-9dc0fa239127</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Suit_Jacket_Colour_2B_O.xml</path>
+    <guid>1606cb09-aa64-4519-8b9d-f58959b4495c</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Suit_Pants_Colour.xml</path>
+    <guid>25b228f3-8e2f-4853-a90f-e134e819e53b</guid>
+	</files>
+	
+	
+	
+	<files>
+    <path>media/clothing/clothingItems/Suit_Jacket_Pinstripe.xml</path>
+    <guid>b43537a1-b670-435e-8eb3-db3f739c1bc5</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Suit_Jacket_Pinstripe_O.xml</path>
+    <guid>bcefb3c5-444d-4cb5-a5cd-1ffed177bae5</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Suit_Pants_Pinstripe.xml</path>
+    <guid>3746983e-5915-442b-a554-feb30312672e</guid>
+	</files>
+	
+	
+	
+	<files>
+    <path>media/clothing/clothingItems/Plaid_Suit_Jacket_2B.xml</path>
+    <guid>3ca08182-a219-4d06-aadd-2663e19a7fff</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Plaid_Suit_Jacket_2B_O.xml</path>
+    <guid>0836516d-b41a-4d83-8591-069b8dfa0564</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/Plaid_Suit_Pants.xml</path>
+    <guid>438e9855-ae42-4866-b66d-5b713c4dc49c</guid>
+	</files>
+	
+	
+	<files>
+    <path>media/clothing/clothingItems/JW_Suit_Jacket.xml</path>
+    <guid>dc6b0dce-0ab2-43fd-9e4e-3b9f5e24bfef</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/JW_Suit_Jacket_O.xml</path>
+    <guid>85476112-d89c-4e36-b7dd-bac2d3bd275d</guid>
+	</files>
+	
+	<files>
+    <path>media/clothing/clothingItems/JW_Suit_Pants.xml</path>
+    <guid>20e0f898-d89e-4fd1-ac0a-9ad8e84cd441</guid>
+	</files>
+	
+	
+	
+	<files>
+    <path>media/clothing/clothingItems/Suspender.xml</path>
+    <guid>e1b31c80-1d8e-4d02-8dcd-cb4145553bea</guid>
+	</files>
+
+</fileGuidTable>
+

@@ -1,0 +1,14 @@
+{
+  "ContextMenu_CS_PryOpen": "撬開",
+  "ContextMenu_CS_PryOpen_Door": "強行撬開門",
+  "ContextMenu_CS_PryOpen_Window": "強行撬開窗戶",
+  "ContextMenu_CS_Pickup_Logs": "撿起原木",
+  "ContextMenu_CS_Pickup_Trash": "撿起垃圾",
+  "ContextMenu_CS_Only": "僅...",
+  "ContextMenu_CS_WashEquippedOnly": "僅裝備 ",
+  "ContextMenu_CS_WashUnequippedOnly": "僅未裝備 ",
+  "ContextMenu_CS_WashWeaponsOnly": "僅武器 ",
+  "ContextMenu_CS_Equip": "裝備 ",
+  "ContextMenu_CS_Replace_Bandage": "更換繃帶",
+  "ContextMenu_CS_ReloadAllMags": "重新裝填所有彈匣"
+}

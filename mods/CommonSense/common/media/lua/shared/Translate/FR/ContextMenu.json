@@ -1,0 +1,14 @@
+{
+  "ContextMenu_CS_PryOpen": "Ouvrir en tordant",
+  "ContextMenu_CS_PryOpen_Door": "Forcer la porte",
+  "ContextMenu_CS_PryOpen_Window": "Forcer la fenêtre",
+  "ContextMenu_CS_Pickup_Logs": "Ramasser les bûches",
+  "ContextMenu_CS_Pickup_Trash": "Ramasser les déchets",
+  "ContextMenu_CS_Only": "Seulement...",
+  "ContextMenu_CS_WashEquippedOnly": "Equipé uniquement ",
+  "ContextMenu_CS_WashUnequippedOnly": "Non équipé uniquement ",
+  "ContextMenu_CS_WashWeaponsOnly": "Armes uniquement ",
+  "ContextMenu_CS_Equip": "Équiper",
+  "ContextMenu_CS_Replace_Bandage": "Remplacer le bandage",
+  "ContextMenu_CS_ReloadAllMags": "Recharger tous les chargeurs"
+}

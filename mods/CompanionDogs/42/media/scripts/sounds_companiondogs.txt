@@ -1,0 +1,68 @@
+module Base
+{
+    /* Real dog voices for CompanionDogs (loose .ogg, no FMOD bank required).
+       The engine resolves these names via GameSounds.getSound and plays the
+       clip.file through FMODManager.loadSound. Multiple clips per sound = random
+       variation (getRandomClip). Drop the matching .ogg files in 42/media/sound/.
+       Audio: CC0 (see ROADMAP "Créditos"). */
+
+    sound CDDogBark        /* bark / alarm: combat, sentinel alarm, stress self-bark */
+    {
+        category = Animal,
+        clip { file = media/sound/CDDogBark1.ogg, distanceMax = 35, }
+        clip { file = media/sound/CDDogBark2.ogg, distanceMax = 35, }
+        clip { file = media/sound/CDDogBark3.ogg, distanceMax = 35, }
+    }
+    sound CDDogBarkAmbient /* atmospheric distant bark for wild strays (cosmetic, never attracts zombies); reuses the bark clips at lower volume so the companion alarm stays at full */
+    {
+        category = Animal,
+        clip { file = media/sound/CDDogBark1.ogg, distanceMax = 35, volume = 0.45, }
+        clip { file = media/sound/CDDogBark2.ogg, distanceMax = 35, volume = 0.45, }
+        clip { file = media/sound/CDDogBark3.ogg, distanceMax = 35, volume = 0.45, }
+    }
+    sound CDDogGrowl       /* low growl: quiet sentinel cue + engine "stressed" */
+    {
+        category = Animal,
+        clip { file = media/sound/CDDogGrowl1.ogg, distanceMax = 12, volume = 0.7, }
+        clip { file = media/sound/CDDogGrowl2.ogg, distanceMax = 12, volume = 0.7, }
+    }
+    sound CDDogWhine       /* whimper / pain: engine "pain" on damage */
+    {
+        category = Animal,
+        clip { file = media/sound/CDDogWhine1.ogg, distanceMax = 15, }
+        clip { file = media/sound/CDDogWhine2.ogg, distanceMax = 15, }
+    }
+    sound CDDogIdle        /* ambient huff/snort: engine "idle" */
+    {
+        category = Animal,
+        clip { file = media/sound/CDDogIdle1.ogg, distanceMax = 10, volume = 0.2, }
+        clip { file = media/sound/CDDogIdle2.ogg, distanceMax = 10, volume = 0.2, }
+    }
+    sound CDDogPickup      /* soft huff when picked up / set down: reuses the idle clips a touch louder than ambient idle so it reads as a gentle, quiet cue (replaces the raccoon pick_up/put_down) */
+    {
+        category = Animal,
+        clip { file = media/sound/CDDogIdle1.ogg, distanceMax = 8, volume = 0.5, }
+        clip { file = media/sound/CDDogIdle2.ogg, distanceMax = 8, volume = 0.5, }
+    }
+    sound CDDogPet         /* content huff/snort when the owner pets the dog: reuses the idle clips louder so the affection is clearly audible up close (the native petting anim has no foley) */
+    {
+        category = Animal,
+        clip { file = media/sound/CDDogIdle1.ogg, distanceMax = 12, volume = 0.9, }
+        clip { file = media/sound/CDDogIdle2.ogg, distanceMax = 12, volume = 0.9, }
+    }
+    sound CDDogDeath       /* death yelp: engine "death" (permadeath) */
+    {
+        category = Animal,
+        clip { file = media/sound/CDDogDeath1.ogg, distanceMax = 25, }
+    }
+    sound CDDogEat         /* kibble crunching loop: bowl/trough meal dwell + hand-feed pulse (replaces the herbivore AnimalFoleyEatGrass); looped, stopped by name on state exit */
+    {
+        category = Animal,
+        clip { file = media/sound/CDDogEat1.ogg, distanceMax = 10, loop = true, }
+    }
+    sound CDDogDrink       /* water lapping loop: bowl/trough drink dwell + hand-water pulse; looped, stopped by name on state exit */
+    {
+        category = Animal,
+        clip { file = media/sound/CDDogDrink1.ogg, distanceMax = 10, loop = true, }
+    }
+}

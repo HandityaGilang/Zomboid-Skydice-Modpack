@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel></m_MaleModel>
+	<m_FemaleModel></m_FemaleModel>
+	<m_GUID>316a3436-4787-4273-bbce-2a22eb08e207</m_GUID>
+	<m_Static>false</m_Static>
+	<m_AllowRandomTint>true</m_AllowRandomTint>
+	<m_AttachBone></m_AttachBone>
+	<m_BaseTextures>clothes\Material_Cotton\Top_CropTop\Cotton_CropTopSleevesSrter_1</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Top_CropTop\Cotton_CropTopSleevesSrter_2</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Top_CropTop\Cotton_CropTopSleevesSrter_3</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Top_CropTop\Cotton_CropTopSleevesSrter_3A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Top_CropTop\Cotton_CropTopSleevesSrter_4</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Top_CropTop\Cotton_CropTopSleevesSrter_4A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Top_CropTop\Cotton_CropTopSleevesSrter_5</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Top_CropTop\Cotton_CropTopSleevesSrter_5A</m_BaseTextures>
+	<m_BaseTextures>clothes\Material_Cotton\Top_CropTop\Cotton_CropTopSleevesSrter_6</m_BaseTextures>
+
+</clothingItem>

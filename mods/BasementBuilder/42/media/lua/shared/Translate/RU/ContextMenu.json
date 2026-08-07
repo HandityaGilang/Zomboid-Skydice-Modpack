@@ -1,0 +1,14 @@
+{
+    "ContextMenu_BB_UseStarterKit": "Используйте стартовый набор для подвала",
+    "ContextMenu_BB_EnterBasement": "Спуститься в подвал",
+    "ContextMenu_BB_LeaveBasement": "Покинь подвал",
+    "ContextMenu_BB_ExpandNorth": "Расширить на север",
+    "ContextMenu_BB_ExpandSouth": "Расширить на юг",
+    "ContextMenu_BB_ExpandWest": "Расширить на запад",
+    "ContextMenu_BB_ExpandEast": "Расширить на восток",
+    "ContextMenu_BB_Need": "Нужно:",
+    "ContextMenu_BB_Missing": "Отсутствует:",
+    "ContextMenu_BB_UsableShovel": "пригодная для использования лопата",
+    "ContextMenu_BB_Log": "Бревно",
+    "ContextMenu_BB_Nails": "Гвозди"
+}

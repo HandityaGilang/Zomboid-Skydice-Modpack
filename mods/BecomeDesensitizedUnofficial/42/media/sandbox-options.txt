@@ -1,0 +1,25 @@
+VERSION = 1,
+
+option BecomeDesensitized.MinimumZombieKills
+{
+	type = integer, min = 1, max = 10000, default = 1000,
+	page = BecomeDesensitized, translation = MinimumZombieKills,
+}
+
+option BecomeDesensitized.MaximumZombieKills
+{
+	type = integer, min = 1, max = 10000, default = 2000,
+	page = BecomeDesensitized, translation = MaximumZombieKills,
+}
+
+option BecomeDesensitized.ConsiderTraits
+{
+	type = boolean, default = true,
+	page = BecomeDesensitized, translation = ConsiderTraits,
+}
+
+option BecomeDesensitized.ConsiderOccupations
+{
+	type = boolean, default = true,
+	page = BecomeDesensitized, translation = ConsiderOccupations,
+}

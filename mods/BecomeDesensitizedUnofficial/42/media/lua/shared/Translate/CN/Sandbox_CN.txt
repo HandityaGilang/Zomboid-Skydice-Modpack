@@ -1,0 +1,17 @@
+﻿Sandbox_CN = {
+Sandbox_BecomeDesensitized = "变得麻木不仁",
+
+Sandbox_MinimumZombieKills = "最小僵尸击杀数(必须小于最大僵尸击杀数)",
+Sandbox_MinimumZombieKills_tooltip = "变得麻木不仁所需求的最小僵尸击杀数量",
+
+Sandbox_MaximumZombieKills = "最大僵尸击杀数(必须大于最小僵尸击杀数)",
+Sandbox_MaximumZombieKills_tooltip = "变得麻木不仁所需求的最大僵尸击杀数量",
+Sandbox_ConsiderTraits = "受影响的特性",
+Sandbox_ConsiderTraits_tooltip = "相关特性会使得增加或降低变得麻木不仁的几率 (幸运、猎人、无惧/不幸、胆小、恐血、室内外恐惧症，以及将添加的和平主义者)",
+
+Sandbox_ConsiderOccupations = "受影响的职业",
+Sandbox_ConsiderOccupations_tooltip = "警察、消防员、护林员、警卫、医生、护工会增加变得麻木不仁的几率(以及将添加的和平主义者)",
+
+Sandbox_Logging = "启动控制台日志记录功能",
+Sandbox_Logging_tooltip = "用于服务器debug或用来测试.",
+}

@@ -1,0 +1,712 @@
+module Base
+{
+	model PlushieBadger_Hand
+    {
+        mesh = WorldItems/PlushieBadger,
+        scale = 0.4,
+
+        attachment Bip01_Prop1
+        {
+            offset = 0.0000 -0.0745 0.0186,
+            rotate = 0.0000 -23.9290 0.0000,
+        }
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 -0.0591 0.0241,
+            rotate = -0.0000 -11.2284 0.0000,
+        }
+    }
+	model PlushieBeaver_Hand
+    {
+        mesh = WorldItems/PlushieBeaver,
+        scale = 0.4,
+        attachment Bip01_Prop1
+        {
+            offset = 0.0000 -0.0745 0.0186,
+            rotate = 0.0000 -23.9290 0.0000,
+        }
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 -0.0591 0.0241,
+            rotate = -0.0000 -11.2284 0.0000,
+        }
+    }
+	model PlushieEyeOfChulhu_Hand
+    {
+        mesh = WorldItems/Plushie_EyeOfCthulhu,
+        scale = 0.4,
+        attachment Bip01_Prop1
+        {
+            offset = 0.0000 -0.0745 0.0186,
+            rotate = 0.0000 -23.9290 0.0000,
+        }
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 -0.0591 0.0241,
+            rotate = -0.0000 -11.2284 0.0000,
+        }
+    }
+	model PlushieTrashGoblin_Hand
+    {
+        mesh = WorldItems/Plushie_TrashGoblin,
+        scale = 0.4,
+        attachment Bip01_Prop1
+        {
+            offset = 0.0000 -0.0745 0.0186,
+            rotate = 0.0000 -23.9290 0.0000,
+        }
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 -0.0591 0.0241,
+            rotate = -0.0000 -11.2284 0.0000,
+        }
+    }
+	model PlushieMole_Hand
+    {
+        mesh = WorldItems/PlushieMole,
+        scale = 0.4,
+        attachment Bip01_Prop1
+        {
+            offset = 0.0000 -0.0745 0.0186,
+            rotate = 0.0000 -23.9290 0.0000,
+        }
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 -0.0591 0.0241,
+            rotate = -0.0000 -11.2284 0.0000,
+        }
+    }
+	model SpiffoPlushie_Hand
+    {
+        mesh = WorldItems/SpiffoPlushie,
+        scale = 0.4,
+
+        attachment Bip01_Prop1
+        {
+            offset = 0.0000 -0.0745 0.0186,
+            rotate = 180.0000 24.0661 180.0000,
+        }
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 -0.0591 0.0241,
+            rotate = 180.0000 32.2427 180.0000,
+        }
+    }
+	model SpiffoPlushieBig_Hand
+    {
+        mesh = WorldItems/SpiffoPlushie,
+        scale = 1.0,
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0153 -0.1500 -0.0559,
+            rotate = -16.8070 7.5643 38.5609,
+            scale = 0.9918,
+        }
+
+        attachment Bip01_Prop1
+        {
+            offset = 0.0471 -0.1325 -0.1008,
+            rotate = 5.8586 11.7563 -26.7302,
+        }
+    }
+	model PlushieTrashGoblin_Hand
+    {
+        mesh = WorldItems/Plushie_TrashGoblin,
+        scale = 0.4,
+        attachment Bip01_Prop1
+        {
+            offset = 0.0000 -0.0745 0.0186,
+            rotate = 0.0000 -23.9290 0.0000,
+        }
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 -0.0591 0.0241,
+            rotate = -0.0000 -11.2284 0.0000,
+        }
+    }
+	model PlushieMole_Hand
+    {
+        mesh = WorldItems/PlushieMole,
+        scale = 0.4,
+        attachment Bip01_Prop1
+        {
+            offset = 0.0000 -0.0745 0.0186,
+            rotate = 0.0000 -23.9290 0.0000,
+        }
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 -0.0591 0.0241,
+            rotate = -0.0000 -11.2284 0.0000,
+        }
+    }
+	model PlushieFox_Hand
+    {
+        mesh = WorldItems/PlushieFox,
+        scale = 0.4,
+        attachment Bip01_Prop1
+        {
+            offset = 0.0000 -0.0745 0.0186,
+            rotate = 0.0000 -23.9290 0.0000,
+        }
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 -0.0591 0.0241,
+            rotate = -0.0000 -11.2284 0.0000,
+        }
+    }
+	model PlushieHedgehog_Hand
+    {
+        mesh = WorldItems/PlushieHedgehog,
+        scale = 0.4,
+        attachment Bip01_Prop1
+        {
+            offset = 0.0000 -0.0745 0.0186,
+            rotate = 0.0000 -23.9290 0.0000,
+        }
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 -0.0591 0.0241,
+            rotate = -0.0000 -11.2284 0.0000,
+        }
+    }
+	model PlushieRabbit_Hand
+    {
+        mesh = WorldItems/PlushieRabbit,
+        scale = 0.4,
+        attachment Bip01_Prop1
+        {
+            offset = 0.0000 -0.0745 0.0186,
+            rotate = 0.0000 -23.9290 0.0000,
+        }
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 -0.0591 0.0241,
+            rotate = -0.0000 -11.2284 0.0000,
+        }
+    }
+	model PlushieSquirrel_Hand
+    {
+        mesh = WorldItems/PlushieSquirrel,
+        scale = 0.4,
+        attachment Bip01_Prop1
+        {
+            offset = 0.0000 -0.0745 0.0186,
+            rotate = 0.0000 -23.9290 0.0000,
+        }
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 -0.0591 0.0241,
+            rotate = -0.0000 -11.2284 0.0000,
+        }
+    }
+	model ToyBear_Hand
+    {
+        mesh = WorldItems/ToyBear,
+        texture = WorldItems/ToyBear,
+        scale = 0.6,
+        attachment Bip01_Prop1
+        {
+            offset = 0.0000 -0.0745 0.0186,
+            rotate = 0.0000 -23.9290 0.0000,
+        }
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 -0.0591 0.0241,
+            rotate = -0.0000 -11.2284 0.0000,
+        }
+    }
+	model ToyBear_Crafted_Cotton_Hand
+    {
+        mesh = WorldItems/TeddyBear_Crafted,
+        scale = 0.2,
+        attachment Bip01_Prop1
+        {
+            offset = 0.0000 -0.0745 0.0186,
+            rotate = 0.0000 -23.9290 0.0000,
+        }
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 -0.0591 0.0241,
+            rotate = -0.0000 -11.2284 0.0000,
+        }
+    }
+	model ToyBear_Crafted_Denim_Hand
+    {
+        mesh = WorldItems/TeddyBear_Crafted2,
+        scale = 0.2,
+        attachment Bip01_Prop1
+        {
+            offset = 0.0000 -0.0745 0.0186,
+            rotate = 0.0000 -23.9290 0.0000,
+        }
+
+        attachment Bip01_Prop2
+        {
+            offset = 0.0000 -0.0591 0.0241,
+            rotate = -0.0000 -11.2284 0.0000,
+        }
+    }
+	model BeerCanSixpack_Hand
+    {
+        mesh = WorldItems/Can_SixPack_Hand,
+        texture = WorldItems/BeerCan_SixPack,
+
+        attachment world
+        {
+            offset = -0.0000 0.0131 -0.0960,
+            rotate = -90.0000 -0.0000 -90.0000,
+        }
+    }
+	model BeerBottleSixpack_Hand
+    {
+        mesh = WorldItems/BeerBottleSixpack_Hand,
+        texture = WorldItems/BeerBottle_SixPack,
+    }
+	model PaintTin2Green_Ground
+    {
+        mesh = WorldItems/PaintTin,
+        texture = WorldItems/PaintTinGreen,
+        scale = 0.4,
+        attachment Bip01_Prop1
+        {
+            offset = -0.0 0.0005 -0.1809,
+            rotate = 90.1566 0.0 0.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0096 0.0121 -0.1687,
+            rotate = 89.6203 0.0 0.0,
+        }
+    }
+	model PaintTin2Grey_Ground
+    {
+        mesh = WorldItems/PaintTin,
+        texture = WorldItems/PaintTinGrey,
+        scale = 0.4,
+        attachment Bip01_Prop1
+        {
+            offset = -0.0 0.0005 -0.1809,
+            rotate = 90.1566 0.0 0.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0096 0.0121 -0.1687,
+            rotate = 89.6203 0.0 0.0,
+        }
+    }
+	model PaintTin2Purple_Ground
+    {
+        mesh = WorldItems/PaintTin,
+        texture = WorldItems/PaintTinPurple,
+        scale = 0.4,
+        attachment Bip01_Prop1
+        {
+            offset = -0.0 0.0005 -0.1809,
+            rotate = 90.1566 0.0 0.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0096 0.0121 -0.1687,
+            rotate = 89.6203 0.0 0.0,
+        }
+    }
+	model PaintTin2Red_Ground
+    {
+        mesh = WorldItems/PaintTin,
+        texture = WorldItems/PaintTinRed,
+        scale = 0.4,
+        attachment Bip01_Prop1
+        {
+            offset = -0.0 0.0005 -0.1809,
+            rotate = 90.1566 0.0 0.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0096 0.0121 -0.1687,
+            rotate = 89.6203 0.0 0.0,
+        }
+    }
+	model PaintTin2White_Ground
+    {
+        mesh = WorldItems/PaintTin,
+        texture = WorldItems/PaintTinWhite,
+        scale = 0.4,
+        attachment Bip01_Prop1
+        {
+            offset = -0.0 0.0005 -0.1809,
+            rotate = 90.1566 0.0 0.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0096 0.0121 -0.1687,
+            rotate = 89.6203 0.0 0.0,
+        }
+    }
+	model PaintTin2Black_Ground
+    {
+        mesh = WorldItems/PaintTin,
+        texture = WorldItems/PaintTinBlack,
+        scale = 0.4,
+        attachment Bip01_Prop1
+        {
+            offset = 0.0059 0.0151 -0.1627,
+            rotate = 90.1566 0.0 0.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0096 0.0121 -0.1687,
+            rotate = 89.6203 0.0 0.0,
+        }
+    }
+	model PaintTin2Blue_Ground
+    {
+        mesh = WorldItems/PaintTin,
+        texture = WorldItems/PaintTinBlue,
+        scale = 0.4,
+        attachment Bip01_Prop1
+        {
+            offset = -0.0 0.0005 -0.1809,
+            rotate = 90.1566 0.0 0.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0096 0.0121 -0.1687,
+            rotate = 89.6203 0.0 0.0,
+        }
+    }
+	model PaintTin2Brown_Ground
+    {
+        mesh = WorldItems/PaintTin,
+        texture = WorldItems/PaintTinBrown,
+        scale = 0.4,
+        attachment Bip01_Prop1
+        {
+            offset = -0.0 0.0005 -0.1809,
+            rotate = 90.1566 0.0 0.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0096 0.0121 -0.1687,
+            rotate = 89.6203 0.0 0.0,
+        }
+    }
+	model PaintTin2Cyan_Ground
+    {
+        mesh = WorldItems/PaintTin,
+        texture = WorldItems/PaintTinCyan,
+        scale = 0.4,
+        attachment Bip01_Prop1
+        {
+            offset = -0.0 0.0005 -0.1809,
+            rotate = 90.1566 0.0 0.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0096 0.0121 -0.1687,
+            rotate = 89.6203 0.0 0.0,
+        }
+    }
+	model PaintTin2LightBlue_Ground
+    {
+        mesh = WorldItems/PaintTin,
+        texture = WorldItems/PaintTinLightBlue,
+        scale = 0.4,
+        attachment Bip01_Prop1
+        {
+            offset = -0.0 0.0005 -0.1809,
+            rotate = 90.1566 0.0 0.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0096 0.0121 -0.1687,
+            rotate = 89.6203 0.0 0.0,
+        }
+    }
+	model PaintTin2LightBrown_Ground
+    {
+        mesh = WorldItems/PaintTin,
+        texture = WorldItems/PaintTinLightBrown,
+        scale = 0.4,
+        attachment Bip01_Prop1
+        {
+            offset = -0.0 0.0005 -0.1809,
+            rotate = 90.1566 0.0 0.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0096 0.0121 -0.1687,
+            rotate = 89.6203 0.0 0.0,
+        }
+    }
+	model PaintTin2Orange_Ground
+    {
+        mesh = WorldItems/PaintTin,
+        texture = WorldItems/PaintTinOrange,
+        scale = 0.4,
+        attachment Bip01_Prop1
+        {
+            offset = -0.0 0.0005 -0.1809,
+            rotate = 90.1566 0.0 0.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0096 0.0121 -0.1687,
+            rotate = 89.6203 0.0 0.0,
+        }
+    }
+	model PaintTin2Pink_Ground
+    {
+        mesh = WorldItems/PaintTin,
+        texture = WorldItems/PaintTinPink,
+        scale = 0.4,
+        attachment Bip01_Prop1
+        {
+            offset = -0.0 0.0005 -0.1809,
+            rotate = 90.1566 0.0 0.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0096 0.0121 -0.1687,
+            rotate = 89.6203 0.0 0.0,
+        }
+    }
+	model PaintTin2Turquoise_Ground
+    {
+        mesh = WorldItems/PaintTin,
+        texture = WorldItems/PaintTinTurquoise,
+        scale = 0.4,
+        attachment Bip01_Prop1
+        {
+            offset = -0.0 0.0005 -0.1809,
+            rotate = 90.1566 0.0 0.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0096 0.0121 -0.1687,
+            rotate = 89.6203 0.0 0.0,
+        }
+    }
+	model PaintTin2Yellow_Ground
+    {
+        mesh = WorldItems/PaintTin,
+        texture = WorldItems/PaintTinYellow,
+        scale = 0.4,
+        attachment Bip01_Prop1
+        {
+            offset = -0.0 0.0005 -0.1809,
+            rotate = 90.1566 0.0 0.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0096 0.0121 -0.1687,
+            rotate = 89.6203 0.0 0.0,
+        }
+    }
+	model PaintTin2Empty_Ground
+    {
+        mesh = WorldItems/PaintTinEmpty,
+        texture = WorldItems/PaintTinEmpty,
+        scale = 0.4,
+        attachment Bip01_Prop1
+        {
+            offset = 0.0 0.0001 -0.1667,
+            rotate = 90.0376 0.0 0.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0013 0.0715 -0.0001,
+            rotate = -0.7571 0.0269 7.208,
+        }
+    }
+	model PaintTin2Empty_Ground_Fluid
+    {
+        mesh = WorldItems/PaintTin,
+        texture = WorldItems/PaintTin_Fluid,
+        scale = 0.42,
+        attachment Bip01_Prop1
+        {
+            offset = 0.0 0.0001 -0.1667,
+            rotate = 90.0376 0.0 0.0,
+        }
+        attachment Bip01_Prop2
+        {
+            offset = -0.0013 0.0715 -0.0001,
+            rotate = -0.7571 0.0269 7.208,
+        }
+    }
+	model PaintBrush_Hand
+    {
+        mesh = WorldItems/PaintBrush_Hand,
+        texture = WorldItems/PaintBrush,
+    }
+	model FabricRoll_Black_Hand
+    {
+        mesh = WorldItems/FabricRolled_Hand,
+        texture = WorldItems/FabricRoll_Black,
+    }
+	model FabricRoll_Blue_Hand
+    {
+        mesh = WorldItems/FabricRolled_Hand,
+        texture = WorldItems/FabricRoll_Blue,
+    }
+	model FabricRoll_DarkBlue_Hand
+    {
+        mesh = WorldItems/FabricRolled_Hand,
+        texture = WorldItems/FabricRoll_DarkBlue,
+    }
+	model FabricRoll_White_Hand
+    {
+        mesh = WorldItems/FabricRolled_Hand,
+        texture = WorldItems/FabricRoll_White,
+    }
+	model Muffler_Hand
+    {
+        mesh = WorldItems/Muffler_Hand,
+        texture = WorldItems/Muffler,
+    }
+	model CarTrunk_Hand
+    {
+        mesh = WorldItems/CarTrunk_Hand,
+        texture = WorldItems/CarTrunkLid,
+    }
+	model CarHood_Hand
+    {
+        mesh = WorldItems/CarHood_Hand,
+        texture = WorldItems/CarHood,
+    }
+	model CarDoor_Hand
+    {
+        mesh = WorldItems/CarDoor_Hand,
+        texture = WorldItems/CarDoor,
+    }
+	model Wheel_Hand
+    {
+        mesh = WorldItems/Wheel_Hand,
+        texture = Vehicles/vehicle_wheel04,
+    }
+	model RemoteController_Hand
+    {
+        mesh = WorldItems/RemoteController_Hand,
+        texture = WorldItems/RemoteController,
+    }
+	model CDPlayer_Hand
+    {
+        mesh = WorldItems/CDPlayer_Hand,
+        texture = CDPlayer,
+    }
+	model RadioRed_Hand
+    {
+        mesh = WorldItems/Radio_Hand,
+        texture = WorldItems/RadioRed,
+    }
+	model RadioBlue_Hand
+    {
+        mesh = WorldItems/Radio_Hand,
+        texture = WorldItems/Radio,
+    }
+	model RadioBlack_Hand
+    {
+        mesh = WorldItems/Radio_Hand,
+        texture = WorldItems/RadioBlack,
+    }
+	model Wallpaper_BeigeStripe_Hand
+    {
+        mesh = WorldItems/Wallpaper_Hand,
+        texture = WorldItems/Wallpaper_BeigeStripe,
+    }
+	model Wallpaper_BlackFloral_Hand
+    {
+        mesh = WorldItems/Wallpaper_Hand,
+        texture = WorldItems/Wallpaper_BlackFloral,
+    }
+	model Wallpaper_BlueStripe_Hand
+    {
+        mesh = WorldItems/Wallpaper_Hand,
+        texture = WorldItems/Wallpaper_BlueStripe,
+    }
+	model Wallpaper_GreenDiamond_Hand
+    {
+        mesh = WorldItems/Wallpaper_Hand,
+        texture = WorldItems/Wallpaper_GreenDiamond,
+    }
+	model Wallpaper_GreenFloral_Hand
+    {
+        mesh = WorldItems/Wallpaper_Hand,
+        texture = WorldItems/Wallpaper_GreenFloral,
+    }
+	model Wallpaper_PinkChevron_Hand
+    {
+        mesh = WorldItems/Wallpaper_Hand,
+        texture = WorldItems/Wallpaper_PinkChevron,
+    }
+	model Wallpaper_PinkFloral_Hand
+    {
+        mesh = WorldItems/Wallpaper_Hand,
+        texture = WorldItems/Wallpaper_PinkFloral,
+    }
+	model Kettle_Copper_Hand
+    {
+        mesh = WorldItems/Kettle_Copper_Hand,
+        texture = WorldItems/Kettle_Copper,
+    }
+	model GardenSpray_Hand
+    {
+        mesh = WorldItems/GardenSpray_Hand,
+        texture = GardenSpray,
+    }
+	model PotForged_Hand
+    {
+        mesh = WorldItems/PotForged_Hand,
+        texture = WorldItems/CookingPot_Forged,
+    }
+	model WaterTank_Hand
+    {
+        mesh = WorldItems/WaterTank_Hand,
+        texture = WorldItems/WaterTank,
+    }
+	model Bucket_Forged_Hand
+    {
+        mesh = WorldItems/Bucket_Forged_Hand,
+        texture = WorldItems/Bucket_Forged_Water,
+    }
+	model OxygenTank_Hand
+    {
+        mesh = WorldItems/OxygenTank_Hand,
+        texture = SCBA,
+    }
+	model Extinguisher_Hand
+    {
+        mesh = WorldItems/Extinguisher_Hand,
+        texture = WorldItems/Extinguisher,
+    }
+	model VinegarJug_Hand
+    {
+        mesh = WorldItems/VinegarJug_Hand,
+        texture = WorldItems/Vinegar_Jug,
+    }
+	model CarBattery_Hand
+    {
+        mesh = WorldItems/CarBattery_Hand,
+        texture = WorldItems/CarBattery,
+    }
+	model Megaphone_Hands
+    {
+        mesh = WorldItems/Megaphone_Hand,
+        texture = WorldItems/Megaphone,
+    }
+}

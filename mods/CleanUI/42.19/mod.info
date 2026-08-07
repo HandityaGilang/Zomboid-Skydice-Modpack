@@ -1,0 +1,9 @@
+name=CleanUI
+id=CleanUI
+poster=poster.png
+icon=icon1.png
+author=Rocco, Afyrmo
+modversion=2.6.25
+versionMin=42.19.0
+require=\NeatUI_Framework
+description=CleanUI replaces the default inventory, loot, and context UI with a cleaner, faster, and more compact layout for Project Zomboid Build 42. <LINE> This is the Build 42.19+ version, reviewed through Build 42.20.1 while keeping Build 42.19 compatibility. <LINE> Includes safer context menus, MP container guards, ESC/loot-panel visibility protection, optional weight column support, Equipment UI compatibility, clickable column headers, column auto-fit, PNG sort arrows, AutoLoot/AutoDrop compatibility, and a larger resize handle. Also includes B42.20+ config saving, locked-panel item interaction fixes, Weight column persistence, startup resize guards, and safer modded context-menu transfer actions.

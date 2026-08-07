@@ -1,0 +1,14 @@
+{
+  "ContextMenu_CS_PryOpen": "Spróbuj otworzyć",
+  "ContextMenu_CS_PryOpen_Door": "Wyważ drzwi",
+  "ContextMenu_CS_PryOpen_Window": "Wyważ okno",
+  "ContextMenu_CS_Pickup_Logs": "Podnieś kłody",
+  "ContextMenu_CS_Pickup_Trash": "Podnieś śmieci",
+  "ContextMenu_CS_Only": "Tylko...",
+  "ContextMenu_CS_WashEquippedOnly": "Tylko wyposażony ",
+  "ContextMenu_CS_WashUnequippedOnly": "Tylko bez wyposażenia ",
+  "ContextMenu_CS_WashWeaponsOnly": "Tylko broń ",
+  "ContextMenu_CS_Equip": "Wyposaż",
+  "ContextMenu_CS_Replace_Bandage": "Zmień bandaż",
+  "ContextMenu_CS_ReloadAllMags": "Przeładuj wszystkie magazynki"
+}

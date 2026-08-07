@@ -1,0 +1,14 @@
+{
+  "ContextMenu_CS_PryOpen": "こじ開ける",
+  "ContextMenu_CS_PryOpen_Door": "ドアをこじ開ける",
+  "ContextMenu_CS_PryOpen_Window": "窓をこじ開ける",
+  "ContextMenu_CS_Pickup_Logs": "丸太を拾う",
+  "ContextMenu_CS_Pickup_Trash": "ゴミを拾う",
+  "ContextMenu_CS_Only": "のみ...",
+  "ContextMenu_CS_WashEquippedOnly": "装備のみ ",
+  "ContextMenu_CS_WashUnequippedOnly": "未装備のみ ",
+  "ContextMenu_CS_WashWeaponsOnly": "武器のみ ",
+  "ContextMenu_CS_Equip": "装備する",
+  "ContextMenu_CS_Replace_Bandage": "包帯を交換する",
+  "ContextMenu_CS_ReloadAllMags": "全てのマガジンを再装填"
+}

@@ -1,0 +1,14 @@
+{
+    "ContextMenu_BB_UseStarterKit": "Use Basement Starter Kit",
+    "ContextMenu_BB_EnterBasement": "Enter Basement",
+    "ContextMenu_BB_LeaveBasement": "Leave Basement",
+    "ContextMenu_BB_ExpandNorth": "Expand North",
+    "ContextMenu_BB_ExpandSouth": "Expand South",
+    "ContextMenu_BB_ExpandWest": "Expand West",
+    "ContextMenu_BB_ExpandEast": "Expand East",
+    "ContextMenu_BB_Need": "Need:",
+    "ContextMenu_BB_Missing": "Missing:",
+    "ContextMenu_BB_UsableShovel": "usable shovel",
+    "ContextMenu_BB_Log": "Log",
+    "ContextMenu_BB_Nails": "Nails"
+}

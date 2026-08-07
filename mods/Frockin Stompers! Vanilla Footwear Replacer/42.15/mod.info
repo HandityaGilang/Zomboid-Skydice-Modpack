@@ -1,0 +1,17 @@
+name=Frockin Stompers! [Vanilla Footwear Replacement]
+id=GanydeBielovzki's Frockin Stompers! VFR
+description= Shoes and boots! Replacing base game footwear!
+description= 
+description= 
+description= This is a base game replacement sub-mod. It will not work with other mods of similar functions. Double check your mod list before enabling!
+
+tags=Build 42, Clothing/Armor, Framework, Items, Misc, Models, Pop Culture, Realistic, Silly/Fun, Textures
+pzversion=42.13
+author=GanydeBielovzki
+icon=icon.png
+require=\GanydeBielovzki's Frockin Splendor! Vol.2,
+poster=FrockinStompers.png
+poster=FrockinStompers.png
+poster=FrockinStompers-backcover.png
+poster=FrockinStompers-warning.png
+

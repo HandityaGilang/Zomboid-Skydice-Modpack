@@ -1,0 +1,13 @@
+Sandbox_ES = {
+	Sandbox_BecomeDesensitized = "Become Desensitized",
+	Sandbox_MinimumZombieKills = "Máximo de zombies asesinados",
+	Sandbox_MinimumZombieKills_tooltip = "Máximo de zombies asesinados para obtener una oportunidad de volverte insensible (debe ser menor que la cantidad máxima de zombies asesinados)",
+	Sandbox_MaximumZombieKills = "Mínimo de zombies asesinados",
+	Sandbox_MaximumZombieKills_tooltip = "Mínimo de zombies asesinados para volverte insensible (debe ser mayor que la cantidad mínima de zombies asesinados)",
+	Sandbox_ConsiderTraits = "Considerar rasgos",
+	Sandbox_ConsiderTraits_tooltip = "Consider rasgos para aumentar las posibilidades de volverte insensible (mas información en la página de la Workshop)",
+	Sandbox_ConsiderOccupations = "Consider empleos",
+	Sandbox_ConsiderOccupations_tooltip = "Considerar los empleos Policía, Bombero, Guardabosques, Guardia de seguridad, Doctor y Enfermero para que aumenten la probabilidad de volverte insensible",
+	Sandbox_Logging = "Habilitar el registro de la consola",
+    Sandbox_Logging_tooltip = "Ideal para que los servidores depuren problemas que puedan surgir o simplemente para realizar pruebas.",
+}
