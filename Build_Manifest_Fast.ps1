@@ -1,4 +1,4 @@
-param(
+﻿param(
     [string]$RepositoryRoot = $PSScriptRoot,
     [string]$Owner = "HandityaGilang",
     [string]$Repository = "Zomboid-Skydice-Modpack",
@@ -9,7 +9,7 @@ param(
 $ErrorActionPreference = "Stop"
 Set-StrictMode -Version 2.0
 
-$BuilderVersion = "3.0"
+$BuilderVersion = "FINAL-1.0"
 $ExternalPath = "Mods/LifestyleHobbies_KardinalTest/common/media/texturepacks/LS_Artwork.pack"
 $ExternalUrl  = "https://www.dropbox.com/scl/fi/oprab9zm7q57aelb156t0/LS_Artwork.pack?rlkey=0fijr6zbzjztyfo0cb25o6gny&st=cgnhk4e6&dl=1"
 
@@ -31,32 +31,40 @@ function Get-RelativeUnixPath([string]$BasePath, [string]$FullPath) {
 }
 
 function Get-RawUrl([string]$RawBase, [string]$RelativePath) {
-    $parts = foreach ($part in ($RelativePath -split '/')) { [Uri]::EscapeDataString($part) }
-    return "$RawBase/" + ($parts -join '/')
+    $parts = New-Object System.Collections.Generic.List[string]
+    foreach ($part in ($RelativePath -split '/')) {
+        $parts.Add([Uri]::EscapeDataString($part))
+    }
+    return $RawBase.TrimEnd('/') + "/" + ($parts -join '/')
 }
 
 function Load-JsonSafe([string]$Path) {
     if (-not (Test-Path -LiteralPath $Path -PathType Leaf)) { return $null }
-    try { return Get-Content -LiteralPath $Path -Raw -Encoding UTF8 | ConvertFrom-Json }
-    catch { return $null }
+    try {
+        return Get-Content -LiteralPath $Path -Raw -Encoding UTF8 | ConvertFrom-Json
+    } catch {
+        Write-Host "[WARN] Cache lama rusak/tidak terbaca; akan dibangun ulang." -ForegroundColor Yellow
+        return $null
+    }
 }
 
-function Write-JsonNoBom([object]$Object, [string]$Path, [int]$Depth = 10) {
-    $json = $Object | ConvertTo-Json -Depth $Depth
-    [IO.File]::WriteAllText($Path, $json, (New-Object Text.UTF8Encoding($false)))
+function Write-JsonAtomic([object]$Object, [string]$Path, [int]$Depth) {
+    $tmp = $Path + ".tmp"
+    $utf8 = New-Object Text.UTF8Encoding($false)
+    [IO.File]::WriteAllText($tmp, ($Object | ConvertTo-Json -Depth $Depth), $utf8)
+    if (Test-Path -LiteralPath $Path) { Remove-Item -LiteralPath $Path -Force }
+    Move-Item -LiteralPath $tmp -Destination $Path -Force
 }
 
 Clear-Host
-Write-Host "============================================================" -ForegroundColor Cyan
-Write-Host " SKYDICE MANIFEST BUILDER v$BuilderVersion" -ForegroundColor Cyan
-Write-Host " FAST CACHE + ROOT/MODS MANIFEST" -ForegroundColor Cyan
-Write-Host "============================================================" -ForegroundColor Cyan
+Write-Host "==========================================================" -ForegroundColor Cyan
+Write-Host " SKYDICE MANIFEST BUILDER $BuilderVersion" -ForegroundColor Cyan
+Write-Host "==========================================================" -ForegroundColor Cyan
 Write-Host ""
 
 $RepositoryRoot = [IO.Path]::GetFullPath($RepositoryRoot.Trim().Trim('"'))
 $ModsRoot       = Join-Path $RepositoryRoot "Mods"
-$ManifestRoot   = Join-Path $RepositoryRoot "manifest.json"
-$ManifestCompat = Join-Path $ModsRoot "manifest.json"
+$ManifestPath   = Join-Path $ModsRoot "manifest.json"
 $CachePath      = Join-Path $RepositoryRoot ".skydice_manifest_cache.json"
 $AttributesPath = Join-Path $RepositoryRoot ".gitattributes"
 $RawBase        = "https://raw.githubusercontent.com/$Owner/$Repository/$Branch"
@@ -65,34 +73,43 @@ if (-not (Test-Path -LiteralPath $ModsRoot -PathType Container)) {
     throw "Folder Mods tidak ditemukan: $ModsRoot"
 }
 
-# Mencegah Git mengubah CRLF/LF sehingga SHA lokal = SHA hasil download.
+# Menjaga byte file tetap identik saat Git checkout.
 if (-not (Test-Path -LiteralPath $AttributesPath -PathType Leaf) -or
-    -not ((Get-Content -LiteralPath $AttributesPath -Raw) -match '(?m)^\*\s+-text\s*$')) {
-    [IO.File]::WriteAllText($AttributesPath, "* -text`r`n", (New-Object Text.UTF8Encoding($false)))
-    Write-Host "[OK] .gitattributes dipastikan berisi: * -text" -ForegroundColor Green
+    ((Get-Content -LiteralPath $AttributesPath -Raw -ErrorAction SilentlyContinue) -notmatch '(?m)^\*\s+-text\s*$')) {
+    [IO.File]::WriteAllText($AttributesPath, "* -text" + [Environment]::NewLine, (New-Object Text.UTF8Encoding($false)))
+    Write-Host "[OK]   .gitattributes disetel ke: * -text" -ForegroundColor Green
 }
 
-$excludedNames = @("Thumbs.db", ".DS_Store", "manifest.json")
+Write-Host "[INFO] Repository : $RepositoryRoot"
+Write-Host "[INFO] Mods       : $ModsRoot"
+Write-Host "[INFO] Manifest   : $ManifestPath"
+Write-Host "[INFO] Remote URL : $RawBase/Mods/manifest.json"
+Write-Host "[INFO] Mode       : $(if($FullRehash){'FULL REHASH'}else{'FAST CACHE'})"
+Write-Host ""
+
 $files = @(
     Get-ChildItem -LiteralPath $ModsRoot -File -Recurse -Force |
     Where-Object {
-        $excludedNames -notcontains $_.Name -and
+        $_.Name -notin @("manifest.json","Thumbs.db",".DS_Store") -and
         $_.FullName -notmatch '[\\/]\.git([\\/]|$)'
     } |
     Sort-Object FullName
 )
-if ($files.Count -eq 0) { throw "Tidak ada file mod di $ModsRoot" }
+
+if ($files.Count -eq 0) { throw "Folder Mods tidak berisi file." }
 
 $topLevelMods = @(
     Get-ChildItem -LiteralPath $ModsRoot -Directory -Force |
-    Where-Object { $_.Name -notin @('.git','.github','.skydice','_updater','Updater') } |
+    Where-Object { $_.Name -notin @(".git",".github",".skydice","_updater","Updater") } |
     Sort-Object Name
 )
 
 $cacheJson = Load-JsonSafe $CachePath
 $cacheByPath = @{}
 if ($cacheJson -and $cacheJson.files) {
-    foreach ($p in $cacheJson.files.PSObject.Properties) { $cacheByPath[$p.Name] = $p.Value }
+    foreach ($p in $cacheJson.files.PSObject.Properties) {
+        $cacheByPath[$p.Name] = $p.Value
+    }
 }
 
 $manifestFiles = New-Object System.Collections.Generic.List[object]
@@ -100,49 +117,60 @@ $newCache = @{}
 $totalBytes = 0L
 $reused = 0
 $hashed = 0
-$start = Get-Date
+$sw = [Diagnostics.Stopwatch]::StartNew()
 
-for ($i=0; $i -lt $files.Count; $i++) {
+for ($i = 0; $i -lt $files.Count; $i++) {
     $file = $files[$i]
-    $relativePath = Get-RelativeUnixPath $RepositoryRoot $file.FullName
+    $relative = Get-RelativeUnixPath $RepositoryRoot $file.FullName
     $size = [Int64]$file.Length
     $ticks = [Int64]$file.LastWriteTimeUtc.Ticks
     $sha = $null
 
-    if (-not $FullRehash -and $cacheByPath.ContainsKey($relativePath)) {
-        $c = $cacheByPath[$relativePath]
-        if ([Int64]$c.size -eq $size -and [Int64]$c.lastWriteTimeUtcTicks -eq $ticks -and $c.sha256) {
+    if ($relative -eq $ExternalPath) {
+        $sha = (Get-FileHash -LiteralPath $file.FullName -Algorithm SHA256).Hash.ToLowerInvariant()
+        $hashed++
+    }
+    elseif (-not $FullRehash -and $cacheByPath.ContainsKey($relative)) {
+        $c = $cacheByPath[$relative]
+        if ([Int64]$c.size -eq $size -and
+            [Int64]$c.lastWriteTimeUtcTicks -eq $ticks -and
+            -not [string]::IsNullOrWhiteSpace([string]$c.sha256)) {
             $sha = ([string]$c.sha256).ToLowerInvariant()
             $reused++
         }
     }
 
-    # File eksternal selalu di-hash ulang agar Dropbox selalu cocok dengan file lokal terbaru.
-    if ($relativePath -eq $ExternalPath -or -not $sha) {
+    if (-not $sha) {
         $sha = (Get-FileHash -LiteralPath $file.FullName -Algorithm SHA256).Hash.ToLowerInvariant()
         $hashed++
     }
 
-    $url = if ($relativePath -eq $ExternalPath) { $ExternalUrl } else { Get-RawUrl $RawBase $relativePath }
+    $url = if ($relative -eq $ExternalPath) {
+        $ExternalUrl
+    } else {
+        Get-RawUrl $RawBase $relative
+    }
 
     $manifestFiles.Add([pscustomobject][ordered]@{
-        path   = $relativePath
+        path   = $relative
         url    = $url
-        sha256 = $sha
         size   = $size
+        sha256 = $sha
     })
 
-    $newCache[$relativePath] = [ordered]@{
-        size = $size
+    $newCache[$relative] = [ordered]@{
+        size                  = $size
         lastWriteTimeUtcTicks = $ticks
-        sha256 = $sha
+        sha256                = $sha
     }
+
     $totalBytes += $size
 
-    if (($i % 100) -eq 0 -or $i -eq ($files.Count-1)) {
+    if (($i % 250) -eq 0 -or $i -eq ($files.Count - 1)) {
         $done = $i + 1
-        $pct = [Math]::Floor(($done / $files.Count) * 100)
-        Write-Progress -Activity "Membangun manifest" -Status "$done / $($files.Count) | cache $reused | hash $hashed" -PercentComplete $pct
+        Write-Progress -Activity "Membangun manifest" `
+            -Status "$done / $($files.Count) | cache $reused | hash $hashed" `
+            -PercentComplete ([int](100 * $done / $files.Count))
     }
 }
 Write-Progress -Activity "Membangun manifest" -Completed
@@ -150,52 +178,62 @@ Write-Progress -Activity "Membangun manifest" -Completed
 $modsSummary = New-Object System.Collections.Generic.List[object]
 foreach ($folder in $topLevelMods) {
     $prefix = "Mods/$($folder.Name)/"
-    $count = 0; $bytes = 0L
+    $count = 0
+    $bytes = 0L
     foreach ($e in $manifestFiles) {
-        if ($e.path.StartsWith($prefix,[StringComparison]::OrdinalIgnoreCase)) { $count++; $bytes += [Int64]$e.size }
+        if ($e.path.StartsWith($prefix, [StringComparison]::OrdinalIgnoreCase)) {
+            $count++
+            $bytes += [Int64]$e.size
+        }
     }
-    $modsSummary.Add([pscustomobject][ordered]@{ name=$folder.Name; fileCount=$count; size=$bytes })
+    $modsSummary.Add([pscustomobject][ordered]@{
+        name = $folder.Name
+        fileCount = $count
+        size = $bytes
+    })
 }
 
 $manifest = [pscustomobject][ordered]@{
     schemaVersion = 2
-    generatedAt = (Get-Date).ToUniversalTime().ToString('yyyy-MM-ddTHH:mm:ssZ')
+    generatedAt = (Get-Date).ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ")
     repository = [pscustomobject][ordered]@{
-        owner=$Owner; name=$Repository; branch=$Branch; modsPath='Mods'; rawBaseUrl=$RawBase
-        archiveUrl="https://codeload.github.com/$Owner/$Repository/zip/refs/heads/$Branch"
+        owner = $Owner
+        name = $Repository
+        branch = $Branch
+        modsPath = "Mods"
+        manifestPath = "Mods/manifest.json"
+        rawBaseUrl = $RawBase
     }
-    totals = [pscustomobject][ordered]@{ mods=$topLevelMods.Count; files=$manifestFiles.Count; size=$totalBytes }
+    totals = [pscustomobject][ordered]@{
+        mods = $topLevelMods.Count
+        files = $manifestFiles.Count
+        size = $totalBytes
+    }
     mods = $modsSummary
     files = $manifestFiles
 }
 
 $cacheOut = [pscustomobject][ordered]@{
-    version=2
-    generatedAt=(Get-Date).ToUniversalTime().ToString('yyyy-MM-ddTHH:mm:ssZ')
-    files=[pscustomobject]$newCache
+    version = 2
+    generatedAt = (Get-Date).ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ")
+    files = [pscustomobject]$newCache
 }
 
-# Tulis dua lokasi: root = lokasi utama; Mods = kompatibilitas updater lama.
-Write-JsonNoBom $manifest $ManifestRoot 12
-Write-JsonNoBom $manifest $ManifestCompat 12
-Write-JsonNoBom $cacheOut $CachePath 6
+Write-JsonAtomic $manifest $ManifestPath 12
+Write-JsonAtomic $cacheOut $CachePath 8
+$sw.Stop()
 
-$elapsed = (Get-Date)-$start
 Write-Host ""
-Write-Host "[OK] Manifest selesai." -ForegroundColor Green
-Write-Host "  File           : $($manifestFiles.Count)"
-Write-Host "  Mod folder     : $($topLevelMods.Count)"
-Write-Host "  Ukuran         : $(Format-Bytes $totalBytes)"
-Write-Host "  Cache dipakai  : $reused"
-Write-Host "  Hash dihitung  : $hashed"
-Write-Host "  Waktu          : $([Math]::Round($elapsed.TotalSeconds,2)) detik"
+Write-Host "==========================================================" -ForegroundColor Green
+Write-Host " MANIFEST BERHASIL DIBUAT" -ForegroundColor Green
+Write-Host "==========================================================" -ForegroundColor Green
+Write-Host "File            : $($manifestFiles.Count)"
+Write-Host "Ukuran modpack  : $(Format-Bytes $totalBytes)"
+Write-Host "Cache digunakan : $reused"
+Write-Host "File di-hash    : $hashed"
+Write-Host "Waktu           : $([Math]::Round($sw.Elapsed.TotalSeconds,2)) detik"
 Write-Host ""
-Write-Host "Manifest utama   : $ManifestRoot" -ForegroundColor Cyan
-Write-Host "Manifest kompat. : $ManifestCompat" -ForegroundColor DarkCyan
+Write-Host "Manifest lokal  : $ManifestPath"
+Write-Host "Manifest online : $RawBase/Mods/manifest.json"
 Write-Host ""
-Write-Host "Setelah builder selesai, PUSH manifest + Mods terbaru ke GitHub:" -ForegroundColor Yellow
-Write-Host "  git add -A"
-Write-Host "  git commit -m `"Update modpack`""
-Write-Host "  git push origin $Branch"
-Write-Host ""
-Write-Host "Updater baru akan membaca manifest ONLINE saja; tidak memakai cache manifest lama." -ForegroundColor Green
+Write-Host "Selanjutnya commit + push SEMUA perubahan Mods beserta manifest.json." -ForegroundColor Yellow
