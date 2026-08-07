@@ -1,0 +1,8 @@
+{
+    "UI_options_OAC_tickRate": "Frecuencia de actualización (Contenedores seleccionados)",
+    "UI_options_OAC_keyBind": "Tecla para abrir o cerrar contenedores",
+    "UI_options_OAC_autoOpen": "Apertura automática de contenedores",
+    "UI_options_OAC_autoOpen_tooltip": "Activa o desactiva la apertura automática de contenedores cuando el jugador mira a dentro.",
+    "UI_options_OAC_autoClose": "Cierre automático de contenedores",
+    "UI_options_OAC_autoClose_tooltip": "Activa o desactiva el cierre automático de contenedores cuando dejan de estar seleccionados. (requiere Auto-abrir activado)"
+}

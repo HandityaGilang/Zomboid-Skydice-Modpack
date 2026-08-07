@@ -1,0 +1,4 @@
+Recipes_CH = {
+    Recipe_DismantleTCElectronics = "拆解音樂播放器",
+    Recipe_DismantleWalkmanElectronics = "拆卸便攜式播放器",
+}

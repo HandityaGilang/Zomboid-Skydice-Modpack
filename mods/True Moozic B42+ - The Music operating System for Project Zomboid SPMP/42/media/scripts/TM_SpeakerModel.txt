@@ -1,0 +1,19 @@
+module Tsarcraft
+{
+	imports
+	{
+		Base
+	}
+
+	model TM_WireBundle
+	{
+		mesh = TM_WireBundle,
+		texture = WorldItems/TM_WireBundle,
+		scale = 1,
+		attachment world
+		{
+			offset = 0.0 0.0 0.0,
+			rotate = 0.0 0.0 0.0,
+		}
+	}
+}

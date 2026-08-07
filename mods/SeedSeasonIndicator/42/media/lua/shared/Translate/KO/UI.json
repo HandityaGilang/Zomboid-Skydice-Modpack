@@ -1,0 +1,6 @@
+{
+    "UI_SSI_OptEnabled": "표시기 활성화",
+    "UI_SSI_OptEnabled_TT": "소지품 내 씨앗 아이템에 계절 아이콘 표시",
+    "UI_SSI_OptTooltip": "툴팁에 계절 정보 표시",
+    "UI_SSI_OptTooltip_TT": "씨앗 및 씨앗 봉지의 툴팁에 파종 계절 월 정보를 추가합니다. 툴팁에 파종 계절 정보를 추가하는 다른 모드가 감지되면 자동으로 비활성화됩니다."
+}

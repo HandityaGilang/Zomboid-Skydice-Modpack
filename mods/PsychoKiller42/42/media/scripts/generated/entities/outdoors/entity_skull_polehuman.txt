@@ -1,0 +1,47 @@
+module Base
+{
+    entity SkullPoleHuman
+    {
+        component UiConfig
+        {
+            xuiSkin = default,
+            entityStyle = ES_SkullPoleHuman,
+            uiEnabled = false,
+        }
+        component SpriteConfig
+        {
+            health = 100,
+            skillBaseHealth = 10,
+
+            face E
+            {
+                layer
+                {
+                    row = psychopath_tiles_5,
+                }
+            }
+            face S
+            {
+                layer
+                {
+                    row = psychopath_tiles_4,
+                }
+            }
+        }
+        component CraftRecipe
+        {
+            timedAction     = BuildWallNoTool,
+            time            = 150,
+            category        = Miscellaneous,
+            xpAward 		= Insanity:50,
+            SkillRequired   = Insanity:4,
+            Tooltip         = Tooltip_craft_HumanskullPoleDesc,
+            inputs
+            {
+                item 1 [Base.LongStick;Base.Sapling],
+                item 1 [Base.SheetRope;Base.Rope],
+                item 1 [PK42.HumanSkullWithBrain;PK42.HumanSkull],
+            }
+        }
+    }
+}

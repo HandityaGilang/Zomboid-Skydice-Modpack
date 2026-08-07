@@ -1,0 +1,15 @@
+{
+    "IGUI_PSC_Play": "UNO spielen", "IGUI_PSC_Watch": "UNO ansehen", "IGUI_PSC_MoveCloser": "Gehe näher an den Tisch.", "IGUI_PSC_WindowTitle": "Spielbares UNO",
+    "IGUI_PSC_Waiting": "Warte auf Spieler", "IGUI_PSC_Playing": "Spiel läuft", "IGUI_PSC_GameOver": "Spiel beendet", "IGUI_PSC_YourTurn": "Du bist am Zug",
+    "IGUI_PSC_You": "Du", "IGUI_PSC_NotYourTurn": "Du bist nicht am Zug", "IGUI_PSC_Draw": "Ziehen", "IGUI_PSC_Pass": "Passen",
+    "IGUI_PSC_Start": "Starten", "IGUI_PSC_AddBot": "Bot hinzufügen", "IGUI_PSC_RemoveBot": "Bot entfernen", "IGUI_PSC_CallUno": "UNO rufen",
+    "IGUI_PSC_Reset": "Zurücksetzen", "IGUI_PSC_Leave": "Verlassen", "IGUI_PSC_ChooseColor": "Farbe wählen",
+    "IGUI_PSC_Red": "Rot", "IGUI_PSC_Yellow": "Gelb", "IGUI_PSC_Green": "Grün", "IGUI_PSC_Blue": "Blau",
+    "IGUI_PSC_DrawPile": "Ziehstapel", "IGUI_PSC_DiscardPile": "Ablage", "IGUI_PSC_CurrentColor": "Farbe", "IGUI_PSC_Direction": "Richtung",
+    "IGUI_PSC_Clockwise": "Im Uhrzeigersinn", "IGUI_PSC_CounterClockwise": "Gegenuhrzeigersinn", "IGUI_PSC_Cards": "Karten", "IGUI_PSC_Winner": "Gewinner",
+    "IGUI_PSC_Opening": "Wird geöffnet...", "IGUI_PSC_OpeningGame": "UNO wird geöffnet...", "IGUI_PSC_Turn": "Zug", "IGUI_PSC_Penalty": "Strafe",
+    "IGUI_PSC_Players": "Spieler", "IGUI_PSC_OpenSeat": "Freier Platz", "IGUI_PSC_TableLog": "Tischprotokoll", "IGUI_PSC_YourHand": "Deine Hand",
+    "IGUI_PSC_Actions": "Aktionen", "IGUI_PSC_StackingOn": "Stapeln: AN", "IGUI_PSC_StackingOff": "Stapeln: AUS",
+    "IGUI_PSC_YourOpponent": "Dein Gegner", "IGUI_PSC_ResultWinner": "GEWINNER", "IGUI_PSC_ResultLoser": "VERLIERER",
+    "IGUI_PSC_FinalVerdict": "Die endgültige Entscheidung naht...", "IGUI_PSC_WonGame": "%1 hat das Spiel gewonnen."
+}

@@ -1,0 +1,13 @@
+module TrueMoozic
+{
+    character_trait_definition TrueMoozic:truemoozicfan
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = TrueMoozic:truemoozicfan,
+        Cost = 6,
+        UIName = UI_trait_truemoozicfan,
+        UIDescription = UI_trait_truemoozicfanDesc,
+        MutuallyExclusiveTraits = base:deaf,
+    }
+}

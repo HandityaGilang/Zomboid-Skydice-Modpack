@@ -1,0 +1,7 @@
+{
+    "Sandbox_WashSmart": "Washing Menus Improved",
+    "Sandbox_WashSmart_AllowTaintedWater": "Engedélyezze a szennyezett vizet a kötések tisztításához",
+    "Sandbox_WashSmart_AllowTaintedWater_tooltip": "Ha engedélyezve van, szennyezett víz használható kötések, anyag-, farmer- és bőrrongyok tisztítására.",
+    "Sandbox_WashSmart_BandageWaterPerItem": "Víz kötszerenként/csíkonként",
+    "Sandbox_WashSmart_BandageWaterPerItem_tooltip": "Vízegységek tárgyanként koszos kötszerek, rongyok, farmercsíkok és bőrcsíkok mosásakor egy vízforrásnál. Alapértelmezett: 4.0."
+}

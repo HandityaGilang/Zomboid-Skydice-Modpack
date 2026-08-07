@@ -1,0 +1,10 @@
+ContextMenu_ES = {
+	ContextMenu_WVMNoPower = "Sin electricidad",
+	ContextMenu_WVMSnackInChute = "Hay un bocadillo atascado en el conducto.",
+	ContextMenu_WVMSoldOut = "Esta maquina expendedora esta vacía.",
+	ContextMenu_WVMNoMoneyDrink = "Aquí hay bebidas, pero no tengo dinero..",
+	ContextMenu_WVMNoMoneySnack = "Hay bocadillos aquí, pero no tengo dinero..",
+	ContextMenu_WVMBuyDrink = "Comprar bebida.",
+	ContextMenu_WVMBuySnack = "Comprar bocadillo.",
+	ContextMenu_WVMStrikeMachine = "Sacudir maquina expendedora.",
+}

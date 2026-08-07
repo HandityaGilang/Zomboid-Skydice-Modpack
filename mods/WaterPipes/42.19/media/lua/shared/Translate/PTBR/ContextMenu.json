@@ -1,0 +1,13 @@
+{
+    "ContextMenu_WP_AddCharcoal": "Adicionar filtro de carvão",
+    "ContextMenu_WP_PumpInfo": "Informações da bomba",
+    "ContextMenu_WP_ValveOpen": "Abrir válvula",
+    "ContextMenu_WP_ValveClose": "Fechar válvula",
+    "ContextMenu_WP_FlowmeterInfo": "Informações do medidor de fluxo",
+    "ContextMenu_WP_Type": "Tipo",
+    "ContextMenu_WP_Flow": "Fluxo",
+    "ContextMenu_WP_FixPump": "Consertar bomba",
+    "ContextMenu_WP_FixPumpPerfect": "A bomba não precisa de reparos.",
+    "ContextMenu_WP_FixPumpNoMaterial": "Você precisa de sucata de metal.",
+    "ContextMenu_WP_FixPumpTurnOn": "A bomba deve estar desligada."
+}

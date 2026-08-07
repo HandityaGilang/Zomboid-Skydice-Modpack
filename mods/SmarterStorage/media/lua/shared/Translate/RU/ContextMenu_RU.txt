@@ -1,0 +1,5 @@
+ContextMenu_RU = {
+    ContextMenu_SmarterStorage_Edit = "Изменить",
+	ContextMenu_SmarterStorage_Presets = "Категории",
+	ContextMenu_SmarterStorage_Reset = "Сбросить",
+}

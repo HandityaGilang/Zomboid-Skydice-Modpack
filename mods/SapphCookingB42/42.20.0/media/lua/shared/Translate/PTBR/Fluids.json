@@ -1,0 +1,31 @@
+{
+  "Fluid_Container_Thermos": "Garrafa Térmica",
+  "Fluid_Container_OilBottle": "Garrafa de Óleo",
+  "Fluid_Container_MugMetal": "Caneca",
+  "Fluid_Container_FryingPan": "Frigideira",
+  "Fluid_Container_OilPan": "Panela para Óleo",
+  "Fluid_Container_WokPan": "Wok",
+  "Fluid_Container_FrenchPress": "French Press",
+  "Fluid_Container_LowballGlass": "Copo Lowball",
+  "Fluid_Container_CocktailGlass": "Copo de Coquetel",
+
+  "Fluid_Name_CookingOil": "Óleo de Cozinha",
+  "Fluid_Name_JuicePineapple": "Suco de Abacaxi",
+  "Fluid_Name_JuiceStrawberry": "Suco de Morango",
+  "Fluid_Name_JuiceWatermelon": "Suco de Melancia",
+  "Fluid_Name_JuicePeach": "Suco de Pêssego",
+  "Fluid_Name_EnergyDrink": "Energético",
+  "Fluid_Name_ProteinShake": "Shake de Proteína",
+  "Fluid_Name_BrewedCoffee": "Café",
+  "Fluid_Name_FryBatter": "Massa de Fritar",
+  "Fluid_Name_MilkStrawberry": "Leite de Morango",
+  "Fluid_Name_SapphSake": "Saquê",
+  "Fluid_Name_SapphCachaca": "Cachaça",
+
+  "Fluid_Name_LatteCoffee": "Latte",
+  "Fluid_Name_CappuccinoCoffee": "Cappuccino",
+  "Fluid_Name_AmericanoCoffee": "Café Americano",
+  "Fluid_Name_FrappeCoffee": "Frappé",
+  "Fluid_Name_IrishCoffee": "Café Irlandês",
+  "Fluid_Name_MochaCoffee": "Mocha"
+}

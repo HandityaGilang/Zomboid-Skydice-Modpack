@@ -1,0 +1,4 @@
+{
+    "name": "Seed Season Indicator",
+    "description": "Displays colored icons on seed items in your inventory to indicate the current sowing season status. Green star = best month, Green circle = in season, Yellow circle = risky month, Red circle = out of season."
+}

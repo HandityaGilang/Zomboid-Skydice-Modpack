@@ -1,0 +1,4 @@
+{
+    "name": "Indicateur de saison des semis",
+    "description": "Affiche des icônes colorées sur les articles de graines dans votre inventaire pour indiquer l'état de la saison de semis actuelle. Étoile verte = meilleur mois, Cercle vert = de saison, Cercle jaune = mois risqué, Cercle rouge = hors saison."
+}

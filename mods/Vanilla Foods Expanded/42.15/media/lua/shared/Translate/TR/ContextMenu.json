@@ -1,0 +1,90 @@
+{
+    "ContextMenu_EvolvedRecipe_VFX_BrownRiceSaucepan": "Esmer Pirinç",
+    "ContextMenu_EvolvedRecipe_VFX_BrownRiceSaucepanCopper": "Esmer Pirinç",
+    "ContextMenu_EvolvedRecipe_VFX_BrownRicePot": "Esmer Pirinç",
+    "ContextMenu_EvolvedRecipe_VFX_BrownRicePotForged": "Esmer Pirinç",
+
+    "ContextMenu_EvolvedRecipe_VFX_JasmineRiceSaucepan": "Yasemin Pirinci",
+    "ContextMenu_EvolvedRecipe_VFX_JasmineRiceSaucepanCopper": "Yasemin Pirinci",
+    "ContextMenu_EvolvedRecipe_VFX_JasmineRicePot": "Yasemin Pirinci",
+    "ContextMenu_EvolvedRecipe_VFX_JasmineRicePotForged": "Yasemin Pirinci",
+
+    "ContextMenu_EvolvedRecipe_VFX_BasmatiRiceSaucepan": "Basmati Pirinci",
+    "ContextMenu_EvolvedRecipe_VFX_BasmatiRiceSaucepanCopper": "Basmati Pirinci",
+    "ContextMenu_EvolvedRecipe_VFX_BasmatiRicePot": "Basmati Pirinci",
+    "ContextMenu_EvolvedRecipe_VFX_BasmatiRicePotForged": "Basmati Pirinci",
+
+    "ContextMenu_EvolvedRecipe_VFX_ArborioRiceSaucepan": "Arborio Pirinci",
+    "ContextMenu_EvolvedRecipe_VFX_ArborioRiceSaucepanCopper": "Arborio Pirinci",
+    "ContextMenu_EvolvedRecipe_VFX_ArborioRicePot": "Arborio Pirinci",
+    "ContextMenu_EvolvedRecipe_VFX_ArborioRicePotForged": "Arborio Pirinci",
+
+    "ContextMenu_EvolvedRecipe_VFX_Lasagna": "Lazanya",
+
+    "ContextMenu_EvolvedRecipe_VFX_MacaroniSaucepan": "Makarnа (Macaroni)",
+    "ContextMenu_EvolvedRecipe_VFX_MacaroniSaucepanCopper": "Makarnа (Macaroni)",
+    "ContextMenu_EvolvedRecipe_VFX_MacaroniPot": "Makarnа (Macaroni)",
+    "ContextMenu_EvolvedRecipe_VFX_MacaroniPotForged": "Makarnа (Macaroni)",
+
+    "ContextMenu_EvolvedRecipe_VFX_FettuccineSaucepan": "Fettuccine Makarnası",
+    "ContextMenu_EvolvedRecipe_VFX_FettuccineSaucepanCopper": "Fettuccine Makarnası",
+    "ContextMenu_EvolvedRecipe_VFX_FettuccinePot": "Fettuccine Makarnası",
+    "ContextMenu_EvolvedRecipe_VFX_FettuccinePotForged": "Fettuccine Makarnası",
+
+    "ContextMenu_EvolvedRecipe_VFX_PenneSaucepan": "Penne Makarnası",
+    "ContextMenu_EvolvedRecipe_VFX_PenneSaucepanCopper": "Penne Makarnası",
+    "ContextMenu_EvolvedRecipe_VFX_PennePot": "Penne Makarnası",
+    "ContextMenu_EvolvedRecipe_VFX_PennePotForged": "Penne Makarnası",
+
+    "ContextMenu_EvolvedRecipe_VFX_GnocchiSaucepan": "Gnocchi",
+    "ContextMenu_EvolvedRecipe_VFX_GnocchiSaucepanCopper": "Gnocchi",
+    "ContextMenu_EvolvedRecipe_VFX_GnocchiPot": "Gnocchi",
+    "ContextMenu_EvolvedRecipe_VFX_GnocchiPotForged": "Gnocchi",
+
+    "ContextMenu_EvolvedRecipe_VFX_ChiliSaucepan": "Acılı Güveç",
+    "ContextMenu_EvolvedRecipe_VFX_ChiliSaucepanCopper": "Acılı Güveç",
+    "ContextMenu_EvolvedRecipe_VFX_ChiliPot": "Acılı Güveç",
+    "ContextMenu_EvolvedRecipe_VFX_ChiliPotForged": "Acılı Güveç",
+
+    "ContextMenu_EvolvedRecipe_VFX_CurrySaucepan": "Köri",
+    "ContextMenu_EvolvedRecipe_VFX_CurrySaucepanCopper": "Köri",
+    "ContextMenu_EvolvedRecipe_VFX_CurryPot": "Köri",
+    "ContextMenu_EvolvedRecipe_VFX_CurryPotForged": "Köri",
+
+    "ContextMenu_EvolvedRecipe_VFX_OatyOsBowl": "Kase (Yulaf Halkaları)",
+    "ContextMenu_EvolvedRecipe_VFX_HoneyOatyOsBowl": "Kase (Ballı Yulaf Halkaları)",
+    "ContextMenu_EvolvedRecipe_VFX_CornFlakesBowl": "Kase (Mısır Gevreği)",
+    "ContextMenu_EvolvedRecipe_VFX_RiceKrispsBowl": "Kase (Pirinç Gevreği)",
+    "ContextMenu_EvolvedRecipe_VFX_FrostyCrunchBowl": "Kase (Şekerli Gevrek)",
+    "ContextMenu_EvolvedRecipe_VFX_FruityLoopsBowl": "Kase (Meyveli Halkalar)",
+    "ContextMenu_EvolvedRecipe_VFX_UnluckyCharmsBowl": "Kase (Uğursuz Gevrek)",
+    "ContextMenu_EvolvedRecipe_VFX_AdmiralChompBowl": "Kase (Amiral Chomp Gevreği)",
+    "ContextMenu_EvolvedRecipe_VFX_CocoaPuffsBowl": "Kase (Kakaolu Toplar)",
+    "ContextMenu_EvolvedRecipe_VFX_WheatiesBowl": "Kase (Buğday Gevreği)",
+
+    "ContextMenu_EvolvedRecipe_VFX_BowlChickenRamen": "Kase (Tavuklu Ramen)",
+    "ContextMenu_EvolvedRecipe_VFX_BowlBeefRamen": "Kase (Etli Ramen)",
+    "ContextMenu_EvolvedRecipe_VFX_BowlShrimpRamen": "Kase (Karidesli Ramen)",
+    "ContextMenu_EvolvedRecipe_VFX_BowlPorkRamen": "Kase (Domuz Etli Ramen)",
+    "ContextMenu_EvolvedRecipe_VFX_BowlHotAndSpicyRamen": "Kase (Acılı Ramen)",
+    "ContextMenu_EvolvedRecipe_VFX_BowlSoySauceRamen": "Kase (Soya Soslu Ramen)",
+
+    "ContextMenu_EvolvedRecipe_VFX_Casserole": "Güveç",
+    "ContextMenu_EvolvedRecipe_VFX_Meatloaf": "Fırında Köfte",
+    "ContextMenu_EvolvedRecipe_VFX_BakedPotato": "Fırında Patates",
+    "ContextMenu_EvolvedRecipe_VFX_ScallopedPotatoBake": "Kremalı Patates",
+    "ContextMenu_EvolvedRecipe_VFX_Quiche": "Kiş",
+    "ContextMenu_EvolvedRecipe_VFX_Nachos": "Nachos (Mısır Cipsi)",
+    "ContextMenu_EvolvedRecipe_VFX_Quesadilla": "Quesadilla",
+    "ContextMenu_EvolvedRecipe_VFX_Enchilada": "Enchilada",
+    "ContextMenu_EvolvedRecipe_VFX_Cheesecake": "Cheesecake",
+    "ContextMenu_EvolvedRecipe_VFX_Milkshake": "Milkshake",
+    "ContextMenu_EvolvedRecipe_VFX_Sushi": "Sushi",
+    "ContextMenu_EvolvedRecipe_VFX_FriedRice": "Kızarmış Pilav",
+    "ContextMenu_EvolvedRecipe_VFX_FriedRiceForged": "Kızarmış Pilav",
+
+    "ContextMenu_EvolvedRecipe_PastaPan": "Spagetti",
+    "ContextMenu_EvolvedRecipe_PastaPanCopper": "Spagetti",
+    "ContextMenu_EvolvedRecipe_PastaPot": "Spagetti",
+    "ContextMenu_FoodType_Pasta": "Spagetti"
+}

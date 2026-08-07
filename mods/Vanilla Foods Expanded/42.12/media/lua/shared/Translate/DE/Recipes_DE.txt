@@ -1,0 +1,514 @@
+Recipes_DE = {
+
+    /* ------------------------------ */
+    /* ███   ███ ██████ ██████ ██  ██ */
+    /* ████ ████ ██  ██   ██   ███ ██ */
+    /* ██ ███ ██ ██████   ██   ██████ */
+    /* ██     ██ ██  ██   ██   ██ ███ */
+    /* ██     ██ ██  ██ ██████ ██  ██ */
+    /* ------------------------------ */
+
+    /**** vfx_recipes_food.txt ****/
+
+        VFX_OpenInsectCan = "Dose öffnen",
+        VFX_OpenBoxOfSmallCannedFood = "Open Box Of Canned Food",
+        VFX_PackBoxOfSmallCannedFood = "Pack Box of Canned Food",
+
+        VFX_OpenJar = "Glas öffnen",
+        VFX_OpenJarofPickles = "Open Jar",
+
+        VFX_TakeBouillonCubeFromBox = "Brühwürfel aus Packung nehmen",
+
+        VFX_OpenBoxSoupSachet = "Karton Suppenbeutel öffnen",
+        VFX_PrepareSoup_Pumpkin = "Suppe zubereiten - Kürbis",
+        VFX_PrepareSoup_PeaAndHam = "Suppe zubereiten - Erbse und Schinken",
+        VFX_PrepareSoup_ChickenNoodle = "Suppe zubereiten - Hühnernudel",
+        VFX_PrepareSoup_Tomato = "Suppe zubereiten - Tomate",
+
+        VFX_OpenBoxRamen = "Ramen-Karton öffnen",
+        VFX_OpenPacketRamen = "Ramen-Packung öffnen",
+        VFX_PrepareRamen = "Ramen zubereiten",
+
+        VFX_PreparePacketPasta = "Nudel-Packung zubereiten",
+        VFX_PreparePacketRice = "Reis-Packung zubereiten",
+
+        VFX_PrepareFreshPastaSaucepan = "Frische Nudeln in Stieltopf zubereiten",
+        VFX_PrepareFreshPastaPot = "Frische Nudeln in Kochtopf zubereiten",
+
+        VFX_PrepareMarinara = "Marinara-Sauce zubereiten",
+        VFX_PrepareSpicyMarinara = "Scharfe Marinara-Sauce zubereiten",
+        VFX_PrepareMeatSauce = "Fleischsauce zubereiten",
+        VFX_PrepareBasilPesto = "Basilikum-Pesto zubereiten",
+        VFX_PrepareAlfredoSauce = "Alfredo-Sauce zubereiten",
+        VFX_PrepareBechamelSauce = "Béchamel-Sauce zubereiten",
+
+        VFX_OpenHomemadePastaSauce = "Hausgemachte Pasta-Sauce öffnen",
+
+        VFX_MakeBowlOfCereal = "Schale Müsli zubereiten",
+        VFX_MakeBowlOfGranola = "Schale Granola zubereiten",
+
+        VFX_OpenSnackCakeBox = "Snack-Kuchen-Packung öffnen",
+        VFX_OpenToasterStrudelBox = "Pop-Tarts-Packung öffnen",
+        VFX_OpenPackagedStrudel = "Pop-Tarts öffnen",
+        VFX_OpenPuddingBox = "Pudding-Becher-Packung öffnen",
+        VFX_OpenJelloBox = "Wackelpudding-Becher-Packung öffnen",
+        VFX_OpenFruitCupBox = "Obstbecher-Packung öffnen",
+        VFX_OpenGranolaBarBox = "Müsliriegel-Packung öffnen",
+
+        VFX_MakeCakeBatter = "Kuchenteig zubereiten",
+        VFX_PutCakeInBakingPan = "Kuchen in Backform geben",
+        VFX_SliceCake = "Kuchen schneiden",
+
+        VFX_PrepareFrenchVanillaCake = "French Vanilla Cake zubereiten",
+        VFX_PrepareCarrotCake = "Karottenkuchen zubereiten",
+        VFX_PrepareChocolateCake = "Schokoladenkuchen zubereiten",
+        VFX_PrepareRedVelvetCake = "Red Velvet Cake zubereiten",
+        VFX_PrepareStrawberryCake = "Erdbeerkuchen zubereiten",
+        VFX_PrepareCaramelCake = "Karamelkuchen zubereiten",
+        VFX_PrepareOrangePoppyseedCake = "Orangen-Mohnkuchen zubereiten",
+        VFX_PrepareConfettiCake = "Konfetti-Kuchen zubereiten",
+        VFX_PrepareSpiceCake = "Gewürzkuchen zubereiten",
+        VFX_PrepareYellowCake = "Yellow Cake zubereiten",
+
+        VFX_MakeMuffinBatter = "Muffin-Teig zubereiten",
+        VFX_PrepareMuffinTray = "Muffins zubereiten",
+        VFX_GetMuffinsFromTray = "6 Muffins vom Blech nehmen",
+
+        VFX_PrepareAppleCinnamonMuffins = "Apfel-Zimt-Muffins zubereiten",
+        VFX_PrepareBlueberryMuffins = "Blaubeer-Muffins zubereiten",
+        VFX_PrepareChocolateChipMuffins = "Schokochip-Muffins zubereiten",
+        VFX_PrepareDoubleChocolateMuffins = "Doppel-Schoko-Muffins zubereiten",
+        VFX_PrepareCornMuffins = "Mais-Muffins zubereiten",
+        VFX_PrepareLemonPoppyMuffins = "Zitronen-Mohn-Muffins zubereiten",
+
+        VFX_MakeBrownieBatter = "Brownie-Teig zubereiten",
+        VFX_PrepareBrownieTray = "Brownies zubereiten",
+        VFX_GetBrowniesFromTray = "6 Brownies vom Blech nehmen",
+        VFX_PrepareBrownies = "Prepare Brownies",
+
+        VFX_MakeCookieDough = "Keksteig zubereiten",
+        VFX_Get6Cookies = "6 Kekse vom Blech nehmen",
+        VFX_PreparePeanutButterCookieDough = "Erdnussbutter-Keksteig zubereiten",
+        VFX_PrepareGingerbreadCookieDough = "Lebkuchen-Keksteig zubereiten",
+        VFX_PrepareSnickerdoodleCookieDough = "Snickerdoodle-Keksteig zubereiten",
+
+        VFX_PrepareDessertBread = "Süßbrot backen",
+        VFX_SliceDessertBread = "Süßbrot schneiden",
+        VFX_PrepareBananaBread = "Bananenbrot zubereiten",
+        VFX_PreparePumpkinBread = "Kürbisbrot zubereiten",
+        VFX_PrepareChocolateSwirlBread = "Schokoladen-Spiralbrot zubereiten",
+        VFX_PrepareCinnamonSwirlBread = "Zimt-Spiralbrot zubereiten",
+        VFX_PrepareCranberryBread = "Cranberry-Brot zubereiten",
+
+        VFX_PrepareBiscuits = "Kekse zubereiten",
+        VFX_Get6Biscuits = "6 Kekse vom Blech nehmen",
+        VFX_PrepareCheddarBiscuits = "Cheddar-Biscuits zubereiten",
+        VFX_PrepareHomestyleBiscuits = "Hausgemachte Biscuits zubereiten",
+
+        VFX_PreparePuddingMix = "Puddingmischung zubereiten",
+
+        VFX_PrepareCaramelFrosting = "Karamell-Glasur  zubereiten",
+        VFX_PrepareChocolateFrosting = "Schoko-Glasur  zubereiten",
+        VFX_PrepareLemonFrosting = "Zitronen-Glasur  zubereiten",
+        VFX_PrepareStrawberryFrosting = "Erdbeer-Glasur  zubereiten",
+        VFX_PrepareCreamCheeseFrosting = "Frischkäse-Glasur zubereiten",
+        VFX_PrepareConfettiFrosting = "Konfetti-Glasur  zubereiten",
+        VFX_PrepareVanillaFrosting = "Vanille-Glasur  zubereiten",
+
+        VFX_MakeJello = "Wackelpudding zubereiten",
+
+        VFX_SlicePizza = "Pizza schneiden",
+        VFX_OpenBag = "Beutel öffnen",
+        VFX_OpenUncrustablesBox = "Uncrustables-Packung öffnen",
+        VFX_OpenPizzaRollBox = "Pizza-Rollen-Packung öffnen",
+        VFX_OpenBreakfastSandwichBox = "Frühstücks-Sandwich-Packung öffnen",
+        VFX_ScoopIceCream = "Eis portionieren",
+
+        VFX_SlicePotato = "Kartoffel schneiden",
+        VFX_PrepareMashedPotato = "Kartoffelpüree zubereiten",
+
+        VFX_MakePancakes = "Pfannkuchen zubereiten",
+        VFX_MakeWaffles = "Waffeln backen",
+        VFX_MakeGravy = "Soße zubereiten",
+        VFX_MakeBagels = "Bagels backen",
+        VFX_MakePoppyBagels = "Mohn-Bagels backen",
+        VFX_MakeSesameBagels = "Sesam-Bagels backen",
+        VFX_MakeCornbread = "Maisbrot backen",
+        VFX_MakeCroissants = "Croissants backen",
+        VFX_MakeTortillas = "Tortillas zubereiten",
+        VFX_MakeDoughnuts = "Donuts backen",
+        VFX_MakeChocolateDoughnuts = "Schoko-Donuts backen",
+        VFX_MakeFrostedDoughnuts = "Glasierte Donuts backen",
+        VFX_MakeFriedOysters = "Gebratene Austern zubereiten",
+        VFX_MakeFriedFish = "Gebratenen Fisch zubereiten",
+        VFX_MakeFriedTofu = "Gebratenen Tofu zubereiten",
+        VFX_MakeMeatDumplings = "Fleischklöße zubereiten",
+        VFX_MakeShrimpDumplings = "Garnelen-Klöße zubereiten",
+        VFX_MakePotatoPancakes = "Kartoffelpuffer zubereiten",
+
+        VFX_Make2Bowls = "2 Schalen herstellen",
+        VFX_Make4Bowls = "4 Schalen herstellen",
+        VFX_Make2Plates = "2 Teller herstellen",
+        VFX_Make4Plates = "4 Teller herstellen",
+
+    /**** vfx_recipes_beverages.txt ****/
+
+        VFX_MakeDrinkMixPitcher = "Make Pitcher of Drink Mix",
+        VFX_TakeTeaBagFromBox = "Teebeutel aus Packung nehmen",
+        VFX_MakeProteinShake = "Make Protein Shake",
+        VFX_OpenBottleOfWine = "Weinflasche öffnen",
+        VFX_OpenBottleOfBeer = "Bierflasche öffnen",
+        VFX_OpenPackOfBeer = "Bierpackung öffnen",
+
+    /**** vfx_recipes_evolved.txt ****/
+
+        VFX_PrepareLasagna = "Lasagne zubereiten",
+        VFX_PrepareMeatloaf = "Hackbraten zubereiten",
+        VFX_PrepareBakedPotato = "Ofenkartoffel zubereiten",
+        VFX_PrepareScallopedPotatoBake = "Kartoffelgratin zubereiten",
+        VFX_PrepareQuiche = "Quiche zubereiten",
+        VFX_PrepareNachos = "Nachos zubereiten",
+        VFX_PrepareEnchilada = "Enchilada zubereiten",
+        VFX_PrepareCheesecake = "Käsekuchen zubereiten",
+        VFX_PrepareMilkshake = "Prepare Milkshake",
+        VFX_PrepareSushi = "Sushi zubereiten",
+        VFX_PrepareFriedRice = "Gebratenen Reis zubereiten",
+        VFX_GetBakedPotato = "Ofenkartoffel entnehmen",
+        VFX_SliceCheesecake = "Käsekuchen schneiden",
+
+    /**** vfx_recipes_cooking.txt ****/
+
+        VFX_PrepareShephardsPie = "Shepherd's Pie zubereiten",
+        VFX_PrepareTunaCasserole = "Thunfischauflauf zubereiten",
+        VFX_PrepareBakedZiti = "Gebackene Ziti zubereiten",
+        VFX_PrepareStuffedBellPeppers = "Gefüllte Paprika zubereiten",
+        VFX_GetStuffedBellPeppers = "Gefüllte Paprika entnehmen",
+        VFX_PrepareChickenPotPie = "Chicken Pot Pie zubereiten",
+        VFX_PrepareMoussaka = "Moussaka zubereiten",
+        VFX_PrepareChickenDivan = "Chicken Divan zubereiten",
+        VFX_PrepareSalisburySteak = "Salisbury Steak zubereiten",
+        VFX_PrepareFishandChips = "Fish and Chips zubereiten",
+        VFX_PrepareBangersandMash = "Bangers and Mash zubereiten",
+        VFX_PrepareFullEnglishBreakfast = "Volles englisches Frühstück zubereiten",
+        VFX_PrepareHalfEnglishBreakfast = "Halbes englisches Frühstück zubereiten",
+        VFX_PrepareScotchEgg = "Scotch Egg zubereiten",
+        VFX_PrepareSausageAndAppleFry = "Wurst-Apfel-Pfanne zubereiten",
+        VFX_PrepareBeansOnToast = "Bohnen auf Toast zubereiten",
+        VFX_PrepareButterChicken = "Butter Chicken zubereiten",
+        VFX_PrepareThaiGreenCurry = "Thailändisches grünes Curry zubereiten",
+        VFX_PrepareMassamanCurry = "Massaman-Curry zubereiten",
+        VFX_PrepareChanaMasala = "Chana Masala zubereiten",
+        VFX_PrepareSweetPotatoChickpeaCurry = "Süßkartoffel-Kichererbsen-Curry zubereiten",
+        VFX_PrepareTofuCurry = "Tofu-Curry zubereiten",
+
+/* --------------------------------------------------------------------------- */
+/* ██████ ██████ ██     ██           ██  ██ ██████ ██████ ██████ ██████ ██████ */
+/* ██     ██  ██ ██     ██           ██  ██ ██  ██ ██  ██ ██  ██   ██   ██     */
+/* ██████ ██████ ██     ██           ██  ██ ██████ ██  ██ ██████   ██   ██████ */
+/* ██     ██  ██ ██     ██           ██  ██ ██     ██  ██ ██  ██   ██   ██     */
+/* ██     ██  ██ ██████ ██████       ██████ ██     ██████ ██  ██   ██   ██████ */
+/* --------------------------------------------------------------------------- */
+
+/* <<<<<  Fall Update - October 2025  >>>>> */
+
+    VFX_OpenCandyBag = "Süßigkeiten-Tüte öffnen",
+    
+    VFX_OpenPackSausages = "Wurstpackung öffnen",
+    VFX_OpenPackMeatballs = "Hackbällchen-Packung öffnen",
+
+    VFX_SliceBakingPie = "Tiefkühlkuchen schneiden",
+    VFX_SliceFrozenPie = "Slice Pie",
+
+    VFX_PreparePieFilling = "Kuchen zubereiten",
+
+    VFX_PrepareApplePie = "Apfelkuchen zubereiten",
+    VFX_PrepareCherryPie = "Kirschkuchen zubereiten",
+    VFX_PrepareBlueberryPie = "Blaubeerkuchen zubereiten",
+    VFX_PrepareStrawberryPie = "Erdbeerkuchen zubereiten",
+    VFX_PreparePeachPie = "Pfirsichkuchen zubereiten",
+    VFX_PrepareMixedBerryPie = "Beerenkuchen zubereiten",
+    VFX_PrepareLemonCreamPie = "Zitronen-Sahne-Kuchen zubereiten",
+    VFX_PrepareBlackberryPie = "Brombeerkuchen zubereiten",
+    VFX_PrepareRaspberryPie = "Himbeerkuchen zubereiten",
+    VFX_PreparePumpkinPie = "Kürbiskuchen zubereiten",
+    VFX_PrepareSweetPotatoPie = "Süßkartoffelkuchen zubereiten",
+    VFX_PreparePecanPie = "Pekannuss-Kuchen zubereiten",
+    
+    VFX_MakeSpiceRackSmallLight = "Kleines helles Gewürzregal herstellen",
+    VFX_MakeSpiceRackSmallDark = "Kleines dunkles Gewürzregal herstellen",
+    VFX_MakeSpiceRackLargeLight = "Großes helles Gewürzregal herstellen",
+    VFX_MakeSpiceRackLargeDark = "Großes dunkles Gewürzregal herstellen",
+
+/* FOR 42.12 LEGACY - WILL NOT BE UPDATED */
+
+    /**** recipes_food.txt ****/
+
+        OpenCan = "Konserve öffnen",
+        OpenCanKnifeOrSharpStoneFlake = "Konserve mit Klinge öffnen",
+        OpenInsectCan = "Dose öffnen",
+
+        OpenBoxOfCannedFood = "Open Box Of Canned Food",
+        OpenBoxOfSmallCannedFood = "Open Box Of Canned Food",
+
+        PackBoxOfCannedFood = "Pack Box of Canned Food",
+        PackBoxOfSmallCannedFood = "Pack Box of Canned Food",
+
+        OpenJar = "Open Jar",
+        OpenJarofPickles = "Open Jar",
+
+        OpenJarCanning = "Eingelegtes Glas öffnen",
+        MakeJarCanning = "Eingelegtes Glas herstellen",
+
+        TakeBouillonCubeFromBox = "Brühwürfel aus Packung nehmen",
+
+        OpenBoxSoupSachet = "Karton Suppenbeutel öffnen",
+        PrepareSoup_Pumpkin = "Suppe zubereiten - Kürbis",
+        PrepareSoup_PeaAndHam = "Suppe zubereiten - Erbse und Schinken",
+        PrepareSoup_ChickenNoodle = "Suppe zubereiten - Hühnernudel",
+        PrepareSoup_Tomato = "Suppe zubereiten - Tomate",
+
+        OpenBoxRamen = "Ramen-Karton öffnen",
+        OpenPacketRamen = "Ramen-Packung öffnen",
+        PrepareRamen = "Ramen zubereiten",
+
+        PreparePacketPasta = "Nudel-Packung zubereiten",
+        PreparePacketRice = "Reis-Packung zubereiten",
+
+        PrepareBrownRiceSaucepan = "Prepare Saucepan of Brown Rice",
+        PrepareJasmineRiceSaucepan = "Prepare Saucepan of Jasmine Rice",
+        PrepareBasmatiRiceSaucepan = "Prepare Saucepan of Basmati Rice",
+        PrepareArborioRiceSaucepan = "Prepare Saucepan of Arborio Rice",
+
+        PrepareBrownRicePot = "Prepare Cooking Pot of Brown Rice",
+        PrepareJasmineRicePot = "Prepare Cooking Pot of Jasmine Rice",
+        PrepareBasmatiRicePot = "Prepare Cooking Pot of Basmati Rice",
+        PrepareArborioRicePot = "Prepare Cooking Pot of Arborio Rice",
+
+        PrepareMacaroniSaucepan = "Prepare Saucepan of Macaroni",
+        PrepareFettuccineSaucepan = "Prepare Saucepan of Fettuccine",
+        PreparePenneSaucepan = "Prepare Saucepan of Penne",
+
+        PrepareMacaroniPot = "Prepare Cooking Pot of Macaroni",
+        PrepareFettuccinePot = "Prepare Cooking Pot of Fettuccine",
+        PreparePennePot = "Prepare Cooking Pot of Penne",
+
+        PrepareFreshPastaSaucepan = "Frische Nudeln in Stieltopf zubereiten",
+        PrepareFreshPastaPot = "Frische Nudeln in Kochtopf zubereiten",
+
+        PrepareMarinara = "Marinara-Sauce zubereiten",
+        PrepareSpicyMarinara = "Scharfe Marinara-Sauce zubereiten",
+        PrepareMeatSauce = "Fleischsauce zubereiten",
+        PrepareBasilPesto = "Basilikum-Pesto zubereiten",
+        PrepareAlfredoSauce = "Alfredo-Sauce zubereiten",
+        PrepareBechamelSauce = "Béchamel-Sauce zubereiten",
+
+        OpenHomemadePastaSauce = "Hausgemachte Pasta-Sauce öffnen",
+
+        MakeBowlOfCereal = "Schale Müsli zubereiten",
+        MakeBowlOfGranola = "Schale Granola zubereiten",
+
+        OpenSnackCakeBox = "Snack-Kuchen-Packung öffnen",
+        OpenToasterStrudelBox = "Pop-Tarts-Packung öffnen",
+        OpenPackagedStrudel = "Pop-Tarts öffnen",
+        OpenPuddingBox = "Pudding-Becher-Packung öffnen",
+        OpenJelloBox = "Wackelpudding-Becher-Packung öffnen",
+        OpenFruitCupBox = "Obstbecher-Packung öffnen",
+        OpenGranolaBarBox = "Müsliriegel-Packung öffnen",
+
+        MakeCakeBatter = "Kuchenteig zubereiten",
+        PutCakeInBakingPan = "Kuchen in Backform geben",
+        SliceCake = "Kuchen schneiden",
+
+        PrepareFrenchVanillaCake = "French Vanilla Cake zubereiten",
+        PrepareCarrotCake = "Karottenkuchen zubereiten",
+        PrepareChocolateCake = "Schokoladenkuchen zubereiten",
+        PrepareRedVelvetCake = "Red Velvet Cake zubereiten",
+        PrepareStrawberryCake = "Erdbeerkuchen zubereiten",
+        PrepareCaramelCake = "Karamelkuchen zubereiten",
+        PrepareOrangePoppyseedCake = "Orangen-Mohnkuchen zubereiten",
+        PrepareConfettiCake = "Konfetti-Kuchen zubereiten",
+        PrepareSpiceCake = "Gewürzkuchen zubereiten",
+        PrepareYellowCake = "Yellow Cake zubereiten",
+
+        MakeMuffinBatter = "Muffin-Teig zubereiten",
+        PrepareMuffinTray = "Muffins zubereiten",
+        GetMuffinsFromTray = "6 Muffins vom Blech nehmen",
+
+        PrepareAppleCinnamonMuffins = "Apfel-Zimt-Muffins zubereiten",
+        PrepareBlueberryMuffins = "Blaubeer-Muffins zubereiten",
+        PrepareChocolateChipMuffins = "Schokochip-Muffins zubereiten",
+        PrepareDoubleChocolateMuffins = "Doppel-Schoko-Muffins zubereiten",
+        PrepareCornMuffins = "Mais-Muffins zubereiten",
+        PrepareLemonPoppyMuffins = "Zitronen-Mohn-Muffins zubereiten",
+
+        MakeBrownieBatter = "Brownie-Teig zubereiten",
+        PrepareBrownieTray = "Prepare Brownies",
+        GetBrowniesFromTray = "6 Brownies vom Blech nehmen",
+        PrepareBrownies = "Prepare Brownies",
+
+        MakeCookieDough = "Keksteig zubereiten",
+        Get6Cookies = "6 Kekse vom Blech nehmen",
+        PreparePeanutButterCookieDough = "Erdnussbutter-Keksteig zubereiten",
+        PrepareGingerbreadCookieDough = "Lebkuchen-Keksteig zubereiten",
+        PrepareSnickerdoodleCookieDough = "Snickerdoodle-Keksteig zubereiten",
+
+        PrepareDessertBread = "Süßbrot backen",
+        SliceDessertBread = "Süßbrot schneiden",
+        PrepareBananaBread = "Bananenbrot zubereiten",
+        PreparePumpkinBread = "Kürbisbrot zubereiten",
+        PrepareChocolateSwirlBread = "Schokoladen-Spiralbrot zubereiten",
+        PrepareCinnamonSwirlBread = "Zimt-Spiralbrot zubereiten",
+        PrepareCranberryBread = "Cranberry-Brot zubereiten",
+
+        PrepareBiscuits = "Kekse zubereiten",
+        Get6Biscuits = "6 Kekse vom Blech nehmen",
+        PrepareCheddarBiscuits = "Cheddar-Biscuits zubereiten",
+        PrepareHomestyleBiscuits = "Hausgemachte Biscuits zubereiten",
+
+        PreparePuddingMix = "Puddingmischung zubereiten",
+
+        PrepareCaramelFrosting = "Karamell-Glasur  zubereiten",
+        PrepareChocolateFrosting = "Schoko-Glasur  zubereiten",
+        PrepareLemonFrosting = "Zitronen-Glasur  zubereiten",
+        PrepareStrawberryFrosting = "Erdbeer-Glasur  zubereiten",
+        PrepareCreamCheeseFrosting = "Frischkäse-Glasur zubereiten",
+        PrepareConfettiFrosting = "Konfetti-Glasur  zubereiten",
+        PrepareVanillaFrosting = "Vanille-Glasur  zubereiten",
+
+        MakeJello = "Wackelpudding zubereiten",
+
+        SlicePizza = "Pizza schneiden",
+        OpenBag = "Beutel öffnen",
+        OpenUncrustablesBox = "Uncrustables-Packung öffnen",
+        OpenPizzaRollBox = "Pizza-Rollen-Packung öffnen",
+        OpenBreakfastSandwichBox = "Frühstücks-Sandwich-Packung öffnen",
+        ScoopIceCream = "Eis portionieren",
+
+        SlicePotato = "Kartoffel schneiden",
+        PrepareMashedPotato = "Kartoffelpüree zubereiten",
+
+        MakePancakes = "Pfannkuchen zubereiten",
+        MakeWaffles = "Waffeln backen",
+        MakeGravy = "Soße zubereiten",
+        MakeBagels = "Bagels backen",
+        MakePoppyBagels = "Mohn-Bagels backen",
+        MakeSesameBagels = "Sesam-Bagels backen",
+        MakeCornbread = "Maisbrot backen",
+        MakeCroissants = "Croissants backen",
+        MakeTortillas = "Tortillas zubereiten",
+        MakeDoughnuts = "Donuts backen",
+        MakeChocolateDoughnuts = "Schoko-Donuts backen",
+        MakeFrostedDoughnuts = "Glasierte Donuts backen",
+        MakeFriedOysters = "Gebratene Austern zubereiten",
+        MakeFriedFish = "Gebratenen Fisch zubereiten",
+        MakeFriedTofu = "Gebratenen Tofu zubereiten",
+        MakeMeatDumplings = "Fleischklöße zubereiten",
+        MakeShrimpDumplings = "Garnelen-Klöße zubereiten",
+        MakePotatoPancakes = "Kartoffelpuffer zubereiten",
+
+        Make2Bowls = "2 Schalen herstellen",
+        Make4Bowls = "4 Schalen herstellen",
+        Make2Plates = "2 Teller herstellen",
+        Make4Plates = "4 Teller herstellen",
+
+    /**** recipes_beverages.txt ****/
+
+        MakeLemonadePitcher = "Krug Limonade zubereiten",
+        MakePinkLemonadePitcher = "Krug rosa Limonade zubereiten",
+        MakeFruitPunchPitcher = "Krug Fruchtpunsch zubereiten",
+        MakeCherryDrinkPitcher = "Krug Kirschgetränk zubereiten",
+        MakeGrapeDrinkPitcher = "Krug Traubengetränk zubereiten",
+        MakeSweetTeaPitcher = "Krug süßen Tee zubereiten",
+
+        TakeTeaBagFromBox = "Teebeutel aus Packung nehmen",
+
+        MakeVanillaProteinShake = "Vanille-Proteinshake zubereiten",
+        MakeChocolateProteinShake = "Schoko-Proteinshake zubereiten",
+        MakeStrawberryProteinShake = "Erdbeer-Proteinshake zubereiten",
+        MakeBananaProteinShake = "Bananen-Proteinshake zubereiten",
+
+        OpenBottleOfWine = "Weinflasche öffnen",
+        OpenBottleOfBeer = "Bierflasche öffnen",
+        OpenPackOfBeer = "Bierpackung öffnen",
+
+    /**** recipes_evolved.txt ****/
+
+        PrepareLasagna = "Lasagne zubereiten",
+        PrepareMeatloaf = "Hackbraten zubereiten",
+        PrepareBakedPotato = "Ofenkartoffel zubereiten",
+        PrepareScallopedPotatoBake = "Kartoffelgratin zubereiten",
+        PrepareQuiche = "Quiche zubereiten",
+        PrepareNachos = "Nachos zubereiten",
+        PrepareEnchilada = "Enchilada zubereiten",
+        PrepareCheesecake = "Käsekuchen zubereiten",
+        PrepareMilkshakeVanilla = "Prepare Milkshake",
+        PrepareMilkshakeChocolate = "Prepare Milkshake",
+        PrepareMilkshakeChocolateChip = "Prepare Milkshake",
+        PrepareMilkshakeStrawberry = "Prepare Milkshake",
+        PrepareMilkshakeNeapolitan = "Prepare Milkshake",
+        PrepareMilkshakeButterPecan = "Prepare Milkshake",
+        PrepareMilkshakeMintChocolateChip = "Prepare Milkshake",
+        PrepareMilkshakeCookiesAndCream = "Prepare Milkshake",
+        PrepareMilkshakeRockyRoad = "Prepare Milkshake",
+        PrepareMilkshakePistachio = "Prepare Milkshake",
+        PrepareSushi = "Sushi zubereiten",
+        PrepareFriedRice = "Gebratenen Reis zubereiten",
+        GetBakedPotato = "Ofenkartoffel entnehmen",
+        SliceCheesecake = "Käsekuchen schneiden",
+
+    /**** recipes_cooking.txt ****/
+
+        PrepareShephardsPie = "Shepherd's Pie zubereiten",
+        PrepareTunaCasserole = "Thunfischauflauf zubereiten",
+        PrepareBakedZiti = "Gebackene Ziti zubereiten",
+        PrepareStuffedBellPeppers = "Gefüllte Paprika zubereiten",
+        GetStuffedBellPeppers = "Gefüllte Paprika entnehmen",
+        PrepareChickenPotPie = "Chicken Pot Pie zubereiten",
+        PrepareMoussaka = "Moussaka zubereiten",
+        PrepareChickenDivan = "Chicken Divan zubereiten",
+        PrepareSalisburySteak = "Salisbury Steak zubereiten",
+        PrepareFishandChips = "Fish and Chips zubereiten",
+        PrepareBangersandMash = "Bangers and Mash zubereiten",
+        PrepareFullEnglishBreakfast = "Volles englisches Frühstück zubereiten",
+        PrepareHalfEnglishBreakfast = "Halbes englisches Frühstück zubereiten",
+        PrepareScotchEgg = "Scotch Egg zubereiten",
+        PrepareSausageAndAppleFry = "Wurst-Apfel-Pfanne zubereiten",
+        PrepareBeansOnToast = "Bohnen auf Toast zubereiten",
+        PrepareButterChicken = "Butter Chicken zubereiten",
+        PrepareThaiGreenCurry = "Thailändisches grünes Curry zubereiten",
+        PrepareMassamanCurry = "Massaman-Curry zubereiten",
+        PrepareChanaMasala = "Chana Masala zubereiten",
+        PrepareSweetPotatoChickpeaCurry = "Süßkartoffel-Kichererbsen-Curry zubereiten",
+        PrepareTofuCurry = "Tofu-Curry zubereiten",
+    
+    /**** Fall Update - October 2025 ****/
+
+        VFX_OpenCandyBag = "Süßigkeiten-Tüte öffnen",
+
+        VFX_OpenPackSausages = "Wurstpackung öffnen",
+        VFX_OpenPackMeatballs = "Hackbällchen-Packung öffnen",
+
+        VFX_SliceBakingPie = "Tiefkühlkuchen schneiden",
+        VFX_SliceFrozenPie = "Slice Pie",
+
+        VFX_PreparePieFilling = "Kuchen zubereiten",
+
+        VFX_PrepareApplePie = "Apfelkuchen zubereiten",
+        VFX_PrepareCherryPie = "Kirschkuchen zubereiten",
+        VFX_PrepareBlueberryPie = "Blaubeerkuchen zubereiten",
+        VFX_PrepareStrawberryPie = "Erdbeerkuchen zubereiten",
+        VFX_PreparePeachPie = "Pfirsichkuchen zubereiten",
+        VFX_PrepareMixedBerryPie = "Beerenkuchen zubereiten",
+        VFX_PrepareLemonCreamPie = "Zitronen-Sahne-Kuchen zubereiten",
+        VFX_PrepareBlackberryPie = "Brombeerkuchen zubereiten",
+        VFX_PrepareRaspberryPie = "Himbeerkuchen zubereiten",
+        VFX_PreparePumpkinPie = "Kürbiskuchen zubereiten",
+        VFX_PrepareSweetPotatoPie = "Süßkartoffelkuchen zubereiten",
+        VFX_PreparePecanPie = "Pekannuss-Kuchen zubereiten",
+
+        VFX_MakeSpiceRackSmallLight = "Kleines helles Gewürzregal herstellen",
+        VFX_MakeSpiceRackSmallDark = "Kleines dunkles Gewürzregal herstellen",
+        VFX_MakeSpiceRackLargeLight = "Großes helles Gewürzregal herstellen",
+        VFX_MakeSpiceRackLargeDark = "Großes dunkles Gewürzregal herstellen",
+
+}

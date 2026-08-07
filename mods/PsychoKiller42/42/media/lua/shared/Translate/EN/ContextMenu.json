@@ -1,0 +1,8 @@
+{
+"ContextMenu_PK42_CollectBones": "Collect Bones",
+"ContextMenu_PK42_RequiredItems": "Required Items",
+"ContextMenu_PK42_AlreadySkinned": "Already Skinned",
+"ContextMenu_PK42_CollectBonesDesc": "Collect the bones from the remains.",
+"ContextMenu_PK42_CorpseName": "Corpse",
+"ContextMenu_PK42_SkinCorpse": "Skin Corpse"
+}

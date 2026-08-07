@@ -1,0 +1,4 @@
+ContextMenu_JP = {
+	ContextMenu_Repair_Wall = "壁の亀裂を修理する",
+	ContextMenu_Repair_Wall_Object = "壁に損傷がある"
+}

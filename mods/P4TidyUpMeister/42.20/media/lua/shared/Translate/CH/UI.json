@@ -1,0 +1,10 @@
+{
+	"UI_P4TidyUpMeister_Messages_ToDoReequip": "當行動結束時，啟動重新裝備。",
+	"UI_P4TidyUpMeister_Messages_ToDoNotReequip": "當行動結束時，取消啟動重新裝備。",
+	"UI_P4TidyUpMeister_Options_UseContextMenu_Name": "使用內容清單",
+	"UI_P4TidyUpMeister_Options_UseContextMenu_Tooltip": "允許內容清單切換於重新裝備與否",
+	"UI_P4TidyUpMeister_Options_ForceReequip_Name": "強制重新裝備",
+	"UI_P4TidyUpMeister_Options_ForceReequip_Tooltip": "普遍來說，操作中斷不會重新裝備，但開啟此選項後會強制重新裝備手持物品",
+	"UI_P4TidyUpMeister_Options_RestoreDismantleOutputs_Name": "將拆解素材放回原處",
+	"UI_P4TidyUpMeister_Options_RestoreDismantleOutputs_Tooltip": "將拆解物品後獲得的素材放回被拆解物品原本所在的容器。"
+}

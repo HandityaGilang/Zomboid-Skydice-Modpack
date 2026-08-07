@@ -1,0 +1,9 @@
+{
+    "UI_PlainMoodles_Title": "Plain Moodles Redone",
+    "UI_PlainMoodles_OwnStack": "由本模组绘制状态图标堆叠",
+    "UI_PlainMoodles_OwnStack_tip": "关闭：由游戏自行绘制堆叠，模组只提供贴图。",
+    "UI_PlainMoodles_Tint": "按状态等级为底板上色",
+    "UI_PlainMoodles_Tint_tip": "关闭：底板在所有等级都保持灰色，与 1.4.0 版相同。",
+    "UI_PlainMoodles_Tooltip": "鼠标悬停时显示状态名称",
+    "UI_PlainMoodles_Tooltip_tip": "关闭：光标下的底板旁不显示标签。"
+}

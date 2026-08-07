@@ -1,0 +1,8 @@
+name=Repair Wall Cracks [B42]
+id=RepairWallCracks_B42
+description=Repair wall cracks on buildings around the world.
+poster=poster.png
+author=Grinlof, SP4RTAN
+modversion=1.3.0
+versionMin=42.15
+icon=icon.png

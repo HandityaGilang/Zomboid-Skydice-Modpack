@@ -1,0 +1,23 @@
+{
+    "Sandbox_PIP": "Plysken Irrigation Pipes",
+    "Sandbox_PIP_EnableAutoWatering": "Włącz automatyczne podlewanie",
+    "Sandbox_PIP_EnableAutoWatering_tooltip": "Po włączeniu rury automatycznie podlewają pobliskie uprawy z podłączonych beczek na deszczówkę.",
+    "Sandbox_PIP_WateringInterval": "Interwał podlewania (minuty)",
+    "Sandbox_PIP_WateringInterval_tooltip": "Minuty gry pomiędzy każdym cyklem podlewania.",
+    "Sandbox_PIP_WateringRadius": "Promień podlewania (kafelki)",
+    "Sandbox_PIP_WateringRadius_tooltip": "0 = tylko kafelek samej rury. Wyższe wartości podlewają uprawy na kwadratowym obszarze wokół każdej rury.",
+    "Sandbox_PIP_SmartPipes": "Inteligentne rury",
+    "Sandbox_PIP_SmartPipes_tooltip": "Po włączeniu rury napełniają uprawy do optymalnego poziomu wody. Po wyłączeniu dodają stałą, niewielką ilość w każdym cyklu.",
+    "Sandbox_PIP_SmartPipesFillMax": "Maks. napełnienie inteligentnych rur",
+    "Sandbox_PIP_SmartPipesFillMax_tooltip": "Maksymalny poziom wody dodawany do uprawy na cykl w trybie inteligentnych rur.",
+    "Sandbox_PIP_SharedWaterPool": "Wspólny zbiornik wody",
+    "Sandbox_PIP_SharedWaterPool_tooltip": "Po włączeniu beczki podłączone do tej samej sieci dzielą i równoważą swoją wodę (pełna i pusta beczka wyrównują się).",
+    "Sandbox_PIP_DebugLogs": "Dzienniki debugowania",
+    "Sandbox_PIP_DebugLogs_tooltip": "Wypisuje wewnętrzne dzienniki do konsoli. Tylko do rozwiązywania problemów.",
+    "Sandbox_PIP_EnableFertigation": "Włącz fertygację",
+    "Sandbox_PIP_EnableFertigation_tooltip": "Gdy włączone, wlej Nawóz lub Kompost do podłączonej beczki, a sieć rur automatycznie nawozi pobliskie uprawy (jedna bezpieczna dawka na roślinę, nigdy nie przenawozi). Domyślnie włączone.",
+    "Sandbox_PIP_FertigationSkill": "Jakość fertygacji (Rolnictwo)",
+    "Sandbox_PIP_FertigationSkill_tooltip": "Symulowany poziom Rolnictwa przy auto-nawożeniu. Wyżej = większa szansa na premię do plonu. Nie wpływa na bezpieczeństwo.",
+    "Sandbox_PIP_ChargesPerBag": "Dawki na worek nawozu/kompostu",
+    "Sandbox_PIP_ChargesPerBag_tooltip": "Ile roślin może nawieźć jeden wlany worek. Niezależne od ilości wody w beczce."
+}

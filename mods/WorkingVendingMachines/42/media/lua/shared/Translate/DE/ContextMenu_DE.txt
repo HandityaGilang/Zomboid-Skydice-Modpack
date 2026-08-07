@@ -1,0 +1,10 @@
+ContextMenu_DE = {
+	ContextMenu_WVMNoPower = "Keine Stromversorgung...",
+	ContextMenu_WVMSnackInChute = "Es liegt bereits etwas im Fach...",
+	ContextMenu_WVMSoldOut = "Dieser Automat scheint ausverkauft zu sein...",
+	ContextMenu_WVMNoMoneyDrink = "Getränke sind da, leider habe ich kein Bargeld bei...",
+	ContextMenu_WVMNoMoneySnack = "Der Automat hat Snacks im Angebot, nur ich habe kein Bargeld...",
+	ContextMenu_WVMBuyDrink = "Kaufe ein Getränk (1$)",
+	ContextMenu_WVMBuySnack = "Kaufe etwas Süßes (1$)",
+	ContextMenu_WVMStrikeMachine = "Trete Automaten",
+}

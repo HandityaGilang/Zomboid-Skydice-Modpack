@@ -1,0 +1,33 @@
+UI_TR = {
+	UI_TWF_BF_RESTART_REQUIRED_HINT = "Kayıtlı oyununuzu yeniden yüklemeniz gerekir!",
+	UI_TWF_BF_SLIDER_DEPENDS_HINT = "Kaydırıcılar yalnızca yukarıdaki özellik etkin olduğunda çalışır.",
+
+	UI_TWF_BF_USE_TWF_AIMDIST    = "Nişan/atma mesafesini etkinleştir",
+	UI_TWF_BF_USE_TWF_SHORE      = "Daha küçük kıyıyı etkinleştir",
+	UI_TWF_BF_USE_TWF_SIZE       = "Daha iyi kıyı algılamayı etkinleştir",
+	UI_TWF_BF_USE_TWF_TEMP       = "Sıcaklık ayarlarını etkinleştir",
+	UI_TWF_BF_USE_TWF_WEATHER    = "Hava durumu ayarlarını etkinleştir",
+	UI_TWF_BF_USE_TWF_TIME       = "Bonus zaman aralıklarını etkinleştir",
+	UI_TWF_BF_USE_TWF_SIZETABLES = "Better Fishing yakalama olasılıklarını etkinleştir",
+
+	UI_TWF_BF_AIMDIST        = "Nişan/atma mesafesi",
+	UI_TWF_BF_SHORE_RADIUS   = "Kıyı yarıçapı (karo)",
+	UI_TWF_BF_SIZE_BLEND     = "Kıyı yakınında karışım (%)",
+	UI_TWF_BF_TEMP_COEFF     = "Sıcaklık Bonus/Malus",
+	UI_TWF_BF_FOG_COEFF      = "Sis Bonus/Malus",
+	UI_TWF_BF_WIND_COEFF     = "Rüzgâr Bonus/Malus",
+	UI_TWF_BF_RAIN_COEFF     = "Yağmur Bonus/Malus",
+	UI_TWF_BF_MORN_START     = "Bonus sabah başlangıcı (sa)",
+	UI_TWF_BF_MORN_END       = "Bonus sabah bitişi (sa)",
+	UI_TWF_BF_EVE_START      = "Bonus akşam başlangıcı (sa)",
+	UI_TWF_BF_EVE_END        = "Bonus akşam bitişi (sa)",
+	UI_TWF_BF_TIME_COEFF     = "Bonus yakalama şansı %",
+
+	UI_TWF_BF_USE_TWF_AIMDIST_TT    = "Ayarlanabilir nişan/atma mesafesini açar. Kaydırıcı maksimum mesafeyi belirler.",
+	UI_TWF_BF_USE_TWF_SHORE_TT      = "Daha küçük yarıçaplı, hafif bir kıyı kontrolünü açar. Kaydırıcı menzili belirler.",
+	UI_TWF_BF_USE_TWF_SIZE_TT       = "Kıyıya yakın boyut dağılımını ayarlar. Karışım oranı etki gücünü kontrol eder.",
+	UI_TWF_BF_USE_TWF_TEMP_TT       = "Balıkçılık için sıcaklık katsayısını uygular. Kaydırıcıyla çarpanı ayarlayın.",
+	UI_TWF_BF_USE_TWF_WEATHER_TT    = "Hava durumu katsayılarını (sis/rüzgâr/yağmur) uygular. Kaydırıcılarla etkisini ayarlayın.",
+	UI_TWF_BF_USE_TWF_TIME_TT       = "Sabah/akşam bonus zaman aralıklarını uygular. Başlangıç/bitiş ve bonus çarpanı geçerlidir.",
+	UI_TWF_BF_USE_TWF_SIZETABLES_TT = "Better Fishing şans tablolarına (boyut sınırları ve dağılım) geçer. Kaydı yeniden yüklemek gerekir.",
+}

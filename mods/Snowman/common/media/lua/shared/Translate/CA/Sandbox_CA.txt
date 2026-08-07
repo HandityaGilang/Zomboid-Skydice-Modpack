@@ -1,0 +1,6 @@
+Sandbox_CA = {
+    Sandbox_Snowman = "Ninot de neu",
+
+	Sandbox_Snowman_Melt = "Fondre el ninot de neu",
+	Sandbox_Snowman_Melt_tooltip = "Activa o desactiva que els ninots de neu es desfacin automàticament quan no hi ha neu al món.",
+}

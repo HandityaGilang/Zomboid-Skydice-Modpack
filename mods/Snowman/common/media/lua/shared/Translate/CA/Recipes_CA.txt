@@ -1,0 +1,3 @@
+RecipesCA {
+    Snowman = "Ninot de neu",
+}

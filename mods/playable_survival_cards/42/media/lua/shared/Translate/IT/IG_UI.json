@@ -1,0 +1,15 @@
+{
+    "IGUI_PSC_Play": "Gioca a UNO", "IGUI_PSC_Watch": "Guarda UNO", "IGUI_PSC_MoveCloser": "Avvicinati al tavolo.", "IGUI_PSC_WindowTitle": "UNO giocabile",
+    "IGUI_PSC_Waiting": "In attesa di giocatori", "IGUI_PSC_Playing": "Partita in corso", "IGUI_PSC_GameOver": "Partita terminata", "IGUI_PSC_YourTurn": "È il tuo turno",
+    "IGUI_PSC_You": "Tu", "IGUI_PSC_NotYourTurn": "Non è il tuo turno", "IGUI_PSC_Draw": "Pesca", "IGUI_PSC_Pass": "Passa",
+    "IGUI_PSC_Start": "Inizia", "IGUI_PSC_AddBot": "Aggiungi bot", "IGUI_PSC_RemoveBot": "Rimuovi bot", "IGUI_PSC_CallUno": "Chiama UNO",
+    "IGUI_PSC_Reset": "Ripristina", "IGUI_PSC_Leave": "Abbandona", "IGUI_PSC_ChooseColor": "Scegli colore",
+    "IGUI_PSC_Red": "Rosso", "IGUI_PSC_Yellow": "Giallo", "IGUI_PSC_Green": "Verde", "IGUI_PSC_Blue": "Blu",
+    "IGUI_PSC_DrawPile": "Mazzo", "IGUI_PSC_DiscardPile": "Scarti", "IGUI_PSC_CurrentColor": "Colore", "IGUI_PSC_Direction": "Direzione",
+    "IGUI_PSC_Clockwise": "Orario", "IGUI_PSC_CounterClockwise": "Antiorario", "IGUI_PSC_Cards": "Carte", "IGUI_PSC_Winner": "Vincitore",
+    "IGUI_PSC_Opening": "Apertura...", "IGUI_PSC_OpeningGame": "Apertura di UNO...", "IGUI_PSC_Turn": "Turno", "IGUI_PSC_Penalty": "Penalità",
+    "IGUI_PSC_Players": "Giocatori", "IGUI_PSC_OpenSeat": "Posto libero", "IGUI_PSC_TableLog": "Registro tavolo", "IGUI_PSC_YourHand": "La tua mano",
+    "IGUI_PSC_Actions": "Azioni", "IGUI_PSC_StackingOn": "Cumulo: ON", "IGUI_PSC_StackingOff": "Cumulo: OFF",
+    "IGUI_PSC_YourOpponent": "Il tuo avversario", "IGUI_PSC_ResultWinner": "VINCITORE", "IGUI_PSC_ResultLoser": "SCONFITTO",
+    "IGUI_PSC_FinalVerdict": "Il verdetto finale si avvicina...", "IGUI_PSC_WonGame": "%1 ha vinto la partita."
+}

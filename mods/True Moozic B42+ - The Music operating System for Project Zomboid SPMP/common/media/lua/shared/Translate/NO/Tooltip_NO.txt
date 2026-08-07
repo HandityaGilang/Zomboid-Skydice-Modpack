@@ -1,0 +1,4 @@
+Tooltip_NO = {
+    Tooltip_WireBundle = "En bunt med høyttalerledning. Brukes til å koble høyttalere til en musikkenhet (vinylspiller eller HiFi-stereo). <LINE> <LINE> Inneholder 200 fot med ledning. Hver tilkobling bruker 5 fot per rute med avstand.",
+    Tooltip_item_Walkman = "Den berømte spilleren fra Zony.",
+}

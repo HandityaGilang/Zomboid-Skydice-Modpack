@@ -1,0 +1,10 @@
+ContextMenu_TR = {
+	ContextMenu_WVMNoPower = "Elektrik yok.",
+	ContextMenu_WVMSnackInChute = "Olukta sıkışmış bir atıştırmalık var.",
+	ContextMenu_WVMSoldOut = "Otomatın stoğu bitti.",
+	ContextMenu_WVMNoMoneyDrink = "Burada içecek var ama param yok.",
+	ContextMenu_WVMNoMoneySnack = "Burada atıştırmalık var ama param yok.",
+	ContextMenu_WVMBuyDrink = "İçecek al",
+	ContextMenu_WVMBuySnack = "Atıştırmalık al",
+	ContextMenu_WVMStrikeMachine = "Otomata vur",
+}

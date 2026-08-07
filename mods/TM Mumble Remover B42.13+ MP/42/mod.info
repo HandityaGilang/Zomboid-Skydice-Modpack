@@ -1,0 +1,7 @@
+name=True Moozic - Mumble Remover 42+ SP/MP
+id=TMMumble
+description=Optional add-on: removes radio/tv mumble, static and zap sounds.
+poster=cover.png
+icon=icon.png
+versionMin=42.13
+author=talismon

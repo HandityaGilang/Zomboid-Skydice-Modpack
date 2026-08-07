@@ -1,0 +1,19 @@
+{
+    "Sandbox_PlayablePool": "Playable Pool",
+    "Sandbox_PlayablePool_BoredomReliefPerTurn": "Boredom relief per turn",
+    "Sandbox_PlayablePool_BoredomReliefPerTurn_tooltip": "Boredom reduced after a player takes a valid pool shot or minigame turn.",
+    "Sandbox_PlayablePool_MaxPlayDistance": "Maximum table distance",
+    "Sandbox_PlayablePool_MaxPlayDistance_tooltip": "Maximum tile distance before players are too far away to use or keep the pool table window open.",
+    "Sandbox_PlayablePool_AllowAdminSoloPractice": "Allow admin solo practice",
+    "Sandbox_PlayablePool_AllowAdminSoloPractice_tooltip": "Allows debug/admin players to add the local Debug Bot for solo testing.",
+    "Sandbox_PlayablePool_AllowSpectators": "Allow spectators",
+    "Sandbox_PlayablePool_AllowSpectators_tooltip": "Allows a third player to watch an occupied table without joining the game.",
+    "Sandbox_PlayablePool_EnableBetaMinigames": "Enable beta minigames (active development)",
+    "Sandbox_PlayablePool_EnableBetaMinigames_tooltip": "Shows darts, card games, chess, and checkers. These games are still in active development and may not work.",
+    "Sandbox_PlayablePool_AbandonedSessionMinutes": "Abandoned session minutes",
+    "Sandbox_PlayablePool_AbandonedSessionMinutes_tooltip": "Pool sessions older than this are cleaned up automatically if abandoned.",
+    "Sandbox_PlayablePool_StressReliefPerTurn": "Stress relief per turn",
+    "Sandbox_PlayablePool_StressReliefPerTurn_tooltip": "Optional stress reduction after a valid pool shot or minigame turn. Leave at 0 to disable.",
+    "Sandbox_PlayablePool_UnhappinessReliefPerTurn": "Unhappiness relief per turn",
+    "Sandbox_PlayablePool_UnhappinessReliefPerTurn_tooltip": "Optional unhappiness reduction after a valid pool shot or minigame turn. Leave at 0 to disable."
+}

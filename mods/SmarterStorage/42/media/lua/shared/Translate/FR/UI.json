@@ -1,0 +1,7 @@
+{
+	"UI_SmarterStorage_Options_Vanilla_Name" : "Afficher les infobulles du jeu de base",
+	"UI_SmarterStorage_Options_Vanilla_Tooltip" : "Cocher ceci pour afficher les noms du jeu de base comme 'réfrigérateur' en tant qu'infobulles",
+
+	"UI_SmarterStorage_Options_RenamedTooltips_Name" : "Afficher les infobulles personnalisées",
+	"UI_SmarterStorage_Options_RenamedTooltips_Tooltip" : "Cocher pour utiliser vos noms de contenants personnalisés en tant qu'infobulles"
+}

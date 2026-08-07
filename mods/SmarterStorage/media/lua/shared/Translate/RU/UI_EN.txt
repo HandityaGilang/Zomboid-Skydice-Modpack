@@ -1,0 +1,7 @@
+UI_RU = {
+	UI_SmarterStorage_Options_Vanilla_Name = "ќтображать стандартные подсказки",
+	UI_SmarterStorage_Options_Vanilla_Tooltip = "ѕоставьте галочку, дл€ отображени€ стандартных названий, например Ђ’олодильникї, в всплывающих подсказок.",
+	
+	UI_SmarterStorage_Options_RenamedTooltips_Name = "ќтображать названи€ пользовательских всплывающих подсказок",
+	UI_SmarterStorage_Options_RenamedTooltips_Tooltip = "ѕоставьте галочку, чтобы использовать пользовательские имена контейнеров в качестве всплывающих подсказок.",
+}

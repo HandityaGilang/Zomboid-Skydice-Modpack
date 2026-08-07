@@ -1,0 +1,87 @@
+module PK42
+{
+    item BookPsychopath1
+    {
+        DisplayCategory = SkillBook,
+        ItemType = base:literature,
+        Weight = 1.0,
+        Icon = Book_OldFancy,
+        BoredomChange = -40,
+        StressChange = -40,
+        UnhappyChange = -40,
+        LvlSkillTrained = 1,
+        NumLevelsTrained = 2,
+        NumberOfPages = 240,
+        SkillTrained = Insanity,
+        StaticModel = BookFancy_Hand,
+        WorldStaticModel = BookFancyClosed,
+    }
+
+    item BookPsychopath2
+    {
+        DisplayCategory = SkillBook,
+        ItemType = base:literature,
+        Weight = 1.0,
+        Icon = Book_OldFancy,
+        BoredomChange = -40,
+        StressChange = -40,
+        UnhappyChange = -40,
+        LvlSkillTrained = 3,
+        NumLevelsTrained = 2,
+        NumberOfPages = 384,
+        SkillTrained = Insanity,
+        StaticModel = BookFancy_Hand,
+        WorldStaticModel = BookFancyClosed,
+    }
+
+    item BookPsychopath3
+    {
+        DisplayCategory = SkillBook,
+        ItemType = base:literature,
+        Weight = 1.0,
+        Icon = Book_OldFancy,
+        BoredomChange = -40,
+        StressChange = -40,
+        UnhappyChange = -40,
+        LvlSkillTrained = 5,
+        NumLevelsTrained = 2,
+        NumberOfPages = 416,
+        SkillTrained = Insanity,
+        StaticModel = BookFancy_Hand,
+        WorldStaticModel = BookFancyClosed,
+    }
+
+    item BookPsychopath4
+    {
+        DisplayCategory = SkillBook,
+        ItemType = base:literature,
+        Weight = 1.0,
+        Icon = Book_OldFancy,
+        BoredomChange = -40,
+        StressChange = -40,
+        UnhappyChange = -40,
+        LvlSkillTrained = 7,
+        NumLevelsTrained = 2,
+        NumberOfPages = 192,
+        SkillTrained = Insanity,
+        StaticModel = BookFancy_Hand,
+        WorldStaticModel = BookFancyClosed,
+    }
+
+    item BookPsychopath5
+    {
+        DisplayCategory = SkillBook,
+        ItemType = base:literature,
+        Weight = 1.0,
+        Icon = Book_OldFancy,
+        BoredomChange = -40,
+        StressChange = -40,
+        UnhappyChange = -40,
+        LvlSkillTrained = 9,
+        NumLevelsTrained = 2,
+        NumberOfPages = 256,
+        SkillTrained = Insanity,
+        StaticModel = BookFancy_Hand,
+        WorldStaticModel = BookFancyClosed,
+    }
+}

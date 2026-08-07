@@ -1,0 +1,17 @@
+{
+    "ContextMenu_OpenJacket": "���� ����",
+    "ContextMenu_CloseJacket": "���� �ݱ�",
+    "ContextMenu_OpenHoodUp": "���� ���� �ĵ� �ø���",
+    "ContextMenu_OpenHoodDown": "���� �ݰ� �ĵ� ������",
+    "ContextMenu_CloseHoodUp": "���� ���� �ĵ� �ø���",
+    "ContextMenu_CloseHoodDown": "���� �ݰ� �ĵ� ������",
+    "ContextMenu_TuckIn": "���� �ֱ�",
+    "ContextMenu_TuckOut": "���� ����",
+    "ContextMenu_RollUp": "�ش� �ȱ�",
+    "ContextMenu_RollDown": "�ش� ���",
+    "ContextMenu_OpenRollUp": "���� �ش� �ȱ�",
+    "ContextMenu_OpenRollDown": "�ݰ� �ش� ���",
+    "ContextMenu_CloseRollUp": "���� �ش� �ȱ�",
+    "ContextMenu_CloseRollDown": "�ݰ� �ش� ���",
+    "ContextMenu_TieOnWaist": "�㸮�� ����"
+}

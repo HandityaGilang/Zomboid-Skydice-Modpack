@@ -1,0 +1,17 @@
+{
+    "IGUI_ItemCat_Gardening_01_Best": "Jardinage (Idéal)",
+    "IGUI_ItemCat_Gardening_02_InSeason": "Jardinage (De saison)",
+    "IGUI_ItemCat_Gardening_03_Risk": "Jardinage (Risqué)",
+    "IGUI_ItemCat_Gardening_04_OutOfSeason": "Jardinage (Hors saison)",
+    "IGUI_ItemCat_Gardening_05_Unknown": "Jardinage",
+    "IGUI_ItemCat_Gardening_06_Other": "Jardinage",
+    "IGUI_SSI_SeasonSuffix_Best": "(Idéal)",
+    "IGUI_SSI_SeasonSuffix_InSeason": "(De saison)",
+    "IGUI_SSI_SeasonSuffix_Risk": "(Risqué)",
+    "IGUI_SSI_SeasonSuffix_OutOfSeason": "(Hors saison)",
+    "IGUI_SSI_TooltipThisMonth": "Ce mois-ci",
+    "IGUI_SSI_TooltipStatus_Best": "Idéal",
+    "IGUI_SSI_TooltipStatus_InSeason": "De saison",
+    "IGUI_SSI_TooltipStatus_Risk": "Risqué",
+    "IGUI_SSI_TooltipStatus_OutOfSeason": "Hors saison"
+}

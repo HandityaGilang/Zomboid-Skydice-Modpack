@@ -1,0 +1,9 @@
+{
+    "UI_PlainMoodles_Title": "Plain Moodles Redone",
+    "UI_PlainMoodles_OwnStack": "Рисовать стопку мудлов силами мода",
+    "UI_PlainMoodles_OwnStack_tip": "Выключено: стопку рисует сама игра, от мода остаются только текстуры.",
+    "UI_PlainMoodles_Tint": "Красить подложку по уровню мудла",
+    "UI_PlainMoodles_Tint_tip": "Выключено: подложки остаются серыми на всех уровнях, как в версии 1.4.0.",
+    "UI_PlainMoodles_Tooltip": "Показывать название мудла при наведении мыши",
+    "UI_PlainMoodles_Tooltip_tip": "Выключено: подпись рядом с подложкой под курсором не появляется."
+}

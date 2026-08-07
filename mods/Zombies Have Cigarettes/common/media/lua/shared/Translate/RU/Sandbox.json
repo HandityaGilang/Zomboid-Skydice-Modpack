@@ -1,0 +1,11 @@
+{
+    "Sandbox_ZombsHaveCigs": "Зомби имеют сигареты",
+    "Sandbox_ZombsHaveCigs_GlobalChance": "Шанс лута у зомби",
+    "Sandbox_ZombsHaveCigs_GlobalChance_tooltip": "Шанс, что у мёртвого зомби появится один предмет из этого мода.",
+    "Sandbox_ZombsHaveCigs_EnableFireSources": "Добавлять зажигалки и спички",
+    "Sandbox_ZombsHaveCigs_EnableFireSources_tooltip": "Разрешает появление обычных зажигалок, одноразовых зажигалок, книжек спичек и спичечных коробков у зомби.",
+    "Sandbox_ZombsHaveCigs_EnableRareTobacco": "Добавлять редкий табак",
+    "Sandbox_ZombsHaveCigs_EnableRareTobacco_tooltip": "Разрешает редкое появление жевательного табака, черутов и сигар у зомби.",
+    "Sandbox_ZombsHaveCigs_DebugLogging": "Отладочный лог",
+    "Sandbox_ZombsHaveCigs_DebugLogging_tooltip": "Печатает каждый успешный бросок лута зомби в консоль."
+}

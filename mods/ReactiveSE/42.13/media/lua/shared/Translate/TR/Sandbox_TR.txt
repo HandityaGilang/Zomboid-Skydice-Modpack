@@ -1,0 +1,187 @@
+Sandbox_TR = {
+    Sandbox_ReactiveSE = "Reaktif Ses Olayları",
+    Sandbox_ReactiveSEEvents = "Reaktif SO - Ses Olayları",
+    Sandbox_ReactiveSEBehavior = "Reaktif SO - Davranış",
+    Sandbox_ReactiveSEScenes = "Reaktif SO - Sahneler",
+    Sandbox_ReactiveSELoot = "Reaktif SO - Sahne Ganimeti",
+    Sandbox_ReactiveSEWorld = "Reaktif SO - Sahne Dünyası",
+    Sandbox_ReactiveSERadio = "Reaktif SO - Knox Yayını Radyosu",
+
+    Sandbox_ReactiveSE_MinEventCooldown = "Minimum Olay Bekleme Süresi",
+    Sandbox_ReactiveSE_MinEventCooldown_tooltip = "Olayların gerçekleşmesi için geçmesi gereken minimum OYUN İÇİ SAAT.",
+
+    Sandbox_ReactiveSE_MaxEventCooldown = "Maksimum Olay Bekleme Süresi",
+    Sandbox_ReactiveSE_MaxEventCooldown_tooltip = "Bir olayın gerçekleşmesinin garanti edildiği maksimum OYUN İÇİ SAAT.",
+
+    Sandbox_ReactiveSE_EventChance = "Olay Şansı (%)",
+    Sandbox_ReactiveSE_EventChance_tooltip = "Minimum bekleme süresinden sonra her 10 DAKİKALIK KONTROLDE bir olayın gerçekleşme olasılığı.",
+
+    Sandbox_ReactiveSE_FlatProbability = "Sabit Olasılık",
+    Sandbox_ReactiveSE_FlatProbability_tooltip = "Etkinleştirilirse, olasılık sabit kalır. Devre dışı bırakılırsa, olasılık maksimum bekleme süresine kadar artar.",
+
+    Sandbox_ReactiveSE_MinSoundRange = "Minimum Ses Menzili",
+    Sandbox_ReactiveSE_MinSoundRange_tooltip = "Ses olaylarının oyuncudan en az ne kadar uzaklıkta (kare cinsinden) oluşabileceği.",
+
+    Sandbox_ReactiveSE_MaxSoundRange = "Maksimum Ses Menzili",
+    Sandbox_ReactiveSE_MaxSoundRange_tooltip = "Ses olaylarının oyuncudan en fazla ne kadar uzaklıkta (kare cinsinden) oluşabileceği.",
+
+    Sandbox_ReactiveSE_ReactionThresholdRange = "Tepki Eşiği Menzili",
+    Sandbox_ReactiveSE_ReactionThresholdRange_tooltip = "Bu mesafe içinde bir ses oluşursa, oyuncu panikleyebilir veya uyanabilir. Bu menzilin dışındaki sesler sadece duyulur.",
+
+    Sandbox_ReactiveSE_CloseDistanceChance = "Yakın Mesafe Şansı",
+    Sandbox_ReactiveSE_CloseDistanceChance_tooltip = "Bir olayın yakın mesafede oluşma olasılığı.",
+
+    Sandbox_ReactiveSE_MediumDistanceChance = "Orta Mesafe Şansı",
+    Sandbox_ReactiveSE_MediumDistanceChance_tooltip = "Bir olayın orta mesafede oluşma olasılığı.",
+
+    Sandbox_ReactiveSE_FarDistanceChance = "Uzak Mesafe Şansı",
+    Sandbox_ReactiveSE_FarDistanceChance_tooltip = "Bir olayın uzak mesafede oluşma olasılığı.",
+
+    Sandbox_ReactiveSE_EnableZombieHearing = "Zombi İşitmesini Etkinleştir",
+    Sandbox_ReactiveSE_EnableZombieHearing_tooltip = "Zombilerin ses olaylarına tepki vermesine izin verir.",
+
+    Sandbox_ReactiveSE_EnableDebugMode = "[DEV] Hata Ayıklama Modunu Etkinleştir",
+    Sandbox_ReactiveSE_EnableDebugMode_tooltip = "[DEV] Hata ayıklama günlüklerini ve görsel yardımcıları etkinleştirir.",
+
+    Sandbox_ReactiveSEEvents_EnableAnimalEvents = "Hayvan Olaylarını Etkinleştir",
+    Sandbox_ReactiveSEEvents_EnableAnimalEvents_tooltip = "Uzakta duyulan hayvan sesleri.",
+
+    Sandbox_ReactiveSEEvents_EnableGunfightEvents = "Çatışma Olaylarını Etkinleştir",
+    Sandbox_ReactiveSEEvents_EnableGunfightEvents_tooltip = "Hayatta kalanlar arasındaki çatışmalar.",
+
+    Sandbox_ReactiveSEEvents_EnableGunshotEvents = "Silah Sesi Olaylarını Etkinleştir",
+    Sandbox_ReactiveSEEvents_EnableGunshotEvents_tooltip = "Uzakta duyulan tek el silah sesleri.",
+
+    Sandbox_ReactiveSEEvents_EnableScreamEvents = "Çığlık Olaylarını Etkinleştir",
+    Sandbox_ReactiveSEEvents_EnableScreamEvents_tooltip = "Hayatta kalanların uzaktan gelen çığlıkları.",
+
+    Sandbox_ReactiveSEEvents_EnableVehicleCrashEvents = "Araç Kazası Olaylarını Etkinleştir",
+    Sandbox_ReactiveSEEvents_EnableVehicleCrashEvents_tooltip = "Çarpan veya çarpışan araç sesleri.",
+
+    Sandbox_ReactiveSEEvents_EnableWeatherEvents = "Hava Durumu Olaylarını Etkinleştir",
+    Sandbox_ReactiveSEEvents_EnableWeatherEvents_tooltip = "Yıldırım gibi hava durumuyla ilgili sesler.",
+
+    Sandbox_ReactiveSEEvents_EnableZombieEvents = "Zombi Olaylarını Etkinleştir",
+    Sandbox_ReactiveSEEvents_EnableZombieEvents_tooltip = "Uzakta duyulan zombi gürültüleri.",
+
+    Sandbox_ReactiveSEBehavior_EnablePlayerStyle = "Oyuncu Oyun Tarzını Etkinleştir",
+    Sandbox_ReactiveSEBehavior_EnablePlayerStyle_tooltip = "Olay şanslarını oyuncunun saldırgan veya pasif davranışına göre ayarlar.",
+
+    Sandbox_ReactiveSEBehavior_AggressiveStyleKills = "Saldırgan Tarz Öldürme Sayısı",
+    Sandbox_ReactiveSEBehavior_AggressiveStyleKills_tooltip = "Oyuncunun saldırgan sayılması için günlük gereken öldürme sayısı.",
+
+    Sandbox_ReactiveSEBehavior_PassiveStyleDays = "Pasif Tarz Gün Sayısı",
+    Sandbox_ReactiveSEBehavior_PassiveStyleDays_tooltip = "Oyuncunun pasif sayılması için zombi öldürmeden geçmesi gereken gün sayısı.",
+
+    Sandbox_ReactiveSEBehavior_EnablePlayerReactionPanic = "Oyuncu Panik Tepkisini Etkinleştir",
+    Sandbox_ReactiveSEBehavior_EnablePlayerReactionPanic_tooltip = "Tepki menzili içinde bir ses olayı gerçekleştiğinde oyuncu panikleyebilir.",
+
+    Sandbox_ReactiveSEBehavior_EnablePlayerReactionWakeUp = "Oyuncu Uyanma Tepkisini Etkinleştir",
+    Sandbox_ReactiveSEBehavior_EnablePlayerReactionWakeUp_tooltip = "Yakınlarda bir ses olayı olursa uyuyan oyuncu uyanabilir.",
+
+    Sandbox_ReactiveSEScenes_EnableEventScenes = "Olay Sahnelerini Etkinleştir",
+    Sandbox_ReactiveSEScenes_EnableEventScenes_tooltip = "Ses olaylarından oluşturulan fiziksel sahneleri etkinleştirir.",
+
+    Sandbox_ReactiveSEScenes_EventSceneChance = "Sahne Oluşma Şansı",
+    Sandbox_ReactiveSEScenes_EventSceneChance_tooltip = "Bir ses olayının bir sahne oluşturma şansı.",
+
+    Sandbox_ReactiveSEScenes_SceneCleanupHours = "Sahne Temizleme Süresi",
+    Sandbox_ReactiveSEScenes_SceneCleanupHours_tooltip = "Oluşturulan sahnelerin otomatik olarak temizlenmesi için geçmesi gereken saat.",
+
+    Sandbox_ReactiveSEScenes_EnableGunfightScene = "Çatışma Sahnesini Etkinleştir",
+    Sandbox_ReactiveSEScenes_EnableGunfightScene_tooltip = "Çatışma sesleri geldiğinde ceset sahneleri oluşturur.",
+
+    Sandbox_ReactiveSEScenes_EnableGunshotScene = "Silah Sesi Sahnesini Etkinleştir",
+    Sandbox_ReactiveSEScenes_EnableGunshotScene_tooltip = "Silah sesleri geldiğinde tek bir ceset oluşturur.",
+
+    Sandbox_ReactiveSEScenes_EnableScreamScene = "Çığlık Sahnesini Etkinleştir",
+    Sandbox_ReactiveSEScenes_EnableScreamScene_tooltip = "Çığlık sesleri geldiğinde ceset oluşturur.",
+
+    Sandbox_ReactiveSEScenes_ScreamZombieCount = "Çığlık Maksimum Zombi Sayısı",
+    Sandbox_ReactiveSEScenes_ScreamZombieCount_tooltip = "Çığlık sahneleriyle birlikte oluşabilecek maksimum zombi sayısı (0 = devre dışı).",
+
+    Sandbox_ReactiveSEScenes_EnableVehicleCrashScene = "Araç Kazası Sahnesini Etkinleştir",
+    Sandbox_ReactiveSEScenes_EnableVehicleCrashScene_tooltip = "Kaza sesleri geldiğinde enkaz halindeki araçları oluşturur.",
+
+    Sandbox_ReactiveSEScenes_VehicleMaxCondition = "Araç Maksimum Kondisyonu",
+    Sandbox_ReactiveSEScenes_VehicleMaxCondition_tooltip = "Sahnelerde oluşan araçların sahip olabileceği maksimum kondisyon.",
+    Sandbox_ReactiveSEScenes_VehicleMaxCondition_Values_option1 = "Çok Düşük",
+    Sandbox_ReactiveSEScenes_VehicleMaxCondition_Values_option2 = "Düşük",
+    Sandbox_ReactiveSEScenes_VehicleMaxCondition_Values_option3 = "Normal",
+    Sandbox_ReactiveSEScenes_VehicleMaxCondition_Values_option4 = "Yüksek",
+    Sandbox_ReactiveSEScenes_VehicleMaxCondition_Values_option5 = "Çok Yüksek",
+
+    Sandbox_ReactiveSEScenes_VehicleKeyChance = "Araç Anahtarı Şansı",
+    Sandbox_ReactiveSEScenes_VehicleKeyChance_tooltip = "Oluşturulan bir aracın anahtarının içinde olma şansı.",
+
+    Sandbox_ReactiveSEScenes_EnableZombieScene = "Zombi Sahnesini Etkinleştir",
+    Sandbox_ReactiveSEScenes_EnableZombieScene_tooltip = "Zombi sesleri geldiğinde zombi grupları oluşturur.",
+
+    Sandbox_ReactiveSEScenes_ZombieSceneMin = "Minimum Zombi Sayısı",
+    Sandbox_ReactiveSEScenes_ZombieSceneMin_tooltip = "Bir Zombi olayında oluşacak minimum zombi sayısı.",
+
+    Sandbox_ReactiveSEScenes_ZombieSceneMax = "Maksimum Zombi Sayısı",
+    Sandbox_ReactiveSEScenes_ZombieSceneMax_tooltip = "Bir Zombi olayında oluşacak maksimum zombi sayısı.",
+
+    Sandbox_ReactiveSEScenes_EnableSceneSpawnNotify = "Sahne Oluşum Bildirimlerini Etkinleştir",
+    Sandbox_ReactiveSEScenes_EnableSceneSpawnNotify_tooltip = "Yakınlarda bir sahne oluştuğunda oyuncuyu bilgilendirir.",
+
+    Sandbox_ReactiveSEScenes_SceneSpawnNotifyText = "Metin Bildirimi",
+    Sandbox_ReactiveSEScenes_SceneSpawnNotifyText_tooltip = "Yakınlarda bir sahne oluştuğunda oyuncu bir şeyler söyler.",
+
+    Sandbox_ReactiveSEScenes_SceneSpawnNotifyMarker = "İşaretçi Bildirimi",
+    Sandbox_ReactiveSEScenes_SceneSpawnNotifyMarker_tooltip = "Yakınlarda bir sahne oluştuğunda yön işaretçisini gösterir.",
+
+    Sandbox_ReactiveSELoot_LootQuality = "Ganimet Kalitesi",
+    Sandbox_ReactiveSELoot_LootQuality_tooltip = "Sahnelerde bulunan ganimetlerin genel kalitesi.",
+    Sandbox_ReactiveSELoot_LootQuality_Values_option1 = "Dinamik",
+    Sandbox_ReactiveSELoot_LootQuality_Values_option2 = "Fakir",
+    Sandbox_ReactiveSELoot_LootQuality_Values_option3 = "Normal",
+    Sandbox_ReactiveSELoot_LootQuality_Values_option4 = "Zengin",
+
+    Sandbox_ReactiveSELoot_WeaponMaxCondition = "Silah Maksimum Kondisyonu",
+    Sandbox_ReactiveSELoot_WeaponMaxCondition_tooltip = "Sahnelerde bulunan silahların maksimum kondisyonu.",
+
+    Sandbox_ReactiveSELoot_RangedWeaponChance = "Menzilli Silah Şansı",
+    Sandbox_ReactiveSELoot_RangedWeaponChance_tooltip = "Bir sahnede menzilli bir silahın çıkma şansı.",
+
+    Sandbox_ReactiveSELoot_MinBackpackStealChance = "Minimum Sırt Çantası Çalınma Olasılığı (%)",
+    Sandbox_ReactiveSELoot_MinBackpackStealChance_tooltip = "Bir sırt çantasının bir cesetten çalınma minimum olasılığıdır. End Game sırasında uygulanır.",
+
+    Sandbox_ReactiveSELoot_MaxBackpackStealChance = "Maksimum Sırt Çantası Çalınma Olasılığı (%)",
+    Sandbox_ReactiveSELoot_MaxBackpackStealChance_tooltip = "Bir sırt çantasının bir cesetten çalınma maksimum olasılığıdır (World Tier ile ölçeklenir). Early Game sırasında uygulanır.",
+
+    Sandbox_ReactiveSELoot_AmmoScarcity = "Mühimmat Kıtlığı",
+    Sandbox_ReactiveSELoot_AmmoScarcity_tooltip = "Sahnelerdeki mühimmatın ne kadar kıt olduğunu kontrol eder.",
+    Sandbox_ReactiveSELoot_AmmoScarcity_Values_option1 = "Yok",
+    Sandbox_ReactiveSELoot_AmmoScarcity_Values_option2 = "Kıt",
+    Sandbox_ReactiveSELoot_AmmoScarcity_Values_option3 = "Normal",
+    Sandbox_ReactiveSELoot_AmmoScarcity_Values_option4 = "Bol",
+
+    Sandbox_ReactiveSELoot_SubKitCountMin = "Minimum Alt-Kit Eşyası",
+    Sandbox_ReactiveSELoot_SubKitCountMin_tooltip = "Alt-Kit başına oluşturulan minimum eşya sayısı (Dinamik Ganimet: Oyun Başı).",
+
+    Sandbox_ReactiveSELoot_SubKitCountMax = "Maksimum Alt-Kit Eşyası",
+    Sandbox_ReactiveSELoot_SubKitCountMax_tooltip = "Alt-Kit başına oluşturulan maksimum eşya sayısı (Dinamik Ganimet: Oyun Sonu).",
+
+    Sandbox_ReactiveSEWorld_CorpseCount = "Ceset Sayısı",
+    Sandbox_ReactiveSEWorld_CorpseCount_tooltip = "Bir sahnede oluşacak maksimum ceset sayısı.",
+
+    Sandbox_ReactiveSEWorld_WorldTierEarlyEnd = "Oyun Başının Sonu",
+    Sandbox_ReactiveSEWorld_WorldTierEarlyEnd_tooltip = "Oyun Başının (Early Game) bittiği son günü tanımlar. Orta Oyun başlar.",
+
+    Sandbox_ReactiveSEWorld_WorldTierMidEnd = "Orta Oyunun Sonu",
+    Sandbox_ReactiveSEWorld_WorldTierMidEnd_tooltip = "Orta Oyunun (Mid Game) bittiği son günü tanımlar. Geç Oyun başlar.",
+
+    Sandbox_ReactiveSEWorld_WorldTierLateEnd = "Geç Oyunun Sonu",
+    Sandbox_ReactiveSEWorld_WorldTierLateEnd_tooltip = "Geç Oyunun (Late Game) bittiği son günü tanımlar. Oyun Sonu başlar.",
+
+    Sandbox_ReactiveSERadio_EnableRadioFeature = "Knox Yayını Radyosunu Etkinleştir",
+    Sandbox_ReactiveSERadio_EnableRadioFeature_tooltip = "Sahne konumlarını ve hayatta kalma hikayelerini yayınlayan Knox Yayını radyo istasyonunu etkinleştirir.",
+
+    Sandbox_ReactiveSERadio_EnableMapMarker = "Harita İşaretlemeyi Etkinleştir",
+    Sandbox_ReactiveSERadio_EnableMapMarker_tooltip = "Oyuncuların radyo bağlam menüsü aracılığıyla istihbarat koordinatlarını haritalarında işaretlemelerine izin verir. Oyuncuların bu özelliği kullanmasını önlemek için devre dışı bırakın.",
+
+    Sandbox_ReactiveSERadio_EnableMorningShowXP = "Sabah Programı DP'sini Etkinleştir",
+    Sandbox_ReactiveSERadio_EnableMorningShowXP_tooltip = "Oyuncuların sabah programını dinleyerek Deneyim Puanı kazanmasına izin verir.",
+}

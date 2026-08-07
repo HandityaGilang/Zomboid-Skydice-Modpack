@@ -1,0 +1,6 @@
+ContextMenu_ES = {
+	ContextMenu_BagsEquipped = "Mochilas equipadas",
+	ContextMenu_WMI_Bandages = "Vendas",
+	Tooltip_WMI_TaintedAllowed = "Permitido por ajustes del mundo.",
+	Tooltip_WMI_TaintedBlocked = "Bloqueado por ajustes del mundo.",
+}

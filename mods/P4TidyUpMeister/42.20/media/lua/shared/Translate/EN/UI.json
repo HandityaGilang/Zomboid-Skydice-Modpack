@@ -1,0 +1,15 @@
+{
+	"UI_P4TidyUpMeister_Messages_ToDoReequip": "Items will now be re-equipped after actions.",
+	"UI_P4TidyUpMeister_Messages_ToDoNotReequip": "Items will no longer be re-equipped after actions.",
+	"UI_P4TidyUpMeister_Options_UseContextMenu_Name": "Show Re-Equip Toggle in Context Menu",
+	"UI_P4TidyUpMeister_Options_UseContextMenu_Tooltip": "Adds an option to the context menu that enables or disables automatic re-equipping after actions.",
+	"UI_P4TidyUpMeister_Options_ForceReequip_Name": "Re-Equip Held Items After Interruptions",
+	"UI_P4TidyUpMeister_Options_ForceReequip_Tooltip": "By default, interrupted actions do not restore your equipment. Enable this option to restore only the items that were in your hands before the action.",
+	"UI_P4TidyUpMeister_Options_RestoreDismantleOutputs_Name": "Return Materials from Dismantling",
+	"UI_P4TidyUpMeister_Options_RestoreDismantleOutputs_Tooltip": "Returns materials obtained by dismantling an item to the container the dismantled item came from.",
+	"UI_P4TidyUpMeister_Options_DebugOutput_Name": "Diagnostic Output",
+	"UI_P4TidyUpMeister_Options_DebugOutput_Tooltip": "Controls diagnostic output for troubleshooting. Detailed logging may affect performance, so enable it only while reproducing an issue.",
+	"UI_P4TidyUpMeister_Options_DebugOutput_ListItem1": "Off",
+	"UI_P4TidyUpMeister_Options_DebugOutput_ListItem2": "Log only",
+	"UI_P4TidyUpMeister_Options_DebugOutput_ListItem3": "Log + overhead text"
+}

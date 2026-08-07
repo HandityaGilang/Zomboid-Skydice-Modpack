@@ -1,0 +1,4 @@
+ContextMenu_HU = {
+	ContextMenu_Repair_Wall = "Falrepedés javítása",
+	ContextMenu_Repair_Wall_Object = "Megtört fal"
+}

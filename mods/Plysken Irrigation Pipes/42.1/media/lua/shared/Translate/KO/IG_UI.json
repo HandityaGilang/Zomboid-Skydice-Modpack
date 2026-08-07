@@ -1,0 +1,5 @@
+{
+    "IGUI_PIP_NetworkInfoLocal": "파이프 %1개, 배럴 %2개, %3 L",
+    "IGUI_PIP_PouredDoses": "+%1회분 비료",
+    "IGUI_PIP_NotConnected": "통이 파이프망에 연결되지 않음"
+}

@@ -1,0 +1,2035 @@
+ItemName_TR = {
+
+/* ------------------------------ */
+/* ███   ███ ██████ ██████ ██  ██ */
+/* ████ ████ ██  ██   ██   ███ ██ */
+/* ██ ███ ██ ██████   ██   ██████ */
+/* ██     ██ ██  ██   ██   ██ ███ */
+/* ██     ██ ██  ██ ██████ ██  ██ */
+/* ------------------------------ */
+
+    /**** Cans and Jars ****/
+
+        /**** Canned Meals ****/
+
+            ItemName_VFX.CannedSavoryMince = "Konserve Baharatlı Kıyma",
+            ItemName_VFX.CannedSavoryMinceOpen = "Konserve Baharatlı Kıyma (Açık)",
+            ItemName_VFX.CannedSavoryMince_Box = "Kutulu Konserve Baharatlı Kıyma",
+
+            ItemName_VFX.CannedBeefRavioli = "Konserve Etli Ravioli",
+            ItemName_VFX.CannedBeefRavioliOpen = "Konserve Etli Ravioli (Açık)",
+            ItemName_VFX.CannedBeefRavioli_Box = "Kutulu Konserve Etli Ravioli",
+
+            ItemName_VFX.CannedSpinachRavioli = "Konserve Ispanaklı Ravioli",
+            ItemName_VFX.CannedSpinachRavioliOpen = "Konserve Ispanaklı Ravioli (Açık)",
+            ItemName_VFX.CannedSpinachRavioli_Box = "Kutulu Konserve Ispanaklı Ravioli",
+
+            ItemName_VFX.CannedMushroomRavioli = "Konserve Mantarlı Ravioli",
+            ItemName_VFX.CannedMushroomRavioliOpen = "Konserve Mantarlı Ravioli (Açık)",
+            ItemName_VFX.CannedMushroomRavioli_Box = "Kutulu Konserve Mantarlı Ravioli",
+
+            ItemName_VFX.CannedSpaghettiAndMeatballs = "Konserve Köfteli Spagetti",
+            ItemName_VFX.CannedSpaghettiAndMeatballsOpen = "Konserve Köfteli Spagetti (Açık)",
+            ItemName_VFX.CannedSpaghettiAndMeatballs_Box = "Kutulu Konserve Köfteli Spagetti",
+
+            ItemName_VFX.CannedSpaghetti = "Konserve Spagetti",
+            ItemName_VFX.CannedSpaghettiOpen = "Konserve Spagetti (Açık)",
+            ItemName_VFX.CannedSpaghettiBox = "Box of Canned Spaghetti",
+
+            ItemName_VFX.CannedSloppyJoe = "Konserve Sloppy Joe Soslu Kıyma",
+            ItemName_VFX.CannedSloppyJoeOpen = "Konserve Sloppy Joe Soslu Kıyma (Açık)",
+            ItemName_VFX.CannedSloppyJoe_Box = "Kutulu Konserve Sloppy Joe Soslu Kıyma",
+
+            ItemName_VFX.CannedMeatloaf = "Konserve Rulo Köfte",
+            ItemName_VFX.CannedMeatloafOpen = "Konserve Rulo Köfte (Açık)",
+            ItemName_VFX.CannedMeatloaf_Box = "Kutulu Konserve Rulo Köfte",
+
+            ItemName_VFX.CannedVegetarianChili = "Konserve Vejetaryen Chili",
+            ItemName_VFX.CannedVegetarianChiliOpen = "Konserve Vejetaryen Chili (Açık)",
+            ItemName_VFX.CannedVegetarianChili_Box = "Kutulu Konserve Vejetaryen Chili",
+
+            ItemName_VFX.CannedRedBeansAndRice = "Konserve Barbunyalı Pilav",
+            ItemName_VFX.CannedRedBeansAndRiceOpen = "Konserve Barbunyalı Pilav (Açık)",
+            ItemName_VFX.CannedRedBeansAndRice_Box = "Kutulu Konserve Barbunyalı Pilav",
+
+            ItemName_VFX.CannedClamChowder = "Konserve İstiridye Çorbası",
+            ItemName_VFX.CannedClamChowderOpen = "Konserve İstiridye Çorbası (Açık)",
+            ItemName_VFX.CannedClamChowder_Box = "Kutulu Konserve İstiridye Çorbası",
+
+        /**** Canned Soup ****/
+
+            ItemName_VFX.CannedBroccoliCheddarSoup = "Konserve Brokolili Çedar Çorbası",
+            ItemName_VFX.CannedBroccoliCheddarSoupOpen = "Konserve Brokolili Çedar Çorbası (Açık)",
+            ItemName_VFX.CannedBroccoliCheddarSoup_Box = "Kutulu Konserve Brokolili Çedar Çorbası",
+
+            ItemName_VFX.CannedChickenNoodleSoup = "Konserve Tavuklu Şehriye Çorbası",
+            ItemName_VFX.CannedChickenNoodleSoupOpen = "Konserve Tavuklu Şehriye Çorbası (Açık)",
+            ItemName_VFX.CannedChickenNoodleSoup_Box = "Kutulu Konserve Tavuklu Şehriye Çorbası",
+
+            ItemName_VFX.CannedFrenchOnionSoup = "Konserve Fransız Soğan Çorbası",
+            ItemName_VFX.CannedFrenchOnionSoupOpen = "Konserve Fransız Soğan Çorbası (Açık)",
+            ItemName_VFX.CannedFrenchOnionSoup_Box = "Kutulu Konserve Fransız Soğan Çorbası",
+
+            ItemName_VFX.CannedLaksaNoodleSoup = "Konserve Laksa Erişte Çorbası",
+            ItemName_VFX.CannedLaksaNoodleSoupOpen = "Konserve Laksa Erişte Çorbası (Açık)",
+            ItemName_VFX.CannedLaksaNoodleSoup_Box = "Kutulu Konserve Laksa Erişte Çorbası",
+
+            ItemName_VFX.CannedLentilSoup = "Konserve Mercimek Çorbası",
+            ItemName_VFX.CannedLentilSoupOpen = "Konserve Mercimek Çorbası (Açık)",
+            ItemName_VFX.CannedLentilSoup_Box = "Kutulu Konserve Mercimek Çorbası",
+
+            ItemName_VFX.CannedMinestroneSoup = "Konserve Minestrone Çorbası",
+            ItemName_VFX.CannedMinestroneSoupOpen = "Konserve Minestrone Çorbası (Açık)",
+            ItemName_VFX.CannedMinestroneSoup_Box = "Kutulu Konserve Minestrone Çorbası",
+
+            ItemName_VFX.CannedPeaHamSoup = "Konserve Bezelyeli Jambon Çorbası",
+            ItemName_VFX.CannedPeaHamSoupOpen = "Konserve Bezelyeli Jambon Çorbası (Açık)",
+            ItemName_VFX.CannedPeaHamSoup_Box = "Kutulu Konserve Bezelyeli Jambon Çorbası",
+
+            ItemName_VFX.CannedPotatoLeekSoup = "Konserve Patatesli Pırasa Çorbası",
+            ItemName_VFX.CannedPotatoLeekSoupOpen = "Konserve Patatesli Pırasa Çorbası (Açık)",
+            ItemName_VFX.CannedPotatoLeekSoup_Box = "Kutulu Konserve Patatesli Pırasa Çorbası",
+
+            ItemName_VFX.CannedPumpkinSoup = "Konserve Balkabağı Çorbası",
+            ItemName_VFX.CannedPumpkinSoupOpen = "Konserve Balkabağı Çorbası (Açık)",
+            ItemName_VFX.CannedPumpkinSoup_Box = "Kutulu Konserve Balkabağı Çorbası",
+
+            ItemName_VFX.CannedTomatoSoup = "Konserve Domates Çorbası",
+            ItemName_VFX.CannedTomatoSoupOpen = "Konserve Domates Çorbası (Açık)",
+            ItemName_VFX.CannedTomatoSoup_Box = "Kutulu Konserve Domates Çorbası",
+
+        /**** Canned Stew ****/
+
+            ItemName_VFX.CannedBeefMushroomStew = "Konserve Etli Mantarlı Yahni",
+            ItemName_VFX.CannedBeefMushroomStewOpen = "Konserve Etli Mantarlı Yahni (Açık)",
+            ItemName_VFX.CannedBeefMushroomStew_Box = "Kutulu Konserve Etli Mantarlı Yahni",
+
+            ItemName_VFX.CannedPepperSteakStew = "Konserve Karabiberli Biftek Yahnisi",
+            ItemName_VFX.CannedPepperSteakStewOpen = "Konserve Karabiberli Biftek Yahnisi (Açık)",
+            ItemName_VFX.CannedPepperSteakStew_Box = "Kutulu Konserve Karabiberli Biftek Yahnisi",
+
+            ItemName_VFX.CannedIrishStew = "Konserve İrlanda Yahnisi",
+            ItemName_VFX.CannedIrishStewOpen = "Konserve İrlanda Yahnisi (Açık)",
+            ItemName_VFX.CannedIrishStew_Box = "Kutulu Konserve İrlanda Yahnisi",
+
+            ItemName_VFX.CannedSteakOnionStew = "Konserve Biftekli Soğanlı Yahni",
+            ItemName_VFX.CannedSteakOnionStewOpen = "Konserve Biftekli Soğanlı Yahni (Açık)",
+            ItemName_VFX.CannedSteakOnionStew_Box = "Kutulu Konserve Biftekli Soğanlı Yahni",
+
+            ItemName_VFX.CannedChiliBeanStew = "Konserve Chili Fasulye Yahnisi",
+            ItemName_VFX.CannedChiliBeanStewOpen = "Konserve Chili Fasulye Yahnisi (Açık)",
+            ItemName_VFX.CannedChiliBeanStew_Box = "Kutulu Konserve Chili Fasulye Yahnisi",
+
+            ItemName_VFX.CannedVegetableStew = "Konserve Sebze Yahnisi",
+            ItemName_VFX.CannedVegetableStewOpen = "Konserve Sebze Yahnisi (Açık)",
+            ItemName_VFX.CannedVegetableStew_Box = "Kutulu Konserve Sebze Yahnisi",
+
+        /**** Canned Grains and Beans ****/
+
+            ItemName_VFX.CannedBlackBeans = "Konserve Siyah Fasulye",
+            ItemName_VFX.CannedBlackBeansOpen = "Konserve Siyah Fasulye (Açık)",
+            ItemName_VFX.CannedBlackBeans_Box = "Kutulu Konserve Siyah Fasulye",
+
+            ItemName_VFX.CannedChickpeas = "Konserve Nohut",
+            ItemName_VFX.CannedChickpeasOpen = "Konserve Nohut (Açık)",
+            ItemName_VFX.CannedChickpeas_Box = "Kutulu Konserve Nohut",
+
+            ItemName_VFX.CannedKidneyBeans = "Konserve Barbunya",
+            ItemName_VFX.CannedKidneyBeansOpen = "Konserve Barbunya (Açık)",
+            ItemName_VFX.CannedKidneyBeans_Box = "Kutulu Konserve Barbunya",
+
+            ItemName_VFX.CannedLentils = "Konserve Mercimek",
+            ItemName_VFX.CannedLentilsOpen = "Konserve Mercimek (Açık)",
+            ItemName_VFX.CannedLentils_Box = "Kutulu Konserve Mercimek",
+
+            ItemName_VFX.CannedWhiteBeans = "Konserve Kuru Fasulye",
+            ItemName_VFX.CannedWhiteBeansOpen = "Konserve Kuru Fasulye (Açık)",
+            ItemName_VFX.CannedWhiteBeans_Box = "Kutulu Konserve Kuru Fasulye",
+
+            ItemName_VFX.CannedThreeBeanMix = "Konserve Üçlü Fasulye Karışımı",
+            ItemName_VFX.CannedThreeBeanMixOpen = "Konserve Üçlü Fasulye Karışımı (Açık)",
+            ItemName_VFX.CannedThreeBeanMix_Box = "Kutulu Konserve Üçlü Fasulye Karışımı",
+
+        /**** Canned Vegetables ****/
+
+            ItemName_VFX.CannedSlicedMushroom = "Konserve Dilimlenmiş Mantar",
+            ItemName_VFX.CannedSlicedMushroomOpen = "Konserve Dilimlenmiş Mantar (Açık)",
+            ItemName_VFX.CannedSlicedMushroom_Box = "Kutulu Konserve Dilimlenmiş Mantar",
+
+            ItemName_VFX.CannedEdamameBeans = "Konserve Edamame Fasulyesi",
+            ItemName_VFX.CannedEdamameBeansOpen = "Konserve Edamame Fasulyesi (Açık)",
+            ItemName_VFX.CannedEdamameBeans_Box = "Kutulu Konserve Edamame Fasulyesi",
+
+            ItemName_VFX.CannedMixedVegetableMedley = "Konserve Karışık Sebze",
+            ItemName_VFX.CannedMixedVegetableMedleyOpen = "Konserve Karışık Sebze (Açık)",
+            ItemName_VFX.CannedMixedVegetableMedley_Box = "Kutulu Konserve Karışık Sebze",
+
+            ItemName_VFX.CannedGreenBeans = "Konserve Taze Fasulye",
+            ItemName_VFX.CannedGreenBeansOpen = "Konserve Taze Fasulye (Açık)",
+            ItemName_VFX.CannedGreenBeans_Box = "Kutulu Konserve Taze Fasulye",
+
+            ItemName_VFX.CannedSpinach = "Konserve Ispanak",
+            ItemName_VFX.CannedSpinachOpen = "Konserve Ispanak (Açık)",
+            ItemName_VFX.CannedSpinach_Box = "Kutulu Konserve Ispanak",
+
+            ItemName_VFX.CannedPumpkinPuree = "Konserve Balkabağı Püresi",
+            ItemName_VFX.CannedPumpkinPureeOpen = "Konserve Balkabağı Püresi (Açık)",
+            ItemName_VFX.CannedPumpkinPuree_Box = "Kutulu Konserve Balkabağı Püresi",
+            
+            ItemName_VFX.CannedCreamCorn = "Konserve Kremalı Mısır",
+            ItemName_VFX.CannedCreamCornOpen = "Konserve Kremalı Mısır (Açık)",
+            ItemName_VFX.CannedCreamCorn_Box = "Kutulu Konserve Kremalı Mısır",
+
+        /**** Canned Fruit ****/
+
+            ItemName_VFX.CannedPassionfruit = "Konserve Çarkıfelek Meyvesi",
+            ItemName_VFX.CannedPassionfruitOpen = "Konserve Çarkıfelek Meyvesi (Açık)",
+            ItemName_VFX.CannedPassionfruit_Box = "Kutulu Konserve Çarkıfelek Meyvesi",
+
+            ItemName_VFX.CannedAppleSlices = "Konserve Elma Dilimleri",
+            ItemName_VFX.CannedAppleSlicesOpen = "Konserve Elma Dilimleri (Açık)",
+            ItemName_VFX.CannedAppleSlices_Box = "Kutulu Konserve Elma Dilimleri",
+
+            ItemName_VFX.CannedPearSlices = "Konserve Armut Dilimleri",
+            ItemName_VFX.CannedPearSlicesOpen = "Konserve Armut Dilimleri (Açık)",
+            ItemName_VFX.CannedPearSlices_Box = "Kutulu Konserve Armut Dilimleri",
+
+            ItemName_VFX.CannedMangoSlices = "Konserve Mango Dilimleri",
+            ItemName_VFX.CannedMangoSlicesOpen = "Konserve Mango Dilimleri (Açık)",
+            ItemName_VFX.CannedMangoSlices_Box = "Kutulu Konserve Mango Dilimleri",
+
+            ItemName_VFX.CannedLychees = "Konserve Liçi Meyvesi",
+            ItemName_VFX.CannedLycheesOpen = "Konserve Liçi Meyvesi (Açık)",
+            ItemName_VFX.CannedLychees_Box = "Kutulu Konserve Liçi Meyvesi",
+
+            ItemName_VFX.CannedApricots = "Konserve Kayısı",
+            ItemName_VFX.CannedApricotsOpen = "Konserve Kayısı (Açık)",
+            ItemName_VFX.CannedApricots_Box = "Kutulu Konserve Kayısı",
+
+        /**** Canned Meat ****/
+
+            ItemName_VFX.CannedHam = "Konserve Jambon",
+            ItemName_VFX.CannedHamOpen = "Konserve Jambon (Açık)",
+            ItemName_VFX.CannedHam_Box = "Kutulu Konserve Jambon",
+
+            ItemName_VFX.CannedSalmon = "Konserve Somon",
+            ItemName_VFX.CannedSalmonOpen = "Konserve Somon (Açık)",
+            ItemName_VFX.CannedSalmon_Box = "Kutulu Konserve Somon",
+
+            ItemName_VFX.CannedAnchovies = "Konserve Ançüez",
+            ItemName_VFX.CannedAnchoviesOpen = "Konserve Ançüez (Açık)",
+            ItemName_VFX.CannedAnchovies_Box = "Kutulu Konserve Ançüez",
+
+            ItemName_VFX.CannedCatFood = "Konserve Kedi Maması",
+            ItemName_VFX.CannedCatFoodOpen = "Konserve Kedi Maması (Açık)",
+            ItemName_VFX.CannedCatFood_Box = "Kutulu Konserve Kedi Maması",
+
+            ItemName_VFX.CannedChicken = "Konserve Tavuk",
+            ItemName_VFX.CannedChickenOpen = "Konserve Tavuk (Açık)",
+            ItemName_VFX.CannedChicken_Box = "Kutulu Konserve Tavuk",
+
+        /**** Canned Insects ****/
+
+            ItemName_VFX.CannedCrickets = "Konserve Cırcır Böceği",
+            ItemName_VFX.CannedSnails = "Konserve Salyangoz",
+            ItemName_VFX.CannedWorms = "Konserve Solucan",
+
+        /**** Canned Misc. ****/
+
+            ItemName_VFX.CannedCoconutMilk = "Konserve Hindistan Cevizi Sütü",
+            ItemName_VFX.CannedCoconutMilkOpen = "Konserve Hindistan Cevizi Sütü (Açık)",
+            ItemName_VFX.CannedCoconutCream = "Konserve Hindistan Cevizi Kreması",
+            ItemName_VFX.CannedCoconutCreamOpen = "Konserve Hindistan Cevizi Kreması (Açık)",
+
+        /**** Jars ****/
+
+            ItemName_VFX.JarBlackOlives = "Kavanoz Siyah Zeytin",
+            ItemName_VFX.JarBlackOlivesOpen = "Kavanoz Siyah Zeytin (Açık)",
+            ItemName_VFX.JarGreenOlives = "Kavanoz Yeşil Zeytin",
+            ItemName_VFX.JarGreenOlivesOpen = "Kavanoz Yeşil Zeytin (Açık)",
+            ItemName_VFX.JarSundriedTomatoes = "Kavanoz Kurutulmuş Domates",
+            ItemName_VFX.JarSundriedTomatoesOpen = "Kavanoz Kurutulmuş Domates (Açık)",
+            ItemName_VFX.JarPickledPeppers = "Kavanoz Turşu Biber",
+            ItemName_VFX.JarPickledPeppersOpen = "Kavanoz Turşu Biber (Açık)",
+            ItemName_VFX.JarPickledEggs = "Kavanoz Turşu Yumurta",
+            ItemName_VFX.JarPickledEggsOpen = "Kavanoz Turşu Yumurta (Açık)",
+            ItemName_VFX.JarPickles = "Kavanoz Turşu",
+            ItemName_VFX.JarPickleJuiceOpen = "Kavanoz Turşu Suyu (Açık)",
+
+        /**** Canning ****/
+
+            ItemName_VFX.JarApricots = "Kavanoz Kayısı",
+            ItemName_VFX.JarApricotsOpen = "Kavanoz Kayısı (Açık)",
+            ItemName_VFX.JarBeetroot = "Kavanoz Pancar",
+            ItemName_VFX.JarBeetrootOpen = "Kavanoz Pancar (Açık)",
+            ItemName_VFX.JarBrusselSprouts = "Kavanoz Brüksel Lahanası",
+            ItemName_VFX.JarBrusselSproutsOpen = "Kavanoz Brüksel Lahanası (Açık)",
+            ItemName_VFX.JarCherry = "Kavanoz Kiraz",
+            ItemName_VFX.JarCherryOpen = "Kavanoz Kiraz (Açık)",
+            ItemName_VFX.JarCucumber = "Kavanoz Salatalık",
+            ItemName_VFX.JarCucumberOpen = "Kavanoz Salatalık (Açık)",
+            ItemName_VFX.JarGarlic = "Kavanoz Sarımsak",
+            ItemName_VFX.JarGarlicOpen = "Kavanoz Sarımsak (Açık)",
+            ItemName_VFX.JarGreenBeans = "Kavanoz Taze Fasulye",
+            ItemName_VFX.JarGreenBeansOpen = "Kavanoz Taze Fasulye (Açık)",
+            ItemName_VFX.JarOnion = "Kavanoz Soğan",
+            ItemName_VFX.JarOnionOpen = "Kavanoz Soğan (Açık)",
+            ItemName_VFX.JarPeach = "Kavanoz Şeftali",
+            ItemName_VFX.JarPeachOpen = "Kavanoz Şeftali (Açık)",
+            ItemName_VFX.JarPear = "Kavanoz Armut",
+            ItemName_VFX.JarPearOpen = "Kavanoz Armut (Açık)",
+            ItemName_VFX.JarGreenPeas = "Kavanoz Bezelye",
+            ItemName_VFX.JarGreenPeasOpen = "Kavanoz Bezelye (Açık)",
+            ItemName_VFX.JarPepperJalapeno = "Kavanoz Jalapeño Biberi",
+            ItemName_VFX.JarPepperJalapenoOpen = "Kavanoz Jalapeño Biberi (Açık)",
+            ItemName_VFX.JarPlums = "Kavanoz Erik",
+            ItemName_VFX.JarPlumsOpen = "Kavanoz Erik (Açık)",
+            ItemName_VFX.JarPumpkin = "Kavanoz Balkabağı",
+            ItemName_VFX.JarPumpkinOpen = "Kavanoz Balkabağı (Açık)",
+            ItemName_VFX.JarSquash = "Kavanoz Kabak",
+            ItemName_VFX.JarSquashOpen = "Kavanoz Kabak (Açık)",
+            ItemName_VFX.JarCorn = "Kavanoz Mısır",
+            ItemName_VFX.JarCornOpen = "Kavanoz Mısır (Açık)",
+            ItemName_VFX.JarSweetPotato = "Kavanoz Tatlı Patates",
+            ItemName_VFX.JarSweetPotatoOpen = "Kavanoz Tatlı Patates (Açık)",
+            ItemName_VFX.JarZucchini = "Kavanoz Kabak (Zucchini)",
+            ItemName_VFX.JarZucchiniOpen = "Kavanoz Kabak (Açık)",
+
+    /**** Herbs, Spices and Seasonings ****/
+
+        /**** Herbs and Spices ****/
+
+            ItemName_VFX.Allspice = "Yenibahar",
+            ItemName_VFX.BayLeaves = "Defne Yaprağı",
+            ItemName_VFX.Cardamom = "Kakule",
+            ItemName_VFX.CayennePepper = "Arnavut Biberi",
+            ItemName_VFX.CelerySalt = "Kereviz Tuzu",
+            ItemName_VFX.ChiliFlakes = "Pul Biber",
+            ItemName_VFX.CinnamonSugar = "Tarçınlı Şeker",
+            ItemName_VFX.Cloves = "Karanfil",
+            ItemName_VFX.Cumin = "Kimyon",
+            ItemName_VFX.CurryPowder = "Köri Tozu",
+            ItemName_VFX.Dill = "Dereotu",
+            ItemName_VFX.FennelSeeds = "Rezene Tohumu",
+            ItemName_VFX.GaramMasala = "Garam Masala",
+            ItemName_VFX.GarlicSalt = "Sarımsak Tuzu",
+            ItemName_VFX.GroundChili = "Toz Biber",
+            ItemName_VFX.GroundGinger = "Zencefil Tozu",
+            ItemName_VFX.MustardPowder = "Hardal Tozu",
+            ItemName_VFX.Nutmeg = "Muskat",
+            ItemName_VFX.OnionFlakes = "Kurutulmuş Soğan",
+            ItemName_VFX.Paprika = "Kırmızı Toz Biber",
+            ItemName_VFX.SmokedPaprika = "Tütsülenmiş Toz Biber",
+            ItemName_VFX.WhitePepper = "Akbiber",
+
+        /**** Seasonings ****/
+
+            ItemName_VFX.BarbequeRub = "Barbekü Çeşnisi (Kuru Karışım)",
+            ItemName_VFX.CajunSeasoning = "Cajun Baharatı",
+            ItemName_VFX.ChineseFiveSpice = "Çin Beşli Baharatı",
+            ItemName_VFX.ItalianHerbsSeasoning = "İtalyan Otları Çeşnisi",
+            ItemName_VFX.LemonPepperSeasoning = "Limonlu Karabiber Çeşnisi",
+            ItemName_VFX.MemphisBarbequeRub = "Memphis Barbekü Çeşnisi",
+            ItemName_VFX.OldBaySeasoning = "Old Bay Çeşnisi",
+            ItemName_VFX.PoultrySeasoning = "Kümes Hayvanı Çeşnisi",
+            ItemName_VFX.PumpkinSpiceSeasoning = "Balkabağı Baharatı",
+            ItemName_VFX.RanchSeasoning = "Ranch Çeşnisi",
+            ItemName_VFX.SteakhouseSeasoning = "Et Lokantası Çeşnisi",
+            ItemName_VFX.TexMexSeasoning = "Tex-Mex Çeşnisi",
+
+        /**** Boullion Cubes ****/
+
+            ItemName_VFX.BoxChickenBouillonCube = "Kutulu Tavuk Suyu Tableti",
+            ItemName_VFX.BeefBouillonCube = "Et Suyu Tableti",
+            ItemName_VFX.BoxBeefBouillonCube = "Kutulu Et Suyu Tableti",
+            ItemName_VFX.FishBouillonCube = "Balık Suyu Tableti",
+            ItemName_VFX.BoxFishBouillonCube = "Kutulu Balık Suyu Tableti",
+            ItemName_VFX.VegetableBouillonCube = "Sebze Suyu Tableti",
+            ItemName_VFX.BoxVegetableBouillonCube = "Kutulu Sebze Suyu Tableti",
+
+        /**** Other ****/
+
+            ItemName_VFX.SesameSeeds = "Susam",
+
+        /**** Sauce, Relish and Dressing ****/
+
+            ItemName_VFX.HoneyBBQSauce = "Ballı Barbekü Sosu",
+            ItemName_VFX.Aioli = "Aioli (Sarımsaklı Mayonez)",
+            ItemName_VFX.Ranch = "Ranch Sos",
+            ItemName_VFX.ChipotleSauce = "Chipotle Sos",
+            ItemName_VFX.BuffaloSauce = "Buffalo Sos",
+            ItemName_VFX.SweetChiliSauce = "Tatlı Acı Sos",
+            ItemName_VFX.TartarSauce = "Tatar Sosu",
+            ItemName_VFX.CocktailSauce = "Kokteyl Sosu",
+            ItemName_VFX.AppleSauce = "Elma Sosu",
+            ItemName_VFX.CranberrySauce = "Yaban Mersini Sosu",
+            ItemName_VFX.Horseradish = "Yaban Turpu Sosu",
+            ItemName_VFX.DijonMustard = "Dijon Hardalı",
+            ItemName_VFX.SpicyBrownMustard = "Acı Kahverengi Hardal",
+            ItemName_VFX.HoneyMustard = "Ballı Hardal",
+            ItemName_VFX.SweetOnionRelish = "Tatlı Soğan Ezmesi",
+            ItemName_VFX.TomatoRelish = "Domates Ezmesi",
+            ItemName_VFX.PickleRelish = "Kıyılmış Turşu Ezmesi",
+            ItemName_VFX.LemonJuice = "Limon Suyu",
+            ItemName_VFX.LimeJuice = "Misket Limonu Suyu",
+            ItemName_VFX.CaesarSaladDressing = "Sezar Salata Sosu",
+            ItemName_VFX.ColeslawDressing = "Lahana Salatası (Coleslaw) Sosu",
+            ItemName_VFX.Vinaigrette = "Sirke-Yağ Sosu (Vinaigrette)",
+
+    /**** Pantry ****/
+
+        /**** Soup Sachets ****/
+
+            ItemName_VFX.BoxPumpkinSoupSachets = "Kutulu Balkabağı Çorbası Paketleri",
+            ItemName_VFX.PumpkinSoupSachet = "Balkabağı Çorbası Paketi",
+            ItemName_VFX.BowlPumpkinSoup = "Kasede Balkabağı Çorbası",
+            ItemName_VFX.MugPumpkinSoup = "Kupada Balkabağı Çorbası",
+            ItemName_VFX.MugPumpkinSoup_Clay = "Kupada Balkabağı Çorbası",
+            ItemName_VFX.MugPumpkinSoup_White = "Kupada Balkabağı Çorbası",
+            ItemName_VFX.MugPumpkinSoup_Spiffo = "Kupada Balkabağı Çorbası",
+
+            ItemName_VFX.BoxPeaAndHamSoupSachets = "Kutulu Bezelyeli Jambonlu Çorba Paketleri",
+            ItemName_VFX.PeaAndHamSoupSachet = "Bezelyeli Jambonlu Çorba Paketi",
+            ItemName_VFX.BowlPeaAndHamSoup = "Kasede Bezelyeli Jambonlu Çorba",
+            ItemName_VFX.MugPeaAndHamSoup = "Kupada Bezelyeli Jambonlu Çorba",
+            ItemName_VFX.MugPeaAndHamSoup_Clay = "Kupada Bezelyeli Jambonlu Çorba",
+            ItemName_VFX.MugPeaAndHamSoup_White = "Kupada Bezelyeli Jambonlu Çorba",
+            ItemName_VFX.MugPeaAndHamSoup_Spiffo = "Kupada Bezelyeli Jambonlu Çorba",
+
+            ItemName_VFX.BoxChickenNoodleSoupSachets = "Kutulu Tavuklu Şehriye Çorbası Paketleri",
+            ItemName_VFX.ChickenNoodleSoupSachet = "Tavuklu Şehriye Çorbası Paketi",
+            ItemName_VFX.BowlChickenNoodleSoup = "Kasede Tavuklu Şehriye Çorbası",
+            ItemName_VFX.MugChickenNoodleSoup = "Kupada Tavuklu Şehriye Çorbası",
+            ItemName_VFX.MugChickenNoodleSoup_Clay = "Kupada Tavuklu Şehriye Çorbası",
+            ItemName_VFX.MugChickenNoodleSoup_White = "Kupada Tavuklu Şehriye Çorbası",
+            ItemName_VFX.MugChickenNoodleSoup_Spiffo = "Kupada Tavuklu Şehriye Çorbası",
+
+            ItemName_VFX.BoxTomatoSoupSachets = "Kutulu Domates Çorbası Paketleri",
+            ItemName_VFX.TomatoSoupSachet = "Domates Çorbası Paketi",
+            ItemName_VFX.BowlTomatoSoup = "Kasede Domates Çorbası",
+            ItemName_VFX.MugTomatoSoup = "Kupada Domates Çorbası",
+            ItemName_VFX.MugTomatoSoup_Clay = "Kupada Domates Çorbası",
+            ItemName_VFX.MugTomatoSoup_White = "Kupada Domates Çorbası",
+            ItemName_VFX.MugTomatoSoup_Spiffo = "Kupada Domates Çorbası",
+
+        /**** Ramen ****/
+
+            ItemName_VFX.BoxChickenRamen = "Kutulu Tavuklu Ramen",
+            ItemName_VFX.ChickenRamen = "Tavuklu Ramen",
+            ItemName_VFX.ChickenRamenFlavourSachet = "Tavuklu Ramen Çeşnisi",
+            ItemName_VFX.BowlChickenRamen = "Kasede Tavuklu Ramen",
+
+            ItemName_VFX.BoxBeefRamen = "Kutulu Etli Ramen",
+            ItemName_VFX.BeefRamen = "Etli Ramen",
+            ItemName_VFX.BeefRamenFlavourSachet = "Etli Ramen Çeşnisi",
+            ItemName_VFX.BowlBeefRamen = "Kasede Etli Ramen",
+
+            ItemName_VFX.BoxShrimpRamen = "Kutulu Karidesli Ramen",
+            ItemName_VFX.ShrimpRamen = "Karidesli Ramen",
+            ItemName_VFX.ShrimpRamenFlavourSachet = "Karidesli Ramen Çeşnisi",
+            ItemName_VFX.BowlShrimpRamen = "Kasede Karidesli Ramen",
+
+            ItemName_VFX.BoxPorkRamen = "Kutulu Domuz Etli Ramen",
+            ItemName_VFX.PorkRamen = "Domuz Etli Ramen",
+            ItemName_VFX.PorkRamenFlavourSachet = "Domuz Etli Ramen Çeşnisi",
+            ItemName_VFX.BowlPorkRamen = "Kasede Domuz Etli Ramen",
+
+            ItemName_VFX.BoxHotAndSpicyRamen = "Kutulu Acılı Baharatlı Ramen",
+            ItemName_VFX.HotAndSpicyRamen = "Acılı Baharatlı Ramen",
+            ItemName_VFX.HotAndSpicyRamenFlavourSachet = "Acılı Ramen Çeşnisi",
+            ItemName_VFX.BowlHotAndSpicyRamen = "Kasede Acılı Baharatlı Ramen",
+
+            ItemName_VFX.BoxSoySauceRamen = "Kutulu Soya Soslu Ramen",
+            ItemName_VFX.SoySauceRamen = "Soya Soslu Ramen",
+            ItemName_VFX.SoySauceRamenFlavourSachet = "Soya Soslu Ramen Çeşnisi",
+            ItemName_VFX.BowlSoySauceRamen = "Kasede Soya Soslu Ramen",
+
+        /**** Pasta and Rice Meals ****/
+
+                ItemName_VFX.PMCheddarBroccoli = "Çedarlı Brokolili Makarna",
+                ItemName_VFX.PMSaucepanCheddarBroccoli = "Sos Tenceresi (Çedarlı Brokolili Makarna)",
+                ItemName_VFX.PMCopperSaucepanCheddarBroccoli = "Bakır Sos Tenceresi (Çedarlı Brokolili Makarna)",
+                ItemName_VFX.PMBowlCheddarBroccoli = "Kasede Çedarlı Brokolili Makarna",
+
+                ItemName_VFX.PMParmesan = "Parmezanlı Makarna",
+                ItemName_VFX.PMSaucepanParmesan = "Sos Tenceresi (Parmezanlı Makarna)",
+                ItemName_VFX.PMCopperSaucepanParmesan = "Bakır Sos Tenceresi (Parmezanlı Makarna)",
+                ItemName_VFX.PMBowlParmesan = "Kasede Parmezanlı Makarna",
+
+                ItemName_VFX.PMCreamyChicken = "Kremalı Tavuklu Makarna",
+                ItemName_VFX.PMSaucepanCreamyChicken = "Sos Tenceresi (Kremalı Tavuklu Makarna)",
+                ItemName_VFX.PMCopperSaucepanCreamyChicken = "Bakır Sos Tenceresi (Kremalı Tavuklu Makarna)",
+                ItemName_VFX.PMBowlCreamyChicken = "Kasede Kremalı Tavuklu Makarna",
+
+                ItemName_VFX.PMCreamyPesto = "Kremalı Pesto Soslu Makarna",
+                ItemName_VFX.PMSaucepanCreamyPesto = "Sos Tenceresi (Kremalı Pesto Soslu Makarna)",
+                ItemName_VFX.PMCopperSaucepanCreamyPesto = "Bakır Sos Tenceresi (Kremalı Pesto Soslu Makarna)",
+                ItemName_VFX.PMBowlCreamyPesto = "Kasede Kremalı Pesto Soslu Makarna",
+
+                ItemName_VFX.PMAlfredo = "Alfredo Soslu Makarna",
+                ItemName_VFX.PMSaucepanAlfredo = "Sos Tenceresi (Alfredo Makarna)",
+                ItemName_VFX.PMCopperSaucepanAlfredo = "Bakır Sos Tenceresi (Alfredo Makarna)",
+                ItemName_VFX.PMBowlAlfredo = "Kasede Alfredo Makarna",
+
+                ItemName_VFX.PMMacCheese = "Peynirli Dirsek Makarna (Mac N Cheese)",
+                ItemName_VFX.PMSaucepanMacCheese = "Sos Tenceresi (Mac N Cheese)",
+                ItemName_VFX.PMCopperSaucepanMacCheese = "Bakır Sos Tenceresi (Mac N Cheese)",
+                ItemName_VFX.PMBowlMacCheese = "Kasede Mac N Cheese",
+
+                ItemName_VFX.RMChicken = "Tavuklu Pilav",
+                ItemName_VFX.RMSaucepanChicken = "Sos Tenceresi (Tavuklu Pilav)",
+                ItemName_VFX.RMCopperSaucepanChicken = "Bakır Sos Tenceresi (Tavuklu Pilav)",
+                ItemName_VFX.RMBowlChicken = "Kasede Tavuklu Pilav",
+
+                ItemName_VFX.RMMexican = "Meksika Usulü Pilav",
+                ItemName_VFX.RMSaucepanMexican = "Sos Tenceresi (Meksika Usulü Pilav)",
+                ItemName_VFX.RMCopperSaucepanMexican = "Bakır Sos Tenceresi (Meksika Usulü Pilav)",
+                ItemName_VFX.RMBowlMexican = "Kasede Meksika Usulü Pilav",
+
+                ItemName_VFX.RMMedley = "Karışık Sebzeli Pilav",
+                ItemName_VFX.RMSaucepanMedley = "Sos Tenceresi (Sebzeli Pilav)",
+                ItemName_VFX.RMCopperSaucepanMedley = "Bakır Sos Tenceresi (Sebzeli Pilav)",
+                ItemName_VFX.RMBowlMedley = "Kasede Sebzeli Pilav",
+
+                ItemName_VFX.RMFried = "Kızarmış Pilav",
+                ItemName_VFX.RMSaucepanFried = "Sos Tenceresi (Kızarmış Pilav)",
+                ItemName_VFX.RMCopperSaucepanFried = "Bakır Sos Tenceresi (Kızarmış Pilav)",
+                ItemName_VFX.RMBowlFried = "Kasede Kızarmış Pilav",
+
+        /**** Pasta and Rice ****/
+
+                ItemName_VFX.BrownRice = "Esmer Pirinç",
+                ItemName_VFX.WaterSaucepanBrownRice = "Sos Tenceresi (Esmer Pirinç)",
+                ItemName_VFX.WaterSaucepanCopperBrownRice = "Bakır Sos Tenceresi (Esmer Pirinç)",
+                ItemName_VFX.WaterPotBrownRice = "Tencere (Esmer Pirinç)",
+                ItemName_VFX.WaterPotForgedBrownRice = "Tencere (Esmer Pirinç)",
+                ItemName_VFX.BrownRiceBowl = "Kasede Esmer Pirinç Pilavı",
+
+                ItemName_VFX.JasmineRice = "Yasemin Pirinci",
+                ItemName_VFX.WaterSaucepanJasmineRice = "Sos Tenceresi (Yasemin Pirinci)",
+                ItemName_VFX.WaterSaucepanCopperJasmineRice = "Bakır Sos Tenceresi (Yasemin Pirinci)",
+                ItemName_VFX.WaterPotJasmineRice = "Tencere (Yasemin Pirinci)",
+                ItemName_VFX.WaterPotForgedJasmineRice = "Tencere (Yasemin Pirinci)",
+                ItemName_VFX.JasmineRiceBowl = "Kasede Yasemin Pirinci Pilavı",
+
+                ItemName_VFX.BasmatiRice = "Basmati Pirinci",
+                ItemName_VFX.WaterSaucepanBasmatiRice = "Sos Tenceresi (Basmati Pirinci)",
+                ItemName_VFX.WaterSaucepanCopperBasmatiRice = "Bakır Sos Tenceresi (Basmati Pirinci)",
+                ItemName_VFX.WaterPotBasmatiRice = "Tencere (Basmati Pirinci)",
+                ItemName_VFX.WaterPotForgedBasmatiRice = "Tencere (Basmati Pirinci)",
+                ItemName_VFX.BasmatiRiceBowl = "Kasede Basmati Pirinci Pilavı",
+
+                ItemName_VFX.ArborioRice = "Arborio (İtalyan) Pirinci",
+                ItemName_VFX.WaterSaucepanArborioRice = "Sos Tenceresi (Arborio Pirinci)",
+                ItemName_VFX.WaterSaucepanCopperArborioRice = "Bakır Sos Tenceresi (Arborio Pirinci)",
+                ItemName_VFX.WaterPotArborioRice = "Tencere (Arborio Pirinci)",
+                ItemName_VFX.WaterPotForgedArborioRice = "Tencere (Arborio Pirinci)",
+                ItemName_VFX.ArborioRiceBowl = "Kasede Arborio Pirinci Pilavı",
+
+                ItemName_VFX.LasagnaSheets = "Lazanya Yaprakları",
+                ItemName_VFX.LasagnaPreparation = "Lazanya",
+                
+                ItemName_VFX.Macaroni = "Dirsek Makarna (Makarna)",
+                ItemName_VFX.WaterSaucepanMacaroni = "Sos Tenceresi (Makarna)",
+                ItemName_VFX.WaterSaucepanCopperMacaroni = "Bakır Sos Tenceresi (Makarna)",
+                ItemName_VFX.WaterPotMacaroni = "Tencere (Makarna)",
+                ItemName_VFX.WaterPotForgedMacaroni = "Tencere (Makarna)",
+                ItemName_VFX.MacaroniBowl = "Kasede Makarna",
+
+                ItemName_VFX.Fettuccine = "İtalyan Geniş (Fettuccine) Makarna",
+                ItemName_VFX.WaterSaucepanFettuccine = "Sos Tenceresi (Fettuccine Makarna)",
+                ItemName_VFX.WaterSaucepanCopperFettuccine = "Bakır Sos Tenceresi (Fettuccine Makarna)",
+                ItemName_VFX.WaterPotFettuccine = "Tencere (Fettuccine Makarna)",
+                ItemName_VFX.WaterPotForgedFettuccine = "Tencere (Fettuccine Makarna)",
+                ItemName_VFX.FettuccineBowl = "Kasede Fettuccine Makarna",
+
+                ItemName_VFX.Penne = "Kalem (Penne) Makarna",
+                ItemName_VFX.WaterSaucepanPenne = "Sos Tenceresi (Penne Makarna)",
+                ItemName_VFX.WaterSaucepanCopperPenne = "Bakır Sos Tenceresi (Penne Makarna)",
+                ItemName_VFX.WaterPotPenne = "Tencere (Penne Makarna)",
+                ItemName_VFX.WaterPotForgedPenne = "Tencere (Penne Makarna)",
+                ItemName_VFX.PenneBowl = "Kasede Penne Makarna",
+
+                ItemName_VFX.Gnocchi = "İtalyan Patates Köftesi (Gnocchi)",
+                ItemName_VFX.WaterSaucepanGnocchi = "Sos Tenceresi (Gnocchi)",
+                ItemName_VFX.WaterSaucepanCopperGnocchi = "Bakır Sos Tenceresi (Gnocchi)",
+                ItemName_VFX.WaterPotGnocchi = "Tencere (Gnocchi)",
+                ItemName_VFX.WaterPotForgedGnocchi = "Tencere (Gnocchi)",
+                ItemName_VFX.GnocchiBowl = "Kasede Gnocchi",
+
+        /**** Pasta Sauce ****/
+
+            ItemName_VFX.SpicyMarinara = "Acılı Marinara Sosu",
+            ItemName_VFX.MeatSauce = "Kıymalı Sos",
+            ItemName_VFX.BasilPestoSauce = "Fesleğenli Pesto Sosu",
+            ItemName_VFX.AlfredoSauce = "Kremalı Peynir Sosu (Alfredo)",
+            ItemName_VFX.BechamelSauce = "Beşamel Sos",
+
+            ItemName_VFX.HomemadeMarinara = "Ev Yapımı Marinara Sosu",
+            ItemName_VFX.HomemadeMarinara_Open = "Ev Yapımı Marinara Sosu (Açık)",
+            ItemName_VFX.HomemadeSpicyMarinara = "Ev Yapımı Acılı Marinara Sosu",
+            ItemName_VFX.HomemadeSpicyMarinara_Open = "Ev Yapımı Acılı Marinara Sosu (Açık)",
+            ItemName_VFX.HomemadeMeatSauce = "Ev Yapımı Kıymalı Sos",
+            ItemName_VFX.HomemadeMeatSauce_Open = "Ev Yapımı Kıymalı Sos (Açık)",
+            ItemName_VFX.HomemadeBasilPestoSauce = "Ev Yapımı Fesleğenli Pesto Sosu",
+            ItemName_VFX.HomemadeBasilPestoSauce_Open = "Ev Yapımı Fesleğenli Pesto Sosu (Açık)",
+            ItemName_VFX.HomemadeAlfredoSauce = "Ev Yapımı Alfredo Sosu",
+            ItemName_VFX.HomemadeAlfredoSauce_Open = "Ev Yapımı Alfredo Sosu (Açık)",
+            ItemName_VFX.HomemadeBechamelSauce = "Ev Yapımı Beşamel Sos",
+            ItemName_VFX.HomemadeBechamelSauce_Open = "Ev Yapımı Beşamel Sos (Açık)",
+
+        /**** Croutons ****/
+            ItemName_VFX.Croutons = "Kruton (Kıtır Ekmek)",
+            ItemName_VFX.CroutonsGarlic = "Sarımsaklı Kruton",
+            ItemName_VFX.CroutonsHerbButter = "Baharatlı Tereyağlı Kruton",
+            ItemName_VFX.CroutonsCheddar = "Çedarlı Kruton",
+
+        /**** Breakfast Foods ****/
+
+            /**** Jams and Spreads ****/
+
+                ItemName_VFX.ApricotJam = "Kayısı Reçeli",
+                ItemName_VFX.StrawberryJam = "Çilek Reçeli",
+                ItemName_VFX.GrapeJam = "Üzüm Reçeli",
+                ItemName_VFX.RaspberryJam = "Ahududu Reçeli",
+                ItemName_VFX.PeachJam = "Şeftali Reçeli",
+                ItemName_VFX.BlackberryJam = "Böğürtlen Reçeli",
+                ItemName_VFX.BlueberryJam = "Yaban Mersini Reçeli",
+                ItemName_VFX.LemonMarmalade = "Limon Marmelatı",
+                ItemName_VFX.HazelnutSpread = "Fındık Kreması",
+                ItemName_VFX.AppleButter = "Elma Ezmesi",
+                ItemName_VFX.CinnamonButter = "Tarçınlı Tereyağı",
+                ItemName_VFX.MapleButter = "Akçaağaç Tereyağı",
+                ItemName_VFX.CheeseSpread = "Sürülebilir Peynir",
+                ItemName_VFX.LiverSpread = "Ciğer Ezmesi",
+
+            /**** Cereal ****/
+
+                ItemName_VFX.OatyOs = "Yulaf Halkaları",
+                ItemName_VFX.HoneyOatyOs = "Ballı Yulaf Halkaları",
+                ItemName_VFX.RiceKrisps = "Pirinç Gevreği",
+                ItemName_VFX.FrostyCrunch = "Şekerli Mısır Gevreği",
+                ItemName_VFX.FruityLoops = "Meyveli Gevrek Halkalar",
+                ItemName_VFX.UnluckyCharms = "Unlucky Charms Gevreği",
+                ItemName_VFX.AdmiralChomp = "Admiral Chomp Gevreği",
+                ItemName_VFX.CocoaPuffs = "Kakaolu Gevrek Topları",
+                ItemName_VFX.Wheaties = "Buğday Gevreği",
+
+                ItemName_VFX.OatyOsBowl = "Kasede Yulaf Halkaları",
+                ItemName_VFX.HoneyOatyOsBowl = "Kasede Ballı Yulaf Halkaları",
+                ItemName_VFX.RiceKrispsBowl = "Kasede Pirinç Gevreği",
+                ItemName_VFX.FrostyCrunchBowl = "Kasede Mısır Gevreği",
+                ItemName_VFX.FruityLoopsBowl = "Kasede Meyveli Halkalar",
+                ItemName_VFX.UnluckyCharmsBowl = "Kasede Unlucky Charms Gevreği",
+                ItemName_VFX.AdmiralChompBowl = "Kasede Admiral Chomp Gevreği",
+                ItemName_VFX.CocoaPuffsBowl = "Kasede Kakaolu Gevrek Topları",
+                ItemName_VFX.WheatiesBowl = "Kasede Buğday Gevreği",
+
+            /**** Granola ****/
+
+                ItemName_VFX.HoneyOatsGranola = "Ballı Yulaflı Granola",
+                ItemName_VFX.FruitNutGranola = "Meyveli ve Yemişli Granola",
+                ItemName_VFX.MaplePecanGranola = "Akçaağaçlı ve Pekan Cevizli Granola",
+                ItemName_VFX.CoconutAlmondGranola = "Hindistan Cevizli ve Bademli Granola",
+                ItemName_VFX.ChocolateChipGranola = "Çikolata Parçacıklı Granola",
+
+                ItemName_VFX.HoneyOatsGranolaBowl = "Kasede Ballı Yulaflı Granola",
+                ItemName_VFX.FruitNutGranolaBowl = "Kasede Meyveli ve Yemişli Granola",
+                ItemName_VFX.MaplePecanGranolaBowl = "Kasede Akçaağaçlı ve Pekan Cevizli Granola",
+                ItemName_VFX.CoconutAlmondGranolaBowl = "Kasede Hindistan Cevizli ve Bademli Granola",
+                ItemName_VFX.ChocolateChipGranolaBowl = "Kasede Çikolata Parçacıklı Granola",
+
+        /**** Staples ****/
+            ItemName_VFX.PowderedSugar = "Pudra Şekeri",
+            ItemName_VFX.VanillaExtract = "Vanilya Özütü",
+            ItemName_VFX.Sprinkles = "Pasta Süsü (Renkli Şeker)",
+            ItemName_VFX.BakingPowder = "Hamur Kabartma Tozu",
+            ItemName_VFX.Breadcrumbs = "Ekmek Kırıntısı (Galeta Unu)",
+
+    /**** Snacks ****/
+
+        /**** Snack Cakes ****/
+            ItemName_VFX.ZebraCakesBox = "Kutulu Zebra Kek",
+            ItemName_VFX.ZebraCake = "Zebra Kek",
+            ItemName_VFX.SwissRollsBox = "Kutulu Rulo Pasta (Swiss Roll)",
+            ItemName_VFX.SwissRoll = "Rulo Pasta",
+            ItemName_VFX.FudgeRoundsBox = "Kutulu Çikolatalı Dolgulu Kurabiye",
+            ItemName_VFX.FudgeRound = "Çikolatalı Dolgulu Kurabiye",
+            ItemName_VFX.CoffeeCakesBox = "Kutulu Kahveli Kek",
+            ItemName_VFX.CoffeeCake = "Kahveli Kek",
+            ItemName_VFX.CosmicBrowniesBox = "Kutulu Kozmik Brownie",
+            ItemName_VFX.CosmicBrownie = "Kozmik Brownie",
+            ItemName_VFX.OatmealCremePiesBox = "Kutulu Yulaflı Kremalı Pay",
+            ItemName_VFX.OatmealCremePie = "Yulaflı Kremalı Pay",
+
+        /**** Rice Cakes ****/
+            ItemName_VFX.RiceCakesLightlySalted = "Paket Az Tuzlu Pirinç Patlağı",
+            ItemName_VFX.RiceCakesCheddar = "Paket Çedar Peynirli Pirinç Patlağı",
+            ItemName_VFX.RiceCakesRanch = "Paket Ranch Soslu Pirinç Patlağı",
+            ItemName_VFX.RiceCakesAppleCinnamon = "Paket Elmalı Tarçınlı Pirinç Patlağı",
+
+        /**** Toaster Strudels ****/
+            ItemName_VFX.StrawberryStrudelsBox = "Kutulu Çilekli Isıtmalık Çörek",
+            ItemName_VFX.PackagedStrawberryStrudel = "Paketli Çilekli Çörek",
+            ItemName_VFX.StrawberryToasterStrudel = "Çilekli Çörek (Isıtmalık)",
+
+            ItemName_VFX.CherryStrudelsBox = "Kutulu Vişneli Isıtmalık Çörek",
+            ItemName_VFX.PackagedCherryStrudel = "Paketli Vişneli Çörek",
+            ItemName_VFX.CherryToasterStrudel = "Vişneli Çörek (Isıtmalık)",
+
+            ItemName_VFX.BlueberryStrudelsBox = "Kutulu Yaban Mersinli Isıtmalık Çörek",
+            ItemName_VFX.PackagedBlueberryStrudel = "Paketli Yaban Mersinli Çörek",
+            ItemName_VFX.BlueberryToasterStrudel = "Yaban Mersinli Çörek (Isıtmalık)",
+
+            ItemName_VFX.CookiesAndCreamStrudelsBox = "Kutulu Kremalı Bisküvili Isıtmalık Çörek",
+            ItemName_VFX.PackagedCookiesAndCreamStrudel = "Paketli Kremalı Bisküvili Çörek",
+            ItemName_VFX.CookiesAndCreamToasterStrudel = "Kremalı Bisküvili Çörek (Isıtmalık)",
+
+            ItemName_VFX.BrownSugarStrudelsBox = "Kutulu Esmer Şekerli Isıtmalık Çörek",
+            ItemName_VFX.PackagedBrownSugarStrudel = "Paketli Esmer Şekerli Çörek",
+            ItemName_VFX.BrownSugarToasterStrudel = "Esmer Şekerli Çörek (Isıtmalık)",
+
+        /**** Granola Bars ****/
+            ItemName_VFX.OatGranolaBar = "Yulaflı Granola Bar",
+            ItemName_VFX.ChocolateChipGranolaBar = "Çikolata Parçacıklı Granola Bar",
+            ItemName_VFX.NuttyGranolaBar = "Kuruyemişli Granola Bar",
+            ItemName_VFX.AlmondGranolaBar = "Bademli Granola Bar",
+
+            ItemName_VFX.AlmondGranolaBarBox = "Kutulu Bademli Granola Bar",
+            ItemName_VFX.ChocolateChipGranolaBarBox = "Kutulu Çikolata Parçacıklı Granola Bar",
+            ItemName_VFX.NuttyGranolaBarBox = "Kutulu Kuruyemişli Granola Bar",
+            ItemName_VFX.OatGranolaBarBox = "Kutulu Yulaflı Granola Bar",
+            ItemName_VFX.PeanutButterGranolaBarBox = "Kutulu Fıstık Ezmeli Granola Bar",
+
+        /**** Chips ****/
+            ItemName_VFX.HoneyBarbecueChips = "Cips (Ballı Barbekü Aromalı)",
+            ItemName_VFX.CheddarChips = "Cips (Çedar Peyniri Aromalı)",
+            ItemName_VFX.DillPickleChips = "Cips (Dereotlu Turşu Aromalı)",
+            ItemName_VFX.RanchChips = "Cips (Ranch Sos Aromalı)",
+
+        /**** Crackers ****/
+            ItemName_VFX.RitzCrackers = "Ritz Kraker",
+            ItemName_VFX.WheatThins = "Tam Buğday Krakeri",
+            ItemName_VFX.CheezItz = "Peynirli Kraker (Cheez-It)",
+            ItemName_VFX.Goldfish = "Balık Kraker",
+
+        /**** Pudding Cups ****/
+            ItemName_VFX.ChocolatePuddingBox = "4'lü Paket Çikolatalı Puding",
+            ItemName_VFX.ChocolatePuddingCup = "Çikolatalı Puding Bardağı",
+
+            ItemName_VFX.VanillaPuddingBox = "4'lü Paket Vanilyalı Puding",
+            ItemName_VFX.VanillaPuddingCup = "Vanilyalı Puding Bardağı",
+
+            ItemName_VFX.CustardPuddingBox = "4'lü Paket Yumurtalı Puding (Custard)",
+            ItemName_VFX.CustardPuddingCup = "Yumurtalı Puding Bardağı",
+
+            ItemName_VFX.StrawberryPuddingBox = "4'lü Paket Çilekli Puding",
+            ItemName_VFX.StrawberryPuddingCup = "Çilekli Puding Bardağı",
+
+            ItemName_VFX.BananaCreamPuddingBox = "4'lü Paket Muzlu Kremalı Puding",
+            ItemName_VFX.BananaCreamPuddingCup = "Muzlu Kremalı Puding Bardağı",
+
+        /**** Jello Cups ****/
+            ItemName_VFX.StrawberryJelloBox = "4'lü Paket Çilekli Jöle",
+            ItemName_VFX.StrawberryJelloCup = "Çilekli Jöle Bardağı",
+
+            ItemName_VFX.LemonLimeJelloBox = "4'lü Paket Misket Limonlu Jöle",
+            ItemName_VFX.LemonLimeJelloCup = "Misket Limonlu Jöle Bardağı",
+
+            ItemName_VFX.OrangeJelloBox = "4'lü Paket Portakallı Jöle",
+            ItemName_VFX.OrangeJelloCup = "Portakallı Jöle Bardağı",
+
+            ItemName_VFX.CherryJelloBox = "4'lü Paket Vişneli Jöle",
+            ItemName_VFX.CherryJelloCup = "Vişneli Jöle Bardağı",
+
+            ItemName_VFX.PineappleJelloBox = "4'lü Paket Ananaslı Jöle",
+            ItemName_VFX.PineappleJelloCup = "Ananaslı Jöle Bardağı",
+
+            ItemName_VFX.BerryBlueJelloBox = "4'lü Paket Mavi Orman Meyveli Jöle",
+            ItemName_VFX.BerryBlueJelloCup = "Mavi Orman Meyveli Jöle Bardağı",
+
+            ItemName_VFX.RaspberryJelloBox = "4'lü Paket Ahududulu Jöle",
+            ItemName_VFX.RaspberryJelloCup = "Ahududulu Jöle Bardağı",
+
+            ItemName_VFX.LimeJelloBox = "4'lü Paket Ekşi Limonlu Jöle",
+            ItemName_VFX.LimeJelloCup = "Ekşi Limonlu Jöle Bardağı",
+
+            ItemName_VFX.PeachJelloBox = "4'lü Paket Şeftalili Jöle",
+            ItemName_VFX.PeachJelloCup = "Şeftalili Jöle Bardağı",
+
+            ItemName_VFX.GrapeJelloBox = "4'lü Paket Üzümlü Jöle",
+            ItemName_VFX.GrapeJelloCup = "Üzümlü Jöle Bardağı",
+
+            ItemName_VFX.LemonJelloBox = "4'lü Paket Limonlu Jöle",
+            ItemName_VFX.LemonJelloCup = "Limonlu Jöle Bardağı",
+
+        /**** Fruit Cups ****/
+            ItemName_VFX.PeachSyrupFruitBox = "4'lü Paket Şuruplu Şeftali",
+            ItemName_VFX.PeachSyrupFruitCup = "Bardak Şuruplu Şeftali",
+            ItemName_VFX.PeachJellyFruitBox = "4'lü Paket Jöleli Şeftali",
+            ItemName_VFX.PeachJellyFruitCup = "Bardak Jöleli Şeftali",
+
+            ItemName_VFX.PearSyrupFruitBox = "4'lü Paket Şuruplu Armut",
+            ItemName_VFX.PearSyrupFruitCup = "Bardak Şuruplu Armut",
+            ItemName_VFX.PearJellyFruitBox = "4'lü Paket Jöleli Armut",
+            ItemName_VFX.PearJellyFruitCup = "Bardak Jöleli Armut",
+
+            ItemName_VFX.FruitSaladSyrupFruitBox = "4'lü Paket Şuruplu Meyve Salatası",
+            ItemName_VFX.FruitSaladSyrupFruitCup = "Bardak Şuruplu Meyve Salatası",
+            ItemName_VFX.FruitSaladJellyFruitBox = "4'lü Paket Jöleli Meyve Salatası",
+            ItemName_VFX.FruitSaladJellyFruitCup = "Bardak Jöleli Meyve Salatası",
+
+            ItemName_VFX.MandarinSyrupFruitBox = "4'lü Paket Şuruplu Mandalina",
+            ItemName_VFX.MandarinSyrupFruitCup = "Bardak Şuruplu Mandalina",
+            ItemName_VFX.MandarinJellyFruitBox = "4'lü Paket Jöleli Mandalina",
+            ItemName_VFX.MandarinJellyFruitCup = "Bardak Jöleli Mandalina",
+
+            ItemName_VFX.PineappleSyrupFruitBox = "4'lü Paket Şuruplu Ananas",
+            ItemName_VFX.PineappleSyrupFruitCup = "Bardak Şuruplu Ananas",
+            ItemName_VFX.PineappleJellyFruitBox = "4'lü Paket Jöleli Ananas",
+            ItemName_VFX.PineappleJellyFruitCup = "Bardak Jöleli Ananas",
+
+            ItemName_VFX.TropicalSyrupFruitBox = "4'lü Paket Şuruplu Tropikal Meyve",
+            ItemName_VFX.TropicalSyrupFruitCup = "Bardak Şuruplu Tropikal Meyve",
+            ItemName_VFX.TropicalJellyFruitBox = "4'lü Paket Jöleli Tropikal Meyve",
+            ItemName_VFX.TropicalJellyFruitCup = "Bardak Jöleli Tropikal Meyve",
+
+        /**** Dried Fruit ****/
+            ItemName_VFX.DriedAppleSlices = "Paketli Elma Kurusu",
+            ItemName_VFX.DriedSultanas = "Paketli Çekirdeksiz Kuru Üzüm",
+            ItemName_VFX.DriedDates = "Paketli Kuru Hurma",
+            ItemName_VFX.DriedApricots = "Paketli Kuru Kayısı",
+            ItemName_VFX.DriedCranberries = "Paketli Kuru Yaban Mersini",
+            ItemName_VFX.DriedMangoSlices = "Paketli Kuru Mango",
+            ItemName_VFX.DriedPrunes = "Paketli Kuru Erik",
+            ItemName_VFX.DriedPineapple = "Paketli Kuru Ananas",
+            ItemName_VFX.DriedBananaChips = "Paketli Kuru Muz",
+
+        /**** Nuts ****/
+            ItemName_VFX.MixedNuts = "Paketli Karışık Kuruyemiş",
+            ItemName_VFX.Almonds = "Paketli Badem",
+            ItemName_VFX.Cashews = "Paketli Kaju",
+            ItemName_VFX.Hazelnuts = "Paketli Fındık",
+            ItemName_VFX.Pecans = "Paketli Pekan Cevizi",
+            ItemName_VFX.Pistachios = "Paketli Antep Fıstığı",
+            ItemName_VFX.Walnuts = "Paketli Ceviz",
+            ItemName_VFX.PineNuts = "Paketli Çam Fıstığı",
+
+        /**** Trail Mix ****/
+            ItemName_VFX.ClassicTrailMix = "Klasik Atıştırmalık Karışımı",
+            ItemName_VFX.CandyCrunchTrailMix = "Şekerli Kıtır Atıştırmalık Karışımı",
+            ItemName_VFX.TropicalTrailMix = "Tropikal Atıştırmalık Karışımı",
+            ItemName_VFX.MountainTrailMix = "Dağcı Atıştırmalık Karışımı",
+            ItemName_VFX.EnergyTrailMix = "Enerji Atıştırmalık Karışımı",
+            ItemName_VFX.BreakfastTrailMix = "Kahvaltılık Atıştırmalık Karışımı",
+
+    /**** Baking ****/
+
+        /**** Cake ****/
+            ItemName_VFX.FrenchVanillaCakeMix = "Fransız Vanilyalı Kek Karışımı",
+            ItemName_VFX.FrenchVanillaCakeBatter = "Fransız Vanilyalı Kek Hamuru",
+            ItemName_VFX.FrenchVanillaCakePrep = "Fransız Vanilyalı Kek",
+            ItemName_VFX.FrenchVanillaCakeSlice = "Fransız Vanilyalı Kek Dilimi",
+
+            ItemName_VFX.CarrotCakeMix = "Havuçlu Kek Karışımı",
+            ItemName_VFX.CarrotCakeBatter = "Havuçlu Kek Hamuru",
+            ItemName_VFX.CarrotCakePrep = "Havuçlu Kek",
+
+            ItemName_VFX.ChocolateCakeMix = "Çikolatalı Kek Karışımı",
+            ItemName_VFX.ChocolateCakeBatter = "Çikolatalı Kek Hamuru",
+            ItemName_VFX.ChocolateCakePrep = "Çikolatalı Kek",
+
+            ItemName_VFX.RedVelvetCakeMix = "Kırmızı Kadife (Red Velvet) Kek Karışımı",
+            ItemName_VFX.RedVelvetCakeBatter = "Red Velvet Kek Hamuru",
+            ItemName_VFX.RedVelvetCakePrep = "Red Velvet Kek",
+
+            ItemName_VFX.StrawberryCakeMix = "Çilekli Kek Karışımı",
+            ItemName_VFX.StrawberryCakeBatter = "Çilekli Kek Hamuru",
+            ItemName_VFX.StrawberryCakePrep = "Çilekli Kek",
+
+            ItemName_VFX.CaramelCakeMix = "Karamelli Kek Karışımı",
+            ItemName_VFX.CaramelCakeBatter = "Karamelli Kek Hamuru",
+            ItemName_VFX.CaramelCakePrep = "Karamelli Kek",
+            ItemName_VFX.CaramelCakeSlice = "Karamelli Kek Dilimi",
+
+            ItemName_VFX.OrangePoppyseedCakeMix = "Portakallı Haşhaşlı Kek Karışımı",
+            ItemName_VFX.OrangePoppyseedCakeBatter = "Portakallı Haşhaşlı Kek Hamuru",
+            ItemName_VFX.OrangePoppyseedCakePrep = "Portakallı Haşhaşlı Kek",
+            ItemName_VFX.OrangePoppyseedCakeSlice = "Portakallı Haşhaşlı Kek Dilimi",
+
+            ItemName_VFX.ConfettiCakeMix = "Renkli Şekerli Kek Karışımı",
+            ItemName_VFX.ConfettiCakeBatter = "Renkli Şekerli Kek Hamuru",
+            ItemName_VFX.ConfettiCakePrep = "Renkli Şekerli Kek",
+            ItemName_VFX.ConfettiCakeSlice = "Renkli Şekerli Kek Dilimi",
+
+            ItemName_VFX.SpiceCakeMix = "Baharatlı Kek Karışımı",
+            ItemName_VFX.SpiceCakeBatter = "Baharatlı Kek Hamuru",
+            ItemName_VFX.SpiceCakePrep = "Baharatlı Kek",
+            ItemName_VFX.SpiceCakeSlice = "Baharatlı Kek Dilimi",
+
+            ItemName_VFX.YellowCakeMix = "Altın Sarısı Kek Karışımı",
+            ItemName_VFX.YellowCakeBatter = "Altın Sarısı Kek Hamuru",
+            ItemName_VFX.YellowCakePrep = "Altın Sarısı Kek",
+            ItemName_VFX.YellowCakeSlice = "Altın Sarısı Kek Dilimi",
+        
+        /**** Muffin ****/
+            ItemName_VFX.AppleCinnamonMuffinMix = "Elmalı Tarçınlı Muffin Karışımı",
+            ItemName_VFX.AppleCinnamonMuffinBatter = "Elmalı Tarçınlı Muffin Hamuru",
+            ItemName_VFX.AppleCinnamonMuffinPrep = "Pişirme Kabı (Elmalı Tarçınlı Muffin)",
+            ItemName_VFX.AppleCinnamonMuffin = "Elmalı Tarçınlı Muffin",
+
+            ItemName_VFX.BlueberryMuffinMix = "Yaban Mersinli Muffin Karışımı",
+            ItemName_VFX.BlueberryMuffinBatter = "Yaban Mersinli Muffin Hamuru",
+            ItemName_VFX.BlueberryMuffinPrep = "Pişirme Kabı (Yaban Mersinli Muffin)",
+            ItemName_VFX.BlueberryMuffin = "Yaban Mersinli Muffin",
+
+            ItemName_VFX.ChocolateChipMuffinMix = "Çikolata Parçacıklı Muffin Karışımı",
+            ItemName_VFX.ChocolateChipMuffinBatter = "Çikolata Parçacıklı Muffin Hamuru",
+            ItemName_VFX.ChocolateChipMuffinPrep = "Pişirme Kabı (Çikolata Parçacıklı Muffin)",
+            ItemName_VFX.ChocolateChipMuffin = "Çikolata Parçacıklı Muffin",
+
+            ItemName_VFX.DoubleChocolateMuffinMix = "Bol Çikolatalı Muffin Karışımı",
+            ItemName_VFX.DoubleChocolateMuffinBatter = "Bol Çikolatalı Muffin Hamuru",
+            ItemName_VFX.DoubleChocolateMuffinPrep = "Pişirme Kabı (Bol Çikolatalı Muffin)",
+            ItemName_VFX.DoubleChocolateMuffin = "Bol Çikolatalı Muffin",
+
+            ItemName_VFX.CornMuffinMix = "Mısır Unlu Muffin Karışımı",
+            ItemName_VFX.CornMuffinBatter = "Mısır Unlu Muffin Hamuru",
+            ItemName_VFX.CornMuffinPrep = "Pişirme Kabı (Mısır Unlu Muffin)",
+            ItemName_VFX.CornMuffin = "Mısır Unlu Muffin",
+
+            ItemName_VFX.LemonPoppyMuffinMix = "Limonlu Haşhaşlı Muffin Karışımı",
+            ItemName_VFX.LemonPoppyMuffinBatter = "Limonlu Haşhaşlı Muffin Hamuru",
+            ItemName_VFX.LemonPoppyMuffinPrep = "Pişirme Kabı (Limonlu Haşhaşlı Muffin)",
+            ItemName_VFX.LemonPoppyMuffin = "Limonlu Haşhaşlı Muffin",
+
+            ItemName_VFX.BranMuffinMix = "Buğday Kepekli Muffin Karışımı",
+            ItemName_VFX.BranMuffinBatter = "Buğday Kepekli Muffin Hamuru",
+            ItemName_VFX.BranMuffinPrep = "Pişirme Kabı (Buğday Kepekli Muffin)",
+            ItemName_VFX.BranMuffin = "Buğday Kepekli Muffin",
+
+        /**** Brownies ****/
+            ItemName_VFX.BrownieMix = "Brownie Karışımı",
+            ItemName_VFX.BrownieBatter = "Brownie Hamuru",
+            ItemName_VFX.BrowniePrep = "Pişirme Kabı (Brownie)",
+            ItemName_VFX.Brownie = "Brownie",
+
+        /**** Cookies ****/
+            ItemName_VFX.ChocolateChipCookieMix = "Çikolata Parçacıklı Kurabiye Karışımı",
+            ItemName_VFX.ChocolateCookieMix = "Çikolatalı Kurabiye Karışımı",
+            ItemName_VFX.OatmealCookieMix = "Yulaflı Kurabiye Karışımı",
+            ItemName_VFX.SugarCookieMix = "Şekerli Kurabiye Karışımı",
+            ItemName_VFX.ShortbreadCookieMix = "Tereyağlı Kurabiye (Shortbread) Karışımı",
+
+            ItemName_VFX.PeanutButterCookieMix = "Fıstık Ezmeli Kurabiye Karışımı",
+            ItemName_VFX.PeanutButterCookieDough = "Pişirme Kağıdı (Fıstık Ezmeli Kurabiye)",
+            ItemName_VFX.CookiesPeanutButter = "Fıstık Ezmeli Kurabiye",
+
+            ItemName_VFX.GingerbreadCookieMix = "Zencefilli Kurabiye (Gingerbread) Karışımı",
+            ItemName_VFX.GingerbreadCookieDough = "Pişirme Kağıdı (Zencefilli Kurabiye)",
+            ItemName_VFX.CookiesGingerbread = "Zencefilli Kurabiye",
+
+            ItemName_VFX.SnickerdoodleCookieMix = "Tarçınlı Kurabiye (Snickerdoodle) Karışımı",
+            ItemName_VFX.SnickerdoodleCookieDough = "Pişirme Kağıdı (Tarçınlı Kurabiye)",
+            ItemName_VFX.CookiesSnickerdoodle = "Tarçınlı Kurabiye",
+
+        /**** Desert Bread ****/
+            ItemName_VFX.BananaBreadMix = "Muzlu Ekmek Karışımı",
+            ItemName_VFX.BananaBreadPrep = "Muzlu Ekmek",
+            ItemName_VFX.BananaBreadSlice = "Muzlu Ekmek Dilimi",
+
+            ItemName_VFX.PumpkinBreadMix = "Balkabağı Ekmeği Karışımı",
+            ItemName_VFX.PumpkinBreadPrep = "Balkabağı Ekmeği",
+            ItemName_VFX.PumpkinBreadSlice = "Balkabağı Ekmeği Dilimi",
+
+            ItemName_VFX.ChocolateSwirlBreadMix = "Çikolata Soslu Ekmek Karışımı",
+            ItemName_VFX.ChocolateSwirlBreadPrep = "Çikolata Soslu Ekmek",
+            ItemName_VFX.ChocolateSwirlBreadSlice = "Çikolata Soslu Ekmek Dilimi",
+
+            ItemName_VFX.CinnamonSwirlBreadMix = "Tarçın Soslu Ekmek Karışımı",
+            ItemName_VFX.CinnamonSwirlBreadPrep = "Tarçın Soslu Ekmek",
+            ItemName_VFX.CinnamonSwirlBreadSlice = "Tarçın Soslu Ekmek Dilimi",
+
+            ItemName_VFX.CranberryBreadMix = "Yaban Mersinli Ekmek Karışımı",
+            ItemName_VFX.CranberryBreadPrep = "Yaban Mersinli Ekmek",
+            ItemName_VFX.CranberryBreadSlice = "Yaban Mersinli Ekmek Dilimi",
+
+        /**** Biscuits ****/
+            ItemName_VFX.CheddarBiscuitMix = "Çedarlı Tuzlu Çörek Karışımı",
+            ItemName_VFX.CheddarBiscuitPrep = "Pişirme Kağıdı (Çedarlı Tuzlu Çörek)",
+            ItemName_VFX.CheddarBiscuit = "Çedarlı Tuzlu Çörek",
+
+            ItemName_VFX.HomestyleBiscuitMix = "Ev Usulü Tuzlu Çörek Karışımı",
+            ItemName_VFX.HomestyleBiscuitPrep = "Pişirme Kağıdı (Ev Usulü Tuzlu Çörek)",
+            ItemName_VFX.HomestyleBiscuit = "Ev Usulü Tuzlu Çörek",
+
+        /**** Pudding ****/
+            ItemName_VFX.VanillaPuddingMix = "Vanilyalı Puding Karışımı",
+            ItemName_VFX.BowlVanillaPudding = "Kasede Vanilyalı Puding",
+
+            ItemName_VFX.CustardPuddingMix = "Yumurtalı Puding Karışımı",
+            ItemName_VFX.BowlCustardPudding = "Kasede Yumurtalı Puding",
+
+            ItemName_VFX.BananaCreamPuddingMix = "Muzlu Kremalı Puding Karışımı",
+            ItemName_VFX.BowlBananaCreamPudding = "Kasede Muzlu Kremalı Puding",
+
+            ItemName_VFX.ButterscotchPuddingMix = "Karamelli Puding Karışımı",
+            ItemName_VFX.BowlButterscotchPudding = "Kasede Karamelli Puding",
+
+            ItemName_VFX.PistachioPuddingMix = "Antep Fıstıklı Puding Karışımı",
+            ItemName_VFX.BowlPistachioPudding = "Kasede Antep Fıstıklı Puding",
+
+            ItemName_VFX.ChocolateMousseMix = "Çikolatalı Mus Karışımı",
+            ItemName_VFX.BowlChocolateMousse = "Kasede Çikolatalı Mus",
+
+        /**** Frosting ****/
+            ItemName_VFX.CaramelFrostingTub = "Kutulu Karamelli Krema",
+            ItemName_VFX.ChocolateFrostingTub = "Kutulu Çikolatalı Krema",
+            ItemName_VFX.LemonFrostingTub = "Kutulu Limonlu Krema",
+            ItemName_VFX.StrawberryFrostingTub = "Kutulu Çilekli Krema",
+            ItemName_VFX.CreamCheeseFrostingTub = "Kutulu Krem Peynirli Krema",
+            ItemName_VFX.ConfettiFrostingTub = "Kutulu Renkli Şekerli Krema",
+
+            ItemName_VFX.CaramelFrosting = "Karamelli Krema",
+            ItemName_VFX.ChocolateFrosting = "Çikolatalı Krema",
+            ItemName_VFX.LemonFrosting = "Limonlu Krema",
+            ItemName_VFX.StrawberryFrosting = "Çilekli Krema",
+            ItemName_VFX.CreamCheeseFrosting = "Krem Peynirli Krema",
+            ItemName_VFX.ConfettiFrosting = "Renkli Şekerli Krema",
+
+    /**** Fridge and Freezer ****/
+
+        /**** Cheese ****/
+            ItemName_VFX.CottageCheese = "Lor Peyniri",
+            ItemName_VFX.CreamCheese = "Krem Peynir",
+            ItemName_VFX.MozzarellaCheese = "Mozzarella Peyniri",
+            ItemName_VFX.SwissCheese = "İsviçre Peyniri",
+            ItemName_VFX.BrieCheese = "Brie Peyniri",
+            ItemName_VFX.CamembertCheese = "Camembert Peyniri",
+            ItemName_VFX.GoatCheese = "Keçi Peyniri",
+            ItemName_VFX.BlueCheese = "Küflü Peynir (Blue Cheese)",
+            ItemName_VFX.ParmesanCheese = "Parmesan Peyniri",
+
+        /**** Dairy ****/
+            ItemName_VFX.HeavyCream = "Yoğun Krema",
+
+        /**** Yogurt ****/
+            ItemName_VFX.VanillaYogurtPot = "Kutu Vanilyalı Yoğurt",
+            ItemName_VFX.StrawberryYogurt = "Çilekli Yoğurt",
+            ItemName_VFX.StrawberryYogurtPot = "Kutu Çilekli Yoğurt",
+            ItemName_VFX.BlueberryYogurt = "Yaban Mersinli Yoğurt",
+            ItemName_VFX.BlueberryYogurtPot = "Kutu Yaban Mersinli Yoğurt",
+            ItemName_VFX.PeachYogurt = "Şeftalili Yoğurt",
+            ItemName_VFX.PeachYogurtPot = "Kutu Şeftalili Yoğurt",
+            ItemName_VFX.RaspberryYogurt = "Ahududulu Yoğurt",
+            ItemName_VFX.RaspberryYogurtPot = "Kutu Ahududulu Yoğurt",
+            ItemName_VFX.MixedBerryYogurt = "Karışık Meyveli Yoğurt",
+            ItemName_VFX.MixedBerryYogurtPot = "Kutu Karışık Meyveli Yoğurt",
+            ItemName_VFX.BananaYogurt = "Muzlu Yoğurt",
+            ItemName_VFX.BananaYogurtPot = "Kutu Muzlu Yoğurt",
+
+        /**** Fresh Pasta ****/
+            ItemName_VFX.GroundBeefRavioli = "Dana Kıymalı Ravioli",
+            ItemName_VFX.PotGroundBeefRavioli = "Tencere (Dana Kıymalı Ravioli)",
+            ItemName_VFX.PotForgedGroundBeefRavioli = "Tencere (Dana Kıymalı Ravioli)",
+            ItemName_VFX.SaucepanGroundBeefRavioli = "Sos Tenceresi (Dana Kıymalı Ravioli)",
+            ItemName_VFX.CopperSaucepanGroundBeefRavioli = "Bakır Sos Tenceresi (Dana Kıymalı Ravioli)",
+            ItemName_VFX.BowlGroundBeefRavioli = "Kasede Dana Kıymalı Ravioli",
+
+            ItemName_VFX.SpinachRicottaRavioli = "Ispanaklı ve Ricotta Peynirli Ravioli",
+            ItemName_VFX.PotSpinachRicottaRavioli = "Tencere (Ispanaklı Ricotta Ravioli)",
+            ItemName_VFX.PotForgedSpinachRicottaRavioli = "Tencere (Ispanaklı Ricotta Ravioli)",
+            ItemName_VFX.SaucepanSpinachRicottaRavioli = "Sos Tenceresi (Ispanaklı Ricotta Ravioli)",
+            ItemName_VFX.CopperSaucepanSpinachRicottaRavioli = "Bakır Sos Tenceresi (Ispanaklı Ricotta Ravioli)",
+            ItemName_VFX.BowlSpinachRicottaRavioli = "Kasede Ispanaklı Ricotta Ravioli",
+
+            ItemName_VFX.ThreeCheeseRavioli = "Üç Peynirli Ravioli",
+            ItemName_VFX.PotThreeCheeseRavioli = "Tencere (Üç Peynirli Ravioli)",
+            ItemName_VFX.PotForgedThreeCheeseRavioli = "Tencere (Üç Peynirli Ravioli)",
+            ItemName_VFX.SaucepanThreeCheeseRavioli = "Sos Tenceresi (Üç Peynirli Ravioli)",
+            ItemName_VFX.CopperSaucepanThreeCheeseRavioli = "Bakır Sos Tenceresi (Üç Peynirli Ravioli)",
+            ItemName_VFX.BowlThreeCheeseRavioli = "Kasede Üç Peynirli Ravioli",
+
+            ItemName_VFX.PumpkinRavioli = "Balkabağı Ravioli",
+            ItemName_VFX.PotPumpkinRavioli = "Tencere (Balkabağı Ravioli)",
+            ItemName_VFX.PotForgedPumpkinRavioli = "Tencere (Balkabağı Ravioli)",
+            ItemName_VFX.SaucepanPumpkinRavioli = "Sos Tenceresi (Balkabağı Ravioli)",
+            ItemName_VFX.CopperSaucepanPumpkinRavioli = "Bakır Sos Tenceresi (Balkabağı Ravioli)",
+            ItemName_VFX.BowlPumpkinRavioli = "Kasede Balkabağı Ravioli",
+
+            ItemName_VFX.LobsterRavioli = "Istakozlu Ravioli",
+            ItemName_VFX.PotLobsterRavioli = "Tencere (Istakozlu Ravioli)",
+            ItemName_VFX.PotForgedLobsterRavioli = "Tencere (Istakozlu Ravioli)",
+            ItemName_VFX.SaucepanLobsterRavioli = "Sos Tenceresi (Istakozlu Ravioli)",
+            ItemName_VFX.CopperSaucepanLobsterRavioli = "Bakır Sos Tenceresi (Istakozlu Ravioli)",
+            ItemName_VFX.BowlLobsterRavioli = "Kasede Istakozlu Ravioli",
+
+            ItemName_VFX.ChickenMushroomRavioli = "Tavuklu Mantarlı Ravioli",
+            ItemName_VFX.PotChickenMushroomRavioli = "Tencere (Tavuklu Mantarlı Ravioli)",
+            ItemName_VFX.PotForgedChickenMushroomRavioli = "Tencere (Tavuklu Mantarlı Ravioli)",
+            ItemName_VFX.SaucepanChickenMushroomRavioli = "Sos Tenceresi (Tavuklu Mantarlı Ravioli)",
+            ItemName_VFX.CopperSaucepanChickenMushroomRavioli = "Bakır Sos Tenceresi (Tavuklu Mantarlı Ravioli)",
+            ItemName_VFX.BowlChickenMushroomRavioli = "Kasede Tavuklu Mantarlı Ravioli",
+
+            ItemName_VFX.FourCheeseTortellini = "Dört Peynirli Tortellini",
+            ItemName_VFX.PotFourCheeseTortellini = "Tencere (Dört Peynirli Tortellini)",
+            ItemName_VFX.PotForgedFourCheeseTortellini = "Tencere (Dört Peynirli Tortellini)",
+            ItemName_VFX.SaucepanFourCheeseTortellini = "Sos Tenceresi (Dört Peynirli Tortellini)",
+            ItemName_VFX.CopperSaucepanFourCheeseTortellini = "Bakır Sos Tenceresi (Dört Peynirli Tortellini)",
+            ItemName_VFX.BowlFourCheeseTortellini = "Kasede Dört Peynirli Tortellini",
+
+            ItemName_VFX.PepperedPorkTortellini = "Karabiberli Domuz Etli Tortellini",
+            ItemName_VFX.PotPepperedPorkTortellini = "Tencere (Karabiberli Domuz Tortellini)",
+            ItemName_VFX.PotForgedPepperedPorkTortellini = "Tencere (Karabiberli Domuz Tortellini)",
+            ItemName_VFX.SaucepanPepperedPorkTortellini = "Sos Tenceresi (Karabiberli Domuz Tortellini)",
+            ItemName_VFX.CopperSaucepanPepperedPorkTortellini = "Bakır Sos Tenceresi (Karabiberli Domuz Tortellini)",
+            ItemName_VFX.BowlPepperedPorkTortellini = "Kasede Karabiberli Domuz Tortellini",
+
+            ItemName_VFX.SpinachRicottaTortellini = "Ispanaklı Ricotta Tortellini",
+            ItemName_VFX.PotSpinachRicottaTortellini = "Tencere (Ispanaklı Ricotta Tortellini)",
+            ItemName_VFX.PotForgedSpinachRicottaTortellini = "Tencere (Ispanaklı Ricotta Tortellini)",
+            ItemName_VFX.SaucepanSpinachRicottaTortellini = "Sos Tenceresi (Ispanaklı Ricotta Tortellini)",
+            ItemName_VFX.CopperSaucepanSpinachRicottaTortellini = "Bakır Sos Tenceresi (Ispanaklı Ricotta Tortellini)",
+            ItemName_VFX.BowlSpinachRicottaTortellini = "Kasede Ispanaklı Ricotta Tortellini",
+
+            ItemName_VFX.GroundBeefTortellini = "Dana Kıymalı Tortellini",
+            ItemName_VFX.PotGroundBeefTortellini = "Tencere (Dana Kıymalı Tortellini)",
+            ItemName_VFX.PotForgedGroundBeefTortellini = "Tencere (Dana Kıymalı Tortellini)",
+            ItemName_VFX.SaucepanGroundBeefTortellini = "Sos Tenceresi (Dana Kıymalı Tortellini)",
+            ItemName_VFX.CopperSaucepanGroundBeefTortellini = "Bakır Sos Tenceresi (Dana Kıymalı Tortellini)",
+            ItemName_VFX.BowlGroundBeefTortellini = "Kasede Dana Kıymalı Tortellini",
+
+        /**** Dip ****/
+            ItemName_VFX.Hummus = "Humus",
+            ItemName_VFX.BuffaloDip = "Acı Soslu Dip Sos (Buffalo)",
+            ItemName_VFX.FrenchOnionDip = "Fransız Soğanlı Dip Sos",
+            ItemName_VFX.SpinachArtichokeDip = "Enginarlı Ispanaklı Dip Sos",
+            ItemName_VFX.BaconCheddarDip = "Pastırmalı Çedarlı Dip Sos",
+
+        /**** Meat and Seafood ****/
+            ItemName_VFX.GroundChicken = "Tavuk Kıyma",
+            ItemName_VFX.ChickenThighs = "Tavuk But",
+            ItemName_VFX.ChickenDrumsticks = "Tavuk Baget",
+
+            ItemName_VFX.BeefBrisket = "Dana Döş",
+            ItemName_VFX.BeefShortRibs = "Dana Kısa Kaburga",
+            ItemName_VFX.BeefShank = "Dana İncik",
+
+            ItemName_VFX.GroundPork = "Domuz Kıyma",
+            ItemName_VFX.PorkBelly = "Domuz Karın Eti",
+            ItemName_VFX.PorkRibs = "Domuz Kaburga",
+
+            ItemName_VFX.LambLeg = "Kuzu Budu",
+            ItemName_VFX.GroundLamb = "Kuzu Kıyma",
+
+            ItemName_VFX.VealCutlet = "Dana Pirzola",
+            ItemName_VFX.GroundTurkey = "Hindi Kıyma",
+            ItemName_VFX.DuckBreast = "Ördek Göğsü",
+
+            ItemName_VFX.SmokedSalmon = "Füme Somon",
+            ItemName_VFX.ImitationCrab = "Yengeç Surimi (Taklit)",
+
+            ItemName_VFX.BlackPudding = "Kan Sosisi (Black Pudding)",
+
+        /**** Frozen Meals ****/
+            ItemName_VFX.SpaghettiMeatballsFrozenMeal = "Köfteli Spagetti",
+            ItemName_VFX.CottagePieFrozenMeal = "Etli ve Patates Püreli Pay",
+            ItemName_VFX.ChickenPotPieFrozenMeal = "Tavuklu Pay",
+            ItemName_VFX.MacNCheeseFrozenMeal = "Peynirli Makarna",
+            ItemName_VFX.SalisburySteakFrozenMeal = "Salisbury Bifteği",
+            ItemName_VFX.RoastTurkeyFrozenMeal = "Hindi Kızartması",
+            ItemName_VFX.MeatloafFrozenMeal = "Rulo Köfte",
+
+        /**** Frozen Pizza ****/
+            ItemName_VFX.FrozenCheesePizza = "Peynirli Pizza",
+            ItemName_VFX.CheesePizzaSlice = "Peynirli Pizza Dilimi",
+
+            ItemName_VFX.FrozenThreeMeatPizza = "Üç Etli Pizza",
+            ItemName_VFX.ThreeMeatPizzaSlice = "Üç Etli Pizza Dilimi",
+
+            ItemName_VFX.FrozenPepperoniPizza = "Pepperoni Pizza",
+            ItemName_VFX.PepperoniPizzaSlice = "Pepperoni Pizza Dilimi",
+
+            ItemName_VFX.FrozenBuffaloChickenPizza = "Acılı Tavuklu Pizza",
+            ItemName_VFX.BuffaloChickenPizzaSlice = "Acılı Tavuklu Pizza Dilimi",
+
+            ItemName_VFX.FrozenSupremePizza = "至尊 Karışık Pizza",
+            ItemName_VFX.SupremePizzaSlice = "Karışık Pizza Dilimi",
+
+        /**** Frozen Vegetables ****/
+            ItemName_VFX.PackagedCarrot = "Paketli Havuç",
+            ItemName_VFX.PackagedPeas = "Paketli Bezelye",
+            ItemName_VFX.PackagedBeans = "Paketli Fasulye",
+            ItemName_VFX.PackagedBroccoli = "Paketli Brokoli",
+            ItemName_VFX.PackagedCauliflower = "Paketli Karnabahar",
+            ItemName_VFX.PackagedPumpkin = "Paketli Balkabağı",
+
+            ItemName_VFX.BagHashbrowns = "Dondurulmuş Patates Mücveri (Hashbrowns)",
+            ItemName_VFX.BagWedges = "Dondurulmuş Elma Dilim Patates",
+            ItemName_VFX.BagOnionRings = "Dondurulmuş Soğan Halkası",
+
+            ItemName_VFX.Hashbrowns = "Patates Mücveri (Hashbrowns)",
+            ItemName_VFX.Wedges = "Elma Dilim Patates",
+
+        /**** Frozen Fruit ****/
+            ItemName_VFX.PineappleChunks = "Ananas Parçaları",
+            ItemName_VFX.Blueberries = "Yaban Mersini",
+            ItemName_VFX.MangoChunks = "Mango Parçaları",
+            ItemName_VFX.WholeStrawberries = "Bütün Çilekler",
+            ItemName_VFX.SlicedStrawberries = "Dilimlenmiş Çilekler",
+            ItemName_VFX.SlicedBananas = "Dilimlenmiş Muzlar",
+            ItemName_VFX.Raspberries = "Ahududu",
+            ItemName_VFX.DarkSweetCherries = "Siyah Tatlı Kirazlar",
+            ItemName_VFX.RedTartCherries = "Kırmızı Vişneler",
+            ItemName_VFX.Blackberries = "Böğürtlen",
+            ItemName_VFX.MixedFruit = "Karışık Meyveler",
+            ItemName_VFX.BerryMedley = "Karışık Orman Meyveleri",
+            ItemName_VFX.StrawberryBananaBlend = "Çilek-Muz Karışımı",
+
+        /**** Frozen Snacks ****/
+            ItemName_VFX.FrozenSausageRoll = "香肠卷 Milföylü Sosis",
+            ItemName_VFX.FrozenMeatPie = "Etli Pay",
+            ItemName_VFX.FrozenBeefBurrito = "Dana Etli Burrito",
+            ItemName_VFX.FrozenChickenBurrito = "Tavuklu Burrito",
+            ItemName_VFX.FrozenBeanBurrito = "Fasulyeli Burrito",
+            ItemName_VFX.BagChickenTenders = "Paket Tavuk Fileto",
+            ItemName_VFX.FrozenChickenTenders = "Tavuk Fileto",
+            ItemName_VFX.BagMozzarellaSticks = "Paket Mozzarella Çubukları",
+            ItemName_VFX.FrozenMozzarellaSticks = "Mozzarella Çubukları",
+            ItemName_VFX.FrozenEggRoll = "Çin Böreği (Egg Roll)",
+
+            ItemName_VFX.PBJUncrustable_Box = "Kutulu Fıstık Ezmeli ve Jöleli Sandviç",
+            ItemName_VFX.PBJUncrustable = "Fıstık Ezmeli ve Jöleli Sandviç",
+            ItemName_VFX.PBFUncrustable_Box = "Kutulu Fıstık Ezmeli ve Marşmelovlu Sandviç",
+            ItemName_VFX.PBFUncrustable = "Fıstık Ezmeli ve Marşmelovlu Sandviç",
+            ItemName_VFX.CSUncrustable_Box = "Kutulu Tarçın Şekerli Sandviç",
+            ItemName_VFX.CSUncrustable = "Tarçın Şekerli Sandviç",
+            ItemName_VFX.CHUncrustable_Box = "Kutulu Çikolatalı Fındıklı Sandviç",
+            ItemName_VFX.CHUncrustable = "Çikolatalı Fındıklı Sandviç",
+
+            ItemName_VFX.CheesePizzaRoll_Box = "Paket Peynirli Pizza Ruloları",
+            ItemName_VFX.CheesePizzaRoll = "Peynirli Pizza Rulosu",
+            ItemName_VFX.PepperoniPizzaRoll_Box = "Paket Pepperoni Pizza Ruloları",
+            ItemName_VFX.PepperoniPizzaRoll = "Pepperoni Pizza Rulosu",
+            ItemName_VFX.SupremePizzaRoll_Box = "Paket Karışık Pizza Ruloları",
+            ItemName_VFX.SupremePizzaRoll = "Karışık Pizza Rulosu",
+            ItemName_VFX.MeatLoversPizzaRoll_Box = "Paket Bol Etli Pizza Ruloları",
+            ItemName_VFX.MeatLoversPizzaRoll = "Bol Etli Pizza Rulosu",
+
+            ItemName_VFX.SECBreakfastSandwich_Box = "Kutulu Sosisli Yumurtalı Peynirli Kahvaltı Sandviçi",
+            ItemName_VFX.SECBreakfastSandwich = "Sosisli Yumurtalı Peynirli Kahvaltı Sandviçi",
+            ItemName_VFX.BECBreakfastSandwich_Box = "Kutulu Pastırmalı Yumurtalı Peynirli Kahvaltı Sandviçi",
+            ItemName_VFX.BECBreakfastSandwich = "Pastırmalı Yumurtalı Peynirli Kahvaltı Sandviçi",
+            ItemName_VFX.TECBreakfastSandwich_Box = "Kutulu Hindili Yumurtalı Peynirli Kahvaltı Sandviçi",
+            ItemName_VFX.TECBreakfastSandwich = "Hindili Yumurtalı Peynirli Kahvaltı Sandviçi",
+            ItemName_VFX.ECBreakfastSandwich_Box = "Kutulu Yumurtalı Peynirli Kahvaltı Sandviçi",
+            ItemName_VFX.ECBreakfastSandwich = "Yumurtalı Peynirli Kahvaltı Sandviçi",
+
+        /**** Popsicle ****/
+            ItemName_VFX.CherryPopsicle = "Vişneli Buz Parmak",
+            ItemName_VFX.CherryPopsicleMelted = "Vişneli Buz Parmak (Erimiş)",
+            ItemName_VFX.GrapePopsicle = "Üzümlü Buz Parmak",
+            ItemName_VFX.GrapePopsicleMelted = "Üzümlü Buz Parmak (Erimiş)",
+            ItemName_VFX.OrangePopsicle = "Portakallı Buz Parmak",
+            ItemName_VFX.OrangePopsicleMelted = "Portakallı Buz Parmak (Erimiş)",
+            ItemName_VFX.LimePopsicle = "Misket Limonlu Buz Parmak",
+            ItemName_VFX.LimePopsicleMelted = "Misket Limonlu Buz Parmak (Erimiş)",
+            ItemName_VFX.StrawberryPopsicle = "Çilekli Buz Parmak",
+            ItemName_VFX.StrawberryPopsicleMelted = "Çilekli Buz Parmak (Erimiş)",
+            ItemName_VFX.TropicalPopsicle = "Tropikal Meyveli Buz Parmak",
+            ItemName_VFX.TropicalPopsicleMelted = "Tropikal Meyveli Buz Parmak (Erimiş)",
+            ItemName_VFX.BananaPopsicle = "Muzlu Buz Parmak",
+            ItemName_VFX.BananaPopsicleMelted = "Muzlu Buz Parmak (Erimiş)",
+
+        /**** Ice Cream ****/
+            ItemName_VFX.ChocolateIceCream = "Çikolatalı Dondurma",
+            ItemName_VFX.ChocolateIceCreamMelted = "Çikolatalı Dondurma (Erimiş)",
+            ItemName_VFX.ChocolateChipIceCream = "Çikolata Parçacıklı Dondurma",
+            ItemName_VFX.ChocolateChipIceCreamMelted = "Çikolata Parçacıklı Dondurma (Erimiş)",
+            ItemName_VFX.StrawberryIceCream = "Çilekli Dondurma",
+            ItemName_VFX.StrawberryIceCreamMelted = "Çilekli Dondurma (Erimiş)",
+            ItemName_VFX.NeapolitanIceCream = "Napoliten (Üç Renkli) Dondurma",
+            ItemName_VFX.NeapolitanIceCreamMelted = "Napoliten Dondurma (Erimiş)",
+            ItemName_VFX.ButterPecanIceCream = "Cevizli Tereyağlı Dondurma",
+            ItemName_VFX.ButterPecanIceCreamMelted = "Cevizli Tereyağlı Dondurma (Erimiş)",
+            ItemName_VFX.MintChocolateChipIceCream = "Naneli Çikolata Parçacıklı Dondurma",
+            ItemName_VFX.MintChocolateChipIceCreamMelted = "Naneli Çikolata Parçacıklı Dondurma (Erimiş)",
+            ItemName_VFX.CookiesAndCreamIceCream = "Bisküvili Kremalı Dondurma",
+            ItemName_VFX.CookiesAndCreamIceCreamMelted = "Bisküvili Kremalı Dondurma (Erimiş)",
+            ItemName_VFX.RockyRoadIceCream = "Rocky Road Dondurma",
+            ItemName_VFX.RockyRoadIceCreamMelted = "Rocky Road Dondurma (Erimiş)",
+            ItemName_VFX.PistachioIceCream = "Antep Fıstıklı Dondurma",
+            ItemName_VFX.PistachioIceCreamMelted = "Antep Fıstıklı Dondurma (Erimiş)",
+
+        /**** Ice Cream Cones ****/
+            ItemName_VFX.ChocolateIceCreamCone = "Çikolatalı Külah Dondurma",
+            ItemName_VFX.ChocolateIceCreamConeMelted = "Çikolatalı Külah Dondurma (Erimiş)",
+            ItemName_VFX.ChocolateChipIceCreamCone = "Çikolata Parçacıklı Külah Dondurma",
+            ItemName_VFX.ChocolateChipIceCreamConeMelted = "Çikolata Parçacıklı Külah Dondurma (Erimiş)",
+            ItemName_VFX.StrawberryIceCreamCone = "Çilekli Külah Dondurma",
+            ItemName_VFX.StrawberryIceCreamConeMelted = "Çilekli Külah Dondurma (Erimiş)",
+            ItemName_VFX.NeapolitanIceCreamCone = "Napoliten Külah Dondurma",
+            ItemName_VFX.NeapolitanIceCreamConeMelted = "Napoliten Külah Dondurma (Erimiş)",
+			ItemName_VFX.ButterPecanIceCreamCone = "Cevizli Tereyağlı Külah Dondurma",
+			ItemName_VFX.ButterPecanIceCreamConeMelted = "Cevizli Tereyağlı Külah Dondurma (Erimiş)",
+            ItemName_VFX.MintChocolateChipIceCreamCone = "Naneli Çikolata Parçacıklı Külah Dondurma",
+            ItemName_VFX.MintChocolateChipIceCreamConeMelted = "Naneli Çikolata Parçacıklı Külah Dondurma (Erimiş)",
+            ItemName_VFX.CookiesAndCreamIceCreamCone = "Bisküvili Kremalı Külah Dondurma",
+            ItemName_VFX.CookiesAndCreamIceCreamConeMelted = "Bisküvili Kremalı Külah Dondurma (Erimiş)",
+            ItemName_VFX.RockyRoadIceCreamCone = "Rocky Road Külah Dondurma",
+            ItemName_VFX.RockyRoadIceCreamConeMelted = "Rocky Road Külah Dondurma (Erimiş)",
+            ItemName_VFX.PistachioIceCreamCone = "Antep Fıstıklı Külah Dondurma",
+            ItemName_VFX.PistachioIceCreamConeMelted = "Antep Fıstıklı Külah Dondurma (Erimiş)",
+
+    /**** Fresh Fruit and Vegetables ****/
+
+        /**** Fruit ****/
+
+            ItemName_VFX.Apricot = "Kayısı",
+            ItemName_VFX.GreenKiwi = "Yeşil Kivi",
+            ItemName_VFX.GoldKiwi = "Altın Kivi",
+            ItemName_VFX.Papaya = "Papaya",
+            ItemName_VFX.Plum = "Erik",
+            ItemName_VFX.Pomegranate = "Nar",
+            ItemName_VFX.PunnetBlackberries = "Böğürtlen Paketi",
+            ItemName_VFX.PunnetBlueberries = "Yaban Mersini Paketi",
+            ItemName_VFX.Cranberries = "Turna Yemişi (Cranberry)",
+            ItemName_VFX.Figs = "İncir",
+            ItemName_VFX.Nectarines = "Nektarin",
+            ItemName_VFX.PunnetRaspberries = "Ahududu Paketi",
+            ItemName_VFX.Tangerines = "Mandalina",
+
+        /**** Vegetables ****/
+
+            ItemName_VFX.BagGreenBeans = "Paketli Taze Fasulye",
+            ItemName_VFX.Beetroot = "Pancar",
+            ItemName_VFX.Asparagus = "Kuşkonmaz",
+            ItemName_VFX.RedCabbage = "Mor Lahana",
+            ItemName_VFX.SnowPeas = "Paketli Sultani Bezelye",
+            ItemName_VFX.BokChoy = "Çin Lahanası (Bok Choy)",
+            ItemName_VFX.SlicedPotato = "Dilimlenmiş Patates",
+            ItemName_VFX.MashedPotato = "Patates Püresi",
+
+    /**** Beverages ****/
+
+        /**** Soda (Pop) ****/
+
+            ItemName_VFX.CreamSodaBottle = "Şişe Kremalı Gazoz",
+            ItemName_VFX.CreamSodaCan = "Kutu Kremalı Gazoz",
+
+            ItemName_VFX.LemonSodaBottle = "Şişe Limonlu Gazoz",
+            ItemName_VFX.LemonSodaCan = "Kutu Limonlu Gazoz",
+
+            ItemName_VFX.LemonLimeSodaBottle = "Şişe Limon-Misket Limonlu Gazoz",
+            ItemName_VFX.LemonLimeSodaCan = "Kutu Limon-Misket Limonlu Gazoz",
+
+            ItemName_VFX.OrangeSodaBottle = "Şişe Portakallı Gazoz",
+            ItemName_VFX.OrangeSodaCan = "Kutu Portakallı Gazoz",
+
+            ItemName_VFX.VanillaColaBottle = "Şişe Vanilyalı Kola",
+            ItemName_VFX.VanillaColaCan = "Kutu Vanilyalı Kola",
+
+            ItemName_VFX.CherryColaBottle = "Şişe Vişneli Kola",
+            ItemName_VFX.CherryColaCan = "Kutu Vişneli Kola",
+
+            ItemName_VFX.RootBeerBottle = "Şişe Kök Birası (Root Beer)",
+            ItemName_VFX.RootBeerCan = "Kutu Kök Birası (Root Beer)",
+
+        /**** Sports Drink ****/
+
+            ItemName_VFX.SportsBerryBlast = "Spor İçeceği (Berry Blast)",
+            ItemName_VFX.SportsFruitPunch = "Spor İçeceği (Meyve Kokteyli)",
+            ItemName_VFX.SportsGrape = "Spor İçeceği (Üzümlü)",
+            ItemName_VFX.SportsLemonLime = "Spor İçeceği (Limonlu)",
+            ItemName_VFX.SportsOrange = "Spor İçeceği (Portakallı)",
+            ItemName_VFX.SportsMelon = "Spor İçeceği (Kavunlu)",
+            ItemName_VFX.SportsWhiteCherry = "Spor İçeceği (Beyaz Kiraz)",
+
+        /**** Juice ****/
+            ItemName_VFX.GrapefruitJuice = "Greyfurt Suyu",
+            ItemName_VFX.PineappleJuice = "Ananas Suyu",
+            ItemName_VFX.TropicalJuice = "Tropikal Meyve Suyu",
+            ItemName_VFX.PruneJuice = "Kuru Erik Suyu",
+
+        /**** Juice Box ****/
+            ItemName_VFX.JuiceBoxGrapefruit = "Greyfurt Suyu Kutusu",
+            ItemName_VFX.JuiceBoxPineapple = "Ananas Suyu Kutusu",
+            ItemName_VFX.JuiceBoxTropical = "Tropikal Meyve Suyu Kutusu",
+            ItemName_VFX.JuiceBoxCranberry = "Turna Yemişi Suyu Kutusu",
+
+        /**** Iced Tea ****/
+            ItemName_VFX.IcedTeaSweet = "Şekerli Buzlu Çay",
+            ItemName_VFX.IcedTeaLemon = "Limonlu Buzlu Çay",
+            ItemName_VFX.IcedTeaGreen = "Yeşil Buzlu Çay",
+            ItemName_VFX.IcedTeaPeach = "Şeftalili Buzlu Çay",
+            ItemName_VFX.IcedTeaRaspberry = "Ahududulu Buzlu Çay",
+
+        /**** Drink Mixes ****/
+            ItemName_VFX.DrinkMixLemonade = "Limonata İçecek Tozu",
+            ItemName_VFX.DrinkMixPinkLemonade = "Pembe Limonata İçecek Tozu",
+            ItemName_VFX.DrinkMixCherry = "Vişne İçecek Tozu",
+            ItemName_VFX.DrinkMixFruitPunch = "Meyve Kokteyli İçecek Tozu",
+            ItemName_VFX.DrinkMixGrape = "Üzüm İçecek Tozu",
+            ItemName_VFX.DrinkMixSweetTea = "Şekerli Çay İçecek Tozu",
+
+            ItemName_VFX.LemonadePlasticPitcher = "Plastic Pitcher with Lemonade Drink Mix",
+            ItemName_VFX.CherryPlasticPitcher = "Plastic Pitcher with Cherry Drink Mix",
+            ItemName_VFX.FruitPunchPlasticPitcher = "Plastic Pitcher with Fruit Punch Drink Mix",
+            ItemName_VFX.GrapePlasticPitcher = "Plastic Pitcher with Grape Drink Mix",
+            ItemName_VFX.PinkLemonadePlasticPitcher = "Plastic Pitcher with Pink Lemonade Drink Mix",
+            ItemName_VFX.SweetTeaPlasticPitcher = "Plastic Pitcher with Sweet Tea Punch Drink Mix",
+
+        /**** Tea ****/
+            ItemName_VFX.GreenTeaBag = "Yeşil Çay Poşeti",
+            ItemName_VFX.BreakfastTeaBag = "Kahvaltı Çayı Poşeti",
+            ItemName_VFX.EarlGrayTeaBag = "Earl Grey Çay Poşeti",
+            ItemName_VFX.ChamomileTeaBag = "Papatya Çayı Poşeti",
+            ItemName_VFX.PeppermintTeaBag = "Nane Çayı Poşeti",
+            ItemName_VFX.GingerTeaBag = "Zencefil Çayı Poşeti",
+            ItemName_VFX.LemonTeaBag = "Limon Çayı Poşeti",
+
+            ItemName_VFX.GreenTeaBag_2 = "Yeşil Çay Poşeti",
+            ItemName_VFX.BreakfastTeaBag_2 = "Kahvaltı Çayı Poşeti",
+            ItemName_VFX.EarlGrayTeaBag_2 = "Earl Grey Çay Poşeti",
+            ItemName_VFX.ChamomileTeaBag_2 = "Papatya Çayı Poşeti",
+            ItemName_VFX.PeppermintTeaBag_2 = "Nane Çayı Poşeti",
+            ItemName_VFX.GingerTeaBag_2 = "Zencefil Çayı Poşeti",
+            ItemName_VFX.LemonTeaBag_2 = "Limon Çayı Poşeti",
+
+            ItemName_VFX.BlackTeaBox = "Kutulu Siyah Çay",
+            ItemName_VFX.GreenTeaBox = "Kutulu Yeşil Çay",
+            ItemName_VFX.BreakfastTeaBox = "Kutulu Kahvaltı Çayı",
+            ItemName_VFX.EarlGrayTeaBox = "Kutulu Earl Grey Çay",
+            ItemName_VFX.ChamomileTeaBox = "Kutulu Papatya Çayı",
+            ItemName_VFX.PeppermintTeaBox = "Kutulu Nane Çayı",
+            ItemName_VFX.GingerTeaBox = "Kutulu Zencefil Çayı",
+            ItemName_VFX.LemonTeaBox = "Kutulu Limon Çayı",
+
+        /**** Coffee Creamer ****/
+            ItemName_VFX.CoffeeCreamerOriginal_2 = "Orijinal Kahve Kreması",
+            ItemName_VFX.CoffeeCreamerFrenchVanilla_2 = "Fransız Vanilyalı Kahve Kreması",
+            ItemName_VFX.CoffeeCreamerHazelnut_2 = "Fındıklı Kahve Kreması",
+            ItemName_VFX.CoffeeCreamerIrishCream_2 = "Irish Cream Kahve Kreması",
+            ItemName_VFX.CoffeeCreamerAlmond_2 = "Bademli Kahve Kreması",
+
+        /**** Shelf Stable Milk ****/
+            ItemName_VFX.ShelfStableMilk = "Şişe Uzun Ömürlü Süt",
+            ItemName_VFX.SoyMilk = "Şişe Soya Sütü",
+
+        /**** Flavored Milk ****/
+            ItemName_VFX.ChocolateMilk = "Kutulu Çikolatalı Süt",
+            ItemName_VFX.StrawberryMilk = "Kutulu Çilekli Süt",
+            ItemName_VFX.BananaMilk = "Kutulu Muzlu Süt",
+
+        /**** Protein Powder ****/
+            ItemName_VFX.VanillaProteinPowder = "Vanilyalı Protein Tozu",
+            ItemName_VFX.ChocolateProteinPowder = "Çikolatalı Protein Tozu",
+            ItemName_VFX.StrawberryProteinPowder = "Çilekli Protein Tozu",
+            ItemName_VFX.BananaProteinPowder = "Muzlu Protein Tozu",
+
+            ItemName_VFX.VanillaProteinShaker = "Protein Shaker with Vanilla Protein",
+            ItemName_VFX.ChocolateProteinShaker = "Protein Shaker with Chocolate Protein",
+            ItemName_VFX.StrawberryProteinShaker = "Protein Shaker with Strawberry Protein",
+            ItemName_VFX.BananaProteinShaker = "Protein Shaker with Banana Protein",
+
+        /**** Wine ****/
+            ItemName_VFX.WineCabernetSauvignon = "Şişe Cabernet Sauvignon",
+            ItemName_VFX.WineMerlot = "Şişe Merlot",
+            ItemName_VFX.WinePinotNoir = "Şişe Pinot Noir",
+            ItemName_VFX.WineSauvignonBlanc = "Şişe Sauvignon Blanc",
+            ItemName_VFX.WinePinotGris = "Şişe Pinot Gris",
+            ItemName_VFX.WineRiesling = "Şişe Riesling",
+
+            ItemName_VFX.WineBoxCabernetSauvignon = "Kutulu Cabernet Sauvignon",
+            ItemName_VFX.WineBoxMerlot = "Kutulu Merlot",
+            ItemName_VFX.WineBoxPinotNoir = "Kutulu Pinot Noir",
+            ItemName_VFX.WineBoxSauvignonBlanc = "Kutulu Sauvignon Blanc",
+            ItemName_VFX.WineBoxPinotGris = "Kutulu Pinot Gris",
+            ItemName_VFX.WineBoxRiesling = "Kutulu Riesling",
+
+        /**** Beer ****/
+            ItemName_VFX.BottleAmericanLager = "Şişe Amerikan Lager",
+            ItemName_VFX.BottlePilsner = "Şişe Pilsner",
+            ItemName_VFX.BottleViennaLager = "Şişe Viyana Lager",
+            ItemName_VFX.BottlePaleAle = "Şişe Pale Ale",
+            ItemName_VFX.BottleAmberAle = "Şişe Amber Ale",
+            ItemName_VFX.BottlePorter = "Şişe Porter",
+            ItemName_VFX.BottleStout = "Şişe Stout (Siyah Bira)",
+            ItemName_VFX.BottleAmericanWheatBeer = "Şişe Amerikan Buğday Birası",
+
+            ItemName_VFX.PackAmericanLager = "6'lı Amerikan Lager",
+            ItemName_VFX.PackPilsner = "6'lı Pilsner",
+            ItemName_VFX.PackViennaLager = "6'lı Viyana Lager",
+            ItemName_VFX.PackPaleAle = "6'lı Pale Ale",
+            ItemName_VFX.PackAmberAle = "6'lı Amber Ale",
+            ItemName_VFX.PackPorter = "6'lı Porter",
+            ItemName_VFX.PackStout = "6'lı Stout",
+            ItemName_VFX.PackAmericanWheatBeer = "6'lı Amerikan Buğday Birası",
+
+            ItemName_VFX.CanAmericanLager = "Kutu Amerikan Lager",
+            ItemName_VFX.CanPilsner = "Kutu Pilsner",
+            ItemName_VFX.CanViennaLager = "Kutu Viyana Lager",
+            ItemName_VFX.CanPaleAle = "Kutu Pale Ale",
+            ItemName_VFX.CanAmberAle = "Kutu Amber Ale",
+            ItemName_VFX.CanPorter = "Kutu Porter",
+            ItemName_VFX.CanStout = "Kutu Stout",
+            ItemName_VFX.CanAmericanWheatBeer = "Kutu Amerikan Buğday Birası",
+
+            ItemName_VFX.PackCanAmberAle = "6'lı Kutu Amber Ale",
+            ItemName_VFX.PackCanAmericanLager = "6'lı Kutu Amerikan Lager",
+            ItemName_VFX.PackCanAmericanWheatBeer = "6'lı Kutu Amerikan Buğday Birası",
+            ItemName_VFX.PackCanPaleAle = "6'lı Kutu Pale Ale",
+            ItemName_VFX.PackCanPilsner = "6'lı Kutu Pilsner",
+            ItemName_VFX.PackCanPorter = "6'lı Kutu Porter",
+            ItemName_VFX.PackCanStout = "6'lı Kutu Stout",
+            ItemName_VFX.PackCanViennaLager = "6'lı Kutu Viyana Lager",
+
+    /**** Items ****/
+        ItemName_VFX.SmallTinCanEmpty = "Boş Küçük Teneke Kutu",
+        ItemName_VFX.PlasticPitcher = "Boş Plastik Sürahi",
+        ItemName_VFX.ProteinShaker = "Boş Protein Shaker",
+        ItemName_VFX.MilkshakeGlass = "Boş Milkshake Bardağı",
+
+    /**** Evolved ****/
+        ItemName_Base.VFXLasagnaEvolved = "Lazanya",
+        ItemName_Base.VFXPlateLasagna = "Tabak (Lazanya)",
+
+        ItemName_Base.VFXBrownRiceSaucepanEvolved = "Esmer Pirinç",
+        ItemName_Base.VFXBrownRiceSaucepanCopperEvolved = "Esmer Pirinç",
+        ItemName_Base.VFXBrownRicePotEvolved = "Esmer Pirinç",
+        ItemName_Base.VFXBrownRicePotForgedEvolved = "Esmer Pirinç",
+
+        ItemName_Base.VFXJasmineRiceSaucepanEvolved = "Yasemin Pirinci",
+        ItemName_Base.VFXJasmineRiceSaucepanCopperEvolved = "Yasemin Pirinci",
+        ItemName_Base.VFXJasmineRicePotEvolved = "Yasemin Pirinci",
+        ItemName_Base.VFXJasmineRicePotForgedEvolved = "Yasemin Pirinci",
+
+        ItemName_Base.VFXBasmatiRiceSaucepanEvolved = "Basmati Pirinci",
+        ItemName_Base.VFXBasmatiRiceSaucepanCopperEvolved = "Basmati Pirinci",
+        ItemName_Base.VFXBasmatiRicePotEvolved = "Basmati Pirinci",
+        ItemName_Base.VFXBasmatiRicePotForgedEvolved = "Basmati Pirinci",
+
+        ItemName_Base.VFXArborioRiceSaucepanEvolved = "Arborio Pirinci",
+        ItemName_Base.VFXArborioRiceSaucepanCopperEvolved = "Arborio Pirinci",
+        ItemName_Base.VFXArborioRicePotEvolved = "Arborio Pirinci",
+        ItemName_Base.VFXArborioRicePotForgedEvolved = "Arborio Pirinci",
+
+        ItemName_Base.VFXMacaroniSaucepanEvolved = "Makarna",
+        ItemName_Base.VFXMacaroniSaucepanCopperEvolved = "Makarna",
+        ItemName_Base.VFXMacaroniPotEvolved = "Makarna",
+        ItemName_Base.VFXMacaroniPotForgedEvolved = "Makarna",
+
+        ItemName_Base.VFXFettuccineSaucepanEvolved = "Fettuccine Makarna",
+        ItemName_Base.VFXFettuccineSaucepanCopperEvolved = "Fettuccine Makarna",
+        ItemName_Base.VFXFettuccinePotEvolved = "Fettuccine Makarna",
+        ItemName_Base.VFXFettuccinePotForgedEvolved = "Fettuccine Makarna",
+
+        ItemName_Base.VFXPenneSaucepanEvolved = "Penne Makarna",
+        ItemName_Base.VFXPenneSaucepanCopperEvolved = "Penne Makarna",
+        ItemName_Base.VFXPennePotEvolved = "Penne Makarna",
+        ItemName_Base.VFXPennePotForgedEvolved = "Penne Makarna",
+
+        ItemName_Base.VFXGnocchiSaucepanEvolved = "Gnocchi",
+        ItemName_Base.VFXGnocchiSaucepanCopperEvolved = "Gnocchi",
+        ItemName_Base.VFXGnocchiPotEvolved = "Gnocchi",
+        ItemName_Base.VFXGnocchiPotForgedEvolved = "Gnocchi",
+
+        ItemName_Base.VFXChiliSaucepanEvolved = "Chili",
+        ItemName_Base.VFXChiliSaucepanCopperEvolved = "Chili",
+        ItemName_Base.VFXChiliPotEvolved = "Chili",
+        ItemName_Base.VFXChiliPotForgedEvolved = "Chili",
+
+        ItemName_Base.VFXCurrySaucepanEvolved = "Köri",
+        ItemName_Base.VFXCurrySaucepanCopperEvolved = "Köri",
+        ItemName_Base.VFXCurryPotEvolved = "Köri",
+        ItemName_Base.VFXCurryPotForgedEvolved = "Köri",
+
+        ItemName_Base.VFXOatyOsBowlEvolved = "Kase (Yulaf Halkaları)",
+        ItemName_Base.VFXHoneyOatyOsBowlEvolved = "Kase (Ballı Yulaf Halkaları)",
+        ItemName_Base.VFXCornFlakesBowlEvolved = "Kase (Mısır Gevreği)",
+        ItemName_Base.VFXRiceKrispsBowlEvolved = "Kase (Pirinç Gevreği)",
+        ItemName_Base.VFXFrostyCrunchBowlEvolved = "Kase (Mısır Gevreği)",
+        ItemName_Base.VFXFruityLoopsBowlEvolved = "Kase (Meyveli Halkalar)",
+        ItemName_Base.VFXUnluckyCharmsBowlEvolved = "Kase (Unlucky Charms)",
+        ItemName_Base.VFXAdmiralChompBowlEvolved = "Kase (Admiral Chomp)",
+        ItemName_Base.VFXCocoaPuffsBowlEvolved = "Kase (Kakaolu Gevrek)",
+        ItemName_Base.VFXWheatiesBowlEvolved = "Kase (Buğday Gevreği)",
+
+        ItemName_Base.VFXBowlChickenRamenEvolved = "Kase (Tavuklu Ramen)",
+        ItemName_Base.VFXBowlBeefRamenEvolved = "Kase (Etli Ramen)",
+        ItemName_Base.VFXBowlShrimpRamenEvolved = "Kase (Karidesli Ramen)",
+        ItemName_Base.VFXBowlPorkRamenEvolved = "Kase (Domuz Etli Ramen)",
+        ItemName_Base.VFXBowlHotAndSpicyRamenEvolved = "Kase (Acılı Ramen)",
+        ItemName_Base.VFXBowlSoySauceRamenEvolved = "Kase (Soya Soslu Ramen)",
+
+        ItemName_Base.VFXCasseroleEvolved = "Güveç (Casserole)",
+        ItemName_Base.VFXPlateCasserole = "Tabak (Casserole)",
+
+        ItemName_Base.VFXMeatloafPreparation = "Rulo Köfte Hazırlığı",
+        ItemName_Base.VFXMeatloafEvolved = "Rulo Köfte",
+        ItemName_Base.VFXPlateMeatloaf = "Tabak (Rulo Köfte)",
+
+        ItemName_Base.VFXBakedPotatoPreparation = "Kumpir Hazırlığı",
+        ItemName_Base.VFXBakedPotatoEvolved = "Kumpir",
+        ItemName_Base.VFXBakedPotato = "Kumpir",
+
+        ItemName_Base.VFXScallopedPotatoBakePreparation = "Kremalı Patates Hazırlığı",
+        ItemName_Base.VFXScallopedPotatoBakeEvolved = "Kremalı Patates",
+        ItemName_Base.VFXPlateScallopedPotatoBake = "Tabak (Kremalı Patates)",
+
+        ItemName_Base.VFXQuichePreparation = "Kiş (Quiche) Hazırlığı",
+        ItemName_Base.VFXQuicheEvolved = "Kiş",
+        ItemName_Base.VFXPlateQuiche = "Tabak (Kiş)",
+
+        ItemName_Base.VFXNachosPreparation = "Nacho Hazırlığı",
+        ItemName_Base.VFXNachosEvolved = "Nacho",
+        ItemName_Base.VFXPlateNachos = "Tabak (Nacho)",
+
+        ItemName_Base.VFXQuesadillaEvolved = "Quesadilla",
+
+        ItemName_Base.VFXEnchiladaPreparation = "Enchilada Hazırlığı",
+        ItemName_Base.VFXEnchiladaEvolved = "Enchilada",
+        ItemName_Base.VFXPlateEnchilada = "Tabak (Enchilada)",
+
+        ItemName_Base.VFXCheesecakePreparation = "Cheesecake Hazırlığı",
+        ItemName_Base.VFXVFXCheesecakeEvolved = "Cheesecake",
+        ItemName_Base.VFXCheesecakeSlice = "Cheesecake Dilimi",
+
+        ItemName_Base.VFXMilkshakePreparation = "Milkshake Hazırlığı",
+        ItemName_Base.VFXVFXMilkshakeEvolved = "Milkshake",
+
+        ItemName_Base.VFXSushiPreparation = "Sushi Hazırlığı",
+        ItemName_Base.VFXSushiEvolved = "Sushi",
+
+        ItemName_Base.VFXFriedRicePreparation = "Kızarmış Pilav Hazırlığı",
+        ItemName_Base.VFXFriedRicePreparationForged = "Kızarmış Pilav Hazırlığı",
+        ItemName_Base.VFXFriedRiceEvolved = "Kızarmış Pilav",
+        ItemName_Base.VFXFriedRiceEvolvedForged = "Kızarmış Pilav",
+        ItemName_Base.VFXBowlFriedRice = "Kasede Kızarmış Pilav",
+
+    /**** Modified Base Game Items ****/
+        ItemName_Base.Icing = "Vanilyalı Krema",
+
+        ItemName_Base.Pasta = "Spagetti",
+        ItemName_Base.PastaPan = "Spagetti",
+        ItemName_Base.PastaPanCopper = "Spagetti",
+        ItemName_Base.PastaPot = "Spagetti",
+        ItemName_Base.PastaPotForged = "Spagetti",
+        ItemName_Base.WaterSaucepanPasta = "Sos Tenceresi (Makarna)",
+        ItemName_Base.WaterSaucepanPastaCopper = "Bakır Sos Tenceresi (Makarna)",
+        ItemName_Base.WaterPotPasta = "Tencere (Makarna)",
+        ItemName_Base.WaterPotForgedPasta = "Tencere (Makarna)",
+
+        ItemName_Base.GranolaBar = "Fıstık Ezmeli Granola Bar",
+        ItemName_Base.BouillonCube = "Tavuk Suyu Tableti",
+        ItemName_Base.Cereal = "Mısır Gevreği",
+        ItemName_Base.CerealBowl = "Kase (Mısır Gevreği)",
+        ItemName_Base.Crackers = "Tuzlu Kraker",
+        ItemName_Base.Teabag2 = "Siyah Çay Poşeti",
+
+        ItemName_Base.Wine = "Şişe Chardonnay",
+        ItemName_Base.Wine2 = "Şişe Chardonnay",
+        ItemName_Base.WineWhite_Boxed = "Kutulu Chardonnay",
+        ItemName_Base.WineRed_Boxed = "Kutulu Chardonnay",
+        ItemName_Base.WineBox = "Kutulu Chardonnay",
+
+        ItemName_Base.BeerBottle = "Şişe Amerikan Lager",
+        ItemName_Base.BeerCan = "Kutu Amerikan Lager",
+        ItemName_Base.BeerPack = "6'lı Amerikan Lager",
+        ItemName_Base.BeerCanPack = "6'lı Amerikan Lager",
+
+        ItemName_Base.Cheese = "Çedar Peyniri",
+        ItemName_Base.Yoghurt = "Vanilyalı Yoğurt",
+
+        ItemName_Base.TVDinner = "Lazanya",
+
+        ItemName_Base.PizzaWhole = "Peynirli Pizza",
+        ItemName_Base.Pizza = "Peynirli Pizza Dilimi",
+
+        ItemName_Base.Icecream = "Vanilyalı Dondurma",
+        ItemName_Base.IcecreamMelted = "Vanilyalı Dondurma (Erimiş)",
+        ItemName_Base.ConeIcecream = "Vanilyalı Külah Dondurma",
+        ItemName_Base.ConeIcecreamMelted = "Vanilyalı Külah Dondurma (Erimiş)",
+        ItemName_Base.Burrito = "Domuz Etli Burrito",
+        ItemName_Base.Popsicle = "Ahududulu Buz Parmak",
+        ItemName_Base.Biscuit = "Sütlü Tuzlu Çörek",
+
+    /**** Cooking ****/
+        ItemName_VFX.TrayShepherdsPie = "Fırın Kabı (Çoban Payı)",
+        ItemName_VFX.PlateShepherdsPie = "Tabak (Çoban Payı)",
+        ItemName_VFX.TrayTunaCasserole = "Fırın Kabı (Ton Balıklı Güveç)",
+        ItemName_VFX.PlateTunaCasserole = "Tabak (Ton Balıklı Güveç)",
+        ItemName_VFX.TrayBakedZiti = "Fırın Kabı (Fırın Makarna)",
+        ItemName_VFX.PlateBakedZiti = "Tabak (Fırın Makarna)",
+        ItemName_VFX.TrayStuffedBellPepper = "Fırın Kabı (Biber Dolması)",
+        ItemName_VFX.PlateStuffedBellPepper = "Tabak (Biber Dolması)",
+        ItemName_VFX.StuffedBellPepper = "Biber Dolması",
+        ItemName_VFX.PanChickenPotPie = "Fırın Kabı (Tavuklu Pay)",
+        ItemName_VFX.PlateChickenPotPie = "Tabak (Tavuklu Pay)",
+        ItemName_VFX.TrayMoussaka = "Fırın Kabı (Musakka)",
+        ItemName_VFX.PlateMoussaka = "Tabak (Musakka)",
+        ItemName_VFX.TrayChickenDivan = "Fırın Kabı (Chicken Divan)",
+        ItemName_VFX.PlateChickenDivan = "Tabak (Chicken Divan)",
+        ItemName_VFX.TraySalisburySteak = "Fırın Kabı (Salisbury Bifteği)",
+        ItemName_VFX.PlateSalisburySteak = "Tabak (Salisbury Bifteği)",
+        ItemName_VFX.PlateFishAndChips = "Tabak (Zerdeçallı Balık ve Patates)",
+        ItemName_VFX.PlateBangersAndMash = "Tabak (Sosis ve Patates Püresi)",
+        ItemName_VFX.PlateFullEnglishBreakfast = "Tabak (Tam İngiliz Kahvaltısı)",
+        ItemName_VFX.PlateHalfEnglishBreakfast = "Tabak (Yarım İngiliz Kahvaltısı)",
+        ItemName_VFX.ScotchEgg = "İskoç Yumurtası",
+        ItemName_VFX.TraySausageAppleFry = "Fırın Kabı (Sosisli Elmalı Kızartma)",
+        ItemName_VFX.PlateSausageAppleFry = "Tabak (Sosisli Elmalı Kızartma)",
+        ItemName_VFX.PlateBeansOnToast = "Tabak (Kuru Fasulyeli Ekmek)",
+        ItemName_VFX.PotButterChicken = "Tencere (Tereyağlı Tavuk)",
+        ItemName_VFX.BowlButterChicken = "Kasede Tereyağlı Tavuk",
+        ItemName_VFX.PotThaiGreenCurry = "Tencere (Tay Usulü Yeşil Köri)",
+        ItemName_VFX.BowlThaiGreenCurry = "Kasede Tay Usulü Yeşil Köri",
+        ItemName_VFX.PotMassamanCurry = "Tencere (Massaman Köri)",
+        ItemName_VFX.BowlMassamanCurry = "Kasede Massaman Köri",
+        ItemName_VFX.PotChanaMasala = "Tencere (Nohut Masala)",
+        ItemName_VFX.BowlChanaMasala = "Kasede Nohut Masala",
+        ItemName_VFX.PotSweetPotatoChickpeaCurry = "Tencere (Tatlı Patatesli Nohut Köri)",
+        ItemName_VFX.BowlSweetPotatoChickpeaCurry = "Kasede Tatlı Patatesli Nohut Köri",
+        ItemName_VFX.PotTofuCurry = "Tencere (Tofu Köri)",
+        ItemName_VFX.BowlTofuCurry = "Kasede Tofu Köri",
+
+    /**** Literature ****/
+        ItemName_VFX.NonnasKitchenChronicles = "Nonna'nın Mutfak Günlükleri",
+        ItemName_VFX.WanderingMerchantsGuide = "Gezgin Tüccarın Yemek Rehberi",
+        ItemName_VFX.CurryMastersManual = "Köri Ustası El Kitabı",
+        ItemName_VFX.JollyPubsRecipes = "Neşeli Bar Yemek Tarifleri",
+        ItemName_VFX.GentlemansDinnerTable = "Beyefendinin Akşam Yemeği Sofrası",
+        ItemName_VFX.FestiveFingerFood = "Şenlikli Atıştırmalıklar",
+        ItemName_VFX.EarlyBirdsKitchen = "Erkencilerin Mutfağı",
+        ItemName_VFX.DessertArtisansGuide = "Tatlı Ustası Rehberi",
+        ItemName_VFX.SimmeringPotChronicles = "Kaynayan Tencere Günlükleri",
+        ItemName_VFX.WokWisdomCollection = "Wok Bilgeliği Koleksiyonu",
+        ItemName_VFX.GardenToTableTreasures = "Bahçeden Sofraya Hazineler",
+        ItemName_VFX.CrispyKitchenChronicles = "Çıtır Mutfak Günlükleri",
+        ItemName_VFX.BakersDailyLoaf = "Fırıncının Günlük Ekmeği",
+        ItemName_VFX.SummerHarvestMedley = "Yaz Hasadı Karışımı",
+        ItemName_VFX.DeliCounterCollection = "Şarküteri Tezgahı Koleksiyonu",
+        ItemName_VFX.SideDishCompanions = "Yardımcı Yemekler",
+        ItemName_VFX.DawnAroundTheWorldCookbook = "Dünya Turu Yemek Kitabı",
+        ItemName_VFX.SmallBitesBigFlavors = "Küçük Lokmalar Büyük Lezzetler",
+        ItemName_VFX.ComfortFoodClassics = "Klasik Ev Yemekleri",
+        ItemName_VFX.PastryChefsSecrets = "Pastacının Sırları",
+
+/* --------------------------------------------------------------------------- */
+/* ██████ ██████ ██      ██            ██  ██ ██████ ██████ ██████ ██████ ██████ */
+/* ██      ██  ██ ██      ██            ██  ██ ██  ██ ██  ██ ██  ██   ██   ██      */
+/* ██████ ██████ ██      ██            ██  ██ ██████ ██  ██ ██████   ██   ██████ */
+/* ██      ██  ██ ██      ██            ██  ██ ██      ██  ██ ██  ██   ██   ██      */
+/* ██      ██  ██ ██████ ██████        ██████ ██      ██████ ██  ██   ██   ██████ */
+/* --------------------------------------------------------------------------- */
+
+/* <<<<<  Fall Update - October 2025  >>>>> */
+
+    /**** Canned ****/
+
+        /**** Canned Vegetables ****/
+            ItemName_VFX.CannedPumpkinPuree = "Konserve Balkabağı Püresi",
+            ItemName_VFX.CannedPumpkinPureeOpen = "Konserve Balkabağı Püresi (Açık)",
+            ItemName_VFX.CannedPumpkinPuree_Box = "Kutulu Konserve Balkabağı Püresi",
+            
+            ItemName_VFX.CannedCreamCorn = "Konserve Kremalı Mısır",
+            ItemName_VFX.CannedCreamCornOpen = "Konserve Kremalı Mısır (Açık)",
+            ItemName_VFX.CannedCreamCorn_Box = "Kutulu Konserve Kremalı Mısır",
+
+        /**** Canned Pie Fillings ****/
+            ItemName_VFX.CannedApplePieFilling = "Konserve Elmalı Pay Harcı",
+            ItemName_VFX.CannedApplePieFillingOpen = "Konserve Elmalı Pay Harcı (Açık)",
+            ItemName_VFX.CannedApplePieFilling_Box = "Kutulu Konserve Elmalı Pay Harcı",
+
+            ItemName_VFX.CannedCherryPieFilling = "Konserve Vişneli Pay Harcı",
+            ItemName_VFX.CannedCherryPieFillingOpen = "Konserve Vişneli Pay Harcı (Açık)",
+            ItemName_VFX.CannedCherryPieFilling_Box = "Kutulu Konserve Vişneli Pay Harcı",
+
+            ItemName_VFX.CannedBlueberryPieFilling = "Konserve Yaban Mersinli Pay Harcı",
+            ItemName_VFX.CannedBlueberryPieFillingOpen = "Konserve Yaban Mersinli Pay Harcı (Açık)",
+            ItemName_VFX.CannedBlueberryPieFilling_Box = "Kutulu Konserve Yaban Mersinli Pay Harcı",
+
+            ItemName_VFX.CannedStrawberryPieFilling = "Konserve Çilekli Pay Harcı",
+            ItemName_VFX.CannedStrawberryPieFillingOpen = "Konserve Çilekli Pay Harcı (Açık)",
+            ItemName_VFX.CannedStrawberryPieFilling_Box = "Kutulu Konserve Çilekli Pay Harcı",
+
+            ItemName_VFX.CannedPeachPieFilling = "Konserve Şeftalili Pay Harcı",
+            ItemName_VFX.CannedPeachPieFillingOpen = "Konserve Şeftalili Pay Harcı (Açık)",
+            ItemName_VFX.CannedPeachPieFilling_Box = "Kutulu Konserve Şeftalili Pay Harcı",
+
+            ItemName_VFX.CannedMixedBerryPieFilling = "Konserve Karışık Orman Meyveli Pay Harcı",
+            ItemName_VFX.CannedMixedBerryPieFillingOpen = "Konserve Karışık Orman Meyveli Pay Harcı (Açık)",
+            ItemName_VFX.CannedMixedBerryPieFilling_Box = "Kutulu Konserve Karışık Orman Meyveli Pay Harcı",
+
+            ItemName_VFX.CannedLemonCreamPieFilling = "Konserve Limon Kremalı Pay Harcı",
+            ItemName_VFX.CannedLemonCreamPieFillingOpen = "Konserve Limon Kremalı Pay Harcı (Açık)",
+            ItemName_VFX.CannedLemonCreamPieFilling_Box = "Kutulu Konserve Limon Kremalı Pay Harcı",
+
+            ItemName_VFX.CannedBlackberryPieFilling = "Konserve Böğürtlenli Pay Harcı",
+            ItemName_VFX.CannedBlackberryPieFillingOpen = "Konserve Böğürtlenli Pay Harcı (Açık)",
+            ItemName_VFX.CannedBlackberryPieFilling_Box = "Kutulu Konserve Böğürtlenli Pay Harcı",
+
+            ItemName_VFX.CannedRaspberryPieFilling = "Konserve Ahududulu Pay Harcı",
+            ItemName_VFX.CannedRaspberryPieFillingOpen = "Konserve Ahududulu Pay Harcı (Açık)",
+            ItemName_VFX.CannedRaspberryPieFilling_Box = "Kutulu Konserve Ahududulu Pay Harcı",
+
+    /**** Meat ****/
+
+        /**** Sausages ****/
+            ItemName_VFX.PorkSausage = "Domuz Sosisi",
+            ItemName_VFX.BeefSausage = "Dana Sosisi",
+            ItemName_VFX.BeefPorkSausage = "Dana-Domuz Karışık Sosis",
+            ItemName_VFX.ChickenSausage = "Tavuk Sosisi",
+            ItemName_VFX.SmokedSausage = "Füme Sosis",
+            ItemName_VFX.SpicySausage = "Acılı Sosis",
+            ItemName_VFX.Chorizo = "Chorizo (Baharatlı Sosis)",
+            ItemName_VFX.CheeseSausage = "Peynirli Sosis",
+
+            ItemName_VFX.PorkSausagePack = "4'lü Domuz Sosisi Paketi",
+            ItemName_VFX.BeefSausagePack = "4'lü Dana Sosisi Paketi",
+            ItemName_VFX.BeefPorkSausagePack = "4'lü Karışık Sosis Paketi",
+            ItemName_VFX.ChickenSausagePack = "4'lü Tavuk Sosisi Paketi",
+            ItemName_VFX.SmokedSausagePack = "4'lü Füme Sosis Paketi",
+            ItemName_VFX.SpicySausagePack = "4'lü Acılı Sosis Paketi",
+            ItemName_VFX.ChorizoSausagePack = "4'lü Chorizo Paketi",
+            ItemName_VFX.CheeseSausagePack = "4'lü Peynirli Sosis Paketi",
+
+        /**** Meatballs ****/
+            ItemName_VFX.BeefMeatball = "Dana Köfte",
+            ItemName_VFX.PorkMeatball = "Domuz Köfte",
+            ItemName_VFX.VealMeatball = "Dana (Genç) Köfte",
+            ItemName_VFX.TurkeyMeatball = "Hindi Köfte",
+            ItemName_VFX.ChickenMeatball = "Tavuk Köfte",
+
+            ItemName_VFX.BeefMeatballsBag = "Paketli Dana Köfte",
+            ItemName_VFX.PorkMeatballsBag = "Paketli Domuz Köfte",
+            ItemName_VFX.VealMeatballsBag = "Paketli Dana Köfte",
+            ItemName_VFX.TurkeyMeatballsBag = "Paketli Hindi Köfte",
+            ItemName_VFX.ChickenMeatballsBag = "Paketli Tavuk Köfte",
+
+    /**** Freezer ****/
+
+        /**** Frozen Pre-Made Pies ****/
+            ItemName_VFX.WholeFrozenPieApple = "Elmalı Pay",
+            ItemName_VFX.WholeFrozenPieCherry = "Vişneli Pay",
+            ItemName_VFX.WholeFrozenPieBlueberry = "Yaban Mersinli Pay",
+            ItemName_VFX.WholeFrozenPieStrawberry = "Çilekli Pay",
+            ItemName_VFX.WholeFrozenPiePeach = "Şeftalili Pay",
+            ItemName_VFX.WholeFrozenPieMixedBerry = "Karışık Orman Meyveli Pay",
+            ItemName_VFX.WholeFrozenPieLemonCream = "Limon Kremalı Pay",
+            ItemName_VFX.WholeFrozenPieBlackberry = "Böğürtlenli Pay",
+            ItemName_VFX.WholeFrozenPieRaspberry = "Ahududulu Pay",
+
+    /**** Cooking ****/
+
+        /**** Whole Pies ****/
+            ItemName_VFX.WholePieApple = "Elmalı Pay",
+            ItemName_VFX.WholePieCherry = "Vişneli Pay",
+            ItemName_VFX.WholePieBlueberry = "Yaban Mersini Pay",
+            ItemName_VFX.WholePieStrawberry = "Çilekli Pay",
+            ItemName_VFX.WholePiePeach = "Şeftalili Pay",
+            ItemName_VFX.WholePieMixedBerry = "Karışık Orman Meyveli Pay",
+            ItemName_VFX.WholePieLemonCream = "Limon Kremalı Pay",
+            ItemName_VFX.WholePieBlackberry = "Böğürtlenli Pay",
+            ItemName_VFX.WholePieRaspberry = "Ahududulu Pay",
+            ItemName_VFX.WholePiePumpkin = "Balkabağı Payı",
+            ItemName_VFX.WholePieSweetPotato = "Tatlı Patates Payı",
+            ItemName_VFX.WholePiePecan = "Pekan Cevizli Pay",
+
+        /**** Pie Slices ****/
+            ItemName_VFX.SlicePieApple = "Elmalı Pay Dilimi",
+            ItemName_VFX.SlicePieCherry = "Vişneli Pay Dilimi",
+            ItemName_VFX.SlicePieBlueberry = "Yaban Mersinli Pay Dilimi",
+            ItemName_VFX.SlicePieStrawberry = "Çilekli Pay Dilimi",
+            ItemName_VFX.SlicePiePeach = "Şeftalili Pay Dilimi",
+            ItemName_VFX.SlicePieMixedBerry = "Karışık Orman Meyveli Pay Dilimi",
+            ItemName_VFX.SlicePieLemonCream = "Limon Kremalı Pay Dilimi",
+            ItemName_VFX.SlicePieBlackberry = "Böğürtlenli Pay Dilimi",
+            ItemName_VFX.SlicePieRaspberry = "Ahududulu Pay Dilimi",
+            ItemName_VFX.SlicePiePumpkin = "Balkabağı Payı Dilimi",
+            ItemName_VFX.SlicePieSweetPotato = "Tatlı Patates Payı Dilimi",
+            ItemName_VFX.SlicePiePecan = "Pekan Cevizli Pay Dilimi",
+
+    /**** Candy ****/
+
+        /**** Gum ****/
+            ItemName_VFX.GumPeppermint = "Nane Aromalı Sakız",
+            ItemName_VFX.GumSpearmint = "Taze Nane Aromalı Sakız",
+            ItemName_VFX.GumPinkBubblegum = "Klasik Pembe Sakız",
+            ItemName_VFX.GumGreenApple = "Yeşil Elma Aromalı Sakız",
+            ItemName_VFX.GumWatermelon = "Karpuz Aromalı Sakız",
+            ItemName_VFX.GumTuttiFruity = "Karışık Meyve Aromalı Sakız",
+            ItemName_VFX.GumCinnamon = "Tarçın Aromalı Sakız",
+
+        /**** Bubblegum Tape ****/
+            ItemName_VFX.BubblegumTapePink = "Şerit Sakız (Pembe)",
+            ItemName_VFX.BubblegumTapeGrape = "Şerit Sakız (Üzümlü)",
+            ItemName_VFX.BubblegumTapeStrawberry = "Şerit Sakız (Çilekli)",
+            ItemName_VFX.BubblegumTapeSourBlueRaspberry = "Şerit Sakız (Ekşi Mavi Ahududu)",
+            ItemName_VFX.BubblegumTapeSourApple = "Şerit Sakız (Ekşi Elmalı)",
+            ItemName_VFX.BubblegumTapeTangyTropical = "Şerit Sakız (Tropikal)",
+
+        /**** Gum Ball ****/
+            ItemName_VFX.GumBallStrawberry = "Çilekli Sakız Topu",
+            ItemName_VFX.GumBallPineapple = "Ananaslı Sakız Topu",
+            ItemName_VFX.GumBallBlueberry = "Yaban Mersinli Sakız Topu",
+            ItemName_VFX.GumBallLemonLime = "Limon-Misket Limonlu Sakız Topu",
+            ItemName_VFX.GumBallOrange = "Portakallı Sakız Topu",
+            ItemName_VFX.GumBallCherry = "Vişneli Sakız Topu",
+            ItemName_VFX.GumBallBanana = "Muzlu Sakız Topu",
+            ItemName_VFX.GumBallGrape = "Üzümlü Sakız Topu",
+
+        /**** Chocolate Bar ****/
+            ItemName_VFX.ChocolateBarDark = "Bitter Çikolata",
+            ItemName_VFX.ChocolateBarWhite = "Beyaz Çikolata",
+            ItemName_VFX.ChocolateBarAlmond = "Bademli Çikolata",
+            ItemName_VFX.ChocolateBarCookiesAndCream = "Bisküvili Kremalı Çikolata",
+            ItemName_VFX.ChocolateBarPorkie = "Porkie Çikolata",
+        
+        /**** Other Chocolate ****/
+            ItemName_VFX.ChocolateKisses = "Çikolata Damlaları",
+            ItemName_VFX.ChocolateAlmonds = "Çikolatalı Bademler",
+            ItemName_VFX.ChocolateSeniorMints = "Naneli Çikolata Kutusu",
+            ItemName_VFX.ChocolateCaramelDuds = "Karamel Dolgulu Çikolata",
+            ItemName_VFX.ChocolateMaltBalls = "Çikolatalı Malt Topları",
+            ItemName_VFX.ChocolateCandyPeanut = "Fıstıklı Çikolata Şekeri",
+
+        /**** Lollipop ****/
+            ItemName_VFX.LollipopCherry = "Vişneli Lolipop",
+            ItemName_VFX.LollipopGrape = "Üzümlü Lolipop",
+            ItemName_VFX.LollipopStrawberry = "Çilekli Lolipop",
+            ItemName_VFX.LollipopOrange = "Portakallı Lolipop",
+            ItemName_VFX.LollipopLemon = "Limonlu Lolipop",
+            ItemName_VFX.LollipopLime = "Misket Limonlu Lolipop",
+            ItemName_VFX.LollipopGreenApple = "Yeşil Elmalı Lolipop",
+            ItemName_VFX.LollipopBlueRaspberry = "Mavi Ahududulu Lolipop",
+            ItemName_VFX.LollipopWatermelon = "西瓜 Karpuzlu Lolipop",
+            ItemName_VFX.LollipopWildBerry = "Orman Meyveli Lolipop",
+            ItemName_VFX.LollipopCola = "Kolalı Lolipop",
+            ItemName_VFX.LollipopCreamSoda = "Kremalı Gazoz Lolipop",
+            ItemName_VFX.LollipopButterscotch = "Karamelli Lolipop",
+
+        /**** Giant Lollipop ****/
+            ItemName_VFX.GiantLollipopCherry = "Dev Vişneli Lolipop",
+            ItemName_VFX.GiantLollipopGrape = "Dev Üzümlü Lolipop",
+            ItemName_VFX.GiantLollipopStrawberry = "Dev Çilekli Lolipop",
+            ItemName_VFX.GiantLollipopOrange = "Dev Portakallı Lolipop",
+            ItemName_VFX.GiantLollipopLemon = "Dev Limonlu Lolipop",
+            ItemName_VFX.GiantLollipopLime = "Dev Misket Limonlu Lolipop",
+            ItemName_VFX.GiantLollipopGreenApple = "Dev Yeşil Elmalı Lolipop",
+            ItemName_VFX.GiantLollipopBlueRaspberry = "Dev Mavi Ahududulu Lolipop",
+            ItemName_VFX.GiantLollipopWatermelon = "Dev Karpuzlu Lolipop",
+            ItemName_VFX.GiantLollipopWildBerry = "Dev Orman Meyveli Lolipop",
+            ItemName_VFX.GiantLollipopCola = "Dev Kolalı Lolipop",
+            ItemName_VFX.GiantLollipopCreamSoda = "Dev Kremalı Gazoz Lolipop",
+            ItemName_VFX.GiantLollipopButterscotch = "Dev Karamelli Lolipop",
+
+        /**** Ring Pop ****/
+            ItemName_VFX.RingPopTropical = "Yüzük Lolipop (Tropikal)",
+            ItemName_VFX.RingPopCitrus = "Yüzük Lolipop (Narenciye)",
+            ItemName_VFX.RingPopGrape = "Yüzük Lolipop (Üzümlü)",
+            ItemName_VFX.RingPopBerry = "Yüzük Lolipop (Böğürtlen)",
+            ItemName_VFX.RingPopBlueRaspberry = "Yüzük Lolipop (Mavi Ahududu)",
+            ItemName_VFX.RingPopFruitPunch = "Yüzük Lolipop (Meyve Kokteyli)",
+            ItemName_VFX.RingPopSourCherry = "Yüzük Lolipop (Ekşi Vişne)",
+            ItemName_VFX.RingPopWatermelon = "Yüzük Lolipop (Karpuz)",
+
+        /**** Push Pop ****/
+            ItemName_VFX.PushPopStrawberry = "Sürgülü Lolipop (Çilekli)",
+            ItemName_VFX.PushPopWatermelon = "Sürgülü Lolipop (Karpuzlu)",
+            ItemName_VFX.PushPopCola = "Sürgülü Lolipop (Kolalı)",
+            ItemName_VFX.PushPopFruitFrenzy = "Sürgülü Lolipop (Karışık Meyveli)",
+            ItemName_VFX.PushPopRainbowSherbet = "Sürgülü Lolipop (Gökkuşağı Şerbeti)",
+            ItemName_VFX.PushPopGrape = "Sürgülü Lolipop (Üzümlü)",
+            ItemName_VFX.PushPopCherry = "Sürgülü Lolipop (Vişneli)",
+        
+        /**** Fun Dip ****/
+            ItemName_VFX.FunDipCherry = "Toz Şekerli Lolipop (Vişneli)",
+            ItemName_VFX.FunDipApple = "Toz Şekerli Lolipop (Elmalı)",
+            ItemName_VFX.FunDipGrape = "Toz Şekerli Lolipop (Üzümlü)",
+            ItemName_VFX.FunDipStrawberry = "Toz Şekerli Lolipop (Çilekli)",
+            ItemName_VFX.FunDipWatermelon = "Toz Şekerli Lolipop (Karpuzlu)",
+            ItemName_VFX.FunDipOrange = "Toz Şekerli Lolipop (Portakallı)",
+
+        /**** Fruit Chew ****/
+            ItemName_VFX.FruitChewLemon = "Meyveli Yumuşak Şeker (Limonlu)",
+            ItemName_VFX.FruitChewCherry = "Meyveli Yumuşak Şeker (Vişneli)",
+            ItemName_VFX.FruitChewGrape = "Meyveli Yumuşak Şeker (Üzümlü)",
+            ItemName_VFX.FruitChewOrange = "Meyveli Yumuşak Şeker (Portakallı)",
+            ItemName_VFX.FruitChewWatermelon = "Meyveli Yumuşak Şeker (Karpuzlu)",
+            ItemName_VFX.FruitChewStrawberry = "Meyveli Yumuşak Şeker (Çilekli)",
+        
+        /**** Gummy Candy ****/
+            ItemName_VFX.GummySourBears = "Ekşi Ayıcık Jelibon",
+            ItemName_VFX.GummySourWorms = "Ekşi Solucan Jelibon",
+            ItemName_VFX.GummyPeachRings = "Şeftali Halkası Jelibon",
+            ItemName_VFX.GummyCola = "Kola Şişesi Jelibon",
+
+        /**** Funny Taffy ****/
+            ItemName_VFX.FunnyTaffyBlueRaspberry = "Yumuşak Şeker (Mavi Ahududu)",
+            ItemName_VFX.FunnyTaffyOrange = "Yumuşak Şeker (Portakal)",
+            ItemName_VFX.FunnyTaffyBanana = "Yumuşak Şeker (Muz)",
+            ItemName_VFX.FunnyTaffyCherry = "Yumuşak Şeker (Vişne)",
+            ItemName_VFX.FunnyTaffyStrawberry = "Yumuşak Şeker (Çilek)",
+            ItemName_VFX.FunnyTaffyGrape = "Yumuşak Şeker (Üzüm)",
+            ItemName_VFX.FunnyTaffyWatermelon = "Yumuşak Şeker (Karpuz)",
+            ItemName_VFX.FunnyTaffyFruitPunch = "Yumuşak Şeker (Karışık Meyve)",
+        
+        /**** Pop Rocks ****/
+            ItemName_VFX.PopRocksStrawberry = "Patlayan Şeker (Çilekli)",
+            ItemName_VFX.PopRocksTropicalPunch = "Patlayan Şeker (Tropikal)",
+            ItemName_VFX.PopRocksCherry = "Patlayan Şeker (Vişneli)",
+            ItemName_VFX.PopRocksCottonCandy = "Patlayan Şeker (Pamuk Şekerli)",
+            ItemName_VFX.PopRocksBlueRaspberry = "Patlayan Şeker (Mavi Ahududulu)",
+            ItemName_VFX.PopRocksGreenApple = "Patlayan Şeker (Yeşil Elmalı)",
+            ItemName_VFX.PopRocksGrape = "Patlayan Şeker (Üzümlü)",
+            ItemName_VFX.PopRocksWatermelon = "Patlayan Şeker (Karpuzlu)",
+
+        /**** Bags of Candy ****/
+            ItemName_VFX.BagGummyBears = "Paketli Ayıcık Jelibon",
+            ItemName_VFX.BagSourGummyBears = "Paketli Ekşi Ayıcık Jelibon",
+            ItemName_VFX.BagGummyFish = "Paketli Balık Jelibon",
+            ItemName_VFX.BagGummyWorms = "Paketli Solucan Jelibon",
+            ItemName_VFX.BagSourGummyWorms = "Paketli Ekşi Solucan Jelibon",
+            ItemName_VFX.BagPeachRings = "Paketli Şeftali Halkası Jelibon",
+            ItemName_VFX.BagColaGummies = "Paketli Kola Şişesi Jelibon",
+
+        /**** Other Candy ****/
+            ItemName_VFX.Geeks = "Geeks Şekerlemesi",
+            ItemName_VFX.CandyNecklace = "Şeker Kolye",
+            ItemName_VFX.Rushers = "Rushers Şekerlemesi",
+            ItemName_VFX.BottleTops = "Kapak Şekilli Şekerleme",
+            ItemName_VFX.FairySticks = "Toz Şeker Çubuğu",
+            ItemName_VFX.RedCandiedApple = "Kırmızı Elma Şekeri",
+            ItemName_VFX.ToffeeBites = "Karamelli Şekerleme",
+            ItemName_VFX.SaltwaterTaffy = "Yumuşak Sakız Şeker",
+            ItemName_VFX.ChocolateCoins = "Çikolata Para",
+            ItemName_VFX.ChocolatePretzels = "Çikolatalı Kraker",
+            ItemName_VFX.SourStraws = "Ekşi Şeker Çubukları",
+            ItemName_VFX.SourStraps = "Ekşi Şerit Şekerler",
+            ItemName_VFX.JawBreaker = "Dev Kaya Şekeri",
+            ItemName_VFX.CandyCigarettes = "Sigara Şeklinde Şekerleme",
+            ItemName_VFX.Fudge = "Yumuşak Karamel (Fudge)",
+            ItemName_VFX.Cheeps = "Piliç Şeklinde Marşmelov",
+            ItemName_VFX.RainbowLollipop = "Gökkuşağı Lolipop",
+
+    /**** Containers ****/
+        ItemName_VFX.SpiceRackSmallLight = "Küçük Baharatlık",
+        ItemName_VFX.SpiceRackSmallDark = "Küçük Baharatlık",
+        ItemName_VFX.SpiceRackLargeLight = "Büyük Baharatlık",
+        ItemName_VFX.SpiceRackLargeDark = "Büyük Baharatlık",
+
+    /**** Bowls ****/
+        ItemName_Base.VFXBowlChili = "Kase (Chili Fasulyesi)",
+        ItemName_Base.VFXBowlCurry = "Kase (Köri)",
+
+    /**** Beverages ****/
+        ItemName_VFX.BottleAmericanLightLager = "Şişe Amerikan Hafif Lager",
+        ItemName_VFX.PackAmericanLightLager = "6'lı Amerikan Hafif Lager",
+        ItemName_VFX.CanAmericanLightLager = "Kutu Amerikan Hafif Lager",
+        ItemName_VFX.PackCanAmericanLightLager = "6'lı Amerikan Hafif Lager",
+
+        ItemName_VFX.WineChardonnay = "Şişe Chardonnay",
+        ItemName_VFX.WineBoxChardonnay = "Kutulu Chardonnay",
+
+}

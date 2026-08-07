@@ -1,0 +1,9 @@
+{
+    "UI_PlainMoodles_Title": "Plain Moodles Redone",
+    "UI_PlainMoodles_OwnStack": "Rysuj stos moodli tym modem",
+    "UI_PlainMoodles_OwnStack_tip": "Wyłączone: gra sama rysuje stos, a z moda pochodzą tylko tekstury.",
+    "UI_PlainMoodles_Tint": "Koloruj tło według poziomu moodla",
+    "UI_PlainMoodles_Tint_tip": "Wyłączone: tła pozostają szare na każdym poziomie, jak w wersji 1.4.0.",
+    "UI_PlainMoodles_Tooltip": "Pokaż nazwę moodla po najechaniu myszą",
+    "UI_PlainMoodles_Tooltip_tip": "Wyłączone: obok tła pod kursorem nie pojawia się etykieta."
+}

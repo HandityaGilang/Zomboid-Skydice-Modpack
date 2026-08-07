@@ -1,0 +1,9 @@
+name=True Moozic B42+ - The Music operating System for Project Zomboid (SP/MP)
+poster=poster.png
+id=TrueMoozic
+versionMin=42.13
+pack=tsarcraft_music
+tiledef=tsarcraft_music 222
+icon=icon.png
+description=True Moozic B42+ - The Music operating System for Project Zomboid (SP/MP)
+author=a_cow_says, hasteL, talismon

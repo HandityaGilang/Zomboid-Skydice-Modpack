@@ -1,0 +1,21 @@
+IGUI_PTBR = {
+	IGUI_SmarterStorage_Name = "Nome",
+	IGUI_SmarterStorage_Color = "Cor",
+	IGUI_SmarterStorage_Icon = "Icone",
+	
+	IGUI_SmarterStorage_Cancel = "Cancelar",
+	IGUI_SmarterStorage_OK = "OK",
+    
+	IGUI_SmarterStorage_Weapons = "Armas",
+	IGUI_SmarterStorage_Ammo = "Municao",
+	IGUI_SmarterStorage_Medical = "Medicamento",
+	IGUI_SmarterStorage_Clothing = "Roupas",
+	IGUI_SmarterStorage_Electronics = "Eletronicos",
+	IGUI_SmarterStorage_Food = "Comida",
+	IGUI_SmarterStorage_Literature = "Literatura",
+	IGUI_SmarterStorage_Tools = "Ferramentas",
+	IGUI_SmarterStorage_Media = "Midia",
+	IGUI_SmarterStorage_Equipment = "Equipamento",
+	IGUI_SmarterStorage_Gardening = "Jardinagem",
+	IGUI_SmarterStorage_Vehicles = "Veiculos",
+}

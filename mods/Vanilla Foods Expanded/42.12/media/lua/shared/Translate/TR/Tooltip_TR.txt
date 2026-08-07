@@ -1,0 +1,7 @@
+Tooltip_TR = {
+
+	Tooltip_VFX_Recipe_MeatCooked = "Etler tariflere eklenmeden önce pişirilmiş olmalıdır.",
+	Tooltip_VFX_Recipe_RiceCooked = "Pirinç tariflere eklenmeden önce pişirilmiş olmalıdır.",
+	Tooltip_VFXRavioliTortellini = "Hazırlanışı: Sos tenceresine veya normal tencereye su ekleyin, ardından taze makarnayı ilave edin. Üretim menüsünde bulunabilir."
+
+}

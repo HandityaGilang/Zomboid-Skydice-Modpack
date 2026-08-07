@@ -1,0 +1,9 @@
+VERSION = 1,
+
+option TchernoLib.UselessZombies
+{
+    type = boolean,
+    default = true,
+    page = TchernoLib,
+    translation = TchernoLib_UselessZombies,
+}

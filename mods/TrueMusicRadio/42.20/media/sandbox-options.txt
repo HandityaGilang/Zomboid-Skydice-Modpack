@@ -1,0 +1,183 @@
+VERSION = 1,
+
+option TrueMusicRadio.TMRRadiosAttractZombies
+{
+	type = boolean,
+	default = FALSE,
+
+	page = TrueMusicRadio,
+	translation = TrueMusicRadio_TMRRadiosAttractZombies,
+}
+
+option TrueMusicRadio.TMRTerminalEjectsMusic
+{
+	type = boolean,
+	default = TRUE,
+
+	page = TrueMusicRadio,
+	translation = TrueMusicRadio_TMRTerminalEjectsMusic,
+}
+
+option TrueMusicRadio.TMRMusicTerminalFilledAmount
+{
+	type = enum,
+	numValues = 6,
+	default = 5,
+
+	page = TrueMusicRadio,
+	translation = TrueMusicRadio_TMRMusicTerminalFilledAmount,
+	valueTranslation = TrueMusicRadio_TMRMusicTerminalFilledAmount,
+}
+
+option TrueMusicRadio.TMRExcludeThemeSongs
+{
+	type = boolean,
+	default = TRUE,
+
+	page = TrueMusicRadio,
+	translation = TrueMusicRadio_TMRExcludeThemeSongs,
+}
+
+option TrueMusicRadio.TMRExcludeTCCacheMPSongs
+{
+	type = boolean,
+	default = TRUE,
+
+	page = TrueMusicRadio,
+	translation = TrueMusicRadio_TMRExcludeTCCacheMPSongs,
+}
+
+option TrueMusicRadio.TMRExcludeHolidaySongs
+{
+	type = boolean,
+	default = TRUE,
+
+	page = TrueMusicRadio,
+	translation = TrueMusicRadio_TMRExcludeHolidaySongs,
+}
+
+option TrueMusicRadio.TMRRadioWeatherBroadcast
+{
+	type = boolean,
+	default = TRUE,
+
+	page = TrueMusicRadio,
+	translation = TrueMusicRadio_TMRRadioWeatherBroadcast,
+}
+
+option TrueMusicRadio.TMRRadioSongAnnouncements
+{
+	type = boolean,
+	default = TRUE,
+
+	page = TrueMusicRadio,
+	translation = TrueMusicRadio_TMRRadioSongAnnouncements,
+}
+
+option TrueMusicRadio.TMRRadioHordeNightBroadcast
+{
+	type = boolean,
+	default = TRUE,
+
+	page = TrueMusicRadio,
+	translation = TrueMusicRadio_TMRRadioHordeNightBroadcast,
+}
+
+option TrueMusicRadio.TMRRadioMoods
+{
+	type = boolean,
+	default = TRUE,
+
+	page = TrueMusicRadio,
+	translation = TrueMusicRadio_TMRRadioMoods,
+}
+
+option TrueMusicRadio.TMRChannel1
+{
+	type = integer,
+	min = 88000,
+	max = 108000,
+	default = 92000,
+
+	page = TrueMusicRadio,
+	translation = TrueMusicRadio_TMRChannel1,
+	valueTranslation = TrueMusicRadio_TMRChannel1,
+}
+
+option TrueMusicRadio.TMRChannel2
+{
+	type = integer,
+	min = 88000,
+	max = 108000,
+	default = 92200,
+
+	page = TrueMusicRadio,
+	translation = TrueMusicRadio_TMRChannel2,
+	valueTranslation = TrueMusicRadio_TMRChannel2,
+}
+
+option TrueMusicRadio.TMRChannel3
+{
+	type = integer,
+	min = 88000,
+	max = 108000,
+	default = 92400,
+
+	page = TrueMusicRadio,
+	translation = TrueMusicRadio_TMRChannel3,
+	valueTranslation = TrueMusicRadio_TMRChannel3,
+}
+
+option TrueMusicRadio.TMRChannel4
+{
+	type = integer,
+	min = 88000,
+	max = 108000,
+	default = 92600,
+
+	page = TrueMusicRadio,
+	translation = TrueMusicRadio_TMRChannel4,
+	valueTranslation = TrueMusicRadio_TMRChannel4,
+}
+
+option TrueMusicRadio.TMRChannel5
+{
+	type = integer,
+	min = 88000,
+	max = 108000,
+	default = 92800,
+
+	page = TrueMusicRadio,
+	translation = TrueMusicRadio_TMRChannel5,
+	valueTranslation = TrueMusicRadio_TMRChannel5,
+}
+
+option TrueMusicRadio.ActivateTMRMTV
+{
+	type = boolean,
+	default = TRUE,
+
+	page = TrueMusicRadio,
+	translation = TrueMusicRadio_ActivateTMRMTV,
+}
+
+option TrueMusicRadio.TMRMTV
+{
+	type = integer,
+	min = 200,
+	max = 220,
+	default = 211,
+
+	page = TrueMusicRadio,
+	translation = TrueMusicRadio_TMRMTV,
+	valueTranslation = TrueMusicRadio_TMRMTV,
+}
+
+option TrueMusicRadio.TMRAllowSkipOnServer
+{
+	type = boolean,
+	default = FALSE,
+
+	page = TrueMusicRadio,
+	translation = TrueMusicRadio_TMRAllowSkipOnServer,
+}

@@ -1,0 +1,23 @@
+{
+    "Sandbox_PIP": "Plysken Irrigation Pipes",
+    "Sandbox_PIP_EnableAutoWatering": "Увімкнути автополив",
+    "Sandbox_PIP_EnableAutoWatering_tooltip": "Коли увімкнено, труби автоматично поливають найближчі посіви з підключених дощових бочок.",
+    "Sandbox_PIP_WateringInterval": "Інтервал поливу (хвилини)",
+    "Sandbox_PIP_WateringInterval_tooltip": "Ігрові хвилини між кожним циклом поливу.",
+    "Sandbox_PIP_WateringRadius": "Радіус поливу (тайли)",
+    "Sandbox_PIP_WateringRadius_tooltip": "0 = лише тайл самої труби. Більші значення поливають посіви у квадратній області навколо кожної труби.",
+    "Sandbox_PIP_SmartPipes": "Розумні труби",
+    "Sandbox_PIP_SmartPipes_tooltip": "Коли увімкнено, труби наповнюють посіви до оптимального рівня води. Коли вимкнено, вони додають фіксовану невелику кількість за цикл.",
+    "Sandbox_PIP_SmartPipesFillMax": "Макс. наповнення розумних труб",
+    "Sandbox_PIP_SmartPipesFillMax_tooltip": "Максимальний рівень води, що додається посіву за цикл у режимі розумних труб.",
+    "Sandbox_PIP_SharedWaterPool": "Спільний запас води",
+    "Sandbox_PIP_SharedWaterPool_tooltip": "Коли увімкнено, бочки, підключені до однієї мережі, ділять і вирівнюють свою воду (повна та порожня бочки врівноважуються).",
+    "Sandbox_PIP_DebugLogs": "Журнали налагодження",
+    "Sandbox_PIP_DebugLogs_tooltip": "Виводить внутрішні журнали в консоль. Лише для усунення несправностей.",
+    "Sandbox_PIP_EnableFertigation": "Увімкнути фертигацію",
+    "Sandbox_PIP_EnableFertigation_tooltip": "Коли увімкнено, налийте Добриво або Компост у під'єднану бочку, і мережа труб автоматично удобрює ближні посіви (одна безпечна доза на рослину, без перевищення). Типово увімкнено.",
+    "Sandbox_PIP_FertigationSkill": "Якість фертигації (Землеробство)",
+    "Sandbox_PIP_FertigationSkill_tooltip": "Імітований рівень Землеробства при авто-удобренні. Вище = кращий шанс бонусу до врожаю. На безпеку не впливає.",
+    "Sandbox_PIP_ChargesPerBag": "Доз на мішок добрива/компосту",
+    "Sandbox_PIP_ChargesPerBag_tooltip": "Скільки рослин може удобрити один налитий мішок. Не залежить від об'єму води в бочці."
+}

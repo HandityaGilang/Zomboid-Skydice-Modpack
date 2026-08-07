@@ -1,0 +1,57 @@
+module Base
+{
+    entity Snowman
+    {
+        component UiConfig
+        {
+            xuiSkin = default,
+            entityStyle = ES_Snowman,
+            uiEnabled = false,
+        }
+        component SpriteConfig
+        {
+            OnCreate = BuildRecipeCode_Snowman.snowman.OnCreate,
+			OnIsValid = BuildRecipeCode_Snowman.snowman.OnIsValid,
+			health = 200,
+            face W
+            {
+                layer
+                {
+                    row = snowman_01_3,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = snowman_01_0,
+                }
+            }
+            face E
+            {
+                layer
+                {
+                    row = snowman_01_1,
+                }
+            }
+            face S
+            {
+                layer
+                {
+                    row = snowman_01_2,
+                }
+            }
+        }
+        component CraftRecipe
+        {
+            timedAction = BuildWallNoTool,
+            time = 400,
+            category = Miscellaneous,
+            Tooltip = Tooltip_craft_snowman,
+            inputs
+            {
+                item 1 [Base.SnowShovel] mode:keep,
+            }
+        }
+    }
+}

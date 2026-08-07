@@ -1,0 +1,5 @@
+ContextMenu_EN = {
+    ContextMenu_SmarterStorage_Edit = "Edit",
+	ContextMenu_SmarterStorage_Presets = "Presets",
+	ContextMenu_SmarterStorage_Reset = "Reset",
+}

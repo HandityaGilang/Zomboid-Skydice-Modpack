@@ -1,0 +1,21 @@
+IGUI_RU = {
+	IGUI_SmarterStorage_Name = "Имя",
+	IGUI_SmarterStorage_Color = "Цвет",
+	IGUI_SmarterStorage_Icon = "Иконка",
+	
+	IGUI_SmarterStorage_Cancel = "Отмена",
+	IGUI_SmarterStorage_OK = "ОК",
+	
+	IGUI_SmarterStorage_Weapons = "Оружие",
+	IGUI_SmarterStorage_Ammo = "Боеприпасы",
+	IGUI_SmarterStorage_Medical = "Медицина",
+	IGUI_SmarterStorage_Clothing = "Одежда",
+	IGUI_SmarterStorage_Electronics = "Электроника",
+	IGUI_SmarterStorage_Food = "Еда",
+	IGUI_SmarterStorage_Literature = "Литература",
+	IGUI_SmarterStorage_Tools = "Инструменты",
+	IGUI_SmarterStorage_Media = "Медиа",
+	IGUI_SmarterStorage_Equipment = "Снаряжение",
+	IGUI_SmarterStorage_Gardening = "Садоводство",
+	IGUI_SmarterStorage_Vehicles = "Автосервис",
+	}

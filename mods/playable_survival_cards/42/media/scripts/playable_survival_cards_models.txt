@@ -1,0 +1,16 @@
+module Base
+{
+    model SurvivalColorDeck
+    {
+        mesh = PlayableSurvivalCards/SurvivalColorDeck,
+        texture = PlayableSurvivalCards/models/SurvivalColorDeck,
+        scale = 0.06,
+    }
+
+    model SurvivalColorDeck_Ground
+    {
+        mesh = PlayableSurvivalCards/SurvivalColorDeck_Ground,
+        texture = PlayableSurvivalCards/models/SurvivalColorDeck,
+        scale = 0.06,
+    }
+}

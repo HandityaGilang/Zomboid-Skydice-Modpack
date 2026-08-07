@@ -1,0 +1,35 @@
+module Tsarcraft
+{
+	imports
+	{
+		Base
+	}
+
+	item TM_HiFiStereo
+	{
+		DisplayCategory = Electronics,
+		ItemType = Radio,
+		Weight = 8.0,
+		Icon = HIFIStereo,
+		DisplayName = HiFi Stereo,
+		ConditionMax = 100,
+		UseDelta = 0,
+		UseWhileEquipped = FALSE,
+		DisappearOnUse = FALSE,
+		TwoWay = FALSE,
+		TransmitRange = 0,
+		MicRange = 0,
+		BaseVolumeRange = 25,
+		IsPortable = FALSE,
+		IsTelevision = FALSE,
+		MinChannel = 88000,
+		MaxChannel = 108000,
+		NoTransmit = TRUE,
+		UsesBattery = FALSE,
+		IsHighTier = TRUE,
+		AcceptMediaType = 0,
+		Tooltip = Tooltip_media_item_operate,
+		WorldStaticModel = TM_HiFiStereo_Ground,
+		UseWorldItem = TRUE,
+	}
+}

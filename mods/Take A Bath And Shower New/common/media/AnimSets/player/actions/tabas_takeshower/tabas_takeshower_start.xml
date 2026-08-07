@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>tabas_takeshower_start</m_Name>
+	<m_AnimName>Bob_IdleFill_Bowl</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_deferredBoneAxis>Y</m_deferredBoneAxis>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_BlendTime>0.40</m_BlendTime>
+	<m_SpeedScale>0.75</m_SpeedScale>
+	<m_blendOutTime>0.80</m_blendOutTime>
+
+	<m_Conditions x_name="01c93352-2268-4449-ae29-727bfc198a21">
+		<m_Name>PerformingAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>TABAS_TakeShower</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="a7400e5a-2674-4a8b-9296-38cb87b85afc">
+		<m_Name>TABAS_ShowerAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>ShowerStart</m_Value>
+	</m_Conditions>
+
+	<m_Events>
+		<m_EventName>TABAS_PlaySound</m_EventName>
+		<m_TimePc>0.45</m_TimePc>
+		<m_ParameterValue>tabas_turntap</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="72f6e89f-2465-4be1-9b9e-87295bb9073c">
+		<m_EventName>SetVariable</m_EventName>
+		<m_TimePc>0.90</m_TimePc>
+		<m_ParameterValue>TABAS_ShowerStarted=true</m_ParameterValue>
+	</m_Events>
+</animNode>

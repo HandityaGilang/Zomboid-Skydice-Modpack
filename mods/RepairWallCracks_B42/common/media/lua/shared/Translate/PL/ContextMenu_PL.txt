@@ -1,0 +1,4 @@
+ContextMenu_PL = {
+    ContextMenu_Repair_Wall = "Napraw pękanie ścian",
+    ContextMenu_Repair_Wall_Object = "Uszkodzona ściana"
+} 

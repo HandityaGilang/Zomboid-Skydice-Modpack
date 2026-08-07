@@ -1,0 +1,65 @@
+module Base
+{
+    fluid HumanBlood
+    {
+        Color = 1.0:0.204:0.247,
+        DisplayName = Fluid_Name_HumanBlood,
+        Categories
+        {
+            Beverage,
+        }
+        Properties
+        {
+            ThirstChange = -30.0,
+            foodSicknessChange = 0,
+            UnhappyChange = 50,
+            StressChange = 30,
+        }
+
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+            Hazardous,
+            Poisons,
+            Beverage,
+            }
+        }
+    }
+
+    fluid ZombieBlood
+    {
+        Color = 1.0:0.204:0.247,
+        DisplayName = Fluid_Name_ZombieBlood,
+        Categories
+        {
+            Hazardous,
+            Poisons,
+            Beverage,
+        }
+        Properties
+        {
+            ThirstChange = -20.0,
+            foodSicknessChange = 100,
+            UnhappyChange = 50,
+            StressChange = 30,
+        }
+        Poison
+        {
+            maxEffect = Deadly,
+            minAmount = 0.1,
+            diluteRatio = 0.1,
+        }
+        BlendWhiteList
+        {
+            whitelist = true,
+            categories
+            {
+            Hazardous,
+            Poisons,
+            Beverage,
+            }
+        }
+    }
+}

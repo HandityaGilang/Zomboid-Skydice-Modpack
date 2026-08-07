@@ -1,0 +1,3 @@
+RecipesES {
+    Snowman = "Muñeco de nieve",
+}

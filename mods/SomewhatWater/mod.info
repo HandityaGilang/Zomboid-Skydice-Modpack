@@ -1,0 +1,7 @@
+name=Somewhat Water
+id=SomewhatWater
+description=Relatively more natural looking water. Enable one version at a time
+poster=poster.png
+icon=poster.png
+incompatible=SomewhatWaterBright
+author=somewhatfrog

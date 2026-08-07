@@ -1,0 +1,6 @@
+ContextMenu_CA = {
+	ContextMenu_BagsEquipped = "Bosses equipades",
+	ContextMenu_WMI_Bandages = "Benes",
+	Tooltip_WMI_TaintedAllowed = "Permès pels ajustos del món.",
+	Tooltip_WMI_TaintedBlocked = "Bloquejat pels ajustos del món.",
+}

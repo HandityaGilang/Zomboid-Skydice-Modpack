@@ -1,0 +1,90 @@
+{
+    "ContextMenu_EvolvedRecipe_VFX_BrownRiceSaucepan": "Arroz integral",
+    "ContextMenu_EvolvedRecipe_VFX_BrownRiceSaucepanCopper": "Arroz integral",
+    "ContextMenu_EvolvedRecipe_VFX_BrownRicePot": "Arroz integral",
+    "ContextMenu_EvolvedRecipe_VFX_BrownRicePotForged": "Arroz integral",
+
+    "ContextMenu_EvolvedRecipe_VFX_JasmineRiceSaucepan": "Arroz de jazmín",
+    "ContextMenu_EvolvedRecipe_VFX_JasmineRiceSaucepanCopper": "Arroz de jazmín",
+    "ContextMenu_EvolvedRecipe_VFX_JasmineRicePot": "Arroz de jazmín",
+    "ContextMenu_EvolvedRecipe_VFX_JasmineRicePotForged": "Arroz de jazmín",
+
+    "ContextMenu_EvolvedRecipe_VFX_BasmatiRiceSaucepan": "Arroz basmati",
+    "ContextMenu_EvolvedRecipe_VFX_BasmatiRiceSaucepanCopper": "Arroz basmati",
+    "ContextMenu_EvolvedRecipe_VFX_BasmatiRicePot": "Arroz basmati",
+    "ContextMenu_EvolvedRecipe_VFX_BasmatiRicePotForged": "Arroz basmati",
+
+    "ContextMenu_EvolvedRecipe_VFX_ArborioRiceSaucepan": "Arroz arborio",
+    "ContextMenu_EvolvedRecipe_VFX_ArborioRiceSaucepanCopper": "Arroz arborio",
+    "ContextMenu_EvolvedRecipe_VFX_ArborioRicePot": "Arroz arborio",
+    "ContextMenu_EvolvedRecipe_VFX_ArborioRicePotForged": "Arroz arborio",
+
+    "ContextMenu_EvolvedRecipe_VFX_Lasagna": "Lasaña",
+
+    "ContextMenu_EvolvedRecipe_VFX_MacaroniSaucepan": "Macaroni",
+    "ContextMenu_EvolvedRecipe_VFX_MacaroniSaucepanCopper": "Macaroni",
+    "ContextMenu_EvolvedRecipe_VFX_MacaroniPot": "Macaroni",
+    "ContextMenu_EvolvedRecipe_VFX_MacaroniPotForged": "Macaroni",
+
+    "ContextMenu_EvolvedRecipe_VFX_FettuccineSaucepan": "Fettuccine",
+    "ContextMenu_EvolvedRecipe_VFX_FettuccineSaucepanCopper": "Fettuccine",
+    "ContextMenu_EvolvedRecipe_VFX_FettuccinePot": "Fettuccine",
+    "ContextMenu_EvolvedRecipe_VFX_FettuccinePotForged": "Fettuccine",
+
+    "ContextMenu_EvolvedRecipe_VFX_PenneSaucepan": "Penne",
+    "ContextMenu_EvolvedRecipe_VFX_PenneSaucepanCopper": "Penne",
+    "ContextMenu_EvolvedRecipe_VFX_PennePot": "Penne",
+    "ContextMenu_EvolvedRecipe_VFX_PennePotForged": "Penne",
+
+    "ContextMenu_EvolvedRecipe_VFX_GnocchiSaucepan": "Gnocchi",
+    "ContextMenu_EvolvedRecipe_VFX_GnocchiSaucepanCopper": "Gnocchi",
+    "ContextMenu_EvolvedRecipe_VFX_GnocchiPot": "Gnocchi",
+    "ContextMenu_EvolvedRecipe_VFX_GnocchiPotForged": "Gnocchi",
+
+    "ContextMenu_EvolvedRecipe_VFX_ChiliSaucepan": "Chili",
+    "ContextMenu_EvolvedRecipe_VFX_ChiliSaucepanCopper": "Chili",
+    "ContextMenu_EvolvedRecipe_VFX_ChiliPot": "Chili",
+    "ContextMenu_EvolvedRecipe_VFX_ChiliPotForged": "Chili",
+
+    "ContextMenu_EvolvedRecipe_VFX_CurrySaucepan": "Curry",
+    "ContextMenu_EvolvedRecipe_VFX_CurrySaucepanCopper": "Curry",
+    "ContextMenu_EvolvedRecipe_VFX_CurryPot": "Curry",
+    "ContextMenu_EvolvedRecipe_VFX_CurryPotForged": "Curry",
+
+    "ContextMenu_EvolvedRecipe_VFX_OatyOsBowl": "Tazón de Oaty O's",
+    "ContextMenu_EvolvedRecipe_VFX_HoneyOatyOsBowl": "Tazón de Oaty O's con miel",
+    "ContextMenu_EvolvedRecipe_VFX_CornFlakesBowl": "Tazón de copos de maíz",
+    "ContextMenu_EvolvedRecipe_VFX_RiceKrispsBowl": "Tazón de arroz crujiente",
+    "ContextMenu_EvolvedRecipe_VFX_FrostyCrunchBowl": "Tazón crujiente helado",
+    "ContextMenu_EvolvedRecipe_VFX_FruityLoopsBowl": "Tazón de Fruity Loops",
+    "ContextMenu_EvolvedRecipe_VFX_UnluckyCharmsBowl": "Cuenco de amuletos desafortunados",
+    "ContextMenu_EvolvedRecipe_VFX_AdmiralChompBowl": "Tazón de chomp del almirante",
+    "ContextMenu_EvolvedRecipe_VFX_CocoaPuffsBowl": "Tazón de bolitas de cacao",
+    "ContextMenu_EvolvedRecipe_VFX_WheatiesBowl": "Tazón de trigo",
+
+    "ContextMenu_EvolvedRecipe_VFX_BowlChickenRamen": "Tazón De Ramen De Pollo",
+    "ContextMenu_EvolvedRecipe_VFX_BowlBeefRamen": "Tazón de ramen de carne",
+    "ContextMenu_EvolvedRecipe_VFX_BowlShrimpRamen": "Tazón de ramen de camarones",
+    "ContextMenu_EvolvedRecipe_VFX_BowlPorkRamen": "Tazón de ramen de cerdo",
+    "ContextMenu_EvolvedRecipe_VFX_BowlHotAndSpicyRamen": "Tazón de ramen picante",
+    "ContextMenu_EvolvedRecipe_VFX_BowlSoySauceRamen": "Tazón de ramen con salsa de soja",
+
+    "ContextMenu_EvolvedRecipe_VFX_Casserole": "Cazuela",
+    "ContextMenu_EvolvedRecipe_VFX_Meatloaf": "Carne mechada",
+    "ContextMenu_EvolvedRecipe_VFX_BakedPotato": "Patata al horno",
+    "ContextMenu_EvolvedRecipe_VFX_ScallopedPotatoBake": "Gratinado De Patatas",
+    "ContextMenu_EvolvedRecipe_VFX_Quiche": "Quiche",
+    "ContextMenu_EvolvedRecipe_VFX_Nachos": "Nachos",
+    "ContextMenu_EvolvedRecipe_VFX_Quesadilla": "Quesadilla",
+    "ContextMenu_EvolvedRecipe_VFX_Enchilada": "Enchilada",
+    "ContextMenu_EvolvedRecipe_VFX_Cheesecake": "Tarta de queso",
+    "ContextMenu_EvolvedRecipe_VFX_Milkshake": "Milkshake",
+    "ContextMenu_EvolvedRecipe_VFX_Sushi": "Sushi",
+    "ContextMenu_EvolvedRecipe_VFX_FriedRice": "Fried Rice",
+    "ContextMenu_EvolvedRecipe_VFX_FriedRiceForged": "Fried Rice",
+
+    "ContextMenu_EvolvedRecipe_PastaPan": "Espaguetis",
+    "ContextMenu_EvolvedRecipe_PastaPanCopper": "Espaguetis",
+    "ContextMenu_EvolvedRecipe_PastaPot": "Espaguetis",
+    "ContextMenu_FoodType_Pasta": "Espaguetis"
+}

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<animNode>
+    <m_Name>Sapph_ButterChurn</m_Name>
+    <m_AnimName>Sapph_ButterChurn</m_AnimName>
+    <m_SpeedScale>1.00</m_SpeedScale>
+    <m_deferredBoneAxis>Y</m_deferredBoneAxis>
+    <m_BlendTime>0.30</m_BlendTime>
+    <m_Looped>true</m_Looped>
+    <m_Conditions>
+	<m_Name>PerformingAction</m_Name>
+	<m_Type>STRING</m_Type>
+        <m_StringValue>Sapph_ButterChurn</m_StringValue>
+    </m_Conditions>
+<m_SubStateBoneWeights>
+		<boneName>Dummy01</boneName>
+	</m_SubStateBoneWeights>
+	<m_SubStateBoneWeights>
+		<boneName>Translation_Data</boneName>
+	</m_SubStateBoneWeights>
+</animNode>

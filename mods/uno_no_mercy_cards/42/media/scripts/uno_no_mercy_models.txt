@@ -1,0 +1,16 @@
+module Base
+{
+    model NoMercyDeck
+    {
+        mesh = UnoNoMercy/NoMercyDeck,
+        texture = UnoNoMercy/models/NoMercyDeck,
+        scale = 0.06,
+    }
+
+    model NoMercyDeck_Ground
+    {
+        mesh = UnoNoMercy/NoMercyDeck_Ground,
+        texture = UnoNoMercy/models/NoMercyDeck,
+        scale = 0.06,
+    }
+}

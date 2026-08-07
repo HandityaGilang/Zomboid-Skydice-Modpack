@@ -1,0 +1,7 @@
+{
+    "Sandbox_WashSmart": "Washing Menus Improved",
+    "Sandbox_WashSmart_AllowTaintedWater": "Consenti acqua contaminata per pulire le bende",
+    "Sandbox_WashSmart_AllowTaintedWater_tooltip": "Quando abilitato, l'acqua contaminata può essere usata per pulire bende, stracci di stoffa, di jeans e di pelle.",
+    "Sandbox_WashSmart_BandageWaterPerItem": "Acqua per benda/striscia",
+    "Sandbox_WashSmart_BandageWaterPerItem_tooltip": "Unità d'acqua usate per oggetto quando lavi bende sporche, stracci, strisce di denim e strisce di cuoio a una fonte d'acqua. Predefinito: 4.0."
+}

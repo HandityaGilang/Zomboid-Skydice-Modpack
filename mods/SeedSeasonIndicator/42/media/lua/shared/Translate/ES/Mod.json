@@ -1,0 +1,4 @@
+{
+    "name": "Indicador de temporada de semillas",
+    "description": "Muestra iconos de colores en las semillas de tu inventario para indicar el estado actual de la temporada de siembra. Estrella verde = mes óptimo, Círculo verde = en temporada, Círculo amarillo = mes de riesgo, Círculo rojo = fuera de temporada."
+}

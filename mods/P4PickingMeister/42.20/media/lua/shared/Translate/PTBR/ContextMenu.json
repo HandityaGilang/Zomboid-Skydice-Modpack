@@ -1,0 +1,13 @@
+{
+	"ContextMenu_P4PickingMeister_GrabContents": "Pegar Conteúdo",
+	"ContextMenu_P4PickingMeister_GrabOne": "Pegar um",
+	"ContextMenu_P4PickingMeister_GrabHalf": "Pegar metade",
+	"ContextMenu_P4PickingMeister_GrabAll": "Pegar tudo",
+	"ContextMenu_P4PickingMeister_GrabAllSelected": "Pegar todos selecionados",
+	"ContextMenu_P4PickingMeister_UnpackContents": "Desempacotar conteúdo",
+	"ContextMenu_P4PickingMeister_UnpackOne": "Desempacotar um",
+	"ContextMenu_P4PickingMeister_UnpackHalf": "Desempacotar metade",
+	"ContextMenu_P4PickingMeister_UnpackAll": "Desempacotar todos",
+	"ContextMenu_P4PickingMeister_UnpackAllSelected": "Desempacotar todos selecionados",
+	"ContextMenu_P4PickingMeister_RetrieveAllAmmo": "Recolher Todas as Munições"
+}

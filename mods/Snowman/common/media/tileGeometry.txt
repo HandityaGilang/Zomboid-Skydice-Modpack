@@ -1,0 +1,313 @@
+tileGeometry
+{
+    VERSION = 2,
+
+    tileset
+    {
+        name = snowman_01,
+
+        /* snowman_01_0 */
+        tile
+        {
+            xy = 0x0,
+
+            cylinder
+            {
+                translate = 0x11822x-296,
+                rotate = 2700000x0x0,
+                radius1 = 2023,
+                radius2 = 2023,
+                height = 2376,
+            }
+
+            cylinder
+            {
+                translate = 0x8580x-256,
+                rotate = 2700000x0x0,
+                radius1 = 3061,
+                radius2 = 3061,
+                height = 4109,
+            }
+
+            cylinder
+            {
+                translate = 0x3818x-356,
+                rotate = 2700000x0x0,
+                radius1 = 4272,
+                radius2 = 4272,
+                height = 5409,
+            }
+
+            cylinder
+            {
+                translate = 89x153x-153,
+                rotate = 2700000x0x0,
+                radius1 = 4670,
+                radius2 = 4670,
+                height = 305,
+            }
+
+            properties
+            {
+                Translucent = true,
+            }
+        }
+
+        /* snowman_01_1 */
+        tile
+        {
+            xy = 1x0,
+
+            cylinder
+            {
+                translate = 0x11822x-296,
+                rotate = 2700000x0x0,
+                radius1 = 2023,
+                radius2 = 2023,
+                height = 2376,
+            }
+
+            cylinder
+            {
+                translate = 0x8580x-256,
+                rotate = 2700000x0x0,
+                radius1 = 3061,
+                radius2 = 3061,
+                height = 4109,
+            }
+
+            cylinder
+            {
+                translate = 0x3818x-356,
+                rotate = 2700000x0x0,
+                radius1 = 4272,
+                radius2 = 4272,
+                height = 5409,
+            }
+
+            cylinder
+            {
+                translate = 89x153x-153,
+                rotate = 2700000x0x0,
+                radius1 = 4670,
+                radius2 = 4670,
+                height = 305,
+            }
+
+            properties
+            {
+                Translucent = true,
+            }
+        }
+
+        /* snowman_01_2 */
+        tile
+        {
+            xy = 2x0,
+
+            cylinder
+            {
+                translate = 0x11822x-296,
+                rotate = 2700000x0x0,
+                radius1 = 2023,
+                radius2 = 2023,
+                height = 2376,
+            }
+
+            cylinder
+            {
+                translate = 0x8580x-256,
+                rotate = 2700000x0x0,
+                radius1 = 3061,
+                radius2 = 3061,
+                height = 4109,
+            }
+
+            cylinder
+            {
+                translate = 0x3818x-356,
+                rotate = 2700000x0x0,
+                radius1 = 4272,
+                radius2 = 4272,
+                height = 5409,
+            }
+
+            cylinder
+            {
+                translate = 89x153x-153,
+                rotate = 2700000x0x0,
+                radius1 = 4670,
+                radius2 = 4670,
+                height = 305,
+            }
+
+            properties
+            {
+                Translucent = true,
+            }
+        }
+
+        /* snowman_01_3 */
+        tile
+        {
+            xy = 3x0,
+
+            cylinder
+            {
+                translate = 0x11822x-296,
+                rotate = 2700000x0x0,
+                radius1 = 2023,
+                radius2 = 2023,
+                height = 2376,
+            }
+
+            cylinder
+            {
+                translate = 0x8580x-256,
+                rotate = 2700000x0x0,
+                radius1 = 3061,
+                radius2 = 3061,
+                height = 4109,
+            }
+
+            cylinder
+            {
+                translate = 0x3818x-356,
+                rotate = 2700000x0x0,
+                radius1 = 4272,
+                radius2 = 4272,
+                height = 5409,
+            }
+
+            cylinder
+            {
+                translate = 36x153x-418,
+                rotate = 2700000x0x0,
+                radius1 = 4670,
+                radius2 = 4670,
+                height = 305,
+            }
+
+            properties
+            {
+                Translucent = true,
+            }
+        }
+
+        /* snowman_01_4 */
+        tile
+        {
+            xy = 4x0,
+
+            cylinder
+            {
+                translate = 0x3080x-830,
+                rotate = 2700000x0x0,
+                radius1 = 4272,
+                radius2 = 4272,
+                height = 5409,
+            }
+
+            cylinder
+            {
+                translate = 89x153x-153,
+                rotate = 2700000x0x0,
+                radius1 = 4670,
+                radius2 = 4670,
+                height = 305,
+            }
+
+            properties
+            {
+                Translucent = true,
+            }
+        }
+
+        /* snowman_01_5 */
+        tile
+        {
+            xy = 5x0,
+
+            cylinder
+            {
+                translate = 0x3080x-356,
+                rotate = 2700000x0x0,
+                radius1 = 4272,
+                radius2 = 4272,
+                height = 5409,
+            }
+
+            cylinder
+            {
+                translate = 89x153x-153,
+                rotate = 2700000x0x0,
+                radius1 = 4670,
+                radius2 = 4670,
+                height = 305,
+            }
+
+            properties
+            {
+                Translucent = true,
+            }
+        }
+
+        /* snowman_01_6 */
+        tile
+        {
+            xy = 6x0,
+
+            cylinder
+            {
+                translate = -384x3080x-356,
+                rotate = 2700000x0x0,
+                radius1 = 4272,
+                radius2 = 4272,
+                height = 5409,
+            }
+
+            cylinder
+            {
+                translate = 89x153x-153,
+                rotate = 2700000x0x0,
+                radius1 = 4670,
+                radius2 = 4670,
+                height = 305,
+            }
+
+            properties
+            {
+                Translucent = true,
+            }
+        }
+
+        /* snowman_01_7 */
+        tile
+        {
+            xy = 7x0,
+
+            cylinder
+            {
+                translate = 0x3474x-356,
+                rotate = 2700000x0x0,
+                radius1 = 4272,
+                radius2 = 4272,
+                height = 5409,
+            }
+
+            cylinder
+            {
+                translate = 36x153x-418,
+                rotate = 2700000x0x0,
+                radius1 = 4670,
+                radius2 = 4670,
+                height = 305,
+            }
+
+            properties
+            {
+                Translucent = true,
+            }
+        }
+    }
+}

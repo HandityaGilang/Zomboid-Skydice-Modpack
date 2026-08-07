@@ -1,0 +1,5 @@
+{
+    "IGUI_PIP_NetworkInfoLocal": "%1 труб, %2 бочек, %3 л",
+    "IGUI_PIP_PouredDoses": "+%1 доз удобрения",
+    "IGUI_PIP_NotConnected": "Бочка не подключена к сети труб"
+}

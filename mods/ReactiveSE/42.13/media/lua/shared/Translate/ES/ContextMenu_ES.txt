@@ -1,0 +1,4 @@
+ContextMenu_ES = {
+    ContextMenu_MarkIntel = "Marcar coordenadas en el mapa",
+    ContextMenu_MarkIntel_NeedPen = "Requiere lapicera, marcador o lápiz",
+}

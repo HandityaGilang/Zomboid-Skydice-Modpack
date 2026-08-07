@@ -1,0 +1,14 @@
+module Base
+{
+
+    item DrawingPaper {
+		DisplayCategory = ZomboidPaper,
+		Weight = 0.1,
+		ItemType = base:map,
+		Icon = zomboidPaper,
+		Map = paperAPI_DrawingPaper,
+		WorldStaticModel = DrawingPaper,
+		paperAPI_paperPageMax = 2,
+    }
+
+}

@@ -1,0 +1,24 @@
+module Tsarcraft
+{
+    imports
+    {
+        Base
+    }
+
+    item TM_CDCase
+    {
+        DisplayName = CD Case,
+        DisplayCategory = Misc,
+        ItemType = Normal,
+        Weight = 0.5,
+        Icon = TM_CDCase,
+        WorldStaticModel = TM_CDCase,
+        CloseSound = CloseLeatherBag,
+        OpenSound = OpenLeatherBag,
+        PutInSound = StoreItemLeatherBag,
+        Tags = base:music,
+        OnCreate = CDCase_OnCreate,
+    }
+
+}
+

@@ -1,0 +1,21 @@
+IGUI_TH = {
+	IGUI_SmarterStorage_Name = "ชื่อ",
+	IGUI_SmarterStorage_Color = "สี",
+	IGUI_SmarterStorage_Icon = "ไอคอน",
+	
+	IGUI_SmarterStorage_Cancel = "ยกเลิก",
+	IGUI_SmarterStorage_OK = "ตกลง",
+    
+	IGUI_SmarterStorage_Weapons = "อาวุธ",
+	IGUI_SmarterStorage_Ammo = "กระสุน",
+	IGUI_SmarterStorage_Medical = "ไอเท็มการแพทย์",
+	IGUI_SmarterStorage_Clothing = "เสื้อผ้า",
+	IGUI_SmarterStorage_Electronics = "วงจรอิเล็กทรอนิกส์",
+	IGUI_SmarterStorage_Food = "อาหาร",
+	IGUI_SmarterStorage_Literature = "เอกสารการ",
+	IGUI_SmarterStorage_Tools = "เครื่องมือ",
+	IGUI_SmarterStorage_Media = "วิดีโอ",
+	IGUI_SmarterStorage_Equipment = "อุปกรณ์",
+	IGUI_SmarterStorage_Gardening = "การทำสวน",
+	IGUI_SmarterStorage_Vehicles = "ยานพาหนะ",
+}

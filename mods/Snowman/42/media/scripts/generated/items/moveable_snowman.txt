@@ -1,0 +1,21 @@
+module Base
+{
+    item Mov_Snowman
+    {
+        DisplayCategory = Furniture,
+        ItemType = base:moveable,
+        Icon = default,
+        Weight = 0.5,
+        WorldObjectSprite = snowman_01_0,
+    }
+
+    item Mov_RoadCone
+    {
+        DisplayCategory = Furniture,
+        ItemType = base:moveable,
+        Icon = default,
+        Weight = 0.5,
+        WorldObjectSprite = street_decoration_01_26,
+		WorldStaticModel = RoadCone,
+    }
+}

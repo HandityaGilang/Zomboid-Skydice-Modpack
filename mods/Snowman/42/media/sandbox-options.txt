@@ -1,0 +1,10 @@
+VERSION = 1,
+
+option Snowman.Melt
+{
+	type = boolean,
+	default = true,
+	
+	page = Snowman,
+	translation = Snowman_Melt,
+}

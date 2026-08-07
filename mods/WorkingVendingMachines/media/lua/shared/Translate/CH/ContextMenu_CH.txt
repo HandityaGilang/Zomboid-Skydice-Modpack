@@ -1,0 +1,10 @@
+ContextMenu_CH = {
+	ContextMenu_WVMNoPower = "這裡無電力.",
+	ContextMenu_WVMSnackInChute = "取物區內有小點心.",
+	ContextMenu_WVMSoldOut = "販賣機已販售完了.",
+	ContextMenu_WVMNoMoneyDrink = "販賣機內有飲料,但我沒有錢幣.",
+	ContextMenu_WVMNoMoneySnack = "販賣機內有點心,但我沒有錢幣.",
+	ContextMenu_WVMBuyDrink = "買飲料",
+	ContextMenu_WVMBuySnack = "買點心",
+	ContextMenu_WVMStrikeMachine = "敲打販賣機",
+}

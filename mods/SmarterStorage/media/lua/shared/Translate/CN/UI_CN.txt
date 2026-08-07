@@ -1,0 +1,7 @@
+UI_CN = {
+	UI_SmarterStorage_Options_Vanilla_Name = "显示原版提示",
+	UI_SmarterStorage_Options_Vanilla_Tooltip = "选中此项以显示类似“冰箱”这样的原版名称作为提示。",
+	
+	UI_SmarterStorage_Options_RenamedTooltips_Name = "显示自定义名称提示",
+	UI_SmarterStorage_Options_RenamedTooltips_Tooltip = "选中此项以使用您的自定义容器名称作为提示。",
+}

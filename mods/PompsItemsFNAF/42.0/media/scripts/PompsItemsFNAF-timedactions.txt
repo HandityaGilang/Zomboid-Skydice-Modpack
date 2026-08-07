@@ -1,0 +1,22 @@
+module Base
+{
+    timedAction PIFNAFOpen
+    {
+        metabolics = Default,
+        actionAnim = Pour,
+		prop2 = PompsItems_FNAF.PIFNAFMysteryBag,
+	sound		= OpenSack,
+    }
+    timedAction PIBoopFreddy
+    {
+        metabolics = Default,
+        actionAnim = Pour,
+	sound		= PIBoop,
+    }
+    timedAction PIBoopMangle
+    {
+        metabolics = Default,
+        actionAnim = Pour,
+	sound		= PIMangle,
+    }
+}

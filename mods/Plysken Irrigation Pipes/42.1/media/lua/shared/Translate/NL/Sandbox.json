@@ -1,0 +1,23 @@
+{
+    "Sandbox_PIP": "Plysken Irrigation Pipes",
+    "Sandbox_PIP_EnableAutoWatering": "Automatisch water geven inschakelen",
+    "Sandbox_PIP_EnableAutoWatering_tooltip": "Indien ingeschakeld geven buizen automatisch water aan nabijgelegen gewassen vanuit aangesloten regenvaten.",
+    "Sandbox_PIP_WateringInterval": "Wateringsinterval (minuten)",
+    "Sandbox_PIP_WateringInterval_tooltip": "Speltijd in minuten tussen elke watergeefcyclus.",
+    "Sandbox_PIP_WateringRadius": "Wateringsradius (tegels)",
+    "Sandbox_PIP_WateringRadius_tooltip": "0 = alleen de tegel van de buis zelf. Hogere waarden geven water aan gewassen in een vierkant gebied rond elke buis.",
+    "Sandbox_PIP_SmartPipes": "Slimme buizen",
+    "Sandbox_PIP_SmartPipes_tooltip": "Indien ingeschakeld vullen buizen gewassen tot hun optimale waterniveau. Indien uitgeschakeld voegen ze elke cyclus een vaste kleine hoeveelheid toe.",
+    "Sandbox_PIP_SmartPipesFillMax": "Maximale vulling slimme buizen",
+    "Sandbox_PIP_SmartPipesFillMax_tooltip": "Maximaal waterniveau dat per cyclus aan een gewas wordt toegevoegd in de modus voor slimme buizen.",
+    "Sandbox_PIP_SharedWaterPool": "Gedeelde watervoorraad",
+    "Sandbox_PIP_SharedWaterPool_tooltip": "Indien ingeschakeld delen en verdelen vaten in hetzelfde netwerk hun water (een vol en een leeg vat worden gelijk).",
+    "Sandbox_PIP_DebugLogs": "Debuglogboeken",
+    "Sandbox_PIP_DebugLogs_tooltip": "Drukt interne logboeken af in de console. Alleen voor probleemoplossing.",
+    "Sandbox_PIP_EnableFertigation": "Fertigatie inschakelen",
+    "Sandbox_PIP_EnableFertigation_tooltip": "Indien aan: giet Kunstmest of Compost in een aangesloten regenton en het pijpnetwerk bemest nabije gewassen automatisch (één veilige dosis per plant, nooit overbemesten). Standaard aan.",
+    "Sandbox_PIP_FertigationSkill": "Fertigatiekwaliteit (Landbouw)",
+    "Sandbox_PIP_FertigationSkill_tooltip": "Gesimuleerd Landbouw-niveau bij automatisch bemesten. Hoger = betere kans op opbrengstbonus. Beïnvloedt de veiligheid niet.",
+    "Sandbox_PIP_ChargesPerBag": "Doses per zak kunstmest/compost",
+    "Sandbox_PIP_ChargesPerBag_tooltip": "Hoeveel gewassen één gegoten zak kan bemesten. Onafhankelijk van het watervolume van de ton."
+}

@@ -1,0 +1,6 @@
+ContextMenu_NO = {
+	ContextMenu_BagsEquipped = "Utstyrte sekker",
+	ContextMenu_WMI_Bandages = "Bandasjer",
+	Tooltip_WMI_TaintedAllowed = "Tillatt av verdensinnstillinger.",
+	Tooltip_WMI_TaintedBlocked = "Blokkert av verdensinnstillinger.",
+}

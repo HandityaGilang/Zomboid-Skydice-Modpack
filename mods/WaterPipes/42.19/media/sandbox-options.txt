@@ -1,0 +1,16 @@
+VERSION = 1,
+
+option Plumbing.PumpFilterUsage = {
+	type = double, min = 0, max = 0.1, default = 0.007,
+	page = Plumbing, translation = Plumbing.PumpFilterUsage,
+}
+
+option Plumbing.PumpEfficiencyLoss = {
+	type = double, min = 0, max = 0.01, default = 0.0012,
+	page = Plumbing, translation = Plumbing.PumpEfficiencyLoss,
+}
+
+option Plumbing.PumpMaxWater = {
+	type = integer, min = 6, max = 96, default = 12,
+	page = Plumbing, translation = Plumbing.PumpMaxWater,
+}

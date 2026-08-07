@@ -1,0 +1,107 @@
+	
+    module SapphCooking
+{
+	imports
+	{
+		Base,
+	}
+
+    /**********::---------------------------:: ::---------------------------:: **************/
+	/**********::--------------------:: Removed Content ::--------------------:: **************/
+	/**********::---------------------------:: ::---------------------------:: **************/
+
+    /**********::-----:: sapph (12/16/2025): there were a of items that i removed from the mod, either because they became vanila, **************/
+    /********** or to help agains bloating - if i remember, i'll save them here! ::-----:: **************/
+	
+	/*****
+	item ButterChurn
+	{
+		Weight 		= 2,
+		ItemType = base:normal,
+		DisplayName 		= Wooden Churn,
+		Icon 		= WoodenChurnIcon,
+		WorldStaticModel 		=  ButterChurn_Ground,
+	}
+
+    item Churn_Wine
+	{
+		DisplayName = Wooden Churn with Wine,
+		DisplayCategory = Food,
+		ItemType = base:food,
+		Weight = 2,
+		Icon = WoodenChurnIcon,
+		FoodType = Wine,
+		Alcoholic = TRUE,
+		CantBeFrozen = TRUE,
+		EatType = Pot,
+		Packaged = TRUE,
+		ReplaceOnUse = ButterChurn,
+		HungerChange = -15,
+		ThirstChange = -15,
+		UnhappyChange = -15,
+		Calories = 510,
+		Carbohydrates = 0,
+		Lipids = 0,
+		Proteins = 0,
+		CustomContextMenu = Drink,
+		CustomEatSound = DrinkingFromBottleGlass,
+		StaticModel 		= H_ButterChurnBot,
+		WorldStaticModel 		= ButterChurn_Ground,
+	}
+	*********/
+
+
+	item TenderizedMeat
+	{
+	    DisplayCategory = Food,
+		HungerChange	=	-20,
+		Weight	=	0.15,
+		ItemType = base:food,
+		IsCookable	=	TRUE,
+		DangerousUncooked	=	TRUE,
+		DaysTotallyRotten	=	4,
+		MinutesToBurn	=	50,
+		DisplayName	= Tenderized Meat,
+		Icon	=	TenderizedMeatIcon,
+		DaysFresh	=	2,
+		MinutesToCook	=	25,
+		EvolvedRecipe = Skewer:10;BowlOfFood:10|Cooked;Pizza:15;Stew:15;Pie:15;Sandwich:5|Cooked;Burger:15|Cooked;Hotdog:15|Cooked;Taco:15|Cooked;Burrito:15|Cooked;Pasta:15;Rice:15;Stir fry:15,
+		FoodType    =   Meat,
+		Carbohydrates = 0,
+		Proteins = 16,
+		Lipids = 4,
+		Calories = 110,
+		BadInMicrowave = true,
+		GoodHot = true,
+		BadCold = true,
+		WorldStaticModel = TenderizedMeat_Ground,
+		Tags = sapphcooking:beef,
+		StaticModel = H_TenderizedMeat,
+	}
+
+		item CutPeeledPotato
+	{
+		DisplayCategory 		= Food,
+		ItemType = base:food,
+		DisplayName 		= Cut Potatoes,
+		Icon 		= CutPotatoFriesIcon,
+		Weight 		= 0.2,
+		IsCookable = TRUE,
+		MinutesToBurn 		= 30,
+		MinutesToCook 		= 60,
+		RemoveNegativeEffectOnCooked  	= TRUE,
+		HungerChange 		= -18,
+		DaysFresh 		= 14,
+		DaysTotallyRotten 		= 28,
+		EvolvedRecipe 		= Omelette:9;Soup:18;Stew:18;Pie:18;Stir fry Griddle Pan:18;Stir fry:18;Salad:9;Roasted Vegetables:18,
+		ThirstChange 		= -7,
+		FoodType 		= Vegetables,
+		Carbohydrates 		= 14.52,
+		Proteins 		= 2.88,
+		Lipids 		= 0.15,
+		Calories 		= 70,
+		WorldStaticModel 		= CutPotatoFries,
+		Tags = sapphcooking:slicedvegetables;sapphcooking:potato,
+	}
+
+}

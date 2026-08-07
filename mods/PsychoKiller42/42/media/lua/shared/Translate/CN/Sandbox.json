@@ -1,0 +1,136 @@
+{
+    "Sandbox_PK42": "Psychopath Trait",
+
+    "Sandbox_PK42_FrenzyCooldownHours": "狂暴冷却时间（小时）",
+    "Sandbox_PK42_FrenzyCooldownHours_tooltip": "肾上腺素狂暴再次触发前必须经过的游戏内小时数。",
+
+    "Sandbox_PK42_FrenzyCombatSpeedBonus": "狂暴战斗速度加成（%%）",
+    "Sandbox_PK42_FrenzyCombatSpeedBonus_tooltip": "肾上腺素狂暴期间的攻击速度百分比加成。",
+
+    "Sandbox_PK42_FrenzyMoveSpeedBonus": "狂暴移动速度加成（%%）",
+    "Sandbox_PK42_FrenzyMoveSpeedBonus_tooltip": "肾上腺素狂暴期间的移动速度百分比加成。",
+
+    "Sandbox_PK42_FrenzyStreakThreshold": "狂暴连杀阈值",
+    "Sandbox_PK42_FrenzyStreakThreshold_tooltip": "触发肾上腺素狂暴所需的最低连杀数。",
+
+    "Sandbox_PK42_FrenzyFatigueThreshold": "狂暴疲劳阈值（%%）",
+    "Sandbox_PK42_FrenzyFatigueThreshold_tooltip": "可激活肾上腺素狂暴的疲劳度（0-100）下限。",
+
+    "Sandbox_PK42_FrenzyEnduranceThreshold": "狂暴耐力阈值（%%）",
+    "Sandbox_PK42_FrenzyEnduranceThreshold_tooltip": "可激活肾上腺素狂暴的耐力（0-100）上限。",
+
+    "Sandbox_PK42_EnablePlayerSpeech": "启用玩家语音",
+    "Sandbox_PK42_EnablePlayerSpeech_tooltip": "禁用后，角色在战斗中将永远不会说话。<LINE>会覆盖所有语音几率设定。",
+
+    "Sandbox_PK42_SpeechCooldown": "语音冷却时间（秒）",
+    "Sandbox_PK42_SpeechCooldown_tooltip": "允许两次语音之间的时间间隔（秒）。",
+
+    "Sandbox_PK42_SpeechChanceOnHitZombie": "语音几率：击中僵尸（%%）",
+    "Sandbox_PK42_SpeechChanceOnHitZombie_tooltip": "击中僵尸时触发语音的几率（0-100）。<LINE>0 = 禁用。",
+
+    "Sandbox_PK42_SpeechChanceOnKillZombie": "语音几率：击杀僵尸（%%）",
+    "Sandbox_PK42_SpeechChanceOnKillZombie_tooltip": "击杀僵尸时触发语音的几率（0-100）。<LINE>0 = 禁用。",
+
+    "Sandbox_PK42_SpeechChanceOnKillPlayer": "语音几率：击杀玩家（%%）",
+    "Sandbox_PK42_SpeechChanceOnKillPlayer_tooltip": "击杀其他玩家时触发语音的几率（0-100）。<LINE>0 = 禁用。",
+
+    "Sandbox_PK42_SpeechChanceOnFrenzyStart": "语音几率：狂暴开始（%%）",
+    "Sandbox_PK42_SpeechChanceOnFrenzyStart_tooltip": "肾上腺素狂暴激活时触发语音的几率（0-100）。<LINE>0 = 禁用。",
+
+    "Sandbox_PK42_BoredomThresholdHours": "无聊阈值（小时）",
+    "Sandbox_PK42_BoredomThresholdHours_tooltip": "角色在没有击杀的情况下，经过多少游戏内小时后会开始因无聊而积累压力。",
+    
+    "Sandbox_PK42_AllowFrenzy": "启用肾上腺素狂暴",
+    "Sandbox_PK42_AllowFrenzy_tooltip": "启用后，肾上腺素狂暴机制可以在战斗中被触发。",
+
+    "Sandbox_PK42_EnableFrenzyDamageBonus": "启用狂暴伤害加成",
+    "Sandbox_PK42_EnableFrenzyDamageBonus_tooltip": "启用后，肾上腺素狂暴会提供伤害加成。",
+
+    "Sandbox_PK42_EnableFrenzySpeedBonus": "启用狂暴速度加成",
+    "Sandbox_PK42_EnableFrenzySpeedBonus_tooltip": "启用后，肾上腺素狂暴会提供战斗速度和移动速度加成。",
+
+    "Sandbox_PK42_XPOnKillZombie": "击杀经验：僵尸",
+    "Sandbox_PK42_XPOnKillZombie_tooltip": "击杀僵尸获得的疯狂经验值。",
+
+    "Sandbox_PK42_XPOnKillZombieOnFrenzy": "击杀经验：僵尸（狂暴状态下）",
+    "Sandbox_PK42_XPOnKillZombieOnFrenzy_tooltip": "在肾上腺素狂暴激活状态下击杀僵尸获得的疯狂经验值。",
+
+    "Sandbox_PK42_XPOnKillPlayer": "击杀经验：玩家",
+    "Sandbox_PK42_XPOnKillPlayer_tooltip": "击杀其他玩家获得的疯狂经验值。",
+
+    "Sandbox_PK42_XPOnEatRawZombieMeat": "进食经验：生僵尸肉",
+    "Sandbox_PK42_XPOnEatRawZombieMeat_tooltip": "食用生僵尸肉获得的疯狂经验值。<LINE>注意：食用人肉获得的疯狂经验值为设定的僵尸肉经验值的两倍。",
+
+    "Sandbox_PK42_XPOnEatCookedZombieMeat": "进食经验：熟僵尸肉",
+    "Sandbox_PK42_XPOnEatCookedZombieMeat_tooltip": "食用熟僵尸肉获得的疯狂经验值。<LINE>注意：食用人肉获得的疯狂经验值为设定的僵尸肉经验值的两倍。",
+
+    "Sandbox_PK42_XPOnEatRecipeZombieMeat": "进食经验：食谱中的僵尸肉",
+    "Sandbox_PK42_XPOnEatRecipeZombieMeat_tooltip": "作为食谱的一部分食用僵尸肉获得的疯狂经验值。<LINE>注意：食用人肉获得的疯狂经验值为设定的僵尸肉经验值的两倍。",
+
+    "Sandbox_PK42_OnEatCookedPlayerInfectionChance": "普通玩家感染几率（%%）",
+    "Sandbox_PK42_OnEatCookedPlayerInfectionChance_tooltip": "非精神病患者角色食用熟僵尸肉时被感染的几率。",
+
+    "Sandbox_PK42_OnEatCookedPsychopathInfectionChance": "精神病患者感染几率（%%）",
+    "Sandbox_PK42_OnEatCookedPsychopathInfectionChance_tooltip": "精神病患者角色食用熟僵尸肉时被感染的几率。",
+
+    "Sandbox_PK42_EnableXPDailyCap": "启用每日经验上限",
+    "Sandbox_PK42_EnableXPDailyCap_tooltip": "启用后，每个游戏日内每种动作类型获得的疯狂经验总值受每日经验上限限制。",
+
+    "Sandbox_PK42_XPDailyCap": "每日经验上限",
+    "Sandbox_PK42_XPDailyCap_tooltip": "角色每游戏日通过每种动作类型可获得的疯狂经验上限。需要启用“每日经验上限”才生效。<LINE>注意：此上限基于基础经验值生效，如果玩家阅读了增益书籍，实际获得的疯狂经验可能超过上限。",
+
+    "Sandbox_PK42_ButcheringXP": "屠宰经验",
+    "Sandbox_PK42_ButcheringXP_tooltip": "屠宰尸体获得的屠宰经验值。",
+
+    "Sandbox_PK42_InsanityXP": "疯狂经验",
+    "Sandbox_PK42_InsanityXP_tooltip": "屠宰尸体获得的疯狂经验值。<LINE>注意：经验值基于尸体获取的肉质量和数量计算，采用与原版屠宰技能相同的逻辑。<LINE>增加此值将显著提高从屠宰中获得的疯狂经验值。",
+
+    "Sandbox_PK42_CannibalUnlockThreshold": "食人者特质：等级解锁阈值",
+    "Sandbox_PK42_CannibalUnlockThreshold_tooltip": "解锁食人者特质所需的疯狂等级。",
+
+    "Sandbox_PK42_EnableButcherHookPatch": "启用屠宰挂钩补丁",
+    "Sandbox_PK42_EnableButcherHookPatch_tooltip": "启用后，应用一个补丁，允许使用屠宰挂钩来屠宰尸体。",
+
+    "Sandbox_PK42_ButcherCorpseUnlockLevel": "屠宰尸体解锁等级",
+    "Sandbox_PK42_ButcherCorpseUnlockLevel_tooltip": "解锁屠宰尸体能力所需的疯狂等级。",
+
+    "Sandbox_PK42_SkinCorpseUnlockLevel": "剥皮尸体解锁等级",
+    "Sandbox_PK42_SkinCorpseUnlockLevel_tooltip": "解锁剥皮尸体能力所需的疯狂等级。",
+
+    "Sandbox_PK42_CollectBonesUnlockLevel": "收集骨头解锁等级",
+    "Sandbox_PK42_CollectBonesUnlockLevel_tooltip": "解锁从尸体收集骨头能力所需的疯狂等级。",
+
+    "Sandbox_PK42_HallucinationCeaseLevel": "幻觉停止等级",
+    "Sandbox_PK42_HallucinationCeaseLevel_tooltip": "停止产生幻觉的疯狂等级。",
+
+    "Sandbox_PK42_AudioHallucinationStartingChance": "幻听起始几率（%%）",
+    "Sandbox_PK42_AudioHallucinationStartingChance_tooltip": "发生幻听的基础几率。",
+
+    "Sandbox_PK42_IntrusiveThoughtsStartingChance": "侵入性思维起始几率（%%）",
+    "Sandbox_PK42_IntrusiveThoughtsStartingChance_tooltip": "产生侵入性思维的基础几率。",
+
+    "Sandbox_PK42_VisualHallucinationStartingChance": "幻视起始几率（%%）",
+    "Sandbox_PK42_VisualHallucinationStartingChance_tooltip": "发生幻视的基础几率。",
+
+    "Sandbox_PK42_LaughChance": "大笑几率（%%）",
+    "Sandbox_PK42_LaughChance_tooltip": "角色不由自主大笑的几率。",
+
+    "Sandbox_PK42_VehicleJumpscareChance": "车辆惊悚事件几率（%%）",
+    "Sandbox_PK42_VehicleJumpscareChance_tooltip": "离开车辆时发生惊悚事件的几率。",
+
+    "Sandbox_PK42_CannibalAmountThreshold": "食人者特质：肉类消耗阈值",
+    "Sandbox_PK42_CannibalAmountThreshold_tooltip": "角色被视为食人者前需要消耗的人肉/僵尸肉总量（单位）。",
+
+    "Sandbox_PK42_DisableVisualHal": "禁用幻视效果",
+    "Sandbox_PK42_DisableVisualHal_tooltip": "禁用幻视效果。<LINE>由于引擎限制，幻视效果在多人游戏中可能无法正常运行。<LINE>如果遇到问题，请启用此选项。",
+
+    "Sandbox_PK42_FrenzyMaxTime": "肾上腺素狂暴最长持续时间（小时）",
+    "Sandbox_PK42_FrenzyMaxTime_tooltip": "肾上腺素狂暴的最长持续时间。超过此时间后，效果将自动结束。",
+
+    "Sandbox_PK42_FrenzySeparator": "=============== 肾上腺素狂暴设置 ===============",
+    "Sandbox_PK42_XPSeparator": "====================== 经验设置 =======================",
+    "Sandbox_PK42_CannibalismSeparator": "================== 食人设置 ==================",
+    "Sandbox_PK42_UnlockSeparator": "================ 功能解锁设置 ================",
+    "Sandbox_PK42_MentalHealthSeparator": "================= 精神健康设置 =================",
+    "Sandbox_PK42_SBSeparator_tooltip": "此选项无实际作用，仅用于在菜单中更好地组织设置项。"
+}

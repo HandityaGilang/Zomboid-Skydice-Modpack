@@ -1,0 +1,6 @@
+ContextMenu_EN = {
+    ContextMenu_Repair_Wall = "Repair Wall Crack",
+    ContextMenu_Repair_Wall_Object = "Damaged wall"
+    ContextMenu_Repair_Stret = "Repair Street Crack",
+    ContextMenu_Repair_Street_Object = "Damaged street"
+} 

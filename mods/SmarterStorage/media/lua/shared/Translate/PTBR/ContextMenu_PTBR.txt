@@ -1,0 +1,5 @@
+ContextMenu_PTBR = {
+    ContextMenu_SmarterStorage_Edit = "Editar",
+	ContextMenu_SmarterStorage_Presets = "Predefinidos",
+	ContextMenu_SmarterStorage_Reset = "Refazer",
+}

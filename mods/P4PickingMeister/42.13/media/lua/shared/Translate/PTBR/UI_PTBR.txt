@@ -1,0 +1,11 @@
+UI_PTBR = {
+	UI_P4PickingMeister_Options_ShowIcon_Name = "Mostrar Ícone",
+	UI_P4PickingMeister_Options_ShowIcon_Tooltip = "Mostra um ícone no menu.",
+	UI_P4PickingMeister_Options_ShowInactiveMenu_Name = "Mostrar Menu Inativo",
+	UI_P4PickingMeister_Options_ShowInactiveMenu_Tooltip = "Mostra o menu mesmo quando o conteúdo está vazio.",
+	UI_P4PickingMeister_Tooltip_AlreadyInProgress = "Já em andamento.",
+	UI_P4PickingMeister_Tooltip_Empty = "O conteúdo está vazio.",
+	UI_P4PickingMeister_Tooltip_NotSelected = "Clique com o botão direito para selecionar itens.",
+	UI_P4PickingMeister_Tooltip_NotSelectedJoypad = "Botão Y para selecionar itens.",
+	UI_P4PickingMeister_Tooltip_CantDrinkMore = "Muito cheio para beber mais.",
+}

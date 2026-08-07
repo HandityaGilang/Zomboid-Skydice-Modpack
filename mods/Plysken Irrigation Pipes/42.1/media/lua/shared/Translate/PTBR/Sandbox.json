@@ -1,0 +1,23 @@
+{
+    "Sandbox_PIP": "Plysken Irrigation Pipes",
+    "Sandbox_PIP_EnableAutoWatering": "Ativar rega automática",
+    "Sandbox_PIP_EnableAutoWatering_tooltip": "Quando ativado, os canos regam automaticamente as plantações próximas a partir dos barris de chuva conectados.",
+    "Sandbox_PIP_WateringInterval": "Intervalo de rega (minutos)",
+    "Sandbox_PIP_WateringInterval_tooltip": "Minutos de jogo entre cada ciclo de rega.",
+    "Sandbox_PIP_WateringRadius": "Raio de rega (tiles)",
+    "Sandbox_PIP_WateringRadius_tooltip": "0 = apenas o tile do próprio cano. Valores mais altos regam as plantações em uma área quadrada ao redor de cada cano.",
+    "Sandbox_PIP_SmartPipes": "Canos inteligentes",
+    "Sandbox_PIP_SmartPipes_tooltip": "Quando ativado, os canos enchem as plantações até seu nível ideal de água. Quando desativado, adicionam uma pequena quantidade fixa a cada ciclo.",
+    "Sandbox_PIP_SmartPipesFillMax": "Enchimento máximo dos canos inteligentes",
+    "Sandbox_PIP_SmartPipesFillMax_tooltip": "Nível máximo de água adicionado a uma plantação por ciclo no modo de canos inteligentes.",
+    "Sandbox_PIP_SharedWaterPool": "Reservatório de água compartilhado",
+    "Sandbox_PIP_SharedWaterPool_tooltip": "Quando ativado, os barris conectados na mesma rede compartilham e equilibram sua água (um barril cheio e um vazio se igualam).",
+    "Sandbox_PIP_DebugLogs": "Logs de depuração",
+    "Sandbox_PIP_DebugLogs_tooltip": "Imprime logs internos no console. Apenas para solução de problemas.",
+    "Sandbox_PIP_EnableFertigation": "Ativar fertirrigação",
+    "Sandbox_PIP_EnableFertigation_tooltip": "Quando ativo, despeje Fertilizante ou Composto em um barril conectado e a rede de canos fertiliza as plantações próximas automaticamente (uma dose segura por planta, nunca fertiliza demais). Ativado por padrão.",
+    "Sandbox_PIP_FertigationSkill": "Qualidade da fertirrigação (Agricultura)",
+    "Sandbox_PIP_FertigationSkill_tooltip": "Nível de Agricultura simulado ao fertilizar. Mais alto = melhor chance de bônus de colheita. Não afeta a segurança.",
+    "Sandbox_PIP_ChargesPerBag": "Doses por saco de fertilizante/composto",
+    "Sandbox_PIP_ChargesPerBag_tooltip": "Quantas plantas um saco despejado pode fertilizar. Independente do volume de água do barril."
+}

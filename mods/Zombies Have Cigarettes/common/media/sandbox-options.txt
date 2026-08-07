@@ -1,0 +1,35 @@
+VERSION = 1,
+
+option ZombsHaveCigs.GlobalChance
+{
+    type = integer,
+    default = 16,
+    min = 0,
+    max = 100,
+    page = ZombsHaveCigs,
+    translation = ZombsHaveCigs_GlobalChance,
+}
+
+option ZombsHaveCigs.EnableFireSources
+{
+    type = boolean,
+    default = true,
+    page = ZombsHaveCigs,
+    translation = ZombsHaveCigs_EnableFireSources,
+}
+
+option ZombsHaveCigs.EnableRareTobacco
+{
+    type = boolean,
+    default = true,
+    page = ZombsHaveCigs,
+    translation = ZombsHaveCigs_EnableRareTobacco,
+}
+
+option ZombsHaveCigs.DebugLogging
+{
+    type = boolean,
+    default = false,
+    page = ZombsHaveCigs,
+    translation = ZombsHaveCigs_DebugLogging,
+}

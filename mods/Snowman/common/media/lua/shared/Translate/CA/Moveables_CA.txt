@@ -1,0 +1,3 @@
+Moveables_CA = {
+    The_Snowman = "Ninot de neu",
+}

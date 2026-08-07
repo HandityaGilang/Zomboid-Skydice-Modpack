@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>tabas_takeshower</m_Name>
+	<m_AnimName>Bob_Idle</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_deferredBoneAxis>Y</m_deferredBoneAxis>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_BlendTime>0.40</m_BlendTime>
+
+	<m_Conditions x_name="01c93352-2268-4449-ae29-727bfc198a21">
+		<m_Name>PerformingAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>TABAS_TakeShower</m_Value>
+	</m_Conditions>
+
+	<!-- <m_Conditions x_name="bf29b65f-1526-4d2e-96b5-7c5720e9a220"> -->
+		<!-- <m_Name>TABAS_IsShowering</m_Name> -->
+		<!-- <m_Type>BOOL</m_Type> -->
+		<!-- <m_Value>true</m_Value> -->
+	<!-- </m_Conditions> -->
+
+</animNode>

@@ -1,0 +1,177 @@
+version = 1
+tileset
+{
+    file = snowman_01
+    size = 8,1
+    id = 1
+    // snowman_01_0
+    tile
+    {
+        xy = 0,0
+        BlocksPlacement = 
+        ContainerCapacity = 10
+        CustomName = Snowman
+        DamagedSprite = snowman_01_4
+        Facing = S
+        GroupName = The
+        HitByCar = 
+        IsMoveAble = 
+        MaterialType = Snow
+        MinimumCarSpeedDmg = 30
+        StopCar = 
+        Surface = 1
+        container = snowman
+        solidtrans = 
+    }
+    // snowman_01_1
+    tile
+    {
+        xy = 1,0
+        BlocksPlacement = 
+        ContainerCapacity = 10
+        CustomName = Snowman
+        DamagedSprite = snowman_01_5
+        Facing = W
+        GroupName = The
+        HitByCar = 
+        IsMoveAble = 
+        MaterialType = Snow
+        MinimumCarSpeedDmg = 30
+        StopCar = 
+        Surface = 1
+        container = snowman
+        solidtrans = 
+    }
+    // snowman_01_2
+    tile
+    {
+        xy = 2,0
+        BlocksPlacement = 
+        ContainerCapacity = 10
+        CustomName = Snowman
+        DamagedSprite = snowman_01_6
+        Facing = N
+        GroupName = The
+        HitByCar = 
+        IsMoveAble = 
+        MaterialType = Snow
+        MinimumCarSpeedDmg = 30
+        StopCar = 
+        Surface = 1
+        container = snowman
+        solidtrans = 
+    }
+    // snowman_01_3
+    tile
+    {
+        xy = 3,0
+        BlocksPlacement = 
+        ContainerCapacity = 10
+        CustomName = Snowman
+        DamagedSprite = snowman_01_7
+        Facing = E
+        GroupName = The
+        HitByCar = 
+        IsMoveAble = 
+        MaterialType = Snow
+        MinimumCarSpeedDmg = 30
+        StopCar = 
+        Surface = 1
+        container = snowman
+        solidtrans = 
+    }
+    // snowman_01_4
+    tile
+    {
+        xy = 4,0
+        BlocksPlacement = 
+        CustomName = Damaged Snowman
+        Facing = S
+        GroupName = The
+        MaterialType = Snow
+        StopCar = 
+        Surface = 1
+        solidtrans = 
+    }
+    // snowman_01_5
+    tile
+    {
+        xy = 5,0
+        BlocksPlacement = 
+        CustomName = Damaged Snowman
+        Facing = W
+        GroupName = The
+        MaterialType = Snow
+        StopCar = 
+        Surface = 1
+        solidtrans = 
+    }
+    // snowman_01_6
+    tile
+    {
+        xy = 6,0
+        BlocksPlacement = 
+        CustomName = Damaged Snowman
+        Facing = N
+        GroupName = The
+        MaterialType = Snow
+        StopCar = 
+        Surface = 1
+        solidtrans = 
+    }
+    // snowman_01_7
+    tile
+    {
+        xy = 7,0
+        BlocksPlacement = 
+        CustomName = Damaged Snowman
+        Facing = E
+        GroupName = The
+        MaterialType = Snow
+        StopCar = 
+        Surface = 1
+        solidtrans = 
+    }
+}
+tileset
+{
+    file = snowman_overlay_arms_01
+    size = 8,1
+    id = 6
+}
+tileset
+{
+    file = snowman_overlay_buttons_01
+    size = 8,4
+    id = 2
+}
+tileset
+{
+    file = snowman_overlay_glasses_01
+    size = 8,3
+    id = 7
+}
+tileset
+{
+    file = snowman_overlay_hat_01
+    size = 8,64
+    id = 3
+}
+tileset
+{
+    file = snowman_overlay_hat_02
+    size = 8,17
+    id = 8
+}
+tileset
+{
+    file = snowman_overlay_nose_01
+    size = 8,1
+    id = 4
+}
+tileset
+{
+    file = snowman_overlay_scarf_01
+    size = 8,3
+    id = 5
+}

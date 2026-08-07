@@ -1,0 +1,24 @@
+module PK42
+{
+    character_trait_definition pk42:psychopath
+    {
+        IsProfessionTrait = false,
+        DisabledInMultiplayer = false,
+        CharacterTrait = pk42:psychopath,
+        Cost = 10,
+        UIName = UI_trait_psychopath,
+        UIDescription = UI_trait_psychopathDesc,
+        XPBoosts = SmallBlade=3;SmallBlunt=1;Axe=2;Blunt=1;LongBlade=1,
+        MutuallyExclusiveTraits = base:hemophobic;base:cowardly;base:brave,
+    }
+    
+    character_trait_definition pk42:cannibalist
+    {
+        IsProfessionTrait = true,
+        DisabledInMultiplayer = false,
+        CharacterTrait = pk42:cannibalist,
+        Cost = 0,
+        UIName = UI_trait_cannibalist,
+        UIDescription = UI_trait_cannibalistDesc,
+    }
+}

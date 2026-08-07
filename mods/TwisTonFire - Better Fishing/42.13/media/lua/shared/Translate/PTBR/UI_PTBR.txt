@@ -1,0 +1,33 @@
+UI_PTBR = {
+	UI_TWF_BF_RESTART_REQUIRED_HINT = "É necessário recarregar o seu save!",
+	UI_TWF_BF_SLIDER_DEPENDS_HINT = "Os controles deslizantes só funcionam quando o recurso acima está habilitado.",
+
+	UI_TWF_BF_USE_TWF_AIMDIST    = "Habilitar distância de arremesso",
+	UI_TWF_BF_USE_TWF_SHORE      = "Habilitar margem menor",
+	UI_TWF_BF_USE_TWF_SIZE       = "Habilitar melhor detecção de margem",
+	UI_TWF_BF_USE_TWF_TEMP       = "Habilitar ajustes de temperatura",
+	UI_TWF_BF_USE_TWF_WEATHER    = "Habilitar ajustes de clima",
+	UI_TWF_BF_USE_TWF_TIME       = "Habilitar janelas de bônus",
+	UI_TWF_BF_USE_TWF_SIZETABLES = "Habilitar chances de captura do Better Fishing",
+
+	UI_TWF_BF_AIMDIST        = "Distância de arremesso",
+	UI_TWF_BF_SHORE_RADIUS   = "Raio da margem (tiles)",
+	UI_TWF_BF_SIZE_BLEND     = "Mistura perto da margem (%)",
+	UI_TWF_BF_TEMP_COEFF     = "Bônus/Malus de temperatura",
+	UI_TWF_BF_FOG_COEFF      = "Bônus/Malus de neblina",
+	UI_TWF_BF_WIND_COEFF     = "Bônus/Malus de vento",
+	UI_TWF_BF_RAIN_COEFF     = "Bônus/Malus de chuva",
+	UI_TWF_BF_MORN_START     = "Início bônus manhã (h)",
+	UI_TWF_BF_MORN_END       = "Fim bônus manhã (h)",
+	UI_TWF_BF_EVE_START      = "Início bônus noite (h)",
+	UI_TWF_BF_EVE_END        = "Fim bônus noite (h)",
+	UI_TWF_BF_TIME_COEFF     = "Bônus de chance de pesca %",
+
+	UI_TWF_BF_USE_TWF_AIMDIST_TT    = "Permite definir a distância de arremesso/mira. O controle ajusta a distância máxima.",
+	UI_TWF_BF_USE_TWF_SHORE_TT      = "Ativa uma detecção de margem mais leve e com raio menor. O controle define o alcance.",
+	UI_TWF_BF_USE_TWF_SIZE_TT       = "Ajusta a distribuição de tamanhos perto da margem. A mistura define a intensidade.",
+	UI_TWF_BF_USE_TWF_TEMP_TT       = "Aplica um coeficiente de temperatura à pescaria. Ajuste o multiplicador com o controle.",
+	UI_TWF_BF_USE_TWF_WEATHER_TT    = "Aplica coeficientes de clima (neblina/vento/chuva). Ajuste o impacto com os controles.",
+	UI_TWF_BF_USE_TWF_TIME_TT       = "Ativa janelas de bônus (manhã/noite). Início/fim e o multiplicador são aplicados.",
+	UI_TWF_BF_USE_TWF_SIZETABLES_TT = "Alterna para as tabelas de chance do Better Fishing (limites de tamanho e distribuição). Requer recarregar o save.",
+}

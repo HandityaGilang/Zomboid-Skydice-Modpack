@@ -1,0 +1,21 @@
+{
+    "Tooltip_HumanMeat": "Immoral. But it might be your only option.",
+    "Tooltip_TaintedMeat": "Take a bite. See what happens.",
+    "Tooltip_craft_HumanskullPoleDesc": "Show off how disturbed you are.",
+    "Tooltip_HookHumanLocked": "Wait. You're not thinking about really doing that... Are you?\nRequires Insanity level ",
+    "Tooltip_PKHumanTeeth": "Used to craft trinkets.",
+    "Tooltip_PKHumanBone": "Can be used as weapon. But, how would you even get it? You'd have to... You know what? Never mind.",
+    "Tooltip_HumanLeather": "Something is very wrong with this.",
+    "Tooltip_PsychoFlierPage1": "Teaches the secrets of the wilderness culinary arts",
+    "Tooltip_PKHumanSkullWithBrain": "A perfectly removed human skull, with the brain still inside.\nWhat do you intend to do with this? Eat it? Use it as a helmet?\nEither way, it's a terrible idea.",
+    "Tooltip_PKInfectedSkullWithBrain": "A zombie skull with the brain still inside.\nWhat do you intend to do with this? Eat it? Use it as a helmet?\nEither way, it's a terrible idea.",
+    "Tooltip_PKSmallRandomHumanBones": "Used for crafting.",
+    "Tooltip_PKExtractBrain": "Extract the brain for culinary purposes.",
+    "Tooltip_HumanTendons": "Human sinew extracted in a crude manner.",
+    "Tooltip_InfectedTendons": "Human sinew extracted from an infected individual.\nNot recommended for consumption. But I know you're going to do it anyway.",
+    "Tooltip_PK42_ZombieBrain": "A zombie brain, extracted for... consumption?\nAre you really going to risk eating this?",
+    "Tooltip_PK42_HumanBrain": "A human brain. It looks quite appetizing.\nHow on earth did you manage to get this?",
+    "Tooltip_EnhancedLeatherBackpack": "An enhanced backpack made from human skin.\nLooks small, but it can hold a lot of stuff. And it looks pretty good too.\n\nYou know, if you don't mind the smell.",
+    "Tooltip_PKHumanSkullPart": "A fragment of a human skull. \nIt has no use whatsoever.",
+    "Tooltip_PKHumanSkull": "A damaged human skull. It appears to have been sawed. \nWhy would anyone do such a thing?"
+}

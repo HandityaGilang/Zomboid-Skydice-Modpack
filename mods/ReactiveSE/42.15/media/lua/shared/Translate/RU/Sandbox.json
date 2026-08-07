@@ -1,0 +1,187 @@
+{
+    "Sandbox_ReactiveSE": "Reactive Sound Events",
+    "Sandbox_ReactiveSEEvents": "Reactive SE - Звуковые события",
+    "Sandbox_ReactiveSEBehavior": "Reactive SE - Поведение",
+    "Sandbox_ReactiveSEScenes": "Reactive SE - Сцены",
+    "Sandbox_ReactiveSELoot": "Reactive SE - Лут сцен",
+    "Sandbox_ReactiveSEWorld": "Reactive SE - Игровой мир",
+    "Sandbox_ReactiveSERadio": "Reactive SE - Радио Knox Relay",
+
+    "Sandbox_ReactiveSE_MinEventCooldown": "Минимальное время отката события",
+    "Sandbox_ReactiveSE_MinEventCooldown_tooltip": "Минимальное количество ИГРОВЫХ ЧАСОВ до возможного появления события",
+
+    "Sandbox_ReactiveSE_MaxEventCooldown": "Максимальное время отката события",
+    "Sandbox_ReactiveSE_MaxEventCooldown_tooltip": "Максимальное количество ИГРОВЫХ ЧАСОВ до гарантированного появления события",
+
+    "Sandbox_ReactiveSE_EventChance": "Шанс события (%)",
+    "Sandbox_ReactiveSE_EventChance_tooltip": "Вероятность события при каждой 10-МИНУТНОЙ проверке после минимального отката",
+
+    "Sandbox_ReactiveSE_FlatProbability": "Фиксированная вероятность",
+    "Sandbox_ReactiveSE_FlatProbability_tooltip": "Если включено, вероятность остаётся постоянной. Если выключено, вероятность возрастает до максимального отката (устаревший режим)",
+
+    "Sandbox_ReactiveSE_MinSoundRange": "Минимальная дальность звука",
+    "Sandbox_ReactiveSE_MinSoundRange_tooltip": "Минимальное расстояние (в клетках) от игрока, где могут появляться звуковые события",
+
+    "Sandbox_ReactiveSE_MaxSoundRange": "Максимальная дальность звука",
+    "Sandbox_ReactiveSE_MaxSoundRange_tooltip": "Максимальное расстояние (в клетках) от игрока, где могут появляться звуковые события",
+
+    "Sandbox_ReactiveSE_ReactionThresholdRange": "Порог реакции",
+    "Sandbox_ReactiveSE_ReactionThresholdRange_tooltip": "Если звук происходит в пределах этого расстояния, игрок может запаниковать или проснуться. Звуки за пределами этого диапазона будут только слышны",
+
+    "Sandbox_ReactiveSE_CloseDistanceChance": "Шанс близкой дистанции",
+    "Sandbox_ReactiveSE_CloseDistanceChance_tooltip": "Вероятность появления события на близком расстоянии",
+
+    "Sandbox_ReactiveSE_MediumDistanceChance": "Шанс средней дистанции",
+    "Sandbox_ReactiveSE_MediumDistanceChance_tooltip": "Вероятность появления события на среднем расстоянии",
+
+    "Sandbox_ReactiveSE_FarDistanceChance": "Шанс дальней дистанции",
+    "Sandbox_ReactiveSE_FarDistanceChance_tooltip": "Вероятность появления события на дальнем расстоянии",
+
+    "Sandbox_ReactiveSE_EnableZombieHearing": "Зомби слышат события",
+    "Sandbox_ReactiveSE_EnableZombieHearing_tooltip": "Позволяет зомби реагировать на звуковые события",
+
+    "Sandbox_ReactiveSE_EnableDebugMode": "[РАЗРАБОТКА] Режим отладки",
+    "Sandbox_ReactiveSE_EnableDebugMode_tooltip": "[РАЗРАБОТКА] Включает журнал отладки и визуальные помощники",
+
+    "Sandbox_ReactiveSEEvents_EnableAnimalEvents": "Включить события животных",
+    "Sandbox_ReactiveSEEvents_EnableAnimalEvents_tooltip": "Звуки животных вдалеке",
+
+    "Sandbox_ReactiveSEEvents_EnableGunfightEvents": "Включить события перестрелок",
+    "Sandbox_ReactiveSEEvents_EnableGunfightEvents_tooltip": "Перестрелки между выжившими",
+
+    "Sandbox_ReactiveSEEvents_EnableGunshotEvents": "Включить события выстрелов",
+    "Sandbox_ReactiveSEEvents_EnableGunshotEvents_tooltip": "Одиночные выстрелы вдалеке",
+
+    "Sandbox_ReactiveSEEvents_EnableScreamEvents": "Включить события криков",
+    "Sandbox_ReactiveSEEvents_EnableScreamEvents_tooltip": "Далёкие крики выживших",
+
+    "Sandbox_ReactiveSEEvents_EnableVehicleCrashEvents": "Включить события аварий",
+    "Sandbox_ReactiveSEEvents_EnableVehicleCrashEvents_tooltip": "Столкновения и аварии транспорта",
+
+    "Sandbox_ReactiveSEEvents_EnableWeatherEvents": "Включить погодные события",
+    "Sandbox_ReactiveSEEvents_EnableWeatherEvents_tooltip": "Звуки погоды, например молнии",
+
+    "Sandbox_ReactiveSEEvents_EnableZombieEvents": "Включить события зомби",
+    "Sandbox_ReactiveSEEvents_EnableZombieEvents_tooltip": "Звуки зомби вдалеке",
+
+    "Sandbox_ReactiveSEBehavior_EnablePlayerStyle": "Учитывать стиль игры",
+    "Sandbox_ReactiveSEBehavior_EnablePlayerStyle_tooltip": "Корректировать шансы событий в зависимости от агрессивного или пассивного поведения игрока",
+
+    "Sandbox_ReactiveSEBehavior_AggressiveStyleKills": "Убийства агрессивного стиля",
+    "Sandbox_ReactiveSEBehavior_AggressiveStyleKills_tooltip": "Количество убийств в день для определения игрока как агрессивного",
+
+    "Sandbox_ReactiveSEBehavior_PassiveStyleDays": "Дни пассивного стиля",
+    "Sandbox_ReactiveSEBehavior_PassiveStyleDays_tooltip": "Дней без убийства зомби для определения игрока как пассивного",
+
+    "Sandbox_ReactiveSEBehavior_EnablePlayerReactionPanic": "Включить панику игрока",
+    "Sandbox_ReactiveSEBehavior_EnablePlayerReactionPanic_tooltip": "Игрок может запаниковать, когда звуковое событие происходит в пределах порога реакции",
+
+    "Sandbox_ReactiveSEBehavior_EnablePlayerReactionWakeUp": "Включить пробуждение игрока",
+    "Sandbox_ReactiveSEBehavior_EnablePlayerReactionWakeUp_tooltip": "Спящий игрок может проснуться, если поблизости происходит звуковое событие",
+
+    "Sandbox_ReactiveSEScenes_EnableEventScenes": "Включить сцены событий",
+    "Sandbox_ReactiveSEScenes_EnableEventScenes_tooltip": "Включить физические сцены, создаваемые звуковыми событиями",
+
+    "Sandbox_ReactiveSEScenes_EventSceneChance": "Шанс появления сцены",
+    "Sandbox_ReactiveSEScenes_EventSceneChance_tooltip": "Шанс того, что звуковое событие создаст сцену",
+
+    "Sandbox_ReactiveSEScenes_SceneCleanupHours": "Время очистки сцен",
+    "Sandbox_ReactiveSEScenes_SceneCleanupHours_tooltip": "Часов до автоматической очистки созданных сцен",
+
+    "Sandbox_ReactiveSEScenes_EnableGunfightScene": "Включить сцены перестрелок",
+    "Sandbox_ReactiveSEScenes_EnableGunfightScene_tooltip": "Создавать сцены с трупами при звуках перестрелки",
+
+    "Sandbox_ReactiveSEScenes_EnableGunshotScene": "Включить сцены выстрелов",
+    "Sandbox_ReactiveSEScenes_EnableGunshotScene_tooltip": "Создавать одиночный труп при звуках выстрела",
+
+    "Sandbox_ReactiveSEScenes_EnableScreamScene": "Включить сцены криков",
+    "Sandbox_ReactiveSEScenes_EnableScreamScene_tooltip": "Создавать труп при звуках крика",
+
+    "Sandbox_ReactiveSEScenes_ScreamZombieCount": "Макс. зомби в сценах криков",
+    "Sandbox_ReactiveSEScenes_ScreamZombieCount_tooltip": "Максимальное количество зомби в сценах криков (0 = отключено)",
+
+    "Sandbox_ReactiveSEScenes_EnableVehicleCrashScene": "Включить сцены аварий",
+    "Sandbox_ReactiveSEScenes_EnableVehicleCrashScene_tooltip": "Создавать разбитые машины при звуках аварии",
+
+    "Sandbox_ReactiveSEScenes_VehicleMaxCondition": "Макс. состояние транспорта",
+    "Sandbox_ReactiveSEScenes_VehicleMaxCondition_tooltip": "Максимальное состояние транспорта в сценах",
+    "Sandbox_ReactiveSEScenes_VehicleMaxCondition_Values_option1": "Очень низкое",
+    "Sandbox_ReactiveSEScenes_VehicleMaxCondition_Values_option2": "Низкое",
+    "Sandbox_ReactiveSEScenes_VehicleMaxCondition_Values_option3": "Обычное",
+    "Sandbox_ReactiveSEScenes_VehicleMaxCondition_Values_option4": "Высокое",
+    "Sandbox_ReactiveSEScenes_VehicleMaxCondition_Values_option5": "Очень высокое",
+
+    "Sandbox_ReactiveSEScenes_VehicleKeyChance": "Шанс ключа в транспорте",
+    "Sandbox_ReactiveSEScenes_VehicleKeyChance_tooltip": "Шанс того, что в созданном транспорте будет ключ",
+
+    "Sandbox_ReactiveSEScenes_EnableZombieScene": "Включить сцены зомби",
+    "Sandbox_ReactiveSEScenes_EnableZombieScene_tooltip": "Создавать группы зомби при звуках зомби",
+
+    "Sandbox_ReactiveSEScenes_ZombieSceneMin": "Мин. зомби в сцене",
+    "Sandbox_ReactiveSEScenes_ZombieSceneMin_tooltip": "Минимальное количество зомби в событии зомби",
+
+    "Sandbox_ReactiveSEScenes_ZombieSceneMax": "Макс. зомби в сцене",
+    "Sandbox_ReactiveSEScenes_ZombieSceneMax_tooltip": "Максимальное количество зомби в событии зомби",
+
+    "Sandbox_ReactiveSEScenes_EnableSceneSpawnNotify": "Включить уведомления о сценах",
+    "Sandbox_ReactiveSEScenes_EnableSceneSpawnNotify_tooltip": "Уведомлять игрока, когда поблизости появляется сцена",
+
+    "Sandbox_ReactiveSEScenes_SceneSpawnNotifyText": "Текстовое уведомление",
+    "Sandbox_ReactiveSEScenes_SceneSpawnNotifyText_tooltip": "Игрок произносит фразу, когда поблизости появляется сцена",
+
+    "Sandbox_ReactiveSEScenes_SceneSpawnNotifyMarker": "Уведомление маркером",
+    "Sandbox_ReactiveSEScenes_SceneSpawnNotifyMarker_tooltip": "Показывать указатель направления при появлении сцены поблизости",
+
+    "Sandbox_ReactiveSELoot_LootQuality": "Качество лута",
+    "Sandbox_ReactiveSELoot_LootQuality_tooltip": "Общее качество лута в сценах",
+    "Sandbox_ReactiveSELoot_LootQuality_Values_option1": "Динамическое",
+    "Sandbox_ReactiveSELoot_LootQuality_Values_option2": "Бедное",
+    "Sandbox_ReactiveSELoot_LootQuality_Values_option3": "Обычное",
+    "Sandbox_ReactiveSELoot_LootQuality_Values_option4": "Богатое",
+
+    "Sandbox_ReactiveSELoot_WeaponMaxCondition": "Макс. состояние оружия",
+    "Sandbox_ReactiveSELoot_WeaponMaxCondition_tooltip": "Максимальное состояние оружия в сценах",
+
+    "Sandbox_ReactiveSELoot_RangedWeaponChance": "Шанс огнестрельного оружия",
+    "Sandbox_ReactiveSELoot_RangedWeaponChance_tooltip": "Шанс появления огнестрельного оружия в сцене",
+
+    "Sandbox_ReactiveSELoot_MinBackpackStealChance": "Минимальный шанс кражи рюкзака (%)",
+    "Sandbox_ReactiveSELoot_MinBackpackStealChance_tooltip": "Минимальная вероятность кражи рюкзака с трупа. Применяется в End Game.",
+
+    "Sandbox_ReactiveSELoot_MaxBackpackStealChance": "Максимальный шанс кражи рюкзака (%)",
+    "Sandbox_ReactiveSELoot_MaxBackpackStealChance_tooltip": "Максимальная вероятность кражи рюкзака с трупа (масштабируется с World Tier). Применяется в Early Game.",
+
+    "Sandbox_ReactiveSELoot_AmmoScarcity": "Дефицит патронов",
+    "Sandbox_ReactiveSELoot_AmmoScarcity_tooltip": "Контролирует, насколько редки патроны в сценах",
+    "Sandbox_ReactiveSELoot_AmmoScarcity_Values_option1": "Нет",
+    "Sandbox_ReactiveSELoot_AmmoScarcity_Values_option2": "Дефицит",
+    "Sandbox_ReactiveSELoot_AmmoScarcity_Values_option3": "Обычно",
+    "Sandbox_ReactiveSELoot_AmmoScarcity_Values_option4": "Изобилие",
+
+    "Sandbox_ReactiveSELoot_SubKitCountMin": "Мин. предметов в наборе",
+    "Sandbox_ReactiveSELoot_SubKitCountMin_tooltip": "Минимальное количество предметов в наборе (Динамический лут: Раннняя игра)",
+
+    "Sandbox_ReactiveSELoot_SubKitCountMax": "Макс. предметов в наборе",
+    "Sandbox_ReactiveSELoot_SubKitCountMax_tooltip": "Максимальное количество предметов в наборе (Динамический лут: Поздняя игра)",
+
+    "Sandbox_ReactiveSEWorld_CorpseCount": "Количество трупов",
+    "Sandbox_ReactiveSEWorld_CorpseCount_tooltip": "Максимальное количество трупов в сцене",
+
+    "Sandbox_ReactiveSEWorld_WorldTierEarlyEnd": "Конец ранней игры",
+    "Sandbox_ReactiveSEWorld_WorldTierEarlyEnd_tooltip": "Определяет последний день ранней игры. Начинается средняя игра",
+
+    "Sandbox_ReactiveSEWorld_WorldTierMidEnd": "Конец средней игры",
+    "Sandbox_ReactiveSEWorld_WorldTierMidEnd_tooltip": "Определяет последний день средней игры. Начинается поздняя игра",
+
+    "Sandbox_ReactiveSEWorld_WorldTierLateEnd": "Конец поздней игры",
+    "Sandbox_ReactiveSEWorld_WorldTierLateEnd_tooltip": "Определяет последний день поздней игры. Начинается финальная игра",
+
+    "Sandbox_ReactiveSERadio_EnableRadioFeature": "Включить радио Knox Relay",
+    "Sandbox_ReactiveSERadio_EnableRadioFeature_tooltip": "Включить радиостанцию Knox Relay, которая передаёт координаты сцен и истории выживших",
+
+    "Sandbox_ReactiveSERadio_EnableMapMarker": "Включить отметки на карте",
+    "Sandbox_ReactiveSERadio_EnableMapMarker_tooltip": "Позволяет игрокам отмечать координаты на карте через контекстное меню радио. Отключите, чтобы запретить эту функцию",
+
+    "Sandbox_ReactiveSERadio_EnableMorningShowXP": "Включить опыт за утреннее шоу",
+    "Sandbox_ReactiveSERadio_EnableMorningShowXP_tooltip": "Позволяет игрокам получать опыт за прослушивание утреннего шоу"
+}

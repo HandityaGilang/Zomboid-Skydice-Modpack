@@ -1,0 +1,4 @@
+ContextMenu_CN = {
+	ContextMenu_Repair_Wall = "修复墙壁裂缝",
+	ContextMenu_Repair_Wall_Object = "受损的墙壁"
+} 

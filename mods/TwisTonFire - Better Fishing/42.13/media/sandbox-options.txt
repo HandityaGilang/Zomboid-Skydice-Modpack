@@ -1,0 +1,129 @@
+VERSION = 1,
+
+option TWF_BF.UseTwF_SizeTables
+{
+    type = boolean,
+    default = true,
+    page = TWF_BF,
+    translation = TWF_BF_UseTwF_SizeTables,
+}
+
+option TWF_BF.TwF_AimDist
+{
+    type = integer,
+    default = 16,
+    min = 16,
+    max = 20,
+    page = TWF_BF,
+    translation = TWF_BF_AimDist,
+}
+
+option TWF_BF.TwF_ShoreRadius
+{
+    type = integer,
+    default = 7,
+    min = 1,
+    max = 7,
+    page = TWF_BF,
+    translation = TWF_BF_ShoreRadius,
+}
+
+option TWF_BF.TwF_SizeBlend
+{
+    type = integer,
+    default = 100,
+    min = 0,
+    max = 100,
+    page = TWF_BF,
+    translation = TWF_BF_SizeBlend,
+}
+
+option TWF_BF.TwF_TempCoeff
+{
+    type = integer,
+    default = 100,
+    min = 10,
+    max = 200,
+    page = TWF_BF,
+    translation = TWF_BF_TempCoeff,
+}
+
+option TWF_BF.TwF_FogCoeff
+{
+    type = integer,
+    default = 80,
+    min = 50,
+    max = 150,
+    page = TWF_BF,
+    translation = TWF_BF_FogCoeff,
+}
+
+option TWF_BF.TwF_WindCoeff
+{
+    type = integer,
+    default = 80,
+    min = 50,
+    max = 150,
+    page = TWF_BF,
+    translation = TWF_BF_WindCoeff,
+}
+
+option TWF_BF.TwF_RainCoeff
+{
+    type = integer,
+    default = 120,
+    min = 50,
+    max = 200,
+    page = TWF_BF,
+    translation = TWF_BF_RainCoeff,
+}
+
+option TWF_BF.TwF_MornStart
+{
+    type = integer,
+    default = 4,
+    min = 3,
+    max = 6,
+    page = TWF_BF,
+    translation = TWF_BF_MornStart,
+}
+
+option TWF_BF.TwF_MornEnd
+{
+    type = integer,
+    default = 6,
+    min = 6,
+    max = 9,
+    page = TWF_BF,
+    translation = TWF_BF_MornEnd,
+}
+
+option TWF_BF.TwF_EveStart
+{
+    type = integer,
+    default = 18,
+    min = 15,
+    max = 18,
+    page = TWF_BF,
+    translation = TWF_BF_EveStart,
+}
+
+option TWF_BF.TwF_EveEnd
+{
+    type = integer,
+    default = 20,
+    min = 19,
+    max = 21,
+    page = TWF_BF,
+    translation = TWF_BF_EveEnd,
+}
+
+option TWF_BF.TwF_TimeCoeff
+{
+    type = integer,
+    default = 120,
+    min = 50,
+    max = 200,
+    page = TWF_BF,
+    translation = TWF_BF_TimeCoeff,
+}

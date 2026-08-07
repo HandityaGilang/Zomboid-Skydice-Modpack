@@ -1,0 +1,6 @@
+{
+    "UI_SSI_OptEnabled": "Activer l'indicateur",
+    "UI_SSI_OptEnabled_TT": "Afficher les icônes de saison sur les articles de graines dans l'inventaire",
+    "UI_SSI_OptTooltip": "Afficher les informations sur la saison dans l'infobulle",
+    "UI_SSI_OptTooltip_TT": "Ajouter les mois de la saison des semis à l'infobulle des graines et des sachets de graines. Désactivé automatiquement lorsqu'un autre mod ajoutant des informations sur la saison des semis aux infobulles est détecté."
+}

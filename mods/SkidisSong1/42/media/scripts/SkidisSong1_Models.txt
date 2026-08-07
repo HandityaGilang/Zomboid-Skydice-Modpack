@@ -1,0 +1,141 @@
+module SkidisSong1
+{
+	imports
+	{
+		Base
+	}
+
+	model TCTape1
+	{
+		mesh = WorldItems/TCTape,
+		texture = WorldItems/TCTape1,
+		scale = 0.0005,
+	}
+
+	model TCTape2
+	{
+		mesh = WorldItems/TCTape,
+		texture = WorldItems/TCTape2,
+		scale = 0.0005,
+	}
+
+	model TCTape3
+	{
+		mesh = WorldItems/TCTape,
+		texture = WorldItems/TCTape3,
+		scale = 0.0005,
+	}
+
+	model TCTape4
+	{
+		mesh = WorldItems/TCTape,
+		texture = WorldItems/TCTape4,
+		scale = 0.0005,
+	}
+
+	model TCTape5
+	{
+		mesh = WorldItems/TCTape,
+		texture = WorldItems/TCTape5,
+		scale = 0.0005,
+	}
+
+	model TCTape6
+	{
+		mesh = WorldItems/TCTape,
+		texture = WorldItems/TCTape6,
+		scale = 0.0005,
+	}
+
+	model TCTape7
+	{
+		mesh = WorldItems/TCTape,
+		texture = WorldItems/TCTape7,
+		scale = 0.0005,
+	}
+
+	model TCTape8
+	{
+		mesh = WorldItems/TCTape,
+		texture = WorldItems/TCTape8,
+		scale = 0.0005,
+	}
+
+	model TCTape9
+	{
+		mesh = WorldItems/TCTape,
+		texture = WorldItems/TCTape9,
+		scale = 0.0005,
+	}
+
+	model TCTape10
+	{
+		mesh = WorldItems/TCTape,
+		texture = WorldItems/TCTape10,
+		scale = 0.0005,
+	}
+
+	model TCTape11
+	{
+		mesh = WorldItems/TCTape,
+		texture = WorldItems/TCTape11,
+		scale = 0.0005,
+	}
+
+	model TCTape12
+	{
+		mesh = WorldItems/TCTape,
+		texture = WorldItems/TCTape12,
+		scale = 0.0005,
+	}
+
+	model TCTape13
+	{
+		mesh = WorldItems/TCTape,
+		texture = WorldItems/TCTape13,
+		scale = 0.0005,
+	}
+
+	model TCTape14
+	{
+		mesh = WorldItems/TCTape,
+		texture = WorldItems/TCTape14,
+		scale = 0.0005,
+	}
+
+	model TCTape15
+	{
+		mesh = WorldItems/TCTape,
+		texture = WorldItems/TCTape15,
+		scale = 0.0005,
+	}
+
+	model TCTape16
+	{
+		mesh = WorldItems/TCTape,
+		texture = WorldItems/TCTape16,
+		scale = 0.0005,
+	}
+
+	model TCTape17
+	{
+		mesh = WorldItems/TCTape,
+		texture = WorldItems/TCTape17,
+		scale = 0.0005,
+	}
+
+	model TCTape18
+	{
+		mesh = WorldItems/TCTape,
+		texture = WorldItems/TCTape18,
+		scale = 0.0005,
+	}
+
+	model TCTape19
+	{
+		mesh = WorldItems/TCTape,
+		texture = WorldItems/TCTape19,
+		scale = 0.0005,
+	}
+
+}

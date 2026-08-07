@@ -1,0 +1,18 @@
+{
+    "IGUI_UNM_Play": "Играть в UNO No Mercy", "IGUI_UNM_Watch": "Смотреть UNO No Mercy",
+    "IGUI_UNM_MoveCloser": "Подойдите ближе к столу.", "IGUI_UNM_WindowTitle": "UNO No Mercy",
+    "IGUI_UNM_Waiting": "Ожидание игроков", "IGUI_UNM_Playing": "Игра идёт", "IGUI_UNM_GameOver": "Игра окончена",
+    "IGUI_UNM_YourTurn": "Ваш ход", "IGUI_UNM_You": "Вы", "IGUI_UNM_NotYourTurn": "Сейчас не ваш ход",
+    "IGUI_UNM_Draw": "Взять", "IGUI_UNM_Start": "Начать", "IGUI_UNM_AddBot": "Добавить бота", "IGUI_UNM_RemoveBot": "Удалить бота",
+    "IGUI_UNM_CallUno": "Крикнуть UNO", "IGUI_UNM_Reset": "Сбросить", "IGUI_UNM_Leave": "Выйти",
+    "IGUI_UNM_ChooseColor": "Выберите цвет", "IGUI_UNM_Red": "Красный", "IGUI_UNM_Yellow": "Жёлтый", "IGUI_UNM_Green": "Зелёный", "IGUI_UNM_Blue": "Синий",
+    "IGUI_UNM_DrawPile": "Колода", "IGUI_UNM_DiscardPile": "Сброс", "IGUI_UNM_CurrentColor": "Цвет", "IGUI_UNM_Direction": "Направление",
+    "IGUI_UNM_Clockwise": "По часовой", "IGUI_UNM_CounterClockwise": "Против часовой", "IGUI_UNM_Cards": "Карты", "IGUI_UNM_Winner": "Победитель",
+    "IGUI_UNM_Opening": "Открытие...", "IGUI_UNM_OpeningGame": "Открытие UNO No Mercy...", "IGUI_UNM_Turn": "Ход", "IGUI_UNM_Penalty": "Штраф",
+    "IGUI_UNM_Players": "Игроки", "IGUI_UNM_OpenSeat": "Свободное место", "IGUI_UNM_Out": "ВЫБЫЛ", "IGUI_UNM_TableLog": "Журнал стола",
+    "IGUI_UNM_YourHand": "Ваши карты", "IGUI_UNM_Actions": "Действия", "IGUI_UNM_SwapHandsWith": "Обменяться картами с", "IGUI_UNM_MusicVolume": "Громкость музыки",
+    "IGUI_UNM_MercyOn": "Пощада ВКЛ", "IGUI_UNM_MercyOff": "Пощада ВЫКЛ", "IGUI_UNM_SevenZeroOn": "0/7 ВКЛ", "IGUI_UNM_SevenZeroOff": "0/7 ВЫКЛ",
+    "IGUI_UNM_YourOpponent": "Ваш соперник", "IGUI_UNM_ResultWinner": "ПОБЕДИТЕЛЬ", "IGUI_UNM_ResultLoser": "ПРОИГРАВШИЙ",
+    "IGUI_UNM_FinalVerdict": "Финальный вердикт приближается...", "IGUI_UNM_WonBattle": "%1 победил в битве.",
+    "IGUI_UNM_ColorRoulette": "ЦВЕТОВАЯ РУЛЕТКА"
+}

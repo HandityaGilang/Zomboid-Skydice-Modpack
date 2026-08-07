@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>tabas_test</m_Name>
+	<m_AnimName>Bob_BathTimeExt_Stretch</m_AnimName>
+	<m_Priority>30</m_Priority>
+	<m_ConditionPriority>10</m_ConditionPriority>
+
+	<!-- <m_AnimName>Kate_BathTimeIdleSitLoop</m_AnimName> -->
+	<!-- <m_Left>true</m_Left> -->
+
+	<!-- <m_deferredRotationScale>2</m_deferredRotationScale> -->
+	<!-- <m_DeferredBoneName>Dummy01</m_DeferredBoneName> -->
+	<!-- <m_deferredBoneAxis>Y</m_deferredBoneAxis> -->
+	<m_SpeedScale>0.90</m_SpeedScale>
+	<m_BlendTime>0.20</m_BlendTime>
+	<!-- <m_blendOutTime>1.00</m_blendOutTime> -->
+	<m_Looped>false</m_Looped>
+	<!-- <m_Conditions> -->
+		<!-- <m_Name>PerformingAction</m_Name> -->
+		<!-- <m_Type>STRING</m_Type> -->
+		<!-- <m_Value>TABAS_AnimTest</m_Value> -->
+	<!-- </m_Conditions> -->
+	<m_Conditions x_name="1476F5E3-D663-492D-A961-9148DA92681E">
+		<m_Name>BathExt</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>BathExtStretch</m_Value>
+	</m_Conditions>
+	<m_Events>
+		<m_EventName>SetVariable</m_EventName>
+		<m_TimePc>0.05</m_TimePc>
+		<m_ParameterValue>TABAS_BathSound=smallsplush</m_ParameterValue>
+	</m_Events>
+	<m_Events>
+		<m_EventName>SetVariable</m_EventName>
+		<m_TimePc>0.35</m_TimePc>
+		<m_ParameterValue>TABAS_PlayerVoice=stretch</m_ParameterValue>
+	</m_Events>
+	<!-- <m_SubStateBoneWeights> -->
+		<!-- <boneName>Bip01</boneName> -->
+	<!-- </m_SubStateBoneWeights> -->
+	<!-- <m_SubStateBoneWeights> -->
+		<!-- <boneName>Dummy01</boneName> -->
+	<!-- </m_SubStateBoneWeights> -->
+	<!-- <m_SubStateBoneWeights> -->
+		<!-- <boneName>Translation_Data</boneName> -->
+	<!-- </m_SubStateBoneWeights> -->
+	
+	<!-- <m_Transitions> -->
+		<!-- <m_Target>tabas_takebath_idlestance_elbowl</m_Target> -->
+		<!-- <m_AnimName>Bob_BathTimeIdleElbowL_In</m_AnimName> -->
+		<!-- <m_speedScale>1</m_speedScale> -->
+	<!-- </m_Transitions> -->
+</animNode>

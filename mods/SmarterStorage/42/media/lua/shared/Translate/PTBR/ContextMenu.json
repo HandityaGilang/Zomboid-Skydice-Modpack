@@ -1,0 +1,7 @@
+{
+    "ContextMenu_SmarterStorage_Edit" : "Editar",
+	"ContextMenu_SmarterStorage_Presets" : "Predefinidos",
+	"ContextMenu_SmarterStorage_Reset" : "Refazer",
+	"ContextMenu_SmarterStorage_Copy" : "Copiar",
+	"ContextMenu_SmarterStorage_Paste" : "Colar"
+}

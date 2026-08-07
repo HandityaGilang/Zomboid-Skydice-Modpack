@@ -1,0 +1,23 @@
+{
+    "Sandbox_PIP": "Plysken Irrigation Pipes",
+    "Sandbox_PIP_EnableAutoWatering": "Attiva irrigazione automatica",
+    "Sandbox_PIP_EnableAutoWatering_tooltip": "Se attivo, i tubi irrigano automaticamente le colture vicine dai barili di pioggia collegati.",
+    "Sandbox_PIP_WateringInterval": "Intervallo di irrigazione (minuti)",
+    "Sandbox_PIP_WateringInterval_tooltip": "Minuti di gioco tra un ciclo di irrigazione e l'altro.",
+    "Sandbox_PIP_WateringRadius": "Raggio di irrigazione (caselle)",
+    "Sandbox_PIP_WateringRadius_tooltip": "0 = solo la casella del tubo stesso. Valori più alti irrigano le colture in un'area quadrata attorno a ogni tubo.",
+    "Sandbox_PIP_SmartPipes": "Tubi intelligenti",
+    "Sandbox_PIP_SmartPipes_tooltip": "Se attivo, i tubi riempiono le colture fino al loro livello d'acqua ottimale. Se disattivato, aggiungono una piccola quantità fissa a ogni ciclo.",
+    "Sandbox_PIP_SmartPipesFillMax": "Riempimento massimo tubi intelligenti",
+    "Sandbox_PIP_SmartPipesFillMax_tooltip": "Livello massimo d'acqua aggiunto a una coltura per ciclo in modalità tubi intelligenti.",
+    "Sandbox_PIP_SharedWaterPool": "Riserva d'acqua condivisa",
+    "Sandbox_PIP_SharedWaterPool_tooltip": "Se attivo, i barili collegati nella stessa rete condividono e bilanciano la loro acqua (un barile pieno e uno vuoto si equilibrano).",
+    "Sandbox_PIP_DebugLogs": "Log di debug",
+    "Sandbox_PIP_DebugLogs_tooltip": "Stampa i log interni nella console. Solo per la risoluzione dei problemi.",
+    "Sandbox_PIP_EnableFertigation": "Abilita fertirrigazione",
+    "Sandbox_PIP_EnableFertigation_tooltip": "Se attivo, versa Fertilizzante o Compost in un barile collegato e la rete di tubi fertilizza automaticamente le colture vicine (una dose sicura per pianta, mai eccesso). Attivo di default.",
+    "Sandbox_PIP_FertigationSkill": "Qualità fertirrigazione (Agricoltura)",
+    "Sandbox_PIP_FertigationSkill_tooltip": "Livello di Agricoltura simulato durante la fertilizzazione automatica. Più alto = migliore probabilità di bonus raccolto. Non influisce sulla sicurezza.",
+    "Sandbox_PIP_ChargesPerBag": "Dosi per sacco di fertilizzante/compost",
+    "Sandbox_PIP_ChargesPerBag_tooltip": "Quante piante può fertilizzare un sacco versato. Indipendente dal volume d'acqua del barile."
+}

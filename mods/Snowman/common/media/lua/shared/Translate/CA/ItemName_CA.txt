@@ -1,0 +1,3 @@
+ItemName_CA = {
+	ItemName_Base.Mov_Snowman = "Ninot de neu",
+}

@@ -1,0 +1,11 @@
+{
+    "Sandbox_VVR": "Vanilla Vehicles Replacer (KI5)",
+    "Sandbox_VVR_NoTrailers": "Убрать прицепы из аварий",
+    "Sandbox_VVR_NoTrailers_tooltip": "Убирает прицепы из больших пробок и обычных аварий. Прицепы всё ещё спавняться в авариях, где они прикреплены к машине.",
+	"Sandbox_VVR_NoBurnt": "Заменить сгоревшие машины",
+    "Sandbox_VVR_NoBurnt_tooltip": "Заменяет сгоревшие машины на машины KI5 в плохом состоянии.",
+	"Sandbox_VVR_VehiCond": "Состояние машин, заменивших сгоревшие",
+    "Sandbox_VVR_VehiCond_tooltip": "Устанавливает состояние автомобилей, которые заменили сгоревшие машины.",
+	"Sandbox_VVR_VehiclesBlacklist": "Черный список машин",
+    "Sandbox_VVR_VehiclesBlacklist_tooltip": "Машины, которые не должны появляться в мире. Разделитель - ;"
+}

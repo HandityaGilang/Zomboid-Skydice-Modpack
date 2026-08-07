@@ -1,0 +1,23 @@
+{
+    "Sandbox_PIP": "Plysken Irrigation Pipes",
+    "Sandbox_PIP_EnableAutoWatering": "Otomatik Sulamayı Etkinleştir",
+    "Sandbox_PIP_EnableAutoWatering_tooltip": "Açıkken, borular bağlı yağmur varillerinden yakındaki ekinleri otomatik olarak sular.",
+    "Sandbox_PIP_WateringInterval": "Sulama Aralığı (dakika)",
+    "Sandbox_PIP_WateringInterval_tooltip": "Her sulama döngüsü arasındaki oyun içi dakika.",
+    "Sandbox_PIP_WateringRadius": "Sulama Yarıçapı (kareler)",
+    "Sandbox_PIP_WateringRadius_tooltip": "0 = yalnızca borunun kendi karesi. Daha yüksek değerler, her borunun çevresindeki kare alandaki ekinleri sular.",
+    "Sandbox_PIP_SmartPipes": "Akıllı Borular",
+    "Sandbox_PIP_SmartPipes_tooltip": "Açıkken, borular ekinleri en uygun su seviyesine kadar doldurur. Kapalıyken, her döngüde sabit küçük bir miktar ekler.",
+    "Sandbox_PIP_SmartPipesFillMax": "Akıllı Borular Maks. Dolum",
+    "Sandbox_PIP_SmartPipesFillMax_tooltip": "Akıllı Borular modunda bir ekine döngü başına eklenen maksimum su seviyesi.",
+    "Sandbox_PIP_SharedWaterPool": "Ortak Su Havuzu",
+    "Sandbox_PIP_SharedWaterPool_tooltip": "Açıkken, aynı ağa bağlı variller suyunu paylaşır ve dengeler (dolu ve boş varil eşitlenir).",
+    "Sandbox_PIP_DebugLogs": "Hata Ayıklama Günlükleri",
+    "Sandbox_PIP_DebugLogs_tooltip": "Dahili günlükleri konsola yazdırır. Yalnızca sorun giderme içindir.",
+    "Sandbox_PIP_EnableFertigation": "Fertigasyonu etkinleştir",
+    "Sandbox_PIP_EnableFertigation_tooltip": "Açıkken, bağlı bir yağmur fıçısına Gübre veya Kompost dökün; boru ağı yakındaki ekinleri otomatik gübreler (bitki başına bir güvenli doz, asla aşırı gübrelemez). Varsayılan olarak açık.",
+    "Sandbox_PIP_FertigationSkill": "Fertigasyon kalitesi (Çiftçilik)",
+    "Sandbox_PIP_FertigationSkill_tooltip": "Otomatik gübrelemede kullanılan simüle Çiftçilik seviyesi. Yüksek = daha iyi verim bonusu şansı. Güvenliği etkilemez.",
+    "Sandbox_PIP_ChargesPerBag": "Gübre/kompost torbası başına doz",
+    "Sandbox_PIP_ChargesPerBag_tooltip": "Dökülen bir torba kaç bitkiyi gübreleyebilir. Fıçıdaki su miktarından bağımsız."
+}

@@ -1,0 +1,9 @@
+{
+    "UI_PlainMoodles_Title": "Plain Moodles Redone",
+    "UI_PlainMoodles_OwnStack": "Draw the moodle stack with this mod",
+    "UI_PlainMoodles_OwnStack_tip": "Off: the game draws the stack itself and only the textures come from the mod.",
+    "UI_PlainMoodles_Tint": "Colour the plate by moodle level",
+    "UI_PlainMoodles_Tint_tip": "Off: plates stay grey at every level, like in version 1.4.0.",
+    "UI_PlainMoodles_Tooltip": "Show the moodle name on mouse hover",
+    "UI_PlainMoodles_Tooltip_tip": "Off: no label next to the plate under the cursor."
+}

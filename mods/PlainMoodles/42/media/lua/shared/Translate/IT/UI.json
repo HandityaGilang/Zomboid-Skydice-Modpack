@@ -1,0 +1,9 @@
+{
+    "UI_PlainMoodles_Title": "Plain Moodles Redone",
+    "UI_PlainMoodles_OwnStack": "Disegna la pila dei moodle con questa mod",
+    "UI_PlainMoodles_OwnStack_tip": "Disattivato: il gioco disegna la pila da sé e dalla mod arrivano solo le texture.",
+    "UI_PlainMoodles_Tint": "Colora la placca in base al livello del moodle",
+    "UI_PlainMoodles_Tint_tip": "Disattivato: le placche restano grigie a ogni livello, come nella versione 1.4.0.",
+    "UI_PlainMoodles_Tooltip": "Mostra il nome del moodle al passaggio del mouse",
+    "UI_PlainMoodles_Tooltip_tip": "Disattivato: nessuna etichetta accanto alla placca sotto il cursore."
+}

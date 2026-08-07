@@ -1,0 +1,193 @@
+module Base
+{
+    sound UNMThrowCard
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/throwcard.mp3,
+        }
+    }
+
+    sound UNMDrawCard
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/drawcard.mp3,
+        }
+    }
+
+    sound UNMStartGame
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/startgame.mp3,
+        }
+    }
+
+    sound UNMWin
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/win.mp3,
+        }
+    }
+
+    sound UNMLose
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/lose.mp3,
+        }
+    }
+
+    sound UNMPlayerJoin
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/playerjoin.mp3,
+        }
+    }
+
+    sound UNMPlayerLeave
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/playerleave.mp3,
+        }
+    }
+
+    sound UNMUno
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/uno.mp3,
+        }
+    }
+
+    sound UNMSkipCard
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/skipcard.mp3,
+        }
+    }
+
+    sound UNMReverseCard
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/reversecard.mp3,
+        }
+    }
+
+    sound UNMDrawTwoCard
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/draw2card.mp3,
+        }
+    }
+
+    sound UNMDrawFourCard
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/draw4card.mp3,
+        }
+    }
+
+    sound UNMWildCard
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/wildcard.mp3,
+        }
+    }
+
+    sound UNMDrawSixCard
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/draw6card.mp3,
+        }
+    }
+
+    sound UNMDrawTenCard
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/draw10card.mp3,
+        }
+    }
+
+    sound UNMDiscardAllCard
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/discardallcard.mp3,
+        }
+    }
+
+    sound UNMRouletteCard
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/roulettecard.mp3,
+        }
+    }
+
+    sound UNMEliminated
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/eliminated.mp3,
+        }
+    }
+
+    sound UNMHandShiftCard
+    {
+        category = UI,
+        clip
+        {
+            file = media/sound/handshiftcard.mp3,
+        }
+    }
+
+    sound UNMGameMusic
+    {
+        category = UI,
+        loop = true,
+        clip
+        {
+            file = media/sound/gamemusic.mp3,
+        }
+    }
+
+    sound UNMVictoryMusic
+    {
+        category = UI,
+        loop = true,
+        clip
+        {
+            file = media/sound/victorymusic.mp3,
+        }
+    }
+}

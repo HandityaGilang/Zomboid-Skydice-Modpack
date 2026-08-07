@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>tabas_takeshower_head</m_Name>
+	<m_AnimName>Bob_ShowerWashHead</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_deferredBoneAxis>Y</m_deferredBoneAxis>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_BlendTime>0.60</m_BlendTime>
+	<m_SpeedScale>1.00</m_SpeedScale>
+	<m_blendInTime>0.10</m_blendInTime>
+	<m_blendOutTime>0.80</m_blendOutTime>
+	<m_Priority>5</m_Priority>
+
+	<m_Conditions x_name="01c93352-2268-4449-ae29-727bfc198a21">
+		<m_Name>PerformingAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>TABAS_TakeShower</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="bf29b65f-1526-4d2e-96b5-7c5720e9a220">
+		<m_Name>TABAS_ShowerStarted</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="57bab047-f9dd-4bda-9883-dc6b1c4d8240">
+		<m_Name>TABAS_ShowerAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>Wash</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="cc61979f-6459-44d0-8614-5b2690f5a6b2">
+		<m_Name>TABAS_WashPart</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>Head</m_Value>
+	</m_Conditions>
+
+	<m_Events x_name="941522f8-6ad1-4214-94cb-26fba164a65a">
+		<m_EventName>TABAS_WashCleansed</m_EventName>
+		<m_TimePc>0.60</m_TimePc>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="d6367655-8c71-4b7e-b2d5-b33f34f25a6c">
+		<m_EventName>SetVariable</m_EventName>
+		<m_TimePc>0.90</m_TimePc>
+		<m_ParameterValue>TABAS_WashPartFinished=true</m_ParameterValue>
+	</m_Events>
+
+	<m_Transitions>
+		<m_Target>tabas_tubhandling</m_Target>
+		<m_BlendTime>0.40</m_BlendTime>
+	</m_Transitions>
+	<m_Transitions>
+		<m_Target>tabas_takeshower_nowatercomes</m_Target>
+		<m_BlendTime>0.40</m_BlendTime>
+	</m_Transitions>
+</animNode>

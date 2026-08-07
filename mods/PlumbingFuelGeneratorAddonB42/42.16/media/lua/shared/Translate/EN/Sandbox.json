@@ -1,0 +1,4 @@
+{
+    "Sandbox_Plumbing.FuelPumpMaxFuel": "Fuel pump dose",
+    "Sandbox_Plumbing.FuelPumpMaxFuel_tooltip": "Generator-fuel-percent delivered per game minute by a 100% efficient pump built next to a gas station. Split between generators and manual barrel fills reached through the pipe network."
+}

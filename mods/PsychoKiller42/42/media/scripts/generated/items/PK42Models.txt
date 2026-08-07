@@ -1,0 +1,37 @@
+module PK42 {
+	imports {
+		Base
+	}
+    model PKHumanBrain
+    {
+        mesh = WorldItems/Brain,
+        texture = WorldItems/Brain,
+        scale = 0.16,
+    }
+	
+	model PKRottenHumanBrain
+    {
+        mesh = WorldItems/Brain,
+        texture = WorldItems/BrainRotten,
+        scale = 0.16,
+    }
+	
+	model PKBurntHumanBrain
+    {
+        mesh = WorldItems/Brain,
+        texture = WorldItems/BrainBurnt,
+        scale = 0.16,
+    }
+
+    model PKHumanTendons
+    {
+        mesh = WorldItems/DenimStrips,
+        texture = WorldItems/HumanTendons,
+        scale = 0.2,
+        attachment world
+        {
+            offset = -0.0 -0.0033 -0.0,
+            rotate = 0.0 0.0 0.0,
+        }
+    }
+}

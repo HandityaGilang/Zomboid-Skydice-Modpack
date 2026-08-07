@@ -1,0 +1,187 @@
+tileGeometry
+{
+	VERSION = 2,
+
+	tileset
+	{
+		name = Hold_Beehive,
+
+		/* Hold_Beehive_0 */
+		tile
+		{
+			xy = 0x0,
+
+			box
+			{
+				translate = 272x4789x190,
+				rotate = 0x6324x0,
+				min = -4849x0x-4923,
+				max = 4849x20143x4923,
+			}
+		}
+
+		/* Hold_Beehive_1 */
+		tile
+		{
+			xy = 1x0,
+
+			box
+			{
+				translate = 0x4747x0,
+				rotate = 0x0x0,
+				min = -5000x0x-5000,
+				max = 5000x19748x5000,
+			}
+
+			properties
+			{
+				Surface = 1,
+			}
+		}
+	}
+
+	tileset
+	{
+		name = Hold_BaitHive,
+
+		/* Hold_BaitHive_0 */
+		tile
+		{
+			xy = 4x0,
+
+			box
+			{
+				translate = 1865x1374x1715,
+				rotate = 0x0x0,
+				min = -3135x0x-3125,
+				max = 3135x6440x3125,
+			}
+
+			box
+			{
+				translate = 0x2567x-4315,
+				rotate = 0x0x0,
+				min = -5000x0x-685,
+				max = 5000x3868x685,
+			}
+
+			box
+			{
+				translate = -3251x3130x2783,
+				rotate = 0x0x0,
+				min = -1749x0x-2217,
+				max = 1749x2067x2217,
+			}
+		}
+
+		/* Hold_BaitHive_1 */
+		tile
+		{
+			xy = 5x0,
+
+			box
+			{
+				translate = 0x5291x0,
+				rotate = 0x0x0,
+				min = -5000x0x-5000,
+				max = 5000x7501x5000,
+			}
+		}
+	}
+
+	tileset
+	{
+		name = Hold_HoneyExtractor,
+
+		/* Hold_HoneyExtractor_0 */
+		tile
+		{
+			xy = 2x0,
+
+			polygon
+			{
+				translate = 0x1547x-2105,
+				rotate = 0x900000x0,
+				plane = YZ,
+				points = 2739x9744 4301x9744 4145x10318 2739x10382 2582x11849 2270x12231 -1011x12295 -1324x12805 -1793x13124 -2105x13124 -2105x12869 -2105x11211 2739x9233,
+			}
+
+			cylinder
+			{
+				translate = 0x7599x-158,
+				rotate = 2700000x0x0,
+				radius1 = 3380,
+				radius2 = 3380,
+				height = 9853,
+			}
+
+			box
+			{
+				translate = 1328x0x3142,
+				rotate = 0x126325x0,
+				min = -532x0x-582,
+				max = 532x7181x582,
+			}
+
+			box
+			{
+				translate = -3237x0x1511,
+				rotate = 0x-649188x0,
+				min = -984x0x-221,
+				max = 984x7332x221,
+			}
+
+			box
+			{
+				translate = 3668x-34x-1522,
+				rotate = 0x263230x0,
+				min = -208x0x-808,
+				max = 208x7126x808,
+			}
+
+			properties
+			{
+				Translucent = true,
+			}
+		}
+
+		/* Hold_HoneyExtractor_1 */
+		tile
+		{
+			xy = 3x0,
+
+			cylinder
+			{
+				translate = 0x8568x-102,
+				rotate = 2700000x0x0,
+				radius1 = 4191,
+				radius2 = 4191,
+				height = 12269,
+			}
+
+			box
+			{
+				translate = 1726x-160x3446,
+				rotate = 0x0x0,
+				min = -643x0x-465,
+				max = 643x7104x465,
+			}
+
+			box
+			{
+				translate = 3497x-220x-1348,
+				rotate = 0x158113x0,
+				min = -255x0x-475,
+				max = 255x7174x475,
+			}
+
+			box
+			{
+				translate = -3017x41x1758,
+				rotate = 0x261608x0,
+				min = -253x0x-833,
+				max = 253x7473x833,
+			}
+		}
+	}
+}

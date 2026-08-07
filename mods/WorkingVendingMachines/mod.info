@@ -1,0 +1,14 @@
+name=Working Vending Machines
+poster=poster.png
+id=WorkingVending
+description=Buy drinks and snacks from powered vending machines using money. One dollar for one random product. Product will appear in the machine container after purchase. To be consistent with this new behaviour, products will no longer spawn in the container at the start of the game. Works on new games only. Compatibility unknown with other mods or multiplayer.
+description=
+description=Language support: English, Japanese
+description=
+description=This is still a work in progress. Potential improvements:
+description=[list]
+description=[*]Selectable products
+description=[*]Random stuck product
+description=[*]Kick / shake machine -> chance to receive stuck product; chance of alarm
+description=[*]Force open vending machine -> receive money and product
+description=[/list]

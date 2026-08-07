@@ -1,0 +1,10 @@
+ContextMenu_PTBR = {
+	ContextMenu_WVMNoPower = "Sem eletricidade",
+	ContextMenu_WVMSnackInChute = "Tem um petisco preso na rampa.",
+	ContextMenu_WVMSoldOut = "Esta máquina está vazia.",
+	ContextMenu_WVMNoMoneyDrink = "Tem bebidas aqui, mas eu não tenho dinheiro.",
+	ContextMenu_WVMNoMoneySnack = "Tem petiscos aqui, mas eu não tenho dinheiro.",
+	ContextMenu_WVMBuyDrink = "Comprar bebida",
+	ContextMenu_WVMBuySnack = "Comprar petisco",
+	ContextMenu_WVMStrikeMachine = "Sacodir máquina",
+}

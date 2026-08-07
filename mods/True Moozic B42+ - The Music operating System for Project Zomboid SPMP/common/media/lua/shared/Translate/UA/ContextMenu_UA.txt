@@ -1,0 +1,8 @@
+ContextMenu_UA = {
+    ContextMenu_Connect_Device = "Підключитися",
+    ContextMenu_Disconnect_Device = "Відключитися",
+    ContextMenu_MergeWire = "Об'єднання пучків проводів",
+    ContextMenu_PickUp_Speaker = "Зніміть динамік",
+    ContextMenu_TM_CDCase_PutIn = "Покладіть у футляр для компакт-дисків",
+    ContextMenu_TM_CDCase_TakeOut = "Вийміть компакт-диск",
+}

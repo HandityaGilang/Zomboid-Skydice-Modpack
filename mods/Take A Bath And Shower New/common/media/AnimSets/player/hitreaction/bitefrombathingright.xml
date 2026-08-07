@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>bitefrombathingright</m_Name>
+	<m_AnimName>Bob_SitGround_BiteLowReact_R</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.40</m_BlendTime>
+	<m_SpeedScale>0.80</m_SpeedScale>
+	<m_Conditions x_name="cd5cbd12-64d7-4d4f-9cb1-fe7980787795">
+		<m_Name>TABAS_BathStarted</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="e42035eb-3804-4be3-a803-2807dbffec85">
+		<m_Name>hitreaction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>BiteRight</m_Value>
+	</m_Conditions>
+	<m_Events x_name="8c92c240-f777-4e3f-ad75-f552fcc1f31e">
+		<m_EventName>PushAwayZombie</m_EventName>
+		<m_TimePc>0.4</m_TimePc>
+		<m_ParameterValue />
+	</m_Events>
+</animNode>

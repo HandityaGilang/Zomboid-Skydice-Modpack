@@ -1,0 +1,189 @@
+module Base {    
+
+    /* ----------------- FULL PROCESS ------------------- */
+    /* ------- 1. remove flesh from human leather ------- */
+    craftRecipe RemoveHumanFlesh
+    {
+        time = 100,
+        Tags = RemoveFlesh,
+        category = Psychopath,
+        inputs
+        {
+            item 1 tags[pk42:humanleatherfullmedium;pk42:humanleathercrudesmall] mappers[RemoveFleshMapper],
+            item 1 tags[base:fleshingtool] mode:keep flags[MayDegradeLight],
+        }
+        outputs
+        {
+            item 1 mapper:RemoveFleshMapper,
+        }
+        itemMapper RemoveFleshMapper
+        {
+            PK42.Human_Leather_Crude_Medium = PK42.Human_Leather_Full_Medium,
+            PK42.Human_Leather_Crude_Medium = PK42.Human_Leather_Full_Small,
+
+        }
+    }
+
+    /* ------------- 2. tan human leather -------------- */
+    craftRecipe TanHumanLeather
+    {
+        time = 100,
+        Tags = TanLeather,
+        timedAction = TanLeatherBarrel,
+        category = Psychopath,
+        overlayStyle = Leather,
+
+        inputs
+        {
+            item 1 tags[pk42:humanleathercrudemedium;pk42:humanleathercrudesmall] mappers[TanHumanLeatherMapper],
+            item 1 tags[base:braintan],
+        }
+
+        outputs
+        {
+            item 1 mapper:TanHumanLeatherMapper,
+            item 1 Base.Bowl,
+        }
+
+        itemMapper TanHumanLeatherMapper
+        {
+            PK42.Human_Leather_Crude_Medium_Tan_Wet = PK42.Human_Leather_Crude_Medium,
+            PK42.Human_Leather_Crude_Small_Tan_Wet  = PK42.Human_Leather_Crude_Small,
+        }
+    }
+
+    /* ------------- 3. dry human leather -------------- */
+    craftRecipe DryHumanLeather_Medium
+    {
+        time = 302400,
+        Tags = DryLeatherMedium,
+        category = Psychopath,
+
+        inputs
+        {
+            item 1 tags[pk42:humanleathercrudewetmedium] mappers[DryHumanLeatherMapper_Medium] overlayMapper,
+        }
+
+        outputs
+        {
+            item 1 mapper:DryHumanLeatherMapper_Medium,
+        }
+
+        itemMapper DryHumanLeatherMapper_Medium
+        {
+            PK42.Human_Leather_Crude_Medium_Tan = PK42.Human_Leather_Crude_Medium_Tan_Wet,
+        }
+
+        overlayMapper
+        {
+            default = MediumLeather,
+            PK42.Human_Leather_Crude_Medium_Tan_Wet = PigLeather,
+        }
+    }
+
+    craftRecipe DryHumanLeather_Small
+    {
+        time = 302400,
+        Tags = DryLeatherSmall,
+        category = Psychopath,
+
+        inputs
+        {
+            item 1 tags[pk42:humanleathercrudewetsmall] mappers[DryHumanLeatherMapper_Small] overlayMapper,
+        }
+
+        outputs
+        {
+            item 1 mapper:DryHumanLeatherMapper_Small,
+        }
+
+        itemMapper DryHumanLeatherMapper_Small
+        {
+            PK42.Human_Leather_Crude_Small_Tan = PK42.Human_Leather_Crude_Small_Tan_Wet,
+        }
+
+        overlayMapper
+        {
+            default = SmallLeather,
+            PK42.Human_Leather_Crude_Small_Tan_Wet = PigLeather,
+        }
+    }
+
+    /* ------------- 4. cut up/sew human leather -------------- */
+    craftRecipe SplitHumanLeather
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        timedAction = Making,
+        category = Psychopath,
+
+        inputs
+        {
+            item 1 tags[pk42:humanleatherfullmedium;pk42:humanleathercrudemedium;pk42:humanleathercrudewetmedium;pk42:humanleathercrudetannedmedium] mappers[SplitHumanLeatherMapper],
+            item 1 tags[base:sharpknife;base:scissors] mode:keep flags[IsNotDull;MayDegradeLight],
+        }
+
+        outputs
+        {
+            item 2 mapper:SplitHumanLeatherMapper,
+        }
+
+        itemMapper SplitHumanLeatherMapper
+        {
+            PK42.Human_Leather_Full_Small = PK42.Human_Leather_Full_Medium,
+            PK42.Human_Leather_Crude_Small = PK42.Human_Leather_Crude_Medium,
+            PK42.Human_Leather_Crude_Small_Tan_Wet = PK42.Human_Leather_Crude_Medium_Tan_Wet,
+            PK42.Human_Leather_Crude_Small_Tan = PK42.Human_Leather_Crude_Medium_Tan,
+        }
+    }
+
+    craftRecipe MakeLargeHumanLeather
+    {
+        time = 150,
+        Tags = AnySurfaceCraft,
+        timedAction = Making,
+        category = Psychopath,
+
+        inputs
+        {
+            item 2 tags[pk42:humanleathercrudetannedmedium],
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:heavythread],
+            item 1 tags[base:awl] mode:keep flags[MayDegradeLight],
+        }
+
+        outputs
+        {
+            item 1 PK42.Human_Leather_Crude_Large_Tan,
+        }
+    }
+
+    /* ----------------- FULL PROCESS END ------------------- */
+    /* The following recipes are for crafting items with human leather */
+    
+    craftRecipe SewEnhancedCrudeLeatherBackpack
+    {
+        timedAction = SewingCloth,
+        time = 300,
+        xpAward = Tailoring:45;Insanity:45,
+        AllowBatchCraft = false,
+        Tags = AnySurfaceCraft,
+        category = Tailoring,
+        AutolearnAll = Insanity:10,
+        SkillRequired = Tailoring:7;Insanity:10,
+        NeedToBeLearn = true,
+        inputs
+        {
+            item 1 tags[base:scissors;base:sharpknife] mode:keep flags[IsNotDull;MayDegradeLight],
+            item 1 tags[base:sewingneedle] mode:keep flags[MayDegradeLight],
+            item 1 tags[base:awl] mode:keep flags[MayDegradeLight],
+            item 4 tags[pk42:humanleathercrudetannedlarge],
+            item 8 tags[base:heavythread],
+            item 8 [Base.LeatherStrips;Base.Rope] mode:destroy,
+        }
+        outputs
+        {
+            item 1 PK42.Bag_EnhancedCrudeLeatherBag,
+        }
+    }
+}

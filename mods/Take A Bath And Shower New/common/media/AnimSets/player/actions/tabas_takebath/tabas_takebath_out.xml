@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>tabas_takebath_out</m_Name>
+	<m_AnimName>Bob_BathTimeGetUp</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_deferredBoneAxis>Z</m_deferredBoneAxis>
+	<m_BlendTime>0.40</m_BlendTime>
+	<m_blendOutTime>0.40</m_blendOutTime>
+	<m_SpeedScale>BathGetupSpeed</m_SpeedScale>
+	<m_DeferredBoneName></m_DeferredBoneName>
+
+	<m_Conditions x_name="2bf6b647-ff5d-478e-b7e9-a8aca8924084">
+		<m_Name>PerformingAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>TABAS_BathOut</m_Value>
+	</m_Conditions>
+
+	<m_Events x_name="ca328681-365f-4954-9b6e-580c690d7b37">
+		<m_EventName>SetVariable</m_EventName>
+		<m_TimePc>0.98</m_TimePc>
+		<m_ParameterValue>TABAS_BathEnded=true</m_ParameterValue>
+	</m_Events>
+
+	<m_Events x_name="a421e122-5c93-4a94-b350-afa611241077">
+		<m_EventName>TABAS_PlaySound</m_EventName>
+		<m_TimePc>0.35</m_TimePc>
+		<m_ParameterValue>tabas_bath_getup</m_ParameterValue>
+	</m_Events>
+
+	<m_SubStateBoneWeights>
+		<boneName>Bip01</boneName>
+	</m_SubStateBoneWeights>
+	<m_SubStateBoneWeights>
+		<boneName>Translation_Data</boneName>
+	</m_SubStateBoneWeights>
+</animNode>

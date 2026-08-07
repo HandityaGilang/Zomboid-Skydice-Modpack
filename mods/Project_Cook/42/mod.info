@@ -1,0 +1,10 @@
+name=Project Cook [Legacy]
+id=Project_Cook
+poster=poster.png
+icon=icon.png
+author=Rocco, Afyrmo
+modversion=1.3.1
+versionMin=42.10
+versionMax=42.14
+require=NeatUI_Framework
+description=Adds a cooking recipe browser and helper UI for Project Zomboid. Includes support for older B42 builds and Build 42.15+ through separate internal mod variants, with Build 42.19 compatibility maintenance.

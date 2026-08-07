@@ -1,0 +1,4 @@
+Recipes_JP = {
+    Recipe_DismantleTCElectronics = "音楽プレーヤーを分解する",
+    Recipe_DismantleWalkmanElectronics = "ポータブルプレーヤーを分解する",
+}

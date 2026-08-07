@@ -1,0 +1,10 @@
+ContextMenu_PL = {
+	ContextMenu_WVMNoPower = "Brak zasilania.",
+	ContextMenu_WVMSnackInChute = "W zsypie utknęła przekąska.",
+	ContextMenu_WVMSoldOut = "Automat jest pusty.",
+	ContextMenu_WVMNoMoneyDrink = "Są tu napoje, ale nie mam pieniędzy.",
+	ContextMenu_WVMNoMoneySnack = "Są tu przekąski, ale nie mam pieniędzy.",
+	ContextMenu_WVMBuyDrink = "Kup napój",
+	ContextMenu_WVMBuySnack = "Kup przekąskę",
+	ContextMenu_WVMStrikeMachine = "Uderz w automat",
+}

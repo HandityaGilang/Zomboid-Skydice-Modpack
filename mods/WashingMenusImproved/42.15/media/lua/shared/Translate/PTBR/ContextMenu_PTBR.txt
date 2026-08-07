@@ -1,0 +1,6 @@
+ContextMenu_PTBR = {
+	ContextMenu_BagsEquipped = "Bolsas Equipadas",
+	ContextMenu_WMI_Bandages = "Bandagens",
+	Tooltip_WMI_TaintedAllowed = "Permitido pelas configurações do mundo.",
+	Tooltip_WMI_TaintedBlocked = "Bloqueado pelas configurações do mundo.",
+}

@@ -1,0 +1,7 @@
+{
+  "Sandbox_WashSmart": "세척 메뉴 개선",
+  "Sandbox_WashSmart_AllowTaintedWater": "오염된 물로 천류 세척 허용",
+  "Sandbox_WashSmart_AllowTaintedWater_tooltip": "활성화 시 오염된 물로 헝겊, 붕대, (데님/가죽) 스트립을 세척할 수 있습니다.",
+  "Sandbox_WashSmart_BandageWaterPerItem": "붕대/조각당 물 소모량",
+  "Sandbox_WashSmart_BandageWaterPerItem_tooltip": "물 공급원에서 더러운 붕대, 걸레(찢은 천), 데님 스트립, 가죽 스트립을 씻을 때 아이템 1개당 소비되는 물의 양입니다. 기본값: 4.0."
+}

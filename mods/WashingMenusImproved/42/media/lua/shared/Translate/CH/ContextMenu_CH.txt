@@ -1,0 +1,6 @@
+ContextMenu_CH = {
+	ContextMenu_BagsEquipped = "已裝備的背包",
+	ContextMenu_WMI_Bandages = "繃帶",
+	Tooltip_WMI_TaintedAllowed = "由世界設定允許。",
+	Tooltip_WMI_TaintedBlocked = "由世界設定封鎖。",
+}

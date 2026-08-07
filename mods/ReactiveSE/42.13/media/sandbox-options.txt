@@ -1,0 +1,446 @@
+VERSION = 1,
+
+option ReactiveSE.MinEventCooldown {
+	type = integer,
+	min = 1,
+	max = 720,
+	default = 48,
+	page = ReactiveSE,
+	translation = ReactiveSE_MinEventCooldown,
+}
+
+option ReactiveSE.MaxEventCooldown {
+	type = integer,
+	min = 2,
+	max = 720,
+	default = 240,
+	page = ReactiveSE,
+	translation = ReactiveSE_MaxEventCooldown,
+}
+
+option ReactiveSE.EventChance {
+	type = integer,
+	min = 1,
+	max = 20,
+	default = 4,
+	page = ReactiveSE,
+	translation = ReactiveSE_EventChance,
+}
+
+option ReactiveSE.FlatProbability {
+	type = boolean,
+	default = true,
+	page = ReactiveSE,
+	translation = ReactiveSE_FlatProbability,
+}
+
+option ReactiveSE.MinSoundRange {
+	type = integer,
+	min = 120,
+	max = 1000,
+	default = 200,
+	page = ReactiveSE,
+	translation = ReactiveSE_MinSoundRange,
+}
+
+option ReactiveSE.MaxSoundRange {
+	type = integer,
+	min = 120,
+	max = 1000,
+	default = 600,
+	page = ReactiveSE,
+	translation = ReactiveSE_MaxSoundRange,
+}
+
+option ReactiveSE.ReactionThresholdRange {
+    type = integer,
+    min = 120,
+    max = 1000,
+    default = 300,
+    page = ReactiveSE,
+    translation = ReactiveSE_ReactionThresholdRange,
+}
+
+option ReactiveSE.CloseDistanceChance {
+	type = integer,
+	min = 0,
+	max = 100,
+	default = 20,
+	page = ReactiveSE,
+	translation = ReactiveSE_CloseDistanceChance,
+}
+
+option ReactiveSE.MediumDistanceChance {
+	type = integer,
+	min = 0,
+	max = 100,
+	default = 40,
+	page = ReactiveSE,
+	translation = ReactiveSE_MediumDistanceChance,
+}
+
+option ReactiveSE.FarDistanceChance {
+	type = integer,
+	min = 0,
+	max = 100,
+	default = 40,
+	page = ReactiveSE,
+	translation = ReactiveSE_FarDistanceChance,
+}
+
+option ReactiveSE.EnableZombieHearing {
+	type = boolean,
+	default = true,
+	page = ReactiveSE,
+	translation = ReactiveSE_EnableZombieHearing,
+}
+
+option ReactiveSE.EnableDebugMode {
+	type = boolean,
+	default = false,
+	page = ReactiveSE,
+	translation = ReactiveSE_EnableDebugMode,
+}
+
+option ReactiveSEEvents.EnableAnimalEvents {
+	type = boolean,
+	default = true,
+	page = ReactiveSEEvents,
+	translation = ReactiveSEEvents_EnableAnimalEvents,
+}
+
+option ReactiveSEEvents.EnableGunfightEvents {
+	type = boolean,
+	default = true,
+	page = ReactiveSEEvents,
+	translation = ReactiveSEEvents_EnableGunfightEvents,
+}
+
+option ReactiveSEEvents.EnableGunshotEvents {
+	type = boolean,
+	default = true,
+	page = ReactiveSEEvents,
+	translation = ReactiveSEEvents_EnableGunshotEvents,
+}
+
+option ReactiveSEEvents.EnableScreamEvents {
+	type = boolean,
+	default = true,
+	page = ReactiveSEEvents,
+	translation = ReactiveSEEvents_EnableScreamEvents,
+}
+
+option ReactiveSEEvents.EnableVehicleCrashEvents {
+	type = boolean,
+	default = true,
+	page = ReactiveSEEvents,
+	translation = ReactiveSEEvents_EnableVehicleCrashEvents,
+}
+
+option ReactiveSEEvents.EnableWeatherEvents {
+	type = boolean,
+	default = true,
+	page = ReactiveSEEvents,
+	translation = ReactiveSEEvents_EnableWeatherEvents,
+}
+
+option ReactiveSEEvents.EnableZombieEvents {
+	type = boolean,
+	default = true,
+	page = ReactiveSEEvents,
+	translation = ReactiveSEEvents_EnableZombieEvents,
+}
+
+option ReactiveSEBehavior.EnablePlayerStyle {
+	type = boolean,
+	default = true,
+	page = ReactiveSEBehavior,
+	translation = ReactiveSEBehavior_EnablePlayerStyle,
+}
+
+option ReactiveSEBehavior.AggressiveStyleKills {
+	type = integer,
+	min = 10,
+	max = 200,
+	default = 40,
+	page = ReactiveSEBehavior,
+	translation = ReactiveSEBehavior_AggressiveStyleKills,
+}
+
+option ReactiveSEBehavior.PassiveStyleDays {
+	type = integer,
+	min = 1,
+	max = 7,
+	default = 2,
+	page = ReactiveSEBehavior,
+	translation = ReactiveSEBehavior_PassiveStyleDays,
+}
+
+option ReactiveSEBehavior.EnablePlayerReactionPanic {
+	type = boolean,
+	default = true,
+	page = ReactiveSEBehavior,
+	translation = ReactiveSEBehavior_EnablePlayerReactionPanic,
+}
+
+option ReactiveSEBehavior.EnablePlayerReactionWakeUp {
+	type = boolean,
+	default = true,
+	page = ReactiveSEBehavior,
+	translation = ReactiveSEBehavior_EnablePlayerReactionWakeUp,
+}
+
+option ReactiveSEScenes.EnableEventScenes {
+    type = boolean,
+    default = true,
+    page = ReactiveSEScenes,
+    translation = ReactiveSEScenes_EnableEventScenes,
+}
+
+option ReactiveSEScenes.EventSceneChance {
+    type = integer,
+    min = 0,
+    max = 100,
+    default = 100,
+    page = ReactiveSEScenes,
+    translation = ReactiveSEScenes_EventSceneChance,
+}
+
+option ReactiveSEScenes.SceneCleanupHours {
+    type = integer,
+    min = 0,
+    max = 168,
+    default = 72,
+    page = ReactiveSEScenes,
+    translation = ReactiveSEScenes_SceneCleanupHours,
+}
+
+option ReactiveSEScenes.EnableGunfightScene {
+	type = boolean,
+	default = true,
+	page = ReactiveSEScenes,
+	translation = ReactiveSEScenes_EnableGunfightScene,
+}
+
+option ReactiveSEScenes.EnableGunshotScene {
+	type = boolean,
+	default = true,
+	page = ReactiveSEScenes,
+	translation = ReactiveSEScenes_EnableGunshotScene,
+}
+
+option ReactiveSEScenes.EnableScreamScene {
+	type = boolean,
+	default = true,
+	page = ReactiveSEScenes,
+	translation = ReactiveSEScenes_EnableScreamScene,
+}
+
+option ReactiveSEScenes.ScreamZombieCount {
+	type = integer,
+	min = 0,
+	max = 10,
+	default = 3,
+	page = ReactiveSEScenes,
+	translation = ReactiveSEScenes_ScreamZombieCount,
+}
+
+option ReactiveSEScenes.EnableVehicleCrashScene {
+	type = boolean,
+	default = true,
+	page = ReactiveSEScenes,
+	translation = ReactiveSEScenes_EnableVehicleCrashScene,
+}
+
+option ReactiveSEScenes.VehicleMaxCondition {
+    type = enum,
+	numValues = 5,
+    default = 2,
+    page = ReactiveSEScenes,
+    translation = ReactiveSEScenes_VehicleMaxCondition,
+	valueTranslation = ReactiveSEScenes_VehicleMaxCondition_Values,
+}
+
+option ReactiveSEScenes.VehicleKeyChance {
+    type = integer,
+    min = 0,
+    max = 100,
+    default = 25,
+    page = ReactiveSEScenes,
+    translation = ReactiveSEScenes_VehicleKeyChance,
+}
+
+option ReactiveSEScenes.EnableZombieScene {
+	type = boolean,
+	default = true,
+	page = ReactiveSEScenes,
+	translation = ReactiveSEScenes_EnableZombieScene,
+}
+
+option ReactiveSEScenes.ZombieSceneMin {
+	type = integer,
+	min = 1,
+	max = 20,
+	default = 8,
+	page = ReactiveSEScenes,
+	translation = ReactiveSEScenes_ZombieSceneMin,
+}
+
+option ReactiveSEScenes.ZombieSceneMax {
+	type = integer,
+	min = 1,
+	max = 20,
+	default = 16,
+	page = ReactiveSEScenes,
+	translation = ReactiveSEScenes_ZombieSceneMax,
+}
+
+option ReactiveSEScenes.EnableSceneSpawnNotify {
+	type = boolean,
+	default = true,
+	page = ReactiveSEScenes,
+	translation = ReactiveSEScenes_EnableSceneSpawnNotify,
+}
+
+option ReactiveSEScenes.SceneSpawnNotifyText {
+	type = boolean,
+	default = true,
+	page = ReactiveSEScenes,
+	translation = ReactiveSEScenes_SceneSpawnNotifyText,
+}
+
+option ReactiveSEScenes.SceneSpawnNotifyMarker {
+	type = boolean,
+	default = true,
+	page = ReactiveSEScenes,
+	translation = ReactiveSEScenes_SceneSpawnNotifyMarker,
+}
+
+option ReactiveSELoot.LootQuality {
+    type = enum,
+	numValues = 4,
+    default = 1,
+    page = ReactiveSELoot,
+    translation = ReactiveSELoot_LootQuality,
+	valueTranslation = ReactiveSELoot_LootQuality_Values,
+}
+
+option ReactiveSELoot.WeaponMaxCondition {
+    type = integer,
+    min = 10,
+    max = 100,
+    default = 100,
+    page = ReactiveSELoot,
+    translation = ReactiveSELoot_WeaponMaxCondition,
+}
+
+option ReactiveSELoot.RangedWeaponChance {
+    type = integer,
+    min = 0,
+    max = 100,
+    default = 10,
+    page = ReactiveSELoot,
+    translation = ReactiveSELoot_RangedWeaponChance,
+}
+
+option ReactiveSELoot.MinBackpackStealChance {
+    type = integer,
+    min = 0,
+    max = 100,
+    default = 0,
+    page = ReactiveSELoot,
+    translation = ReactiveSELoot_MinBackpackStealChance,
+}
+
+option ReactiveSELoot.MaxBackpackStealChance {
+    type = integer,
+    min = 0,
+    max = 100,
+    default = 70,
+    page = ReactiveSELoot,
+    translation = ReactiveSELoot_MaxBackpackStealChance,
+}
+
+option ReactiveSELoot.AmmoScarcity {
+    type = enum,
+	numValues = 4,
+    default = 2,
+    page = ReactiveSELoot,
+    translation = ReactiveSELoot_AmmoScarcity,
+	valueTranslation = ReactiveSELoot_AmmoScarcity_Values,
+}
+
+option ReactiveSELoot.SubKitCountMin {
+	type = integer,
+	min = 1,
+	max = 10,
+	default = 1,
+	page = ReactiveSELoot,
+	translation = ReactiveSELoot_SubKitCountMin,
+}
+
+option ReactiveSELoot.SubKitCountMax {
+	type = integer,
+	min = 1,
+	max = 10,
+	default = 3,
+	page = ReactiveSELoot,
+	translation = ReactiveSELoot_SubKitCountMax,
+}
+
+option ReactiveSEWorld.CorpseCount {
+    type = integer,
+    min = 2,
+    max = 8,
+    default = 3,
+    page = ReactiveSEWorld,
+    translation = ReactiveSEWorld_CorpseCount,
+}
+
+option ReactiveSEWorld.WorldTierEarlyEnd {
+	type = integer,
+	min = 1,
+	max = 365,
+	default = 7,
+	page = ReactiveSEWorld,
+	translation = ReactiveSEWorld_WorldTierEarlyEnd,
+}
+
+option ReactiveSEWorld.WorldTierMidEnd {
+	type = integer,
+	min = 2,
+	max = 365,
+	default = 30,
+	page = ReactiveSEWorld,
+	translation = ReactiveSEWorld_WorldTierMidEnd,
+}
+
+option ReactiveSEWorld.WorldTierLateEnd {
+	type = integer,
+	min = 3,
+	max = 365,
+	default = 90,
+	page = ReactiveSEWorld,
+	translation = ReactiveSEWorld_WorldTierLateEnd,
+}
+
+option ReactiveSERadio.EnableRadioFeature {
+	type = boolean,
+	default = true,
+	page = ReactiveSERadio,
+	translation = ReactiveSERadio_EnableRadioFeature,
+}
+
+option ReactiveSERadio.EnableMapMarker {
+	type = boolean,
+	default = true,
+	page = ReactiveSERadio,
+	translation = ReactiveSERadio_EnableMapMarker,
+}
+
+option ReactiveSERadio.EnableMorningShowXP {
+	type = boolean,
+	default = true,
+	page = ReactiveSERadio,
+	translation = ReactiveSERadio_EnableMorningShowXP,
+}

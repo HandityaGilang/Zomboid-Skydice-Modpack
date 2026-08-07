@@ -1,0 +1,6 @@
+ContextMenu_TR = {
+	ContextMenu_BagsEquipped = "Donanımlı Çantalar",
+	ContextMenu_WMI_Bandages = "Bandajlar",
+	Tooltip_WMI_TaintedAllowed = "Dünya ayarları izin veriyor.",
+	Tooltip_WMI_TaintedBlocked = "Dünya ayarları engelliyor.",
+}

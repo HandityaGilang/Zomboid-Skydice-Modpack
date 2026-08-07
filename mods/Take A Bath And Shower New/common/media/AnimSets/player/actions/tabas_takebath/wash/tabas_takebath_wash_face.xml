@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>tabas_takebath_wash_face</m_Name>
+	<m_AnimName>Bob_BathTimeWash_Face</m_AnimName>
+	<m_SpeedScale>1.00</m_SpeedScale>
+	<m_Looped>false</m_Looped>
+	<m_deferredBoneAxis>Y</m_deferredBoneAxis>
+	<m_SyncTrackingEnabled>false</m_SyncTrackingEnabled>
+	<m_BlendTime>0.40</m_BlendTime>
+	<m_blendOutTime>0.60</m_blendOutTime>
+	<m_EarlyTransitionOut>true</m_EarlyTransitionOut>
+	<m_Conditions x_name="1a25b9a3-b117-4160-b0f5-178c92fe4303">
+		<m_Name>PerformingAction</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>TABAS_TakeBath_Wash</m_Value>
+	</m_Conditions>
+	<m_Conditions x_name="e7e6669d-0b59-4641-b5ed-80eca0b62278">
+		<m_Name>TABAS_WashPart</m_Name>
+		<m_Type>STRING</m_Type>
+		<m_Value>Face</m_Value>
+	</m_Conditions>
+	<m_Events x_name="a421e122-5c93-4a94-b350-afa611241077">
+		<m_EventName>TABAS_PlayWashSound</m_EventName>
+		<m_TimePc>0.1</m_TimePc>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="41800598-61c5-4464-9d04-f084d871a95d">
+		<m_EventName>TABAS_PlaySound</m_EventName>
+		<m_TimePc>0.13</m_TimePc>
+		<m_ParameterValue>tabas_bath_smallsplush02</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="50c613a6-b98f-43d6-be36-2bfbb33ee66f">
+		<m_EventName>TABAS_PlaySound</m_EventName>
+		<m_TimePc>0.51</m_TimePc>
+		<m_ParameterValue>tabas_bath_smallsplush02</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="dadc17ae-7157-4107-b535-357c1b077dc2">
+		<m_EventName>TABAS_PlaySound</m_EventName>
+		<m_TimePc>0.79</m_TimePc>
+		<m_ParameterValue>tabas_bath_smallsplush02</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="00de1f10-34f1-4094-9f77-6b12086dd54d">
+		<m_EventName>TABAS_WashCleansed</m_EventName>
+		<m_TimePc>0.60</m_TimePc>
+		<m_ParameterValue />
+	</m_Events>
+	<m_Events x_name="1b9aba68-0c3e-4102-8e2f-1f2dcb8e187a">
+		<m_EventName>SetVariable</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue>TABAS_WashPartFinished=true</m_ParameterValue>
+	</m_Events>
+	<m_SubStateBoneWeights>
+		<boneName>Bip01</boneName>
+	</m_SubStateBoneWeights>
+	<m_SubStateBoneWeights>
+		<boneName>Translation_Data</boneName>
+	</m_SubStateBoneWeights>
+</animNode>

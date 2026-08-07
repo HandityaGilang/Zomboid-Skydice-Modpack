@@ -1,0 +1,7 @@
+{
+    "Sandbox_WashSmart": "洗浄メニューの改良",
+    "Sandbox_WashSmart_AllowTaintedWater": "汚染水で布・包帯を洗浄可",
+    "Sandbox_WashSmart_AllowTaintedWater_tooltip": "有効にすると、汚染水を使って布切れ、包帯、デニム／レザーの切れ端を洗浄できます。",
+    "Sandbox_WashSmart_BandageWaterPerItem": "包帯/ストリップあたりの水量",
+    "Sandbox_WashSmart_BandageWaterPerItem_tooltip": "水源で汚れた包帯・布きれ・デニムストリップ・レザーストリップを洗う際の、1個あたりの水消費量。既定値: 4.0。"
+}

@@ -1,0 +1,23 @@
+{
+    "Sandbox_PIP": "Plysken Irrigation Pipes",
+    "Sandbox_PIP_EnableAutoWatering": "เปิดใช้การรดน้ำอัตโนมัติ",
+    "Sandbox_PIP_EnableAutoWatering_tooltip": "เมื่อเปิด ท่อจะรดน้ำพืชที่อยู่ใกล้เคียงโดยอัตโนมัติจากถังน้ำฝนที่เชื่อมต่ออยู่",
+    "Sandbox_PIP_WateringInterval": "ช่วงเวลารดน้ำ (นาที)",
+    "Sandbox_PIP_WateringInterval_tooltip": "จำนวนนาทีในเกมระหว่างแต่ละรอบการรดน้ำ",
+    "Sandbox_PIP_WateringRadius": "รัศมีการรดน้ำ (ช่อง)",
+    "Sandbox_PIP_WateringRadius_tooltip": "0 = เฉพาะช่องที่ท่อตั้งอยู่เท่านั้น ค่ายิ่งสูงจะรดน้ำพืชในพื้นที่สี่เหลี่ยมรอบๆ ท่อแต่ละท่อ",
+    "Sandbox_PIP_SmartPipes": "ท่ออัจฉริยะ",
+    "Sandbox_PIP_SmartPipes_tooltip": "เมื่อเปิด ท่อจะเติมน้ำให้พืชจนถึงระดับน้ำที่เหมาะสมที่สุด เมื่อปิด จะเติมน้ำปริมาณคงที่เพียงเล็กน้อยในแต่ละรอบ",
+    "Sandbox_PIP_SmartPipesFillMax": "ปริมาณเติมสูงสุดของท่ออัจฉริยะ",
+    "Sandbox_PIP_SmartPipesFillMax_tooltip": "ระดับน้ำสูงสุดที่เติมให้พืชต่อรอบในโหมดท่ออัจฉริยะ",
+    "Sandbox_PIP_SharedWaterPool": "แหล่งน้ำรวม",
+    "Sandbox_PIP_SharedWaterPool_tooltip": "เมื่อเปิด ถังที่เชื่อมต่อในเครือข่ายเดียวกันจะแบ่งปันและปรับสมดุลน้ำกัน (ถังที่เต็มและถังที่ว่างจะเฉลี่ยเท่ากัน)",
+    "Sandbox_PIP_DebugLogs": "บันทึกดีบัก",
+    "Sandbox_PIP_DebugLogs_tooltip": "พิมพ์บันทึกภายในไปยังคอนโซล สำหรับการแก้ปัญหาเท่านั้น",
+    "Sandbox_PIP_EnableFertigation": "เปิดใช้การให้ปุ๋ยทางน้ำ",
+    "Sandbox_PIP_EnableFertigation_tooltip": "เมื่อเปิด ให้เทปุ๋ยหรือปุ๋ยหมักลงในถังที่เชื่อมต่อ แล้วเครือข่ายท่อจะให้ปุ๋ยพืชใกล้เคียงอัตโนมัติ (โดสปลอดภัยหนึ่งครั้งต่อต้น ไม่ให้ปุ๋ยเกิน) เปิดโดยค่าเริ่มต้น",
+    "Sandbox_PIP_FertigationSkill": "คุณภาพการให้ปุ๋ย (ทักษะเกษตร)",
+    "Sandbox_PIP_FertigationSkill_tooltip": "ระดับเกษตรจำลองที่ใช้ตอนให้ปุ๋ยอัตโนมัติ สูงขึ้น = โอกาสโบนัสผลผลิตมากขึ้น ไม่มีผลต่อความปลอดภัย",
+    "Sandbox_PIP_ChargesPerBag": "จำนวนโดสต่อถุงปุ๋ย/ปุ๋ยหมัก",
+    "Sandbox_PIP_ChargesPerBag_tooltip": "หนึ่งถุงที่เทให้ปุ๋ยพืชได้กี่ต้น ไม่ขึ้นกับปริมาณน้ำในถัง"
+}

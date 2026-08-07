@@ -1,0 +1,6 @@
+{
+    "UI_SSI_OptEnabled": "Enable Indicator",
+    "UI_SSI_OptEnabled_TT": "Show season icons on seed items in inventory",
+    "UI_SSI_OptTooltip": "Show season info in tooltip",
+    "UI_SSI_OptTooltip_TT": "Add sowing season months to the tooltip of seeds and seed packets. Automatically disabled when another mod that adds sowing season info to tooltips is detected."
+}

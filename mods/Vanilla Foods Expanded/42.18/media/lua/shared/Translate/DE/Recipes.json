@@ -1,0 +1,430 @@
+{
+    "VFX_OpenInsectCan": "Dose öffnen",
+    "VFX_OpenBoxOfSmallCannedFood": "Open Box Of Canned Food",
+    "VFX_PackBoxOfSmallCannedFood": "Pack Box of Canned Food",
+
+    "VFX_OpenJar": "Glas öffnen",
+    "VFX_OpenJarofPickles": "Open Jar",
+
+    "VFX_TakeBouillonCubeFromBox": "Brühwürfel aus Packung nehmen",
+
+    "VFX_OpenBoxSoupSachet": "Karton Suppenbeutel öffnen",
+    "VFX_PrepareSoup_Pumpkin": "Suppe zubereiten - Kürbis",
+    "VFX_PrepareSoup_PeaAndHam": "Suppe zubereiten - Erbse und Schinken",
+    "VFX_PrepareSoup_ChickenNoodle": "Suppe zubereiten - Hühnernudel",
+    "VFX_PrepareSoup_Tomato": "Suppe zubereiten - Tomate",
+
+    "VFX_OpenBoxRamen": "Ramen-Karton öffnen",
+    "VFX_OpenPacketRamen": "Ramen-Packung öffnen",
+    "VFX_PrepareRamen": "Ramen zubereiten",
+
+    "VFX_PreparePacketPasta": "Nudel-Packung zubereiten",
+    "VFX_PreparePacketPastaCopper": "Prepare Packet Pasta",
+    "VFX_PreparePacketRice": "Reis-Packung zubereiten",
+    "VFX_PreparePacketRiceCopper": "Prepare Packet Rice",
+
+    "VFX_PrepareFreshPastaSaucepan": "Frische Nudeln in Stieltopf zubereiten",
+    "VFX_PrepareFreshPastaSaucepanCopper": "Prepare Copper Saucepan of Pasta",
+    "VFX_PrepareFreshPastaPot": "Frische Nudeln in Kochtopf zubereiten",
+    "VFX_PrepareFreshPastaPotForged": "Prepare Forged Cooking Pot of Pasta",
+
+    "VFX_PreparePastaSaucepan": "Prepare Saucepan of Pasta",
+    "VFX_PreparePastaSaucepanCopper": "Prepare Copper Saucepan of Pasta",
+    "VFX_PreparePastaPot": "Prepare Cooking Pot of Pasta",
+    "VFX_PreparePastaPotForged": "Prepare Forged Cooking Pot of Pasta",
+
+    "VFX_PrepareRiceSaucepan": "Prepare Saucepan of Rice",
+    "VFX_PrepareRiceSaucepanCopper": "Prepare Copper Saucepan of Rice",
+    "VFX_PrepareRicePot": "Prepare Cooking Pot of Rice",
+    "VFX_PrepareRicePotForged": "Prepare Forged Cooking Pot of Rice",
+
+    "VFX_PrepareMarinara": "Marinara-Sauce zubereiten",
+    "VFX_PrepareSpicyMarinara": "Scharfe Marinara-Sauce zubereiten",
+    "VFX_PrepareMeatSauce": "Fleischsauce zubereiten",
+    "VFX_PrepareBasilPesto": "Basilikum-Pesto zubereiten",
+    "VFX_PrepareAlfredoSauce": "Alfredo-Sauce zubereiten",
+    "VFX_PrepareBechamelSauce": "Béchamel-Sauce zubereiten",
+
+    "VFX_OpenHomemadePastaSauce": "Hausgemachte Pasta-Sauce öffnen",
+
+    "VFX_MakeBowlOfCereal": "Schale Müsli zubereiten",
+    "VFX_MakeBowlOfGranola": "Schale Granola zubereiten",
+
+    "VFX_OpenSnackCakeBox": "Snack-Kuchen-Packung öffnen",
+    "VFX_OpenToasterStrudelBox": "Pop-Tarts-Packung öffnen",
+    "VFX_OpenPackagedStrudel": "Pop-Tarts öffnen",
+    "VFX_OpenPuddingBox": "Pudding-Becher-Packung öffnen",
+    "VFX_OpenJelloBox": "Wackelpudding-Becher-Packung öffnen",
+    "VFX_OpenFruitCupBox": "Obstbecher-Packung öffnen",
+    "VFX_OpenGranolaBarBox": "Müsliriegel-Packung öffnen",
+
+    "VFX_MakeCakeBatter": "Kuchenteig zubereiten",
+    "VFX_PutCakeInBakingPan": "Kuchen in Backform geben",
+    "VFX_SliceCake": "Kuchen schneiden",
+
+    "VFX_PrepareFrenchVanillaCake": "French Vanilla Cake zubereiten",
+    "VFX_PrepareCarrotCake": "Karottenkuchen zubereiten",
+    "VFX_PrepareChocolateCake": "Schokoladenkuchen zubereiten",
+    "VFX_PrepareRedVelvetCake": "Red Velvet Cake zubereiten",
+    "VFX_PrepareStrawberryCake": "Erdbeerkuchen zubereiten",
+    "VFX_PrepareCaramelCake": "Karamelkuchen zubereiten",
+    "VFX_PrepareOrangePoppyseedCake": "Orangen-Mohnkuchen zubereiten",
+    "VFX_PrepareConfettiCake": "Konfetti-Kuchen zubereiten",
+    "VFX_PrepareSpiceCake": "Gewürzkuchen zubereiten",
+    "VFX_PrepareYellowCake": "Yellow Cake zubereiten",
+
+    "VFX_MakeMuffinBatter": "Muffin-Teig zubereiten",
+    "VFX_PrepareMuffinTray": "Muffins zubereiten",
+    "VFX_GetMuffinsFromTray": "6 Muffins vom Blech nehmen",
+
+    "VFX_PrepareAppleCinnamonMuffins": "Apfel-Zimt-Muffins zubereiten",
+    "VFX_PrepareBlueberryMuffins": "Blaubeer-Muffins zubereiten",
+    "VFX_PrepareChocolateChipMuffins": "Schokochip-Muffins zubereiten",
+    "VFX_PrepareDoubleChocolateMuffins": "Doppel-Schoko-Muffins zubereiten",
+    "VFX_PrepareCornMuffins": "Mais-Muffins zubereiten",
+    "VFX_PrepareLemonPoppyMuffins": "Zitronen-Mohn-Muffins zubereiten",
+
+    "VFX_MakeBrownieBatter": "Brownie-Teig zubereiten",
+    "VFX_PrepareBrownieTray": "Brownies zubereiten",
+    "VFX_GetBrowniesFromTray": "6 Brownies vom Blech nehmen",
+    "VFX_PrepareBrownies": "Prepare Brownies",
+
+    "VFX_MakeCookieDough": "Keksteig zubereiten",
+    "VFX_Get6Cookies": "6 Kekse vom Blech nehmen",
+    "VFX_PreparePeanutButterCookieDough": "Erdnussbutter-Keksteig zubereiten",
+    "VFX_PrepareGingerbreadCookieDough": "Lebkuchen-Keksteig zubereiten",
+    "VFX_PrepareSnickerdoodleCookieDough": "Snickerdoodle-Keksteig zubereiten",
+
+    "VFX_PrepareDessertBread": "Süßbrot backen",
+    "VFX_SliceDessertBread": "Süßbrot schneiden",
+    "VFX_PrepareBananaBread": "Bananenbrot zubereiten",
+    "VFX_PreparePumpkinBread": "Kürbisbrot zubereiten",
+    "VFX_PrepareChocolateSwirlBread": "Schokoladen-Spiralbrot zubereiten",
+    "VFX_PrepareCinnamonSwirlBread": "Zimt-Spiralbrot zubereiten",
+    "VFX_PrepareCranberryBread": "Cranberry-Brot zubereiten",
+
+    "VFX_PrepareBiscuits": "Kekse zubereiten",
+    "VFX_Get6Biscuits": "6 Kekse vom Blech nehmen",
+    "VFX_PrepareCheddarBiscuits": "Cheddar-Biscuits zubereiten",
+    "VFX_PrepareHomestyleBiscuits": "Hausgemachte Biscuits zubereiten",
+
+    "VFX_PreparePuddingMix": "Puddingmischung zubereiten",
+
+    "VFX_PrepareCaramelFrosting": "Karamell-Glasur  zubereiten",
+    "VFX_PrepareChocolateFrosting": "Schoko-Glasur  zubereiten",
+    "VFX_PrepareLemonFrosting": "Zitronen-Glasur  zubereiten",
+    "VFX_PrepareStrawberryFrosting": "Erdbeer-Glasur  zubereiten",
+    "VFX_PrepareCreamCheeseFrosting": "Frischkäse-Glasur zubereiten",
+    "VFX_PrepareConfettiFrosting": "Konfetti-Glasur  zubereiten",
+    "VFX_PrepareVanillaFrosting": "Vanille-Glasur  zubereiten",
+
+    "VFX_MakeJello": "Wackelpudding zubereiten",
+
+    "VFX_SlicePizza": "Pizza schneiden",
+    "VFX_OpenBag": "Beutel öffnen",
+    "VFX_OpenUncrustablesBox": "Uncrustables-Packung öffnen",
+    "VFX_OpenPizzaRollBox": "Pizza-Rollen-Packung öffnen",
+    "VFX_OpenBreakfastSandwichBox": "Frühstücks-Sandwich-Packung öffnen",
+    "VFX_ScoopIceCream": "Eis portionieren",
+
+    "VFX_SlicePotato": "Kartoffel schneiden",
+    "VFX_PrepareMashedPotato": "Kartoffelpüree zubereiten",
+
+    "VFX_MakePancakes": "Pfannkuchen zubereiten",
+    "VFX_MakeWaffles": "Waffeln backen",
+    "VFX_MakeGravy": "Make Gravy with Bouillion",
+    "VFX_MakeGravyStock": "Make Gravy with Stock",
+    "VFX_MakeBagels": "Bagels backen",
+    "VFX_MakePoppyBagels": "Mohn-Bagels backen",
+    "VFX_MakeSesameBagels": "Sesam-Bagels backen",
+    "VFX_MakeCornbread": "Maisbrot backen",
+    "VFX_MakeCroissants": "Croissants backen",
+    "VFX_MakeTortillas": "Tortillas zubereiten",
+    "VFX_MakeDoughnuts": "Make Donuts",
+    "VFX_MakeChocolateDoughnuts": "Make Chocolate Donuts",
+    "VFX_MakeFrostedDoughnuts": "Make Frosted Donuts",
+    "VFX_MakeFriedOysters": "Gebratene Austern zubereiten",
+    "VFX_MakeFriedFish": "Gebratenen Fisch zubereiten",
+    "VFX_MakeFriedTofu": "Gebratenen Tofu zubereiten",
+    "VFX_MakeMeatDumplings": "Fleischklöße zubereiten",
+    "VFX_MakeShrimpDumplings": "Garnelen-Klöße zubereiten",
+    "VFX_MakePotatoPancakes": "Kartoffelpuffer zubereiten",
+
+    "VFX_Make2Bowls": "2 Schalen herstellen",
+    "VFX_Make4Bowls": "4 Schalen herstellen",
+    "VFX_Make2Plates": "2 Teller herstellen",
+    "VFX_Make4Plates": "4 Teller herstellen",
+
+    "VFX_MakeDrinkMixPitcher": "Make Pitcher of Drink Mix",
+    "VFX_TakeTeaBagFromBox": "Teebeutel aus Packung nehmen",
+    "VFX_MakeProteinShake": "Make Protein Shake",
+    "VFX_OpenBottleOfWine": "Weinflasche öffnen",
+    "VFX_OpenBottleOfBeer": "Bierflasche öffnen",
+    "VFX_OpenPackOfBeer": "Bierpackung öffnen",
+
+    "VFX_PrepareLasagna": "Lasagne zubereiten",
+    "VFX_PrepareMeatloaf": "Hackbraten zubereiten",
+    "VFX_PrepareBakedPotato": "Ofenkartoffel zubereiten",
+    "VFX_PrepareScallopedPotatoBake": "Kartoffelgratin zubereiten",
+    "VFX_PrepareQuiche": "Quiche zubereiten",
+    "VFX_PrepareNachos": "Nachos zubereiten",
+    "VFX_PrepareEnchilada": "Enchilada zubereiten",
+    "VFX_PrepareCheesecake": "Käsekuchen zubereiten",
+    "VFX_PrepareMilkshake": "Prepare Milkshake",
+    "VFX_PrepareSushi": "Sushi zubereiten",
+    "VFX_PrepareFriedRice": "Gebratenen Reis zubereiten",
+    "VFX_GetBakedPotato": "Ofenkartoffel entnehmen",
+    "VFX_SliceCheesecake": "Käsekuchen schneiden",
+
+    "VFX_PrepareShephardsPie": "Shepherd's Pie zubereiten",
+    "VFX_PrepareTunaCasserole": "Thunfischauflauf zubereiten",
+    "VFX_PrepareBakedZiti": "Gebackene Ziti zubereiten",
+    "VFX_PrepareStuffedBellPeppers": "Gefüllte Paprika zubereiten",
+    "VFX_GetStuffedBellPeppers": "Gefüllte Paprika entnehmen",
+    "VFX_PrepareChickenPotPie": "Chicken Pot Pie zubereiten",
+    "VFX_PrepareMoussaka": "Moussaka zubereiten",
+    "VFX_PrepareChickenDivan": "Chicken Divan zubereiten",
+    "VFX_PrepareSalisburySteak": "Salisbury Steak zubereiten",
+    "VFX_PrepareFishandChips": "Fish and Chips zubereiten",
+    "VFX_PrepareBangersandMash": "Bangers and Mash zubereiten",
+    "VFX_PrepareFullEnglishBreakfast": "Volles englisches Frühstück zubereiten",
+    "VFX_PrepareHalfEnglishBreakfast": "Halbes englisches Frühstück zubereiten",
+    "VFX_PrepareScotchEgg": "Scotch Egg zubereiten",
+    "VFX_PrepareSausageAndAppleFry": "Wurst-Apfel-Pfanne zubereiten",
+    "VFX_PrepareBeansOnToast": "Bohnen auf Toast zubereiten",
+    "VFX_PrepareButterChicken": "Butter Chicken zubereiten",
+    "VFX_PrepareThaiGreenCurry": "Thailändisches grünes Curry zubereiten",
+    "VFX_PrepareMassamanCurry": "Massaman-Curry zubereiten",
+    "VFX_PrepareChanaMasala": "Chana Masala zubereiten",
+    "VFX_PrepareSweetPotatoChickpeaCurry": "Süßkartoffel-Kichererbsen-Curry zubereiten",
+    "VFX_PrepareTofuCurry": "Tofu-Curry zubereiten",
+
+    "VFX_OpenCandyBag": "Süßigkeiten-Tüte öffnen",
+
+    "VFX_OpenPackSausages": "Wurstpackung öffnen",
+    "VFX_OpenPackMeatballs": "Hackbällchen-Packung öffnen",
+
+    "VFX_SliceBakingPie": "Tiefkühlkuchen schneiden",
+    "VFX_SliceFrozenPie": "Slice Pie",
+
+    "VFX_PreparePieFilling": "Kuchen zubereiten",
+
+    "VFX_PrepareApplePie": "Apfelkuchen zubereiten",
+    "VFX_PrepareCherryPie": "Kirschkuchen zubereiten",
+    "VFX_PrepareBlueberryPie": "Blaubeerkuchen zubereiten",
+    "VFX_PrepareStrawberryPie": "Erdbeerkuchen zubereiten",
+    "VFX_PreparePeachPie": "Pfirsichkuchen zubereiten",
+    "VFX_PrepareMixedBerryPie": "Beerenkuchen zubereiten",
+    "VFX_PrepareLemonCreamPie": "Zitronen-Sahne-Kuchen zubereiten",
+    "VFX_PrepareBlackberryPie": "Brombeerkuchen zubereiten",
+    "VFX_PrepareRaspberryPie": "Himbeerkuchen zubereiten",
+    "VFX_PreparePumpkinPie": "Kürbiskuchen zubereiten",
+    "VFX_PrepareSweetPotatoPie": "Süßkartoffelkuchen zubereiten",
+    "VFX_PreparePecanPie": "Pekannuss-Kuchen zubereiten",
+
+    "VFX_MakeSpiceRackSmallLight": "Kleines helles Gewürzregal herstellen",
+    "VFX_MakeSpiceRackSmallDark": "Kleines dunkles Gewürzregal herstellen",
+    "VFX_MakeSpiceRackLargeLight": "Großes helles Gewürzregal herstellen",
+    "VFX_MakeSpiceRackLargeDark": "Großes dunkles Gewürzregal herstellen",
+
+    "VFX_MakeSourdoughStarter": "Make Sourdough Starter",
+    "VFX_FeedSourdoughStarter": "Feed Sourdough Starter",
+
+    "VFX_MakeSourdough": "Make Sourdough",
+    "VFX_MakeSourdoughBaguette": "Make Sourdough Baguette",
+    "VFX_MakeSourdoughHamburgerBuns": "Make Sourdough Hamburger Buns",
+    "VFX_MakeSourdoughHotdogBuns": "Make Sourdough Hotdog Buns",
+    "VFX_MakeSourdoughBreadsticks": "Make Sourdough Breadsticks",
+
+    "VFX_MakeHamburgerBuns": "Make Hamburger Buns",
+    "VFX_MakeHotdogBuns": "Make Hotdog Buns",
+
+    "VFX_MakeBrioche": "Make Brioche",
+    "VFX_MakeBeerBread": "Make Beer Bread",
+    "VFX_MakeMilkBread": "Make Milk Bread",
+    "VFX_MakeFrybread": "Make Frybread",
+    "VFX_MakeEnglishMuffins": "Make English Muffins",
+    "VFX_MakePitaBread": "Make Pita Bread",
+    "VFX_MakeFocaccia": "Make Focaccia",
+    "VFX_MakeNaanBread": "Make Naan Bread",
+    "VFX_MakeCrumpets": "Make Crumpets",
+    "VFX_MakeBreadsticks": "Make Breadsticks",
+    "VFX_MakePretzels": "Make Pretzels",
+
+    "VFX_MakeRyeBread": "Make Rye Bread",
+    "VFX_MakeRyeSourdough": "Make Sourdough",
+    "VFX_MakePumpernickel": "Make Pumpernickel",
+
+    "VFX_MakeBarleyBread": "Make Barley Bread",
+    "VFX_MakeBarleySourdough": "Make Barley Sourdough",
+
+    "VFX_MakeFlatbread": "Make Flatbread",
+    "VFX_MakeSoupDumplings": "Make Soup Dumplings",
+    "VFX_MakeScones": "Make Scones",
+
+    "VFX_MakePizzaDough": "Make Pizza Dough",
+    "VFX_MakeSourdoughPizzaDough": "Make Sourdough Pizza Dough",
+    "VFX_MakeFlatbreadPizzaDough": "Make Flatbread Pizza Dough",
+    "VFX_MakeHomemadePasta": "Make Homemade Pasta",
+    "VFX_MakeHomemadeGnocchi": "Make Homemade Gnocchi",
+
+    "VFX_MillRyeFlour": "Mill Rye Flour",
+    "VFX_GrindRyeFlour": "Grind Rye Flour",
+    "VFX_MillBarleyFlour": "Mill Barley Flour",
+    "VFX_GrindBarleyFlour": "Grind Barley Flour",
+    "VFX_GrindOatFlour": "Grind Oat Flour",
+    "VFX_GrindAcornFlour": "Grind Acorn Flour",
+    "VFX_GrindFlourMortarPestle": "Grind Flour with a Mortar and Pestle",
+    "VFX_GrindOatFlourMortarPestle": "Grind Flour with a Mortar and Pestle",
+    "VFX_GrindAcornFlourMortarPestle": "Grind Acorn Flour with a Mortar and Pestle",
+
+    "MakeSugarBeetPulpPot": "Make Sugar Beet Pulp",
+    "GetSugarBeetSugar": "Get Sugar Beet Sugar",
+    "GetSugarBeetMolasses": "Get Sugar Beet Molasses",
+
+    "VFX_PrepareSlowCookedBoneBroth": "Prepare Bone Broth",
+
+    "VFX_MakeSourdoughHotDog": "Make Sourdough Hotdog",
+    "VFX_MakeSausageHotdog": "Make Sausage Hotdog",
+    "VFX_MakeSourdoughSausageHotdog": "Make Sourdough Sausage Hotdog",
+
+    "VFX_PrepareHomemadeJam": "Prepare Homemade Jam",
+    "VFX_PrepareHomemadeButter": "Prepare Homemade Butter",
+    "VFX_PrepareHomemadeAppleButter": "Prepare Homemade Apple Butter",
+    "VFX_PreparePowderedSugar": "Prepare Powdered Sugar",
+    "VFX_PrepareBrownSugar": "Prepare Brown Sugar",
+
+    "VFX_MakeSandwich": "Make Sandwich",
+
+    "VFX_MakeSourdoughToast": "Make Sourdough Toast",
+    "VFX_MakeBeerBreadToast": "Make Beer Bread Toast",
+    "VFX_MakeMilkBreadToast": "Make Milk Bread Toast",
+    "VFX_MakeBriocheToast": "Make Brioche Toast",
+    "VFX_MakeFocacciaBreadToast": "Make Focaccia Bread Toast",
+    "VFX_MakeBarleyBreadToast": "Make Barley Bread Toast",
+    "VFX_MakeBarleySourdoughToast": "Make Barley Sourdough Toast",
+    "VFX_MakeRyeBreadToast": "Make Rye Bread Toast",
+    "VFX_MakeRyeSourdoughToast": "Make Sourdough Toast",
+    "VFX_MakePumpernickelToast": "Make Pumpernickel Toast",
+
+    "VFX_PrepareHomemadeSauceTomato": "Prepare Homemade Tomato Sauce",
+    "VFX_PrepareHomemadeSauceOil": "Prepare Homemade Oil Sauce",
+    "VFX_PrepareHomemadeSauceCream": "Prepare Homemade Cream Sauce",
+    "VFX_PrepareHomemadeSauceStock": "Prepare Homemade Stock Sauce",
+    "VFX_PrepareHomemadeSauceVinegar": "Prepare Homemade Vinegar Sauce",
+
+    "VFX_MakePizza": "Make Pizza",
+
+    "VFX_MakeBagelDough": "Make Bagel Dough",
+    "VFX_MakeCroissantDough": "Make Croissant Dough",
+    "VFX_MakeDoughnutDough": "Make Donut Dough",
+    "VFX_MakeChocolateDoughnut": "Make Chocolate Donut Dough",
+
+    "VFX_MakeFriedFood": "Prepare Fried Food",
+
+    "VFX_MakeDumplingWrappers": "Make Dumpling Wrappers",
+
+    "VFX_MakeJarWithLid": "Make Jar with Lid",
+    "VFX_SeperateJarWithLid": "Seperate Jar with Lid",
+    "VFX_MakeSmallGlassJar": "Make Small Glass Jar",
+    "VFX_MakeSmallJarWithLid": "Make Small Jar with Lid",
+    "VFX_SeperateSmallJarWithLid": "Seperate Small Jar with Lid",
+
+    "VFX_MakeBeerBottle": "Make Beer Bottle",
+    "VFX_MakeWineBottle": "Make Wine Bottle",
+    "VFX_MakeBottleCaps": "Forge Bottle Caps",
+    "VFX_MakeWineCorks": "Carve Wine Corks",
+
+    "VFX_MakeFoodContainer": "Pour Food into Container",
+    "VFX_MakeMetalFoodContainer": "Pour Food into Container",
+    "VFX_WeldingMakeMetalFoodContainer": "Forge Metal Food Container",
+
+    "VFX_MakeCannedBowl": "Pour Canned Meal into Bowl",
+
+    "VFX_MakeHeavyCream": "Make Heavy Cream",
+    "VFX_MakeSourCream": "Make Sour Cream",
+
+    "VFX_MakeEvaporatedMilkPreparation": "Make Evaporated Milk Preparation",
+    "VFX_GetEvaporatedMilk": "Get Evaporated Milk",
+
+    "VFX_MakeCulturedButtermilk": "Make Cultured Buttermilk",
+
+    "VFX_MakeYogurtPreparation": "Make Yogurt Preparation",
+    "VFX_MakeYogurt": "Make Yogurt",
+    "VFX_MakeGreekYogurt": "Make Greek Yogurt",
+
+    "VFX_MakeIceCream": "Make Ice Cream",
+
+    "VFX_MakeCottageCheesePreparation": "Make Cottage Cheese Preparation",
+    "VFX_StrainCottageCheese": "Strain Cottage Cheese",
+
+    "VFX_MakeCreamCheese": "Make Cream Cheese",
+
+    "VFX_MakeFrenchCheeseCurds": "Make French Cheese Curds",
+    "VFX_PressBrieCheese": "Press Brie Cheese",
+    "VFX_PressCamembertCheese": "Press Camembert Cheese",
+
+    "VFX_PressMozzarellaCheeseCurds": "Press Mozzarella Cheese Curds",
+    "VFX_StretchMozzarella": "Stretch Mozzarella",
+
+    "VFX_MakeSwissCheeseCurds": "Make Swiss Cheese Curds",
+    "VFX_PressSwissCheese": "Press Swiss Cheese",
+
+    "VFX_MakeParmesanCheeseCurds": "Make Parmesan Cheese Curds",
+    "VFX_PressParmesanCheese": "Press Parmesan Cheese Curds",
+
+    "VFX_MakeFetaCurds": "Make Feta Cheese Curds",
+    "VFX_PressFetaCheese": "Press Feta Cheese",
+
+    "VFX_MakeBlueCheeseCurds": "Make Blue Cheese Curds",
+    "VFX_PressBlueCheese": "Press Blue Cheese",
+
+    "VFX_MakeCheddarCheeseCurds": "Make Cheddar Cheese Curds",
+    "VFX_PressCheddarCheese": "Press Cheddar Cheese",
+
+    "VFX_CutCheeseWheeel": "Cut Cheese Wheel",
+    "VFX_MakeWoodenCheeseMold": "Make Wooden Cheese Mold",
+
+    "VFX_UnpackStarterBox": "Unpack Box of Starters",
+    "VFX_UnpackStarterBoxVariety": "Unpack Box of Starters",
+
+    "VFX_UnpackCheeseKit": "Unpack Cheese Making Kit",
+    "VFX_UnpackCheeseKitItalian": "Unpack Cheese Making Kit",
+    "VFX_UnpackCheeseKitBlue": "Unpack Cheese Making Kit",
+    "VFX_UnpackCheeseKitMaster": "Unpack Cheese Making Kit",
+
+    "VFX_MakeVinegarWithVinegar": "Make Vinegar with Vinegar",
+    "VFX_MakeVinegarWithAlcohol": "Make Vinegar with Alcohol",
+    "VFX_MakeVinegarWithFruit": "Make Vinegar with Fruit",
+    "VFX_MakeVinegarWithDeadYeast": "Make Vinegar with Yeast",
+
+    "VFX_MakeVinegarPreparation": "Make Vinegar Preparation",
+    "VFX_MakeVinegarYeast": "Make Vinegar with Yeast",
+    
+
+    "VFX_MakePotMash": "Make Pot of Mash",
+    "VFX_MakeJarBeerPreparation": "Make Jar of Beer Preparation",
+    "VFX_MakeHomemadeBeer": "Make Homemade Beer",
+    "VFX_SealHomemadeBeer": "Seal Homemade Beer",
+
+    "VFX_MakeJarWinePreparation": "Make Jar of Wine Preparation",
+    "VFX_SealHomemadeWine": "Seal Homemade Wine",
+
+    "VFX_MakeYeastStarter": "Make Yeast Starter",
+    "VFX_FeedYeastStarter": "Feed Yeast Starter",
+
+    "VFX_PrepareMinceMeat": "Prepare Minced Meat",
+    "VFX_PreparePatty": "Prepare Patty",
+    "VFX_PrepareMeatball": "Prepare Meatball",
+    "VFX_SplitChickenLeg": "Split Chicken Leg",
+
+    "VFX_MakeBreadcrumbs": "Prepare Breadcrumbs",
+    "VFX_MakeBreadcrumbsCooked": "Prepare Breadcrumbs",
+
+    "VFX_MakeTomatoPulp": "Prepare Pot of Tomato Pulp",
+    "VFX_GetTomatoPaste": "Get Tomato Paste",
+
+    "VFX_MakeJamJar": "Make Jam Jar",
+
+    "VFX_SliceBread": "Slice Bread"
+}

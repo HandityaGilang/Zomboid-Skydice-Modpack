@@ -1,0 +1,8 @@
+{
+"ContextMenu_PK42_CollectBones": "Собрать кости",
+"ContextMenu_PK42_RequiredItems": "Необходимые предметы",
+"ContextMenu_PK42_AlreadySkinned": "Кожа уже снята",
+"ContextMenu_PK42_CollectBonesDesc": "Собрать кости из останков.",
+"ContextMenu_PK42_CorpseName": "Труп",
+"ContextMenu_PK42_SkinCorpse": "Снять кожу с трупа"
+}

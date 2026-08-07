@@ -1,0 +1,21 @@
+IGUI_EN = {
+	IGUI_SmarterStorage_Name = "Name",
+	IGUI_SmarterStorage_Color = "Color",
+	IGUI_SmarterStorage_Icon = "Icon",
+	
+	IGUI_SmarterStorage_Cancel = "Cancel",
+	IGUI_SmarterStorage_OK = "OK",
+    
+	IGUI_SmarterStorage_Weapons = "Weapons",
+	IGUI_SmarterStorage_Ammo = "Ammo",
+	IGUI_SmarterStorage_Medical = "Medical",
+	IGUI_SmarterStorage_Clothing = "Clothing",
+	IGUI_SmarterStorage_Electronics = "Electronics",
+	IGUI_SmarterStorage_Food = "Food",
+	IGUI_SmarterStorage_Literature = "Literature",
+	IGUI_SmarterStorage_Tools = "Tools",
+	IGUI_SmarterStorage_Media = "Media",
+	IGUI_SmarterStorage_Equipment = "Equipment",
+	IGUI_SmarterStorage_Gardening = "Gardening",
+	IGUI_SmarterStorage_Vehicles = "Vehicles",
+}

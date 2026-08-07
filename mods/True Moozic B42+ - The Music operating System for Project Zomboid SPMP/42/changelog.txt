@@ -1,0 +1,365 @@
+B42.20 MP Playback Sync Update
+2026-08-03
+
+NEW: ADMIN "BAN MUSIC LIST"
+- Admins / debug users get a new "Ban Music List" option when right-clicking the GROUND (not a device). It opens a window listing every music item from every loaded music addon, grouped per addon, split into a PLAYABLE list and a BANNED list.
+- Drag a song to the other list (or double-click it) to move it; songs always re-file under their own addon category on either side. Press SET (with a confirmation warning) to apply server-wide.
+- Addon category headers are collapsible: click a header ([-]/[+]) to fold or unfold its song list - no more doom-scrolling through huge packs. Headers show the song count, and moving a song auto-expands its destination category.
+- Banned songs cannot be inserted or played on ANY device (boombox, walkman, portable CD player, HiFi cassette/CD/vinyl decks, vehicle HiFi) - a red halo message tells the player the song was banned. Stop always still works; already-playing songs are not force-stopped.
+- Jukeboxes filter banned songs out of their playlist and refuse banned media in their container (this applies to everyone, admins included, since the jukebox validates server-side).
+- "Admins/debug can still play banned songs" toggle inside the window controls whether staff bypass the ban on regular devices. Dragging a song back to PLAYABLE and pressing SET unbans it.
+- The list is server-authoritative global ModData: it syncs to every client, persists in the save, and the server re-checks the sender's admin access before accepting changes.
+
+PER-DEVICE CLIENT VOLUME + BOOMBOX STATE FIXES
+- NEW SANDBOX OPTION "MP Synchronized-Start Handshake" (PZ TrueMoozic page, DEFAULT OFF): controls the multiplayer ready-check that makes every nearby player start a song at the same moment. OFF (default) = pressing Play starts the music almost immediately, no "waiting for other players" cue, and listeners simply join the track mid-play (server-aged timestamps keep them in position). ON = the previous behavior: short ready-check round trip, everyone starts together, up to ~2 seconds delay before the song begins. Applies to boomboxes, placed devices and vehicle radios/HiFis; singleplayer is unaffected either way.
+- VOLUME CONTROL REWORK (boombox / walkman / placed vinyl player): the volume slider no longer snaps back to its old position seconds after moving it. The slider was writing the volume onto the ITEM, and the same multiplayer item-echo that used to revert the Play button also reverted the volume. The live playback session (the Tal-style state that already owns Play/Stop) now carries the volume too - the slider reads and drives the session directly, the new value is applied to the running song instantly, and the item copy is synced to the server once so the change also persists. Other players follow the shared now-playing record's volume as before.
+- Fixed the PLACED device volume slider (vinyl player, placed boombox) feeling dead: the song actually plays on a world emitter owned by the audio engine, and the slider was retuning the wrong emitter - the change only landed on the next engine cycle (up to ~3 seconds later). Volume and client-volume changes now retune the live world emitter immediately.
+- Fixed CLIENT VOLUME being ~2.5x TOO LOUD on placed devices (vinyl player, placed boombox, world fallback sources): the local override was substituted at the wrong scale, skipping the loudness factor every shared volume goes through. The same slider position now sounds the same in local and shared mode.
+- The client-volume checkbox now snapshots the CURRENT live volume when ticked (previously it could grab a stale value the server had rolled back), and unticking/toggling retunes the running song immediately on every device type - including placed ones.
+- WALKMAN REWORK v2 (session-based): the walkman's play state now lives in a client-local SESSION - the cassette item's data is never written when you press Play or Stop, so the multiplayer item-echo that kept rolling the state back has NOTHING to roll back. This kills the "Play button reverts, song keeps going, Stop and volume stop responding" bug at the root (v1 tried to heal the rolled-back state after the fact; the echo kept winning). Play starts the song instantly - no "waiting for players" handshake, no shared playback record (a walkman is headphones-only; nobody else can ever hear it). Stop always works: the button offers Stop while the session runs even if the server scrambles the item's data. The master/device volume slider is THE walkman volume (the "client volume" checkbox is hidden for walkmans), and volume changes apply to the live song immediately. Power off, battery pull, headphone pull and eject all end the session cleanly. 
+- BOOMBOX REWORK session-based, same  the in-hand/on-back boombox now also keeps its play state in a client-local SESSION - Play/Stop never writes the boombox item's data, so the server item-echo can't flip the button back or kill the song anymore. Other players still hear you exactly as before: the shared "now playing" record (which is world data, not item data - the echo can't touch it) carries the song, volume and headphone state, and the synchronized "everyone starts together" handshake is kept. The Stop button shows immediately after pressing Play, stopping during the countdown cancels the start cleanly, and the sync-start can no longer be silently cancelled by an item echo landing during the countdown (a cause of "pressed Play, nothing ever played"). Song end, dropping/unequipping the device, power off and battery pull all retire the session AND the shared record so other players stop hearing you right away; if the server loses the record mid-song it is re-announced automatically.
+- REDESIGNED the "client volume" checkbox: it is now PER DEVICE. Ticking it on one boombox no longer hijacks the volume slider of EVERY device (which also made the master/device volume slider appear "dead" everywhere, including placed boomboxes and mute/0). With the box unticked the slider always controls the real shared device volume; ticked, it adjusts your own local listening volume for THAT device only. Applies to boombox/walkman windows, placed devices, HiFi, vehicle HiFi and the jukebox. Old saved global setting is discarded on first load.
+- Placed devices: volume changes now reach OTHER clients reliably - remote listeners follow the transmitted now_play volume first instead of a possibly stale local device copy.
+- The Stop button now shows immediately after pressing Play (during the synchronized-start countdown) instead of showing "Play" for ~2 seconds - which invited double-clicks that desynced the state.
+- Pressing Stop during the synchronized-start countdown now cancels the scheduled start (previously the song could start anyway with the UI already showing stopped).
+- Fixed eject sometimes EATING tapes from third-party music packs (SpegHeddy etc.) and tapes inserted on older saves: the server give now resolves short item names across ALL loaded modules instead of only the base Tsarcraft pack.
+
+MULTIPLAYER PLAYBACK SYNC OVERHAUL (BOOMBOX / WALKMAN)
+- Fixed the Play/Stop button flipping back by itself a few seconds after pressing it. The server was TOGGLING its copy of the device instead of setting it, so once client and server disagreed they flipped in opposite directions forever.
+- Fixed music continuing to play after the tape/CD was taken out of the device. The server was broadcasting its own unstoppable copy of the song to every nearby player.
+- Fixed songs not being heard by other players and the general "everyone hears something different" desync. Playback state changes now push the device's real state to the server immediately, and the server stamps that state onto its copy of the item (absolute, never toggled).
+- Fixed a server-side crash when turning off / removing the battery or headphones from a playing device - the crash silently aborted the operation on the server, leaving the device permanently desynced.
+- Fixed the "ItemStats" packet error spam (Cannot invoke getItemContainer... containingItem is null) that was crashing item sync for everyone nearby. Removing a tape no longer creates a client-only ghost copy, and items inside bags/CD cases are no longer synced in a way other clients can't resolve.
+- Fixed "remove tape to fanny pack / satchel / glove box" doing nothing in multiplayer.
+- Fixed a device staying stuck on "Stop" (still marked playing) after a song ended naturally.
+- Devices now self-heal: if your walkman/boombox audio and its state ever fall out of step (lag, packet loss), it is reconciled within a few seconds - ghost audio is stopped, and if the server loses track of your song mid-play it is re-announced so other players keep hearing it.
+
+NEW: SYNCHRONIZED START ("HEY EVERYONE, WE'RE PLAYING THIS NOW")
+- Pressing Play on a boombox, walkman, placed device or car radio now announces the song to EVERY client on the server first. The server runs a ready-check: "HEY, WE'RE PLAYING THIS" -> every client answers "ok, ready" -> the server calls "everyone's ready - START" and all clients (including the player who pressed Play) begin the track together, within each other's latency.
+- One lagging player can never hold the music hostage: if someone doesn't answer within 1.5 seconds the server starts the song anyway, and every client keeps its own fallback timer in case the start signal is lost.
+- Every client runs the song locally no matter how far away they are: too far to hear means zero volume, NOT "not playing". Walk toward a device and the music fades in already at the correct position in the song - and the sound's world position is tracked the whole time, so it fades in from exactly where the device is (and follows it if it moves).
+- Fade in/out by distance and the personal "Client volume" setting are unchanged.
+- Applies to boomboxes, walkmans, placed/world devices (including ones wired to speakers) and vehicle radios/HiFis.
+
+FIXES
+- Fixed the jukebox (and placed HiFi tape/CD/vinyl, and car radios) STOPPING or skipping tracks for EVERYONE when one listener walked far away. The audio engine silently kills a far player's local copy of the sound, and the mod misread that as "the track ended" - that far player then stopped/advanced the shared device state for the whole server. Distant clients now suspend their local audio instead and re-attach as they come back, never touching the shared state.
+- Music sound range raised to 500 tiles (was 120; base mod originally 50, bundled packs 75) so the engine no longer kills a song's silent far copy anywhere inside the loaded world. This is what makes "walk toward a device and the music fades in mid-song" work reliably - the practical limit is now world streaming, not the audio engine. The audible fade is unchanged (full volume to 80 tiles, silent at 100): vehicle radios and vehicle HiFis previously leaned on the engine's own distance rolloff for this, so they now use the mod's manual 80-to-100-tile fade like every other device.
+- Vehicle HiFi audio management range raised from 30 to 110 tiles - beyond 30 tiles the CD/cassette sound used to be torn down entirely and restarted from 0:00 on approach.
+- Fixed walking up to a device that had been playing for a while and hearing nothing until it changed tracks (dead local sound handle after an engine cull is now detected and restarted on approach).
+- The HiFi stereo installed in a vehicle now gets the cassette "Music options" icon in the vehicle radial menu (like the Valu-Tech car radio) and opens the HiFi window directly.
+- Fixed placed boomboxes losing their "Device options" right-click menu on dedicated servers. The placed device was linked to its inventory item by an ID the server reassigns, so the link went stale; the device now re-links itself automatically whenever the stamped ID no longer matches.
+- Fixed a placed boombox EATING the inserted tape/CD when picked up on a dedicated server (same stale link: the pickup found no linked device state and wiped the item's own media record). Pickup now merges device state instead of overwriting, so the media always survives.
+- Fixed the server log spam "ObjectModDataPacket: object is null" when placing a boombox: the device's data was pushed to the server before the server knew the object existed, and the packet (with the device-item link in it) was silently dropped. The push is now delayed until the placement has registered.
+- Fixed a placed boombox FORGETTING EVERYTHING (cassette gone, power off) after walking away and coming back on a dedicated server, while the music kept blaring with no way to stop it. Root cause: the server never stored ANY of the device's state - insert, play, volume and power lived only on the acting player's client, so the device rebuilt factory-empty from the server's copy while the "someone is playing music" record stayed alive under a key nobody could reach anymore. Every insert/eject/play/stop/volume/power action is now stamped by the SERVER onto the device item on the floor (the one thing it actually persists), the rebuilt device restores cassette + power + volume from it, and stop/power-off/eject now kill the shared music record by the device's POSITION - stale record keys can no longer make a song unstoppable.
+- Fixed the placed-device POWER switch never being sent to the server at all (it only ever flipped on the acting player's own screen).
+- Fixed all the "require failed" WARN spam at startup (ISItemDropBox / ISVolumeBar / ISHotbar / ISWaitAction) - those vanilla classes are already loaded before any mod file runs; the failing lookups were pure log noise.
+
+FULL DEVICE SWEEP (MP PERSISTENCE FOR EVERYTHING ELSE)
+- Audited EVERY device type in the mod for the same "server never saw it" class of bug. Portable boombox/walkman, vehicle radios and HiFis, jukeboxes, speakers, vinyl albums, CD cases and CD stomping were already routed correctly. Two device families were not:
+- Placed HiFi stereos (CD deck, cassette deck, vinyl turntable): NONE of the deck state ever reached the server - the placed HiFi is a client-local object, so its raw state pushes were silently dropped. Inserting media, ejecting, play/stop, next/prev track and the auto-stop on power loss now go through a server command that stamps the deck state onto the HiFi item on the floor (the thing the server actually persists). Walk away and come back, relog, or have another player use it - the decks keep their media, current track and state.
+- Placed HiFi media was also EATEN on pickup and on device rebuild (only the boombox cassette record was carried over, never the HiFi decks). The CD/cassette/vinyl in the decks now ride along on pickup and are restored when the placed HiFi rebuilds.
+- Ejecting a CD/cassette/vinyl from a placed HiFi created the item CLIENT-SIDE ONLY - a ghost copy the server never knew about (can't be equipped, can't be dropped, ItemStats errors for everyone nearby). Ejects are now created by the server; inserts now tell the server the media left your inventory (no re-appearing media on relog).
+- CD scratch/wear now survives the HiFi CD deck and the portable CD player eject (it was being wiped by the server-side re-give).
+- Portable CD player (SWTC): every state change (insert, eject, play/stop) now syncs the item to the server. Before, the server kept a stale copy of the player - B42's item transaction check then silently refused to equip or drop it, and its state died on relog.
+
+JUKEBOX-STYLE LIVE-STATE RECONCILE (BOOMBOX / PLACED DEVICES)
+- The jukebox never desyncs because it derives its state from the shared "someone is playing music" table that every client receives - so the placed boombox now does the same. When a placed device is rebuilt (walk away and come back, relog), it adopts the live playback record for its tile: if a song is playing there, the device now correctly shows POWER ON and the STOP button (instead of "off + Play" while the tile keeps blaring), and pressing Stop actually kills the song.
+- Pressing Play on a placed device now also stamps "on + playing + cassette + volume" onto the device item on the floor locally (Stop stamps "not playing"), so the acting player's own copy stays coherent even between server round-trips.
+- Fixed ejecting a cassette from a placed boombox (and walkman/boombox in hand, in multiplayer) giving NOTHING back. The eject stopped creating the tape client-side (that was the ghost-item fix), but the server-side "give the tape back" was only sent when a client-side copy was found - which no longer ever existed. The give is now unconditional.
+
+VEHICLE HIFI (CASSETTE + CD STEREO) FIXES
+- The cassette "Music options" icon is the ONLY way to open the mod's vehicle radio/HiFi window. The vanilla "Device options" radial slice and the dashboard radio icon are left completely untouched and always open the BASE-GAME radio UI - for True MOOZIC devices too - so other mods and the vanilla flow keep working exactly as before.
+- Fixed the vehicle HiFi's music EMITTER LAGGING BEHIND a moving car, which made the audio bounce between the left and right headphone channels. Two causes: the emitter position was only updated every 20 ticks (it now follows the vehicle every tick), and the sound stayed 3D-positional for the driver - it now switches to flat 2D while you're inside the vehicle (the same thing the Valu-Tech / Premium Technologies radios already did, which is why they never bounced).
+- Fixed the vehicle HiFi EATING its cassette/CD when you exit and re-enter the vehicle (media visible for a split second in the radial/device window, then it deletes itself and the music stops). Inserting or ejecting media never told the SERVER about the vehicle part's new state - only pressing Play/Stop did - so the server's copy of the HiFi had empty decks, and re-entering the vehicle resynced the part from the server, wiping the media. Insert and eject now transmit the part state immediately (the same call the play buttons already used). This also means the media finally survives for OTHER players and across relogs.
+- Fixed ejecting a tape/CD from a CAR RADIO eating it in multiplayer (or the tape flashing into the inventory and being deleted a moment later). Two causes: the car eject actually runs a "remove to glovebox" action variant that the multiplayer give-the-tape-back hook never recognized (only the plain eject was covered - the bag/glovebox variants relied on a dead code path that stopped existing after build 41); and the hook still contained a leftover "remove the client-side ghost copy" sweep from the old design that could only ever delete a REAL tape now - including the one the server had just handed back. All eject variants (plain, glovebox, fanny pack, satchel, backpack) now go through the server-side give, and the ghost sweep is gone.
+
+SERVER-SIDE PROTECTION (MP HARDENING)
+- The server no longer blindly trusts playback commands from clients. Automatic "the song stopped" reports now carry a token identifying WHICH playback session they observed ending; if the device has since started a newer song, the stale report is rejected instead of killing the new track for everyone. Deliberate user actions (pressing Stop, ejecting media) are always honored.
+- Only players close enough to actually hear a device can affect its playback: stop, media, volume and world-object commands from a sender far beyond earshot are dropped by the server. Even a client running broken or outdated mod files can no longer corrupt shared music state for the whole server.
+- Server boot cleanup: leftover "someone is playing music" records from before a restart are cleared at startup. These are keyed by connection IDs that get reassigned after a restart, so a stale record could glue music to the wrong player. Placed/world device records are kept (their keys are stable) so jukebox-style persistence still works.
+- Clients now detect a server restart / live lua reload (per-boot token) and flush all locally running mod audio, so nothing keeps ghost-playing from the previous session.
+
+NEW: DEVICE STATUS TEXT (vanilla TV/radio style)
+- Short status lines now appear above the player using a device - or above the placed device itself - just like base-game TVs and radios.
+- Pressing Play in multiplayer walks you through the sync: "Sending MP handshake..." -> "Waiting for players..." -> "Playing <song>". While the ready-check runs, a single CD-seek noise plays as a wait cue and is cut off the instant the track starts.
+- Stopping shows "Sending stop to server..." then "Stopped - synced" (just "Stopped" in singleplayer).
+- Inserting and ejecting media, skipping to the next/previous track, and toggling power ("Power ON"/"Power OFF") all show their own line.
+- The jukebox announces every song of a looping playlist above the cabinet as it starts; placed devices announce their song above the device for everyone nearby.
+- The text only ever appears above the acting player or the device - never over other players' heads.
+- MULTIPLAYER: other players nearby now SEE the status lines too. The action is relayed through the server (with the same distance limit as hearing the device) and every player reads it in their OWN language.
+- All status lines translated into all 27 supported languages.
+
+-------------------
+B42.20 Traits & Jukebox Update
+2026-08-02
+
+NEW FEATURE: TRUEMOOZIC FAN TRAIT
+- New trait "Truemoozic Fan" (6 points): moods improve twice as fast while listening to music, and you start the apocalypse with a walkman, fitted headphones, a battery and 3 random cassettes.
+- Mutually exclusive with Deaf.
+
+NEW FEATURE: MUSIC MOODS
+- Listening to music from ANY TrueMoozic device (walkman, boombox, CD player, HiFi, car HiFi, jukebox, speakers) now slowly lowers boredom, stress and unhappiness.
+- Deaf characters get no mood effect; Hard of Hearing characters get it at half speed; Truemoozic Fans get it at double speed.
+
+NEW FEATURE: STEPVAN JACKPOT LOOT
+- Finding the TrueMoozic StepVan is now a real score: the trunk is stuffed with boomboxes, walkmans, CD players, vinyl players, HiFi stereos, media cases, headphones, wire bundles and batteries (loose and boxed).
+- The glovebox holds batteries, earbuds and a chance at a walkman or CD player.
+- Cassettes, vinyl and CDs from the base mod AND every installed music add-on pack are automatically added to the van's trunk and glovebox loot - any pack, no configuration needed.
+
+NEW FEATURE: JUKEBOX SHUFFLE
+- New "Shuffle" checkbox in the jukebox window: plays the playlist in random order, and shuffles the queue instead when queue mode is on.
+- Shuffle never repeats the track that just finished (unless it's the only one).
+- Fully multiplayer-safe: every client agrees on the same "random" order, so all listeners stay perfectly in sync.
+
+JUKEBOX FIXES
+- Fixed next/prev/double-click not restarting playback when the destination track has the same name as the current one (multiple copies of the same song in the box).
+- Fixed pulling one of several copies of the same song (especially a scratched CD next to a clean copy) not being detected - the jukebox now tracks each physical disc/tape individually.
+- Queue entries now remember the exact media item they were queued from, not just the song name.
+- Playlist and queue rows now show the media type and scratch state, e.g. "Song Title  [CD, Scratched]", "[Cassette]", "[Vinyl]".
+
+FIXES
+- Fixed a crash on any inventory right-click in singleplayer (getAccessLevel with no connection).
+- Fixed the mood system crashing every minute (HasTrait was removed from the game in B42.20).
+- Fixed the trait never appearing in the character creation screen (traits must be registered in media/registries.lua before the game parses trait scripts).
+- Fixed the Truemoozic Fan starter kit not being handed out - character creation events fire before traits are applied; the kit is now delivered within the first in-game minute.
+- Fixed the vehicle HiFi window missing the "Client volume" checkbox.
+- Fixed "require failed" warnings on dedicated server startup.
+
+REMOVED
+- Removed the "Start With Device" sandbox option - starting gear now comes from the Truemoozic Fan trait instead.
+- Removed the planned "Tone Deaf" trait - the vanilla Hard of Hearing trait covers that role (half-speed mood benefit) instead.
+
+TRANSLATIONS
+- All new trait, mood and jukebox text translated into all 27 supported languages.
+
+-------------------
+B42.20 MP Update
+2026-08-01
+
+MULTIPLAYER FIXES
+- Fixed the anti-cheat kick ("SyncItemDelete: no capability") when inserting headphones, batteries, cassettes, vinyl or CDs into devices on dedicated servers. All item add/remove operations are now server-authoritative.
+- Fixed boomboxes (and other held/placed players) being silent to OTHER players in multiplayer. Playback state is now published through the server instead of each client overwriting the shared music table - car radios, boomboxes, walkmans and placed devices are all heard correctly by everyone nearby.
+- Fixed music randomly stopping or becoming uncontrollable after moving a device between inventory, hands and the ground. Each transition now cleanly hands the sound over to the new location.
+
+PICKUP OVERHAUL
+- Picking up a placed, playing boombox no longer eats the tape.
+- A playing boombox now goes straight to your primary hand when grabbed and KEEPS PLAYING - the music follows you instead of dying or staying behind on the ground.
+- Battery charge, headphones and inserted media all survive the ground <-> inventory round trip in MP.
+
+LOOT & DISTRIBUTIONS
+- Fixed CD albums from add-on CD packs never spawning in loot. TrueMoozic now injects detected CD packs into world distributions with their own "CD Spawn Rate (%)" sandbox option.
+- New sandbox option "Max Music Media Per Container" (default 5): caps how many cassettes, vinyls and CDs (each type separately) can roll in a single container so music doesn't crowd out other loot. Set 0 for no cap.
+- New sandbox option "Generate New Loot Mid-Save" (default off): add a new music pack to an existing save and its media will be sprinkled into already-looted containers as chunks load.
+
+VEHICLES
+- Fixed the "Spawn TrueMoozic StepVan" sandbox option not working on dedicated servers, and its default is now OFF.
+
+NEW FEATURE: CLIENT-SIDE VOLUME
+- New "Client volume" checkbox next to the volume slider in every player window (boombox, CD player, HiFi).
+- When checked, the slider controls how loud YOU hear all TrueMoozic music - without changing the device volume other players hear. Your setting is remembered between sessions. Off by default.
+
+NEW FEATURE: SCRATCHED CDs
+- Loose CDs (found outside a CD case) can now spawn scratched. Scratched CDs get a "- X% scratched" label on their name.
+- 25% scratched: every 2nd song skips ahead after a few seconds.
+- 50% scratched: every song skips except one lucky track.
+- 100% scratched: every song skips almost immediately, and the disc stops after the last track instead of looping.
+- CDs found inside CD cases are always clean.
+- New sandbox option "CD Scratches" (default 75): the chance a loose CD spawns clean. Set 100 to disable scratches entirely.
+
+TRANSLATIONS
+- All new sandbox options and UI text translated into all 27 supported languages.
+
+-------------------
+v.2.15
+2023-02-19
+
+Отключена возможность дюпа кассет/винала с помощью контейнера.
+Исправлена ошибка с контроллером (спасибо @Burryaga).
+Исправлена ошибка с произвольным отключением музыки в мультиплеере.
+Исправлена ошибка связанная с застреванием кассеты при отключении аддона.
+Добавлены рецепты для разбора плееров.
+
+Disabled the ability to duplicate tapes/vinyl using a container.
+Fixed bug with controller (thanks to @Burryaga).
+Fixed bug with random disabling of music in multiplayer.
+Corrected a tape/vinyl stuck when the addon is switched off.
+Added recipes for player disassembly.
+
+-------------------
+v.2.14
+2023-01-22
+
+Ты нашёл в Америке рай: у тебя был бумбокс, у тебя был виниловый проигрыватель и тебе не нужны были такие друзья, как я. А тут тебе понадобился карманный плеер и ты приходишь и говоришь: Дон iBrRus, мне нужен Walkman. Но ты не просишь с уважением, не подписываешься на Boosty, даже не думаешь поставить лайк этому моду. Однажды, хоть этот день может никогда не наступить, я попрошу вас задонатить мне, а до тех пор прими этот Sany Wutman, как подарок в день свадьбы какой-нибудь дочери.
+
+
+You found paradise in America, you had a boombox, you had a vinyl player. You didn't need a friend like me. But, now you need a portable player and you come to me, and you say: "Don iBrRus, give me Walkman." But you don't ask with respect. You don't subscribe to Patreon. You don't even think to give this mod a like. Someday—and that day may never come—I'll call upon you to donate to me. But until that day, accept this Sany Wutman as a gift on any daughter's wedding day.
+
+Добавлен карманный проигрыватель "Sany Wutman".
+Исправлена ошибка, возникающая при изменении громкости проигрывателя в автомобиле.
+Исправлена ошибка, из-за которой музыка не отключалась при выключении проигрывателя или извлечения батарейки.
+Исправлена ошибка, из-за которой наушники пропадали после размещения бумбокса на земле.
+
+A pocket player "Sany Wutman" has been added.
+Fixed a bug that occurs when you change the volume of the player in the car.
+Fixed a bug that caused the music to not turn off when the player is switched off or the battery is removed.
+Fixed a bug that caused the headphones to disappear after the boom box was placed on the ground.
+
+-------------------
+v.2.13
+2023-01-03
+
+Я так и не понял, почему этот мод работал до версии 2.12. Наверное, это была какая-то магия. Но в этот раз, чтобы исправить все ошибки, мне пришлось переписать половину кода.
+
+I still haven't figured out why this mod worked before version 2.12. There must have been some magic involved. But this time, I had to rewrite half the code to fix all the bugs.
+
+-------------------
+v.2.12
+2023-01-01
+
+Исправлены 3д-модели музыкальных проигрывателей (спасибо ckyb).
+Исправлен текст всплывающего меню при установки кассеты или винила (спасибо ckyb).
+Bugfix: в одиночной игре для локального игрока не контролировался момент отключения музыки.
+Bugfix: кассеты можно было включать не во всех автомобилях.
+Bugfix: кассета пропадала при установке ей в магнитолу автомобиля.
+Bugfix: если игрок выбрасывал включенный бумбокс, зомби продолжали агриться на игрока.
+Bugfix: при размещении нескольких проигрыватель в одной ячейке, в контекстном меню появлялся пункт управления только одним из проигрывателей.
+Bugfix: если извлечь пластинку во время воспроизведения музыки, появлялась ошибка.
+Bugfix: если взорвать или поджечь бумбокс, музыка останавливалась, а зомби продолжали приманиваться к точке.
+Улучшен генератор аддонов: уменьшен шанс спавна кассет и винила, добавлен спавн в бардачке автомобилей, добавлены новые типы контейнеров для спавна.
+
+Fixed 3D models of music players (thanks to ckyb).
+Fixed pop-up menu text when installing cassette or vinyl (thanks to ckyb).
+Bugfix: in single player local player game, the moment the music was turned off was not controlled.
+Bugfix: cassettes could not be enabled in all vehicles.
+Bugfix: a cassette tape was lost when it was inserted into a car stereo.
+Bugfix: if a player threw a boombox on, zombies kept aggroing at the player.
+Bugfix: if multiple players are placed in the same cell, the context menu would only appear to control one of the players.
+Bugfix: if ejecting a record while playing music, an error would appear.
+Bugfix: if you blow up or set fire to a boombox, the music would stop and zombies would continue to be lured to the point.
+Improved addon generator: reduced chance of cassettes and vinyl spawn, added car glovebox spawn, added new types of containers for spawn.
+
+-------------------
+v.2.11
+2022-08-16
+
+Исправлена ошибка с появлением неправильного меню бумбокса при активации с земли.
+Исправлена ошибка в таблице спавна предметов.
+Добавлены дополнительные проверки исключений.
+
+Fixed bug with appearance of wrong boombox menu when activating from the ground.
+Fixed bug in the item spawn table.
+Added additional exception checks.
+
+-------------------
+v.2.10
+2022-01-20
+
+Перенесены переводы в tsarslib.
+Исправлена ошибка связанная с увеличением громкости музыки при открытии окна автомобиля.
+Исправлена ошибка позволяющая дубликовать кассеты при помощи бардачка.
+Исправлена ошибка позволяющая дубликовать батарейки при помощи бумбокса.
+Исправлена ошибка из-за которой в мире мог появиться невидимый проигрыватель.
+
+Moved translations to tsarslib.
+Fixed bug related to music volume increase when opening car window.
+Fixed a bug with duplicate cassettes using a glove box.
+Fixed a bug with duplicate batteries using a boombox.
+Fixed a bug that could cause an invisible music player to appear in the world.
+
+-------------------
+v.2.09
+2021-12-26
+
+Синхронизирована музыка в мультиплеере.
+Добавлено влияние наушников на то, слышат ли музыку другие игроки.
+Убрана необходимость использования динамиков для винилового проигрывателя.
+Добавлено влияние открытых/разбитых окон автомобиля на громкость музыки и приманивание зомби.
+Заблокирована возможность включения игроком двух бумбоксов одновремено (из инвентаря).
+Добавлен рандомный спавн кассет и пластинок в разных типах контейнеров.
+Добавлены расширенные настройки звуков для регулировки громкости каждой песни.
+
+Synchronized music in multiplayer.
+Added the effect of headphones on whether another players can hear the music.
+Removed the need for speakers for the vinyl player.
+Added effect of open/broken car windows on music volume and zombie baiting.
+Blocked possibility for player to turn on two boomboxes at the same time (from inventory).
+Added random spawn of cassettes and vinyls in different types of containers.
+Added advanced sound settings to adjust the volume of each song.
+
+-------------------
+
+v.2.08
+
+Исправлена ошибка из-за которой нельзя было отключить громкость одним нажанием.
+Отключена лишняя опция в контекстном меню винилового проигрывателя.
+
+Fixed a bug that made it impossible to turn off the volume with one touch.
+Disabled unnecessary option in the context menu for vinyl player.
+
+-------------------
+
+v.2.07
+
+Устранена несовместимость с Hydrocraft из-за которой бумбокс и виниловый проигрыватель, размещенные на земле, не работали.
+Отключена лишняя опция в контекстном меню бумбокса.
+Музыка, добавленная игроком, перенесена в категорию "Окружение", чтобы дать возможность отключать ванильную музыку.
+Добавлены уточнения в readme.txt
+
+Fixed an incompatibility with Hydrocraft that caused a boombox and vinyl player placed on the ground to not work.
+Disabled unnecessary option in the context menu for boombox.
+The music added by player has been moved to the "Ambient" category to allow to turn off vanilla music.
+Added clarifications to readme.txt
+
+-------------------
+
+v.2.06
+
+Исправлена ошибка связанная с воспроизведением музыки в машине после изъятия кассеты.
+
+Fixed a bug related to playing music in the car after removing the cassette.
+
+-------------------
+
+v.2.05
+
+При включении музыки в машине, радио отключается.
+Убрано дрожание музыки во время езды в автомобиле.
+
+When you turn on the music in the car, the radio turns off.
+Removed the jitter of music while driving in a car.
+
+-------------------
+
+v.2.04
+
+Улучшено приманивание зомби. Очень сильно улучшено! Будьте осторожны!
+
+Improved luring zombies. Very much improved! Be careful!
+
+-------------------
+
+v.2.03
+
+Исправлена ошибка, связанная с невозможностью подключения колонок на верхних этажах зданий.
+
+Fixed a bug related to the impossibility of connecting the speakers on the upper floors of buildings.
+
+-------------------
+
+v.2.02
+
+Добавлен архив в формате rar.
+
+Added archive in rar format.
+
+-------------------
+
+v.2.01
+
+Исправлены ошибки в переводах.
+
+Fixed errors in translations.
+
+-------------------
+
+v.2.0

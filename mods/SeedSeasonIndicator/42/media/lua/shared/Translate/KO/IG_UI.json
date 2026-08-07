@@ -1,0 +1,17 @@
+{
+    "IGUI_ItemCat_Gardening_01_Best": "농사 (최적)",
+    "IGUI_ItemCat_Gardening_02_InSeason": "농사 (적기)",
+    "IGUI_ItemCat_Gardening_03_Risk": "농사 (위험)",
+    "IGUI_ItemCat_Gardening_04_OutOfSeason": "농사 (철 지남)",
+    "IGUI_ItemCat_Gardening_05_Unknown": "농사",
+    "IGUI_ItemCat_Gardening_06_Other": "농사",
+    "IGUI_SSI_SeasonSuffix_Best": "(최적)",
+    "IGUI_SSI_SeasonSuffix_InSeason": "(적기)",
+    "IGUI_SSI_SeasonSuffix_Risk": "(위험)",
+    "IGUI_SSI_SeasonSuffix_OutOfSeason": "(철 지남)",
+    "IGUI_SSI_TooltipThisMonth": "이번 달",
+    "IGUI_SSI_TooltipStatus_Best": "최적",
+    "IGUI_SSI_TooltipStatus_InSeason": "적기",
+    "IGUI_SSI_TooltipStatus_Risk": "위험",
+    "IGUI_SSI_TooltipStatus_OutOfSeason": "철 지남"
+}

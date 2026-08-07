@@ -1,0 +1,7 @@
+{
+	"UI_SmarterStorage_Options_Vanilla_Name" : "Отображать стандартные подсказки",
+	"UI_SmarterStorage_Options_Vanilla_Tooltip" : "Поставьте галочку, для отображения стандартных названий, например «Холодильник», в всплывающих подсказок.",
+	
+	"UI_SmarterStorage_Options_RenamedTooltips_Name" : "Отображать названия пользовательских всплывающих подсказок",
+	"UI_SmarterStorage_Options_RenamedTooltips_Tooltip" : "Поставьте галочку, чтобы использовать пользовательские имена контейнеров в качестве всплывающих подсказок."
+}

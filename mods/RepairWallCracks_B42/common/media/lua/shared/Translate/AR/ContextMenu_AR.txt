@@ -1,0 +1,4 @@
+ContextMenu_AR = {
+    ContextMenu_Repair_Wall = "Reparar grietas en la pared",
+    ContextMenu_Repair_Wall_Object = "Pared dañada"
+}

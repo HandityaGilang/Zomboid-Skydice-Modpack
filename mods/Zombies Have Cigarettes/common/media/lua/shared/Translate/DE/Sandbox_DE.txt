@@ -1,0 +1,11 @@
+Sandbox_DE = {
+    Sandbox_ZombsHaveCigs = "Zombies haben Zigaretten",
+    Sandbox_ZombsHaveCigs_GlobalChance = "Zombie-Beutechance",
+    Sandbox_ZombsHaveCigs_GlobalChance_tooltip = "Chance, dass ein toter Zombie einen Gegenstand aus diesem Mod bekommt.",
+    Sandbox_ZombsHaveCigs_EnableFireSources = "Feuerzeuge und Streichhoelzer",
+    Sandbox_ZombsHaveCigs_EnableFireSources_tooltip = "Erlaubt normale Feuerzeuge, Einwegfeuerzeuge, Streichholzhefte und Streichholzschachteln bei Zombies.",
+    Sandbox_ZombsHaveCigs_EnableRareTobacco = "Seltenen Tabak hinzufuegen",
+    Sandbox_ZombsHaveCigs_EnableRareTobacco_tooltip = "Erlaubt Kautabak, Stumpen und Zigarren als seltene Zombie-Beute.",
+    Sandbox_ZombsHaveCigs_DebugLogging = "Debug-Logging",
+    Sandbox_ZombsHaveCigs_DebugLogging_tooltip = "Schreibt jeden erfolgreichen Zombie-Beutewurf in die Konsole.",
+}

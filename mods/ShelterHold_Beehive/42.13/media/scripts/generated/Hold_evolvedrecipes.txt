@@ -1,0 +1,28 @@
+module Base
+{
+    imports
+    {
+        Base
+    }
+
+    evolvedrecipe HoneyCake
+    {
+        BaseItem = Hold.HoneyCakePrep,
+        MaxItems = 4,
+        ResultItem = Hold.HoneyCakeRaw,
+        Cookable = true,
+        Name = Prepare Cake,
+        CanAddSpicesEmpty = true,
+        Template = Cake,
+    }
+
+    evolvedrecipe HoneyConeIcecream
+    {
+        BaseItem = Hold.HoneyConeIcecream,
+        MaxItems = 3,
+        ResultItem = Hold.HoneyConeIcecreamToppings,
+        Name = Prepare Ice Cream Cone,
+        CanAddSpicesEmpty = true,
+        Template = ConeIcecream,
+    }
+}

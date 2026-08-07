@@ -1,0 +1,6 @@
+ContextMenu_IT = {
+	ContextMenu_BagsEquipped = "Borse equipaggiate",
+	ContextMenu_WMI_Bandages = "Bende",
+	Tooltip_WMI_TaintedAllowed = "Consentito dalle impostazioni del mondo.",
+	Tooltip_WMI_TaintedBlocked = "Bloccato dalle impostazioni del mondo.",
+}

@@ -1,0 +1,6 @@
+ContextMenu_JP = {
+	ContextMenu_BagsEquipped = "装備中のバッグ",
+	ContextMenu_WMI_Bandages = "包帯",
+	Tooltip_WMI_TaintedAllowed = "ワールド設定で許可。",
+	Tooltip_WMI_TaintedBlocked = "ワールド設定で禁止。",
+}

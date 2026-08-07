@@ -1,0 +1,26 @@
+module Base
+{
+    moodle pk42:adrenalinefrenzy_lvl1
+    {
+        translationName = pk42_adrenalinefrenzy_lvl1,
+        goodBadNeutral  = neutral,
+    }
+
+    moodle pk42:adrenalinefrenzy_lvl2
+    {
+        translationName = pk42_adrenalinefrenzy_lvl2,
+        goodBadNeutral  = neutral,
+    }
+
+    moodle pk42:adrenalinefrenzy_lvl3
+    {
+        translationName = pk42_adrenalinefrenzy_lvl3,
+        goodBadNeutral  = neutral,
+    }
+
+    moodle pk42:adrenalinefrenzy_lvl4
+    {
+        translationName = pk42_adrenalinefrenzy_lvl4,
+        goodBadNeutral  = neutral,
+    }
+}

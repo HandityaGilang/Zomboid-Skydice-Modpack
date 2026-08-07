@@ -1,0 +1,5 @@
+{
+    "Tooltip_PFA_BarrelFull": "This barrel is already full of fuel.",
+    "Tooltip_PFA_CanFull": "This container is already full.",
+    "Tooltip_PFA_FuelBarrelLevel": "Fuel level: %1 / %2"
+}

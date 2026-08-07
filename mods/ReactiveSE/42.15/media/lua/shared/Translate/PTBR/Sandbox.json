@@ -1,0 +1,187 @@
+{
+    "Sandbox_ReactiveSE": "Eventos Sonoros Reativos",
+    "Sandbox_ReactiveSEEvents": "SE Reativo - Eventos Sonoros",
+    "Sandbox_ReactiveSEBehavior": "SE Reativo - Comportamento",
+    "Sandbox_ReactiveSEScenes": "SE Reativo - Cenas",
+    "Sandbox_ReactiveSELoot": "SE Reativo - Saque das Cenas",
+    "Sandbox_ReactiveSEWorld": "SE Reativo - Mundo das Cenas",
+    "Sandbox_ReactiveSERadio": "SE Reativo - Rádio Knox Relay",
+
+    "Sandbox_ReactiveSE_MinEventCooldown": "Tempo Mínimo Entre Eventos",
+    "Sandbox_ReactiveSE_MinEventCooldown_tooltip": "Mínimo de HORAS NO JOGO antes que eventos possam acontecer",
+
+    "Sandbox_ReactiveSE_MaxEventCooldown": "Tempo Máximo Entre Eventos",
+    "Sandbox_ReactiveSE_MaxEventCooldown_tooltip": "Máximo de HORAS NO JOGO até um evento ser garantido",
+
+    "Sandbox_ReactiveSE_EventChance": "Chance de Evento (%)",
+    "Sandbox_ReactiveSE_EventChance_tooltip": "Probabilidade de um evento a cada verificação de 10 MINUTOS após o tempo mínimo",
+
+    "Sandbox_ReactiveSE_FlatProbability": "Probabilidade Fixa",
+    "Sandbox_ReactiveSE_FlatProbability_tooltip": "Se ativado, a probabilidade fica fixa. Se desativado, a probabilidade aumenta até o tempo máximo (legado)",
+
+    "Sandbox_ReactiveSE_MinSoundRange": "Alcance Mínimo do Som",
+    "Sandbox_ReactiveSE_MinSoundRange_tooltip": "Distância mínima (em tiles) do jogador onde eventos sonoros podem surgir",
+
+    "Sandbox_ReactiveSE_MaxSoundRange": "Alcance Máximo do Som",
+    "Sandbox_ReactiveSE_MaxSoundRange_tooltip": "Distância máxima (em tiles) do jogador onde eventos sonoros podem surgir",
+
+    "Sandbox_ReactiveSE_ReactionThresholdRange": "Alcance de Reação",
+    "Sandbox_ReactiveSE_ReactionThresholdRange_tooltip": "Se um som acontecer dentro dessa distância, o jogador pode entrar em pânico ou acordar. Fora desse alcance, o som só será ouvido",
+
+    "Sandbox_ReactiveSE_CloseDistanceChance": "Chance de Distância Curta",
+    "Sandbox_ReactiveSE_CloseDistanceChance_tooltip": "Probabilidade de um evento surgir perto",
+
+    "Sandbox_ReactiveSE_MediumDistanceChance": "Chance de Distância Média",
+    "Sandbox_ReactiveSE_MediumDistanceChance_tooltip": "Probabilidade de um evento surgir a média distância",
+
+    "Sandbox_ReactiveSE_FarDistanceChance": "Chance de Distância Longa",
+    "Sandbox_ReactiveSE_FarDistanceChance_tooltip": "Probabilidade de um evento surgir longe",
+
+    "Sandbox_ReactiveSE_EnableZombieHearing": "Ativar Audição dos Zumbis",
+    "Sandbox_ReactiveSE_EnableZombieHearing_tooltip": "Permite que zumbis reajam aos eventos sonoros",
+
+    "Sandbox_ReactiveSE_EnableDebugMode": "[DEV] Ativar Modo de Depuração",
+    "Sandbox_ReactiveSE_EnableDebugMode_tooltip": "[DEV] Ativa logs de depuração e ajudas visuais",
+
+    "Sandbox_ReactiveSEEvents_EnableAnimalEvents": "Ativar Eventos de Animais",
+    "Sandbox_ReactiveSEEvents_EnableAnimalEvents_tooltip": "Sons de animais ao longe",
+
+    "Sandbox_ReactiveSEEvents_EnableGunfightEvents": "Ativar Eventos de Tiroteio",
+    "Sandbox_ReactiveSEEvents_EnableGunfightEvents_tooltip": "Tiroteios entre sobreviventes",
+
+    "Sandbox_ReactiveSEEvents_EnableGunshotEvents": "Ativar Eventos de Disparo",
+    "Sandbox_ReactiveSEEvents_EnableGunshotEvents_tooltip": "Disparos isolados ouvidos ao longe",
+
+    "Sandbox_ReactiveSEEvents_EnableScreamEvents": "Ativar Eventos de Grito",
+    "Sandbox_ReactiveSEEvents_EnableScreamEvents_tooltip": "Gritos distantes de sobreviventes",
+
+    "Sandbox_ReactiveSEEvents_EnableVehicleCrashEvents": "Ativar Eventos de Batida de Veículo",
+    "Sandbox_ReactiveSEEvents_EnableVehicleCrashEvents_tooltip": "Veículos batendo ou colidindo",
+
+    "Sandbox_ReactiveSEEvents_EnableWeatherEvents": "Ativar Eventos de Clima",
+    "Sandbox_ReactiveSEEvents_EnableWeatherEvents_tooltip": "Sons do clima, como trovoadas e relâmpagos",
+
+    "Sandbox_ReactiveSEEvents_EnableZombieEvents": "Ativar Eventos de Zumbis",
+    "Sandbox_ReactiveSEEvents_EnableZombieEvents_tooltip": "Barulhos de zumbis ao longe",
+
+    "Sandbox_ReactiveSEBehavior_EnablePlayerStyle": "Ativar Estilo de Jogo do Jogador",
+    "Sandbox_ReactiveSEBehavior_EnablePlayerStyle_tooltip": "Ajusta as chances de eventos conforme o comportamento agressivo ou passivo do jogador",
+
+    "Sandbox_ReactiveSEBehavior_AggressiveStyleKills": "Abates para Estilo Agressivo",
+    "Sandbox_ReactiveSEBehavior_AggressiveStyleKills_tooltip": "Abates por dia necessários para considerar o jogador agressivo",
+
+    "Sandbox_ReactiveSEBehavior_PassiveStyleDays": "Dias para Estilo Passivo",
+    "Sandbox_ReactiveSEBehavior_PassiveStyleDays_tooltip": "Dias sem matar zumbis necessários para considerar o jogador passivo",
+
+    "Sandbox_ReactiveSEBehavior_EnablePlayerReactionPanic": "Ativar Reação de Pânico do Jogador",
+    "Sandbox_ReactiveSEBehavior_EnablePlayerReactionPanic_tooltip": "O jogador pode entrar em pânico quando um evento sonoro acontecer dentro do alcance de reação",
+
+    "Sandbox_ReactiveSEBehavior_EnablePlayerReactionWakeUp": "Ativar Despertar do Jogador",
+    "Sandbox_ReactiveSEBehavior_EnablePlayerReactionWakeUp_tooltip": "Se estiver dormindo, o jogador pode acordar se um evento sonoro acontecer perto",
+
+    "Sandbox_ReactiveSEScenes_EnableEventScenes": "Ativar Cenas de Evento",
+    "Sandbox_ReactiveSEScenes_EnableEventScenes_tooltip": "Ativa cenas físicas geradas a partir de eventos sonoros",
+
+    "Sandbox_ReactiveSEScenes_EventSceneChance": "Chance de Surgir Cena",
+    "Sandbox_ReactiveSEScenes_EventSceneChance_tooltip": "Chance de um evento sonoro gerar uma cena",
+
+    "Sandbox_ReactiveSEScenes_SceneCleanupHours": "Tempo de Limpeza da Cena",
+    "Sandbox_ReactiveSEScenes_SceneCleanupHours_tooltip": "Horas até cenas geradas serem removidas automaticamente (0 = desativado)",
+
+    "Sandbox_ReactiveSEScenes_EnableGunfightScene": "Ativar Cena de Tiroteio",
+    "Sandbox_ReactiveSEScenes_EnableGunfightScene_tooltip": "Gera cenas com cadáveres quando sons de tiroteio acontecerem",
+
+    "Sandbox_ReactiveSEScenes_EnableGunshotScene": "Ativar Cena de Disparo",
+    "Sandbox_ReactiveSEScenes_EnableGunshotScene_tooltip": "Gera um cadáver único quando sons de disparo acontecerem",
+
+    "Sandbox_ReactiveSEScenes_EnableScreamScene": "Ativar Cena de Grito",
+    "Sandbox_ReactiveSEScenes_EnableScreamScene_tooltip": "Gera um cadáver quando sons de grito acontecerem",
+
+    "Sandbox_ReactiveSEScenes_ScreamZombieCount": "Máximo de Zumbis (Grito)",
+    "Sandbox_ReactiveSEScenes_ScreamZombieCount_tooltip": "Máximo de zumbis que podem surgir nas cenas de grito (0 = desativado)",
+
+    "Sandbox_ReactiveSEScenes_EnableVehicleCrashScene": "Ativar Cena de Batida de Veículo",
+    "Sandbox_ReactiveSEScenes_EnableVehicleCrashScene_tooltip": "Gera veículos batidos quando sons de batida acontecerem",
+
+    "Sandbox_ReactiveSEScenes_VehicleMaxCondition": "Condição Máxima do Veículo",
+    "Sandbox_ReactiveSEScenes_VehicleMaxCondition_tooltip": "Condição máxima dos veículos gerados nas cenas",
+    "Sandbox_ReactiveSEScenes_VehicleMaxCondition_Values_option1": "Muito Baixa",
+    "Sandbox_ReactiveSEScenes_VehicleMaxCondition_Values_option2": "Baixa",
+    "Sandbox_ReactiveSEScenes_VehicleMaxCondition_Values_option3": "Normal",
+    "Sandbox_ReactiveSEScenes_VehicleMaxCondition_Values_option4": "Alta",
+    "Sandbox_ReactiveSEScenes_VehicleMaxCondition_Values_option5": "Muito Alta",
+
+    "Sandbox_ReactiveSEScenes_VehicleKeyChance": "Chance de Chave do Veículo",
+    "Sandbox_ReactiveSEScenes_VehicleKeyChance_tooltip": "Chance de um veículo gerado vir com a chave",
+
+    "Sandbox_ReactiveSEScenes_EnableZombieScene": "Ativar Cena de Zumbis",
+    "Sandbox_ReactiveSEScenes_EnableZombieScene_tooltip": "Gera grupos de zumbis quando sons de zumbis acontecerem",
+
+    "Sandbox_ReactiveSEScenes_ZombieSceneMin": "Mínimo de Zumbis na Cena",
+    "Sandbox_ReactiveSEScenes_ZombieSceneMin_tooltip": "Número mínimo de zumbis gerados em um evento de Zumbis",
+
+    "Sandbox_ReactiveSEScenes_ZombieSceneMax": "Máximo de Zumbis na Cena",
+    "Sandbox_ReactiveSEScenes_ZombieSceneMax_tooltip": "Número máximo de zumbis gerados em um evento de Zumbis",
+
+    "Sandbox_ReactiveSEScenes_EnableSceneSpawnNotify": "Ativar Notificações de Cena",
+    "Sandbox_ReactiveSEScenes_EnableSceneSpawnNotify_tooltip": "Notifica o jogador quando uma cena surgir por perto",
+
+    "Sandbox_ReactiveSEScenes_SceneSpawnNotifyText": "Notificação em Texto",
+    "Sandbox_ReactiveSEScenes_SceneSpawnNotifyText_tooltip": "O personagem fala algo quando uma cena surgir por perto",
+
+    "Sandbox_ReactiveSEScenes_SceneSpawnNotifyMarker": "Notificação por Marcador",
+    "Sandbox_ReactiveSEScenes_SceneSpawnNotifyMarker_tooltip": "Mostra o marcador direcional quando uma cena surgir por perto",
+
+    "Sandbox_ReactiveSELoot_LootQuality": "Qualidade do Saque",
+    "Sandbox_ReactiveSELoot_LootQuality_tooltip": "Qualidade geral do saque encontrado nas cenas",
+    "Sandbox_ReactiveSELoot_LootQuality_Values_option1": "Dinâmica",
+    "Sandbox_ReactiveSELoot_LootQuality_Values_option2": "Ruim",
+    "Sandbox_ReactiveSELoot_LootQuality_Values_option3": "Normal",
+    "Sandbox_ReactiveSELoot_LootQuality_Values_option4": "Rico",
+
+    "Sandbox_ReactiveSELoot_WeaponMaxCondition": "Condição Máxima das Armas",
+    "Sandbox_ReactiveSELoot_WeaponMaxCondition_tooltip": "Condição máxima das armas encontradas nas cenas",
+
+    "Sandbox_ReactiveSELoot_RangedWeaponChance": "Chance de Arma de Longo Alcance",
+    "Sandbox_ReactiveSELoot_RangedWeaponChance_tooltip": "Chance de uma arma de longo alcance aparecer em uma cena",
+
+    "Sandbox_ReactiveSELoot_MinBackpackStealChance": "Chance Mínima de Roubo de Mochila (%)",
+    "Sandbox_ReactiveSELoot_MinBackpackStealChance_tooltip": "Probabilidade mínima de uma mochila ser roubada de um cadáver. Aplicado no Final de Jogo.",
+
+    "Sandbox_ReactiveSELoot_MaxBackpackStealChance": "Chance Máxima de Roubo de Mochila (%)",
+    "Sandbox_ReactiveSELoot_MaxBackpackStealChance_tooltip": "Probabilidade máxima de uma mochila ser roubada de um cadáver (escala com o Tier do Mundo). Aplicado no Início de Jogo.",
+
+    "Sandbox_ReactiveSELoot_AmmoScarcity": "Escassez de Munição",
+    "Sandbox_ReactiveSELoot_AmmoScarcity_tooltip": "Controla o quão rara a munição é nas cenas",
+    "Sandbox_ReactiveSELoot_AmmoScarcity_Values_option1": "Nenhuma",
+    "Sandbox_ReactiveSELoot_AmmoScarcity_Values_option2": "Escassa",
+    "Sandbox_ReactiveSELoot_AmmoScarcity_Values_option3": "Normal",
+    "Sandbox_ReactiveSELoot_AmmoScarcity_Values_option4": "Abundante",
+
+    "Sandbox_ReactiveSELoot_SubKitCountMin": "Itens do SubKit (Mín.)",
+    "Sandbox_ReactiveSELoot_SubKitCountMin_tooltip": "Número mínimo de itens gerados por SubKit (Saque Dinâmico: Início de Jogo)",
+
+    "Sandbox_ReactiveSELoot_SubKitCountMax": "Itens do SubKit (Máx.)",
+    "Sandbox_ReactiveSELoot_SubKitCountMax_tooltip": "Número máximo de itens gerados por SubKit (Saque Dinâmico: Final de Jogo)",
+
+    "Sandbox_ReactiveSEWorld_CorpseCount": "Quantidade de Cadáveres",
+    "Sandbox_ReactiveSEWorld_CorpseCount_tooltip": "Número máximo de cadáveres gerados em uma cena",
+
+    "Sandbox_ReactiveSEWorld_WorldTierEarlyEnd": "Fim do Início de Jogo",
+    "Sandbox_ReactiveSEWorld_WorldTierEarlyEnd_tooltip": "Define o último dia considerado Início de Jogo. O Meio de Jogo começa",
+
+    "Sandbox_ReactiveSEWorld_WorldTierMidEnd": "Fim do Meio de Jogo",
+    "Sandbox_ReactiveSEWorld_WorldTierMidEnd_tooltip": "Define o último dia considerado Meio de Jogo. O Jogo Tardio começa",
+
+    "Sandbox_ReactiveSEWorld_WorldTierLateEnd": "Fim do Jogo Tardio",
+    "Sandbox_ReactiveSEWorld_WorldTierLateEnd_tooltip": "Define o último dia considerado Jogo Tardio. O Final de Jogo começa",
+
+    "Sandbox_ReactiveSERadio_EnableRadioFeature": "Ativar Rádio Knox Relay",
+    "Sandbox_ReactiveSERadio_EnableRadioFeature_tooltip": "Ativa a estação de rádio Knox Relay, que transmite localizações de cenas e histórias de sobrevivência",
+
+    "Sandbox_ReactiveSERadio_EnableMapMarker": "Ativar Marcação no Mapa",
+    "Sandbox_ReactiveSERadio_EnableMapMarker_tooltip": "Permite que jogadores marquem coordenadas de inteligência no mapa via menu de contexto do rádio. Desative para impedir que jogadores usem este recurso",
+
+    "Sandbox_ReactiveSERadio_EnableMorningShowXP": "Ativar XP do Programa Matinal",
+    "Sandbox_ReactiveSERadio_EnableMorningShowXP_tooltip": "Permite que jogadores ganhem XP ao ouvir o programa matinal"
+}

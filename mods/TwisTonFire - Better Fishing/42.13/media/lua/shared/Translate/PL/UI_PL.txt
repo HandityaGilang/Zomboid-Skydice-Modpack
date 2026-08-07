@@ -1,0 +1,33 @@
+UI_PL = {
+	UI_TWF_BF_RESTART_REQUIRED_HINT = "Wymaga ponownego wczytania zapisu!",
+	UI_TWF_BF_SLIDER_DEPENDS_HINT = "Suwaki działają tylko, gdy odpowiednia funkcja powyżej jest włączona.",
+
+	UI_TWF_BF_USE_TWF_AIMDIST    = "Włącz zasięg rzutu/celowania",
+	UI_TWF_BF_USE_TWF_SHORE      = "Włącz mniejszą linię brzegową",
+	UI_TWF_BF_USE_TWF_SIZE       = "Włącz lepsze wykrywanie brzegu",
+	UI_TWF_BF_USE_TWF_TEMP       = "Włącz dostosowania temperatury",
+	UI_TWF_BF_USE_TWF_WEATHER    = "Włącz dostosowania pogody",
+	UI_TWF_BF_USE_TWF_TIME       = "Włącz premiowane przedziały czasowe",
+	UI_TWF_BF_USE_TWF_SIZETABLES = "Włącz szanse połowu Better Fishing",
+
+	UI_TWF_BF_AIMDIST        = "Zasięg rzutu/celowania",
+	UI_TWF_BF_SHORE_RADIUS   = "Promień brzegu (kafle)",
+	UI_TWF_BF_SIZE_BLEND     = "Mieszanie przy brzegu (%)",
+	UI_TWF_BF_TEMP_COEFF     = "Premia/Kara za temperaturę",
+	UI_TWF_BF_FOG_COEFF      = "Premia/Kara za mgłę",
+	UI_TWF_BF_WIND_COEFF     = "Premia/Kara za wiatr",
+	UI_TWF_BF_RAIN_COEFF     = "Premia/Kara za deszcz",
+	UI_TWF_BF_MORN_START     = "Początek porannego bonusu (h)",
+	UI_TWF_BF_MORN_END       = "Koniec porannego bonusu (h)",
+	UI_TWF_BF_EVE_START      = "Początek wieczornego bonusu (h)",
+	UI_TWF_BF_EVE_END        = "Koniec wieczornego bonusu (h)",
+	UI_TWF_BF_TIME_COEFF     = "Premia szansy połowu %",
+
+	UI_TWF_BF_USE_TWF_AIMDIST_TT    = "Umożliwia ustawienie zasięgu rzutu/celowania. Suwak określa maksymalną odległość.",
+	UI_TWF_BF_USE_TWF_SHORE_TT      = "Używa lżejszego, mniejszego promienia wykrywania brzegu. Suwak określa zasięg.",
+	UI_TWF_BF_USE_TWF_SIZE_TT       = "Koryguje rozkład rozmiarów blisko brzegu. Mieszanie reguluje jego siłę.",
+	UI_TWF_BF_USE_TWF_TEMP_TT       = "Stosuje współczynnik temperatury do łowienia. Suwak reguluje mnożnik.",
+	UI_TWF_BF_USE_TWF_WEATHER_TT    = "Stosuje współczynniki pogody (mgła/wiatr/deszcz). Suwaki regulują wpływ.",
+	UI_TWF_BF_USE_TWF_TIME_TT       = "Aktywuje poranne/wieczorne okna bonusowe. Stosowane są ustawienia początku/końca i mnożnik.",
+	UI_TWF_BF_USE_TWF_SIZETABLES_TT = "Przełącza na tabele szans Better Fishing (limity rozmiarów i rozkład). Wymaga ponownego wczytania zapisu.",
+}

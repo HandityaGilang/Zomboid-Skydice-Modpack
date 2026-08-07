@@ -1,0 +1,66 @@
+VERSION = 1,
+
+option VVR.NoTrailers
+{
+    type = boolean,
+    default = false,
+    page = VVR,
+    translation = VVR_NoTrailers,
+}
+
+option VVR.Professional
+{
+    type = boolean,
+    default = true,
+    page = VVR,
+    translation = VVR_Professional,
+}
+
+
+option VVR.VehiCond
+{
+    type = integer,
+    min = 0,
+    default = 10,
+    max = 100,
+    page = VVR,
+    translation = VVR_VehiCond,
+}
+
+option VVR.NoBurntTJ
+{
+    type = integer,
+    min = 0,
+    default = 0,
+    max = 100,
+    page = VVR,
+    translation = VVR_NoBurntTJ,
+}
+
+option VVR.NoBurntJY
+{
+    type = integer,
+    min = 0,
+    default = 0,
+    max = 100,
+    page = VVR,
+    translation = VVR_NoBurntJY,
+}
+
+option VVR.NoBurntTP
+{
+    type = integer,
+    min = 0,
+    default = 0,
+    max = 100,
+    page = VVR,
+    translation = VVR_NoBurntTP,
+}
+
+option VVR.VehiclesBlacklist
+{
+    type = string,
+    default = Base.ModernCar_Martin;,
+    page = VVR,
+    translation = VVR_VehiclesBlacklist,
+}

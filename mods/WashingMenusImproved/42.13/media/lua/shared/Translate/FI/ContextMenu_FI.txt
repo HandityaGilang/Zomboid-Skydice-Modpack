@@ -1,0 +1,6 @@
+ContextMenu_FI = {
+	ContextMenu_BagsEquipped = "Varustetut laukut",
+	ContextMenu_WMI_Bandages = "Siteet",
+	Tooltip_WMI_TaintedAllowed = "Sallittu maailman asetuksissa.",
+	Tooltip_WMI_TaintedBlocked = "Estetty maailman asetuksissa.",
+}

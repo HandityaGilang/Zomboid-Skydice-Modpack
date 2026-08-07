@@ -1,0 +1,42 @@
+Sandbox_FR = {
+    Sandbox_TWF_BF = "TwisTonFire — Better Fishing",
+
+    Sandbox_TWF_BF_UseTwF_SizeTables = "Utiliser les tables de chances de capture Better Fishing",
+    Sandbox_TWF_BF_UseTwF_SizeTables_tooltip = "Bascule entre les tables de chances de capture vanilla et celles de Better Fishing (limites de taille par compétence + répartition).\nPar défaut : activé.\nNote : Ce choix est appliqué au chargement du monde. Rechargez votre sauvegarde après modification.",
+
+    Sandbox_TWF_BF_AimDist = "Distance de lancer",
+    Sandbox_TWF_BF_AimDist_tooltip = "Distance maximale de lancer/visée en cases.\nPar défaut : 16.",
+
+    Sandbox_TWF_BF_ShoreRadius = "Rayon de rive (cases)",
+    Sandbox_TWF_BF_ShoreRadius_tooltip = "Rayon de détection de la rive en cases.\nDes valeurs plus faibles rendent le test « près de la rive » plus strict.\nPar défaut : 7.",
+
+    Sandbox_TWF_BF_SizeBlend = "Décalage de taille près de la rive (%)",
+    Sandbox_TWF_BF_SizeBlend_tooltip = "Près de la rive, cela déplace la répartition des tailles vers des poissons plus petits.\nDes valeurs plus élevées convertissent davantage de prises moyennes/grandes en petites prises.\n0% = désactivé, 100% = effet maximal.\nPar défaut : 100%.",
+
+    Sandbox_TWF_BF_TempCoeff = "Bonus/Malus de température",
+    Sandbox_TWF_BF_TempCoeff_tooltip = "Coefficient de température (pourcentage).\n100% = base.\nPar défaut : 100%.",
+
+    Sandbox_TWF_BF_FogCoeff = "Bonus/Malus de brouillard",
+    Sandbox_TWF_BF_FogCoeff_tooltip = "Coefficient de brouillard (pourcentage).\n100% = base.\nPar défaut : 80%.",
+
+    Sandbox_TWF_BF_WindCoeff = "Bonus/Malus de vent",
+    Sandbox_TWF_BF_WindCoeff_tooltip = "Coefficient de vent (pourcentage).\n100% = base.\nPar défaut : 80%.",
+
+    Sandbox_TWF_BF_RainCoeff = "Bonus/Malus de pluie",
+    Sandbox_TWF_BF_RainCoeff_tooltip = "Coefficient de pluie (pourcentage).\n100% = base.\nPar défaut : 120%.",
+
+    Sandbox_TWF_BF_MornStart = "Début du bonus (matin) (h)",
+    Sandbox_TWF_BF_MornStart_tooltip = "Heure de début de la période de bonus (matin).\nPar défaut : 4.",
+
+    Sandbox_TWF_BF_MornEnd = "Fin du bonus (matin) (h)",
+    Sandbox_TWF_BF_MornEnd_tooltip = "Heure de fin de la période de bonus (matin).\nPar défaut : 6.",
+
+    Sandbox_TWF_BF_EveStart = "Début du bonus (soir) (h)",
+    Sandbox_TWF_BF_EveStart_tooltip = "Heure de début de la période de bonus (soir).\nPar défaut : 18.",
+
+    Sandbox_TWF_BF_EveEnd = "Fin du bonus (soir) (h)",
+    Sandbox_TWF_BF_EveEnd_tooltip = "Heure de fin de la période de bonus (soir).\nPar défaut : 20.",
+
+    Sandbox_TWF_BF_TimeCoeff = "Chance de capture bonus (%)",
+    Sandbox_TWF_BF_TimeCoeff_tooltip = "Multiplicateur de chance de capture pendant les périodes de bonus (pourcentage).\n100% = aucun bonus.\nPar défaut : 120%.",
+}

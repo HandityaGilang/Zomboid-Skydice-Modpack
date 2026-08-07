@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<outfitManager>
+
+	<m_MaleOutfits> 
+		<m_Name>VGE_SWAT</m_Name>
+		<m_Guid>f0984d17-baf1-499d-9a5e-59d3e08ed20e</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>		
+		<m_items> <!-- Tactical Pants Gray -->
+			<itemGUID>b3ba83c7-0e51-4eb5-b401-c157761103fe</itemGUID>
+			<subItems> <!-- Tactical Pants Gray Tucked -->
+			<itemGUID>872eea24-f83f-4046-af82-ee2bf8fb6ab7</itemGUID>
+			</subItems>
+			<subItems> <!-- Tactical Pants Gray Slim -->
+			<itemGUID>57d8bfd2-e432-4ea8-82ea-ce8c9ab50ef3</itemGUID>
+			</subItems>
+			<subItems> <!-- Tactical Pants Gray Slim Tucked -->
+			<itemGUID>f935fbeb-d1c0-434b-9a51-fb883860a2d4</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Tactical Shirt Gray -->
+			<itemGUID>f1d2d36c-73a1-482d-a8d8-21adafad48e6</itemGUID>
+			<subItems> <!-- Tactical Shirt Gray Rolled -->
+			<itemGUID>0ddc37bb-3408-4849-b3e4-099558b91e97</itemGUID>
+			</subItems>
+		</m_items>	
+		<m_items> <!-- Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Balaclava -->
+			<probability>0.6</probability>
+			<itemGUID>901d3fcb-86db-470e-ba07-0ee75bfb8cd1</itemGUID>
+		</m_items>
+		<m_items> <!-- Gas Mask -->
+			<probability>0.3</probability>
+			<itemGUID>92efbe27-baa3-4e7f-bc7c-cb4713d23c14</itemGUID>
+		</m_items>
+		<m_items> <!-- Goggles -->
+			<probability>0.4</probability>
+			<itemGUID>1570c1b5-1610-4910-8327-b5306bfb138d</itemGUID>
+		</m_items>
+		<m_items> <!-- Vest SWAT -->
+			<probability>0.9</probability>
+			<itemGUID>033a937e-08e0-43d1-a3f3-60a5bafa8692</itemGUID>
+		</m_items>
+		<m_items> <!-- Hats --> <!-- Tactical Helmet Gray -->
+			<probability>0.6</probability>
+			<itemGUID>ecaa925b-baef-4101-84db-184f5d7efc5b</itemGUID>
+			<subItems> <!-- SWAT Cap -->
+			<probability>0.5</probability>
+			<itemGUID>185d5057-fa63-4b17-a93c-a8e180d70239</itemGUID>
+			</subItems>
+		</m_items>		
+		<m_items> <!-- Gloves --> <!-- Gloves Tactical-->
+			<probability>0.7</probability>
+			<itemGUID>1f86c66f-b7f2-48b7-818b-94f85f9a8f7b</itemGUID>
+			<subItems> <!-- Tactical Gloves Fingerless -->
+			<probability>0.7</probability>
+			<itemGUID>1a0ddb0c-fe2d-4ecc-888d-f5114dfbcba0</itemGUID>
+			</subItems>
+		</m_items>
+	</m_MaleOutfits>
+	<m_MaleOutfits> 
+		<m_Name>VGE_RiotPolice</m_Name>
+		<m_Guid>1e999c63-f9d0-4024-b176-f66db4fee453</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>		
+		<m_items> <!-- Tactical Pants Blue -->
+			<itemGUID>7205ad06-6b9b-41d8-9d37-6acce5f48e3c</itemGUID>
+			<subItems> <!-- Tactical Pants Blue Tucked -->
+			<itemGUID>1941e46a-52bf-441d-a946-9abbe3c3d043</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Tactical Shirt Blue -->
+			<itemGUID>de7dd92b-f9f4-4b41-886a-217852385018</itemGUID>
+			<subItems> <!-- Tactical Shirt Blue Rolled -->
+			<itemGUID>f60bbcd6-efa0-49aa-abf0-39b24fd5882d</itemGUID>
+			</subItems>
+		</m_items>	
+		<m_items> <!-- Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Riot Helmet -->
+			<probability>0.9</probability>
+			<itemGUID>2c702249-0faf-49a6-a69f-3302a9583662</itemGUID>
+			<subItems> <!-- Riot No Visor -->
+			<probability>0.7</probability>
+			<itemGUID>f2468799-09f3-49bb-89e9-44a4e9035a1d</itemGUID>
+			</subItems>
+			<subItems> <!-- Balaclava -->
+			<probability>0.3</probability>
+			<itemGUID>901d3fcb-86db-470e-ba07-0ee75bfb8cd1</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Gloves Tactical-->
+			<probability>0.8</probability>
+			<itemGUID>1f86c66f-b7f2-48b7-818b-94f85f9a8f7b</itemGUID>
+		</m_items>
+		<m_items> <!-- Vest Police Gray -->
+			<itemGUID>057bb7a1-5f8a-48e0-acff-3e82ca52e4e7</itemGUID>
+		</m_items>
+	</m_MaleOutfits>
+	<m_MaleOutfits> 
+		<m_Name>VGE_ATF</m_Name>
+		<m_Guid>26195594-8a30-44a7-8b7e-99129e477ac3</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>		
+		<m_items> <!-- Tactical Pants -->
+			<itemGUID>7205ad06-6b9b-41d8-9d37-6acce5f48e3c</itemGUID>
+			<subItems> <!-- Tactical Pants Blue Tucked -->
+			<itemGUID>1941e46a-52bf-441d-a946-9abbe3c3d043</itemGUID>
+			</subItems>
+			<subItems> <!-- Tactical Pants Blue Slim -->
+			<itemGUID>5ae32f53-4165-425a-9ba7-e2be4b07d2f0</itemGUID>
+			</subItems>
+			<subItems> <!-- Tactical Pants Blue Slim Tucked -->
+			<itemGUID>dc5c6fd0-7334-4a30-ac03-e65e0e6ecb11</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Tactical Shirt Blue-->
+			<itemGUID>de7dd92b-f9f4-4b41-886a-217852385018</itemGUID>
+			<subItems> <!-- Tactical Shirt Blue Rolled -->
+			<itemGUID>f60bbcd6-efa0-49aa-abf0-39b24fd5882d</itemGUID>
+			</subItems>
+		</m_items>	
+		<m_items> <!-- Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Balaclava -->
+			<probability>0.4</probability>
+			<itemGUID>901d3fcb-86db-470e-ba07-0ee75bfb8cd1</itemGUID>
+		</m_items>
+		<m_items> <!-- Goggles -->
+			<probability>0.4</probability>
+			<itemGUID>1570c1b5-1610-4910-8327-b5306bfb138d</itemGUID>
+		</m_items>
+		<m_items> <!-- Vest ATF -->
+			<itemGUID>c1945e7c-c247-48bb-a8ec-ee62cd0b4de2</itemGUID>
+		</m_items>
+		<m_items> <!-- Tactical Helmet -->
+			<probability>0.5</probability>
+			<itemGUID>7dd73f99-5548-42fd-8b91-0e57218572e2</itemGUID>
+			<subItems> <!-- ATF Cap -->
+			<probability>0.5</probability>
+			<itemGUID>84da561f-a1c3-4895-8731-c4462d455a4f</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Gloves --> <!-- Gloves Tactical-->
+			<probability>0.6</probability>
+			<itemGUID>1f86c66f-b7f2-48b7-818b-94f85f9a8f7b</itemGUID>
+			<subItems> <!-- Tactical Gloves Fingerless -->
+			<probability>0.6</probability>
+			<itemGUID>1a0ddb0c-fe2d-4ecc-888d-f5114dfbcba0</itemGUID>
+			</subItems>
+		</m_items>
+	</m_MaleOutfits>
+	<m_MaleOutfits> 
+		<m_Name>VGE_FBI</m_Name>
+		<m_Guid>f0984d17-baf1-499d-9a5e-59d3e08ed20e</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>		
+		<m_items> <!-- Tactical Pants Green -->
+			<itemGUID>d828ac48-f4a1-4e91-a839-c4cabd2aa8a8</itemGUID>
+			<subItems> <!-- Tactical Pants Green Tucked -->
+			<itemGUID>3d6e8875-2de4-4d6c-9244-abb9d0195210</itemGUID>
+			</subItems>
+			<subItems> <!-- Tactical Pants Green Slim -->
+			<itemGUID>83996b0b-5034-4ecf-bd7a-d48edc9f27a6</itemGUID>
+			</subItems>
+			<subItems> <!-- Tactical Pants Green Slim Tucked -->
+			<itemGUID>5d7eb9d2-5f51-4e3c-81a5-f9b875665add</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Tactical Shirt Green -->
+			<itemGUID>3bda649a-3dec-40fa-a2fd-5aef73fbe736</itemGUID>
+			<subItems> <!-- Tactical Shirt Green Rolled -->
+			<itemGUID>7420a978-2b20-44cd-aa9c-3804fe097cae</itemGUID>
+			</subItems>
+		</m_items>	
+		<m_items> <!-- Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items> <!-- Balaclava -->
+			<probability>0.7</probability>
+			<itemGUID>901d3fcb-86db-470e-ba07-0ee75bfb8cd1</itemGUID>
+		</m_items>
+		<m_items> <!-- Gas Mask -->
+			<probability>0.3</probability>
+			<itemGUID>92efbe27-baa3-4e7f-bc7c-cb4713d23c14</itemGUID>
+		</m_items>
+		<m_items> <!-- Goggles -->
+			<probability>0.4</probability>
+			<itemGUID>1570c1b5-1610-4910-8327-b5306bfb138d</itemGUID>
+		</m_items>
+		<m_items> <!-- Vest FBI -->
+			<probability>0.9</probability>
+			<itemGUID>435c0661-2734-403f-bf97-b2e149ff57ed</itemGUID>
+		</m_items>
+		<m_items> <!-- Tactical Headset -->
+			<probability>0.3</probability>
+			<itemGUID>219793c6-4931-47d9-829e-f73613242399</itemGUID>
+		</m_items>
+		<m_items> <!-- Hats --> <!-- Tactical Helmet Green -->
+			<probability>0.5</probability>
+			<itemGUID>0bcdb454-83fb-4854-adaa-8c2006dd168b</itemGUID>
+			<subItems> <!-- FBI Cap -->
+			<probability>0.4</probability>
+			<itemGUID>257b4abf-725e-4421-976c-dfc0d5a22575</itemGUID>
+			</subItems>
+		</m_items>		
+		<m_items> <!-- Gloves --> <!-- Gloves Tactical-->
+			<probability>0.7</probability>
+			<itemGUID>1f86c66f-b7f2-48b7-818b-94f85f9a8f7b</itemGUID>
+			<subItems> <!-- Tactical Gloves Fingerless -->
+			<probability>0.7</probability>
+			<itemGUID>1a0ddb0c-fe2d-4ecc-888d-f5114dfbcba0</itemGUID>
+			</subItems>
+		</m_items>
+	</m_MaleOutfits>
+	<m_MaleOutfits> 
+		<m_Name>VGE_FBI_Agent</m_Name>
+		<m_Guid>028e2158-0712-40a1-9532-e80b2ca6deb2</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>		
+		<m_items> <!-- Pants -->
+			<itemGUID>99754c07-277a-4c4d-b90b-c21ff09173e9</itemGUID>
+			<subItems> <!-- Demin Light -->
+			<itemGUID>06b8adc1-ef58-4545-a30a-6ca9920c1b82</itemGUID>
+			</subItems>
+			<subItems> <!-- Trousers Black -->
+			<itemGUID>d3481027-59dc-42ac-9e66-8cc2ba1f66a4</itemGUID>
+			</subItems>
+			<subItems> <!-- Trousers Denim -->
+			<itemGUID>229b23f6-8e8f-4f16-837b-4fe950c48bfc</itemGUID>
+			</subItems>
+			<subItems> <!-- Trousers TEXTURE -->
+			<itemGUID>e4b71599-604d-4cc7-9ce4-7723a7e37d8a</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- T Shirt-->
+			<itemGUID>2256166c-64a6-4f81-8285-0779cab92fbd</itemGUID>
+			<subItems> <!-- T Shirt Longsleeve -->
+			<itemGUID>99b1ff28-3884-4ca3-b827-7fdab685c7a6</itemGUID>
+			</subItems>
+			<subItems> <!-- Shirt FormalTINT -->
+			<itemGUID>d556b848-5a37-400c-9322-2504bff33433</itemGUID>
+			</subItems>
+			<subItems> <!-- Shirt Formal -->
+			<itemGUID>ac7976de-2c73-44ea-9392-5d24ac1fb649</itemGUID>
+			</subItems>
+			<subItems> <!-- Shirt Hawaii -->
+			<itemGUID>76ae98e6-10d4-4d89-a4eb-3f8f6642c897</itemGUID>
+			</subItems>
+			<subItems> <!-- Shirt Formal Short Sleeve -->
+			<itemGUID>00d77803-6b57-453b-89b6-135d2d642719</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+			<subItems> <!-- Trainers -->
+			<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
+			</subItems>
+			<subItems> <!-- Shoes Black -->
+			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
+			</subItems>
+			<subItems> <!-- Shoes Brown -->
+			<itemGUID>c0a3a194-2ee9-4ce5-9d7a-aa1d5e031cea</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Vest FBI -->
+			<itemGUID>435c0661-2734-403f-bf97-b2e149ff57ed</itemGUID>
+			<subItems> <!-- Jacket FBI -->
+			<itemGUID>1a7b618c-68a3-40af-8881-084b2ba292e1</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- FBI Cap -->
+			<probability>0.5</probability>
+			<itemGUID>257b4abf-725e-4421-976c-dfc0d5a22575</itemGUID>
+		</m_items>
+		<m_items> <!-- Balaclava -->
+			<probability>0.1</probability>
+			<itemGUID>901d3fcb-86db-470e-ba07-0ee75bfb8cd1</itemGUID>
+		</m_items>
+		<m_items> <!-- Gloves --> <!-- Gloves Tactical-->
+			<probability>0.3</probability>
+			<itemGUID>1f86c66f-b7f2-48b7-818b-94f85f9a8f7b</itemGUID>
+			<subItems> <!-- Tactical Gloves Fingerless -->
+			<probability>0.3</probability>
+			<itemGUID>1a0ddb0c-fe2d-4ecc-888d-f5114dfbcba0</itemGUID>
+			</subItems>
+		</m_items>
+	</m_MaleOutfits>
+	<m_MaleOutfits>
+		<m_Name>VGE_ATF_Agent</m_Name>
+		<m_Guid>e399be5b-c866-49b1-a65d-b5c20724b828</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>		
+		<m_items> <!-- Black Pants -->
+			<itemGUID>d3481027-59dc-42ac-9e66-8cc2ba1f66a4</itemGUID>
+		</m_items>
+		<m_items> <!--Shirt Formal White -->
+			<itemGUID>ac7976de-2c73-44ea-9392-5d24ac1fb649</itemGUID>
+			<subItems> <!-- Formal Short Sleeve -->
+			<itemGUID>00d77803-6b57-453b-89b6-135d2d642719</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+			<subItems> <!-- Shoes Black -->
+			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
+			</subItems>
+			<subItems> <!-- Shoes Brown -->
+			<itemGUID>c0a3a194-2ee9-4ce5-9d7a-aa1d5e031cea</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Vest ATF -->
+			<probability>0.9</probability>
+			<itemGUID>c1945e7c-c247-48bb-a8ec-ee62cd0b4de2</itemGUID>
+		</m_items>
+		<m_items> <!-- ATF Cap -->
+			<probability>0.6</probability>
+			<itemGUID>84da561f-a1c3-4895-8731-c4462d455a4f</itemGUID>
+		</m_items>
+		<m_items> <!-- Gloves --> <!-- Gloves Tactical-->
+			<probability>0.1</probability>
+			<itemGUID>1f86c66f-b7f2-48b7-818b-94f85f9a8f7b</itemGUID>
+			<subItems> <!-- Tactical Gloves Fingerless -->
+			<probability>0.1</probability>
+			<itemGUID>1a0ddb0c-fe2d-4ecc-888d-f5114dfbcba0</itemGUID>
+			</subItems>
+		</m_items>
+	</m_MaleOutfits>
+	<m_MaleOutfits>
+		<m_Name>VGE_Press</m_Name>
+		<m_Guid>cfb4814a-69d2-4c9c-9722-fe63984bc028</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>		
+		<m_items> <!-- Black Pants -->
+			<itemGUID>d3481027-59dc-42ac-9e66-8cc2ba1f66a4</itemGUID>
+		</m_items>
+		<m_items> <!--Shirt Formal White -->
+			<itemGUID>ac7976de-2c73-44ea-9392-5d24ac1fb649</itemGUID>
+			<subItems> <!-- Formal Short Sleeve -->
+			<itemGUID>00d77803-6b57-453b-89b6-135d2d642719</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Shoes Black -->
+			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
+			<subItems> <!-- Shoes Brown -->
+			<itemGUID>c0a3a194-2ee9-4ce5-9d7a-aa1d5e031cea</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Vest Press -->
+			<itemGUID>1f7e546d-14c9-4165-8db1-5b0f74eb1da6</itemGUID>
+		</m_items>
+		<m_items> <!-- Press Cap -->
+			<probability>0.8</probability>
+			<itemGUID>3b9f8e78-79d2-4f0d-9eeb-364a0bdcd67f</itemGUID>
+		</m_items>
+	</m_MaleOutfits>
+	<m_FemaleOutfits>
+		<m_Name>VGE_ATF_Agent</m_Name>
+		<m_Guid>e399be5b-c866-49b1-a65d-b5c20724b828</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>		
+		<m_items> <!-- Black Pants -->
+			<itemGUID>d3481027-59dc-42ac-9e66-8cc2ba1f66a4</itemGUID>
+		</m_items>
+		<m_items> <!--Shirt Formal White -->
+			<itemGUID>ac7976de-2c73-44ea-9392-5d24ac1fb649</itemGUID>
+			<subItems> <!-- Formal Short Sleeve -->
+			<itemGUID>00d77803-6b57-453b-89b6-135d2d642719</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+			<subItems> <!-- Shoes Black -->
+			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
+			</subItems>
+			<subItems> <!-- Shoes Brown -->
+			<itemGUID>c0a3a194-2ee9-4ce5-9d7a-aa1d5e031cea</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Vest ATF -->
+			<probability>0.9</probability>
+			<itemGUID>c1945e7c-c247-48bb-a8ec-ee62cd0b4de2</itemGUID>
+		</m_items>
+		<m_items> <!-- ATF Cap -->
+			<probability>0.6</probability>
+			<itemGUID>84da561f-a1c3-4895-8731-c4462d455a4f</itemGUID>
+		</m_items>
+		<m_items> <!-- Gloves --> <!-- Gloves Tactical-->
+			<probability>0.1</probability>
+			<itemGUID>1f86c66f-b7f2-48b7-818b-94f85f9a8f7b</itemGUID>
+			<subItems> <!-- Tactical Gloves Fingerless -->
+			<probability>0.1</probability>
+			<itemGUID>1a0ddb0c-fe2d-4ecc-888d-f5114dfbcba0</itemGUID>
+			</subItems>
+		</m_items>
+	</m_FemaleOutfits>
+	<m_FemaleOutfits> 
+		<m_Name>VGE_FBI_Agent</m_Name>
+		<m_Guid>028e2158-0712-40a1-9532-e80b2ca6deb2</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>		
+		<m_items> <!-- Pants -->
+			<itemGUID>99754c07-277a-4c4d-b90b-c21ff09173e9</itemGUID>
+			<subItems> <!-- Demin Light -->
+			<itemGUID>06b8adc1-ef58-4545-a30a-6ca9920c1b82</itemGUID>
+			</subItems>
+			<subItems> <!-- Trousers Black -->
+			<itemGUID>d3481027-59dc-42ac-9e66-8cc2ba1f66a4</itemGUID>
+			</subItems>
+			<subItems> <!-- Trousers Denim -->
+			<itemGUID>229b23f6-8e8f-4f16-837b-4fe950c48bfc</itemGUID>
+			</subItems>
+			<subItems> <!-- Trousers TEXTURE -->
+			<itemGUID>e4b71599-604d-4cc7-9ce4-7723a7e37d8a</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- T Shirt-->
+			<itemGUID>2256166c-64a6-4f81-8285-0779cab92fbd</itemGUID>
+			<subItems> <!-- T Shirt Longsleeve -->
+			<itemGUID>99b1ff28-3884-4ca3-b827-7fdab685c7a6</itemGUID>
+			</subItems>
+			<subItems> <!-- Shirt FormalTINT -->
+			<itemGUID>d556b848-5a37-400c-9322-2504bff33433</itemGUID>
+			</subItems>
+			<subItems> <!-- Shirt Formal -->
+			<itemGUID>ac7976de-2c73-44ea-9392-5d24ac1fb649</itemGUID>
+			</subItems>
+			<subItems> <!-- Shirt Hawaii -->
+			<itemGUID>76ae98e6-10d4-4d89-a4eb-3f8f6642c897</itemGUID>
+			</subItems>
+			<subItems> <!-- Shirt Formal Short Sleeve -->
+			<itemGUID>00d77803-6b57-453b-89b6-135d2d642719</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Boots -->
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+			<subItems> <!-- Trainers -->
+			<itemGUID>6fed6e2b-3a72-4bac-aac5-09585984493d</itemGUID>
+			</subItems>
+			<subItems> <!-- Shoes Black -->
+			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
+			</subItems>
+			<subItems> <!-- Shoes Brown -->
+			<itemGUID>c0a3a194-2ee9-4ce5-9d7a-aa1d5e031cea</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Vest FBI -->
+			<itemGUID>435c0661-2734-403f-bf97-b2e149ff57ed</itemGUID>
+			<subItems> <!-- FBI Jacket -->
+			<itemGUID>1a7b618c-68a3-40af-8881-084b2ba292e1</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- FBI Cap -->
+			<probability>0.5</probability>
+			<itemGUID>257b4abf-725e-4421-976c-dfc0d5a22575</itemGUID>
+		</m_items>
+		<m_items> <!-- Balaclava -->
+			<probability>0.1</probability>
+			<itemGUID>901d3fcb-86db-470e-ba07-0ee75bfb8cd1</itemGUID>
+		</m_items>
+		<m_items> <!-- Gloves --> <!-- Gloves Tactical-->
+			<probability>0.3</probability>
+			<itemGUID>1f86c66f-b7f2-48b7-818b-94f85f9a8f7b</itemGUID>
+			<subItems> <!-- Tactical Gloves Fingerless -->
+			<probability>0.3</probability>
+			<itemGUID>1a0ddb0c-fe2d-4ecc-888d-f5114dfbcba0</itemGUID>
+			</subItems>
+		</m_items>
+	</m_FemaleOutfits>
+	<m_FemaleOutfits>
+		<m_Name>VGE_Press</m_Name>
+		<m_Guid>cfb4814a-69d2-4c9c-9722-fe63984bc028</m_Guid>
+		<m_Top>false</m_Top>
+		<m_Pants>false</m_Pants>
+		<m_AllowTopTint>false</m_AllowTopTint>		
+		<m_items> <!-- Black Pants -->
+			<itemGUID>d3481027-59dc-42ac-9e66-8cc2ba1f66a4</itemGUID>
+		</m_items>
+		<m_items> <!--Shirt Formal White -->
+			<itemGUID>ac7976de-2c73-44ea-9392-5d24ac1fb649</itemGUID>
+			<subItems> <!-- Formal Short Sleeve -->
+			<itemGUID>00d77803-6b57-453b-89b6-135d2d642719</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Shoes Black -->
+			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
+			<subItems> <!-- Shoes Brown -->
+			<itemGUID>c0a3a194-2ee9-4ce5-9d7a-aa1d5e031cea</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- Vest Press -->
+			<itemGUID>1f7e546d-14c9-4165-8db1-5b0f74eb1da6</itemGUID>
+		</m_items>
+		<m_items> <!-- Press Cap -->
+			<probability>0.8</probability>
+			<itemGUID>3b9f8e78-79d2-4f0d-9eeb-364a0bdcd67f</itemGUID>
+		</m_items>
+	</m_FemaleOutfits>
+
+</outfitManager>

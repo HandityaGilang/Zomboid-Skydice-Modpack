@@ -1,0 +1,10 @@
+{
+	"UI_P4TidyUpMeister_Messages_ToDoReequip": "İşlem tamamlandığında yeniden kuşanma etkinleştirildi.",
+	"UI_P4TidyUpMeister_Messages_ToDoNotReequip": "İşlem tamamlandığında yeniden kuşanma devre dışı bırakıldı.",
+	"UI_P4TidyUpMeister_Options_UseContextMenu_Name": "Yeniden Kuşanma Menüsünü Kullan",
+	"UI_P4TidyUpMeister_Options_UseContextMenu_Tooltip": "Yeniden Kuşanma menüsünü aktifleştirmek seçili işlemlerdeki yeniden kuşanma ve kuşanmama seçeneğini değiştirmenizi sağlar.",
+	"UI_P4TidyUpMeister_Options_ForceReequip_Name": "Zorla yeniden kuşanma",
+	"UI_P4TidyUpMeister_Options_ForceReequip_Tooltip": "Normalde, işlem yarıda kesildiğinde ekipmanı yeniden kuşanmaz. Ancak, bu özelliği etkinleştirmek, sadece elde tutulan ekipmanların zorla yeniden kuşanılmasını sağlar.",
+	"UI_P4TidyUpMeister_Options_RestoreDismantleOutputs_Name": "Sökülen malzemeleri kaynağına geri koy",
+	"UI_P4TidyUpMeister_Options_RestoreDismantleOutputs_Tooltip": "Bir eşya söküldüğünde elde edilen malzemeleri eşyanın bulunduğu özgün konteynere geri koyar."
+}

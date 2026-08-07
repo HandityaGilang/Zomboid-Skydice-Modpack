@@ -1,0 +1,4 @@
+ContextMenu_UA = {
+	ContextMenu_Repair_Wall = "Відремонтувати тріщину на стіні",
+	ContextMenu_Repair_Wall_Object = "Пошкоджена стіна"
+}

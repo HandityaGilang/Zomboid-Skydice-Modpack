@@ -1,0 +1,4 @@
+module Base
+{
+	model DrawingPaper { mesh = WorldItems/SheetOfPaper, texture = zomboidPaper/DrawingPaper1, scale = 0.02, }
+}

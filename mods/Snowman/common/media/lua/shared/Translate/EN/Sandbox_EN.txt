@@ -1,0 +1,6 @@
+Sandbox_EN = {
+    Sandbox_Snowman = "Snowman",
+
+    Sandbox_Snowman_Melt = "Melt Snowman",
+    Sandbox_Snowman_Melt_tooltip = "Enable or disable snowmen melting automatically when there’s no snow in the world.",
+}

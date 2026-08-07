@@ -1,0 +1,7 @@
+{
+    "Sandbox_WashSmart": "Washing Menus Improved",
+    "Sandbox_WashSmart_AllowTaintedWater": "Дозволити брудну воду для чищення пов'язок",
+    "Sandbox_WashSmart_AllowTaintedWater_tooltip": "Якщо ввімкнено, брудну воду можна використовувати для чищення пов'язок, ганчірок з тканини, джинсу та шкіри.",
+    "Sandbox_WashSmart_BandageWaterPerItem": "Вода за бинт/смужку",
+    "Sandbox_WashSmart_BandageWaterPerItem_tooltip": "Одиниці води на предмет під час прання брудних бинтів, ганчірок, джинсових смужок і шкіряних смужок біля джерела води. За замовчуванням: 4.0."
+}

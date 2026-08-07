@@ -1,0 +1,18 @@
+name=The Psychopath Trait [B42.18+ SP/MP]
+
+id=PK42Psychopath
+author=rEXX
+modversion=1.0
+versionMin=42.18
+require=zdk
+loadModAfter=zdk,ZVirusVaccine42BETA,ResearchLabInternProfession
+incompatible=Rebalanced_Butchering
+
+description=<SIZE:medium><LEFT><RGB:1,0,0>THE PSYCHOPATH TRAIT [B42.18+ SP/MP] <LINE><LEFT><SIZE:small><RGB:1,0.8,0.4>The ultimate mod for those who looked at the apocalypse and thought: "Well, I kinda like it". <LINE><LINE><LEFT><SIZE:small><RGB:0.9,0.9,0.9>When the world finally crumbled, you did not panic. <LINE>While others screamed, hid and prayed for rescue... you adapted disturbingly fast. <LINE><LINE>Somewhere between the blood, the screaming, and the piles of corpses, you discovered something unexpected: peace. <LINE><LINE>In vanilla, killing zombies is survival. <LINE>In this mod, it slowly becomes... therapy.. <LINE><LINE><LEFT><SIZE:small><RGB:1,0.35,0.25>TRAIT PERKS: <LINE><LEFT><SIZE:small><RGB:0.4,1,0>• Never Panics (Desensitized) <LINE>• Killing Reduces Stress <LINE>• Killing Reduces Boredom <LINE>• Killing Reduces Unhappiness <LINE>• Access to a new exclusive skill: Insanity <LINE>• Unlocks Cannibalism <LINE>• Unlocks Crafting With Human Parts
+
+pack=psychopath_tiles
+pack=psychopath_tiles2x
+tiledef=psychopath_tiles 850
+
+poster=poster.png
+icon=icon.png

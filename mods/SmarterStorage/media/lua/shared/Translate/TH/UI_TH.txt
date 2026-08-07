@@ -1,0 +1,7 @@
+UI_TH = {
+	UI_SmarterStorage_Options_Vanilla_Name = "แสดงคำแนะนำเครื่องมือวานิลลา",
+	UI_SmarterStorage_Options_Vanilla_Tooltip = "เลือกตัวเลือกนี้เพื่อแสดงชื่อวานิลลา เช่น 'ตู้เย็น' เป็นคำแนะนำเครื่องมือ",
+
+	UI_SmarterStorage_Options_RenamedTooltips_Name = "แสดงคำแนะนำเครื่องมือชื่อที่กำหนดเอง",
+	UI_SmarterStorage_Options_RenamedTooltips_Tooltip = "เลือกเพื่อใช้ชื่อที่เก็บของที่คุณกำหนดเองเป็นคำแนะนำเครื่องมือ",
+}

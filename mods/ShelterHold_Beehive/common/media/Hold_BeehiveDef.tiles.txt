@@ -1,0 +1,99 @@
+version = 1
+tileset
+{
+    file = Hold_BaitHive
+    size = 8,8
+    id = 2
+    // Hold_BaitHive_0
+    tile
+    {
+        xy = 0,0
+        BlocksPlacement = 
+        CustomName = baithive
+        GroupName = Hold
+        solidtrans = 
+    }
+    // Hold_BaitHive_1
+    tile
+    {
+        xy = 1,0
+        BlocksPlacement = 
+        CustomName = baithive
+        GroupName = Hold
+        solidtrans = 
+    }
+}
+tileset
+{
+    file = Hold_Beehive
+    size = 8,8
+    id = 1
+    // Hold_Beehive_0
+    tile
+    {
+        xy = 0,0
+        BlocksPlacement = 
+        CanScrap = 
+        CustomName = beehive
+        Facing = E
+        GroupName = Hold
+        IsMoveAble = 
+        Material = Wood
+        Material2 = Nails
+        Material3 = MetalScrap
+        PickUpWeight = 200
+        solidtrans = 
+    }
+    // Hold_Beehive_1
+    tile
+    {
+        xy = 1,0
+        BlocksPlacement = 
+        CanScrap = 
+        CustomName = beehive
+        Facing = S
+        GroupName = Hold
+        IsMoveAble = 
+        Material = Wood
+        Material2 = Nails
+        Material3 = MetalScrap
+        PickUpWeight = 200
+        solidtrans = 
+    }
+}
+tileset
+{
+    file = Hold_HoneyExtractor
+    size = 8,8
+    id = 3
+    // Hold_HoneyExtractor_0
+    tile
+    {
+        xy = 0,0
+        BlocksPlacement = 
+        CanScrap = 
+        CustomName = honeyextractor
+        Facing = S
+        GroupName = Hold
+        IsMoveAble = 
+        Material = Nails
+        Material2 = MetalScrap
+        PickUpWeight = 200
+        solidtrans = 
+    }
+    // Hold_HoneyExtractor_1
+    tile
+    {
+        xy = 1,0
+        BlocksPlacement = 
+        CanScrap = 
+        CustomName = honeyextractor
+        Facing = E
+        GroupName = Hold
+        IsMoveAble = 
+        Material = Nails
+        Material2 = MetalScrap
+        PickUpWeight = 200
+        solidtrans = 
+    }
+}

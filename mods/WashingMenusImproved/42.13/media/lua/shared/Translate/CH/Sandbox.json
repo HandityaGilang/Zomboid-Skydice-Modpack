@@ -1,0 +1,7 @@
+{
+    "Sandbox_WashSmart": "清洗選單改良",
+    "Sandbox_WashSmart_AllowTaintedWater": "允許使用受汙染的水清洗布料",
+    "Sandbox_WashSmart_AllowTaintedWater_tooltip": "啟用後，可使用受汙染的水清洗抹布、繃帶與（丹寧／皮革）布條。",
+    "Sandbox_WashSmart_BandageWaterPerItem": "每個繃帶/布條耗水量",
+    "Sandbox_WashSmart_BandageWaterPerItem_tooltip": "在水源處清洗髒繃帶、布條、牛仔布條與皮革條時，每件物品消耗的水量。預設值：4.0。"
+}

@@ -1,0 +1,17 @@
+require "Definitions/ContainerButtonIcons"
+
+ContainerButtonIcons = ContainerButtonIcons or {}
+
+local textureButtonIcons = {}
+
+textureButtonIcons.containermusictape = getTexture("media/ui/Container_Musictape.png")
+ContainerButtonIcons.tcmusic = textureButtonIcons.containermusictape
+ContainerButtonIcons.tm_jukebox = getTexture("media/ui/Container_Jukebox.png")
+
+--[[
+-- original
+require "Definitions/ContainerButtonIcons"
+
+ContainerButtonIcons = ContainerButtonIcons or {}
+ContainerButtonIcons.tcmusic = getTexture("media/ui/Container_Musictape.png")
+]]--

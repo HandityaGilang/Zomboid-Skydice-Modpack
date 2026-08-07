@@ -1,0 +1,8 @@
+ContextMenu_PL = {
+    ContextMenu_Connect_Device = "Łączyć",
+    ContextMenu_Disconnect_Device = "Odłączyć",
+    ContextMenu_MergeWire = "Połącz wiązki przewodów",
+    ContextMenu_PickUp_Speaker = "Podnieś głośnik",
+    ContextMenu_TM_CDCase_PutIn = "Włożyć do pudełka na płytę CD",
+    ContextMenu_TM_CDCase_TakeOut = "Wyjmij płytę CD",
+}

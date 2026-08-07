@@ -1,0 +1,6 @@
+{
+    "ContextMenu_BagsEquipped": "Снаряженные сумки",
+    "ContextMenu_WMI_Bandages": "Бинты",
+    "Tooltip_WMI_TaintedAllowed": "Разрешено настройками мира.",
+    "Tooltip_WMI_TaintedBlocked": "Заблокировано настройками мира."
+}

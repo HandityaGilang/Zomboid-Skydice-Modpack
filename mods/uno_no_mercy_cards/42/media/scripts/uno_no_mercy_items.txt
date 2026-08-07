@@ -1,0 +1,13 @@
+module Base
+{
+    item NoMercyDeck
+    {
+        DisplayCategory = Entertainment,
+        Tooltip = Tooltip_NoMercyDeck,
+        ItemType = base:normal,
+        Weight = 0.2,
+        Icon = NoMercyDeck,
+        StaticModel = NoMercyDeck,
+        WorldStaticModel = NoMercyDeck_Ground,
+    }
+}

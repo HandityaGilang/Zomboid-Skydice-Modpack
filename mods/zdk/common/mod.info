@@ -1,0 +1,13 @@
+name=zdk
+id=zdk
+modversion=2.3
+
+author=Zed
+url=https://github.com/zed-0xff
+
+icon=z.png
+poster=zdk.png
+
+description=Zed's Developer Kit. <LINE><LINE> (just a function library, doesn't do anything on its own)
+
+loadfirst=true

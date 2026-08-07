@@ -1,0 +1,4 @@
+ContextMenu_CH = {
+    ContextMenu_Repair_Wall = "受損的牆壁",
+    ContextMenu_Repair_Wall_Object = "维修对象"
+}

@@ -1,0 +1,9 @@
+{
+    "UI_PlainMoodles_Title": "Plain Moodles Redone",
+    "UI_PlainMoodles_OwnStack": "Vykreslovat sloupec moodlu tímto modem",
+    "UI_PlainMoodles_OwnStack_tip": "Vypnuto: sloupec vykresluje hra sama a z modu jsou jen textury.",
+    "UI_PlainMoodles_Tint": "Obarvit podklad podle úrovně moodlu",
+    "UI_PlainMoodles_Tint_tip": "Vypnuto: podklady zůstanou u všech úrovní šedé, jako ve verzi 1.4.0.",
+    "UI_PlainMoodles_Tooltip": "Zobrazit název moodlu při najetí myší",
+    "UI_PlainMoodles_Tooltip_tip": "Vypnuto: u podkladu pod kurzorem se nezobrazí popisek."
+}

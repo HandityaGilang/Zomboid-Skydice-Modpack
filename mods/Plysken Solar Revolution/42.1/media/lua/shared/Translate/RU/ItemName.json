@@ -1,0 +1,10 @@
+{
+    "PSR.PSRMag1": "Журнал «Новые достижения: Энергия солнца»",
+    "PSR.SolarPanel": "Солнечная панель",
+    "PSR.PSRInverter": "Инвертор",
+    "PSR.DeepCycleBattery": "Аккумулятор (200Ач)",
+    "PSR.SuperBattery": "Аккумулятор (400Ач)",
+    "PSR.WiredCarBattery": "Проводная автомобильная батарея",
+    "PSR.DIYBattery": "Аккумуляторная батарея",
+    "PSR.ImprovisedBattery": "Самодельная батарея"
+}

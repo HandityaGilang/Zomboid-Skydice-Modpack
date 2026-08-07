@@ -1,0 +1,18 @@
+function Adjust(Name, Property, Value)
+Item = ScriptManager.instance:getItem(Name)
+Item:DoParam(Property.." = "..Value)
+end
+
+Adjust("Radio.WalkieTalkie1","Weight","0.1")
+Adjust("Radio.WalkieTalkie2","Weight","0.1")
+Adjust("Radio.WalkieTalkie3","Weight","0.1")
+Adjust("Radio.WalkieTalkie4","Weight","0.1")
+Adjust("Radio.WalkieTalkie5","Weight","0.1")
+Adjust("Radio.WalkieTalkieMakeShift","Weight","0.1")
+Adjust("Radio.HamRadio1","Weight","5.0")
+Adjust("Radio.HamRadio2","Weight","5.0")
+Adjust("Radio.HamRadioMakeShift","Weight","5.0")
+Adjust("Radio.CDplayer","Weight","0.1")
+Adjust("Radio.RadioRed","Weight","0.1")
+Adjust("Radio.RadioBlack","Weight","0.1")
+Adjust("Radio.RadioMakeShift","Weight","0.1")

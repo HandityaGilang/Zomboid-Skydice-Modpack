@@ -1,0 +1,12 @@
+{
+    "UI_TaillightModZomboid_modName": "Taillights and Stoplights",
+    "UI_TaillightModZomboid_optReverseLights": "Enable reverse lights",
+    "UI_TaillightModZomboid_optAlwaysVisible": "Taillights always visible",
+    "UI_TaillightModZomboid_optAlwaysVisible_tooltip": "Enabling it makes the taillights always visible, even when outside the car and looking in the opposite direction.",
+    "UI_TaillightModZomboid_optBrightnessRed": "Taillights/brakelights brightness",
+    "UI_TaillightModZomboid_optBrightnessReverse": "Reverse lights brightness",
+    "UI_TaillightModZomboid_optBrightnessRed_tooltip": "Change the brightness of reverse lights, 0.35 is the default.",
+    "UI_TaillightModZomboid_optBrightnessReverse_tooltip": "Change the brightness of reverse lights, 0.4 is the default.",
+    "UI_TaillightModZomboid_optDefaultBrightness1": "Restore default brightness",
+    "UI_TaillightModZomboid_optDefaultBrightness2": "Restore default brightness"
+}

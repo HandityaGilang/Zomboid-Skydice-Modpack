@@ -1,0 +1,7 @@
+Tooltip_PL = {
+
+Tooltip_VFX_Recipe_MeatCooked = "Mięso musi być ugotowane przed dodaniem do przepisu.",
+Tooltip_VFX_Recipe_RiceCooked = "Ryż musi być ugotowany przed dodaniem do przepisu.",
+Tooltip_VFXRavioliTortellini = "Prepare by filling a saucepan or cooking pot with water, then add the fresh pasta. Found in the crafting menu."
+
+}

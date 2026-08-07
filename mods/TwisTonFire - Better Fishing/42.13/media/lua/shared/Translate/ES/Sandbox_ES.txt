@@ -1,0 +1,42 @@
+Sandbox_ES = {
+    Sandbox_TWF_BF = "TwisTonFire — Better Fishing",
+
+    Sandbox_TWF_BF_UseTwF_SizeTables = "Usar tablas de probabilidad de captura de Better Fishing",
+    Sandbox_TWF_BF_UseTwF_SizeTables_tooltip = "Cambia entre las tablas de probabilidad de captura de vanilla y las de Better Fishing (límites de tamaño por habilidad + distribución).\nPredeterminado: activado.\nNota: Esta opción se aplica al cargar el mundo. Vuelve a cargar la partida después de cambiarla.",
+
+    Sandbox_TWF_BF_AimDist = "Distancia de lanzamiento",
+    Sandbox_TWF_BF_AimDist_tooltip = "Distancia máxima de lanzamiento/apuntado en casillas.\nPredeterminado: 16.",
+
+    Sandbox_TWF_BF_ShoreRadius = "Radio de orilla (casillas)",
+    Sandbox_TWF_BF_ShoreRadius_tooltip = "Radio de detección de orilla en casillas.\nValores más bajos hacen más estricta la comprobación de \"cerca de la orilla\".\nPredeterminado: 7.",
+
+    Sandbox_TWF_BF_SizeBlend = "Cambio de tamaño cerca de la orilla (%)",
+    Sandbox_TWF_BF_SizeBlend_tooltip = "Cerca de la orilla, esto desplaza la distribución de tamaños hacia peces más pequeños.\nValores más altos convierten más capturas medianas/grandes en capturas pequeñas.\n0% = desactivado, 100% = efecto máximo.\nPredeterminado: 100%.",
+
+    Sandbox_TWF_BF_TempCoeff = "Bonificación/Penalización por temperatura",
+    Sandbox_TWF_BF_TempCoeff_tooltip = "Coeficiente de temperatura (porcentaje).\n100% = base.\nPredeterminado: 100%.",
+
+    Sandbox_TWF_BF_FogCoeff = "Bonificación/Penalización por niebla",
+    Sandbox_TWF_BF_FogCoeff_tooltip = "Coeficiente de niebla (porcentaje).\n100% = base.\nPredeterminado: 80%.",
+
+    Sandbox_TWF_BF_WindCoeff = "Bonificación/Penalización por viento",
+    Sandbox_TWF_BF_WindCoeff_tooltip = "Coeficiente de viento (porcentaje).\n100% = base.\nPredeterminado: 80%.",
+
+    Sandbox_TWF_BF_RainCoeff = "Bonificación/Penalización por lluvia",
+    Sandbox_TWF_BF_RainCoeff_tooltip = "Coeficiente de lluvia (porcentaje).\n100% = base.\nPredeterminado: 120%.",
+
+    Sandbox_TWF_BF_MornStart = "Inicio de bonificación (mañana) (h)",
+    Sandbox_TWF_BF_MornStart_tooltip = "Hora de inicio del periodo de bonificación (mañana).\nPredeterminado: 4.",
+
+    Sandbox_TWF_BF_MornEnd = "Fin de bonificación (mañana) (h)",
+    Sandbox_TWF_BF_MornEnd_tooltip = "Hora de fin del periodo de bonificación (mañana).\nPredeterminado: 6.",
+
+    Sandbox_TWF_BF_EveStart = "Inicio de bonificación (tarde) (h)",
+    Sandbox_TWF_BF_EveStart_tooltip = "Hora de inicio del periodo de bonificación (tarde).\nPredeterminado: 18.",
+
+    Sandbox_TWF_BF_EveEnd = "Fin de bonificación (tarde) (h)",
+    Sandbox_TWF_BF_EveEnd_tooltip = "Hora de fin del periodo de bonificación (tarde).\nPredeterminado: 20.",
+
+    Sandbox_TWF_BF_TimeCoeff = "Probabilidad de captura con bonificación (%)",
+    Sandbox_TWF_BF_TimeCoeff_tooltip = "Multiplicador de probabilidad de captura durante los periodos de bonificación (porcentaje).\n100% = sin bonificación.\nPredeterminado: 120%.",
+}

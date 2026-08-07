@@ -1,0 +1,4 @@
+ContextMenu_NL = {
+    ContextMenu_Repair_Wall_Crack = "Muurscheur repareren",
+    ContextMenu_Repair_Wall_Object = "Beschadigde muur"
+}

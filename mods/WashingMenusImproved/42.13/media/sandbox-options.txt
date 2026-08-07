@@ -1,0 +1,19 @@
+VERSION = 1,
+
+option WashSmart.AllowTaintedWater
+{
+    type = boolean,
+    default = true,
+    page = WashSmart,
+    translation = WashSmart_AllowTaintedWater,
+}
+
+option WashSmart.BandageWaterPerItem
+{
+    type = double,
+    default = 4.00,
+    min = 0.50,
+    max = 10.00,
+    page = WashSmart,
+    translation = WashSmart_BandageWaterPerItem,
+}

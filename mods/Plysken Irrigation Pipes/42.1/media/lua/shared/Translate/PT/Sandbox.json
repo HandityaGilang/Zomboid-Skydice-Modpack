@@ -1,0 +1,23 @@
+{
+    "Sandbox_PIP": "Plysken Irrigation Pipes",
+    "Sandbox_PIP_EnableAutoWatering": "Ativar rega automática",
+    "Sandbox_PIP_EnableAutoWatering_tooltip": "Quando ativado, os tubos regam automaticamente as culturas próximas a partir dos barris de chuva ligados.",
+    "Sandbox_PIP_WateringInterval": "Intervalo de rega (minutos)",
+    "Sandbox_PIP_WateringInterval_tooltip": "Minutos de jogo entre cada ciclo de rega.",
+    "Sandbox_PIP_WateringRadius": "Raio de rega (quadrículas)",
+    "Sandbox_PIP_WateringRadius_tooltip": "0 = apenas a quadrícula do próprio tubo. Valores mais altos regam as culturas numa área quadrada à volta de cada tubo.",
+    "Sandbox_PIP_SmartPipes": "Tubos inteligentes",
+    "Sandbox_PIP_SmartPipes_tooltip": "Quando ativado, os tubos enchem as culturas até ao seu nível ótimo de água. Quando desativado, adicionam uma pequena quantidade fixa em cada ciclo.",
+    "Sandbox_PIP_SmartPipesFillMax": "Enchimento máximo dos tubos inteligentes",
+    "Sandbox_PIP_SmartPipesFillMax_tooltip": "Nível máximo de água adicionado a uma cultura por ciclo no modo de tubos inteligentes.",
+    "Sandbox_PIP_SharedWaterPool": "Reserva de água partilhada",
+    "Sandbox_PIP_SharedWaterPool_tooltip": "Quando ativado, os barris ligados na mesma rede partilham e equilibram a sua água (um barril cheio e um vazio igualam-se).",
+    "Sandbox_PIP_DebugLogs": "Registos de depuração",
+    "Sandbox_PIP_DebugLogs_tooltip": "Imprime registos internos na consola. Apenas para resolução de problemas.",
+    "Sandbox_PIP_EnableFertigation": "Ativar fertirrigação",
+    "Sandbox_PIP_EnableFertigation_tooltip": "Quando ativo, deite Fertilizante ou Composto num barril ligado e a rede de tubos fertiliza as culturas próximas automaticamente (uma dose segura por planta, nunca sobrefertiliza). Ativado por predefinição.",
+    "Sandbox_PIP_FertigationSkill": "Qualidade da fertirrigação (Agricultura)",
+    "Sandbox_PIP_FertigationSkill_tooltip": "Nível de Agricultura simulado ao fertilizar. Mais alto = melhor hipótese de bónus de colheita. Não afeta a segurança.",
+    "Sandbox_PIP_ChargesPerBag": "Doses por saco de fertilizante/composto",
+    "Sandbox_PIP_ChargesPerBag_tooltip": "Quantas plantas um saco deitado pode fertilizar. Independente do volume de água do barril."
+}

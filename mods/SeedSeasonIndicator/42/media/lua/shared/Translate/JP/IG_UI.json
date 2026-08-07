@@ -1,0 +1,17 @@
+{
+    "IGUI_ItemCat_Gardening_01_Best": "園芸 (最適)",
+    "IGUI_ItemCat_Gardening_02_InSeason": "園芸 (シーズン)",
+    "IGUI_ItemCat_Gardening_03_Risk": "園芸 (リスク)",
+    "IGUI_ItemCat_Gardening_04_OutOfSeason": "園芸 (シーズン外)",
+    "IGUI_ItemCat_Gardening_05_Unknown": "園芸",
+    "IGUI_ItemCat_Gardening_06_Other": "園芸",
+    "IGUI_SSI_SeasonSuffix_Best": "(最適)",
+    "IGUI_SSI_SeasonSuffix_InSeason": "(シーズン)",
+    "IGUI_SSI_SeasonSuffix_Risk": "(リスク)",
+    "IGUI_SSI_SeasonSuffix_OutOfSeason": "(シーズン外)",
+    "IGUI_SSI_TooltipThisMonth": "今月",
+    "IGUI_SSI_TooltipStatus_Best": "最適",
+    "IGUI_SSI_TooltipStatus_InSeason": "シーズン",
+    "IGUI_SSI_TooltipStatus_Risk": "リスク",
+    "IGUI_SSI_TooltipStatus_OutOfSeason": "シーズン外"
+}

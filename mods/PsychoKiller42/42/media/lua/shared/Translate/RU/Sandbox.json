@@ -1,0 +1,145 @@
+{
+    "Sandbox_PK42": "Черта «Психопат»",
+
+    "Sandbox_PK42_FrenzyCooldownHours": "Перезарядка бешенства (часы)",
+    "Sandbox_PK42_FrenzyCooldownHours_tooltip": "Сколько игровых часов должно пройти, прежде чем Адреналиновое бешенство сможет сработать снова.",
+
+    "Sandbox_PK42_FrenzyCombatSpeedBonus": "Бонус к скорости атаки при бешенстве (%%)",
+    "Sandbox_PK42_FrenzyCombatSpeedBonus_tooltip": "Процентный бонус к скорости атаки во время Адреналинового бешенства.",
+
+    "Sandbox_PK42_FrenzyMoveSpeedBonus": "Бонус к скорости движения при бешенстве (%%)",
+    "Sandbox_PK42_FrenzyMoveSpeedBonus_tooltip": "Процентный бонус к скорости движения во время Адреналинового бешенства.",
+
+    "Sandbox_PK42_FrenzyStreakThreshold": "Порог серии убийств для бешенства",
+    "Sandbox_PK42_FrenzyStreakThreshold_tooltip": "Минимальная серия убийств, необходимая для запуска Адреналинового бешенства.",
+
+    "Sandbox_PK42_FrenzyFatigueThreshold": "Порог усталости для бешенства (%%)",
+    "Sandbox_PK42_FrenzyFatigueThreshold_tooltip": "Уровень усталости (0-100), выше которого может активироваться Адреналиновое бешенство.",
+
+    "Sandbox_PK42_FrenzyEnduranceThreshold": "Порог выносливости для бешенства (%%)",
+    "Sandbox_PK42_FrenzyEnduranceThreshold_tooltip": "Уровень выносливости (0-100), ниже которого может активироваться Адреналиновое бешенство.",
+
+    "Sandbox_PK42_EnablePlayerSpeech": "Включить реплики персонажа",
+    "Sandbox_PK42_EnablePlayerSpeech_tooltip": "Если отключено, персонаж никогда не будет говорить во время боя. <LINE> Отменяет все настройки шанса реплик.",
+
+    "Sandbox_PK42_SpeechCooldown": "Перезарядка реплик (секунды)",
+    "Sandbox_PK42_SpeechCooldown_tooltip": "Время (в секундах) между разрешёнными репликами.",
+
+    "Sandbox_PK42_SpeechChanceOnHitZombie": "Шанс реплики: удар по зомби (%%)",
+    "Sandbox_PK42_SpeechChanceOnHitZombie_tooltip": "Шанс (0-100) произнести реплику при ударе по зомби. <LINE> 0 = Отключено.",
+
+    "Sandbox_PK42_SpeechChanceOnKillZombie": "Шанс реплики: убийство зомби (%%)",
+    "Sandbox_PK42_SpeechChanceOnKillZombie_tooltip": "Шанс (0-100) произнести реплику при убийстве зомби. <LINE> 0 = Отключено.",
+
+    "Sandbox_PK42_SpeechChanceOnKillPlayer": "Шанс реплики: убийство игрока (%%)",
+    "Sandbox_PK42_SpeechChanceOnKillPlayer_tooltip": "Шанс (0-100) произнести реплику при убийстве другого игрока. <LINE> 0 = Отключено.",
+
+    "Sandbox_PK42_SpeechChanceOnFrenzyStart": "Шанс реплики: начало бешенства (%%)",
+    "Sandbox_PK42_SpeechChanceOnFrenzyStart_tooltip": "Шанс (0-100) произнести реплику при активации Адреналинового бешенства. <LINE> 0 = Отключено.",
+
+    "Sandbox_PK42_BoredomThresholdHours": "Порог скуки (часы)",
+    "Sandbox_PK42_BoredomThresholdHours_tooltip": "Количество игровых часов без убийств, после которых персонаж начинает получать стресс от скуки.",
+    
+    "Sandbox_PK42_AllowFrenzy": "Разрешить Адреналиновое бешенство",
+    "Sandbox_PK42_AllowFrenzy_tooltip": "Если включено, механика Адреналинового бешенства может срабатывать во время боя.",
+
+    "Sandbox_PK42_EnableFrenzyDamageBonus": "Включить бонус урона при бешенстве",
+    "Sandbox_PK42_EnableFrenzyDamageBonus_tooltip": "Если включено, Адреналиновое бешенство даёт бонус к наносимому урону.",
+
+    "Sandbox_PK42_EnableFrenzySpeedBonus": "Включить бонус скорости при бешенстве",
+    "Sandbox_PK42_EnableFrenzySpeedBonus_tooltip": "Если включено, Адреналиновое бешенство даёт бонусы к скорости атаки и передвижения.",
+
+    "Sandbox_PK42_XPOnKillZombie": "Опыт за убийство: зомби",
+    "Sandbox_PK42_XPOnKillZombie_tooltip": "<BHC>На этот параметр влияет Глобальный множитель и/или Множитель безумия. <RGB:1,1,1><LINE> Количество опыта безумия, получаемого за убийство зомби. <LINE> Стандартное значение: 1 = 0.25",
+
+    "Sandbox_PK42_XPOnKillZombieOnFrenzy": "Опыт за убийство: зомби (бешенство)",
+    "Sandbox_PK42_XPOnKillZombieOnFrenzy_tooltip": "<BHC>На этот параметр влияет Глобальный множитель и/или Множитель безумия. <RGB:1,1,1><LINE> Количество опыта безумия, получаемого за убийство зомби во время Адреналинового бешенства. <LINE> Стандартное значение: 1 = 0.25",
+
+    "Sandbox_PK42_XPOnKillPlayer": "Опыт за убийство: игрок",
+    "Sandbox_PK42_XPOnKillPlayer_tooltip": "<BHC>На этот параметр влияет Глобальный множитель и/или Множитель безумия. <RGB:1,1,1><LINE> Количество опыта безумия, получаемого за убийство другого игрока. <LINE> Стандартное значение: 1 = 0.25",
+
+    "Sandbox_PK42_XPOnEatRawZombieMeat": "Опыт за еду: сырое мясо зомби",
+    "Sandbox_PK42_XPOnEatRawZombieMeat_tooltip": "<BHC>На этот параметр влияет Глобальный множитель и/или Множитель безумия. <RGB:1,1,1><LINE> Количество опыта безумия, получаемого за поедание сырого мяса зомби. <LINE> Примечание: поедание человеческого мяса даёт вдвое больше опыта безумия, чем задано для мяса зомби.  <LINE> Стандартное значение: 1 = 0.25",
+
+    "Sandbox_PK42_XPOnEatCookedZombieMeat": "Опыт за еду: приготовленное мясо зомби",
+    "Sandbox_PK42_XPOnEatCookedZombieMeat_tooltip": "<BHC>На этот параметр влияет Глобальный множитель и/или Множитель безумия. <RGB:1,1,1><LINE> Количество опыта безумия, получаемого за поедание приготовленного мяса зомби. <LINE> Примечание: поедание человеческого мяса даёт вдвое больше опыта безумия, чем задано для мяса зомби. <LINE> Стандартное значение: 1 = 0.25",
+
+    "Sandbox_PK42_XPOnEatRecipeZombieMeat": "Опыт за еду: мясо зомби в рецепте",
+    "Sandbox_PK42_XPOnEatRecipeZombieMeat_tooltip": "<BHC>На этот параметр влияет Глобальный множитель и/или Множитель безумия. <RGB:1,1,1><LINE> Количество опыта безумия, получаемого за поедание мяса зомби в составе рецепта. <LINE> Примечание: поедание человеческого мяса даёт вдвое больше опыта безумия, чем задано для мяса зомби. <LINE> Стандартное значение: 1 = 0.25",
+
+    "Sandbox_PK42_OnEatCookedPlayerInfectionChance": "Шанс заражения для обычного игрока (%%)",
+    "Sandbox_PK42_OnEatCookedPlayerInfectionChance_tooltip": "Шанс заражения при поедании приготовленного мяса зомби, если игрок не психопат.",
+
+    "Sandbox_PK42_OnEatCookedPsychopathInfectionChance": "Шанс заражения для психопата (%%)",
+    "Sandbox_PK42_OnEatCookedPsychopathInfectionChance_tooltip": "Шанс заражения при поедании приготовленного мяса зомби, если игрок психопат.",
+
+    "Sandbox_PK42_EnableXPDailyCap": "Включить дневной лимит опыта",
+    "Sandbox_PK42_EnableXPDailyCap_tooltip": "Если включено, общий опыт безумия, получаемый за игровой день, ограничивается значением дневного лимита опыта.",
+
+    "Sandbox_PK42_XPDailyCap": "Дневной лимит опыта",
+    "Sandbox_PK42_XPDailyCap_tooltip": "Максимальный опыт безумия, который персонаж может получить за игровой день для каждого типа действия. Требует включения параметра «Включить дневной лимит опыта». <LINE> Примечание: лимит применяется к БАЗОВЫМ значениям опыта, игроки могут получить больше опыта безумия, чем лимит, если прочитали книгу для его увеличения.",
+
+    "Sandbox_PK42_ButcheringXP": "Опыт разделки",
+    "Sandbox_PK42_ButcheringXP_tooltip": "<BHC>На этот параметр влияет Глобальный множитель и/или Множитель безумия. <RGB:1,1,1><LINE> Количество опыта разделки, получаемого за разделку трупа.",
+
+    "Sandbox_PK42_InsanityXP": "Опыт безумия",
+    "Sandbox_PK42_InsanityXP_tooltip": "<BHC>На этот параметр влияет Глобальный множитель и/или Множитель безумия. <RGB:1,1,1><LINE> Количество опыта безумия, получаемого за разделку трупа. <LINE> Примечание: значения опыта рассчитываются на основе качества и количества полученного мяса, по той же логике, что и ванильный навык разделки. <LINE> Увеличение этого значения значительно увеличит количество получаемого опыта безумия.  <LINE> Стандартное значение: 1 = 0.25",
+
+    "Sandbox_PK42_CannibalUnlockThreshold": "Черта «Каннибал»: порог уровня разблокировки",
+    "Sandbox_PK42_CannibalUnlockThreshold_tooltip": "Уровень безумия, необходимый для разблокировки черты «Каннибал».",
+
+    "Sandbox_PK42_EnableButcherHookPatch": "Включить патч крюка мясника",
+    "Sandbox_PK42_EnableButcherHookPatch_tooltip": "Если включено, применяет патч, позволяющий использовать крюк мясника для разделки трупов. <LINE><BHC>Отключите, если возникают проблемы с модами интерфейса. <RGB:1,1,1>",
+
+    "Sandbox_PK42_ButcherCorpseUnlockLevel": "Уровень разблокировки разделки трупа",
+    "Sandbox_PK42_ButcherCorpseUnlockLevel_tooltip": "Уровень безумия, необходимый для разблокировки возможности разделывать труп.",
+
+    "Sandbox_PK42_SkinCorpseUnlockLevel": "Уровень разблокировки снятия кожи с трупа",
+    "Sandbox_PK42_SkinCorpseUnlockLevel_tooltip": "Уровень безумия, необходимый для разблокировки возможности снимать кожу с трупа.",
+
+    "Sandbox_PK42_CollectBonesUnlockLevel": "Уровень разблокировки сбора костей",
+    "Sandbox_PK42_CollectBonesUnlockLevel_tooltip": "Уровень безумия, необходимый для разблокировки возможности собирать кости с трупа.",
+
+    "Sandbox_PK42_HallucinationCeaseLevel": "Уровень прекращения галлюцинаций",
+    "Sandbox_PK42_HallucinationCeaseLevel_tooltip": "Уровень безумия, при котором галлюцинации прекращаются.",
+
+    "Sandbox_PK42_AudioHallucinationStartingChance": "Начальный шанс звуковых галлюцинаций (%%)",
+    "Sandbox_PK42_AudioHallucinationStartingChance_tooltip": "Базовый шанс возникновения звуковой галлюцинации.",
+
+    "Sandbox_PK42_IntrusiveThoughtsStartingChance": "Начальный шанс навязчивых мыслей (%%)",
+    "Sandbox_PK42_IntrusiveThoughtsStartingChance_tooltip": "Базовый шанс возникновения навязчивой мысли.",
+
+    "Sandbox_PK42_VisualHallucinationStartingChance": "Начальный шанс визуальных галлюцинаций (%%)",
+    "Sandbox_PK42_VisualHallucinationStartingChance_tooltip": "Базовый шанс возникновения визуальной галлюцинации.",
+
+    "Sandbox_PK42_LaughChance": "Шанс смеха (%%)",
+    "Sandbox_PK42_LaughChance_tooltip": "Шанс непроизвольного смеха персонажа.",
+
+    "Sandbox_PK42_VehicleJumpscareChance": "Шанс испуга в транспорте (%%)",
+    "Sandbox_PK42_VehicleJumpscareChance_tooltip": "Шанс события испуга при выходе из транспортного средства.",
+
+    "Sandbox_PK42_CannibalAmountThreshold": "Черта «Каннибал»: порог потребления мяса",
+    "Sandbox_PK42_CannibalAmountThreshold_tooltip": "Количество мяса (в единицах), которое нужно съесть из человеческой/зомби плоти, прежде чем персонаж будет считаться каннибалом.",
+
+    "Sandbox_PK42_DisableVisualHal": "Отключить визуальные галлюцинации",
+    "Sandbox_PK42_DisableVisualHal_tooltip": "Отключает визуальные галлюцинации. <LINE> Из-за ограничений движка визуальные галлюцинации могут работать некорректно в мультиплеере.  <LINE> Если возникнут проблемы, включите этот параметр.",
+
+    "Sandbox_PK42_DisableAudioHal": "Отключить звуковые галлюцинации",
+    "Sandbox_PK42_DisableAudioHal_tooltip": "Отключает звуковые галлюцинации.",
+
+    "Sandbox_PK42_DisableSpeechHal": "Отключить навязчивые мысли",
+    "Sandbox_PK42_DisableSpeechHal_tooltip": "Отключает навязчивые мысли.",
+
+    "Sandbox_PK42_FrenzyMaxTime": "Максимальная длительность бешенства (часы)",
+    "Sandbox_PK42_FrenzyMaxTime_tooltip": "Максимальное время, которое может длиться Адреналиновое бешенство. По истечении этого времени эффект автоматически завершается.",
+
+    "Sandbox_PK42_BanditsXP": "Опыт за убийство: бандит-NPC",
+    "Sandbox_PK42_BanditsXP_tooltip": "<BHC>На этот параметр влияет Глобальный множитель и Множитель безумия. <RGB:1,1,1><LINE> Количество опыта, получаемого за убийство бандита-NPC. <LINE> Значение по умолчанию: 1 = 0.25",
+
+    "Sandbox_PK42_FrenzySeparator": "================ Настройки Адреналинового бешенства ================",
+    "Sandbox_PK42_XPSeparator": "========================= Настройки опыта =========================",
+    "Sandbox_PK42_CannibalismSeparator": "==================== Настройки каннибализма ====================",
+    "Sandbox_PK42_UnlockSeparator": "================= Настройки разблокировки функций =================",
+    "Sandbox_PK42_MentalHealthSeparator": "================ Настройки психического здоровья ================",
+    "Sandbox_PK42_SBSeparator_tooltip": "Ничего не делает, просто разделитель для лучшей организации настроек в меню."
+}

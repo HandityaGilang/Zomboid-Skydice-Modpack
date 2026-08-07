@@ -1,0 +1,38 @@
+Basegame items:
+
+-Most variants of Pants/Jeans/etc.
+-Most variants of Shorts/ShortPants.
+-Female Miniskirt.
+-Male and female glasses (regular).
+
+Not including some newly added B42 stuff or niche stuff like shell suit pants (yet).
+
+----------------------------------------------------------------------------------------------------
+Spongie's Open Jackets: 
+https://steamcommunity.com/workshop/filedetails/?id=2812326159
+
+All variants of tied at the waist coveralls fixed.
+All variants of tucked at the ankle pants fixed.
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Vanilla Gear Expanded:
+https://steamcommunity.com/sharedfiles/filedetails/?id=3401134276
+
+All variants of tactical pants overwritten with the pants made for the base game compatibility.
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+Frockin' Splendour Vol 2 & 3:
+https://steamcommunity.com/sharedfiles/filedetails/?id=3411888105
+
+Short skirts clipping fixed.
+Female cotton hotpants reshaped slightly to fit.
+----------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------
+KATTAJ1 Clothes Core:
+https://steamcommunity.com/sharedfiles/filedetails/?id=3470422050
+
+Male Balaclavas (all 4 styles) reshaped to fit the male head. TY to TTAJ1bl4 for the permission.
+----------------------------------------------------------------------------------------------------

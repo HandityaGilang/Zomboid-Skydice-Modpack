@@ -1,0 +1,15 @@
+{
+	"UI_P4TidyUpMeister_Messages_ToDoReequip": "動作完了時に再装備するようになりました。",
+	"UI_P4TidyUpMeister_Messages_ToDoNotReequip": "動作完了時に再装備しないようになりました。",
+	"UI_P4TidyUpMeister_Options_UseContextMenu_Name": "コンテキストメニューでの切替",
+	"UI_P4TidyUpMeister_Options_UseContextMenu_Tooltip": "コンテキストメニューで再装備するかしないかを切替られるようにします。",
+	"UI_P4TidyUpMeister_Options_ForceReequip_Name": "中断時も手持ちを再装備",
+	"UI_P4TidyUpMeister_Options_ForceReequip_Tooltip": "通常は動作を中断すると再装備しませんが、有効にすると動作前に手に持っていたアイテムのみ再装備します。",
+	"UI_P4TidyUpMeister_Options_RestoreDismantleOutputs_Name": "解体後に得られる素材も元の位置に戻す",
+	"UI_P4TidyUpMeister_Options_RestoreDismantleOutputs_Tooltip": "アイテムの解体で得た素材を、解体したアイテムが入っていたコンテナへ戻します。",
+	"UI_P4TidyUpMeister_Options_DebugOutput_Name": "診断情報の出力",
+	"UI_P4TidyUpMeister_Options_DebugOutput_Tooltip": "不具合調査用の診断情報を出力します。詳細なログ出力は動作に影響する場合があるため、問題を再現するときだけ有効にしてください。",
+	"UI_P4TidyUpMeister_Options_DebugOutput_ListItem1": "OFF",
+	"UI_P4TidyUpMeister_Options_DebugOutput_ListItem2": "ログのみ",
+	"UI_P4TidyUpMeister_Options_DebugOutput_ListItem3": "ログ＋頭上表示"
+}

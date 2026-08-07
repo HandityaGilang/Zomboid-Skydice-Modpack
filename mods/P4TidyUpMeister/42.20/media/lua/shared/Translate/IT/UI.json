@@ -1,0 +1,10 @@
+{
+	"UI_P4TidyUpMeister_Messages_ToDoReequip": "Abilita riequipaggiamento a termine operazione.",
+	"UI_P4TidyUpMeister_Messages_ToDoNotReequip": "Disabilita riequipaggiamento a termine operazione.",
+	"UI_P4TidyUpMeister_Options_UseContextMenu_Name": "Usa menu contestuale",
+	"UI_P4TidyUpMeister_Options_UseContextMenu_Tooltip": "Consente al menu contestuale di alternare tra riequipaggiare e non riequipaggiare.",
+	"UI_P4TidyUpMeister_Options_ForceReequip_Name": "Forza riequipaggiamento",
+	"UI_P4TidyUpMeister_Options_ForceReequip_Tooltip": "Normalmente, l'equipaggiamento non viene riequipaggiato quando l'operazione viene interrotta, ma attivando questa opzione si obbliga a riequipaggiare solo gli oggetti tenuti in mano.",
+	"UI_P4TidyUpMeister_Options_RestoreDismantleOutputs_Name": "Riporta i materiali smontati alla fonte",
+	"UI_P4TidyUpMeister_Options_RestoreDismantleOutputs_Tooltip": "Riporta i materiali ottenuti smontando un oggetto nel contenitore originale dell'oggetto."
+}

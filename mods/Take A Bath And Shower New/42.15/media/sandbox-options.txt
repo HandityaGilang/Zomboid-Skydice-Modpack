@@ -1,0 +1,216 @@
+VERSION = 1,
+option TakeABathAndShower.GeneralSection
+{
+	type = boolean,
+	default = false,
+	page = TakeABathAndShower,
+	translation = TakeABathAndShower_GeneralSection,
+}
+
+option TakeABathAndShower.WaterTemperatureConcept
+{
+	type = boolean,
+	default = true,
+	page = TakeABathAndShower,
+	translation = TakeABathAndShower_WaterTemperatureConcept,
+}
+
+option TakeABathAndShower.RemainTubFaucetWater
+{
+	type = integer,
+	default = 100, min = 0, max = 1000,
+	page = TakeABathAndShower,
+	translation = TakeABathAndShower_RemainTubFaucetWater,
+}
+
+option TakeABathAndShower.RemainShowerFaucetWater
+{
+	type = integer,
+	default = 20, min = 0, max = 1000,
+	page = TakeABathAndShower,
+	translation = TakeABathAndShower_RemainShowerFaucetWater,
+}
+
+option TakeABathAndShower.BathItemSpawnChance
+{
+	type = enum, 
+	default = 3, numValues = 6,
+	page = TakeABathAndShower,
+	translation = TakeABathAndShower_BathItemSpawnChance,
+}
+
+option TakeABathAndShower.BathSaltSpawnChance
+{
+	type = enum, 
+	default = 2, numValues = 6,
+	page = TakeABathAndShower,
+	translation = TakeABathAndShower_BathSaltSpawnChance,
+}
+
+option TakeABathAndShower.TubFluidContainerSection
+{
+	type = boolean,
+	default = false,
+	page = TakeABathAndShower,
+	translation = TakeABathAndShower_TubFluidContainerSection,
+}
+
+option TakeABathAndShower.TubWaterCapacity
+{
+	type = integer,
+	default = 200, min = 100, max = 1000,
+	page = TakeABathAndShower,
+	translation = TakeABathAndShower_TubWaterCapacity,
+}
+
+option TakeABathAndShower.TubRainCollect
+{
+	type = boolean,
+	default = true,
+	page = TakeABathAndShower,
+	translation = TakeABathAndShower_TubRainCollect,
+}
+
+option TakeABathAndShower.TubWaterGetDirty
+{
+	type = boolean,
+	default = true,
+	page = TakeABathAndShower,
+	translation = TakeABathAndShower_TubWaterGetDirty,
+}
+
+option TakeABathAndShower.EnableReheat
+{
+	type = boolean,
+	default = true,
+	page = TakeABathAndShower,
+	translation = TakeABathAndShower_EnableReheat,
+}
+
+option TakeABathAndShower.AvailableAllFluid
+{
+	type = boolean,
+	default = false,
+	page = TakeABathAndShower,
+	translation = TakeABathAndShower_AvailableAllFluid,
+}
+
+option TakeABathAndShower.BathAndShowerSection
+{
+	type = boolean,
+	default = false,
+	page = TakeABathAndShower,
+	translation = TakeABathAndShower_BathAndShowerSection,
+}
+
+option TakeABathAndShower.WashInBathConsumeWater
+{
+	type = double,
+	default = 0.8, min = 0.0, max = 1.0,
+	page = TakeABathAndShower,
+	translation = TakeABathAndShower_WashInBathConsumeWater,
+}
+
+option TakeABathAndShower.ShowerConsumeWater
+{
+	type = integer,
+	default = 80, min = 0, max = 200,
+	page = TakeABathAndShower,
+	translation = TakeABathAndShower_ShowerConsumeWater,
+}
+
+option TakeABathAndShower.DisableNegativeEffectsOfBathing
+{
+	type = boolean,
+	default = false,
+	page = TakeABathAndShower,
+	translation = TakeABathAndShower_DisableNegativeEffectsOfBathing,
+}
+
+option TakeABathAndShower.DisableFeelingStressByGaze
+{
+	type = boolean,
+	default = false,
+	page = TakeABathAndShower,
+	translation = TakeABathAndShower_DisableFeelingStressByGaze,
+}
+
+option TakeABathAndShower.BodyGrimeSection
+{
+	type = boolean,
+	default = false,
+	page = TakeABathAndShower,
+	translation = TakeABathAndShower_BodyGrimeSection,
+}
+
+option TakeABathAndShower.EnableBodyGrime
+{
+	type = boolean,
+	default = true,
+	page = TakeABathAndShower,
+	translation = TakeABathAndShower_EnableBodyGrime,
+}
+
+option TakeABathAndShower.EnableBodyGrimeMoodle
+{
+	type = boolean,
+	default = true,
+	page = TakeABathAndShower,
+	translation = TakeABathAndShower_EnableBodyGrimeMoodle,
+}
+
+option TakeABathAndShower.BodyGrimeIncreasedBase
+{
+	type = double,
+	default = 0.8, min = 0.0, max = 100.0,
+	page = TakeABathAndShower,
+	translation = TakeABathAndShower_BodyGrimeIncreasedBase,
+}
+
+option TakeABathAndShower.BloodToGrimeThreshold
+{
+	type = integer,
+	default = 30, min = 0, max = 100,
+	page = TakeABathAndShower,
+	translation = TakeABathAndShower_BloodToGrimeThreshold,
+}
+
+option TakeABathAndShower.DirtToGrimeThreshold
+{
+	type = integer,
+	default = 30, min = 0, max = 100,
+	page = TakeABathAndShower,
+	translation = TakeABathAndShower_DirtToGrimeThreshold,
+}
+
+option TakeABathAndShower.BloodAndDirtMultiplier
+{
+	type = double,
+	default = 1.00, min = 0.00, max = 100.00,
+	page = TakeABathAndShower,
+	translation = TakeABathAndShower_BloodAndDirtMultiplier,
+}
+
+option TakeABathAndShower.GrimeDiscomfort
+{
+	type = boolean,
+	default = true,
+	page = TakeABathAndShower,
+	translation = TakeABathAndShower_GrimeDiscomfort,
+}
+
+option TakeABathAndShower.GrimeNoxiousSmell
+{
+	type = boolean,
+	default = true,
+	page = TakeABathAndShower,
+	translation = TakeABathAndShower_GrimeNoxiousSmell,
+}
+
+option TakeABathAndShower.WashSelfRemoveGrimeAmount
+{
+	type = integer,
+	default = 2, min = 0, max = 10,
+	page = TakeABathAndShower,
+	translation = TakeABathAndShower_WashSelfRemoveGrimeAmount,
+}

@@ -1,0 +1,9 @@
+{
+    "UI_PlainMoodles_Title": "Plain Moodles Redone",
+    "UI_PlainMoodles_OwnStack": "Ruh hali yığınını bu mod çizsin",
+    "UI_PlainMoodles_OwnStack_tip": "Kapalı: yığını oyunun kendisi çizer, moddan yalnızca dokular gelir.",
+    "UI_PlainMoodles_Tint": "Zemini ruh hali seviyesine göre renklendir",
+    "UI_PlainMoodles_Tint_tip": "Kapalı: zeminler her seviyede gri kalır, 1.4.0 sürümündeki gibi.",
+    "UI_PlainMoodles_Tooltip": "Fare imleci üzerindeyken ruh hali adını göster",
+    "UI_PlainMoodles_Tooltip_tip": "Kapalı: imlecin altındaki zeminin yanında etiket görünmez."
+}

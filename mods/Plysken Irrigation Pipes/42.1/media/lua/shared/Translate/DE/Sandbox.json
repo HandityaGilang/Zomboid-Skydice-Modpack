@@ -1,0 +1,23 @@
+{
+    "Sandbox_PIP": "Plysken Irrigation Pipes",
+    "Sandbox_PIP_EnableAutoWatering": "Automatische Bewässerung aktivieren",
+    "Sandbox_PIP_EnableAutoWatering_tooltip": "Wenn aktiviert, bewässern Rohre automatisch nahegelegene Pflanzen aus angeschlossenen Regenfässern.",
+    "Sandbox_PIP_WateringInterval": "Bewässerungsintervall (Minuten)",
+    "Sandbox_PIP_WateringInterval_tooltip": "Spielinterne Minuten zwischen den einzelnen Bewässerungszyklen.",
+    "Sandbox_PIP_WateringRadius": "Bewässerungsradius (Felder)",
+    "Sandbox_PIP_WateringRadius_tooltip": "0 = nur das Feld des Rohres selbst. Höhere Werte bewässern Pflanzen in einem quadratischen Bereich um jedes Rohr.",
+    "Sandbox_PIP_SmartPipes": "Intelligente Rohre",
+    "Sandbox_PIP_SmartPipes_tooltip": "Wenn aktiviert, füllen Rohre die Pflanzen bis zu ihrem optimalen Wasserstand auf. Wenn deaktiviert, fügen sie pro Zyklus eine feste kleine Menge hinzu.",
+    "Sandbox_PIP_SmartPipesFillMax": "Maximale Füllung intelligenter Rohre",
+    "Sandbox_PIP_SmartPipesFillMax_tooltip": "Maximaler Wasserstand, der einer Pflanze pro Zyklus im Modus für intelligente Rohre hinzugefügt wird.",
+    "Sandbox_PIP_SharedWaterPool": "Gemeinsamer Wasservorrat",
+    "Sandbox_PIP_SharedWaterPool_tooltip": "Wenn aktiviert, teilen und gleichen Fässer im selben Netzwerk ihr Wasser aus (ein volles und ein leeres Fass gleichen sich an).",
+    "Sandbox_PIP_DebugLogs": "Debug-Protokolle",
+    "Sandbox_PIP_DebugLogs_tooltip": "Gibt interne Protokolle in der Konsole aus. Nur zur Fehlerbehebung.",
+    "Sandbox_PIP_EnableFertigation": "Fertigation aktivieren",
+    "Sandbox_PIP_EnableFertigation_tooltip": "Wenn aktiv: Dünger oder Kompost in ein verbundenes Regenfass füllen, und das Rohrnetz düngt nahe Pflanzen automatisch (eine sichere Dosis pro Pflanze, nie Überdüngung). Standardmäßig an.",
+    "Sandbox_PIP_FertigationSkill": "Fertigations-Qualität (Landwirtschaft)",
+    "Sandbox_PIP_FertigationSkill_tooltip": "Simuliertes Landwirtschafts-Level beim Auto-Düngen. Höher = bessere Chance auf Ertragsbonus. Beeinflusst die Sicherheit nicht.",
+    "Sandbox_PIP_ChargesPerBag": "Dosen pro Dünger-/Kompostsack",
+    "Sandbox_PIP_ChargesPerBag_tooltip": "Wie viele Pflanzen ein eingefüllter Sack düngen kann. Unabhängig vom Wasserstand des Fasses."
+}

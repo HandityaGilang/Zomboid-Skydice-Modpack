@@ -1,0 +1,4 @@
+Tooltip_ES = {
+    Tooltip_WireBundle = "Un paquete de cable para altavoces. Se utiliza para conectar altavoces a un dispositivo de música (reproductor de vinilos o equipo de música HiFi). Contiene 61 metros de cable. Cada conexión utiliza 1,5 metros por cada metro de distancia.",
+    Tooltip_item_Walkman = "El famoso jugador de Zony.",
+}

@@ -1,0 +1,9 @@
+{
+    "UI_PlainMoodles_Title": "Plain Moodles Redone",
+    "UI_PlainMoodles_OwnStack": "이 모드로 무들 목록 그리기",
+    "UI_PlainMoodles_OwnStack_tip": "끄면: 게임이 직접 목록을 그리고 모드에서는 텍스처만 사용합니다.",
+    "UI_PlainMoodles_Tint": "무들 단계에 따라 배경 색칠하기",
+    "UI_PlainMoodles_Tint_tip": "끄면: 모든 단계에서 배경이 회색으로 유지됩니다. 1.4.0 버전과 동일합니다.",
+    "UI_PlainMoodles_Tooltip": "마우스를 올리면 무들 이름 표시",
+    "UI_PlainMoodles_Tooltip_tip": "끄면: 커서 아래 배경 옆에 이름표가 표시되지 않습니다."
+}

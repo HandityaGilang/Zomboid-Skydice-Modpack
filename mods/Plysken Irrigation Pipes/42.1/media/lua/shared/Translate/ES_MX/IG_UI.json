@@ -1,0 +1,5 @@
+{
+    "IGUI_PIP_NetworkInfoLocal": "%1 tuberías, %2 barriles, %3 L",
+    "IGUI_PIP_PouredDoses": "+%1 dosis de fertilizante",
+    "IGUI_PIP_NotConnected": "Barril no conectado a una red de tuberías"
+}

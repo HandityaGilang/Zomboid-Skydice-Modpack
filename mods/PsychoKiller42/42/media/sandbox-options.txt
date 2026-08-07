@@ -1,0 +1,517 @@
+VERSION = 1,
+
+/*
+option PK42.TraitCost
+{
+    type = integer,
+    min = 1,
+    max = 100,
+    default = 10,
+    page = PK42,
+    translation = PK42_TraitCost,
+    tooltip = PK42_TraitCost_tooltip,
+}
+*/
+
+option PK42.FrenzySeparator
+{
+	type = boolean,
+    default = false,
+    page = PK42,
+    translation = PK42_FrenzySeparator,
+    tooltip = PK42_SBSeparator_tooltip,
+}
+
+option PK42.AllowFrenzy
+{
+	type = boolean,
+    default = true,
+    page = PK42,
+    translation = PK42_AllowFrenzy,
+    tooltip = PK42_AllowFrenzy_tooltip,
+}
+
+option PK42.EnableFrenzySpeedBonus
+{
+	type = boolean,
+    default = true,
+    page = PK42,
+    translation = PK42_EnableFrenzySpeedBonus,
+    tooltip = PK42_EnableFrenzySpeedBonus_tooltip,
+}
+
+option PK42.EnableFrenzyDamageBonus
+{
+	type = boolean,
+    default = true,
+    page = PK42,
+    translation = PK42_EnableFrenzyDamageBonus,
+    tooltip = PK42_EnableFrenzyDamageBonus_tooltip,
+}
+
+option PK42.FrenzyCombatSpeedBonus
+{
+    type = integer,
+    min = 0,
+    max = 100,
+    default = 50,
+    page = PK42,
+    translation = PK42_FrenzyCombatSpeedBonus,
+    tooltip = PK42_FrenzyCombatSpeedBonus_tooltip,
+}
+
+option PK42.FrenzyMoveSpeedBonus
+{
+    type = integer,
+    min = 0,
+    max = 30,
+    default = 10,
+    page = PK42,
+    translation = PK42_FrenzyMoveSpeedBonus,
+    tooltip = PK42_FrenzyMoveSpeedBonus_tooltip,
+}
+
+option PK42.MaxFrenzyDamageBonus
+{
+    type = integer,
+    min = 0,
+    max = 200,
+    default = 80,
+    page = PK42,
+    translation = PK42_MaxFrenzyDamageBonus,
+    tooltip = PK42_MaxFrenzyDamageBonus_tooltip,
+}
+
+option PK42.FrenzyStreakThreshold
+{
+    type = integer,
+    min = 1,
+    max = 100,
+    default = 5,
+    page = PK42,
+    translation = PK42_FrenzyStreakThreshold,
+    tooltip = PK42_FrenzyStreakThreshold_tooltip,
+}
+
+option PK42.FrenzyFatigueThreshold
+{
+    type = integer,
+    min = 1,
+    max = 100,
+    default = 60,
+    page = PK42,
+    translation = PK42_FrenzyFatigueThreshold,
+    tooltip = PK42_FrenzyFatigueThreshold_tooltip,
+}
+
+option PK42.FrenzyEnduranceThreshold
+{
+    type = integer,
+    min = 1,
+    max = 100,
+    default = 70,
+    page = PK42,
+    translation = PK42_FrenzyEnduranceThreshold,
+    tooltip = PK42_FrenzyEnduranceThreshold_tooltip,
+}
+
+option PK42.FrenzyCooldownHours
+{
+    type = integer,
+    min = 1,
+    max = 24,
+    default = 12,
+    page = PK42,
+    translation = PK42_FrenzyCooldownHours,
+    tooltip = PK42_FrenzyCooldownHours_tooltip,
+}
+
+option PK42.FrenzyMaxTime
+{
+    type = integer,
+    min = 1,
+    max = 12,
+    default = 1,
+    page = PK42,
+    translation = PK42_FrenzyMaxTime,
+    tooltip = PK42_FrenzyMaxTime_tooltip,
+}
+
+option PK42.FrenzyStreakChainMaxTime
+{
+    type = integer,
+    min = 1,
+    max = 720,
+    default = 15,
+    page = PK42,
+    translation = PK42_FrenzyStreakChainMaxTime,
+    tooltip = PK42_FrenzyStreakChainMaxTime_tooltip,
+}
+
+
+option PK42.XPSeparator
+{
+	type = boolean,
+    default = false,
+    page = PK42,
+    translation = PK42_XPSeparator,
+    tooltip = PK42_SBSeparator_tooltip,
+}
+
+option PK42.EnableXPDailyCap
+{
+	type = boolean,
+    default = true,
+    page = PK42,
+    translation = PK42_EnableXPDailyCap,
+    tooltip = PK42_EnableXPDailyCap_tooltip,
+}
+
+option PK42.XPDailyCap
+{
+    type = integer,
+    min = 50,
+    max = 1000,
+    default = 200,
+    page = PK42,
+    translation = PK42_XPDailyCap,
+    tooltip = PK42_XPDailyCap_tooltip,
+}
+
+option PK42.XPOnKillZombie
+{
+    type = double,
+    min = 0,
+    max = 100,
+    default = 1,
+    page = PK42,
+    translation = PK42_XPOnKillZombie,
+    tooltip = PK42_XPOnKillZombie_tooltip,
+}
+
+option PK42.XPOnKillZombieOnFrenzy
+{
+    type = double,
+    min = 0,
+    max = 200,
+    default = 2,
+    page = PK42,
+    translation = PK42_XPOnKillZombieOnFrenzy,
+    tooltip = PK42_XPOnKillZombieOnFrenzy_tooltip,
+}
+
+option PK42.XPOnKillPlayer
+{
+    type = double,
+    min = 0,
+    max = 1000,
+    default = 200,
+    page = PK42,
+    translation = PK42_XPOnKillPlayer,
+    tooltip = PK42_XPOnKillPlayer_tooltip,
+}
+
+option PK42.BanditsXP
+{
+    type = double,
+    min = 0,
+    max = 1000,
+    default = 50,
+    page = PK42,
+    translation = PK42_BanditsXP,
+    tooltip = PK42_BanditsXP_tooltip,
+}
+
+option PK42.XPOnEatRawZombieMeat
+{
+    type = double,
+    min = 0,
+    max = 100,
+    default = 30,
+    page = PK42,
+    translation = PK42_XPOnEatRawZombieMeat,
+    tooltip = PK42_XPOnEatRawZombieMeat_tooltip,
+}
+
+option PK42.XPOnEatCookedZombieMeat
+{
+    type = double,
+    min = 0,
+    max = 100,
+    default = 20,
+    page = PK42,
+    translation = PK42_XPOnEatCookedZombieMeat,
+    tooltip = PK42_XPOnEatCookedZombieMeat_tooltip,
+}
+
+option PK42.XPOnEatRecipeZombieMeat
+{
+    type = double,
+    min = 0,
+    max = 100,
+    default = 10,
+    page = PK42,
+    translation = PK42_XPOnEatRecipeZombieMeat,
+    tooltip = PK42_XPOnEatRecipeZombieMeat_tooltip,
+}
+
+option PK42.ButcheringXP
+{
+    type = double,
+    min = 0,
+    max = 100,
+    default = 10,
+    page = PK42,
+    translation = PK42_ButcheringXP,
+    tooltip = PK42_ButcheringXP_tooltip,
+}
+
+option PK42.InsanityXP
+{
+    type = double,
+    min = 0,
+    max = 100,
+    default = 10,
+    page = PK42,
+    translation = PK42_InsanityXP,
+    tooltip = PK42_InsanityXP_tooltip,
+}
+
+option PK42.CannibalismSeparator
+{
+	type = boolean,
+    default = false,
+    page = PK42,
+    translation = PK42_CannibalismSeparator,
+    tooltip = PK42_SBSeparator_tooltip,
+}
+
+option PK42.EnableButcherHookPatch
+{
+	type = boolean,
+    default = true,
+    page = PK42,
+    translation = PK42_EnableButcherHookPatch,
+    tooltip = PK42_EnableButcherHookPatch_tooltip,
+}
+
+option PK42.OnEatCookedPlayerInfectionChance
+{
+    type = integer,
+    min = 1,
+    max = 100,
+    default = 50,
+    page = PK42,
+    translation = PK42_OnEatCookedPlayerInfectionChance,
+    tooltip = PK42_OnEatCookedPlayerInfectionChance_tooltip,
+}
+
+option PK42.OnEatCookedPsychopathInfectionChance
+{
+    type = integer,
+    min = 1,
+    max = 100,
+    default = 5,
+    page = PK42,
+    translation = PK42_OnEatCookedPsychopathInfectionChance,
+    tooltip = PK42_OnEatCookedPsychopathInfectionChance_tooltip,
+}
+
+option PK42.CannibalUnlockThreshold
+{
+    type = integer,
+    min = 0,
+    max = 10,
+    default = 7,
+    page = PK42,
+    translation = PK42_CannibalUnlockThreshold,
+    tooltip = PK42_CannibalUnlockThreshold_tooltip,
+}
+
+
+option PK42.CannibalAmountThreshold
+{
+    type = integer,
+    min = 1,
+    max = 1000,
+    default = 100,
+    page = PK42,
+    translation = PK42_CannibalAmountThreshold,
+    tooltip = PK42_CannibalAmountThreshold_tooltip,
+}
+
+option PK42.UnlockSeparator
+{
+	type = boolean,
+    default = false,
+    page = PK42,
+    translation = PK42_UnlockSeparator,
+    tooltip = PK42_SBSeparator_tooltip,
+}
+
+option PK42.ButcherCorpseUnlockLevel
+{
+    type = integer,
+    min = 0,
+    max = 10,
+    default = 3,
+    page = PK42,
+    translation = PK42_ButcherCorpseUnlockLevel,
+    tooltip = PK42_ButcherCorpseUnlockLevel_tooltip,
+}
+
+option PK42.SkinCorpseUnlockLevel
+{
+    type = integer,
+    min = 0,
+    max = 10,
+    default = 4,
+    page = PK42,
+    translation = PK42_SkinCorpseUnlockLevel,
+    tooltip = PK42_SkinCorpseUnlockLevel_tooltip,
+}
+
+option PK42.CollectBonesUnlockLevel
+{
+    type = integer,
+    min = 0,
+    max = 10,
+    default = 4,
+    page = PK42,
+    translation = PK42_CollectBonesUnlockLevel,
+    tooltip = PK42_CollectBonesUnlockLevel_tooltip,
+}
+
+option PK42.MentalHealthSeparator
+{
+	type = boolean,
+    default = false,
+    page = PK42,
+    translation = PK42_MentalHealthSeparator,
+    tooltip = PK42_SBSeparator_tooltip,
+}
+
+option PK42.DisableVisualHal
+{
+	type = boolean,
+    default = false,
+    page = PK42,
+    translation = PK42_DisableVisualHal,
+    tooltip = PK42_DisableVisualHal_tooltip,
+}
+
+option PK42.DisableAudioHal
+{
+	type = boolean,
+    default = false,
+    page = PK42,
+    translation = PK42_DisableAudioHal,
+    tooltip = PK42_DisableAudioHal_tooltip,
+}
+
+option PK42.DisableSpeechHal
+{
+	type = boolean,
+    default = false,
+    page = PK42,
+    translation = PK42_DisableSpeechHal,
+    tooltip = PK42_DisableSpeechHal_tooltip,
+}
+
+option PK42.BoredomThresholdHours
+{
+    type = integer,
+    min = 1,
+    max = 168,
+    default = 12,
+    page = PK42,
+    translation = PK42_BoredomThresholdHours,
+    tooltip = PK42_BoredomThresholdHours_tooltip,
+}
+
+option PK42.SimulateNicotineOnKill
+{
+	type = boolean,
+    default = true,
+    page = PK42,
+    translation = PK42_SimulateNicotineOnKill,
+    tooltip = PK42_SimulateNicotineOnKill_tooltip,
+}
+
+
+option PK42.AudioHallucinationStartingChance
+{
+    type = integer,
+    min = 1,
+    max = 80,
+    default = 10,
+    page = PK42,
+    translation = PK42_AudioHallucinationStartingChance,
+    tooltip = PK42_AudioHallucinationStartingChance_tooltip,
+}
+
+option PK42.IntrusiveThoughtsStartingChance
+{
+    type = integer,
+    min = 1,
+    max = 65,
+    default = 20,
+    page = PK42,
+    translation = PK42_IntrusiveThoughtsStartingChance,
+    tooltip = PK42_IntrusiveThoughtsStartingChance_tooltip,
+}
+
+option PK42.VisualHallucinationStartingChance
+{
+    type = integer,
+    min = 1,
+    max = 75,
+    default = 10,
+    page = PK42,
+    translation = PK42_VisualHallucinationStartingChance,
+    tooltip = PK42_VisualHallucinationStartingChance_tooltip,
+}
+
+option PK42.LaughChance
+{
+    type = integer,
+    min = 1,
+    max = 100,
+    default = 10,
+    page = PK42,
+    translation = PK42_LaughChance,
+    tooltip = PK42_LaughChance_tooltip,
+}
+
+option PK42.VehicleJumpscareChance
+{
+    type = integer,
+    min = 1,
+    max = 100,
+    default = 10,
+    page = PK42,
+    translation = PK42_VehicleJumpscareChance,
+    tooltip = PK42_VehicleJumpscareChance_tooltip,
+}
+
+option PK42.HallucinationCeaseLevel
+{
+    type = integer,
+    min = 1,
+    max = 10,
+    default = 10,
+    page = PK42,
+    translation = PK42_HallucinationCeaseLevel,
+    tooltip = PK42_HallucinationCeaseLevel_tooltip,
+}
+
+option MultiplierConfig.Insanity
+{
+    type = double,
+    min = 0,
+    max = 1000.0,
+    default = 1.0,
+    page = Character,
+    translation = Insanity_XPMultiplier,
+    tooltip = Insanity_XPMultiplier_tooltip,
+}

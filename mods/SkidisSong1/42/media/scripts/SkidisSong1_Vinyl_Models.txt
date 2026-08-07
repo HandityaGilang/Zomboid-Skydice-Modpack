@@ -1,0 +1,2878 @@
+module SkidisSong1
+{
+	imports
+	{
+		Base
+	}
+
+	model TMVinylrecord_AndraandtheBackboneSempurna
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_AndraandtheBackboneSempurna
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_BaseJamBukanPujangga
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_BaseJamBukanPujangga
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_CandraDarusmanKau
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_CandraDarusmanKau
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_ChrisyeAnakSekolah
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_ChrisyeAnakSekolah
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord11,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_ChrisyeCintaku
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_ChrisyeCintaku
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord12,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_ChrisyeKalaCintaMenggoda
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_ChrisyeKalaCintaMenggoda
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_ChrisyedanVinaPanduwinataKisahInsani
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_ChrisyedanVinaPanduwinataKisahInsani
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_Club80sGejolakKawulaMuda
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_Club80sGejolakKawulaMuda
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord12,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_CokelatJauh
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_CokelatJauh
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord12,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_CokelatKarma
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_CokelatKarma
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord6,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_DewaAkuMilikmu
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_DewaAkuMilikmu
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_DewaCintakanMembawamuKembali
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_DewaCintakanMembawamuKembali
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_DewaCukupSitiNurbaya
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_DewaCukupSitiNurbaya
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord9,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_DewaKangen
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_DewaKangen
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_DewaKirana
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_DewaKirana
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_DewaMistikusCinta
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_DewaMistikusCinta
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_DewaRisalahHati
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_DewaRisalahHati
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord12,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_DewaRomanPicisan
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_DewaRomanPicisan
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord7,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_DiskoriaCHRISYE
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_DiskoriaCHRISYE
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord10,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_DiskoriadanDianSastroSerenataJiwaLara
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_DiskoriadanDianSastroSerenataJiwaLara
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord10,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_EbietGAdeBeritaPadaKawan
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_EbietGAdeBeritaPadaKawan
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_FarizRMSakura
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_FarizRMSakura
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord6,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_GigiAndai
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_GigiAndai
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_GigiTerbang
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_GigiTerbang
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord6,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_GodblessRumahKita
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_GodblessRumahKita
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_IwaKBebas
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_IwaKBebas
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord7,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_JamrudPelangiDiMatamu
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_JamrudPelangiDiMatamu
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_JamrudSurtiTedjo
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_JamrudSurtiTedjo
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_KillingMeInsideBiarlah
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_KillingMeInsideBiarlah
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_KLAProjectYogyakarta
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_KLAProjectYogyakarta
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord12,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_KoesPlusAndaikanKauDatang
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_KoesPlusAndaikanKauDatang
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord7,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_KoesPlusKembaliKeJakarta
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_KoesPlusKembaliKeJakarta
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord8,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_MEInikahCinta
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_MEInikahCinta
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_NaifBenciUntukMencinta
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_NaifBenciUntukMencinta
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_NaifMobilBalap
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_NaifMobilBalap
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord8,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_NaifPiknik72
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_NaifPiknik72
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord9,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_NetralPertempuranHati
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_NetralPertempuranHati
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_NetralSorry
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_NetralSorry
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord10,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_NetralTerbangTenggelam
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_NetralTerbangTenggelam
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_NikeArdillaBintangKehidupan
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_NikeArdillaBintangKehidupan
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord9,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_NikeArdillaDiAntaraPilihan
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_NikeArdillaDiAntaraPilihan
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord9,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_NikeArdillaSeberkasSinar
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_NikeArdillaSeberkasSinar
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord8,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_PasBandfeatTereKesepianKita
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_PasBandfeatTereKesepianKita
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_PeterpanBintangdiSurga
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_PeterpanBintangdiSurga
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord10,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_PeterpanHariYangCerahUntukJiwaYangSepi
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_PeterpanHariYangCerahUntukJiwaYangSepi
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_RezaArtameviaBiarJadiKenangan
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_RezaArtameviaBiarJadiKenangan
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord10,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_RezaArtameviaKeabadian
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_RezaArtameviaKeabadian
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord11,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_RezaArtameviaSatuYangTakBisaLepas
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_RezaArtameviaSatuYangTakBisaLepas
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord10,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_RomeoBungaTerakhir
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_RomeoBungaTerakhir
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord6,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_SheilaOn7Dan
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_SheilaOn7Dan
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord8,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_SheilaOn7Kita
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_SheilaOn7Kita
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord8,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_SlankKuTakBisa
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_SlankKuTakBisa
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_SlankTerlaluManis
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_SlankTerlaluManis
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord12,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_SlankVirus
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_SlankVirus
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_TheFlyTerbang
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_TheFlyTerbang
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord10,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_TipeXKamuEnggakSendirian
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_TipeXKamuEnggakSendirian
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_TipeXMawarHitam
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_TipeXMawarHitam
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord6,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_UnguDiSiniUntukmu
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_UnguDiSiniUntukmu
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord9,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_UthaLikumahuwaEsokkanMasihAda
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_UthaLikumahuwaEsokkanMasihAda
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_UthaLikumahuwaSesaatKauHadir
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_UthaLikumahuwaSesaatKauHadir
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord10,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_UthaLikumahuwaTersiksaLagi
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_UthaLikumahuwaTersiksaLagi
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord10,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_VierraPerih
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_VierraPerih
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_VierraSeandainya
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_VierraSeandainya
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord6,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_VinaPanduwinataDia
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_VinaPanduwinataDia
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord8,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_IPZMusicAllofMe
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_IPZMusicAllofMe
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_IPZMusicAWAKE
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_IPZMusicAWAKE
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_IPZMusicBansanka
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_IPZMusicBansanka
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord12,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_IPZMusicBelindaAmigosxSiempre
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_IPZMusicBelindaAmigosxSiempre
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord11,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_IPZMusicBLOODHOUNDS
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_IPZMusicBLOODHOUNDS
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord12,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_IPZMusicBreakingBadThemeSong
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_IPZMusicBreakingBadThemeSong
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_IPZMusicCalifornication
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_IPZMusicCalifornication
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord10,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_IPZMusiccomet
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_IPZMusiccomet
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord12,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_IPZMusicDearGod
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_IPZMusicDearGod
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord11,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_IPZMusicDebutantBall
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_IPZMusicDebutantBall
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_IPZMusicFeelSpecial
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_IPZMusicFeelSpecial
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord9,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_IPZMusicGooGooDollsIris
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_IPZMusicGooGooDollsIris
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord9,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_IPZMusicHindiaeverythinguare
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_IPZMusicHindiaeverythinguare
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_IPZMusicHINKIRO
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_IPZMusicHINKIRO
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_IPZMusicIReallyWanttoStayAtYourHouse
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_IPZMusicIReallyWanttoStayAtYourHouse
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_IPZMusicInitialDBlackOut
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_IPZMusicInitialDBlackOut
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_IPZMusicListenNot
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_IPZMusicListenNot
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_IPZMusicLostinParadise
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_IPZMusicLostinParadise
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord11,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_IPZMusicMahalKitaBobo
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_IPZMusicMahalKitaBobo
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord7,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_IPZMusicMEGITSUNE
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_IPZMusicMEGITSUNE
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_IPZMusicMICDropSteveAokiRemix
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_IPZMusicMICDropSteveAokiRemix
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_IPZMusicOverdose
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_IPZMusicOverdose
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord11,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_IPZMusicSANTEMIKINAH
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_IPZMusicSANTEMIKINAH
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord6,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_IPZMusicSTECUSTECU
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_IPZMusicSTECUSTECU
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_IPZMusicSunflower
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_IPZMusicSunflower
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_IPZMusicWelcomeToTheBlackParade
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_IPZMusicWelcomeToTheBlackParade
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord9,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_30SecondsToMarsTheKillIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_30SecondsToMarsTheKillIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_AManWithoutLoveEngelbertHumperdinckIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_AManWithoutLoveEngelbertHumperdinckIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_ABBADancingQueenIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_ABBADancingQueenIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_ABBASOSIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_ABBASOSIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_AdaBandManusiaBodohIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_AdaBandManusiaBodohIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_AdzanIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_AdzanIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_AerosmithIDontWanttoMissaThingIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_AerosmithIDontWanttoMissaThingIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord11,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_AvengedSevenfoldMIAIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_AvengedSevenfoldMIAIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord7,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_BabyGrootSingsASongIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_BabyGrootSingsASongIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord9,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_BattotaiIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_BattotaiIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_BeeGeesHowDeepIsYourLoveIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_BeeGeesHowDeepIsYourLoveIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_BeeGeesToLoveSomebodyIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_BeeGeesToLoveSomebodyIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_BenEKingStandbyMeIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_BenEKingStandbyMeIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord12,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_BillWithersJusttheTwoofUsIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_BillWithersJusttheTwoofUsIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_BobbyMcFerrinDontWorryBeHappyIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_BobbyMcFerrinDontWorryBeHappyIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord6,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_BonJoviAlwaysIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_BonJoviAlwaysIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_BringMeTheHorizonDrownIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_BringMeTheHorizonDrownIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord8,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_BringMeTheHorizonSleepwalkingIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_BringMeTheHorizonSleepwalkingIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_BulletForMyValentineRoadToNowhereIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_BulletForMyValentineRoadToNowhereIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord12,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_CakeIWillSurviveIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_CakeIWillSurviveIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord8,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_ChibiMarukoChanIndonesianVersionIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_ChibiMarukoChanIndonesianVersionIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_ChibiMarukoChanSoundtrackIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_ChibiMarukoChanSoundtrackIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_CreedOneLastBreathIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_CreedOneLastBreathIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord6,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_DaftPunkAroundTheWorldIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_DaftPunkAroundTheWorldIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord6,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_DaveRodgersDeJavuIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_DaveRodgersDeJavuIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_DragonForceThroughTheFireAndFlamesIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_DragonForceThroughTheFireAndFlamesIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord9,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_EaglesHotelCaliforniaIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_EaglesHotelCaliforniaIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_EarthWindandFireSeptemberIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_EarthWindandFireSeptemberIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_EltonJohnSaturdayNightsAlrightIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_EltonJohnSaturdayNightsAlrightIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord8,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_EvanescenceBringMeToLifeIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_EvanescenceBringMeToLifeIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord9,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_FluxCupsKillYourIdolIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_FluxCupsKillYourIdolIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord9,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_FranzFerdinandTakeMeOutIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_FranzFerdinandTakeMeOutIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord6,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_GeorgeBensonNothingsGonnaChangeMyLoveForYouIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_GeorgeBensonNothingsGonnaChangeMyLoveForYouIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord7,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_GreenDayBasketCaseIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_GreenDayBasketCaseIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_GreenDayBoulevardOfBrokenDreamsIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_GreenDayBoulevardOfBrokenDreamsIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord10,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_GreenDayWakeMeUpWhenSeptemberEndsIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_GreenDayWakeMeUpWhenSeptemberEndsIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord12,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_GunsNRosesSweetChildOMineIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_GunsNRosesSweetChildOMineIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_GunsNRosesWelcometotheJungleIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_GunsNRosesWelcometotheJungleIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord10,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_HarlemYuQingFeiDeYiIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_HarlemYuQingFeiDeYiIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_HeartBarracudaIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_HeartBarracudaIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_HomeFreeSeaShantyMedleyExtendedVersionIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_HomeFreeSeaShantyMedleyExtendedVersionIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord11,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_IkimonoGakariBlueBirdIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_IkimonoGakariBlueBirdIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord12,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_IndonesiaRayaIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_IndonesiaRayaIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_IvaLolaGakMauPulangMaunyaDigoyangIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_IvaLolaGakMauPulangMaunyaDigoyangIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord9,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_JKT48FortuneCookieIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_JKT48FortuneCookieIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_KanyeWestPraiseGod
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_KanyeWestPraiseGod
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord12,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_KCTheSunshineBandGiveItUpIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_KCTheSunshineBandGiveItUpIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord12,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_KiryuBakaMitaiIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_KiryuBakaMitaiIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_KoboKanaeruMantraHujanIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_KoboKanaeruMantraHujanIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord7,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_LastChildMenyerahIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_LastChildMenyerahIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord12,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_LedZeppelinStairwaytoHeavenIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_LedZeppelinStairwaytoHeavenIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_LilUziVertBankTellerIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_LilUziVertBankTellerIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord11,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_LinkedHorizonGurenNoYumiyaIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_LinkedHorizonGurenNoYumiyaIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_LinkedHorizonShinzowoSasageyoIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_LinkedHorizonShinzowoSasageyoIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_LinkinParkInTheEndIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_LinkinParkInTheEndIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord11,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_LinkinParkNumbIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_LinkinParkNumbIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord9,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_LinkinParkWhatIveDoneIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_LinkinParkWhatIveDoneIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_LynyrdSkynyrdFreeBirdIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_LynyrdSkynyrdFreeBirdIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_Maroon5ftChristinaAguileraMovesLikeJagger
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_Maroon5ftChristinaAguileraMovesLikeJagger
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_MasafumiTakadaDANGANRONPAReissueIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_MasafumiTakadaDANGANRONPAReissueIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord7,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_MichaelJacksonBeatItIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_MichaelJacksonBeatItIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_MichaelJacksonHealTheWorldIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_MichaelJacksonHealTheWorldIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_MichaelJacksonThrillerIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_MichaelJacksonThrillerIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord6,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_MickGordonTheOnlyThingTheyFearIsYouIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_MickGordonTheOnlyThingTheyFearIsYouIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord6,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_MyChemicalRomanceDisenchantedIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_MyChemicalRomanceDisenchantedIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_MyChemicalRomanceIDontLoveYouIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_MyChemicalRomanceIDontLoveYouIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_NarutoTheRaisingFightingSpiritIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_NarutoTheRaisingFightingSpiritIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord7,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_NatalieImbrugliaTornIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_NatalieImbrugliaTornIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_NovoAmorStateLinesIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_NovoAmorStateLinesIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord8,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_OasisStandByMeIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_OasisStandByMeIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_ONEOKROCKTheBeginningIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_ONEOKROCKTheBeginningIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord10,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_ONEOKROCKWhereverYouAreIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_ONEOKROCKWhereverYouAreIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord9,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_OnePieceFightMusicIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_OnePieceFightMusicIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord12,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_PlayboiCartiSkyIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_PlayboiCartiSkyIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_PocoPocoIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_PocoPocoIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_ProjectPopGoyangDuyuIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_ProjectPopGoyangDuyuIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_ProjectPopIWillNotSurviveIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_ProjectPopIWillNotSurviveIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_QueenBicycleIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_QueenBicycleIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord7,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_QueenDontStopMeNowIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_QueenDontStopMeNowIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord7,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_QUEENDOMRainychVerIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_QUEENDOMRainychVerIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_RainychBlackRoverCoverIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_RainychBlackRoverCoverIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_RasputinDangdutRemixIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_RasputinDangdutRemixIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord9,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_RedHotChiliPeppersCalifornicationIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_RedHotChiliPeppersCalifornicationIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord8,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_RickAstleyNeverGonnaGiveYouUpIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_RickAstleyNeverGonnaGiveYouUpIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_SabilulunganInstrumentalIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_SabilulunganInstrumentalIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_SaykojiJalanPanjangftGunturSimbolonIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_SaykojiJalanPanjangftGunturSimbolonIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord10,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_SeringaiProgramPartySeringaiIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_SeringaiProgramPartySeringaiIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord10,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_SiMTheRumblingIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_SiMTheRumblingIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord10,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_SlipknotTheDevilinIIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_SlipknotTheDevilinIIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_SpillerGroovejetIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_SpillerGroovejetIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_SpongebobSoundtrackGrassSkirtChaseIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_SpongebobSoundtrackGrassSkirtChaseIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord10,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_SpongeBobSoundtrackTwelfthStreetRagIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_SpongeBobSoundtrackTwelfthStreetRagIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_SurvivorEyeoftheTigerIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_SurvivorEyeoftheTigerIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_TakashiTakeuchiMeltyBloodTypeLuminaOSTIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_TakashiTakeuchiMeltyBloodTypeLuminaOSTIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord6,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_TheCranberriesZombieIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_TheCranberriesZombieIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord6,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_TheKillersCautionIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_TheKillersCautionIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord12,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_TheWhiteStripesSevenNationArmyIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_TheWhiteStripesSevenNationArmyIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_TokyoDriftFastFuriousIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_TokyoDriftFastFuriousIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord8,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_VickeBlankaBlackCatcherIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_VickeBlankaBlackCatcherIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord12,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_VickeBlankaBlackRoverIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_VickeBlankaBlackRoverIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_WarkopDKIAndecaAndeciIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_WarkopDKIAndecaAndeciIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord10,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_WeezerIslandInTheSunIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_WeezerIslandInTheSunIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_WestlifeMyLoveIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_WestlifeMyLoveIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord10,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_WestlifeUptownGirlIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_WestlifeUptownGirlIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord12,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_YeatPoppinIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_YeatPoppinIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord11,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_YugoKannoilventodoroIPZ
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_YugoKannoilventodoroIPZ
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord11,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_COVERTilKontalKantilKoesPlusCoverbyMioKohana1
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_COVERTilKontalKantilKoesPlusCoverbyMioKohana1
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_NdarboyGenkMendungTanpoUdanLyrics
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_NdarboyGenkMendungTanpoUdanLyrics
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord7,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_AlterEgoPreciousRemix
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_AlterEgoPreciousRemix
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_nonarollerbladeLyrics
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_nonarollerbladeLyrics
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord8,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_JuicyLuicyLampuKuning
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_JuicyLuicyLampuKuning
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord11,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_SalPriadiFotoKitaBlur
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord5,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_SalPriadiFotoKitaBlur
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord11,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_ObhCombiSachet
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord4,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_ObhCombiSachet
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord3,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_KICAUMANIANDARBOYGENKBANDITOZYAOW86
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord1,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_KICAUMANIANDARBOYGENKBANDITOZYAOW86
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord10,
+		scale = 0.12,
+	}
+
+	model TMVinylrecord_TerranovaPanderaAirplayEdit
+	{
+		mesh = WorldItems/TMVinylrecord,
+		texture = WorldItems/Vinyl/TMVinylrecord2,
+		scale = 0.12,
+	}
+
+	model TMVinylalbum_TerranovaPanderaAirplayEdit
+	{
+		mesh = WorldItems/TMVinylalbum,
+		texture = WorldItems/Vinyl/TCVinylrecord12,
+		scale = 0.12,
+	}
+
+}

@@ -1,0 +1,9 @@
+{
+    "UI_PlainMoodles_Title": "Plain Moodles Redone",
+    "UI_PlainMoodles_OwnStack": "Desenhar a pilha de moodles com este mod",
+    "UI_PlainMoodles_OwnStack_tip": "Desligado: o jogo desenha a pilha e do mod vêm apenas as texturas.",
+    "UI_PlainMoodles_Tint": "Colorir a placa conforme o nível do moodle",
+    "UI_PlainMoodles_Tint_tip": "Desligado: as placas continuam cinzas em todos os níveis, como na versão 1.4.0.",
+    "UI_PlainMoodles_Tooltip": "Mostrar o nome do moodle ao passar o mouse",
+    "UI_PlainMoodles_Tooltip_tip": "Desligado: nenhum rótulo ao lado da placa sob o cursor."
+}

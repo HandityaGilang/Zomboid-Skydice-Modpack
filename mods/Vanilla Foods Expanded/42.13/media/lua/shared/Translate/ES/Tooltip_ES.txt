@@ -1,0 +1,7 @@
+Tooltip_ES = {
+
+Tooltip_VFX_Recipe_MeatCooked = "La carne debe estar cocida antes de agregarla a la receta.",
+Tooltip_VFX_Recipe_RiceCooked = "El arroz debe cocinarse antes de agregarlo a la receta.",
+Tooltip_VFXRavioliTortellini = "Prepare by filling a saucepan or cooking pot with water, then add the fresh pasta. Found in the crafting menu."
+
+}

@@ -1,0 +1,42 @@
+module PIP
+{
+    imports { Base }
+
+    /* Make Irrigation Pipe - metal pipe + hammer + screwdriver. Aligned on the working B42
+       craftRecipe from Cluster Barrels (imports Base + [MetalPipe], integer time, simple flags). */
+    craftRecipe Make_Irrigation_Pipe
+    {
+        timedAction = Making,
+        time        = 30,
+        category    = Farming,
+        tags        = AnySurfaceCraft,
+        inputs {
+            item 1 [MetalPipe] mode:destroy,
+            item 1 tags[Hammer] mode:keep flags[Prop1;MayDegradeLight;NoBrokenItems],
+            item 1 tags[Screwdriver] mode:keep flags[Prop2;MayDegradeLight;NoBrokenItems],
+        }
+        outputs {
+            item 4 PIP.WaterPipe,
+        }
+    }
+
+    /* Clay Irrigation Pipe - a fired clay pipe segment IS already a pipe section, so it converts
+       1:1 with no tool (you lay it, you don't cut it). The metal recipe above yields 4 because you
+       cut up a long bar. Rationale: ClayPipeSegment is a dead end in vanilla B42 (crafted at the
+       pottery wheel, fired in the kiln, then consumed by nothing) and terracotta is the historical
+       irrigation material - this gives clay a purpose and opens a renewable path to pipes for long
+       runs, where metal pipes are finite loot. Player suggestion (Telos, Discord, 2026-07-27). */
+    craftRecipe Make_Irrigation_Pipe_Clay
+    {
+        timedAction = Making,
+        time        = 10,
+        category    = Farming,
+        tags        = AnySurfaceCraft,
+        inputs {
+            item 1 [ClayPipeSegment] mode:destroy,
+        }
+        outputs {
+            item 1 PIP.WaterPipe,
+        }
+    }
+}

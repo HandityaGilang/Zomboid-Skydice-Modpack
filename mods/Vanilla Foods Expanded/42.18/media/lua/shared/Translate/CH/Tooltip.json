@@ -1,0 +1,43 @@
+{
+    "Tooltip_VFX_Recipe_MeatCooked": "肉類在加入食譜前必須煮熟。",
+    "Tooltip_VFX_Recipe_RiceCooked": "米飯在加入食譜前必須煮熟。",
+    "Tooltip_VFXRavioliTortellini": "準備方法：向平底煮鍋或蒸煮鍋中加水，然後加入新鮮意面。可在製作選單中找到。",
+
+    "Tooltip_VFXSourdoughStarter": "Feed daily with flour and water to keep fresh.",
+    "Tooltip_VFXSourdoughStarterUnfed": "加入麵粉和水以恢復新鮮度，如果放置不餵食，大約一天後就會壞死。",
+    "Tooltip_VFXSourdoughStarterDead": "你忽略了你的天然酵母起種，它已經壞死了。請把它倒掉並重新來過。",
+
+    "Tooltip_VFXVinegarStarter": "Combine with alcohol, jar and lid to make Homemade Vinegar.",
+    "Tooltip_VFXVinegarFermenting30": "需要發酵 30 天。",
+    "Tooltip_VFXVinegarFermenting60": "Needs to ferment for 60 days.",
+    "Tooltip_VFXVinegarFermenting90": "需要發酵 90 天。",
+    "Tooltip_VFXHomemadeVinegar": "Can be used to make homemade vinegar.",
+
+    "Tooltip_VFXYeastStarterFermenting": "需要發酵 5 天。",
+    "Tooltip_VFXYeastStarter": "Feed every second day with sugar and water to keep fresh.",
+    "Tooltip_VFXYeastStarterUnfed": "加入糖和水以恢復新鮮度，如果放置不餵食，大約兩天後就會壞死。",
+    "Tooltip_VFXYeastStarterDead": "You neglected your starter and it died. Pour it out and try again. It can also be used to create homemade vinegar.",
+
+    "Tooltip_VFXCookSugarBeetPulp": "烹飪以將其轉化為一鍋甜菜糖漿。",
+    "Tooltip_VFXCookSugarBeetSyrup": "烹飪以將其轉化為一鍋糖蜜。",
+
+    
+    "Tooltip_VFXCookMash": "烹飪以將其轉化為一鍋麥汁。",
+    "Tooltip_VFXBeerPrepFermenting": "需要發酵 7 天。",
+    "Tooltip_VFXPressBottle": "使用手動壓緊機來密封瓶子。",
+    "Tooltip_VFXHomemadeBeerFermenting": "需要發酵 5 天。",
+
+    "Tooltip_VFXWinePrepFermenting": "需要發酵 14 天。",
+
+    "Tooltip_VFXEvaporatedMilk": "烹飪以將其轉化為一鍋淡奶。",
+    "Tooltip_VFXCottageCheese": "烹飪以將其轉化為一鍋茅屋起司凝乳。",
+    "Tooltip_VFXCheeseAge": "讓起司熟成將會提升其品質。",
+    "Tooltip_VFXStarterMesophilic": "可用於製作酪乳、奶油起司、菲達起司和切達起司。",
+    "Tooltip_VFXStarterThermophilic": "可用於製作優格和馬蘇里拉起司。",
+    "Tooltip_VFXStarterSwiss": "可用於製作瑞士起司。",
+    "Tooltip_VFX_StarterParmesan": "可用於製作帕馬森起司。",
+    "Tooltip_VFXStarterFrench": "可用於製作布里起司和卡門貝爾起司。",
+    "Tooltip_VFXStarterBlue": "可用於製作藍紋起司。",
+
+    "Tooltip_VFXTomatoPulpPot": "烹飪以將其轉化為一鍋番茄糊。"
+}

@@ -1,0 +1,23 @@
+{
+    "Sandbox_PIP": "Plysken Irrigation Pipes",
+    "Sandbox_PIP_EnableAutoWatering": "Activar riego automático",
+    "Sandbox_PIP_EnableAutoWatering_tooltip": "Cuando está activado, las tuberías riegan automáticamente los cultivos cercanos desde los barriles de lluvia conectados.",
+    "Sandbox_PIP_WateringInterval": "Intervalo de riego (minutos)",
+    "Sandbox_PIP_WateringInterval_tooltip": "Minutos de juego entre cada ciclo de riego.",
+    "Sandbox_PIP_WateringRadius": "Radio de riego (casillas)",
+    "Sandbox_PIP_WateringRadius_tooltip": "0 = solo la casilla de la propia tubería. Valores más altos riegan los cultivos en un área cuadrada alrededor de cada tubería.",
+    "Sandbox_PIP_SmartPipes": "Tuberías inteligentes",
+    "Sandbox_PIP_SmartPipes_tooltip": "Cuando está activado, las tuberías llenan los cultivos hasta su nivel óptimo de agua. Cuando está desactivado, añaden una pequeña cantidad fija en cada ciclo.",
+    "Sandbox_PIP_SmartPipesFillMax": "Llenado máximo de tuberías inteligentes",
+    "Sandbox_PIP_SmartPipesFillMax_tooltip": "Nivel máximo de agua añadido a un cultivo por ciclo en el modo de tuberías inteligentes.",
+    "Sandbox_PIP_SharedWaterPool": "Depósito de agua compartido",
+    "Sandbox_PIP_SharedWaterPool_tooltip": "Cuando está activado, los barriles conectados en la misma red comparten y equilibran su agua (un barril lleno y uno vacío se igualan).",
+    "Sandbox_PIP_DebugLogs": "Registros de depuración",
+    "Sandbox_PIP_DebugLogs_tooltip": "Imprime registros internos en la consola. Solo para resolución de problemas.",
+    "Sandbox_PIP_EnableFertigation": "Activar fertirrigación",
+    "Sandbox_PIP_EnableFertigation_tooltip": "Si está activo, vierte Fertilizante o Compost en un barril de lluvia conectado y la red de tuberías fertiliza las cosechas cercanas automáticamente (una dosis segura por planta, nunca sobrefertiliza). Activado por defecto.",
+    "Sandbox_PIP_FertigationSkill": "Calidad de fertirrigación (Agricultura)",
+    "Sandbox_PIP_FertigationSkill_tooltip": "Nivel de Agricultura simulado al fertilizar. Más alto = mejor probabilidad de bonus de cosecha. No afecta la seguridad.",
+    "Sandbox_PIP_ChargesPerBag": "Dosis por saco de fertilizante/compost",
+    "Sandbox_PIP_ChargesPerBag_tooltip": "Cuántas plantas puede fertilizar un saco vertido. Independiente del volumen de agua del barril."
+}

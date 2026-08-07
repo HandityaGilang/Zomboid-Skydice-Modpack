@@ -1,0 +1,1 @@
+-- Keeps the Build 42 common folder present in packaged Workshop uploads.

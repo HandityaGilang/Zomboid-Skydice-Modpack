@@ -1,0 +1,6 @@
+ContextMenu_HU = {
+	ContextMenu_BagsEquipped = "Felszerelt táskák",
+	ContextMenu_WMI_Bandages = "Kötések",
+	Tooltip_WMI_TaintedAllowed = "Engedélyezve a világ beállításaiban.",
+	Tooltip_WMI_TaintedBlocked = "Letiltva a világ beállításaiban.",
+}

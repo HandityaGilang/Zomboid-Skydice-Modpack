@@ -1,0 +1,4 @@
+Recipes_RO = {
+    Recipe_DismantleTCElectronics = "Demontați playerul muzical",
+    Recipe_DismantleWalkmanElectronics = "Demontați playerul portabil",
+}

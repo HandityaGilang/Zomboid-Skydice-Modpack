@@ -1,0 +1,4 @@
+Tooltip_DE = {
+    Tooltip_WireBundle = "Ein Lautsprecherkabelbündel. Zum Anschluss von Lautsprechern an ein Musikgerät (Plattenspieler oder HiFi-Stereoanlage). <LINE> <LINE> Enthält 61 Meter Kabel. Pro Entfernungsfeld werden 1,5 Meter Kabel benötigt.",
+    Tooltip_item_Walkman = "Der berühmte Spieler von Zone.",
+}

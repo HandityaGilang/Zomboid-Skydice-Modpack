@@ -1,0 +1,2042 @@
+ItemName_ES = {
+
+/* ------------------------------ */
+/* ███   ███ ██████ ██████ ██  ██ */
+/* ████ ████ ██  ██   ██   ███ ██ */
+/* ██ ███ ██ ██████   ██   ██████ */
+/* ██     ██ ██  ██   ██   ██ ███ */
+/* ██     ██ ██  ██ ██████ ██  ██ */
+/* ------------------------------ */
+
+    /**** Cans and Jars ****/
+
+        /**** Canned Meals ****/
+
+            ItemName_VFX.CannedSavoryMince = "Carne molida enlatada sabrosa",
+            ItemName_VFX.CannedSavoryMinceOpen = "Carne molida sabrosa enlatada abierta",
+            ItemName_VFX.CannedSavoryMince_Box = "Caja de sabrosa carne molida enlatada",
+
+            ItemName_VFX.CannedBeefRavioli = "Ravioles de carne enlatada",
+            ItemName_VFX.CannedBeefRavioliOpen = "Ravioles de carne enlatados abiertos",
+            ItemName_VFX.CannedBeefRavioli_Box = "Caja de ravioles de carne enlatados",
+
+            ItemName_VFX.CannedSpinachRavioli = "Ravioles de espinacas enlatadas",
+            ItemName_VFX.CannedSpinachRavioliOpen = "Ravioles de espinacas enlatados abiertos",
+            ItemName_VFX.CannedSpinachRavioli_Box = "Caja de ravioles de espinacas enlatados",
+
+            ItemName_VFX.CannedMushroomRavioli = "Ravioles de champiñones enlatados",
+            ItemName_VFX.CannedMushroomRavioliOpen = "Ravioles de champiñones enlatados abiertos",
+            ItemName_VFX.CannedMushroomRavioli_Box = "Caja de ravioles de champiñones enlatados",
+
+            ItemName_VFX.CannedSpaghettiAndMeatballs = "Espaguetis y albóndigas enlatados",
+            ItemName_VFX.CannedSpaghettiAndMeatballsOpen = "Espaguetis y albóndigas enlatados abiertos",
+            ItemName_VFX.CannedSpaghettiAndMeatballs_Box = "Caja de espaguetis y albóndigas enlatados",
+
+            ItemName_VFX.CannedSpaghetti = "Espaguetis enlatados",
+            ItemName_VFX.CannedSpaghettiOpen = "Espaguetis enlatados abiertos",
+            ItemName_VFX.CannedSpaghettiBox = "Caja de espaguetis enlatados",
+
+            ItemName_VFX.CannedSloppyJoe = "Sloppy Joe enlatado",
+            ItemName_VFX.CannedSloppyJoeOpen = "Sloppy Joe enlatado abierto",
+            ItemName_VFX.CannedSloppyJoe_Box = "Caja de Sloppy Joe enlatado",
+
+            ItemName_VFX.CannedMeatloaf = "Pastel de carne enlatado",
+            ItemName_VFX.CannedMeatloafOpen = "Pastel de carne enlatado abierto",
+            ItemName_VFX.CannedMeatloaf_Box = "Caja de pastel de carne enlatado",
+
+            ItemName_VFX.CannedVegetarianChili = "Chile vegetariano enlatado",
+            ItemName_VFX.CannedVegetarianChiliOpen = "Chile vegetariano enlatado abierto",
+            ItemName_VFX.CannedVegetarianChili_Box = "Caja de chile vegetariano enlatado",
+
+            ItemName_VFX.CannedRedBeansAndRice = "Frijoles rojos enlatados con arroz",
+            ItemName_VFX.CannedRedBeansAndRiceOpen = "Frijoles rojos y arroz enlatados abiertos",
+            ItemName_VFX.CannedRedBeansAndRice_Box = "Caja de frijoles rojos enlatados con arroz",
+
+            ItemName_VFX.CannedClamChowder = "Sopa de almejas enlatada",
+            ItemName_VFX.CannedClamChowderOpen = "Sopa de almejas en lata abierta",
+            ItemName_VFX.CannedClamChowder_Box = "Caja de sopa de almejas enlatada",
+
+        /**** Canned Soup ****/
+
+            ItemName_VFX.CannedBroccoliCheddarSoup = "Sopa de brócoli y queso cheddar enlatada",
+            ItemName_VFX.CannedBroccoliCheddarSoupOpen = "Sopa de brócoli y queso cheddar enlatada abierta",
+            ItemName_VFX.CannedBroccoliCheddarSoup_Box = "Caja de sopa de brócoli y queso cheddar enlatada",
+
+            ItemName_VFX.CannedChickenNoodleSoup = "Sopa de pollo enlatada",
+            ItemName_VFX.CannedChickenNoodleSoupOpen = "Sopa de pollo enlatada abierta",
+            ItemName_VFX.CannedChickenNoodleSoup_Box = "Caja de sopa de pollo enlatada",
+
+            ItemName_VFX.CannedFrenchOnionSoup = "Sopa de cebolla francesa enlatada",
+            ItemName_VFX.CannedFrenchOnionSoupOpen = "Sopa de cebolla francesa enlatada abierta",
+            ItemName_VFX.CannedFrenchOnionSoup_Box = "Caja de sopa de cebolla francesa enlatada",
+
+            ItemName_VFX.CannedLaksaNoodleSoup = "Sopa de fideos laksa enlatada",
+            ItemName_VFX.CannedLaksaNoodleSoupOpen = "Sopa de fideos laksa enlatada abierta",
+            ItemName_VFX.CannedLaksaNoodleSoup_Box = "Caja de sopa de fideos laksa enlatada",
+
+            ItemName_VFX.CannedLentilSoup = "Sopa de lentejas enlatada",
+            ItemName_VFX.CannedLentilSoupOpen = "Sopa de lentejas enlatada abierta",
+            ItemName_VFX.CannedLentilSoup_Box = "Caja de sopa de lentejas enlatada",
+
+            ItemName_VFX.CannedMinestroneSoup = "Sopa minestrone enlatada",
+            ItemName_VFX.CannedMinestroneSoupOpen = "Sopa minestrone enlatada abierta",
+            ItemName_VFX.CannedMinestroneSoup_Box = "Caja de sopa minestrone enlatada",
+
+            ItemName_VFX.CannedPeaHamSoup = "Sopa de guisantes con jamón enlatado",
+            ItemName_VFX.CannedPeaHamSoupOpen = "Sopa de guisantes con jamón enlatado abierto",
+            ItemName_VFX.CannedPeaHamSoup_Box = "Caja de sopa de guisantes con jamón enlatado",
+
+            ItemName_VFX.CannedPotatoLeekSoup = "Sopa de patata y puerro enlatada",
+            ItemName_VFX.CannedPotatoLeekSoupOpen = "Sopa de patata y puerro en lata abierta",
+            ItemName_VFX.CannedPotatoLeekSoup_Box = "Caja de sopa de puerro y patata enlatada",
+
+            ItemName_VFX.CannedPumpkinSoup = "Sopa de calabaza enlatada",
+            ItemName_VFX.CannedPumpkinSoupOpen = "Sopa de calabaza enlatada abierta",
+            ItemName_VFX.CannedPumpkinSoup_Box = "Caja de sopa de calabaza enlatada",
+
+            ItemName_VFX.CannedTomatoSoup = "Sopa de tomate enlatada",
+            ItemName_VFX.CannedTomatoSoupOpen = "Sopa de tomate enlatada abierta",
+            ItemName_VFX.CannedTomatoSoup_Box = "Caja de sopa de tomate enlatada",
+
+        /**** Canned Stew ****/
+
+            ItemName_VFX.CannedBeefMushroomStew = "Estofado de ternera con champiñones enlatados",
+            ItemName_VFX.CannedBeefMushroomStewOpen = "Estofado de carne y champiñones enlatados abiertos",
+            ItemName_VFX.CannedBeefMushroomStew_Box = "Caja de estofado de carne y champiñones enlatados",
+
+            ItemName_VFX.CannedPepperSteakStew = "Estofado de carne con pimientos enlatados",
+            ItemName_VFX.CannedPepperSteakStewOpen = "Estofado de carne con pimientos enlatados abiertos",
+            ItemName_VFX.CannedPepperSteakStew_Box = "Caja de estofado de carne con pimientos enlatados",
+
+            ItemName_VFX.CannedIrishStew = "Estofado irlandés enlatado",
+            ItemName_VFX.CannedIrishStewOpen = "Estofado irlandés enlatado abierto",
+            ItemName_VFX.CannedIrishStew_Box = "Caja de estofado irlandés enlatado",
+
+            ItemName_VFX.CannedSteakOnionStew = "Estofado de carne y cebolla enlatada",
+            ItemName_VFX.CannedSteakOnionStewOpen = "Estofado de carne y cebolla enlatada abierta",
+            ItemName_VFX.CannedSteakOnionStew_Box = "Caja de estofado de carne y cebolla enlatada",
+
+            ItemName_VFX.CannedChiliBeanStew = "Guiso de frijoles con chile enlatado",
+            ItemName_VFX.CannedChiliBeanStewOpen = "Guiso de frijoles y chile enlatado abierto",
+            ItemName_VFX.CannedChiliBeanStew_Box = "Caja de estofado de frijoles y chile enlatado",
+
+            ItemName_VFX.CannedVegetableStew = "Guiso de verduras enlatadas",
+            ItemName_VFX.CannedVegetableStewOpen = "Guiso de verduras enlatado abierto",
+            ItemName_VFX.CannedVegetableStew_Box = "Caja de estofado de verduras enlatado",
+
+        /**** Canned Grains and Beans ****/
+
+            ItemName_VFX.CannedBlackBeans = "Frijoles negros enlatados",
+            ItemName_VFX.CannedBlackBeansOpen = "Frijoles negros enlatados abiertos",
+            ItemName_VFX.CannedBlackBeans_Box = "Caja de frijoles negros enlatados",
+
+            ItemName_VFX.CannedChickpeas = "Garbanzos enlatados",
+            ItemName_VFX.CannedChickpeasOpen = "Garbanzos enlatados abiertos",
+            ItemName_VFX.CannedChickpeas_Box = "Caja de garbanzos enlatados",
+
+            ItemName_VFX.CannedKidneyBeans = "Frijoles rojos enlatados",
+            ItemName_VFX.CannedKidneyBeansOpen = "Frijoles rojos enlatados abiertos",
+            ItemName_VFX.CannedKidneyBeans_Box = "Caja de frijoles rojos enlatados",
+
+            ItemName_VFX.CannedLentils = "Lentejas enlatadas",
+            ItemName_VFX.CannedLentilsOpen = "Lentejas enlatadas abiertas",
+            ItemName_VFX.CannedLentils_Box = "Caja de lentejas enlatadas",
+
+            ItemName_VFX.CannedWhiteBeans = "Frijoles blancos enlatados",
+            ItemName_VFX.CannedWhiteBeansOpen = "Frijoles blancos enlatados abiertos",
+            ItemName_VFX.CannedWhiteBeans_Box = "Caja de frijoles blancos enlatados",
+
+            ItemName_VFX.CannedThreeBeanMix = "Mezcla de tres frijoles enlatados",
+            ItemName_VFX.CannedThreeBeanMixOpen = "Mezcla de tres frijoles enlatados abiertos",
+            ItemName_VFX.CannedThreeBeanMix_Box = "Caja de mezcla de tres frijoles enlatados",
+
+        /**** Canned Vegetables ****/
+
+            ItemName_VFX.CannedSlicedMushroom = "Champiñones en rodajas enlatados",
+            ItemName_VFX.CannedSlicedMushroomOpen = "Champiñones en rodajas enlatados abiertos",
+            ItemName_VFX.CannedSlicedMushroom_Box = "Caja de champiñones en rodajas enlatados",
+
+            ItemName_VFX.CannedEdamameBeans = "Edamame enlatado",
+            ItemName_VFX.CannedEdamameBeansOpen = "Edamame enlatado abierto",
+            ItemName_VFX.CannedEdamameBeans_Box = "Caja de edamame enlatado",
+
+            ItemName_VFX.CannedMixedVegetableMedley = "Mezcla de verduras enlatadas",
+            ItemName_VFX.CannedMixedVegetableMedleyOpen = "Mezcla de verduras enlatadas abiertas",
+            ItemName_VFX.CannedMixedVegetableMedley_Box = "Caja de mezcla de verduras enlatadas",
+
+            ItemName_VFX.CannedGreenBeans = "Judías verdes enlatadas",
+            ItemName_VFX.CannedGreenBeansOpen = "Judías verdes enlatadas abiertas",
+            ItemName_VFX.CannedGreenBeans_Box = "Caja de judías verdes enlatadas",
+
+            ItemName_VFX.CannedSpinach = "Espinacas Enlatadas",
+            ItemName_VFX.CannedSpinachOpen = "Espinacas enlatadas abiertas",
+            ItemName_VFX.CannedSpinach_Box = "Caja de espinacas enlatadas",
+
+            ItemName_VFX.CannedPumpkinPuree = "Canned Pumpkin Puree",
+            ItemName_VFX.CannedPumpkinPureeOpen = "Opened Canned Pumpkin Puree",
+            ItemName_VFX.CannedPumpkinPuree_Box = "Box of Canned Pumpkin Puree",
+            
+            ItemName_VFX.CannedCreamCorn = "Canned Cream Corn",
+            ItemName_VFX.CannedCreamCornOpen = "Opened Canned Cream Corn",
+            ItemName_VFX.CannedCreamCorn_Box = "Box of Canned Cream Corn",
+
+        /**** Canned Fruit ****/
+
+            ItemName_VFX.CannedPassionfruit = "Fruta de la pasión enlatada",
+            ItemName_VFX.CannedPassionfruitOpen = "Fruta de la pasión enlatada abierta",
+            ItemName_VFX.CannedPassionfruit_Box = "Caja de fruta de la pasión enlatada",
+
+            ItemName_VFX.CannedAppleSlices = "Rodajas de manzana enlatadas",
+            ItemName_VFX.CannedAppleSlicesOpen = "Rodajas de manzana enlatadas abiertas",
+            ItemName_VFX.CannedAppleSlices_Box = "Caja de rodajas de manzana enlatadas",
+
+            ItemName_VFX.CannedPearSlices = "Rodajas de pera enlatadas",
+            ItemName_VFX.CannedPearSlicesOpen = "Rodajas de pera enlatadas abiertas",
+            ItemName_VFX.CannedPearSlices_Box = "Caja de rodajas de pera enlatadas",
+
+            ItemName_VFX.CannedMangoSlices = "Rebanadas de mango enlatadas",
+            ItemName_VFX.CannedMangoSlicesOpen = "Rebanadas de mango enlatadas abiertas",
+            ItemName_VFX.CannedMangoSlices_Box = "Caja de rebanadas de mango enlatadas",
+
+            ItemName_VFX.CannedLychees = "Lichis enlatados",
+            ItemName_VFX.CannedLycheesOpen = "Lichis enlatados abiertos",
+            ItemName_VFX.CannedLychees_Box = "Caja de lichis enlatados",
+
+            ItemName_VFX.CannedApricots = "Albaricoques enlatados",
+            ItemName_VFX.CannedApricotsOpen = "Albaricoques enlatados abiertos",
+            ItemName_VFX.CannedApricots_Box = "Caja de albaricoques enlatados",
+
+        /**** Canned Meat ****/
+
+            ItemName_VFX.CannedHam = "Jamón Enlatado",
+            ItemName_VFX.CannedHamOpen = "Jamón enlatado abierto",
+            ItemName_VFX.CannedHam_Box = "Caja de jamón enlatado",
+
+            ItemName_VFX.CannedSalmon = "Salmón Enlatado",
+            ItemName_VFX.CannedSalmonOpen = "Salmón Enlatado abierto",
+            ItemName_VFX.CannedSalmon_Box = "Caja de Salmón Enlatado",
+
+            ItemName_VFX.CannedAnchovies = "Anchoas enlatadas",
+            ItemName_VFX.CannedAnchoviesOpen = "Anchoas enlatadas abiertas",
+            ItemName_VFX.CannedAnchovies_Box = "Caja de Anchoas enlatadas",
+
+            ItemName_VFX.CannedCatFood = "Comida enlatada para gatos",
+            ItemName_VFX.CannedCatFoodOpen = "Comida enlatada para gatos abierta",
+            ItemName_VFX.CannedCatFood_Box = "Caja de Comida enlatada para gatos",
+
+            ItemName_VFX.CannedChicken = "Pollo Enlatado",
+            ItemName_VFX.CannedChickenOpen = "Pollo Enlatado abierto",
+            ItemName_VFX.CannedChicken_Box = "Caja de Pollo Enlatado",
+
+        /**** Canned Insects ****/
+
+            ItemName_VFX.CannedCrickets = "Grillos enlatados",
+            ItemName_VFX.CannedSnails = "Caracoles enlatados",
+            ItemName_VFX.CannedWorms = "Gusanos enlatados",
+
+        /**** Canned Misc. ****/
+
+            ItemName_VFX.CannedCoconutMilk = "Lata de leche de coco",
+            ItemName_VFX.CannedCoconutMilkOpen = "Lata abierta de leche de coco",
+            ItemName_VFX.CannedCoconutCream = "Lata de Crema de Coco",
+            ItemName_VFX.CannedCoconutCreamOpen = "Lata de Crema de Coco abierta",
+
+        /**** Jars ****/
+
+            ItemName_VFX.JarBlackOlives = "Tarro de aceitunas negras",
+            ItemName_VFX.JarBlackOlivesOpen = "Tarro de aceitunas negras abierto",
+            ItemName_VFX.JarGreenOlives = "Tarro de aceitunas verdes",
+            ItemName_VFX.JarGreenOlivesOpen = "Tarro de aceitunas verdes abierto",
+            ItemName_VFX.JarSundriedTomatoes = "Tarro de tomates secos",
+            ItemName_VFX.JarSundriedTomatoesOpen = "Tarro de tomates secos abierto",
+            ItemName_VFX.JarPickledPeppers = "Tarro de pimientos encurtidos",
+            ItemName_VFX.JarPickledPeppersOpen = "Tarro de pimientos encurtidos abiertos",
+            ItemName_VFX.JarPickledEggs = "Tarro de huevos encurtidos",
+            ItemName_VFX.JarPickledEggsOpen = "Tarro de huevos encurtidos abiertos",
+            ItemName_VFX.JarPickles = "Tarro de pepinillos",
+            ItemName_VFX.JarPickleJuiceOpen = "Tarro de pepinillos abierto",
+
+        /**** Canning ****/
+
+            ItemName_VFX.JarApricots = "Tarro de albaricoques",
+            ItemName_VFX.JarApricotsOpen = "Tarro de albaricoques abierto",
+            ItemName_VFX.JarBeetroot = "Tarro de Remolacha",
+            ItemName_VFX.JarBeetrootOpen = "Tarro de Remolacha abierto",
+            ItemName_VFX.JarBrusselSprouts = "Tarro de Coles de Bruselas",
+            ItemName_VFX.JarBrusselSproutsOpen = "Tarro de Coles de Bruselas abierto",
+            ItemName_VFX.JarCherry = "Tarro de cerezas",
+            ItemName_VFX.JarCherryOpen = "Tarro de cerezas abierto",
+            ItemName_VFX.JarCucumber = "Tarro de pepinos",
+            ItemName_VFX.JarCucumberOpen = "Tarro de pepinos abierto",
+            ItemName_VFX.JarGarlic = "Tarro de ajo",
+            ItemName_VFX.JarGarlicOpen = "Tarro de ajo abierto",
+            ItemName_VFX.JarGreenBeans = "Tarro de judías verdes",
+            ItemName_VFX.JarGreenBeansOpen = "Tarro de judías verdes abierto",
+            ItemName_VFX.JarOnion = "Tarro de cebolla",
+            ItemName_VFX.JarOnionOpen = "Tarro de cebolla abierto",
+            ItemName_VFX.JarPeach = "Tarro de durazno",
+            ItemName_VFX.JarPeachOpen = "Tarro de durazno abierto",
+            ItemName_VFX.JarPear = "Tarro de peras",
+            ItemName_VFX.JarPearOpen = "Tarro de peras abierto",
+            ItemName_VFX.JarGreenPeas = "Tarro de guisantes",
+            ItemName_VFX.JarGreenPeasOpen = "Tarro de guisantes abierto",
+            ItemName_VFX.JarPepperJalapeno = "Tarro de jalapeños",
+            ItemName_VFX.JarPepperJalapenoOpen = "Tarro de jalapeños abierto",
+            ItemName_VFX.JarPlums = "Tarro de ciruelas",
+            ItemName_VFX.JarPlumsOpen = "Tarro de ciruelas abierto",
+            ItemName_VFX.JarPumpkin = "Tarro de calabaza",
+            ItemName_VFX.JarPumpkinOpen = "Tarro de calabaza abierto",
+            ItemName_VFX.JarSquash = "Tarro de Cucurbita",
+            ItemName_VFX.JarSquashOpen = "Tarro de Cucurbita abierto",
+            ItemName_VFX.JarCorn = "Tarro de maíz",
+            ItemName_VFX.JarCornOpen = "Tarro de maíz abierto",
+            ItemName_VFX.JarSweetPotato = "Tarro de Camote",
+            ItemName_VFX.JarSweetPotatoOpen = "Tarro de Camote abierto",
+            ItemName_VFX.JarZucchini = "Tarro de calabacín",
+            ItemName_VFX.JarZucchiniOpen = "Tarro de calabacín abierto",
+
+    /**** Herbs, Spices and Seasonings ****/
+
+        /**** Herbs and Spices ****/
+
+            ItemName_VFX.Allspice = "Pimienta de Jamaica",
+            ItemName_VFX.BayLeaves = "Hojas de laurel",
+            ItemName_VFX.Cardamom = "Cardamomo",
+            ItemName_VFX.CayennePepper = "Pimienta de cayena",
+            ItemName_VFX.CelerySalt = "Sal de apio",
+            ItemName_VFX.ChiliFlakes = "Hojuelas de pimienta",
+            ItemName_VFX.CinnamonSugar = "Azúcar De Canela",
+            ItemName_VFX.Cloves = "Clavos",
+            ItemName_VFX.Cumin = "Comino",
+            ItemName_VFX.CurryPowder = "Polvo de curry",
+            ItemName_VFX.Dill = "Eneldo",
+            ItemName_VFX.FennelSeeds = "Semillas de hinojo",
+            ItemName_VFX.GaramMasala = "Garam Masala",
+            ItemName_VFX.GarlicSalt = "Sal de ajo",
+            ItemName_VFX.GroundChili = "Pimienta Molida",
+            ItemName_VFX.GroundGinger = "Jengibre molido",
+            ItemName_VFX.MustardPowder = "Mostaza en polvo",
+            ItemName_VFX.Nutmeg = "Nuez moscada",
+            ItemName_VFX.OnionFlakes = "Hojuelas De Cebolla",
+            ItemName_VFX.Paprika = "Paprika",
+            ItemName_VFX.SmokedPaprika = "Pimentón ahumado",
+            ItemName_VFX.WhitePepper = "Pimienta blanca",
+
+        /**** Seasonings ****/
+
+            ItemName_VFX.BarbequeRub = "Condimento para barbacoa",
+            ItemName_VFX.CajunSeasoning = "Condimento cajún",
+            ItemName_VFX.ChineseFiveSpice = "Cinco especias chinas",
+            ItemName_VFX.ItalianHerbsSeasoning = "Condimento de hierbas italiano",
+            ItemName_VFX.LemonPepperSeasoning = "Condimento de pimienta y limón",
+            ItemName_VFX.MemphisBarbequeRub = "Condimento para barbacoa Memphis",
+            ItemName_VFX.OldBaySeasoning = "Condimento Old Bay",
+            ItemName_VFX.PoultrySeasoning = "Condimento para aves",
+            ItemName_VFX.PumpkinSpiceSeasoning = "Condimento de calabaza y especias",
+            ItemName_VFX.RanchSeasoning = "Condimento ranchero",
+            ItemName_VFX.SteakhouseSeasoning = "Condimento para bistec",
+            ItemName_VFX.TexMexSeasoning = "Condimento Tex-Mex",
+
+        /**** Boullion Cubes ****/
+
+            ItemName_VFX.BoxChickenBouillonCube = "Caja de cubitos de caldo de pollo",
+            ItemName_VFX.BeefBouillonCube = "Cubitos de caldo de carne",
+            ItemName_VFX.BoxBeefBouillonCube = "Caja de cubitos de caldo de carne",
+            ItemName_VFX.FishBouillonCube = "Cubitos de caldo de pescado",
+            ItemName_VFX.BoxFishBouillonCube = "Caja de cubitos de caldo de pescado",
+            ItemName_VFX.VegetableBouillonCube = "Cubitos de caldo de verduras",
+            ItemName_VFX.BoxVegetableBouillonCube = "Caja de cubitos de caldo de verduras",
+
+        /**** Other ****/
+
+            ItemName_VFX.SesameSeeds = "Semillas de sésamo",
+
+        /**** Sauce, Relish and Dressing ****/
+
+            ItemName_VFX.HoneyBBQSauce = "Salsa barbacoa de miel",
+            ItemName_VFX.Aioli = "Alioli",
+            ItemName_VFX.Ranch = "Aderezo ranchero",
+            ItemName_VFX.ChipotleSauce = "Salsa Chipotle",
+            ItemName_VFX.BuffaloSauce = "Salsa Búfalo",
+            ItemName_VFX.SweetChiliSauce = "Salsa De Pimiento Dulce",
+            ItemName_VFX.TartarSauce = "Salsa tártara",
+            ItemName_VFX.CocktailSauce = "Salsa De Cóctel",
+            ItemName_VFX.AppleSauce = "Puré de manzana",
+            ItemName_VFX.CranberrySauce = "Salsa de arándanos",
+            ItemName_VFX.Horseradish = "Rábano picante",
+            ItemName_VFX.DijonMustard = "Mostaza de dijon",
+            ItemName_VFX.SpicyBrownMustard = "Mostaza marrón picante",
+            ItemName_VFX.HoneyMustard = "Mostaza y miel",
+            ItemName_VFX.SweetOnionRelish = "Encurtido de cebolla dulce",
+            ItemName_VFX.TomatoRelish = "Conservas de tomate",
+            ItemName_VFX.PickleRelish = "Conservas de pepinillos",
+            ItemName_VFX.LemonJuice = "Zumo de limón",
+            ItemName_VFX.LimeJuice = "Zumo de lima",
+            ItemName_VFX.CaesarSaladDressing = "Aderezo para ensalada César",
+            ItemName_VFX.ColeslawDressing = "Aderezo para ensalada de col",
+            ItemName_VFX.Vinaigrette = "Vinagreta",
+
+    /**** Pantry ****/
+
+        /**** Soup Sachets ****/
+
+            ItemName_VFX.BoxPumpkinSoupSachets = "Caja de sobres de sopa de calabaza",
+            ItemName_VFX.PumpkinSoupSachet = "Sobre de sopa de calabaza",
+            ItemName_VFX.BowlPumpkinSoup = "Tazón de sopa de calabaza",
+            ItemName_VFX.MugPumpkinSoup = "Taza de sopa de calabaza",
+            ItemName_VFX.MugPumpkinSoup_Clay = "Taza de sopa de calabaza",
+            ItemName_VFX.MugPumpkinSoup_White = "Taza de sopa de calabaza",
+            ItemName_VFX.MugPumpkinSoup_Spiffo = "Taza de sopa de calabaza",
+
+            ItemName_VFX.BoxPeaAndHamSoupSachets = "Caja de sobres de sopa de guisantes con jamón",
+            ItemName_VFX.PeaAndHamSoupSachet = "Sopa de guisantes con sobre de jamón",
+            ItemName_VFX.BowlPeaAndHamSoup = "Tazón de sopa de guisantes con jamón",
+            ItemName_VFX.MugPeaAndHamSoup = "Taza de sopa de guisantes con jamón",
+            ItemName_VFX.MugPeaAndHamSoup_Clay = "Taza de sopa de guisantes con jamón",
+            ItemName_VFX.MugPeaAndHamSoup_White = "Taza de sopa de guisantes con jamón",
+            ItemName_VFX.MugPeaAndHamSoup_Spiffo = "Taza de sopa de guisantes con jamón",
+
+            ItemName_VFX.BoxChickenNoodleSoupSachets = "Caja de sobres de sopa de pollo",
+            ItemName_VFX.ChickenNoodleSoupSachet = "Sobre de sopa de pollo",
+            ItemName_VFX.BowlChickenNoodleSoup = "Tazón de sopa de pollo",
+            ItemName_VFX.MugChickenNoodleSoup = "Taza de sopa de pollo",
+            ItemName_VFX.MugChickenNoodleSoup_Clay = "Taza de sopa de pollo",
+            ItemName_VFX.MugChickenNoodleSoup_White = "Taza de sopa de pollo",
+            ItemName_VFX.MugChickenNoodleSoup_Spiffo = "Taza de sopa de pollo",
+
+            ItemName_VFX.BoxTomatoSoupSachets = "Caja de sobres de sopa de tomate",
+            ItemName_VFX.TomatoSoupSachet = "Sobre de sopa de tomate",
+            ItemName_VFX.BowlTomatoSoup = "Tazón de sopa de tomate",
+            ItemName_VFX.MugTomatoSoup = "Taza de sopa de tomate",
+            ItemName_VFX.MugTomatoSoup_Clay = "Taza de sopa de tomate",
+            ItemName_VFX.MugTomatoSoup_White = "Taza de sopa de tomate",
+            ItemName_VFX.MugTomatoSoup_Spiffo = "Taza de sopa de tomate",
+
+        /**** Ramen ****/
+
+            ItemName_VFX.BoxChickenRamen = "Caja de ramen de pollo",
+            ItemName_VFX.ChickenRamen = "Paquete de ramen de pollo",
+            ItemName_VFX.ChickenRamenFlavourSachet = "Sobre de condimento para pollo",
+            ItemName_VFX.BowlChickenRamen = "Tazón De Ramen De Pollo",
+
+            ItemName_VFX.BoxBeefRamen = "Caja de ramen de carne",
+            ItemName_VFX.BeefRamen = "Paquete de ramen de carne",
+            ItemName_VFX.BeefRamenFlavourSachet = "Sobre de condimento para carne",
+            ItemName_VFX.BowlBeefRamen = "Tazón de ramen de carne",
+
+            ItemName_VFX.BoxShrimpRamen = "Caja de ramen de camarones",
+            ItemName_VFX.ShrimpRamen = "Paquete de ramen de camarones",
+            ItemName_VFX.ShrimpRamenFlavourSachet = "Sobre de condimento para camarones",
+            ItemName_VFX.BowlShrimpRamen = "Tazón de ramen de camarones",
+
+            ItemName_VFX.BoxPorkRamen = "Caja de ramen de cerdo",
+            ItemName_VFX.PorkRamen = "Paquete de ramen de cerdo",
+            ItemName_VFX.PorkRamenFlavourSachet = "Sobre de condimento para carne de cerdo",
+            ItemName_VFX.BowlPorkRamen = "Tazón de ramen de cerdo",
+
+            ItemName_VFX.BoxHotAndSpicyRamen = "Caja de ramen picante",
+            ItemName_VFX.HotAndSpicyRamen = "Paquete de ramen picante",
+            ItemName_VFX.HotAndSpicyRamenFlavourSachet = "Sobre de condimento picante",
+            ItemName_VFX.BowlHotAndSpicyRamen = "Tazón de ramen picante",
+
+            ItemName_VFX.BoxSoySauceRamen = "Caja de ramen con salsa de soja",
+            ItemName_VFX.SoySauceRamen = "Paquete de ramen con salsa de soja",
+            ItemName_VFX.SoySauceRamenFlavourSachet = "Sobre de condimento para salsa de soja",
+            ItemName_VFX.BowlSoySauceRamen = "Tazón de ramen con salsa de soja",
+
+        /**** Pasta and Rice Meals ****/
+
+                ItemName_VFX.PMCheddarBroccoli = "Pasta con brócoli y queso cheddar",
+                ItemName_VFX.PMSaucepanCheddarBroccoli = "Pasta con brócoli y queso cheddar",
+                ItemName_VFX.PMCopperSaucepanCheddarBroccoli = "Pasta con brócoli y queso cheddar en olla de cobre",
+                ItemName_VFX.PMBowlCheddarBroccoli = "Tazón de pasta con brócoli y queso cheddar",
+
+                ItemName_VFX.PMParmesan = "Pasta con parmesano",
+                ItemName_VFX.PMSaucepanParmesan = "Pasta con parmesano",
+                ItemName_VFX.PMCopperSaucepanParmesan = "Olla de cobre con pasta a la parmesana",
+                ItemName_VFX.PMBowlParmesan = "Tazón de pasta con parmesano",
+
+                ItemName_VFX.PMCreamyChicken = "Pasta Cremosa De Pollo",
+                ItemName_VFX.PMSaucepanCreamyChicken = "Pasta cremosa con pollo",
+                ItemName_VFX.PMCopperSaucepanCreamyChicken = "Sartén de cobre con pasta cremosa de pollo",
+                ItemName_VFX.PMBowlCreamyChicken = "Tazón de pasta cremosa con pollo",
+
+                ItemName_VFX.PMCreamyPesto = "Pasta cremosa con pesto",
+                ItemName_VFX.PMSaucepanCreamyPesto = "Pasta cremosa con pesto",
+                ItemName_VFX.PMCopperSaucepanCreamyPesto = "Sartén de cobre con pasta cremosa al pesto",
+                ItemName_VFX.PMBowlCreamyPesto = "Tazón de pasta cremosa con pesto",
+
+                ItemName_VFX.PMAlfredo = "Pasta Alfredo",
+                ItemName_VFX.PMSaucepanAlfredo = "Olla de Pasta Alfredo",
+                ItemName_VFX.PMCopperSaucepanAlfredo = "Olla de cobre con pasta Alfredo",
+                ItemName_VFX.PMBowlAlfredo = "Tazón de Pasta Alfredo",
+
+                ItemName_VFX.PMMacCheese = "Macarrones con queso",
+                ItemName_VFX.PMSaucepanMacCheese = "Macarrones con queso en olla",
+                ItemName_VFX.PMCopperSaucepanMacCheese = "Macarrones con queso en olla de cobre",
+                ItemName_VFX.PMBowlMacCheese = "Tazón de macarrones con queso",
+
+                ItemName_VFX.RMChicken = "Arroz Con Pollo",
+                ItemName_VFX.RMSaucepanChicken = "Olla De Arroz Con Pollo",
+                ItemName_VFX.RMCopperSaucepanChicken = "Olla de cobre con arroz con pollo",
+                ItemName_VFX.RMBowlChicken = "Tazón de arroz con pollo",
+
+                ItemName_VFX.RMMexican = "Arroz Mexicano Picante",
+                ItemName_VFX.RMSaucepanMexican = "Arroz picante mexicano",
+                ItemName_VFX.RMCopperSaucepanMexican = "Olla de cobre con arroz picante mexicano",
+                ItemName_VFX.RMBowlMexican = "Tazón de arroz mexicano picante",
+
+                ItemName_VFX.RMMedley = "Mezcla de arroz",
+                ItemName_VFX.RMSaucepanMedley = "Olla de mezcla de arroz",
+                ItemName_VFX.RMCopperSaucepanMedley = "Olla de cobre con mezcla de arroz",
+                ItemName_VFX.RMBowlMedley = "Tazón de mezcla de arroz",
+
+                ItemName_VFX.RMFried = "Arroz Frito",
+                ItemName_VFX.RMSaucepanFried = "Olla De Arroz Frito",
+                ItemName_VFX.RMCopperSaucepanFried = "Sartén de cobre con arroz frito",
+                ItemName_VFX.RMBowlFried = "Tazón de arroz frito",
+
+        /**** Pasta and Rice ****/
+
+                ItemName_VFX.BrownRice = "Arroz Integral",
+                ItemName_VFX.WaterSaucepanBrownRice = "Sartén con Arroz Integral",
+                ItemName_VFX.WaterSaucepanCopperBrownRice = "Olla de cobre con arroz integral",
+                ItemName_VFX.WaterPotBrownRice = "Olla arrocera integral",
+                ItemName_VFX.WaterPotForgedBrownRice = "Olla arrocera integral",
+                ItemName_VFX.BrownRiceBowl = "Tazón de arroz integral",
+
+                ItemName_VFX.JasmineRice = "Arroz Jazmín",
+                ItemName_VFX.WaterSaucepanJasmineRice = "Olla de arroz jazmín",
+                ItemName_VFX.WaterSaucepanCopperJasmineRice = "Olla de cobre con arroz jazmín",
+                ItemName_VFX.WaterPotJasmineRice = "Olla arrocera de jazmín",
+                ItemName_VFX.WaterPotForgedJasmineRice = "Olla arrocera de jazmín",
+                ItemName_VFX.JasmineRiceBowl = "Tazón de arroz jazmín",
+
+                ItemName_VFX.BasmatiRice = "Arroz basmati",
+                ItemName_VFX.WaterSaucepanBasmatiRice = "Olla de arroz basmati",
+                ItemName_VFX.WaterSaucepanCopperBasmatiRice = "Olla de cobre con arroz basmati",
+                ItemName_VFX.WaterPotBasmatiRice = "Olla arrocera basmati",
+                ItemName_VFX.WaterPotForgedBasmatiRice = "Olla arrocera basmati",
+                ItemName_VFX.BasmatiRiceBowl = "Tazón de arroz basmati",
+
+                ItemName_VFX.ArborioRice = "Arroz Arborio",
+                ItemName_VFX.WaterSaucepanArborioRice = "Sartén de arroz Arborio",
+                ItemName_VFX.WaterSaucepanCopperArborioRice = "Olla de cobre con arroz arborio",
+                ItemName_VFX.WaterPotArborioRice = "Olla arrocera Arborio",
+                ItemName_VFX.WaterPotForgedArborioRice = "Olla arrocera Arborio",
+                ItemName_VFX.ArborioRiceBowl = "Tazón de arroz Arborio",
+
+                ItemName_VFX.LasagnaSheets = "Láminas de lasaña",
+                ItemName_VFX.LasagnaPreparation = "Lasaña",
+                
+                ItemName_VFX.Macaroni = "Macarrón",
+                ItemName_VFX.WaterSaucepanMacaroni = "Sartén con Pasta",
+                ItemName_VFX.WaterSaucepanCopperMacaroni = "Olla de cobre con macarrones",
+                ItemName_VFX.WaterPotMacaroni = "Cocedor de pastas",
+                ItemName_VFX.WaterPotForgedMacaroni = "Cocedor de pastas",
+                ItemName_VFX.MacaroniBowl = "Tazón de macarrones",
+
+                ItemName_VFX.Fettuccine = "Fetuccini",
+                ItemName_VFX.WaterSaucepanFettuccine = "Sartén con fettuccini",
+                ItemName_VFX.WaterSaucepanCopperFettuccine = "Sartén de cobre con fettuccini",
+                ItemName_VFX.WaterPotFettuccine = "Olla para fettuccini",
+                ItemName_VFX.WaterPotForgedFettuccine = "Olla para fettuccini",
+                ItemName_VFX.FettuccineBowl = "Tazón de fettuccini",
+
+                ItemName_VFX.Penne = "Penne",
+                ItemName_VFX.WaterSaucepanPenne = "Sarten con penne",
+                ItemName_VFX.WaterSaucepanCopperPenne = "Sartén de cobre con penne",
+                ItemName_VFX.WaterPotPenne = "Olla de cocina con Penne",
+                ItemName_VFX.WaterPotForgedPenne = "Olla de cocina con Penne",
+                ItemName_VFX.PenneBowl = "Bol de penne",
+
+                ItemName_VFX.Gnocchi = "Ñoqui",
+                ItemName_VFX.WaterSaucepanGnocchi = "Sarten con Ñoqui",
+                ItemName_VFX.WaterSaucepanCopperGnocchi = "Sarten de cobre con Ñoqui",
+                ItemName_VFX.WaterPotGnocchi = "Olla de cocción con ñoquis",
+                ItemName_VFX.WaterPotForgedGnocchi = "Olla de cocción con ñoquis",
+                ItemName_VFX.GnocchiBowl = "Tazón de ñoquis",
+
+        /**** Pasta Sauce ****/
+
+            ItemName_VFX.SpicyMarinara = "Marinara picante",
+            ItemName_VFX.MeatSauce = "Salsa Boloñesa",
+            ItemName_VFX.BasilPestoSauce = "Salsa de pesto de albahaca",
+            ItemName_VFX.AlfredoSauce = "Salsa Alfredo",
+            ItemName_VFX.BechamelSauce = "Salsa Bechamel",
+
+            ItemName_VFX.HomemadeMarinara = "Marinara casera",
+            ItemName_VFX.HomemadeMarinara_Open = "Marinara abierta casera",
+            ItemName_VFX.HomemadeSpicyMarinara = "Marinara picante casera",
+            ItemName_VFX.HomemadeSpicyMarinara_Open = "Marinara picante casera abierta",
+            ItemName_VFX.HomemadeMeatSauce = "Salsa boloñesa casera",
+            ItemName_VFX.HomemadeMeatSauce_Open = "Salsa boloñesa abierta casera",
+            ItemName_VFX.HomemadeBasilPestoSauce = "Salsa de pesto de albahaca casera",
+            ItemName_VFX.HomemadeBasilPestoSauce_Open = "Salsa de pesto casera de albahaca abierta",
+            ItemName_VFX.HomemadeAlfredoSauce = "Salsa Alfredo casera",
+            ItemName_VFX.HomemadeAlfredoSauce_Open = "Salsa Alfredo Abierta Casera",
+            ItemName_VFX.HomemadeBechamelSauce = "Salsa bechamel casera",
+            ItemName_VFX.HomemadeBechamelSauce_Open = "Salsa bechamel abierta casera",
+
+        /**** Croutons ****/
+            ItemName_VFX.Croutons = "Crutones",
+            ItemName_VFX.CroutonsGarlic = "Crutones de ajo",
+            ItemName_VFX.CroutonsHerbButter = "Crutones de hierbas y mantequilla",
+            ItemName_VFX.CroutonsCheddar = "Crutones de queso cheddar",
+
+        /**** Breakfast Foods ****/
+
+            /**** Jams and Spreads ****/
+
+                ItemName_VFX.ApricotJam = "Mermelada de albaricoque",
+                ItemName_VFX.StrawberryJam = "Mermelada De Fresa",
+                ItemName_VFX.GrapeJam = "Jalea de uva",
+                ItemName_VFX.RaspberryJam = "Mermelada de frambuesa",
+                ItemName_VFX.PeachJam = "Mermelada de durazno",
+                ItemName_VFX.BlackberryJam = "Mermelada de moras",
+                ItemName_VFX.BlueberryJam = "Mermelada de arándanos",
+                ItemName_VFX.LemonMarmalade = "Mermelada De Limón",
+                ItemName_VFX.HazelnutSpread = "Crema De Avellanas",
+                ItemName_VFX.AppleButter = "Mantequilla De Manzana",
+                ItemName_VFX.CinnamonButter = "Mantequilla De Canela",
+                ItemName_VFX.MapleButter = "Mantequilla de arce",
+                ItemName_VFX.CheeseSpread = "Pasta De Queso",
+                ItemName_VFX.LiverSpread = "Pasta de hígado",
+
+            /**** Cereal ****/
+
+                ItemName_VFX.OatyOs = "Oaty O’s",
+                ItemName_VFX.HoneyOatyOs = "Honey O’s",
+                ItemName_VFX.RiceKrisps = "Rice Krisps",
+                ItemName_VFX.FrostyCrunch = "Frosty Crunch",
+                ItemName_VFX.FruityLoops = "Fruity Loops",
+                ItemName_VFX.UnluckyCharms = "Unlucky Charms",
+                ItemName_VFX.AdmiralChomp = "Admiral Chomp",
+                ItemName_VFX.CocoaPuffs = "Cocoa Puffs",
+                ItemName_VFX.Wheaties = "Wheaties",
+
+                ItemName_VFX.OatyOsBowl = "Bol de Oaty O’s",
+                ItemName_VFX.HoneyOatyOsBowl = "Bol de Honey O’s",
+                ItemName_VFX.RiceKrispsBowl = "Bol de Rice Krisps",
+                ItemName_VFX.FrostyCrunchBowl = "Bol de Frosty Crunch",
+                ItemName_VFX.FruityLoopsBowl = "Bol de Fruity Loops",
+                ItemName_VFX.UnluckyCharmsBowl = "Bol de Unlucky Charms",
+                ItemName_VFX.AdmiralChompBowl = "Bol de Admiral Chomp",
+                ItemName_VFX.CocoaPuffsBowl = "Bol de Cocoa Puffs",
+                ItemName_VFX.WheatiesBowl = "Bol de Wheaties",
+
+            /**** Granola ****/
+
+                ItemName_VFX.HoneyOatsGranola = "Granola de miel y avena",
+                ItemName_VFX.FruitNutGranola = "Granola de frutas y nueces",
+                ItemName_VFX.MaplePecanGranola = "Granola de arce y nueces pecanas",
+                ItemName_VFX.CoconutAlmondGranola = "Granola de coco y almendras",
+                ItemName_VFX.ChocolateChipGranola = "Granola con chispas de chocolate",
+
+                ItemName_VFX.HoneyOatsGranolaBowl = "Tazón de granola con miel y avena",
+                ItemName_VFX.FruitNutGranolaBowl = "Tazón de granola de frutas y nueces",
+                ItemName_VFX.MaplePecanGranolaBowl = "Tazón de granola con arce y nueces pecanas",
+                ItemName_VFX.CoconutAlmondGranolaBowl = "Tazón de granola de coco y almendras",
+                ItemName_VFX.ChocolateChipGranolaBowl = "Tazón de granola con chispas de chocolate",
+
+        /**** Staples ****/
+            ItemName_VFX.PowderedSugar = "Azúcar glas",
+            ItemName_VFX.VanillaExtract = "Extracto de vainilla",
+            ItemName_VFX.Sprinkles = "Granulado",
+            ItemName_VFX.BakingPowder = "Levadura en polvo",
+            ItemName_VFX.Breadcrumbs = "Pan rallado",
+
+    /**** Snacks ****/
+
+        /**** Snack Cakes ****/
+            ItemName_VFX.ZebraCakesBox = "Caja de pastel de cebra",
+            ItemName_VFX.ZebraCake = "Pastel De Cebra",
+            ItemName_VFX.SwissRollsBox = "Caja de rollos suizos",
+            ItemName_VFX.SwissRoll = "Rollo suizo",
+            ItemName_VFX.FudgeRoundsBox = "Caja de donuts de chocolate",
+            ItemName_VFX.FudgeRound = "Donut de chocolate",
+            ItemName_VFX.CoffeeCakesBox = "Caja de pastel de café",
+            ItemName_VFX.CoffeeCake = "Pastel De Café",
+            ItemName_VFX.CosmicBrowniesBox = "Caja de brownies cósmica",
+            ItemName_VFX.CosmicBrownie = "Brownie cósmico",
+            ItemName_VFX.OatmealCremePiesBox = "Caja de pastel de crema de avena",
+            ItemName_VFX.OatmealCremePie = "Pastel de crema de avena",
+
+        /**** Rice Cakes ****/
+            ItemName_VFX.RiceCakesLightlySalted = "Paquete de galletas de arroz ligeramente saladas",
+            ItemName_VFX.RiceCakesCheddar = "Paquete de galletas de arroz con queso cheddar",
+            ItemName_VFX.RiceCakesRanch = "Paquete de galletas de arroz Ranch",
+            ItemName_VFX.RiceCakesAppleCinnamon = "Paquete de galletas de arroz con manzana y canela",
+
+        /**** Toaster Strudels ****/
+            ItemName_VFX.StrawberryStrudelsBox = "Caja de strudel tostador de fresa",
+            ItemName_VFX.PackagedStrawberryStrudel = "Strudel de fresa envasado",
+            ItemName_VFX.StrawberryToasterStrudel = "Strudel de fresa tostado",
+
+            ItemName_VFX.CherryStrudelsBox = "Caja de strudel de cerezas para tostadora",
+            ItemName_VFX.PackagedCherryStrudel = "Strudel de cereza envasado",
+            ItemName_VFX.CherryToasterStrudel = "Strudel de cereza tostado",
+
+            ItemName_VFX.BlueberryStrudelsBox = "Caja de strudel de arándanos para tostadora",
+            ItemName_VFX.PackagedBlueberryStrudel = "Strudel de arándanos envasado",
+            ItemName_VFX.BlueberryToasterStrudel = "Strudel de arándanos tostado",
+
+            ItemName_VFX.CookiesAndCreamStrudelsBox = "Caja de strudel de galletas y crema para tostadora",
+            ItemName_VFX.PackagedCookiesAndCreamStrudel = "Strudel de galleta y crema envasado",
+            ItemName_VFX.CookiesAndCreamToasterStrudel = "Strudel de galleta y crema tostadora",
+
+            ItemName_VFX.BrownSugarStrudelsBox = "Caja de strudel tostador de azúcar moreno",
+            ItemName_VFX.PackagedBrownSugarStrudel = "Strudel de azúcar moreno envuelto",
+            ItemName_VFX.BrownSugarToasterStrudel = "Strudel tostador de azúcar moreno",
+
+        /**** Granola Bars ****/
+            ItemName_VFX.OatGranolaBar = "Barra de granola de avena",
+            ItemName_VFX.ChocolateChipGranolaBar = "Barra de granola con chispas de chocolate",
+            ItemName_VFX.NuttyGranolaBar = "Barra de granola con nueces",
+            ItemName_VFX.AlmondGranolaBar = "Barra de granola de almendras",
+
+            ItemName_VFX.AlmondGranolaBarBox = "Caja de barras de granola de almendras",
+            ItemName_VFX.ChocolateChipGranolaBarBox = "Caja de barras de granola con chispas de chocolate",
+            ItemName_VFX.NuttyGranolaBarBox = "Caja de barras de granola con frutos secos",
+            ItemName_VFX.OatGranolaBarBox = "Caja de barras de granola de avena",
+            ItemName_VFX.PeanutButterGranolaBarBox = "Caja de barras de granola con mantequilla de maní",
+
+        /**** Chips ****/
+            ItemName_VFX.HoneyBarbecueChips = "Patatas Fritas - Barbacoa con Miel",
+            ItemName_VFX.CheddarChips = "Patatas fritas con queso cheddar",
+            ItemName_VFX.DillPickleChips = "Patatas fritas - Pepinillos encurtidos",
+            ItemName_VFX.RanchChips = "Patatas fritas rancheras",
+
+        /**** Crackers ****/
+            ItemName_VFX.RitzCrackers = "Galletas Ritz",
+            ItemName_VFX.WheatThins = "Galletas finas de trigo",
+            ItemName_VFX.CheezItz = "Galletas Cheez-Itz",
+            ItemName_VFX.Goldfish = "Galletas de pez dorado",
+
+        /**** Pudding Cups ****/
+            ItemName_VFX.ChocolatePuddingBox = "Paquete de 4 tazas de pudín de chocolate",
+            ItemName_VFX.ChocolatePuddingCup = "Taza de pudín de chocolate",
+
+            ItemName_VFX.VanillaPuddingBox = "Paquete de 4 tazas de pudín de vainilla",
+            ItemName_VFX.VanillaPuddingCup = "Taza de pudín de vainilla",
+
+            ItemName_VFX.CustardPuddingBox = "Paquete de 4 tazas de pudín de crema",
+            ItemName_VFX.CustardPuddingCup = "Taza de pudín de crema",
+
+            ItemName_VFX.StrawberryPuddingBox = "Paquete de 4 tazas de pudín de fresa",
+            ItemName_VFX.StrawberryPuddingCup = "Taza de pudín de fresa",
+
+            ItemName_VFX.BananaCreamPuddingBox = "Paquete de 4 tazas de pudín de crema de plátano",
+            ItemName_VFX.BananaCreamPuddingCup = "Taza de pudín de crema de plátano",
+
+        /**** Jello Cups ****/
+            ItemName_VFX.StrawberryJelloBox = "Paquete de 4 vasos de gelatina de fresa",
+            ItemName_VFX.StrawberryJelloCup = "Taza de gelatina de fresa",
+
+            ItemName_VFX.LemonLimeJelloBox = "Paquete de 4 vasos de gelatina de limón",
+            ItemName_VFX.LemonLimeJelloCup = "Taza de gelatina de limón",
+
+            ItemName_VFX.OrangeJelloBox = "Paquete de 4 vasos de gelatina de naranja",
+            ItemName_VFX.OrangeJelloCup = "Taza de gelatina de naranja",
+
+            ItemName_VFX.CherryJelloBox = "Paquete de 4 vasos de gelatina de cereza",
+            ItemName_VFX.CherryJelloCup = "Copa de gelatina de cereza",
+
+            ItemName_VFX.PineappleJelloBox = "Paquete de 4 vasos de gelatina de piña",
+            ItemName_VFX.PineappleJelloCup = "Vaso de gelatina de piña",
+
+            ItemName_VFX.BerryBlueJelloBox = "Paquete de 4 vasos de gelatina de frutos rojos",
+            ItemName_VFX.BerryBlueJelloCup = "Vaso de Gelatina de Frutos Rojos",
+
+            ItemName_VFX.RaspberryJelloBox = "Paquete de 4 vasos de gelatina de frambuesa",
+            ItemName_VFX.RaspberryJelloCup = "Taza de gelatina de frambuesa",
+
+            ItemName_VFX.LimeJelloBox = "Paquete de 4 tazas de gelatina de lima",
+            ItemName_VFX.LimeJelloCup = "Taza de gelatina de lima",
+
+            ItemName_VFX.PeachJelloBox = "Paquete de 4 tazas de gelatina de melocotón",
+            ItemName_VFX.PeachJelloCup = "Vaso de gelatina de melocotón",
+
+            ItemName_VFX.GrapeJelloBox = "Paquete de 4 tazas de gelatina de uva",
+            ItemName_VFX.GrapeJelloCup = "Copa de gelatina de uva",
+
+            ItemName_VFX.LemonJelloBox = "Paquete de 4 tazas de gelatina de limón siciliano",
+            ItemName_VFX.LemonJelloCup = "Copa de gelatina de limón siciliano",
+
+        /**** Fruit Cups ****/
+            ItemName_VFX.PeachSyrupFruitBox = "Paquete de 4 tazas de duraznos en almíbar",
+            ItemName_VFX.PeachSyrupFruitCup = "Taza de Duraznos en Almíbar",
+            ItemName_VFX.PeachJellyFruitBox = "Paquete de 4 tazas de melocotón en gelatina",
+            ItemName_VFX.PeachJellyFruitCup = "Taza de duraznos en gelatina",
+
+            ItemName_VFX.PearSyrupFruitBox = "Paquete de 4 Tazas de Peras en Almíbar",
+            ItemName_VFX.PearSyrupFruitCup = "Vaso de Peras en Almíbar",
+            ItemName_VFX.PearJellyFruitBox = "Paquete de 4 Vasitos de Pera en Gelatina",
+            ItemName_VFX.PearJellyFruitCup = "Taza de Peras en Gelatina",
+
+            ItemName_VFX.FruitSaladSyrupFruitBox = "Paquete de 4 Vasitos de Ensalada de Frutas en Almíbar",
+            ItemName_VFX.FruitSaladSyrupFruitCup = "Vaso de ensalada de frutas en almíbar",
+            ItemName_VFX.FruitSaladJellyFruitBox = "Paquete de 4 Vasitos de Ensalada de Frutas en Gelatina",
+            ItemName_VFX.FruitSaladJellyFruitCup = "Ensalada de frutas en gelatina",
+
+            ItemName_VFX.MandarinSyrupFruitBox = "Paquete de 4 Tazas de Mandarinas en Almíbar",
+            ItemName_VFX.MandarinSyrupFruitCup = "Vaso de mandarinas en almíbar",
+            ItemName_VFX.MandarinJellyFruitBox = "Paquete de 4 Vasitos de Mandarina en Gelatina",
+            ItemName_VFX.MandarinJellyFruitCup = "Taza de Mandarinas en Gelatina",
+
+            ItemName_VFX.PineappleSyrupFruitBox = "Paquete de 4 Vasitos de Piña en Almíbar",
+            ItemName_VFX.PineappleSyrupFruitCup = "Taza de Piña en Almíbar",
+            ItemName_VFX.PineappleJellyFruitBox = "Paquete de 4 tazas de gelatina de piña",
+            ItemName_VFX.PineappleJellyFruitCup = "Copa de gelatina de piña",
+
+            ItemName_VFX.TropicalSyrupFruitBox = "Paquete de 4 Tazas de Frutas Tropicales en Almíbar",
+            ItemName_VFX.TropicalSyrupFruitCup = "Taza de Frutas Tropicales en Almíbar",
+            ItemName_VFX.TropicalJellyFruitBox = "Paquete de 4 Vasitos de Frutas Tropicales en Gelatina",
+            ItemName_VFX.TropicalJellyFruitCup = "Copa de Frutas Tropicales en Gelatina",
+
+        /**** Dried Fruit ****/
+            ItemName_VFX.DriedAppleSlices = "Bolsa de rodajas de manzana deshidratadas",
+            ItemName_VFX.DriedSultanas = "Bolsa de pasas sultanas secas",
+            ItemName_VFX.DriedDates = "Bolsa de dátiles secos",
+            ItemName_VFX.DriedApricots = "Bolsa de albaricoques secos",
+            ItemName_VFX.DriedCranberries = "Bolsa de arándanos secos",
+            ItemName_VFX.DriedMangoSlices = "Bolsa de rodajas de mango deshidratado",
+            ItemName_VFX.DriedPrunes = "Bolsa de ciruelas secas",
+            ItemName_VFX.DriedPineapple = "Bolsa de piña deshidratada",
+            ItemName_VFX.DriedBananaChips = "Bolsa de chips de plátano deshidratado",
+
+        /**** Nuts ****/
+            ItemName_VFX.MixedNuts = "Bolsa de frutos secos mixtos",
+            ItemName_VFX.Almonds = "Bolsa de almendras",
+            ItemName_VFX.Cashews = "Bolsa de anacardos",
+            ItemName_VFX.Hazelnuts = "Bolsa de avellanas",
+            ItemName_VFX.Pecans = "Bolsa de nueces pecanas",
+            ItemName_VFX.Pistachios = "Bolsa de pistachos",
+            ItemName_VFX.Walnuts = "Bolsa de nueces",
+            ItemName_VFX.PineNuts = "Bolsa de piñones",
+
+        /**** Trail Mix ****/
+            ItemName_VFX.ClassicTrailMix = "Mezcla de pistas clásicas",
+            ItemName_VFX.CandyCrunchTrailMix = "Mezcla crujiente de frutos secos con dulces",
+            ItemName_VFX.TropicalTrailMix = "Mezcla de pistas tropicales",
+            ItemName_VFX.MountainTrailMix = "Mezcla de senderos de montaña",
+            ItemName_VFX.EnergyTrailMix = "Mezcla energética de frutos secos",
+            ItemName_VFX.BreakfastTrailMix = "Mezcla de frutos secos para el desayuno",
+
+    /**** Baking ****/
+
+        /**** Cake ****/
+            ItemName_VFX.FrenchVanillaCakeMix = "Mezcla para pastel de vainilla francesa",
+            ItemName_VFX.FrenchVanillaCakeBatter = "Masa de pastel de vainilla francesa",
+            ItemName_VFX.FrenchVanillaCakePrep = "Pastel De Vainilla Francesa",
+            ItemName_VFX.FrenchVanillaCakeSlice = "Rebanada de pastel de vainilla francesa",
+
+            ItemName_VFX.CarrotCakeMix = "Mezcla para pastel de zanahoria",
+            ItemName_VFX.CarrotCakeBatter = "Masa de pastel de zanahoria",
+            ItemName_VFX.CarrotCakePrep = "Pastel De Zanahoria",
+
+            ItemName_VFX.ChocolateCakeMix = "Mezcla para pastel de chocolate",
+            ItemName_VFX.ChocolateCakeBatter = "Masa de pastel de chocolate",
+            ItemName_VFX.ChocolateCakePrep = "Pastel de chocolate",
+
+            ItemName_VFX.RedVelvetCakeMix = "Mezcla para pastel de terciopelo rojo",
+            ItemName_VFX.RedVelvetCakeBatter = "Masa de pastel de terciopelo rojo",
+            ItemName_VFX.RedVelvetCakePrep = "Pastel de terciopelo rojo",
+
+            ItemName_VFX.StrawberryCakeMix = "Mezcla para pastel de fresa",
+            ItemName_VFX.StrawberryCakeBatter = "Masa para pastel de fresa",
+            ItemName_VFX.StrawberryCakePrep = "Pastel De Fresa",
+
+            ItemName_VFX.CaramelCakeMix = "Mezcla para pastel de caramelo",
+            ItemName_VFX.CaramelCakeBatter = "Masa de pastel de caramelo",
+            ItemName_VFX.CaramelCakePrep = "Pastel De Caramelo",
+            ItemName_VFX.CaramelCakeSlice = "Rebanada de pastel de caramelo",
+
+            ItemName_VFX.OrangePoppyseedCakeMix = "Mezcla para pastel de semillas de amapola y naranja",
+            ItemName_VFX.OrangePoppyseedCakeBatter = "Masa para pastel de naranja y semillas de amapola",
+            ItemName_VFX.OrangePoppyseedCakePrep = "Pastel de semillas de amapola y naranja",
+            ItemName_VFX.OrangePoppyseedCakeSlice = "Rebanada de pastel de naranja y semillas de amapola",
+
+            ItemName_VFX.ConfettiCakeMix = "Mezcla para pastel de confeti",
+            ItemName_VFX.ConfettiCakeBatter = "Masa de pastel de confeti",
+            ItemName_VFX.ConfettiCakePrep = "Pastel De Confeti",
+            ItemName_VFX.ConfettiCakeSlice = "Rebanada de pastel de confeti",
+
+            ItemName_VFX.SpiceCakeMix = "Mezcla para pastel de especias",
+            ItemName_VFX.SpiceCakeBatter = "Masa para pastel de especias",
+            ItemName_VFX.SpiceCakePrep = "Pastel De Especias",
+            ItemName_VFX.SpiceCakeSlice = "Rebanada de pastel de especias",
+
+            ItemName_VFX.YellowCakeMix = "Mezcla para pastel amarillo",
+            ItemName_VFX.YellowCakeBatter = "Masa para pastel amarillo",
+            ItemName_VFX.YellowCakePrep = "Pastel Amarillo",
+            ItemName_VFX.YellowCakeSlice = "Rebanada de pastel amarillo",
+        
+        /**** Muffin ****/
+            ItemName_VFX.AppleCinnamonMuffinMix = "Mezcla para muffins de manzana y canela",
+            ItemName_VFX.AppleCinnamonMuffinBatter = "Masa para muffins de manzana y canela",
+            ItemName_VFX.AppleCinnamonMuffinPrep = "Bandeja de muffins de manzana y canela",
+            ItemName_VFX.AppleCinnamonMuffin = "Muffin de manzana y canela",
+
+            ItemName_VFX.BlueberryMuffinMix = "Mezcla para muffins de arándanos",
+            ItemName_VFX.BlueberryMuffinBatter = "Masa para muffins de arándanos",
+            ItemName_VFX.BlueberryMuffinPrep = "Bandeja de Muffins de arándanos",
+            ItemName_VFX.BlueberryMuffin = "Muffin de arándanos",
+
+            ItemName_VFX.ChocolateChipMuffinMix = "Mezcla para muffins con chispas de chocolate",
+            ItemName_VFX.ChocolateChipMuffinBatter = "Masa para muffins con chispas de chocolate",
+            ItemName_VFX.ChocolateChipMuffinPrep = "Bandeja para muffins con chispas de chocolate",
+            ItemName_VFX.ChocolateChipMuffin = "Muffin de chispas de chocolate",
+
+            ItemName_VFX.DoubleChocolateMuffinMix = "Mezcla para muffins de doble chocolate",
+            ItemName_VFX.DoubleChocolateMuffinBatter = "Masa para muffins de doble chocolate",
+            ItemName_VFX.DoubleChocolateMuffinPrep = "Bandeja de Muffins de doble chocolate",
+            ItemName_VFX.DoubleChocolateMuffin = "Muffin de doble chocolate",
+
+            ItemName_VFX.CornMuffinMix = "Mezcla para panecillos de maíz",
+            ItemName_VFX.CornMuffinBatter = "Masa para muffins de maíz",
+            ItemName_VFX.CornMuffinPrep = "Bandeja para muffins de maíz",
+            ItemName_VFX.CornMuffin = "Muffin De Maíz",
+
+            ItemName_VFX.LemonPoppyMuffinMix = "Mezcla para muffins de limón y semillas de amapola",
+            ItemName_VFX.LemonPoppyMuffinBatter = "Masa para muffins de limón y semillas de amapola",
+            ItemName_VFX.LemonPoppyMuffinPrep = "Bandeja de Muffins de limón y semillas de amapola",
+            ItemName_VFX.LemonPoppyMuffin = "Muffin de limón y semillas de amapola",
+
+            ItemName_VFX.BranMuffinMix = "Mezcla para muffins de salvado",
+            ItemName_VFX.BranMuffinBatter = "Masa para muffins de salvado",
+            ItemName_VFX.BranMuffinPrep = "Bandeja de Muffins de salvado",
+            ItemName_VFX.BranMuffin = "Muffin de salvado",
+
+        /**** Brownies ****/
+            ItemName_VFX.BrownieMix = "Mezcla de brownies",
+            ItemName_VFX.BrownieBatter = "Masa de brownie",
+            ItemName_VFX.BrowniePrep = "Bandeja de Brownies",
+            ItemName_VFX.Brownie = "Brownie",
+
+        /**** Cookies ****/
+            ItemName_VFX.ChocolateChipCookieMix = "Mezcla de galletas con chispas de chocolate",
+            ItemName_VFX.ChocolateCookieMix = "Mezcla de galletas con chispas de chocolate",
+            ItemName_VFX.OatmealCookieMix = "Mezcla para galletas de avena",
+            ItemName_VFX.SugarCookieMix = "Mezcla de galletas de azúcar",
+            ItemName_VFX.ShortbreadCookieMix = "Mezcla para galletas de mantequilla",
+
+            ItemName_VFX.PeanutButterCookieMix = "Mezcla para galletas de mantequilla de maní",
+            ItemName_VFX.PeanutButterCookieDough = "Bandeja para hornear con galletas de mantequilla de maní",
+            ItemName_VFX.CookiesPeanutButter = "Galleta De Mantequilla De Maní",
+
+            ItemName_VFX.GingerbreadCookieMix = "Mezcla para galletas de jengibre",
+            ItemName_VFX.GingerbreadCookieDough = "Bandeja para hornear con galletas de jengibre",
+            ItemName_VFX.CookiesGingerbread = "Galleta de jengibre",
+
+            ItemName_VFX.SnickerdoodleCookieMix = "Mezcla para galletas Snickerdoodle",
+            ItemName_VFX.SnickerdoodleCookieDough = "Bandeja para galletas Snickerdoodle",
+            ItemName_VFX.CookiesSnickerdoodle = "Galleta Snickerdoodle",
+
+        /**** Desert Bread ****/
+            ItemName_VFX.BananaBreadMix = "Mezcla de pan de plátano",
+            ItemName_VFX.BananaBreadPrep = "Pan de plátano",
+            ItemName_VFX.BananaBreadSlice = "Rebanada de pan de plátano",
+
+            ItemName_VFX.PumpkinBreadMix = "Mezcla de pan de calabaza",
+            ItemName_VFX.PumpkinBreadPrep = "Pan De Calabaza",
+            ItemName_VFX.PumpkinBreadSlice = "Rebanada de pan de calabaza",
+
+            ItemName_VFX.ChocolateSwirlBreadMix = "Mezcla de pan con chispas de chocolate",
+            ItemName_VFX.ChocolateSwirlBreadPrep = "Pan con chispas de chocolate",
+            ItemName_VFX.ChocolateSwirlBreadSlice = "Rebanada de pan con chispas de chocolate",
+
+            ItemName_VFX.CinnamonSwirlBreadMix = "Mezcla para pan de canela",
+            ItemName_VFX.CinnamonSwirlBreadPrep = "Pan De Canela",
+            ItemName_VFX.CinnamonSwirlBreadSlice = "Rebanada de pan de canela",
+
+            ItemName_VFX.CranberryBreadMix = "Mezcla para pan de arándanos",
+            ItemName_VFX.CranberryBreadPrep = "Pan de arándanos",
+            ItemName_VFX.CranberryBreadSlice = "Rebanada de pan de arándanos",
+
+        /**** Biscuits ****/
+            ItemName_VFX.CheddarBiscuitMix = "Mezcla para pan con queso cheddar",
+            ItemName_VFX.CheddarBiscuitPrep = "Bandeja para hornear con bollos de queso cheddar",
+            ItemName_VFX.CheddarBiscuit = "Pan cheddar",
+
+            ItemName_VFX.HomestyleBiscuitMix = "Mezcla de pan casera",
+            ItemName_VFX.HomestyleBiscuitPrep = "Bandeja para hornear con panecillos caseros",
+            ItemName_VFX.HomestyleBiscuit = "Pan Casero",
+
+        /**** Pudding ****/
+            ItemName_VFX.VanillaPuddingMix = "Mezcla para pudín de vainilla",
+            ItemName_VFX.BowlVanillaPudding = "Tazón de pudín de vainilla",
+
+            ItemName_VFX.CustardPuddingMix = "Mezcla para pudín de natillas",
+            ItemName_VFX.BowlCustardPudding = "Tazón de pudín de natillas",
+
+            ItemName_VFX.BananaCreamPuddingMix = "Mezcla para pudín de crema de plátano",
+            ItemName_VFX.BowlBananaCreamPudding = "Tazón de pudín de crema de plátano",
+
+            ItemName_VFX.ButterscotchPuddingMix = "Mezcla para pudín de caramelo",
+            ItemName_VFX.BowlButterscotchPudding = "Tazón de pudín de caramelo",
+
+            ItemName_VFX.PistachioPuddingMix = "Mezcla para pudín de pistacho",
+            ItemName_VFX.BowlPistachioPudding = "Tazón de pudín de pistacho",
+
+            ItemName_VFX.ChocolateMousseMix = "Mezcla para mousse de chocolate",
+            ItemName_VFX.BowlChocolateMousse = "Tazón de mousse de chocolate",
+
+        /**** Frosting ****/
+            ItemName_VFX.CaramelFrostingTub = "Tarro de cobertura de caramelo",
+            ItemName_VFX.ChocolateFrostingTub = "Tarro de cobertura de chocolate",
+            ItemName_VFX.LemonFrostingTub = "Tarro de glaseado de limón",
+            ItemName_VFX.StrawberryFrostingTub = "Tarro de glaseado de fresa",
+            ItemName_VFX.CreamCheeseFrostingTub = "Tarro de glaseado de queso crema",
+            ItemName_VFX.ConfettiFrostingTub = "Tarro de confeti",
+
+            ItemName_VFX.CaramelFrosting = "Cobertura de caramelo",
+            ItemName_VFX.ChocolateFrosting = "Cobertura de chocolate",
+            ItemName_VFX.LemonFrosting = "Glaseado De Limón",
+            ItemName_VFX.StrawberryFrosting = "Glaseado de fresa",
+            ItemName_VFX.CreamCheeseFrosting = "Glaseado de queso crema",
+            ItemName_VFX.ConfettiFrosting = "Cubierta de confeti",
+
+    /**** Fridge and Freezer ****/
+
+        /**** Cheese ****/
+            ItemName_VFX.CottageCheese = "Requesón",
+            ItemName_VFX.CreamCheese = "Queso crema",
+            ItemName_VFX.MozzarellaCheese = "Queso mozzarella",
+            ItemName_VFX.SwissCheese = "Queso suizo",
+            ItemName_VFX.BrieCheese = "Queso Brie",
+            ItemName_VFX.CamembertCheese = "Queso camembert",
+            ItemName_VFX.GoatCheese = "Queso De Cabra",
+            ItemName_VFX.BlueCheese = "Queso Azul",
+            ItemName_VFX.ParmesanCheese = "Queso parmesano",
+
+        /**** Dairy ****/
+            ItemName_VFX.HeavyCream = "Crema Fresca",
+
+        /**** Yogurt ****/
+            ItemName_VFX.VanillaYogurtPot = "Yogur de vainilla en bote",
+            ItemName_VFX.StrawberryYogurt = "Yogur de fresa",
+            ItemName_VFX.StrawberryYogurtPot = "Tarrina de yogur de fresa",
+            ItemName_VFX.BlueberryYogurt = "Yogur de arándanos",
+            ItemName_VFX.BlueberryYogurtPot = "Tarrina de yogur de arándanos",
+            ItemName_VFX.PeachYogurt = "Yogur de melocotón",
+            ItemName_VFX.PeachYogurtPot = "Tarro de yogur de melocotón",
+            ItemName_VFX.RaspberryYogurt = "Yogur de frambuesa",
+            ItemName_VFX.RaspberryYogurtPot = "Yogur de frambuesa en bote",
+            ItemName_VFX.MixedBerryYogurt = "Yogur de frutos rojos",
+            ItemName_VFX.MixedBerryYogurtPot = "Yogur de frutos rojos en bote",
+            ItemName_VFX.BananaYogurt = "Yogur de plátano",
+            ItemName_VFX.BananaYogurtPot = "Yogur de plátano en bote",
+
+        /**** Fresh Pasta ****/
+            ItemName_VFX.GroundBeefRavioli = "Ravioles de carne molida",
+            ItemName_VFX.PotGroundBeefRavioli = "Ravioles de carne molida en sartén",
+            ItemName_VFX.PotForgedGroundBeefRavioli = "Ravioles de carne molida en sartén",
+            ItemName_VFX.SaucepanGroundBeefRavioli = "Cazuela de ravioles de carne molida",
+            ItemName_VFX.CopperSaucepanGroundBeefRavioli = "Cazuela de cobre con ravioles de carne molida",
+            ItemName_VFX.BowlGroundBeefRavioli = "Tazón de ravioles de carne molida",
+
+            ItemName_VFX.SpinachRicottaRavioli = "Ravioles de espinacas y ricotta",
+            ItemName_VFX.PotSpinachRicottaRavioli = "Ravioles de espinacas y ricotta",
+            ItemName_VFX.PotForgedSpinachRicottaRavioli = "Ravioles de espinacas y ricotta",
+            ItemName_VFX.SaucepanSpinachRicottaRavioli = "Cazuela de ravioles de espinacas y ricotta",
+            ItemName_VFX.CopperSaucepanSpinachRicottaRavioli = "Cazuela de cobre con ravioles de espinacas y ricotta",
+            ItemName_VFX.BowlSpinachRicottaRavioli = "Tazón de ravioles de espinacas y ricotta",
+
+            ItemName_VFX.ThreeCheeseRavioli = "Ravioles de tres quesos",
+            ItemName_VFX.PotThreeCheeseRavioli = "Ravioles de tres quesos",
+            ItemName_VFX.PotForgedThreeCheeseRavioli = "Ravioles de tres quesos",
+            ItemName_VFX.SaucepanThreeCheeseRavioli = "Cazuela de ravioles de tres quesos",
+            ItemName_VFX.CopperSaucepanThreeCheeseRavioli = "Cazuela de cobre con ravioles de tres quesos",
+            ItemName_VFX.BowlThreeCheeseRavioli = "Tazón de ravioles de tres quesos",
+
+            ItemName_VFX.PumpkinRavioli = "Raviolis De Calabaza",
+            ItemName_VFX.PotPumpkinRavioli = "Ravioles de calabaza",
+            ItemName_VFX.PotForgedPumpkinRavioli = "Ravioles de calabaza",
+            ItemName_VFX.SaucepanPumpkinRavioli = "Cazuela de ravioles de calabaza",
+            ItemName_VFX.CopperSaucepanPumpkinRavioli = "Cazuela de cobre con ravioles de calabaza",
+            ItemName_VFX.BowlPumpkinRavioli = "Tazón de ravioles de calabaza",
+
+            ItemName_VFX.LobsterRavioli = "Ravioles de langosta",
+            ItemName_VFX.PotLobsterRavioli = "Ravioles de langosta en sartén",
+            ItemName_VFX.PotForgedLobsterRavioli = "Ravioles de langosta en sartén",
+            ItemName_VFX.SaucepanLobsterRavioli = "Cazuela de ravioles de langosta",
+            ItemName_VFX.CopperSaucepanLobsterRavioli = "Cazuela de cobre con ravioles de langosta",
+            ItemName_VFX.BowlLobsterRavioli = "Tazón de ravioles de langosta",
+
+            ItemName_VFX.ChickenMushroomRavioli = "Ravioles de pollo y champiñones",
+            ItemName_VFX.PotChickenMushroomRavioli = "Ravioles de pollo y champiñones",
+            ItemName_VFX.PotForgedChickenMushroomRavioli = "Ravioles de pollo y champiñones",
+            ItemName_VFX.SaucepanChickenMushroomRavioli = "Cazuela de ravioles de pollo y champiñones",
+            ItemName_VFX.CopperSaucepanChickenMushroomRavioli = "Cazuela de cobre con ravioles de pollo y champiñones",
+            ItemName_VFX.BowlChickenMushroomRavioli = "Tazón de ravioles de pollo y champiñones",
+
+            ItemName_VFX.FourCheeseTortellini = "Tortellini de cuatro quesos",
+            ItemName_VFX.PotFourCheeseTortellini = "Tortellini de cuatro quesos",
+            ItemName_VFX.PotForgedFourCheeseTortellini = "Tortellini de cuatro quesos",
+            ItemName_VFX.SaucepanFourCheeseTortellini = "Cazuela de tortellini de cuatro quesos",
+            ItemName_VFX.CopperSaucepanFourCheeseTortellini = "Cazuela de cobre con tortellini de cuatro quesos",
+            ItemName_VFX.BowlFourCheeseTortellini = "Tazón de tortellini de cuatro quesos",
+
+            ItemName_VFX.PepperedPorkTortellini = "Tortellini de cerdo con pimienta",
+            ItemName_VFX.PotPepperedPorkTortellini = "Sartén de Tortellini de Cerdo con Pimientos",
+            ItemName_VFX.PotForgedPepperedPorkTortellini = "Sartén de Tortellini de Cerdo con Pimientos",
+            ItemName_VFX.SaucepanPepperedPorkTortellini = "Cazuela de tortellini de cerdo a la pimienta",
+            ItemName_VFX.CopperSaucepanPepperedPorkTortellini = "Cazuela de cobre con tortellini de cerdo a la pimienta",
+            ItemName_VFX.BowlPepperedPorkTortellini = "Tazón de tortellini de cerdo a la pimienta",
+
+            ItemName_VFX.SpinachRicottaTortellini = "Tortellini de espinacas y ricotta",
+            ItemName_VFX.PotSpinachRicottaTortellini = "Tortellini de espinacas y ricotta",
+            ItemName_VFX.PotForgedSpinachRicottaTortellini = "Tortellini de espinacas y ricotta",
+            ItemName_VFX.SaucepanSpinachRicottaTortellini = "Cazuela de tortellini de espinacas y ricotta",
+            ItemName_VFX.CopperSaucepanSpinachRicottaTortellini = "Cazuela de cobre con tortellini de espinacas y ricotta",
+            ItemName_VFX.BowlSpinachRicottaTortellini = "Tazón de tortellini de espinacas y ricotta",
+
+            ItemName_VFX.GroundBeefTortellini = "Tortellini de carne molida",
+            ItemName_VFX.PotGroundBeefTortellini = "Tortellini de carne molida en sartén",
+            ItemName_VFX.PotForgedGroundBeefTortellini = "Tortellini de carne molida en sartén",
+            ItemName_VFX.SaucepanGroundBeefTortellini = "Cazuela de tortellini de carne molida",
+            ItemName_VFX.CopperSaucepanGroundBeefTortellini = "Cazuela de cobre con tortellini de carne molida",
+            ItemName_VFX.BowlGroundBeefTortellini = "Tazón de tortellini de carne molida",
+
+        /**** Dip ****/
+            ItemName_VFX.Hummus = "Hummus",
+            ItemName_VFX.BuffaloDip = "Pasta de búfalo",
+            ItemName_VFX.FrenchOnionDip = "Pasta de cebolla francesa",
+            ItemName_VFX.SpinachArtichokeDip = "Pasta de espinacas y alcachofas",
+            ItemName_VFX.BaconCheddarDip = "Crema de tocino y queso cheddar",
+
+        /**** Meat and Seafood ****/
+            ItemName_VFX.GroundChicken = "Pollo Molido",
+            ItemName_VFX.ChickenThighs = "Muslos De Pollo",
+            ItemName_VFX.ChickenDrumsticks = "Muslos de alitas de pollo",
+
+            ItemName_VFX.BeefBrisket = "Pecho de res",
+            ItemName_VFX.BeefShortRibs = "Costillas De Res",
+            ItemName_VFX.BeefShank = "Músculo bovino",
+
+            ItemName_VFX.GroundPork = "Cerdo Molido",
+            ItemName_VFX.PorkBelly = "Panceta de cerdo",
+            ItemName_VFX.PorkRibs = "Costillas De Cerdo",
+
+            ItemName_VFX.LambLeg = "Pierna de cordero",
+            ItemName_VFX.GroundLamb = "Carne Molida De Cordero",
+
+            ItemName_VFX.VealCutlet = "Filete De Ternera",
+            ItemName_VFX.GroundTurkey = "Pavo molido",
+            ItemName_VFX.DuckBreast = "Pechuga de pato",
+
+            ItemName_VFX.SmokedSalmon = "Salmón ahumado",
+            ItemName_VFX.ImitationCrab = "Kani",
+
+            ItemName_VFX.BlackPudding = "Morcilla",
+
+        /**** Frozen Meals ****/
+            ItemName_VFX.SpaghettiMeatballsFrozenMeal = "Espaguetis con albóndigas",
+            ItemName_VFX.CottagePieFrozenMeal = "Pastel de pastor",
+            ItemName_VFX.ChickenPotPieFrozenMeal = "Pastel de pollo",
+            ItemName_VFX.MacNCheeseFrozenMeal = "Macarrones con queso",
+            ItemName_VFX.SalisburySteakFrozenMeal = "Filete Salisbury",
+            ItemName_VFX.RoastTurkeyFrozenMeal = "Pavo asado",
+            ItemName_VFX.MeatloafFrozenMeal = "Carne mechada",
+
+        /**** Frozen Pizza ****/
+            ItemName_VFX.FrozenCheesePizza = "Pizza de queso",
+            ItemName_VFX.CheesePizzaSlice = "Rebanada de pizza de queso",
+
+            ItemName_VFX.FrozenThreeMeatPizza = "Pizza de tres carnes",
+            ItemName_VFX.ThreeMeatPizzaSlice = "Rebanada de pizza de tres carnes",
+
+            ItemName_VFX.FrozenPepperoniPizza = "Pizza de peperoni",
+            ItemName_VFX.PepperoniPizzaSlice = "Rebanada de pizza de pepperoni",
+
+            ItemName_VFX.FrozenBuffaloChickenPizza = "Pizza de pollo búfalo",
+            ItemName_VFX.BuffaloChickenPizzaSlice = "Rebanada de pizza de pollo Buffalo",
+
+            ItemName_VFX.FrozenSupremePizza = "Pizza Suprema",
+            ItemName_VFX.SupremePizzaSlice = "Rebanada de pizza suprema",
+
+        /**** Frozen Vegetables ****/
+            ItemName_VFX.PackagedCarrot = "Zanahoria envasada",
+            ItemName_VFX.PackagedPeas = "Guisantes envasados",
+            ItemName_VFX.PackagedBeans = "Frijoles envasados",
+            ItemName_VFX.PackagedBroccoli = "Brócoli envasado",
+            ItemName_VFX.PackagedCauliflower = "Coliflor envasada",
+            ItemName_VFX.PackagedPumpkin = "Calabaza envasada",
+
+            ItemName_VFX.BagHashbrowns = "Bolsa de papas hashbrown",
+            ItemName_VFX.BagWedges = "Bolsa de patatas gajo",
+            ItemName_VFX.BagOnionRings = "Bolsa de aros de cebolla",
+
+            ItemName_VFX.Hashbrowns = "Papas hashbrown",
+            ItemName_VFX.Wedges = "Patatas gajo",
+
+        /**** Frozen Fruit ****/
+            ItemName_VFX.PineappleChunks = "Trozos de piña",
+            ItemName_VFX.Blueberries = "Arándanos",
+            ItemName_VFX.MangoChunks = "Trozos de mango",
+            ItemName_VFX.WholeStrawberries = "Fresas enteras",
+            ItemName_VFX.SlicedStrawberries = "Fresas en rodajas",
+            ItemName_VFX.SlicedBananas = "Plátanos en rodajas",
+            ItemName_VFX.Raspberries = "Frambuesas",
+            ItemName_VFX.DarkSweetCherries = "Cerezas dulces oscuras",
+            ItemName_VFX.RedTartCherries = "Cerezas rojas ácidas",
+            ItemName_VFX.Blackberries = "Moras",
+            ItemName_VFX.MixedFruit = "Frutas Mixtas",
+            ItemName_VFX.BerryMedley = "Frutos Rojos Mixtos",
+            ItemName_VFX.StrawberryBananaBlend = "Mezcla de fresa y plátano",
+
+        /**** Frozen Snacks ****/
+            ItemName_VFX.FrozenSausageRoll = "Rollo De Salchicha",
+            ItemName_VFX.FrozenMeatPie = "Pastel de carne",
+            ItemName_VFX.FrozenBeefBurrito = "Burrito de carne",
+            ItemName_VFX.FrozenChickenBurrito = "Burrito de pollo",
+            ItemName_VFX.FrozenBeanBurrito = "Burrito de frijoles",
+            ItemName_VFX.BagChickenTenders = "Bolsa de tiras de pollo",
+            ItemName_VFX.FrozenChickenTenders = "Tiras De Pollo",
+            ItemName_VFX.BagMozzarellaSticks = "Bolsa de palitos de mozzarella",
+            ItemName_VFX.FrozenMozzarellaSticks = "Palitos de mozzarella",
+            ItemName_VFX.FrozenEggRoll = "Rollito de primavera",
+
+            ItemName_VFX.PBJUncrustable_Box = "Caja de sándwich de mantequilla de maní y mermelada de uva",
+            ItemName_VFX.PBJUncrustable = "Sándwich de mantequilla de maní y mermelada de uva",
+            ItemName_VFX.PBFUncrustable_Box = "Caja de sándwich de mantequilla de maní y malvaviscos",
+            ItemName_VFX.PBFUncrustable = "Sándwich de mantequilla de maní y malvaviscos",
+            ItemName_VFX.CSUncrustable_Box = "Caja de sándwich de azúcar y canela",
+            ItemName_VFX.CSUncrustable = "Sándwich de canela y azúcar",
+            ItemName_VFX.CHUncrustable_Box = "Caja de sándwich de chocolate y avellanas",
+            ItemName_VFX.CHUncrustable = "Sándwich de chocolate y avellanas",
+
+            ItemName_VFX.CheesePizzaRoll_Box = "Bolsa de rollitos de pizza con queso",
+            ItemName_VFX.CheesePizzaRoll = "Rollo de pizza de queso",
+            ItemName_VFX.PepperoniPizzaRoll_Box = "Bolsa de rollitos de pizza de pepperoni",
+            ItemName_VFX.PepperoniPizzaRoll = "Rollo de pizza de peperoni",
+            ItemName_VFX.SupremePizzaRoll_Box = "Bolsa Rollo Pizza Suprema",
+            ItemName_VFX.SupremePizzaRoll = "Rollo de pizza suprema",
+            ItemName_VFX.MeatLoversPizzaRoll_Box = "Bolsa de pizza enrollable para amantes de la carne",
+            ItemName_VFX.MeatLoversPizzaRoll = "Rollo de pizza para amantes de la carne",
+
+            ItemName_VFX.SECBreakfastSandwich_Box = "Caja de sándwich de desayuno con salchicha, huevo y queso",
+            ItemName_VFX.SECBreakfastSandwich = "Sándwich de desayuno con salchicha, huevo y queso",
+            ItemName_VFX.BECBreakfastSandwich_Box = "Caja de sándwich de desayuno con tocino, huevo y queso",
+            ItemName_VFX.BECBreakfastSandwich = "Sándwich de desayuno con tocino, huevo y queso",
+            ItemName_VFX.TECBreakfastSandwich_Box = "Caja de sándwich de desayuno de pavo, huevo y queso",
+            ItemName_VFX.TECBreakfastSandwich = "Sándwich de desayuno de pavo, huevo y queso",
+            ItemName_VFX.ECBreakfastSandwich_Box = "Caja de sándwich de desayuno con huevo y queso",
+            ItemName_VFX.ECBreakfastSandwich = "Sándwich de desayuno de huevo y queso",
+
+        /**** Popsicle ****/
+            ItemName_VFX.CherryPopsicle = "Paleta de cereza",
+            ItemName_VFX.CherryPopsicleMelted = "Paleta de cereza (derretida)",
+            ItemName_VFX.GrapePopsicle = "Paleta de uva",
+            ItemName_VFX.GrapePopsicleMelted = "Paleta de uva (derretida)",
+            ItemName_VFX.OrangePopsicle = "Paleta de naranja",
+            ItemName_VFX.OrangePopsicleMelted = "Paleta de naranja (derretida)",
+            ItemName_VFX.LimePopsicle = "Paleta de lima",
+            ItemName_VFX.LimePopsicleMelted = "Paleta de lima (derretida)",
+            ItemName_VFX.StrawberryPopsicle = "Paleta de fresa",
+            ItemName_VFX.StrawberryPopsicleMelted = "Paleta de fresa (derretida)",
+            ItemName_VFX.TropicalPopsicle = "Paleta tropical",
+            ItemName_VFX.TropicalPopsicleMelted = "Paleta Tropical (Derretida)",
+            ItemName_VFX.BananaPopsicle = "Paleta de plátano",
+            ItemName_VFX.BananaPopsicleMelted = "Paleta de plátano (derretida)",
+
+        /**** Ice Cream ****/
+            ItemName_VFX.ChocolateIceCream = "Helado de chocolate",
+            ItemName_VFX.ChocolateIceCreamMelted = "Helado de chocolate (derretido)",
+            ItemName_VFX.ChocolateChipIceCream = "Helado de chispas de chocolate",
+            ItemName_VFX.ChocolateChipIceCreamMelted = "Helado de chispas de chocolate (derretido)",
+            ItemName_VFX.StrawberryIceCream = "Helado de fresa",
+            ItemName_VFX.StrawberryIceCreamMelted = "Helado de fresa (derretido)",
+            ItemName_VFX.NeapolitanIceCream = "Helado napolitano",
+            ItemName_VFX.NeapolitanIceCreamMelted = "Helado napolitano (derretido)",
+            ItemName_VFX.ButterPecanIceCream = "Helado de mantequilla de nuez",
+            ItemName_VFX.ButterPecanIceCreamMelted = "Helado de mantequilla y nueces pecanas (derretido)",
+            ItemName_VFX.MintChocolateChipIceCream = "Helado de menta con chispas de chocolate",
+            ItemName_VFX.MintChocolateChipIceCreamMelted = "Helado de menta con chispas de chocolate (derretido)",
+            ItemName_VFX.CookiesAndCreamIceCream = "Helado de galletas y crema",
+            ItemName_VFX.CookiesAndCreamIceCreamMelted = "Helado de galletas y crema (derretido)",
+            ItemName_VFX.RockyRoadIceCream = "Helado Rocky Road",
+            ItemName_VFX.RockyRoadIceCreamMelted = "Helado Rocky Road (derretido)",
+            ItemName_VFX.PistachioIceCream = "Helado de pistacho",
+            ItemName_VFX.PistachioIceCreamMelted = "Helado de pistacho (derretido)",
+
+        /**** Ice Cream Cones ****/
+            ItemName_VFX.ChocolateIceCreamCone = "Cono de helado de chocolate",
+            ItemName_VFX.ChocolateIceCreamConeMelted = "Cono de helado de chocolate (derretido)",
+            ItemName_VFX.ChocolateChipIceCreamCone = "Cono de helado con chispas de chocolate",
+            ItemName_VFX.ChocolateChipIceCreamConeMelted = "Cono de helado con chispas de chocolate (derretido)",
+            ItemName_VFX.StrawberryIceCreamCone = "Cono de helado de fresa",
+            ItemName_VFX.StrawberryIceCreamConeMelted = "Cono de helado de fresa (derretido)",
+            ItemName_VFX.NeapolitanIceCreamCone = "Cono de helado napolitano",
+            ItemName_VFX.NeapolitanIceCreamConeMelted = "Cono de helado napolitano (derretido)",
+			ItemName_VFX.ButterPecanIceCreamCone = "Cono de helado de mantequilla y nueces pecanas",
+			ItemName_VFX.ButterPecanIceCreamConeMelted = "Cono de helado de mantequilla y nueces pecanas (derretido)",
+            ItemName_VFX.MintChocolateChipIceCreamCone = "Cono de helado con chispas de chocolate y menta",
+            ItemName_VFX.MintChocolateChipIceCreamConeMelted = "Cono de helado de menta con chispas de chocolate (derretido)",
+            ItemName_VFX.CookiesAndCreamIceCreamCone = "Cono de helado de galletas y crema",
+            ItemName_VFX.CookiesAndCreamIceCreamConeMelted = "Cono de helado de galletas y crema (derretido)",
+            ItemName_VFX.RockyRoadIceCreamCone = "Cono de helado Rocky Road",
+            ItemName_VFX.RockyRoadIceCreamConeMelted = "Cono de helado Rocky Road (derretido)",
+            ItemName_VFX.PistachioIceCreamCone = "Cono de helado de pistacho",
+            ItemName_VFX.PistachioIceCreamConeMelted = "Cono de helado de pistacho (derretido)",
+
+    /**** Fresh Fruit and Vegetables ****/
+
+        /**** Fruit ****/
+
+            ItemName_VFX.Apricot = "Albaricoque",
+            ItemName_VFX.GreenKiwi = "Kiwi Verde",
+            ItemName_VFX.GoldKiwi = "Kiwi dorado",
+            ItemName_VFX.Papaya = "Papaya",
+            ItemName_VFX.Plum = "Ciruela",
+            ItemName_VFX.Pomegranate = "Granada",
+            ItemName_VFX.PunnetBlackberries = "Cesta de moras",
+            ItemName_VFX.PunnetBlueberries = "Cesta de arándanos",
+            ItemName_VFX.Cranberries = "Arándano",
+            ItemName_VFX.Figs = "Higo",
+            ItemName_VFX.Nectarines = "Nectarina",
+            ItemName_VFX.PunnetRaspberries = "Cesta de frambuesas",
+            ItemName_VFX.Tangerines = "Mandarina",
+
+        /**** Vegetables ****/
+
+            ItemName_VFX.BagGreenBeans = "Bolsa de vaina",
+            ItemName_VFX.Beetroot = "Remolacha",
+            ItemName_VFX.Asparagus = "Espárragos",
+            ItemName_VFX.RedCabbage = "Col lombarda",
+            ItemName_VFX.SnowPeas = "Bolsa de guisantes de nieve",
+            ItemName_VFX.BokChoy = "Acelgas chinas",
+            ItemName_VFX.SlicedPotato = "Patata en rodajas",
+            ItemName_VFX.MashedPotato = "Puré de papas",
+
+    /**** Beverages ****/
+
+        /**** Soda (Pop) ****/
+
+            ItemName_VFX.CreamSodaBottle = "Botella de refresco de crema",
+            ItemName_VFX.CreamSodaCan = "Lata de refresco de crema",
+
+            ItemName_VFX.LemonSodaBottle = "Botella de refresco de limón",
+            ItemName_VFX.LemonSodaCan = "Lata de refresco de limón",
+
+            ItemName_VFX.LemonLimeSodaBottle = "Botella de refresco de lima Tahití",
+            ItemName_VFX.LemonLimeSodaCan = "Lata de refresco de lima Tahití",
+
+            ItemName_VFX.OrangeSodaBottle = "Botella de refresco de naranja",
+            ItemName_VFX.OrangeSodaCan = "Lata de refresco de naranja",
+
+            ItemName_VFX.VanillaColaBottle = "Botella de cola de vainilla",
+            ItemName_VFX.VanillaColaCan = "Lata de cola de vainilla",
+
+            ItemName_VFX.CherryColaBottle = "Botella de cola de cereza",
+            ItemName_VFX.CherryColaCan = "Lata de cola de cereza",
+
+            ItemName_VFX.RootBeerBottle = "Botella de cerveza de raíz",
+            ItemName_VFX.RootBeerCan = "Lata de cerveza de raíz",
+
+        /**** Sports Drink ****/
+
+            ItemName_VFX.SportsBerryBlast = "Isotónico de frutos rojos",
+            ItemName_VFX.SportsFruitPunch = "Ponche de frutas isotónico",
+            ItemName_VFX.SportsGrape = "Uva isotónica",
+            ItemName_VFX.SportsLemonLime = "Isotónico de lima Tahití",
+            ItemName_VFX.SportsOrange = "Naranja Isotónica",
+            ItemName_VFX.SportsMelon = "Melón isotónico",
+            ItemName_VFX.SportsWhiteCherry = "Cereza blanca isotónica",
+
+        /**** Juice ****/
+            ItemName_VFX.GrapefruitJuice = "Jugo de toronja",
+            ItemName_VFX.PineappleJuice = "Jugo de piña",
+            ItemName_VFX.TropicalJuice = "Jugo tropical",
+            ItemName_VFX.PruneJuice = "Jugo de ciruela",
+
+        /**** Juice Box ****/
+            ItemName_VFX.JuiceBoxGrapefruit = "Caja de jugo de pomelo",
+            ItemName_VFX.JuiceBoxPineapple = "Caja de jugo de piña",
+            ItemName_VFX.JuiceBoxTropical = "Caja de jugo tropical",
+            ItemName_VFX.JuiceBoxCranberry = "Caja de jugo de arándano",
+
+        /**** Iced Tea ****/
+            ItemName_VFX.IcedTeaSweet = "Té helado dulce",
+            ItemName_VFX.IcedTeaLemon = "Té helado de limón",
+            ItemName_VFX.IcedTeaGreen = "Té verde helado",
+            ItemName_VFX.IcedTeaPeach = "Té helado de melocotón",
+            ItemName_VFX.IcedTeaRaspberry = "Té helado de frambuesa",
+
+        /**** Drink Mixes ****/
+            ItemName_VFX.DrinkMixLemonade = "Mezcla de bebida de limonada",
+            ItemName_VFX.DrinkMixPinkLemonade = "Mezcla de bebida de limonada rosa",
+            ItemName_VFX.DrinkMixCherry = "Mezcla de bebida de cereza",
+            ItemName_VFX.DrinkMixFruitPunch = "Mezcla de bebida de ponche de frutas",
+            ItemName_VFX.DrinkMixGrape = "Mezcla de bebida de uva",
+            ItemName_VFX.DrinkMixSweetTea = "Mezcla de bebida de té dulce",
+
+            ItemName_VFX.LemonadePlasticPitcher = "Plastic Pitcher with Lemonade Drink Mix",
+            ItemName_VFX.CherryPlasticPitcher = "Plastic Pitcher with Cherry Drink Mix",
+            ItemName_VFX.FruitPunchPlasticPitcher = "Plastic Pitcher with Fruit Punch Drink Mix",
+            ItemName_VFX.GrapePlasticPitcher = "Plastic Pitcher with Grape Drink Mix",
+            ItemName_VFX.PinkLemonadePlasticPitcher = "Plastic Pitcher with Pink Lemonade Drink Mix",
+            ItemName_VFX.SweetTeaPlasticPitcher = "Plastic Pitcher with Sweet Tea Punch Drink Mix",
+
+        /**** Tea ****/
+            ItemName_VFX.GreenTeaBag = "Bolsa de té verde",
+            ItemName_VFX.BreakfastTeaBag = "Bolsita de té para desayuno inglés",
+            ItemName_VFX.EarlGrayTeaBag = "Bolsa de té Earl Grey",
+            ItemName_VFX.ChamomileTeaBag = "Bolsita de té de manzanilla",
+            ItemName_VFX.PeppermintTeaBag = "Bolsita de té de menta",
+            ItemName_VFX.GingerTeaBag = "Bolsa de té de jengibre",
+            ItemName_VFX.LemonTeaBag = "Bolsa de té de limón",
+
+            ItemName_VFX.GreenTeaBag_2 = "Bolsa de té verde",
+            ItemName_VFX.BreakfastTeaBag_2 = "Bolsita de té para desayuno inglés",
+            ItemName_VFX.EarlGrayTeaBag_2 = "Bolsa de té Earl Grey",
+            ItemName_VFX.ChamomileTeaBag_2 = "Bolsita de té de manzanilla",
+            ItemName_VFX.PeppermintTeaBag_2 = "Bolsita de té de menta",
+            ItemName_VFX.GingerTeaBag_2 = "Bolsa de té de jengibre",
+            ItemName_VFX.LemonTeaBag_2 = "Bolsa de té de limón",
+
+            ItemName_VFX.BlackTeaBox = "Caja de bolsitas de té negro",
+            ItemName_VFX.GreenTeaBox = "Caja de bolsitas de té verde",
+            ItemName_VFX.BreakfastTeaBox = "Caja de bolsitas de té English Breakfast",
+            ItemName_VFX.EarlGrayTeaBox = "Caja de bolsitas de té Earl Grey",
+            ItemName_VFX.ChamomileTeaBox = "Caja de bolsitas de té de manzanilla",
+            ItemName_VFX.PeppermintTeaBox = "Caja de bolsitas de té de menta",
+            ItemName_VFX.GingerTeaBox = "Caja de bolsitas de té de jengibre",
+            ItemName_VFX.LemonTeaBox = "Caja de bolsitas de té de limón",
+
+        /**** Coffee Creamer ****/
+            ItemName_VFX.CoffeeCreamerOriginal = "Botella de crema de café original",
+            ItemName_VFX.CoffeeCreamerFrenchVanilla = "Botella de crema para café con sabor a vainilla francesa",
+            ItemName_VFX.CoffeeCreamerHazelnut = "Botella de crema para café con avellanas",
+            ItemName_VFX.CoffeeCreamerIrishCream = "Botella de crema para café irlandés",
+            ItemName_VFX.CoffeeCreamerAlmond = "Botella de crema para café con almendras",
+
+            ItemName_VFX.CoffeeCreamerOriginal_2 = "Botella de crema de café original",
+            ItemName_VFX.CoffeeCreamerFrenchVanilla_2 = "Botella de crema para café con sabor a vainilla francesa",
+            ItemName_VFX.CoffeeCreamerHazelnut_2 = "Botella de crema para café con avellanas",
+            ItemName_VFX.CoffeeCreamerIrishCream_2 = "Botella de crema para café irlandés",
+            ItemName_VFX.CoffeeCreamerAlmond_2 = "Botella de crema para café con almendras",
+
+        /**** Shelf Stable Milk ****/
+            ItemName_VFX.ShelfStableMilk = "Botella de leche de larga duración",
+            ItemName_VFX.SoyMilk = "Botella de leche de soja",
+
+        /**** Flavored Milk ****/
+            ItemName_VFX.ChocolateMilk = "Caja de leche con chocolate",
+            ItemName_VFX.StrawberryMilk = "Caja de leche de fresa",
+            ItemName_VFX.BananaMilk = "Cartón de leche de plátano",
+
+        /**** Protein Powder ****/
+            ItemName_VFX.VanillaProteinPowder = "Polvo de proteína de vainilla",
+            ItemName_VFX.ChocolateProteinPowder = "Polvo de proteína de chocolate",
+            ItemName_VFX.StrawberryProteinPowder = "Polvo de proteína de fresa",
+            ItemName_VFX.BananaProteinPowder = "Polvo de proteína de plátano",
+
+            ItemName_VFX.VanillaProteinShaker = "Protein Shaker with Vanilla Protein",
+            ItemName_VFX.ChocolateProteinShaker = "Protein Shaker with Chocolate Protein",
+            ItemName_VFX.StrawberryProteinShaker = "Protein Shaker with Strawberry Protein",
+            ItemName_VFX.BananaProteinShaker = "Protein Shaker with Banana Protein",
+
+        /**** Wine ****/
+            ItemName_VFX.WineCabernetSauvignon = "Botella de Cabernet Sauvignon",
+            ItemName_VFX.WineMerlot = "Botella de merlot",
+            ItemName_VFX.WinePinotNoir = "Botella de Pinot Noir",
+            ItemName_VFX.WineSauvignonBlanc = "Botella de Sauvignon Blanc",
+            ItemName_VFX.WinePinotGris = "Botella de Pinot Gris",
+            ItemName_VFX.WineRiesling = "Botella de Riesling",
+
+            ItemName_VFX.WineBoxCabernetSauvignon = "Vino de caja Cabernet Sauvignon",
+            ItemName_VFX.WineBoxMerlot = "Vino Caja Merlot",
+            ItemName_VFX.WineBoxPinotNoir = "Caja de vino Pinot Noir",
+            ItemName_VFX.WineBoxSauvignonBlanc = "Vino en caja Sauvignon Blanc",
+            ItemName_VFX.WineBoxPinotGris = "Vino en caja Pinot Gris",
+            ItemName_VFX.WineBoxRiesling = "Vino de caja Riesling",
+
+        /**** Beer ****/
+            ItemName_VFX.BottleAmericanLager = "Botella de cerveza americana",
+            ItemName_VFX.BottlePilsner = "Botella de Pilsner",
+            ItemName_VFX.BottleViennaLager = "Botella de cerveza vienesa",
+            ItemName_VFX.BottlePaleAle = "Botella de cerveza pálida",
+            ItemName_VFX.BottleAmberAle = "Botella de cerveza ámbar",
+            ItemName_VFX.BottlePorter = "Botella de cerveza porter",
+            ItemName_VFX.BottleStout = "Botella de cerveza negra",
+            ItemName_VFX.BottleAmericanWheatBeer = "Botella de cerveza de trigo americana",
+
+            ItemName_VFX.PackAmericanLager = "Paquete de cerveza lager americana",
+            ItemName_VFX.PackPilsner = "Paquete de cerveza Pilsner",
+            ItemName_VFX.PackViennaLager = "Paquete de cerveza vienesa",
+            ItemName_VFX.PackPaleAle = "Paquete de cerveza pálida",
+            ItemName_VFX.PackAmberAle = "Paquete de cerveza ámbar",
+            ItemName_VFX.PackPorter = "Paquete de cerveza porter",
+            ItemName_VFX.PackStout = "Paquete de cerveza negra",
+            ItemName_VFX.PackAmericanWheatBeer = "Pack Cerveza Americana de Trigo",
+
+            ItemName_VFX.CanAmericanLager = "Lata de cerveza americana",
+            ItemName_VFX.CanPilsner = "Lata de Pilsner",
+            ItemName_VFX.CanViennaLager = "Lata de cerveza vienesa",
+            ItemName_VFX.CanPaleAle = "Lata de cerveza pálida",
+            ItemName_VFX.CanAmberAle = "Lata de cerveza ámbar",
+            ItemName_VFX.CanPorter = "Lata de Porter",
+            ItemName_VFX.CanStout = "Lata de cerveza negra",
+            ItemName_VFX.CanAmericanWheatBeer = "Lata de cerveza de trigo americana",
+
+            ItemName_VFX.PackCanAmberAle = "Paquete de latas de cerveza ámbar",
+            ItemName_VFX.PackCanAmericanLager = "Paquete de latas de cerveza americana",
+            ItemName_VFX.PackCanAmericanWheatBeer = "Paquete de latas de cerveza de trigo americana",
+            ItemName_VFX.PackCanPaleAle = "Paquete de latas de cerveza pálida",
+            ItemName_VFX.PackCanPilsner = "Paquete de latas de cerveza Pilsner",
+            ItemName_VFX.PackCanPorter = "Paquete de latas de cerveza Porter",
+            ItemName_VFX.PackCanStout = "Paquete de latas de cerveza negra",
+            ItemName_VFX.PackCanViennaLager = "Paquete de latas de cerveza vienesa",
+
+    /**** Items ****/
+        ItemName_VFX.SmallTinCanEmpty = "Lata vacía pequeña",
+        ItemName_VFX.PlasticPitcher = "Tarro de plástico vacío",
+        ItemName_VFX.ProteinShaker = "Coctelera vacía",
+        ItemName_VFX.MilkshakeGlass = "Vaso de batido vacío",
+
+    /**** Evolved ****/
+        ItemName_Base.VFXLasagnaEvolved = "Lasaña",
+        ItemName_Base.VFXPlateLasagna = "Plato de lasaña",
+
+        ItemName_Base.VFXBrownRiceSaucepanEvolved = "Arroz Integral",
+        ItemName_Base.VFXBrownRiceSaucepanCopperEvolved = "Arroz Integral",
+        ItemName_Base.VFXBrownRicePotEvolved = "Arroz Integral",
+        ItemName_Base.VFXBrownRicePotForgedEvolved = "Arroz Integral",
+
+        ItemName_Base.VFXJasmineRiceSaucepanEvolved = "Arroz Jazmín",
+        ItemName_Base.VFXJasmineRiceSaucepanCopperEvolved = "Arroz Jazmín",
+        ItemName_Base.VFXJasmineRicePotEvolved = "Arroz Jazmín",
+        ItemName_Base.VFXJasmineRicePotForgedEvolved = "Arroz Jazmín",
+
+        ItemName_Base.VFXBasmatiRiceSaucepanEvolved = "Arroz Basmati",
+        ItemName_Base.VFXBasmatiRiceSaucepanCopperEvolved = "Arroz Basmati",
+        ItemName_Base.VFXBasmatiRicePotEvolved = "Arroz Basmati",
+        ItemName_Base.VFXBasmatiRicePotForgedEvolved = "Arroz Basmati",
+
+        ItemName_Base.VFXArborioRiceSaucepanEvolved = "Arroz Arborio",
+        ItemName_Base.VFXArborioRiceSaucepanCopperEvolved = "Arroz Arborio",
+        ItemName_Base.VFXArborioRicePotEvolved = "Arroz Arborio",
+        ItemName_Base.VFXArborioRicePotForgedEvolved = "Arroz Arborio",
+
+        ItemName_Base.VFXMacaroniSaucepanEvolved = "Macarrones",
+        ItemName_Base.VFXMacaroniSaucepanCopperEvolved = "Macarrones",
+        ItemName_Base.VFXMacaroniPotEvolved = "Macarrones",
+        ItemName_Base.VFXMacaroniPotForgedEvolved = "Macarrones",
+
+        ItemName_Base.VFXFettuccineSaucepanEvolved = "Fetuccini",
+        ItemName_Base.VFXFettuccineSaucepanCopperEvolved = "Fetuccini",
+        ItemName_Base.VFXFettuccinePotEvolved = "Fetuccini",
+        ItemName_Base.VFXFettuccinePotForgedEvolved = "Fetuccini",
+
+        ItemName_Base.VFXPenneSaucepanEvolved = "Penne",
+        ItemName_Base.VFXPenneSaucepanCopperEvolved = "Penne",
+        ItemName_Base.VFXPennePotEvolved = "Penne",
+        ItemName_Base.VFXPennePotForgedEvolved = "Penne",
+
+        ItemName_Base.VFXGnocchiSaucepanEvolved = "Ñoqui",
+        ItemName_Base.VFXGnocchiSaucepanCopperEvolved = "Ñoqui",
+        ItemName_Base.VFXGnocchiPotEvolved = "Ñoqui",
+        ItemName_Base.VFXGnocchiPotForgedEvolved = "Ñoqui",
+
+        ItemName_Base.VFXChiliSaucepanEvolved = "Chile",
+        ItemName_Base.VFXChiliSaucepanCopperEvolved = "Chile",
+        ItemName_Base.VFXChiliPotEvolved = "Chile",
+        ItemName_Base.VFXChiliPotForgedEvolved = "Chile",
+
+        ItemName_Base.VFXCurrySaucepanEvolved = "Curry",
+        ItemName_Base.VFXCurrySaucepanCopperEvolved = "Curry",
+        ItemName_Base.VFXCurryPotEvolved = "Curry",
+        ItemName_Base.VFXCurryPotForgedEvolved = "Curry",
+
+        ItemName_Base.VFXOatyOsBowlEvolved = "Bol de Oaty O’s",
+        ItemName_Base.VFXHoneyOatyOsBowlEvolved = "Bol de Oaty O’s con Miel",
+        ItemName_Base.VFXCornFlakesBowlEvolved = "Bol de Corn Flakes",
+        ItemName_Base.VFXRiceKrispsBowlEvolved = "Bol de Rice Krisps",
+        ItemName_Base.VFXFrostyCrunchBowlEvolved = "Bol de Frosty Crunch",
+        ItemName_Base.VFXFruityLoopsBowlEvolved = "Bol de Fruity Loops",
+        ItemName_Base.VFXUnluckyCharmsBowlEvolved = "Bol de Unlucky Charms",
+        ItemName_Base.VFXAdmiralChompBowlEvolved = "Bol de Admiral Chomp",
+        ItemName_Base.VFXCocoaPuffsBowlEvolved = "Bol de Cocoa Puffs",
+        ItemName_Base.VFXWheatiesBowlEvolved = "Bol de Wheaties",
+
+        ItemName_Base.VFXBowlChickenRamenEvolved = "Tazón De Ramen De Pollo",
+        ItemName_Base.VFXBowlBeefRamenEvolved = "Tazón de ramen de carne",
+        ItemName_Base.VFXBowlShrimpRamenEvolved = "Tazón de ramen de camarones",
+        ItemName_Base.VFXBowlPorkRamenEvolved = "Tazón de ramen de cerdo",
+        ItemName_Base.VFXBowlHotAndSpicyRamenEvolved = "Tazón de ramen picante",
+        ItemName_Base.VFXBowlSoySauceRamenEvolved = "Tazón de ramen con salsa de soja",
+
+        ItemName_Base.VFXCasseroleEvolved = "Cazuela",
+        ItemName_Base.VFXPlateCasserole = "Cazuela",
+
+        ItemName_Base.VFXMeatloafPreparation = "Carne mechada",
+        ItemName_Base.VFXMeatloafEvolved = "Carne mechada",
+        ItemName_Base.VFXPlateMeatloaf = "Plato de pastel de carne",
+
+        ItemName_Base.VFXBakedPotatoPreparation = "Patata al horno",
+        ItemName_Base.VFXBakedPotatoEvolved = "Patata al horno",
+        ItemName_Base.VFXBakedPotato = "Patata al horno",
+
+        ItemName_Base.VFXScallopedPotatoBakePreparation = "Gratinado De Patatas",
+        ItemName_Base.VFXScallopedPotatoBakeEvolved = "Gratinado De Patatas",
+        ItemName_Base.VFXPlateScallopedPotatoBake = "Plato de gratinado de patatas",
+
+        ItemName_Base.VFXQuichePreparation = "Quiche",
+        ItemName_Base.VFXQuicheEvolved = "Quiche",
+        ItemName_Base.VFXPlateQuiche = "Plato Quiche",
+
+        ItemName_Base.VFXNachosPreparation = "Nachos",
+        ItemName_Base.VFXNachosEvolved = "Nachos",
+        ItemName_Base.VFXPlateNachos = "Plato de Nachos",
+
+        ItemName_Base.VFXQuesadillaEvolved = "Quesadilla",
+
+        ItemName_Base.VFXEnchiladaPreparation = "Enchilada",
+        ItemName_Base.VFXEnchiladaEvolved = "Enchilada",
+        ItemName_Base.VFXPlateEnchilada = "Plato de Enchilada",
+
+        ItemName_Base.VFXCheesecakePreparation = "Tarta de queso",
+        ItemName_Base.VFXVFXCheesecakeEvolved = "Tarta de queso",
+        ItemName_Base.VFXCheesecakeSlice = "Rebanada de tarta de queso",
+
+        ItemName_Base.VFXMilkshakePreparation = "Batido",
+        ItemName_Base.VFXVFXMilkshakeEvolved = "Batido",
+
+        ItemName_Base.VFXSushiPreparation = "Sushi",
+        ItemName_Base.VFXSushiEvolved = "Sushi",
+
+        ItemName_Base.VFXFriedRicePreparation = "Arroz Frito",
+        ItemName_Base.VFXFriedRicePreparationForged = "Arroz Frito",
+        ItemName_Base.VFXFriedRiceEvolved = "Arroz Frito",
+        ItemName_Base.VFXFriedRiceEvolvedForged = "Arroz Frito",
+        ItemName_Base.VFXBowlFriedRice = "Tazón de arroz frito",
+
+    /**** Modified Base Game Items ****/
+        ItemName_Base.Icing = "Glaseado de vainilla",
+
+        ItemName_Base.Pasta = "Espaguetis",
+        ItemName_Base.PastaPan = "Espaguetis",
+        ItemName_Base.PastaPanCopper = "Espaguetis",
+        ItemName_Base.PastaPot = "Espaguetis",
+        ItemName_Base.PastaPotForged = "Espaguetis",
+        ItemName_Base.WaterSaucepanPasta = "Sartén con espaguetis",
+        ItemName_Base.WaterSaucepanPastaCopper = "Olla de cobre con espaguetis",
+        ItemName_Base.WaterPotPasta = "Olla para espaguetis",
+        ItemName_Base.WaterPotForgedPasta = "Olla para espaguetis",
+
+        ItemName_Base.GranolaBar = "Barra de granola con mantequilla de maní",
+        ItemName_Base.BouillonCube = "Cubo de caldo de pollo",
+        ItemName_Base.Cereal = "Copos de maíz",
+        ItemName_Base.CerealBowl = "Tazón de copos de maíz",
+        ItemName_Base.Crackers = "Galletas de agua y sal",
+        ItemName_Base.Teabag2 = "Bolsa de té negro",
+
+        ItemName_Base.Wine = "Botella de Chardonnay",
+        ItemName_Base.Wine2 = "Botella de Chardonnay",
+        ItemName_Base.WineWhite_Boxed = "Vino Chardonnay en caja",
+        ItemName_Base.WineRed_Boxed = "Vino Chardonnay en caja",
+        ItemName_Base.WineBox = "Vino Chardonnay en caja",
+
+        ItemName_Base.BeerBottle = "Botella de cerveza ligera americana",
+        ItemName_Base.BeerCan = "Lata de cerveza ligera americana",
+        ItemName_Base.BeerPack = "Paquete de cerveza rubia americana",
+        ItemName_Base.BeerCanPack = "Paquete de cerveza rubia americana",
+
+        ItemName_Base.Cheese = "Queso Cheddar",
+        ItemName_Base.Yoghurt = "Yogur de vainilla",
+
+        ItemName_Base.TVDinner = "Lasaña",
+
+        ItemName_Base.PizzaWhole = "Pizza de queso",
+        ItemName_Base.Pizza = "Rebanada de pizza de queso",
+
+        ItemName_Base.Icecream = "Helado de vainilla",
+        ItemName_Base.IcecreamMelted = "Helado de vainilla (derretido)",
+        ItemName_Base.ConeIcecream = "Cono de helado de vainilla",
+        ItemName_Base.ConeIcecreamMelted = "Cono de helado de vainilla (derretido)",
+        ItemName_Base.Burrito = "Burrito de cerdo",
+        ItemName_Base.Popsicle = "Paleta de frambuesa",
+        ItemName_Base.Biscuit = "Pan de suero de leche",
+
+    /**** Cooking ****/
+        ItemName_VFX.TrayShepherdsPie = "Molde para pastel de pastor",
+        ItemName_VFX.PlateShepherdsPie = "Plato de pastel de pastor",
+        ItemName_VFX.TrayTunaCasserole = "Cazuela de atún para hornear",
+        ItemName_VFX.PlateTunaCasserole = "Cazuela de atún",
+        ItemName_VFX.TrayBakedZiti = "Bandeja para hornear ziti",
+        ItemName_VFX.PlateBakedZiti = "Plato de ziti al horno",
+        ItemName_VFX.TrayStuffedBellPepper = "Pimientos Rellenos Bandeja para Hornear",
+        ItemName_VFX.PlateStuffedBellPepper = "Plato de pimientos rellenos",
+        ItemName_VFX.StuffedBellPepper = "Pimientos Rellenos",
+        ItemName_VFX.PanChickenPotPie = "Molde para pastel de pollo",
+        ItemName_VFX.PlateChickenPotPie = "Plato de pastel de pollo",
+        ItemName_VFX.TrayMoussaka = "Molde para hornear musaca",
+        ItemName_VFX.PlateMoussaka = "Plato de musaca",
+        ItemName_VFX.TrayChickenDivan = "Asador de pollo Divan",
+        ItemName_VFX.PlateChickenDivan = "Plato de pollo diván",
+        ItemName_VFX.TraySalisburySteak = "Sartén para bistec Salisbury",
+        ItemName_VFX.PlateSalisburySteak = "Plato de bistec de Salisbury",
+        ItemName_VFX.PlateFishAndChips = "Plato de pescado y patatas fritas",
+        ItemName_VFX.PlateBangersAndMash = "Plato de salchichas con puré de patatas",
+        ItemName_VFX.PlateFullEnglishBreakfast = "Plato completo de desayuno inglés",
+        ItemName_VFX.PlateHalfEnglishBreakfast = "Medio plato de desayuno inglés",
+        ItemName_VFX.ScotchEgg = "Huevo escocés",
+        ItemName_VFX.TraySausageAppleFry = "Salchicha de manzana frita en sartén",
+        ItemName_VFX.PlateSausageAppleFry = "Plato de salchichas con manzana frita",
+        ItemName_VFX.PlateBeansOnToast = "Plato de frijoles sobre pan tostado",
+        ItemName_VFX.PotButterChicken = "Olla De Pollo Con Mantequilla",
+        ItemName_VFX.BowlButterChicken = "Tazón de pollo con mantequilla",
+        ItemName_VFX.PotThaiGreenCurry = "Olla de curry verde tailandés",
+        ItemName_VFX.BowlThaiGreenCurry = "Tazón de curry verde tailandés",
+        ItemName_VFX.PotMassamanCurry = "Olla de curry Massaman",
+        ItemName_VFX.BowlMassamanCurry = "Tazón de curry Massaman",
+        ItemName_VFX.PotChanaMasala = "Olla de Chana Masala",
+        ItemName_VFX.BowlChanaMasala = "Tazón de Chana Masala",
+        ItemName_VFX.PotSweetPotatoChickpeaCurry = "Curry de boniato y garbanzos",
+        ItemName_VFX.BowlSweetPotatoChickpeaCurry = "Tazón de curry de boniato y garbanzos",
+        ItemName_VFX.PotTofuCurry = "Olla de curry de tofu",
+        ItemName_VFX.BowlTofuCurry = "Tazón de curry de tofu",
+
+    /**** Literature ****/
+        ItemName_VFX.NonnasKitchenChronicles = "Crónicas de la cocina de la abuela",
+        ItemName_VFX.WanderingMerchantsGuide = "Guía de cocina del comerciante errante",
+        ItemName_VFX.CurryMastersManual = "Manual del maestro del curry",
+        ItemName_VFX.JollyPubsRecipes = "Recetas de Pub Alegre",
+        ItemName_VFX.GentlemansDinnerTable = "La mesa del comedor de un caballero",
+        ItemName_VFX.FestiveFingerFood = "Comida de fiesta para comer con las manos",
+        ItemName_VFX.EarlyBirdsKitchen = "La cocina de los madrugadores",
+        ItemName_VFX.DessertArtisansGuide = "La guía del artesano de postres",
+        ItemName_VFX.SimmeringPotChronicles = "Las crónicas de la olla hirviente",
+        ItemName_VFX.WokWisdomCollection = "La colección Wok Wisdom",
+        ItemName_VFX.GardenToTableTreasures = "Tesoros del huerto a la mesa",
+        ItemName_VFX.CrispyKitchenChronicles = "Crónicas de cocina crujiente",
+        ItemName_VFX.BakersDailyLoaf = "El pan diario del panadero",
+        ItemName_VFX.SummerHarvestMedley = "Mezcla de cosecha de verano",
+        ItemName_VFX.DeliCounterCollection = "La colección del mostrador de delicatessen",
+        ItemName_VFX.SideDishCompanions = "Guarniciones",
+        ItemName_VFX.DawnAroundTheWorldCookbook = "Libro de cocina Amanecer alrededor del mundo",
+        ItemName_VFX.SmallBitesBigFlavors = "Pequeños bocados, grandes sabores",
+        ItemName_VFX.ComfortFoodClassics = "Clásicos de la comida reconfortante",
+        ItemName_VFX.PastryChefsSecrets = "Los secretos del pastelero",
+
+/* --------------------------------------------------------------------------- */
+/* ██████ ██████ ██     ██           ██  ██ ██████ ██████ ██████ ██████ ██████ */
+/* ██     ██  ██ ██     ██           ██  ██ ██  ██ ██  ██ ██  ██   ██   ██     */
+/* ██████ ██████ ██     ██           ██  ██ ██████ ██  ██ ██████   ██   ██████ */
+/* ██     ██  ██ ██     ██           ██  ██ ██     ██  ██ ██  ██   ██   ██     */
+/* ██     ██  ██ ██████ ██████       ██████ ██     ██████ ██  ██   ██   ██████ */
+/* --------------------------------------------------------------------------- */
+
+/* <<<<<  Fall Update - October 2025  >>>>> */
+
+    /**** Canned ****/
+
+        /**** Canned Vegetables ****/
+            ItemName_VFX.CannedPumpkinPuree = "Canned Pumpkin Puree",
+            ItemName_VFX.CannedPumpkinPureeOpen = "Opened Canned Pumpkin Puree",
+            ItemName_VFX.CannedPumpkinPuree_Box = "Box of Canned Pumpkin Puree",
+            
+            ItemName_VFX.CannedCreamCorn = "Canned Cream Corn",
+            ItemName_VFX.CannedCreamCornOpen = "Opened Canned Cream Corn",
+            ItemName_VFX.CannedCreamCorn_Box = "Box of Canned Cream Corn",
+
+        /**** Canned Pie Fillings ****/
+            ItemName_VFX.CannedApplePieFilling = "Canned Apple Pie Filling",
+            ItemName_VFX.CannedApplePieFillingOpen = "Opened Canned Apple Pie Filling",
+            ItemName_VFX.CannedApplePieFilling_Box = "Box of Canned Apple Pie Filling",
+
+            ItemName_VFX.CannedCherryPieFilling = "Canned Cherry Pie Filling",
+            ItemName_VFX.CannedCherryPieFillingOpen = "Opened Canned Cherry Pie Filling",
+            ItemName_VFX.CannedCherryPieFilling_Box = "Box of Canned Cherry Pie Filling",
+
+            ItemName_VFX.CannedBlueberryPieFilling = "Canned Blueberry Pie Filling",
+            ItemName_VFX.CannedBlueberryPieFillingOpen = "Opened Canned Blueberry Pie Filling",
+            ItemName_VFX.CannedBlueberryPieFilling_Box = "Box of Canned Blueberry Pie Filling",
+
+            ItemName_VFX.CannedStrawberryPieFilling = "Canned Strawberry Pie Filling",
+            ItemName_VFX.CannedStrawberryPieFillingOpen = "Opened Canned Strawberry Pie Filling",
+            ItemName_VFX.CannedStrawberryPieFilling_Box = "Box of Canned Strawberry Pie Filling",
+
+            ItemName_VFX.CannedPeachPieFilling = "Canned Peach Pie Filling",
+            ItemName_VFX.CannedPeachPieFillingOpen = "Opened Canned Peach Pie Filling",
+            ItemName_VFX.CannedPeachPieFilling_Box = "Box of Canned Peach Pie Filling",
+
+            ItemName_VFX.CannedMixedBerryPieFilling = "Canned Mixed Berry Pie Filling",
+            ItemName_VFX.CannedMixedBerryPieFillingOpen = "Opened Canned Mixed Berry Pie Filling",
+            ItemName_VFX.CannedMixedBerryPieFilling_Box = "Box of Canned Mixed Berry Pie Filling",
+
+            ItemName_VFX.CannedLemonCreamPieFilling = "Canned Lemon Cream Pie Filling",
+            ItemName_VFX.CannedLemonCreamPieFillingOpen = "Opened Canned Lemon Cream Pie Filling",
+            ItemName_VFX.CannedLemonCreamPieFilling_Box = "Box of Canned Lemon Cream Pie Filling",
+
+            ItemName_VFX.CannedBlackberryPieFilling = "Canned Blackberry Pie Filling",
+            ItemName_VFX.CannedBlackberryPieFillingOpen = "Opened Canned Blackberry Pie Filling",
+            ItemName_VFX.CannedBlackberryPieFilling_Box = "Box of Canned Blackberry Pie Filling",
+
+            ItemName_VFX.CannedRaspberryPieFilling = "Canned Raspberry Pie Filling",
+            ItemName_VFX.CannedRaspberryPieFillingOpen = "Opened Canned Raspberry Pie Filling",
+            ItemName_VFX.CannedRaspberryPieFilling_Box = "Box of Canned Raspberry Pie Filling",
+
+    /**** Meat ****/
+
+        /**** Sausages ****/
+            ItemName_VFX.PorkSausage = "Pork Sausage",
+            ItemName_VFX.BeefSausage = "Beef Sausage",
+            ItemName_VFX.BeefPorkSausage = "Beef and Pork Sausage",
+            ItemName_VFX.ChickenSausage = "Chicken Sausage",
+            ItemName_VFX.SmokedSausage = "Smoked Sausage",
+            ItemName_VFX.SpicySausage = "Spicy Sausage",
+            ItemName_VFX.Chorizo = "Chorizo",
+            ItemName_VFX.CheeseSausage = "Cheese Sausage",
+
+            ItemName_VFX.PorkSausagePack = "4-Pack Pork Sausages",
+            ItemName_VFX.BeefSausagePack = "4-Pack Beef Sausages",
+            ItemName_VFX.BeefPorkSausagePack = "4-Pack Beef and Pork Sausages",
+            ItemName_VFX.ChickenSausagePack = "4-Pack Chicken Sausages",
+            ItemName_VFX.SmokedSausagePack = "4-Pack Smoked Sausages",
+            ItemName_VFX.SpicySausagePack = "4-Pack Spicy Sausages",
+            ItemName_VFX.ChorizoSausagePack = "4-Pack Chorizo",
+            ItemName_VFX.CheeseSausagePack = "4-Pack Cheese Sausages",
+
+        /**** Meatballs ****/
+            ItemName_VFX.BeefMeatball = "Beef Meatball",
+            ItemName_VFX.PorkMeatball = "Pork Meatball",
+            ItemName_VFX.VealMeatball = "Veal Meatball",
+            ItemName_VFX.TurkeyMeatball = "Turkey Meatball",
+            ItemName_VFX.ChickenMeatball = "Chicken Meatball",
+
+            ItemName_VFX.BeefMeatballsBag = "Bag of Beef Meatballs",
+            ItemName_VFX.PorkMeatballsBag = "Bag of Pork Meatballs",
+            ItemName_VFX.VealMeatballsBag = "Bag of Veal Meatballs",
+            ItemName_VFX.TurkeyMeatballsBag = "Bag of Turkey Meatballs",
+            ItemName_VFX.ChickenMeatballsBag = "Bag of Chicken Meatballs",
+
+    /**** Freezer ****/
+
+        /**** Frozen Pre-Made Pies ****/
+            ItemName_VFX.WholeFrozenPieApple = "Apple Pie",
+            ItemName_VFX.WholeFrozenPieCherry = "Cherry Pie",
+            ItemName_VFX.WholeFrozenPieBlueberry = "Blueberry Pie",
+            ItemName_VFX.WholeFrozenPieStrawberry = "Strawberry Pie",
+            ItemName_VFX.WholeFrozenPiePeach = "Peach Pie",
+            ItemName_VFX.WholeFrozenPieMixedBerry = "Mixed Berry Pie",
+            ItemName_VFX.WholeFrozenPieLemonCream = "Lemon Cream Pie",
+            ItemName_VFX.WholeFrozenPieBlackberry = "Blackberry Pie",
+            ItemName_VFX.WholeFrozenPieRaspberry = "Raspberry Pie",
+
+    /**** Cooking ****/
+
+        /**** Whole Pies ****/
+            ItemName_VFX.WholePieApple = "Apple Pie",
+            ItemName_VFX.WholePieCherry = "Cherry Pie",
+            ItemName_VFX.WholePieBlueberry = "Blueberry Pie",
+            ItemName_VFX.WholePieStrawberry = "Strawberry Pie",
+            ItemName_VFX.WholePiePeach = "Peach Pie",
+            ItemName_VFX.WholePieMixedBerry = "Mixed Berry Pie",
+            ItemName_VFX.WholePieLemonCream = "Lemon Cream Pie",
+            ItemName_VFX.WholePieBlackberry = "Blackberry Pie",
+            ItemName_VFX.WholePieRaspberry = "Raspberry Pie",
+            ItemName_VFX.WholePiePumpkin = "Pumpkin Pie",
+            ItemName_VFX.WholePieSweetPotato = "Sweet Potato Pie",
+            ItemName_VFX.WholePiePecan = "Pecan Pie",
+
+        /**** Pie Slices ****/
+            ItemName_VFX.SlicePieApple = "Slice of Apple Pie",
+            ItemName_VFX.SlicePieCherry = "Slice of Cherry Pie",
+            ItemName_VFX.SlicePieBlueberry = "Slice of Blueberry Pie",
+            ItemName_VFX.SlicePieStrawberry = "Slice of Strawberry Pie",
+            ItemName_VFX.SlicePiePeach = "Slice of Peach Pie",
+            ItemName_VFX.SlicePieMixedBerry = "Slice of Mixed Berry Pie",
+            ItemName_VFX.SlicePieLemonCream = "Slice of Lemon Cream Pie",
+            ItemName_VFX.SlicePieBlackberry = "Slice of Blackberry Pie",
+            ItemName_VFX.SlicePieRaspberry = "Slice of Raspberry Pie",
+            ItemName_VFX.SlicePiePumpkin = "Slice of Pumpkin Pie",
+            ItemName_VFX.SlicePieSweetPotato = "Slice of Sweet Potato Pie",
+            ItemName_VFX.SlicePiePecan = "Slice of Pecan Pie",
+
+    /**** Candy ****/
+
+        /**** Gum ****/
+            ItemName_VFX.GumPeppermint = "Peppermint Gum",
+            ItemName_VFX.GumSpearmint = "Spearmint Gum",
+            ItemName_VFX.GumPinkBubblegum = "Pink Bubblegum",
+            ItemName_VFX.GumGreenApple = "Green Apple Gum",
+            ItemName_VFX.GumWatermelon = "Watermelon Gum",
+            ItemName_VFX.GumTuttiFruity = "Tutti Fruity Gum",
+            ItemName_VFX.GumCinnamon = "Cinnamon Gum",
+
+        /**** Bubblegum Tape ****/
+            ItemName_VFX.BubblegumTapePink = "Pink Bubblegum Tape",
+            ItemName_VFX.BubblegumTapeGrape = "Grape Bubblegum Tape",
+            ItemName_VFX.BubblegumTapeStrawberry = "Strawberry Bubblegum Tape",
+            ItemName_VFX.BubblegumTapeSourBlueRaspberry = "Sour Blue Raspberry Bubblegum Tape",
+            ItemName_VFX.BubblegumTapeSourApple = "Sour Apple Bubblegum Tape",
+            ItemName_VFX.BubblegumTapeTangyTropical = "Tangy Tropical Bubblegum Tape",
+
+        /**** Gum Ball ****/
+            ItemName_VFX.GumBallStrawberry = "Strawberry Gum Ball",
+            ItemName_VFX.GumBallPineapple = "Pineapple Gum Ball",
+            ItemName_VFX.GumBallBlueberry = "Blueberry Gum Ball",
+            ItemName_VFX.GumBallLemonLime = "Lemon Lime Gum Ball",
+            ItemName_VFX.GumBallOrange = "Orange Gum Ball",
+            ItemName_VFX.GumBallCherry = "Cherry Gum Ball",
+            ItemName_VFX.GumBallBanana = "Banana Gum Ball",
+            ItemName_VFX.GumBallGrape = "Grape Gum Ball",
+
+        /**** Chocolate Bar ****/
+            ItemName_VFX.ChocolateBarDark = "Dark Chocolate Bar",
+            ItemName_VFX.ChocolateBarWhite = "White Chocolate Bar",
+            ItemName_VFX.ChocolateBarAlmond = "Almond Chocolate Bar",
+            ItemName_VFX.ChocolateBarCookiesAndCream = "Cookies and Cream Chocolate Bar",
+            ItemName_VFX.ChocolateBarPorkie = "Porkie Chocolate Bar",
+        
+        /**** Other Chocolate ****/
+            ItemName_VFX.ChocolateKisses = "Bag of Chocolate Kisses",
+            ItemName_VFX.ChocolateAlmonds = "Bag of Chocolate Almonds",
+            ItemName_VFX.ChocolateSeniorMints = "Box of Senior Mints",
+            ItemName_VFX.ChocolateCaramelDuds = "Box of Caramel Duds",
+            ItemName_VFX.ChocolateMaltBalls = "Box of Malt Balls",
+            ItemName_VFX.ChocolateCandyPeanut = "Peanut Chocolate Candy",
+
+        /**** Lollipop ****/
+            ItemName_VFX.LollipopCherry = "Cherry Lollipop",
+            ItemName_VFX.LollipopGrape = "Grape Lollipop",
+            ItemName_VFX.LollipopStrawberry = "Strawberry Lollipop",
+            ItemName_VFX.LollipopOrange = "Orange Lollipop",
+            ItemName_VFX.LollipopLemon = "Lemon Lollipop",
+            ItemName_VFX.LollipopLime = "Lime Lollipop",
+            ItemName_VFX.LollipopGreenApple = "Green Apple Lollipop",
+            ItemName_VFX.LollipopBlueRaspberry = "Blue Raspberry Lollipop",
+            ItemName_VFX.LollipopWatermelon = "Watermelon Lollipop",
+            ItemName_VFX.LollipopWildBerry = "Wild Berry Lollipop",
+            ItemName_VFX.LollipopCola = "Cola Lollipop",
+            ItemName_VFX.LollipopCreamSoda = "Cream Soda Lollipop",
+            ItemName_VFX.LollipopButterscotch = "Butterscotch Lollipop",
+
+        /**** Giant Lollipop ****/
+            ItemName_VFX.GiantLollipopCherry = "Giant Cherry Lollipop",
+            ItemName_VFX.GiantLollipopGrape = "Giant Grape Lollipop",
+            ItemName_VFX.GiantLollipopStrawberry = "Giant Strawberry Lollipop",
+            ItemName_VFX.GiantLollipopOrange = "Giant Orange Lollipop",
+            ItemName_VFX.GiantLollipopLemon = "Giant Lemon Lollipop",
+            ItemName_VFX.GiantLollipopLime = "Giant Lime Lollipop",
+            ItemName_VFX.GiantLollipopGreenApple = "Giant Green Apple Lollipop",
+            ItemName_VFX.GiantLollipopBlueRaspberry = "Giant Blue Raspberry Lollipop",
+            ItemName_VFX.GiantLollipopWatermelon = "Giant Watermelon Lollipop",
+            ItemName_VFX.GiantLollipopWildBerry = "Giant Wild Berry Lollipop",
+            ItemName_VFX.GiantLollipopCola = "Giant Cola Lollipop",
+            ItemName_VFX.GiantLollipopCreamSoda = "Giant Cream Soda Lollipop",
+            ItemName_VFX.GiantLollipopButterscotch = "Giant Butterscotch Lollipop",
+
+        /**** Ring Pop ****/
+            ItemName_VFX.RingPopTropical = "Tropical Ring Pop",
+            ItemName_VFX.RingPopCitrus = "Citrus Ring Pop",
+            ItemName_VFX.RingPopGrape = "Grape Ring Pop",
+            ItemName_VFX.RingPopBerry = "Berry Ring Pop",
+            ItemName_VFX.RingPopBlueRaspberry = "Blue Raspberry Ring Pop",
+            ItemName_VFX.RingPopFruitPunch = "Fruit Punch Ring Pop",
+            ItemName_VFX.RingPopSourCherry = "Sour Cherry Ring Pop",
+            ItemName_VFX.RingPopWatermelon = "Watermelon Ring Pop",
+
+        /**** Push Pop ****/
+            ItemName_VFX.PushPopStrawberry = "Strawberry Push Pop",
+            ItemName_VFX.PushPopWatermelon = "Watermelon Push Pop",
+            ItemName_VFX.PushPopCola = "Cola Push Pop",
+            ItemName_VFX.PushPopFruitFrenzy = "Fruit Frenzy Push Pop",
+            ItemName_VFX.PushPopRainbowSherbet = "Rainbow Sherbet Push Pop",
+            ItemName_VFX.PushPopGrape = "Grape Push Pop",
+            ItemName_VFX.PushPopCherry = "Cherry Push Pop",
+        
+        /**** Fun Dip ****/
+            ItemName_VFX.FunDipCherry = "Cherry Fun Dip",
+            ItemName_VFX.FunDipApple = "Apple Fun Dip",
+            ItemName_VFX.FunDipGrape = "Grape Fun Dip",
+            ItemName_VFX.FunDipStrawberry = "Strawberry Fun Dip",
+            ItemName_VFX.FunDipWatermelon = "Watermelon Fun Dip",
+            ItemName_VFX.FunDipOrange = "Orange Fun Dip",
+
+        /**** Fruit Chew ****/
+            ItemName_VFX.FruitChewLemon = "Lemon Fruit Chew",
+            ItemName_VFX.FruitChewCherry = "Cherry Fruit Chew",
+            ItemName_VFX.FruitChewGrape = "Grape Fruit Chew",
+            ItemName_VFX.FruitChewOrange = "Orange Fruit Chew",
+            ItemName_VFX.FruitChewWatermelon = "Watermelon Fruit Chew",
+            ItemName_VFX.FruitChewStrawberry = "Strawberry Fruit Chew",
+        
+        /**** Gummy Candy ****/
+            ItemName_VFX.GummySourBears = "Sour Gummy Bears",
+            ItemName_VFX.GummySourWorms = "Sour Gummy Worms",
+            ItemName_VFX.GummyPeachRings = "Peach Rings",
+            ItemName_VFX.GummyCola = "Cola Gummies",
+
+        /**** Funny Taffy ****/
+            ItemName_VFX.FunnyTaffyBlueRaspberry = "Blue Raspberry Funny Taffy",
+            ItemName_VFX.FunnyTaffyOrange = "Orange Funny Taffy",
+            ItemName_VFX.FunnyTaffyBanana = "Banana Funny Taffy",
+            ItemName_VFX.FunnyTaffyCherry = "Cherry Funny Taffy",
+            ItemName_VFX.FunnyTaffyStrawberry = "Strawberry Funny Taffy",
+            ItemName_VFX.FunnyTaffyGrape = "Grape Funny Taffy",
+            ItemName_VFX.FunnyTaffyWatermelon = "Watermelon Funny Taffy",
+            ItemName_VFX.FunnyTaffyFruitPunch = "Fruit Punch Funny Taffy",
+        
+        /**** Pop Rocks ****/
+            ItemName_VFX.PopRocksStrawberry = "Strawberry Pop Rocks",
+            ItemName_VFX.PopRocksTropicalPunch = "Tropical Punch Pop Rocks",
+            ItemName_VFX.PopRocksCherry = "Cherry Pop Rocks",
+            ItemName_VFX.PopRocksCottonCandy = "Cotton Candy Pop Rocks",
+            ItemName_VFX.PopRocksBlueRaspberry = "Blue Raspberry Pop Rocks",
+            ItemName_VFX.PopRocksGreenApple = "Green Apple Pop Rocks",
+            ItemName_VFX.PopRocksGrape = "Grape Pop Rocks",
+            ItemName_VFX.PopRocksWatermelon = "Watermelon Pop Rocks",
+
+        /**** Bags of Candy ****/
+            ItemName_VFX.BagGummyBears = "Bag of Gummy Bears",
+            ItemName_VFX.BagSourGummyBears = "Bag of Sour Gummy Bears",
+            ItemName_VFX.BagGummyFish = "Bag of Gummy Fish",
+            ItemName_VFX.BagGummyWorms = "Bag of Gummy Worms",
+            ItemName_VFX.BagSourGummyWorms = "Bag of Sour Gummy Worms",
+            ItemName_VFX.BagPeachRings = "Bag of Peach Rings",
+            ItemName_VFX.BagColaGummies = "Bag of Cola Gummies",
+
+        /**** Other Candy ****/
+            ItemName_VFX.Geeks = "Geeks",
+            ItemName_VFX.CandyNecklace = "Candy Necklace",
+            ItemName_VFX.Rushers = "Rushers",
+            ItemName_VFX.BottleTops = "Bottle Tops",
+            ItemName_VFX.FairySticks = "Fairy Sticks",
+            ItemName_VFX.RedCandiedApple = "Red Candied Apple",
+            ItemName_VFX.ToffeeBites = "Toffee Bites",
+            ItemName_VFX.SaltwaterTaffy = "Saltwater Taffy",
+            ItemName_VFX.ChocolateCoins = "Chocolate Coins",
+            ItemName_VFX.ChocolatePretzels = "Chocolate Pretzels",
+            ItemName_VFX.SourStraws = "Sour Straws",
+            ItemName_VFX.SourStraps = "Sour Straps",
+            ItemName_VFX.JawBreaker = "Jaw Breaker",
+            ItemName_VFX.CandyCigarettes = "Candy Cigarettes",
+            ItemName_VFX.Fudge = "Fudge",
+            ItemName_VFX.Cheeps = "Cheeps",
+            ItemName_VFX.RainbowLollipop = "Rainbow Lollipop",
+
+    /**** Containers ****/
+        ItemName_VFX.SpiceRackSmallLight = "Small Spice Rack",
+        ItemName_VFX.SpiceRackSmallDark = "Small Spice Rack",
+        ItemName_VFX.SpiceRackLargeLight = "Large Spice Rack",
+        ItemName_VFX.SpiceRackLargeDark = "Large Spice Rack",
+
+    /**** Bowls ****/
+        ItemName_Base.VFXBowlChili = "Bowl of Chili",
+        ItemName_Base.VFXBowlCurry = "Bowl of Curry",
+
+    /**** Beverages ****/
+        ItemName_VFX.BottleAmericanLightLager = "Bottle of American Light Lager",
+        ItemName_VFX.PackAmericanLightLager = "Pack of American Light Lager",
+        ItemName_VFX.CanAmericanLightLager = "Can of American Light Lager",
+        ItemName_VFX.PackCanAmericanLightLager = "Pack of American Light Lager",
+
+        ItemName_VFX.WineChardonnay = "Bottle of Chardonnay",
+        ItemName_VFX.WineBoxChardonnay = "Boxed Chardonnay",
+
+
+}

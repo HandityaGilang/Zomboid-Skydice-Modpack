@@ -1,0 +1,4 @@
+Tooltip_FI = {
+    Tooltip_WireBundle = "Kaiutinjohtojen nippu. Käytetään kaiuttimien liittämiseen musiikkilaitteeseen (vinyylisoittimeen tai HiFi-stereoon). <LINJA> <LINJA> Sisältää 61 metriä johtoa. Jokainen liitäntä on 1,5 metriä matkaa per laatta.",
+    Tooltip_item_Walkman = "Kuuluisa pelaaja Zonysta.",
+}

@@ -1,0 +1,7 @@
+{
+	"UI_SmarterStorage_Options_Vanilla_Name" : "바닐라 툴팁 표시",
+	"UI_SmarterStorage_Options_Vanilla_Tooltip" : "'냉장고'와 같은 바닐라 이름을 툴팁으로 표시하려면 이 옵션을 선택하세요.",
+
+	"UI_SmarterStorage_Options_RenamedTooltips_Name" : "사용자 정의 이름 도구 설명 표시",
+	"UI_SmarterStorage_Options_RenamedTooltips_Tooltip" : "사용자 지정 컨테이너 이름을 도구 설명으로 사용하려면 선택하세요."
+}

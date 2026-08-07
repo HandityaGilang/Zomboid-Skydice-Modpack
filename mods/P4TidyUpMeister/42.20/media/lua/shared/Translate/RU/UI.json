@@ -1,0 +1,10 @@
+{
+	"UI_P4TidyUpMeister_Messages_ToDoReequip": "Предметы авто-экипируются после завершения действия.",
+	"UI_P4TidyUpMeister_Messages_ToDoNotReequip": "Предметы не авто-экипируются после завершения действия.",
+	"UI_P4TidyUpMeister_Options_UseContextMenu_Name": "Использовать контекстное меню",
+	"UI_P4TidyUpMeister_Options_UseContextMenu_Tooltip": "Разрешить контекстное меню для переключения между автоматическими режимами.",
+	"UI_P4TidyUpMeister_Options_ForceReequip_Name": "Принудительная экипировка",
+	"UI_P4TidyUpMeister_Options_ForceReequip_Tooltip": "Обычно предметы не будут автоматически экипироваться при прерывании действия, но включение этого параметра приведет к авто-экипировке предметов в руках.",
+	"UI_P4TidyUpMeister_Options_RestoreDismantleOutputs_Name": "Возвращать материалы от разборки на место",
+	"UI_P4TidyUpMeister_Options_RestoreDismantleOutputs_Tooltip": "Возвращать материалы, полученные при разборке предмета, в исходный контейнер этого предмета."
+}

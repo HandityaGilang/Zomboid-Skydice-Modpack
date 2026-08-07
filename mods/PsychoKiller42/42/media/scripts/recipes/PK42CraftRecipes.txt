@@ -1,0 +1,68 @@
+module Base {  
+    craftRecipe PKExtractBrainFromSkull
+    {
+        time 			= 30,
+        category 		= Chemistry,
+        NeedToBeLearn 	= false,
+        Tags 			= InHandCraft;,
+        timedAction 	= PKSawOffSkull,
+        SkillRequired 	= Insanity:4;Butchering:1,
+        xpAward 		= Insanity:4,
+        Tooltip         = Tooltip_PKExtractBrain,
+
+        inputs
+        {
+            item 1 tags[base:saw] mode:keep flags[MayDegradeLight],
+            item 1 [PK42.HumanSkullWithBrain] mode:destroy,
+        }
+        outputs
+        {
+            item 1 PK42.HumanBrain,
+            item 1 PK42.HumanSkull,
+            item 1 PK42.HumanSkullPart,
+        }
+    }
+
+    craftRecipe PKExtractInfectedBrainFromSkull
+    {
+        time 			= 30,
+        category 		= Chemistry,
+        NeedToBeLearn 	= false,
+        Tags 			= InHandCraft;,
+        timedAction 	= PKSawOffSkull,
+        SkillRequired 	= Insanity:4;Butchering:1,
+        xpAward 		= Insanity:2,
+        Tooltip         = Tooltip_PKExtractBrain,
+
+        inputs
+        {
+            item 1 tags[base:saw] mode:keep flags[MayDegradeLight],
+            item 1 [PK42.InfectedSkullWithBrain] mode:destroy,
+        }
+        outputs
+        {
+            item 1 PK42.ZombieBrain,
+            item 1 PK42.HumanSkull,
+            item 1 PK42.HumanSkullPart,
+        }
+    }
+
+    craftRecipe MakeSinewThreadFromTendons
+    {
+        timedAction     = SewingCloth,
+        time            = 200,
+        NeedToBeLearn   = true,
+        Tags            = AnySurfaceCraft,
+        category        = Tailoring,
+        xpAward         = Tailoring:4;Insanity:8,
+        inputs
+        {
+            item 1 [PK42.HumanTendons;PK42.InfectedTendons] mode:destroy flags[IsUncookedFoodItem],
+            item 1 tags[base:sharpknife] mode:keep flags[Prop1;IsNotDull;MayDegradeLight],
+        }
+        outputs
+        {
+            item 1 Base.Thread_Sinew flags[HasOneUse],
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "Sandbox_PIP": "Plysken Irrigation Pipes",
+    "Sandbox_PIP_EnableAutoWatering": "启用自动浇水",
+    "Sandbox_PIP_EnableAutoWatering_tooltip": "开启后，管道会自动从相连的雨水桶中取水浇灌附近的作物。",
+    "Sandbox_PIP_WateringInterval": "浇水间隔（分钟）",
+    "Sandbox_PIP_WateringInterval_tooltip": "每次浇水周期之间的游戏内分钟数。",
+    "Sandbox_PIP_WateringRadius": "浇水半径（格）",
+    "Sandbox_PIP_WateringRadius_tooltip": "0 = 仅管道所在的格子。数值越大，每根管道周围方形范围内浇灌的作物越多。",
+    "Sandbox_PIP_SmartPipes": "智能管道",
+    "Sandbox_PIP_SmartPipes_tooltip": "开启后，管道会将作物浇灌至其最佳水量。关闭时，每个周期仅添加固定的少量水。",
+    "Sandbox_PIP_SmartPipesFillMax": "智能管道最大注水量",
+    "Sandbox_PIP_SmartPipesFillMax_tooltip": "智能管道模式下，每个周期为作物添加的最大水量。",
+    "Sandbox_PIP_SharedWaterPool": "共享水池",
+    "Sandbox_PIP_SharedWaterPool_tooltip": "开启后，同一网络中相连的水桶会共享并均衡水量（满桶与空桶会自动平衡）。",
+    "Sandbox_PIP_DebugLogs": "调试日志",
+    "Sandbox_PIP_DebugLogs_tooltip": "将内部日志输出到控制台。仅用于排查问题。",
+    "Sandbox_PIP_EnableFertigation": "启用灌溉施肥",
+    "Sandbox_PIP_EnableFertigation_tooltip": "启用后，将肥料或堆肥倒入已连接的雨水桶，管网会自动给附近作物施肥（每株一次安全剂量，绝不过量）。默认开启。",
+    "Sandbox_PIP_FertigationSkill": "施肥质量（农业技能）",
+    "Sandbox_PIP_FertigationSkill_tooltip": "自动施肥时模拟的农业等级。越高 = 增产几率越大。不影响安全性。",
+    "Sandbox_PIP_ChargesPerBag": "每袋肥料/堆肥的剂量数",
+    "Sandbox_PIP_ChargesPerBag_tooltip": "倒入一袋可施肥多少株作物。与桶内水量无关。"
+}

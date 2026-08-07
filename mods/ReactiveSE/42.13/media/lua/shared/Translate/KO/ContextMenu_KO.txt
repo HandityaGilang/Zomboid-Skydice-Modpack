@@ -1,0 +1,4 @@
+ContextMenu_KO = {
+    ContextMenu_MarkIntel = "라디오 정보를 지도에 표시",
+    ContextMenu_MarkIntel_NeedPen = "펜, 마커 또는 연필 필요",
+}

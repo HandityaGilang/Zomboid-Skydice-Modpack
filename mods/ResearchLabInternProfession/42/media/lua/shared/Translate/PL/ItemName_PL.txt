@@ -1,0 +1,8 @@
+ItemName_PL = {
+	ItemName_ProfessionItems.DiaryPage1 = "Podarta strona z pamiętnika #1"
+	ItemName_ProfessionItems.DiaryPage2 = "Podarta strona z pamiętnika #2"
+	ItemName_ProfessionItems.DiaryPage3 = "Podarta strona z pamiętnika #3"
+	ItemName_ProfessionItems.DiaryPage4 = "Podarta strona z pamiętnika #4"
+	ItemName_ProfessionItems.DiaryPage5 = "Podarta strona z pamiętnika #5"
+	ItemName_ProfessionItems.DiaryPage6 = "Podarta strona z pamiętnika #6"
+}

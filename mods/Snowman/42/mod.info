@@ -1,0 +1,10 @@
+name=Snowman
+id=Snowman
+description=Make a Snowman.
+poster=poster.png
+icon=icon.png
+pack=snowman_tiles
+tiledef=snowman_def 8168
+modversion=1.1.0
+versionMin=42.13.0
+author=carlesturo

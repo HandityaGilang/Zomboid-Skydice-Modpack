@@ -1,0 +1,4 @@
+Sandbox_KO = {
+    Sandbox_ZombieVirusVaccineBETA_StartingKit = "실험실 인턴 직업 시작 키트",
+    Sandbox_ZombieVirusVaccineBETA_StartingKit_tooltip = "실험실 인턴 직업 시작 키트를 활성화/비활성화합니다. <LINE><LINE> 비활성화 시 실험실 인턴 직업은 연구 파일 없이 시작합니다.",
+}

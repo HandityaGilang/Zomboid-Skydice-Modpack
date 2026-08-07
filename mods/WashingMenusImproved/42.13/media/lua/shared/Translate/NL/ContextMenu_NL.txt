@@ -1,0 +1,6 @@
+ContextMenu_NL = {
+	ContextMenu_BagsEquipped = "Uitgeruste tassen",
+	ContextMenu_WMI_Bandages = "Verbanden",
+	Tooltip_WMI_TaintedAllowed = "Toegestaan door wereldinstellingen.",
+	Tooltip_WMI_TaintedBlocked = "Geblokkeerd door wereldinstellingen.",
+}

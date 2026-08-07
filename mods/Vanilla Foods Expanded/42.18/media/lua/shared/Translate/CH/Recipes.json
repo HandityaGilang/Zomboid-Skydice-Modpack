@@ -1,0 +1,430 @@
+{
+    "VFX_OpenInsectCan": "打開罐頭",
+    "VFX_OpenBoxOfSmallCannedFood": "打開小罐頭盒",
+    "VFX_PackBoxOfSmallCannedFood": "打包小罐头盒",
+
+    "VFX_OpenJar": "打開罐子",
+    "VFX_OpenJarofPickles": "打開醃菜罐子",
+
+    "VFX_TakeBouillonCubeFromBox": "從盒子中取出湯塊",
+
+    "VFX_OpenBoxSoupSachet": "打開盒裝湯料包",
+    "VFX_PrepareSoup_Pumpkin": "準備南瓜湯",
+    "VFX_PrepareSoup_PeaAndHam": "準備豌豆火腿湯",
+    "VFX_PrepareSoup_ChickenNoodle": "準備雞肉麵條湯",
+    "VFX_PrepareSoup_Tomato": "準備番茄湯",
+
+    "VFX_OpenBoxRamen": "打開盒裝拉麵",
+    "VFX_OpenPacketRamen": "打開包裝拉麵",
+    "VFX_PrepareRamen": "準備拉麵",
+
+    "VFX_PreparePacketPasta": "準備包裝意面",
+    "VFX_PreparePacketPastaCopper": "準備包裝意面 (銅平底鍋)",
+    "VFX_PreparePacketRice": "準備包裝米飯",
+    "VFX_PreparePacketRiceCopper": "準備包裝米飯 (銅平底鍋)",
+
+    "VFX_PrepareFreshPastaSaucepan": "準備煮一鍋意面",
+    "VFX_PrepareFreshPastaSaucepanCopper": "準備煮一鍋意面 (銅平底鍋)",
+    "VFX_PrepareFreshPastaPot": "準備煮一鍋意面",
+    "VFX_PrepareFreshPastaPotForged": "準備煮一鍋意面 (鍛造蒸煮鍋)",
+
+    "VFX_PreparePastaSaucepan": "準備一鍋意面",
+    "VFX_PreparePastaSaucepanCopper": "準備一鍋意面 (銅平底鍋)",
+    "VFX_PreparePastaPot": "準備一鍋意面 (蒸煮鍋)",
+    "VFX_PreparePastaPotForged": "準備一鍋意面 (鍛造蒸煮鍋)",
+
+    "VFX_PrepareRiceSaucepan": "準備一鍋米飯",
+    "VFX_PrepareRiceSaucepanCopper": "準備一鍋米飯 (銅平底鍋)",
+    "VFX_PrepareRicePot": "準備一鍋米飯 (蒸煮鍋)",
+    "VFX_PrepareRicePotForged": "準備一鍋米飯 (鍛造蒸煮鍋)",
+
+    "VFX_PrepareMarinara": "準備意式番茄醬",
+    "VFX_PrepareSpicyMarinara": "準備意式辣味番茄醬",
+    "VFX_PrepareMeatSauce": "準備肉醬",
+    "VFX_PrepareBasilPesto": "準備羅勒青醬",
+    "VFX_PrepareAlfredoSauce": "準備奶油奶酪醬",
+    "VFX_PrepareBechamelSauce": "準備法式白醬",
+
+    "VFX_OpenHomemadePastaSauce": "打開自製意面醬",
+
+    "VFX_MakeBowlOfCereal": "製作一碗麥片",
+    "VFX_MakeBowlOfGranola": "製作一碗燕麥片",
+
+    "VFX_OpenSnackCakeBox": "打開盒裝零食蛋糕",
+    "VFX_OpenToasterStrudelBox": "打開盒裝烤酥餅",
+    "VFX_OpenPackagedStrudel": "打開包裝烤酥餅",
+    "VFX_OpenPuddingBox": "打開盒裝布丁杯",
+    "VFX_OpenJelloBox": "打開盒裝果凍杯",
+    "VFX_OpenFruitCupBox": "打開盒裝水果杯",
+    "VFX_OpenGranolaBarBox": "打開盒裝燕麥棒",
+
+    "VFX_MakeCakeBatter": "製作蛋糕面糊",
+    "VFX_PutCakeInBakingPan": "將蛋糕放入烤盤",
+    "VFX_SliceCake": "切蛋糕",
+
+    "VFX_PrepareFrenchVanillaCake": "準備法式香草蛋糕",
+    "VFX_PrepareCarrotCake": "準備胡蘿蔔蛋糕",
+    "VFX_PrepareChocolateCake": "准备巧克力蛋糕",
+    "VFX_PrepareRedVelvetCake": "準備紅絲絨蛋糕",
+    "VFX_PrepareStrawberryCake": "準備草莓蛋糕",
+    "VFX_PrepareCaramelCake": "準備焦糖蛋糕",
+    "VFX_PrepareOrangePoppyseedCake": "準備橙子罌粟籽蛋糕",
+    "VFX_PrepareConfettiCake": "準備彩糖蛋糕",
+    "VFX_PrepareSpiceCake": "準備香料蛋糕",
+    "VFX_PrepareYellowCake": "準備黃蛋糕",
+
+    "VFX_MakeMuffinBatter": "製作馬芬面糊",
+    "VFX_PrepareMuffinTray": "準備馬芬烤盤",
+    "VFX_GetMuffinsFromTray": "取出 6 個馬芬蛋糕",
+
+    "VFX_PrepareAppleCinnamonMuffins": "準備蘋果肉桂馬芬",
+    "VFX_PrepareBlueberryMuffins": "準備藍莓馬芬",
+    "VFX_PrepareChocolateChipMuffins": "準備巧克力豆馬芬",
+    "VFX_PrepareDoubleChocolateMuffins": "準備雙倍巧克力馬芬",
+    "VFX_PrepareCornMuffins": "準備玉米馬芬",
+    "VFX_PrepareLemonPoppyMuffins": "準備檸檬罌粟籽馬芬",
+
+    "VFX_MakeBrownieBatter": "製作布朗尼面糊",
+    "VFX_PrepareBrownieTray": "準備布朗尼烤盤",
+    "VFX_GetBrowniesFromTray": "取出 6 個布朗尼",
+    "VFX_PrepareBrownies": "準備布朗尼",
+
+    "VFX_MakeCookieDough": "準備餅干麵團",
+    "VFX_Get6Cookies": "取出 6 塊餅乾",
+    "VFX_PreparePeanutButterCookieDough": "準備花生醬餅乾面團",
+    "VFX_PrepareGingerbreadCookieDough": "準備美式薑餅面團",
+    "VFX_PrepareSnickerdoodleCookieDough": "準備肉桂糖餅乾面團",
+
+    "VFX_PrepareDessertBread": "製作甜點面包",
+    "VFX_SliceDessertBread": "切甜點面包",
+    "VFX_PrepareBananaBread": "準備香蕉面包",
+    "VFX_PreparePumpkinBread": "準備南瓜面包",
+    "VFX_PrepareChocolateSwirlBread": "準備巧克力漩渦面包",
+    "VFX_PrepareCinnamonSwirlBread": "準備肉桂漩渦面包",
+    "VFX_PrepareCranberryBread": "準備蔓越莓面包",
+
+    "VFX_PrepareBiscuits": "準備比司吉麵團",
+    "VFX_Get6Biscuits": "取出 6 塊比司吉餅乾",
+    "VFX_PrepareCheddarBiscuits": "準備切達干酪司康",
+    "VFX_PrepareHomestyleBiscuits": "準備家常司康",
+
+    "VFX_PreparePuddingMix": "準備布丁調和物",
+
+    "VFX_PrepareCaramelFrosting": "準備焦糖糖霜",
+    "VFX_PrepareChocolateFrosting": "準備巧克力糖霜",
+    "VFX_PrepareLemonFrosting": "準備檸檬糖霜",
+    "VFX_PrepareStrawberryFrosting": "準備草莓糖霜",
+    "VFX_PrepareCreamCheeseFrosting": "準備奶油奶酪糖霜",
+    "VFX_PrepareConfettiFrosting": "準備彩糖糖霜",
+    "VFX_PrepareVanillaFrosting": "準備香草糖霜",
+
+    "VFX_MakeJello": "製作果凍",
+
+    "VFX_SlicePizza": "切披薩",
+    "VFX_OpenBag": "打開包裝袋",
+    "VFX_OpenUncrustablesBox": "打開盒裝免切邊三明治",
+    "VFX_OpenPizzaRollBox": "打開盒裝披薩捲",
+    "VFX_OpenBreakfastSandwichBox": "打開盒裝早餐三明治",
+    "VFX_ScoopIceCream": "舀取冰淇淋",
+
+    "VFX_SlicePotato": "切土豆",
+    "VFX_PrepareMashedPotato": "準備土豆泥",
+
+    "VFX_MakePancakes": "製作美式煎餅",
+    "VFX_MakeWaffles": "製作華夫餅",
+    "VFX_MakeGravy": "用湯塊製作肉汁醬",
+    "VFX_MakeGravyStock": "用高湯製作肉汁醬",
+    "VFX_MakeBagels": "製作貝果",
+    "VFX_MakePoppyBagels": "製作罌粟籽貝果",
+    "VFX_MakeSesameBagels": "製作芝麻貝果",
+    "VFX_MakeCornbread": "製作玉米麵包",
+    "VFX_MakeCroissants": "製作可頌麵包",
+    "VFX_MakeTortillas": "製作墨西哥餅皮",
+    "VFX_MakeDoughnuts": "Make Donuts",
+    "VFX_MakeChocolateDoughnuts": "Make Chocolate Donuts",
+    "VFX_MakeFrostedDoughnuts": "Make Frosted Donuts",
+    "VFX_MakeFriedOysters": "製作炸牡蠣",
+    "VFX_MakeFriedFish": "製作炸魚",
+    "VFX_MakeFriedTofu": "製作炸豆腐",
+    "VFX_MakeMeatDumplings": "製作肉餃子",
+    "VFX_MakeShrimpDumplings": "製作蝦餃",
+    "VFX_MakePotatoPancakes": "製作土豆煎餅",
+
+    "VFX_Make2Bowls": "分裝為 2 碗",
+    "VFX_Make4Bowls": "分裝為 4 碗",
+    "VFX_Make2Plates": "分裝為 2 盤",
+    "VFX_Make4Plates": "分裝為 4 盤",
+
+    "VFX_MakeDrinkMixPitcher": "調配一壺沖泡飲料",
+    "VFX_TakeTeaBagFromBox": "從茶盒中取出茶包",
+    "VFX_MakeProteinShake": "製作蛋白粉奶昔",
+    "VFX_OpenBottleOfWine": "打開一瓶葡萄酒",
+    "VFX_OpenBottleOfBeer": "打開一瓶啤酒",
+    "VFX_OpenPackOfBeer": "拆開一手啤酒",
+
+    "VFX_PrepareLasagna": "準備千層麵",
+    "VFX_PrepareMeatloaf": "準備肉餅",
+    "VFX_PrepareBakedPotato": "準備烤土豆",
+    "VFX_PrepareScallopedPotatoBake": "準備扇貝烤土豆",
+    "VFX_PrepareQuiche": "準備法式乳蛋餅",
+    "VFX_PrepareNachos": "準備玉米脆餅",
+    "VFX_PrepareEnchilada": "準備墨西哥辣醬玉米捲",
+    "VFX_PrepareCheesecake": "準備芝士蛋糕",
+    "VFX_PrepareMilkshake": "準備奶昔",
+    "VFX_PrepareSushi": "準備壽司",
+    "VFX_PrepareFriedRice": "準備炒飯",
+    "VFX_GetBakedPotato": "取出烤土豆",
+    "VFX_SliceCheesecake": "切芝士蛋糕",
+
+    "VFX_PrepareShephardsPie": "準備牧羊人派",
+    "VFX_PrepareTunaCasserole": "準備金槍魚砂鍋",
+    "VFX_PrepareBakedZiti": "準備烤通心粉",
+    "VFX_PrepareStuffedBellPeppers": "準備釀彩椒",
+    "VFX_GetStuffedBellPeppers": "取出釀彩椒",
+    "VFX_PrepareChickenPotPie": "準備雞肉餡餅",
+    "VFX_PrepareMoussaka": "準備慕薩卡",
+    "VFX_PrepareChickenDivan": "準備迪萬雞",
+    "VFX_PrepareSalisburySteak": "準備索爾茲伯里牛排",
+    "VFX_PrepareFishandChips": "準備炸魚薯條",
+    "VFX_PrepareBangersandMash": "準備香腸土豆泥",
+    "VFX_PrepareFullEnglishBreakfast": "準備全套英式早餐",
+    "VFX_PrepareHalfEnglishBreakfast": "準備半套英式早餐",
+    "VFX_PrepareScotchEgg": "準備蘇格蘭蛋",
+    "VFX_PrepareSausageAndAppleFry": "準備香腸蘋果煎",
+    "VFX_PrepareBeansOnToast": "準備吐司豆子",
+    "VFX_PrepareButterChicken": "準備黃油雞",
+    "VFX_PrepareThaiGreenCurry": "準備泰式綠咖喱",
+    "VFX_PrepareMassamanCurry": "準備馬薩曼咖喱",
+    "VFX_PrepareChanaMasala": "準備鷹嘴豆瑪薩拉",
+    "VFX_PrepareSweetPotatoChickpeaCurry": "準備紅薯鷹嘴豆咖喱",
+    "VFX_PrepareTofuCurry": "準備豆腐咖喱",
+
+    "VFX_OpenCandyBag": "打開糖果袋",
+
+    "VFX_OpenPackSausages": "打開香腸包裝",
+    "VFX_OpenPackMeatballs": "打開肉丸包裝",
+
+    "VFX_SliceBakingPie": "切烘焙餡餅",
+    "VFX_SliceFrozenPie": "切冷凍餡餅",
+
+    "VFX_PreparePieFilling": "準備餡餅餡料",
+
+    "VFX_PrepareApplePie": "準備蘋果餡餅",
+    "VFX_PrepareCherryPie": "準備櫻桃餡餅",
+    "VFX_PrepareBlueberryPie": "準備藍莓餡餅",
+    "VFX_PrepareStrawberryPie": "準備草莓餡餅",
+    "VFX_PreparePeachPie": "準備桃子餡餅",
+    "VFX_PrepareMixedBerryPie": "準備綜合漿果餡餅",
+    "VFX_PrepareLemonCreamPie": "準備檸檬奶油餡餅",
+    "VFX_PrepareBlackberryPie": "準備黑莓餡餅",
+    "VFX_PrepareRaspberryPie": "準備覆盆子餡餅",
+    "VFX_PreparePumpkinPie": "準備南瓜餡餅",
+    "VFX_PrepareSweetPotatoPie": "準備紅薯餡餅",
+    "VFX_PreparePecanPie": "準備山核桃餡餅",
+
+    "VFX_MakeSpiceRackSmallLight": "製作小型淺色香料架",
+    "VFX_MakeSpiceRackSmallDark": "製作小型深色香料架",
+    "VFX_MakeSpiceRackLargeLight": "製作大型淺色香料架",
+    "VFX_MakeSpiceRackLargeDark": "製作大型深色香料架",
+
+    "VFX_MakeSourdoughStarter": "製作天然酸麵包酵母起種",
+    "VFX_FeedSourdoughStarter": "餵食天然酸麵包酵母",
+
+    "VFX_MakeSourdough": "揉製酸麵包麵團",
+    "VFX_MakeSourdoughBaguette": "製作酸麵包長棍",
+    "VFX_MakeSourdoughHamburgerBuns": "製作酸麵包漢堡麵包",
+    "VFX_MakeSourdoughHotdogBuns": "製作酸麵包熱狗麵包",
+    "VFX_MakeSourdoughBreadsticks": "製作酸麵包麵包棒",
+
+    "VFX_MakeHamburgerBuns": "製作漢堡麵包",
+    "VFX_MakeHotdogBuns": "製作熱狗麵包",
+
+    "VFX_MakeBrioche": "製作布里歐麵包",
+    "VFX_MakeBeerBread": "製作啤酒麵包",
+    "VFX_MakeMilkBread": "製作牛奶麵包",
+    "VFX_MakeFrybread": "製作炸麵包",
+    "VFX_MakeEnglishMuffins": "製作英式馬芬",
+    "VFX_MakePitaBread": "製作口袋餅 (Pita)",
+    "VFX_MakeFocaccia": "製作佛卡夏麵包",
+    "VFX_MakeNaanBread": "製作印度烤餅 (Naan)",
+    "VFX_MakeCrumpets": "製作英式煎餅 (Crumpet)",
+    "VFX_MakeBreadsticks": "製作麵包棒",
+    "VFX_MakePretzels": "製作蝴蝶脆餅 (Pretzel)",
+
+    "VFX_MakeRyeBread": "製作裸麥麵包",
+    "VFX_MakeRyeSourdough": "製作裸麥酸麵包",
+    "VFX_MakePumpernickel": "製作德國黑麥麵包",
+
+    "VFX_MakeBarleyBread": "製作大麥麵包",
+    "VFX_MakeBarleySourdough": "製作大麥酸麵包",
+
+    "VFX_MakeFlatbread": "製作大餅/麵餅",
+    "VFX_MakeSoupDumplings": "製作小籠湯包",
+    "VFX_MakeScones": "製作英式司康",
+
+    "VFX_MakePizzaDough": "製作披薩麵團",
+    "VFX_MakeSourdoughPizzaDough": "製作酸麵包披薩麵團",
+    "VFX_MakeFlatbreadPizzaDough": "製作薄餅披薩麵團",
+    "VFX_MakeHomemadePasta": "製作手工義大利麵條",
+    "VFX_MakeHomemadeGnocchi": "製作手工意式土豆丸子",
+
+    "VFX_MillRyeFlour": "研磨裸麥粉 (磨坊)",
+    "VFX_GrindRyeFlour": "研磨裸麥粉 (手磨)",
+    "VFX_MillBarleyFlour": "研磨大麥粉 (磨坊)",
+    "VFX_GrindBarleyFlour": "研磨大麥粉 (手磨)",
+    "VFX_GrindOatFlour": "研磨燕麥粉",
+    "VFX_GrindAcornFlour": "研磨橡子粉",
+    "VFX_GrindFlourMortarPestle": "使用研缽研磨麵粉",
+    "VFX_GrindOatFlourMortarPestle": "使用研缽研磨麵粉",
+    "VFX_GrindAcornFlourMortarPestle": "使用研缽研磨橡子粉",
+
+    "MakeSugarBeetPulpPot": "製作甜菜渣",
+    "GetSugarBeetSugar": "提取甜菜糖",
+    "GetSugarBeetMolasses": "提取甜菜糖蜜",
+
+    "VFX_PrepareSlowCookedBoneBroth": "熬製大骨高湯",
+
+    "VFX_MakeSourdoughHotDog": "製作酸麵包熱狗",
+    "VFX_MakeSausageHotdog": "製作普通香腸熱狗",
+    "VFX_MakeSourdoughSausageHotdog": "製作酸麵包香腸熱狗",
+
+    "VFX_PrepareHomemadeJam": "熬製手工果醬",
+    "VFX_PrepareHomemadeButter": "製作手工黃油",
+    "VFX_PrepareHomemadeAppleButter": "Prepare Homemade Apple Butter",
+    "VFX_PreparePowderedSugar": "製作糖粉",
+    "VFX_PrepareBrownSugar": "製作紅糖",
+
+    "VFX_MakeSandwich": "製作三明治",
+
+    "VFX_MakeSourdoughToast": "烘烤酸麵包吐司",
+    "VFX_MakeBeerBreadToast": "烘烤啤酒麵包吐司",
+    "VFX_MakeMilkBreadToast": "烘烤牛奶麵包吐司",
+    "VFX_MakeBriocheToast": "烘烤布里歐吐司",
+    "VFX_MakeFocacciaBreadToast": "烘烤佛卡夏吐司",
+    "VFX_MakeBarleyBreadToast": "烘烤大麥麵包吐司",
+    "VFX_MakeBarleySourdoughToast": "烘烤大麥酸麵包吐司",
+    "VFX_MakeRyeBreadToast": "烘烤裸麥麵包吐司",
+    "VFX_MakeRyeSourdoughToast": "烘烤裸麥酸麵包吐司",
+    "VFX_MakePumpernickelToast": "烘烤黑麥麵包吐司",
+
+    "VFX_PrepareHomemadeSauceTomato": "調製手工番茄醬底",
+    "VFX_PrepareHomemadeSauceOil": "調製手工油底醬汁",
+    "VFX_PrepareHomemadeSauceCream": "調製手工白醬/奶油底",
+    "VFX_PrepareHomemadeSauceStock": "調製手工高湯底醬",
+    "VFX_PrepareHomemadeSauceVinegar": "調製手工醋味底醬",
+
+    "VFX_MakePizza": "組合製作披薩",
+
+    "VFX_MakeBagelDough": "製作貝果麵團",
+    "VFX_MakeCroissantDough": "製作可頌麵團",
+    "VFX_MakeDoughnutDough": "Make Donut Dough",
+    "VFX_MakeChocolateDoughnut": "Make Chocolate Donut Dough",
+
+    "VFX_MakeFriedFood": "油炸烹飪食材",
+
+    "VFX_MakeDumplingWrappers": "擀製餃子皮",
+
+    "VFX_MakeJarWithLid": "給玻璃罐裝上蓋子",
+    "VFX_SeperateJarWithLid": "將玻璃罐與蓋子分離",
+    "VFX_MakeSmallGlassJar": "製作小玻璃罐",
+    "VFX_MakeSmallJarWithLid": "給小玻璃罐裝上蓋子",
+    "VFX_SeperateSmallJarWithLid": "將小玻璃罐與蓋子分離",
+
+    "VFX_MakeBeerBottle": "燒製啤酒空瓶",
+    "VFX_MakeWineBottle": "燒製葡萄酒空瓶",
+    "VFX_MakeBottleCaps": "鍛造金屬瓶蓋",
+    "VFX_MakeWineCorks": "雕刻葡萄酒軟木塞",
+
+    "VFX_MakeFoodContainer": "將食物裝入保鮮盒",
+    "VFX_MakeMetalFoodContainer": "將食物裝入金屬保鮮盒",
+    "VFX_WeldingMakeMetalFoodContainer": "焊接打造金屬保鮮盒",
+
+    "VFX_MakeCannedBowl": "將罐頭食品倒入碗中",
+
+    "VFX_MakeHeavyCream": "分離製作濃奶油",
+    "VFX_MakeSourCream": "發酵製作酸奶油",
+
+    "VFX_MakeEvaporatedMilkPreparation": "進行淡奶前期調配",
+    "VFX_GetEvaporatedMilk": "提取手工淡奶",
+
+    "VFX_MakeCulturedButtermilk": "發酵製作酪乳",
+
+    "VFX_MakeYogurtPreparation": "進行優格前期調配",
+    "VFX_MakeYogurt": "製作常規優格",
+    "VFX_MakeGreekYogurt": "過濾製作希臘優格",
+
+    "VFX_MakeIceCream": "攪打製作手工冰淇淋",
+
+    "VFX_MakeCottageCheesePreparation": "進行茅屋起司前期調配",
+    "VFX_StrainCottageCheese": "過濾乳清提取茅屋起司",
+
+    "VFX_MakeCreamCheese": "製作手工奶油起司",
+
+    "VFX_MakeFrenchCheeseCurds": "製作法式起司凝乳",
+    "VFX_PressBrieCheese": "壓製布里起司",
+    "VFX_PressCamembertCheese": "壓製卡門貝爾起司",
+
+    "VFX_PressMozzarellaCheeseCurds": "Press Mozzarella Cheese Curds",
+    "VFX_StretchMozzarella": "熱燙揉捏塑形馬蘇里拉起司",
+
+    "VFX_MakeSwissCheeseCurds": "製作瑞士起司凝乳",
+    "VFX_PressSwissCheese": "壓製瑞士起司輪",
+
+    "VFX_MakeParmesanCheeseCurds": "製作帕馬森起司凝乳",
+    "VFX_PressParmesanCheese": "壓製帕馬森起司輪",
+
+    "VFX_MakeFetaCurds": "製作菲達起司凝乳",
+    "VFX_PressFetaCheese": "壓製鹽漬菲達起司",
+
+    "VFX_MakeBlueCheeseCurds": "製作藍紋起司凝乳",
+    "VFX_PressBlueCheese": "壓製藍紋起司輪",
+
+    "VFX_MakeCheddarCheeseCurds": "製作切達起司凝乳",
+    "VFX_PressCheddarCheese": "壓製切達起司輪",
+
+    "VFX_CutCheeseWheeel": "切開整輪大起司",
+    "VFX_MakeWoodenCheeseMold": "製作木製起司壓模",
+
+    "VFX_UnpackStarterBox": "拆封起司菌種盒",
+    "VFX_UnpackStarterBoxVariety": "拆封綜合菌種盒",
+
+    "VFX_UnpackCheeseKit": "拆封基礎起司製作工具箱",
+    "VFX_UnpackCheeseKitItalian": "拆封義式起司製作工具箱",
+    "VFX_UnpackCheeseKitBlue": "拆封藍紋起司製作工具箱",
+    "VFX_UnpackCheeseKitMaster": "拆封大師級起司製作工具箱",
+
+    "VFX_MakeVinegarWithVinegar": "Make Vinegar with Vinegar",
+    "VFX_MakeVinegarWithAlcohol": "透過酒精轉化製作手工醋",
+    "VFX_MakeVinegarWithFruit": "Make Vinegar with Fruit",
+    "VFX_MakeVinegarWithDeadYeast": "透過酵母發酵製作手工醋",
+
+    "VFX_MakeVinegarPreparation": "調配果醋發酵液",
+    "VFX_MakeVinegarYeast": "透過酵母發酵製作手工醋",
+    
+
+    "VFX_MakePotMash": "調製一鍋釀酒麥芽糊",
+    "VFX_MakeJarBeerPreparation": "調製一罐啤酒發酵底液",
+    "VFX_MakeHomemadeBeer": "釀造手工啤酒",
+    "VFX_SealHomemadeBeer": "密封手工啤酒瓶",
+
+    "VFX_MakeJarWinePreparation": "調製一罐果酒發酵底液",
+    "VFX_SealHomemadeWine": "密封手工葡萄酒瓶",
+
+    "VFX_MakeYeastStarter": "製作野生酵母起種",
+    "VFX_FeedYeastStarter": "餵食野生酵母",
+
+    "VFX_PrepareMinceMeat": "攪碎製作絞肉",
+    "VFX_PreparePatty": "拍製塑形漢堡肉排",
+    "VFX_PrepareMeatball": "揉製手工肉丸",
+    "VFX_SplitChickenLeg": "切分大雞腿",
+
+    "VFX_MakeBreadcrumbs": "使用新鮮麵包製作麵包屑",
+    "VFX_MakeBreadcrumbsCooked": "使用烤麵包製作麵包屑",
+
+    "VFX_MakeTomatoPulp": "熬製一鍋番茄碎肉漿",
+    "VFX_GetTomatoPaste": "濃縮提取純番茄糊",
+
+    "VFX_MakeJamJar": "將手工果醬裝瓶密封",
+
+    "VFX_SliceBread": "切片麵包"
+}

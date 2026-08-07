@@ -1,0 +1,16 @@
+
+--[[
+
+PrintMediaDefinitions.MiscDetails["sapphcooking:Fortune1"] = { location1 = { { x1= 11610, y1 = 6870, x2 =11639, y2=6899,}, }, }
+PrintMediaDefinitions.MiscDetails["sapphcooking:Fortune2"] = { location1 = { { x1= 11610, y1 = 6870, x2 =11639, y2=6899,}, }, }
+PrintMediaDefinitions.MiscDetails["sapphcooking:Fortune3"] = { location1 = { { x1= 11610, y1 = 6870, x2 =11639, y2=6899,}, }, }
+PrintMediaDefinitions.MiscDetails["sapphcooking:Fortune4"] = { location1 = { { x1= 11610, y1 = 6870, x2 =11639, y2=6899,}, }, }
+PrintMediaDefinitions.MiscDetails["sapphcooking:Fortune5"] = { location1 = { { x1= 11610, y1 = 6870, x2 =11639, y2=6899,}, }, }
+PrintMediaDefinitions.MiscDetails["sapphcooking:Fortune6"] = { location1 = { { x1= 11610, y1 = 6870, x2 =11639, y2=6899,}, }, }
+PrintMediaDefinitions.MiscDetails["sapphcooking:Fortune7"] = { location1 = { { x1= 11610, y1 = 6870, x2 =11639, y2=6899,}, }, }
+PrintMediaDefinitions.MiscDetails["sapphcooking:Fortune8"] = { location1 = { { x1= 11610, y1 = 6870, x2 =11639, y2=6899,}, }, }
+PrintMediaDefinitions.MiscDetails["sapphcooking:Fortune9"] = { location1 = { { x1= 11610, y1 = 6870, x2 =11639, y2=6899,}, }, }
+PrintMediaDefinitions.MiscDetails["sapphcooking:Fortune10"] = { location1 = { { x1= 11610, y1 = 6870, x2 =11639, y2=6899,}, }, }
+
+
+]]

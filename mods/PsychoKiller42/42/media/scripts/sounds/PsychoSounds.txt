@@ -1,0 +1,1201 @@
+module PsychoSounds
+{
+	/* 
+	-> Laughs downloaded free from pixabay, by Floraphonic
+	-> Other sounds: vanilla
+	*/
+	sound Meat_A2
+    {
+		category = PK42, loop = true, is3D = true,
+		clip { file = media/sound/Meat_A2.ogg, distanceMax = 10, volume = 1,} 
+	}
+
+	sound z_male_C_Attack_01
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_male_C_Attack_01.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_male_C_Attack_01_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_male_C_Attack_01_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_male_C_Attack_01_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_male_C_Attack_01_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_male_C_Attack_04
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_male_C_Attack_04.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_male_C_Attack_04_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_male_C_Attack_04_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_male_C_Attack_04_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_male_C_Attack_04_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_male_C_Attack_05
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_male_C_Attack_05.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_male_C_Attack_05_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_male_C_Attack_05_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_male_C_Attack_05_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_male_C_Attack_05_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_male_C_Attack_06
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_male_C_Attack_06.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_male_C_Attack_06_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_male_C_Attack_06_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_male_C_Attack_06_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_male_C_Attack_06_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_male_vocal_A_attack_01b
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_male_vocal_A_attack_01b.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_male_vocal_A_attack_01b_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_male_vocal_A_attack_01b_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_male_vocal_A_attack_01b_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_male_vocal_A_attack_01b_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_male_vocal_A_attack_03b
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_male_vocal_A_attack_03b.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_male_vocal_A_attack_03b_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_male_vocal_A_attack_03b_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_male_vocal_A_attack_03b_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_male_vocal_A_attack_03b_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_male_vocal_A_attack_05b
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_male_vocal_A_attack_05b.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_male_vocal_A_attack_05b_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_male_vocal_A_attack_05b_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_male_vocal_A_attack_05b_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_male_vocal_A_attack_05b_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_male_vocal_B_attack_08
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_male_vocal_B_attack_08.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_male_vocal_B_attack_08_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_male_vocal_B_attack_08_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_male_vocal_B_attack_08_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_male_vocal_B_attack_08_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_A_aggro_03
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_A_aggro_03.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_A_aggro_03_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_A_aggro_03_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_A_aggro_03_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_A_aggro_03_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_A_aggro_05
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_A_aggro_05.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_A_aggro_05_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_A_aggro_05_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_A_aggro_05_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_A_aggro_05_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_A_aggro_06
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_A_aggro_06.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_A_aggro_06_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_A_aggro_06_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_A_aggro_06_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_A_aggro_06_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_A_aggro_07
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_A_aggro_07.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_A_aggro_07_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_A_aggro_07_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_A_aggro_07_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_A_aggro_07_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_A_attack_long_05
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_A_attack_long_05.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_A_attack_long_05_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_A_attack_long_05_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_A_attack_long_05_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_A_attack_long_05_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_A_attack_long_08
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_A_attack_long_08.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_A_attack_long_08_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_A_attack_long_08_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_A_attack_long_08_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_A_attack_long_08_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_B_aggro_01
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_B_aggro_01.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_B_aggro_01_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_B_aggro_01_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_B_aggro_01_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_B_aggro_01_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_B_aggro_02
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_B_aggro_02.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_B_aggro_02_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_B_aggro_02_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_B_aggro_02_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_B_aggro_02_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_B_attack_long_01
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_B_attack_long_01.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_B_attack_long_01_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_B_attack_long_01_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_B_attack_long_01_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_B_attack_long_01_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_B_attack_long_02
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_B_attack_long_02.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_B_attack_long_02_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_B_attack_long_02_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_B_attack_long_02_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_B_attack_long_02_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_B_attack_long_04
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_B_attack_long_04.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_B_attack_long_04_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_B_attack_long_04_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_B_attack_long_04_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_B_attack_long_04_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_B_attack_long_07
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_B_attack_long_07.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_B_attack_long_07_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_B_attack_long_07_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_female_vocal_B_attack_long_07_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_female_vocal_B_attack_long_07_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_male_vocal_A_aggro_01
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_male_vocal_A_aggro_01.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_male_vocal_A_aggro_01_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_male_vocal_A_aggro_01_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_male_vocal_A_aggro_01_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_male_vocal_A_aggro_01_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_male_vocal_A_attack_long_02
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_male_vocal_A_attack_long_02.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_male_vocal_A_attack_long_02_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_male_vocal_A_attack_long_02_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_male_vocal_A_attack_long_02_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_male_vocal_A_attack_long_02_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_male_vocal_B_attack_long_01
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_male_vocal_B_attack_long_01.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_male_vocal_B_attack_long_01_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_male_vocal_B_attack_long_01_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_male_vocal_B_attack_long_01_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_male_vocal_B_attack_long_01_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_male_vocal_B_attack_long_02
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_male_vocal_B_attack_long_02.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_male_vocal_B_attack_long_02_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_male_vocal_B_attack_long_02_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_sprinter_male_vocal_B_attack_long_02_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/attacks/z_sprinter_male_vocal_B_attack_long_02_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound m_heli_hover_loop_close
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/heli/m_heli_hover_loop_close.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound m_heli_hover_loop_close_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/heli/m_heli_hover_loop_close_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound m_heli_hover_loop_close_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/heli/m_heli_hover_loop_close_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound m_heli_hover_loop_distant
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/heli/m_heli_hover_loop_distant.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound m_heli_hover_loop_distant_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/heli/m_heli_hover_loop_distant_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound m_heli_hover_loop_distant_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/heli/m_heli_hover_loop_distant_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound female_laugh_01
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/laughs/female_laugh_01.ogg, distanceMax = 10, volume = 0.6,}
+	}
+
+	sound female_laugh_02
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/laughs/female_laugh_02.ogg, distanceMax = 10, volume = 0.6,}
+	}
+
+	sound female_laugh_03
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/laughs/female_laugh_03.ogg, distanceMax = 10, volume = 0.6,}
+	}
+
+	sound female_laugh_04
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/laughs/female_laugh_04.ogg, distanceMax = 10, volume = 0.6,}
+	}
+
+	sound female_laugh_05
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/laughs/female_laugh_05.ogg, distanceMax = 10, volume = 0.6,}
+	}
+
+	sound female_laugh_06
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/laughs/female_laugh_06.ogg, distanceMax = 10, volume = 0.6,}
+	}
+
+	sound female_laugh_07
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/laughs/female_laugh_07.ogg, distanceMax = 10, volume = 0.7,}
+	}
+
+	sound female_laugh_08
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/laughs/female_laugh_08.ogg, distanceMax = 10, volume = 0.6,}
+	}
+
+	sound male_laugh_01
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/laughs/male_laugh_01.ogg, distanceMax = 10, volume = 0.5,}
+	}
+
+	sound male_laugh_02
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/laughs/male_laugh_02.ogg, distanceMax = 10, volume = 0.5,}
+	}
+
+	sound male_laugh_03
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/laughs/male_laugh_03.ogg, distanceMax = 10, volume = 0.5,}
+	}
+
+	sound male_laugh_04
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/laughs/male_laugh_04.ogg, distanceMax = 10, volume = 0.5,}
+	}
+
+	sound m_gunshots_FAL_02
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/m_gunshots_FAL_02.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound m_gunshots_FAL_02_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/m_gunshots_FAL_02_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound m_gunshots_FAL_02_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/m_gunshots_FAL_02_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound m_gunshots_GAU5A_02
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/m_gunshots_GAU5A_02.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound m_gunshots_GAU5A_02_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/m_gunshots_GAU5A_02_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound m_gunshots_GAU5A_02_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/m_gunshots_GAU5A_02_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound m_gunshots_M16A2_02
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/m_gunshots_M16A2_02.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound m_gunshots_M16A2_02_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/m_gunshots_M16A2_02_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound m_gunshots_M16A2_02_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/m_gunshots_M16A2_02_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_animal_in_trap_metal_01
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_animal_in_trap_metal_01.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_animal_in_trap_metal_01_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_animal_in_trap_metal_01_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_animal_in_trap_metal_01_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_animal_in_trap_metal_01_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_animal_in_trap_metal_02
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_animal_in_trap_metal_02.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_animal_in_trap_metal_02_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_animal_in_trap_metal_02_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_animal_in_trap_metal_02_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_animal_in_trap_metal_02_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_animal_in_trap_metal_03
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_animal_in_trap_metal_03.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_animal_in_trap_metal_03_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_animal_in_trap_metal_03_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_animal_in_trap_metal_03_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_animal_in_trap_metal_03_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_animal_in_trap_metal_04
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_animal_in_trap_metal_04.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_animal_in_trap_metal_04_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_animal_in_trap_metal_04_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_animal_in_trap_metal_04_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_animal_in_trap_metal_04_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_animal_in_trap_wood_01
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_animal_in_trap_wood_01.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_animal_in_trap_wood_01_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_animal_in_trap_wood_01_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_animal_in_trap_wood_01_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_animal_in_trap_wood_01_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_animal_in_trap_wood_02
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_animal_in_trap_wood_02.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_animal_in_trap_wood_02_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_animal_in_trap_wood_02_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_animal_in_trap_wood_02_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_animal_in_trap_wood_02_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_animal_in_trap_wood_03
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_animal_in_trap_wood_03.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_animal_in_trap_wood_03_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_animal_in_trap_wood_03_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_animal_in_trap_wood_03_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_animal_in_trap_wood_03_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_animal_in_trap_wood_04
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_animal_in_trap_wood_04.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_animal_in_trap_wood_04_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_animal_in_trap_wood_04_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_animal_in_trap_wood_04_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_animal_in_trap_wood_04_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_door_break_01
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_door_break_01.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_door_break_01_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_door_break_01_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_door_break_01_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_door_break_01_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_door_thump_wood_no_detail_01
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_door_thump_wood_no_detail_01.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_door_thump_wood_no_detail_01_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_door_thump_wood_no_detail_01_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_door_thump_wood_no_detail_01_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_door_thump_wood_no_detail_01_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_door_thump_wood_no_detail_05
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_door_thump_wood_no_detail_05.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_door_thump_wood_no_detail_05_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_door_thump_wood_no_detail_05_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_door_thump_wood_no_detail_05_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_door_thump_wood_no_detail_05_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_door_unlock_01
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_door_unlock_01.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_door_unlock_01_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_door_unlock_01_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_door_unlock_01_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_door_unlock_01_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_door_unlock_02
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_door_unlock_02.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_door_unlock_02_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_door_unlock_02_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_door_unlock_02_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_door_unlock_02_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_window_smash_light_v2_01
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_window_smash_light_v2_01.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_window_smash_light_v2_01_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_window_smash_light_v2_01_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_window_smash_light_v2_01_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_window_smash_light_v2_01_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_window_smash_light_v2_02
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_window_smash_light_v2_02.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_window_smash_light_v2_02_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_window_smash_light_v2_02_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_window_smash_light_v2_02_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_window_smash_light_v2_02_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_window_smash_light_v2_03
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_window_smash_light_v2_03.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_window_smash_light_v2_03_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_window_smash_light_v2_03_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_window_smash_light_v2_03_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_window_smash_light_v2_03_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_window_smash_light_v2_04
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_window_smash_light_v2_04.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_window_smash_light_v2_04_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_window_smash_light_v2_04._L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_window_smash_light_v2_04_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_window_smash_light_v2_04._R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_window_thump_thick_squeak_08
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_window_thump_thick_squeak_08.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_window_thump_thick_squeak_08_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_window_thump_thick_squeak_08_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_window_thump_thick_squeak_08_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_window_thump_thick_squeak_08_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_window_thump_thick_squeak_09
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_window_thump_thick_squeak_09.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_window_thump_thick_squeak_09_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_window_thump_thick_squeak_09_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_window_thump_thick_squeak_09_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_window_thump_thick_squeak_09_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_window_thump_thick_squeak_10
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_window_thump_thick_squeak_10.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_window_thump_thick_squeak_10_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_window_thump_thick_squeak_10_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound obj_window_thump_thick_squeak_10_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/objects/obj_window_thump_thick_squeak_10_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_scratch_gore_short_01
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/scratch/z_scratch_gore_short_01.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_scratch_gore_short_01_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/scratch/z_scratch_gore_short_01_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_scratch_gore_short_01_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/scratch/z_scratch_gore_short_01_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_scratch_gore_short_02
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/scratch/z_scratch_gore_short_02.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_scratch_gore_short_02_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/scratch/z_scratch_gore_short_02_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_scratch_gore_short_02_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/scratch/z_scratch_gore_short_02_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_scratch_gore_short_03
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/scratch/z_scratch_gore_short_03.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_scratch_gore_short_03_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/scratch/z_scratch_gore_short_03_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_scratch_gore_short_03_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/scratch/z_scratch_gore_short_03_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_scratch_gore_short_04
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/scratch/z_scratch_gore_short_04.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_scratch_gore_short_04_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/scratch/z_scratch_gore_short_04_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_scratch_gore_short_04_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/scratch/z_scratch_gore_short_04_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_scratch_gore_short_05
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/scratch/z_scratch_gore_short_05.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_scratch_gore_short_05_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/scratch/z_scratch_gore_short_05_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_scratch_gore_short_05_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/scratch/z_scratch_gore_short_05_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_scratch_gore_short_06
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/scratch/z_scratch_gore_short_06.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_scratch_gore_short_06_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/scratch/z_scratch_gore_short_06_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_scratch_gore_short_06_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/scratch/z_scratch_gore_short_06_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_scratch_gore_short_07
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/scratch/z_scratch_gore_short_07.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_scratch_gore_short_07_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/scratch/z_scratch_gore_short_07_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_scratch_gore_short_07_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/scratch/z_scratch_gore_short_07_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_scratch_gore_short_08
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/scratch/z_scratch_gore_short_08.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_scratch_gore_short_08_L
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/scratch/z_scratch_gore_short_08_L.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound z_scratch_gore_short_08_R
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/scratch/z_scratch_gore_short_08_R.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound FemalePlayer_DeathScreams_02_01
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/screams/FemalePlayer_DeathScreams_02_01.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound FemalePlayer_DeathScreams_02_02
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/screams/FemalePlayer_DeathScreams_02_02.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound FemalePlayer_DeathScreams_02_03
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/screams/FemalePlayer_DeathScreams_02_03.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound FemalePlayer_DeathScreams_02_04
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/screams/FemalePlayer_DeathScreams_02_04.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound FemalePlayer_DeathScreams_06
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/screams/FemalePlayer_DeathScreams_06.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound MalePlayer_DeathScreams_03
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/screams/MalePlayer_DeathScreams_03.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound MalePlayer_DeathScreams_04
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/screams/MalePlayer_DeathScreams_04.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound MalePlayer_DeathScreams_07
+	{
+		category = PK42, loop = false, is3D = true,
+		clip { file = media/sound/screams/MalePlayer_DeathScreams_07.ogg, distanceMax = 10, volume = 1,}
+	}
+
+	sound f_scream1
+	{
+        category = PK42, loop = false, is3D = true,
+        clip { file = media/sound/fscream1.ogg, distanceMax = 14, volume = 0.15,
+        }
+    }
+
+	sound f_scream2
+	{
+        category = PK42, loop = false, is3D = true,
+        clip { file = media/sound/fscream2.ogg, distanceMax = 14, volume = 0.15,
+        }
+    }
+
+	sound f_scream3
+	{
+        category = PK42, loop = false, is3D = true,
+        clip { file = media/sound/fscream3.ogg, distanceMax = 14, volume = 0.15,
+        }
+    }
+
+	sound m_scream1
+	{
+        category = PK42, loop = false, is3D = true,
+        clip { file = media/sound/scream1.ogg, distanceMax = 14, volume = 0.15,
+        }
+    }
+
+	sound m_scream2
+	{
+        category = PK42, loop = false, is3D = true,
+        clip { file = media/sound/scream2.ogg, distanceMax = 14, volume = 0.15,
+        }
+    }
+
+	sound m_scream3
+	{
+        category = PK42, loop = false, is3D = true,
+        clip { file = media/sound/scream3.ogg, distanceMax = 14, volume = 0.15,
+        }
+    }
+
+}

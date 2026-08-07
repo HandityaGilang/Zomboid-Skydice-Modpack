@@ -1,0 +1,19 @@
+VERSION = 1,
+
+option WeightReduction.ReductionPercent
+{
+    type = integer,
+    min = 0,
+    max = 99,
+    default = 95,
+    page = WeightReduction,
+    translation = WeightReduction_ReductionPercent,
+}
+
+option WeightReduction.AffectTools
+{
+    type = boolean,
+    default = true,
+    page = WeightReduction,
+    translation = WeightReduction_AffectTools,
+}

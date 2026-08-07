@@ -1,0 +1,157 @@
+{
+    "Sandbox_PK42": "Traço: Psicopata",
+
+    "Sandbox_PK42_FrenzyCooldownHours": "Cooldown do Surto de Adrenalina (horas)",
+    "Sandbox_PK42_FrenzyCooldownHours_tooltip": "Quantas horas de jogo devem passar antes que o Surto de Adrenalina possa ser ativado novamente.",
+
+    "Sandbox_PK42_FrenzyCombatSpeedBonus": "Bônus de Velocidade de Ataque Durante o Surto de Adrenalina (%%)",
+    "Sandbox_PK42_FrenzyCombatSpeedBonus_tooltip": "Bônus percentual na velocidade de ataque durante o Surto de Adrenalina.",
+
+    "Sandbox_PK42_FrenzyMoveSpeedBonus": "Bônus de Velocidade de Movimento Durante o Surto de Adrenalina (%%)",
+    "Sandbox_PK42_FrenzyMoveSpeedBonus_tooltip": "Bônus percentual na velocidade de movimento durante o Surto de Adrenalina.",
+
+    "Sandbox_PK42_FrenzyStreakThreshold": "Sequência de Abates Para Ativar o Surto de Adrenalina",
+    "Sandbox_PK42_FrenzyStreakThreshold_tooltip": "Sequência mínima de abates necessária para ativar o Surto de Adrenalina.",
+
+    "Sandbox_PK42_FrenzyFatigueThreshold": "Nível de Sono Para Ativar o Surto de Adrenalina (%%)",
+    "Sandbox_PK42_FrenzyFatigueThreshold_tooltip": "Nível de fadiga (0-100) acima do qual é necessário estar para ativar o Surto de Adrenalina.",
+
+    "Sandbox_PK42_FrenzyEnduranceThreshold": "Nível de Cansaço Para Ativar o Surto de Adrenalina (%%)",
+    "Sandbox_PK42_FrenzyEnduranceThreshold_tooltip": "Nível de resistência (0-100) abaixo do qual é necessário estar para ativar o Surto de Adrenalina.",
+
+    "Sandbox_PK42_EnablePlayerSpeech": "Ativar Falas do Jogador",
+    "Sandbox_PK42_EnablePlayerSpeech_tooltip": "Quando desativado, o personagem nunca falará durante o combate. Substitui todas as configurações de chance de fala.",
+    
+    "Sandbox_PK42_SpeechCooldown": "Cooldown das falas (segundos)",
+    "Sandbox_PK42_SpeechCooldown_tooltip": "Tempo (em segundos) entre uma fala e outra.",
+
+    "Sandbox_PK42_SpeechChanceOnHitZombie": "Chance de Fala ao acertar um zumbi",
+    "Sandbox_PK42_SpeechChanceOnHitZombie_tooltip": "Chance (0-100) de dizer uma frase ao acertar um zumbi. <LINE> 0 = Desativado.",
+    
+    "Sandbox_PK42_SpeechChanceOnKillZombie": "Chance de Fala ao matar um zumbi",
+    "Sandbox_PK42_SpeechChanceOnKillZombie_tooltip": "Chance (0-100) de dizer uma frase ao matar um zumbi. <LINE> 0 = Desativado.",
+    
+    "Sandbox_PK42_SpeechChanceOnKillPlayer": "Chance de Fala ao matar um jogador",
+    "Sandbox_PK42_SpeechChanceOnKillPlayer_tooltip": "Chance (0-100) de dizer uma frase ao matar outro jogador. <LINE> 0 = Desativado.",
+    
+    "Sandbox_PK42_SpeechChanceOnFrenzyStart": "Chance de Fala durante o Surto de Adrenalina",
+    "Sandbox_PK42_SpeechChanceOnFrenzyStart_tooltip": "Chance (0-100) de dizer uma frase quando o Surto de Adrenalina é ativado. <LINE> 0 = Desativado.",
+    
+    "Sandbox_PK42_BoredomThresholdHours": "Limite de Tédio (horas)",
+    "Sandbox_PK42_BoredomThresholdHours_tooltip": "Horas de jogo sem matar antes de o personagem começar a ganhar stress por tédio.",
+
+    "Sandbox_PK42_AllowFrenzy": "Permitir Surto de Adrenalina",
+    "Sandbox_PK42_AllowFrenzy_tooltip": "Quando ativado, a mecânica de Surto de Adrenalina poderá ser ativada durante o combate.",
+
+    "Sandbox_PK42_EnableFrenzyDamageBonus": "Ativar Bônus de Dano Durante o Surto",
+    "Sandbox_PK42_EnableFrenzyDamageBonus_tooltip": "Quando ativado, o Surto de Adrenalina concede bônus de dano causado.",
+
+    "Sandbox_PK42_EnableFrenzySpeedBonus": "Ativar Bônus de Velocidade Durante o Surto",
+    "Sandbox_PK42_EnableFrenzySpeedBonus_tooltip": "Quando ativado, o Surto de Adrenalina concede bônus de velocidade de combate e movimentação.",
+
+    "Sandbox_PK42_XPOnKillZombie": "XP por Matar Zumbi",
+    "Sandbox_PK42_XPOnKillZombie_tooltip": "<BHC>Essa opção é afetada pelo Multiplicador Global e pelo Multiplicador de Insanidade. <RGB:1,1,1><LINE> Quantidade de XP recebida ao matar um zumbi. <LINE> Valor padrão: 1 = 0.25",
+
+    "Sandbox_PK42_XPOnKillZombieOnFrenzy": "XP por Matar Zumbi Durante o Surto de Adrenalina",
+    "Sandbox_PK42_XPOnKillZombieOnFrenzy_tooltip": "<BHC>Essa opção é afetada pelo Multiplicador Global e pelo Multiplicador de Insanidade. <RGB:1,1,1><LINE> Quantidade de XP recebida ao matar um zumbi enquanto o Surto de Adrenalina estiver ativo. <LINE> Valor padrão: 1 = 0.25",
+
+    "Sandbox_PK42_XPOnKillPlayer": "XP por Matar Jogador",
+    "Sandbox_PK42_XPOnKillPlayer_tooltip": "<BHC>Essa opção é afetada pelo Multiplicador Global e pelo Multiplicador de Insanidade. <RGB:1,1,1><LINE> Quantidade de XP recebida ao matar outro jogador. <LINE> Valor padrão: 1 = 0.25",
+
+    "Sandbox_PK42_XPOnEatRawZombieMeat": "XP por Comer Carne de Zumbi Crua",
+    "Sandbox_PK42_XPOnEatRawZombieMeat_tooltip": "<BHC>Essa opção é afetada pelo Multiplicador Global e pelo Multiplicador de Insanidade. <RGB:1,1,1><LINE> Quantidade de XP recebida ao comer carne de zumbi crua. <LINE> Nota: Comer carne humana concede o dobro do XP configurado para carne de zumbi.  <LINE> Valor padrão: 1 = 0.25",
+
+    "Sandbox_PK42_XPOnEatCookedZombieMeat": "XP por Comer Carne de Zumbi Cozida",
+    "Sandbox_PK42_XPOnEatCookedZombieMeat_tooltip": "<BHC>Essa opção é afetada pelo Multiplicador Global e pelo Multiplicador de Insanidade. <RGB:1,1,1><LINE> Quantidade de XP recebida ao comer carne de zumbi cozida. <LINE> Nota: Comer carne humana concede o dobro do XP configurado para carne de zumbi.  <LINE> Valor padrão: 1 = 0.25",
+
+    "Sandbox_PK42_XPOnEatRecipeZombieMeat": "XP por Comer Receita com Carne de Zumbi",
+    "Sandbox_PK42_XPOnEatRecipeZombieMeat_tooltip": "<BHC>Essa opção é afetada pelo Multiplicador Global e pelo Multiplicador de Insanidade. <RGB:1,1,1><LINE> Quantidade de XP recebida ao consumir carne de zumbi em receitas. <LINE> Nota: Comer carne humana concede o dobro do XP configurado para carne de zumbi.  <LINE> Valor padrão: 1 = 0.25",
+
+    "Sandbox_PK42_OnEatCookedPlayerInfectionChance": "Chance de Infecção — Jogador Comum (%%)",
+    "Sandbox_PK42_OnEatCookedPlayerInfectionChance_tooltip": "Chance de ser infectado ao comer carne de zumbi cozida caso o personagem não seja um psicopata.",
+
+    "Sandbox_PK42_OnEatCookedPsychopathInfectionChance": "Chance de Infecção — Psicopata (%%)",
+    "Sandbox_PK42_OnEatCookedPsychopathInfectionChance_tooltip": "<RGB:1,1,1><LINE> Chance de ser infectado ao comer carne de zumbi cozida caso o personagem seja um psicopata.",
+
+    "Sandbox_PK42_EnableXPDailyCap": "Ativar Limite Diário de XP",
+    "Sandbox_PK42_EnableXPDailyCap_tooltip": "Quando ativado, o total de XP ganho por dia no jogo será limitado pelo valor definido em Limite Diário de XP.",
+
+    "Sandbox_PK42_XPDailyCap": "Limite Diário de XP",
+    "Sandbox_PK42_XPDailyCap_tooltip": "Quantidade máxima de XP que o personagem pode ganhar por dia no jogo em cada tipo de ação. Requer o Limite Diário de XP ativado. <LINE> Nota: Este limite é aplicado sobre os valores BASE de XP, os jogadores podem ganhar mais XP do que o limite se tiverem lido um livro de skill.",
+
+    "Sandbox_PK42_ButcheringXP": "XP de Butchering",
+    "Sandbox_PK42_ButcheringXP_tooltip": "<BHC>Essa opção é afetada pelo Multiplicador Global e pelo Multiplicador de Butchering. <RGB:1,1,1><LINE> Quantidade de XP de Butchering recebida ao esquartejar um cadáver.",
+
+    "Sandbox_PK42_InsanityXP": "XP de Insanidade",
+    "Sandbox_PK42_InsanityXP_tooltip": "<BHC>Essa opção é afetada pelo Multiplicador Global e pelo Multiplicador de Insanidade. <RGB:1,1,1><LINE> Quantidade de XP de Insanidade recebida ao esquartejar um cadáver. <LINE> Nota: Os valores de XP são calculados com base na qualidade da carne e na quantidade obtida do cadáver, usando a mesma lógica da habilidade vanilla de açougue. <LINE> Aumentar este valor elevará drasticamente a quantidade de XP de Insanidade recebida ao esquartejar.  <LINE> Valor padrão: 1 = 0.25",
+
+    "Sandbox_PK42_CannibalUnlockThreshold": "Trait de Canibal: Nível de Desbloqueio",
+    "Sandbox_PK42_CannibalUnlockThreshold_tooltip": "Nível de Insanidade necessário para desbloquear o traço de canibal.",
+
+    "Sandbox_PK42_EnableButcherHookPatch": "Ativar Patch do Gancho de Açougueiro",
+    "Sandbox_PK42_EnableButcherHookPatch_tooltip": "Quando ativado, aplica um patch que permite usar o gancho de açougue para pendurar cadáveres. <LINE><BHC>Desative se você tiver problemas com mods de UI. <RGB:1,1,1>",
+
+    "Sandbox_PK42_ButcherCorpseUnlockLevel": "Nível para Esquartejar Cadáver",
+    "Sandbox_PK42_ButcherCorpseUnlockLevel_tooltip": "Nível de Insanidade necessária para desbloquear a habilidade de esquartejar cadáveres.",
+
+    "Sandbox_PK42_SkinCorpseUnlockLevel": "Nível para Esfolar Cadáver",
+    "Sandbox_PK42_SkinCorpseUnlockLevel_tooltip": "Nível de Insanidade necessária para desbloquear a habilidade de remover a pele de cadáveres.",
+
+    "Sandbox_PK42_CollectBonesUnlockLevel": "Nível para Coletar Ossos",
+    "Sandbox_PK42_CollectBonesUnlockLevel_tooltip": "Nível de Insanidade necessária para desbloquear a habilidade de coletar ossos de cadáveres.",
+
+    "Sandbox_PK42_HallucinationCeaseLevel": "Nível para Cessar Alucinações",
+    "Sandbox_PK42_HallucinationCeaseLevel_tooltip": "Nível de Insanidade em que as alucinações deixam de ocorrer.",
+
+    "Sandbox_PK42_AudioHallucinationStartingChance": "Chance Inicial de Alucinação Auditiva (%%)",
+    "Sandbox_PK42_AudioHallucinationStartingChance_tooltip": "Chance base de ocorrer uma alucinação auditiva.",
+
+    "Sandbox_PK42_IntrusiveThoughtsStartingChance": "Chance Inicial de Pensamentos Intrusivos (%%)",
+    "Sandbox_PK42_IntrusiveThoughtsStartingChance_tooltip": "Chance base de ocorrer um pensamento intrusivo.",
+
+    "Sandbox_PK42_VisualHallucinationStartingChance": "Chance Inicial de Alucinação Visual (%%)",
+    "Sandbox_PK42_VisualHallucinationStartingChance_tooltip": "Chance base de ocorrer uma alucinação visual.",
+
+    "Sandbox_PK42_LaughChance": "Chance de Risada (%%)",
+    "Sandbox_PK42_LaughChance_tooltip": "Chance do personagem rir involuntariamente.",
+
+    "Sandbox_PK42_VehicleJumpscareChance": "Chance de Susto ao Sair do Veículo (%%)",
+    "Sandbox_PK42_VehicleJumpscareChance_tooltip": "Chance de um evento de jumpscare ocorrer ao sair de um veículo.",
+
+    "Sandbox_PK42_CannibalAmountThreshold": "Trait de Canibal: Quantidade de Carne Consumida",
+    "Sandbox_PK42_CannibalAmountThreshold_tooltip": "Quantidade de carne humana/zumbi (em unidades) que deve ser consumida antes que o personagem possa ser considerado um canibal.",
+
+    "Sandbox_PK42_DisableVisualHal": "Desativar Alucinações Visuais",
+    "Sandbox_PK42_DisableVisualHal_tooltip": "Desativa as alucinações visuais. <LINE> Devido à limitações da engine, alucinações visuais podem não funcionar corretamente no multiplayer. <LINE> Se tiver problemas desative as alucinações visuais.",
+
+    "Sandbox_PK42_DisableAudioHal": "Desativar Alucinações Auditivas",
+    "Sandbox_PK42_DisableAudioHal_tooltip": "Desativa as alucinações auditivas.",
+    
+    "Sandbox_PK42_DisableSpeechHal": "Desativar Pensamentos Intrusivos",
+    "Sandbox_PK42_DisableSpeechHal_tooltip": "Desativa os pensamentos intrusivos.",
+
+    "Sandbox_PK42_FrenzyMaxTime": "Tempo Máximo do Surto de Adrenalina (em horas)",
+    "Sandbox_PK42_FrenzyMaxTime_tooltip": "Tempo máximo que o Surto de Adrenalina pode durar. Após esse tempo, o efeito termina automaticamente.",
+
+    "Sandbox_Insanity_XPMultiplier": "Insanity Multiplier",
+    "Sandbox_Insanity_XPMultiplier_tooltip": "Rate at which Insanity skill levels up.",
+
+    "Sandbox_PK42_BanditsXP": "XP por Matar um NPC Bandit",
+    "Sandbox_PK42_BanditsXP_tooltip": "<BHC>Essa opção é afetada pelo Multiplicador Global e pelo Multiplicador de Insanidade. <RGB:1,1,1><LINE> Quantidade de XP recebida ao matar um NPC bandit. <LINE> Valor padrão: 1 = 0.25",
+    
+    "Sandbox_PK42_SimulateNicotineOnKill": "Reduzir Abstinência de Nicotina ao Matar",
+    "Sandbox_PK42_SimulateNicotineOnKill_tooltip": "Quando ativado, o efeito de abstinência é reduzida ao matar um zumbi ou outro jogador. <LINE> Reduz o estresse, mesmo quando um jogador fumante está em abstinência.",
+
+    "Sandbox_PK42_FrenzyStreakChainMaxTime": "Tempo Máximo Entre Mortes (minutos)",
+    "Sandbox_PK42_FrenzyStreakChainMaxTime_tooltip": "Tempo máximo (em minutos) entre mortes para manter uma sequência de abates para o Surto de Adrenalina. <LINE> Se o tempo entre mortes exceder este valor, a sequência é reiniciada e o efeito do surto termina.",
+
+    "Sandbox_PK42_MaxFrenzyDamageBonus": "Bônus Máximo de Dano durante o Surto de Adrenalina (%%)",
+    "Sandbox_PK42_MaxFrenzyDamageBonus_tooltip": "Máximo de bônus de dano que pode ser alcançado durante o Surto de Adrenalina.",
+
+    "Sandbox_PK42_FrenzySeparator": "=============== Configurações do Surto de Adrenalina ===============",
+    "Sandbox_PK42_XPSeparator": "====================== Configurações de XP =======================",
+    "Sandbox_PK42_CannibalismSeparator": "================== Configurações de Canibalismo ==================",
+    "Sandbox_PK42_UnlockSeparator": "================= Configurações de Desbloqueio =================",
+    "Sandbox_PK42_MentalHealthSeparator": "================= Configurações de Saúde Mental =================",
+    "Sandbox_PK42_SBSeparator_tooltip": "Não faz nada, é apenas um separador para melhor organização das configurações no menu."
+}

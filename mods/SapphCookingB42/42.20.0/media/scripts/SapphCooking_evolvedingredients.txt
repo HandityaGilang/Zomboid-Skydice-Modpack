@@ -1,0 +1,663 @@
+module SapphCooking
+{
+    imports
+    {
+        Base,
+    }
+    /********07/29/26 sapph: eventually, ill port all evolved stuff here, for easier managing, but for now ill leave it blank.***********/
+
+    /**********::---------------------------:: ::---------------------------:: **************/
+	/**********::--------------------:: Item Tags ::--------------------:: ******************/
+	/**********::---------------------------:: ::---------------------------:: **************/
+
+    /**********::---------------------------:: ::---------------------------:: **************/
+    /**********::--------------------:: Canned Food ::--------------------:: **********************/
+    /**********::---------------------------:: ::---------------------------:: **************/
+
+    item OpenCanofBeets
+	{
+        EvolvedRecipe = BowlOfFood:10;Pizza:10;Stew:10;Stir fry Griddle Pan:10;Stir fry:10;Sandwich:10;Sandwich Baguette:10;Salad:10;Roasted Vegetables:10;PastaPot:10;PastaPan:10;RicePot:10;RicePan:10;Taco:10;Burrito:10,
+	}
+
+    item OpenCanofKernelCorn
+	{
+        EvolvedRecipe = BowlOfFood:10;Pizza:10;Stew:10;Stir fry Griddle Pan:10;Stir fry:10;Sandwich:10;Sandwich Baguette:10;Salad:10;Roasted Vegetables:10;PastaPot:10;PastaPan:10;RicePot:10;RicePan:10;Taco:10;Burrito:10,
+	}
+
+    /**********::---------------------------:: ::---------------------------:: **************/
+    /**********::--------------------:: Meats ::--------------------:: **********************/
+    /**********::---------------------------:: ::---------------------------:: **************/
+
+
+    /**********::--------------------:: Raw ::--------------------:: **************/
+
+    item SlicedSteak
+	{
+        EvolvedRecipe = Skewer:10;BowlOfFood:10|Cooked;Pizza:15;Stew:15;Stir fry Griddle Pan:15;Stir fry:15;Sandwich:5|Cooked;Sandwich Baguette:5|Cooked;Salad:10|Cooked;Roasted Vegetables:15;PastaPot:15;PastaPan:15;RicePot:15;RicePan:15;Taco:15|Cooked;Burrito:15|Cooked,
+	}
+
+    item SlicedChicken
+	{
+        EvolvedRecipe = Skewer:10;BowlOfFood:10|Cooked;Pizza:15;Stew:15;Stir fry Griddle Pan:15;Stir fry:15;Sandwich:5|Cooked;Sandwich Baguette:5|Cooked;Salad:10|Cooked;Roasted Vegetables:15;PastaPot:15;PastaPan:15;RicePot:15;RicePan:15;Taco:15|Cooked;Burrito:15|Cooked,
+        Tags = sapphcooking:chicken,
+    }
+
+    item Seitan
+	{
+        EvolvedRecipe = Skewer:10;BowlOfFood:10|Cooked;Pizza:15;Stew:15;Stir fry Griddle Pan:15;Stir fry:15;Sandwich:5|Cooked;Sandwich Baguette:5|Cooked;Salad:10|Cooked;Roasted Vegetables:15;PastaPot:15;PastaPan:15;RicePot:15;RicePan:15;Taco:15|Cooked;Burrito:15|Cooked,
+        Tags = sapphcooking:chicken,
+    }
+    
+    /**********::--------------------:: Minced Meat ::--------------------:: **************/
+
+    item MincedMeat_Chicken
+	{
+        EvolvedRecipe = Skewer:10;BowlOfFood:10|Cooked;Pizza:15;Stew:15;Stir fry Griddle Pan:15;Stir fry:15;Sandwich:5|Cooked;Sandwich Baguette:5|Cooked;Salad:10|Cooked;Roasted Vegetables:15;PastaPot:15;PastaPan:15;RicePot:15;RicePan:15;Taco:15|Cooked;Burrito:15|Cooked,
+        Tags = sapphcooking:mincedmeat,
+    }
+
+    item MincedMeat_Pork
+	{
+        EvolvedRecipe = Skewer:10;BowlOfFood:10|Cooked;Pizza:15;Stew:15;Stir fry Griddle Pan:15;Stir fry:15;Sandwich:5|Cooked;Sandwich Baguette:5|Cooked;Salad:10|Cooked;Roasted Vegetables:15;PastaPot:15;PastaPan:15;RicePot:15;RicePan:15;Taco:15|Cooked;Burrito:15|Cooked,
+        Tags = sapphcooking:mincedmeat,
+    }
+
+    item MincedMeat_Turkey
+	{
+        EvolvedRecipe = Skewer:10;BowlOfFood:10|Cooked;Pizza:15;Stew:15;Stir fry Griddle Pan:15;Stir fry:15;Sandwich:5|Cooked;Sandwich Baguette:5|Cooked;Salad:10|Cooked;Roasted Vegetables:15;PastaPot:15;PastaPan:15;RicePot:15;RicePan:15;Taco:15|Cooked;Burrito:15|Cooked,
+        Tags = sapphcooking:mincedmeat;sapphcooking:turkey,
+    }
+
+    item Meatballs
+	{
+        EvolvedRecipe = Skewer:10;BowlOfFood:10|Cooked;Pizza:15;Stew:15;Stir fry Griddle Pan:15;Stir fry:15;Sandwich:5|Cooked;Sandwich Baguette:5|Cooked;Salad:10|Cooked;Roasted Vegetables:15;PastaPot:15;PastaPan:15;RicePot:15;RicePan:15;Taco:15|Cooked;Burrito:15|Cooked,
+        Tags = sapphcooking:mincedmeat,
+    }
+
+    /**********::--------------------:: Sausage ::--------------------:: **************/
+
+    item SausageEvolved
+	{
+        EvolvedRecipe = Skewer:10;BowlOfFood:10|Cooked;Pizza:15;Stew:15;Stir fry Griddle Pan:15;Stir fry:15;Sandwich:5|Cooked;Sandwich Baguette:5|Cooked;Salad:10|Cooked;Roasted Vegetables:15;PastaPot:15;PastaPan:15;RicePot:15;RicePan:15;Taco:15|Cooked;Burrito:15|Cooked,
+        Tags = sapphcooking:sausage,
+    }
+
+    item SausageBlood
+	{
+        EvolvedRecipe = Skewer:10;BowlOfFood:10|Cooked;Pizza:15;Stew:15;Stir fry Griddle Pan:15;Stir fry:15;Sandwich:5|Cooked;Sandwich Baguette:5|Cooked;Salad:10|Cooked;Roasted Vegetables:15;PastaPot:15;PastaPan:15;RicePot:15;RicePan:15;Taco:15|Cooked;Burrito:15|Cooked,
+        Tags = sapphcooking:sausage,
+    }
+
+    item ViennaSausage
+	{
+        EvolvedRecipe = Skewer:10;BowlOfFood:10|Cooked;Pizza:15;Stew:15;Stir fry Griddle Pan:15;Stir fry:15;Sandwich:5|Cooked;Sandwich Baguette:5|Cooked;Salad:10|Cooked;Roasted Vegetables:15;PastaPot:15;PastaPan:15;RicePot:15;RicePan:15;Taco:15|Cooked;Burrito:15|Cooked,
+        Tags = sapphcooking:sausage,
+    }
+
+    /**********::--------------------:: Fish ::--------------------:: **************/
+    
+    item CrabStick
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10|Cooked;Pizza:15;Stew:15;Pie:15;Sandwich:5|Cooked;Burger:15|Cooked;Hotdog:15|Cooked;Taco:15|Cooked;Burrito:15|Cooked;Pasta:15;Rice:15;Stir fry:15,
+        Tags = base:fishmeat,
+    }
+
+    item Takoyaki
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10|Cooked;Pizza:15;Stew:15;Pie:15;Sandwich:5|Cooked;Burger:15|Cooked;Hotdog:15|Cooked;Taco:15|Cooked;Burrito:15|Cooked;Pasta:15;Rice:15;Stir fry:15,
+    }
+
+    item CrabRangoon
+	{
+		EvolvedRecipe = BowlOfFood:10|Cooked;Pizza:15;Stew:15;Pie:15;Sandwich:5|Cooked;Burger:15|Cooked;Hotdog:15|Cooked;Taco:15|Cooked;Burrito:15|Cooked;Pasta:15;Rice:15;Stir fry:15,
+    }
+
+    /**********::--------------------:: Prepared Meals ::--------------------:: **************/
+
+    item BeefWellington
+	{
+		EvolvedRecipe = BowlOfFood:12|Cooked;Pizza:15;Stew:15;Pie:15;Sandwich:5|Cooked;Burger:15|Cooked;Hotdog:15|Cooked;Taco:15|Cooked;Burrito:15|Cooked;Pasta:15;Rice:15;Stir fry:15,
+    }
+
+    item Schnitzel
+	{
+		EvolvedRecipe = BowlOfFood:10|Cooked;Pizza:15;Stew:15;Pie:15;Sandwich:5|Cooked;Burger:15|Cooked;Hotdog:15|Cooked;Taco:15|Cooked;Burrito:15|Cooked;Pasta:15;Rice:15;Stir fry:15,
+    }
+
+    item SapphCorndog
+	{
+		EvolvedRecipe = BowlOfFood:10|Cooked;Pizza:15;Stew:15;Pie:15;Sandwich:5|Cooked;Burger:15|Cooked;Hotdog:15|Cooked;Taco:15|Cooked;Burrito:15|Cooked;Pasta:15;Rice:15;Stir fry:15,
+    }
+
+    item SapphFishFried
+	{
+		EvolvedRecipe = BowlOfFood:10|Cooked;Pizza:15;Stew:15;Pie:15;Sandwich:5|Cooked;Burger:15|Cooked;Hotdog:15|Cooked;Taco:15|Cooked;Burrito:15|Cooked;Pasta:15;Rice:15;Stir fry:15,
+    }
+
+    item FriedBirdMeat
+	{
+		EvolvedRecipe = BowlOfFood:10|Cooked;Pizza:15;Stew:15;Pie:15;Sandwich:5|Cooked;Burger:15|Cooked;Hotdog:15|Cooked;Taco:15|Cooked;Burrito:15|Cooked;Pasta:15;Rice:15;Stir fry:15,
+    }
+
+    item FriedBirdMeat_Fillet
+	{
+		EvolvedRecipe = BowlOfFood:10|Cooked;Pizza:15;Stew:15;Pie:15;Sandwich:5|Cooked;Burger:15|Cooked;Hotdog:15|Cooked;Taco:15|Cooked;Burrito:15|Cooked;Pasta:15;Rice:15;Stir fry:15,
+    }
+
+    item FriedBirdMeat_Whole
+	{
+		EvolvedRecipe = BowlOfFood:10|Cooked;Pizza:15;Stew:15;Pie:15;Sandwich:5|Cooked;Burger:15|Cooked;Hotdog:15|Cooked;Taco:15|Cooked;Burrito:15|Cooked;Pasta:15;Rice:15;Stir fry:15,
+    }
+
+    item FriedRat
+	{
+		EvolvedRecipe = BowlOfFood:10|Cooked;Pizza:15;Stew:15;Pie:15;Sandwich:5|Cooked;Burger:15|Cooked;Hotdog:15|Cooked;Taco:15|Cooked;Burrito:15|Cooked;Pasta:15;Rice:15;Stir fry:15,
+    }
+
+    item CoxinhaPrep
+	{
+    }
+
+    item CoxinhaFried
+	{
+    }
+
+    item PastelPrep
+	{
+    }
+
+    item PastelFried
+	{
+    }
+
+    item Sausage_PigBlanket
+	{
+		EvolvedRecipe = BowlOfFood:10|Cooked;Pizza:15;Stew:15;Pie:15;Sandwich:5|Cooked;Burger:15|Cooked;Hotdog:15|Cooked;Taco:15|Cooked;Burrito:15|Cooked;Pasta:15;Rice:15;Stir fry:15,
+    }
+
+    /**********::---------------------------:: ::---------------------------:: **************/
+    /**********::--------------------:: Vegetables ::--------------------:: *****************/
+    /**********::---------------------------:: ::---------------------------:: **************/
+    
+    item WildBeets
+	{
+        EvolvedRecipe = BowlOfFood:8;Omelette:10;Soup:10;Stew:10;Pie:10;Stir fry Griddle Pan:10;Stir fry:10;Sandwich:5;Sandwich Baguette:5;Burger:10;Salad:10;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10;Taco:10;Burrito:10,
+    }
+
+    item Truffle
+	{
+        EvolvedRecipe = BowlOfFood:8;Omelette:9;Soup:18;Stew:18;Pie:18;Stir fry Griddle Pan:18;Stir fry:18;Salad:9;Roasted Vegetables:18,
+    }
+
+    item LettuceWrap
+	{
+        EvolvedRecipe = Sandwich:3;Burger:3;Salad:5;Sandwich Baguette:3;Taco:3;Burrito:3,
+    }
+
+    item BakedPotato
+	{
+        EvolvedRecipe = BowlOfFood:12|Cooked;Pizza:15;Stew:15;Pie:15;Sandwich:5|Cooked;Burger:15|Cooked;Hotdog:15|Cooked;Taco:15|Cooked;Burrito:15|Cooked;Pasta:15;Rice:15;Stir fry:15,
+    }
+
+    item HomemadeFries
+	{
+        EvolvedRecipe = BowlOfFood:8;Omelette:10;Soup:10;Stew:10;Pie:10;Stir fry Griddle Pan:10;Stir fry:10;Sandwich:5;Sandwich Baguette:5;Burger:10;Salad:10;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10;Taco:10;Burrito:10,
+    }
+
+    item HomemadePopcorn
+	{
+    }
+
+    item BloomingOnion
+	{
+        EvolvedRecipe = Skewer:8;BowlOfFood:8;Omelette:10;Soup:10;Stew:10;Pie:10;Stir fry Griddle Pan:10;Stir fry:10;Sandwich:5;Sandwich Baguette:5;Burger:10;Salad:10;Roasted Vegetables:10;RicePot:10;RicePan:10;PastaPot:10;PastaPan:10;Taco:10;Burrito:10,
+
+    }
+
+    item FriedEggplant
+	{
+		EvolvedRecipe = Skewer:8;BowlOfFood:8;Pizza:8;Omelette:8;Soup:16;Stew:16;Pie:16;Stir fry Griddle Pan:16;Stir fry:16;Burger:8;Sandwich:4;Sandwich Baguette:4;Salad:8;Roasted Vegetables:16;RicePot:16;RicePan:16;PastaPot:16;PastaPan:16,
+    }
+
+    item BakedPotato_Evolved
+	{
+        EvolvedRecipe = BowlOfFood:12|Cooked;Pizza:15;Stew:15;Pie:15;Sandwich:5|Cooked;Burger:15|Cooked;Hotdog:15|Cooked;Taco:15|Cooked;Burrito:15|Cooked;Pasta:15;Rice:15;Stir fry:15,
+    }
+
+    item Falafel_Fried
+	{
+        EvolvedRecipe = Skewer:8;BowlOfFood:8;Omelette:8;Soup:8;Pie:8;Stir fry Griddle Pan:8;Stir fry:8;Sandwich:8;Sandwich Baguette:8;Burger:8;Salad:8;Roasted Vegetables:8;RicePot:8;RicePan:8;PastaPot:8;PastaPan:8;Taco:8;Burrito:8,
+
+    }
+
+
+    item Stuffed_BellPepper
+	{
+        EvolvedRecipe = BowlOfFood:12|Cooked,
+    }
+
+    /**********::--------------------:: Sliced  ::--------------------:: **************/
+    item SlicedBellPepper
+	{
+        EvolvedRecipe = Skewer:8;BowlOfFood:8;Omelette:8;Soup:8;Pie:8;Stir fry Griddle Pan:8;Stir fry:8;Sandwich:8;Sandwich Baguette:8;Burger:8;Salad:8;Roasted Vegetables:8;RicePot:8;RicePan:8;PastaPot:8;PastaPan:8;Taco:8;Burrito:8,
+        Tags = sapphcooking:pepper;sapphcooking:slicedvegetables,
+    }
+
+    item SlicedCarrots
+	{
+        EvolvedRecipe = Skewer:8;BowlOfFood:8;Omelette:8;Soup:8;Pie:8;Stir fry Griddle Pan:8;Stir fry:8;Sandwich:8;Sandwich Baguette:8;Burger:8;Salad:8;Roasted Vegetables:8;RicePot:8;RicePan:8;PastaPot:8;PastaPan:8;Taco:8;Burrito:8,
+    	Tags = sapphcooking:slicedvegetables;sapphcooking:carrot,
+
+    }
+
+    item SlicedTomato
+	{
+        EvolvedRecipe = Skewer:8;BowlOfFood:8;Omelette:8;Soup:8;Pie:8;Stir fry Griddle Pan:8;Stir fry:8;Sandwich:8;Sandwich Baguette:8;Burger:8;Salad:8;Roasted Vegetables:8;RicePot:8;RicePan:8;PastaPot:8;PastaPan:8;Taco:8;Burrito:8,
+    	Tags = sapphcooking:slicedvegetables;sapphcooking:tomato,
+
+    }
+
+    item SlicedEggplant
+	{
+        EvolvedRecipe = Skewer:8;BowlOfFood:8;Omelette:8;Soup:8;Pie:8;Stir fry Griddle Pan:8;Stir fry:8;Sandwich:8;Sandwich Baguette:8;Burger:8;Salad:8;Roasted Vegetables:8;RicePot:8;RicePan:8;PastaPot:8;PastaPan:8;Taco:8;Burrito:8,
+    	Tags = sapphcooking:slicedvegetables,
+    }
+
+    /**********::--------------------:: Diced  ::--------------------:: **************/
+
+    item DicedBellPepper
+	{
+        EvolvedRecipe = Skewer:8;BowlOfFood:8;Omelette:8;Soup:8;Pie:8;Stir fry Griddle Pan:8;Stir fry:8;Sandwich:8;Sandwich Baguette:8;Burger:8;Salad:8;Roasted Vegetables:8;RicePot:8;RicePan:8;PastaPot:8;PastaPan:8;Taco:8;Burrito:8,
+        Tags = sapphcooking:pepper;sapphcooking:slicedvegetables,
+    }
+
+    item DicedCarrots
+	{
+        EvolvedRecipe = Skewer:8;BowlOfFood:8;Omelette:8;Soup:8;Pie:8;Stir fry Griddle Pan:8;Stir fry:8;Sandwich:8;Sandwich Baguette:8;Burger:8;Salad:8;Roasted Vegetables:8;RicePot:8;RicePan:8;PastaPot:8;PastaPan:8;Taco:8;Burrito:8,
+        Tags = sapphcooking:slicedvegetables;sapphcooking:carrot,
+    }
+
+    item DicedBroccoli
+	{
+        EvolvedRecipe = Skewer:8;BowlOfFood:8;Omelette:8;Soup:8;Pie:8;Stir fry Griddle Pan:8;Stir fry:8;Sandwich:8;Sandwich Baguette:8;Burger:8;Salad:8;Roasted Vegetables:8;RicePot:8;RicePan:8;PastaPot:8;PastaPan:8;Taco:8;Burrito:8,
+		Tags = sapphcooking:slicedvegetables,
+    }
+
+    item DicedTomato
+	{
+        EvolvedRecipe = Skewer:8;BowlOfFood:8;Omelette:8;Soup:8;Pie:8;Stir fry Griddle Pan:8;Stir fry:8;Sandwich:8;Sandwich Baguette:8;Burger:8;Salad:8;Roasted Vegetables:8;RicePot:8;RicePan:8;PastaPot:8;PastaPan:8;Taco:8;Burrito:8,
+		Tags = sapphcooking:slicedvegetables;sapphcooking:tomato,
+    }
+
+    /**********::---------------------------:: ::---------------------------:: **************/
+	/**********::--------------------:: Eggs ::--------------------:: ***********************/
+	/**********::---------------------------:: ::---------------------------:: **************/
+
+    item BrownEgg
+	{
+        EvolvedRecipe = BlenderSalty:8|Cooked;BowlOfFood:5|Cooked,
+	}
+
+    /**********::---------------------------:: ::---------------------------:: **************/
+    /**********::--------------------:: Pastas ::--------------------:: **********************/
+    /**********::---------------------------:: ::---------------------------:: **************/
+    
+    item Ravioli
+	{
+		EvolvedRecipe = BowlOfFood:12|Cooked;Pizza:15;Stew:15;Pie:15;Sandwich:5|Cooked;Burger:15|Cooked;Hotdog:15|Cooked;Taco:15|Cooked;Burrito:15|Cooked;Pasta:15;Rice:15;Stir fry:15,
+    }
+
+    item Tortellini
+	{
+		EvolvedRecipe = BowlOfFood:12|Cooked;Pizza:15;Stew:15;Pie:15;Sandwich:5|Cooked;Burger:15|Cooked;Hotdog:15|Cooked;Taco:15|Cooked;Burrito:15|Cooked;Pasta:15;Rice:15;Stir fry:15,
+    }
+
+    item LasagnaPiece
+	{
+		EvolvedRecipe = BowlOfFood:12;Pizza:15;Stew:15;Pie:15;Sandwich:5|Cooked;Burger:15|Cooked;Hotdog:15|Cooked;Taco:15|Cooked;Burrito:15|Cooked;Pasta:15;Rice:15;Stir fry:15,
+    }
+
+    item Pierogi
+	{
+		EvolvedRecipe = BowlOfFood:12|Cooked;Pizza:15;Stew:15;Pie:15;Sandwich:5|Cooked;Burger:15|Cooked;Hotdog:15|Cooked;Taco:15|Cooked;Burrito:15|Cooked;Pasta:15;Rice:15;Stir fry:15,
+    }
+
+    /**********::---------------------------:: ::---------------------------:: **************/
+    /**********::--------------------:: Spices ::--------------------:: **********************/
+    /**********::---------------------------:: ::---------------------------:: **************/
+
+    item CurryPowder
+	{
+		EvolvedRecipe = BowlOfFood:4;Soup:1;Stew:1;Pie:1;Toast:2;Stir fry Griddle Pan:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1;Sandwich:1,
+    }
+
+    item GranulatedSugar
+	{
+		EvolvedRecipe 	=  Cake:2;Pancakes:2;Waffles:2;Muffin:2;ConeIcecream:2;PieSweet:2;Toast:2;Bread:2;HotDrink:1;HotDrinkSpiffo:1;HotDrinkTea:1,
+    }
+
+    item MonosodiumGlutamate_MSG
+	{
+		EvolvedRecipe = BowlOfFood:4;Skewer:2;Pizza:2;Soup:2;Stew:2;Pie:2;Toast:2;Stir fry Griddle Pan:2;Stir fry:2;Burger:2;Salad:2;Roasted Vegetables:2;RicePot:2;RicePan:2;PastaPot:2;PastaPan:2;Sandwich:2;Sandwich Baguette:2;Taco:2;Burrito:2,
+    }
+
+    item Spice_Furikake
+	{
+		EvolvedRecipe = BowlOfFood:4;Skewer:2;Soup:1;Stew:1;Pie:1;Toast:2;Stir fry Griddle Pan:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1;Sandwich:1,
+    }
+
+    item Spice_OysterSauce
+	{
+		EvolvedRecipe = BowlOfFood:4;Skewer:2;Soup:1;Stew:1;Pie:1;Toast:2;Stir fry Griddle Pan:1;Stir fry:1;Burger:1;Salad:1;Roasted Vegetables:1;RicePot:1;RicePan:1;PastaPot:1;PastaPan:1;Sandwich:1,
+    }
+
+    item NoodleSachet_Beef
+	{
+		EvolvedRecipe 		= BowlOfFood:4;Soup:4;Stew:4;Pie:4;Stir fry Griddle Pan:4;Stir fry:4;Toast:2;Salad:4;Roasted Vegetables:4;RicePot:4;RicePan:4;PastaPot:4;PastaPan:4,
+    }
+
+    item NoodleSachet_Chicken
+	{
+		EvolvedRecipe 		= BowlOfFood:4;Pizza:4;Soup:4;Stew:4;Pie:4;Bread:4;Toast:4;Toast:2;Stir fry Griddle Pan:4;Hotdog:4;Stir fry:4;Burger:4;Salad:4;Roasted Vegetables:4;RicePot:4;RicePan:4;PastaPot:4;PastaPan:4;Sandwich:4;Sandwich Baguette:4;Taco:4;Burrito:4,
+    }
+
+    item NoodleSachet_Chicken
+	{
+		EvolvedRecipe 		= BowlOfFood:4;Pizza:4;Soup:4;Stew:4;Pie:4;Bread:4;Toast:4;Toast:2;Stir fry Griddle Pan:4;Hotdog:4;Stir fry:4;Burger:4;Salad:4;Roasted Vegetables:4;RicePot:4;RicePan:4;PastaPot:4;PastaPan:4;Sandwich:4;Sandwich Baguette:4;Taco:4;Burrito:4,
+    }
+
+    item SaltPacket
+	{
+		EvolvedRecipe 		= Skewer:2;BowlOfFood:2;Pizza:2;Soup:2;Stew:2;Pie:2;Bread:2;Toast:2;Stir fry Griddle Pan:2;Hotdog:2;Stir fry:2;Burger:1;Salad:2;Roasted Vegetables:2;RicePot:2;RicePan:2;PastaPot:2;PastaPan:2;Sandwich:2;Sandwich Baguette:2;Taco:2;Burrito:2,
+    }
+
+    item SugarPacket
+	{
+		EvolvedRecipe 		= Skewer:2;BowlOfFood:2;HotDrink:2;Toast:2;Oatmeal:2;Pancakes:2;Muffin:2;Cake:2;PieSweet:2;Soup:2;Stew:2;ConeIceCream:2,
+    }
+
+    item HotsaucePacket
+	{
+		EvolvedRecipe 		= Skewer:2;BowlOfFood:2;HotDrink:2;Toast:2;Oatmeal:2;Pancakes:2;Muffin:2;Cake:2;PieSweet:2;Soup:2;Stew:2;ConeIceCream:2,
+    }
+
+    item SoySauce_Sachet
+	{
+		EvolvedRecipe 		= Skewer:2;BowlOfFood:2;HotDrink:2;Toast:2;Oatmeal:2;Pancakes:2;Muffin:2;Cake:2;PieSweet:2;Soup:2;Stew:2;ConeIceCream:2,
+    }
+
+    item Mustard_Sachet
+	{
+		EvolvedRecipe 		= Skewer:2;BowlOfFood:2;HotDrink:2;Toast:2;Oatmeal:2;Pancakes:2;Muffin:2;Cake:2;PieSweet:2;Soup:2;Stew:2;ConeIceCream:2,
+    }
+
+     item Tomato_Sachet
+	{
+		EvolvedRecipe 		= Skewer:2;BowlOfFood:2;HotDrink:2;Toast:2;Oatmeal:2;Pancakes:2;Muffin:2;Cake:2;PieSweet:2;Soup:2;Stew:2;ConeIceCream:2,
+        Tags = sapphcooking:tomato,
+    }
+
+     item PeanutButter_Sachet
+	{
+		EvolvedRecipe 		= Skewer:2;BowlOfFood:2;HotDrink:2;Toast:2;Oatmeal:2;Pancakes:2;Muffin:2;Cake:2;PieSweet:2;Soup:2;Stew:2;ConeIceCream:2,
+    }
+
+    item PeanutButter_Sachet
+	{
+		EvolvedRecipe 		= Skewer:2;BowlOfFood:2;HotDrink:2;Toast:2;Oatmeal:2;Pancakes:2;Muffin:2;Cake:2;PieSweet:2;Soup:2;Stew:2;ConeIceCream:2,
+    }
+
+    item HomemadeKetchup
+	{
+		EvolvedRecipe 		= Skewer:2;BowlOfFood:2;Oatmeal:2;Pancakes:2;Muffin:2;Cake:2;Pizza:2;ConeIceCream:2;Soup:2;Stew:2;Pie:2;Bread:2;Toast:2;Stir fry Griddle Pan:2;Hotdog:2;Stir fry:2;Burger:1;Salad:2;Roasted Vegetables:2;RicePot:2;RicePan:2;PastaPot:2;PastaPan:2;Sandwich:2;Sandwich Baguette:2;Taco:2;Burrito:2,
+    }
+
+    item Bowl_Marinade
+	{
+		EvolvedRecipe 		= Skewer:2;BowlOfFood:2;Oatmeal:2;Pancakes:2;Muffin:2;Cake:2;Toast:2;Pizza:2;ConeIceCream:2;Soup:2;Stew:2;Pie:2;Bread:2;Toast:2;Stir fry Griddle Pan:2;Hotdog:2;Stir fry:2;Burger:1;Salad:2;Roasted Vegetables:2;RicePot:2;RicePan:2;PastaPot:2;PastaPan:2;Sandwich:2;Sandwich Baguette:2;Taco:2;Burrito:2,
+    }
+
+    item Jar_Kimchi_Fermented
+	{
+		EvolvedRecipe 		= Skewer:6;BowlOfFood:8;Oatmeal:8;Pancakes:8;Muffin:8;Cake:8;Pizza:8;ConeIceCream:8;Soup:8;Stew:8;Pie:8;Bread:8;Toast:8;Stir fry Griddle Pan:8;Hotdog:8;Stir fry:8;Burger:1;Salad:8;Roasted Vegetables:8;RicePot:8;RicePan:8;PastaPot:8;PastaPan:8;Sandwich:8;Sandwich Baguette:8;Taco:8;Burrito:8,
+    }
+
+    item MisoPaste
+	{
+		EvolvedRecipe 		= Skewer:6;BowlOfFood:8;Oatmeal:8;Pancakes:8;Muffin:8;Cake:8;Pizza:8;ConeIceCream:8;Soup:8;Stew:8;Pie:8;Bread:8;Toast:8;Stir fry Griddle Pan:8;Hotdog:8;Stir fry:8;Burger:1;Salad:8;Roasted Vegetables:8;RicePot:8;RicePan:8;PastaPot:8;PastaPan:8;Sandwich:8;Sandwich Baguette:8;Taco:8;Burrito:8,
+    }
+
+
+    /**********::---------------------------:: ::---------------------------:: **************/
+    /**********::--------------------:: Sweets ::--------------------:: *********************/
+    /**********::---------------------------:: ::---------------------------:: **************/
+
+
+    item Syrup_Chocolate
+	{
+		EvolvedRecipe = Cake:5;Sandwich:2;Sandwich Baguette:2;FruitSalad:2;HotDrink:2;HotDrinkSpiffo:2;HotDrinkTea:2;Pancakes:2;Waffles:2;ConeIcecream:2;PieSweet:5;Toast:2;Oatmeal:2,
+        Tags = sapphcooking:meltedchocolate;sapphcooking:syrup;base:chocolate,
+    }
+
+    item Syrup_Strawberry
+	{
+		EvolvedRecipe = Cake:5;Sandwich:2;Sandwich Baguette:2;FruitSalad:2;HotDrink:2;HotDrinkSpiffo:2;HotDrinkTea:2;Pancakes:2;Waffles:2;ConeIcecream:2;PieSweet:5;Toast:2;Oatmeal:2,
+		Tags = sapphcooking:syrup;sapphcooking:strawberry,
+    }
+
+    item Syrup_Caramel
+	{
+		EvolvedRecipe = Cake:5;Sandwich:2;Sandwich Baguette:2;FruitSalad:2;HotDrink:2;HotDrinkSpiffo:2;HotDrinkTea:2;Pancakes:2;Waffles:2;ConeIcecream:2;PieSweet:5;Toast:2;Oatmeal:2,
+		Tags = sapphcooking:syrup,
+    }
+
+    item CottonCandy_White
+	{
+		EvolvedRecipe = Cake:5;ConeIcecream:5,
+    }
+    item CottonCandy_Pink
+	{
+		EvolvedRecipe = Cake:5;ConeIcecream:5,
+    }
+    item CottonCandy_Blue
+	{
+		EvolvedRecipe = Cake:5;ConeIcecream:5,
+    }
+    item CottonCandy_Green
+	{
+		EvolvedRecipe = Cake:5;ConeIcecream:5,
+    }
+    item CottonCandy_Purple
+	{
+		EvolvedRecipe = Cake:5;ConeIcecream:5,
+    }
+    item CottonCandy_Red
+	{
+		EvolvedRecipe = Cake:5;ConeIcecream:5,
+    }
+    item CottonCandy_Orange
+	{
+		EvolvedRecipe = Cake:5;ConeIcecream:5,
+    }
+    item CottonCandy_Yellow
+	{
+		EvolvedRecipe = Cake:5;ConeIcecream:5,
+    }
+
+    item PuffedRice
+	{
+		EvolvedRecipe = Oatmeal:8;FruitSalad:8;Cake:8;Pancakes:8;Waffles:8;Muffin:8;ConeIcecream:8;PieSweet:8;Toast:8;Bread:8;HotDrink:8;HotDrinkSpiffo:8;HotDrinkTea:8,
+    }
+
+    item WhippedCream_Can
+	{
+		EvolvedRecipe = Oatmeal:8;FruitSalad:8;Cake:2;Pancakes:2;Waffles:2;Muffin:2;ConeIcecream:2;PieSweet:2;Toast:2;Bread:2;HotDrink:1;HotDrinkSpiffo:1;HotDrinkTea:1,
+        Tags = sapphcooking:icing,
+    }
+    item CandyApple
+	{
+		EvolvedRecipe = Cake:16;FruitSalad:8;Pancakes:8;Waffles:8;Muffin:8;PieSweet:16;Oatmeal:4;Salad:8,
+    }
+
+    item Mochi
+	{
+		EvolvedRecipe = Cake:2;Pancakes:2;Waffles:2;Muffin:2;ConeIcecream:2;PieSweet:2;Toast:2;Bread:2,
+    }
+
+    item Tanghulu
+	{
+		EvolvedRecipe =  Cake:5;Pancakes:5;Waffles:5;Muffin:5;ConeIcecream:5;PieSweet:5;Toast:5;Bread:5;HotDrink:1,
+    }
+
+    item ChocolateEgg_Small
+	{
+		EvolvedRecipe =  Cake:5;Pancakes:5;Waffles:5;Muffin:5;ConeIcecream:5;PieSweet:5;Toast:5;Bread:5;HotDrink:1,
+        Tags = base:chocolate,
+    }
+
+    item ChocolateEgg_Medium
+	{
+		EvolvedRecipe =  Cake:5;Pancakes:5;Waffles:5;Muffin:5;ConeIcecream:5;PieSweet:5;Toast:5;Bread:5;HotDrink:1,
+        Tags = base:chocolate,
+    }
+
+    item ChocolateEgg_Large
+	{
+		EvolvedRecipe =  Cake:5;Pancakes:5;Waffles:5;Muffin:5;ConeIcecream:5;PieSweet:5;Toast:5;Bread:5;HotDrink:1,
+        Tags = base:chocolate,
+    }
+
+    item Bonbon
+	{
+		EvolvedRecipe = Muffin:2;ConeIcecream:2;Cake:2;Pancakes:2;Waffles:2;PieSweet:2;Bread:2;ConeIcecream:2,
+        Tags = base:chocolate,
+    }
+
+    item Bonbon_Liqueur
+	{
+		EvolvedRecipe = Muffin:2;ConeIcecream:2;Cake:2;Pancakes:2;Waffles:2;PieSweet:2;Bread:2;ConeIcecream:2,
+        Tags = base:chocolate,
+    }
+
+    item Heart_Chocolate
+	{
+		EvolvedRecipe = Muffin:2;ConeIcecream:2;Cake:2;Pancakes:2;Waffles:2;PieSweet:2;Bread:2;ConeIcecream:2,
+        Tags = base:chocolate,
+    }
+
+    item WhiteChocolate
+	{
+		EvolvedRecipe = Muffin:2;ConeIcecream:2;Cake:2;Pancakes:2;Waffles:2;PieSweet:2;Bread:2;ConeIcecream:2,
+        Tags = base:chocolate,
+    }
+
+    item TiramisuPiece
+	{
+		EvolvedRecipe =  Cake:5;Pancakes:5;Waffles:5;Muffin:5;ConeIcecream:5;PieSweet:5;Toast:5;Bread:5;HotDrink:1,
+    }
+
+    item PipingBag_Icing
+	{
+		EvolvedRecipe = Cake:10;Pancakes:5;Waffles:5;Muffin:10;ConeIcecream:5;PieSweet:10;Toast:5;Bread:10,
+        Tags = sapphcooking:icing,
+    }
+
+    item CrackersEvolved
+	{
+		EvolvedRecipe = Cake:10;Waffles:5;Muffin:10;ConeIcecream:5;PieSweet:10;Toast:5;Bread:10,
+    }
+
+    item GrahamCrackersEvolved
+	{
+		EvolvedRecipe = Cake:10;Waffles:5;Muffin:10;ConeIcecream:5;PieSweet:10;Toast:5;Bread:10,
+    }
+
+    item SapphDoughnutPlain
+	{
+		EvolvedRecipe = Cake:10;Waffles:5;Muffin:10;ConeIcecream:5;PieSweet:10;Toast:5;Bread:10,
+    }
+
+    item SapphDoughnutChocolate
+	{
+		EvolvedRecipe = Cake:10;Waffles:5;Muffin:10;ConeIcecream:5;PieSweet:10;Toast:5;Bread:10,
+    }
+
+    item SapphDoughnut_Evolved
+	{
+		EvolvedRecipe = Cake:10;Waffles:5;Muffin:10;ConeIcecream:5;PieSweet:10;Toast:5;Bread:10,
+    }
+
+    item Sapph_DoughnutChocolate
+	{
+		EvolvedRecipe = Cake:10;Waffles:5;Muffin:10;ConeIcecream:5;PieSweet:10;Toast:5;Bread:10,
+    }
+
+    item SapphDoughnutChocolate_Evolved
+	{
+		EvolvedRecipe = Cake:10;Waffles:5;Muffin:10;ConeIcecream:5;PieSweet:10;Toast:5;Bread:10,
+    }
+
+    item Eclair_Evolved
+	{
+		EvolvedRecipe = Cake:10;Waffles:5;Muffin:10;ConeIcecream:5;PieSweet:10;Toast:5;Bread:10,
+    }
+
+    item Eclair_Chocolate
+	{
+		EvolvedRecipe = Cake:10;Waffles:5;Muffin:10;ConeIcecream:5;PieSweet:10;Toast:5;Bread:10,
+    }
+
+    item Eclair_WhiteChocolate
+	{
+		EvolvedRecipe = Cake:10;Waffles:5;Muffin:10;ConeIcecream:5;PieSweet:10;Toast:5;Bread:10,
+    }
+
+    item Eclair
+	{
+		EvolvedRecipe = Cake:10;Waffles:5;Muffin:10;ConeIcecream:5;PieSweet:10;Toast:5;Bread:10,
+    }
+
+    item Eclair_Chocolate_Evolved
+	{
+		EvolvedRecipe = Cake:10;Waffles:5;Muffin:10;ConeIcecream:5;PieSweet:10;Toast:5;Bread:10,
+    }
+
+    item Eclair_WhiteChocolate_Evolved
+	{
+		EvolvedRecipe = Cake:10;Waffles:5;Muffin:10;ConeIcecream:5;PieSweet:10;Toast:5;Bread:10,
+    }
+
+    item ChurrosPlain
+	{
+		EvolvedRecipe = Cake:10;Waffles:5;Muffin:10;ConeIcecream:5;PieSweet:10;Toast:5;Bread:10,
+    }
+
+    item ChurrosChocolate
+	{
+		EvolvedRecipe = Cake:10;Waffles:5;Muffin:10;ConeIcecream:5;PieSweet:10;Toast:5;Bread:10,
+    }
+
+    item ChurrosPlainEvolved
+	{
+		EvolvedRecipe = Cake:10;Waffles:5;Muffin:10;ConeIcecream:5;PieSweet:10;Toast:5;Bread:10,
+    }
+    item Crepe
+	{
+		EvolvedRecipe = Cake:10;Waffles:5;Muffin:10;ConeIcecream:5;PieSweet:10;Toast:5;Bread:10,
+    }
+
+    item CrepeEvolved
+	{
+		EvolvedRecipe = Cake:10;Waffles:5;Muffin:10;ConeIcecream:5;PieSweet:10;Toast:5;Bread:10,
+    }
+
+    item SapphSmore
+	{
+		EvolvedRecipe = Cake:10;Waffles:5;Muffin:10;ConeIcecream:5;PieSweet:10;Toast:5;Bread:10,
+    }
+
+    item FunnelCake
+	{
+		EvolvedRecipe = Cake:10;Waffles:5;Muffin:10;ConeIcecream:5;Toast:5;Bread:10,
+    }
+}

@@ -1,0 +1,21 @@
+IGUI_CN = {
+	IGUI_SmarterStorage_Name = "名称",
+	IGUI_SmarterStorage_Color = "颜色",
+	IGUI_SmarterStorage_Icon = "图标",
+	
+	IGUI_SmarterStorage_Cancel = "取消",
+	IGUI_SmarterStorage_OK = "确认",
+	
+	IGUI_SmarterStorage_Weapons = "武器",
+	IGUI_SmarterStorage_Ammo = "弹药",
+	IGUI_SmarterStorage_Medical = "药物",
+	IGUI_SmarterStorage_Clothing = "服装",
+	IGUI_SmarterStorage_Electronics = "电子产品",
+	IGUI_SmarterStorage_Food = "食物",
+	IGUI_SmarterStorage_Literature = "文学",
+	IGUI_SmarterStorage_Tools = "工具",
+	IGUI_SmarterStorage_Media = "媒体",
+	IGUI_SmarterStorage_Equipment = "装备",
+	IGUI_SmarterStorage_Gardening = "耕作",
+	IGUI_SmarterStorage_Vehicles = "车辆",
+}

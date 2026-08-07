@@ -1,0 +1,96 @@
+ContextMenu_PL = {
+
+/**** Evolved Recipes ****/
+
+    ContextMenu_EvolvedRecipe_VFX_BrownRiceSaucepan = "Brown Rice",
+    ContextMenu_EvolvedRecipe_VFX_BrownRiceSaucepanCopper = "Brown Rice",
+    ContextMenu_EvolvedRecipe_VFX_BrownRicePot = "Brown Rice",
+    ContextMenu_EvolvedRecipe_VFX_BrownRicePotForged = "Brown Rice",
+
+    ContextMenu_EvolvedRecipe_VFX_JasmineRiceSaucepan = "Jasmine Rice",
+    ContextMenu_EvolvedRecipe_VFX_JasmineRiceSaucepanCopper = "Jasmine Rice",
+    ContextMenu_EvolvedRecipe_VFX_JasmineRicePot = "Jasmine Rice",
+    ContextMenu_EvolvedRecipe_VFX_JasmineRicePotForged = "Jasmine Rice",
+
+    ContextMenu_EvolvedRecipe_VFX_BasmatiRiceSaucepan = "Basmati Rice",
+    ContextMenu_EvolvedRecipe_VFX_BasmatiRiceSaucepanCopper = "Basmati Rice",
+    ContextMenu_EvolvedRecipe_VFX_BasmatiRicePot = "Basmati Rice",
+    ContextMenu_EvolvedRecipe_VFX_BasmatiRicePotForged = "Basmati Rice",
+
+    ContextMenu_EvolvedRecipe_VFX_ArborioRiceSaucepan = "Arborio Rice",
+    ContextMenu_EvolvedRecipe_VFX_ArborioRiceSaucepanCopper = "Arborio Rice",
+    ContextMenu_EvolvedRecipe_VFX_ArborioRicePot = "Arborio Rice",
+    ContextMenu_EvolvedRecipe_VFX_ArborioRicePotForged = "Arborio Rice",
+
+    ContextMenu_EvolvedRecipe_VFX_Lasagna = "Lasagne",
+
+    ContextMenu_EvolvedRecipe_VFX_MacaroniSaucepan = "Macaroni",
+    ContextMenu_EvolvedRecipe_VFX_MacaroniSaucepanCopper = "Macaroni",
+    ContextMenu_EvolvedRecipe_VFX_MacaroniPot = "Macaroni",
+    ContextMenu_EvolvedRecipe_VFX_MacaroniPotForged = "Macaroni",
+
+    ContextMenu_EvolvedRecipe_VFX_FettuccineSaucepan = "Fettuccine",
+    ContextMenu_EvolvedRecipe_VFX_FettuccineSaucepanCopper = "Fettuccine",
+    ContextMenu_EvolvedRecipe_VFX_FettuccinePot = "Fettuccine",
+    ContextMenu_EvolvedRecipe_VFX_FettuccinePotForged = "Fettuccine",
+
+    ContextMenu_EvolvedRecipe_VFX_PenneSaucepan = "Penne",
+    ContextMenu_EvolvedRecipe_VFX_PenneSaucepanCopper = "Penne",
+    ContextMenu_EvolvedRecipe_VFX_PennePot = "Penne",
+    ContextMenu_EvolvedRecipe_VFX_PennePotForged = "Penne",
+
+    ContextMenu_EvolvedRecipe_VFX_GnocchiSaucepan = "Gnocchi",
+    ContextMenu_EvolvedRecipe_VFX_GnocchiSaucepanCopper = "Gnocchi",
+    ContextMenu_EvolvedRecipe_VFX_GnocchiPot = "Gnocchi",
+    ContextMenu_EvolvedRecipe_VFX_GnocchiPotForged = "Gnocchi",
+
+    ContextMenu_EvolvedRecipe_VFX_ChiliSaucepan = "Chili",
+    ContextMenu_EvolvedRecipe_VFX_ChiliSaucepanCopper = "Chili",
+    ContextMenu_EvolvedRecipe_VFX_ChiliPot = "Chili",
+    ContextMenu_EvolvedRecipe_VFX_ChiliPotForged = "Chili",
+
+    ContextMenu_EvolvedRecipe_VFX_CurrySaucepan = "Curry",
+    ContextMenu_EvolvedRecipe_VFX_CurrySaucepanCopper = "Curry",
+    ContextMenu_EvolvedRecipe_VFX_CurryPot = "Curry",
+    ContextMenu_EvolvedRecipe_VFX_CurryPotForged = "Curry",
+
+    ContextMenu_EvolvedRecipe_VFX_OatyOsBowl = "Miska płatków owsianych Oaty O’s",
+    ContextMenu_EvolvedRecipe_VFX_HoneyOatyOsBowl = "Miska płatków owsianych miodowych Honey O’s",
+    ContextMenu_EvolvedRecipe_VFX_CornFlakesBowl = "Miska płatków kukurydzianych",
+    ContextMenu_EvolvedRecipe_VFX_RiceKrispsBowl = "Miska chrupków ryżowych Rice Krisps",
+    ContextMenu_EvolvedRecipe_VFX_FrostyCrunchBowl = "Miska chrupków Frosty Crunch",
+    ContextMenu_EvolvedRecipe_VFX_FruityLoopsBowl = "Miska płatków owocowych Fruity Loops",
+    ContextMenu_EvolvedRecipe_VFX_UnluckyCharmsBowl = "Miska płatków Unlucky Charms",
+    ContextMenu_EvolvedRecipe_VFX_AdmiralChompBowl = "Miska płatków Admiral Chomp",
+    ContextMenu_EvolvedRecipe_VFX_CocoaPuffsBowl = "Miska płatków czekoladowych Cocoa Puffs",
+    ContextMenu_EvolvedRecipe_VFX_WheatiesBowl = "Miska płatków przennych Wheaties",
+
+    ContextMenu_EvolvedRecipe_VFX_BowlChickenRamen = "Miska Ramenu drobiowego",
+    ContextMenu_EvolvedRecipe_VFX_BowlBeefRamen = "Miska Ramenu wołowego",
+    ContextMenu_EvolvedRecipe_VFX_BowlShrimpRamen = "Miska Ramenu krewetkowego",
+    ContextMenu_EvolvedRecipe_VFX_BowlPorkRamen = "Miska Ramenu wieprzowego",
+    ContextMenu_EvolvedRecipe_VFX_BowlHotAndSpicyRamen = "Miska Ramenu ostrego",
+    ContextMenu_EvolvedRecipe_VFX_BowlSoySauceRamen = "Miska Ramenu sojowego",
+
+    ContextMenu_EvolvedRecipe_VFX_Casserole = "Zapiekanka",
+    ContextMenu_EvolvedRecipe_VFX_Meatloaf = "Pieczeń mięsna",
+    ContextMenu_EvolvedRecipe_VFX_BakedPotato = "Pieczony ziemniak",
+    ContextMenu_EvolvedRecipe_VFX_ScallopedPotatoBake = "Scalloped Potato Bake",
+    ContextMenu_EvolvedRecipe_VFX_Quiche = "Quiche",
+    ContextMenu_EvolvedRecipe_VFX_Nachos = "Nachosy",
+    ContextMenu_EvolvedRecipe_VFX_Quesadilla = "Quesadilla",
+    ContextMenu_EvolvedRecipe_VFX_Enchilada = "Enchilada",
+    ContextMenu_EvolvedRecipe_VFX_Cheesecake = "Sernik",
+    ContextMenu_EvolvedRecipe_VFX_Milkshake = "Koktajl mleczny",
+    ContextMenu_EvolvedRecipe_VFX_Sushi = "Sushi",
+    ContextMenu_EvolvedRecipe_VFX_FriedRice = "Fried Rice",
+    ContextMenu_EvolvedRecipe_VFX_FriedRiceForged = "Fried Rice",
+
+/**** Rename Base Game to Spaghetti ****/
+
+    ContextMenu_EvolvedRecipe_PastaPan = "Spaghetti",
+    ContextMenu_EvolvedRecipe_PastaPanCopper = "Spaghetti",
+    ContextMenu_EvolvedRecipe_PastaPot = "Spaghetti",
+    ContextMenu_FoodType_Pasta = "Spaghetti",
+    
+}

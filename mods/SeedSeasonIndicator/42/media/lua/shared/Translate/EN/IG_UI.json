@@ -1,0 +1,17 @@
+{
+    "IGUI_ItemCat_Gardening_01_Best": "Gardening (Best)",
+    "IGUI_ItemCat_Gardening_02_InSeason": "Gardening (In Season)",
+    "IGUI_ItemCat_Gardening_03_Risk": "Gardening (Risk)",
+    "IGUI_ItemCat_Gardening_04_OutOfSeason": "Gardening (Out of Season)",
+    "IGUI_ItemCat_Gardening_05_Unknown": "Gardening",
+    "IGUI_ItemCat_Gardening_06_Other": "Gardening",
+    "IGUI_SSI_SeasonSuffix_Best": "(Best)",
+    "IGUI_SSI_SeasonSuffix_InSeason": "(In Season)",
+    "IGUI_SSI_SeasonSuffix_Risk": "(Risk)",
+    "IGUI_SSI_SeasonSuffix_OutOfSeason": "(Out of Season)",
+    "IGUI_SSI_TooltipThisMonth": "This month",
+    "IGUI_SSI_TooltipStatus_Best": "Best",
+    "IGUI_SSI_TooltipStatus_InSeason": "In Season",
+    "IGUI_SSI_TooltipStatus_Risk": "Risk",
+    "IGUI_SSI_TooltipStatus_OutOfSeason": "Out of Season"
+}

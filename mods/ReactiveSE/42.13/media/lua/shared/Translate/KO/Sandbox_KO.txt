@@ -1,0 +1,187 @@
+Sandbox_KO = {
+	Sandbox_ReactiveSE = "Reactive Sound Events (반응형 사운드 이벤트)",
+	Sandbox_ReactiveSEEvents = "Reactive SE - 사운드 이벤트",
+	Sandbox_ReactiveSEBehavior = "Reactive SE - 행동",
+	Sandbox_ReactiveSEScenes = "Reactive SE - 현장",
+	Sandbox_ReactiveSELoot = "Reactive SE - 현장 전리품",
+	Sandbox_ReactiveSEWorld = "Reactive SE - 월드",
+	Sandbox_ReactiveSERadio = "Reactive SE - 녹스 릴레이 라디오",
+
+	Sandbox_ReactiveSE_MinEventCooldown = "최소 이벤트 쿨타임",
+	Sandbox_ReactiveSE_MinEventCooldown_tooltip = "이벤트가 발생하려면 걸리는 최소한의 게임 내 시간 (시간)",
+
+	Sandbox_ReactiveSE_MaxEventCooldown = "최대 이벤트 쿨타임",
+	Sandbox_ReactiveSE_MaxEventCooldown_tooltip = "게임 내에서 이 시간이 지나면 이벤트가 반드시 발생함 (시간)",
+
+	Sandbox_ReactiveSE_EventChance = "이벤트 확률(%)",
+	Sandbox_ReactiveSE_EventChance_tooltip = "최소 쿨다운 이후 10분마다 이벤트가 발생할 확률",
+
+	Sandbox_ReactiveSE_FlatProbability = "고정 확률",
+	Sandbox_ReactiveSE_FlatProbability_tooltip = "켜면 확률이 고정됨. 끄면 최대 쿨타임까지 확률이 점점 증가 (예전 방식)",
+
+	Sandbox_ReactiveSE_MinSoundRange = "최소 사운드 거리",
+	Sandbox_ReactiveSE_MinSoundRange_tooltip = "사운드 이벤트가 생성될 수 있는 최소 거리(타일 기준)",
+
+	Sandbox_ReactiveSE_MaxSoundRange = "최대 사운드 거리",
+	Sandbox_ReactiveSE_MaxSoundRange_tooltip = "사운드 이벤트가 생성될 수 있는 최대 거리(타일 기준)",
+
+	Sandbox_ReactiveSE_ReactionThresholdRange = "반응 한계 거리",
+	Sandbox_ReactiveSE_ReactionThresholdRange_tooltip = "이 거리 안에서 소리가 발생하면 공황에 빠지거나 잠에서 깰 수 있음. 이 거리 밖의 소리는 듣기만 함",
+
+	Sandbox_ReactiveSE_CloseDistanceChance = "근거리 확률",
+	Sandbox_ReactiveSE_CloseDistanceChance_tooltip = "이벤트가 근거리에서 생성될 확률",
+
+	Sandbox_ReactiveSE_MediumDistanceChance = "중거리 확률",
+	Sandbox_ReactiveSE_MediumDistanceChance_tooltip = "이벤트가 중거리에서 생성될 확률",
+
+	Sandbox_ReactiveSE_FarDistanceChance = "원거리 확률",
+	Sandbox_ReactiveSE_FarDistanceChance_tooltip = "이벤트가 원거리에서 생성될 확률",
+
+	Sandbox_ReactiveSE_EnableZombieHearing = "좀비 청각 활성화",
+	Sandbox_ReactiveSE_EnableZombieHearing_tooltip = "좀비가 사운드 이벤트에 반응하도록 허용",
+
+	Sandbox_ReactiveSE_EnableDebugMode = "[DEV] 디버그 모드 활성화",
+	Sandbox_ReactiveSE_EnableDebugMode_tooltip = "[DEV] 디버그 로그 및 시각적 보조 표시 활성화",
+
+	Sandbox_ReactiveSEEvents_EnableAnimalEvents = "동물 이벤트 활성화",
+	Sandbox_ReactiveSEEvents_EnableAnimalEvents_tooltip = "멀리서 들리는 동물 소리",
+
+	Sandbox_ReactiveSEEvents_EnableGunfightEvents = "총격전 이벤트 활성화",
+	Sandbox_ReactiveSEEvents_EnableGunfightEvents_tooltip = "생존자 간 총격전",
+
+	Sandbox_ReactiveSEEvents_EnableGunshotEvents = "총성 이벤트 활성화",
+	Sandbox_ReactiveSEEvents_EnableGunshotEvents_tooltip = "멀리서 들리는 단발 총성",
+
+	Sandbox_ReactiveSEEvents_EnableScreamEvents = "비명 이벤트 활성화",
+	Sandbox_ReactiveSEEvents_EnableScreamEvents_tooltip = "멀리서 들리는 생존자 비명",
+
+	Sandbox_ReactiveSEEvents_EnableVehicleCrashEvents = "차량 충돌 이벤트 활성화",
+	Sandbox_ReactiveSEEvents_EnableVehicleCrashEvents_tooltip = "차량 충돌 또는 사고",
+
+	Sandbox_ReactiveSEEvents_EnableWeatherEvents = "날씨 이벤트 활성화",
+	Sandbox_ReactiveSEEvents_EnableWeatherEvents_tooltip = "번개 등 날씨 관련 소리",
+
+	Sandbox_ReactiveSEEvents_EnableZombieEvents = "좀비 이벤트 활성화",
+	Sandbox_ReactiveSEEvents_EnableZombieEvents_tooltip = "멀리서 들리는 좀비 소리",
+
+	Sandbox_ReactiveSEBehavior_EnablePlayerStyle = "플레이어 플레이스타일 적용",
+	Sandbox_ReactiveSEBehavior_EnablePlayerStyle_tooltip = "플레이어의 공격적/소극적 행동에 따라 이벤트 확률 동적으로 조정",
+
+	Sandbox_ReactiveSEBehavior_AggressiveStyleKills = "공격적 기준 킬 수",
+	Sandbox_ReactiveSEBehavior_AggressiveStyleKills_tooltip = "플레이어를 일일 처치 수가 이 값을 넘으면 공격적이라고 판단 ",
+
+	Sandbox_ReactiveSEBehavior_PassiveStyleDays = "소극적 기준 일수",
+	Sandbox_ReactiveSEBehavior_PassiveStyleDays_tooltip = "좀비를 처치하지 않은 일수가 이 값을 넘으면 소극적이라고 판단",
+
+	Sandbox_ReactiveSEBehavior_EnablePlayerReactionPanic = "플레이어 공황 반응 활성화",
+	Sandbox_ReactiveSEBehavior_EnablePlayerReactionPanic_tooltip = "반응 거리 내에서 소리가 발생하면 공황 상태가 될 수 있음",
+
+	Sandbox_ReactiveSEBehavior_EnablePlayerReactionWakeUp = "플레이어 기상 반응 활성화",
+	Sandbox_ReactiveSEBehavior_EnablePlayerReactionWakeUp_tooltip = "잠자는 중 근처에서 소리가 나면 깰 수 있음",
+
+	Sandbox_ReactiveSEScenes_EnableEventScenes = "이벤트 현장 생성 활성화",
+	Sandbox_ReactiveSEScenes_EnableEventScenes_tooltip = "사운드 이벤트로부터 실제 현장 생성",
+
+	Sandbox_ReactiveSEScenes_EventSceneChance = "현장 생성 확률",
+	Sandbox_ReactiveSEScenes_EventSceneChance_tooltip = "사운드 이벤트가 현장을 생성할 확률",
+
+	Sandbox_ReactiveSEScenes_SceneCleanupHours = "현장 삭제 시간",
+	Sandbox_ReactiveSEScenes_SceneCleanupHours_tooltip = "생성된 현장이 자동으로 사라지기까지의 시간(시간)",
+
+	Sandbox_ReactiveSEScenes_EnableGunfightScene = "총격전 이벤트 현장 활성화",
+	Sandbox_ReactiveSEScenes_EnableGunfightScene_tooltip = "총격전 이벤트 발생 시 시체더미 생성",
+
+	Sandbox_ReactiveSEScenes_EnableGunshotScene = "총성 이벤트 현장 활성화",
+	Sandbox_ReactiveSEScenes_EnableGunshotScene_tooltip = "총성 이벤트 발생 시 단일 시체 생성",
+
+	Sandbox_ReactiveSEScenes_EnableScreamScene = "비명 이벤트 현장 활성화",
+	Sandbox_ReactiveSEScenes_EnableScreamScene_tooltip = "비명 이벤트 발생 시 시체 생성",
+
+	Sandbox_ReactiveSEScenes_ScreamZombieCount = "비명 이벤트 현장 최대 좀비 수",
+	Sandbox_ReactiveSEScenes_ScreamZombieCount_tooltip = "비명 이벤트에 생성될 수 있는 최대 좀비 수(0 = 비활성화)",
+
+	Sandbox_ReactiveSEScenes_EnableVehicleCrashScene = "차량 충돌 이벤트 현장 활성화",
+	Sandbox_ReactiveSEScenes_EnableVehicleCrashScene_tooltip = "충돌 소리 발생 시 파손 차량 생성",
+
+	Sandbox_ReactiveSEScenes_VehicleMaxCondition = "차량 최대 상태",
+	Sandbox_ReactiveSEScenes_VehicleMaxCondition_tooltip = "장면에서 생성되는 차량의 최대 상태",
+	Sandbox_ReactiveSEScenes_VehicleMaxCondition_Values_option1 = "매우 낮음",
+	Sandbox_ReactiveSEScenes_VehicleMaxCondition_Values_option2 = "낮음",
+	Sandbox_ReactiveSEScenes_VehicleMaxCondition_Values_option3 = "보통",
+	Sandbox_ReactiveSEScenes_VehicleMaxCondition_Values_option4 = "높음",
+	Sandbox_ReactiveSEScenes_VehicleMaxCondition_Values_option5 = "매우 높음",
+
+	Sandbox_ReactiveSEScenes_VehicleKeyChance = "차량 키 확률",
+	Sandbox_ReactiveSEScenes_VehicleKeyChance_tooltip = "생성된 차량에 키가 들어 있을 확률",
+
+	Sandbox_ReactiveSEScenes_EnableZombieScene = "좀비 이벤트 현장 활성화",
+	Sandbox_ReactiveSEScenes_EnableZombieScene_tooltip = "좀비 이벤트 발생 시 좀비 무리 생성",
+
+	Sandbox_ReactiveSEScenes_ZombieSceneMin = "좀비 이벤트 현장 최소 수",
+	Sandbox_ReactiveSEScenes_ZombieSceneMin_tooltip = "좀비 이벤트에서 생성되는 최소 좀비 수",
+
+	Sandbox_ReactiveSEScenes_ZombieSceneMax = "좀비 이벤트 현장 최대 수",
+	Sandbox_ReactiveSEScenes_ZombieSceneMax_tooltip = "좀비 이벤트에서 생성되는 최대 좀비 수",
+
+	Sandbox_ReactiveSEScenes_EnableSceneSpawnNotify = "현장 생성 알림 활성화",
+	Sandbox_ReactiveSEScenes_EnableSceneSpawnNotify_tooltip = "근처에서 현장이 생성되면 플레이어에게 알림",
+
+	Sandbox_ReactiveSEScenes_SceneSpawnNotifyText = "텍스트 알림",
+	Sandbox_ReactiveSEScenes_SceneSpawnNotifyText_tooltip = "근처에 현장이 생성되면 플레이어가 한마디 함",
+
+	Sandbox_ReactiveSEScenes_SceneSpawnNotifyMarker = "마커 알림",
+	Sandbox_ReactiveSEScenes_SceneSpawnNotifyMarker_tooltip = "근처에 장면이 생성되면 방향 마커 표시",
+
+	Sandbox_ReactiveSELoot_LootQuality = "전리품 품질",
+	Sandbox_ReactiveSELoot_LootQuality_tooltip = "장면에서 발견되는 전리품의 전반적인 품질",
+	Sandbox_ReactiveSELoot_LootQuality_Values_option1 = "동적",
+	Sandbox_ReactiveSELoot_LootQuality_Values_option2 = "빈약",
+	Sandbox_ReactiveSELoot_LootQuality_Values_option3 = "보통",
+	Sandbox_ReactiveSELoot_LootQuality_Values_option4 = "풍부",
+
+	Sandbox_ReactiveSELoot_WeaponMaxCondition = "무기 최대 내구도",
+	Sandbox_ReactiveSELoot_WeaponMaxCondition_tooltip = "현장에서 발견되는 무기의 최대 내구도",
+
+	Sandbox_ReactiveSELoot_RangedWeaponChance = "원거리 무기 확률",
+	Sandbox_ReactiveSELoot_RangedWeaponChance_tooltip = "현장에 원거리 무기가 등장할 확률",
+
+	Sandbox_ReactiveSELoot_MinBackpackStealChance = "최소 배낭 도난 확률 (%)",
+	Sandbox_ReactiveSELoot_MinBackpackStealChance_tooltip = "시체에서 배낭이 도난당할 최소 확률입니다. End Game 단계에 적용됩니다.",
+
+	Sandbox_ReactiveSELoot_MaxBackpackStealChance = "최대 배낭 도난 확률 (%)",
+	Sandbox_ReactiveSELoot_MaxBackpackStealChance_tooltip = "시체에서 배낭이 도난당할 최대 확률입니다 (World Tier에 따라 증가). Early Game 단계에 적용됩니다.",
+
+	Sandbox_ReactiveSELoot_AmmoScarcity = "탄약 희소도",
+	Sandbox_ReactiveSELoot_AmmoScarcity_tooltip = "현장에서 탄약이 얼마나 희귀한지 설정",
+	Sandbox_ReactiveSELoot_AmmoScarcity_Values_option1 = "없음",
+	Sandbox_ReactiveSELoot_AmmoScarcity_Values_option2 = "희귀",
+	Sandbox_ReactiveSELoot_AmmoScarcity_Values_option3 = "보통",
+	Sandbox_ReactiveSELoot_AmmoScarcity_Values_option4 = "풍부",
+
+	Sandbox_ReactiveSELoot_SubKitCountMin = "서브키트 최소 아이템 수",
+	Sandbox_ReactiveSELoot_SubKitCountMin_tooltip = "서브키트당 생성되는 최소 아이템 수(동적 전리품: 초반)",
+
+	Sandbox_ReactiveSELoot_SubKitCountMax = "서브키트 최대 아이템 수",
+	Sandbox_ReactiveSELoot_SubKitCountMax_tooltip = "서브키트당 생성되는 최대 아이템 수(동적 전리품: 후반)",
+
+	Sandbox_ReactiveSEWorld_CorpseCount = "시체 수",
+	Sandbox_ReactiveSEWorld_CorpseCount_tooltip = "현장에서 생성되는 최대 시체 수",
+
+	Sandbox_ReactiveSEWorld_WorldTierEarlyEnd = "초반 종료 시점",
+	Sandbox_ReactiveSEWorld_WorldTierEarlyEnd_tooltip = "초반으로 간주되는 마지막 날. 이후 중반 시작",
+
+	Sandbox_ReactiveSEWorld_WorldTierMidEnd = "중반 종료 시점",
+	Sandbox_ReactiveSEWorld_WorldTierMidEnd_tooltip = "중반으로 간주되는 마지막 날. 이후 후반 시작",
+
+	Sandbox_ReactiveSEWorld_WorldTierLateEnd = "후반 종료 시점",
+	Sandbox_ReactiveSEWorld_WorldTierLateEnd_tooltip = "후반으로 간주되는 마지막 날. 이후 종막 시작",
+
+	Sandbox_ReactiveSERadio_EnableRadioFeature = "녹스 릴레이 라디오 활성화",
+	Sandbox_ReactiveSERadio_EnableRadioFeature_tooltip = "현장 위치와 생존에 대한 이야기를 방송하는 녹스 릴레이 라디오 활성화",
+
+	Sandbox_ReactiveSERadio_EnableMapMarker = "지도 마킹 활성화",
+	Sandbox_ReactiveSERadio_EnableMapMarker_tooltip = "라디오 컨텍스트 메뉴로 정보 좌표를 지도에 표시할 수 있음. 끄면 사용 불가",
+
+	Sandbox_ReactiveSERadio_EnableMorningShowXP = "모닝쇼 경험치 활성화",
+	Sandbox_ReactiveSERadio_EnableMorningShowXP_tooltip = "모닝쇼 청취로 경험치를 얻을 수 있음",
+}

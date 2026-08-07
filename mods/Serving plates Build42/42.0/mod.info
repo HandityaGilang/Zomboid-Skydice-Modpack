@@ -1,0 +1,5 @@
+name=Serving plates
+id=ServingPlates42
+description=Allow player to place food on Plates
+icon=icon.png
+pack=TextureServingPlates

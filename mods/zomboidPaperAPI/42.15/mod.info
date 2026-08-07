@@ -1,0 +1,10 @@
+id=ZomboidPaperAPI
+name=Zomboid Paper API
+description=This is an API which allows "paper" via map items.
+poster=poster.png
+require=\ChuckleberryFinnAlertSystem,\errorMagnifier,
+author=Chuckleberry Finn
+icon=icon.png
+versionMin=42.15
+
+

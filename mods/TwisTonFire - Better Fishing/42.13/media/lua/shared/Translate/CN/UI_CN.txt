@@ -1,0 +1,34 @@
+UI_CN = {
+	UI_TWF_BF_RESTART_REQUIRED_HINT = "需要重新加载存档！",
+	UI_TWF_BF_SLIDER_DEPENDS_HINT = "只有在上方对应功能启用时，下方滑块才会生效。",
+
+	UI_TWF_BF_USE_TWF_AIMDIST    = "启用抛投距离",
+	UI_TWF_BF_USE_TWF_SHORE      = "启用更小的岸边",
+	UI_TWF_BF_USE_TWF_SIZE       = "启用更好的岸边检测",
+	UI_TWF_BF_USE_TWF_TEMP       = "启用温度调整",
+	UI_TWF_BF_USE_TWF_WEATHER    = "启用天气调整",
+	UI_TWF_BF_USE_TWF_TIME       = "启用加成时段",
+	UI_TWF_BF_USE_TWF_SIZETABLES = "启用 Better Fishing 捕获几率",
+
+	UI_TWF_BF_AIMDIST        = "抛投距离",
+	UI_TWF_BF_SHORE_RADIUS   = "岸边半径（格）",
+	UI_TWF_BF_SIZE_BLEND     = "近岸混合（%）",
+	UI_TWF_BF_TEMP_COEFF     = "温度加成/减益",
+	UI_TWF_BF_FOG_COEFF      = "浓雾加成/减益",
+	UI_TWF_BF_WIND_COEFF     = "强风加成/减益",
+	UI_TWF_BF_RAIN_COEFF     = "降雨加成/减益",
+	UI_TWF_BF_MORN_START     = "加成清晨开始（时）",
+	UI_TWF_BF_MORN_END       = "加成清晨结束（时）",
+	UI_TWF_BF_EVE_START      = "加成傍晚开始（时）",
+	UI_TWF_BF_EVE_END        = "加成傍晚结束（时）",
+	UI_TWF_BF_TIME_COEFF     = "加成捕获几率 %",
+
+	UI_TWF_BF_USE_TWF_AIMDIST_TT    = "启用抛投/瞄准距离设置。启用后，下方“抛投距离”滑块决定最大格数。",
+	UI_TWF_BF_USE_TWF_SHORE_TT      = "启用更小半径的岸边检测。启用后，“岸边半径”决定搜索范围。",
+	UI_TWF_BF_USE_TWF_SIZE_TT       = "启用近岸尺寸几率调整。启用后，“近岸混合”控制强度。",
+	UI_TWF_BF_USE_TWF_TEMP_TT       = "启用钓鱼的温度系数。启用后，“温度加成/减益”调整倍率。",
+	UI_TWF_BF_USE_TWF_WEATHER_TT    = "启用天气系数（雾/风/雨）。启用后，下方滑块调整其影响。",
+	UI_TWF_BF_USE_TWF_TIME_TT       = "启用早晚加成时段。启用后，开始/结束与倍率生效。",
+	UI_TWF_BF_USE_TWF_SIZETABLES_TT = "切换到 Better Fishing 的捕获几率表（技能尺寸限制与分布）。需要重新加载存档。",
+}
+

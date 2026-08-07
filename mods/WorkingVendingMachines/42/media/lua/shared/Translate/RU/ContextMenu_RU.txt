@@ -1,0 +1,10 @@
+  ContextMenu_RU = {
+	ContextMenu_WVMNoPower = "Нет электричества.",
+	ContextMenu_WVMSnackInChute = "Еда застряла в лотке.",
+	ContextMenu_WVMSoldOut = "В торговом автомате пусто.",
+	ContextMenu_WVMNoMoneyDrink = "В торговом автомате есть напитки, но у меня нет денег.",
+	ContextMenu_WVMNoMoneySnack = "В торговом автомате есть еда, но у меня нет денег.",
+	ContextMenu_WVMBuyDrink = "Купить напиток",
+	ContextMenu_WVMBuySnack = "Купить еду",
+	ContextMenu_WVMStrikeMachine = "Ударить торговый автомат",
+}

@@ -1,0 +1,5 @@
+{
+    "IGUI_PIP_NetworkInfoLocal": "%1 tuyaux, %2 barils, %3 L",
+    "IGUI_PIP_PouredDoses": "+%1 doses d'engrais",
+    "IGUI_PIP_NotConnected": "Tonneau non relié à un réseau de tuyaux"
+}

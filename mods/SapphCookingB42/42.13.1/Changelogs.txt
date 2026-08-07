@@ -1,0 +1,929 @@
+ Sapph: hello! this file is a way to help track/plan changelogs, future updates and... uh, i dunno, stuff
+ so, if youre reading this, hope you're doing well.
+
+- [FUTURE IDEAS]
+    
+    [IDEAS]
+
+    [Reworks]
+    - Add 3D Models to popcorn
+    - Rework beef jerking recipe.
+    - Rework poutine model.
+    - Rework garlic bread model.
+    - Rework Tortelinni and Ravioli models.
+    - Rework crafting animations.
+        - Break Gingerbread house
+        - Unique open cans
+
+    [Mechanics]
+    - Add stif-frys and roasts on bowls! (thanks AstrayCuriosity)
+    - Add packaging items (5 cans -> 1 box)
+    - Add recipes for the new forgeable pots.
+    - Add diferent magazines for recipes for different regions for immersion (Dont have to specify them).
+
+    [New Dishes]
+    - Swiss Roll (jellyroll - already in base game - just add recipe)
+    - Crispy rice square (already in base game - just add recipe)
+    - Cornbread (already in base game - just add recipe)
+    - Pork Rinds (already in base game - just add recipe)
+    - Braciole  
+    - Zapiekanka
+    - Stuffed Turkey
+    - Moqueca (Fish Stew)
+    - Fårikål (Lamb, Potato and Cabbage Stew)
+    - Loco Moco (Rice, Hamburguer, Egg and Gravy)
+    - Ajiaco Soup (Chicken and Potato Soup)
+    - Gochujang (Spice)
+    - Bibimbap
+    - Rice Pudding
+    - Frozen Nuggets (also add Dinossaur Shaped)
+    - Kopytka and Gnocci (Potato Dumplings)
+    - Honeybun
+    - Koshari (Rice, Pasta and Lentils)
+    - Yogurt
+    - Ribollita (Bread Soup)
+    - Panzanella (Bread Salad)
+    - French Onion Soup
+    - Corn Tortillas (made with corn flour)
+    - Quiche
+    - Frittata (Italian omelette)
+    - Pumpkin Bread
+    - Stuffed Eggplant
+    - Eggnog
+    - Polenta (Cornflour/Cornmeal)
+    - Fried Polenta 
+    - Sauerkraut (Kimchi but without pepper)
+    - Enchilada
+    - Tzatziki (yogurt and zucchini)
+    - Twice Baked Potatoes 
+    - Cheesecakes
+    - Cupcakes
+    - Lamingtons (Australian Cakes)
+    - Cereals
+    - Shakshuka (Eggs in Purgatory)
+    - Tavë kosi (Lamb, Yogurt and Rice)
+    - Empanadas
+    - Kaiserschmarrn (Torn pancakes)
+    - Salteñas (Baked Empanadas)
+    - Potato Flour (from potatos -> mash into tray -> cook and dry)
+    - Raisings (maybe future update focusing on food preservation)
+    - Bobba Tea/Milk Tea
+
+    [Canned Dishes]
+    - Canned Pumpkin
+    - Canned Green Beans
+
+
+Changelog - (??/??/2025)
+- [Tweaks and Fixes]
+    - Removed the fortune messages print media, while i figure it out how to re-add them! (thanks 魔法 for pointing it out)
+    - Tweaked the liquid size of lowball glasses and cocktail glasses (for Zippy)
+    - Tweaked the mod description cause i forgor (thanks Malice for reminding me)
+
+
+Changelog - (??/??/2025)
+[Tweaks and Fixes]
+- Added a recipe to convert bottles to vanilla versions.
+- Fixed recipes that would consume a pan.
+- Chef Aprons are now craftable only.
+- Reworked Evolved Recipes.
+- Reworked Cooking Oil to be the same as B41.
+- Removed/Tweaked recipes and spawns for Sour Cream, Powdered Milk, Vodka, Gin, Vermouth, Tequila, Mac and Cheese, Butterchurn, Popsicles, Hotdog Buns, Box of Heart Chocolates, Ice Cream Sandwich, Sushi and Onigiri, as they are now in the base game.
+- Tweaked Mashed Potatoes, Frying Recipes to help against item bloating, they should be more straight forward now.
+- Removed Doughnut Cutter and Bowl of Beaten Eggs.
+- Reworked textures on some metal objects.
+
+Changelog - (??/??/2024)
+[Tweaks and Fixes]
+- Tweaked Crabsticks not being a food ingredient in some evolved recipes. (thanks ʀᴀᴠᴇɴꜱᴏᴜʟ)
+- Removed the OncheckNaN function, it was intented as a fix for NaN values in players stats, but right now its not working and needs more testing.
+- Added Caterpillars as ingredients in some food items (thanks Xianah)    
+
+
+
+Changelog - (07/??/2024)
+[Tweaks and Fixes]
+- Added missing recipe for Focaccia Slices (thanks Jaxx).
+- Added more Evolved food options for MREs.
+- Fixed a typo in the recipe tags (thanks Aerx).
+- Fixed buckets recipes not returning buckets. (thanks lect).
+- Fixed Protein Bars being perishable.
+- Fixed not being able to add spices on MREs.
+- Tweaked Fry French Fries recipe into only needind Peeled Potatoes.
+- Tweaked Bottle of Milk recipes (from 4 units needed to 10 units).
+- Tweaked Pasta Dough recipes (from 1 egg and 1 flour to 2 eggs and 3 flour).
+- Removed boredom values from bowl of chili (thanks Puppers).
+- Removed props in hand when reading fortune cookies.
+
+[Translations]
+- Updated Turkish Translations (thanks Taha [url=https://steamcommunity.com/profiles/76561198273688324/](Dylan Rhodes)[/url]!
+- Updated French Translations (thanks [url=https://steamcommunity.com/profiles/76561198174553231/]Xianah[/url])
+
+
+
+
+
+Changelog - Small hotfix(07/27/2024)
+ - Updated PL translations (thanks Damireewq).
+ - Tweaked some of the code, fixing(?) some recipes returning rotten foods (thanks lect).
+ - Tweaked the amount of ingredients in Saucepan recipes from 4 to 5 (Mac and Cheese/Pealla/Rices/Risotto)
+
+ (?) i still need to test and tweak the code, but this is a work-around that should work.
+
+Changelog (07/7/2024)
+
+**New Things**
+- Added some icons for Rotten Foods (thanks Xianah).
+- Added Focaccia and Foccacia Sandwiches (thanks ItsMoeTg).
+- Added Coxinhas - They can be fried or cooked in stoves (thanks Bucéfalo Molóide).
+
+**Tweaks/Reworks**
+- Tweaked several food items into being Perishable - Woks, Eclairs, Ladyfingers, Jello Bowls, Wonton Wrappers, Dumplings (Thanks Xianah and lect).
+- Tweaked Small Dough Recipe_- doesn`t need salt anymore (thanks OsitoPanda).
+- Added Empty Cans when opening Canned Bacon, Canned Refried Beans or Vienna Sausages (thanks Xianah).
+- Added some more evolved food options (thanks Tim).
+
+**Bug Fixes**
+- Fixed some evolved recipes giving a NaN value, if this happens with some other recipe, please let me know! (thanks Dorito Fennec, Neko_Yukari and Orlo6k)
+- Fixed pans being consume when making mashed potatoes and stroganoff bowls (thanks 性感蛤P在线打枪).
+- Fixed Dumplings being non-perishable (thanks Xianah)
+- Fixed Scotch Egg being Stale when creating it (thanks Xianah)
+- Fixed Homemade Sauce not being drinkable (thanks Dorito Fennec)
+
+
+- Tweak Better Sorting []
+- update small dough wiki
+
+
+ItemName_SapphCooking.SaucepanwithStroganoff = "Saucepan with Stroganoff",
+ItemName_SapphCooking.BowlofStroganoff = "Bowl with Stroganoff",
+
+ContextMenu_EvolvedRecipe_SapphCooking.FoccaciaPan = "Focaccia",
+ContextMenu_EvolvedRecipe_SapphCooking.FoccaciaSandwich = "Focaccia Sandwich",
+ContextMenu_EvolvedRecipe_SapphCooking.CoxinhaEvolved = "Coxinha",
+ContextMenu_EvolvedRecipe_SapphCooking.PastelEvolved = "Pastel",
+ContextMenu_EvolvedRecipe_SapphCooking.SaucepanStew = "Stew",
+ContextMenu_EvolvedRecipe_SapphCooking.CheeseSteakEvolved = "Cheesesteak",
+ContextMenu_EvolvedRecipe_SapphCooking.RisottoEvolved = "Risotto",
+ContextMenu_EvolvedRecipe_SapphCooking.SaladTakeout = "Salad",
+ContextMenu_EvolvedRecipe_SapphCooking.FruitSaladTakeout "Salad",
+ContextMenu_EvolvedRecipe_SapphCooking.SaladTray = "Salad",
+ContextMenu_EvolvedRecipe_SapphCooking.FruitSaladTray = "Salad",
+ContextMenu_EvolvedRecipe_SapphCooking.ABRicePan = "Arborio Rice",
+ContextMenu_EvolvedRecipe_SapphCooking.BRicePan = "Brown Rice",
+ContextMenu_EvolvedRecipe_SapphCooking.FunnelCakeEvolved = "Funnel Cake",
+ContextMenu_EvolvedRecipe_SapphCooking.CalzoneEvolved = "Calzone",
+ContextMenu_EvolvedRecipe_SapphCooking.Saucepan_MacandCheese = "Mac and Cheese",
+ContextMenu_EvolvedRecipe_SapphCooking.CrabRangoonEvolved = "Crab Rangoon",
+ContextMenu_EvolvedRecipe_SapphCooking.PierogiEvolved = "Pierogi",
+ContextMenu_EvolvedRecipe_SapphCooking.PanPaellaEvolved = "Paella",
+
+
+Recipe_Prepare_Focaccia = "Prepare Focaccia",
+Recipe_Prepare_Coxinha = "Prepare Coxinha",
+Recipe_Prepare_Pastel = "Prepare Pastel",
+Recipe_Prepare_Pao_de_Queijo = "Prepare Brazilian Cheese Bread",
+Recipe_Prepare_Stroganoff = "Prepare Stroganoff",
+Recipe_Prepare_Calzone = "Prepare Calzone",
+Recipe_Prepare_Funnel_Cake = "Prepare Funnel Cake",
+Recipe_Prepare_Borscht = "Prepare Borscht",
+Recipe_Prepare_Stroganoff = "Prepare Stroganoff",
+Recipe_Prepare_Pickles = "Prepare Pickles",
+Recipe_Prepare_Mac_and_Cheese = "Prepare Mac and Cheese",
+Recipe_Prepare_Feijoada = "Prepare Feijoada",
+Recipe_Prepare_Cheesesteak = "Prepare Cheesesteak",
+Recipe_Prepare_Crab_Rangoon = "Prepare Crab Rangoon",
+Recipe_Prepare_Paella = "Prepare Paella",
+Recipe_Fry_Coxinha = "Fry Coxinha",
+Recipe_Fry_Butter = "Fry Butter",
+Recipe_Fry_Pastel = "Fry Pastel",
+Recipe_Fry_Funnel_Cakes = "Fry Funnel Cakes",
+Recipe_Fry_Crab_Rangoon = "Fry Crab Rangoons",
+Recipe_Fry_Tornado_Potato = "Fry Tornado Potato",
+Recipe_Read_Fortune_Cookie = "Read Fortune Cookie",
+Recipe_Make_Calzone = "Make Calzone",
+Recipe_Make_Metal Mug = "Make Metal Mug",
+Recipe_Make_2_Bowls_of_Paella = "Make 2 Bowls of Paella",
+Recipe_Make_2_Bowls_of_Mac_and_Cheese = "Make 2 Bowls of Mac and Cheese",
+Recipe_Make_Beef_Wellington = "Make Beef Wellington",
+Recipe_Make_Smore = "Make Smore",
+Recipe_Make_Crab_Rangoon = "Make Crab Rangoon",
+Recipe_Open_Jar = "Open Jar",
+Recipe_Make_Box_of_Tea_Bags = "Make Box of Tea Bags",
+
+
+item Roastingpan_FocacciaPrep
+item Roastingpan_FocacciaEvolved
+item Focaccia_Piece
+item Focaccia_Sandwich
+item CoxinhaPrep
+item CoxinhaFried
+item PastelPrep
+item PastelFried
+item BakingTray_PaodeQueijo
+item Sandwich_CheesesteakPrep
+item FeijoadaPrep
+item PaodeQueijo
+item Skewer_TornadoPotato
+item WoodenSkewers_Butter
+item WildBeets
+item Mug_Metal
+item WaterMug_Metal
+item MugCoffee_Metal
+item HotDrink_Metal
+item MugMetal_Milkshake
+item CoxinhaPrep
+item CoxinhaFried
+item PastelPrep
+item PastelFried
+item CocktailGlassEvolved_Juice
+item LowBallEvolved_Juice
+item Takeout_FruitSalad
+item SaucepanwithStroganoff
+item SaucepanStew
+item Tray_FruitSalad
+item Tray_Pasta
+item Tray_Rice
+item Tray_Soup
+item Arancini
+item Pierogi
+item SapphSmore
+item CalzoneRecipe
+item FunnelCake
+item BeefWellington
+item Jar_Pickles
+item Bowl_MacCheese
+item Bowl_Paella
+item Saucepan_Paella
+item Saucepan_MacandCheese
+item CrabRangoon
+item CrabRangoonFried
+
+
+
+
+
+Changelog (07/14/2024)
+- Added missing eating models for Cheese Wheel.
+- Added some hidden recipes when ReplaceOnRotten doesnt work in Multiplayer (thanks Xianah)
+- Tweaked some recipes with Custard (thanks Vic).
+- Fixed missing Homemade Sauce recipe.
+- Moved Chef Apron Recipe_to Tailoring Tab (thanks Xianah)
+- Tweaked Loot Distribution Code - let me know if this helps on loot rarity spawns.
+- Tweaked Grape Juice not having a Juice Tag (thanks KAYA)
+- Tweaked Medium Chocolate Eggs being Cookable (thanks KAYA)
+- Tweaked cloth filters not being dirty after some recipes (thanks 싸이버거수사대)
+- Updated Polish Translation to fix strange Characters (thanks Damireewq)
+
+
+Changelog (09/07/2024)
+- Added a new Black Cat Paw Chef Apron (Thanks Xianah for the suggestion).
+- Removed Test Tooltip on Chef Aprons (thanks Chesa).
+- Renamed and Tweaked Fried Bird recipes to Fried Chicken (thanks Disinterred).
+- Tweaked Chef Aprons Model for Male Characters.
+- Lowered the ammount of butter needed in some recipes.
+
+Changelog (07/07/2024)
+
+- Added some recipes to remove things from trays when the game fails to replace them.
+- Bonbons, Chocolate Eggs and Heart Chocolates can now be used as chocolate in recipes.
+- Fixed chef aprons being damageable - this should only work in new crafted or spawned aprons. (thanks Kendris).
+- Fixed typo in Mozzarella names (thanks Chesa).
+- Removed alcohol levels from Liqueur Bonbons, but increased unhappyness and stress reductions. 
+- Tweaked some blender recipes being non-perishable after blending (thanks Blessed Mother).
+- Tweaked base Pizza recipe, now you can use any type of cheese on it (thanks Chesa).
+- Updated Polish Translations (thanks Damireewq)!
+- Updated French Translations (thanks Xianah)!
+
+
+
+
+Changelog (07/04/2024)
+
+**New Things**
+- Added Stress/Boredom reductions when cooking.
+- Added Cheese Making.
+    + Recipe_for Cheese Preparations, where you can strain it into Mozzarela Cheese or age it into Parmesan or Blue Cheese in Pots, Buckets or Cheese Molds.
+- Added more models and animations when cooking and eating.
+- Added Homemade Sauce that can be made made when mixing Spices.
+- Added Chef Aprons: 18 Unique Aprons that allows for weapons and tools attachments.
+    + Can also be worn around waists.
+- Added 6 Types of Cakes (Chocolate, Carrot, Red Velvet, Black Forest, Strawberry, Birthday).
+    + You can add Candles on them.
+    + You can slice them into 5 pieces.
+- Added Lettuce Wraps.
+- Added Stuffed Peppers.
+- Added Can of Whipped Cream (thanks Cooks117!).
+- Added Can of Spray Cheese.
+- Added Crab Sticks.
+- Added Truffles as a rare forageable.
+- Added Recipes for Cocktail Mixers with Metalworking.
+- Added Recipes for Taco Shells.
+- Added Macarons (thanks Xianah!).
+
+
+
+**Reworks/Tweaks**
+- Reworked recipes that used Bowls with Beaten Eggs.
+- Reworked "Bowl of Queso" to "Bowl of Cheese Sauce" (hope Bloo's not mad at me now).
+- Reworked Doughnuts.
+- Reworked Eclairs.
+- Reworked Bagels.
+- Reworked Churros.
+- Reworked Vegetable Stock to Broth.
+- You can now use other cheeses in recipes that require Cream Cheese.
+- You can now eat candy cigarretes from the packet (Enjoy Deano!).
+- You can now add stews in Thermoses (thanks Silabell).
+- You can now use Homemade Tomato Sauce on Pizzas (thanks Chesa).
+- Added more food options for Custard/Pastry Cream.
+- Tweaked cooking time of skewers (Faster Cooking).
+
+
+**Bug Fixes**
+- Fixed wrong Mugs when making Brewing Coffee (thanks Zwierzax!)
+- Fixed negative weight on Blender Purees (thanks Lou Tenant for the report)
+- Fixed Pretzels being labeled as Non-perishable when using Better Sorting.
+- Added some missing translations (thanks Xianah).
+ 
+
+
+**Wiki**
+- Started work on a Sapph's Cooking Wiki Page.
+
+- Updated French Translations (thanks inkredibehl and Xianah)
+- Updated Chinese Translations (thanks BEIBIAO)
+
+--Evolved Recipes
+
+	ContextMenu_EvolvedRecipe_SapphCooking.DoughnutsEvolved = "Doughnut",
+	ContextMenu_EvolvedRecipe_SapphCooking.DoughnutsChocolateEvolved = "Chocolate Doughnut",
+	ContextMenu_EvolvedRecipe_SapphCooking.EclairEvolved = "Eclair",
+	ContextMenu_EvolvedRecipe_SapphCooking.EclairChocolateEvolved = "Chocolate Eclair",
+	ContextMenu_EvolvedRecipe_SapphCooking.EclairWhiteChocolateEvolved = "White Chocolate Eclair",
+	ContextMenu_EvolvedRecipe_SapphCooking.BagelPlainEvolved = "Bagel",
+	ContextMenu_EvolvedRecipe_SapphCooking.HomemadeSauceEvolved = "Sauce",
+	ContextMenu_EvolvedRecipe_SapphCooking.ChurrosEvolved = "Churro",
+	ContextMenu_EvolvedRecipe_SapphCooking.ChurrosChocolateEvolved = "Churro",
+	ContextMenu_EvolvedRecipe_SapphCooking.LettuceWrapEvolved = "Lettuce Wrap",
+	ContextMenu_EvolvedRecipe_SapphCooking.StuffedPepperEvolved = "Stuffed Pepper",
+    ContextMenu_EvolvedRecipe_SapphCooking.Cake_Chocolate = "Chocolate Cake",
+	ContextMenu_EvolvedRecipe_SapphCooking.Cake_Carrot = "Carrot Cake",
+    ContextMenu_EvolvedRecipe_SapphCooking.Cake_BlackForest = "Black Forest Cake",
+    ContextMenu_EvolvedRecipe_SapphCooking.Cake_RedVelvet = "Red Velvet Cake",
+    ContextMenu_EvolvedRecipe_SapphCooking.Cake_Strawberry = "Strawberry Cake",
+    ContextMenu_EvolvedRecipe_SapphCooking.SapphCooking.MacaronPink = "Prepar_Macaron",
+    ContextMenu_EvolvedRecipe_SapphCooking.SapphCooking.MacaronRed = "Prepar_Macaron",
+    ContextMenu_EvolvedRecipe_SapphCooking.SapphCooking.MacaronBlue = "Prepar_Macaron",
+    ContextMenu_EvolvedRecipe_SapphCooking.SapphCooking.MacaronGreen = "Prepar_Macaron",
+    ContextMenu_EvolvedRecipe_SapphCooking.SapphCooking.MacaronYellow = "Prepar_Macaron",
+    ContextMenu_EvolvedRecipe_SapphCooking.SapphCooking.MacaronPurple = "Prepar_Macaron",
+
+    ContextMenu_Sapph_WearTied = "Wear around Waist",
+
+    Tooltip_CheeseCurds = "Can be aged into Parmesan Cheese Wheel in Pots, Cheese Molds or Buckets; or Strained into Mozzarela Cheese.",
+	Tooltip_BlueCheese = "Can be aged into Blue Cheese in Pots, Cheese Molds or Buckets.",
+
+-- Recipes
+
+Recipe_Make_Lettuce Wraps
+Recipe_Add Candle on Cake
+Recipe_Make_a Wish
+Recipe_Make_Chef Apron
+Recipe_Prepar_Chocolate Cake
+Recipe_Prepar_Carrot Cake
+Recipe_Prepar_Red Velvet Cake
+Recipe_Prepar_Black Forest Cake
+Recipe_Prepar_Strawberry Cake
+Recipe_Slice Cake
+Recipe_Make_Birthday Cake
+Recipe_Make_Cheese Preparation
+Recipe_Make_Wooden Cheese Mold
+Recipe_Make_Mozzarela Cheese
+Recipe_Slice Cheese Wheel
+Recipe_Remove Cheese Wheel
+Recipe_Make_Taco Shell
+Recipe_Make_Crab Sticks
+Recipe_Make_Cocktail Mixer
+Recipe_Fry_Mozzarela Sticks
+Recipe_Make_Macaron Cookies
+
+
+
+-- Items
+
+ItemName_SapphCooking.SapphDoughnut_Evolved
+ItemName_SapphCooking.SapphDoughnutChocolate_Evolved
+ItemName_SapphCooking.Eclair_Evolved
+ItemName_SapphCooking.Eclair_Chocolate_Evolved
+ItemName_SapphCooking.Eclair_WhiteChocolate_Evolved
+ItemName_SapphCooking.Wokpan_BaconandEggs
+ItemName_SapphCooking.HomemadeSauce_Evolved
+ItemName_SapphCooking.LettuceWrap
+ItemName_SapphCooking.LettuceWrap_Evolved
+ItemName_SapphCooking.HalfCandle
+ItemName_SapphCooking.HalfCandleLit
+ItemName_SapphCooking.Apron_Chef_White
+ItemName_SapphCooking.Apron_WaistChef_White
+ItemName_SapphCooking.Apron_Chef_Camo
+ItemName_SapphCooking.Apron_WaistChef_Camo
+ItemName_SapphCooking.Apron_Chef_CowPrints
+ItemName_SapphCooking.Apron_WaistChef_CowPrints
+ItemName_SapphCooking.Apron_Chef_MuscleM
+ItemName_SapphCooking.Apron_WaistChef_MuscleM
+ItemName_SapphCooking.Apron_Chef_MuscleF
+ItemName_SapphCooking.Apron_WaistChef_MuscleF
+ItemName_SapphCooking.Apron_Chef_Heart
+ItemName_SapphCooking.Apron_WaistChef_Heart
+ItemName_SapphCooking.Apron_Chef_PawBlue
+ItemName_SapphCooking.Apron_WaistChef_PawBlue
+ItemName_SapphCooking.Apron_Chef_PawRed
+ItemName_SapphCooking.Apron_WaistChef_PawRed
+ItemName_SapphCooking.Apron_Chef_PawPink
+ItemName_SapphCooking.Apron_WaistChef_PawPink
+ItemName_SapphCooking.Apron_Chef_KissCook
+ItemName_SapphCooking.Apron_WaistChef_KissCook
+ItemName_SapphCooking.Apron_Chef_QuailMom
+ItemName_SapphCooking.Apron_WaistChef_QuailMom
+ItemName_SapphCooking.Apron_Chef_CamoUrban
+ItemName_SapphCooking.Apron_WaistChef_CamoUrban
+ItemName_SapphCooking.Apron_Chef_CamoDesert
+ItemName_SapphCooking.Apron_WaistChef_CamoDesert
+ItemName_SapphCooking.Apron_Chef_AmericaFlag
+ItemName_SapphCooking.Apron_WaistChef_AmericaFlag
+ItemName_SapphCooking.Apron_Chef_Rainbow
+ItemName_SapphCooking.Apron_WaistChef_Rainbow
+ItemName_SapphCooking.Apron_Chef_TransFlag
+ItemName_SapphCooking.Apron_WaistChef_TransFlag
+ItemName_SapphCooking.Apron_Chef_HawaiiBlue
+ItemName_SapphCooking.Apron_WaistChef_HawaiiBlue
+ItemName_SapphCooking.Apron_Chef_HawaiiRed
+ItemName_SapphCooking.Apron_WaistChef_HawaiiRed
+item CakePrep_Chocolate
+item CakePrep_Carrot
+item CakePrep_RedVelvet
+item CakePrep_BlackForestCake
+item CakePrep_StrawberryCake
+item CakeRaw_BlackForestCake
+item CakeRaw_Chocolate
+item CakeRaw_Carrot
+item CakeRaw_Strawberry
+item CakeRaw_RedVelvet
+item CakeRaw_Birthday
+item Cake_Candle
+item CakeChocolate_Candle
+item CakeCarrot_Candle
+item CakeRedVelvet_Candle
+item CakeBlackForest_Candle
+item CakeStrawberry_Candle
+item CakeBirthday_Candle
+item WhippedCream_Can
+item CheeseSpray_Can
+item Wooden_CheeseMolds
+item Wooden_CheeseMolds_Water
+item Wooden_CheeseMoldsCurds
+item Wooden_CheeseMoldsFull
+item Wooden_CheeseMoldsBlue
+item Bucket_CheeseCurds
+item Bucket_Cheese
+item Bucket_CheeseBlue
+item Pot_CheesePreparation
+item Pot_CheeseCurds
+item Pot_Cheese
+item Pot_CheeseBlue
+item Parmesan_CheeseWheel
+item Blue_CheeseWheel
+item BlueCheese
+item Truffle
+item MozzarelaSticks
+item BakingTray_MacaronCookies1
+item BakingTray_MacaronCookies2
+item BakingTray_MacaronCookies3
+item BakingTray_MacaronCookies4
+item Macaron_Cookies_Pink
+item Macaron_Cookies_Red
+item Macaron_Cookies_Blue
+item Macaron_Cookies_Green
+item Macaron_Cookies_Yellow
+item Macaron_Cookies_Purple
+item Macaron_Pink
+item Macaron_Red
+item Macaron_Blue
+item Macaron_Green
+item Macaron_Yellow
+item Macaron_Purple
+
+
+
+/**Missing translations! thanks Xianah!**/
+item ArrozConLecheBowl
+item MisoPaste
+item CarvingForkSapph
+item CachacaEmpty
+item EnergyDrinkEmpty
+item Plate_HuevosRancherosEvolved
+item PlateBlue_HuevosRancherosEvolved
+item PlateOrange_HuevosRancherosEvolved
+item PlateFancy_HuevosRancherosEvolved
+item Saucepan_InstantNoodles
+item Bowl_Puree
+item Mouth_Toothpick
+item CachacaWaterFull
+ItemName_SapphCooking.Bowl_Sorbet = "Sorbet",
+
+
+
+/*******************************************************************************/
+Changelog (02/14/2024):
+**New stuff:** 
+- Added a way to Make_Blenders, requiring metalworking and electrical skills.
+- You can now pour Blended Juices in Bottles, Cups and Mugs!
+- Added some new animations when cooking with Oil Pans!
+- Added Corn on the Cob.
+
+**Tweaks:**
+- Added Mango as an Evolved Option for Blender recipes(thanks NewestofIzz and NerdGamerDave!)
+
+**Bug fixes:**
+- Fixed a duplication issue with Wooden Churns (thanks Lou Tenant for the report)
+- Fixed a missing translation on Japanese Language (thanks koyori for the report)
+- Fixed a bug where weights on Juices were a negative value! (thanks Lou Tenant for the report)
+- Fixed Roasting Pan being consumed when adding the contents to Takeout Boxes! (thanks SilverDragon99 for the report!)
+
+
+Changelog (02/05/2024):
+Hi! bit of a smaller update, it was suggested to me by BEIBIAO, since the Lunar New Year is around the corner,
+so... Happy New Lunar Year!
+
+**New stuff:**
+- Added Recipe_for Nian Gao (Chinese New Year Rice Cake) and Tanghulu (thanks BEIBIAO for the suggestions).
+- Added Recipe_for Rock Candy.
+- Added Recipe_for Pigs in a Blanket.
+- Added Oyster Sauce, Furikake and Pesto as Seasonings! (thanks Noguchi.47 for the suggestion)
+- Added a few more evolved recipes ingredients (thanks Niveksirrah for the help!)
+
+**Tweaks:**
+- Tweaked the Recipe_for Brown/Arborio rice pans (thanks Bluedream!)
+- Updated Japanese Translations (thanks Suzue!)
+- Updated Chinese Translations (thanks BEIBIAO!)
+
+**Bug fixes:**
+- Fixed Flatbread Recipe_(thanks 313Truu for the report!)
+- Fixed giant model for Carving Fork(thanks ? for the report!)
+- Fixed issues on Smash Burger Recipe_(thanks Fluffy for the report!)
+- Fixed a few issues with Fortune Messages!
+
+
+Changelog (Jan/24):
+**New stuff:**
+- Blenders: Allows the player to prepare: Smoothies, Milkshakes, Juices and Purées
+- Blooming Onion: Can be made with Fry_Batter and Onions.
+- Cacio e Pepe: Dish made with pasta and cheese.
+- Crepes: Can be made with Fry_Batter and a Frying Pan with Oil.
+- Candy Apple: Can be made using Skewers, Apple and any Syrup!
+- Cotton Candy: Can be made using Skewers, Water, Sugar and vinegar!
+- French Toast: Can be made with Milk, Egg, Sugar and Bread!
+- Flatbreads: Same Recipe_as Bread Dough, but uses milk instead of water.
+- Fried Eggplants: Can be made with Sliced Eggplant and Breadcrumbs!
+- Popsicles: Can be made using Ice Cubes and Juice.
+- Takeout boxes: One-time use bowls, can be found in restaurants or crafted with paper (thanks NomNomNombie for the suggestion!)
+- You can now Stir-Fry_Vegetables in a Wok Pan!
+- Added Pizza Peel as a improvised Blunt Weapon.
+- Added ways to create kitchen utensils (thanks Notka for the suggestion!).
+- Added Evolved Recipes to some Vanilla items (thanks anon4life for the suggestion!)
+
+ 
+
+
+
+**Tweaks:**
+- Added Eating Models For more items.
+- Lowered the protein amount from shakes (500 ->  350)
+- Lowered the hunger amount from Coffee Thermos  (50 ->  20)
+- Ketchup can now be used in recipes that required "Tomato Sauce".
+- Reworked Borscht recipe.
+- Reworked Zomboid's Chopsticks.
+- Reworked Wok Pan Models.
+- Thermos of Soup can now rot (5 days fresh ~ 10 days rotten).
+- Tweaked Energy Drinks spawnrate.
+- Tweaked Wok Pan spawnrate.
+- Tweaked the way Frying recipes work, they should be less troublesome.
+- Tweaked the way Ice Cubes recipes work, you don't need a tray anymore.
+- You can now eat Protein Powder and Powdered Milk.
+- You can now open Canned Stuff using Knives.
+- Updated Russian Translations (thanks Мепсель)
+- Updated Korean Translations (thanks 이스트)
+- Updated Poland Translations (thanks Damireewq)
+
+
+
+
+**Bug Fixes:**
+- Fixed missing Yakisoba Recipe_when reading magazine (thanks 이스트 for the report!)
+- Fixed Scotch Egg still being dangerous after cooking it.
+- Fixed problems with Wooden Churn on some recipes.
+- Lowered the volume on the Wooden Churn recipes.
+- Added a way to remove pretzels from trays.
+- Fixed chocolate eggs being perishable.
+- Fixed Ice Cubes not working when being frozen (yeah...) - thanks WanderSeth for the report!
+- Fixed an issue preventing Tequila bottles from spawning.
+
+
+
+ 
+Changelog (06/08/23):
+Bit of a smaller update, but lots of fixes/reworks (and some custom animations)!
+New Things:
+- Instant Noodles: Can be found in kitchens/stores, and can be prepared with Saucepan with Water.
+- Cocktail Mixing: You can now do custom drinks and cocktails using a Mixer.
+- Churn: Can be made with Woodworking 5, allowing the player to make:
+    - Butter/Buttermilk: Made with Milk and Salt.
+    - Mochi: Rice Cakes made with Rice.
+    - Wine: Made with Grapes.
+- Reworked Spaghetti.
+- Reworked Huevos Rancheros.
+
+Tweaks/Fixes:
+- Updated Korean Translations (thanks 이스트!).
+- Updated Japanese Translations (thanks Suzue!)
+- Updated French Translations (thanks Zunder!)
+- Drinks now give happyness and stress reduction.
+- Fixed Boiled Egg Recipe_giving lua errors.
+- Fixed Lua errors with vegetable broth.
+- Fixed infinite pots glitch with vegetable broth.
+- Fixed Pot vanishing after pouring out water. (thanks 이스트 for reporting it on discord!).
+- Fixed Fried rice Recipe_in Frying Pan.
+- Fixed Cooking Bonus not being applied on the Thermos Soup.
+- Changed Small Dough Recipe.
+- Some recipes are now Hidden (mainly the add stuff), this may help when browsing the craft menu!
+- Tweaked Empty Thermos Weight.
+
+
+
+--
+Translations
+
+
+ItemName_SapphCooking.Saucepan_InstantNoodlesEvolved = "Instant Noodles",
+ItemName_SapphCooking.NoodleSachet_Beef = "Beef Sachet",
+ItemName_SapphCooking.NoodleSachet_Chicken = "Chicken Sachet",
+ItemName_SapphCooking.InstantNoodles_Beef = "Packet of Instant Noodles",
+ItemName_SapphCooking.InstantNoodles_Chicken = "Packet of Instant Noodles",
+ItemName_SapphCooking.ButterChurn = "Wooden Churn",
+ItemName_SapphCooking.Churn_Buttermilk = "Wooden Churn with Buttermilk",
+ItemName_SapphCooking.Churn_Wine = "Wooden Churn with Wine",
+ItemName_SapphCooking.ButtermilkBottle = "Buttermilk",
+ItemName_SapphCooking.CocktailMixerPrep = "Alcoholic Cocktail",
+ItemName_SapphCooking.CocktailMixerEvolved = "Cocktail",
+ItemName_SapphCooking.LowBallEvolved = "Drink",
+ItemName_SapphCooking.CocktailGlassEvolved = "Drink",
+ItemName_SapphCooking.Mochi = "Mochi",
+
+
+
+
+Recipe_Make_2_Bowls_of_Instant_Noodles = "Make_2 Bowls of Instant Noodles",
+Recipe_Open_Instant_Noodles = "Open Instant Noodles",
+Recipe_Open_Instant_Noodles2 = "Open Instant Noodles",
+Recipe_Make_Small_Dough_Pieces = "Make_Small Dough Pieces",
+Recipe_Cut_Ratattouile_Piece2 =  "Cut 8 Ratattouile Piece",
+Recipe_Make_Pastry_Dough = "Make_Pastry Dough",
+Recipe_Place_Brown_Rice_in_Saucepan = "Place Brown Rice in Saucepan",
+Recipe_Prepare_Instant_Noodles = "Prepar_Instant Noodles",
+Recipe_Prepare_Alcoholic_Drink = "Prepar_Alcoholic Drink",
+Recipe_Pour_Drink_in_Lowball_Glass = "Pour Drink in Lowball Glass",
+Recipe_Pour_Drink_in_Cocktail_Glass = "Pour Drink in Cocktail Glass",
+Recipe_Pour_Drink_in_Tumbler = "Pour Drink in Tumbler",
+Recipe_Pour_Drink_in_Plastic Cup = "Pour Drink in Plastic Cup",
+Recipe_Make_Wooden_Churn = "Make_Wooden Churn",
+Recipe_Churn_Butter = "Churn Butter",
+Recipe_Pound_Mochi = "Pound Mochi",
+Recipe_Pour_Buttermilk_in_Bottle = "Pour Buttermilk in Bottle",
+Recipe_Churn Wine = "Make_Wine",
+Recipe_Pour_Wine_in_Bottle = "Pour Wine in Bottle",
+
+
+ContextMenu_EvolvedRecipe_SapphCooking.InstantNoodles = "Instant Noodles",
+ContextMenu_EvolvedRecipe_SapphCooking.SpaguettiEvolved = "Spaghetti",
+ContextMenu_EvolvedRecipe_SapphCooking.CocktailMix = "Mix",
+ContextMenu_EvolvedRecipe_SapphCooking.HR1 = "Huevos Rancheros",
+ContextMenu_EvolvedRecipe_SapphCooking.HR2 = "Huevos Rancheros",
+ContextMenu_EvolvedRecipe_SapphCooking.HR3 = "Huevos Rancheros",
+ContextMenu_EvolvedRecipe_SapphCooking.HR4 = "Huevos Rancheros",
+ContextMenu_EvolvedRecipe_SapphCooking.Mochi = "Mochi",
+
+
+
+ To-do 14/07/23:
+    
+    New things:
+    - Not really mod related, but i created a Discord Channel, this may help with bug fixing/suggestions/translations, so if you're interested, feel free to join!
+    i'll leave a link at the end of the mod page!
+	- Chef Knives can now be attatched on Wooden Spears.
+    - Added Metal Spork.
+    - Lard can be used as oil (thanks Balrock for suggesting it!).
+
+    Other stuff/fixes:
+    - Updated Russian translations (thanks to Boris The Blade).
+    - Updated Chinese translations (thanks to BEIBIAO).
+    - Fixed some problems with Brazilian Portuguese Translations (thanks peteR for reporting it!)
+    - Fixed missing Recipe_to open Kernel Corn. (thanks to Nyx2330)
+    - Fixed some missing commas in the code (Thanks Dan39 for the help!)
+    - Fixed Filled Pasta not giving any calories/hunger.
+    - Fixed Rodent Meat not giving any calories/hunger when being grinded.
+    - Fixed missing Evolved Recipe_for Frying Pan with Fried Rice. (thanks BLUmountain) 
+    - Added a way to pour out water of the Vegetable Stock recipe.
+    - Fixed MRE still spawning after being disabled... i hope...
+ 
+/*************ADD***********************/
+- Cooking animations.
+        - Adding Oil on Pot/Bowl.
+        - Frying Pan/Wok Pan Frying.
+		- Ice Cubes Breaking. +Sound
+		- Meat Grinding.
+        - Coffee Brewing.
+        - Toothpicks.
+        - Drinks mixing/making.
+
+ 
+
+
+ /***********************15.07.23********************************/
+ item SpearChefKnife1
+ item SpearChefKnife2
+ item SpearChefKnife3
+ item MetalSpork
+
+Recipe_Attach Chef Knife to Spear1
+Recipe_Attach Chef Knife to Spear2
+Recipe_Attach Chef Knife to Spear3
+Recipe_Pour Out Water
+Recipe_Reclaim_Chef_Knife_from_Spear1 = "Reclaim Chef Knife from Spear",
+Recipe_Reclaim_Chef_Knife_from_Spear2 = "Reclaim Chef Knife from Spear",
+Recipe_Reclaim_Chef_Knife_from_Spear3 = "Reclaim Chef Knife from Spear",
+Recipe_Attach_Spork_to_Spear = "Attach Spork to Spear",
+Recipe_Reclaim_Spork_from_Spear = "Reclaim Spork from Spear",
+
+/************************UPDATED!!****************************/
+
+To-do xx/xx/23:
+     Reworks:
+     Since this is a big update, there's a unfortunate chance that several items will vanish from your saves.
+- Reworked certain dishes, now you'll be able to add your own ingredients on:
+    1. Fried Rice (Wok/Frying Pan)
+    2. Baked Potatoes
+    3. Lasagna
+    4. Ratatouille
+    5. Yakisoba
+    6. Maki
+    7. Hotdogs
+    8. Dumplings
+    9. Coffee Thermos
+- Reworked Food calorie values of every item added, this should Make_recipes worth the effort, but this also means that a lot of changes may happen if things
+don't work out that much.
+- You can now Make_Hotdog Bun Sandwiches.
+- You can now Add Soups to Thermos.
+- You can now eat Grinded Coffee.
+- Reworked Stocks/Broths, they are easier to make, and you can now drink them and use it in Soups and Stews.
+- You can now eat Kernel Corn.
+- Rework on Oils, it is now drinkable.
+- Added Tooltips that can help players on "confusing" recipes, like Jell-o, Coffee, Broths and Popcorn.
+- Potato peels can be used in Soups, Stews and Stocks.
+
+ 
+     New things:
+	- Ice Cubes: Can be done with "Ice Tray with Water" when near fridges with power, They can also be put into drinks for some bonus happyness.
+			1. Shaved Ice.
+    - Syrups: Chocolate/Strawberry/Caramel can be used in drinks or shaved Ice.
+    - Meat Grinder: Allows the player to grind meat, "If I chop you up in a meat grinder, and the only thing that comes out, that's left of you, is your eyeball,
+    you'r- you're PROBABLY DEAD!".
+         - Sausages: 
+             1.Sausage Making Book - Teaches how the basics to sausage making.
+             2.Sausage Casings - Can be gathered when skinning animals.
+             3.Custom Sausages.
+    - Oven Mittens - Gives insulation and warmth.
+    - Ceviche - Can be made with lime/lemon and fish.
+    - Arroz con leche - Dessert made with Rice and Milk.
+    - Scotch Eggs - Deep fried boiled eggs wrapped in meat.
+    - Toothpicks.
+    - Spring rolls.
+
+    Other stuff/fixes:
+    - Updated Chinese,Polish and added Japanese and Italian translations (thanks Suzue,Nozownik
+    ,冷沔泠-35P and Eternity!) 
+    - Tweaked some issues with sandbox settings.
+    - Tweaked some recipes where stuff appears greyed out.
+    - Tweaked recipes with melted chocolate.
+    - Changed textures of Cups/Buckets/Bottles.
+    - Fixed some issues with the taggings recipes.
+    - Fixed Chocolate Cake Recipe.
+    - Fixed missing 3D model for Vodka Bottle, Garlic Bread and Popcorn Kernels.
+    - Fixed Tiramisu consuming baking pan.
+    - Fixed missing Chicken nuggets Recipe.
+    - Fixed not being able to remove Pretzels from Tray.
+    - Fixed MRE's still spawning, after disabling them via sandbox options.
+    - May have fixed a bug with a "ç" unicode causing errors...?
+    - Removed several obsolete recipes.
+    item Meatgrinder
+    item SlicedChickenBatter    
+    item WokFriedRiceEvolved    
+	item FryingPanFriedRiceEvolved    
+    item BakedPotato_Evolved   
+    item ThermosSoup    
+    item WokPan_YakisobaEvolve    
+    item SushiEvolved    
+    item SushiRecipe_   
+    item HotdogCustom    
+    item HotdogSandwichEvolved    
+    item HotdogEvolved    
+	item IceTray    
+	item IceTrayWater    
+	item IceCubes    
+    item MincedMeat_Chicken    
+    item SausageEvolved   
+    item SausageCasing    
+    item ThermosCoffeeEvolved
+    item SausageMakingMagazine
+    item BowlShavedIce
+    item BowlShavedIceEvolved
+    item Syrup_Chocolate   
+    item Syrup_Strawberry 
+    item Syrup_Caramel 
+    item CevicheBowl    
+    item CevicheBowlEvolved   
+	item ScotchEggRaw    
+	item ScotchEgg    
+    item Gloves_OvenMitten_Udderly
+    item Gloves_OvenMitten_White
+    item Mouth_Toothpicks
+    item BagofToothpicks
+    item Saucepan_ArrozLecheUn
+    item Saucepan_ArrozLeche
+    item SpringrollEvolved
+    item SpringrollWrapper
+
+
+    Recipe_Submerge Chicken Slice in Batter
+    Recipe_Prepar_Fried Rice
+    Recipe_Prepar_Fried Rice2
+    Recipe_Make_4 Bowls of Fried Rice
+    Recipe_Make_4 Bowls of Fried Rice2
+    Recipe_Cut Lasagna Piece2
+    Recipe_Put Soup in Thermos
+    Recipe_Make_4 Bowls of Yakisoba
+    Recipe_Prepar_Yakisoba in Wok Pan
+    Recipe_Prepar_Sushi
+	Recipe_Make_Ice Cubes
+    Recipe_Tenderize Meat
+    Recipe_Grind Meat
+    Recipe_Grind Chicken
+    Recipe_Make_Sausage Casings
+    Recipe_Make_Sausage Casings2
+    Recipe_Make_Sausage Casings3
+    Recipe_Make_Bowl of Shaved Ice
+    Recipe_Prepar_Ceviche
+    Recipe_Prepar_Scotch Egg
+	Recipe_Fry_Scotch Egg
+    Recipe_Take Toothpick from Box
+    Recipe_Prepar_Arroz con Leche
+    Recipe_Make_2 Bowls of Arroz con Leche
+    Recipe_Boil Eggs
+    Recipe_Make_Flour Dough Wrapper
+
+
+
+
+  	ContextMenu_EvolvedRecipe_SapphCooking.FriedRiceWok = "Fried Rice",
+  	ContextMenu_EvolvedRecipe_SapphCooking.FryingPanwithFriedRice = "Fried Rice",
+	ContextMenu_EvolvedRecipe_SapphCooking.BakedPotatoEvolved = "Baked Potato",
+	ContextMenu_EvolvedRecipe_SapphCooking.LasagnaEvolved = "Lasagna",
+	ContextMenu_EvolvedRecipe_SapphCooking.RatatouilleEvolved = "Ratatouille",
+	ContextMenu_EvolvedRecipe_SapphCooking.YakisobaEvolved = "Yakisoba",
+    ContextMenu_EvolvedRecipe_SapphCooking.SushiEvolved = "Maki",
+	ContextMenu_EvolvedRecipe_SapphCooking.HotdogSandwich = "Sandwich",
+	ContextMenu_EvolvedRecipe_SapphCooking.HotdogEvolved = "Hotdog",
+	ContextMenu_EvolvedRecipe_SapphCooking.StockEvolved = "Stock",
+    ContextMenu_EvolvedRecipe_SapphCooking.DumplingsEvolved = "Dumpling",
+    ContextMenu_EvolvedRecipe_SapphCooking.CoffeeThermosEvolved = "Coffee",
+    ContextMenu_EvolvedRecipe_SapphCooking.SausageEvolved = "Sausage",
+    ContextMenu_EvolvedRecipe_SapphCooking.ShavedIceEvolved = "Shaved Ice",
+    ContextMenu_EvolvedRecipe_SapphCooking.CevicheEvolved = "Ceviche",
+    ContextMenu_EvolvedRecipe_SapphCooking.ArrozLecheEvolved = "Arroz con Leche",
+    ContextMenu_EvolvedRecipe_SapphCooking.SpringrollEvolved = "Spring roll",       
+
+
+    Tooltip_HotWater = "Instructions say, 'use it with Hot Water'.",
+	Tooltip_EmptyThermos = "Can be used to store water, drinks or cooked soups",
+	Tooltip_CookedBowls = "Can be placed into bowls after Cooking.",
+	Tooltip_CookedSlices = "Can be Sliced after Cooking.",
+	Tooltip_CornPopcorn = "Can be cooked into Popcorn.",
+    Tooltip_Stock = "Can be used in stock,soups or stews.",
+    Tooltip_IceCubes = "If it has Water, can be made into Ice Cubes when near a Fridge with Power.",
+    Tooltip_SausagesMagazine = "Teaches how to butcher and how to Make_Sausages",
+
+
+
+
+Scrapped:
+    - New tiles: - Kitchen Knife Holder(Storage)
+
+sapph: i just scrapped this, cause i wasnt really in the mood to learn how tiles work. maybe in the future i can look back into this!

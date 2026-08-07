@@ -1,0 +1,17 @@
+{
+    "IGUI_ItemCat_Gardening_01_Best": "Садоводство (Оптимально)",
+    "IGUI_ItemCat_Gardening_02_InSeason": "Садоводство (Сезон)",
+    "IGUI_ItemCat_Gardening_03_Risk": "Садоводство (Невыгодно)",
+    "IGUI_ItemCat_Gardening_04_OutOfSeason": "Садоводство (Вне сезона)",
+    "IGUI_ItemCat_Gardening_05_Unknown": "Садоводство",
+    "IGUI_ItemCat_Gardening_06_Other": "Садоводство",
+    "IGUI_SSI_SeasonSuffix_Best": "(Оптимально)",
+    "IGUI_SSI_SeasonSuffix_InSeason": "(Сезон)",
+    "IGUI_SSI_SeasonSuffix_Risk": "(Невыгодно)",
+    "IGUI_SSI_SeasonSuffix_OutOfSeason": "(Вне сезона)",
+    "IGUI_SSI_TooltipThisMonth": "Текущий месяц",
+    "IGUI_SSI_TooltipStatus_Best": "Оптимально",
+    "IGUI_SSI_TooltipStatus_InSeason": "Сезон",
+    "IGUI_SSI_TooltipStatus_Risk": "Невыгодно",
+    "IGUI_SSI_TooltipStatus_OutOfSeason": "Вне сезона"
+}

@@ -1,0 +1,8 @@
+ContextMenu_DA = {
+    ContextMenu_Connect_Device = "Forbinde",
+    ContextMenu_Disconnect_Device = "Afbryde",
+    ContextMenu_MergeWire = "Flet trådbundter",
+    ContextMenu_PickUp_Speaker = "Tag højttaleren op",
+    ContextMenu_TM_CDCase_PutIn = "Læg i CD-cover",
+    ContextMenu_TM_CDCase_TakeOut = "Tag CD'en ud",
+}

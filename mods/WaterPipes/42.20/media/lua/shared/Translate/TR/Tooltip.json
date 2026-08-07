@@ -1,0 +1,12 @@
+{
+	"Tooltip_WP_ThePumpWornHazard": "Pompa kötü durumda ve yangın tehlikesine yol açabilir!",
+	"Tooltip_WP_ThePumpIsWornOut": "Pompa yıpranmış.",
+	"Tooltip_WP_NeedsPowerToOperate": "Çalışması için güç gerekiyor.",
+	"Tooltip_WP_NeedsCharcoal": "Kömür gerekir.",
+    "Tooltip_WP_NeedsScrapMetal": "Hurda metal gerekir.",
+	"Tooltip_WP_craft_pipeDesc": "Boru hatları inşa etmek için kullanılır. ",
+	"Tooltip_WP_craft_pumpDesc": "Boru hattına su pompalar. ",
+	"Tooltip_WP_craft_sprinklerDesc": "Ekinlerin üzerine su püskürtür. ",
+	"Tooltip_WP_craft_valveDesc": "Boru hattındaki su akışını açar veya kapatır. ",
+	"Tooltip_WP_craft_flowmeterDesc": "Boru hattındaki su akışını ölçer. "
+}

@@ -1,0 +1,8 @@
+ItemName_RU = {
+	ItemName_ProfessionItems.DiaryPage1 = "Страница из дневника #1"
+	ItemName_ProfessionItems.DiaryPage2 = "Страница из дневника #2"
+	ItemName_ProfessionItems.DiaryPage3 = "Страница из дневника #3"
+	ItemName_ProfessionItems.DiaryPage4 = "Страница из дневника #4"
+	ItemName_ProfessionItems.DiaryPage5 = "Страница из дневника #5"
+	ItemName_ProfessionItems.DiaryPage6 = "Страница из дневника #6"
+}

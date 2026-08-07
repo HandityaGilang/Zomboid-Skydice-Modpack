@@ -1,0 +1,6 @@
+VERSION = 1,
+
+option Plumbing.FuelPumpMaxFuel = {
+	type = integer, min = 6, max = 200, default = 40,
+	page = Plumbing, translation = Plumbing.FuelPumpMaxFuel,
+}

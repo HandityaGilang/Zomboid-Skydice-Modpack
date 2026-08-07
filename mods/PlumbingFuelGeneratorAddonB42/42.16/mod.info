@@ -1,0 +1,6 @@
+name=Waterpipes B42.16 - Fuel Piping Addon
+poster=poster.png
+id=PlumbingFuelGeneratorAddonB42
+require=Waterpipes
+description=Addon for Slayer's [B42] Water Pipes mod. Lets a pump built next to a gas station draw petrol through the pipe network to auto-fuel generators, and lets you manually fill barrels with fuel and siphon it back out into a can.
+author=Nick

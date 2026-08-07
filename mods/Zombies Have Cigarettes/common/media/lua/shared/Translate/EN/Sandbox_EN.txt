@@ -1,0 +1,11 @@
+Sandbox_EN = {
+    Sandbox_ZombsHaveCigs = "Zombies Have Cigarettes",
+    Sandbox_ZombsHaveCigs_GlobalChance = "Zombie loot chance",
+    Sandbox_ZombsHaveCigs_GlobalChance_tooltip = "Chance that a dead zombie receives one item from this mod.",
+    Sandbox_ZombsHaveCigs_EnableFireSources = "Add lighters and matches",
+    Sandbox_ZombsHaveCigs_EnableFireSources_tooltip = "Allows regular lighters, disposable lighters, matchbooks, and matchboxes to appear on zombies.",
+    Sandbox_ZombsHaveCigs_EnableRareTobacco = "Add rare tobacco",
+    Sandbox_ZombsHaveCigs_EnableRareTobacco_tooltip = "Allows chewing tobacco, cheroots, and cigars to appear as rare zombie loot.",
+    Sandbox_ZombsHaveCigs_DebugLogging = "Debug logging",
+    Sandbox_ZombsHaveCigs_DebugLogging_tooltip = "Prints each successful zombie loot roll to the console.",
+}

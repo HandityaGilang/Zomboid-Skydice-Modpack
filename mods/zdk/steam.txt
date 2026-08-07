@@ -1,0 +1,3 @@
+Zed's Developer Kit.
+
+(just a function library, doesn't do anything on its own)

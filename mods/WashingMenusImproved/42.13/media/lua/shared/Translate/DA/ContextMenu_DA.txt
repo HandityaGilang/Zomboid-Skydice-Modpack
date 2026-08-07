@@ -1,0 +1,6 @@
+ContextMenu_DA = {
+	ContextMenu_BagsEquipped = "Udstyrede tasker",
+	ContextMenu_WMI_Bandages = "Bandager",
+	Tooltip_WMI_TaintedAllowed = "Tilladt af verdensindstillinger.",
+	Tooltip_WMI_TaintedBlocked = "Blokeret af verdensindstillinger.",
+}

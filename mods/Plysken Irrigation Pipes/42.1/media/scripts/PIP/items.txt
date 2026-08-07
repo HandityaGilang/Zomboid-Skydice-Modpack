@@ -1,0 +1,17 @@
+module PIP
+{
+    imports { Base }
+
+    /* Irrigation pipe item. One item, the placed object picks its sprite (line/corner/T/cross/
+       vertical) from neighbours at placement time (see PIPPlacement.lua). Icon reuses the
+       existing Item_WaterPipe.png. Sprites are reused from the original mods (no custom art). */
+    item WaterPipe
+    {
+        ItemType        = base:normal,
+        DisplayName     = Irrigation Pipe,
+        DisplayCategory = Material,
+        Icon            = WaterPipe,
+        Weight          = 0.15,
+        WorldStaticModel = PlasticPipe,
+    }
+}

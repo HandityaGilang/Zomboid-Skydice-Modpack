@@ -1,0 +1,65 @@
+VERSION = 1,
+
+/* Plysken Irrigation Pipes (PIP) - sandbox options.
+   Fusion of the source mods' options (Drip Irrigation + Cluster Barrels).
+   Sandbox-first: every gameplay value is exposed here (PSR/PFR rule). */
+
+option PIP.EnableAutoWatering
+{
+    type = boolean, default = true,
+    page = PIP, translation = PIP_EnableAutoWatering,
+}
+
+option PIP.WateringInterval
+{
+    type = integer, min = 1, max = 60, default = 10,
+    page = PIP, translation = PIP_WateringInterval,
+}
+
+option PIP.WateringRadius
+{
+    type = integer, min = 0, max = 10, default = 0,
+    page = PIP, translation = PIP_WateringRadius,
+}
+
+option PIP.SmartPipes
+{
+    type = boolean, default = true,
+    page = PIP, translation = PIP_SmartPipes,
+}
+
+option PIP.SmartPipesFillMax
+{
+    type = integer, min = 3, max = 100, default = 20,
+    page = PIP, translation = PIP_SmartPipesFillMax,
+}
+
+option PIP.SharedWaterPool
+{
+    type = boolean, default = true,
+    page = PIP, translation = PIP_SharedWaterPool,
+}
+
+option PIP.EnableFertigation
+{
+    type = boolean, default = true,
+    page = PIP, translation = PIP_EnableFertigation,
+}
+
+option PIP.FertigationSkill
+{
+    type = integer, min = 0, max = 10, default = 5,
+    page = PIP, translation = PIP_FertigationSkill,
+}
+
+option PIP.ChargesPerBag
+{
+    type = integer, min = 1, max = 100, default = 10,
+    page = PIP, translation = PIP_ChargesPerBag,
+}
+
+option PIP.DebugLogs
+{
+    type = boolean, default = false,
+    page = PIP, translation = PIP_DebugLogs,
+}

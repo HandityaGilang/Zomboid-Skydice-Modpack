@@ -1,0 +1,18 @@
+PSC_RESULT_MESSAGES = {
+    "You played the perfect final card.",
+    "{opponent} demands a rematch.",
+    "The table has chosen its champion.",
+    "You turned a bad hand into a victory.",
+    "That final card settled everything.",
+    "You survived every skip, reverse, and draw.",
+    "The deck was unpredictable. You were not.",
+    "You may now enjoy the bragging rights.",
+    "The cards are gone. Your victory remains.",
+    "{opponent} blames the shuffle.",
+    "{opponent} was one card away. Probably.",
+    "{opponent} will remember that wild card.",
+    "You won. Try to look surprised.",
+    "The table demanded a winner. It got you.",
+    "A clean finish to a chaotic game.",
+    "You kept the best card for last.",
+}

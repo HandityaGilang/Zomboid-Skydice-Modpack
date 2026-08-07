@@ -1,0 +1,9 @@
+{
+    "Sandbox_Plumbing": "Su Tesisatı",
+    "Sandbox_Plumbing.PumpFilterUsage": "Pompa filtresi tüketimi %",
+    "Sandbox_Plumbing.PumpFilterUsage_tooltip": "Her 1 oyun dakikasında tüketilen su pompası filtresinin yüzdesi.",
+    "Sandbox_Plumbing.PumpEfficiencyLoss": "Pompa verimlilik kaybı %",
+    "Sandbox_Plumbing.PumpEfficiencyLoss_tooltip": "Su pompasının her 1 oyun dakikasında kaybettiği verimlilik yüzdesi.",
+    "Sandbox_Plumbing.PumpMaxWater": "Pompa su miktarı",
+    "Sandbox_Plumbing.PumpMaxWater_tooltip": "%100 verimli bir pompanın her 1 oyun dakikasında sağladığı su miktarı."
+}

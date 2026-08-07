@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+	<files>
+		<path>media/clothing/clothingItems/TABAS_BodyGrime.xml</path>
+		<guid>306e4a0a-1c15-417f-a1fb-77b69fe44519</guid>
+	</files>
+	<files>
+		<path>media/clothing/clothingItems/TABAS_ShampooForm.xml</path>
+		<guid>25213b17-6242-4bf1-a009-8741b6d23c7f</guid>
+	</files>
+</fileGuidTable>

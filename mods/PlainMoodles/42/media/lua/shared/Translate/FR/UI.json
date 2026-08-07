@@ -1,0 +1,9 @@
+{
+    "UI_PlainMoodles_Title": "Plain Moodles Redone",
+    "UI_PlainMoodles_OwnStack": "Dessiner la pile de moodles avec ce mod",
+    "UI_PlainMoodles_OwnStack_tip": "Désactivé : le jeu dessine la pile lui-même et le mod ne fournit que les textures.",
+    "UI_PlainMoodles_Tint": "Colorer le fond selon le niveau du moodle",
+    "UI_PlainMoodles_Tint_tip": "Désactivé : les fonds restent gris à tous les niveaux, comme dans la version 1.4.0.",
+    "UI_PlainMoodles_Tooltip": "Afficher le nom du moodle au survol de la souris",
+    "UI_PlainMoodles_Tooltip_tip": "Désactivé : aucune étiquette à côté du fond sous le curseur."
+}

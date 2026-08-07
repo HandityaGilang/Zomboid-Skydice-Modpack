@@ -1,0 +1,514 @@
+Recipes_TR = {
+
+    /* ------------------------------ */
+    /* ███   ███ ██████ ██████ ██  ██ */
+    /* ████ ████ ██  ██   ██   ███ ██ */
+    /* ██ ███ ██ ██████   ██   ██████ */
+    /* ██     ██ ██  ██   ██   ██ ███ */
+    /* ██     ██ ██  ██ ██████ ██  ██ */
+    /* ------------------------------ */
+
+    /**** vfx_recipes_food.txt ****/
+
+        VFX_OpenInsectCan = "Konserve Böceği Aç",
+        VFX_OpenBoxOfSmallCannedFood = "Open Box Of Canned Food",
+        VFX_PackBoxOfSmallCannedFood = "Pack Box of Canned Food",
+
+        VFX_OpenJar = "Kavanozu Aç",
+        VFX_OpenJarofPickles = "Open Jar",
+
+        VFX_TakeBouillonCubeFromBox = "Kutudan Et Suyu Tableti Al",
+
+        VFX_OpenBoxSoupSachet = "Kutulu Çorba Paketini Aç",
+        VFX_PrepareSoup_Pumpkin = "Balkabağı Çorbası Hazırla",
+        VFX_PrepareSoup_PeaAndHam = "Bezelyeli Jambonlu Çorba Hazırla",
+        VFX_PrepareSoup_ChickenNoodle = "Tavuklu Şehriye Çorbası Hazırla",
+        VFX_PrepareSoup_Tomato = "Domates Çorbası Hazırla",
+
+        VFX_OpenBoxRamen = "Kutulu Ramen'i Aç",
+        VFX_OpenPacketRamen = "Paketli Ramen'i Aç",
+        VFX_PrepareRamen = "Ramen Hazırla",
+
+        VFX_PreparePacketPasta = "Paketli Makarnayı Hazırla",
+        VFX_PreparePacketRice = "Paketli Pilavı Hazırla",
+
+        VFX_PrepareFreshPastaSaucepan = "Sos Tenceresinde Taze Makarna Hazırla",
+        VFX_PrepareFreshPastaPot = "Tencerede Taze Makarna Hazırla",
+
+        VFX_PrepareMarinara = "Marinara Sosu Hazırla",
+        VFX_PrepareSpicyMarinara = "Acılı Marinara Sosu Hazırla",
+        VFX_PrepareMeatSauce = "Kıymalı Sos Hazırla",
+        VFX_PrepareBasilPesto = "Fesleğenli Pesto Sosu Hazırla",
+        VFX_PrepareAlfredoSauce = "Alfredo Sosu Hazırla",
+        VFX_PrepareBechamelSauce = "Beşamel Sos Hazırla",
+
+        VFX_OpenHomemadePastaSauce = "Ev Yapımı Makarna Sosunu Aç",
+
+        VFX_MakeBowlOfCereal = "Bir Kase Kahvaltılık Gevrek Hazırla",
+        VFX_MakeBowlOfGranola = "Bir Kase Granola Hazırla",
+
+        VFX_OpenSnackCakeBox = "Kutulu Atıştırmalık Keki Aç",
+        VFX_OpenToasterStrudelBox = "Kutulu Strudel Paketini Aç",
+        VFX_OpenPackagedStrudel = "Paketli Strudel'i Aç",
+        VFX_OpenPuddingBox = "Kutulu Puding Bardağını Aç",
+        VFX_OpenJelloBox = "Kutulu Jöle Bardağını Aç",
+        VFX_OpenFruitCupBox = "Kutulu Meyve Bardağını Aç",
+        VFX_OpenGranolaBarBox = "Kutulu Granola Bar Paketini Aç",
+
+        VFX_MakeCakeBatter = "Kek Hamuru Hazırla",
+        VFX_PutCakeInBakingPan = "Keki Pişirme Kabına Koy",
+        VFX_SliceCake = "Keki Dilimle",
+
+        VFX_PrepareFrenchVanillaCake = "Fransız Vanilyalı Kek Hazırla",
+        VFX_PrepareCarrotCake = "Havuçlu Kek Hazırla",
+        VFX_PrepareChocolateCake = "Çikolatalı Kek Hazırla",
+        VFX_PrepareRedVelvetCake = "Red Velvet Kek Hazırla",
+        VFX_PrepareStrawberryCake = "Çilekli Kek Hazırla",
+        VFX_PrepareCaramelCake = "Karamelli Kek Hazırla",
+        VFX_PrepareOrangePoppyseedCake = "Portakallı Haşhaşlı Kek Hazırla",
+        VFX_PrepareConfettiCake = "Konfetili Kek Hazırla",
+        VFX_PrepareSpiceCake = "Baharatlı Kek Hazırla",
+        VFX_PrepareYellowCake = "Sarı Kek Hazırla",
+
+        VFX_MakeMuffinBatter = "Muffin Hamuru Hazırla",
+        VFX_PrepareMuffinTray = "Muffin Tepsisini Hazırla",
+        VFX_GetMuffinsFromTray = "Tepsiden 6 Muffin Al",
+
+        VFX_PrepareAppleCinnamonMuffins = "Elmalı Tarçınlı Muffin Hazırla",
+        VFX_PrepareBlueberryMuffins = "Yaban Mersinli Muffin Hazırla",
+        VFX_PrepareChocolateChipMuffins = "Çikolata Parçacıklı Muffin Hazırla",
+        VFX_PrepareDoubleChocolateMuffins = "Bol Çikolatalı Muffin Hazırla",
+        VFX_PrepareCornMuffins = "Mısır Unlu Muffin Hazırla",
+        VFX_PrepareLemonPoppyMuffins = "Limonlu Haşhaşlı Muffin Hazırla",
+
+        VFX_MakeBrownieBatter = "Brownie Hamuru Hazırla",
+        VFX_PrepareBrownieTray = "Brownie Tepsisini Hazırla",
+        VFX_GetBrowniesFromTray = "Tepsiden 6 Brownie Al",
+        VFX_PrepareBrownies = "Prepare Brownies",
+
+        VFX_MakeCookieDough = "Kurabiye Hamuru Hazırla",
+        VFX_Get6Cookies = "6 Kurabiye Al",
+        VFX_PreparePeanutButterCookieDough = "Fıstık Ezmeli Kurabiye Hamuru Hazırla",
+        VFX_PrepareGingerbreadCookieDough = "Zencefilli Kurabiye Hamuru Hazırla",
+        VFX_PrepareSnickerdoodleCookieDough = "Tarçınlı Kurabiye Hamuru Hazırla",
+
+        VFX_PrepareDessertBread = "Tatlı Ekmek Hazırla",
+        VFX_SliceDessertBread = "Tatlı Ekmeği Dilimle",
+        VFX_PrepareBananaBread = "Muzlu Ekmek Hazırla",
+        VFX_PreparePumpkinBread = "Balkabağı Ekmeği Hazırla",
+        VFX_PrepareChocolateSwirlBread = "Çikolata Soslu Ekmek Hazırla",
+        VFX_PrepareCinnamonSwirlBread = "Tarçınlı Ekmek Hazırla",
+        VFX_PrepareCranberryBread = "Yaban Mersinli Ekmek Hazırla",
+
+        VFX_PrepareBiscuits = "Tuzlu Çörek Hazırla",
+        VFX_Get6Biscuits = "6 Tuzlu Çörek Al",
+        VFX_PrepareCheddarBiscuits = "Çedarlı Tuzlu Çörek Hazırla",
+        VFX_PrepareHomestyleBiscuits = "Ev Usulü Tuzlu Çörek Hazırla",
+
+        VFX_PreparePuddingMix = "Puding Karışımı Hazırla",
+
+        VFX_PrepareCaramelFrosting = "Karamelli Krema Hazırla",
+        VFX_PrepareChocolateFrosting = "Çikolatalı Krema Hazırla",
+        VFX_PrepareLemonFrosting = "Limonlu Krema Hazırla",
+        VFX_PrepareStrawberryFrosting = "Çilekli Krema Hazırla",
+        VFX_PrepareCreamCheeseFrosting = "Krem Peynirli Krema Hazırla",
+        VFX_PrepareConfettiFrosting = "Konfetili Krema Hazırla",
+        VFX_PrepareVanillaFrosting = "Vanilyalı Krema Hazırla",
+
+        VFX_MakeJello = "Jöle Yap",
+
+        VFX_SlicePizza = "Pizzayı Dilimle",
+        VFX_OpenBag = "Paketi Aç",
+        VFX_OpenUncrustablesBox = "Kutulu Kenarsız Sandviçi Aç",
+        VFX_OpenPizzaRollBox = "Kutulu Pizza Rulolarını Aç",
+        VFX_OpenBreakfastSandwichBox = "Kutulu Kahvaltı Sandviçini Aç",
+        VFX_ScoopIceCream = "Dondurma Topu Al",
+
+        VFX_SlicePotato = "Patatesi Dilimle",
+        VFX_PrepareMashedPotato = "Patates Püresi Hazırla",
+
+        VFX_MakePancakes = "Pankek Yap",
+        VFX_MakeWaffles = "Waffle Yap",
+        VFX_MakeGravy = "Et Suyu Sosu (Gravy) Yap",
+        VFX_MakeBagels = "Bagel Yap",
+        VFX_MakePoppyBagels = "Haşhaşlı Bagel Yap",
+        VFX_MakeSesameBagels = "Susamlı Bagel Yap",
+        VFX_MakeCornbread = "Mısır Ekmeği Yap",
+        VFX_MakeCroissants = "Kruvasan Yap",
+        VFX_MakeTortillas = "Lavaş (Tortilla) Yap",
+        VFX_MakeDoughnuts = "Donut Yap",
+        VFX_MakeChocolateDoughnuts = "Çikolatalı Donut Yap",
+        VFX_MakeFrostedDoughnuts = "Kremalı Donut Yap",
+        VFX_MakeFriedOysters = "İstiridye Kızartması Yap",
+        VFX_MakeFriedFish = "Balık Kızartması Yap",
+        VFX_MakeFriedTofu = "Tofu Kızartması Yap",
+        VFX_MakeMeatDumplings = "Etli Mantı Yap",
+        VFX_MakeShrimpDumplings = "Karidesli Mantı Yap",
+        VFX_MakePotatoPancakes = "Patatesli Mücver Yap",
+
+        VFX_Make2Bowls = "2 Kase Hazırla",
+        VFX_Make4Bowls = "4 Kase Hazırla",
+        VFX_Make2Plates = "2 Tabak Hazırla",
+        VFX_Make4Plates = "4 Tabak Hazırla",
+
+    /**** vfx_recipes_beverages.txt ****/
+
+        VFX_MakeDrinkMixPitcher = "Make Pitcher of Drink Mix",
+        VFX_TakeTeaBagFromBox = "Kutudan Çay Poşeti Al",
+        VFX_MakeProteinShake = "Make Protein Shake",
+        VFX_OpenBottleOfWine = "Şarap Şişesini Aç",
+        VFX_OpenBottleOfBeer = "Bira Şişesini Aç",
+        VFX_OpenPackOfBeer = "Bira Paketini Aç",
+
+    /**** vfx_recipes_evolved.txt ****/
+
+        VFX_PrepareLasagna = "Lazanya Hazırla",
+        VFX_PrepareMeatloaf = "Rulo Köfte Hazırla",
+        VFX_PrepareBakedPotato = "Kumpir Hazırla",
+        VFX_PrepareScallopedPotatoBake = "Kremalı Patates Hazırla",
+        VFX_PrepareQuiche = "Kiş (Quiche) Hazırla",
+        VFX_PrepareNachos = "Nacho Hazırla",
+        VFX_PrepareEnchilada = "Enchilada Hazırla",
+        VFX_PrepareCheesecake = "Cheesecake Hazırla",
+        VFX_PrepareMilkshake = "Prepare Milkshake",
+        VFX_PrepareSushi = "Sushi Hazırla",
+        VFX_PrepareFriedRice = "Kızarmış Pilav Hazırla",
+        VFX_GetBakedPotato = "Kumpiri Al",
+        VFX_SliceCheesecake = "Cheesecake Dilimle",
+
+    /**** vfx_recipes_cooking.txt ****/
+
+        VFX_PrepareShephardsPie = "Çoban Payı Hazırla",
+        VFX_PrepareTunaCasserole = "Ton Balıklı Güveç Hazırla",
+        VFX_PrepareBakedZiti = "Fırın Makarna Hazırla",
+        VFX_PrepareStuffedBellPeppers = "Biber Dolması Hazırla",
+        VFX_GetStuffedBellPeppers = "Biber Dolmalarını Al",
+        VFX_PrepareChickenPotPie = "Tavuklu Pay Hazırla",
+        VFX_PrepareMoussaka = "Musakka Hazırla",
+        VFX_PrepareChickenDivan = "Tavuklu Divan Hazırla",
+        VFX_PrepareSalisburySteak = "Salisbury Bifteği Hazırla",
+        VFX_PrepareFishandChips = "Balık ve Patates Kızartması Hazırla",
+        VFX_PrepareBangersandMash = "Sosis ve Patates Püresi Hazırla",
+        VFX_PrepareFullEnglishBreakfast = "Tam İngiliz Kahvaltısı Hazırla",
+        VFX_PrepareHalfEnglishBreakfast = "Yarım İngiliz Kahvaltısı Hazırla",
+        VFX_PrepareScotchEgg = "İskoç Yumurtası Hazırla",
+        VFX_PrepareSausageAndAppleFry = "Sosisli Elmalı Kızartma Hazırla",
+        VFX_PrepareBeansOnToast = "Ekmek Üstü Fasulye Hazırla",
+        VFX_PrepareButterChicken = "Tereyağlı Tavuk Hazırla",
+        VFX_PrepareThaiGreenCurry = "Tay Usulü Yeşil Köri Hazırla",
+        VFX_PrepareMassamanCurry = "Massaman Köri Hazırla",
+        VFX_PrepareChanaMasala = "Nohut Masala Hazırla",
+        VFX_PrepareSweetPotatoChickpeaCurry = "Tatlı Patatesli Nohut Köri Hazırla",
+        VFX_PrepareTofuCurry = "Tofu Köri Hazırla",
+
+/* --------------------------------------------------------------------------- */
+/* ██████ ██████ ██      ██            ██  ██ ██████ ██████ ██████ ██████ ██████ */
+/* ██      ██  ██ ██      ██            ██  ██ ██  ██ ██  ██ ██  ██   ██   ██      */
+/* ██████ ██████ ██      ██            ██  ██ ██████ ██  ██ ██████   ██   ██████ */
+/* ██      ██  ██ ██      ██            ██  ██ ██      ██  ██ ██  ██   ██   ██      */
+/* ██      ██  ██ ██████ ██████        ██████ ██      ██████ ██  ██   ██   ██████ */
+/* --------------------------------------------------------------------------- */
+
+/* <<<<<  Fall Update - October 2025  >>>>> */
+
+    VFX_OpenCandyBag = "Şeker Torbasını Aç",
+    
+    VFX_OpenPackSausages = "Sosis Paketini Aç",
+    VFX_OpenPackMeatballs = "Köfte Paketini Aç",
+
+    VFX_SliceBakingPie = "Payı Dilimle",
+    VFX_SliceFrozenPie = "Slice Pie",
+
+    VFX_PreparePieFilling = "Pay Harcı Hazırla",
+
+    VFX_PrepareApplePie = "Elmalı Pay Hazırla",
+    VFX_PrepareCherryPie = "Vişneli Pay Hazırla",
+    VFX_PrepareBlueberryPie = "Yaban Mersinli Pay Hazırla",
+    VFX_PrepareStrawberryPie = "Çilekli Pay Hazırla",
+    VFX_PreparePeachPie = "Şeftalili Pay Hazırla",
+    VFX_PrepareMixedBerryPie = "Karışık Orman Meyveli Pay Hazırla",
+    VFX_PrepareLemonCreamPie = "Limon Kremalı Pay Hazırla",
+    VFX_PrepareBlackberryPie = "Böğürtlenli Pay Hazırla",
+    VFX_PrepareRaspberryPie = "Ahududulu Pay Hazırla",
+    VFX_PreparePumpkinPie = "Balkabağı Payı Hazırla",
+    VFX_PrepareSweetPotatoPie = "Tatlı Patates Payı Hazırla",
+    VFX_PreparePecanPie = "Pekan Cevizli Pay Hazırla",
+    
+    VFX_MakeSpiceRackSmallLight = "Küçük Açık Renk Baharatlık Yap",
+    VFX_MakeSpiceRackSmallDark = "Küçük Koyu Renk Baharatlık Yap",
+    VFX_MakeSpiceRackLargeLight = "Büyük Açık Renk Baharatlık Yap",
+    VFX_MakeSpiceRackLargeDark = "Büyük Koyu Renk Baharatlık Yap",
+
+/* FOR 42.12 LEGACY - WILL NOT BE UPDATED */
+
+    /**** recipes_food.txt ****/
+
+        OpenCan = "Konserve Gıdayı Aç",
+        OpenCanKnifeOrSharpStoneFlake = "Bıçakla Konserve Gıdayı Aç",
+        OpenInsectCan = "Konserve Böceği Aç",
+
+        OpenBoxOfCannedFood = "Open Box Of Canned Food",
+        OpenBoxOfSmallCannedFood = "Open Box Of Canned Food",
+
+        PackBoxOfCannedFood = "Pack Box of Canned Food",
+        PackBoxOfSmallCannedFood = "Pack Box of Canned Food",
+
+        OpenJar = "Open Jar",
+        OpenJarofPickles = "Open Jar",
+
+        OpenJarCanning = "Konserve Kavanozunu Aç",
+        MakeJarCanning = "Konserve Kavanozu Yap",
+
+        TakeBouillonCubeFromBox = "Kutudan Et Suyu Tableti Al",
+
+        OpenBoxSoupSachet = "Kutulu Çorba Paketini Aç",
+        PrepareSoup_Pumpkin = "Balkabağı Çorbası Hazırla",
+        PrepareSoup_PeaAndHam = "Bezelyeli Jambonlu Çorba Hazırla",
+        PrepareSoup_ChickenNoodle = "Tavuklu Şehriye Çorbası Hazırla",
+        PrepareSoup_Tomato = "Domates Çorbası Hazırla",
+
+        OpenBoxRamen = "Kutulu Ramen'i Aç",
+        OpenPacketRamen = "Paketli Ramen'i Aç",
+        PrepareRamen = "Ramen Hazırla",
+
+        PreparePacketPasta = "Paketli Makarnayı Hazırla",
+        PreparePacketRice = "Paketli Pilavı Hazırla",
+
+        PrepareBrownRiceSaucepan = "Prepare Saucepan of Brown Rice",
+        PrepareJasmineRiceSaucepan = "Prepare Saucepan of Jasmine Rice",
+        PrepareBasmatiRiceSaucepan = "Prepare Saucepan of Basmati Rice",
+        PrepareArborioRiceSaucepan = "Prepare Saucepan of Arborio Rice",
+
+        PrepareBrownRicePot = "Prepare Cooking Pot of Brown Rice",
+        PrepareJasmineRicePot = "Prepare Cooking Pot of Jasmine Rice",
+        PrepareBasmatiRicePot = "Prepare Cooking Pot of Basmati Rice",
+        PrepareArborioRicePot = "Prepare Cooking Pot of Arborio Rice",
+
+        PrepareMacaroniSaucepan = "Prepare Saucepan of Macaroni",
+        PrepareFettuccineSaucepan = "Prepare Saucepan of Fettuccine",
+        PreparePenneSaucepan = "Prepare Saucepan of Penne",
+
+        PrepareMacaroniPot = "Prepare Cooking Pot of Macaroni",
+        PrepareFettuccinePot = "Prepare Cooking Pot of Fettuccine",
+        PreparePennePot = "Prepare Cooking Pot of Penne",
+
+        PrepareFreshPastaSaucepan = "Sos Tenceresinde Taze Makarna Hazırla",
+        PrepareFreshPastaPot = "Tencerede Taze Makarna Hazırla",
+
+        PrepareMarinara = "Marinara Sosu Hazırla",
+        PrepareSpicyMarinara = "Acılı Marinara Sosu Hazırla",
+        PrepareMeatSauce = "Kıymalı Sos Hazırla",
+        PrepareBasilPesto = "Fesleğenli Pesto Sosu Hazırla",
+        PrepareAlfredoSauce = "Alfredo Sosu Hazırla",
+        PrepareBechamelSauce = "Beşamel Sos Hazırla",
+
+        OpenHomemadePastaSauce = "Ev Yapımı Makarna Sosunu Aç",
+
+        MakeBowlOfCereal = "Bir Kase Kahvaltılık Gevrek Hazırla",
+        MakeBowlOfGranola = "Bir Kase Granola Hazırla",
+
+        OpenSnackCakeBox = "Kutulu Atıştırmalık Keki Aç",
+        OpenToasterStrudelBox = "Kutulu Strudel Paketini Aç",
+        OpenPackagedStrudel = "Paketli Strudel'i Aç",
+        OpenPuddingBox = "Kutulu Puding Bardağını Aç",
+        OpenJelloBox = "Kutulu Jöle Bardağını Aç",
+        OpenFruitCupBox = "Kutulu Meyve Bardağını Aç",
+        OpenGranolaBarBox = "Kutulu Granola Bar Paketini Aç",
+
+        MakeCakeBatter = "Kek Hamuru Hazırla",
+        PutCakeInBakingPan = "Keki Pişirme Kabına Koy",
+        SliceCake = "Keki Dilimle",
+
+        PrepareFrenchVanillaCake = "Fransız Vanilyalı Kek Hazırla",
+        PrepareCarrotCake = "Havuçlu Kek Hazırla",
+        PrepareChocolateCake = "Çikolatalı Kek Hazırla",
+        PrepareRedVelvetCake = "Red Velvet Kek Hazırla",
+        PrepareStrawberryCake = "Çilekli Kek Hazırla",
+        PrepareCaramelCake = "Karamelli Kek Hazırla",
+        PrepareOrangePoppyseedCake = "Portakallı Haşhaşlı Kek Hazırla",
+        PrepareConfettiCake = "Konfetili Kek Hazırla",
+        PrepareSpiceCake = "Baharatlı Kek Hazırla",
+        PrepareYellowCake = "Sarı Kek Hazırla",
+
+        MakeMuffinBatter = "Muffin Hamuru Hazırla",
+        PrepareMuffinTray = "Muffin Tepsisini Hazırla",
+        GetMuffinsFromTray = "Tepsiden 6 Muffin Al",
+
+        PrepareAppleCinnamonMuffins = "Elmalı Tarçınlı Muffin Hazırla",
+        PrepareBlueberryMuffins = "Yaban Mersinli Muffin Hazırla",
+        PrepareChocolateChipMuffins = "Çikolata Parçacıklı Muffin Hazırla",
+        PrepareDoubleChocolateMuffins = "Bol Çikolatalı Muffin Hazırla",
+        PrepareCornMuffins = "Mısır Unlu Muffin Hazırla",
+        PrepareLemonPoppyMuffins = "Limonlu Haşhaşlı Muffin Hazırla",
+
+        MakeBrownieBatter = "Brownie Hamuru Hazırla",
+        PrepareBrownieTray = "Prepare Brownies",
+        GetBrowniesFromTray = "Tepsiden 6 Brownie Al",
+        PrepareBrownies = "Prepare Brownies",
+
+        MakeCookieDough = "Kurabiye Hamuru Hazırla",
+        Get6Cookies = "6 Kurabiye Al",
+        PreparePeanutButterCookieDough = "Fıstık Ezmeli Kurabiye Hamuru Hazırla",
+        PrepareGingerbreadCookieDough = "Zencefilli Kurabiye Hamuru Hazırla",
+        PrepareSnickerdoodleCookieDough = "Tarçınlı Kurabiye Hamuru Hazırla",
+
+        PrepareDessertBread = "Tatlı Ekmek Hazırla",
+        SliceDessertBread = "Tatlı Ekmeği Dilimle",
+        PrepareBananaBread = "Muzlu Ekmek Hazırla",
+        PreparePumpkinBread = "Balkabağı Ekmeği Hazırla",
+        PrepareChocolateSwirlBread = "Çikolata Soslu Ekmek Hazırla",
+        PrepareCinnamonSwirlBread = "Tarçınlı Ekmek Hazırla",
+        PrepareCranberryBread = "Yaban Mersinli Ekmek Hazırla",
+
+        PrepareBiscuits = "Tuzlu Çörek Hazırla",
+        Get6Biscuits = "6 Tuzlu Çörek Al",
+        PrepareCheddarBiscuits = "Çedarlı Tuzlu Çörek Hazırla",
+        PrepareHomestyleBiscuits = "Ev Usulü Tuzlu Çörek Hazırla",
+
+        PreparePuddingMix = "Puding Karışımı Hazırla",
+
+        PrepareCaramelFrosting = "Karamelli Krema Hazırla",
+        PrepareChocolateFrosting = "Çikolatalı Krema Hazırla",
+        PrepareLemonFrosting = "Limonlu Krema Hazırla",
+        PrepareStrawberryFrosting = "Çilekli Krema Hazırla",
+        PrepareCreamCheeseFrosting = "Krem Peynirli Krema Hazırla",
+        PrepareConfettiFrosting = "Konfetili Krema Hazırla",
+        PrepareVanillaFrosting = "Vanilyalı Krema Hazırla",
+
+        MakeJello = "Jöle Yap",
+
+        SlicePizza = "Pizzayı Dilimle",
+        OpenBag = "Paketi Aç",
+        OpenUncrustablesBox = "Kutulu Kenarsız Sandviçi Aç",
+        OpenPizzaRollBox = "Kutulu Pizza Rulolarını Aç",
+        OpenBreakfastSandwichBox = "Kutulu Kahvaltı Sandviçini Aç",
+        ScoopIceCream = "Dondurma Topu Al",
+
+        SlicePotato = "Patatesi Dilimle",
+        PrepareMashedPotato = "Patates Püresi Hazırla",
+
+        MakePancakes = "Pankek Yap",
+        MakeWaffles = "Waffle Yap",
+        MakeGravy = "Et Suyu Sosu Yap",
+        MakeBagels = "Bagel Yap",
+        MakePoppyBagels = "Haşhaşlı Bagel Yap",
+        MakeSesameBagels = "Susamlı Bagel Yap",
+        MakeCornbread = "Mısır Ekmeği Yap",
+        MakeCroissants = "Kruvasan Yap",
+        MakeTortillas = "Lavaş (Tortilla) Yap",
+        MakeDoughnuts = "Donut Yap",
+        MakeChocolateDoughnuts = "Çikolatalı Donut Yap",
+        MakeFrostedDoughnuts = "Kremalı Donut Yap",
+        MakeFriedOysters = "İstiridye Kızartması Yap",
+        MakeFriedFish = "Balık Kızartması Yap",
+        MakeFriedTofu = "Tofu Kızartması Yap",
+        MakeMeatDumplings = "Etli Mantı Yap",
+        MakeShrimpDumplings = "Karidesli Mantı Yap",
+        VFX_MakePotatoPancakes = "Patatesli Mücver Yap",
+
+        Make2Bowls = "2 Kase Hazırla",
+        Make4Bowls = "4 Kase Hazırla",
+        Make2Plates = "2 Tabak Hazırla",
+        Make4Plates = "4 Tabak Hazırla",
+
+    /**** recipes_beverages.txt ****/
+
+        MakeLemonadePitcher = "Bir Sürahi Limonata Hazırla",
+        MakePinkLemonadePitcher = "Bir Sürahi Pembe Limonata Hazırla",
+        MakeFruitPunchPitcher = "Bir Sürahi Meyve Kokteyli Hazırla",
+        MakeCherryDrinkPitcher = "Bir Sürahi Vişne İçeceği Hazırla",
+        MakeGrapeDrinkPitcher = "Bir Sürahi Üzüm İçeceği Hazırla",
+        MakeSweetTeaPitcher = "Bir Sürahi Şekerli Buzlu Çay Hazırla",
+
+        TakeTeaBagFromBox = "Kutudan Çay Poşeti Al",
+
+        MakeVanillaProteinShake = "Vanilyalı Protein Shake Yap",
+        MakeChocolateProteinShake = "Çikolatalı Protein Shake Yap",
+        MakeStrawberryProteinShake = "Çilekli Protein Shake Yap",
+        MakeBananaProteinShake = "Muzlu Protein Shake Yap",
+
+        OpenBottleOfWine = "Şarap Şişesini Aç",
+        OpenBottleOfBeer = "Bira Şişesini Aç",
+        OpenPackOfBeer = "Bira Paketini Aç",
+
+    /**** recipes_evolved.txt ****/
+
+        PrepareLasagna = "Lazanya Hazırla",
+        PrepareMeatloaf = "Rulo Köfte Hazırla",
+        PrepareBakedPotato = "Kumpir Hazırla",
+        PrepareScallopedPotatoBake = "Kremalı Patates Hazırla",
+        PrepareQuiche = "Kiş (Quiche) Hazırla",
+        PrepareNachos = "Nacho Hazırla",
+        PrepareEnchilada = "Enchilada Hazırla",
+        PrepareCheesecake = "Cheesecake Hazırla",
+        PrepareMilkshakeVanilla = "Prepare Milkshake",
+        PrepareMilkshakeChocolate = "Prepare Milkshake",
+        PrepareMilkshakeChocolateChip = "Prepare Milkshake",
+        PrepareMilkshakeStrawberry = "Prepare Milkshake",
+        PrepareMilkshakeNeapolitan = "Prepare Milkshake",
+        PrepareMilkshakeButterPecan = "Prepare Milkshake",
+        PrepareMilkshakeMintChocolateChip = "Prepare Milkshake",
+        PrepareMilkshakeCookiesAndCream = "Prepare Milkshake",
+        PrepareMilkshakeRockyRoad = "Prepare Milkshake",
+        PrepareMilkshakePistachio = "Prepare Milkshake",
+        PrepareSushi = "Sushi Hazırla",
+        PrepareFriedRice = "Kızarmış Pilav Hazırla",
+        GetBakedPotato = "Kumpiri Al",
+        SliceCheesecake = "Cheesecake Dilimle",
+
+    /**** recipes_cooking.txt ****/
+
+        PrepareShephardsPie = "Çoban Payı Hazırla",
+        PrepareTunaCasserole = "Ton Balıklı Güveç Hazırla",
+        PrepareBakedZiti = "Fırın Makarna Hazırla",
+        PrepareStuffedBellPeppers = "Biber Dolması Hazırla",
+        GetStuffedBellPeppers = "Biber Dolmalarını Al",
+        PrepareChickenPotPie = "Tavuklu Pay Hazırla",
+        PrepareMoussaka = "Musakka Hazırla",
+        PrepareChickenDivan = "Tavuklu Divan Hazırla",
+        PrepareSalisburySteak = "Salisbury Bifteği Hazırla",
+        PrepareFishandChips = "Balık ve Patates Kızartması Hazırla",
+        PrepareBangersandMash = "Sosis ve Patates Püresi Hazırla",
+        PrepareFullEnglishBreakfast = "Tam İngiliz Kahvaltısı Hazırla",
+        PrepareHalfEnglishBreakfast = "Yarım İngiliz Kahvaltısı Hazırla",
+        PrepareScotchEgg = "İskoç Yumurtası Hazırla",
+        PrepareSausageAndAppleFry = "Sosisli Elmalı Kızartma Hazırla",
+        PrepareBeansOnToast = "Ekmek Üstü Fasulye Hazırla",
+        PrepareButterChicken = "Tereyağlı Tavuk Hazırla",
+        PrepareThaiGreenCurry = "Tay Usulü Yeşil Köri Hazırla",
+        PrepareMassamanCurry = "Massaman Köri Hazırla",
+        PrepareChanaMasala = "Nohut Masala Hazırla",
+        PrepareSweetPotatoChickpeaCurry = "Tatlı Patatesli Nohut Köri Hazırla",
+        PrepareTofuCurry = "Tofu Köri Hazırla",
+    
+    /**** Fall Update - October 2025 ****/
+
+        VFX_OpenCandyBag = "Şeker Torbasını Aç",
+
+        VFX_OpenPackSausages = "Sosis Paketini Aç",
+        VFX_OpenPackMeatballs = "Köfte Paketini Aç",
+
+        VFX_SliceBakingPie = "Payı Dilimle",
+        VFX_SliceFrozenPie = "Slice Pie",
+
+        VFX_PreparePieFilling = "Pay Harcı Hazırla",
+
+        VFX_PrepareApplePie = "Elmalı Pay Hazırla",
+        VFX_PrepareCherryPie = "Vişneli Pay Hazırla",
+        VFX_PrepareBlueberryPie = "Yaban Mersinli Pay Hazırla",
+        VFX_PrepareStrawberryPie = "Çilekli Pay Hazırla",
+        VFX_PreparePeachPie = "Şeftalili Pay Hazırla",
+        VFX_PrepareMixedBerryPie = "Karışık Orman Meyveli Pay Hazırla",
+        VFX_PrepareLemonCreamPie = "Limon Kremalı Pay Hazırla",
+        VFX_PrepareBlackberryPie = "Böğürtlenli Pay Hazırla",
+        VFX_PrepareRaspberryPie = "Ahududulu Pay Hazırla",
+        VFX_PreparePumpkinPie = "Balkabağı Payı Hazırla",
+        VFX_PrepareSweetPotatoPie = "Tatlı Patates Payı Hazırla",
+        VFX_PreparePecanPie = "Pekan Cevizli Pay Hazırla",
+
+        VFX_MakeSpiceRackSmallLight = "Küçük Açık Renk Baharatlık Yap",
+        VFX_MakeSpiceRackSmallDark = "Küçük Koyu Renk Baharatlık Yap",
+        VFX_MakeSpiceRackLargeLight = "Büyük Açık Renk Baharatlık Yap",
+        VFX_MakeSpiceRackLargeDark = "Büyük Koyu Renk Baharatlık Yap",
+
+}

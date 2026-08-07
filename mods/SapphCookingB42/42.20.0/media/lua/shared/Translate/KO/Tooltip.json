@@ -1,0 +1,33 @@
+{
+	"Tooltip_OilPan" : "가열이 필요합니다.",
+	"Tooltip_WaterPan" : "조리해야 합니다.",
+	"Tooltip_AsiaFoodMagazine" : "아시아 지역의 요리법을 배울 수 있습니다.",
+	"Tooltip_EuropeFoodMagazine" : "유럽 지역의 요리법을 배울 수 있습니다.",
+	"Tooltip_PastaDoughMagazine" : "파스타 요리법을 배울 수 있습니다.",
+	"Tooltip_HotWater" : "뜨거운 물이 필요합니다.",
+	"Tooltip_EmptyThermos" : "물, 음료 또는 조리된 수프를 보관할 수 있습니다.",
+	"Tooltip_CookedBowls" : "조리 후 그릇에 담을 수 있습니다.",
+	"Tooltip_CookedSlices" : "조리 후 잘라낼 수 있습니다.",
+	"Tooltip_CornPopcorn" : "팝콘으로 조리할 수 있습니다.",
+	"Tooltip_Stock" : "육수, 수프 또는 스튜를 만드는 데 사용할 수 있습니다.",
+	"Tooltip_SausagesMagazine" : "고기 손질법과 소시지 만드는 법을 배울 수 있습니다.",
+
+	"Tooltip_Fortune1" : "\"경험은 인생 최고의 스승이다.\"",
+	"Tooltip_Fortune2" : "\"오늘을 마지막 날인 것처럼 살아라.\"",
+	"Tooltip_Fortune3" : "\"인생에는 후회가 없다. 오직 배움만 있을 뿐이다.\"",
+	"Tooltip_Fortune4" : "\"다시 꿈꿀 용기를 가져라.\"",
+	"Tooltip_Fortune5" : "\"상처를 지혜로 바꾸어라.\"",
+	"Tooltip_Fortune6" : "\"여기까지 얼마나 멀리 왔는지 돌아보라.\"",
+	"Tooltip_Fortune7" : "\"고블린 개를 조심하라.\"",
+	"Tooltip_Fortune8" : "\"자신답게 살지 않는다면, 존재하는 의미가 무엇인가?\"",
+	"Tooltip_Fortune9" : "\"날아오를 용기가 없다면 날개가 무슨 소용인가.\"",
+	"Tooltip_Fortune10" : "\"조금씩 나아가다 보면 멀리 갈 수 있다.\"",
+
+	"Tooltip_LunarNewYear" : "보통 설날에 먹는 음식입니다. 설날이라면 새해 복 많이 받으세요!",
+
+	"Tooltip_CheeseCurds" : "냄비, 치즈 틀 또는 양동이에서 숙성하여 파르메산 치즈로 만들거나, 걸러서 모차렐라 치즈를 만들 수 있습니다.",
+	"Tooltip_BlueCheese" : "냄비, 치즈 틀 또는 양동이에서 숙성하여 블루치즈를 만들 수 있습니다.",
+	"Tooltip_IceCubesB42" : "차가운 물이 필요합니다.",
+	"Tooltip_PlaceholderFlour" : "sapph: 아직 조리법에서 단위를 사용할 수 없기 때문에, 임시 재료로 사용됩니다.",
+	"Tooltip_TakeoutBoxes" : "일회용 음식 용기입니다. 그릇처럼 사용할 수 있습니다."
+}

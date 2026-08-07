@@ -1,0 +1,5 @@
+{
+    "IGUI_PIP_NetworkInfoLocal": "%1 根管道，%2 個水桶，%3 公升",
+    "IGUI_PIP_PouredDoses": "+%1 份肥料劑量",
+    "IGUI_PIP_NotConnected": "水桶未連接到管網"
+}

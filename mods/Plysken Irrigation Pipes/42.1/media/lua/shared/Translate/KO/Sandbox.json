@@ -1,0 +1,23 @@
+{
+    "Sandbox_PIP": "Plysken Irrigation Pipes",
+    "Sandbox_PIP_EnableAutoWatering": "자동 급수 활성화",
+    "Sandbox_PIP_EnableAutoWatering_tooltip": "켜면 파이프가 연결된 빗물통에서 물을 끌어와 주변 작물에 자동으로 급수합니다.",
+    "Sandbox_PIP_WateringInterval": "급수 간격 (분)",
+    "Sandbox_PIP_WateringInterval_tooltip": "각 급수 주기 사이의 게임 내 시간(분).",
+    "Sandbox_PIP_WateringRadius": "급수 반경 (타일)",
+    "Sandbox_PIP_WateringRadius_tooltip": "0 = 파이프 자신의 타일만. 값이 클수록 각 파이프 주변 정사각형 범위의 작물에 급수합니다.",
+    "Sandbox_PIP_SmartPipes": "스마트 파이프",
+    "Sandbox_PIP_SmartPipes_tooltip": "켜면 파이프가 작물을 최적 수위까지 채웁니다. 끄면 주기마다 고정된 소량만 추가합니다.",
+    "Sandbox_PIP_SmartPipesFillMax": "스마트 파이프 최대 급수량",
+    "Sandbox_PIP_SmartPipesFillMax_tooltip": "스마트 파이프 모드에서 주기당 작물에 추가되는 최대 수위.",
+    "Sandbox_PIP_SharedWaterPool": "공유 물 풀",
+    "Sandbox_PIP_SharedWaterPool_tooltip": "켜면 같은 네트워크에 연결된 배럴이 물을 공유하고 균형을 맞춥니다 (가득 찬 배럴과 빈 배럴이 평준화됩니다).",
+    "Sandbox_PIP_DebugLogs": "디버그 로그",
+    "Sandbox_PIP_DebugLogs_tooltip": "내부 로그를 콘솔에 출력합니다. 문제 해결 전용입니다.",
+    "Sandbox_PIP_EnableFertigation": "관비(액비 관개) 활성화",
+    "Sandbox_PIP_EnableFertigation_tooltip": "활성화 시, 연결된 빗물통에 비료나 퇴비를 부으면 파이프망이 주변 작물을 자동으로 시비합니다(작물당 안전한 1회분, 과다 시비 없음). 기본값 켜짐.",
+    "Sandbox_PIP_FertigationSkill": "관비 품질 (농사 스킬)",
+    "Sandbox_PIP_FertigationSkill_tooltip": "자동 시비에 사용되는 모의 농사 레벨. 높을수록 수확 보너스 확률 증가. 안전성에는 영향 없음.",
+    "Sandbox_PIP_ChargesPerBag": "비료/퇴비 한 포대당 횟수",
+    "Sandbox_PIP_ChargesPerBag_tooltip": "부은 한 포대로 시비할 수 있는 작물 수. 통의 물 양과 무관."
+}

@@ -1,0 +1,10 @@
+module Base
+{
+    timedAction PKSawOffSkull
+    {
+        metabolics = Default,
+        actionAnim = SawOffShotgun,
+        sound = Sawing,
+        prop1 = Base.Hacksaw,
+    }
+}

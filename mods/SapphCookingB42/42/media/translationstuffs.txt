@@ -1,0 +1,39 @@
+sapph: this file is to keep track of new translations! (for b42)
+/******items**********/
+ItemName_SapphCooking.MincedMeat_Pork = "Minced Pork",
+ItemName_SapphCooking.MincedMeat_Turkey = "Minced Turkey",
+
+
+/********recipes*********/
+StackBowls = "Stack Bowls",
+SliceVegetables = "Slice Vegetables",
+GetFlourfromBag = "Get Flour from Bag",
+GetPowderedIngredients = "Get Powdered Ingredients",
+CleanBowl = "Clean Bowl",
+
+/*****fluids*******/
+
+Fluid_Container_Thermos = "Thermos",
+Fluid_Container_OilBottle = "Oil Bottle",
+Fluid_Container_MugMetal = "Metal Mug",
+Fluid_Container_FryingPan = "Frying Pan",
+Fluid_Container_WokPan = "Wok Pan",
+
+Fluid_Name_CookingOil = "Cooking Oil",
+Fluid_Name_JuicePineapple = "Pineapple Juice",
+Fluid_Name_JuiceStrawberry = "Strawberry Juice",
+Fluid_Name_EnergyDrink = "Energy Drink",
+Fluid_Name_ProteinShake = "Protein Shake",
+Fluid_Name_BrewedCoffee = "Brewed Coffee",
+Fluid_Name_FryBatter = "Fry Batter",
+
+/*******print_media********/
+
+
+
+
+
+
+
+
+/********print_text********/

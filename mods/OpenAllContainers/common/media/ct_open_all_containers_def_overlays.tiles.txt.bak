@@ -1,0 +1,1213 @@
+version = 1
+tileset
+{
+    file = ct_oac_appliances_01
+    size = 8,16
+    id = 1
+    // ct_oac_appliances_01_0
+    tile
+    {
+        xy = 0,0
+        TileOverlay = 
+    }
+    // ct_oac_appliances_01_1
+    tile
+    {
+        xy = 1,0
+        TileOverlay = 
+    }
+    // ct_oac_appliances_01_2
+    tile
+    {
+        xy = 2,0
+        TileOverlay = 
+    }
+    // ct_oac_appliances_01_3
+    tile
+    {
+        xy = 3,0
+        TileOverlay = 
+    }
+    // ct_oac_appliances_01_4
+    tile
+    {
+        xy = 4,0
+        TileOverlay = 
+    }
+    // ct_oac_appliances_01_5
+    tile
+    {
+        xy = 5,0
+        TileOverlay = 
+    }
+    // ct_oac_appliances_01_6
+    tile
+    {
+        xy = 6,0
+        TileOverlay = 
+    }
+    // ct_oac_appliances_01_7
+    tile
+    {
+        xy = 7,0
+        TileOverlay = 
+    }
+    // ct_oac_appliances_01_8
+    tile
+    {
+        xy = 0,1
+        TileOverlay = 
+    }
+    // ct_oac_appliances_01_9
+    tile
+    {
+        xy = 1,1
+        TileOverlay = 
+    }
+    // ct_oac_appliances_01_10
+    tile
+    {
+        xy = 2,1
+        TileOverlay = 
+    }
+    // ct_oac_appliances_01_11
+    tile
+    {
+        xy = 3,1
+        TileOverlay = 
+    }
+    // ct_oac_appliances_01_12
+    tile
+    {
+        xy = 4,1
+        TileOverlay = 
+    }
+    // ct_oac_appliances_01_13
+    tile
+    {
+        xy = 5,1
+        TileOverlay = 
+    }
+}
+tileset
+{
+    file = ct_oac_fixtures_overlay_counters_01
+    size = 8,8
+    id = 2
+    // ct_oac_fixtures_overlay_counters_01_0
+    tile
+    {
+        xy = 0,0
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_1
+    tile
+    {
+        xy = 1,0
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_2
+    tile
+    {
+        xy = 2,0
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_3
+    tile
+    {
+        xy = 3,0
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_4
+    tile
+    {
+        xy = 4,0
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_5
+    tile
+    {
+        xy = 5,0
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_6
+    tile
+    {
+        xy = 6,0
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_7
+    tile
+    {
+        xy = 7,0
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_8
+    tile
+    {
+        xy = 0,1
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_9
+    tile
+    {
+        xy = 1,1
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_10
+    tile
+    {
+        xy = 2,1
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_11
+    tile
+    {
+        xy = 3,1
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_12
+    tile
+    {
+        xy = 4,1
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_13
+    tile
+    {
+        xy = 5,1
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_14
+    tile
+    {
+        xy = 6,1
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_15
+    tile
+    {
+        xy = 7,1
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_16
+    tile
+    {
+        xy = 0,2
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_17
+    tile
+    {
+        xy = 1,2
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_18
+    tile
+    {
+        xy = 2,2
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_19
+    tile
+    {
+        xy = 3,2
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_20
+    tile
+    {
+        xy = 4,2
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_21
+    tile
+    {
+        xy = 5,2
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_22
+    tile
+    {
+        xy = 6,2
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_23
+    tile
+    {
+        xy = 7,2
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_24
+    tile
+    {
+        xy = 0,3
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_25
+    tile
+    {
+        xy = 1,3
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_26
+    tile
+    {
+        xy = 2,3
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_27
+    tile
+    {
+        xy = 3,3
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_28
+    tile
+    {
+        xy = 4,3
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_29
+    tile
+    {
+        xy = 5,3
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_30
+    tile
+    {
+        xy = 6,3
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_31
+    tile
+    {
+        xy = 7,3
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_32
+    tile
+    {
+        xy = 0,4
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_33
+    tile
+    {
+        xy = 1,4
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_34
+    tile
+    {
+        xy = 2,4
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_35
+    tile
+    {
+        xy = 3,4
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_36
+    tile
+    {
+        xy = 4,4
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_37
+    tile
+    {
+        xy = 5,4
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_38
+    tile
+    {
+        xy = 6,4
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_39
+    tile
+    {
+        xy = 7,4
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_40
+    tile
+    {
+        xy = 0,5
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_41
+    tile
+    {
+        xy = 1,5
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_42
+    tile
+    {
+        xy = 2,5
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_43
+    tile
+    {
+        xy = 3,5
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_44
+    tile
+    {
+        xy = 4,5
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_45
+    tile
+    {
+        xy = 5,5
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_46
+    tile
+    {
+        xy = 6,5
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_47
+    tile
+    {
+        xy = 7,5
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_48
+    tile
+    {
+        xy = 0,6
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_49
+    tile
+    {
+        xy = 1,6
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_50
+    tile
+    {
+        xy = 2,6
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_51
+    tile
+    {
+        xy = 3,6
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_52
+    tile
+    {
+        xy = 4,6
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_53
+    tile
+    {
+        xy = 5,6
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_54
+    tile
+    {
+        xy = 6,6
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_55
+    tile
+    {
+        xy = 7,6
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_56
+    tile
+    {
+        xy = 0,7
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_57
+    tile
+    {
+        xy = 1,7
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_58
+    tile
+    {
+        xy = 2,7
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_59
+    tile
+    {
+        xy = 3,7
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_60
+    tile
+    {
+        xy = 4,7
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_61
+    tile
+    {
+        xy = 5,7
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_62
+    tile
+    {
+        xy = 6,7
+        TileOverlay = 
+    }
+    // ct_oac_fixtures_overlay_counters_01_63
+    tile
+    {
+        xy = 7,7
+        TileOverlay = 
+    }
+}
+tileset
+{
+    file = ct_oac_office_01
+    size = 8,6
+    id = 3
+    // ct_oac_office_01_0
+    tile
+    {
+        xy = 0,0
+        TileOverlay = 
+    }
+    // ct_oac_office_01_2
+    tile
+    {
+        xy = 2,0
+        TileOverlay = 
+    }
+    // ct_oac_office_01_3
+    tile
+    {
+        xy = 3,0
+        TileOverlay = 
+    }
+    // ct_oac_office_01_4
+    tile
+    {
+        xy = 4,0
+        TileOverlay = 
+    }
+    // ct_oac_office_01_6
+    tile
+    {
+        xy = 6,0
+        TileOverlay = 
+    }
+    // ct_oac_office_01_7
+    tile
+    {
+        xy = 7,0
+        TileOverlay = 
+    }
+    // ct_oac_office_01_8
+    tile
+    {
+        xy = 0,1
+        TileOverlay = 
+    }
+    // ct_oac_office_01_10
+    tile
+    {
+        xy = 2,1
+        TileOverlay = 
+    }
+    // ct_oac_office_01_12
+    tile
+    {
+        xy = 4,1
+        TileOverlay = 
+    }
+    // ct_oac_office_01_15
+    tile
+    {
+        xy = 7,1
+        TileOverlay = 
+    }
+    // ct_oac_office_01_17
+    tile
+    {
+        xy = 1,2
+        TileOverlay = 
+    }
+    // ct_oac_office_01_18
+    tile
+    {
+        xy = 2,2
+        TileOverlay = 
+    }
+    // ct_oac_office_01_20
+    tile
+    {
+        xy = 4,2
+        TileOverlay = 
+    }
+    // ct_oac_office_01_21
+    tile
+    {
+        xy = 5,2
+        TileOverlay = 
+    }
+    // ct_oac_office_01_22
+    tile
+    {
+        xy = 6,2
+        TileOverlay = 
+    }
+    // ct_oac_office_01_23
+    tile
+    {
+        xy = 7,2
+        TileOverlay = 
+    }
+    // ct_oac_office_01_24
+    tile
+    {
+        xy = 0,3
+        TileOverlay = 
+    }
+    // ct_oac_office_01_25
+    tile
+    {
+        xy = 1,3
+        TileOverlay = 
+    }
+    // ct_oac_office_01_27
+    tile
+    {
+        xy = 3,3
+        TileOverlay = 
+    }
+    // ct_oac_office_01_28
+    tile
+    {
+        xy = 4,3
+        TileOverlay = 
+    }
+    // ct_oac_office_01_29
+    tile
+    {
+        xy = 5,3
+        TileOverlay = 
+    }
+    // ct_oac_office_01_31
+    tile
+    {
+        xy = 7,3
+        TileOverlay = 
+    }
+    // ct_oac_office_01_33
+    tile
+    {
+        xy = 1,4
+        TileOverlay = 
+    }
+    // ct_oac_office_01_34
+    tile
+    {
+        xy = 2,4
+        TileOverlay = 
+    }
+    // ct_oac_office_01_36
+    tile
+    {
+        xy = 4,4
+        TileOverlay = 
+    }
+    // ct_oac_office_01_37
+    tile
+    {
+        xy = 5,4
+        TileOverlay = 
+    }
+    // ct_oac_office_01_39
+    tile
+    {
+        xy = 7,4
+        TileOverlay = 
+    }
+    // ct_oac_office_01_44
+    tile
+    {
+        xy = 4,5
+        TileOverlay = 
+    }
+    // ct_oac_office_01_45
+    tile
+    {
+        xy = 5,5
+        TileOverlay = 
+    }
+    // ct_oac_office_01_46
+    tile
+    {
+        xy = 6,5
+        TileOverlay = 
+    }
+    // ct_oac_office_01_47
+    tile
+    {
+        xy = 7,5
+        TileOverlay = 
+    }
+}
+tileset
+{
+    file = ct_oac_storage_01
+    size = 8,20
+    id = 4
+    // ct_oac_storage_01_0
+    tile
+    {
+        xy = 0,0
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_1
+    tile
+    {
+        xy = 1,0
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_2
+    tile
+    {
+        xy = 2,0
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_3
+    tile
+    {
+        xy = 3,0
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_4
+    tile
+    {
+        xy = 4,0
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_5
+    tile
+    {
+        xy = 5,0
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_6
+    tile
+    {
+        xy = 6,0
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_7
+    tile
+    {
+        xy = 7,0
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_8
+    tile
+    {
+        xy = 0,1
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_9
+    tile
+    {
+        xy = 1,1
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_12
+    tile
+    {
+        xy = 4,1
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_13
+    tile
+    {
+        xy = 5,1
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_16
+    tile
+    {
+        xy = 0,2
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_17
+    tile
+    {
+        xy = 1,2
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_18
+    tile
+    {
+        xy = 2,2
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_20
+    tile
+    {
+        xy = 4,2
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_21
+    tile
+    {
+        xy = 5,2
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_22
+    tile
+    {
+        xy = 6,2
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_23
+    tile
+    {
+        xy = 7,2
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_24
+    tile
+    {
+        xy = 0,3
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_25
+    tile
+    {
+        xy = 1,3
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_28
+    tile
+    {
+        xy = 4,3
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_29
+    tile
+    {
+        xy = 5,3
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_32
+    tile
+    {
+        xy = 0,4
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_33
+    tile
+    {
+        xy = 1,4
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_34
+    tile
+    {
+        xy = 2,4
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_35
+    tile
+    {
+        xy = 3,4
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_36
+    tile
+    {
+        xy = 4,4
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_37
+    tile
+    {
+        xy = 5,4
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_38
+    tile
+    {
+        xy = 6,4
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_39
+    tile
+    {
+        xy = 7,4
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_40
+    tile
+    {
+        xy = 0,5
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_41
+    tile
+    {
+        xy = 1,5
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_44
+    tile
+    {
+        xy = 4,5
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_45
+    tile
+    {
+        xy = 5,5
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_48
+    tile
+    {
+        xy = 0,6
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_49
+    tile
+    {
+        xy = 1,6
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_54
+    tile
+    {
+        xy = 6,6
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_55
+    tile
+    {
+        xy = 7,6
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_56
+    tile
+    {
+        xy = 0,7
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_57
+    tile
+    {
+        xy = 1,7
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_59
+    tile
+    {
+        xy = 3,7
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_60
+    tile
+    {
+        xy = 4,7
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_61
+    tile
+    {
+        xy = 5,7
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_63
+    tile
+    {
+        xy = 7,7
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_64
+    tile
+    {
+        xy = 0,8
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_65
+    tile
+    {
+        xy = 1,8
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_66
+    tile
+    {
+        xy = 2,8
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_68
+    tile
+    {
+        xy = 4,8
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_69
+    tile
+    {
+        xy = 5,8
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_70
+    tile
+    {
+        xy = 6,8
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_72
+    tile
+    {
+        xy = 0,9
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_73
+    tile
+    {
+        xy = 1,9
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_74
+    tile
+    {
+        xy = 2,9
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_75
+    tile
+    {
+        xy = 3,9
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_76
+    tile
+    {
+        xy = 4,9
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_77
+    tile
+    {
+        xy = 5,9
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_78
+    tile
+    {
+        xy = 6,9
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_79
+    tile
+    {
+        xy = 7,9
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_80
+    tile
+    {
+        xy = 0,10
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_88
+    tile
+    {
+        xy = 0,11
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_91
+    tile
+    {
+        xy = 3,11
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_92
+    tile
+    {
+        xy = 4,11
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_93
+    tile
+    {
+        xy = 5,11
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_94
+    tile
+    {
+        xy = 6,11
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_95
+    tile
+    {
+        xy = 7,11
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_98
+    tile
+    {
+        xy = 2,12
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_99
+    tile
+    {
+        xy = 3,12
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_100
+    tile
+    {
+        xy = 4,12
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_101
+    tile
+    {
+        xy = 5,12
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_108
+    tile
+    {
+        xy = 4,13
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_109
+    tile
+    {
+        xy = 5,13
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_110
+    tile
+    {
+        xy = 6,13
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_111
+    tile
+    {
+        xy = 7,13
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_112
+    tile
+    {
+        xy = 0,14
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_113
+    tile
+    {
+        xy = 1,14
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_116
+    tile
+    {
+        xy = 4,14
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_117
+    tile
+    {
+        xy = 5,14
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_126
+    tile
+    {
+        xy = 6,15
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_130
+    tile
+    {
+        xy = 2,16
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_132
+    tile
+    {
+        xy = 4,16
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_133
+    tile
+    {
+        xy = 5,16
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_137
+    tile
+    {
+        xy = 1,17
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_139
+    tile
+    {
+        xy = 3,17
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_140
+    tile
+    {
+        xy = 4,17
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_141
+    tile
+    {
+        xy = 5,17
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_144
+    tile
+    {
+        xy = 0,18
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_149
+    tile
+    {
+        xy = 5,18
+        TileOverlay = 
+    }
+    // ct_oac_storage_01_152
+    tile
+    {
+        xy = 0,19
+        TileOverlay = 
+    }
+}

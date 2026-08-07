@@ -1,0 +1,23 @@
+{
+    "Sandbox_PIP": "Plysken Irrigation Pipes",
+    "Sandbox_PIP_EnableAutoWatering": "Enable Auto-Watering",
+    "Sandbox_PIP_EnableAutoWatering_tooltip": "When on, pipes automatically water nearby crops from connected rain barrels.",
+    "Sandbox_PIP_WateringInterval": "Watering Interval (minutes)",
+    "Sandbox_PIP_WateringInterval_tooltip": "In-game minutes between each watering cycle.",
+    "Sandbox_PIP_WateringRadius": "Watering Radius (tiles)",
+    "Sandbox_PIP_WateringRadius_tooltip": "0 = the pipe's own tile only. Higher values water crops in a square area around each pipe.",
+    "Sandbox_PIP_SmartPipes": "Smart Pipes",
+    "Sandbox_PIP_SmartPipes_tooltip": "When on, pipes fill crops up to their optimal water level. When off, they add a fixed small amount each cycle.",
+    "Sandbox_PIP_SmartPipesFillMax": "Smart Pipes Max Fill",
+    "Sandbox_PIP_SmartPipesFillMax_tooltip": "Maximum water level added to a crop per cycle in Smart Pipes mode.",
+    "Sandbox_PIP_SharedWaterPool": "Shared Water Pool",
+    "Sandbox_PIP_SharedWaterPool_tooltip": "When on, barrels connected in the same network share and balance their water (a full and an empty barrel even out).",
+    "Sandbox_PIP_EnableFertigation": "Enable Fertigation",
+    "Sandbox_PIP_EnableFertigation_tooltip": "When on, pour Fertilizer or Compost into a connected rain barrel and the pipe network auto-fertilizes nearby crops (one safe dose per crop, never over-fertilizes). On by default.",
+    "Sandbox_PIP_FertigationSkill": "Fertigation Quality (Farming skill)",
+    "Sandbox_PIP_FertigationSkill_tooltip": "Simulated Farming skill used when auto-fertilizing. Higher = better chance of a yield bonus. Does not affect safety.",
+    "Sandbox_PIP_ChargesPerBag": "Doses per Fertilizer/Compost bag",
+    "Sandbox_PIP_ChargesPerBag_tooltip": "How many crops one poured bag can fertilize. Independent of barrel water volume.",
+    "Sandbox_PIP_DebugLogs": "Debug Logs",
+    "Sandbox_PIP_DebugLogs_tooltip": "Prints internal logs to the console. For troubleshooting only."
+}

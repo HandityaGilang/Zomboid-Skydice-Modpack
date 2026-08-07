@@ -1,0 +1,16 @@
+module PK42
+{
+    item PsychoFlierPage1
+    {
+        DisplayCategory = Junk,
+        Weight = 0.1,
+        ItemType = base:literature,
+        Icon = Magazine_Underground4,
+        ReadType = photo,
+        StaticModel = Note2,
+        WorldStaticModel = Note2,
+        Tags = base:fastread,
+        OnCreate = PsychoKillerFliers.OnCreateDiaryPage,
+		Tooltip = Tooltip_PsychoFlierPage1,
+    }
+}

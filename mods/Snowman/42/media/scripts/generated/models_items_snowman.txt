@@ -1,0 +1,9 @@
+module Base
+{
+	model RoadCone
+	{
+		mesh = WorldItems/RoadCone,
+		texture = WorldItems/RoadCone,
+		scale = 1,
+	}
+}

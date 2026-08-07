@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode x_extends="Sapph_SlicingFood.xml">
+	<m_Name>Sapph_SlicingFood_Surface</m_Name>
+	<m_AnimName>Bob_IdleSlicingFood_Surface</m_AnimName>
+	<m_Conditions x_name="25e4128b-3d5e-42c8-82b3-d950887ef141">
+		<m_Value>Sapph_SlicingFood_Surface</m_Value>
+	</m_Conditions>
+	<m_SubStateBoneWeights>
+		<boneName>Dummy01</boneName>
+	</m_SubStateBoneWeights>
+	<m_SubStateBoneWeights>
+		<boneName>Translation_Data</boneName>
+	</m_SubStateBoneWeights>
+</animNode>

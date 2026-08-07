@@ -1,0 +1,5 @@
+{
+    "IGUI_PIP_NetworkInfoLocal": "ท่อ %1 ท่อน, ถัง %2 ใบ, %3 ลิตร",
+    "IGUI_PIP_PouredDoses": "+%1 โดสปุ๋ย",
+    "IGUI_PIP_NotConnected": "ถังไม่ได้เชื่อมต่อกับเครือข่ายท่อ"
+}

@@ -1,0 +1,4 @@
+ContextMenu_PTBR = {
+    ContextMenu_MarkIntel = "Marcar Informação no Mapa",
+    ContextMenu_MarkIntel_NeedPen = "Requer caneta, marcador ou lápis",
+}

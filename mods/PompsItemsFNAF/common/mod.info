@@ -1,0 +1,16 @@
+name=Pomp's Items - Five Nights at Freddy's
+poster=poster1.png
+poster=poster2.png
+poster=poster3.png
+poster=poster4.png
+poster=poster5.png
+description=Adds a large variety of FNAF-related characters into the game to collect. <LINE> <LINE>
+description=This mod features over 60 different characters from Five Nights at Freddy's that players can find scattered throughout the world in Mystery Boxes. These mystery boxes need to be opened first before the plushies may be found.  <LINE> <LINE>
+description=Characters range from the original game through to Security Breach and also includes fan interpretations. There should be a character for everybody - or to decorate your base with! <LINE> <LINE>
+description=Happy Hunting!
+incompatible=Pomp's Items
+id=PompsItemsFNAF
+author=Pompadour Nautice
+modversion=2.0.0
+icon=icon.png
+versionMin=41.78

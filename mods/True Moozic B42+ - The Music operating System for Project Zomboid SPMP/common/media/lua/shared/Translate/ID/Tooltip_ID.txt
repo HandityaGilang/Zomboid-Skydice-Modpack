@@ -1,0 +1,4 @@
+Tooltip_ID = {
+    Tooltip_WireBundle = "Seikat kabel speaker. Digunakan untuk menghubungkan speaker ke perangkat musik (Pemutar Vinyl atau Stereo HiFi). <LINE> <LINE> Berisi 200 kaki kabel. Setiap sambungan menggunakan 5 kaki per jarak ubin.",
+    Tooltip_item_Walkman = "Pemain terkenal dari Zoney.",
+}

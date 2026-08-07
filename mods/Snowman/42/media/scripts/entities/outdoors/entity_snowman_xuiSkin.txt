@@ -1,0 +1,12 @@
+module Base
+{
+    xuiSkin default
+    {
+        entity ES_Snowman
+        {
+            LuaWindowClass = ISEntityWindow,
+            DisplayName = Snowman,
+            Icon = Build_Snowman,
+        }
+    }
+}

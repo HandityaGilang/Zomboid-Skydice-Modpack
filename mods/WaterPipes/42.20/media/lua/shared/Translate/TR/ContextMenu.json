@@ -1,0 +1,13 @@
+{
+    "ContextMenu_WP_AddCharcoal": "Kömür Filtresi Ekle",
+    "ContextMenu_WP_PumpInfo": "Pompa Bilgisi",
+    "ContextMenu_WP_ValveOpen": "Valfi Aç",
+    "ContextMenu_WP_ValveClose": "Valfi Kapat",
+    "ContextMenu_WP_FlowmeterInfo": "Su Akış Ölçer Bilgisi",
+    "ContextMenu_WP_Type": "Tip",
+    "ContextMenu_WP_Flow": "Akış",
+    "ContextMenu_WP_FixPump": "Pompayı Onar",
+    "ContextMenu_WP_FixPumpPerfect": "Pompa onarım gerektirmiyor.",
+    "ContextMenu_WP_FixPumpNoMaterial": "Metal hurda gerekir.",
+    "ContextMenu_WP_FixPumpTurnOn": "Pompa kapatılmalıdır."
+}

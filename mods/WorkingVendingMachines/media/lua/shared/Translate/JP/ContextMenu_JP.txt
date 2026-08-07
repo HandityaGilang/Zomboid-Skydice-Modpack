@@ -1,0 +1,10 @@
+ContextMenu_JP = {
+	ContextMenu_WVMNoPower = "電源が入ってない。",
+	ContextMenu_WVMSnackInChute = "シュートにお菓子が詰まっている",
+	ContextMenu_WVMSoldOut = "この自動販売機は売り切れだ。",
+	ContextMenu_WVMNoMoneyDrink = "ドリンクはあるが、お金を持ってない。",
+	ContextMenu_WVMNoMoneySnack = "お菓子はあるが、お金を持っていない。",
+	ContextMenu_WVMBuyDrink = "ドリンクを買う",
+	ContextMenu_WVMBuySnack = "お菓子を買う",
+	ContextMenu_WVMStrikeMachine = "自販機を叩く",
+}

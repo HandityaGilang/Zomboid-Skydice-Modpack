@@ -1,0 +1,8 @@
+name=Taillights and stoplights
+id=TaillightsAndStoplights
+description= <TEXT>Adds taillights and brake lights that are visible while driving cars and trailers. <BR> Set the lighting refresh rate to 60 for best results. </TEXT>
+url=
+poster=poster.png
+icon=icon.png
+modversion=1.0.6
+versionMin=42.13.0

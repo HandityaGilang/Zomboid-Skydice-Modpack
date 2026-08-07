@@ -1,0 +1,43 @@
+{
+    "Tooltip_VFX_Recipe_MeatCooked": "La viande doit être cuite avant d’être ajoutée à la recette.",
+    "Tooltip_VFX_Recipe_RiceCooked": "Le riz doit être cuit avant d’être ajouté à la recette.",
+    "Tooltip_VFXRavioliTortellini": "Préparer en remplissant une casserole ou un chaudron d’eau, puis ajouter les pâtes fraîches. Se trouve dans le menu d’artisanat.",
+
+    "Tooltip_VFXSourdoughStarter": "Nourrir chaque jour avec de la farine et de l'eau pour le garder frais.",
+    "Tooltip_VFXSourdoughStarterUnfed": "Ajouter de la farine et de l’eau pour renouveler la fraîcheur, mourra en environ un jour s’il n’est pas nourri.",
+    "Tooltip_VFXSourdoughStarterDead": "Vous avez négligé votre levain et il est mort. Jetez-le et réessayez.",
+
+    "Tooltip_VFXVinegarStarter": "Combiner avec de l'alcool, un pot et un couvercle pour préparer du vinaigre maison.",
+    "Tooltip_VFXVinegarFermenting30": "Doit fermenter pendant 30 jours.",
+    "Tooltip_VFXVinegarFermenting60": "Doit fermenter pendant 60 jours.",
+    "Tooltip_VFXVinegarFermenting90": "Doit fermenter pendant 90 jours.",
+    "Tooltip_VFXHomemadeVinegar": "Peut être utilisé pour préparer du vinaigre maison.",
+
+    "Tooltip_VFXYeastStarterFermenting": "Doit fermenter pendant 5 jours.",
+    "Tooltip_VFXYeastStarter": "Nourrir un jour sur deux avec du sucre et de l'eau pour le garder frais.",
+    "Tooltip_VFXYeastStarterUnfed": "Ajouter du sucre et de l’eau pour renouveler la fraîcheur, mourra en environ deux jours s’il n’est pas nourri.",
+    "Tooltip_VFXYeastStarterDead": "Vous avez négligé votre levain et il est mort. Jetez-le et réessayez. Il peut aussi servir à préparer du vinaigre maison.",
+
+    "Tooltip_VFXCookSugarBeetPulp": "Cuire pour obtenir un pot de sirop de betterave sucrière.",
+    "Tooltip_VFXCookSugarBeetSyrup": "Cuire pour obtenir un pot de mélasse.",
+
+    
+    "Tooltip_VFXCookMash": "Cuire pour obtenir un pot de moût.",
+    "Tooltip_VFXBeerPrepFermenting": "Doit fermenter pendant 7 jours.",
+    "Tooltip_VFXPressBottle": "Utiliser une presse manuelle pour sceller la bouteille.",
+    "Tooltip_VFXHomemadeBeerFermenting": "Doit fermenter pendant 5 jours.",
+
+    "Tooltip_VFXWinePrepFermenting": "Doit fermenter pendant 14 jours.",
+
+    "Tooltip_VFXEvaporatedMilk": "Cuire pour obtenir un pot de lait évaporé.",
+    "Tooltip_VFXCottageCheese": "Cuire pour obtenir un pot de fromage cottage.",
+    "Tooltip_VFXCheeseAge": "L’affinage du fromage augmentera sa qualité.",
+    "Tooltip_VFXStarterMesophilic": "Peut être utilisé pour faire du babeurre, du fromage à la crème, de la feta et du cheddar.",
+    "Tooltip_VFXStarterThermophilic": "Peut être utilisé pour faire du yogourt et de la mozzarella.",
+    "Tooltip_VFXStarterSwiss": "Peut être utilisé pour faire du fromage suisse.",
+    "Tooltip_VFX_StarterParmesan": "Peut être utilisé pour faire du parmesan.",
+    "Tooltip_VFXStarterFrench": "Peut être utilisé pour faire du brie et du camembert.",
+    "Tooltip_VFXStarterBlue": "Peut être utilisé pour faire du fromage bleu.",
+
+    "Tooltip_VFXTomatoPulpPot": "Cuire pour obtenir un pot de pâte de tomate."
+}

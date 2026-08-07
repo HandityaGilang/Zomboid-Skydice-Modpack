@@ -1,0 +1,4 @@
+ContextMenu_FR = {
+    ContextMenu_Repair_Wall = "Réparer la fissure du mur",
+    ContextMenu_Repair_Wall_Object = "Mur endommagé"
+}

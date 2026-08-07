@@ -1,0 +1,8 @@
+{
+	"ContextMenu_P4PickingMeister_GrabContents": "Взять содержимое",
+	"ContextMenu_P4PickingMeister_GrabOne": "Взять одно",
+	"ContextMenu_P4PickingMeister_GrabHalf": "Взять половину",
+	"ContextMenu_P4PickingMeister_GrabAll": "Взять всё",
+	"ContextMenu_P4PickingMeister_GrabAllSelected": "Взять всё выбранное",
+	"ContextMenu_P4PickingMeister_RetrieveAllAmmo": "Разрядить оружие"
+}

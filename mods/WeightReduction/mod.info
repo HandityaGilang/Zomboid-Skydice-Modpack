@@ -1,0 +1,7 @@
+name=Weight Reduction
+id=WeightReduction
+description=Reduces the weight of building materials, tools and paint by 95%. Covers logs, twigs, planks, sheet metal, nails, screws, rope, wire, ore, stone, hammers, saws, axes and more - 546 items in total. Adjustable from 0-99% in the sandbox options. Food, clothing, weapons, bags and furniture are untouched. Build 42.20, singleplayer and multiplayer.
+author=archy
+versionMin=42.20.0
+modversion=1.0.0
+poster=poster.png

@@ -1,0 +1,4 @@
+Recipes_KO = {
+    Recipe_DismantleTCElectronics = "음악 플레이어 분해",
+    Recipe_DismantleWalkmanElectronics = "휴대용 플레이어 분해하기",
+}

@@ -1,0 +1,23 @@
+{
+    "Sandbox_PIP": "Plysken Irrigation Pipes",
+    "Sandbox_PIP_EnableAutoWatering": "Activer l'arrosage automatique",
+    "Sandbox_PIP_EnableAutoWatering_tooltip": "Si activé, les tuyaux arrosent automatiquement les cultures proches depuis les barils de pluie connectés.",
+    "Sandbox_PIP_WateringInterval": "Intervalle d'arrosage (minutes)",
+    "Sandbox_PIP_WateringInterval_tooltip": "Minutes de jeu entre chaque cycle d'arrosage.",
+    "Sandbox_PIP_WateringRadius": "Rayon d'arrosage (cases)",
+    "Sandbox_PIP_WateringRadius_tooltip": "0 = uniquement la case du tuyau. Une valeur plus élevée arrose les cultures dans une zone carrée autour de chaque tuyau.",
+    "Sandbox_PIP_SmartPipes": "Tuyaux intelligents",
+    "Sandbox_PIP_SmartPipes_tooltip": "Si activé, les tuyaux remplissent les cultures jusqu'à leur niveau d'eau optimal. Sinon, ils ajoutent une petite quantité fixe par cycle.",
+    "Sandbox_PIP_SmartPipesFillMax": "Remplissage max (tuyaux intelligents)",
+    "Sandbox_PIP_SmartPipesFillMax_tooltip": "Niveau d'eau maximum ajouté à une culture par cycle en mode intelligent.",
+    "Sandbox_PIP_SharedWaterPool": "Réserve d'eau partagée",
+    "Sandbox_PIP_SharedWaterPool_tooltip": "Si activé, les barils connectés au même réseau partagent et équilibrent leur eau (un baril plein et un vide s'égalisent).",
+    "Sandbox_PIP_EnableFertigation": "Activer la fertigation",
+    "Sandbox_PIP_EnableFertigation_tooltip": "Si activé, versez de l'engrais ou du compost dans un baril de pluie connecté et le réseau fertilise automatiquement les cultures proches (une dose sûre par culture, jamais de sur-fertilisation). Activé par défaut.",
+    "Sandbox_PIP_FertigationSkill": "Qualité de fertigation (compétence Agriculture)",
+    "Sandbox_PIP_FertigationSkill_tooltip": "Compétence Agriculture simulée lors de la fertilisation auto. Plus haut = meilleure chance de bonus de rendement. N'affecte pas la sécurité.",
+    "Sandbox_PIP_ChargesPerBag": "Doses par sac d'engrais/compost",
+    "Sandbox_PIP_ChargesPerBag_tooltip": "Combien de cultures un sac versé peut fertiliser. Indépendant du volume d'eau du baril.",
+    "Sandbox_PIP_DebugLogs": "Journaux de débogage",
+    "Sandbox_PIP_DebugLogs_tooltip": "Affiche des journaux internes dans la console. Pour le dépannage uniquement."
+}

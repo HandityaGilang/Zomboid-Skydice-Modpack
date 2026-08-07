@@ -1,0 +1,7 @@
+UI_EN = {
+	UI_SmarterStorage_Options_Vanilla_Name = "Display Vanilla Tooltips",
+	UI_SmarterStorage_Options_Vanilla_Tooltip = "Check this to display vanilla names like 'Fridge' as tooltips.",
+
+	UI_SmarterStorage_Options_RenamedTooltips_Name = "Display Custom Name Tooltips",
+	UI_SmarterStorage_Options_RenamedTooltips_Tooltip = "Check to use your custom container names as tooltips.",
+}

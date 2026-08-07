@@ -1,0 +1,10 @@
+{
+	"UI_P4TidyUpMeister_Messages_ToDoReequip": "ใช้งานการสลับไปสวมใส่อุปกรณ์ชิ้นเดิมหลังจากดำเนินกิจกรรมเสร็จสิ้น",
+	"UI_P4TidyUpMeister_Messages_ToDoNotReequip": "ไม่ใช้งานการสลับไปสวมใส่อุปกรณ์ชิ้นเดิมหลังจากดำเนินกิจกรรมเสร็จสิ้น",
+	"UI_P4TidyUpMeister_Options_UseContextMenu_Name": "ใช้เมนูบริบท",
+	"UI_P4TidyUpMeister_Options_UseContextMenu_Tooltip": "ใช้งานเมนูบริบทเพื่อสลับไปมาระหว่างเปิดใช้งานและปิดใช้งาน",
+	"UI_P4TidyUpMeister_Options_ForceReequip_Name": "บังคับใช้การสลับไปสวมใส่อุปกรณ์ชิ้นเดิม",
+	"UI_P4TidyUpMeister_Options_ForceReequip_Tooltip": "โดยปกติแล้วหากการดำเนินกิจกรรมถูกขัดจังหวะจะไม่สลับไปสวมใส่อุปกรณ์ชิ้นเดิม แต่การบังคับใช้จะสลับไปสวมใส่อุปกรณ์ชิ้นเดิมเฉพาะอุปกรณ์ที่ถือได้เท่านั้น",
+	"UI_P4TidyUpMeister_Options_RestoreDismantleOutputs_Name": "นำวัสดุจากการแยกชิ้นส่วนกลับไปยังที่เดิม",
+	"UI_P4TidyUpMeister_Options_RestoreDismantleOutputs_Tooltip": "นำวัสดุที่ได้จากการแยกชิ้นส่วนกลับไปยังภาชนะเดิมของสิ่งของนั้น"
+}

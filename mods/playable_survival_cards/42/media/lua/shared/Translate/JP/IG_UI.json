@@ -1,0 +1,15 @@
+{
+    "IGUI_PSC_Play": "UNOをプレイ", "IGUI_PSC_Watch": "UNOを観戦", "IGUI_PSC_MoveCloser": "テーブルに近づいてください。", "IGUI_PSC_WindowTitle": "プレイ可能なUNO",
+    "IGUI_PSC_Waiting": "プレイヤーを待っています", "IGUI_PSC_Playing": "プレイ中", "IGUI_PSC_GameOver": "ゲーム終了", "IGUI_PSC_YourTurn": "あなたの番",
+    "IGUI_PSC_You": "あなた", "IGUI_PSC_NotYourTurn": "あなたの番ではありません", "IGUI_PSC_Draw": "引く", "IGUI_PSC_Pass": "パス",
+    "IGUI_PSC_Start": "開始", "IGUI_PSC_AddBot": "Bot追加", "IGUI_PSC_RemoveBot": "Bot削除", "IGUI_PSC_CallUno": "UNO宣言",
+    "IGUI_PSC_Reset": "リセット", "IGUI_PSC_Leave": "退出", "IGUI_PSC_ChooseColor": "色を選択",
+    "IGUI_PSC_Red": "赤", "IGUI_PSC_Yellow": "黄", "IGUI_PSC_Green": "緑", "IGUI_PSC_Blue": "青",
+    "IGUI_PSC_DrawPile": "山札", "IGUI_PSC_DiscardPile": "捨て札", "IGUI_PSC_CurrentColor": "色", "IGUI_PSC_Direction": "方向",
+    "IGUI_PSC_Clockwise": "時計回り", "IGUI_PSC_CounterClockwise": "反時計回り", "IGUI_PSC_Cards": "カード", "IGUI_PSC_Winner": "勝者",
+    "IGUI_PSC_Opening": "開いています...", "IGUI_PSC_OpeningGame": "UNOを開いています...", "IGUI_PSC_Turn": "手番", "IGUI_PSC_Penalty": "ペナルティ",
+    "IGUI_PSC_Players": "プレイヤー", "IGUI_PSC_OpenSeat": "空席", "IGUI_PSC_TableLog": "テーブルログ", "IGUI_PSC_YourHand": "手札",
+    "IGUI_PSC_Actions": "アクション", "IGUI_PSC_StackingOn": "スタック: ON", "IGUI_PSC_StackingOff": "スタック: OFF",
+    "IGUI_PSC_YourOpponent": "対戦相手", "IGUI_PSC_ResultWinner": "勝者", "IGUI_PSC_ResultLoser": "敗者",
+    "IGUI_PSC_FinalVerdict": "最後の審判が近づいている...", "IGUI_PSC_WonGame": "%1がゲームに勝利しました。"
+}

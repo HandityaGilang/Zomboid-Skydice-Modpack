@@ -1,0 +1,4 @@
+ContextMenu_CS = {
+	ContextMenu_Repair_Wall = "Oprava praskliny ve zdi",
+	ContextMenu_Repair_Wall_Object = "Poškozená zeď"
+}

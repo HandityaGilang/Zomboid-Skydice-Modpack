@@ -1,0 +1,8 @@
+ContextMenu_HU = {
+    ContextMenu_Connect_Device = "Csatlakozás",
+    ContextMenu_Disconnect_Device = "Leválasztás",
+    ContextMenu_MergeWire = "Vezetékkötegek egyesítése",
+    ContextMenu_PickUp_Speaker = "Hangszóró felvétele",
+    ContextMenu_TM_CDCase_PutIn = "CD-tokba helyezés",
+    ContextMenu_TM_CDCase_TakeOut = "Vedd ki a CD-t",
+}

@@ -1,0 +1,7 @@
+Sandbox_RO = {
+	Sandbox_WashSmart = "Washing Menus Improved",
+	Sandbox_WashSmart_AllowTaintedWater = "Permite apa contaminată pentru curățarea bandajelor",
+	Sandbox_WashSmart_AllowTaintedWater_tooltip = "Când este activată, apa contaminată poate fi folosită pentru a curăța bandaje, cârpe din pânză, blugi și piele.",
+	Sandbox_WashSmart_BandageWaterPerItem = "Apă per bandaj/bandă",
+	Sandbox_WashSmart_BandageWaterPerItem_tooltip = "Unități de apă pe obiect la spălarea bandajelor murdare, cârpelor, fâșiilor de denim și fâșiilor de piele la o sursă de apă. Implicit: 4.0.",
+}

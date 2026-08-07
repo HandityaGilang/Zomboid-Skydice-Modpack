@@ -1,0 +1,288 @@
+module PK42 {
+    
+     imports {
+        Base
+    }
+
+    /* ----------------- HUMAN PARTS ------------------- */
+    item HumanTeeth
+    {
+        DisplayCategory     = HumanPart,
+        Weight              = 0.1,
+        ItemType            = base:normal,
+        Icon                = Teeth_Mammal,
+        WorldStaticModel    = HerbivoreTeeth,
+        Tooltip             = Tooltip_PKHumanTeeth,
+    }
+
+    item HumanSkullWithBrain
+    {
+        DisplayCategory     = HumanPart,
+        Weight              = 0.8,
+        ItemType            = base:normal,
+        Icon                = Skull_Hominid_Whole,
+        Tooltip             = Tooltip_PKHumanSkullWithBrain,
+        StaticModel         = Hominid_Skull,
+        WorldStaticModel    = Hominid_Skull,
+    }
+
+    item InfectedSkullWithBrain
+    {
+        DisplayCategory     = HumanPart,
+        Weight              = 0.8,
+        ItemType            = base:normal,
+        Icon                = Skull_Hominid_Whole,
+        Tooltip             = Tooltip_PKInfectedSkullWithBrain,
+        StaticModel         = Hominid_Skull,
+        WorldStaticModel    = Hominid_Skull,
+    }
+
+    item HumanSkull
+    {
+        DisplayCategory     = HumanPart,
+        Weight              = 0.1,
+        ItemType            = base:normal,
+        Icon                = Skull_Hominid_Damaged,
+        Tooltip             = Tooltip_PKHumanSkull,
+        WorldStaticModel    = Hominid_Skull_Partial,
+    }
+	
+    item HumanSkullPart
+    {
+        DisplayCategory     = HumanPart,
+        Weight              = 0.05,
+        ItemType            = base:normal,
+        Icon                = Skull_Hominid_Fragment,
+        Tooltip             = Tooltip_PKHumanSkullPart,
+		StaticModel    		= Hominid_Skull_Fragment,
+        WorldStaticModel    = Hominid_Skull_Fragment,
+    }
+
+    item SmallRandomHumanBones
+    {
+        DisplayCategory     = HumanPart,
+        Weight              = 0.3,
+        ItemType            = base:normal,
+        Icon                = Bones,
+        WorldStaticModel    = Bones_Ground,
+        Tags                = pk42:humansmallbone,
+        Tooltip             = Tooltip_PKSmallRandomHumanBones,
+    }
+
+    item HumanBoneLarge
+    {
+        DisplayCategory     = HumanPart,
+        ItemType            = base:weapon,
+        Weight              = 2.0,
+        Icon                = BoneShort2,
+        AttachmentType      = BigWeapon,
+        BaseSpeed           = 1.1,
+        BreakSound          = LargeAnimalBoneBreak,
+        Categories          = base:smallblunt,
+        ConditionLowerChanceOneIn = 5,
+        ConditionMax        = 5,
+        CritDmgMultiplier   = 2.0,
+        CriticalChance      = 25.0,
+        DoorDamage          = 5,
+        DoorHitSound        = LargeAnimalBoneHit,
+        DropSound           = LargeAnimalBoneDrop,
+        HitFloorSound       = LargeAnimalBoneHit,
+        HitSound            = LargeAnimalBoneHit,
+        IdleAnim            = Idle_Weapon2,
+        KnockBackOnNoDeath  = true,
+        KnockdownMod        = 0.0,
+        MaxDamage           = 1.1,
+        MaxHitcount         = 1,
+        MaxRange            = 1.1,
+        MinAngle            = 0.65,
+        MinDamage           = 0.5,
+        MinRange            = 0.61,
+        MinimumSwingtime    = 3.0,
+        PushBackMod         = 0.5,
+        RunAnim             = Run_Weapon2,
+        SplatBloodOnNoDeath = false,
+        SplatNumber         = 1,
+        SubCategory         = Swinging,
+        SwingAmountBeforeImpact = 0.02,
+        SwingAnim           = Bat,
+        SwingSound          = LargeAnimalBoneSwing,
+        Swingtime           = 3.0,
+        Tags                = base:animalbone;base:repairwithglue;base:repairwithtape;base:largeanimalbone;pk42:humanlargebone,
+        TreeDamage          = 0,
+        WeaponLength        = 0.23,
+        WeaponSprite        = LargeBone,
+        Tooltip             = Tooltip_PKHumanBone,
+    }
+
+    item RegularHumanBone
+    {
+        DisplayCategory     = HumanPart,
+        ItemType            = base:weapon,
+        Weight              = 1.5,
+        Icon                = Bone,
+        AttachmentType      = Hammer,
+        BaseSpeed           = 1.1,
+        BreakSound          = AnimalBoneBreak,
+        Categories          = base:smallblunt,
+        ConditionLowerChanceOneIn = 5,
+        ConditionMax        = 5,
+        CritDmgMultiplier   = 2.0,
+        CriticalChance      = 20.0,
+        DoorDamage          = 5,
+        DoorHitSound        = AnimalBoneHit,
+        DropSound           = AnimalBoneDrop,
+        HitFloorSound       = AnimalBoneHit,
+        HitSound            = AnimalBoneHit,
+        IdleAnim            = Idle_Weapon2,
+        KnockBackOnNoDeath  = true,
+        KnockdownMod        = 0.0,
+        MaxDamage           = 1.0,
+        MaxHitcount         = 1,
+        MaxRange            = 1.1,
+        MinAngle            = 0.65,
+        MinDamage           = 0.4,
+        MinRange            = 0.61,
+        MinimumSwingtime    = 3.0,
+        PushBackMod         = 0.5,
+        RunAnim             = Run_Weapon2,
+        SplatBloodOnNoDeath = false,
+        SplatNumber         = 1,
+        SubCategory         = Swinging,
+        SwingAmountBeforeImpact = 0.02,
+        SwingAnim           = Bat,
+        SwingSound          = AnimalBoneSwing,
+        Swingtime           = 3.0,
+        Tags                = base:animalbone;base:repairwithglue;base:repairwithtape;pk42:humanregularbone,
+        TreeDamage          = 0,
+        WeaponLength        = 0.23,
+        WeaponSprite        = Bone,
+        Tooltip             = Tooltip_PKHumanBone,
+    }
+
+    /* --------------------- HUMAN LEATHER ----------------- */
+
+    item Human_Leather_Full_Medium
+    {
+        DisplayCategory     = Material,
+        ItemType            = base:normal,
+        Weight              = 3.0,
+        Icon                = LeatherHide_PigPink,
+        WorldStaticModel    = Leather_Pink_Medium,
+        Tags                = pk42:humanleatherfullmedium,
+        Tooltip             = Tooltip_Leather_SofteningBeam,
+    }
+
+    item Human_Leather_Crude_Medium
+    {
+        DisplayCategory     = Material,
+        ItemType            = base:normal,
+        Weight              = 2.5,
+        Icon                = LeatherHide_PigPink,
+        WorldStaticModel    = Leather_Pink_Medium,
+        Tags                = pk42:humanleathercrudemedium,
+        Tooltip             = Tooltip_Leather_TanninBarrel,
+    }
+
+    item Human_Leather_Crude_Medium_Tan_Wet
+    {
+        DisplayCategory     = Material,
+        ItemType            = base:normal,
+        Weight              = 2.5,
+        Icon                = LeatherHide_PigPink,
+        WorldStaticModel    = Leather_Pink_Medium,
+        Tags                = pk42:humanleathercrudewetmedium,
+        Tooltip             = Tooltip_Leather_DryingRack,
+    }
+
+    item Human_Leather_Crude_Medium_Tan
+    {
+        DisplayCategory     = Material,
+        ItemType            = base:normal,
+        Weight              = 1.0,
+        Icon                = LeatherHide_PigPink,
+        WorldStaticModel    = Leather_Pink_Medium,
+        Tags                = pk42:humanleathercrudetannedmedium;base:leathercrudetannedmedium,
+    }
+
+    item Human_Leather_Full_Small
+    {
+        DisplayCategory     = Material,
+        ItemType            = base:normal,
+        Weight              = 2.0,
+        Icon                = LeatherHide_PigPink,
+        WorldStaticModel    = Leather_Pink_Medium,
+        Tags                = pk42:humanleatherfullsmall,
+        Tooltip             = Tooltip_Leather_SofteningBeam,
+    }
+
+    item Human_Leather_Crude_Small
+    {
+        DisplayCategory     = Material,
+        ItemType            = base:normal,
+        Weight              = 1.5,
+        Icon                = LeatherHide_PigPink,
+        WorldStaticModel    = Leather_Pink_Small,
+        Tags                = pk42:humanleathercrudesmall,
+        Tooltip             = Tooltip_Leather_TanninBarrel,
+    }
+
+    item Human_Leather_Crude_Small_Tan_Wet
+    {
+        DisplayCategory     = Material,
+        ItemType            = base:normal,
+        Weight              = 1.5,
+        Icon                = LeatherHide_PigPink,
+        WorldStaticModel    = Leather_Pink_Small,
+        Tags                = pk42:humanleathercrudewetsmall,
+        Tooltip             = Tooltip_Leather_DryingRack,
+    }
+
+    item Human_Leather_Crude_Small_Tan
+    {
+        DisplayCategory     = Material,
+        ItemType            = base:normal,
+        Weight              = 1.0,
+        Icon                = LeatherHide_PigPink,
+        WorldStaticModel    = Leather_Pink_Small,
+        Tags                = pk42:humanleathercrudetannedsmall;base:leathercrudetannedsmall,
+        Tooltip             = Tooltip_HumanLeather,
+    }
+
+    item Human_Leather_Crude_Large_Tan
+    {
+        DisplayCategory     = Material,
+        ItemType            = base:normal,
+        Weight              = 1.0,
+        Icon                = LeatherHide_PigPink,
+        WorldStaticModel    = Leather_Pink_Medium,
+        Tags                = pk42:humanleathercrudetannedlarge;base:leathercrudetannedlarge,
+        Tooltip             = Tooltip_HumanLeather,
+    }
+
+    /* --------------------- BACKPACK ----------------- */
+
+    item Bag_EnhancedCrudeLeatherBag
+    {
+        DisplayCategory     = Bag,
+        ItemType            = base:container,
+        Weight              = 1.0,
+        Icon                = BackpackCrafted,
+        AttachmentReplacement = Bag,
+        BloodLocation       = Bag,
+        CanBeEquipped       = base:back,
+        CanHaveHoles        = false,
+        Capacity            = 32,
+        CloseSound          = CloseLeatherBag,
+        ClothingItem        = Bag_CrudeLeatherBag,
+        EquipSound          = EquipLeatherBag,
+        OpenSound           = OpenLeatherBag,
+        PutInSound          = StoreItemLeatherBag,
+        ReplaceInPrimaryHand = Bag_CrudeLeatherBag_RHand holdingbagright,
+        ReplaceInSecondHand = Bag_CrudeLeatherBag_LHand holdingbagleft,
+        RunSpeedModifier    = 0.96,
+        SoundParameter      = EquippedBaggageContainer SchoolBag,
+        WeightReduction     = 75,
+        WorldStaticModel    = CrudeLeatherBag_Ground,
+        Tooltip             = Tooltip_EnhancedLeatherBackpack,
+    }
+}

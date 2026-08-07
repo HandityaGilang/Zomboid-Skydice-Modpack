@@ -1,0 +1,4 @@
+ContextMenu_TH = {
+	ContextMenu_Repair_Wall = "ซ่อมผนังแตก",
+	ContextMenu_Repair_Object = "ผนังเสียหาย"
+} 

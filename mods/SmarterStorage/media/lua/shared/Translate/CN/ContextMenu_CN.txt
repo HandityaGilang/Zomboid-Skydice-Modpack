@@ -1,0 +1,5 @@
+ContextMenu_CN = {
+    ContextMenu_SmarterStorage_Edit = "编辑",
+	ContextMenu_SmarterStorage_Presets = "预设",
+	ContextMenu_SmarterStorage_Reset = "重置",
+}

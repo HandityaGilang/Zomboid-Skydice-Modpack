@@ -1,0 +1,370 @@
+module Base
+{
+
+/* <<<<<  Sourdough Starter  >>>>> */
+
+    craftRecipe VFX_MakeSourdoughStarter
+    {
+        timedAction = VFX.JarCanning,
+        time = 30,
+        category = Cooking,
+        needToBeLearn = true,
+        AutoLearnAny = Cooking:1,
+        Tags = AnySurfaceCraft,
+
+        inputs
+        {
+            item 1  tags[base:jar] mode:destroy flags[ItemCount],
+            item 1  [Base.JarLid] mode:destroy,
+            item 10 tags[VFX:TraditionalFlour],
+
+            item 1 [*],
+            -fluid 0.5 [Water],
+        }
+
+        outputs
+        {
+            item 1 VFX.SourdoughStarter,
+        }
+    }
+
+    craftRecipe VFX_FeedSourdoughStarter
+    {
+        timedAction = VFX.JarCanning,
+        time = 30,
+        category = Cooking,
+        needToBeLearn = true,
+        AutoLearnAny = Cooking:1,
+        Tags = AnySurfaceCraft,
+
+        inputs
+        {
+            item 1 [VFX.SourdoughStarterUnfed] mode:destroy,
+            item 5 tags[VFX:TraditionalFlour],
+            
+            item 1 [*],
+            -fluid 0.2 [Water],
+        }
+
+        outputs
+        {
+            item 1 VFX.SourdoughStarter,
+        }
+    }
+
+/* <<<<<  Yeast  >>>>> */
+
+    craftRecipe VFX_MakeYeastStarter
+    {
+        timedAction = VFX.JarCanning,
+        time = 50,
+        tags = AnySurfaceCraft;Cooking,
+        category = Cooking,
+        xpAward = Cooking:3,
+        AutoLearnAny = Cooking:6,
+        Tooltip = Tooltip_VFXYeastStarterFermenting,
+
+        inputs
+        {
+            item 1 tags[base:jar] mode:destroy flags[ItemCount],
+            item 1 [Base.JarLid] mode:destroy,
+            item 1 tags[base:dullknife;base:sharpknife;base:meatcleaver] mode:keep flags[MayDegradeVeryLight],
+            item 1 tags[base:sugar],
+            item 1 [3:Base.Apple;10:Base.BeautyBerry;10:Base.BerryBlack;10:Base.BerryBlue;10:Base.BerryGeneric1;10:Base.BerryGeneric2;10:Base.BerryGeneric3;10:Base.BerryGeneric4;10:Base.BerryGeneric5;10:Base.WinterBerry;6:Base.Cherry;2:Base.Grapefruit;2:Base.Grapes;2:Base.Lemon;3:Base.Lime;2:Base.Mango;2:Base.Orange;3:Base.Peach;2:Base.Pear;1:Base.Pineapple;8:Base.Rosehips;8:Base.Strewberrie;3:Base.WatermelonSmashed;5:VFX.Apricot;5:VFX.GoldKiwi;5:VFX.GreenKiwi;2:VFX.Papaya;4:VFX.Plum;2:VFX.Pomegranate;10:VFX.Cranberries;2:VFX.PunnetBlackberries;2:VFX.PunnetBlueberries;2:VFX.PunnetRaspberries;4:VFX.Figs;4:VFX.Nectarines;4:VFX.Tangerines] mode:destroy flags[IsExclusive;ItemCount],
+            item 1 [*],
+                -fluid 0.8 [Water],
+        }
+
+        outputs
+        {
+            item 1 VFX.YeastStarterFermenting,
+        }
+    }
+
+    craftRecipe VFX_FeedYeastStarter
+    {
+        timedAction = VFX.JarCanning,
+        time = 50,
+        tags = AnySurfaceCraft;Cooking,
+        category = Cooking,
+        AutoLearnAny = Cooking:6,
+
+        inputs
+        {
+            item 1 [VFX.YeastStarterUnfed] mode:destroy,
+            item 1 tags[base:sugar],
+            item 1 [*],
+                -fluid 0.8 [Water],
+        }
+
+        outputs
+        {
+            item 1 VFX.YeastStarterFermenting,
+        }
+    }
+
+/* <<<<<  Vinegar  >>>>> */
+
+    craftRecipe VFX_MakeVinegarWithVinegar
+    {
+        timedAction = VFX.JarCanning,
+        time = 30,
+        tags = AnySurfaceCraft,
+        category = Cooking,
+        xpAward = Cooking:3,
+        AutoLearnAny = Cooking:8,
+        Tooltip = Tooltip_VFXVinegarFermenting30,
+        OnCreate = VFX.ReturnReplaceOnUse,
+
+        inputs
+        {
+            item 1 [*],
+                -fluid 0.3 [VFX_AmericanLightLager;VFX_AmericanLager;VFX_Pilsner;VFX_ViennaLager;VFX_PaleAle;VFX_AmberAle;VFX_Porter;VFX_Stout;VFX_AmericanWheatBeer;Beer;VFX_HomemadeBeer;Cider;VFX_CabernetSauvignon;VFX_Merlot;VFX_PinotNoir;VFX_Chardonnay;VFX_SauvignonBlanc;VFX_PinotGris;VFX_Riesling;Wine;VFX_HomemadeWine;Mead;Port;Sherry;Vermouth],
+            item 1 [*],
+                -fluid 0.3 [Water],
+            item 2 tags[VFX:VinegarStarter],
+            item 1 tags[base:jar] mode:destroy flags[ItemCount],
+            item 1 [Base.JarLid] mode:destroy,
+        }
+
+        outputs
+        {
+            item 1 VFX.HomemadeVinegarFermentingVinegar,
+        }
+    }
+    
+    craftRecipe VFX_MakeVinegarWithAlcohol
+    {
+        timedAction = VFX.JarCanning,
+        time = 30,
+        tags = AnySurfaceCraft,
+        category = Cooking,
+        xpAward = Cooking:3,
+        AutoLearnAny = Cooking:8,
+        Tooltip = Tooltip_VFXVinegarFermenting60,
+
+        inputs
+        {
+            item 1 [*],
+                -fluid 0.6 [VFX_AmericanLightLager;VFX_AmericanLager;VFX_Pilsner;VFX_ViennaLager;VFX_PaleAle;VFX_AmberAle;VFX_Porter;VFX_Stout;VFX_AmericanWheatBeer;Beer;VFX_HomemadeBeer;Cider;VFX_CabernetSauvignon;VFX_Merlot;VFX_PinotNoir;VFX_Chardonnay;VFX_SauvignonBlanc;VFX_PinotGris;VFX_Riesling;Wine;VFX_HomemadeWine;Mead;Port;Sherry;Vermouth],
+            item 1 tags[base:jar] mode:destroy flags[ItemCount],
+            item 1 [Base.JarLid] mode:destroy,
+        }
+
+        outputs
+        {
+            item 1 VFX.HomemadeVinegarFermentingAlcohol,
+        }
+    }
+
+    craftRecipe VFX_MakeVinegarWithFruit
+    {
+        timedAction = VFX.JarCanning,
+        time = 30,
+        tags = AnySurfaceCraft,
+        category = Cooking,
+        xpAward = Cooking:3,
+        AutoLearnAny = Cooking:8,
+        Tooltip = Tooltip_VFXVinegarFermenting90,
+        OnCreate = VFX.ReturnReplaceOnUse,
+
+        inputs
+        {
+            item 1 [3:Base.Apple;10:Base.BeautyBerry;10:Base.BerryBlack;10:Base.BerryBlue;10:Base.BerryGeneric1;10:Base.BerryGeneric2;10:Base.BerryGeneric3;10:Base.BerryGeneric4;10:Base.BerryGeneric5;10:Base.WinterBerry;6:Base.Cherry;2:Base.Grapefruit;2:Base.Grapes;2:Base.Lemon;3:Base.Lime;2:Base.Mango;2:Base.Orange;3:Base.Peach;2:Base.Pear;1:Base.Pineapple;8:Base.Rosehips;8:Base.Strewberrie;3:Base.WatermelonSmashed;5:VFX.Apricot;5:VFX.GoldKiwi;5:VFX.GreenKiwi;2:VFX.Papaya;4:VFX.Plum;2:VFX.Pomegranate;10:VFX.Cranberries;2:VFX.PunnetBlackberries;2:VFX.PunnetBlueberries;2:VFX.PunnetRaspberries;4:VFX.Figs;4:VFX.Nectarines;4:VFX.Tangerines] mode:destroy flags[IsExclusive;ItemCount],
+            item 5 tags[base:sugar],
+            item 1 tags[VFX:Yeast],
+            item 1 tags[base:jar] mode:destroy flags[ItemCount],
+            item 1 [Base.JarLid] mode:destroy,
+            item 1 [*],
+                -fluid 0.6 [Water],
+        }
+
+        outputs
+        {
+            item 1 VFX.HomemadeVinegarFermentingFruit,
+        }
+    }
+
+    craftRecipe VFX_MakeVinegarWithDeadYeast
+    {
+        timedAction = VFX.JarCanning,
+        time = 30,
+        tags = AnySurfaceCraft,
+        category = Cooking,
+        xpAward = Cooking:3,
+        AutoLearnAny = Cooking:8,
+        Tooltip = Tooltip_VFXVinegarFermenting60,
+        OnCreate = VFX.ReturnReplaceOnUse,
+
+        inputs
+        {
+            item 1 [VFX.DeadYeastStarter] mode:destroy flags[ItemCount],
+            item 1 tags[base:jar] mode:destroy flags[ItemCount],
+            item 1 [Base.JarLid] mode:destroy,
+            item 1 [*],
+                -fluid 0.6 [Water],
+        }
+
+        outputs
+        {
+            item 1 VFX.HomemadeVinegarFermentingAlcohol,
+        }
+    }
+
+/* <<<<<  Beer  >>>>> */
+
+    craftRecipe VFX_MakePotMash
+    {
+        timedAction = VFX.PotCooking,
+        time = 50,
+        tags = AnySurfaceCraft;Cooking,
+        category = Cooking,
+        xpAward = Cooking:3,
+        AutoLearnAny = Cooking:6,
+
+        inputs
+        {
+            item 4 [Base.BarleySheafDried] flags[ItemCount],
+            item 1 [Base.Hops;Base.HopsDried] flags[ItemCount],
+            item 1 [Base.Pot;Base.PotForged] mappers[potType] mode:destroy flags[InheritCondition],
+                -fluid 1.5 categories[Water] mode:mixture,
+        }
+
+        outputs
+        {
+            item 1 mapper:potType,
+        }
+
+        itemMapper potType
+        {
+            VFX.MashPot = Base.Pot,
+            VFX.MashPotForged = Base.PotForged,
+        }
+    }
+
+    craftRecipe VFX_MakeJarBeerPreparation
+    {
+        timedAction = VFX.JarCanning,
+        time = 50,
+        tags = AnySurfaceCraft;Cooking,
+        category = Cooking,
+        AutoLearnAny = Cooking:6,
+        OnCreate = VFX.ReturnReplaceOnUseSkipWortPot,
+
+        inputs
+        {
+            item 1 [VFX.WortPot;VFX.WortPotForged] mappers[potType] mode:destroy flags[ItemCount;InheritCondition],
+            item 1 tags[VFX:Yeast],
+            item 1 tags[base:jar] mode:destroy flags[ItemCount],
+            item 1 [Base.JarLid] mode:destroy,
+        }
+
+        outputs
+        {
+            item 1 mapper:potType,    
+            item 1 VFX.HomemadeBeerPreparationFermenting,
+        }
+
+        itemMapper potType
+        {
+            Base.Pot = VFX.WortPot,
+            Base.PotForged = VFX.WortPotForged,
+        }
+    }
+
+    craftRecipe VFX_MakeHomemadeBeer
+    {
+        timedAction = VFX.JarCanning,
+        time = 50,
+        tags = AnySurfaceCraft;Cooking,
+        category = Cooking,
+        AutoLearnAny = Cooking:6,
+
+        inputs
+        {
+            item 1 [VFX.HomemadeBeerPreparation] mode:destroy flags[ItemCount;InheritFoodAge],
+            item 4 tags[base:sugar],
+            item 4 [VFX.BottleAmericanLightLager;VFX.BottleAmericanLager;VFX.BottlePilsner;VFX.BottleViennaLager;VFX.BottlePaleAle;VFX.BottleAmberAle;VFX.BottlePorter;VFX.BottleStout;VFX.BottleAmericanWheatBeer;VFX.BottleHomemadeBeer;Base.BeerBottle;Base.BeerImported;Base.BeerEmpty;VFX.BottleBeerEmpty] mode:destroy flags[IsEmpty;ItemCount],
+            item 1 [Base.Funnel] mode:keep,
+        }
+
+        outputs
+        {
+            item 4 VFX.BottleHomemadeBeerUnsealed,
+            item 1 Base.EmptyJar,
+            item 1 Base.JarLid,
+        }
+    }
+
+    craftRecipe VFX_SealHomemadeBeer
+    {
+        timedAction = VFX.JarCanning,
+        time = 50,
+        tags = HandPress,
+        category = Cooking,
+        AutoLearnAny = Cooking:6,
+
+        inputs
+        {
+            item 1 [VFX.BottleHomemadeBeerUnsealed] mode:destroy flags[ItemCount],
+            item 1 [VFX.BottleCap],
+        }
+
+        outputs
+        {
+            item 1 VFX.BottleHomemadeBeerFermenting,
+        }
+    }
+
+/* <<<<<  Wine  >>>>> */
+
+    craftRecipe VFX_MakeJarWinePreparation
+    {
+        timedAction = VFX.JarCanning,
+        time = 50,
+        tags = AnySurfaceCraft;Cooking,
+        category = Cooking,
+        xpAward = Cooking:3,
+        AutoLearnAny = Cooking:3,
+        OnCreate = VFX.ReturnReplaceOnUse,
+
+        inputs
+        {
+            item 1 tags[base:jar] mode:destroy flags[ItemCount],
+            item 1 [Base.JarLid] mode:destroy,
+            item 1 tags[VFX:Yeast],
+            item 20 tags[base:sugar],
+            item 1 [3:Base.Apple;10:Base.BeautyBerry;10:Base.BerryBlack;10:Base.BerryBlue;10:Base.BerryGeneric1;10:Base.BerryGeneric2;10:Base.BerryGeneric3;10:Base.BerryGeneric4;10:Base.BerryGeneric5;10:Base.WinterBerry;6:Base.Cherry;2:Base.Grapefruit;2:Base.Grapes;2:Base.Lemon;3:Base.Lime;2:Base.Mango;2:Base.Orange;3:Base.Peach;2:Base.Pear;1:Base.Pineapple;8:Base.Rosehips;8:Base.Strewberrie;3:Base.WatermelonSmashed;5:VFX.Apricot;5:VFX.GoldKiwi;5:VFX.GreenKiwi;2:VFX.Papaya;4:VFX.Plum;2:VFX.Pomegranate;10:VFX.Cranberries;2:VFX.PunnetBlackberries;2:VFX.PunnetBlueberries;2:VFX.PunnetRaspberries;4:VFX.Figs;4:VFX.Nectarines;4:VFX.Tangerines] mode:destroy flags[IsExclusive;ItemCount],
+        }
+
+        outputs
+        {
+            item 1 VFX.HomemadeWinePreparationFermenting,
+        }
+    }
+
+    craftRecipe VFX_SealHomemadeWine
+    {
+        timedAction = VFX.JarCanning,
+        time = 50,
+        tags = HandPress,
+        category = Cooking,
+        AutoLearnAny = Cooking:3,
+
+        inputs
+        {
+            item 1 [VFX.HomemadeWinePreparation] mode:destroy flags[ItemCount],
+            item 1 [Base.Cork] mode:destroy,
+            item 1 [Base.Funnel] mode:keep,
+            item 1 [VFX.WineChardonnay;VFX.WineCabernetSauvignon;VFX.WineMerlot;VFX.WinePinotNoir;VFX.WineSauvignonBlanc;VFX.WinePinotGris;VFX.WineRiesling;VFX.BottleHomemadeWine;Base.Wine;Base.Wine2;Base.WineAged;VFX.BottleWineEmpty] mode:destroy flags[IsEmpty;ItemCount],
+        }
+
+        outputs
+        {
+            item 1 VFX.BottleHomemadeWine,
+            item 1 Base.EmptyJar,
+            item 1 Base.JarLid,
+        }
+    }
+
+}

@@ -1,0 +1,8 @@
+ContextMenu_DE = {
+    ContextMenu_Connect_Device = "Verbinden",
+    ContextMenu_Disconnect_Device = "Trennen",
+    ContextMenu_MergeWire = "Kabelbündel zusammenführen",
+    ContextMenu_PickUp_Speaker = "Pickup-Lautsprecher",
+    ContextMenu_TM_CDCase_PutIn = "In die CD-Hülle einlegen",
+    ContextMenu_TM_CDCase_TakeOut = "Nehmen Sie die CD heraus",
+}

@@ -1,0 +1,23 @@
+{
+    "Sandbox_PIP": "Plysken Irrigation Pipes",
+    "Sandbox_PIP_EnableAutoWatering": "自動水やりを有効化",
+    "Sandbox_PIP_EnableAutoWatering_tooltip": "有効にすると、パイプが接続された雨水バレルから近くの作物に自動で水やりを行います。",
+    "Sandbox_PIP_WateringInterval": "水やり間隔（分）",
+    "Sandbox_PIP_WateringInterval_tooltip": "各水やりサイクルの間隔（ゲーム内の分）。",
+    "Sandbox_PIP_WateringRadius": "水やり半径（タイル）",
+    "Sandbox_PIP_WateringRadius_tooltip": "0 = パイプ自身のタイルのみ。値が大きいほど、各パイプの周囲の四角い範囲の作物に水やりします。",
+    "Sandbox_PIP_SmartPipes": "スマートパイプ",
+    "Sandbox_PIP_SmartPipes_tooltip": "有効にすると、パイプが作物を最適な水位まで満たします。無効の場合、サイクルごとに一定量だけ少しずつ追加します。",
+    "Sandbox_PIP_SmartPipesFillMax": "スマートパイプ最大給水量",
+    "Sandbox_PIP_SmartPipesFillMax_tooltip": "スマートパイプモードで、1サイクルあたりに作物へ追加される最大水位。",
+    "Sandbox_PIP_SharedWaterPool": "共有水プール",
+    "Sandbox_PIP_SharedWaterPool_tooltip": "有効にすると、同じネットワークに接続されたバレルが水を共有し均等化します（満タンのバレルと空のバレルが平均化されます）。",
+    "Sandbox_PIP_DebugLogs": "デバッグログ",
+    "Sandbox_PIP_DebugLogs_tooltip": "内部ログをコンソールに出力します。トラブルシューティング専用です。",
+    "Sandbox_PIP_EnableFertigation": "施肥灌漑を有効化",
+    "Sandbox_PIP_EnableFertigation_tooltip": "有効時、接続した雨水樽に肥料または堆肥を注ぐと、パイプ網が近くの作物を自動施肥します（1株につき安全な1回分、過剰施肥なし）。既定で有効。",
+    "Sandbox_PIP_FertigationSkill": "施肥の品質（農業スキル）",
+    "Sandbox_PIP_FertigationSkill_tooltip": "自動施肥時に使う擬似的な農業レベル。高いほど収穫ボーナスの確率が上がる。安全性には影響しない。",
+    "Sandbox_PIP_ChargesPerBag": "肥料/堆肥1袋あたりの回数",
+    "Sandbox_PIP_ChargesPerBag_tooltip": "注いだ1袋で施肥できる作物の数。樽の水量とは無関係。"
+}

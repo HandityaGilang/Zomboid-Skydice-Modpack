@@ -1,0 +1,35 @@
+VERSION = 1,
+
+perk MentalHealth
+{
+	parent = none,
+	translation = MentalHealth,
+	passive = false,
+	xp1 = 0,
+	xp2 = 0,
+	xp3 = 0,
+	xp4 = 0,
+	xp5 = 0,
+	xp6 = 0,
+	xp7 = 0,
+	xp8 = 0,
+	xp9 = 0,
+	xp10 = 0,
+}
+
+perk Insanity
+{
+    translation = Insanity,
+    parent = MentalHealth,
+
+    xp1  = 128,
+    xp2  = 256,
+    xp3  = 512,
+    xp4  = 1024,
+    xp5  = 2048,
+    xp6  = 3072,
+    xp7  = 4096,
+    xp8  = 5120,
+    xp9  = 6144,
+    xp10 = 9000,
+}

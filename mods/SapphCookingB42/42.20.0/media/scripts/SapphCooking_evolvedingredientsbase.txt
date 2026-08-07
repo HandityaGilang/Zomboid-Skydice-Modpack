@@ -1,0 +1,1148 @@
+module Base
+{
+    /**********::---------------------------:: ::---------------------------:: **************/
+	/**********::--------------------:: Item Tags ::--------------------:: ******************/
+	/**********::---------------------------:: ::---------------------------:: **************/
+
+
+    /**********::---------------------------:: ::---------------------------:: **************/
+	/**********::--------------------:: Canned Foods ::--------------------:: ***************/
+	/**********::---------------------------:: ::---------------------------:: **************/
+
+    item OpenBeans
+	{
+		EvolvedRecipe = BlenderSalty:10,
+	}
+
+    item CannedCarrotsOpen
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10;BlenderSalty:10,
+		Tags = sapphcooking:carrot,
+	}
+
+    item CannedChiliOpen
+	{
+		EvolvedRecipe = BlenderSalty:10,
+	}
+
+    item CannedCornOpen
+	{
+		EvolvedRecipe = BlenderSalty:10,
+	}
+
+    item CannedCornedBeefOpen
+	{
+		EvolvedRecipe = BlenderSalty:10,
+	}
+
+    item DogfoodOpen
+	{
+		EvolvedRecipe = BlenderSalty:10,
+	}
+    
+    item CannedMushroomSoupOpen
+	{
+		EvolvedRecipe = BlenderSalty:10,
+	}
+
+    item CannedPeasOpen
+	{
+		EvolvedRecipe = BlenderSalty:10,
+	}
+
+    item CannedPotatoOpen
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10;BlenderSalty:10,
+		Tags = sapphcooking:potato,
+	}
+
+    item CannedSardinesOpen
+	{
+		EvolvedRecipe = BlenderSalty:10,
+	}
+
+    item CannedBologneseOpen
+	{
+		EvolvedRecipe = BlenderSalty:10,
+	}
+
+    item CannedTomatoOpen
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10;BlenderSalty:10,
+		Tags = sapphcooking:tomato,
+	}
+
+    item TunaTinOpen
+	{
+		EvolvedRecipe = BlenderSalty:10,
+	}
+
+	/*******::--------------------:: Sweet::------------------------:: **********************/
+
+	item CannedPineappleOpen
+	{
+		EvolvedRecipe = BlenderSweet:10,
+	}
+
+	item CannedFruitBeverageOpen
+	{
+		EvolvedRecipe = BlenderSweet:10,
+	}
+
+	item CannedFruitCocktailOpen
+	{
+		EvolvedRecipe = BlenderSweet:10,
+	}
+
+	item CannedMilkOpen
+	{
+		EvolvedRecipe = BlenderSweet:10,
+	}
+
+    item CannedPeachesOpen
+	{
+		EvolvedRecipe = BlenderSweet:10,
+	}
+
+
+	/**********::---------------------------:: ::---------------------------:: **************/
+	/**********::--------------------:: Mushrooms ::--------------------:: ******************/
+	/**********::---------------------------:: ::---------------------------:: **************/
+	item MushroomGeneric1
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10;BlenderSalty:8,
+		Tags = sapphcooking:mushroom,
+	}
+	item MushroomGeneric2
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10;BlenderSalty:8,
+		Tags = sapphcooking:mushroom,
+	}
+	item MushroomGeneric3
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10;BlenderSalty:8,
+		Tags = sapphcooking:mushroom,
+	}
+	item MushroomGeneric4
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10;BlenderSalty:8,
+		Tags = sapphcooking:mushroom,
+	}
+	item MushroomGeneric5
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10;BlenderSalty:8,
+		Tags = sapphcooking:mushroom,
+	}
+	item MushroomGeneric6
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10;BlenderSalty:8,
+		Tags = sapphcooking:mushroom,
+	}
+	item MushroomGeneric7
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10;BlenderSalty:8,
+		Tags = sapphcooking:mushroom,
+	}
+
+	/**********::---------------------------:: ::---------------------------:: **************/
+	/**********::--------------------:: Vegetables ::--------------------:: *****************/
+	/**********::---------------------------:: ::---------------------------:: **************/
+
+
+	item Avocado
+    {
+        EvolvedRecipe = Skewer:10;BowlOfFood:10;BlenderSweet:8,
+    }
+
+	item BellPepper
+    {
+        EvolvedRecipe = Skewer:10;BowlOfFood:10;BlenderSalty:8,
+    }
+
+	item BrusselSprouts
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10;BlenderSalty:8,
+	}
+
+	item Cabbage
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10;BlenderSalty:8,
+	}
+
+	item Capers
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10;BlenderSalty:8,
+	}
+
+	item Cauliflower
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10;BlenderSalty:8,
+	}
+
+	item Corn
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10;BlenderSalty:8,
+	}
+
+	item Cucumber
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10;BlenderSalty:8,
+	}
+
+	item Daikon
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10;BlenderSalty:8,
+	}
+
+	item Edamame
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10;BlenderSalty:8,
+	}
+
+	item Eggplant
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10;BlenderSalty:8,
+	}
+
+	item Greenpeas
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10;BlenderSalty:8,
+	}
+
+	item PepperHabanero
+	{
+		EvolvedRecipe = Skewer:1;BowlOfFood:1;BlenderSalty:1,
+	}
+
+	item PepperHabaneroDried
+	{
+		EvolvedRecipe = Skewer:1;BowlOfFood:1;BlenderSalty:1,
+	}
+
+	item PepperJalapeno
+	{
+		EvolvedRecipe = Skewer:1;BowlOfFood:1;BlenderSalty:1,
+	}
+
+	item PepperJalapenoDried
+	{
+		EvolvedRecipe = Skewer:1;BowlOfFood:1;BlenderSalty:1,
+	}
+
+	item Leek
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10;BlenderSalty:8,
+	}
+
+	item Lettuce
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10;BlenderSalty:8,
+	}
+
+	item Onion
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10;BlenderSalty:8,
+	}
+
+	item Olives
+	{
+		EvolvedRecipe = Skewer:5;BowlOfFood:5;BlenderSalty:5,
+	}
+
+	item Peas
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10;BlenderSalty:8,
+	}
+
+	item Pumpkin
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10;BlenderSalty:8,
+	}
+
+	item PumpkinSliced
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10;BlenderSalty:8,
+	}
+
+	item PumpkinSmashed
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10;BlenderSalty:8,
+	}
+
+	item RedRadish
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10;BlenderSalty:8,
+	}
+	
+	item Turnip
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10;BlenderSalty:8,
+	}
+
+
+    item SugarBeet
+    {
+        EvolvedRecipe = Skewer:10;BowlOfFood:10;BlenderSweet:8,
+        Tags = sapphcooking:beets,
+    }
+
+	item Broccoli
+	{
+		EvolvedRecipe = SkewerVegetable:10;Skewer:10;BowlOfFood:10;BlenderSalty:8,
+		Tags = sapphcooking:slicedvegetables,
+	}
+
+	/**********::--------------------:: Tomatoes ::--------------------:: **************/
+
+	item TomatoPaste
+	{
+		EvolvedRecipe = Skewer:4;BowlOfFood:10;BlenderSalty:8,
+		Tags = sapphcooking:tomato,
+	}
+	item Ketchup
+	{
+		EvolvedRecipe = Skewer:4;BowlOfFood:10,
+		Tags = sapphcooking:tomato,
+	}
+
+	/**********::--------------------:: Potatoes ::--------------------:: **************/
+	item Potato
+	{
+		EvolvedRecipe = SkewerVegetable:10;Skewer:10;BowlOfFood:10;BlenderSalty:10,
+		Tags = sapphcooking:potato,
+	}
+	item SweetPotato
+	{
+		EvolvedRecipe = SkewerVegetable:10;Skewer:10;BowlOfFood:10;BlenderSalty:10;BlenderSweet:10,
+		Tags = sapphcooking:potato,
+	}
+
+	/**********::--------------------:: Carrots ::--------------------:: **************/
+	item Carrots
+	{
+		EvolvedRecipe = SkewerVegetable:10;Skewer:10;BowlOfFood:10;BlenderSalty:10;BlenderSweet:10,
+		Tags = sapphcooking:carrot,
+	}
+
+	/**********::---------------------------:: ::---------------------------:: **************/
+	/**********::--------------------:: Meats ::--------------------:: **********************/
+	/**********::---------------------------:: ::---------------------------:: **************/
+
+	item MincedMeat
+	{
+		EvolvedRecipe = BowlOfFood:10|Cooked,
+		Tags = sapphcooking:mincedmeat,
+	}
+
+    /**********::--------------------:: Rabbit ::--------------------:: **************/
+
+    item Rabbitmeat
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10|Cooked,
+	}
+
+	/**********::--------------------:: Beef ::--------------------:: **************/
+
+	item Beef
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10|Cooked,
+		Tags = sapphcooking:beef,
+	}
+
+	item MeatPatty
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10|Cooked,
+		Tags = sapphcooking:beef,
+	}
+
+	/**********::--------------------:: Chicken ::--------------------:: **************/
+
+	item ChickenWhole
+	{
+		Tags = sapphcooking:turkey,
+	}
+
+	item Smallbirdmeat
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10|Cooked,
+		Tags = sapphcooking:turkey,
+	}
+
+	item ChickenFillet
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10|Cooked,
+		Tags = sapphcooking:turkey,
+	}
+
+	item Chicken
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10|Cooked,
+		Tags = sapphcooking:turkey,
+	}
+
+	item ChickenWings
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10|Cooked,
+		Tags = sapphcooking:turkey,
+	}
+
+	/**********::--------------------:: Turkey ::--------------------:: **************/
+
+	item TurkeyWhole
+	{
+		Tags = sapphcooking:turkey,
+	}
+
+	item TurkeyFillet
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10|Cooked,
+		Tags = sapphcooking:turkey,
+	}
+
+	item TurkeyLegs
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10|Cooked,
+		Tags = sapphcooking:turkey,
+	}
+
+	item TurkeyWings
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10|Cooked,
+		Tags = sapphcooking:turkey,
+	}
+	/**********::--------------------:: Pork ::--------------------:: **************/
+
+	item Pork
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10|Cooked,
+		Tags = sapphcooking:pork,
+	}
+
+	item PorkChop
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10|Cooked,
+		Tags = sapphcooking:pork,
+	}
+
+	item Ham
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10|Cooked,
+		Tags = sapphcooking:pork,
+	}
+
+	item HamSlice
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10|Cooked,
+		Tags = sapphcooking:pork,
+	}
+
+	/**********::--------------------:: Sausage ::--------------------:: **************/
+
+	item Sausage
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10|Cooked,
+		Tags = sapphcooking:sausage,
+	}
+
+	item Salami
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10|Cooked,
+		Tags = sapphcooking:sausage,
+	}
+	
+	item Hotdog_single
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10|Cooked,
+		Tags = sapphcooking:sausage,
+	}
+
+	/**********::--------------------:: Seafood ::--------------------:: **************/
+
+	item Oysters
+	{
+		EvolvedRecipe = BowlOfFood:5|Cooked,
+	}
+
+	item Salmon
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10|Cooked,
+	}
+
+	item Shrimp
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10|Cooked,
+	}
+
+	item Lobster
+	{
+		EvolvedRecipe = BowlOfFood:15|Cooked,
+	}
+
+	item SquidCalamari
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10|Cooked,
+	}
+
+	item Caviar
+	{
+		EvolvedRecipe = BowlOfFood:2,
+	}
+
+	item SquidCalamari
+	{
+		EvolvedRecipe = Skewer:2;BowlOfFood:2,
+	}
+
+
+	/**********::---------------------------:: ::---------------------------:: **************/
+	/**********::--------------------:: Sweets ::--------------------:: *********************/
+	/**********::---------------------------:: ::---------------------------:: **************/
+
+	item Icing
+	{
+		EvolvedRecipe = BlenderSweet:10,
+		Tags = sapphcooking:icing,
+	}
+
+	item Chocolate
+	{
+		EvolvedRecipe = BlenderSweet:10,
+		Tags = base:chocolate;sapphcooking:chocolate,
+	}
+
+	item Chocolate_Butterchunkers
+	{
+		EvolvedRecipe = BlenderSweet:10,
+		Tags = base:chocolate;sapphcooking:chocolate,
+	}
+
+	item Chocolate_Deux
+	{
+		EvolvedRecipe = BlenderSweet:10,
+		Tags = base:chocolate;sapphcooking:chocolate,
+	}
+
+	item Chocolate_Candy
+	{
+		EvolvedRecipe = BlenderSweet:10,
+		Tags = base:chocolate;sapphcooking:chocolate,
+	}
+
+	item Chocolate_Crackle
+	{
+		EvolvedRecipe = BlenderSweet:10,
+		Tags = base:chocolate;sapphcooking:chocolate,
+	}
+
+	item Chocolate_GalacticDairy
+	{
+		EvolvedRecipe = BlenderSweet:10,
+		Tags = base:chocolate;sapphcooking:chocolate,
+	}
+
+	item Chocolate_RoysPBPucks
+	{
+		EvolvedRecipe = BlenderSweet:10,
+		Tags = base:chocolate;sapphcooking:chocolate,
+	}
+
+	item Chocolate_Smirkers
+	{
+		EvolvedRecipe = BlenderSweet:10,
+		Tags = base:chocolate;sapphcooking:chocolate,
+	}
+
+	item Chocolate_SnikSnak
+	{
+		EvolvedRecipe = BlenderSweet:10,
+		Tags = base:chocolate;sapphcooking:chocolate,
+	}
+
+	/**********::---------------------------:: ::---------------------------:: **************/
+	/**********::--------------------:: Cheese ::--------------------:: *********************/
+	/**********::---------------------------:: ::---------------------------:: **************/
+
+	item SourCream
+	{
+		EvolvedRecipe = BlenderSalty:6;BowlOfFood:6,
+		Tags = sapphcooking:sourcream,
+	}
+
+
+	/**********::---------------------------:: ::---------------------------:: **************/
+	/**********::--------------------:: Insects ::--------------------:: ********************/
+	/**********::---------------------------:: ::---------------------------:: **************/
+
+	item Cockroach
+	{
+		EvolvedRecipe = BlenderSalty:5;BowlOfFood:5,
+		EvolvedRecipe = SkewerInsect:1,
+	}
+
+    item Worm
+	{
+		EvolvedRecipe = BlenderSalty:5;BowlOfFood:5,
+		EvolvedRecipe = SkewerInsect:1,
+	}
+
+    item Termites
+	{
+		EvolvedRecipe = SkewerInsect:1;BowlOfFood:5,
+	}
+
+	item Cricket
+	{
+		EvolvedRecipe = BlenderSalty:5;BowlOfFood:5,
+		EvolvedRecipe = SkewerInsect:1,
+	}
+
+	item Grasshopper
+	{
+		EvolvedRecipe = BlenderSalty:5;BowlOfFood:5,
+		EvolvedRecipe = SkewerInsect:1,
+	}
+
+	/**********::---------------------------:: ::---------------------------:: **************/
+	/**********::--------------------:: Eggs ::--------------------:: ***********************/
+	/**********::---------------------------:: ::---------------------------:: **************/
+
+    item Egg
+	{
+        EvolvedRecipe = BlenderSalty:8|Cooked;BowlOfFood:5|Cooked,
+	}
+
+    item TurkeyEgg
+	{
+       EvolvedRecipe = BlenderSalty:8|Cooked;BowlOfFood:5|Cooked,
+	}
+    
+    item WildEggs
+	{
+        EvolvedRecipe = BlenderSalty:8|Cooked;BowlOfFood:5|Cooked,
+	}
+
+	item EggBoiled
+	{
+		EvolvedRecipe = BlenderSalty:8|Cooked;BowlOfFood:5|Cooked,
+		Tags = sapphcooking:eggboiled,
+	}
+
+    
+
+	
+
+	/**********::---------------------------:: ::---------------------------:: **************/
+	/**********::--------------------:: Rice ::--------------------:: ***********************/
+	/**********::---------------------------:: ::---------------------------:: **************/
+
+	item Rice
+	{
+		Tags = sapphcooking:ricegrain,
+	}
+
+	/**********::---------------------------:: ::---------------------------:: ***************/
+	/**********::--------------------:: Fruits ::--------------------:: *********************/
+	/**********::---------------------------:: ::---------------------------:: **************/
+
+	item Strewberrie
+	{
+		EvolvedRecipe = BlenderSweet:8,
+		Tags = sapphcooking:strawberry,
+	}
+
+    item Apple
+	{
+		EvolvedRecipe = BlenderSweet:8,
+	}
+
+    item Banana
+	{
+		EvolvedRecipe = BlenderSweet:8,
+	}
+
+    item DriedApricots
+	{
+		EvolvedRecipe = BlenderSweet:8,
+	}
+
+    item BeautyBerry
+	{
+		EvolvedRecipe = BlenderSweet:8,
+	}
+
+    item HollyBerry
+	{
+		EvolvedRecipe = BlenderSweet:8,
+	}
+
+    item WinterBerry
+	{
+		EvolvedRecipe = BlenderSweet:8,
+	}
+
+    item BerryBlack
+	{
+		EvolvedRecipe = BlenderSweet:8,
+	}
+
+    item BerryBlue
+	{
+		EvolvedRecipe = BlenderSweet:8,
+	}
+
+    item BerryGeneric1
+	{
+		EvolvedRecipe = BlenderSweet:8,
+	}
+
+    item BerryGeneric2
+	{
+       EvolvedRecipe = BlenderSweet:8, 
+	}
+
+    item BerryGeneric3
+	{
+      EvolvedRecipe = BlenderSweet:8,  
+	}
+
+    item BerryGeneric4
+	{
+       EvolvedRecipe = BlenderSweet:8, 
+	}
+
+    item BerryGeneric5
+	{
+        EvolvedRecipe = BlenderSweet:8,
+	}
+
+    item BerryPoisonIvy
+	{
+        EvolvedRecipe = BlenderSweet:8,
+	}
+
+    item Cherry
+	{
+        EvolvedRecipe = BlenderSweet:8,
+	}
+
+    item Grapefruit
+	{
+        EvolvedRecipe = BlenderSweet:8,
+	}
+
+    item Grapes
+	{
+        EvolvedRecipe = BlenderSweet:8,
+	}
+
+    item Lemon
+	{
+        EvolvedRecipe = BlenderSweet:8,
+	}
+
+    item Lime
+	{
+        EvolvedRecipe = BlenderSweet:8,
+	}
+
+    item Mango
+	{
+        EvolvedRecipe = BlenderSweet:8,
+	}
+
+    item Orange
+	{
+        EvolvedRecipe = BlenderSweet:8,
+	}
+
+    item Peach
+	{
+        EvolvedRecipe = BlenderSweet:8,
+	}
+
+    item Pear
+	{
+        EvolvedRecipe = BlenderSweet:8,
+	}
+
+    item Pineapple
+	{
+      EvolvedRecipe = BlenderSweet:8,  
+	}
+    
+    item Rosehips
+	{
+       EvolvedRecipe = BlenderSweet:8, 
+	}
+
+    item Watermelon
+	{
+        EvolvedRecipe = BlenderSweet:8,
+	}
+
+    item WatermelonSmashed
+	{
+        EvolvedRecipe = BlenderSweet:8,
+	}
+
+    item WatermelonSliced
+	{
+        EvolvedRecipe = BlenderSweet:8,
+	}
+
+    
+    /**********::---------------------------:: ::---------------------------:: **************/
+	/**********::--------------------:: Spices ::--------------------:: *********************/
+	/**********::---------------------------:: ::---------------------------:: **************/
+
+	item Guacamole
+	{
+		EvolvedRecipe = BlenderSalty:8;BowlOfFood:5,
+	}
+
+	item Gravy
+	{
+		EvolvedRecipe = BlenderSalty:8;BowlOfFood:5,
+	}
+
+
+    item Butter
+	{
+		EvolvedRecipe = BlenderSalty:8,
+	}
+
+    item BalsamicVinegar
+	{
+		EvolvedRecipe = BlenderSalty:8;BowlOfFood:5,
+	}
+
+    item BBQSauce
+	{
+		EvolvedRecipe = BlenderSalty:8;BowlOfFood:5,
+	}
+
+    item BouillonCube
+	{
+	
+	}
+    
+    item TomatoPaste
+	{
+		EvolvedRecipe = BlenderSalty:8;BowlOfFood:5,
+	}
+
+    item Lard
+	{
+		EvolvedRecipe = BlenderSalty:8;BowlOfFood:5,
+	}
+
+    item Basil
+	{
+		EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item Seasoning_Basil
+	{
+		EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item BasilDried
+	{
+		EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item Chives
+	{
+		EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item Seasoning_Chives
+	{
+		EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item ChivesDried
+	{
+		EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+    
+    item Cilantro
+	{
+		EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item Seasoning_Cilantro
+	{
+		EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+    
+    item CilantroDried
+	{
+	EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item Cinnamon
+	{
+		EvolvedRecipe = BlenderSweet:2;BowlOfFood:2,
+	}
+
+    item Garlic
+	{
+		EvolvedRecipe = BlenderSalty:8,
+	}
+
+    item GreenOnions
+	{
+		EvolvedRecipe = BlenderSalty:8,
+	}
+
+    item Oregano
+	{
+		EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+    
+    item Seasoning_Oregano
+	{
+	EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item OreganoDried
+	{
+	EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item Parsley
+	{
+	EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item Rosemary
+	{
+	EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item Rosemary
+	{
+	EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item Seasoning_Rosemary
+	{
+	EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item RosemaryDried
+	{
+	EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item Sage
+	{
+	EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item Seasoning_Sage
+	{
+	EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item SageDried
+	{
+	EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item Thyme
+	{
+	EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item Seasoning_Thyme
+	{
+	EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item ThymeDried
+	{
+	EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+	item SesameOil
+	{
+		EvolvedRecipe = BlenderSalty:8,
+	}
+
+
+    /**********::--------------------:: Seeds ::--------------------:: **************/
+
+    item SunflowerSeeds
+	{
+		EvolvedRecipe = BlenderSalty:2,
+	}
+
+    item FlaxSeed
+	{
+		EvolvedRecipe = BlenderSalty:2,
+	}
+
+    item PowderedGarlic
+	{
+		EvolvedRecipe = BlenderSalty:2,
+	}
+    
+	item PumpkinSeed
+	{
+		EvolvedRecipe = BlenderSalty:2,
+	}
+
+
+    /**********::--------------------:: Roots ::--------------------:: **************/
+
+    item Wasabi
+	{
+		EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item GingerPickled
+	{
+		EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item GingerRoot
+	{
+		EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item Ginseng
+	{
+		EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item PoppySeed
+	{
+		EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    /**********::--------------------:: Condiments ::--------------------:: **************/
+
+    item Hotsauce
+	{
+		EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item Margarine
+	{
+		EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item Marinara
+	{
+		EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item MayonnaiseFull
+	{
+		EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item Mustard
+	{
+		EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item Dip_NachoCheese
+	{
+		EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item PowderedOnion
+	{
+		EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item Pepper
+	{
+		EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item Pickles
+	{
+		EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+    
+
+    item Dip_Ranch
+	{
+		EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item RemouladeFull
+	{
+		EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item Dip_Salsa
+	{
+		EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item Salt
+	{
+		EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item SeasoningSalt
+	{
+		EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    item Soysauce
+	{
+		EvolvedRecipe = BlenderSalty:2;BowlOfFood:2,
+	}
+
+    /**********::--------------------:: Sweet ::--------------------:: **************/
+
+    item MapleSyrup
+	{
+		EvolvedRecipe = BlenderSalty:4,
+	}
+
+    item SugarBrown
+	{
+		EvolvedRecipe = BlenderSalty:4,
+	}
+
+    item Honey
+	{
+		EvolvedRecipe = BlenderSalty:4,
+	}
+
+    item SugarCubes
+	{
+		EvolvedRecipe = BlenderSalty:4,
+	}
+
+    item SugarPacket
+	{
+		EvolvedRecipe = BlenderSalty:4,
+	}
+
+    item Sugar
+	{
+		EvolvedRecipe = BlenderSalty:4,
+	}
+
+	/**********::--------------------:: Soy ::--------------------:: **************/
+
+	item Tofu
+	{
+		EvolvedRecipe = Skewer:10;BowlOfFood:10;BlenderSalty:8,
+	}
+
+	item Soybeans
+	{
+		EvolvedRecipe = BowlOfFood:10;BlenderSalty:8,
+	}
+
+
+}

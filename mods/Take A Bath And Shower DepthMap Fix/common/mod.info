@@ -1,0 +1,12 @@
+name=Take A Bath And Shower: DepthMap fix
+id=ATakeABathAndShowerDepthMap
+author=si-cafe
+poster=poster.png
+poster=poster2.png
+icon=modicon.png
+modversion=42.20.1
+versionMin=42.16.0
+description=The depth maps for baths and showers by "Take A Bath And Shower."
+description=<LINE> Please load order it quite high up.
+category=map
+loadFirst=on

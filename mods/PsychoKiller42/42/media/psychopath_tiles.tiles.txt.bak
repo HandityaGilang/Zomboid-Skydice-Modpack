@@ -1,0 +1,65 @@
+version = 1
+tileset
+{
+    file = psychopath_tiles
+    size = 8,1
+    id = 1
+    // psychopath_tiles_0
+    tile
+    {
+        xy = 0,0
+        BlocksPlacement = 
+        CustomName = Butcher Hook
+        solidtrans = 
+    }
+    // psychopath_tiles_1
+    tile
+    {
+        xy = 1,0
+        BlocksPlacement = 
+        CustomName = Butcher Hook Skeleton
+        solidtrans = 
+    }
+    // psychopath_tiles_2
+    tile
+    {
+        xy = 2,0
+        BlocksPlacement = 
+        CustomName = Buthcer Hook Skinned
+        solidtrans = 
+    }
+    // psychopath_tiles_3
+    tile
+    {
+        xy = 3,0
+        BlocksPlacement = 
+        CustomName = Butcher Hook Corpse
+        HitByCar = 
+        StopCar = 
+        solidtrans = 
+    }
+    // psychopath_tiles_4
+    tile
+    {
+        xy = 4,0
+        BlocksPlacement = 
+        CustomName = Skull on Pole
+        Facing = S
+        GroupName = HumanSkullPole
+        IsLow = 
+        IsMoveAble = 
+        PickUpWeight = 5
+    }
+    // psychopath_tiles_5
+    tile
+    {
+        xy = 5,0
+        BlocksPlacement = 
+        CustomName = Skull on Pole
+        Facing = E
+        GroupName = HumanSkullPole
+        IsLow = 
+        IsMoveAble = 
+        PickUpWeight = 5
+    }
+}

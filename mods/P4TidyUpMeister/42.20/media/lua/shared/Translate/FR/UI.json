@@ -1,0 +1,10 @@
+{
+	"UI_P4TidyUpMeister_Messages_ToDoReequip": "Rééquipement activé une fois l'opération terminée.",
+	"UI_P4TidyUpMeister_Messages_ToDoNotReequip": "Rééquipement désactivé une fois l'opération terminée.",
+	"UI_P4TidyUpMeister_Options_UseContextMenu_Name": "Utiliser le menu contextuel",
+	"UI_P4TidyUpMeister_Options_UseContextMenu_Tooltip": "Permettre au menu contextuel de basculer entre le rééquipement et la désactivation.",
+	"UI_P4TidyUpMeister_Options_ForceReequip_Name": "Forcer le rééquipement",
+	"UI_P4TidyUpMeister_Options_ForceReequip_Tooltip": "Normalement, il ne sera pas rééquipé lorsque l'opération est interrompue, mais l'activer forcera à être rééquipé uniquement les objets tenus en main.",
+	"UI_P4TidyUpMeister_Options_RestoreDismantleOutputs_Name": "Remettre les matériaux démontés à leur place",
+	"UI_P4TidyUpMeister_Options_RestoreDismantleOutputs_Tooltip": "Replace les matériaux obtenus par démontage dans le conteneur d'origine de l'objet démonté."
+}

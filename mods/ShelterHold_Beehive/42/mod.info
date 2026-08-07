@@ -1,0 +1,14 @@
+name=ShelterHold: Beehive
+id=ShelterHold_Beehive
+poster=poster.png
+icon=icon.png
+author=Rocco
+modversion=1.1.2
+pack=Hold_BeehiveTiles
+tiledef=Hold_BeehiveDef 7924
+versionMin=42.12.0
+require=\NeatUI_Framework
+category=features
+description=Legacy Build 42.12 branch of ShelterHold: Beehive. Adds beehives, bee species, hive frames, honey extraction, honey-based foods/items, foraging and bait hives. Includes MP sync fix for honey extractor and hive frame progress; newer B42 builds use the 42.13+ ItemType script branch.
+
+versionMax=42.12.99

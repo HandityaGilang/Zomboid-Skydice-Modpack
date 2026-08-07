@@ -1,0 +1,8 @@
+{
+"ContextMenu_PK42_CollectBones": "收集骨头",
+"ContextMenu_PK42_RequiredItems": "所需物品",
+"ContextMenu_PK42_AlreadySkinned": "已被剥皮",
+"ContextMenu_PK42_CollectBonesDesc": "从残骸中收集骨头。",
+"ContextMenu_PK42_CorpseName": "尸体",
+"ContextMenu_PK42_SkinCorpse": "剥皮尸体"
+}

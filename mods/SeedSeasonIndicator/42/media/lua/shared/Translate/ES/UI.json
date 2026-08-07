@@ -1,0 +1,6 @@
+{
+    "UI_SSI_OptEnabled": "Activar indicador",
+    "UI_SSI_OptEnabled_TT": "Muestra iconos de temporada en las semillas del inventario",
+    "UI_SSI_OptTooltip": "Mostrar información de temporada en la descripción",
+    "UI_SSI_OptTooltip_TT": "Añade los meses de la temporada de siembra a la descripción de las semillas y los paquetes de semillas. Se desactiva automáticamente cuando se detecta otro mod que añade información sobre la temporada de siembra a las descripciones."
+}

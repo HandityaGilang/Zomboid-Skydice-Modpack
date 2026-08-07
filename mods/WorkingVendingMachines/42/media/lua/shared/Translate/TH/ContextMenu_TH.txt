@@ -1,0 +1,10 @@
+ContextMenu_TH = {
+	ContextMenu_WVMNoPower = "ไม่มีพลังงานไฟฟ้า",
+	ContextMenu_WVMSnackInChute = "มีขนมติดค้างอยู่ที่ช่องจ่ายสินค้า",
+	ContextMenu_WVMSoldOut = "ตู้นี้จำหน่ายสินค้าหมดแล้ว",
+	ContextMenu_WVMNoMoneyDrink = "ตู้นี้ยังมีเครื่องดื่มอยู่ แต่ฉันไม่มีเงิน",
+	ContextMenu_WVMNoMoneySnack = "ตู้นี้ยังมีขนมอยู่ แต่ฉันไม่มีเงิน",
+	ContextMenu_WVMBuyDrink = "ซื้อเครื่องดื่ม",
+	ContextMenu_WVMBuySnack = "ซื้อขนมอบกรอบ",
+	ContextMenu_WVMStrikeMachine = "ทุบตู้ขายสินค้า",
+}

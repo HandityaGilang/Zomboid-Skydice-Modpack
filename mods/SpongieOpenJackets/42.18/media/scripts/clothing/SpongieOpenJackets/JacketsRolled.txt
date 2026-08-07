@@ -1,0 +1,990 @@
+module Base {
+
+    item Jacket_WhiteTINTROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Jacket,
+        ClothingItem = Jacket_WhiteROLL,
+        BodyLocation = SpnOpenCloth:JACKET_ROLL,
+        Icon = Jacket_White,
+        BloodLocation = Shirt;Neck,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.5,
+        FabricType = Cotton,
+        Weight = 1,
+        WorldStaticModel = JacketCoat_Ground,
+		Tags = base:ripclothingcotton,
+    }
+    item Jacket_WhiteTINTOPENROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Jacket,
+        ClothingItem = Jacket_WhiteOPENROLL,
+        BodyLocation = SpnOpenCloth:JACKET_OPENROLL,
+        Icon = Jacket_White,
+        BloodLocation = Shirt;Neck,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 10,
+        ScratchDefense = 25,
+        NeckProtectionModifier = 0.5,
+        FabricType = Cotton,
+        Weight = 1,
+        WorldStaticModel = JacketCoat_Ground,
+		Tags = base:ripclothingcotton,
+    }
+	item Jacket_PoliceROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Police Deputy Jacket,
+        ClothingItem = Jacket_PoliceROLL,
+        BodyLocation = SpnOpenCloth:JACKET_ROLL,
+        Icon = JacketPolice,
+        BloodLocation = Shirt;Neck,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.98,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+		Tags = base:ripclothingcotton,
+		
+    }
+	item Jacket_PoliceOPENROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Police Deputy Jacket,
+        ClothingItem = Jacket_PoliceOPENROLL,
+        BodyLocation = SpnOpenCloth:JACKET_OPENROLL,
+        Icon = JacketPolice,
+        BloodLocation = Shirt;Neck,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.98,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+		Tags = base:ripclothingcotton,
+		
+    }
+    item Jacket_RangerROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Ranger Jacket,
+        ClothingItem = Jacket_RangerROLL,
+        BodyLocation = SpnOpenCloth:JACKET_ROLL,
+        Icon = JacketRanger,
+        BloodLocation = Shirt;Neck,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.98,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+		Tags = base:ripclothingcotton,
+		
+    }
+    item Jacket_RangerOPENROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Ranger Jacket,
+        ClothingItem = Jacket_RangerOPENROLL,
+        BodyLocation = SpnOpenCloth:JACKET_OPENROLL,
+        Icon = JacketRanger,
+        BloodLocation = Shirt;Neck,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.98,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+		Tags = base:ripclothingcotton,
+		
+    }
+	item Jacket_ArmyCamoDesertROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Military Desert Camo Jacket,
+        ClothingItem = Jacket_ArmyCamoDesertROLL,
+        BodyLocation = SpnOpenCloth:JACKET_ROLL,
+        BloodLocation = Shirt;Neck,
+        Icon = ShirtCamoSand,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 30,
+        ScratchDefense = 50,
+        NeckProtectionModifier = 0.5,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+		Tags = base:ripclothingcotton,
+		
+    }
+	item Jacket_ArmyCamoDesertOPENROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Military Desert Camo Jacket,
+        ClothingItem = Jacket_ArmyCamoDesertOPENROLL,
+        BodyLocation = SpnOpenCloth:JACKET_OPENROLL,
+        BloodLocation = Shirt;Neck,
+        Icon = ShirtCamoSand,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 30,
+        ScratchDefense = 50,
+        NeckProtectionModifier = 0.5,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+		Tags = base:ripclothingcotton,
+		
+    }
+    item Jacket_ArmyCamoGreenROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Military Green Camo Jacket,
+        ClothingItem = Jacket_ArmyCamoGreenROLL,
+        BodyLocation = SpnOpenCloth:JACKET_ROLL,
+        Icon = ShirtCamoGreen,
+        BloodLocation = Shirt;Neck,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 30,
+        ScratchDefense = 50,
+        NeckProtectionModifier = 0.5,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+		Tags = base:ripclothingcotton,
+		
+    }
+    item Jacket_ArmyCamoGreenOPENROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Military Green Camo Jacket,
+        ClothingItem = Jacket_ArmyCamoGreenOPENROLL,
+        BodyLocation = SpnOpenCloth:JACKET_OPENROLL,
+        Icon = ShirtCamoGreen,
+        BloodLocation = Shirt;Neck,
+        RunSpeedModifier = 0.94,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 30,
+        ScratchDefense = 50,
+        NeckProtectionModifier = 0.5,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+		Tags = base:ripclothingcotton,
+		
+    }
+    item Jacket_ChefROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Chef Jacket,
+        ClothingItem = Jacket_ChefROLL,
+        BodyLocation = SpnOpenCloth:JACKET_ROLL,
+        Icon = JacketChef,
+        BloodLocation = Shirt;Neck,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+		Tags = base:ripclothingcotton,
+		
+    }
+    item Jacket_ChefOPENROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Chef Jacket,
+        ClothingItem = Jacket_ChefOPENROLL,
+        BodyLocation = SpnOpenCloth:JACKET_OPENROLL,
+        Icon = JacketChef,
+        BloodLocation = Shirt;Neck,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        NeckProtectionModifier = 0.5,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+		Tags = base:ripclothingcotton,
+		
+    }
+    item Jacket_FiremanROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Firefighter Jacket,
+        ClothingItem = Jacket_FiremanROLL,
+        BodyLocation = SpnOpenCloth:JACKET_ROLL,
+        Icon = JacketFireman,
+        BloodLocation = Shirt;Neck,
+        RunSpeedModifier = 0.87,
+        CombatSpeedModifier = 0.90,
+        BiteDefense = 50,
+        ScratchDefense = 70,
+        NeckProtectionModifier = 0.5,
+        Weight = 4,
+        WorldStaticModel = Jacket_Ground,
+		
+    }
+    item Jacket_FiremanOPENROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Firefighter Jacket,
+        ClothingItem = Jacket_FiremanOPENROLL,
+        BodyLocation = SpnOpenCloth:JACKET_OPENROLL,
+        Icon = JacketFireman,
+        BloodLocation = Shirt;Neck,
+        RunSpeedModifier = 0.87,
+        CombatSpeedModifier = 0.90,
+        BiteDefense = 50,
+        ScratchDefense = 70,
+        NeckProtectionModifier = 0.5,
+        Weight = 4,
+        WorldStaticModel = Jacket_Ground,
+		
+    }
+    item Jacket_CoatArmyROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Army Coat,
+        ClothingItem = Jacket_CoatArmyROLL,
+        BodyLocation = SpnOpenCloth:JACKET_ROLL,
+        Icon = JacketArmyDress,
+        BloodLocation = LongJacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        NeckProtectionModifier = 0.5,
+        FabricType = Cotton,
+        WorldStaticModel = JacketCoat_Ground,
+		Tags = base:ripclothingcotton,
+		
+    }
+    item Jacket_CoatArmyOPENROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Army Coat,
+        ClothingItem = Jacket_CoatArmyOPENROLL,
+        BodyLocation = SpnOpenCloth:JACKET_OPENROLL,
+        Icon = JacketArmyDress,
+        BloodLocation = LongJacket,
+        RunSpeedModifier = 0.95,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        NeckProtectionModifier = 0.5,
+        FabricType = Cotton,
+        WorldStaticModel = JacketCoat_Ground,
+		Tags = base:ripclothingcotton,
+		
+    }
+	
+	
+	
+    item Jacket_VarsityROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Varsity Jacket,
+        ClothingItem = Jacket_VarsityROLL,
+        BodyLocation = SpnOpenCloth:JACKET_ROLL,
+        BloodLocation = Shirt;Neck,
+        IconsForTexture = JacketVarsity_KY;JacketVarsity_Alpha,
+        ScratchDefense = 20,
+        BiteDefense = 10,
+        NeckProtectionModifier = 0.3,
+        FabricType = Cotton,
+        WorldStaticModel = JacketCoat_Ground,
+		Tags = base:ripclothingcotton,
+		
+    }
+    item Jacket_VarsityOPENROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Varsity Jacket,
+        ClothingItem = Jacket_VarsityOPENROLL,
+        BodyLocation = SpnOpenCloth:JACKET_OPENROLL,
+        BloodLocation = Shirt;Neck,
+        IconsForTexture = JacketVarsity_KY;JacketVarsity_Alpha,
+        ScratchDefense = 20,
+        BiteDefense = 10,
+        NeckProtectionModifier = 0.3,
+        FabricType = Cotton,
+        WorldStaticModel = JacketCoat_Ground,
+		Tags = base:ripclothingcotton,
+		
+    }
+    item JacketLong_DoctorROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Medical Coat,
+        ClothingItem = JacketLong_DoctorROLL,
+        BodyLocation = SpnOpenCloth:JACKET_ROLL,
+        Icon = JacketDoctor,
+        BloodLocation = LongJacket,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        ScratchDefense = 20,
+        NeckProtectionModifier = 0.5,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = JacketLong_Ground,
+		Tags = base:ripclothingcotton,
+		
+    }
+    item JacketLong_DoctorOPENROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Medical Coat,
+        ClothingItem = JacketLong_DoctorOPENROLL,
+        BodyLocation = SpnOpenCloth:JACKET_OPENROLL,
+        Icon = JacketDoctor,
+        BloodLocation = LongJacket,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        ScratchDefense = 20,
+        NeckProtectionModifier = 0.5,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = JacketLong_Ground,
+		Tags = base:ripclothingcotton,
+		
+    }
+    item JacketLong_RandomROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Leather Jacket,
+        ClothingItem = JacketLong_RandomROLL,
+        BodyLocation = SpnOpenCloth:JACKET_ROLL,
+        IconsForTexture = JacketLongBlack;JacketLongBrown;JacketGreen,
+        BloodLocation = LongJacket,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        NeckProtectionModifier = 0.5,
+        FabricType = Leather,
+        Weight = 2,
+        WorldStaticModel = JacketLong_Ground,
+		Tags = base:ripclothingleather,
+		
+    }
+    item JacketLong_RandomOPENROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Leather Jacket,
+        ClothingItem = JacketLong_RandomOPENROLL,
+        BodyLocation = SpnOpenCloth:JACKET_OPENROLL,
+        IconsForTexture = JacketLongBlack;JacketLongBrown;JacketGreen,
+        BloodLocation = LongJacket,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        NeckProtectionModifier = 0.5,
+        FabricType = Leather,
+        Weight = 2,
+        WorldStaticModel = JacketLong_Ground,
+		Tags = base:ripclothingleather,
+		
+    }
+    item JacketLong_SantaROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Santa Suit Jacket,
+        ClothingItem = JacketLong_SantaROLL,
+        BodyLocation = SpnOpenCloth:JACKET_ROLL,
+        BloodLocation = LongJacket,
+        Icon = JacketSantaRed,
+        RunSpeedModifier = 0.85,
+        CombatSpeedModifier = 0.9,
+        BiteDefense = 10,
+        ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Weight = 3,
+        FabricType = Cotton,
+        WorldStaticModel = JacketLong_Ground,
+		Tags = base:ripclothingcotton,
+		
+    }
+    item JacketLong_SantaOPENROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Santa Suit Jacket,
+        ClothingItem = JacketLong_SantaOPENROLL,
+        BodyLocation = SpnOpenCloth:JACKET_OPENROLL,
+        BloodLocation = LongJacket,
+        Icon = JacketSantaRed,
+        RunSpeedModifier = 0.85,
+        CombatSpeedModifier = 0.9,
+        BiteDefense = 10,
+        ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Weight = 3,
+        FabricType = Cotton,
+        WorldStaticModel = JacketLong_Ground,
+		Tags = base:ripclothingcotton,
+		
+    }
+    item JacketLong_SantaGreenROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Green Santa Suit Jacket,
+        ClothingItem = JacketLong_SantaGreenROLL,
+        BodyLocation = SpnOpenCloth:JACKET_ROLL,
+        BloodLocation = LongJacket,
+        Icon = JacketSantaGreen,
+        RunSpeedModifier = 0.85,
+        CombatSpeedModifier = 0.9,
+        BiteDefense = 10,
+        ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Weight = 3,
+        FabricType = Cotton,
+        WorldStaticModel = JacketLong_Ground,
+		Tags = base:ripclothingcotton,
+		
+    }
+
+    item JacketLong_SantaGreenOPENROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Green Santa Suit Jacket,
+        ClothingItem = JacketLong_SantaGreenOPENROLL,
+        BodyLocation = SpnOpenCloth:JACKET_OPENROLL,
+        BloodLocation = LongJacket,
+        Icon = JacketSantaGreen,
+        RunSpeedModifier = 0.85,
+        CombatSpeedModifier = 0.9,
+        BiteDefense = 10,
+        ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Weight = 3,
+        FabricType = Cotton,
+        WorldStaticModel = JacketLong_Ground,
+		Tags = base:ripclothingcotton,
+		
+    }
+
+
+    item Jacket_BlackROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Leather Jacket,
+        ClothingItem = Jacket_BlackROLL,
+        BodyLocation = SpnOpenCloth:JACKET_ROLL,
+        Icon = JacketBlack,
+        BloodLocation = Shirt;Neck,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        NeckProtectionModifier = 0.5,
+        FabricType = Leather,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+		Tags = base:ripclothingleather,
+		
+    }
+    item Jacket_BlackOPENROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Leather Jacket,
+        ClothingItem = Jacket_BlackOPENROLL,
+        BodyLocation = SpnOpenCloth:JACKET_OPENROLL,
+        Icon = JacketBlack,
+        BloodLocation = Shirt;Neck,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        NeckProtectionModifier = 0.5,
+        FabricType = Leather,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+		Tags = base:ripclothingleather,
+		
+    }
+    item Jacket_LeatherWildRacoonsROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Wild Racoons Leather Jacket,
+        ClothingItem = Jacket_LeatherWildRacoonsROLL,
+        BodyLocation = SpnOpenCloth:JACKET_ROLL,
+        Icon = BikerJacketRaccoons,
+        BloodLocation = Shirt;Neck,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        NeckProtectionModifier = 0.5,
+        FabricType = Leather,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+		Tags = base:ripclothingleather,
+		
+    }
+    item Jacket_LeatherWildRacoonsOPENROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Wild Racoons Leather Jacket,
+        ClothingItem = Jacket_LeatherWildRacoonsOPENROLL,
+        BodyLocation = SpnOpenCloth:JACKET_OPENROLL,
+        Icon = BikerJacketRaccoons,
+        BloodLocation = Shirt;Neck,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        NeckProtectionModifier = 0.5,
+        FabricType = Leather,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+		Tags = base:ripclothingleather,
+		
+    }
+    item Jacket_LeatherIronRodentROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Iron Rodent Leather Jacket,
+        ClothingItem = Jacket_LeatherIronRodentROLL,
+        BodyLocation = SpnOpenCloth:JACKET_ROLL,
+        Icon = BikerJacketRodents,
+        BloodLocation = Shirt;Neck,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        NeckProtectionModifier = 0.5,
+        FabricType = Leather,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+		Tags = base:ripclothingleather,
+		
+    }
+    item Jacket_LeatherIronRodentOPENROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Iron Rodent Leather Jacket,
+        ClothingItem = Jacket_LeatherIronRodentOPENROLL,
+        BodyLocation = SpnOpenCloth:JACKET_OPENROLL,
+        Icon = BikerJacketRodents,
+        BloodLocation = Shirt;Neck,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        NeckProtectionModifier = 0.5,
+        FabricType = Leather,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+		Tags = base:ripclothingleather,
+		
+    }
+    item Jacket_LeatherBarrelDogsROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Barrel Dogs Leather Jacket,
+        ClothingItem = Jacket_LeatherBarrelDogsROLL,
+        BodyLocation = SpnOpenCloth:JACKET_ROLL,
+        Icon = BikerJacketDogs,
+        BloodLocation = Shirt;Neck,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        NeckProtectionModifier = 0.5,
+        FabricType = Leather,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+		Tags = base:ripclothingleather,
+		
+    }
+	
+    item Jacket_LeatherBarrelDogsOPENROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Barrel Dogs Leather Jacket,
+        ClothingItem = Jacket_LeatherBarrelDogsOPENROLL,
+        BodyLocation = SpnOpenCloth:JACKET_OPENROLL,
+        Icon = BikerJacketDogs,
+        BloodLocation = Shirt;Neck,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.97,
+        BiteDefense = 20,
+        ScratchDefense = 40,
+        NeckProtectionModifier = 0.5,
+        FabricType = Leather,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+		Tags = base:ripclothingleather,
+		
+    }
+	
+    item WeddingJacketROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Wedding Jacket,
+        ClothingItem = WeddingJacketROLL,
+        BodyLocation = SpnOpenCloth:JACKET_ROLL,
+        BloodLocation = Shirt;Neck,
+        Icon = JacketSuitTux,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        ScratchDefense = 20,
+        NeckProtectionModifier = 0.5,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = WeddingJacket_Ground,
+		Tags = base:ripclothingcotton,
+    }
+    item WeddingJacketOPENROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Wedding Jacket,
+        ClothingItem = WeddingJacketOPENROLL,
+        BodyLocation = SpnOpenCloth:JACKET_OPENROLL,
+        BloodLocation = Shirt;Neck,
+        Icon = JacketSuitTux,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.95,
+        ScratchDefense = 20,
+        NeckProtectionModifier = 0.5,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = WeddingJacket_Ground,
+		Tags = base:ripclothingcotton,
+    }
+    item Suit_JacketROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Suit Jacket,
+        ClothingItem = Suit_JacketROLL,
+        BodyLocation = SpnOpenCloth:JACKET_ROLL,
+        BloodLocation = Shirt;Neck,
+        Icon = JacketSuitBlack,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.95,
+        ScratchDefense = 20,
+        NeckProtectionModifier = 0.5,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = SuitJacket_Ground,
+		Tags = base:ripclothingcotton,
+    }
+    item Suit_JacketOPENROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Suit Jacket,
+        ClothingItem = Suit_JacketOPENROLL,
+        BodyLocation = SpnOpenCloth:JACKET_OPENROLL,
+        BloodLocation = Shirt;Neck,
+        Icon = JacketSuitBlack,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.95,
+        ScratchDefense = 20,
+        NeckProtectionModifier = 0.5,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = SuitJacket_Ground,
+		Tags = base:ripclothingcotton,
+    }
+    item Suit_JacketTINTROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Suit Jacket,
+        ClothingItem = Suit_JacketTINTROLL,
+        BodyLocation = SpnOpenCloth:JACKET_ROLL,
+        BloodLocation = Shirt;Neck,
+        Icon = JacketSuitWhite,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.95,
+        ScratchDefense = 20,
+        NeckProtectionModifier = 0.5,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+		Tags = base:ripclothingcotton,
+    }
+    item Suit_JacketTINTOPENROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Suit Jacket,
+        ClothingItem = Suit_JacketTINTOPENROLL,
+        BodyLocation = SpnOpenCloth:JACKET_OPENROLL,
+        BloodLocation = Shirt;Neck,
+        Icon = JacketSuitWhite,
+        RunSpeedModifier = 0.95,
+        CombatSpeedModifier = 0.95,
+        ScratchDefense = 20,
+        NeckProtectionModifier = 0.5,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+		Tags = base:ripclothingcotton,
+    }
+	
+	
+    item Jacket_Shellsuit_BlackOPENROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Shell Suit Jacket,
+        ClothingItem = Jacket_Shellsuit_BlackOPENROLL,
+        BodyLocation = SpnOpenCloth:JACKET_OPENROLL,
+        Icon = TracksuitBlack,
+        BloodLocation = Jumper,
+        ScratchDefense = 5,
+        Weight = 1,
+        WorldStaticModel = Jacket_Shellsuit_Ground,
+		Tags = base:ripclothingcotton,
+    }
+    item Jacket_Shellsuit_BlueOPENROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Shell Suit Jacket,
+        ClothingItem = Jacket_Shellsuit_BlueOPENROLL,
+        BodyLocation = SpnOpenCloth:JACKET_OPENROLL,
+        Icon = TracksuitBlue,
+        BloodLocation = Jumper,
+        ScratchDefense = 5,
+        Weight = 1,
+        WorldStaticModel = Jacket_Shellsuit_Ground,
+		Tags = base:ripclothingcotton,
+    }
+    item Jacket_Shellsuit_GreenOPENROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Shell Suit Jacket,
+        ClothingItem = Jacket_Shellsuit_GreenOPENROLL,
+        BodyLocation = SpnOpenCloth:JACKET_OPENROLL,
+        Icon = TracksuitGreen,
+        BloodLocation = Jumper,
+        ScratchDefense = 5,
+        Weight = 1,
+        WorldStaticModel = Jacket_Shellsuit_Ground,
+		Tags = base:ripclothingcotton,
+    }
+    item Jacket_Shellsuit_PinkOPENROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Shell Suit Jacket,
+        ClothingItem = Jacket_Shellsuit_PinkOPENROLL,
+        BodyLocation = SpnOpenCloth:JACKET_OPENROLL,
+        Icon = TracksuitPink,
+        BloodLocation = Jumper,
+        ScratchDefense = 5,
+        Weight = 1,
+        WorldStaticModel = Jacket_Shellsuit_Ground,
+		Tags = base:ripclothingcotton,
+    }
+    item Jacket_Shellsuit_TealOPENROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Shell Suit Jacket,
+        ClothingItem = Jacket_Shellsuit_TealOPENROLL,
+        BodyLocation = SpnOpenCloth:JACKET_OPENROLL,
+        Icon = TracksuitTeal,
+        BloodLocation = Jumper,
+        ScratchDefense = 5,
+        Weight = 1,
+        WorldStaticModel = Jacket_Shellsuit_Ground,
+		Tags = base:ripclothingcotton,
+    }
+    item Jacket_Shellsuit_TINTOPENROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Shell Suit Jacket,
+        ClothingItem = Jacket_Shellsuit_WhiteOPENROLL,
+        BodyLocation = SpnOpenCloth:JACKET_OPENROLL,
+        Icon = TracksuitGeneric,
+        BloodLocation = Jumper,
+        ScratchDefense = 5,
+        Weight = 1,
+        WorldStaticModel = Jacket_Shellsuit_Ground,
+		Tags = base:ripclothingcotton,
+    }
+	item Jacket_NavyBlueOPENROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Jacket,
+        ClothingItem = Jacket_NavyBlueOPENROLL,
+        BodyLocation = SpnOpenCloth:JACKET_OPENROLL,
+        Icon = Jacket_White,
+        BloodLocation = Shirt;Neck,
+        RunSpeedModifier = 0.95,
+        ColorRed = 37,
+        ColorGreen = 37,
+        ColorBlue = 70,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+		Tags = base:ripclothingcotton,
+    }
+	
+	
+    item Jacket_Shellsuit_BlackROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Shell Suit Jacket,
+        ClothingItem = Jacket_Shellsuit_BlackROLL,
+        BodyLocation = SpnOpenCloth:JACKET_ROLL,
+        Icon = TracksuitBlack,
+        BloodLocation = Jumper,
+        ScratchDefense = 5,
+        Weight = 1,
+        WorldStaticModel = Jacket_Shellsuit_Ground,
+		Tags = base:ripclothingcotton,
+    }
+    item Jacket_Shellsuit_BlueROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Shell Suit Jacket,
+        ClothingItem = Jacket_Shellsuit_BlueROLL,
+        BodyLocation = SpnOpenCloth:JACKET_ROLL,
+        Icon = TracksuitBlue,
+        BloodLocation = Jumper,
+        ScratchDefense = 5,
+        Weight = 1,
+        WorldStaticModel = Jacket_Shellsuit_Ground,
+		Tags = base:ripclothingcotton,
+    }
+    item Jacket_Shellsuit_GreenROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Shell Suit Jacket,
+        ClothingItem = Jacket_Shellsuit_GreenROLL,
+        BodyLocation = SpnOpenCloth:JACKET_ROLL,
+        Icon = TracksuitGreen,
+        BloodLocation = Jumper,
+        ScratchDefense = 5,
+        Weight = 1,
+        WorldStaticModel = Jacket_Shellsuit_Ground,
+		Tags = base:ripclothingcotton,
+    }
+    item Jacket_Shellsuit_PinkROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Shell Suit Jacket,
+        ClothingItem = Jacket_Shellsuit_PinkROLL,
+        BodyLocation = SpnOpenCloth:JACKET_ROLL,
+        Icon = TracksuitPink,
+        BloodLocation = Jumper,
+        ScratchDefense = 5,
+        Weight = 1,
+        WorldStaticModel = Jacket_Shellsuit_Ground,
+		Tags = base:ripclothingcotton,
+    }
+    item Jacket_Shellsuit_TealROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Shell Suit Jacket,
+        ClothingItem = Jacket_Shellsuit_TealROLL,
+        BodyLocation = SpnOpenCloth:JACKET_ROLL,
+        Icon = TracksuitTeal,
+        BloodLocation = Jumper,
+        ScratchDefense = 5,
+        Weight = 1,
+        WorldStaticModel = Jacket_Shellsuit_Ground,
+		Tags = base:ripclothingcotton,
+    }
+    item Jacket_Shellsuit_TINTROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Shell Suit Jacket,
+        ClothingItem = Jacket_Shellsuit_WhiteROLL,
+        BodyLocation = SpnOpenCloth:JACKET_ROLL,
+        Icon = TracksuitGeneric,
+        BloodLocation = Jumper,
+        ScratchDefense = 5,
+        Weight = 1,
+        WorldStaticModel = Jacket_Shellsuit_Ground,
+		Tags = base:ripclothingcotton,
+    }
+	item Jacket_NavyBlueROLL
+    {
+        DisplayCategory = Clothing,
+        ItemType = base:clothing,
+        DisplayName = Jacket,
+        ClothingItem = Jacket_NavyBlueROLL,
+        BodyLocation = SpnOpenCloth:JACKET_ROLL,
+        Icon = Jacket_White,
+        BloodLocation = Shirt;Neck,
+        RunSpeedModifier = 0.95,
+        ColorRed = 37,
+        ColorGreen = 37,
+        ColorBlue = 70,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        FabricType = Cotton,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+		Tags = base:ripclothingcotton,
+    }
+	
+}

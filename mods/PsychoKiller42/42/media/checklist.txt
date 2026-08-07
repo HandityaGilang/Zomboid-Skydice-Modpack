@@ -1,0 +1,9 @@
+- Adjusted the default Adrenaline Frenzy settings.
+- Added a new Sandbox option to configure the maximum damage bonus while in the Frenzy state.
+- Added split-screen support for the moodles. They now display correctly for both players.
+- Reworked the moodle system for improved performance.
+- Fixed an issue with collecting blood from corpses hanging on butcher hooks.
+
+TODO:
+compat: WEAK_STOMACH/IRON_GUT
+SPLITSCREEN

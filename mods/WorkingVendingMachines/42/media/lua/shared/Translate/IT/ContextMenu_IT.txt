@@ -1,0 +1,10 @@
+ContextMenu_IT = {
+	ContextMenu_WVMNoPower = "Non c'è corrente.",
+	ContextMenu_WVMSnackInChute = "C'è uno spuntino bloccato nel distributore.",
+	ContextMenu_WVMSoldOut = "Questo distributore è esaurito.",
+	ContextMenu_WVMNoMoneyDrink = "Ci sono delle bibite qui dentro, ma non ho soldi.",
+	ContextMenu_WVMNoMoneySnack = "Ci sono degli spuntini qui dentro, ma non ho soldi.",
+	ContextMenu_WVMBuyDrink = "Compra bibita",
+	ContextMenu_WVMBuySnack = "Compra spuntino",
+	ContextMenu_WVMStrikeMachine = "Colpisci il distributore",
+}

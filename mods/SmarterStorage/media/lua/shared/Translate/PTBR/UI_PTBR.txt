@@ -1,0 +1,7 @@
+UI_PTBR = {
+	UI_SmarterStorage_Options_Vanilla_Name = "Exibir ferramentas Vanilla",
+	UI_SmarterStorage_Options_Vanilla_Tooltip = "Marque esta opcao para exibir nomes Vanilla como "Fridge" (Geladeira) como dicas de ferramentas.",
+
+	UI_SmarterStorage_Options_RenamedTooltips_Name = "Exibir dicas de ferramentas de nomes personalizados",
+	UI_SmarterStorage_Options_RenamedTooltips_Tooltip = "Marque para usar seus nomes de conteineres personalizados como dicas de ferramentas.",
+}

@@ -1,0 +1,22 @@
+{
+	"UI_P4TidyUpMeister_Messages_ToDoReequip": "İşlem tamamlandığında yeniden kuşanma etkinleştirildi.",
+	"UI_P4TidyUpMeister_Messages_ToDoNotReequip": "İşlem tamamlandığında yeniden kuşanma devre dışı bırakıldı.",
+	"UI_P4TidyUpMeister_Options_ForceReequip_Name": "Zorla yeniden kuşanma",
+	"UI_P4TidyUpMeister_Options_ForceReequip_Tooltip": "Normalde, işlem yarıda kesildiğinde ekipmanı yeniden kuşanmaz. Ancak, bu özelliği etkinleştirmek, sadece elde tutulan ekipmanların zorla yeniden kuşanılmasını sağlar.",
+	"UI_P4TidyUpMeister_Options_UseContextMenu_Name": "Yeniden Kuşanma Menüsünü Kullan",
+	"UI_P4TidyUpMeister_Options_UseContextMenu_Tooltip": "Yeniden Kuşanma menüsünü aktifleştirmek seçili işlemlerdeki yeniden kuşanma ve kuşanmama seçeneğini değiştirmenizi sağlar.",
+	"UI_P4TidyUpMeister_Options_EnableFirearms_Name": "Silah eylemlerinde etkinleştir.",
+	"UI_P4TidyUpMeister_Options_EnableFirearms_Tooltip": "Silah eylemlerinde yeniden kuşanma etkinleştirilir.",
+	"UI_P4TidyUpMeister_Options_EnableFitness_Name": "Fitness eylemlerinde etkinleştir.",
+	"UI_P4TidyUpMeister_Options_EnableFitness_Tooltip": "Fitness eylemlerinde yeniden kuşanma etkinleştirilir.",
+	"UI_P4TidyUpMeister_Options_EnableEatFood_Name": "Yemek yeme eylemlerinde etkinleştir.",
+	"UI_P4TidyUpMeister_Options_EnableEatFood_Tooltip": "Yemek yeme eylemlerinde yeniden kuşanma etkinleştirilir.",
+	"UI_P4TidyUpMeister_Options_EnableTakePills_Name": "İlaç alma eylemlerinde etkinleştir.",
+	"UI_P4TidyUpMeister_Options_EnableTakePills_Tooltip": "İlaç alma eylemlerinde yeniden kuşanma etkinleştirilir.",
+	"UI_P4TidyUpMeister_Options_EnableReading_Name": "Okuma eylemlerinde etkinleştir.",
+	"UI_P4TidyUpMeister_Options_EnableReading_Tooltip": "Okuma eylemlerinde yeniden kuşanma etkinleştirilir.",
+	"UI_P4TidyUpMeister_Options_EnableMedical_Name": "Medikal eylemlerinde etkinleştir.",
+	"UI_P4TidyUpMeister_Options_EnableMedical_Tooltip": "Medikal eylemlerinde yeniden kuşanma etkinleştirilir.",
+	"UI_P4TidyUpMeister_Options_EnableTailoring_Name": "Terzilik eylemlerinde etkinleştir.",
+	"UI_P4TidyUpMeister_Options_EnableTailoring_Tooltip": "Terzilik eylemlerinde yeniden kuşanma etkinleştirilir."
+}

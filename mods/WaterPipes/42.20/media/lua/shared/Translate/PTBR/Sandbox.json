@@ -1,0 +1,9 @@
+{
+    "Sandbox_Plumbing": "Encanamento",
+    "Sandbox_Plumbing.PumpFilterUsage": "Consumo do filtro da bomba (%)",
+    "Sandbox_Plumbing.PumpFilterUsage_tooltip": "Percentual do filtro da bomba de água que é consumido a cada 1 minuto do jogo.",
+    "Sandbox_Plumbing.PumpEfficiencyLoss": "Perda de eficiência da bomba (%)",
+    "Sandbox_Plumbing.PumpEfficiencyLoss_tooltip": "Percentual de eficiência que uma bomba de água perde a cada 1 minuto do jogo.",
+    "Sandbox_Plumbing.PumpMaxWater": "Dose de água da bomba",
+    "Sandbox_Plumbing.PumpMaxWater_tooltip": "Quantidade de unidades de água que uma bomba com 100% de eficiência fornece a cada 1 minuto do jogo."
+}

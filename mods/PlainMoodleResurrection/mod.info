@@ -1,0 +1,5 @@
+name=Plain Moodle Resurrection
+authors=devoid
+poster=preview.png
+id=PMResurrection
+description=Plain Moodles, but completely redrawn and enhanced. Requires Moodles in Lua, a competent moodle framework. All credit goes to the original authors.
