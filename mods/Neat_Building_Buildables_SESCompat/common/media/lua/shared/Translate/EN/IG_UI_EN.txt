@@ -1,0 +1,5 @@
+IGUI_EN = {
+    IGUI_NB_ModOptions_Title = "Neat Building",
+    IGUI_NB_ModOptions_UseNeatBuildingUI = "Use Neat Building UI",
+    IGUI_NB_ModOptions_UseNeatBuildingUI_Tooltip = "Enable Neat Building's Building menu and related tweaks. Disable to use the vanilla Building UI.",
+}

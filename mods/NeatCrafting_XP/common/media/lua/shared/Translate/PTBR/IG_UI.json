@@ -1,0 +1,18 @@
+{
+    "IGUI_XP_NC_ShowAllRecipe_tooltip": "Mostrar todas as receitas, <LINE> mesmo que a bancada apropriada não esteja presente",
+    "IGUI_XP_NC_ShowOnlyXPAward": "Apenas receitas que concedem XP",
+    "IGUI_XP_NC_ShowOnlyModRecipes": "Apenas receitas de mods",
+    "IGUI_XP_NC_SetPanelMinSize_tooltip": "Definir painel para o tamanho mínimo",
+    "IGUI_NC_InputItemSelected": "Seleção Atual",
+    "IGUI_NC_RequiredSkills": "Habilidades Requeridas",
+    "IGUI_NC_SearchAsInput": "Usado em Receitas",
+    "IGUI_NC_SearchAsOutput": "Criado com Receitas",
+    "IGUI_NC_SearchForCraft": "Busca por Criação",
+    "IGUI_NC_ShowOnlyBenefitFromRecipes": "Benefício apenas com Receita em Mãos",
+    "IGUI_NC_ShowOnlyCanCraft": "Apenas o que Pode Criar",
+    "IGUI_NC_ShowOnlyRecipesKnew": "Apenas Receitas Conhecidas",
+    "IGUI_NC_ShowOnlymetSkillRequire": "Apenas Habilidades Atendidas",
+    "IGUI_NC_SortRecipeList": "Ordenar Lista de Receitas",
+    "IGUI_NC_SwitchToGridLayout": "Mudar para exibição em grade",
+    "IGUI_NC_SwitchToListLayout": "Mudar para exibição em lista"
+}

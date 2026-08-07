@@ -1,0 +1,61 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Fences_ConstructionBrick
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_ConstructionBrickFence,
+			Icon		= Build_construction_01_1,
+		}
+	}
+
+    entity Fences_ConstructionBrick
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Fences_ConstructionBrick,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+			health          = 300,
+			skillBaseHealth = 50,
+			
+            face W
+            {
+                layer
+                {
+                    row = construction_01_0,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = construction_01_1,
+                }
+            }
+			
+			corner = construction_01_3,
+        }
+		
+		component CraftRecipe
+        {
+            timedAction   = BuildWallHammer,
+            time          = 200,
+            category      = Fences,
+            SkillRequired = Masonry:3,
+            xpAward       = Masonry:30,
+            ToolTip       = Tooltip_craft_brickFenceDesc,
+            inputs
+            {
+                item 1 tags[PlasterTrowel;MasonsTrowel] mode:keep flags[Prop1],
+                item 1 tags[Concrete] flags[DontRecordInput],
+                item 2 [Base.ClayBrick],
+            }
+        }
+    }
+}

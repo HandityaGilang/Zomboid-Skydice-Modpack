@@ -1,0 +1,35 @@
+module Base
+{
+    /*
+        Gore's SVU4 Vanilla Cars - B42.19 PickUpVan alignment aliases
+
+        PickUpArmor.fbx includes alternate .001 meshes for the pickup-van nose,
+        rear body panels, and front/rear windscreens. The previous combined
+        PickUpTruck/PickUpVan family used the generic PickUp meshes for both
+        bodies, which can leave Base.PickUpVan front/rear armour misaligned.
+
+        These aliases are only mapped by the PickUpVan-specific visual family in
+        GSVU4VV_SVU3HybridVisuals.lua. They do not replace the existing PickUpTruck
+        mappings.
+    */
+
+    model GSVU4_PickUpVan_Hood_Scrap        { mesh = vehicles/PickUpArmor|hoodheavyfront.001,        texture = Vehicles/puv_parts_paper, scale = 0.004, }
+    model GSVU4_PickUpVan_Hood_Standard     { mesh = vehicles/PickUpArmor|hoodlightspikedfront.001,  texture = Vehicles/puv_parts,       scale = 0.004, }
+    model GSVU4_PickUpVan_Hood_Reinforced   { mesh = vehicles/PickUpArmor|hoodreinforcedfront.001,   texture = Vehicles/puv_parts,       scale = 0.004, }
+    model GSVU4_PickUpVan_Hood_Apocalypse   { mesh = vehicles/PickUpArmor|hoodheavyspikedfront.001,  texture = Vehicles/puv_parts,       scale = 0.004, }
+
+    model GSVU4_PickUpVan_Trunk_Scrap       { mesh = vehicles/PickUpArmor|trunkheavyrear.001,        texture = Vehicles/puv_parts_paper, scale = 0.004, }
+    model GSVU4_PickUpVan_Trunk_Standard    { mesh = vehicles/PickUpArmor|trunklightspikedrear.001,  texture = Vehicles/puv_parts,       scale = 0.004, }
+    model GSVU4_PickUpVan_Trunk_Reinforced  { mesh = vehicles/PickUpArmor|trunkreinforcedrear.001,   texture = Vehicles/puv_parts,       scale = 0.004, }
+    model GSVU4_PickUpVan_Trunk_Apocalypse  { mesh = vehicles/PickUpArmor|trunkheavyspikedrear.001,  texture = Vehicles/puv_parts,       scale = 0.004, }
+
+    model GSVU4_PickUpVan_Windshield_Scrap       { mesh = vehicles/PickUpArmor|windowheavyfront.001,        texture = Vehicles/puv_parts_paper, scale = 0.004, }
+    model GSVU4_PickUpVan_Windshield_Standard    { mesh = vehicles/PickUpArmor|windowlightspikedfront.001,  texture = Vehicles/puv_parts,       scale = 0.004, }
+    model GSVU4_PickUpVan_Windshield_Reinforced  { mesh = vehicles/PickUpArmor|windowreinforcedfront.001,   texture = Vehicles/puv_parts,       scale = 0.004, }
+    model GSVU4_PickUpVan_Windshield_Apocalypse  { mesh = vehicles/PickUpArmor|windowheavyspikedfront.001,  texture = Vehicles/puv_parts,       scale = 0.004, }
+
+    model GSVU4_PickUpVan_WindshieldRear_Scrap       { mesh = vehicles/PickUpArmor|windowheavyrear.001,        texture = Vehicles/puv_parts_paper, scale = 0.004, }
+    model GSVU4_PickUpVan_WindshieldRear_Standard    { mesh = vehicles/PickUpArmor|windowlightspikedrear.001,  texture = Vehicles/puv_parts,       scale = 0.004, }
+    model GSVU4_PickUpVan_WindshieldRear_Reinforced  { mesh = vehicles/PickUpArmor|windowreinforcedrear.001,   texture = Vehicles/puv_parts,       scale = 0.004, }
+    model GSVU4_PickUpVan_WindshieldRear_Apocalypse  { mesh = vehicles/PickUpArmor|windowheavyspikedrear.001,  texture = Vehicles/puv_parts,       scale = 0.004, }
+}

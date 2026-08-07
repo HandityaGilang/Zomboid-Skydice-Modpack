@@ -1,0 +1,18 @@
+{
+    "IGUI_XP_NC_ShowAllRecipe_tooltip": "Tüm tarifleri göster, <LINE> uygun çalışma istasyonu olmasa bile",
+    "IGUI_XP_NC_ShowOnlyXPAward": "Sadece XP veren tarifler",
+    "IGUI_XP_NC_ShowOnlyModRecipes": "Sadece mod tarifleri",
+    "IGUI_XP_NC_SetPanelMinSize_tooltip": "Paneli en küçük boyuta ayarla",
+    "IGUI_NC_InputItemSelected": "Mevcut Seçim",
+    "IGUI_NC_RequiredSkills": "Gerekli Beceriler",
+    "IGUI_NC_SearchAsInput": "Tariflerde kullanılır",
+    "IGUI_NC_SearchAsOutput": "Tariflerden üretilir",
+    "IGUI_NC_SearchForCraft": "Tarif Arama",
+    "IGUI_NC_ShowOnlyBenefitFromRecipes": "Yalnızca eldeki eşyalara yararlı tarifler",
+    "IGUI_NC_ShowOnlyCanCraft": "Yalnızca yapılabilirler",
+    "IGUI_NC_ShowOnlyRecipesKnew": "Sadece bilinen tarifler",
+    "IGUI_NC_ShowOnlymetSkillRequire": "Yalnızca gereken beceriler karşılanır",
+    "IGUI_NC_SortRecipeList": "Tarif listesini sırala",
+    "IGUI_NC_SwitchToGridLayout": "Izgara Görünümüne Geç",
+    "IGUI_NC_SwitchToListLayout": "Liste Görünümüne Geç"
+}

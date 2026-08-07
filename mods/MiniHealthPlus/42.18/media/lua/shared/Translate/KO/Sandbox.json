@@ -1,0 +1,9 @@
+{
+    "Sandbox_MHP": "Mini Health Plus",
+    "Sandbox_MHP_EnableReplaceBandage": "붕대 교체 활성화",
+    "Sandbox_MHP_EnableReplaceBandage_tooltip": "더러운 붕대에 대해 '붕대 교체' 컨텍스트 메뉴 항목을 추가합니다.",
+    "Sandbox_MHP_ShowSafeRemoveIndicator": "안전 제거용 파란색 표시기",
+    "Sandbox_MHP_ShowSafeRemoveIndicator_tooltip": "붕대나 부목을 안전하게 제거할 수 있을 때 파란색 표시기를 표시합니다.",
+    "Sandbox_MHP_ShowStitchInspectIndicator": "봉합 확인용 보라색 표시기",
+    "Sandbox_MHP_ShowStitchInspectIndicator_tooltip": "봉합된 상처를 확인해야 할 때 보라색 표시기를 표시합니다."
+}

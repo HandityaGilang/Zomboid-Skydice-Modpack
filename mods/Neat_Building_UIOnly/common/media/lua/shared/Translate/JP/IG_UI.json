@@ -1,0 +1,5 @@
+{
+    "IGUI_NB_ModOptions_Title": "Neat Building",
+    "IGUI_NB_ModOptions_UseNeatBuildingUI": "Neat Building UI を使用",
+    "IGUI_NB_ModOptions_UseNeatBuildingUI_Tooltip": "Neat Building の建築メニューと関連調整を有効にします。無効にするとバニラの建築UIを使用します。"
+}

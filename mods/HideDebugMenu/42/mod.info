@@ -1,0 +1,15 @@
+name=Hide Debug Menu
+poster=poster.png
+id=HideDebugMenu
+description=<RGB:0,1,0>Hide Debug Menu <LINE> <LINE>
+description=<RGB:1,1,1>Cleans the right-click context menu by hiding debug options, obsolete entries, and game build information. <LINE>
+description=Toggle debug entries on or off at any time using the F10 key. <LINE>
+description=Lightweight, non-intrusive, and fully compatible with Build 42. <LINE> <LINE>
+description=Limpia el menú contextual del clic derecho ocultando opciones de depuración, entradas obsoletas e información de la compilación del juego. <LINE>
+description=Permite alternar las opciones de debug en cualquier momento con la tecla F10. <LINE>
+description=Ligero, no intrusivo y totalmente compatible con la Build 42. <LINE> <LINE>
+description=<RGB:1,0.78,0.2>Tested: B42.14.1
+author=SuperJetPlus
+modversion=2026.2.26
+icon=icon.png
+incompatible=\JustHideDebugMenu

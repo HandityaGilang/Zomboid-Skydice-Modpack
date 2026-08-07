@@ -1,0 +1,29 @@
+VERSION = 1,
+
+option GSVU4VanillaParts.CraftingFailureChance
+{
+    type = integer,
+    min = 0,
+    max = 100,
+    default = 15,
+    page = GSVU4VanillaParts,
+    translation = GSVU4VanillaParts_CraftingFailureChance,
+}
+
+option GSVU4VanillaParts.EnableCraftingInjuries
+{
+    type = boolean,
+    default = true,
+    page = GSVU4VanillaParts,
+    translation = GSVU4VanillaParts_EnableCraftingInjuries,
+}
+
+option GSVU4VanillaParts.CraftingInjuryChance
+{
+    type = integer,
+    min = 0,
+    max = 100,
+    default = 5,
+    page = GSVU4VanillaParts,
+    translation = GSVU4VanillaParts_CraftingInjuryChance,
+}

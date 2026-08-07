@@ -1,0 +1,75 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Wood_LightLogDoor
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_LightLogDoor,
+			Icon		= Build_walls_logs_42,
+		}
+	}
+
+    entity Wood_LightLogDoor
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Wood_LightLogDoor,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+			skillBaseHealth = 400,
+			breakSound      = BreakDoor,
+			
+            face W
+            {
+                layer
+                {
+                    row = walls_logs_40,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = walls_logs_41,
+                }
+            }
+			face W_OPEN
+            {
+                layer
+                {
+					row = walls_logs_42,
+                }
+            }
+            face N_OPEN
+            {
+                layer
+                {
+					row = walls_logs_43,
+                }
+            }
+        }
+		
+		component CraftRecipe
+        {
+            timedAction   = BuildWallHammer,
+            time          = 200,
+            category      = Doors,
+            SkillRequired = Woodwork:2,
+            xpAward       = Woodwork:20,
+            ToolTip       = Tooltip_craft_woodenDoorDesc,
+            inputs
+            {
+                item 1 tags[Hammer] mode:keep flags[Prop1;MayDegradeVeryLight],
+                item 4 [Base.Log],
+		        item 4 [Base.RippedSheets;Base.RippedSheetsDirty;Base.Twine;Base.Rope;Base.SheetRope] flags[DontReplace],
+				item 4 [Base.Nails],
+				item 2 [Base.Hinge],
+            }
+        }
+    }
+}

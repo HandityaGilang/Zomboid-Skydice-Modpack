@@ -1,0 +1,29 @@
+VERSION = 1,
+
+
+option LG.SpawnChance
+{
+    type = enum,
+    values = { "Common", "Uncommon", "Rare", "Extremely Rare", "Never" },
+    default = "Uncommon",
+    page = LG, translation = LG_SpawnChance,
+}
+option LG.SpawnChance
+{
+	type = enum,
+    numValues = 5,
+    default = 3,
+	page = LG,
+	translation = LG_SpawnChance,
+	valueTranslation = LG_SpawnChanceEnum,
+}
+
+option MeatGrinderLootDrop
+{
+    type = double,
+    min = 0,
+    max = 50,
+    default = 0.02,
+    page = LG,
+    translation = VanillaDropRate,
+}

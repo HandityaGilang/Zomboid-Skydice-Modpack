@@ -1,0 +1,18 @@
+Sandbox_UA = {
+    Sandbox_IH = "Immersive Hotwire",
+
+    Sandbox_IH_Screwdrivers = "Інструменти для відкручування гвинтів | Предмети",
+    Sandbox_IH_Screwdrivers_tooltip = "Список предметів через кому або крапку з комою",
+    Sandbox_IH_ScrewdriversTags = "| Теги",
+    Sandbox_IH_ScrewdriversTags_tooltip = "Список тегів предметів через кому або крапку з комою",
+
+    Sandbox_IH_Pliers = "Інструменти для перерізання дротів | Предмети",
+    Sandbox_IH_Pliers_tooltip = "Список предметів через кому або крапку з комою.",
+    Sandbox_IH_PliersTags = "| Теги",
+    Sandbox_IH_PliersTags_tooltip = "Список тегів предметів через кому або крапку з комою.",
+    Sandbox_IH_HotwireEveryTime = "Зламувати щоразу",
+    Sandbox_IH_HotwireEveryTime_tooltip = "Завжди відкривати UI зламу при спробі завести авто зі зламаним запалюванням",
+    Sandbox_IH_DucttapeNeededToUnhotwire = "Ізострічка потрібна для відновлення зламу",
+    Sandbox_IH_ShowDragLine = "Показувати лінію перетягування",
+    Sandbox_IH_ShowDragLine_tooltip = "Показувати штрихову лінію під час перетягування дроту",
+}

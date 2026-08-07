@@ -1,0 +1,9 @@
+{
+    "Sandbox_MHP": "Mini Health Plus",
+    "Sandbox_MHP_EnableReplaceBandage": "Activar reemplazar vendaje",
+    "Sandbox_MHP_EnableReplaceBandage_tooltip": "Añade la opción «Reemplazar vendaje» al menú contextual para vendajes sucios.",
+    "Sandbox_MHP_ShowSafeRemoveIndicator": "Indicador azul de retirada segura",
+    "Sandbox_MHP_ShowSafeRemoveIndicator_tooltip": "Muestra el indicador azul cuando un vendaje o una férula pueden retirarse de forma segura.",
+    "Sandbox_MHP_ShowStitchInspectIndicator": "Indicador morado para revisar puntos",
+    "Sandbox_MHP_ShowStitchInspectIndicator_tooltip": "Muestra el indicador morado cuando las heridas suturadas deberían revisarse."
+}

@@ -1,0 +1,25 @@
+version=1
+id=2868828908
+title=Jumpsuit with jacket [B42/41]
+description=Workshop ID: 2868828908
+description=Mod ID: JWJ
+description=
+description=Tiny mod that allows you to wear jumpsuits and coveralls with jackets.
+description=
+description=This only changes the following clothes:
+description=[code]Boilersuit, Boilersuit_BlueRed, Boilersuit_Flying, Boilersuit_Prisoner, Boilersuit_PrisonerKhaki, Boilersuit_SWAT, Boilersuit_Yellow[/code]
+description=
+description=I would like to specifically note that you will not be able to put on some clothes at the same time as a jumpsuit. But it still fits into my original idea.
+description=
+description=It should work fine with existing saves because of the mod's simplicity. The only thing that may be needed is to take off jumpsuit and put it on again.
+description=
+description=The mod should be compatible with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2812326159]Spongie's Open Jackets[/url]
+description=
+description=This mod is also included in [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3228574079]Sneg's Mod Pack[/url]
+description=
+description=Modpacking allowed without confirmation. No reuploading.
+description=
+description=[img]https://i.imgur.com/0C55sPK.gif][/img]
+description=[hr]Tags: jumpsuit, coveralls, boilersuit
+tags=Build 41;Build 42;Balance;Clothing/Armor;Misc;Multiplayer;QoL
+visibility=public

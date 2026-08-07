@@ -1,0 +1,15 @@
+{
+  "Sandbox_HGTS": "Here Goes The Sun",
+
+  "Sandbox_HereGoesTheSun_EnableGodRays": "Включить солнечные лучи",
+  "Sandbox_HereGoesTheSun_EnableGodRays_Tooltip": "При включении этой опции солнечные лучи будут визуально отображаться на экране во время рассвета и заката в зависимости от положения солнца.",
+
+  "Sandbox_HereGoesTheSun_EnableStormMood": "Включить Штормовой Настрой",
+  "Sandbox_HereGoesTheSun_EnableStormMood_Tooltip": "Если включено, штормы могут давать кинематографическую десатурацию и более тёмный ambient (с плавным переходом).",
+
+  "Sandbox_HereGoesTheSun_StormMoodPreset": "Пресет десатурации штормового настроения",
+  "Sandbox_HereGoesTheSun_StormMoodPreset_Tooltip": "Сила десатурации: Мягкий, Рекомендуемый, Ночь Живых Мертвецов.",
+  "Sandbox_HereGoesTheSun_StormMoodPreset_option1": "Мягкий (60%)",
+  "Sandbox_HereGoesTheSun_StormMoodPreset_option2": "Рекомендуемый (85%)",
+  "Sandbox_HereGoesTheSun_StormMoodPreset_option3": "Ночь живых мертвецов (Чёрно-белый)"
+}

@@ -1,0 +1,374 @@
+module Base
+{
+    template vehicle GSVU4_SVU3_BodyAnchor_PickUpVan
+    {
+        part GSVU4_SVU3_PickUpVan_BodyAnchor
+        {
+            area = Engine,
+            category = nodisplay,
+            specificItem = false,
+            itemType = Base.LightBulb,
+            setAllModelsVisible = false,
+            mechanicRequireKey = false,
+
+            lua
+            {
+                create = GSVU4VV.VisualPart.Create,
+                init = GSVU4VV.VisualPart.Init,
+            }
+
+            model SVU_Hood_PickUp_Paper
+            {
+                file = SVU_Hood_PickUp_Paper,
+            }
+            model SVU_Hood_PickUp_Light_Spiked
+            {
+                file = SVU_Hood_PickUp_Light_Spiked,
+            }
+            model SVU_Hood_PickUp_Reinforced
+            {
+                file = SVU_Hood_PickUp_Reinforced,
+            }
+            model SVU_Hood_PickUp_Heavy
+            {
+                file = SVU_Hood_PickUp_Heavy,
+            }
+            model SVU_Hood_PickUp_Heavy_Spiked
+            {
+                file = SVU_Hood_PickUp_Heavy_Spiked,
+            }
+            model SVU_Trunk_PickUp_Paper
+            {
+                file = SVU_Trunk_PickUp_Paper,
+            }
+            model SVU_Trunk_PickUp_Light_Spiked
+            {
+                file = SVU_Trunk_PickUp_Light_Spiked,
+            }
+            model SVU_Trunk_PickUp_Reinforced
+            {
+                file = SVU_Trunk_PickUp_Reinforced,
+            }
+            model SVU_Trunk_PickUp_Heavy_Spiked
+            {
+                file = SVU_Trunk_PickUp_Heavy_Spiked,
+            }
+            model SVU_F_Window_PickUp_Paper
+            {
+                file = SVU_F_Window_PickUp_Paper,
+            }
+            model SVU_F_Window_PickUp_Light_Spiked
+            {
+                file = SVU_F_Window_PickUp_Light_Spiked,
+            }
+            model SVU_F_Window_PickUp_Reinforced
+            {
+                file = SVU_F_Window_PickUp_Reinforced,
+            }
+            model SVU_F_Window_PickUp_Heavy_Spiked
+            {
+                file = SVU_F_Window_PickUp_Heavy_Spiked,
+            }
+            model SVU_R_Window_PickUp_Paper
+            {
+                file = SVU_R_Window_PickUp_Paper,
+            }
+            model SVU_R_Window_PickUp_Light_Spiked
+            {
+                file = SVU_R_Window_PickUp_Light_Spiked,
+            }
+            model SVU_R_Window_PickUp_Reinforced
+            {
+                file = SVU_R_Window_PickUp_Reinforced,
+            }
+            model SVU_R_Window_PickUp_Heavy_Spiked
+            {
+                file = SVU_R_Window_PickUp_Heavy_Spiked,
+            }
+            model SVU_R_Window_PickUp_Paper_VVE
+            {
+                file = SVU_R_Window_PickUp_Paper_VVE,
+            }
+            model SVU_R_Window_PickUp_Light_Spiked_VVE
+            {
+                file = SVU_R_Window_PickUp_Light_Spiked_VVE,
+            }
+            model SVU_R_Window_PickUp_Reinforced_VVE
+            {
+                file = SVU_R_Window_PickUp_Reinforced_VVE,
+            }
+            model SVU_R_Window_PickUp_Heavy_Spiked_VVE
+            {
+                file = SVU_R_Window_PickUp_Heavy_Spiked_VVE,
+            }
+            model SVU_R_Window_PickUp_Truck_Paper
+            {
+                file = SVU_R_Window_PickUp_Truck_Paper,
+            }
+            model SVU_R_Window_PickUp_Truck_Light_Spiked
+            {
+                file = SVU_R_Window_PickUp_Truck_Light_Spiked,
+            }
+            model SVU_R_Window_PickUp_Truck_Reinforced
+            {
+                file = SVU_R_Window_PickUp_Truck_Reinforced,
+            }
+            model SVU_R_Window_PickUp_Truck_Heavy_Spiked
+            {
+                file = SVU_R_Window_PickUp_Truck_Heavy_Spiked,
+            }
+
+model GSVU4_PickUpVan_Hood_Scrap
+{
+    file = GSVU4_PickUpVan_Hood_Scrap,
+}
+model GSVU4_PickUpVan_Hood_Standard
+{
+    file = GSVU4_PickUpVan_Hood_Standard,
+}
+model GSVU4_PickUpVan_Hood_Reinforced
+{
+    file = GSVU4_PickUpVan_Hood_Reinforced,
+}
+model GSVU4_PickUpVan_Hood_Apocalypse
+{
+    file = GSVU4_PickUpVan_Hood_Apocalypse,
+}
+model GSVU4_PickUpVan_Trunk_Scrap
+{
+    file = GSVU4_PickUpVan_Trunk_Scrap,
+}
+model GSVU4_PickUpVan_Trunk_Standard
+{
+    file = GSVU4_PickUpVan_Trunk_Standard,
+}
+model GSVU4_PickUpVan_Trunk_Reinforced
+{
+    file = GSVU4_PickUpVan_Trunk_Reinforced,
+}
+model GSVU4_PickUpVan_Trunk_Apocalypse
+{
+    file = GSVU4_PickUpVan_Trunk_Apocalypse,
+}
+model GSVU4_PickUpVan_Windshield_Scrap
+{
+    file = GSVU4_PickUpVan_Windshield_Scrap,
+}
+model GSVU4_PickUpVan_Windshield_Standard
+{
+    file = GSVU4_PickUpVan_Windshield_Standard,
+}
+model GSVU4_PickUpVan_Windshield_Reinforced
+{
+    file = GSVU4_PickUpVan_Windshield_Reinforced,
+}
+model GSVU4_PickUpVan_Windshield_Apocalypse
+{
+    file = GSVU4_PickUpVan_Windshield_Apocalypse,
+}
+model GSVU4_PickUpVan_WindshieldRear_Scrap
+{
+    file = GSVU4_PickUpVan_WindshieldRear_Scrap,
+}
+model GSVU4_PickUpVan_WindshieldRear_Standard
+{
+    file = GSVU4_PickUpVan_WindshieldRear_Standard,
+}
+model GSVU4_PickUpVan_WindshieldRear_Reinforced
+{
+    file = GSVU4_PickUpVan_WindshieldRear_Reinforced,
+}
+model GSVU4_PickUpVan_WindshieldRear_Apocalypse
+{
+    file = GSVU4_PickUpVan_WindshieldRear_Apocalypse,
+}
+            model SVU_Door_FL_PickUp_Paper
+            {
+                file = SVU_Door_FL_PickUp_Paper,
+            }
+            model SVU_Door_FL_PickUp_Light_Spiked
+            {
+                file = SVU_Door_FL_PickUp_Light_Spiked,
+            }
+            model SVU_Door_FL_PickUp_Reinforced
+            {
+                file = SVU_Door_FL_PickUp_Reinforced,
+            }
+            model SVU_Door_FL_PickUp_Heavy_Spiked
+            {
+                file = SVU_Door_FL_PickUp_Heavy_Spiked,
+            }
+            model SVU_Door_FR_PickUp_Paper
+            {
+                file = SVU_Door_FR_PickUp_Paper,
+            }
+            model SVU_Door_FR_PickUp_Light_Spiked
+            {
+                file = SVU_Door_FR_PickUp_Light_Spiked,
+            }
+            model SVU_Door_FR_PickUp_Reinforced
+            {
+                file = SVU_Door_FR_PickUp_Reinforced,
+            }
+            model SVU_Door_FR_PickUp_Heavy_Spiked
+            {
+                file = SVU_Door_FR_PickUp_Heavy_Spiked,
+            }
+            model SVU_Door_RL_Pickup_Paper
+            {
+                file = SVU_Door_RL_Pickup_Paper,
+            }
+            model SVU_Door_RL_Pickup_Light_Spiked
+            {
+                file = SVU_Door_RL_Pickup_Light_Spiked,
+            }
+            model SVU_Door_RL_Pickup_Reinforced
+            {
+                file = SVU_Door_RL_Pickup_Reinforced,
+            }
+            model SVU_Door_RL_Pickup_Heavy_Spiked
+            {
+                file = SVU_Door_RL_Pickup_Heavy_Spiked,
+            }
+            model SVU_Door_RR_Pickup_Paper
+            {
+                file = SVU_Door_RR_Pickup_Paper,
+            }
+            model SVU_Door_RR_Pickup_Light_Spiked
+            {
+                file = SVU_Door_RR_Pickup_Light_Spiked,
+            }
+            model SVU_Door_RR_Pickup_Reinforced
+            {
+                file = SVU_Door_RR_Pickup_Reinforced,
+            }
+            model SVU_Door_RR_Pickup_Heavy_Spiked
+            {
+                file = SVU_Door_RR_Pickup_Heavy_Spiked,
+            }
+            model SVU_FL_Window_PickUp_Paper
+            {
+                file = SVU_FL_Window_PickUp_Paper,
+            }
+            model SVU_FL_Window_PickUp_Light_Spiked
+            {
+                file = SVU_FL_Window_PickUp_Light_Spiked,
+            }
+            model SVU_FL_Window_PickUp_Reinforced
+            {
+                file = SVU_FL_Window_PickUp_Reinforced,
+            }
+            model SVU_FL_Window_PickUp_Heavy_Spiked
+            {
+                file = SVU_FL_Window_PickUp_Heavy_Spiked,
+            }
+            model SVU_FR_Window_PickUp_Paper
+            {
+                file = SVU_FR_Window_PickUp_Paper,
+            }
+            model SVU_FR_Window_PickUp_Light_Spiked
+            {
+                file = SVU_FR_Window_PickUp_Light_Spiked,
+            }
+            model SVU_FR_Window_PickUp_Reinforced
+            {
+                file = SVU_FR_Window_PickUp_Reinforced,
+            }
+            model SVU_FR_Window_PickUp_Heavy_Spiked
+            {
+                file = SVU_FR_Window_PickUp_Heavy_Spiked,
+            }
+            model SVU_RL_Window_Pickup_Paper
+            {
+                file = SVU_RL_Window_Pickup_Paper,
+            }
+            model SVU_RL_Window_Pickup_Light_Spiked
+            {
+                file = SVU_RL_Window_Pickup_Light_Spiked,
+            }
+            model SVU_RL_Window_Pickup_Reinforced
+            {
+                file = SVU_RL_Window_Pickup_Reinforced,
+            }
+            model SVU_RL_Window_Pickup_Heavy_Spiked
+            {
+                file = SVU_RL_Window_Pickup_Heavy_Spiked,
+            }
+            model SVU_RR_Window_Pickup_Paper
+            {
+                file = SVU_RR_Window_Pickup_Paper,
+            }
+            model SVU_RR_Window_Pickup_Light_Spiked
+            {
+                file = SVU_RR_Window_Pickup_Light_Spiked,
+            }
+            model SVU_RR_Window_Pickup_Reinforced
+            {
+                file = SVU_RR_Window_Pickup_Reinforced,
+            }
+            model SVU_RR_Window_Pickup_Heavy_Spiked
+            {
+                file = SVU_RR_Window_Pickup_Heavy_Spiked,
+            }
+            model SVU_Bullbar_PickUp_Small
+            {
+                file = SVU_Bullbar_PickUp_Small,
+            }
+            model SVU_Bullbar_PickUp_Medium
+            {
+                file = SVU_Bullbar_PickUp_Medium,
+            }
+            model SVU_Bullbar_PickUp_Large_Spiked
+            {
+                file = SVU_Bullbar_PickUp_Large_Spiked,
+            }
+            model GSVU4_RoofLightsFallback_PickUp
+            {
+                file = GSVU4_RoofLights_PickUp,
+            }
+            model GSVU4_RoofLightsFallbackBulbs_PickUp
+            {
+                file = GSVU4_RoofLightsBulbs_PickUp,
+            }
+            model GSVU4_AutoTuneRadioAerialFallback_PickUp
+            {
+                file = GSVU4_AutoTuneRadioAerial_PickUp,
+            }
+            model GSVU4_FilteredAirIntake_PickUp
+            {
+                file = GSVU4_FilteredAirIntake_PickUp,
+            }
+
+        
+            model SVU_Airscoop_PickUp_Small
+            {
+                file = SVU_Airscoop_PickUp_Small,
+            }
+
+            model SVU_Airscoop_PickUp_Medium
+            {
+                file = SVU_Airscoop_PickUp_Medium,
+            }
+
+            model SVU_Airscoop_PickUp_Small_Round
+            {
+                file = SVU_Airscoop_PickUp_Small_Round,
+            }
+
+            model SVU_Airscoop_PickUp_Large
+            {
+                file = SVU_Airscoop_PickUp_Large,
+            }
+
+            model SVU_Airscoop_PickUp_Large_Round
+            {
+                file = SVU_Airscoop_PickUp_Large_Round,
+            }
+
+            model SVU_Airscoop_PickUp_Piped
+            {
+                file = SVU_Airscoop_PickUp_Piped,
+            }
+}
+    }
+}

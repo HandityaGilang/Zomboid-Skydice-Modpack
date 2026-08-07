@@ -1,0 +1,25 @@
+VERSION = 1,
+
+option MHP.EnableReplaceBandage
+{
+    type = boolean,
+    default = false,
+    page = MHP,
+    translation = MHP_EnableReplaceBandage,
+}
+
+option MHP.ShowSafeRemoveIndicator
+{
+    type = boolean,
+    default = false,
+    page = MHP,
+    translation = MHP_ShowSafeRemoveIndicator,
+}
+
+option MHP.ShowStitchInspectIndicator
+{
+    type = boolean,
+    default = false,
+    page = MHP,
+    translation = MHP_ShowStitchInspectIndicator,
+}

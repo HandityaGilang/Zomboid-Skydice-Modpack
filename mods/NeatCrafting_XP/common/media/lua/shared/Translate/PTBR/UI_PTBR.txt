@@ -1,0 +1,15 @@
+UI_PTBR = {
+	UI_XP_NC_xpShow = "Mostrar XP",
+	UI_XP_NC_xpShow_tooltip = "Habilita a exibição de pontos de experiência (XP) para receitas. <LINE> 'Formato de Exibição de XP' define como essa informação é exibida. <LINE> <LINE> Formatos disponíveis: <LINE> - XP Base: Exibe a XP base concedida pela receita. <LINE> - XP Final: Exibe a XP total após todos os multiplicadores terem sido aplicados. <LINE> - Multiplicador: Exibe a XP base, o multiplicador total e a XP final (exemplo: +5 * 3,5 = 17,5). <LINE> - Detalhamento: Exibe a XP base, uma análise detalhada de todos os multiplicadores e a XP final. <LINE> Os fatores são: <LINE> - Multiplicador de Nível Inicial: Nível 0 (x0,25), Nível 1 (x1,00), Nível 2 (x1,33), Nível 3+ (x1,66) <LINE> - Multiplicador do Livro de Habilidades: Livros 1 a 5 (x3, x5, x8, x12, x16). Metade para Mira, Recarga e Lâminas Longas. <LINE> - Multiplicador de Atributos: Aprendiz Rápido (x1,3), Aprendiz Lento (x0,7). <LINE> - Multiplicador de Opções da Sandbox: Um valor global ou um valor específico por tipo de habilidade.",
+	UI_XP_NC_xpFormat = "Formato de Exibição de XP",
+	UI_XP_NC_xpFormat_BasicXP = "XP Base",
+	UI_XP_NC_xpFormat_FinalXP = "XP Final",
+	UI_XP_NC_xpFormat_Multiplier = "Multiplicador",
+	UI_XP_NC_xpFormat_Breakdown = "Detalhamento",
+	UI_XP_NC_showRecipeMod = "Mostrar mod da receita",
+	UI_XP_NC_showRecipeMod_tooltip = "Mostra o mod de origem de cada receita como a linha 'Mod' no painel de receitas.",
+	UI_XP_NC_modPrefix = "Mod: ",
+	UI_XP_NC_textScale = "Tamanho do texto das linhas extras",
+	UI_XP_NC_textScale_tooltip = "Tamanho da fonte para as linhas de XP e a linha 'Mod'.",
+	UI_XP_NC_xpFormat_tooltip = "Choose how recipe XP is displayed. <LINE> <LINE> - Basic XP: Shows the base XP. <LINE> - Final XP: Shows the final XP after multipliers. <LINE> - Multiplier: Shows only the multiplier value(s). <LINE> - Full breakdown: Shows base XP, multiplier(s) and final XP.",
+}

@@ -1,0 +1,18 @@
+{
+    "IGUI_XP_NC_ShowAllRecipe_tooltip": "すべてのレシピを表示します。<LINE>適切な作業台がなくても表示します。",
+    "IGUI_XP_NC_ShowOnlyXPAward": "XPが得られるレシピのみ表示します。",
+    "IGUI_XP_NC_ShowOnlyModRecipes": "MODのレシピのみ表示します。",
+    "IGUI_XP_NC_SetPanelMinSize_tooltip": "パネルを最小サイズに調整する",
+    "IGUI_NC_InputItemSelected": "現在の選択",
+    "IGUI_NC_RequiredSkills": "必要スキル",
+    "IGUI_NC_SearchAsInput": "材料として使われる",
+    "IGUI_NC_SearchAsOutput": "レシピで作成される",
+    "IGUI_NC_SearchForCraft": "レシピ検索",
+    "IGUI_NC_ShowOnlyBenefitFromRecipes": "手持ちアイテムで有効なレシピのみ",
+    "IGUI_NC_ShowOnlyCanCraft": "作成可能のみ",
+    "IGUI_NC_ShowOnlyRecipesKnew": "既知のレシピのみ",
+    "IGUI_NC_ShowOnlymetSkillRequire": "スキル条件を満たすのみ",
+    "IGUI_NC_SortRecipeList": "レシピリストを並べ替え",
+    "IGUI_NC_SwitchToGridLayout": "グリッド表示に切り替え",
+    "IGUI_NC_SwitchToListLayout": "リスト表示に切り替え"
+}

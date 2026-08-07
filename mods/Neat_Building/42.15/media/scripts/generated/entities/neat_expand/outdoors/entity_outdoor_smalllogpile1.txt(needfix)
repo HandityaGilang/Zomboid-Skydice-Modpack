@@ -1,0 +1,55 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Outdoor_SmallLogPile1
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_SmallLogPile1,
+			Icon		= Build_camping_01_34,
+		}
+	}
+
+    entity Outdoor_SmallLogPile1
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Outdoor_SmallLogPile1,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+            isProp          = true,
+            face W
+            {
+                layer
+                {
+                    row = camping_01_28 camping_01_29,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = camping_01_35,
+                    row = camping_01_34,
+                }
+            }
+        }
+        
+        component CraftRecipe
+        {
+            timedAction   = BuildWallNoTool,
+            time          = 200,
+            category      = Outdoors,
+            ToolTip       = Tooltip_craft_lockerDesc,
+            inputs
+            {
+                item 4 [Base.Log],
+		        item 4 [Base.RippedSheets;Base.RippedSheetsDirty;Base.Twine;Base.Rope;Base.SheetRope] flags[DontReplace],
+            }
+        }
+    }
+}

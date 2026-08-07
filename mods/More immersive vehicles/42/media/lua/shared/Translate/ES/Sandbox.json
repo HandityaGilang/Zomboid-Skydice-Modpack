@@ -1,0 +1,19 @@
+{
+    "Sandbox_MoreImmersiveVehicles": "More Immersive Vehicles",
+    "Sandbox_ParkOpenedDoorChance": "Probabilidad de puerta abierta en aparcamiento",
+    "Sandbox_ParkOpenedDoorChance_tooltip": "Probabilidad de que un vehículo aparecido en una plaza de aparcamiento tenga una puerta abierta.",
+    "Sandbox_ParkOpenedTrunkDoorChance": "Probabilidad de maletero abierto en aparcamiento",
+    "Sandbox_ParkOpenedTrunkDoorChance_tooltip": "Probabilidad de que un vehículo aparecido en una plaza de aparcamiento tenga el maletero abierto.",
+    "Sandbox_ParkOpenedEngineDoorChance": "Probabilidad de capó abierto en aparcamiento",
+    "Sandbox_ParkOpenedEngineDoorChance_tooltip": "Probabilidad de que un vehículo aparecido en una plaza de aparcamiento tenga el capó abierto.",
+    "Sandbox_ParkOpenedWindowChance": "Probabilidad de ventanilla abierta en aparcamiento",
+    "Sandbox_ParkOpenedWindowChance_tooltip": "Probabilidad de que un vehículo aparecido en una plaza de aparcamiento tenga una ventanilla abierta.",
+    "Sandbox_RoadOpenedDoorChance": "Probabilidad de puerta abierta en la carretera",
+    "Sandbox_RoadOpenedDoorChance_tooltip": "Probabilidad de que un vehículo aparecido en la carretera o en un atasco tenga una puerta abierta.",
+    "Sandbox_RoadOpenedTrunkDoorChance": "Probabilidad de maletero abierto en la carretera",
+    "Sandbox_RoadOpenedTrunkDoorChance_tooltip": "Probabilidad de que un vehículo aparecido en la carretera o en un atasco tenga el maletero abierto.",
+    "Sandbox_RoadOpenedEngineDoorChance": "Probabilidad de capó abierto en la carretera",
+    "Sandbox_RoadOpenedEngineDoorChance_tooltip": "Probabilidad de que un vehículo aparecido en la carretera o en un atasco tenga el capó abierto.",
+    "Sandbox_RoadOpenedWindowChance": "Probabilidad de ventanilla abierta en la carretera",
+    "Sandbox_RoadOpenedWindowChance_tooltip": "Probabilidad de que un vehículo aparecido en la carretera o en un atasco tenga una ventanilla abierta."
+}

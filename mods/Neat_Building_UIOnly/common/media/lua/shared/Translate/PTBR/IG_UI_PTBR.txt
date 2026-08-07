@@ -1,0 +1,5 @@
+IGUI_PTBR = {
+    IGUI_NB_ModOptions_Title = "Neat Building",
+    IGUI_NB_ModOptions_UseNeatBuildingUI = "Usar a interface do Neat Building",
+    IGUI_NB_ModOptions_UseNeatBuildingUI_Tooltip = "Ativa o menu de construção do Neat Building e ajustes relacionados. Desative para usar a interface de construção vanilla.",
+}

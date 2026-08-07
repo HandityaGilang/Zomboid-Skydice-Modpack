@@ -1,0 +1,62 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Wood_ConciseStairs
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_WoodenConciseStairs,
+			Icon		= Build_fixtures_stairs_01_90,
+		}
+	}
+
+    entity Wood_ConciseStairs
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Wood_ConciseStairs,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+        	OnCreate = BuildRecipeCode.stairs.OnCreate,
+        	OnIsValid = BuildRecipeCode.stairs.OnIsValid,
+
+            face S
+            {
+                layer
+                {
+                    row = fixtures_stairs_01_82 fixtures_stairs_01_81 fixtures_stairs_01_80,
+                }
+            }
+            face W
+            {
+                layer
+                {
+                    row = fixtures_stairs_01_90,
+                    row = fixtures_stairs_01_89,
+                    row = fixtures_stairs_01_88,
+                }
+            }
+        }
+        
+        component CraftRecipe
+        {
+            OnAddToMenu   = ignoreFromBuildMenu,
+            timedAction   = BuildWallHammer,
+            time          = 200,
+            category      = Stairs,
+            SkillRequired = Woodwork:7,
+            xpAward       = Woodwork:70,
+            ToolTip       = Tooltip_craft_stairsDesc,
+            inputs
+            {
+                item 1 tags[base:hammer] mode:keep flags[Prop1;MayDegradeVeryLight],
+                item 13 [Base.Plank],
+                item 8 [Base.Nails],
+            }
+        }
+    }
+}

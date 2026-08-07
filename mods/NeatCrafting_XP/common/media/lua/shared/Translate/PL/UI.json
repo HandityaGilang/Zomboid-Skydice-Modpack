@@ -1,0 +1,15 @@
+{
+    "UI_XP_NC_xpShow": "Wyświetlanie XP",
+    "UI_XP_NC_xpShow_tooltip": "Włącza wyświetlanie punktów doświadczenia (XP) dla przepisów rzemieślniczych. <LINE> 'Format wyświetlania XP' określa sposób prezentacji tych informacji. <LINE> <LINE> Dostępne formaty: <LINE> - XP podstawowe: Pokazuje bazowe XP. <LINE> - XP końcowe: Pokazuje łączne XP po zastosowaniu wszystkich mnożników. <LINE> - Mnożnik: Pokazuje XP bazowe, łączny mnożnik i XP końcowe (np. +5 * 3,5 = 17,5). <LINE> - Szczegóły: Pokazuje XP bazowe, szczegółowy rozkład wszystkich mnożników oraz XP końcowe. <LINE> Czynniki: <LINE> - Mnożnik poziomu początkowego: Poziom 0 (x0,25), Poziom 1 (x1,00), Poziom 2 (x1,33), Poziom 3+ (x1,66) <LINE> - Mnożnik podręczników: Podręczniki 1–5 (x3, x5, x8, x12, x16). Połowa dla: Celowanie, Przeładowywanie i Długie ostrza. <LINE> - Mnożnik cech: Szybki uczeń (x1,3), Powolny uczeń (x0,7) <LINE> - Mnożnik opcji sandbox: Wartość globalna lub wartość specyficzna dla rodzaju umiejętności.",
+    "UI_XP_NC_xpFormat": "Format wyświetlania XP",
+    "UI_XP_NC_xpFormat_BasicXP": "XP podstawowe",
+    "UI_XP_NC_xpFormat_FinalXP": "XP końcowe",
+    "UI_XP_NC_xpFormat_Multiplier": "Mnożnik",
+    "UI_XP_NC_xpFormat_Breakdown": "Szczegóły",
+    "UI_XP_NC_showRecipeMod": "Pokaż mod przepisu",
+    "UI_XP_NC_showRecipeMod_tooltip": "Pokazuje mod źródłowy przepisu jako linię 'Mod: ...' w panelu przepisu.",
+    "UI_XP_NC_modPrefix": "Mod: ",
+    "UI_XP_NC_textScale": "Skaluj tekst linii dodatkowych",
+    "UI_XP_NC_textScale_tooltip": "Rozmiar czcionki linii XP i 'Mod'.",
+    "UI_XP_NC_xpFormat_tooltip": "Choose how recipe XP is displayed. <LINE> <LINE> - Basic XP: Shows the base XP. <LINE> - Final XP: Shows the final XP after multipliers. <LINE> - Multiplier: Shows only the multiplier value(s). <LINE> - Full breakdown: Shows base XP, multiplier(s) and final XP."
+}

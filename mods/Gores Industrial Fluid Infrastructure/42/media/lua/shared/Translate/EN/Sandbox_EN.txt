@@ -1,0 +1,13 @@
+Sandbox_EN = {
+    Sandbox_GIPT = "Industrial Fluid Infrastructure",
+    Sandbox_GIPT_LargeTankCapacity = "Large tank capacity multiplier",
+    Sandbox_GIPT_LargeTankCapacity_tooltip = "One unit represents approximately 20 L of propane, 100 L of gasoline, or 50 L of clean water. Large tanks support propane, gasoline, and clean water.",
+    Sandbox_GIPT_SmallTankCapacity = "Compact tank capacity multiplier",
+    Sandbox_GIPT_SmallTankCapacity_tooltip = "For ordinary native liquids, one unit is 50 L (default 8 = 400 L). Propane uses approximately 20 L per unit through its separate adapter. Vanilla fluid rules control compatible liquids and mixtures.",
+    Sandbox_GIPT_InteractionDistance = "Interaction distance",
+    Sandbox_GIPT_InteractionDistance_tooltip = "Maximum distance from a tank or cabinet when starting a transfer.",
+    Sandbox_GIPT_BulkDeliveryRange = "Bulk tanker detection range",
+    Sandbox_GIPT_BulkDeliveryRange_tooltip = "Maximum range used by registered tanker and trailer fluid-source adapters.",
+    Sandbox_GIPT_IndestructibleInstallations = "Protect large industrial installations",
+    Sandbox_GIPT_IndestructibleInstallations_tooltip = "Makes large tank tiles and their connected cabinets resistant to damage, fire, pickup, rotation, and dismantling. Compact tanks remain normal destructible moveables.",
+}

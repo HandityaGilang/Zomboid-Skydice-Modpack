@@ -1,0 +1,11 @@
+{
+    "Base.BattleShip_Box": "Box na bitevní loď",
+    "Base.BattleShip_GameStand": "Hrací stojánek na bitevní loď",
+    "Base.BattleShip_Peg_Red": "Červený kolíček",
+    "Base.BattleShip_Peg_White": "Bílý kolíček",
+    "Base.BattleShip_Ship_Battleship": "Bitevní loď",
+    "Base.BattleShip_Ship_Carrier": "Dopravce",
+    "Base.BattleShip_Ship_Destroyer": "Torpédoborec",
+    "Base.BattleShip_Ship_Submarine": "Ponorka",
+    "Base.BattleShip_Ship_PatrolBoat": "Hlídkový člun"
+}

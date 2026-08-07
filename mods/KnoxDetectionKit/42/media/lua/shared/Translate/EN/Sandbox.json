@@ -1,0 +1,11 @@
+{
+    "Sandbox_KnoxDetectionKit": "Knox Detection Kit",
+    "Sandbox_KnoxDetectionKit_KitRarity": "Kit Rarity",
+    "Sandbox_KnoxDetectionKit_KitRarity_option1": "Common",
+    "Sandbox_KnoxDetectionKit_KitRarity_option2": "Uncommon",
+    "Sandbox_KnoxDetectionKit_KitRarity_option3": "Rare",
+    "Sandbox_KnoxDetectionKit_KitRarity_option4": "Very Rare",
+    "Sandbox_KnoxDetectionKit_KitRarity_tooltip": "Controls how often the detection kit spawns in loot. Common = 2x spawn rate, Uncommon = 1x (default), Rare = 0.4x, Very Rare = 0.15x. Found in hospitals, clinics, and military facilities. Changes take effect after a server restart.",
+    "Sandbox_KnoxDetectionKit_WaitMinutes": "Wait Time (Minutes)",
+    "Sandbox_KnoxDetectionKit_WaitMinutes_tooltip": "In-game minutes before blood test results appear (0-1440). Default: 120 (about 2 in-game hours). Set to 0 for instant results. The kit is consumed immediately — only the result is delayed."
+}

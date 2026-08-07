@@ -1,0 +1,16 @@
+Sandbox_NL = {
+        Sandbox_M13ReadingTweaks = "M-13's Reading Tweaks",
+    
+        Sandbox_M13ReadingTweaks_MPP = "Minuten per pagina",
+        Sandbox_M13ReadingTweaks_MPP_tooltip = "Pas deze waarde aan om aan te passen hoe snel (of langzaam) je boeken leest.\nHoe lager dit nummer hoe sneller je leest.\nBij gebruik op een server overschrijft dit de [MinutesPerPage] instelling.",
+
+        Sandbox_M13ReadingTweaks_PSM = "Zittend Lezen factor",
+        Sandbox_M13ReadingTweaks_PMS_tooltip = "Pas deze waarde aan om aan te passen hoe snel (of langzaam) je zittend boeken leest.\nHoe hoger dit getal hoe sneller je leest terwijl je zit.",
+
+        Sandbox_M13ReadingTweaks_RWW = "Lopend lezen",
+        Sandbox_M13ReadingTweaks_RWW_tooltip = "Vink deze optie aan om te kunnen lopen terwijl je leest.",
+}
+
+
+
+

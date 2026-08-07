@@ -1,0 +1,8 @@
+module Base
+{
+    xuiStyle NC_HandCraftPanelStyle
+    {
+        xuiLuaClass = NC_HandCraftPanel,
+        padding = 10:10:10:10,
+    }
+}

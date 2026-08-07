@@ -1,0 +1,39 @@
+module Base
+{
+    item LightBulbBlue
+    {
+        ConditionMax = 100,
+    }
+    item LightBulbCyan
+    {
+        ConditionMax = 100,
+    }
+    item LightBulbGreen
+    {
+        ConditionMax = 100,
+    }
+    item LightBulbMagenta
+    {
+        ConditionMax = 100,
+    }
+    item LightBulbOrange
+    {
+        ConditionMax = 100,
+    }
+    item LightBulbPink
+    {
+        ConditionMax = 100,
+    }
+    item LightBulbPurple
+    {
+        ConditionMax = 100,
+    }
+    item LightBulbRed
+    {
+        ConditionMax = 100,
+    }
+    item LightBulbYellow
+    {
+        ConditionMax = 100,
+    }
+}

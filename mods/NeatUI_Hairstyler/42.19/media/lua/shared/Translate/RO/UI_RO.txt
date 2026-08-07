@@ -1,0 +1,8 @@
+UI_RO = {
+	UI_characreation_character = "Personaj",
+	UI_IHM_UseImprovedHairPicker = "Selector de culori îmbunătățit",
+	UI_IHM_UseImprovedHairPicker_Tooltip = "PORNIT: toate culorile.<br>OPRIT: culori vanilla.",
+	UI_IHM_Source_Vanilla = "Vanilla",
+	UI_IHM_Source_All = "Toate",
+	UI_IHM_Controls = "Comenzi",
+}

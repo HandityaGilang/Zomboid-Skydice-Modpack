@@ -1,0 +1,331 @@
+module Base
+{
+    template vehicle GSVU4_SVU3_BodyAnchor_RaceCar
+    {
+        part GSVU4_SVU3_RaceCar_BodyAnchor
+        {
+            area = Engine,
+            category = nodisplay,
+            specificItem = false,
+            itemType = Base.LightBulb,
+            setAllModelsVisible = false,
+            mechanicRequireKey = false,
+
+            lua
+            {
+                create = GSVU4VV.VisualPart.Create,
+                init = GSVU4VV.VisualPart.Init,
+            }
+
+            model GSVU4_RoofLightsFallback_RaceCar
+            {
+                file = GSVU4_RoofLightsFallbackModel_RaceCar,
+                offset = 0.0000 -0.0100 0.1600,
+            }
+            model GSVU4_RoofLightsFallbackBulbs_RaceCar
+            {
+                file = GSVU4_RoofLightsFallbackModelBulbs_RaceCar,
+                offset = 0.0000 -0.0100 0.1600,
+            }
+
+            model GSVU4_RackFallback_RaceCar
+            {
+                file = GSVU4_RackFallbackModel_RaceCar,
+                offset = 0.0000 -0.0100 0.1100,
+            }
+            model GSVU4_FilteredAirIntake_RaceCar
+            {
+                file = GSVU4_FilteredAirIntake_RaceCar,
+                offset = 0.0900 -0.0200 -0.1800,
+            }
+
+            model GSVU4_RaceCar_TireChains_Left
+            {
+                file = GSVU4_RaceCar_TireChains_Left,
+            }
+            model GSVU4_RaceCar_TireChains_Right
+            {
+                file = GSVU4_RaceCar_TireChains_Right,
+            }
+
+            model GSVU4_RaceCar_Hood_Scrap
+            {
+                file = GSVU4_RaceCar_Hood_Scrap,
+                offset = 0.0000 0.1000 -0.2150,
+                rotate = 6.0000 0.0000 0.0000,
+            }
+            model GSVU4_RaceCar_Hood_Standard
+            {
+                file = GSVU4_RaceCar_Hood_Standard,
+                offset = 0.0000 0.1000 -0.2150,
+                rotate = 6.0000 0.0000 0.0000,
+            }
+            model GSVU4_RaceCar_Hood_Light
+            {
+                file = GSVU4_RaceCar_Hood_Light,
+                offset = 0.0000 0.1000 -0.2150,
+                rotate = 6.0000 0.0000 0.0000,
+            }
+            model GSVU4_RaceCar_Hood_Reinforced
+            {
+                file = GSVU4_RaceCar_Hood_Reinforced,
+                offset = 0.0000 0.1000 -0.2150,
+                rotate = 6.0000 0.0000 0.0000,
+            }
+            model GSVU4_RaceCar_Hood_Apocalypse
+            {
+                file = GSVU4_RaceCar_Hood_Apocalypse,
+                offset = 0.0000 0.1000 -0.2150,
+                rotate = 6.0000 0.0000 0.0000,
+            }
+            model GSVU4_RaceCar_Hood_Scrap_Scoop
+            {
+                file = GSVU4_RaceCar_Hood_Scrap_Scoop,
+                offset = 0.0000 0.1000 -0.2150,
+                rotate = 6.0000 0.0000 0.0000,
+            }
+            model GSVU4_RaceCar_Hood_Standard_Scoop
+            {
+                file = GSVU4_RaceCar_Hood_Standard_Scoop,
+                offset = 0.0000 0.1000 -0.2150,
+                rotate = 6.0000 0.0000 0.0000,
+            }
+            model GSVU4_RaceCar_Hood_Reinforced_Scoop
+            {
+                file = GSVU4_RaceCar_Hood_Reinforced_Scoop,
+                offset = 0.0000 0.1000 -0.2150,
+                rotate = 6.0000 0.0000 0.0000,
+            }
+            model GSVU4_RaceCar_Hood_Apocalypse_Scoop
+            {
+                file = GSVU4_RaceCar_Hood_Apocalypse_Scoop,
+                offset = 0.0000 0.1000 -0.2150,
+                rotate = 6.0000 0.0000 0.0000,
+            }
+
+            model GSVU4_RaceCar_Trunk_Scrap
+            {
+                file = GSVU4_RaceCar_Trunk_Scrap,
+                offset = 0.0000 -0.0120 0.3500,
+            }
+            model GSVU4_RaceCar_Trunk_Standard
+            {
+                file = GSVU4_RaceCar_Trunk_Standard,
+                offset = 0.0000 -0.0120 0.3500,
+            }
+            model GSVU4_RaceCar_Trunk_Light
+            {
+                file = GSVU4_RaceCar_Trunk_Light,
+                offset = 0.0000 -0.0120 0.3500,
+            }
+            model GSVU4_RaceCar_Trunk_Reinforced
+            {
+                file = GSVU4_RaceCar_Trunk_Reinforced,
+                offset = 0.0000 -0.0120 0.3500,
+            }
+            model GSVU4_RaceCar_Trunk_Apocalypse
+            {
+                file = GSVU4_RaceCar_Trunk_Apocalypse,
+                offset = 0.0000 -0.0120 0.3500,
+            }
+
+            model GSVU4_RaceCar_DoorFrontLeft_Scrap
+            {
+                file = GSVU4_RaceCar_DoorFrontLeft_Scrap,
+                offset = -0.1220 -0.0100 0.0250,
+            }
+            model GSVU4_RaceCar_DoorFrontLeft_Standard
+            {
+                file = GSVU4_RaceCar_DoorFrontLeft_Standard,
+                offset = -0.1220 -0.0100 0.0250,
+            }
+            model GSVU4_RaceCar_DoorFrontLeft_Light
+            {
+                file = GSVU4_RaceCar_DoorFrontLeft_Light,
+                offset = -0.1220 -0.0100 0.0250,
+            }
+            model GSVU4_RaceCar_DoorFrontLeft_Reinforced
+            {
+                file = GSVU4_RaceCar_DoorFrontLeft_Reinforced,
+                offset = -0.1220 -0.0100 0.0250,
+            }
+            model GSVU4_RaceCar_DoorFrontLeft_Apocalypse
+            {
+                file = GSVU4_RaceCar_DoorFrontLeft_Apocalypse,
+                offset = -0.1220 -0.0100 0.0250,
+            }
+
+            model GSVU4_RaceCar_DoorFrontRight_Scrap
+            {
+                file = GSVU4_RaceCar_DoorFrontRight_Scrap,
+                offset = 0.1220 -0.0100 0.0250,
+            }
+            model GSVU4_RaceCar_DoorFrontRight_Standard
+            {
+                file = GSVU4_RaceCar_DoorFrontRight_Standard,
+                offset = 0.1220 -0.0100 0.0250,
+            }
+            model GSVU4_RaceCar_DoorFrontRight_Light
+            {
+                file = GSVU4_RaceCar_DoorFrontRight_Light,
+                offset = 0.1220 -0.0100 0.0250,
+            }
+            model GSVU4_RaceCar_DoorFrontRight_Reinforced
+            {
+                file = GSVU4_RaceCar_DoorFrontRight_Reinforced,
+                offset = 0.1220 -0.0100 0.0250,
+            }
+            model GSVU4_RaceCar_DoorFrontRight_Apocalypse
+            {
+                file = GSVU4_RaceCar_DoorFrontRight_Apocalypse,
+                offset = 0.1220 -0.0100 0.0250,
+            }
+
+            model GSVU4_RaceCar_Windshield_Scrap
+            {
+                file = GSVU4_RaceCar_Windshield_Scrap,
+                offset = 0.0000 -0.0150 -0.1000,
+            }
+            model GSVU4_RaceCar_Windshield_Standard
+            {
+                file = GSVU4_RaceCar_Windshield_Standard,
+                offset = 0.0000 -0.0150 -0.1000,
+            }
+            model GSVU4_RaceCar_Windshield_Light
+            {
+                file = GSVU4_RaceCar_Windshield_Light,
+                offset = 0.0000 -0.0150 -0.1000,
+            }
+            model GSVU4_RaceCar_Windshield_Reinforced
+            {
+                file = GSVU4_RaceCar_Windshield_Reinforced,
+                offset = 0.0000 -0.0150 -0.1000,
+            }
+            model GSVU4_RaceCar_Windshield_Apocalypse
+            {
+                file = GSVU4_RaceCar_Windshield_Apocalypse,
+                offset = 0.0000 -0.0150 -0.1000,
+            }
+
+            model GSVU4_RaceCar_WindshieldRear_Scrap
+            {
+                file = GSVU4_RaceCar_WindshieldRear_Scrap,
+                offset = 0.0000 -0.0070 0.2250,
+                scale = 0.8750,
+            }
+            model GSVU4_RaceCar_WindshieldRear_Standard
+            {
+                file = GSVU4_RaceCar_WindshieldRear_Standard,
+                offset = 0.0000 -0.0070 0.2250,
+                scale = 0.8750,
+            }
+            model GSVU4_RaceCar_WindshieldRear_Light
+            {
+                file = GSVU4_RaceCar_WindshieldRear_Light,
+                offset = 0.0000 -0.0070 0.2250,
+                scale = 0.8750,
+            }
+            model GSVU4_RaceCar_WindshieldRear_Reinforced
+            {
+                file = GSVU4_RaceCar_WindshieldRear_Reinforced,
+                offset = 0.0000 -0.0070 0.2250,
+                scale = 0.8750,
+            }
+            model GSVU4_RaceCar_WindshieldRear_Apocalypse
+            {
+                file = GSVU4_RaceCar_WindshieldRear_Apocalypse,
+                offset = 0.0000 -0.0070 0.2250,
+                scale = 0.8750,
+            }
+
+            model GSVU4_RaceCar_WindowFrontLeft_Scrap
+            {
+                file = GSVU4_RaceCar_WindowFrontLeft_Scrap,
+                offset = -0.1050 -0.0100 0.0000,
+            }
+            model GSVU4_RaceCar_WindowFrontLeft_Standard
+            {
+                file = GSVU4_RaceCar_WindowFrontLeft_Standard,
+                offset = -0.1050 -0.0100 0.0000,
+            }
+            model GSVU4_RaceCar_WindowFrontLeft_Light
+            {
+                file = GSVU4_RaceCar_WindowFrontLeft_Light,
+                offset = -0.1050 -0.0100 0.0000,
+            }
+            model GSVU4_RaceCar_WindowFrontLeft_Reinforced
+            {
+                file = GSVU4_RaceCar_WindowFrontLeft_Reinforced,
+                offset = -0.1050 -0.0100 0.0000,
+            }
+            model GSVU4_RaceCar_WindowFrontLeft_Apocalypse
+            {
+                file = GSVU4_RaceCar_WindowFrontLeft_Apocalypse,
+                offset = -0.1050 -0.0100 0.0000,
+            }
+
+            model GSVU4_RaceCar_WindowFrontRight_Scrap
+            {
+                file = GSVU4_RaceCar_WindowFrontRight_Scrap,
+                offset = 0.1050 -0.0100 0.0000,
+            }
+            model GSVU4_RaceCar_WindowFrontRight_Standard
+            {
+                file = GSVU4_RaceCar_WindowFrontRight_Standard,
+                offset = 0.1050 -0.0100 0.0000,
+            }
+            model GSVU4_RaceCar_WindowFrontRight_Light
+            {
+                file = GSVU4_RaceCar_WindowFrontRight_Light,
+                offset = 0.1050 -0.0100 0.0000,
+            }
+            model GSVU4_RaceCar_WindowFrontRight_Reinforced
+            {
+                file = GSVU4_RaceCar_WindowFrontRight_Reinforced,
+                offset = 0.1050 -0.0100 0.0000,
+            }
+            model GSVU4_RaceCar_WindowFrontRight_Apocalypse
+            {
+                file = GSVU4_RaceCar_WindowFrontRight_Apocalypse,
+                offset = 0.1050 -0.0100 0.0000,
+            }
+
+        
+            model GSVU4_RaceCar_Airscoop_Small
+            {
+                file = GSVU4_RaceCar_Airscoop_Small,
+                offset = 0.0000 0.0000 -0.1800,
+            }
+
+            model GSVU4_RaceCar_Airscoop_Medium
+            {
+                file = GSVU4_RaceCar_Airscoop_Medium,
+                offset = 0.0000 0.0000 -0.1800,
+            }
+
+            model GSVU4_RaceCar_Airscoop_Small_Round
+            {
+                file = GSVU4_RaceCar_Airscoop_Small_Round,
+                offset = 0.0000 0.0000 -0.1800,
+            }
+
+            model GSVU4_RaceCar_Airscoop_Large
+            {
+                file = GSVU4_RaceCar_Airscoop_Large,
+                offset = 0.0000 0.0000 -0.1800,
+            }
+
+            model GSVU4_RaceCar_Airscoop_Large_Round
+            {
+                file = GSVU4_RaceCar_Airscoop_Large_Round,
+                offset = 0.0000 0.0000 -0.1800,
+            }
+
+            model GSVU4_RaceCar_Airscoop_Piped
+            {
+                file = GSVU4_RaceCar_Airscoop_Piped,
+                offset = 0.0000 0.0000 -0.1800,
+            }
+}
+    }
+}

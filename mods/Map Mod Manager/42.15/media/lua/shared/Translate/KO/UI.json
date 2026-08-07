@@ -1,0 +1,67 @@
+{
+    "UI_MapModManager": "맵 모드 매니저",
+
+    "UI_allMapModsLabel": "전체 맵 모드",
+    "UI_subscribedMapModsLabel": "구독한 맵 모드",
+    "UI_Dependencies": "선행 모드",
+    "UI_modLoadOrder": "모드 로딩 순서",
+
+    "UI_BackButton": "취소",
+    "UI_acceptButton": "확인",
+    "UI_helpButton": "도움말",
+    "UI_increaseGridButton": "격자 확장",
+
+    "UI_prevButton": "이전",
+    "UI_nextButton": "다음",
+
+    "UI_ClearButton": "지우기",
+    "UI_SelectAllMaps": "모두 선택",
+    "UI_UnselectAllMaps": "모두 선택 해제",
+    "UI_SelectVanillaMaps": "바닐라 맵",
+    "UI_QuickSelect": "빠른 선택",
+    "UI_FindMaps": "맵 찾기",
+    "UI_FilterMaps": "좌표 필터 적용",
+    "UI_ClearFilter": "좌표 필터 해제",
+
+    "UI_SelectAllSubscribed": "구독한 맵 선택",
+    "UI_UnselectAllSubscribed": "구독한 맵 선택 해제",
+    "UI_SelectAllActive": "활성화된 맵 선택",
+    "UI_UnselectAllActive": "활성화된 맵 선택 취소",
+    "UI_ExportSelected": "선택한 맵 내보내기",
+    "UI_ToggleAllSubscribed": "구독한 맵 토글",
+    "UI_UnToggleAllSubscribed": "구독한 맵 토글 해제",
+    "UI_ToggleAllSelected": "선택한 맵 토글",
+    "UI_UnToggleAllSelected": "선택한 맵 토글 해제",
+    "UI_ModLoadOrder": "모드 로딩 순서",
+
+    "UI_MoveToTop": "순서 맨 위로 올리기",
+    "UI_MoveUp": "순서 올리기",
+    "UI_MoveDown": "순서 내리기",
+
+    "UI_helpPanelText": "맵 모드 매니저는 맵 모드 간 셀 충돌을 확인하기 위한 도구입니다.\n\n몇몇 맵은 로딩 순서를 세밀히 조절해 충돌이 있는 상태에서도 플레이가 가능하지만, 항상 권장되지는 않습니다. 바닐라 지역을 모드 맵이 덮어써도 괜찮다면 바닐라 셀에 충돌이 일어나는 것은 괜찮습니다.\n\n격자 위의 셀에 마우스를 가져다 대면 어떤 맵이 해당 셀에 위치하는지 알 수 있습니다.\n\n초록색과 파란색 셀은 바닐라 맵입니다.\n보라색 셀은 충돌이 일어나지 않은 맵 모드입니다.\n노란색 셀은 바닐라 지역(도시)을 덮어쓴 맵 모드입니다.\n붉은색 셀은 서로 충돌하는 맵 모드입니다.\n\n오른쪽에 있는 목록은 창작마당에서 이용 가능한 맵 모드의 목록입니다. 맵을 선택해 격자 위에 표시되도록 할 수 있습니다. 아직 구독하지 않았거나 맵에 대한 자세한 정보를 얻고 싶다면, 맵 이름 옆의 스팀 아이콘을 눌러 창작마당을 열 수 있습니다. 새 맵을 구독했다면, 게임을 재시작해야 합니다.\n\n왼쪽에 있는 목록은 구독한 맵 모드와 해당 맵 모드가 작동하는 데에 필요한 선행 모드입니다. 맵을 선택해 격자 위에 표시되도록 할 수 있습니다. 맵 이름 오른쪽의 체크박스를 눌러 활성화 상태를 전환할 수 있습니다. 맵을 선택하고 활성화하면 선행 모드가 나타납니다. 선행 모드에 마우스를 가져다 대면 그 모드가 현재 활성화한 모드에 필요한 것인지, 선택하고 구독한 모드에 필요한 것인지, 선택했지만 아직 구독하지 않은 모드에 필요한 것인지 알 수 있습니다. 선행 모드가 붉은색으로 나타나면, 아직 그 모드를 구독하지 않은 것입니다.\n\n구독한 맵 모드 목록 아래에 있는 '올리기', '내리기' 버튼을 이용해 모드 로딩 순서를 변경할 수 있습니다. 일반적으로 셀이 서로 충돌하지 않는 한 순서를 변경할 필요는 없습니다. 셀이 충돌할 경우, 해당 맵 모드의 스팀 창작마당 페이지를 확인해 모드 순서에 대한 조언을 찾아 보세요.\n\n내보내기는 선택한 맵, 선행 모드, 서버 설정 파일에 붙여넣어야 하는 멀티플레이어 파일을 텍스트 파일로 생성합니다. 생성된 파일은 C:\\사용자\\(사용자명)\\Zomboid\\Lua\\path 에 저장됩니다.\n\n각 버튼에는 해당 버튼의 기능을 알려 주는 툴팁이 있습니다.",
+    
+    "UI_acceptButtonTooltip": "모드 변경 사항을 저장하고 주 메뉴로 돌아갑니다.",
+    "UI_backButtonTooltip": "모드 변경 사항을 저장하지 않고 주 메뉴로 돌아갑니다.",
+    "UI_SelectAllSubscribedTooltip": "구독한 맵 모드를 전부 선택/선택 해제하여 격자 위에 위치를 표시합니다.",
+    "UI_SelectAllActiveTooltip": "활성화한 맵 모드를 전부 선택/선택 해제하여 격자 위에 위치를 표시합니다.",
+    "UI_ExportSelectedTooltip": "구독한 맵과 전체 맵 모드 중 선택한 맵 목록을 내보냅니다. 파일은 C:\\사용자\\(사용자명)\\Zomboid\\Lua\\path 에 저장됩니다.",
+    "UI_ToggleAllSubscribedTooltip": "모든 구독한 맵 모드의 활성화 상태를 전환합니다.",
+    "UI_ToggleAllSelectedTooltip": "구독한 맵 중 모든 선택한 맵 모드의 활성화 상태를 전환합니다. 전체 맵 모드에서 선택한 맵은 전환되지 않습니다. 활성화하려면 우선 구독해야 합니다.",
+    "UI_ModLoadOrderTooltip": "활성화한 맵 모드와 선행 모드의 로딩 순서를 변경합니다.",
+    "UI_MoveToTopTooltip": "선택한 맵의 로딩 순서를 맨 위로 올립니다.",
+    "UI_MoveUpTooltip": "선택한 맵의 로딩 순서를 올립니다.",
+    "UI_MoveDownTooltip": "선택한 맵의 로딩 순서를 내립니다.",
+    "UI_SelectAllMapsTooltip": "데이터베이스에서 사용 가능한 모든 맵을 선택합니다.",
+    "UI_UnselectAllMapsTooltip": "모든 맵의 선택을 해제합니다.",
+    "UI_SelectVanillaMapsTooltip": "바닐라 맵만을 선택합니다.",
+    "UI_QuickSelectTooltip": "현재 선택한 맵과 충돌하지 않는 맵을 선택합니다.",
+    "UI_FindMapsTooltip": "현재 선택한 맵과 충돌하지 않는 맵을 찾습니다.",
+    "UI_FilterMapsTooltip": "왼쪽 드롭다운 목록으로 선택한 셀 좌표에 위치한 맵 목록만을 표시합니다.",
+    "UI_MLacceptButtonTooltip": "모드 로딩 순서 변경 사항을 저장하고 맵 모드 매니저로 돌아갑니다.",
+    "UI_MLbackButtonTooltip": "모드 로딩 순서 변경 사항을 저장하지 않고 맵 모드 매니저로 돌아갑니다.",
+
+    "UI_RequiredByActive": "이 모드가 필요한 활성화한 맵 모드:",
+    "UI_RequiredBySubscribed": "이 모드가 필요한 선택하고 구독한 맵 모드:",
+    "UI_RequiredByNotSubscribed": "이 모드가 필요한 선택하고 구독하지 않은 맵 모드:",
+    "UI_None": "없음"
+}

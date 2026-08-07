@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>run</m_Name>
+	<m_AnimName>miumau_Walk4</m_AnimName>
+	<m_deferredBoneAxis>Y</m_deferredBoneAxis>
+	<m_BlendTime>0.75</m_BlendTime>
+	<m_Conditions>
+		<m_Name>animalRunning</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_BoolValue>true</m_BoolValue>
+	</m_Conditions>
+	<m_Events>
+		<m_EventName>PlayBreedSound</m_EventName>
+		<m_TimePc>0.31</m_TimePc>
+		<m_ParameterValue>run</m_ParameterValue>
+	</m_Events>
+</animNode>

@@ -1,0 +1,5 @@
+IGUI_HU = {
+    IGUI_NB_ModOptions_Title = "Neat Building",
+    IGUI_NB_ModOptions_UseNeatBuildingUI = "Neat Building felület használata",
+    IGUI_NB_ModOptions_UseNeatBuildingUI_Tooltip = "Bekapcsolja a Neat Building építés menüjét és a kapcsolódó módosításokat. Kapcsold ki a vanilla építés felülethez.",
+}

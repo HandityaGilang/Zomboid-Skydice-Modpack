@@ -1,0 +1,75 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Wood_BlueSheetSingleBed
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_BlueSheetSingleWoodenBed,
+			Icon		= Build_furniture_bedding_01_9,
+		}
+	}
+
+    entity Wood_BlueSheetSingleBed
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Wood_BlueSheetSingleBed,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+            face W
+            {
+                layer
+                {
+                    row = furniture_bedding_01_10 furniture_bedding_01_11,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = furniture_bedding_01_9,
+                    row = furniture_bedding_01_8,
+                }
+            }
+            face E
+            {
+                layer
+                {
+                    row = furniture_bedding_01_78 furniture_bedding_01_79,
+                }
+            }
+            face S
+            {
+                layer
+                {
+                    row = furniture_bedding_01_77,
+                    row = furniture_bedding_01_76,
+                }
+            }
+        }
+        
+        component CraftRecipe
+        {
+            OnAddToMenu   = ignoreFromBuildMenu,
+            timedAction   = BuildWallHammer,
+            time          = 50,
+            SkillRequired = Woodwork:6;Tailoring:3,
+            xpAward       = Woodwork:60;Tailoring:30,
+            category      = Furniture,
+            tags          = Carpentry;Furniture,
+            ToolTip       = Tooltip_craft_bedDesc,
+            inputs
+            {
+                item 1 tags[base:hammer] mode:keep flags[Prop1;MayDegradeVeryLight],
+                item 6 [Base.Plank],
+                item 4 [Base.Nails],
+                item 1 [Base.Mattress],
+            }
+        }
+    }
+}

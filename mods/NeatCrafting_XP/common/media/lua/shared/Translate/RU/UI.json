@@ -1,0 +1,15 @@
+{
+    "UI_XP_NC_xpShow": "Показывать опыт",
+    "UI_XP_NC_xpShow_tooltip": "Включает отображение опыта для рецептов. <LINE> «Формат отображения опыта» определяет, как показывается эта информация. <LINE> <LINE> Доступные форматы: <LINE> - Базовый опыт: Показывает базовый опыт, начисляемый по рецепту. <LINE> - Итоговый опыт: Показывает общий опыт после применения всех множителей. <LINE> - Множитель: Показывает базовый опыт, общий множитель и итоговый опыт (напр.: +5 * 3.5 = 17.5). <LINE> - Подробности: Показывает базовый опыт, детальную разбивку множителей и итоговый опыт. <LINE> Факторы: <LINE> - Множитель начального уровня: Уровень 0 (x0.25), Уровень 1 (x1.00), Уровень 2 (x1.33), Уровень 3+ (x1.66) <LINE> - Множитель книг навыков: Книги 1–5 (x3, x5, x8, x12, x16). Вдвое меньше для «Точности», «Перезарядки» и «Длинного клинка». <LINE> - Множитель черт: Быстрообучаемый (x1.3), Плохообучаемый (x0.7) <LINE> - Множитель настроек песочницы: Глобальный или специфичный для типа навыка.",
+    "UI_XP_NC_xpFormat": "Формат отображения опыта",
+    "UI_XP_NC_xpFormat_BasicXP": "Базовый опыт",
+    "UI_XP_NC_xpFormat_FinalXP": "Итоговый опыт",
+    "UI_XP_NC_xpFormat_Multiplier": "Множитель",
+    "UI_XP_NC_xpFormat_Breakdown": "Подробности",
+    "UI_XP_NC_showRecipeMod": "Показывать мод рецепта",
+    "UI_XP_NC_showRecipeMod_tooltip": "Показывает мод-источник рецепта как строку 'Mod' в панели рецептов.",
+    "UI_XP_NC_modPrefix": "Mod: ",
+    "UI_XP_NC_textScale": "Масштаб текста дополнительных строк",
+    "UI_XP_NC_textScale_tooltip": "Размер шрифта для строк опыта и строки 'Mod'.",
+    "UI_XP_NC_xpFormat_tooltip": "Choose how recipe XP is displayed. <LINE> <LINE> - Basic XP: Shows the base XP. <LINE> - Final XP: Shows the final XP after multipliers. <LINE> - Multiplier: Shows only the multiplier value(s). <LINE> - Full breakdown: Shows base XP, multiplier(s) and final XP."
+}

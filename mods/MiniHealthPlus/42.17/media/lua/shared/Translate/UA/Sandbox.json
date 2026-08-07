@@ -1,0 +1,9 @@
+{
+    "Sandbox_MHP": "Mini Health Plus",
+    "Sandbox_MHP_EnableReplaceBandage": "Увімкнути заміну бинта",
+    "Sandbox_MHP_EnableReplaceBandage_tooltip": "Додає пункт контекстного меню «Замінити бинт» для брудних бинтів.",
+    "Sandbox_MHP_ShowSafeRemoveIndicator": "Синій індикатор безпечного зняття",
+    "Sandbox_MHP_ShowSafeRemoveIndicator_tooltip": "Показує синій індикатор, коли бинт або шину можна безпечно зняти.",
+    "Sandbox_MHP_ShowStitchInspectIndicator": "Фіолетовий індикатор перевірки швів",
+    "Sandbox_MHP_ShowStitchInspectIndicator_tooltip": "Показує фіолетовий індикатор, коли зашиті рани слід перевірити."
+}

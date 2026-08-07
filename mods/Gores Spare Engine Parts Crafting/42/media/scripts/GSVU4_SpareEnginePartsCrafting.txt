@@ -1,0 +1,39 @@
+module Base
+{
+
+timedAction SVU4_EnginePartFabrication
+	{
+		metabolics      = LightWork,
+		actionAnim      = Welding,
+		sound           = BlowTorch,
+		prop1           = Base.CraftingWeldingTorch,
+		prop2           = Base.CraftingWeldingPipe,
+	}
+
+craftRecipe SVU4_MakeSpareEngineParts
+	{
+		timedAction = SVU4_EnginePartFabrication,
+		OnCreate = GSVU4Crafting.OnCreate.DrainBlowTorch1,
+		Time = 480,
+		Tags = InHandCraft;Welding;CanBeDoneInDark,
+		xpAward = Mechanics:4;MetalWelding:4;Electricity:3,
+		SkillRequired = Mechanics:8;MetalWelding:5;Electricity:4,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.MetalBar],
+			item 1 [Base.SmallSheetMetal],
+			item 4 [Base.Screws],
+			item 1 [Base.Wire],
+			item 2 [Base.CopperScrap;Base.AluminumScrap;Base.SteelScrap;Base.IronScrap;Base.ElectronicsScrap;Base.ElectricWire],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[WeldingMask] mode:keep,
+			item 1 tags[DrillMetal] mode:keep,
+		}
+		outputs
+		{
+			item 2 Base.EngineParts,
+		}
+	}
+
+}

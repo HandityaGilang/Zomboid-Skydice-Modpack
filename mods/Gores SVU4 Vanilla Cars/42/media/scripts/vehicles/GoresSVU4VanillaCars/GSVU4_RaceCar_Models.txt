@@ -1,0 +1,74 @@
+module Base
+{
+
+
+    model GSVU4_RaceCar_Hood_RaceCarFBX
+    {
+        mesh = vehicles/RaceCarArmor|hoodlightfront,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_RaceCar_Hood_Scrap { mesh = vehicles/RaceCarArmor|hoodlightspikedfront, texture = Vehicles/puv_parts_paper, scale = 0.004, }
+    model GSVU4_RaceCar_Hood_Standard { mesh = vehicles/RaceCarArmor|hoodheavyfront, texture = Vehicles/puv_parts_paper, scale = 0.004, }
+    model GSVU4_RaceCar_Hood_Light { mesh = vehicles/RaceCarArmor|hoodlightspikedfront, texture = Vehicles/puv_parts, scale = 0.004, }
+    model GSVU4_RaceCar_Hood_Reinforced { mesh = vehicles/RaceCarArmor|hoodreinforcedfront, texture = Vehicles/puv_parts, scale = 0.004, }
+    model GSVU4_RaceCar_Hood_Apocalypse { mesh = vehicles/RaceCarArmor|hoodheavyspikedfront, texture = Vehicles/puv_parts_rusted, scale = 0.004, }
+
+    model GSVU4_RaceCar_Trunk_Scrap { mesh = vehicles/RaceCarArmor|trunklightspikedrear, texture = Vehicles/puv_parts_paper, scale = 0.004, }
+    model GSVU4_RaceCar_Trunk_Standard { mesh = vehicles/RaceCarArmor|trunkheavyrear, texture = Vehicles/puv_parts_paper, scale = 0.004, }
+    model GSVU4_RaceCar_Trunk_Light { mesh = vehicles/RaceCarArmor|trunklightspikedrear, texture = Vehicles/puv_parts, scale = 0.004, }
+    model GSVU4_RaceCar_Trunk_Reinforced { mesh = vehicles/RaceCarArmor|trunkreinforcedrear, texture = Vehicles/puv_parts, scale = 0.004, }
+    model GSVU4_RaceCar_Trunk_Apocalypse { mesh = vehicles/RaceCarArmor|trunkheavyspikedrear, texture = Vehicles/puv_parts_rusted, scale = 0.004, }
+
+    model GSVU4_RaceCar_DoorFrontLeft_Scrap { mesh = vehicles/RaceCarArmor|doorfrontlightspikedleft, texture = Vehicles/puv_parts_paper, scale = 0.004, }
+    model GSVU4_RaceCar_DoorFrontLeft_Standard { mesh = vehicles/RaceCarArmor|doorfrontheavyleft, texture = Vehicles/puv_parts_paper, scale = 0.004, }
+    model GSVU4_RaceCar_DoorFrontLeft_Light { mesh = vehicles/RaceCarArmor|doorfrontlightspikedleft, texture = Vehicles/puv_parts, scale = 0.004, }
+    model GSVU4_RaceCar_DoorFrontLeft_Reinforced { mesh = vehicles/RaceCarArmor|doorfrontreinforcedleft, texture = Vehicles/puv_parts, scale = 0.004, }
+    model GSVU4_RaceCar_DoorFrontLeft_Apocalypse { mesh = vehicles/RaceCarArmor|doorfrontheavyspikedleft, texture = Vehicles/puv_parts_rusted, scale = 0.004, }
+
+    model GSVU4_RaceCar_DoorFrontRight_Scrap { mesh = vehicles/RaceCarArmor|doorfrontlightspikedleft, texture = Vehicles/puv_parts_paper, scale = 0.004, invertX = TRUE, }
+    model GSVU4_RaceCar_DoorFrontRight_Standard { mesh = vehicles/RaceCarArmor|doorfrontheavyleft, texture = Vehicles/puv_parts_paper, scale = 0.004, invertX = TRUE, }
+    model GSVU4_RaceCar_DoorFrontRight_Light { mesh = vehicles/RaceCarArmor|doorfrontlightspikedleft, texture = Vehicles/puv_parts, scale = 0.004, invertX = TRUE, }
+    model GSVU4_RaceCar_DoorFrontRight_Reinforced { mesh = vehicles/RaceCarArmor|doorfrontreinforcedleft, texture = Vehicles/puv_parts, scale = 0.004, invertX = TRUE, }
+    model GSVU4_RaceCar_DoorFrontRight_Apocalypse { mesh = vehicles/RaceCarArmor|doorfrontheavyspikedleft, texture = Vehicles/puv_parts_rusted, scale = 0.004, invertX = TRUE, }
+
+    model GSVU4_RaceCar_Windshield_Scrap { mesh = vehicles/RaceCarArmor|windowlightspikedfront, texture = Vehicles/puv_parts_paper, scale = 0.004, }
+    model GSVU4_RaceCar_Windshield_Standard { mesh = vehicles/RaceCarArmor|windowheavyfront, texture = Vehicles/puv_parts_paper, scale = 0.004, }
+    model GSVU4_RaceCar_Windshield_Light { mesh = vehicles/RaceCarArmor|windowlightspikedfront, texture = Vehicles/puv_parts, scale = 0.004, }
+    model GSVU4_RaceCar_Windshield_Reinforced { mesh = vehicles/RaceCarArmor|windowreinforcedfront, texture = Vehicles/puv_parts, scale = 0.004, }
+    model GSVU4_RaceCar_Windshield_Apocalypse { mesh = vehicles/RaceCarArmor|windowheavyspikedfront, texture = Vehicles/puv_parts_rusted, scale = 0.004, }
+
+    model GSVU4_RaceCar_WindshieldRear_Scrap { mesh = vehicles/RaceCarArmor|windowlightspikedrear, texture = Vehicles/puv_parts_paper, scale = 0.004, }
+    model GSVU4_RaceCar_WindshieldRear_Standard { mesh = vehicles/RaceCarArmor|windowheavyrear, texture = Vehicles/puv_parts_paper, scale = 0.004, }
+    model GSVU4_RaceCar_WindshieldRear_Light { mesh = vehicles/RaceCarArmor|windowlightspikedrear, texture = Vehicles/puv_parts, scale = 0.004, }
+    model GSVU4_RaceCar_WindshieldRear_Reinforced { mesh = vehicles/RaceCarArmor|windowreinforcedrear, texture = Vehicles/puv_parts, scale = 0.004, }
+    model GSVU4_RaceCar_WindshieldRear_Apocalypse { mesh = vehicles/RaceCarArmor|windowheavyspikedrear, texture = Vehicles/puv_parts_rusted, scale = 0.004, }
+
+    model GSVU4_RaceCar_WindowFrontLeft_Scrap { mesh = vehicles/RaceCarArmor|windowfrontlightspikedleft, texture = Vehicles/puv_parts_paper, scale = 0.004, }
+    model GSVU4_RaceCar_WindowFrontLeft_Standard { mesh = vehicles/RaceCarArmor|windowfrontheavyleft, texture = Vehicles/puv_parts_paper, scale = 0.004, }
+    model GSVU4_RaceCar_WindowFrontLeft_Light { mesh = vehicles/RaceCarArmor|windowfrontlightspikedleft, texture = Vehicles/puv_parts, scale = 0.004, }
+    model GSVU4_RaceCar_WindowFrontLeft_Reinforced { mesh = vehicles/RaceCarArmor|windowfrontreinforcedleft, texture = Vehicles/puv_parts, scale = 0.004, }
+    model GSVU4_RaceCar_WindowFrontLeft_Apocalypse { mesh = vehicles/RaceCarArmor|windowfrontheavyspikedleft, texture = Vehicles/puv_parts_rusted, scale = 0.004, }
+
+    model GSVU4_RaceCar_WindowFrontRight_Scrap { mesh = vehicles/RaceCarArmor|windowfrontlightspikedleft, texture = Vehicles/puv_parts_paper, scale = 0.004, invertX = TRUE, }
+    model GSVU4_RaceCar_WindowFrontRight_Standard { mesh = vehicles/RaceCarArmor|windowfrontheavyleft, texture = Vehicles/puv_parts_paper, scale = 0.004, invertX = TRUE, }
+    model GSVU4_RaceCar_WindowFrontRight_Light { mesh = vehicles/RaceCarArmor|windowfrontlightspikedleft, texture = Vehicles/puv_parts, scale = 0.004, invertX = TRUE, }
+    model GSVU4_RaceCar_WindowFrontRight_Reinforced { mesh = vehicles/RaceCarArmor|windowfrontreinforcedleft, texture = Vehicles/puv_parts, scale = 0.004, invertX = TRUE, }
+    model GSVU4_RaceCar_WindowFrontRight_Apocalypse { mesh = vehicles/RaceCarArmor|windowfrontheavyspikedleft, texture = Vehicles/puv_parts_rusted, scale = 0.004, invertX = TRUE, }
+
+    model GSVU4_RaceCar_TireChains_Left
+    {
+        mesh = vehicles/RaceCarArmor|chaintires,
+        texture = Vehicles/puv_parts_rusted,
+        scale = 0.0035,
+    }
+
+    model GSVU4_RaceCar_TireChains_Right
+    {
+        mesh = vehicles/RaceCarArmor|chaintires,
+        texture = Vehicles/puv_parts_rusted,
+        scale = 0.0035,
+        invertX = TRUE,
+    }
+}

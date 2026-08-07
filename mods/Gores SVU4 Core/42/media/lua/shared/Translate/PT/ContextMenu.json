@@ -1,0 +1,18 @@
+{
+  "ContextMenu_GSVU4_RoofLightsOn": "Roof Lights On",
+  "ContextMenu_GSVU4_RoofLightsOff": "Roof Lights Off",
+  "ContextMenu_GSVU4_RoofLightColourWarmWhite": "Roof Light Colour: Warm White",
+  "ContextMenu_GSVU4_RoofLightColourRed": "Roof Light Colour: Red",
+  "ContextMenu_GSVU4_RoofLightColourOrange": "Roof Light Colour: Orange",
+  "ContextMenu_GSVU4_RoofLightColourYellow": "Roof Light Colour: Yellow",
+  "ContextMenu_GSVU4_RoofLightColourGreen": "Roof Light Colour: Green",
+  "ContextMenu_GSVU4_RoofLightColourCyan": "Roof Light Colour: Cyan",
+  "ContextMenu_GSVU4_RoofLightColourBlue": "Roof Light Colour: Blue",
+  "ContextMenu_GSVU4_RoofLightColourPurple": "Roof Light Colour: Purple",
+  "ContextMenu_GSVU4_RoofLightColourPink": "Roof Light Colour: Pink",
+  "ContextMenu_GSVU4_RoofLightColourMagenta": "Roof Light Colour: Magenta",
+  "ContextMenu_GSVU4_RoofLightApply": "Apply Bulb",
+  "ContextMenu_GSVU4_RoofLightPicker": "Roof Light Bulb Picker",
+  "ContextMenu_GSVU4_RoofLightPickerInfo": "Set a separate bulb colour for Front, Left, Right and Rear.",
+  "ContextMenu_GSVU4_RoofLightPickerNote": "Applying a coloured bulb consumes one matching bulb item. Warm White is the free default."
+}

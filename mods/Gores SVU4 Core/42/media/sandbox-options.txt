@@ -1,0 +1,282 @@
+VERSION = 1,
+
+
+option GoresSVU4Core.BlockAllSVU4ArmorOnKI5Vehicles
+{
+    type = boolean,
+    default = false,
+    page = GoresSVU4Core,
+    translation = GoresSVU4Core_BlockAllSVU4ArmorOnKI5Vehicles,
+}
+
+option GoresSVU4Core.ArmorDurabilityMultiplier
+{
+    type = double,
+    default = 1.0,
+    min = 0.25,
+    max = 3.0,
+    page = GoresSVU4Core,
+    translation = GoresSVU4Core_ArmorDurabilityMultiplier,
+}
+
+option GoresSVU4Core.ScrapProtectionPercent
+{
+    type = integer,
+    default = 15,
+    min = 0,
+    max = 100,
+    page = GoresSVU4Core,
+    translation = GoresSVU4Core_ScrapProtectionPercent,
+}
+
+option GoresSVU4Core.StandardProtectionPercent
+{
+    type = integer,
+    default = 35,
+    min = 0,
+    max = 100,
+    page = GoresSVU4Core,
+    translation = GoresSVU4Core_StandardProtectionPercent,
+}
+
+option GoresSVU4Core.ReinforcedProtectionPercent
+{
+    type = integer,
+    default = 60,
+    min = 0,
+    max = 100,
+    page = GoresSVU4Core,
+    translation = GoresSVU4Core_ReinforcedProtectionPercent,
+}
+
+option GoresSVU4Core.ApocalypseProtectionPercent
+{
+    type = integer,
+    default = 80,
+    min = 0,
+    max = 100,
+    page = GoresSVU4Core,
+    translation = GoresSVU4Core_ApocalypseProtectionPercent,
+}
+
+option GoresSVU4Core.MaterialCostMultiplier
+{
+    type = double,
+    default = 1.0,
+    min = 0.25,
+    max = 3.0,
+    page = GoresSVU4Core,
+    translation = GoresSVU4Core_MaterialCostMultiplier,
+}
+
+option GoresSVU4Core.XPRewardMultiplier
+{
+    type = double,
+    default = 1.0,
+    min = 0.0,
+    max = 5.0,
+    page = GoresSVU4Core,
+    translation = GoresSVU4Core_XPRewardMultiplier,
+}
+
+option GoresSVU4Core.SoundRadiusMultiplier
+{
+    type = double,
+    default = 1.0,
+    min = 0.0,
+    max = 3.0,
+    page = GoresSVU4Core,
+    translation = GoresSVU4Core_SoundRadiusMultiplier,
+}
+
+option GoresSVU4Core.ArmorWeightMultiplier
+{
+    type = double,
+    default = 1.0,
+    min = 0.0,
+    max = 3.0,
+    page = GoresSVU4Core,
+    translation = GoresSVU4Core_ArmorWeightMultiplier,
+}
+
+option GoresSVU4Core.GasLeakRateMultiplier
+{
+    type = double,
+    default = 1.0,
+    min = 0.0,
+    max = 5.0,
+    page = GoresSVU4Core,
+    translation = GoresSVU4Core_GasLeakRateMultiplier,
+}
+
+option GoresSVU4Core.GasTankPunctureDamage
+{
+    type = integer,
+    default = 20,
+    min = 0,
+    max = 100,
+    page = GoresSVU4Core,
+    translation = GoresSVU4Core_GasTankPunctureDamage,
+}
+
+option GoresSVU4Core.GasTankLeakClearCondition
+{
+    type = integer,
+    default = 90,
+    min = 1,
+    max = 100,
+    page = GoresSVU4Core,
+    translation = GoresSVU4Core_GasTankLeakClearCondition,
+}
+
+option GoresSVU4Core.RandomArmorScrapChance
+{
+    type = double,
+    default = 8.0,
+    min = 0.0,
+    max = 100.0,
+    page = GoresSVU4Core,
+    translation = GoresSVU4Core_RandomArmorScrapChance,
+}
+
+option GoresSVU4Core.RandomArmorStandardChance
+{
+    type = double,
+    default = 4.0,
+    min = 0.0,
+    max = 100.0,
+    page = GoresSVU4Core,
+    translation = GoresSVU4Core_RandomArmorStandardChance,
+}
+
+option GoresSVU4Core.RandomArmorReinforcedChance
+{
+    type = double,
+    default = 2.0,
+    min = 0.0,
+    max = 100.0,
+    page = GoresSVU4Core,
+    translation = GoresSVU4Core_RandomArmorReinforcedChance,
+}
+
+option GoresSVU4Core.RandomArmorApocalypseChance
+{
+    type = double,
+    default = 0.5,
+    min = 0.0,
+    max = 100.0,
+    page = GoresSVU4Core,
+    translation = GoresSVU4Core_RandomArmorApocalypseChance,
+}
+
+option GoresSVU4Core.RandomArmorMinHealth
+{
+    type = integer,
+    default = 10,
+    min = 1,
+    max = 100,
+    page = GoresSVU4Core,
+    translation = GoresSVU4Core_RandomArmorMinHealth,
+}
+
+option GoresSVU4Core.RandomArmorMaxHealth
+{
+    type = integer,
+    default = 65,
+    min = 1,
+    max = 100,
+    page = GoresSVU4Core,
+    translation = GoresSVU4Core_RandomArmorMaxHealth,
+}
+
+option GoresSVU4Core.RandomArmorMaxPanels
+{
+    type = integer,
+    default = 1,
+    min = 1,
+    max = 32,
+    page = GoresSVU4Core,
+    translation = GoresSVU4Core_RandomArmorMaxPanels,
+}
+
+option GoresSVU4Core.EnableRandomSurvivorArmor
+{
+    type = boolean,
+    default = false,
+    page = GoresSVU4Core,
+    translation = GoresSVU4Core_EnableRandomSurvivorArmor,
+}
+
+option GoresSVU4Core.EnableSkillRequirements
+{
+    type = boolean,
+    default = true,
+    page = GoresSVU4Core,
+    translation = GoresSVU4Core_EnableSkillRequirements,
+}
+
+option GoresSVU4Core.EnableArmorWeight
+{
+    type = boolean,
+    default = true,
+    page = GoresSVU4Core,
+    translation = GoresSVU4Core_EnableArmorWeight,
+}
+
+option GoresSVU4Core.EnableAdminLogs
+{
+    type = boolean,
+    default = true,
+    page = GoresSVU4Core,
+    translation = GoresSVU4Core_EnableAdminLogs,
+}
+
+option GoresSVU4Core.MultiInstallMode
+{
+    type = enum,
+    default = 3,
+    numValues = 3,
+    page = GoresSVU4Core,
+    translation = GoresSVU4Core_MultiInstallMode,
+}
+
+option GoresSVU4Core.MaxQueuedActions
+{
+    type = enum,
+    default = 3,
+    numValues = 4,
+    page = GoresSVU4Core,
+    translation = GoresSVU4Core_MaxQueuedActions,
+}
+
+option GoresSVU4Core.EnableScrapArmorGrade
+{
+    type = boolean,
+    default = true,
+    page = GoresSVU4Core,
+    translation = GoresSVU4Core_EnableScrapArmorGrade,
+}
+
+option GoresSVU4Core.EnableStandardArmorGrade
+{
+    type = boolean,
+    default = true,
+    page = GoresSVU4Core,
+    translation = GoresSVU4Core_EnableStandardArmorGrade,
+}
+
+option GoresSVU4Core.EnableReinforcedArmorGrade
+{
+    type = boolean,
+    default = true,
+    page = GoresSVU4Core,
+    translation = GoresSVU4Core_EnableReinforcedArmorGrade,
+}
+
+option GoresSVU4Core.EnableApocalypseArmorGrade
+{
+    type = boolean,
+    default = true,
+    page = GoresSVU4Core,
+    translation = GoresSVU4Core_EnableApocalypseArmorGrade,
+}

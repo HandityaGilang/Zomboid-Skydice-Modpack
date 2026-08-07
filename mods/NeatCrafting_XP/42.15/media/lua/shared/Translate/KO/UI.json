@@ -1,0 +1,15 @@
+{
+    "UI_XP_NC_xpShow": "XP 표시",
+    "UI_XP_NC_xpShow_tooltip": "레시피 XP 표시를 활성화합니다. <LINE> 'XP Display Format'에서 이 정보를 어떻게 표시할지 정의합니다. <LINE> <LINE><RGB:0.392,0.584,0.929> 사용 가능한 형식: <LINE><RGB:1,1,1> - Basic XP: 기본 XP를 표시합니다(배수 없음). <LINE> - Final XP: 모든 배수 적용 후의 XP를 표시합니다. <LINE> - Multiplier: 기본 XP에 적용되는 총 배수와 최종 XP를 표시합니다(BaseXP * multiplier = FinalXP). <LINE> - Breakdown: 기본 XP, 모든 배수의 상세 내역, 최종 XP를 표시합니다. <LINE><LINE><RGB:0.392,0.584,0.929> 적용 요소: <LINE><RGB:1,1,1> - 초기 레벨 배수: 레벨 0 (x0.25), 레벨 1 (x1.00), 레벨 2 (x1.33), 레벨 3+ (x1.66) <LINE> - 스킬 책 배수: 책 1-5 (x3, x5, x8, x12, x16). Aiming, Reloading, Long Blade는 그 절반. <LINE> - 특성 배수: 현자 (x1.3), 느린 학습 (x0.7), Crafty (스킬이 제작 능력 카테고리에 속할 때만 x1.3). Breakdown에서는 현자/느린 학습와 Crafty가 하나의 특성 배수로 합쳐집니다. <LINE> - 샌드박스 옵션 배수: 전역 값 또는 스킬 유형별 값.",
+    "UI_XP_NC_xpFormat": "XP 표시 형식",
+    "UI_XP_NC_xpFormat_BasicXP": "기본 XP",
+    "UI_XP_NC_xpFormat_FinalXP": "최종 XP",
+    "UI_XP_NC_xpFormat_Multiplier": "배율",
+    "UI_XP_NC_xpFormat_Breakdown": "세부 정보",
+    "UI_XP_NC_showRecipeMod": "레시피 모드 표시",
+    "UI_XP_NC_showRecipeMod_tooltip": "레시피 패널에 'Mod' 줄로 레시피의 출처 모드를 표시합니다.",
+    "UI_XP_NC_modPrefix": "Mod: ",
+    "UI_XP_NC_textScale": "추가 줄 텍스트 크기",
+    "UI_XP_NC_textScale_tooltip": "XP 줄과 'Mod' 줄의 글꼴 크기.",
+    "UI_XP_NC_xpFormat_tooltip": "Choose how recipe XP is displayed. <LINE> <LINE> - Basic XP: Shows the base XP. <LINE> - Final XP: Shows the final XP after multipliers. <LINE> - Multiplier: Shows only the multiplier value(s). <LINE> - Full breakdown: Shows base XP, multiplier(s) and final XP."
+}

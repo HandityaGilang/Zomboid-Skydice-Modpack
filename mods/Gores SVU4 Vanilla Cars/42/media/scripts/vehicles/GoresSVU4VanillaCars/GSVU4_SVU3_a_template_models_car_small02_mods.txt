@@ -1,0 +1,67 @@
+module Base
+{
+    model SVU_Chains_FL_SmallCar02
+    {
+        mesh = vehicles/SmallCar02Armor|chaintires,
+        texture = Vehicles/puv_parts,
+        scale = 0.0035,
+    }
+
+    model SVU_Chains_FR_SmallCar02
+    {
+        mesh = vehicles/SmallCar02Armor|chaintires,
+        texture = Vehicles/puv_parts,
+        scale = 0.0035,
+        invertX = TRUE,
+    }
+
+    model SVU_Chains_RL_SmallCar02
+    {
+        mesh = vehicles/SmallCar02Armor|chaintires,
+        texture = Vehicles/puv_parts,
+        scale = 0.0035,
+    }
+
+    model SVU_Chains_RR_SmallCar02
+    {
+        mesh = vehicles/SmallCar02Armor|chaintires,
+        texture = Vehicles/puv_parts,
+        scale = 0.0035,
+        invertX = TRUE,
+    }
+    model GSVU4_ChainsFallbackModel_SmallCar02
+    {
+        mesh = vehicles/SmallCar02Armor|chaintires,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_BullbarFallbackModel_SmallCar02_Small
+    {
+        mesh = vehicles/SmallCar02Armor|pushbar_small,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_BullbarFallbackModel_SmallCar02_Medium
+    {
+        mesh = vehicles/SmallCar02Armor|pushbar_medium,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_BullbarFallbackModel_SmallCar02_Large
+    {
+        mesh = vehicles/SmallCar02Armor|pushbar_large,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_BullbarFallbackModel_SmallCar02_LargeSpiked
+    {
+        mesh = vehicles/SmallCar02Armor|pushbar_large_spiked,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+}

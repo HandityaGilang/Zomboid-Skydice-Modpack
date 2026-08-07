@@ -1,0 +1,75 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Doors_WoodenBarnLight
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_LightBarnWoodenDoor,
+			Icon		= Build_fixtures_doors_01_10,
+		}
+	}
+
+    entity Doors_WoodenBarnLight
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Doors_WoodenBarnLight,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+			skillBaseHealth = 300,
+			breakSound      = BreakDoor,
+			
+            face W
+            {
+                layer
+                {
+                    row = fixtures_doors_01_8,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = fixtures_doors_01_9,
+                }
+            }
+			face W_OPEN
+            {
+                layer
+                {
+					row = fixtures_doors_01_10,
+                }
+            }
+            face N_OPEN
+            {
+                layer
+                {
+					row = fixtures_doors_01_11,
+                }
+            }
+        }
+		
+		component CraftRecipe
+        {
+            timedAction   = BuildWallHammer,
+            time          = 200,
+            category      = Doors,
+            SkillRequired = Woodwork:7,
+            xpAward       = Woodwork:70,
+            ToolTip       = Tooltip_craft_woodenDoorDesc,
+            inputs
+            {
+                item 1 tags[base:hammer] mode:keep flags[Prop1;MayDegradeVeryLight],
+				item 4 [Base.Plank],
+				item 4 [Base.Nails],
+				item 2 [Base.Hinge],
+				item 1 [Base.Doorknob],
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "Sandbox_MHP": "Mini Health Plus",
+    "Sandbox_MHP_EnableReplaceBandage": "包帯の交換を有効化",
+    "Sandbox_MHP_EnableReplaceBandage_tooltip": "汚れた包帯に対して「包帯を交換」コンテキストメニュー項目を追加します。",
+    "Sandbox_MHP_ShowSafeRemoveIndicator": "安全に外せる青色インジケーター",
+    "Sandbox_MHP_ShowSafeRemoveIndicator_tooltip": "包帯または添え木を安全に外せるとき、青色インジケーターを表示します。",
+    "Sandbox_MHP_ShowStitchInspectIndicator": "縫合確認用の紫色インジケーター",
+    "Sandbox_MHP_ShowStitchInspectIndicator_tooltip": "縫合した傷を確認すべきとき、紫色インジケーターを表示します。"
+}

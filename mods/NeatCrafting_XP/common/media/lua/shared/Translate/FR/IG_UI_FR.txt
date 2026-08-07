@@ -1,0 +1,18 @@
+IGUI_FR = {
+	IGUI_XP_NC_ShowAllRecipe_tooltip = "Afficher toutes les recettes, <LINE> même si l’atelier approprié n’est pas présent.",
+	IGUI_XP_NC_ShowOnlyXPAward = "Afficher uniquement les recettes qui donnent de l’XP.",
+	IGUI_XP_NC_ShowOnlyModRecipes = "Afficher uniquement les recettes des mods.",
+	IGUI_XP_NC_SetPanelMinSize_tooltip = "Réduire le panneau à la taille minimale",
+	IGUI_NC_InputItemSelected = "Sélection actuelle",
+	IGUI_NC_RequiredSkills = "Compétences requises",
+	IGUI_NC_SearchAsInput = "Utilisé dans les recettes",
+	IGUI_NC_SearchAsOutput = "Créé par les recettes",
+	IGUI_NC_SearchForCraft = "Recherche d'artisanat",
+	IGUI_NC_ShowOnlyBenefitFromRecipes = "Bénéficier de la recette en main uniquement",
+	IGUI_NC_ShowOnlyCanCraft = "Peut fabriquer uniquement",
+	IGUI_NC_ShowOnlyRecipesKnew = "Recettes connues uniquement",
+	IGUI_NC_ShowOnlymetSkillRequire = "Compétences acquises uniquement",
+	IGUI_NC_SortRecipeList = "Trier la liste des recettes",
+	IGUI_NC_SwitchToGridLayout = "Passer à l'affichage en grille",
+	IGUI_NC_SwitchToListLayout = "Passer à l'affichage en liste",
+}

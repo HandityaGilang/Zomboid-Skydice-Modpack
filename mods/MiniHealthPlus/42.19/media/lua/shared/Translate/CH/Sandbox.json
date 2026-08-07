@@ -1,0 +1,9 @@
+{
+    "Sandbox_MHP": "Mini Health Plus",
+    "Sandbox_MHP_EnableReplaceBandage": "啟用更換繃帶",
+    "Sandbox_MHP_EnableReplaceBandage_tooltip": "為髒掉的繃帶新增「更換繃帶」右鍵選單項目。",
+    "Sandbox_MHP_ShowSafeRemoveIndicator": "可安全移除的藍色指示器",
+    "Sandbox_MHP_ShowSafeRemoveIndicator_tooltip": "當繃帶或夾板可以安全移除時，顯示藍色指示器。",
+    "Sandbox_MHP_ShowStitchInspectIndicator": "需檢查縫線的紫色指示器",
+    "Sandbox_MHP_ShowStitchInspectIndicator_tooltip": "當縫合傷口應該接受檢查時，顯示紫色指示器。"
+}

@@ -1,0 +1,186 @@
+require "ISUI/ISPanel"
+
+NB_BuildingWindow = ISPanel:derive("NB_BuildingWindow")
+
+local FONT_HGT_SMALL = getTextManager():getFontHeight(UIFont.Small)
+local FONT_HGT_MEDIUM = getTextManager():getFontHeight(UIFont.Medium)
+
+-- ----------------------------------------------------------------------------------------------------- --
+-- initialise
+-- ----------------------------------------------------------------------------------------------------- --
+function NB_BuildingWindow:initialise()
+    ISPanel.initialise(self)
+end
+
+function NB_BuildingWindow:new(x, y, width, height, player, isoObject, recipeQuery)
+    local o = ISPanel:new(x, y, width, height)
+    setmetatable(o, self)
+    self.__index = self
+    
+    o.player = player
+    o.playerNum = player:getPlayerNum()
+    o.isoObject = isoObject
+    o.recipeQuery = recipeQuery or "InHandCraft;AnySurfaceCraft;Build"
+    o.moveWithMouse = true
+
+    o.padding = NCConfig.padding
+    o.headerHeight = math.floor(FONT_HGT_SMALL * 1.2)
+
+    o.minimumWidth = 400
+    o.minimumHeight = 600
+    
+    o:setWantKeyEvents(true)
+    
+    return o
+end
+
+function NB_BuildingWindow:calculateLayout(_preferredWidth, _preferredHeight)
+    local childrenMinWidth = 0
+    local childrenMinHeight = 0
+
+    if self.BuildingPanel then
+        self.BuildingPanel:calculateLayout(0, 0)
+
+        local panelMinWidth = self.BuildingPanel:getWidth()
+        local panelMinHeight = self.BuildingPanel:getHeight()
+        
+        childrenMinWidth = math.max(childrenMinWidth, panelMinWidth)
+        childrenMinHeight = math.max(childrenMinHeight, panelMinHeight)
+    end
+
+    self.minimumWidth = math.max(400, childrenMinWidth)
+    self.minimumHeight = math.max(200, childrenMinHeight)
+
+    local width = math.max(_preferredWidth or self.width, self.minimumWidth)
+    local height = math.max(_preferredHeight or self.height, self.minimumHeight)
+    
+    if self.BuildingPanel then
+        self.BuildingPanel:setX(0)
+        self.BuildingPanel:setY(0)
+        self.BuildingPanel:setWidth(width)
+        self.BuildingPanel:setHeight(height)
+        self.BuildingPanel:calculateLayout(width, height)
+    end
+
+    self:setWidth(width)
+    self:setHeight(height)
+end
+
+-- ----------------------------------------------------------------------------------------------------- --
+-- create Children
+-- ----------------------------------------------------------------------------------------------------- --
+function NB_BuildingWindow:createChildren()
+    self:createBuildPanel()
+    self:createResizeWidget()
+end
+
+function NB_BuildingWindow:createBuildPanel()
+    self.BuildingPanel = ISXuiSkin.build(self.xuiSkin, "S_NeedsAStyle", NB_BuildingPanel, 0, 0, 10, 10, self, self.player, nil, self.isoObject, self.recipeQuery)
+    
+    self.BuildingPanel:initialise()
+    self:addChild(self.BuildingPanel)
+end
+
+function NB_BuildingWindow:createResizeWidget()
+    local resizeSize = self.padding
+    self.resizeWidget = ISResizeWidget:new(self.width - resizeSize-2, self.height - resizeSize-2, resizeSize, resizeSize, self, false)
+    self.resizeWidget.anchorRight = true
+    self.resizeWidget.anchorBottom = true
+    self.resizeWidget:initialise()
+    self.resizeWidget.prerender = function(widget)
+        local alpha = widget.mouseOver and 0.8 or 0.6
+        widget:drawTextureScaledAspect(getTexture("media/ui/NeatUI/Resize/ResizeIcon.png"), 0, 0, widget.width, widget.height, alpha, 1, 1, 1)
+    end
+    self.resizeWidget.resizeFunction = function(target, newWidth, newHeight)
+        target:calculateLayout(newWidth, newHeight)
+    end
+    self:addChild(self.resizeWidget)
+end
+
+-- ----------------------------------------------------------------------------------------------------- --
+-- Window Info
+-- ----------------------------------------------------------------------------------------------------- --
+function NB_BuildingWindow:getWindowTitle()
+    return getText("IGUI_CraftingWindow_Build")
+end
+
+function NB_BuildingWindow:getWindowIcon()
+    local headerIcon = getTexture("media/ui/Neat_Building/ICON/Icon_BuildIcon.png")
+    return headerIcon
+end
+
+function NB_BuildingWindow:onSearchChanged(searchString)
+    if self.BuildingPanel and self.BuildingPanel.onSearchTextChanged then
+        self.BuildingPanel:onSearchTextChanged(searchString)
+    end
+end
+
+-- ----------------------------------------------------------------------------------------------------- --
+-- Update and Distance Check
+-- ----------------------------------------------------------------------------------------------------- --
+function NB_BuildingWindow:update()
+    ISPanel.update(self)
+
+    local valid = true
+    
+    if self.player and self.player:getVehicle() then
+        valid = false
+    end
+    
+    if not valid then
+        self:close()
+    end
+    
+    return valid
+end
+
+function NB_BuildingWindow:close()
+    
+    getCell():setDrag(nil, self.player:getPlayerNum())
+
+    self.BuildingPanel:closeBuildingInfoPanel()
+    
+    ISEntityUI.OnCloseWindow(self)
+    
+    if JoypadState.players[self.playerNum+1] then
+        if isJoypadFocusOnElementOrDescendant(self.playerNum, self) then
+            setJoypadFocus(self.playerNum, nil)
+        end
+    end
+    
+    self:removeFromUIManager()
+end
+
+-- ----------------------------------------------------------------------------------------------------- --
+-- Keyboard function
+-- ----------------------------------------------------------------------------------------------------- --
+function NB_BuildingWindow:isKeyConsumed(key)
+    return key == Keyboard.KEY_ESCAPE or getCore():isKey("Crafting UI", key) or getCore():isKey("Build UI", key)
+end
+
+function NB_BuildingWindow:onKeyRelease(key)
+    if self:isVisible() and (key == Keyboard.KEY_ESCAPE or getCore():isKey("Crafting UI", key) or getCore():isKey("Build UI", key)) then
+        self:close()
+        self:removeFromUIManager()
+        return true
+    end
+    return false
+end
+
+function NB_BuildingWindow:onKeyPressed(key)
+    if key == Keyboard.KEY_ESCAPE or getCore():isKey("Crafting UI", key) or getCore():isKey("Build UI", key) then
+        return true
+    end
+    return false
+end
+
+-- ----------------------------------------------------------------------------------------------------- --
+-- Render
+-- ----------------------------------------------------------------------------------------------------- --
+function NB_BuildingWindow:prerender()
+
+end
+
+function NB_BuildingWindow:render()
+    
+end

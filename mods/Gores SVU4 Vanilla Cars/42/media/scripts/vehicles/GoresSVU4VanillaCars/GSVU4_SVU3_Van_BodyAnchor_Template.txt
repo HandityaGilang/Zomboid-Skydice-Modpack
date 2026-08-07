@@ -1,0 +1,268 @@
+module Base
+{
+    template vehicle GSVU4_SVU3_BodyAnchor_Van
+    {
+        part GSVU4_SVU3_Van_BodyAnchor
+        {
+            setAllModelsVisible = false,
+
+                lua
+                {
+                    create = GSVU4VV.VisualPart.Create,
+                    init = GSVU4VV.VisualPart.Init,
+                }
+
+            model SVU_Hood_Van_Paper
+            {
+                file = SVU_Hood_Van_Paper,
+            }
+            model SVU_Hood_Van_Light_Spiked
+            {
+                file = SVU_Hood_Van_Light_Spiked,
+            }
+            model SVU_Hood_Van_Reinforced
+            {
+                file = SVU_Hood_Van_Reinforced,
+            }
+            model SVU_Hood_Van_Heavy_Spiked
+            {
+                file = SVU_Hood_Van_Heavy_Spiked,
+            }
+            model SVU_Trunk_Van_Paper
+            {
+                file = SVU_Trunk_Van_Paper,
+            }
+            model SVU_Trunk_Van_Light_Spiked
+            {
+                file = SVU_Trunk_Van_Light_Spiked,
+            }
+            model SVU_Trunk_Van_Reinforced
+            {
+                file = SVU_Trunk_Van_Reinforced,
+            }
+            model SVU_Trunk_Van_Heavy_Spiked
+            {
+                file = SVU_Trunk_Van_Heavy_Spiked,
+            }
+            model SVU_F_Window_Van_Paper
+            {
+                file = SVU_F_Window_Van_Paper,
+            }
+            model SVU_F_Window_Van_Light_Spiked
+            {
+                file = SVU_F_Window_Van_Light_Spiked,
+            }
+            model SVU_F_Window_Van_Reinforced
+            {
+                file = SVU_F_Window_Van_Reinforced,
+            }
+            model SVU_F_Window_Van_Heavy_Spiked
+            {
+                file = SVU_F_Window_Van_Heavy_Spiked,
+            }
+            model SVU_R_Window_Van_Paper
+            {
+                file = SVU_R_Window_Van_Paper,
+            }
+            model SVU_R_Window_Van_Light_Spiked
+            {
+                file = SVU_R_Window_Van_Light_Spiked,
+            }
+            model SVU_R_Window_Van_Reinforced
+            {
+                file = SVU_R_Window_Van_Reinforced,
+            }
+            model SVU_R_Window_Van_Heavy_Spiked
+            {
+                file = SVU_R_Window_Van_Heavy_Spiked,
+            }
+            model SVU_Door_FL_Van_Paper
+            {
+                file = SVU_Door_FL_Van_Paper,
+            }
+            model SVU_Door_FL_Van_Light_Spiked
+            {
+                file = SVU_Door_FL_Van_Light_Spiked,
+            }
+            model SVU_Door_FL_Van_Reinforced
+            {
+                file = SVU_Door_FL_Van_Reinforced,
+            }
+            model SVU_Door_FL_Van_Heavy_Spiked
+            {
+                file = SVU_Door_FL_Van_Heavy_Spiked,
+            }
+            model SVU_Door_FR_Van_Paper
+            {
+                file = SVU_Door_FR_Van_Paper,
+            }
+            model SVU_Door_FR_Van_Light_Spiked
+            {
+                file = SVU_Door_FR_Van_Light_Spiked,
+            }
+            model SVU_Door_FR_Van_Reinforced
+            {
+                file = SVU_Door_FR_Van_Reinforced,
+            }
+            model SVU_Door_FR_Van_Heavy_Spiked
+            {
+                file = SVU_Door_FR_Van_Heavy_Spiked,
+            }
+            model SVU_Door_RL_Van_Paper
+            {
+                file = SVU_Door_RL_Van_Paper,
+            }
+            model SVU_Door_RL_Van_Light_Spiked
+            {
+                file = SVU_Door_RL_Van_Light_Spiked,
+            }
+            model SVU_Door_RL_Van_Reinforced
+            {
+                file = SVU_Door_RL_Van_Reinforced,
+            }
+            model SVU_Door_RL_Van_Heavy_Spiked
+            {
+                file = SVU_Door_RL_Van_Heavy_Spiked,
+            }
+            model SVU_Door_RR_Van_Paper
+            {
+                file = SVU_Door_RR_Van_Paper,
+            }
+            model SVU_Door_RR_Van_Light_Spiked
+            {
+                file = SVU_Door_RR_Van_Light_Spiked,
+            }
+            model SVU_Door_RR_Van_Reinforced
+            {
+                file = SVU_Door_RR_Van_Reinforced,
+            }
+            model SVU_Door_RR_Van_Heavy_Spiked
+            {
+                file = SVU_Door_RR_Van_Heavy_Spiked,
+            }
+            model SVU_FL_Window_Van_Paper
+            {
+                file = SVU_FL_Window_Van_Paper,
+            }
+            model SVU_FL_Window_Van_Light_Spiked
+            {
+                file = SVU_FL_Window_Van_Light_Spiked,
+            }
+            model SVU_FL_Window_Van_Reinforced
+            {
+                file = SVU_FL_Window_Van_Reinforced,
+            }
+            model SVU_FL_Window_Van_Heavy_Spiked
+            {
+                file = SVU_FL_Window_Van_Heavy_Spiked,
+            }
+            model SVU_FR_Window_Van_Paper
+            {
+                file = SVU_FR_Window_Van_Paper,
+            }
+            model SVU_FR_Window_Van_Light_Spiked
+            {
+                file = SVU_FR_Window_Van_Light_Spiked,
+            }
+            model SVU_FR_Window_Van_Reinforced
+            {
+                file = SVU_FR_Window_Van_Reinforced,
+            }
+            model SVU_FR_Window_Van_Heavy_Spiked
+            {
+                file = SVU_FR_Window_Van_Heavy_Spiked,
+            }
+            model SVU_RL_Window_Van_Paper
+            {
+                file = SVU_RL_Window_Van_Paper,
+            }
+            model SVU_RL_Window_Van_Light_Spiked
+            {
+                file = SVU_RL_Window_Van_Light_Spiked,
+            }
+            model SVU_RL_Window_Van_Reinforced
+            {
+                file = SVU_RL_Window_Van_Reinforced,
+            }
+            model SVU_RL_Window_Van_Heavy_Spiked
+            {
+                file = SVU_RL_Window_Van_Heavy_Spiked,
+            }
+            model SVU_RR_Window_Van_Paper
+            {
+                file = SVU_RR_Window_Van_Paper,
+            }
+            model SVU_RR_Window_Van_Light_Spiked
+            {
+                file = SVU_RR_Window_Van_Light_Spiked,
+            }
+            model SVU_RR_Window_Van_Reinforced
+            {
+                file = SVU_RR_Window_Van_Reinforced,
+            }
+            model SVU_RR_Window_Van_Heavy_Spiked
+            {
+                file = SVU_RR_Window_Van_Heavy_Spiked,
+            }
+            model SVU_Hood_Van_Heavy
+            {
+                file = SVU_Hood_Van_Heavy,
+            }
+            model SVU_Bullbar_Van_Small
+            {
+                file = SVU_Bullbar_Van_Small,
+            }
+            model SVU_Bullbar_Van_Medium
+            {
+                file = SVU_Bullbar_Van_Medium,
+            }
+            model SVU_Bullbar_Van_Large_Spiked
+            {
+                file = SVU_Bullbar_Van_Large_Spiked,
+            }
+            model GSVU4_RoofLightsFallback_Van
+            {
+                file = GSVU4_RoofLights_Van,
+            }
+            model GSVU4_RoofLightsFallbackBulbs_Van
+            {
+                file = GSVU4_RoofLightsBulbs_Van,
+            }
+            model GSVU4_FilteredAirIntake_Van
+            {
+                file = GSVU4_FilteredAirIntake_Van,
+            }
+
+        
+            model SVU_Airscoop_Van_Small
+            {
+                file = SVU_Airscoop_Van_Small,
+            }
+
+            model SVU_Airscoop_Van_Medium
+            {
+                file = SVU_Airscoop_Van_Medium,
+            }
+
+            model SVU_Airscoop_Van_Small_Round
+            {
+                file = SVU_Airscoop_Van_Small_Round,
+            }
+
+            model SVU_Airscoop_Van_Large
+            {
+                file = SVU_Airscoop_Van_Large,
+            }
+
+            model SVU_Airscoop_Van_Large_Round
+            {
+                file = SVU_Airscoop_Van_Large_Round,
+            }
+
+            model SVU_Airscoop_Van_Piped
+            {
+                file = SVU_Airscoop_Van_Piped,
+            }
+}
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "Sandbox_MHP": "Mini Health Plus",
+    "Sandbox_MHP_EnableReplaceBandage": "Ativar Substituir Bandagem",
+    "Sandbox_MHP_EnableReplaceBandage_tooltip": "Adiciona a opção de menu de contexto 'Substituir Bandagem' para bandagens sujas.",
+    "Sandbox_MHP_ShowSafeRemoveIndicator": "Indicador azul para remoção segura",
+    "Sandbox_MHP_ShowSafeRemoveIndicator_tooltip": "Mostra o indicador azul quando uma bandagem ou tala pode ser removida com segurança.",
+    "Sandbox_MHP_ShowStitchInspectIndicator": "Indicador roxo para verificar sutura",
+    "Sandbox_MHP_ShowStitchInspectIndicator_tooltip": "Mostra o indicador roxo quando feridas suturadas devem ser verificadas."
+}

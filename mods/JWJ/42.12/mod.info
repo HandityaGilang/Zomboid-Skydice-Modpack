@@ -1,0 +1,9 @@
+name=Jumpsuit with jacket [B42]
+id=JWJ
+description=Allows you to wear jumpsuits and coveralls with jackets.
+poster=poster.png
+pzversion=42
+modversion=1.0.0
+versionMin=42.0.0
+author=vsnegupal
+incompatible=\snegsMP,

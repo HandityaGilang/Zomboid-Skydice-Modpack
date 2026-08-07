@@ -1,0 +1,13 @@
+module Base
+{
+    xuiSkin default
+    {
+        entity ES_CompactFluidStorageTank
+        {
+            LuaWindowClass = ISEntityWindow,
+            DisplayName = CompactFluidStorageTank,
+            BuildDescription = A compact industrial tank for storing compatible fluids.,
+            Icon = melos_tiles_random_props_industry_05_74,
+        }
+    }
+}

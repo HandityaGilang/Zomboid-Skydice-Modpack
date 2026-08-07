@@ -1,0 +1,10 @@
+name=Neat Crafting – XP & Mod Display
+id=Neat_Crafting_AddonXP
+poster=preview.png
+icon=icon1.png
+author=Afyrmo
+modversion=1.11.5
+versionMin=42.15
+require=Neat_Crafting
+loadModAfter=Neat_Crafting
+description=Addon for Neat Crafting: shows XP rewards per recipe and an optional “Mod” source line, with multiple display formats and auto text scaling. <LINE> Reviewed for Project Zomboid Build 42.20. <LINE> Compatible with current Neat Crafting Build 42 versions and older supported Build 42 branches.

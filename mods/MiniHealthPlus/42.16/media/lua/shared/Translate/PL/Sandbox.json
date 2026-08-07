@@ -1,0 +1,9 @@
+{
+    "Sandbox_MHP": "Mini Health Plus",
+    "Sandbox_MHP_EnableReplaceBandage": "Włącz wymianę bandaża",
+    "Sandbox_MHP_EnableReplaceBandage_tooltip": "Dodaje opcję menu kontekstowego „Wymień bandaż” dla zabrudzonych bandaży.",
+    "Sandbox_MHP_ShowSafeRemoveIndicator": "Niebieski wskaźnik bezpiecznego usunięcia",
+    "Sandbox_MHP_ShowSafeRemoveIndicator_tooltip": "Pokazuje niebieski wskaźnik, gdy bandaż lub szyna mogą zostać bezpiecznie usunięte.",
+    "Sandbox_MHP_ShowStitchInspectIndicator": "Fioletowy wskaźnik kontroli szwów",
+    "Sandbox_MHP_ShowStitchInspectIndicator_tooltip": "Pokazuje fioletowy wskaźnik, gdy zszyte rany powinny zostać sprawdzone."
+}

@@ -1,0 +1,77 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Welding_YellowDoor
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_YellowMetalDoor,
+			Icon		= Build_fixtures_doors_01_66,
+		}
+	}
+
+    entity Welding_YellowDoor
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Welding_YellowDoor,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+			skillBaseHealth = 300,
+			breakSound      = BreakDoor,
+			
+            face W
+            {
+                layer
+                {
+                    row = fixtures_doors_01_64,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = fixtures_doors_01_65,
+                }
+            }
+			face W_OPEN
+            {
+                layer
+                {
+					row = fixtures_doors_01_66,
+                }
+            }
+            face N_OPEN
+            {
+                layer
+                {
+					row = fixtures_doors_01_67,
+                }
+            }
+        }
+		
+		component CraftRecipe
+        {
+            OnAddToMenu   = ignoreFromBuildMenu,
+            timedAction   = BuildWallMetal,
+            time          = 200,
+            category      = Doors,
+            SkillRequired = MetalWelding:3,
+            xpAward       = MetalWelding:30,
+            ToolTip       = Tooltip_craft_metalDoorDesc,
+            inputs
+            {
+                item 4 [Base.BlowTorch] flags[DontRecordInput],
+                item 1 [Base.PaintYellow] flags[DontRecordInput],
+                item 3 [Base.SmallSheetMetal],
+                item 4 [Base.WeldingRods] flags[DontRecordInput],
+				item 2 [Base.Hinge],
+				item 1 [Base.Doorknob],
+            }
+        }
+    }
+}

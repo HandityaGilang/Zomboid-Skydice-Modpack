@@ -1,0 +1,10 @@
+name=Neat Building – XP & Mod Display [B42.12]
+id=Neat_Building_AddonXP
+poster=preview.png
+icon=icon1.png
+author=Afyrmo
+modversion=1.11.5
+versionMin=42.12
+versionMax=42.12
+loadModAfter=\Neat_Building,\Neat_Building_UIOnly
+description=Addon for Neat Building: shows XP rewards per build recipe (skill + amount) and an optional “Mod” source line, with multiple display formats and auto text scaling. <LINE> Reviewed for Project Zomboid Build 42.20. <LINE> Use after either Neat_Building or Neat_Building_UIOnly. For modular Stairs East & South setups, enable it with the UI Only variant; buildables-only modules do not need their own XP UI addon.

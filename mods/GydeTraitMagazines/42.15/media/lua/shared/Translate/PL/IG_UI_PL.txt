@@ -1,0 +1,6 @@
+IGUI_PL = {
+	IGUI_PlayerText_CantReadYet = "Nie mogę przeczytać tego.",
+	IGUI_PlayerText_AmDeaf1 = "Przecież jestem głuchy!",
+	IGUI_PlayerText_AmDeaf2 = "I tak nic nie słyszę...",
+	IGUI_PlayerText_AmDeaf3 = "To nie wyleczy mojej głuchoty...",
+}

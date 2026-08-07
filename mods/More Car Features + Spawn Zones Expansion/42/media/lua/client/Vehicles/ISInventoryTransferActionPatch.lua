@@ -1,0 +1,1 @@
+--DEPRECIATED: IMPLEMENTED FIX USING isTransferIntoVehicleSeatFromOutside !!!

@@ -1,0 +1,18 @@
+IGUI_HU = {
+	IGUI_XP_NC_ShowAllRecipe_tooltip = "Az összes recept megjelenítése, <LINE> még akkor is, ha nincs megfelelő munkaállomás.",
+	IGUI_XP_NC_ShowOnlyXPAward = "Csak a tapasztalatot (XP-t) adó receptek.",
+	IGUI_XP_NC_ShowOnlyModRecipes = "Csak a mod receptek.",
+	IGUI_XP_NC_SetPanelMinSize_tooltip = "A panel minimális méretre állítása",
+	IGUI_NC_InputItemSelected = "Aktuális kiválasztás",
+	IGUI_NC_RequiredSkills = "Szükséges készségek",
+	IGUI_NC_SearchAsInput = "Receptekben használt",
+	IGUI_NC_SearchAsOutput = "Receptek által létrehozva",
+	IGUI_NC_SearchForCraft = "Recept keresés",
+	IGUI_NC_ShowOnlyBenefitFromRecipes = "Csak kézben lévő tárgyakhoz hasznos",
+	IGUI_NC_ShowOnlyCanCraft = "Csak gyártható",
+	IGUI_NC_ShowOnlyRecipesKnew = "Csak ismert receptek",
+	IGUI_NC_ShowOnlymetSkillRequire = "Csak teljesített készségek",
+	IGUI_NC_SortRecipeList = "Receptek rendezése",
+	IGUI_NC_SwitchToGridLayout = "Váltás rács nézetre",
+	IGUI_NC_SwitchToListLayout = "Váltás lista nézetre",
+}

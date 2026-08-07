@@ -1,0 +1,7 @@
+ContextMenu_RU = {
+	ContextMenu_Install_Remote_Door_Motor = "”становить электронный замок",
+	ContextMenu_Close_Door_with_Remote = "«акрыть дверь контроллером",
+	ContextMenu_Open_Door_with_Remote = "ќткрыть дверь контроллером",
+	ContextMenu_Linked_door_to_Remote = "Ёлектронный замок установлен",
+	ContextMenu_I_need_to_be_closer_to_the_door_to_install_this = "ћне нужно подойти ближе, чтобы установить электронный замок",
+}

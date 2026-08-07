@@ -1,0 +1,18 @@
+{
+    "IGUI_XP_NC_ShowAllRecipe_tooltip": "Показать все рецепты, <LINE> даже если подходящей рабочей станции нет",
+    "IGUI_XP_NC_ShowOnlyXPAward": "Только рецепты, которые дают XP",
+    "IGUI_XP_NC_ShowOnlyModRecipes": "Только рецепты из модов",
+    "IGUI_XP_NC_SetPanelMinSize_tooltip": "Установить панель на минимальный размер",
+    "IGUI_NC_InputItemSelected": "Текущий выбор",
+    "IGUI_NC_RequiredSkills": "Требуемые навыки",
+    "IGUI_NC_SearchAsInput": "Используется в рецептах",
+    "IGUI_NC_SearchAsOutput": "Создано рецептами",
+    "IGUI_NC_SearchForCraft": "Поиск рецептов",
+    "IGUI_NC_ShowOnlyBenefitFromRecipes": "Только полезные с текущими предметами",
+    "IGUI_NC_ShowOnlyCanCraft": "Только возможные для создания",
+    "IGUI_NC_ShowOnlyRecipesKnew": "Только известные рецепты",
+    "IGUI_NC_ShowOnlymetSkillRequire": "Только с нужными навыками",
+    "IGUI_NC_SortRecipeList": "Сортировать список рецептов",
+    "IGUI_NC_SwitchToGridLayout": "Переключиться на отображение сетки",
+    "IGUI_NC_SwitchToListLayout": "Переключиться на отображение списка"
+}

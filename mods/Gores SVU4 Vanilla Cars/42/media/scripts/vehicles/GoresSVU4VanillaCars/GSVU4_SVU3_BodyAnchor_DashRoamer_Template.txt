@@ -1,0 +1,65 @@
+module Base
+{
+    template vehicle GSVU4_SVU3_BodyAnchor_DashRoamer
+    {
+        part GSVU4_SVU3_DashRoamer_BodyAnchor
+        {
+            area = Engine,
+            category = nodisplay,
+            specificItem = false,
+            itemType = Base.LightBulb,
+            setAllModelsVisible = false,
+            mechanicRequireKey = false,
+
+            lua
+            {
+                create = GSVU4VV.VisualPart.Create,
+                init = GSVU4VV.VisualPart.Init,
+            }
+
+            model GSVU4_RoofLightsFallback_DashRoamer
+            {
+                file = GSVU4_RoofLights_DashRoamer,
+            }
+            model GSVU4_RoofLightsFallbackBulbs_DashRoamer
+            {
+                file = GSVU4_RoofLightsBulbs_DashRoamer,
+            }
+            model GSVU4_FilteredAirIntake_DashRoamer
+            {
+                file = GSVU4_FilteredAirIntake_DashRoamer,
+            }
+
+        
+            model SVU_Airscoop_DashRoamer_Small
+            {
+                file = SVU_Airscoop_DashRoamer_Small,
+            }
+
+            model SVU_Airscoop_DashRoamer_Medium
+            {
+                file = SVU_Airscoop_DashRoamer_Medium,
+            }
+
+            model SVU_Airscoop_DashRoamer_Small_Round
+            {
+                file = SVU_Airscoop_DashRoamer_Small_Round,
+            }
+
+            model SVU_Airscoop_DashRoamer_Large
+            {
+                file = SVU_Airscoop_DashRoamer_Large,
+            }
+
+            model SVU_Airscoop_DashRoamer_Large_Round
+            {
+                file = SVU_Airscoop_DashRoamer_Large_Round,
+            }
+
+            model SVU_Airscoop_DashRoamer_Piped
+            {
+                file = SVU_Airscoop_DashRoamer_Piped,
+            }
+}
+    }
+}

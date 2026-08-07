@@ -1,0 +1,63 @@
+v1.0 05 Nov 2024
+- Uploaded mod to steam workshop.
+
+v1.1 05 Nov 2024
+- Updated to make the cell grid and menu button dynamic to your screen resolution.
+- Added a discard changes button.
+
+v1.2 08 Nov 2024
+- Reduced the width of the scroll lists, giving more space for the grid when you're using a lower resolution.
+- Adjusted the close and discard buttons to be dynamic with your screen width.
+- Adjusted the height of the Subscribed Map Mods and Dependency lists to be dynamic with your screen height.
+- Adjusted several maps having double-up cells in their code, so they appears to conflict with themselves.
+
+v1.3 11 Nov 2024
+- Added an Increase Grid button to temporarily hide the scroll lists and increase the size of the grid to enable functionality for lower resolutions.
+- Further reduced the width of the scroll lists and padding to allow more space for the grid on lower resolutions.
+
+v1.4 25 Nov 2024
+- Added a tooltip to show what maps require the dependency.
+- Fixed dependencies incorrectly showing for some maps.
+
+v1.5 25 Dec 2024
+- Added localization support.
+- Added Polish language support thanks to MrNicDragon and Nacho Juarez.
+- Adjusted colours of the dependency scroll list (green for enabled, white for not enabled but subscribed to, red for not subscribed).
+- Adjusted dependency tooltip to show further information (dependency required by active map, selected and subscribed map, selected and not subscribed map).
+- Added a Select All Maps button to select every single map in the database.
+- Fixed Constown variables enabling multiple at a time.
+
+v1.51 25 Dec 2024
+- Removed 'Select All Maps' button that was causing performance issues.
+
+v1.52 26 Dec 2024
+- Reverted back to version 1.4 due to performance issues.
+
+v1.6 24 March 2025
+- Added support for Build 42.
+- Overhauled the layout of the UI.
+- Added ability to adjust load order.
+- Added Quick Select Maps button.
+- Added Filter Maps options.
+- Added Help button.
+- Updated cell tooltip to include which cell you're hovering over.
+- LUA will only reset if mod list changes.
+- Screen resolution support is now 1920x1080 upwards.
+- Improved performance and framerate.
+- French localization thanks to Aaetheom.
+- Added new maps to the database.
+
+v1.7 31 May 2025
+- Added support to read locally subscribed map mod cells, for Build 42 only.
+
+v1.71 14 Jul 2025
+- Added Korean translation thanks to Teray
+
+v1.72 03 Dec 2025
+- Made changes to how the mod reads map folders to capture mods that have multiple map files, for Build 42.
+
+v1.73 09 Feb 2026
+- Added export function for Build 42 version.
+
+v1.8 13 March 2025
+- Added support for Build 42.15.

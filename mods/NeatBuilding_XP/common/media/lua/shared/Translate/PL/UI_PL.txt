@@ -1,0 +1,20 @@
+UI_PL = {
+	UI_XP_NB_xpShow = "Wyświetlanie XP",
+	UI_XP_NB_xpShow_tooltip = "Włącza wyświetlanie XP receptur. <LINE> 'Format wyświetlania XP' określa, jak te informacje są wyświetlane. <LINE> <LINE><RGB:0.392,0.584,0.929> Dostępne formaty: <LINE><RGB:1,1,1> - XP podstawowe: Pokazuje bazowe XP (bez mnożników). <LINE> - XP końcowe: Pokazuje XP po wszystkich mnożnikach. <LINE> - Mnożnik: Pokazuje całkowity mnożnik zastosowany do bazowego XP oraz końcowe XP (BaseXP * multiplier = FinalXP). <LINE> - Szczegóły: Pokazuje bazowe XP, szczegółowy rozkład wszystkich mnożników oraz końcowe XP. <LINE><LINE><RGB:0.392,0.584,0.929> Czynniki: <LINE><RGB:1,1,1> - Mnożnik początkowego poziomu: Poziom 0 (x0.25), Poziom 1 (x1.00), Poziom 2 (x1.33), Poziom 3+ (x1.66) <LINE> - Mnożnik książek umiejętności: Książki 1-5 (x3, x5, x8, x12, x16). Połowa tego dla Aiming, Reloading i Long Blade. <LINE> - Mnożnik cech: Bystry uczeń (x1.3), Słaby uczeń (x0.7), Crafty (x1.3 tylko gdy umiejętność należy do kategorii RzemiosÂło). W Szczegóły Bystry uczeń/Słaby uczeń i Crafty są łączone w jeden mnożnik cech. <LINE> - Mnożnik opcji sandbox: Wartość globalna lub osobna dla typu umiejętności.",
+	UI_XP_NB_xpFormat = "Format wyświetlania XP",
+	UI_XP_NB_xpFormat_tooltip = "Format wyświetlania XP",
+	UI_XP_NB_xpFormat_BasicXP = "XP podstawowe",
+	UI_XP_NB_xpFormat_FinalXP = "XP końcowe",
+	UI_XP_NB_xpFormat_Multiplier = "Mnożnik",
+	UI_XP_NB_xpFormat_Breakdown = "Szczegóły",
+
+	UI_XP_NB_showRecipeMod = "Pokaż mod przepisu",
+	UI_XP_NB_showRecipeMod_tooltip = "Pokazuje mod źródłowy przepisu jako linię 'Mod: ...' w panelu przepisu.",
+
+	UI_XP_NB_textScale = "Skaluj tekst linii dodatkowych",
+	UI_XP_NB_textScale_tooltip = "Rozmiar czcionki linii XP i 'Mod'.",
+
+	UI_XP_NB_modPrefix = "Mod: ",
+	UI_XP_NB_modNeat = "Neat Building",
+	UI_XP_NB_modOther = "Inny",
+}

@@ -1,0 +1,67 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Commercial_HalfGlassRedWall
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_CommercialHalfGlassRedWall,
+			Icon		= Build_walls_commercial_01_81,
+		}
+	}
+
+    entity Commercial_HalfGlassRedWall
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Commercial_HalfGlassRedWall,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+			LogicClass      = WoodenWall,
+			health          = 800,
+			skillBaseHealth = 70,
+            OnCreate = NB_BuildRecipeCode.WindowWall.OnCreate,
+            previousStage   = WoodenWallFrame;MetalWallFrame,
+
+            face W
+            {
+                layer
+                {
+                    row = walls_commercial_01_80,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = walls_commercial_01_81,
+                }
+            }
+			
+            corner = walls_commercial_01_83,
+        }
+		
+        component CraftRecipe
+        {
+            OnAddToMenu   = ignoreFromBuildMenu,
+            timedAction   = BuildWallMetal,
+            time          = 200,
+            category      = Walls,
+            SkillRequired = MetalWelding:6;Glassmaking:3,
+            xpAward       = MetalWelding:60;Glassmaking:30,
+            ToolTip       = Tooltip_craft_NeedsWallframeDesc,
+            inputs
+            {
+                item 4 [Base.BlowTorch] flags[DontRecordInput],
+                item 1 tags[Pliers] mode:keep flags[Prop2;MayDegradeVeryLight],
+                item 2 [Base.WeldingRods] flags[DontRecordInput],
+                item 2 [Base.SheetMetal],
+                item 2 [Base.GlassPanel],
+            }
+        }
+    }
+}

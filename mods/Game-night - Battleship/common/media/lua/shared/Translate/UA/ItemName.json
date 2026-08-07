@@ -1,0 +1,11 @@
+{
+    "Base.BattleShip_Box": "Коробка лінкора",
+    "Base.BattleShip_GameStand": "Броненосець Game Stand",
+    "Base.BattleShip_Peg_Red": "Червоний кілок",
+    "Base.BattleShip_Peg_White": "Білий кілок",
+    "Base.BattleShip_Ship_Battleship": "Броненосець",
+    "Base.BattleShip_Ship_Carrier": "Перевізник",
+    "Base.BattleShip_Ship_Destroyer": "Руйнівник",
+    "Base.BattleShip_Ship_Submarine": "Підводний човен",
+    "Base.BattleShip_Ship_PatrolBoat": "Патрульний катер"
+}

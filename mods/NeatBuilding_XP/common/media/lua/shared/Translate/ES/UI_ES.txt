@@ -1,0 +1,17 @@
+UI_ES = {
+	UI_XP_NB_xpShow = "Mostrar XP de receta",
+	UI_XP_NB_xpShow_tooltip = "Activa la visualización de la XP de las recetas. <LINE> 'Formato de visualización de XP' define cómo se muestra esta información. <LINE> <LINE><RGB:0.392,0.584,0.929> Formatos disponibles: <LINE><RGB:1,1,1> - XP base: Muestra la XP base (sin multiplicadores). <LINE> - XP final: Muestra la XP tras aplicar todos los multiplicadores. <LINE> - Multiplicador: Muestra el multiplicador total aplicado a la XP base y la XP final (BaseXP * multiplier = FinalXP). <LINE> - Desglose: Muestra la XP base, un desglose detallado de todos los multiplicadores y la XP final. <LINE><LINE><RGB:0.392,0.584,0.929> Los factores son: <LINE><RGB:1,1,1> - Multiplicador por nivel inicial: Nivel 0 (x0.25), Nivel 1 (x1.00), Nivel 2 (x1.33), Nivel 3+ (x1.66) <LINE> - Multiplicador por libro de habilidad: Libros 1-5 (x3, x5, x8, x12, x16). La mitad para Puntería, Recarga y Arma blanca larga. <LINE> - Multiplicador por rasgo: Aprendiz rápido (x1.3), Aprendiz lento (x0.7), Crafty (x1.3 solo cuando la habilidad pertenece a la categoría Elaboración). En Desglose, Aprendiz rápido/Aprendiz lento y Crafty se combinan en un único multiplicador por rasgo. <LINE> - Multiplicador por opciones de sandbox: Un valor global o un valor específico por tipo de habilidad.",
+	UI_XP_NB_xpFormat = "Formato de visualización de XP",
+	UI_XP_NB_xpFormat_tooltip = "Formato de visualización de XP", -- not shown
+	UI_XP_NB_xpFormat_BasicXP = "XP base",
+	UI_XP_NB_xpFormat_FinalXP = "XP final",
+	UI_XP_NB_xpFormat_Multiplier = "Multiplicador",
+	UI_XP_NB_xpFormat_Breakdown = "Desglose",
+	UI_XP_NB_showRecipeMod = "Mostrar mod de receta",
+	UI_XP_NB_showRecipeMod_tooltip = "Muestra el mod de origen de cada receta en el panel de recetas.",
+	UI_XP_NB_textScale = "Escala del texto de líneas extra",
+	UI_XP_NB_textScale_tooltip = "Tamaño de letra para las líneas de XP y la línea 'Mod'.",
+	UI_XP_NB_modPrefix = "Mod: ",
+	UI_XP_NB_modNeat = "Neat Building",
+	UI_XP_NB_modOther = "Otro",
+}

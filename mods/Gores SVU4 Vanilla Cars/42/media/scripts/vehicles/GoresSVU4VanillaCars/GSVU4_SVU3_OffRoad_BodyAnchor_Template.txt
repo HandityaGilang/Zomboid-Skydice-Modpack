@@ -1,0 +1,268 @@
+module Base
+{
+    template vehicle GSVU4_SVU3_BodyAnchor_OffRoad
+    {
+        part GSVU4_SVU3_OffRoad_BodyAnchor
+        {
+            setAllModelsVisible = false,
+
+                lua
+                {
+                    create = GSVU4VV.VisualPart.Create,
+                    init = GSVU4VV.VisualPart.Init,
+                }
+
+            model SVU_Hood_OffRoad_Paper
+            {
+                file = SVU_Hood_OffRoad_Paper,
+            }
+            model SVU_Hood_OffRoad_Light_Spiked
+            {
+                file = SVU_Hood_OffRoad_Light_Spiked,
+            }
+            model SVU_Hood_OffRoad_Reinforced
+            {
+                file = SVU_Hood_OffRoad_Reinforced,
+            }
+            model SVU_Hood_OffRoad_Heavy_Spiked
+            {
+                file = SVU_Hood_OffRoad_Heavy_Spiked,
+            }
+            model SVU_Trunk_OffRoad_Paper
+            {
+                file = SVU_Trunk_OffRoad_Paper,
+            }
+            model SVU_Trunk_OffRoad_Light_Spiked
+            {
+                file = SVU_Trunk_OffRoad_Light_Spiked,
+            }
+            model SVU_Trunk_OffRoad_Reinforced
+            {
+                file = SVU_Trunk_OffRoad_Reinforced,
+            }
+            model SVU_Trunk_OffRoad_Heavy_Spiked
+            {
+                file = SVU_Trunk_OffRoad_Heavy_Spiked,
+            }
+            model SVU_F_Window_OffRoad_Paper
+            {
+                file = SVU_F_Window_OffRoad_Paper,
+            }
+            model SVU_F_Window_OffRoad_Light_Spiked
+            {
+                file = SVU_F_Window_OffRoad_Light_Spiked,
+            }
+            model SVU_F_Window_OffRoad_Reinforced
+            {
+                file = SVU_F_Window_OffRoad_Reinforced,
+            }
+            model SVU_F_Window_OffRoad_Heavy_Spiked
+            {
+                file = SVU_F_Window_OffRoad_Heavy_Spiked,
+            }
+            model SVU_R_Window_OffRoad_Paper
+            {
+                file = SVU_R_Window_OffRoad_Paper,
+            }
+            model SVU_R_Window_OffRoad_Light_Spiked
+            {
+                file = SVU_R_Window_OffRoad_Light_Spiked,
+            }
+            model SVU_R_Window_OffRoad_Reinforced
+            {
+                file = SVU_R_Window_OffRoad_Reinforced,
+            }
+            model SVU_R_Window_OffRoad_Heavy_Spiked
+            {
+                file = SVU_R_Window_OffRoad_Heavy_Spiked,
+            }
+            model SVU_Door_FL_OffRoad_Paper
+            {
+                file = SVU_Door_FL_OffRoad_Paper,
+            }
+            model SVU_Door_FL_OffRoad_Light_Spiked
+            {
+                file = SVU_Door_FL_OffRoad_Light_Spiked,
+            }
+            model SVU_Door_FL_OffRoad_Reinforced
+            {
+                file = SVU_Door_FL_OffRoad_Reinforced,
+            }
+            model SVU_Door_FL_OffRoad_Heavy_Spiked
+            {
+                file = SVU_Door_FL_OffRoad_Heavy_Spiked,
+            }
+            model SVU_Door_FR_OffRoad_Paper
+            {
+                file = SVU_Door_FR_OffRoad_Paper,
+            }
+            model SVU_Door_FR_OffRoad_Light_Spiked
+            {
+                file = SVU_Door_FR_OffRoad_Light_Spiked,
+            }
+            model SVU_Door_FR_OffRoad_Reinforced
+            {
+                file = SVU_Door_FR_OffRoad_Reinforced,
+            }
+            model SVU_Door_FR_OffRoad_Heavy_Spiked
+            {
+                file = SVU_Door_FR_OffRoad_Heavy_Spiked,
+            }
+            model SVU_Door_RL_OffRoad_Paper
+            {
+                file = SVU_Door_RL_OffRoad_Paper,
+            }
+            model SVU_Door_RL_OffRoad_Light_Spiked
+            {
+                file = SVU_Door_RL_OffRoad_Light_Spiked,
+            }
+            model SVU_Door_RL_OffRoad_Reinforced
+            {
+                file = SVU_Door_RL_OffRoad_Reinforced,
+            }
+            model SVU_Door_RL_OffRoad_Heavy_Spiked
+            {
+                file = SVU_Door_RL_OffRoad_Heavy_Spiked,
+            }
+            model SVU_Door_RR_OffRoad_Paper
+            {
+                file = SVU_Door_RR_OffRoad_Paper,
+            }
+            model SVU_Door_RR_OffRoad_Light_Spiked
+            {
+                file = SVU_Door_RR_OffRoad_Light_Spiked,
+            }
+            model SVU_Door_RR_OffRoad_Reinforced
+            {
+                file = SVU_Door_RR_OffRoad_Reinforced,
+            }
+            model SVU_Door_RR_OffRoad_Heavy_Spiked
+            {
+                file = SVU_Door_RR_OffRoad_Heavy_Spiked,
+            }
+            model SVU_FL_Window_OffRoad_Paper
+            {
+                file = SVU_FL_Window_OffRoad_Paper,
+            }
+            model SVU_FL_Window_OffRoad_Light_Spiked
+            {
+                file = SVU_FL_Window_OffRoad_Light_Spiked,
+            }
+            model SVU_FL_Window_OffRoad_Reinforced
+            {
+                file = SVU_FL_Window_OffRoad_Reinforced,
+            }
+            model SVU_FL_Window_OffRoad_Heavy_Spiked
+            {
+                file = SVU_FL_Window_OffRoad_Heavy_Spiked,
+            }
+            model SVU_FR_Window_OffRoad_Paper
+            {
+                file = SVU_FR_Window_OffRoad_Paper,
+            }
+            model SVU_FR_Window_OffRoad_Light_Spiked
+            {
+                file = SVU_FR_Window_OffRoad_Light_Spiked,
+            }
+            model SVU_FR_Window_OffRoad_Reinforced
+            {
+                file = SVU_FR_Window_OffRoad_Reinforced,
+            }
+            model SVU_FR_Window_OffRoad_Heavy_Spiked
+            {
+                file = SVU_FR_Window_OffRoad_Heavy_Spiked,
+            }
+            model SVU_RL_Window_OffRoad_Paper
+            {
+                file = SVU_RL_Window_OffRoad_Paper,
+            }
+            model SVU_RL_Window_OffRoad_Light_Spiked
+            {
+                file = SVU_RL_Window_OffRoad_Light_Spiked,
+            }
+            model SVU_RL_Window_OffRoad_Reinforced
+            {
+                file = SVU_RL_Window_OffRoad_Reinforced,
+            }
+            model SVU_RL_Window_OffRoad_Heavy_Spiked
+            {
+                file = SVU_RL_Window_OffRoad_Heavy_Spiked,
+            }
+            model SVU_RR_Window_OffRoad_Paper
+            {
+                file = SVU_RR_Window_OffRoad_Paper,
+            }
+            model SVU_RR_Window_OffRoad_Light_Spiked
+            {
+                file = SVU_RR_Window_OffRoad_Light_Spiked,
+            }
+            model SVU_RR_Window_OffRoad_Reinforced
+            {
+                file = SVU_RR_Window_OffRoad_Reinforced,
+            }
+            model SVU_RR_Window_OffRoad_Heavy_Spiked
+            {
+                file = SVU_RR_Window_OffRoad_Heavy_Spiked,
+            }
+            model SVU_Hood_OffRoad_Heavy
+            {
+                file = SVU_Hood_OffRoad_Heavy,
+            }
+            model SVU_Bullbar_OffRoad_Small
+            {
+                file = SVU_Bullbar_OffRoad_Small,
+            }
+            model SVU_Bullbar_OffRoad_Medium
+            {
+                file = SVU_Bullbar_OffRoad_Medium,
+            }
+            model SVU_Bullbar_OffRoad_Large_Spiked
+            {
+                file = SVU_Bullbar_OffRoad_Large_Spiked,
+            }
+            model GSVU4_RoofLightsFallback_OffRoad
+            {
+                file = GSVU4_RoofLights_OffRoad,
+            }
+            model GSVU4_RoofLightsFallbackBulbs_OffRoad
+            {
+                file = GSVU4_RoofLightsBulbs_OffRoad,
+            }
+            model GSVU4_FilteredAirIntake_OffRoad
+            {
+                file = GSVU4_FilteredAirIntake_OffRoad,
+            }
+
+        
+            model SVU_Airscoop_OffRoad_Small
+            {
+                file = SVU_Airscoop_OffRoad_Small,
+            }
+
+            model SVU_Airscoop_OffRoad_Medium
+            {
+                file = SVU_Airscoop_OffRoad_Medium,
+            }
+
+            model SVU_Airscoop_OffRoad_Small_Round
+            {
+                file = SVU_Airscoop_OffRoad_Small_Round,
+            }
+
+            model SVU_Airscoop_OffRoad_Large
+            {
+                file = SVU_Airscoop_OffRoad_Large,
+            }
+
+            model SVU_Airscoop_OffRoad_Large_Round
+            {
+                file = SVU_Airscoop_OffRoad_Large_Round,
+            }
+
+            model SVU_Airscoop_OffRoad_Piped
+            {
+                file = SVU_Airscoop_OffRoad_Piped,
+            }
+}
+    }
+}

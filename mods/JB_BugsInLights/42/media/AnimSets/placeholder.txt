@@ -1,0 +1,2 @@
+For whatever reason PZ scans this folder and spits out an error if it doesn't exist.
+This file is so git doesn't forget about this folder.

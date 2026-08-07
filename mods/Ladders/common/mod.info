@@ -1,0 +1,8 @@
+name=Ladders?! B42.20
+id=Ladders4220
+description=Make it possible to climb ladders.
+poster=poster.png
+versionMin=42.20
+pack=ladders
+tiledef=ladderstiledefinitions 667
+incompatible=\LaddersEasyMode,\Ladders,\b42LaddersTemp

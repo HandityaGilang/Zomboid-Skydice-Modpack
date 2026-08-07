@@ -1,0 +1,254 @@
+module Base
+{
+    model GSVU4_RoofLights_CarNormal
+    {
+        mesh = vehicles/CarNormalArmor|rooflights,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_RoofLightsBulbs_CarNormal
+    {
+        mesh = vehicles/CarNormalArmor|rooflights_bulbs,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_RoofLights_CarWagon
+    {
+        mesh = vehicles/CarWagonArmor|rooflights,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_RoofLightsBulbs_CarWagon
+    {
+        mesh = vehicles/CarWagonArmor|rooflights_bulbs,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_RoofLights_SmallCar
+    {
+        mesh = vehicles/SmallCarArmor|rooflights,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_RoofLightsBulbs_SmallCar
+    {
+        mesh = vehicles/SmallCarArmor|rooflights_bulbs,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_RoofLights_SmallCar02
+    {
+        mesh = vehicles/SmallCar02Armor|rooflights,
+        texture = Vehicles/puv_parts,
+        scale = 0.0001,
+    }
+
+    model GSVU4_RoofLightsBulbs_SmallCar02
+    {
+        mesh = vehicles/SmallCar02Armor|rooflights_bulbs_vve,
+        texture = Vehicles/puv_parts,
+        scale = 0.0001,
+    }
+
+    model GSVU4_RoofLightsFallbackModel_SmallCar02
+    {
+        mesh = vehicles/SmallCar02Armor|rooflights,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+    model GSVU4_RoofLightsFallbackModelBulbs_SmallCar02
+    {
+        mesh = vehicles/SmallCar02Armor|rooflights_bulbs_vve,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_RoofLights_LuxuryCar
+    {
+        mesh = vehicles/LuxuryCarArmor|rooflights,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_RoofLightsBulbs_LuxuryCar
+    {
+        mesh = vehicles/LuxuryCarArmor|rooflights_bulbs,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_RoofLights_SportsCar
+    {
+        mesh = vehicles/SportsCarArmor|rooflights,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_RoofLightsBulbs_SportsCar
+    {
+        mesh = vehicles/SportsCarArmor|rooflights_bulbs,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_RoofLights_RaceCar
+    {
+        mesh = vehicles/SportsCarArmor|rooflights,
+        texture = Vehicles/puv_parts,
+        scale = 0.0001,
+    }
+
+    model GSVU4_RoofLightsBulbs_RaceCar
+    {
+        mesh = vehicles/SportsCarArmor|rooflights_bulbs,
+        texture = Vehicles/puv_parts,
+        scale = 0.0001,
+    }
+
+    model GSVU4_RoofLightsFallbackModel_RaceCar
+    {
+        mesh = vehicles/SportsCarArmor|rooflights,
+        texture = Vehicles/puv_parts,
+        scale = 0.00529,
+    }
+
+    model GSVU4_RoofLightsFallbackModelBulbs_RaceCar
+    {
+        mesh = vehicles/SportsCarArmor|rooflights_bulbs,
+        texture = Vehicles/puv_parts,
+        scale = 0.00529,
+    }
+
+    model GSVU4_RoofLights_CarModern
+    {
+        mesh = vehicles/CarModernArmor|rooflights,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_RoofLightsBulbs_CarModern
+    {
+        mesh = vehicles/CarModernArmor|rooflights_bulbs,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_RoofLights_CarModern2
+    {
+        mesh = vehicles/CarModern2Armor|rooflights,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_RoofLightsBulbs_CarModern2
+    {
+        mesh = vehicles/CarModern2Armor|rooflights_bulbs,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_RoofLights_SUV
+    {
+        mesh = vehicles/SUVArmor|rooflights,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_RoofLightsBulbs_SUV
+    {
+        mesh = vehicles/SUVArmor|rooflights_bulbs,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_RoofLights_OffRoad
+    {
+        mesh = vehicles/OffRoadArmor|rooflights,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_RoofLightsBulbs_OffRoad
+    {
+        mesh = vehicles/OffRoadArmor|rooflights_bulbs,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_RoofLights_PickUp
+    {
+        mesh = vehicles/PickUpArmor|rooflights,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_RoofLightsBulbs_PickUp
+    {
+        mesh = vehicles/PickUpArmor|rooflights_bulbs,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_RoofLights_StepVan
+    {
+        mesh = vehicles/StepVanArmor|rooflights,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_RoofLightsBulbs_StepVan
+    {
+        mesh = vehicles/StepVanArmor|rooflights_bulbs,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_RoofLights_Van
+    {
+        mesh = vehicles/VanArmor|rooflights,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_RoofLightsBulbs_Van
+    {
+        mesh = vehicles/VanArmor|rooflights_bulbs,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_RoofLights_DashRoamer
+    {
+        mesh = vehicles/DashRoamerArmor|rooflights,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_RoofLightsBulbs_DashRoamer
+    {
+        mesh = vehicles/DashRoamerArmor|rooflights_bulbs,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_RoofLights_GMCVan
+    {
+        mesh = vehicles/GMCVanArmor|rooflights,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_RoofLightsBulbs_GMCVan
+    {
+        mesh = vehicles/GMCVanArmor|rooflights_bulbs,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+}

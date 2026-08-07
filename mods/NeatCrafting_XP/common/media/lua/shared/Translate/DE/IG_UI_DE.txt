@@ -1,0 +1,18 @@
+IGUI_DE = {
+	IGUI_XP_NC_ShowAllRecipe_tooltip = "Alle Rezepte anzeigen, <LINE> auch wenn die passende Werkbank nicht vorhanden ist.",
+	IGUI_XP_NC_ShowOnlyXPAward = "Nur Rezepte anzeigen, die XP geben.",
+	IGUI_XP_NC_ShowOnlyModRecipes = "Nur Rezepte aus Mods anzeigen.",
+	IGUI_XP_NC_SetPanelMinSize_tooltip = "Panel auf Mindestgröße setzen",
+	IGUI_NC_InputItemSelected = "Aktuelle Auswahl",
+	IGUI_NC_RequiredSkills = "Erforderliche Fähigkeiten",
+	IGUI_NC_SearchAsInput = "In Rezepten verwendet",
+	IGUI_NC_SearchAsOutput = "Von Rezepten erstellt",
+	IGUI_NC_SearchForCraft = "Rezeptsuche",
+	IGUI_NC_ShowOnlyBenefitFromRecipes = "Nur mit aktuellen Gegenständen nützlich",
+	IGUI_NC_ShowOnlyCanCraft = "Nur herstellbar",
+	IGUI_NC_ShowOnlyRecipesKnew = "Nur bekannte Rezepte",
+	IGUI_NC_ShowOnlymetSkillRequire = "Nur erfüllte Fähigkeiten",
+	IGUI_NC_SortRecipeList = "Rezeptliste sortieren",
+	IGUI_NC_SwitchToGridLayout = "Zur Rasteransicht wechseln",
+	IGUI_NC_SwitchToListLayout = "Zur Listenansicht wechseln",
+}

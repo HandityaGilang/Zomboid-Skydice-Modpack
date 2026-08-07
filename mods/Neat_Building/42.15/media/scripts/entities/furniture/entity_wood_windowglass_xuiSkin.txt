@@ -1,0 +1,12 @@
+module Base
+{
+    xuiSkin default
+    {
+        entity ES_Wooden_Windows
+        {
+            LuaWindowClass = ISEntityWindow,
+            DisplayName = NBEntityName_WoodenWindows,
+            Icon = Build_fixtures_windows_01_1,
+        }
+    }
+}

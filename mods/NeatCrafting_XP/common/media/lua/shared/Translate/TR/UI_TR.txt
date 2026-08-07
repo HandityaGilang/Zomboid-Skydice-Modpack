@@ -1,0 +1,15 @@
+UI_TR = {
+	UI_XP_NC_xpShow = "XP Gösterimi",
+	UI_XP_NC_xpShow_tooltip = "Üretim tarifeleri için deneyim puanlarının (XP) görüntülenmesini etkinleştirir. <LINE> 'XP Gösterim Biçimi' bu bilginin nasıl gösterileceğini tanımlar. <LINE> <LINE> Kullanılabilir biçimler: <LINE> - Temel XP: Tarifeden verilen temel XP'yi gösterir. <LINE> - Nihai XP: Tüm çarpanlar uygulandıktan sonraki toplam XP'yi gösterir. <LINE> - Çarpan: Temel XP'yi, toplam çarpanı ve nihai XP'yi gösterir (ör.: +5 * 3,5 = 17,5). <LINE> - Ayrıntı dökümü: Temel XP'yi, tüm çarpanların ayrıntılarını ve nihai XP'yi gösterir. <LINE> Etkenler: <LINE> - Başlangıç Seviye Çarpanı: Seviye 0 (x0,25), Seviye 1 (x1,00), Seviye 2 (x1,33), Seviye 3+ (x1,66) <LINE> - Yetenek Kitabı Çarpanı: Kitaplar 1–5 (x3, x5, x8, x12, x16). Nişan Alma, Şarjör Doldurma ve Uzun Kesici için bunun yarısı. <LINE> - Özellik Çarpanı: Hızlı Öğrenci (x1,3), Yavaş Öğrenci (x0,7) <LINE> - Sandbox Seçenekleri Çarpanı: Genel değer veya beceri türüne özel bir değer.",
+	UI_XP_NC_xpFormat = "XP Gösterim Biçimi",
+	UI_XP_NC_xpFormat_BasicXP = "Temel XP",
+	UI_XP_NC_xpFormat_FinalXP = "Nihai XP",
+	UI_XP_NC_xpFormat_Multiplier = "Çarpan",
+	UI_XP_NC_xpFormat_Breakdown = "Ayrıntı dökümü",
+	UI_XP_NC_showRecipeMod = "Tarif modunu göster",
+	UI_XP_NC_showRecipeMod_tooltip = "Tarifin kaynak modunu tarif panelinde 'Mod: ...' satırı olarak gösterir.",
+	UI_XP_NC_modPrefix = "Mod: ",
+	UI_XP_NC_textScale = "Ek satır metni ölçeği",
+	UI_XP_NC_textScale_tooltip = "XP ve 'Mod' satırlarının yazı tipi boyutu.",
+	UI_XP_NC_xpFormat_tooltip = "Choose how recipe XP is displayed. <LINE> <LINE> - Basic XP: Shows the base XP. <LINE> - Final XP: Shows the final XP after multipliers. <LINE> - Multiplier: Shows only the multiplier value(s). <LINE> - Full breakdown: Shows base XP, multiplier(s) and final XP.",
+}

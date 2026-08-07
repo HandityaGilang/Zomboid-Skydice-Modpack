@@ -1,0 +1,8 @@
+UI_IT = {
+	UI_characreation_character = "Personaggio",
+	UI_IHM_UseImprovedHairPicker = "Selettore colore avanzato",
+	UI_IHM_UseImprovedHairPicker_Tooltip = "ATTIVO: Tutti i colori.<br>DISATTIVO: Colori vanilla.",
+	UI_IHM_Source_Vanilla = "Vanilla",
+	UI_IHM_Source_All = "Tutti",
+	UI_IHM_Controls = "Controlli",
+}

@@ -1,0 +1,59 @@
+Sandbox_TR = {
+	Sandbox_GydeTraitMags = "Gyde'�n �zellik Dergileri"
+	
+	Sandbox_GydeTraitMags_NegToPos = "Negatif �zellikten pozitif �zellige"
+	Sandbox_GydeTraitMags_NegToPos_tooltip = "Karakter oyuna negatif bir �zellikle basladiysa, bu �zelligin pozitif s�r�m�n� kazanmayi saglar (�rn.: Pazar s�r�c�s� ? Hiz seytani).\n\nBu se�enek \"T�ketilebilir dergiler\" ayariyla birlikte etkinlestirilirse, negatif �zellikten pozitif �zellige ge�mek i�in 2 dergi gerekir."
+
+	Sandbox_GydeTraitMags_ReadRemove = "Okudu�unda �zellikleri Kald�r"
+	Sandbox_GydeTraitMags_ReadRemove_tooltip = "Bir �zellik dergisi okumak, e�er oyuncunun varsa, ili�kili �zelli�i kald�racakt�r."
+
+	Sandbox_GydeTraitMags_DaysBeforeRead = "Okunabilir Olmadan �nceki G�nler"
+	Sandbox_GydeTraitMags_DaysBeforeRead_tooltip = "�zellik dergilerinin okunabilmesi i�in beklenmesi gereken g�n say�s�; maksimum de�er 1 y�ld�r."
+
+	Sandbox_GydeTraitMags_SpawnRate = "Dergi Do�ma Oran�"
+	Sandbox_GydeTraitMags_SpawnRate_tooltip = "Dergilerin Do�ma S�kl���n� De�i�tirir. Daha Fazla bilgi i�in At�lye Sayfas�na gidin."
+	Sandbox_GydeTraitMags_SpawnRate_option1 = "�ok D���k"
+	Sandbox_GydeTraitMags_SpawnRate_option2 = "D���k"
+	Sandbox_GydeTraitMags_SpawnRate_option3 = "Varsay�lan"
+	Sandbox_GydeTraitMags_SpawnRate_option4 = "Y�ksek"
+	Sandbox_GydeTraitMags_SpawnRate_option5 = "A��r� Y�ksek"
+
+	Sandbox_GydeTraitMags_SpawnSpeedDemon = "H�z �eytan�" Dergi Olu�umlar�"
+	Sandbox_GydeTraitMags_SpawnSpeedDemon_tooltip = "H�z �eytan� dergisinin oyunda do�mas�n� durdurmak i�in devre d��� b�rak.\n\n�zellik A��klamas�:\n200% vites de�i�tirme h�z�, t�m ara�lar i�in 115% maksimum h�z.."
+
+	Sandbox_GydeTraitMags_SpawnNutritionist = "Diyetisyen" Dergi Olu�umlar�"
+	Sandbox_GydeTraitMags_SpawnNutritionist_tooltip = "Diyetisyen dergisinin oyunda do�mas�n� durdurmak i�in devre d��� b�rak.\n\n�zellik A��klamas�:\nOyuncunun Herhangi Bir Yiyece�in Besin De�erini g�rmesini sa�lar, Paketlenmemi� Olanlar� Bile."
+
+	Sandbox_GydeTraitMags_SpawnOrganized = "D�zenli" Dergi Olu�umlar�"
+	Sandbox_GydeTraitMags_SpawnOrganized_tooltip = "D�zenli dergisinin oyunda do�mas�n� durdurmak i�in devre d��� b�rak.\n\n�zellik A��klamas�:\n130% Kutular, dolaplar ve arabalar dahil olmak �zere t�m konteynerler i�in %130 Kapasite."
+
+	Sandbox_GydeTraitMags_SpawnOutdoorsman = "Do�a �nsan�" Dergi Olu�umlar�"
+	Sandbox_GydeTraitMags_SpawnOutdoorsman_tooltip = "Do�a �nsan� dergisinin oyunda do�mas�n� durdurmak i�in devre d��� b�rak.\n\n�zellik A��klamas�:\n10% �ansla nezle kapma. A�a�lar�n i�inden y�r�rken veya ko�arken �izilme/yaralanma �ans� %1 ya da %1.25. Delinmi� tahtalarla kamp ate�lerinde ate� yakma s�resi daha h�zl�."
+
+	Sandbox_GydeTraitMags_SpawnHandy = "H�nerli" Dergi Olu�umlar�"
+	Sandbox_GydeTraitMags_SpawnHandy_tooltip = "H�nerli dergisinin oyunda do�mas�n� durdurmak i�in devre d��� b�rak.\n\n�zellik A��klamas�:\nT�m yap�lar i�in +100 Sa�l�k Puan�.\nYap�m h�z�n� art�r�r (~%11)."
+
+	Sandbox_GydeTraitMags_SpawnFastReader = "H�zl� Okuyan" Dergi Olu�umlar�"
+	Sandbox_GydeTraitMags_SpawnFastReader_tooltip = "H�zl� Okuyan dergisinin oyunda do�mas�n� durdurmak i�in devre d��� b�rak.\n\n�zellik A��klamas�:\n130% Okuma H�z�."
+
+	Sandbox_GydeTraitMags_SpawnFastLearner = "H�zl� ��renen" Dergi Olu�umlar�"
+	Sandbox_GydeTraitMags_SpawnFastLearner_tooltip = "H�zl� ��renen dergisinin oyunda do�mas�n� durdurmak i�in devre d��� b�rak.\n\n�zellik A��klamas�:\nG�� ve Fitness hari� t�m beceriler i�in %130 Beceri Puan�."
+
+	Sandbox_GydeTraitMags_SpawnAxeMan = "Baltac�" Dergi Olu�umlar�"
+	Sandbox_GydeTraitMags_SpawnAxeMan_tooltip = "Baltac� dergisinin oyunda do�mas�n� durdurmak i�in devre d��� b�rak.\n\n�zellik A��klamas�:\nBalta sallama h�z� %25 daha h�zl� (Sald�r� ve a�a� kesme i�in)."
+
+	Sandbox_GydeTraitMags_SpawnBurglar = "H�rs�z" Dergi Olu�umlar�"
+	Sandbox_GydeTraitMags_SpawnBurglar_tooltip = "H�rs�z dergisinin oyunda do�mas�n� durdurmak i�in devre d��� b�rak.\n\n�zellik A��klamas�:\nAra�lara D�z Kontak Yapabilir ve bir pencereyi zorla a�arken kilidi k�rma �ans� daha d���kt�r."
+
+	Sandbox_GydeTraitMags_SpawnDextrous = "Eli �abuk" Dergi Olu�umlar�"
+	Sandbox_GydeTraitMags_SpawnDextrous_tooltip = "Eli �abuk dergisinin oyunda do�mas�n� durdurmak i�in devre d��� b�rak.\n\n�zellik A��klamas�:\nEnvanter aktarma s�resini %50 azalt�r."
+
+	Sandbox_GydeTraitMags_SpawnGraceful = "Zarif" Dergi Olu�umlar�"
+	Sandbox_GydeTraitMags_SpawnGraceful_tooltip = "Zarif dergisinin oyunda do�mas�n� durdurmak i�in devre d��� b�rak.\n\n�zellik A��klamas�:\nAd�m sesinin etki alan� %60.\nD���k bir �it �zerinden ko�arken veya zombilere do�ru atlay�� yaparken tak�lma �ans� %90."
+
+	Sandbox_GydeTraitMags_SpawnInconspicuous = "Farkedilmeyen" Dergi Olu�umlar�"
+	Sandbox_GydeTraitMags_SpawnInconspicuous_tooltip = "Farkedilmeyen dergisinin oyunda do�mas�n� durdurmak i�in devre d��� b�rak.\n\n�zellik A��klamas�:\nZombilerin seni fark etme �ans� %50."
+
+	Sandbox_GydeTraitMags_SpawnKeenHearing = "Keskin Kulakl�" Dergi Olu�umlar�"
+	Sandbox_GydeTraitMags_SpawnKeenHearing_tooltip = "Keskin Kulakl� dergisinin oyunda do�mas�n� durdurmak i�in devre d��� b�rak.\n\n�zellik A��klamas�:\nAlg�lama alan� %200 art�r�ld�. Arkadan yakla�an zombiler �ok daha �nce g�r�n�r olacak."
+}

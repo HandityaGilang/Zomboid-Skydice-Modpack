@@ -1,0 +1,118 @@
+module Base
+{
+	item SteelLadder
+    {
+        Weight	=	20.0,
+        ItemType	=	base:moveable,
+        DisplayCategory = Furniture,
+        Icon	=	SteelLadder,
+        WorldObjectSprite = industry_railroad_05_36,
+    }
+	item WoodenLadder
+    {
+		DisplayCategory   = Furniture,
+		ItemType		  =	base:moveable,
+		Icon              = WoodenLadder,
+		Weight            = 20.0,
+		WorldObjectSprite = industry_railroad_05_20,
+     }
+	item CollapsibleLadder
+    {
+        DisplayCategory = Furniture,
+        ItemType = base:moveable,
+        Icon = SteelLadder,
+        Weight = 10.0,
+        WorldObjectSprite = ladders_01_0,
+        Researchablerecipes = CraftCollapsibleLadder,
+    }
+	item CollapsibleLadder_Packed
+    {
+        DisplayCategory = Furniture,
+        ItemType = base:normal,
+        Weight = 5.0,
+        Icon = SteelLadder_Packed,
+		AttachmentType = Wrench,
+	    primaryAnimMask = HoldingTorchRight,
+        secondaryAnimMask = HoldingTorchLeft,
+        WorldStaticModel = CollapsibleLadder_Ground,
+        StaticModel = CollapsibleLadder,
+        Researchablerecipes = CraftCollapsibleLadder,
+    }
+	model CollapsibleLadder
+    {
+        mesh = WorldItems/CollapsibleLadder,
+        texture = WorldItems/CollapsibleLadder,
+        scale = 1,
+
+        attachment wrench_left
+        {
+            offset = 0.0251 0.2176 0.0231,
+            rotate = -84.9924 -6.5992 -2.6336,
+            scale = 1.2218,
+        }
+
+        attachment wrench_right
+        {
+            offset = 0.0177 0.1975 0.0002,
+            rotate = -93.9926 -6.4410 -2.4629,
+            scale = 1.2218,
+        }
+    }
+	model CollapsibleLadder_Ground
+    {
+        mesh = WorldItems/CollapsibleLadder,
+        texture = WorldItems/CollapsibleLadder,
+        scale = 1,
+
+    }
+	craftRecipe PackCollapsibleLadder
+    {
+        timedAction = Making,
+        time = 50,
+        Tags = InHandCraft;CanBeDoneInDark,
+        category = Miscellaneous,
+        inputs
+        {
+            item 1 [Base.CollapsibleLadder],
+        }
+        outputs
+		{
+			item 1 Base.CollapsibleLadder_Packed,
+		}
+    }
+	craftRecipe UnpackCollapsibleLadder
+    {
+        timedAction = Making,
+        time = 50,
+        Tags = InHandCraft;CanBeDoneInDark,
+        category = Miscellaneous,
+        inputs
+        {
+            item 1 [Base.CollapsibleLadder_Packed],
+        }
+        outputs
+		{
+			item 1 Base.CollapsibleLadder,
+		}
+    }
+	craftRecipe CraftCollapsibleLadder
+    {
+        timedAction = Making,
+        time = 50,
+        Tags = AnySurfaceCraft,
+		SkillRequired = Maintenance:2,
+		xpAward = Maintenance:20,
+        category = Assembly,
+		AutoLearnAll = Maintenance:4,
+        inputs
+        {
+			item 1 tags[base:screwdriver] mode:keep,
+            item 4 [Base.Screws],
+            item 4 [Base.IronBar;Base.SteelBar],
+        }
+        outputs
+		{
+			item 1 Base.CollapsibleLadder_Packed,
+		}
+    }
+}

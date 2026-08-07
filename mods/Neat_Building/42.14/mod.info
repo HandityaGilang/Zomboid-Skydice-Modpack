@@ -1,0 +1,13 @@
+name=Neat Building
+id=Neat_Building
+poster=poster.png
+icon=icon.png
+author=Rocco, Afyrmo
+modversion=1.7.3
+versionMin=42.14.0
+versionMax=42.14.99
+pack=NeatBuilding_Tiles
+tiledef=NeatBuilding_Tiles 7811
+incompatible=\Buildables_Expansion,\DiagonalFloorsMod,\BuildableLogFence,\StairsEastSouth,\Neat_Building_UIOnly,\Neat_Building_Buildables_SESCompat,\Neat_Building_Railings
+description=Neat Building full legacy variant. Includes the Neat Building UI and all Neat Building buildable recipes/entities. Use this variant for existing saves/servers that already used id=Neat_Building. Do not enable together with Stairs East & South or the modular Neat Building variants. Avoid removing from existing saves without a backup. If you need to remove it from an existing save/server, use Neat Building - Safe Uninstall Support (mod ID: Neat_Building_SafeUninstallSupport, Workshop ID: 3743063232) instead of removing it directly. Reviewed for Project Zomboid Build 42.20.
+require=\NeatUI_Framework

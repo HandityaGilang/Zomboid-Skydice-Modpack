@@ -1,0 +1,9 @@
+VERSION = 1,
+
+option HereGoesTheSun.EnableGodRays {
+    page = HGTS,
+	translation = HereGoesTheSun_EnableGodRays,
+	tooltip = HereGoesTheSun_EnableGodRays_Tooltip,
+	type = boolean,
+	default = true,
+}

@@ -1,0 +1,17 @@
+UI_IT = {
+    UI_XP_NB_xpShow = "Mostra XP",
+    UI_XP_NB_xpShow_tooltip = "Abilita la visualizzazione degli XP delle ricette. <LINE> 'Formato visualizzazione XP' definisce come vengono mostrate queste informazioni. <LINE> <LINE><RGB:0.392,0.584,0.929> Formati disponibili: <LINE><RGB:1,1,1> - XP base: Mostra gli XP base (senza moltiplicatori). <LINE> - XP finale: Mostra gli XP dopo tutti i moltiplicatori. <LINE> - Moltiplicatore: Mostra il moltiplicatore totale applicato agli XP base e gli XP finali (BaseXP * multiplier = FinalXP). <LINE> - Scomposizione: Mostra gli XP base, una ripartizione dettagliata di tutti i moltiplicatori e gli XP finali. <LINE><LINE><RGB:0.392,0.584,0.929> I fattori sono: <LINE><RGB:1,1,1> - Moltiplicatore del livello iniziale: Livello 0 (x0.25), Livello 1 (x1.00), Livello 2 (x1.33), Livello 3+ (x1.66) <LINE> - Moltiplicatore dei libri abilità: Libri 1-5 (x3, x5, x8, x12, x16). La metà per Mira, Ricarica e Lama lunga. <LINE> - Moltiplicatore dei tratti: Allievo modello (x1.3), Allievo distratto (x0.7), Crafty (x1.3 solo quando l'abilità appartiene alla categoria Artigianato). In Scomposizione, Allievo modello/Allievo distratto e Crafty vengono combinati in un unico moltiplicatore dei tratti. <LINE> - Moltiplicatore opzioni sandbox: Un valore globale o un valore specifico per tipo di abilità.",
+    UI_XP_NB_xpFormat = "Formato visualizzazione XP",
+    UI_XP_NB_xpFormat_tooltip = "Formato visualizzazione XP",
+    UI_XP_NB_xpFormat_BasicXP = "XP base",
+    UI_XP_NB_xpFormat_FinalXP = "XP finale",
+    UI_XP_NB_xpFormat_Multiplier = "Moltiplicatore",
+    UI_XP_NB_xpFormat_Breakdown = "Scomposizione",
+    UI_XP_NB_showRecipeMod = "Mostra mod della ricetta",
+    UI_XP_NB_showRecipeMod_tooltip = "Mostra il mod d’origine della ricetta come la linea 'Mod' nel pannello delle ricette.",
+    UI_XP_NB_textScale = "Dimensione del testo delle righe extra",
+    UI_XP_NB_textScale_tooltip = "Dimensione del carattere per le righe di XP e la linea 'Mod'.",
+    UI_XP_NB_modPrefix = "Mod: ",
+    UI_XP_NB_modNeat = "Neat Building",
+    UI_XP_NB_modOther = "Altro",
+}

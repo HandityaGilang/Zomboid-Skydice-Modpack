@@ -1,0 +1,69 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Wood_RedPanelWall
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_RedWoodenPanelWall,
+			Icon		= Build_walls_exterior_house_02_69,
+		}
+	}
+
+    entity Wood_RedPanelWall
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Wood_RedPanelWall,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+			LogicClass      = WoodenWall,
+			health          = 800,
+			skillBaseHealth = 70,
+			breakSound      = ZombieThumpWoodCollapse,
+            previousStage   = WoodenWallFrame;MetalWallFrame,
+            OnCreate        = NB_BuildRecipeCode.NewWall.OnCreate,
+
+            face W
+            {
+                layer
+                {
+                    row = walls_exterior_house_02_68,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = walls_exterior_house_02_69,
+                }
+            }
+			
+            corner = walls_exterior_house_02_71,
+        }
+		
+        component CraftRecipe
+        {
+            OnAddToMenu   = ignoreFromBuildMenu,
+            timedAction   = BuildWallNoTool,
+            time          = 200,
+            category      = Walls,
+            SkillRequired = Woodwork:6,
+            xpAward       = Woodwork:60,
+            ToolTip       = Tooltip_craft_NeedsWallframeDesc,
+            inputs
+            {
+                item 1 tags[PlasterTrowel;MasonsTrowel] mode:keep flags[Prop1],
+                item 1 tags[base:hammer] mode:keep flags[Prop2;MayDegradeVeryLight],
+                item 1 [Base.PaintRed] flags[DontRecordInput],
+                item 1 [Base.BucketPlasterFull] flags[DontRecordInput],
+                item 2 [Base.Plank],
+                item 4 [Base.Nails],
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "UI_XP_NB_xpShow": "XP Gösterimi",
+    "UI_XP_NB_xpShow_tooltip": "Tarif XP'sinin gösterimini etkinleştirir. <LINE> 'XP Gösterim Biçimi' bu bilginin nasıl gösterileceğini belirler. <LINE> <LINE><RGB:0.392,0.584,0.929> Kullanılabilir formatlar: <LINE><RGB:1,1,1> - Temel XP: Temel XP'yi gösterir (çarpan yok). <LINE> - Nihai XP: Tüm çarpanlardan sonraki XP'yi gösterir. <LINE> - Çarpan: Temel XP'ye uygulanan toplam çarpanı ve nihai XP'yi gösterir (BaseXP * multiplier = FinalXP). <LINE> - Ayrıntı dökümü: Temel XP'yi, tüm çarpanların ayrıntılı dökümünü ve nihai XP'yi gösterir. <LINE><LINE><RGB:0.392,0.584,0.929> Faktörler: <LINE><RGB:1,1,1> - Başlangıç seviye çarpanı: Seviye 0 (x0.25), Seviye 1 (x1.00), Seviye 2 (x1.33), Seviye 3+ (x1.66) <LINE> - Beceri kitabı çarpanı: Kitaplar 1-5 (x3, x5, x8, x12, x16). Aiming, Reloading ve Long Blade için bunun yarısı. <LINE> - Özellik çarpanı: Hızlı Öğrenen (x1.3), Yavaş Öğrenen (x0.7), Crafty (yetenek Üretkenlik kategorisine ait olduğunda yalnızca x1.3). Ayrıntı dökümü görünümünde Hızlı Öğrenen/Yavaş Öğrenen ve Crafty tek bir özellik çarpanında birleştirilir. <LINE> - Sandbox seçenekleri çarpanı: Genel bir değer veya beceri türü başına özel bir değer.",
+    "UI_XP_NB_xpFormat": "XP Gösterim Biçimi",
+    "UI_XP_NB_xpFormat_tooltip": "XP Gösterim Biçimi",
+    "UI_XP_NB_xpFormat_BasicXP": "Temel XP",
+    "UI_XP_NB_xpFormat_FinalXP": "Nihai XP",
+    "UI_XP_NB_xpFormat_Multiplier": "Çarpan",
+    "UI_XP_NB_xpFormat_Breakdown": "Ayrıntı dökümü",
+    "UI_XP_NB_showRecipeMod": "Tarif modunu göster",
+    "UI_XP_NB_showRecipeMod_tooltip": "Tarifin kaynak modunu tarif panelinde 'Mod: ...' satırı olarak gösterir.",
+    "UI_XP_NB_textScale": "Ek satır metni ölçeği",
+    "UI_XP_NB_textScale_tooltip": "XP ve 'Mod' satırlarının yazı tipi boyutu.",
+    "UI_XP_NB_modPrefix": "Mod: ",
+    "UI_XP_NB_modNeat": "Neat Building",
+    "UI_XP_NB_modOther": "Diğer"
+}

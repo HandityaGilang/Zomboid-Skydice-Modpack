@@ -1,0 +1,16 @@
+{
+    "Sandbox_IH":  "Puenteo inmersivo",
+    "Sandbox_IH_Screwdrivers":  "Herramientas para desatornillar | Objetos",
+    "Sandbox_IH_Screwdrivers_tooltip":  "Lista de objetos separada por comas o punto y coma",
+    "Sandbox_IH_ScrewdriversTags":  "| Etiquetas",
+    "Sandbox_IH_ScrewdriversTags_tooltip":  "Lista de etiquetas de objetos separada por comas o punto y coma",
+    "Sandbox_IH_Pliers":  "Herramientas para cortar cables | Objetos",
+    "Sandbox_IH_Pliers_tooltip":  "Lista de objetos separada por comas o punto y coma",
+    "Sandbox_IH_PliersTags":  "| Etiquetas",
+    "Sandbox_IH_PliersTags_tooltip":  "Lista de etiquetas de objetos separada por comas o punto y coma",
+    "Sandbox_IH_HotwireEveryTime":  "Mostrar puenteo siempre",
+    "Sandbox_IH_HotwireEveryTime_tooltip":  "Abrir siempre la interfaz de puenteo al intentar arrancar un vehículo ya puenteado",
+    "Sandbox_IH_DucttapeNeededToUnhotwire":  "Se necesita cinta aislante para revertir el puenteo",
+    "Sandbox_IH_ShowDragLine":  "Mostrar línea de arrastre",
+    "Sandbox_IH_ShowDragLine_tooltip":  "Mostrar la línea punteada mientras se arrastra un cable"
+}

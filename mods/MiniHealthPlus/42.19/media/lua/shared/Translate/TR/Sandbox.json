@@ -1,0 +1,9 @@
+{
+    "Sandbox_MHP": "Mini Health Plus",
+    "Sandbox_MHP_EnableReplaceBandage": "Bandaj Değiştirmeyi Etkinleştir",
+    "Sandbox_MHP_EnableReplaceBandage_tooltip": "Kirli bandajlar için bağlam menüsüne 'Bandajı Değiştir' seçeneğini ekler.",
+    "Sandbox_MHP_ShowSafeRemoveIndicator": "Güvenli çıkarma için mavi gösterge",
+    "Sandbox_MHP_ShowSafeRemoveIndicator_tooltip": "Bir bandaj veya atel güvenle çıkarılabildiğinde mavi göstergeyi gösterir.",
+    "Sandbox_MHP_ShowStitchInspectIndicator": "Dikiş kontrolü için mor gösterge",
+    "Sandbox_MHP_ShowStitchInspectIndicator_tooltip": "Dikilmiş yaralar kontrol edilmesi gerektiğinde mor göstergeyi gösterir."
+}

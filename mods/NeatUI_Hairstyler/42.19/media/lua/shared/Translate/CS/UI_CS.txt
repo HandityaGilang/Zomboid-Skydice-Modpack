@@ -1,0 +1,8 @@
+UI_CS = {
+	UI_characreation_character = "Postava",
+	UI_IHM_UseImprovedHairPicker = "Vylepšený výběr barev",
+	UI_IHM_UseImprovedHairPicker_Tooltip = "ZAP: všechny barvy.<br>VYP: základní barvy.",
+	UI_IHM_Source_Vanilla = "Vanilla",
+	UI_IHM_Source_All = "Vše",
+	UI_IHM_Controls = "Ovládání",
+}

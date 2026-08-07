@@ -1,0 +1,11 @@
+{
+    "Base.BattleShip_Box": "Caixa de cuirassats",
+    "Base.BattleShip_GameStand": "Battleship Gamesstand",
+    "Base.BattleShip_Peg_Red": "Pega vermella",
+    "Base.BattleShip_Peg_White": "Pega Blanca",
+    "Base.BattleShip_Ship_Battleship": "Cuirassat",
+    "Base.BattleShip_Ship_Carrier": "Portador",
+    "Base.BattleShip_Ship_Destroyer": "Destructor",
+    "Base.BattleShip_Ship_Submarine": "Submarí",
+    "Base.BattleShip_Ship_PatrolBoat": "Vaixell de patrulla"
+}

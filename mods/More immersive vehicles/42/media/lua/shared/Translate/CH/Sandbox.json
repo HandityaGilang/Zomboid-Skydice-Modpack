@@ -1,0 +1,19 @@
+{
+    "Sandbox_MoreImmersiveVehicles": "More Immersive Vehicles",
+    "Sandbox_ParkOpenedDoorChance": "停車位車門敞開機率",
+    "Sandbox_ParkOpenedDoorChance_tooltip": "出現在停車位的汽車車門敞開的機率。",
+    "Sandbox_ParkOpenedTrunkDoorChance": "停車位後車廂敞開機率",
+    "Sandbox_ParkOpenedTrunkDoorChance_tooltip": "出現在停車位的汽車後車廂敞開的機率。",
+    "Sandbox_ParkOpenedEngineDoorChance": "停車位引擎蓋敞開機率",
+    "Sandbox_ParkOpenedEngineDoorChance_tooltip": "出現在停車位的汽車引擎蓋敞開的機率。",
+    "Sandbox_ParkOpenedWindowChance": "停車位車窗敞開機率",
+    "Sandbox_ParkOpenedWindowChance_tooltip": "出現在停車位的汽車車窗敞開的機率。",
+    "Sandbox_RoadOpenedDoorChance": "道路上車門敞開機率",
+    "Sandbox_RoadOpenedDoorChance_tooltip": "出現在道路上或塞車中的汽車車門敞開的機率。",
+    "Sandbox_RoadOpenedTrunkDoorChance": "道路上後車廂敞開機率",
+    "Sandbox_RoadOpenedTrunkDoorChance_tooltip": "出現在道路上或塞車中的汽車後車廂敞開的機率。",
+    "Sandbox_RoadOpenedEngineDoorChance": "道路上引擎蓋敞開機率",
+    "Sandbox_RoadOpenedEngineDoorChance_tooltip": "出現在道路上或塞車中的汽車引擎蓋敞開的機率。",
+    "Sandbox_RoadOpenedWindowChance": "道路上車窗敞開機率",
+    "Sandbox_RoadOpenedWindowChance_tooltip": "出現在道路上或塞車中的汽車車窗敞開的機率。"
+}

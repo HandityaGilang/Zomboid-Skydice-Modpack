@@ -1,0 +1,209 @@
+module Base
+{
+    template vehicle GSVU4_SVU3_BodyAnchor_LuxuryCar
+    {
+        part GSVU4_SVU3_LuxuryCar_BodyAnchor
+        {
+            area = Engine,
+            category = nodisplay,
+            specificItem = false,
+            itemType = Base.LightBulb,
+            setAllModelsVisible = false,
+            mechanicRequireKey = false,
+
+            lua
+            {
+                create = GSVU4VV.VisualPart.Create,
+                init = GSVU4VV.VisualPart.Init,
+            }
+
+            model SVU_FL_Window_LuxuryCar_Paper
+            {
+                file = SVU_FL_Window_LuxuryCar_Paper,
+            }
+            model SVU_FR_Window_LuxuryCar_Paper
+            {
+                file = SVU_FR_Window_LuxuryCar_Paper,
+            }
+            model SVU_F_Window_LuxuryCar_Paper
+            {
+                file = SVU_F_Window_LuxuryCar_Paper,
+            }
+            model SVU_R_Window_LuxuryCar_Paper
+            {
+                file = SVU_R_Window_LuxuryCar_Paper,
+            }
+            model SVU_Hood_LuxuryCar_Paper
+            {
+                file = SVU_Hood_LuxuryCar_Paper,
+            }
+            model SVU_Trunk_LuxuryCar_Paper
+            {
+                file = SVU_Trunk_LuxuryCar_Paper,
+            }
+            model SVU_Door_FL_LuxuryCar_Paper
+            {
+                file = SVU_Door_FL_LuxuryCar_Paper,
+            }
+            model SVU_Door_FR_LuxuryCar_Paper
+            {
+                file = SVU_Door_FR_LuxuryCar_Paper,
+            }
+            model SVU_FL_Window_LuxuryCar_Light_Spiked
+            {
+                file = SVU_FL_Window_LuxuryCar_Light_Spiked,
+            }
+            model SVU_FR_Window_LuxuryCar_Light_Spiked
+            {
+                file = SVU_FR_Window_LuxuryCar_Light_Spiked,
+            }
+            model SVU_F_Window_LuxuryCar_Light_Spiked
+            {
+                file = SVU_F_Window_LuxuryCar_Light_Spiked,
+            }
+            model SVU_R_Window_LuxuryCar_Light_Spiked
+            {
+                file = SVU_R_Window_LuxuryCar_Light_Spiked,
+            }
+            model SVU_Hood_LuxuryCar_Light_Spiked
+            {
+                file = SVU_Hood_LuxuryCar_Light_Spiked,
+            }
+            model SVU_Trunk_LuxuryCar_Light_Spiked
+            {
+                file = SVU_Trunk_LuxuryCar_Light_Spiked,
+            }
+            model SVU_Door_FL_LuxuryCar_Light_Spiked
+            {
+                file = SVU_Door_FL_LuxuryCar_Light_Spiked,
+            }
+            model SVU_Door_FR_LuxuryCar_Light_Spiked
+            {
+                file = SVU_Door_FR_LuxuryCar_Light_Spiked,
+            }
+            model SVU_FL_Window_LuxuryCar_Reinforced
+            {
+                file = SVU_FL_Window_LuxuryCar_Reinforced,
+            }
+            model SVU_FR_Window_LuxuryCar_Reinforced
+            {
+                file = SVU_FR_Window_LuxuryCar_Reinforced,
+            }
+            model SVU_F_Window_LuxuryCar_Reinforced
+            {
+                file = SVU_F_Window_LuxuryCar_Reinforced,
+            }
+            model SVU_R_Window_LuxuryCar_Reinforced
+            {
+                file = SVU_R_Window_LuxuryCar_Reinforced,
+            }
+            model SVU_Hood_LuxuryCar_Reinforced
+            {
+                file = SVU_Hood_LuxuryCar_Reinforced,
+            }
+            model SVU_Trunk_LuxuryCar_Reinforced
+            {
+                file = SVU_Trunk_LuxuryCar_Reinforced,
+            }
+            model SVU_Door_FL_LuxuryCar_Reinforced
+            {
+                file = SVU_Door_FL_LuxuryCar_Reinforced,
+            }
+            model SVU_Door_FR_LuxuryCar_Reinforced
+            {
+                file = SVU_Door_FR_LuxuryCar_Reinforced,
+            }
+            model SVU_FL_Window_LuxuryCar_Heavy_Spiked
+            {
+                file = SVU_FL_Window_LuxuryCar_Heavy_Spiked,
+            }
+            model SVU_FR_Window_LuxuryCar_Heavy_Spiked
+            {
+                file = SVU_FR_Window_LuxuryCar_Heavy_Spiked,
+            }
+            model SVU_F_Window_LuxuryCar_Heavy_Spiked
+            {
+                file = SVU_F_Window_LuxuryCar_Heavy_Spiked,
+            }
+            model SVU_R_Window_LuxuryCar_Heavy_Spiked
+            {
+                file = SVU_R_Window_LuxuryCar_Heavy_Spiked,
+            }
+            model SVU_Hood_LuxuryCar_Heavy_Spiked
+            {
+                file = SVU_Hood_LuxuryCar_Heavy_Spiked,
+            }
+            model SVU_Trunk_LuxuryCar_Heavy_Spiked
+            {
+                file = SVU_Trunk_LuxuryCar_Heavy_Spiked,
+            }
+            model SVU_Door_FL_LuxuryCar_Heavy_Spiked
+            {
+                file = SVU_Door_FL_LuxuryCar_Heavy_Spiked,
+            }
+            model SVU_Door_FR_LuxuryCar_Heavy_Spiked
+            {
+                file = SVU_Door_FR_LuxuryCar_Heavy_Spiked,
+            }
+            model SVU_Hood_LuxuryCar_Heavy
+            {
+                file = SVU_Hood_LuxuryCar_Heavy,
+            }
+            model SVU_Bullbar_LuxuryCar_Small
+            {
+                file = SVU_Bullbar_LuxuryCar_Small,
+            }
+            model SVU_Bullbar_LuxuryCar_Medium
+            {
+                file = SVU_Bullbar_LuxuryCar_Medium,
+            }
+            model SVU_Bullbar_LuxuryCar_Large_Spiked
+            {
+                file = SVU_Bullbar_LuxuryCar_Large_Spiked,
+            }
+            model GSVU4_RoofLightsFallback_LuxuryCar
+            {
+                file = GSVU4_RoofLights_LuxuryCar,
+            }
+            model GSVU4_RoofLightsFallbackBulbs_LuxuryCar
+            {
+                file = GSVU4_RoofLightsBulbs_LuxuryCar,
+            }
+            model GSVU4_FilteredAirIntake_LuxuryCar
+            {
+                file = GSVU4_FilteredAirIntake_LuxuryCar,
+            }
+
+        
+            model SVU_Airscoop_LuxuryCar_Small
+            {
+                file = SVU_Airscoop_LuxuryCar_Small,
+            }
+
+            model SVU_Airscoop_LuxuryCar_Medium
+            {
+                file = SVU_Airscoop_LuxuryCar_Medium,
+            }
+
+            model SVU_Airscoop_LuxuryCar_Small_Round
+            {
+                file = SVU_Airscoop_LuxuryCar_Small_Round,
+            }
+
+            model SVU_Airscoop_LuxuryCar_Large
+            {
+                file = SVU_Airscoop_LuxuryCar_Large,
+            }
+
+            model SVU_Airscoop_LuxuryCar_Large_Round
+            {
+                file = SVU_Airscoop_LuxuryCar_Large_Round,
+            }
+
+            model SVU_Airscoop_LuxuryCar_Piped
+            {
+                file = SVU_Airscoop_LuxuryCar_Piped,
+            }
+}
+    }
+}

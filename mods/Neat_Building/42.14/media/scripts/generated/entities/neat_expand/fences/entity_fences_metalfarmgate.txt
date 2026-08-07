@@ -1,0 +1,66 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Fences_MetalFarmGate
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_MetalFarmFenceGate,
+			Icon		= Build_fixtures_doors_fences_01_114,
+		}
+	}
+
+    entity Fences_MetalFarmGate
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Fences_MetalFarmGate,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+			skillBaseHealth = 300,
+			dontNeedFrame	= true,
+			breakSound      = BreakDoor,
+			
+            face W
+            {
+                layer
+                {
+                    row = fixtures_doors_fences_01_113,
+                    row = fixtures_doors_fences_01_112,
+                    row = fixtures_doors_fences_01_121,
+                    row = fixtures_doors_fences_01_120,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = fixtures_doors_fences_01_114 fixtures_doors_fences_01_115 fixtures_doors_fences_01_122 fixtures_doors_fences_01_123,
+                }
+            }
+        }
+		
+		component CraftRecipe
+        {
+            timedAction   = BuildWallMetal,
+            time          = 300,
+            category      = Fences,
+            SkillRequired = Woodwork:5;MetalWelding:5,
+            xpAward       = Woodwork:50;MetalWelding:50,
+            ToolTip       = Tooltip_craft_poleFenceGateSmallDesc,
+            inputs
+            {
+                item 1 tags[base:hammer] mode:keep flags[Prop1;MayDegradeVeryLight],
+				item 1 [Base.Plank],
+				item 4 [Base.Nails],
+                item 4 [Base.BlowTorch] flags[DontRecordInput],
+                item 6 [Base.MetalPipe],
+                item 2 [Base.Hinge],
+            }
+        }
+    }
+}

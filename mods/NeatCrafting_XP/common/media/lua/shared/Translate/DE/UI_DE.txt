@@ -1,0 +1,15 @@
+UI_DE = {
+	UI_XP_NC_xpShow = "Rezept-EP anzeigen",
+	UI_XP_NC_xpShow_tooltip = "Aktiviert die Anzeige von Erfahrungspunkten (EP) für Herstellungsrezepte. <LINE> Das 'EP-Anzeigeformat' legt fest, wie diese Informationen angezeigt werden. <LINE> <LINE> Verfügbare Formate: <LINE> - Basis-EP: Zeigt die Basis-EP an, die durch das Rezept vergeben werden. <LINE> - Endgültige EP: Zeigt die Gesamt-EP an, nachdem alle Multiplikatoren angewendet wurden. <LINE> - Multiplikator: Zeigt die Basis-EP, den Gesamtmultiplikator und die endgültige EP an (z.B. +5 * 3.5 = 17.5). <LINE> - Aufschlüsselung: Zeigt die Basis-EP, eine detaillierte Aufschlüsselung aller Multiplikatoren und die endgültige EP an. <LINE> Die Faktoren sind: <LINE> - Startlevel-Multiplikator: Level 0 (x0.25), Level 1 (x1.00), Level 2 (x1.33), Level 3+ (x1.66) <LINE> - Fertigkeitsbuch-Multiplikator: Bücher 1-5 (x3, x5, x8, x12, x16). Die Hälfte davon für Zielen, Nachladen und Langklinge. <LINE> - Merkmals-Multiplikator: Schnell-lerner (x1.3), Langsam-lerner (x0.7) <LINE> - Multiplikator für Sandbox-Optionen: Ein globaler Wert oder ein spezifischer Wert pro Fertigkeitstyp.",
+	UI_XP_NC_xpFormat = "EP-Anzeigeformat",
+	UI_XP_NC_xpFormat_BasicXP = "Basis-EP",
+	UI_XP_NC_xpFormat_FinalXP = "Endgültige EP",
+	UI_XP_NC_xpFormat_Multiplier = "Multiplikator",
+	UI_XP_NC_xpFormat_Breakdown = "Aufschlüsselung",
+	UI_XP_NC_showRecipeMod = "Rezept-Mod anzeigen",
+	UI_XP_NC_showRecipeMod_tooltip = "Zeigt das Mod, aus dem das Rezept stammt, als 'Mod'-Zeile im Rezeptfenster an.",
+	UI_XP_NC_modPrefix = "Mod: ",
+	UI_XP_NC_textScale = "Textgröße für Zusatzzeilen",
+	UI_XP_NC_textScale_tooltip = "Schriftgröße für EP-Zeilen und die 'Mod'-Zeile.",
+	UI_XP_NC_xpFormat_tooltip = "Choose how recipe XP is displayed. <LINE> <LINE> - Basic XP: Shows the base XP. <LINE> - Final XP: Shows the final XP after multipliers. <LINE> - Multiplier: Shows only the multiplier value(s). <LINE> - Full breakdown: Shows base XP, multiplier(s) and final XP.",
+}

@@ -1,0 +1,66 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Pottery_WhiteTileWindowFrame
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_WhiteTileWindowFrame,
+			Icon		= Build_walls_commercial_01_57,
+		}
+	}
+
+    entity Pottery_WhiteTileWindowFrame
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Pottery_WhiteTileWindowFrame,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+			LogicClass      = WoodenWall,
+			health          = 650,
+       		skillBaseHealth = 20,
+			previousStage   = WoodenWallFrame;MetalWallFrame,
+            OnCreate        = NB_BuildRecipeCode.NewWall.OnCreate,
+
+            face W
+            {
+                layer
+                {
+                    row = walls_commercial_01_56,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = walls_commercial_01_57,
+                }
+            }
+			
+            corner = walls_commercial_01_51,
+        }
+		
+        component CraftRecipe
+        {
+            timedAction   = BuildWallNoTool,
+            time          = 200,
+            category      = Windows,
+            SkillRequired = Pottery:5,
+            xpAward       = Pottery:50,
+            ToolTip       = Tooltip_craft_NeedsWallframeDesc,
+            inputs
+            {
+                item 1 tags[PlasterTrowel;MasonsTrowel] mode:keep flags[Prop1],
+                item 1 tags[Hammer] mode:keep flags[Prop2;MayDegradeVeryLight],
+                item 1 [Base.BucketPlasterFull] flags[DontRecordInput],
+                item 3 [Base.ClayTile],
+                item 4 [Base.Nails],
+            }
+        }
+    }
+}

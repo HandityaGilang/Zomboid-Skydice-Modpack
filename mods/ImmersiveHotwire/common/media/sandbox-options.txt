@@ -1,0 +1,59 @@
+VERSION = 1,
+
+/***** ImmersiveHotwire *****/
+
+option ImmersiveHotwire.Screwdrivers
+{
+    type = string, 
+    default = Base.Screwdriver;Base.Screwdriver_Old;Base.Screwdriver_Improvised;Base.Multitool;Base.Handiknife,
+    page = IH,
+    translation = IH_Screwdrivers,
+}
+
+option ImmersiveHotwire.ScrewdriversTags
+{
+    type = string, 
+    default = ,
+    page = IH,
+    translation = IH_ScrewdriversTags,
+}
+
+option ImmersiveHotwire.Pliers
+{
+    type = string, 
+    default = Base.Pliers;Base.Multitool,
+    page = IH,
+    translation = IH_Pliers,
+}
+
+option ImmersiveHotwire.PliersTags
+{
+    type = string, 
+    default = ,
+    page = IH,
+    translation = IH_PliersTags,
+}
+
+option ImmersiveHotwire.HotwireEveryTime
+{
+    type = boolean, 
+    default = false,
+    page = IH,
+    translation = IH_HotwireEveryTime,
+}
+
+option ImmersiveHotwire.DucttapeNeededToUnhotwire
+{
+    type = boolean, 
+    default = true,
+    page = IH,
+    translation = IH_DucttapeNeededToUnhotwire,
+}
+
+option ImmersiveHotwire.ShowDragLine
+{
+    type = boolean, 
+    default = true,
+    page = IH,
+    translation = IH_ShowDragLine,
+}

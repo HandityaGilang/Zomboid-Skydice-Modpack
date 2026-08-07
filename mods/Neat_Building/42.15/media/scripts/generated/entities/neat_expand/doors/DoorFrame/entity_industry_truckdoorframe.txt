@@ -1,0 +1,63 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Industry_TruckDoorFrame
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_IndustryTruckDoorFrame,
+			Icon		= Build_industry_trucks_01_15,
+		}
+	}
+
+    entity Industry_TruckDoorFrame
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Industry_TruckDoorFrame,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+			skillBaseHealth = 300,
+			isThumpable     = false,
+			OnIsValid = BuildRecipeCode.doorFrame.OnIsValid,
+			
+            face W
+            {
+                layer
+                {
+                    row = industry_trucks_01_14,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = industry_trucks_01_15,
+                }
+            }
+			
+			corner = industry_trucks_01_7,
+        }
+		
+		component CraftRecipe
+        {
+			timedAction   = BuildWallMetal,
+            time          = 200,
+            category      = Doors,
+            SkillRequired = MetalWelding:6,
+            xpAward       = MetalWelding:60,
+			ToolTip       = Tooltip_craft_doorFrameMetalDesc,
+            inputs
+            {
+                item 4 [Base.BlowTorch] flags[DontRecordInput],
+                item 1 tags[base:hammer] mode:keep flags[Prop2;MayDegradeVeryLight],
+                item 2 [Base.SmallSheetMetal],
+                item 4 [Base.Nails],
+            }
+        }
+    }
+}

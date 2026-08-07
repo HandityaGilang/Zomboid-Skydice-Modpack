@@ -1,0 +1,60 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Welding_GreenFrameSingleBed
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_GreenMetalFrameSingleBed,
+			Icon		= Build_furniture_bedding_01_64,
+		}
+	}
+
+    entity Welding_GreenFrameSingleBed
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Welding_GreenFrameSingleBed,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+            face W
+            {
+                layer
+                {
+                    row = furniture_bedding_01_66 furniture_bedding_01_67,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = furniture_bedding_01_65,
+                    row = furniture_bedding_01_64,
+                }
+            }
+        }
+        
+        component CraftRecipe
+        {
+            OnAddToMenu   = ignoreFromBuildMenu,
+            timedAction   = BuildWallHammer,
+            time          = 50,
+            SkillRequired = MetalWelding:6;Tailoring:3,
+            xpAward       = MetalWelding:60;Tailoring:30,
+            category      = Furniture,
+            tags          = Carpentry;Furniture,
+            ToolTip       = Tooltip_craft_bedDesc,
+            inputs
+            {
+                item 4 [Base.BlowTorch] flags[DontRecordInput],
+                item 3 [Base.MetalPipe],
+                item 4 [Base.WeldingRods] flags[DontRecordInput],
+                item 1 [Base.Mattress],
+            }
+        }
+    }
+}

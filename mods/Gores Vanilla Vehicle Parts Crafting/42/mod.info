@@ -1,0 +1,10 @@
+name=Gore's Vanilla Vehicle Parts Crafting
+id=GoresVanillaVehiclePartsCrafting
+description=Optional Gore's SVU4 Core submod. Allows players to craft a range of useful vanilla vehicle parts, helping keep damaged vehicles running when replacement parts become scarce.
+icon=icon.png
+poster=poster.png
+author=Gorebash
+pzversion=42.20
+versionMin=42.20
+tags=build42,vehicles,items,survival,crafting,optional
+modversion=1.4.21

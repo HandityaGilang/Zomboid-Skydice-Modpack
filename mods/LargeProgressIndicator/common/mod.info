@@ -1,0 +1,9 @@
+name=Large Progress Indicator
+id=LargeProgressIndicator
+description=<RGB:0.780,1.000,0.000>Large Progress Indicator <LINE><LINE> <RGB:0.110,0.910,0.710>This mod is fully compatible with other moodles mods, <LINE> allowing you to enhance your gaming experience <LINE> without sacrificing any of your favorite moodles packs. <LINE><LINE> <RGB:0.900,0.000,0.100>||||||||||||||||||||||||||||||||||||||||||||| <LINE> <RGB:1.000,1.000,1.000>||||||||||||||||||||||||||||||||||||||||||||| <LINE> <RGB:0.000,0.300,0.900>||||||||||||||||||||||||||||||||||||||||||||| <LINE> <RGB:0.000,0.300,0.900>||||||||||||||||||||||||||||||||||||||||||||| <LINE> <RGB:1.000,1.000,1.000>||||||||||||||||||||||||||||||||||||||||||||| <LINE> <RGB:0.900,0.000,0.100>||||||||||||||||||||||||||||||||||||||||||||| <LINE>
+poster=preview.png
+icon=icon.png
+pack=LargeProgressIndicator
+author=Riko Prushka
+modversion=42.2
+versionMin=42.0.0

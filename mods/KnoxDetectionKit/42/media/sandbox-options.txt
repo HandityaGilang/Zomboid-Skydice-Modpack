@@ -1,0 +1,20 @@
+VERSION = 1,
+
+option KnoxDetectionKit.KitRarity
+{
+    type = enum,
+    numValues = 4,
+    default = 2,
+    page = KnoxDetectionKit,
+    translation = KnoxDetectionKit_KitRarity,
+}
+
+option KnoxDetectionKit.WaitMinutes
+{
+    type = integer,
+    min = 0,
+    max = 1440,
+    default = 120,
+    page = KnoxDetectionKit,
+    translation = KnoxDetectionKit_WaitMinutes,
+}

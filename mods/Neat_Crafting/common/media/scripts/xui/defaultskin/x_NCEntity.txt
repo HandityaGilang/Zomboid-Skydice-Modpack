@@ -1,0 +1,68 @@
+module Base
+{
+    xuiSkin default
+    {
+        entity
+        {
+            LuaWindowClass      = NC_EntityWindow,
+            DisplayName         = Entity_DisplayName_Default,
+            Description         = Entity_Desc_Default,
+            BuildDescription    = Entity_BuildDesc_Default,
+            Icon                = Item_Dice,
+
+            components
+            {
+                CraftBench
+                {
+                    LuaPanelClass           = NC_CraftBenchPanel,
+                    DisplayName             = EC_Workstation,
+                    Icon                    = Item_Dice,
+                    Enabled                 = true,
+                    ListOrderZ              = 1000,
+                }
+/*                CraftLogic
+                {
+                    LuaPanelClass           = NC_CraftLogicPanel,
+                    DisplayName             = EC_Workstation,
+                    Icon                    = Item_Dice,
+                    Enabled                 = true,
+                    ListOrderZ              = 1100,
+                }                
+                DryingCraftLogic
+                {
+                    LuaPanelClass           = NC_CraftLogicPanel,
+                    DisplayName             = EC_Workstation,
+                    Icon                    = Item_Dice,
+                    Enabled                 = true,
+                    ListOrderZ              = 1150,
+                }
+
+                MashingLogic
+                {
+                    LuaPanelClass           = NB_MashingLogicPanel,
+                    DisplayName             = EC_Workstation,
+                    Icon                    = Item_Dice,
+                    Enabled                 = true,
+                    ListOrderZ              = 1200,
+                }
+                FurnaceLogic
+                {
+                    LuaPanelClass           = ISFurnaceLogicPanel,
+                    DisplayName             = EC_Workstation,
+                    Icon                    = Item_Dice,
+                    Enabled                 = true,
+                    ListOrderZ              = 1300,
+                }
+                TestComponent
+                {
+                    LuaPanelClass           = ISTestComponentPanel,
+                    DisplayName             = Test,
+                    Icon                    = Item_Dice,
+                    Enabled                 = true,
+                    ListOrderZ              = 0,
+                }
+*/
+            }
+        }
+    }
+}

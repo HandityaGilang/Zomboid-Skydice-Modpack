@@ -1,0 +1,749 @@
+module Base {
+
+    sound SultansOfSwingSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/SultansOfSwingSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound WakeMeUpSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/WakeMeUpSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound RunawaySolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/RunawaySolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound NovemberRainSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/NovemberRainSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound APTSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/APTSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound TestDriveSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/TestDriveSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound UnstoppableSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/UnstoppableSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound AnotherLovesSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/AnotherLovesSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound TheSpectreSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/TheSpectreSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound CalmDownSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/CalmDownSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound BonesSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/BonesSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound 7YearsSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/7YearsSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound TheLastOfUsSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/TheLastOfUsSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound SomewhereOnlyWeKnowSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/SomewhereOnlyWeKnowSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound PumpedUpKicksSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/PumpedUpKicksSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound HeyBrotherSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/HeyBrotherSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound LetHerGoSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/LetHerGoSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound STAYSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/STAYSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound AstronomiaSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/AstronomiaSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound CanonInDSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/CanonInDSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound ItsYouSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/ItsYouSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound HearthBreakSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/HearthBreakSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound MemoriesSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/MemoriesSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound SaveYourTearsSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/SaveYourTearsSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound DancingOnTheMoonlightSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/DancingOnTheMoonlightSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound hesAPirateSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/hesAPirateSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound WeDontTalkAnyMoreSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/WeDontTalkAnyMoreSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound YouAreBeautifulSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/YouAreBeautifulSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound IfTheWorlWasEndingSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/IfTheWorlWasEndingSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound TakeOnMeSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/TakeOnMeSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound CalifornicationSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/CalifornicationSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound ImSoTiredSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/ImSoTiredSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound DynamiteSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/DynamiteSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound badguySolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/badguySolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound ComfortablyNumbSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/ComfortablyNumbSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound GhostsAgainSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/GhostsAgainSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound HeathensSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/HeathensSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound ImagineSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/ImagineSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound YesterdaySolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/YesterdaySolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound OneLastTimeSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/OneLastTimeSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound ShapeofYouSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/ShapeofYouSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound SmellsLikeTeenSpiritSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/SmellsLikeTeenSpiritSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound StreetSpiritSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/StreetSpiritSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound InterstellarSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/InterstellarSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound Metro2033MainThemeSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/Metro2033MainThemeSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound TheMarketSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/TheMarketSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound HeWasAGoodStalkerSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/HeWasAGoodStalkerSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound EverlongSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/EverlongSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound ComeAsYouAreSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/ComeAsYouAreSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound RedemptionSongSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/RedemptionSongSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound LoboHombreEnParisSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/LoboHombreEnParisSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound LittleTalksSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/LittleTalksSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound FridayImInLoveSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/FridayImInLoveSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound EyeOfTheTigerSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/EyeOfTheTigerSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+
+    sound ASkyFullOfStarsSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+		
+		file = media/sound/ASkyFullOfStarsSolo.ogg,
+		distanceMin = 10, distanceMax = 100,
+		reverbFactor = 0.1, volume = 0.5,
+		
+		}
+    }
+    sound DirgeforthePlanetSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip {
+        file = media/sound/DirgeforthePlanetSolo.ogg,
+        distanceMin = 10, distanceMax = 100,
+        reverbFactor = 0.1, volume = 0.5,
+        }
+    }
+
+    sound AHorseWithNoNameSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip { file = media/sound/AHorseWithNoNameSolo.ogg, distanceMin = 10, distanceMax = 100, reverbFactor = 0.1, volume = 0.5, }
+    }
+    sound BigIronSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip { file = media/sound/BigIronSolo.ogg, distanceMin = 10, distanceMax = 100, reverbFactor = 0.1, volume = 0.5, }
+    }
+    sound WonderwallSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip { file = media/sound/WonderwallSolo.ogg, distanceMin = 10, distanceMax = 100, reverbFactor = 0.1, volume = 0.5, }
+    }
+    sound FutureDaysSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip { file = media/sound/FutureDaysSolo.ogg, distanceMin = 10, distanceMax = 100, reverbFactor = 0.1, volume = 0.5, }
+    }
+    sound UndertaleSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip { file = media/sound/UndertaleSolo.ogg, distanceMin = 10, distanceMax = 100, reverbFactor = 0.1, volume = 0.5, }
+    }
+    sound LagunasSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip { file = media/sound/LagunasSolo.ogg, distanceMin = 10, distanceMax = 100, reverbFactor = 0.1, volume = 0.5, }
+    }
+    sound GerudoValleySolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip { file = media/sound/GerudoValleySolo.ogg, distanceMin = 10, distanceMax = 100, reverbFactor = 0.1, volume = 0.5, }
+    }
+    sound HotelCaliforniaSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip { file = media/sound/HotelCaliforniaSolo.ogg, distanceMin = 10, distanceMax = 100, reverbFactor = 0.1, volume = 0.5, }
+    }
+    sound StayTogetherForTheKidsSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip { file = media/sound/StayTogetherForTheKidsSolo.ogg, distanceMin = 10, distanceMax = 100, reverbFactor = 0.1, volume = 0.5, }
+    }
+    sound StairwayToHeavenSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip { file = media/sound/StairwayToHeavenSolo.ogg, distanceMin = 10, distanceMax = 100, reverbFactor = 0.1, volume = 0.5, }
+    }
+    sound FreeBirdSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip { file = media/sound/FreeBirdSolo.ogg, distanceMin = 10, distanceMax = 100, reverbFactor = 0.1, volume = 0.5, }
+    }
+    sound SenbonzakuraSolo
+    {
+        category = Item, loop = false, is3D = true,
+        clip { file = media/sound/SenbonzakuraSolo.ogg, distanceMin = 10, distanceMax = 100, reverbFactor = 0.1, volume = 0.5, }
+    }
+    sound MadWorldSolo { category = Item, loop = false, is3D = true, clip { file = media/sound/MadWorldSolo.ogg, distanceMin = 10, distanceMax = 100, reverbFactor = 0.1, volume = 0.5, } }
+    sound DanceMonkeySolo { category = Item, loop = false, is3D = true, clip { file = media/sound/DanceMonkeySolo.ogg, distanceMin = 10, distanceMax = 100, reverbFactor = 0.1, volume = 0.5, } }
+    sound MikuHatsuneDanceSolo { category = Item, loop = false, is3D = true, clip { file = media/sound/MikuHatsuneDanceSolo.ogg, distanceMin = 10, distanceMax = 100, reverbFactor = 0.1, volume = 0.5, } }
+    sound RadioactiveSolo { category = Item, loop = false, is3D = true, clip { file = media/sound/RadioactiveSolo.ogg, distanceMin = 10, distanceMax = 100, reverbFactor = 0.1, volume = 0.5, } }
+    sound PaparazziSolo { category = Item, loop = false, is3D = true, clip { file = media/sound/PaparazziSolo.ogg, distanceMin = 10, distanceMax = 100, reverbFactor = 0.1, volume = 0.5, } }
+    sound CastleOfGlassSolo { category = Item, loop = false, is3D = true, clip { file = media/sound/CastleOfGlassSolo.ogg, distanceMin = 10, distanceMax = 100, reverbFactor = 0.1, volume = 0.5, } }
+    sound SomebodyThatIUsedToKnowSolo { category = Item, loop = false, is3D = true, clip { file = media/sound/SomebodyThatIUsedToKnowSolo.ogg, distanceMin = 10, distanceMax = 100, reverbFactor = 0.1, volume = 0.5, } }
+    sound LosingMyReligionSolo { category = Item, loop = false, is3D = true, clip { file = media/sound/LosingMyReligionSolo.ogg, distanceMin = 10, distanceMax = 100, reverbFactor = 0.1, volume = 0.5, } }
+    sound MyImmortalSolo { category = Item, loop = false, is3D = true, clip { file = media/sound/MyImmortalSolo.ogg, distanceMin = 10, distanceMax = 100, reverbFactor = 0.1, volume = 0.5, } }
+    sound RidersOnTheStormSolo { category = Item, loop = false, is3D = true, clip { file = media/sound/RidersOnTheStormSolo.ogg, distanceMin = 10, distanceMax = 100, reverbFactor = 0.1, volume = 0.5, } }
+    sound DangerZoneSolo { category = Item, loop = false, is3D = true, clip { file = media/sound/DangerZoneSolo.ogg, distanceMin = 10, distanceMax = 100, reverbFactor = 0.1, volume = 0.5, } }
+    sound BlindingLightsSolo { category = Item, loop = false, is3D = true, clip { file = media/sound/BlindingLightsSolo.ogg, distanceMin = 10, distanceMax = 100, reverbFactor = 0.1, volume = 0.5, } }
+    sound ChandelierSolo { category = Item, loop = false, is3D = true, clip { file = media/sound/ChandelierSolo.ogg, distanceMin = 10, distanceMax = 100, reverbFactor = 0.1, volume = 0.5, } }
+    sound HelloSolo { category = Item, loop = false, is3D = true, clip { file = media/sound/HelloSolo.ogg, distanceMin = 10, distanceMax = 100, reverbFactor = 0.1, volume = 0.5, } }
+    sound RequiemForADreamSolo { category = Item, loop = false, is3D = true, clip { file = media/sound/RequiemForADreamSolo.ogg, distanceMin = 10, distanceMax = 100, reverbFactor = 0.1, volume = 0.5, } }
+    sound LoseYourselfSolo { category = Item, loop = false, is3D = true, clip { file = media/sound/LoseYourselfSolo.ogg, distanceMin = 10, distanceMax = 100, reverbFactor = 0.1, volume = 0.5, } }
+    sound TheFinalCountdownSolo { category = Item, loop = false, is3D = true, clip { file = media/sound/TheFinalCountdownSolo.ogg, distanceMin = 10, distanceMax = 100, reverbFactor = 0.1, volume = 0.5, } }
+}

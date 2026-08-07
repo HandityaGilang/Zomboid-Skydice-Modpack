@@ -1,0 +1,66 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Industry_TruckWall
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_IndustryTruckWall,
+			Icon		= Build_industry_trucks_01_5,
+		}
+	}
+
+    entity Industry_TruckWall
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Industry_TruckWall,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+			LogicClass      = WoodenWall,
+			health          = 800,
+			skillBaseHealth = 70,
+            previousStage   = WoodenWallFrame;MetalWallFrame,
+            OnCreate        = NB_BuildRecipeCode.NewWall.OnCreate,
+
+            face W
+            {
+                layer
+                {
+                    row = industry_trucks_01_4,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = industry_trucks_01_5,
+                }
+            }
+			
+            corner = industry_trucks_01_7,
+        }
+		
+        component CraftRecipe
+        {
+            Icon		= Build_industry_trucks_01_5,
+            timedAction   = BuildWallMetal,
+            time          = 200,
+            category      = Walls,
+            SkillRequired = MetalWelding:6,
+            xpAward       = MetalWelding:60,
+            ToolTip       = Tooltip_craft_NeedsWallframeDesc,
+            inputs
+            {
+                item 4 [Base.BlowTorch] flags[DontRecordInput],
+                item 1 tags[Hammer] mode:keep flags[Prop2;MayDegradeVeryLight],
+                item 2 [Base.SheetMetal],
+                item 4 [Base.Nails],
+            }
+        }
+    }
+}

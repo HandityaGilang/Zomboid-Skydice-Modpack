@@ -1,0 +1,18 @@
+Sandbox_IT = {
+    Sandbox_IH = "Avviamento forzato immersivo",
+
+    Sandbox_IH_Screwdrivers = "Strumenti per svitare le viti | Oggetti",
+    Sandbox_IH_Screwdrivers_tooltip = "Elenco di oggetti separati da virgole o punti e virgola",
+    Sandbox_IH_ScrewdriversTags = "| Tag",
+    Sandbox_IH_ScrewdriversTags_tooltip = "Elenco di tag oggetto separati da virgole o punti e virgola",
+
+    Sandbox_IH_Pliers = "Strumenti per tagliare i cavi | Oggetti",
+    Sandbox_IH_Pliers_tooltip = "Elenco di oggetti separati da virgole o punti e virgola",
+    Sandbox_IH_PliersTags = "| Tag",
+    Sandbox_IH_PliersTags_tooltip = "Elenco di tag oggetto separati da virgole o punti e virgola",
+    Sandbox_IH_HotwireEveryTime = "Forza l'avviamento ogni volta",
+    Sandbox_IH_HotwireEveryTime_tooltip = "Apri sempre l'interfaccia di avviamento forzato quando si tenta di avviare un'auto con avviamento forzato",
+    Sandbox_IH_DucttapeNeededToUnhotwire = "Nastro isolante necessario per annullare l'avviamento forzato",
+    Sandbox_IH_ShowDragLine = "Mostra linea di trascinamento",
+    Sandbox_IH_ShowDragLine_tooltip = "Mostra la linea tratteggiata durante il trascinamento del cavo",
+}

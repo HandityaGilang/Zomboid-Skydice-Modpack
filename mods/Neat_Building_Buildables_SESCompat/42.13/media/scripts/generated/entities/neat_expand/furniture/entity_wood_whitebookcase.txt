@@ -1,0 +1,71 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Wood_WhiteBookcase
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_WhiteWoodenBookCase,
+			Icon		= Build_furniture_shelving_01_44,
+		}
+	}
+
+    entity Wood_WhiteBookcase
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Wood_WhiteBookcase,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+            face W
+            {
+                layer
+                {
+                    row = furniture_shelving_01_45,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = furniture_shelving_01_44,
+                }
+            }
+            face E
+            {
+                layer
+                {
+                    row = furniture_shelving_01_46,
+                }
+            }
+            face S
+            {
+                layer
+                {
+                    row = furniture_shelving_01_47,
+                }
+            }
+        }
+        
+        component CraftRecipe
+        {
+            OnAddToMenu   = ignoreFromBuildMenu,
+            timedAction   = BuildWoodenStructureMedium,
+            time          = 50,
+            SkillRequired = Woodwork:5,
+            xpAward       = Woodwork:50,
+            category      = Furniture,
+            ToolTip       = Tooltip_craft_bookcaseDesc,
+            inputs
+            {
+                item 1 tags[base:hammer] mode:keep flags[Prop1;MayDegradeVeryLight],
+                item 4 [Base.Plank],
+                item 4 [Base.Nails],
+            }
+        }
+    }
+}

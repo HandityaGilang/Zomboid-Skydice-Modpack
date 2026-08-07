@@ -1,0 +1,16 @@
+Gore's Spare Engine Parts Crafting - Version 1.4.37
+
+Battery reconditioning has been removed in full.
+
+Removed:
+- All car-battery rebuild recipes and outputs
+- Reconditioned/custom battery items and assembly tokens
+- Battery conversion, capacity limiting and generation metadata logic
+- Battery failure, injury and frustration hooks
+- Battery sandbox options and translations
+- Legacy battery notes, checklists and temporary processors
+
+Retained:
+- Spare Engine Parts crafting
+- Existing propane/blowtorch consumption helper
+- Original artwork and package identity

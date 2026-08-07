@@ -1,0 +1,117 @@
+module Base
+{
+    model GSVU4_FilteredAirIntake_CarNormal
+    {
+        mesh = vehicles/CarNormalArmor|snorkel,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_FilteredAirIntake_CarWagon
+    {
+        mesh = vehicles/CarWagonArmor|snorkel,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_FilteredAirIntake_LuxuryCar
+    {
+        mesh = vehicles/LuxuryCarArmor|snorkel,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_FilteredAirIntake_SUV
+    {
+        mesh = vehicles/SUVArmor|snorkel,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_FilteredAirIntake_PickUp
+    {
+        mesh = vehicles/PickUpArmor|snorkel,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_FilteredAirIntake_SmallCar
+    {
+        mesh = vehicles/SmallCarArmor|snorkel,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_FilteredAirIntake_SmallCar02
+    {
+        mesh = vehicles/SmallCar02Armor|snorkel,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_FilteredAirIntake_SportsCar
+    {
+        mesh = vehicles/SportsCarArmor|snorkel,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_FilteredAirIntake_CarModern
+    {
+        mesh = vehicles/CarModernArmor|snorkel,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_FilteredAirIntake_CarModern2
+    {
+        mesh = vehicles/CarModern2Armor|snorkel,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_FilteredAirIntake_Van
+    {
+        mesh = vehicles/VanArmor|snorkel,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_FilteredAirIntake_StepVan
+    {
+        mesh = vehicles/StepVanArmor|snorkel,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_FilteredAirIntake_OffRoad
+    {
+        mesh = vehicles/OffRoadArmor|snorkel,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_FilteredAirIntake_DashRoamer
+    {
+        mesh = vehicles/DashRoamerArmor|snorkel,
+        texture = Vehicles/puv_parts,
+        shader = vehiclewheel,
+        scale = 0.004,
+    }
+
+    model GSVU4_FilteredAirIntake_GMCVan
+    {
+        mesh = vehicles/GMCVanArmor|snorkel,
+        texture = Vehicles/puv_parts,
+        shader = vehiclewheel,
+        scale = 0.01,
+    }
+
+    model GSVU4_FilteredAirIntake_RaceCar
+    {
+        mesh = vehicles/RaceCarArmor|snorkel,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+}

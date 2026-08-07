@@ -1,0 +1,19 @@
+{
+    "Sandbox_MoreImmersiveVehicles": "More Immersive Vehicles",
+    "Sandbox_ParkOpenedDoorChance": "주차장 문 열림 확률",
+    "Sandbox_ParkOpenedDoorChance_tooltip": "주차장에 생성된 차량의 문이 열려 있을 확률입니다.",
+    "Sandbox_ParkOpenedTrunkDoorChance": "주차장 트렁크 열림 확률",
+    "Sandbox_ParkOpenedTrunkDoorChance_tooltip": "주차장에 생성된 차량의 트렁크가 열려 있을 확률입니다.",
+    "Sandbox_ParkOpenedEngineDoorChance": "주차장 후드 열림 확률",
+    "Sandbox_ParkOpenedEngineDoorChance_tooltip": "주차장에 생성된 차량의 후드가 열려 있을 확률입니다.",
+    "Sandbox_ParkOpenedWindowChance": "주차장 창문 열림 확률",
+    "Sandbox_ParkOpenedWindowChance_tooltip": "주차장에 생성된 차량의 창문이 열려 있을 확률입니다.",
+    "Sandbox_RoadOpenedDoorChance": "도로 문 열림 확률",
+    "Sandbox_RoadOpenedDoorChance_tooltip": "도로나 교통 체증 구간에 생성된 차량의 문이 열려 있을 확률입니다.",
+    "Sandbox_RoadOpenedTrunkDoorChance": "도로 트렁크 열림 확률",
+    "Sandbox_RoadOpenedTrunkDoorChance_tooltip": "도로나 교통 체증 구간에 생성된 차량의 트렁크가 열려 있을 확률입니다.",
+    "Sandbox_RoadOpenedEngineDoorChance": "도로 후드 열림 확률",
+    "Sandbox_RoadOpenedEngineDoorChance_tooltip": "도로나 교통 체증 구간에 생성된 차량의 후드가 열려 있을 확률입니다.",
+    "Sandbox_RoadOpenedWindowChance": "도로 창문 열림 확률",
+    "Sandbox_RoadOpenedWindowChance_tooltip": "도로나 교통 체증 구간에 생성된 차량의 창문이 열려 있을 확률입니다."
+}

@@ -1,0 +1,11 @@
+name=Gas Pump Indicator
+id=GasPumpIndicator
+author=movinow
+description=Adds LED-style status indicators to gas pumps. Green=has fuel, red=empty, none=no power.
+modversion=1.4
+versionMin=42.0.0
+poster=poster.png
+icon=icon.png
+pack=gas_pump_indicator_2x
+pack=gas_pump_indicator_1x
+tags=Build 42;Multiplayer

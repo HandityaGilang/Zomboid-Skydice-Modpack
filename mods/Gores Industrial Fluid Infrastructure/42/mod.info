@@ -1,0 +1,11 @@
+name=Gore's Industrial Fluid Infrastructure
+id=GoresIndustrialFluidInfrastructure
+require=GoresSVU4Core
+poster=poster.png
+description=Optional Gore's SVU4 Core submod adding large industrial and player-buildable compact fluid storage for Project Zomboid Build 42.20, with native liquid handling and propane support.
+author=Gorebash
+pzversion=42.20
+modversion=1.0.21
+versionMin=42.20
+pack=gipt_melos_propane
+tiledef=gipt_melos_propane_def 666

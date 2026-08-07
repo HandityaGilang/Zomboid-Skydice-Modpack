@@ -1,0 +1,58 @@
+{
+
+  "Sandbox_GydeTraitMags": "Gyde's Trait Magazines",
+
+  "Sandbox_GydeTraitMags_NegToPos": "Negatywna cecha na pozytywna ceche",
+  "Sandbox_GydeTraitMags_NegToPos_tooltip": "Pozwala uzyskac pozytywna wersje cechy, jesli postac rozpoczela gre z jej negatywna wersja (np. Niedzielny kierowca ? Demon predkosci).\n\nJesli opcja ta jest wlaczona razem z ustawieniem �Zuzywalne magazyny�, do zmiany cechy z negatywnej na pozytywna wymagane beda 2 magazyny.",
+
+  "Sandbox_GydeTraitMags_ReadRemove": "Remove Traits On Read",
+  "Sandbox_GydeTraitMags_ReadRemove_tooltip": "Przeczytanie magazynu z cech� usunie powi�zan� cech� je�li gracz j� posiada.",
+
+  "Sandbox_GydeTraitMags_DaysBeforeRead": "Dni przed czytelno�ci�",
+  "Sandbox_GydeTraitMags_DaysBeforeRead_tooltip": "Ilo�� dni przed magazynem cech mo�e zosta� przeczytana, maksymalna warto�� jest rok.",
+
+  "Sandbox_GydeTraitMags_SpawnRate": "Cz�stotliwo�� pojawiania si� magazyn�w",
+  "Sandbox_GydeTraitMags_SpawnRate_tooltip": "Zmiana cz�stotliwo�ci pojawiania si� magazyn�w. Wi�cej informacji znajdziesz na stronie warsztatu.",
+  "Sandbox_GydeTraitMags_SpawnRate_option1": "Niesamowicie ma�a",
+  "Sandbox_GydeTraitMags_SpawnRate_option2": "Ma�a",
+  "Sandbox_GydeTraitMags_SpawnRate_option3": "Domy�lna",
+  "Sandbox_GydeTraitMags_SpawnRate_option4": "Du�a",
+  "Sandbox_GydeTraitMags_SpawnRate_option5": "Bardzo du�a",
+
+  "Sandbox_GydeTraitMags_SpawnSpeedDemon": "Szybki kierowca",
+  "Sandbox_GydeTraitMags_SpawnSpeedDemon_tooltip": "Wy��cz, aby zapobiec pojawianiu si� magazynu Szybki kierowca w grze.\n\nOpis cechy:\n200% Zmiana pr�dko�ci pojazdu, 115% maksymalna pr�dko�� dla wszystkich pojazd�w.",
+
+  "Sandbox_GydeTraitMags_SpawnNutritionist": "Dietetyk",
+  "Sandbox_GydeTraitMags_SpawnNutritionist_tooltip": "Wy��cz, aby zapobiec pojawianiu si� magazynu Dietetyk w grze.\n\nOpis cechy:\nUmo�liwia graczowi sprawdzenie warto�ci od�ywczych dowolnego produktu spo�ywczego, nawet tego, kt�ry nie jest opakowany.",
+
+  "Sandbox_GydeTraitMags_SpawnOrganized": "Zorganizowany",
+  "Sandbox_GydeTraitMags_SpawnOrganized_tooltip": "Wy��cz, aby zapobiec pojawianiu si� magazynu Zorganizowany w grze.\n\nOpis cechy:\n130% pojemno�ci wszystkich pojemnik�w, wliczaj�c w to pude�ka, szafy i samochody.\n\n\tSandbox_GydeTraitMags_SpawnOutdoorsman = ",
+
+  "Sandbox_GydeTraitMags_SpawnOutdoorsman_tooltip": "Wy��cz, aby zapobiec pojawianiu si� magazynu Sztuka przetrwania w grze.\n\nOpis cechy:\n10% szany z�apanie przezi�bienia. 1% lub 1,25% szans na zadrapanie/rany podczas chodzenia lub biegania w�r�d drzew. Szybciej rozpalaj ogniska za pomoc� deski z wyci�ciami.",
+
+  "Sandbox_GydeTraitMags_SpawnHandy": "Budowlaniec",
+  "Sandbox_GydeTraitMags_SpawnHandy_tooltip": "Wy��cz, aby zapobiec pojawianiu si� magazynu Budowlaniec w grze.\n\nOpis cechy:\n+100 HP dla wszystkich konstrukcji.\\Zwi�kszenie szybko�ci budowy (~11%).",
+
+  "Sandbox_GydeTraitMags_SpawnFastReader": "Kurs Szybkiego czytania",
+  "Sandbox_GydeTraitMags_SpawnFastReader_tooltip": "Wy��cz, aby zapobiec pojawianiu si� magazynu Kurs Szybkiego czytania w grze.\n\nOpis cechy:\n130% pr�dko�ci czytania.",
+
+  "Sandbox_GydeTraitMags_SpawnFastLearner": "Bystry ucze�",
+  "Sandbox_GydeTraitMags_SpawnFastLearner_tooltip": "Wy��cz, aby zapobiec pojawianiu si� magazynu Bystry ucze� w grze.\n\nOpis cechy:\n130% PD dla wszystkich umiej�tno�ci poza si�� i kondycj�.",
+
+  "Sandbox_GydeTraitMags_SpawnAxeMan": "Praca z siekier�",
+  "Sandbox_GydeTraitMags_SpawnAxeMan_tooltip": "Wy��cz, aby zapobiec pojawianiu si� magazynu Praca z siekier� w grze.\n\nOpis cechy:\nO 25% szybsze machanie toporami (walka i �cinanie drzew).",
+
+  "Sandbox_GydeTraitMags_SpawnBurglar": "W�amywacz",
+  "Sandbox_GydeTraitMags_SpawnBurglar_tooltip": "Wy��cz, aby zapobiec pojawianiu si� magazynu W�amywacz w grze.\n\nOpis cechy:\nPotrafi odpala� auta na kr�tko i ma mniejsze szanse na z�amanie zamka w oknie przy pr�bie jego otwarcia si��.",
+
+  "Sandbox_GydeTraitMags_SpawnDextrous": "Zr�czono��",
+
+  "Sandbox_GydeTraitMags_SpawnGraceful": "Gracja",
+  "Sandbox_GydeTraitMags_SpawnGraceful_tooltip": "Wy��cz, aby zapobiec pojawianiu si� magazynu Gracja w grze.\n\nOpis cechy:\n-60% promie� d�wi�ku krok�w.\n-90% szans na potkni�cie si� podczas biegu/sprintu przy przeskakiwaniu niskiego p�otu lub podczas atakowania zombie..",
+
+  "Sandbox_GydeTraitMags_SpawnInconspicuous": "Niepozorno��",
+  "Sandbox_GydeTraitMags_SpawnInconspicuous_tooltip": "Wy��cz, aby zapobiec pojawianiu si� magazynu Niepozorno�� w grze.\n\nOpis cechy:\n-50% szansy na to, �e zombie ci� zauwa��.",
+
+  "Sandbox_GydeTraitMags_SpawnKeenHearing": "Wyostrzony s�uch",
+  "Sandbox_GydeTraitMags_SpawnKeenHearing_tooltip": "Wy��cz, aby zapobiec pojawianiu si� magazynu Wyostrzony s�uch w grze.\n\nOpis cechy:\n200% promie� percepcji. Zombie, kt�re podejd� od ty�u, b�d� widoczne znacznie wcze�niej."
+}

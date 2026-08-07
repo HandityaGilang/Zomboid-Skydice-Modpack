@@ -1,0 +1,17 @@
+name=Just Hide Debug Menu
+poster=poster.png
+id=JustHideDebugMenu
+description=<RGB:0,1,0>Just Hide Debug Menu <LINE> <LINE>
+description=<RGB:1,1,1>Cleans the right-click context menu by hiding debug options and obsolete entries without affecting core interface elements. <LINE>
+description=Does NOT remove game build information — build details remain fully visible in both Singleplayer and Multiplayer (including server info in MP). <LINE>
+description=Toggle debug entries on or off at any time using the F10 key. <LINE>
+description=Lightweight, safe, and fully compatible with Build 42. <LINE> <LINE>
+description=Limpia el menú contextual del clic derecho ocultando opciones de depuración y entradas obsoletas sin afectar elementos esenciales de la interfaz. <LINE>
+description=NO elimina la información de la compilación del juego — los datos de versión se muestran normalmente en solitario y multijugador (no oculta la información del servidor en MP). <LINE>
+description=Permite alternar las opciones de debug en cualquier momento con la tecla F10. <LINE>
+description=Ligero, seguro y totalmente compatible con la Build 42. <LINE> <LINE>
+description=<RGB:1,0.78,0.2>Tested: B42.14.1
+author=SuperJetPlus
+modversion=2026.2.26
+icon=icon.png
+incompatible=\HideDebugMenu

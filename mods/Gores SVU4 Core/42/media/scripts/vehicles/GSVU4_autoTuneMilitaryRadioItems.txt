@@ -1,0 +1,15 @@
+module Base
+{
+    item GSVU4AutoTuneMilitaryRadio
+    {
+        DisplayCategory     = VehicleMaintenance,
+        Weight              = 2.0,
+        ItemType            = base:normal,
+        VehicleType         = 3,
+        DisplayName         = Auto Tune Military Radio,
+        Icon                = Radio,
+        ConditionMax        = 100,
+        MechanicsItem       = TRUE,
+        Tags                = base:electronics,
+    }
+}

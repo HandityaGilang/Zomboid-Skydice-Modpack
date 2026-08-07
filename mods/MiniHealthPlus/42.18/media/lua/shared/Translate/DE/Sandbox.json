@@ -1,0 +1,9 @@
+{
+    "Sandbox_MHP": "Mini Health Plus",
+    "Sandbox_MHP_EnableReplaceBandage": "Bandage ersetzen aktivieren",
+    "Sandbox_MHP_EnableReplaceBandage_tooltip": "Fügt für verschmutzte Bandagen den Kontextmenü-Eintrag „Bandage ersetzen“ hinzu.",
+    "Sandbox_MHP_ShowSafeRemoveIndicator": "Blauer Indikator für sichere Entfernung",
+    "Sandbox_MHP_ShowSafeRemoveIndicator_tooltip": "Zeigt den blauen Indikator an, wenn eine Bandage oder Schiene sicher entfernt werden kann.",
+    "Sandbox_MHP_ShowStitchInspectIndicator": "Lila Indikator für Wundkontrolle",
+    "Sandbox_MHP_ShowStitchInspectIndicator_tooltip": "Zeigt den lila Indikator an, wenn genähte Wunden überprüft werden sollten."
+}

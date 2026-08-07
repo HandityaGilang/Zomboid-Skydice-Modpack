@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>successVehicle</m_Name>
+	<m_AnimName>Bob_ClimbFence_Success</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.20</m_BlendTime>
+	<m_SpeedScale>1.20</m_SpeedScale>
+	<m_ConditionPriority>10</m_ConditionPriority>
+	<m_Conditions x_name="845cf142-8e74-4b50-b2b1-002345c8175d">
+		<m_Name>ClimbVehicleStruggled</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+	<m_EarlyTransitionOut>true</m_EarlyTransitionOut>
+	<m_Events>
+		<m_EventName>SetVariable</m_EventName>
+		<m_TimePc>0.45</m_TimePc>
+		<m_ParameterValue>ClimbVehicleStruggled=false</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="3eecbe0e-7e70-4a27-aad8-8baf38db11fa">
+		<m_EventName>PlayerVoiceSound</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>JumpHigh</m_ParameterValue>
+	</m_Events>
+	<m_SubStateBoneWeights>
+		<boneName>Bip01</boneName>
+		<weight>1.00</weight>
+		<includeDescendants>true</includeDescendants>
+	</m_SubStateBoneWeights>
+</animNode>

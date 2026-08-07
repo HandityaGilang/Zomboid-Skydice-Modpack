@@ -1,0 +1,9 @@
+{
+    "Sandbox_MHP": "Mini Health Plus",
+    "Sandbox_MHP_EnableReplaceBandage": "Activer Remplacer le bandage",
+    "Sandbox_MHP_EnableReplaceBandage_tooltip": "Ajoute l’entrée de menu contextuel « Remplacer le bandage » pour les bandages sales.",
+    "Sandbox_MHP_ShowSafeRemoveIndicator": "Indicateur bleu de retrait sécurisé",
+    "Sandbox_MHP_ShowSafeRemoveIndicator_tooltip": "Affiche l’indicateur bleu lorsqu’un bandage ou une attelle peut être retiré(e) sans risque.",
+    "Sandbox_MHP_ShowStitchInspectIndicator": "Indicateur violet de vérification des points",
+    "Sandbox_MHP_ShowStitchInspectIndicator_tooltip": "Affiche l’indicateur violet lorsque les plaies suturées doivent être vérifiées."
+}

@@ -1,0 +1,34 @@
+module Base
+{
+    fixing Fix Tire Welding
+    {
+        Require = Base.OldTire1;Base.OldTire2;Base.OldTire3;Base.NormalTire1;Base.NormalTire2;Base.NormalTire3;Base.ModernTire1;Base.ModernTire2;Base.ModernTire3,
+        GlobalItem = Base.BlowTorch=2,
+        ConditionModifier = 1.0,
+        Fixer = Base.SmallSheetMetal=2; MetalWelding=2;Mechanics=3,
+    }
+    fixing Fix Tire
+    {
+        Require = Base.OldTire1;Base.OldTire2;Base.OldTire3;Base.NormalTire1;Base.NormalTire2;Base.NormalTire3;Base.ModernTire1;Base.ModernTire2;Base.ModernTire3,
+        GlobalItem = Base.TirePiece,
+        ConditionModifier = 0.6,
+        Fixer = Base.Woodglue; Mechanics=2,
+        Fixer = Base.Glue; Mechanics=2,
+        Fixer = Base.Epoxy; Mechanics=2,
+    }
+
+    fixing Fix Muffler Welding
+    {
+        Require = Base.OldCarMuffler1;Base.OldCarMuffler2;Base.OldCarMuffler3;Base.NormalCarMuffler1;Base.NormalCarMuffler2;Base.NormalCarMuffler3;Base.ModernCarMuffler1;Base.ModernCarMuffler2;Base.ModernCarMuffler3,
+        GlobalItem = Base.BlowTorch=2,
+        ConditionModifier = 1.2,
+        Fixer = Base.SmallSheetMetal=2; MetalWelding=2;Mechanics=3,
+    }
+    fixing Fix Muffler
+    {
+        Require = Base.OldCarMuffler1;Base.OldCarMuffler2;Base.OldCarMuffler3;Base.NormalCarMuffler1;Base.NormalCarMuffler2;Base.NormalCarMuffler3;Base.ModernCarMuffler1;Base.ModernCarMuffler2;Base.ModernCarMuffler3,
+        GlobalItem = Base.Screws=8,
+        ConditionModifier = 0.8,
+        Fixer = Base.SmallSheetMetal=2; Mechanics=4,
+    }
+}

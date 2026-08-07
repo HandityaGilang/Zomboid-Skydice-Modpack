@@ -1,0 +1,7 @@
+IG_UI_IT = {
+    IGUI_VehiclePartGSVU4RoofRack = "Roof Rack",
+    IGUI_VehiclePartGSVU4RoofLights = "Roof Lighting System",
+    IGUI_VehiclePartGSVU4RoofLightsLeft = "Left Side Roof Light",
+    IGUI_VehiclePartGSVU4RoofLightsRight = "Right Side Roof Light",
+    IGUI_VehiclePartGSVU4RoofLightsRear = "Rear Roof Light",
+}

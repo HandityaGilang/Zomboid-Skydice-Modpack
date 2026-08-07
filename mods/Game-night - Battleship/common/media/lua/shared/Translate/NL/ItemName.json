@@ -1,0 +1,11 @@
+{
+    "Base.BattleShip_Box": "Slagschip doos",
+    "Base.BattleShip_GameStand": "Slagschip Gamestand",
+    "Base.BattleShip_Peg_Red": "Rode Pin",
+    "Base.BattleShip_Peg_White": "Witte pin",
+    "Base.BattleShip_Ship_Battleship": "Slagschip",
+    "Base.BattleShip_Ship_Carrier": "Vervoerder",
+    "Base.BattleShip_Ship_Destroyer": "Torpedojager",
+    "Base.BattleShip_Ship_Submarine": "Onderzeeër",
+    "Base.BattleShip_Ship_PatrolBoat": "Patrouilleboot"
+}

@@ -1,0 +1,75 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Welding_SchoolBlueLocker
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_BlueSchoolLocker,
+			Icon		= Build_furniture_storage_02_5,
+		}
+	}
+
+    entity Welding_SchoolBlueLocker
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Welding_SchoolBlueLocker,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+            canBePadlocked = true,
+            face W
+            {
+                layer
+                {
+                    row = furniture_storage_02_4,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = furniture_storage_02_5,
+                }
+            }
+            face E
+            {
+                layer
+                {
+                    row = furniture_storage_02_6,
+                }
+            }
+            face S
+            {
+                layer
+                {
+                    row = furniture_storage_02_7,
+                }
+            }
+        }
+        
+        component CraftRecipe
+        {
+            OnAddToMenu   = ignoreFromBuildMenu,
+            timedAction   = BuildMetalStructureMedium,
+            time          = 200,
+            SkillRequired = MetalWelding:8,
+            xpAward       = MetalWelding:80,
+            category      = Furniture,
+            ToolTip       = Tooltip_craft_lockerDesc,
+            inputs
+            {
+                item 4 [Base.BlowTorch] flags[DontRecordInput],
+                item 1 tags[Paintbrush] mode:keep,
+                item 4 [Base.SheetMetal],
+                item 2 [Base.Hinge],
+                item 4 [Base.WeldingRods] flags[DontRecordInput],
+                item 2 [Base.PaintBlue] flags[DontRecordInput],
+            }
+        }
+    }
+}

@@ -1,0 +1,1358 @@
+module Base
+{
+	timedAction SVU4_CutGlass
+	{
+		metabolics      = LightWork,
+        actionAnim      = SawSmallItemMetal,
+		sound		= BreakGlassItem,
+        prop1 		= Base.CraftingScalpel,
+        prop2 		= Base.CraftingGlassPane,
+	}
+
+	timedAction SVU4_WeldingParts
+	{
+		metabolics      = LightWork,
+        actionAnim      = Welding,
+		sound		= BlowTorch,
+        prop1 		= Base.CraftingWeldingTorch,
+        prop2 		= Base.CraftingWeldingPipe,
+	}
+
+	timedAction SVU4_SeatCraft
+	{
+		metabolics      = LightWork,
+        actionAnim      = Sew,
+		sound		= Sewing,
+	}
+craftRecipe SVU4_MakeCarHoodStandard
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;Welding;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:4;MetalWelding:2,
+		category = Mechanics,
+		inputs
+		{
+			item 2 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 2 [Base.MetalPipe;Base.SteelBar;Base.MetalBar;Base.LeadPipe;Base.IronBar],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[WeldingMask] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.EngineDoor1,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarHoodHeavy
+	{
+        timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+        Tags = InHandCraft;Welding;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:4;MetalWelding:2,
+		category = Mechanics,
+		inputs
+		{
+			item 2 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 2 [Base.MetalPipe;Base.SteelBar;Base.MetalBar;Base.LeadPipe;Base.IronBar],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[WeldingMask] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.EngineDoor2,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarHoodSports
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;Welding;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:4;MetalWelding:2,
+		category = Mechanics,
+		inputs
+		{
+			item 2 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 2 [Base.MetalPipe;Base.SteelBar;Base.MetalBar;Base.LeadPipe;Base.IronBar],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[WeldingMask] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.EngineDoor3,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarTrunkLidStandard
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;Welding;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:4;MetalWelding:2,
+		category = Mechanics,
+		inputs
+		{
+			item 2 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 2 [Base.MetalPipe;Base.SteelBar;Base.MetalBar;Base.LeadPipe;Base.IronBar],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[WeldingMask] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.TrunkDoor1,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarTrunkLidHeavy
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;Welding;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:4;MetalWelding:2,
+		category = Mechanics,
+		inputs
+		{
+			item 2 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 2 [Base.MetalPipe;Base.SteelBar;Base.MetalBar;Base.LeadPipe;Base.IronBar],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[WeldingMask] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.TrunkDoor2,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarTrunkLidSports
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;Welding;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:4;MetalWelding:2,
+		category = Mechanics,
+		inputs
+		{
+			item 2 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 2 [Base.MetalPipe;Base.SteelBar;Base.MetalBar;Base.LeadPipe;Base.IronBar],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[WeldingMask] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.TrunkDoor3,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarFrontDoorStandard
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;Welding;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:4;MetalWelding:2,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 2 [Base.MetalPipe;Base.SteelBar;Base.MetalBar;Base.LeadPipe;Base.IronBar],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[WeldingMask] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.FrontCarDoor1,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarFrontDoorHeavy
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;Welding;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:4;MetalWelding:2,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 2 [Base.MetalPipe;Base.SteelBar;Base.MetalBar;Base.LeadPipe;Base.IronBar],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[WeldingMask] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.FrontCarDoor2,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarFrontDoorSports
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;Welding;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:4;MetalWelding:2,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 2 [Base.MetalPipe;Base.SteelBar;Base.MetalBar;Base.LeadPipe;Base.IronBar],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[WeldingMask] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.FrontCarDoor3,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarRearDoorStandard
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;Welding;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:4;MetalWelding:2,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 2 [Base.MetalPipe;Base.SteelBar;Base.MetalBar;Base.LeadPipe;Base.IronBar],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[WeldingMask] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.RearCarDoor1,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarRearDoorHeavy
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;Welding;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:4;MetalWelding:2,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 2 [Base.MetalPipe;Base.SteelBar;Base.MetalBar;Base.LeadPipe;Base.IronBar],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[WeldingMask] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.RearCarDoor2,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarRearDoorSports
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;Welding;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:4;MetalWelding:2,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 2 [Base.MetalPipe;Base.SteelBar;Base.MetalBar;Base.LeadPipe;Base.IronBar],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[WeldingMask] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.RearCarDoor3,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarFrontWindowStandard
+	{
+		timedAction = SVU4_CutGlass,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;Glassmaking:90,
+		SkillRequired = Mechanics:3;Glassmaking:2,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.GlassPanel],
+			item 1 tags[Sharpenable] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.FrontWindow1,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarFrontWindowHeavy
+	{
+		timedAction = SVU4_CutGlass,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;Glassmaking:90,
+		SkillRequired = Mechanics:3;Glassmaking:2,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.GlassPanel],
+			item 1 tags[Sharpenable] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.FrontWindow2,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarFrontWindowSports
+	{
+		timedAction = SVU4_CutGlass,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;Glassmaking:90,
+		SkillRequired = Mechanics:3;Glassmaking:2,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.GlassPanel],
+			item 1 tags[Sharpenable] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.FrontWindow3,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarRearWindowStandard
+	{
+		timedAction = SVU4_CutGlass,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;Glassmaking:90,
+		SkillRequired = Mechanics:3;Glassmaking:2,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.GlassPanel],
+			item 1 tags[Sharpenable] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.RearWindow1,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarRearWindowHeavy
+	{
+		timedAction = SVU4_CutGlass,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;Glassmaking:90,
+		SkillRequired = Mechanics:3;Glassmaking:2,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.GlassPanel],
+			item 1 tags[Sharpenable] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.RearWindow2,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarRearWindowSports
+	{
+		timedAction = SVU4_CutGlass,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;Glassmaking:90,
+		SkillRequired = Mechanics:3;Glassmaking:2,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.GlassPanel],
+			item 1 tags[Sharpenable] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.RearWindow3,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarWindshieldStandard
+	{
+		timedAction = SVU4_CutGlass,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;Glassmaking:90,
+		SkillRequired = Mechanics:5;Glassmaking:2,
+		category = Mechanics,
+		inputs
+		{
+			item 2 [Base.GlassPanel],
+			item 1 tags[Sharpenable] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.Windshield1,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarWindshieldHeavy
+	{
+		timedAction = SVU4_CutGlass,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;Glassmaking:90,
+		SkillRequired = Mechanics:5;Glassmaking:2,
+		category = Mechanics,
+		inputs
+		{
+			item 2 [Base.GlassPanel],
+			item 1 tags[Sharpenable] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.Windshield2,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarWindshieldSports
+	{
+		timedAction = SVU4_CutGlass,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;Glassmaking:90,
+		SkillRequired = Mechanics:5;Glassmaking:2,
+		category = Mechanics,
+		inputs
+		{
+			item 2 [Base.GlassPanel],
+			item 1 tags[Sharpenable] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.Windshield3,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarRearWindshieldStandard
+	{
+		timedAction = SVU4_CutGlass,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;Glassmaking:90,
+		SkillRequired = Mechanics:5;Glassmaking:2,
+		category = Mechanics,
+		inputs
+		{
+			item 2 [Base.GlassPanel],
+			item 1 tags[Sharpenable] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.RearWindshield1,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarRearWindshieldHeavy
+	{
+		timedAction = SVU4_CutGlass,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;Glassmaking:90,
+		SkillRequired = Mechanics:5;Glassmaking:2,
+		category = Mechanics,
+		inputs
+		{
+			item 2 [Base.GlassPanel],
+			item 1 tags[Sharpenable] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.RearWindshield2,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarRearWindshieldSports
+	{
+		timedAction = SVU4_CutGlass,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;Glassmaking:90,
+		SkillRequired = Mechanics:5;Glassmaking:2,
+		category = Mechanics,
+		inputs
+		{
+			item 2 [Base.GlassPanel],
+			item 1 tags[Sharpenable] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.RearWindshield3,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarSeatStandard
+	{
+		timedAction = SVU4_SeatCraft,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;Tailoring:90,
+		SkillRequired = Mechanics:1;Tailoring:2,
+		category = Mechanics,
+		inputs
+		{
+			item 4 tags[Sheet],
+			item 1 [Base.RippedSheetsBundle;Base.DenimStripsBundle;Base.LeatherStripsBundle],
+			item 5 tags[Thread],
+			item 1 tags[Sharpenable] mode:keep,
+			item 1 tags[SewingNeedle] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.NormalCarSeat1,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarSeatHeavy
+	{
+		timedAction = SVU4_SeatCraft,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;Tailoring:90,
+		SkillRequired = Mechanics:1;Tailoring:2,
+		category = Mechanics,
+		inputs
+		{
+			item 4 tags[Sheet],
+			item 1 [Base.RippedSheetsBundle;Base.DenimStripsBundle;Base.LeatherStripsBundle],
+			item 5 tags[Thread],
+			item 1 tags[Sharpenable] mode:keep,
+			item 1 tags[SewingNeedle] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.NormalCarSeat2,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarSeatSports
+	{
+		timedAction = SVU4_SeatCraft,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;Tailoring:90,
+		SkillRequired = Mechanics:1;Tailoring:2,
+		category = Mechanics,
+		inputs
+		{
+			item 4 tags[Sheet],
+			item 1 [Base.RippedSheetsBundle;Base.DenimStripsBundle;Base.LeatherStripsBundle],
+			item 5 tags[Thread],
+			item 1 tags[Sharpenable] mode:keep,
+			item 1 tags[SewingNeedle] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.NormalCarSeat3,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarTireStandardOld
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;Tailoring:90;MetalWelding:90,
+		SkillRequired = Mechanics:2;Tailoring:3;MetalWelding:2,
+		category = Mechanics,
+		inputs
+		{
+			item 4 [Base.TirePiece],
+			item 2 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 5 [Base.Thread_Sinew;Base.Thread_Aramid],
+			item 1 tags[Saw] mode:keep,
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[SewingNeedle] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.OldTire1,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarTireHeavyOld
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;Tailoring:90;MetalWelding:90,
+		SkillRequired = Mechanics:2;Tailoring:3;MetalWelding:2,
+		category = Mechanics,
+		inputs
+		{
+			item 4 [Base.TirePiece],
+			item 2 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 5 [Base.Thread_Sinew;Base.Thread_Aramid],
+			item 1 tags[Saw] mode:keep,
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[SewingNeedle] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.OldTire2,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarTireSportsOld
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;Tailoring:90;MetalWelding:90,
+		SkillRequired = Mechanics:2;Tailoring:3;MetalWelding:2,
+		category = Mechanics,
+		inputs
+		{
+			item 4 [Base.TirePiece],
+			item 2 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 5 [Base.Thread_Sinew;Base.Thread_Aramid],
+			item 1 tags[Saw] mode:keep,
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[SewingNeedle] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.OldTire3,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarTireStandardRegular
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;Tailoring:90;MetalWelding:90,
+		SkillRequired = Mechanics:4;Tailoring:5;MetalWelding:3,
+		category = Mechanics,
+		inputs
+		{
+			item 4 [Base.TirePiece],
+			item 2 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 5 [Base.Thread_Sinew;Base.Thread_Aramid],
+			item 1 tags[Saw] mode:keep,
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[SewingNeedle] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.NormalTire1,
+		}
+	}
+	
+	craftRecipe SVU4_MakeCarTireHeavyRegular
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;Tailoring:90;MetalWelding:90,
+		SkillRequired = Mechanics:4;Tailoring:5;MetalWelding:3,
+		category = Mechanics,
+		inputs
+		{
+			item 4 [Base.TirePiece],
+			item 2 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 5 [Base.Thread_Sinew;Base.Thread_Aramid],
+			item 1 tags[Saw] mode:keep,
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[SewingNeedle] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.NormalTire2,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarTireSportsRegular
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;Tailoring:90;MetalWelding:90,
+		SkillRequired = Mechanics:4;Tailoring:5;MetalWelding:3,
+		category = Mechanics,
+		inputs
+		{
+			item 4 [Base.TirePiece],
+			item 2 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 5 [Base.Thread_Sinew;Base.Thread_Aramid],
+			item 1 tags[Saw] mode:keep,
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[SewingNeedle] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.NormalTire3,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarTireStandardPerformance
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;Tailoring:90;MetalWelding:90,
+		SkillRequired = Mechanics:6;Tailoring:7;MetalWelding:4,
+		category = Mechanics,
+		inputs
+		{
+			item 4 [Base.TirePiece],
+			item 2 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 5 [Base.Thread_Sinew;Base.Thread_Aramid],
+			item 1 tags[Saw] mode:keep,
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[SewingNeedle] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.ModernTire1,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarTireHeavyPerformance
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;Tailoring:90;MetalWelding:90,
+		SkillRequired = Mechanics:6;Tailoring:7;MetalWelding:4,
+		category = Mechanics,
+		inputs
+		{
+			item 4 [Base.TirePiece],
+			item 2 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 5 [Base.Thread_Sinew;Base.Thread_Aramid],
+			item 1 tags[Saw] mode:keep,
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[SewingNeedle] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.ModernTire2,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarTireSportsPerformance
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;Tailoring:90;MetalWelding:90,
+		SkillRequired = Mechanics:6;Tailoring:7;MetalWelding:4,
+		category = Mechanics,
+		inputs
+		{
+			item 4 [Base.TirePiece],
+			item 2 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 5 [Base.Thread_Sinew;Base.Thread_Aramid],
+			item 1 tags[Saw] mode:keep,
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[SewingNeedle] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.ModernTire3,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarBrakesStandardOld
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:2;MetalWelding:2,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 2 [Base.SmallSheetMetal;Base.CopperScrap],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[Saw] mode:keep,
+			item 1 tags[DrillMetal] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.OldBrake1,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarBrakesHeavyOld
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:2;MetalWelding:2,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 2 [Base.SmallSheetMetal;Base.CopperScrap],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[Saw] mode:keep,
+			item 1 tags[DrillMetal] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.OldBrake2,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarBrakesSportsOld
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:2;MetalWelding:2,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 2 [Base.SmallSheetMetal;Base.CopperScrap],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[Saw] mode:keep,
+			item 1 tags[DrillMetal] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.OldBrake3,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarBrakesStandardRegular
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:4;MetalWelding:3,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 2 [Base.SmallSheetMetal;Base.CopperScrap],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[Saw] mode:keep,
+			item 1 tags[DrillMetal] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.NormalBrake1,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarBrakesHeavyRegular
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:4;MetalWelding:3,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 2 [Base.SmallSheetMetal;Base.CopperScrap],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[Saw] mode:keep,
+			item 1 tags[DrillMetal] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.NormalBrake2,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarBrakesSportsRegular
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:4;MetalWelding:3,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 2 [Base.SmallSheetMetal;Base.CopperScrap],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[Saw] mode:keep,
+			item 1 tags[DrillMetal] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.NormalBrake3,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarBrakesStandardPerformance
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:6;MetalWelding:4,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 2 [Base.SmallSheetMetal;Base.CopperScrap],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[Saw] mode:keep,
+			item 1 tags[DrillMetal] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.ModernBrake1,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarBrakesHeavyPerformance
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:6;MetalWelding:4,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 2 [Base.SmallSheetMetal;Base.CopperScrap],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[Saw] mode:keep,
+			item 1 tags[DrillMetal] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.ModernBrake2,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarBrakesSportsPerformance
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:6;MetalWelding:4,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 2 [Base.SmallSheetMetal;Base.CopperScrap],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[Saw] mode:keep,
+			item 1 tags[DrillMetal] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.ModernBrake3,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarSuspensionStandardRegular
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:3;MetalWelding:2,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.MetalPipe;Base.SteelBar;Base.MetalBar;Base.LeadPipe;Base.IronBar],
+			item 2 [Base.SmallSheetMetal;Base.CopperScrap],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[Saw] mode:keep,
+			item 1 tags[DrillMetal] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.NormalSuspension1,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarSuspensionHeavyRegular
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:3;MetalWelding:2,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.MetalPipe;Base.SteelBar;Base.MetalBar;Base.LeadPipe;Base.IronBar],
+			item 2 [Base.SmallSheetMetal;Base.CopperScrap],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[Saw] mode:keep,
+			item 1 tags[DrillMetal] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.NormalSuspension2,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarSuspensionSportsRegular
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:5;MetalWelding:3,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.MetalPipe;Base.SteelBar;Base.MetalBar;Base.LeadPipe;Base.IronBar],
+			item 2 [Base.SmallSheetMetal;Base.CopperScrap],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[Saw] mode:keep,
+			item 1 tags[DrillMetal] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.NormalSuspension3,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarSuspensionStandardPerformance
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:7;MetalWelding:4,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.MetalPipe;Base.SteelBar;Base.MetalBar;Base.LeadPipe;Base.IronBar],
+			item 2 [Base.SmallSheetMetal;Base.CopperScrap],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[Saw] mode:keep,
+			item 1 tags[DrillMetal] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.ModernSuspension1,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarSuspensionHeavyPerformance
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:7;MetalWelding:4,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.MetalPipe;Base.SteelBar;Base.MetalBar;Base.LeadPipe;Base.IronBar],
+			item 2 [Base.SmallSheetMetal;Base.CopperScrap],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[Saw] mode:keep,
+			item 1 tags[DrillMetal] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.ModernSuspension2,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarSuspensionSportsPerformance
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:7;MetalWelding:4,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.MetalPipe;Base.SteelBar;Base.MetalBar;Base.LeadPipe;Base.IronBar],
+			item 2 [Base.SmallSheetMetal;Base.CopperScrap],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[Saw] mode:keep,
+			item 1 tags[DrillMetal] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.ModernSuspension3,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarGasTankStandardSmall
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:2;MetalWelding:2,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.MetalPipe;Base.SteelBar;Base.MetalBar;Base.LeadPipe;Base.IronBar],
+			item 2 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[DrillMetal] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.SmallGasTank1,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarGasTankHeavySmall
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:2;MetalWelding:2,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.MetalPipe;Base.SteelBar;Base.MetalBar;Base.LeadPipe;Base.IronBar],
+			item 2 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[DrillMetal] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.SmallGasTank2,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarGasTankSportSmall
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:2;MetalWelding:2,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.MetalPipe;Base.SteelBar;Base.MetalBar;Base.LeadPipe;Base.IronBar],
+			item 2 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[DrillMetal] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.SmallGasTank3,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarGasTankStandardRegular
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:4;MetalWelding:3,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.MetalPipe;Base.SteelBar;Base.MetalBar;Base.LeadPipe;Base.IronBar],
+			item 2 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[DrillMetal] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.NormalGasTank1,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarGasTankHeavyRegular
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:4;MetalWelding:3,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.MetalPipe;Base.SteelBar;Base.MetalBar;Base.LeadPipe;Base.IronBar],
+			item 2 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[DrillMetal] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.NormalGasTank2,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarGasTankSportsRegular
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:4;MetalWelding:3,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.MetalPipe;Base.SteelBar;Base.MetalBar;Base.LeadPipe;Base.IronBar],
+			item 2 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[DrillMetal] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.NormalGasTank3,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarGasTankStandardBig
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:6;MetalWelding:4,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.MetalPipe;Base.SteelBar;Base.MetalBar;Base.LeadPipe;Base.IronBar],
+			item 3 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[DrillMetal] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.BigGasTank1,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarGasTankHeavyBig
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:6;MetalWelding:4,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.MetalPipe;Base.SteelBar;Base.MetalBar;Base.LeadPipe;Base.IronBar],
+			item 3 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[DrillMetal] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.BigGasTank2,
+		}
+	}
+
+	craftRecipe SVU4_MakeCarGasTankSportsBig
+	{
+		timedAction = SVU4_WeldingParts,
+		OnCreate = GSVU4Crafting.OnCreate.RiskyVanillaVehiclePart,
+		Time = 120,
+		Tags = InHandCraft;CanBeDoneInDark,
+		xpAward = Mechanics:90;MetalWelding:90,
+		SkillRequired = Mechanics:6;MetalWelding:4,
+		category = Mechanics,
+		inputs
+		{
+			item 1 [Base.MetalPipe;Base.SteelBar;Base.MetalBar;Base.LeadPipe;Base.IronBar],
+			item 3 [Base.SheetMetal;Base.CopperSheet;Base.SilverSheet;Base.GoldSheet],
+			item 1 [Base.BlowTorch] mode:keep flags[NotEmpty],
+			item 1 tags[DrillMetal] mode:keep,
+		}
+		outputs
+		{
+			item 1 Base.BigGasTank3,
+		}
+	}
+}

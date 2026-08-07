@@ -1,0 +1,62 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Industry_RailroadBrownWindowFrame
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_BrownRailroadWindowFrame,
+			Icon		=  Build_industry_railroad_05_33,
+		}
+	}
+
+    entity Industry_RailroadBrownWindowFrame
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Industry_RailroadBrownWindowFrame,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+			health          = 800,
+			skillBaseHealth = 70,
+            previousStage   = WoodenWallFrame;MetalWallFrame,
+            OnCreate        = NB_BuildRecipeCode.NewWall.OnCreate,
+
+            face W
+            {
+                layer
+                {
+                    row = industry_railroad_05_32,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = industry_railroad_05_33,
+                }
+            }
+        }
+        
+        component CraftRecipe
+        {
+            timedAction   = BuildWallMetal,
+            time          = 200,
+            category      = Windows,
+            SkillRequired = MetalWelding:6,
+            xpAward       = MetalWelding:60,
+            ToolTip       = Tooltip_craft_NeedsWallframeDesc,
+            inputs
+            {
+                item 4 [Base.BlowTorch] flags[DontRecordInput],
+                item 1 tags[Hammer] mode:keep flags[Prop2;MayDegradeVeryLight],
+                item 4 [Base.SmallSheetMetal],
+                item 4 [Base.Nails],
+            }
+        }
+    }
+}

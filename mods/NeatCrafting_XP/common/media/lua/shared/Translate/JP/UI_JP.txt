@@ -1,0 +1,15 @@
+UI_JP = {
+	UI_XP_NC_xpShow = "XP表示",
+	UI_XP_NC_xpShow_tooltip = "製作レシピの経験値 (XP) の表示を有効にします。 <LINE> 「XP表示フォーマット」は、この情報の表示方法を定義します。 <LINE> <LINE> 利用可能なフォーマット: <LINE> - 基本XP: レシピで付与される基本XPを表示します。 <LINE> - 最終XP: すべての乗数が適用された後の合計XPを表示します。 <LINE> - 乗数: 基本XP、総乗数、最終XPを表示します (例: +5 * 3.5 = 17.5)。 <LINE> - 内訳: 基本XP、すべての乗数の詳細な内訳、最終XPを表示します。 <LINE> 乗数の要因: <LINE> - 初期レベル乗数: レベル0 (x0.25)、レベル1 (x1.00)、レベル2 (x1.33)、レベル3+ (x1.66) <LINE> - スキルブック乗数: スキルブック1～5 (x3、x5、x8、x12、x16)。エイム、リロード、刃物(長) は半分。 <LINE> - 特性乗数: Fast Learner (x1.3)、Slow Learner (x0.7) <LINE> - サンドボックスオプション乗数: グローバル値、またはスキルタイプごとの値。",
+	UI_XP_NC_xpFormat = "XP表示フォーマット",
+	UI_XP_NC_xpFormat_BasicXP = "基本XP",
+	UI_XP_NC_xpFormat_FinalXP = "最終XP",
+	UI_XP_NC_xpFormat_Multiplier = "乗数",
+	UI_XP_NC_xpFormat_Breakdown = "内訳",
+	UI_XP_NC_showRecipeMod = "レシピのModを表示",
+	UI_XP_NC_showRecipeMod_tooltip = "レシピパネルにレシピの出典Modを「Mod」行として表示します。",
+	UI_XP_NC_modPrefix = "Mod: ",
+	UI_XP_NC_textScale = "追加行の文字サイズ",
+	UI_XP_NC_textScale_tooltip = "XP行と「Mod」行のフォントサイズ。",
+	UI_XP_NC_xpFormat_tooltip = "Choose how recipe XP is displayed. <LINE> <LINE> - Basic XP: Shows the base XP. <LINE> - Final XP: Shows the final XP after multipliers. <LINE> - Multiplier: Shows only the multiplier value(s). <LINE> - Full breakdown: Shows base XP, multiplier(s) and final XP.",
+}

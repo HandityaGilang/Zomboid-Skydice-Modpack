@@ -1,0 +1,126 @@
+-- TODO:When we can add a Custom Component ,this can be a CustomComponent
+
+NB_CraftHeader = ISPanel:derive("NB_CraftHeader")
+
+local FONT_HGT_SMALL = getTextManager():getFontHeight(UIFont.Small)
+local FONT_HGT_MEDIUM = getTextManager():getFontHeight(UIFont.Medium)
+
+-- ----------------------------------------------------------------------------------------------------- --
+-- initialise
+-- ----------------------------------------------------------------------------------------------------- --
+function NB_CraftHeader:initialise()
+    ISPanel.initialise(self)
+end
+
+function NB_CraftHeader:new(x, y, width, height, parentWindow)
+    local o = ISPanel:new(x, y, width, height)
+    setmetatable(o, self)
+    self.__index = self
+    
+    o.parentWindow = parentWindow
+    o.padding = NCConfig.padding
+    o.moveWithMouse = true
+    o.moving = false
+    
+    o.closeIcon = getTexture("media/ui/Neat_Crafting/ICON/Icon_Close.png")
+    
+    return o
+end
+
+function NB_CraftHeader:calculateLayout(_preferredWidth, _preferredHeight)
+    local width = math.max(_preferredWidth, self.minimumWidth)
+    local height = math.max(_preferredHeight, self.minimumHeight)
+    
+    local buttonSize = math.floor(height * 0.8)
+    local buttonX = width - self.padding/2 - buttonSize
+    local buttonY = math.floor((self.height - buttonSize) / 2)
+    self.closeButton:setX(buttonX)
+    self.closeButton:setY(buttonY)
+    self.closeButton:setWidth(buttonSize)
+    self.closeButton:setHeight(buttonSize)
+
+    self:setWidth(width)
+    self:setHeight(height)
+end
+
+-- ----------------------------------------------------------------------------------------------------- --
+-- create Children
+-- ----------------------------------------------------------------------------------------------------- --
+
+function NB_CraftHeader:createChildren()
+    self.closeButton = NC_SquareButton:new(0,0,10,self.closeIcon,self,function() self.parentWindow:close() end)
+    self.closeButton:initialise()
+    self.closeButton:setActive(true)
+    self.closeButton:setActiveColor(0.8, 0.2, 0.2)
+    self:addChild(self.closeButton)
+end
+
+-- ----------------------------------------------------------------------------------------------------- --
+-- Mouse function
+-- ----------------------------------------------------------------------------------------------------- --
+
+function NB_CraftHeader:onMouseDown()
+    self.moving = true
+    self:setCapture(true)
+    return true
+end
+
+function NB_CraftHeader:onMouseMove(dx, dy)
+    if self.moving and self.parentWindow then
+        self.parentWindow:setX(self.parentWindow.x + dx)
+        self.parentWindow:setY(self.parentWindow.y + dy)
+        return true
+    end
+    return false
+end
+
+function NB_CraftHeader:onMouseMoveOutside(dx, dy)
+    if self.moving and self.parentWindow then
+        self.parentWindow:setX(self.parentWindow.x + dx)
+        self.parentWindow:setY(self.parentWindow.y + dy)
+        return true
+    end
+    return false
+end
+
+function NB_CraftHeader:onMouseUp()
+    if self.moving then
+        self.moving = false
+        self:setCapture(false)
+        return true
+    end
+    return false
+end
+
+function NB_CraftHeader:onMouseUpOutside()
+    if self.moving then
+        self.moving = false
+        self:setCapture(false)
+        return true
+    end
+    return false
+end
+
+function NB_CraftHeader:onSearchChanged(searchString)
+    if self.parentWindow and self.parentWindow.onSearchChanged then
+        self.parentWindow:onSearchChanged(searchString)
+    end
+end
+
+-- ----------------------------------------------------------------------------------------------------- --
+-- Render
+-- ----------------------------------------------------------------------------------------------------- --
+
+function NB_CraftHeader:prerender()
+
+    local panelbackground = NinePatchTexture.getSharedTexture("media/ui/Neat_Crafting/Panel/MainTitle_BG.png")
+    panelbackground:render(self:getAbsoluteX(), self:getAbsoluteY(), self.width, self.height, 0.02, 0.02, 0.02, 1)
+
+    self:drawRect(0, self.height - 1, self.width, 2, 1, 0, 0, 0)
+end
+
+function NB_CraftHeader:render()
+
+    local textY = (self:getHeight() - FONT_HGT_SMALL) / 2
+    self:drawText(self.parentWindow:getWindowTitle(), self.padding, textY, 1, 1, 1, 1, UIFont.Small)
+end

@@ -1,0 +1,88 @@
+module Base
+{
+    template vehicle GSVU4_SVU3_BodyAnchor_SmallCar02
+    {
+        part GSVU4_SVU3_SmallCar02_BodyAnchor
+        {
+            area = Engine,
+            category = nodisplay,
+            specificItem = false,
+            itemType = Base.LightBulb,
+            setAllModelsVisible = false,
+            mechanicRequireKey = false,
+
+            lua
+            {
+                create = GSVU4VV.VisualPart.Create,
+                init = GSVU4VV.VisualPart.Init,
+            }
+
+model GSVU4_BullbarFallback_SmallCar02_Small
+            {
+                file = GSVU4_BullbarFallbackModel_SmallCar02_Small,
+            }
+
+            model GSVU4_BullbarFallback_SmallCar02_Medium
+            {
+                file = GSVU4_BullbarFallbackModel_SmallCar02_Medium,
+            }
+
+            model GSVU4_BullbarFallback_SmallCar02_LargeSpiked
+            {
+                file = GSVU4_BullbarFallbackModel_SmallCar02_LargeSpiked,
+            }
+
+            model GSVU4_RoofLightsFallback_SmallCar02
+            {
+                file = GSVU4_RoofLightsFallbackModel_SmallCar02,
+                offset = 0.0000 0.0000 0.0400,
+            }
+
+            model GSVU4_RoofLightsFallbackBulbs_SmallCar02
+            {
+                file = GSVU4_RoofLightsFallbackModelBulbs_SmallCar02,
+                offset = 0.0000 0.0000 0.0400,
+            }
+model GSVU4_ChainsFallback_SmallCar02
+            {
+                file = GSVU4_ChainsFallbackModel_SmallCar02,
+            }
+
+            model GSVU4_FilteredAirIntake_SmallCar02
+            {
+                file = GSVU4_FilteredAirIntake_SmallCar02,
+            }
+
+        
+            model SVU_Airscoop_SmallCar02_Small
+            {
+                file = SVU_Airscoop_SmallCar02_Small,
+            }
+
+            model SVU_Airscoop_SmallCar02_Medium
+            {
+                file = SVU_Airscoop_SmallCar02_Medium,
+            }
+
+            model SVU_Airscoop_SmallCar02_Small_Round
+            {
+                file = SVU_Airscoop_SmallCar02_Small_Round,
+            }
+
+            model SVU_Airscoop_SmallCar02_Large
+            {
+                file = SVU_Airscoop_SmallCar02_Large,
+            }
+
+            model SVU_Airscoop_SmallCar02_Large_Round
+            {
+                file = SVU_Airscoop_SmallCar02_Large_Round,
+            }
+
+            model SVU_Airscoop_SmallCar02_Piped
+            {
+                file = SVU_Airscoop_SmallCar02_Piped,
+            }
+}
+    }
+}

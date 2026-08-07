@@ -1,0 +1,5 @@
+IGUI_RU = {
+    IGUI_NB_ModOptions_Title = "Neat Building",
+    IGUI_NB_ModOptions_UseNeatBuildingUI = "Использовать интерфейс Neat Building",
+    IGUI_NB_ModOptions_UseNeatBuildingUI_Tooltip = "Включает меню строительства Neat Building и связанные улучшения. Выключите, чтобы использовать стандартный интерфейс строительства.",
+}

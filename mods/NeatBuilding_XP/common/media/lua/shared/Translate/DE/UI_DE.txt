@@ -1,0 +1,17 @@
+UI_DE = {
+	UI_XP_NB_xpShow = "Rezept-EP anzeigen",
+	UI_XP_NB_xpShow_tooltip = "Aktiviert die Anzeige der Rezept-XP. <LINE> 'EP-Anzeigeformat' legt fest, wie diese Information angezeigt wird. <LINE> <LINE><RGB:0.392,0.584,0.929> Verfügbare Formate: <LINE><RGB:1,1,1> - Basis-EP: Zeigt die Basis-XP (keine Multiplikatoren). <LINE> - Endgültige EP: Zeigt die XP nach allen Multiplikatoren. <LINE> - Multiplikator: Zeigt den Gesamtmultiplikator auf die Basis-XP und die End-XP (BaseXP * multiplier = FinalXP). <LINE> - Aufschlüsselung: Zeigt die Basis-XP, eine detaillierte Aufschlüsselung aller Multiplikatoren und die End-XP. <LINE><LINE><RGB:0.392,0.584,0.929> Die Faktoren sind: <LINE><RGB:1,1,1> - Anfangslevel-Multiplikator: Stufe 0 (x0.25), Stufe 1 (x1.00), Stufe 2 (x1.33), Stufe 3+ (x1.66) <LINE> - Fertigkeitsbuch-Multiplikator: Bücher 1–5 (x3, x5, x8, x12, x16). Die Hälfte davon für Zielen, Nachladen und Langklinge. <LINE> - Eigenschafts-Multiplikator: Schnell-Lerner (x1.3), Langsam-Lerner (x0.7), Crafty (x1.3 nur wenn die Fertigkeit zur Kategorie Handwerk gehört). In Aufschlüsselung werden Schnell-Lerner/Langsam-Lerner und Crafty zu einem einzigen Eigenschafts-Multiplikator zusammengefasst. <LINE> - Sandbox-Optionen-Multiplikator: Ein globaler Wert oder ein spezifischer Wert pro Fertigkeitstyp.",
+	UI_XP_NB_xpFormat = "EP-Anzeigeformat",
+	UI_XP_NB_xpFormat_tooltip = "EP-Anzeigeformat",
+	UI_XP_NB_xpFormat_BasicXP = "Basis-EP",
+	UI_XP_NB_xpFormat_FinalXP = "Endgültige EP",
+	UI_XP_NB_xpFormat_Multiplier = "Multiplikator",
+	UI_XP_NB_xpFormat_Breakdown = "Aufschlüsselung",
+	UI_XP_NB_showRecipeMod = "Rezept-Mod anzeigen",
+	UI_XP_NB_showRecipeMod_tooltip = "Zeigt das Mod, aus dem das Rezept stammt, als 'Mod'-Zeile im Rezeptfenster an.",
+	UI_XP_NB_textScale = "Textgröße für Zusatzzeilen",
+	UI_XP_NB_textScale_tooltip = "Schriftgröße für EP-Zeilen und die 'Mod'-Zeile.",
+	UI_XP_NB_modPrefix = "Mod: ",
+	UI_XP_NB_modNeat = "Neat Building",
+	UI_XP_NB_modOther = "Andere",
+}

@@ -1,0 +1,15 @@
+{
+    "UI_XP_NC_xpShow": "Afficher l'XP des recettes",
+    "UI_XP_NC_xpShow_tooltip": "Permet l'affichage des points d'expérience (XP) pour les recettes d'artisanat. <LINE> Le 'Format d'affichage de l'XP' définit la manière dont cette information est affichée. <LINE> <LINE> Formats disponibles : <LINE> - XP de base : Affiche l'XP de base attribuée par la recette. <LINE> - XP finale : Affiche l'XP totale une fois tous les multiplicateurs appliqués. <LINE> - Multiplicateur : Affiche l'XP de base, le multiplicateur total et l'XP finale (par exemple, +5 * 3.5 = 17.5). <LINE> - Ventilation : Affiche l'XP de base, une ventilation détaillée de tous les multiplicateurs et l'XP finale. <LINE> Les facteurs sont : <LINE> - Multiplicateur de Niveau Initial : Niveau 0 (x0.25), Niveau 1 (x1.00), Niveau 2 (x1.33), Niveau 3+ (x1.66) <LINE> - Multiplicateur de livre d'apprentissage : Livres 1-5 (x3, x5, x8, x12, x16). La moitié pour la visée, le rechargement et la lame longue. <LINE> - Multiplicateur de Trait : Surdoué (x1.3), Lent d'esprit (x0.7) <LINE> - Multiplicateur d'options du bac à sable : Une valeur globale, ou une valeur spécifique pour chaque type de compétence.",
+    "UI_XP_NC_xpFormat": "Format d'affichage de l'XP",
+    "UI_XP_NC_xpFormat_BasicXP": "XP de base",
+    "UI_XP_NC_xpFormat_FinalXP": "XP finale",
+    "UI_XP_NC_xpFormat_Multiplier": "Multiplicateur",
+    "UI_XP_NC_xpFormat_Breakdown": "Ventilation",
+    "UI_XP_NC_showRecipeMod": "Afficher le mod de la recette",
+    "UI_XP_NC_showRecipeMod_tooltip": "Affiche le mod d'origine de chaque recette comme la ligne 'Mod' dans le panneau des recettes.",
+    "UI_XP_NC_modPrefix": "Mod: ",
+    "UI_XP_NC_textScale": "Taille du texte des lignes supplémentaires",
+    "UI_XP_NC_textScale_tooltip": "Taille de police pour les lignes d'XP et la ligne 'Mod'.",
+    "UI_XP_NC_xpFormat_tooltip": "Choose how recipe XP is displayed. <LINE> <LINE> - Basic XP: Shows the base XP. <LINE> - Final XP: Shows the final XP after multipliers. <LINE> - Multiplier: Shows only the multiplier value(s). <LINE> - Full breakdown: Shows base XP, multiplier(s) and final XP."
+}

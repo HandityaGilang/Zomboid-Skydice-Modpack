@@ -1,0 +1,59 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Fences_RawConcreteRailing
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_RawConcreteRailingFence,
+			Icon		= Build_walls_garage_02_21,
+		}
+	}
+
+    entity Fences_RawConcreteRailing
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Fences_RawConcreteRailing,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+			health          = 250,
+			skillBaseHealth = 20,
+
+            face W
+            {
+                layer
+                {
+                    row = walls_garage_02_20,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = walls_garage_02_21,
+                }
+            }
+            corner  =   walls_garage_02_23,
+        }
+		
+        component CraftRecipe
+        {
+            timedAction   = BuildLowNoTool,
+            time          = 50,
+            SkillRequired = Pottery:3,
+            xpAward       = Pottery:30,
+            category      = Fences,
+            ToolTip       = Tooltip_craft_sandBagDesc,
+            inputs
+            {
+                item 2 [Base.BucketConcreteFull] flags[DontRecordInput],
+                item 2 [Base.MetalBar],
+            }
+        }
+    }
+}

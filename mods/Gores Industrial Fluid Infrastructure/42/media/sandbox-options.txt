@@ -1,0 +1,44 @@
+VERSION = 1,
+option GIPT.LargeTankCapacity
+{
+    type = integer,
+    min = 1,
+    max = 1000,
+    default = 100,
+    page = GIPT,
+    translation = GIPT_LargeTankCapacity,
+}
+option GIPT.SmallTankCapacity
+{
+    type = integer,
+    min = 1,
+    max = 100,
+    default = 8,
+    page = GIPT,
+    translation = GIPT_SmallTankCapacity,
+}
+option GIPT.InteractionDistance
+{
+    type = integer,
+    min = 1,
+    max = 6,
+    default = 3,
+    page = GIPT,
+    translation = GIPT_InteractionDistance,
+}
+option GIPT.BulkDeliveryRange
+{
+    type = integer,
+    min = 1,
+    max = 12,
+    default = 4,
+    page = GIPT,
+    translation = GIPT_BulkDeliveryRange,
+}
+option GIPT.IndestructibleInstallations
+{
+    type = boolean,
+    default = true,
+    page = GIPT,
+    translation = GIPT_IndestructibleInstallations,
+}

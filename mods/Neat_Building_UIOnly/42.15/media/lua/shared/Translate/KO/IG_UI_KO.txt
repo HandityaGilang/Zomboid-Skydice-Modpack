@@ -1,0 +1,5 @@
+IGUI_KO = {
+    IGUI_NB_ModOptions_Title = "Neat Building",
+    IGUI_NB_ModOptions_UseNeatBuildingUI = "Neat Building UI 사용",
+    IGUI_NB_ModOptions_UseNeatBuildingUI_Tooltip = "Neat Building의 건설 메뉴와 관련 조정을 활성화합니다. 끄면 바닐라 건설 UI를 사용합니다.",
+}

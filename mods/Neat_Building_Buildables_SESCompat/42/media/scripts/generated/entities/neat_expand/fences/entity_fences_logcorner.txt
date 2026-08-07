@@ -1,0 +1,52 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Fences_LogCorner
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_LogCornerFence,
+			Icon		= Build_crafted_02_111,
+		}
+	}
+
+    entity Fences_LogCorner
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Fences_LogCorner,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+			health          = 250,
+			skillBaseHealth = 20,
+
+            face SINGLE
+            {
+                layer
+                {
+                    row = crafted_02_111,
+                }
+            }
+        }
+		
+        component CraftRecipe
+        {
+            OnAddToMenu   = ignoreFromBuildMenu,
+            timedAction   = BuildSandbagWall,
+            time          = 50,
+            xpAward       = Woodwork:10,
+            category      = Fences,
+            ToolTip       = Tooltip_craft_sandBagDesc,
+            inputs
+            {
+                item 1 tags[Hammer] mode:keep flags[Prop1;MayDegradeVeryLight],
+                item 4 [Base.Nails],
+                item 1 [Base.Log],
+            }
+        }
+    }
+}

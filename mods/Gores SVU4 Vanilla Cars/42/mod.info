@@ -1,0 +1,11 @@
+name=Gore's SVU4 Vanilla Cars
+id=GoresSVU4VanillaCars
+description=Adds Gore's SVU4 armour and vehicle-upgrade support to the vanilla vehicle fleet for Project Zomboid Build 42.20.
+poster=preview.png
+icon=icon.png
+author=Gorebash
+require=GoresSVU4Core
+modversion=1.7
+pzversion=42.20
+versionMin=42.20
+tags=build42,vehicles,visuals,armor,roofrack,svu4,enginescoop

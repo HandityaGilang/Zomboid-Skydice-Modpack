@@ -1,0 +1,11 @@
+{
+    "Base.BattleShip_Box": "Kahon ng Battleship",
+    "Base.BattleShip_GameStand": "Battleship Gamestand",
+    "Base.BattleShip_Peg_Red": "Pulang Peg",
+    "Base.BattleShip_Peg_White": "Puting Peg",
+    "Base.BattleShip_Ship_Battleship": "Battleship",
+    "Base.BattleShip_Ship_Carrier": "Tagapagdala",
+    "Base.BattleShip_Ship_Destroyer": "Maninira",
+    "Base.BattleShip_Ship_Submarine": "Submarino",
+    "Base.BattleShip_Ship_PatrolBoat": "Bangka ng Patrol"
+}

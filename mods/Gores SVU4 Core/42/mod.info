@@ -1,0 +1,10 @@
+name=Gore's SVU4 Core
+id=GoresSVU4Core
+description=Vehicle armour and upgrade framework for Project Zomboid Build 42.20. Provides Bull Bars, Plows, Engine Scoops, Filtered Air Intakes, Roof Racks, Roof Lights, Tyre Chains, auxiliary fuel storage and shared support for Gore's SVU4 vehicle packs.
+poster=preview.png
+icon=icon.png
+author=Gorebash
+pzversion=42.20
+versionMin=42.20
+tags=build42,vehicles,items,survival,framework,api,multiplayer,enginescoop
+modversion=2.5

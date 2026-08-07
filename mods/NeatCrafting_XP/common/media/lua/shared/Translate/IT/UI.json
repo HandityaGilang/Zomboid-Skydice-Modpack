@@ -1,0 +1,15 @@
+{
+    "UI_XP_NC_xpShow": "Mostra XP",
+    "UI_XP_NC_xpShow_tooltip": "Abilita la visualizzazione dei punti esperienza (XP) per le ricette di creazione. <LINE> Il 'Formato visualizzazione XP' definisce come vengono mostrate queste informazioni. <LINE> <LINE> Formati disponibili: <LINE> - XP base: Mostra l'XP base concessa dalla ricetta. <LINE> - XP finale: Mostra l'XP totale dopo l'applicazione di tutti i moltiplicatori. <LINE> - Moltiplicatore: Mostra l'XP base, il moltiplicatore totale e l'XP finale (ad es. +5 * 3,5 = 17,5). <LINE> - Scomposizione: Mostra l'XP base, una scomposizione dettagliata di tutti i moltiplicatori e l'XP finale. <LINE> I fattori sono: <LINE> - Moltiplicatore livello iniziale: Livello 0 (x0,25), Livello 1 (x1,00), Livello 2 (x1,33), Livello 3+ (x1,66) <LINE> - Moltiplicatore libro delle abilità: Libri 1–5 (x3, x5, x8, x12, x16). La metà per Mira, Ricarica e Lama lunga. <LINE> - Moltiplicatore tratti: Allievo modello (x1,3), Allievo distratto (x0,7) <LINE> - Moltiplicatore opzioni sandbox: Un valore globale oppure un valore specifico per tipo di abilità.",
+    "UI_XP_NC_xpFormat": "Formato visualizzazione XP",
+    "UI_XP_NC_xpFormat_BasicXP": "XP base",
+    "UI_XP_NC_xpFormat_FinalXP": "XP finale",
+    "UI_XP_NC_xpFormat_Multiplier": "Moltiplicatore",
+    "UI_XP_NC_xpFormat_Breakdown": "Scomposizione",
+    "UI_XP_NC_showRecipeMod": "Mostra mod della ricetta",
+    "UI_XP_NC_showRecipeMod_tooltip": "Mostra il mod d’origine della ricetta come la linea 'Mod' nel pannello delle ricette.",
+    "UI_XP_NC_modPrefix": "Mod: ",
+    "UI_XP_NC_textScale": "Dimensione del testo delle righe extra",
+    "UI_XP_NC_textScale_tooltip": "Dimensione del carattere per le righe di XP e la linea 'Mod'.",
+    "UI_XP_NC_xpFormat_tooltip": "Choose how recipe XP is displayed. <LINE> <LINE> - Basic XP: Shows the base XP. <LINE> - Final XP: Shows the final XP after multipliers. <LINE> - Multiplier: Shows only the multiplier value(s). <LINE> - Full breakdown: Shows base XP, multiplier(s) and final XP."
+}

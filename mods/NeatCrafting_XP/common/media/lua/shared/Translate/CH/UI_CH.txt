@@ -1,0 +1,15 @@
+UI_CH = {
+	UI_XP_NC_xpShow = "顯示XP",
+	UI_XP_NC_xpShow_tooltip = "啟用製作配方的經驗值 (XP) 顯示。 <LINE> 「XP顯示格式」定義了資訊的顯示方式。 <LINE> <LINE> 可用格式： <LINE> - 基礎XP：顯示配方授予的基礎XP。 <LINE> - 最終XP：顯示應用所有乘數後的總XP。 <LINE> - 乘數：顯示基礎XP、總乘數與最終XP（例如：+5 * 3.5 = 17.5）。 <LINE> - 明細：顯示基礎XP、所有乘數的詳細明細與最終XP。 <LINE> 影響因素： <LINE> - 初始等級乘數：等級0 (x0.25)、等級1 (x1.00)、等級2 (x1.33)、等級3+ (x1.66) <LINE> - 技能書乘數：書1–5 (x3, x5, x8, x12, x16)。瞄準、裝填、長刃為一半。 <LINE> - 特性乘數：學習高手 (x1.3)、學習緩慢 (x0.7) <LINE> - 沙盒選項乘數：全域值或依技能類型設定的值。",
+	UI_XP_NC_xpFormat = "XP顯示格式",
+	UI_XP_NC_xpFormat_BasicXP = "基礎XP",
+	UI_XP_NC_xpFormat_FinalXP = "最後XP",
+	UI_XP_NC_xpFormat_Multiplier = "乘數",
+	UI_XP_NC_xpFormat_Breakdown = "明細",
+	UI_XP_NC_showRecipeMod = "顯示配方的Mod",
+	UI_XP_NC_showRecipeMod_tooltip = "在配方面板中以「'Mod' 行」顯示每個配方的來源Mod。",
+	UI_XP_NC_modPrefix = "Mod: ",
+	UI_XP_NC_textScale = "額外行文字大小",
+	UI_XP_NC_textScale_tooltip = "XP行與「'Mod' 行」的字型大小。",
+	UI_XP_NC_xpFormat_tooltip = "Choose how recipe XP is displayed. <LINE> <LINE> - Basic XP: Shows the base XP. <LINE> - Final XP: Shows the final XP after multipliers. <LINE> - Multiplier: Shows only the multiplier value(s). <LINE> - Full breakdown: Shows base XP, multiplier(s) and final XP.",
+}

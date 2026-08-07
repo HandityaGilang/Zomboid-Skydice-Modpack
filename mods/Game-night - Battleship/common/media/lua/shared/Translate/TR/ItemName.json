@@ -1,0 +1,11 @@
+{
+    "Base.BattleShip_Box": "Savaş Gemisi Kutusu",
+    "Base.BattleShip_GameStand": "Savaş Gemisi Oyun Standı",
+    "Base.BattleShip_Peg_Red": "Kırmızı Mandala",
+    "Base.BattleShip_Peg_White": "Beyaz Mandal",
+    "Base.BattleShip_Ship_Battleship": "Savaş gemisi",
+    "Base.BattleShip_Ship_Carrier": "Taşıyıcı",
+    "Base.BattleShip_Ship_Destroyer": "Destroyer",
+    "Base.BattleShip_Ship_Submarine": "Denizaltı",
+    "Base.BattleShip_Ship_PatrolBoat": "Devriye Botu"
+}

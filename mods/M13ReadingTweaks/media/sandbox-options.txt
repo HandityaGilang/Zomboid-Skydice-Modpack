@@ -1,0 +1,27 @@
+VERSION = 1,
+
+option M13ReadingTweaks.MPP
+{
+	type = double,
+	min = 0.01,
+	max = 100.0,
+	default = 1.0,
+	page = M13ReadingTweaks,
+	translation = M13ReadingTweaks_MPP,
+}
+option M13ReadingTweaks.PSM
+{
+	type = double,
+	min = 0.01,
+	max = 100.0,
+	default = 2.0,
+	page = M13ReadingTweaks,
+	translation = M13ReadingTweaks_PSM,
+}
+option M13ReadingTweaks.RWW
+{
+	type = boolean,
+	default = true,
+	page = M13ReadingTweaks,
+	translation = M13ReadingTweaks_RWW,
+}

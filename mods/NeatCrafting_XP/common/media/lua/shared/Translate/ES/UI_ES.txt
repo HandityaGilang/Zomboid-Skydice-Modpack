@@ -1,0 +1,15 @@
+UI_ES = {
+	UI_XP_NC_xpShow = "Mostrar XP de receta",
+	UI_XP_NC_xpShow_tooltip = "Habilita la visualización de los puntos de experiencia (XP) para las recetas. <LINE> 'Formato de visualización de XP' define cómo se muestra esta información. <LINE> <LINE> Formatos disponibles: <LINE> - XP base: Muestra la XP base otorgada por la receta. <LINE> - XP final: Muestra la XP total después de aplicar todos los multiplicadores. <LINE> - Multiplicador: Muestra la XP base, el multiplicador total y la XP final (ejemplo: +5 * 3.5 = 17.5). <LINE> - Desglose: Muestra la XP base, un desglose detallado de todos los multiplicadores y la XP final. <LINE> Los factores son: <LINE> - Multiplicador de nivel inicial: Nivel 0 (x0.25), Nivel 1 (x1.00), Nivel 2 (x1.33), Nivel 3+ (x1.66) <LINE> - Multiplicador de libro de habilidad: Libros 1-5 (x3, x5, x8, x12, x16). La mitad para Puntería, Recarga y Hoja Larga. <LINE> - Multiplicador de rasgo: Aprendiz rápido (x1.3), Aprendiz lento (x0.7) <LINE> - Multiplicador de opciones de mundo abierto (Sandbox): Un valor global o un valor específico por cada tipo de habilidad.",
+	UI_XP_NC_xpFormat = "Formato de visualización de XP",
+	UI_XP_NC_xpFormat_BasicXP = "XP base",
+	UI_XP_NC_xpFormat_FinalXP = "XP final",
+	UI_XP_NC_xpFormat_Multiplier = "Multiplicador",
+	UI_XP_NC_xpFormat_Breakdown = "Desglose",
+	UI_XP_NC_showRecipeMod = "Mostrar mod de receta",
+	UI_XP_NC_showRecipeMod_tooltip = "Muestra el mod de origen de cada receta en el panel de recetas.",
+	UI_XP_NC_modPrefix = "Mod: ",
+	UI_XP_NC_textScale = "Escala del texto de líneas extra",
+	UI_XP_NC_textScale_tooltip = "Tamaño de letra para las líneas de XP y la línea 'Mod'.",
+	UI_XP_NC_xpFormat_tooltip = "Elige cómo se muestra la XP de la receta. <LINE> <LINE> - XP base: Muestra la XP base. <LINE> - XP final: Muestra la XP final tras los multiplicadores. <LINE> - Multiplicador: Muestra solo el valor del/los multiplicador(es). <LINE> - Desglose completo: Muestra XP base, multiplicador(es) y XP final.",
+}

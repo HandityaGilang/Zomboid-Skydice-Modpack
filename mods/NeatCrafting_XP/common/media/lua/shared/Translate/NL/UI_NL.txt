@@ -1,0 +1,15 @@
+UI_NL = {
+	UI_XP_NC_xpShow = "Recept-XP weergeven",
+	UI_XP_NC_xpShow_tooltip = "Schakelt de weergave van ervaringspunten (XP) in voor maakrecepten. <LINE> Het ‘XP-weergaveformaat’ bepaalt hoe deze informatie wordt getoond. <LINE> <LINE> Beschikbare formaten: <LINE> - Basis-XP: Toont alleen de basis-XP. <LINE> - Definitieve XP: Toont de totale XP na alle vermenigvuldigers. <LINE> - Vermenigvuldiger: Toont basis-XP, totale vermenigvuldiger en definitieve XP (bijv. +5 * 3,5 = 17,5). <LINE> - Uitsplitsing: Toont basis-XP, een gedetailleerde uitsplitsing van alle vermenigvuldigers en de definitieve XP. <LINE> De factoren zijn: <LINE> - Initiëel-niveau-vermenigvuldiger: Niveau 0 (x0.25), Niveau 1 (x1.00), Niveau 2 (x1.33), Niveau 3+ (x1.66) <LINE> - Vaardigheidsboek-vermenigvuldiger: Boeken 1–5 (x3, x5, x8, x12, x16). De helft daarvan voor Richten, Herladen en Lang Mes. <LINE> - Eigenschap-vermenigvuldiger: Snelle leerling (x1.3), Trage leerling (x0.7) <LINE> - Sandbox-opties-vermenigvuldiger: Een globale waarde of een specifieke waarde per vaardigheidstype.",
+	UI_XP_NC_xpFormat = "XP-weergaveformaat",
+	UI_XP_NC_xpFormat_BasicXP = "Basis-XP",
+	UI_XP_NC_xpFormat_FinalXP = "Definitieve XP",
+	UI_XP_NC_xpFormat_Multiplier = "Vermenigvuldiger",
+	UI_XP_NC_xpFormat_Breakdown = "Uitsplitsing",
+	UI_XP_NC_showRecipeMod = "Recept-mod weergeven",
+	UI_XP_NC_showRecipeMod_tooltip = "Toont de bron-mod van elk recept als de ‘Mod’-regel in het receptenpaneel.",
+	UI_XP_NC_modPrefix = "Mod: ",
+	UI_XP_NC_textScale = "Tekstschaal voor extra regels",
+	UI_XP_NC_textScale_tooltip = "Lettergrootte voor de XP-regels en de ‘Mod’-regel.",
+	UI_XP_NC_xpFormat_tooltip = "Choose how recipe XP is displayed. <LINE> <LINE> - Basic XP: Shows the base XP. <LINE> - Final XP: Shows the final XP after multipliers. <LINE> - Multiplier: Shows only the multiplier value(s). <LINE> - Full breakdown: Shows base XP, multiplier(s) and final XP.",
+}

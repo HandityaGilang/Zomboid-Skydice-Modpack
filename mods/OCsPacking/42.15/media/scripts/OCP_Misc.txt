@@ -1,0 +1,918 @@
+module OCP {
+    
+    item ElectricWireBox
+    {
+        DisplayCategory = Electronics,
+        ItemType = base:normal,
+        Weight = 1.0,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item ElectronicsScrapBox
+    {
+        DisplayCategory = Electronics,
+        ItemType = base:normal,
+        Weight = 1.0,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item MotionSensorBox
+    {
+        DisplayCategory = Electronics,
+        ItemType = base:normal,
+        Weight = 3.0,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item RadioReceiverBox
+    {
+        DisplayCategory = Electronics,
+        ItemType = base:normal,
+        Weight = 1.0,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item RadioTransmitterBox
+    {
+        DisplayCategory = Electronics,
+        ItemType = base:normal,
+        Weight = 1.0,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item ReceiverBox
+    {
+        DisplayCategory = Electronics,
+        ItemType = base:normal,
+        Weight = 1.0,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item AmplifierBox
+    {
+        DisplayCategory = Electronics,
+        ItemType = base:normal,
+        Weight = 3.0,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item PagerBox
+    {
+        DisplayCategory = Electronics,
+        ItemType = base:normal,
+        Weight = 1.0,
+        Icon = Parcel_ExtraSmall_Food,
+        WorldStaticModel = Parcel_Food_ExtraSmall,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item RemoteBox
+    {
+        DisplayCategory = Electronics,
+        ItemType = base:normal,
+        Weight = 5.0,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item NutsBoltsBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 2.0,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item WoodglueBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 5.0,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox6,
+    }
+    
+    item Soap2Box
+    {
+        DisplayCategory = Household,
+        ItemType = base:normal,
+        Weight = 2.0,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item EpoxyBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 5.0,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item FiberglassTapeBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 4.0,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox6,
+    }
+    
+    item GlueBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 5.0,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item WeldingRodsBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 7.5,
+        Icon = Parcel_Medium_Food,
+        WorldStaticModel = Parcel_Food_Medium,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox6,
+    }
+    
+    item TwineBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 5.0,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item BuckleBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 1.0,
+        Icon = Parcel_ExtraSmall_Food,
+        WorldStaticModel = Parcel_Food_ExtraSmall,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item ButtonBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 1.0,
+        Icon = Parcel_ExtraSmall_Food,
+        WorldStaticModel = Parcel_Food_ExtraSmall,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item PillowBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 5.0,
+        Icon = Parcel_Large_Hardware,
+        WorldStaticModel = Parcel_Hardware_Large,
+        Tags = base:isfirefuel;base:ignorezombiedensity,
+        FireFuelRatio = 0.25,
+        DoubleClickRecipe = UnpackBox6,
+    }
+    
+    item ToiletPaperBox
+    {
+        DisplayCategory = Junk,
+        ItemType = base:normal,
+        Weight = 2.5,
+        Icon = Parcel_Medium_Food,
+        WorldStaticModel = Parcel_Food_Medium,
+        Tags = base:isfirefuel;base:ignorezombiedensity,
+        FireFuelRatio = 0.25,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item HingeBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 5.0,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item DoorknobBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 5.0,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox6,
+    }
+    
+    item SpongeBox
+    {
+        DisplayCategory = Household,
+        ItemType = base:normal,
+        Weight = 1.0,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:isfirefuel;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item JarLidBox
+    {
+        DisplayCategory = Cooking,
+        ItemType = base:normal,
+        Weight = 1.0,
+        Icon = Parcel_ExtraSmall_Food,
+        WorldStaticModel = Parcel_Food_ExtraSmall,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item TimerCraftedBox
+    {
+        DisplayCategory = Electronics,
+        ItemType = base:normal,
+        Weight = 5.0,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item TriggerCraftedBox
+    {
+        DisplayCategory = Electronics,
+        ItemType = base:normal,
+        Weight = 2.0,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item TimerBox
+    {
+        DisplayCategory = Cooking,
+        ItemType = base:normal,
+        Weight = 3.0,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item SmallHandleBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 5.0,
+        Icon = Parcel_Medium_Food,
+        WorldStaticModel = Parcel_Food_Medium,
+        Tags = base:isfirefuel;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item Thread_AramidBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 2.0,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item Thread_SinewBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 2.0,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item Hairspray2Box
+    {
+        DisplayCategory = Appearance,
+        ItemType = base:normal,
+        Weight = 4.0,
+        Icon = Parcel_Medium_Food,
+        WorldStaticModel = Parcel_Food_Medium,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox6,
+    }
+    
+    item SparklersBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 3.0,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+	
+	item SmallAnimalBoneBox
+    {
+        DisplayCategory = AnimalPart,
+        ItemType = base:normal,
+        Weight = 3.0,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item AluminumBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 1.0,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item WhetstoneBox
+    {
+        DisplayCategory = Tool,
+        ItemType = base:normal,
+        Weight = 5.0,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item ZiptiesBox
+    {
+        DisplayCategory = Tool,
+        ItemType = base:normal,
+        Weight = 1.0,
+        Icon = Parcel_ExtraSmall_Food,
+        WorldStaticModel = Parcel_Food_ExtraSmall,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item ForkBox
+    {
+        DisplayCategory = CookingWeapon,
+        ItemType = base:normal,
+        Weight = 2.5,
+        Icon = Parcel_ExtraSmall_Food,
+        WorldStaticModel = Parcel_Food_ExtraSmall,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item SpoonBox
+    {
+        DisplayCategory = CookingWeapon,
+        ItemType = base:normal,
+        Weight = 2.5,
+        Icon = Parcel_ExtraSmall_Food,
+        WorldStaticModel = Parcel_Food_ExtraSmall,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item ButterKnifeBox
+    {
+        DisplayCategory = CookingWeapon,
+        ItemType = base:normal,
+        Weight = 2.5,
+        Icon = Parcel_ExtraSmall_Food,
+        WorldStaticModel = Parcel_Food_ExtraSmall,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+	item ToothbrushBox
+    {
+        DisplayCategory = Junk,
+        ItemType = base:normal,
+        Weight = 2.0,
+        Icon = Parcel_ExtraSmall_Food,
+        WorldStaticModel = Parcel_Food_ExtraSmall,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+	
+	item YeastBox
+    {	
+		DisplayCategory = Food,
+        ItemType = base:normal,
+        Weight = 2.0,
+        Icon = Parcel_ExtraSmall_Food,
+        WorldStaticModel = Parcel_Food_ExtraSmall,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+	
+	item BakingSodaBox
+    {
+        DisplayCategory = Cooking,
+        ItemType = base:normal,
+        Weight = 1.5,
+        Icon = Parcel_Medium_Food,
+        WorldStaticModel = Parcel_Food_Medium,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox6,
+    }
+	
+	item DentalFlossBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 1.0,
+        Icon = GenericMedicalParcel2,
+        WorldStaticModel = MedicalParcel_Green,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }    
+	
+	item FishingLineBox
+    {
+        DisplayCategory = Fishing,
+        ItemType = base:normal,
+        Weight = 1.5,
+        Icon = Parcel_ExtraSmall_Food,
+        WorldStaticModel = Parcel_Food_ExtraSmall,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox6,
+    }
+    
+    item MakeupEyeshadowBox
+    {
+        DisplayCategory = Appearance,
+        ItemType = base:normal,
+        Weight = 0.5,
+        Icon = Parcel_ExtraSmall_Food,
+        WorldStaticModel = Parcel_Food_ExtraSmall,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox6,
+    }
+    
+    item MakeupFoundationBox
+    {
+        DisplayCategory = Appearance,
+        ItemType = base:normal,
+        Weight = 1.0,
+        Icon = Parcel_ExtraSmall_Food,
+        WorldStaticModel = Parcel_Food_ExtraSmall,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox6,
+    }
+    
+    item PremiumFishingLineBox
+    {
+        DisplayCategory = Fishing,
+        ItemType = base:normal,
+        Weight = 1.0,
+        Icon = Parcel_ExtraSmall_Food,
+        WorldStaticModel = Parcel_Food_ExtraSmall,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item MinnowLureBox
+    {
+        DisplayCategory = Fishing,
+        ItemType = base:normal,
+        Weight = 1.0,
+        Icon = Parcel_ExtraSmall_Food,
+        WorldStaticModel = Parcel_Food_ExtraSmall,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item JigLureBox
+    {
+        DisplayCategory = Fishing,
+        ItemType = base:normal,
+        Weight = 1.0,
+        Icon = Parcel_ExtraSmall_Food,
+        WorldStaticModel = Parcel_Food_ExtraSmall,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item MatchesBox
+    {
+        DisplayCategory = FireSource,
+        ItemType = base:normal,
+        Weight = 1.0,
+        Icon = Parcel_ExtraSmall_Food,
+        WorldStaticModel = Parcel_Food_ExtraSmall,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item LighterDisposableBox
+    {
+        DisplayCategory = FireSource,
+        ItemType = base:normal,
+        Weight = 1.0,
+        Icon = Parcel_ExtraSmall_Food,
+        WorldStaticModel = Parcel_Food_ExtraSmall,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item LighterBox
+    {
+        DisplayCategory = FireSource,
+        ItemType = base:normal,
+        Weight = 1.0,
+        Icon = Parcel_ExtraSmall_Food,
+        WorldStaticModel = Parcel_Food_ExtraSmall,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+	
+	    item SteelPieceBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 1.0,
+        Icon = Parcel_ExtraSmall_Food,
+        WorldStaticModel = Parcel_Food_ExtraSmall,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item IronPieceBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 1.0,
+        Icon = Parcel_ExtraSmall_Food,
+        WorldStaticModel = Parcel_Food_ExtraSmall,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item IronBarQuarterBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 2.5,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox6,
+    }
+    
+    item SteelBarQuarterBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 2.5,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox6,
+    }
+    
+    item IronScrapBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 2.5,
+        Icon = Parcel_ExtraSmall_Food,
+        WorldStaticModel = Parcel_Food_ExtraSmall,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox6,
+    }
+    
+    item SteelScrapBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 2.5,
+        Icon = Parcel_ExtraSmall_Food,
+        WorldStaticModel = Parcel_Food_ExtraSmall,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox6,
+    }
+    
+    item ScrapMetalBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 5.0,
+        Icon = Parcel_ExtraSmall_Food,
+        WorldStaticModel = Parcel_Food_ExtraSmall,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox6,
+    }
+    
+    item CopperScrapBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 2.5,
+        Icon = Parcel_ExtraSmall_Food,
+        WorldStaticModel = Parcel_Food_ExtraSmall,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox6,
+    }
+    
+    item BrassScrapBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 2.5,
+        Icon = Parcel_ExtraSmall_Food,
+        WorldStaticModel = Parcel_Food_ExtraSmall,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox6,
+    }
+    
+    item GoldScrapBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 0.5,
+        Icon = Parcel_ExtraSmall_Food,
+        WorldStaticModel = Parcel_Food_ExtraSmall,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item SilverScrapBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 0.5,
+        Icon = Parcel_ExtraSmall_Food,
+        WorldStaticModel = Parcel_Food_ExtraSmall,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+	
+	item RakeHeadBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 5.0,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox6,
+    }
+	
+	item CircularSawbladeBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 10.0,
+        Icon = Parcel_Medium_Food,
+        WorldStaticModel = Parcel_Food_Medium,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox6,
+    }
+	
+	item UnusableWoodBox
+    {
+        DisplayCategory = Junk,
+        ItemType = base:normal,
+        Weight = 5.0,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:isfirefuel;base:ignorezombiedensity;base:makewoodcharcoalsmall,
+        DoubleClickRecipe = UnpackBox6,
+    }
+    
+    item SplintersBox
+    {
+        DisplayCategory = Junk,
+        ItemType = base:normal,
+        Weight = 2.0,
+        Icon = Parcel_ExtraSmall_Food,
+        WorldStaticModel = Parcel_Food_ExtraSmall,
+        Tags = base:isfirefuel;base:isfiretinder;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+	
+	item HairgelBox
+    {
+        DisplayCategory = Appearance,
+        ItemType = base:normal,
+        Weight = 2.5,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox6,
+    }
+    
+    item LighterBBQBox
+    {
+        DisplayCategory = FireSource,
+        ItemType = base:normal,
+        Weight = 1.5,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox6,
+    }
+	
+	item BrokenGlassBox
+    {
+        DisplayCategory = Junk,
+        ItemType = base:normal,
+        Weight = 2.5,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox6,
+    }
+    
+    item AluminumScrapBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 2.5,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox6,
+    }
+    
+    item IronBandSmallBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 2.5,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox6,
+    }
+    
+    item IronChunkBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 2.5,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox6,
+    }
+    
+    item SteelChunkBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 2.5,
+        Icon = Parcel_Small_Food,
+        WorldStaticModel = Parcel_Food_Small,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox6,
+    }
+    
+    item AluminumFragmentsBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 1.0,
+        Icon = Parcel_ExtraSmall_Food,
+        WorldStaticModel = Parcel_Food_ExtraSmall,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox12,
+    }
+    
+    item CharcoalCraftedBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 4.0,
+        Icon = Parcel_Medium_Food,
+        WorldStaticModel = Parcel_Food_Medium,
+        Tags = base:isfirefuel;base:ignorezombiedensity,
+        FireFuelRatio = 2.0,
+        DoubleClickRecipe = UnpackBox6,
+    }
+    
+    item IronBandBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 10.0,
+        Icon = Parcel_Large_Hardware,
+        WorldStaticModel = Parcel_Hardware_Large,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox6,
+    }
+    
+    item IronBlockBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 10.0,
+        Icon = Parcel_Large_Hardware,
+        WorldStaticModel = Parcel_Hardware_Large,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox6,
+    }
+    
+    item SteelBlockBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 10.0,
+        Icon = Parcel_Large_Hardware,
+        WorldStaticModel = Parcel_Hardware_Large,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox6,
+    }
+    
+    item IronBarHalfBox
+    {
+        DisplayCategory = MaterialWeapon,
+        ItemType = base:normal,
+        Weight = 5.0,
+        Icon = Parcel_Large_Hardware,
+        WorldStaticModel = Parcel_Hardware_Large,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox6,
+    }
+    
+    item SteelBarHalfBox
+    {
+        DisplayCategory = MaterialWeapon,
+        ItemType = base:normal,
+        Weight = 5.0,
+        Icon = Parcel_Large_Hardware,
+        WorldStaticModel = Parcel_Hardware_Large,
+        Tags = base:hasmetal;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox6,
+    }
+    
+    item TarpBox
+    {
+        DisplayCategory = Material,
+        ItemType = base:normal,
+        Weight = 10.0,
+        Icon = Parcel_Large_Hardware,
+        WorldStaticModel = Parcel_Hardware_Large,
+        Tags = base:isfirefuel;base:ignorezombiedensity,
+        DoubleClickRecipe = UnpackBox6,
+    }
+}

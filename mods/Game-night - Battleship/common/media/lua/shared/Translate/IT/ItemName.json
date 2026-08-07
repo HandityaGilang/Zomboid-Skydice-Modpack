@@ -1,0 +1,11 @@
+{
+    "Base.BattleShip_Box": "Scatola della corazzata",
+    "Base.BattleShip_GameStand": "Stand di gioco della corazzata",
+    "Base.BattleShip_Peg_Red": "Picchetto Rosso",
+    "Base.BattleShip_Peg_White": "Picchetto bianco",
+    "Base.BattleShip_Ship_Battleship": "Corazzata",
+    "Base.BattleShip_Ship_Carrier": "Vettore",
+    "Base.BattleShip_Ship_Destroyer": "Distruttore",
+    "Base.BattleShip_Ship_Submarine": "Sottomarino",
+    "Base.BattleShip_Ship_PatrolBoat": "Motovedetta"
+}

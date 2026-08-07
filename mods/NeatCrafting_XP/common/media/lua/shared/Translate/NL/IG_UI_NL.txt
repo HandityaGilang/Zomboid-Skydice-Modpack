@@ -1,0 +1,18 @@
+IGUI_NL = {
+	IGUI_XP_NC_ShowAllRecipe_tooltip = "Toon alle recepten, <LINE> zelfs als het juiste werkstation niet aanwezig is.",
+	IGUI_XP_NC_ShowOnlyXPAward = "Toon alleen recepten die XP geven.",
+	IGUI_XP_NC_ShowOnlyModRecipes = "Toon alleen recepten van mods.",
+	IGUI_XP_NC_SetPanelMinSize_tooltip = "Paneel op minimale grootte zetten",
+	IGUI_NC_InputItemSelected = "Current Selection",
+	IGUI_NC_RequiredSkills = "Required Skills",
+	IGUI_NC_SearchAsInput = "Used in recipes",
+	IGUI_NC_SearchAsOutput = "Created by Recipes",
+	IGUI_NC_SearchForCraft = "Crafting search",
+	IGUI_NC_ShowOnlyBenefitFromRecipes = "Benefit from Recipe In Hand Only",
+	IGUI_NC_ShowOnlyCanCraft = "Can Craft Only",
+	IGUI_NC_ShowOnlyRecipesKnew = "Known Recipes Only",
+	IGUI_NC_ShowOnlymetSkillRequire = "Skills Met Only",
+	IGUI_NC_SortRecipeList = "Receptenlijst sorteren",
+	IGUI_NC_SwitchToGridLayout = "Switch To Grid Layout",
+	IGUI_NC_SwitchToListLayout = "Switch To List Layout",
+}

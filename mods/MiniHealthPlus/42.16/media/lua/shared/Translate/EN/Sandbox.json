@@ -1,0 +1,9 @@
+{
+    "Sandbox_MHP": "Mini Health Plus",
+    "Sandbox_MHP_EnableReplaceBandage": "Enable Replace Bandage",
+    "Sandbox_MHP_EnableReplaceBandage_tooltip": "Adds the 'Replace Bandage' context-menu entry for dirty bandages.",
+    "Sandbox_MHP_ShowSafeRemoveIndicator": "Blue indicator for safe removal",
+    "Sandbox_MHP_ShowSafeRemoveIndicator_tooltip": "Shows the blue indicator when a bandage or splint can be removed safely.",
+    "Sandbox_MHP_ShowStitchInspectIndicator": "Purple indicator for stitch check",
+    "Sandbox_MHP_ShowStitchInspectIndicator_tooltip": "Shows the purple indicator when stitched wounds should be checked."
+}

@@ -1,0 +1,73 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Welding_SmallMilitaryCase
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_SmallMilitaryCase,
+			Icon		= Build_furniture_storage_02_28,
+		}
+	}
+
+    entity Welding_SmallMilitaryCase
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Welding_SmallMilitaryCase,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+            canBePadlocked = true,
+            face W
+            {
+                layer
+                {
+                    row = furniture_storage_02_29,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = furniture_storage_02_28,
+                }
+            }
+            face E
+            {
+                layer
+                {
+                    row = furniture_storage_02_31,
+                }
+            }
+            face S
+            {
+                layer
+                {
+                    row = furniture_storage_02_30,
+                }
+            }
+        }
+        
+        component CraftRecipe
+        {
+            timedAction   = BuildMetalStructureMedium,
+            time          = 100,
+            SkillRequired = MetalWelding:3,
+            xpAward       = MetalWelding:30,
+            category      = Furniture,
+            tags          = Welding;Furniture,
+            ToolTip       = Tooltip_craft_lockerDesc,
+            inputs
+            {
+                item 4 [Base.BlowTorch] flags[DontRecordInput],
+                item 3 [Base.SmallSheetMetal],
+                item 2 [Base.Hinge],
+                item 4 [Base.WeldingRods] flags[DontRecordInput],
+            }
+        }
+    }
+}

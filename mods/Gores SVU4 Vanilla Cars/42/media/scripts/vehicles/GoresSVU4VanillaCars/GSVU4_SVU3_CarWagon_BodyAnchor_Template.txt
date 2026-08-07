@@ -1,0 +1,317 @@
+module Base
+{
+    template vehicle GSVU4_SVU3_BodyAnchor_CarWagon
+    {
+        part GSVU4_SVU3_CarWagon_BodyAnchor
+        {
+            area = Engine,
+            category = nodisplay,
+            specificItem = false,
+            itemType = Base.LightBulb,
+            setAllModelsVisible = false,
+            mechanicRequireKey = false,
+
+            lua
+            {
+                create = GSVU4VV.VisualPart.Create,
+                init = GSVU4VV.VisualPart.Init,
+            }
+
+            model SVU_FL_Window_CarWagon_Paper
+            {
+                file = SVU_FL_Window_CarWagon_Paper,
+            }
+            model SVU_FR_Window_CarWagon_Paper
+            {
+                file = SVU_FR_Window_CarWagon_Paper,
+            }
+            model SVU_RL_Window_CarWagon_Paper
+            {
+                file = SVU_RL_Window_CarWagon_Paper,
+            }
+            model SVU_RR_Window_CarWagon_Paper
+            {
+                file = SVU_RR_Window_CarWagon_Paper,
+            }
+            model SVU_F_Window_CarWagon_Paper
+            {
+                file = SVU_F_Window_CarWagon_Paper,
+            }
+            model SVU_R_Window_CarWagon_Paper
+            {
+                file = SVU_R_Window_CarWagon_Paper,
+            }
+            model SVU_Hood_CarWagon_Paper
+            {
+                file = SVU_Hood_CarWagon_Paper,
+            }
+            model SVU_Trunk_CarWagon_Paper
+            {
+                file = SVU_Trunk_CarWagon_Paper,
+            }
+            model SVU_Door_FL_CarWagon_Paper
+            {
+                file = SVU_Door_FL_CarWagon_Paper,
+            }
+            model SVU_Door_FR_CarWagon_Paper
+            {
+                file = SVU_Door_FR_CarWagon_Paper,
+            }
+            model SVU_Door_RL_CarWagon_Paper
+            {
+                file = SVU_Door_RL_CarWagon_Paper,
+            }
+            model SVU_Door_RR_CarWagon_Paper
+            {
+                file = SVU_Door_RR_CarWagon_Paper,
+            }
+            model SVU_FL_Window_CarWagon_Light_Spiked
+            {
+                file = SVU_FL_Window_CarWagon_Light_Spiked,
+            }
+            model SVU_FR_Window_CarWagon_Light_Spiked
+            {
+                file = SVU_FR_Window_CarWagon_Light_Spiked,
+            }
+            model SVU_RL_Window_CarWagon_Light_Spiked
+            {
+                file = SVU_RL_Window_CarWagon_Light_Spiked,
+            }
+            model SVU_RR_Window_CarWagon_Light_Spiked
+            {
+                file = SVU_RR_Window_CarWagon_Light_Spiked,
+            }
+            model SVU_F_Window_CarWagon_Light_Spiked
+            {
+                file = SVU_F_Window_CarWagon_Light_Spiked,
+            }
+            model SVU_R_Window_CarWagon_Light_Spiked
+            {
+                file = SVU_R_Window_CarWagon_Light_Spiked,
+            }
+            model SVU_Hood_CarWagon_Light_Spiked
+            {
+                file = SVU_Hood_CarWagon_Light_Spiked,
+            }
+            model SVU_Trunk_CarWagon_Light_Spiked
+            {
+                file = SVU_Trunk_CarWagon_Light_Spiked,
+            }
+            model SVU_Door_FL_CarWagon_Light_Spiked
+            {
+                file = SVU_Door_FL_CarWagon_Light_Spiked,
+            }
+            model SVU_Door_FR_CarWagon_Light_Spiked
+            {
+                file = SVU_Door_FR_CarWagon_Light_Spiked,
+            }
+            model SVU_Door_RL_CarWagon_Light_Spiked
+            {
+                file = SVU_Door_RL_CarWagon_Light_Spiked,
+            }
+            model SVU_Door_RR_CarWagon_Light_Spiked
+            {
+                file = SVU_Door_RR_CarWagon_Light_Spiked,
+            }
+            model SVU_FL_Window_CarWagon_Reinforced
+            {
+                file = SVU_FL_Window_CarWagon_Reinforced,
+            }
+            model SVU_FR_Window_CarWagon_Reinforced
+            {
+                file = SVU_FR_Window_CarWagon_Reinforced,
+            }
+            model SVU_RL_Window_CarWagon_Reinforced
+            {
+                file = SVU_RL_Window_CarWagon_Reinforced,
+            }
+            model SVU_RR_Window_CarWagon_Reinforced
+            {
+                file = SVU_RR_Window_CarWagon_Reinforced,
+            }
+            model SVU_F_Window_CarWagon_Reinforced
+            {
+                file = SVU_F_Window_CarWagon_Reinforced,
+            }
+            model SVU_R_Window_CarWagon_Reinforced
+            {
+                file = SVU_R_Window_CarWagon_Reinforced,
+            }
+            model SVU_Hood_CarWagon_Reinforced
+            {
+                file = SVU_Hood_CarWagon_Reinforced,
+            }
+            model SVU_Trunk_CarWagon_Reinforced
+            {
+                file = SVU_Trunk_CarWagon_Reinforced,
+            }
+            model SVU_Door_FL_CarWagon_Reinforced
+            {
+                file = SVU_Door_FL_CarWagon_Reinforced,
+            }
+            model SVU_Door_FR_CarWagon_Reinforced
+            {
+                file = SVU_Door_FR_CarWagon_Reinforced,
+            }
+            model SVU_Door_RL_CarWagon_Reinforced
+            {
+                file = SVU_Door_RL_CarWagon_Reinforced,
+            }
+            model SVU_Door_RR_CarWagon_Reinforced
+            {
+                file = SVU_Door_RR_CarWagon_Reinforced,
+            }
+            model SVU_FL_Window_CarWagon_Heavy
+            {
+                file = SVU_FL_Window_CarWagon_Heavy,
+            }
+            model SVU_FR_Window_CarWagon_Heavy
+            {
+                file = SVU_FR_Window_CarWagon_Heavy,
+            }
+            model SVU_RL_Window_CarWagon_Heavy
+            {
+                file = SVU_RL_Window_CarWagon_Heavy,
+            }
+            model SVU_RR_Window_CarWagon_Heavy
+            {
+                file = SVU_RR_Window_CarWagon_Heavy,
+            }
+            model SVU_F_Window_CarWagon_Heavy
+            {
+                file = SVU_F_Window_CarWagon_Heavy,
+            }
+            model SVU_R_Window_CarWagon_Heavy
+            {
+                file = SVU_R_Window_CarWagon_Heavy,
+            }
+            model SVU_Hood_CarWagon_Heavy
+            {
+                file = SVU_Hood_CarWagon_Heavy,
+            }
+            model SVU_Trunk_CarWagon_Heavy
+            {
+                file = SVU_Trunk_CarWagon_Heavy,
+            }
+            model SVU_Door_FL_CarWagon_Heavy
+            {
+                file = SVU_Door_FL_CarWagon_Heavy,
+            }
+            model SVU_Door_FR_CarWagon_Heavy
+            {
+                file = SVU_Door_FR_CarWagon_Heavy,
+            }
+            model SVU_Door_RL_CarWagon_Heavy
+            {
+                file = SVU_Door_RL_CarWagon_Heavy,
+            }
+            model SVU_Door_RR_CarWagon_Heavy
+            {
+                file = SVU_Door_RR_CarWagon_Heavy,
+            }
+            model SVU_FL_Window_CarWagon_Heavy_Spiked
+            {
+                file = SVU_FL_Window_CarWagon_Heavy_Spiked,
+            }
+            model SVU_FR_Window_CarWagon_Heavy_Spiked
+            {
+                file = SVU_FR_Window_CarWagon_Heavy_Spiked,
+            }
+            model SVU_RL_Window_CarWagon_Heavy_Spiked
+            {
+                file = SVU_RL_Window_CarWagon_Heavy_Spiked,
+            }
+            model SVU_RR_Window_CarWagon_Heavy_Spiked
+            {
+                file = SVU_RR_Window_CarWagon_Heavy_Spiked,
+            }
+            model SVU_F_Window_CarWagon_Heavy_Spiked
+            {
+                file = SVU_F_Window_CarWagon_Heavy_Spiked,
+            }
+            model SVU_R_Window_CarWagon_Heavy_Spiked
+            {
+                file = SVU_R_Window_CarWagon_Heavy_Spiked,
+            }
+            model SVU_Hood_CarWagon_Heavy_Spiked
+            {
+                file = SVU_Hood_CarWagon_Heavy_Spiked,
+            }
+            model SVU_Trunk_CarWagon_Heavy_Spiked
+            {
+                file = SVU_Trunk_CarWagon_Heavy_Spiked,
+            }
+            model SVU_Door_FL_CarWagon_Heavy_Spiked
+            {
+                file = SVU_Door_FL_CarWagon_Heavy_Spiked,
+            }
+            model SVU_Door_FR_CarWagon_Heavy_Spiked
+            {
+                file = SVU_Door_FR_CarWagon_Heavy_Spiked,
+            }
+            model SVU_Door_RL_CarWagon_Heavy_Spiked
+            {
+                file = SVU_Door_RL_CarWagon_Heavy_Spiked,
+            }
+            model SVU_Door_RR_CarWagon_Heavy_Spiked
+            {
+                file = SVU_Door_RR_CarWagon_Heavy_Spiked,
+            }
+            model SVU_Bullbar_CarWagon_Small
+            {
+                file = SVU_Bullbar_CarWagon_Small,
+            }
+            model SVU_Bullbar_CarWagon_Medium
+            {
+                file = SVU_Bullbar_CarWagon_Medium,
+            }
+            model SVU_Bullbar_CarWagon_Large_Spiked
+            {
+                file = SVU_Bullbar_CarWagon_Large_Spiked,
+            }
+            model GSVU4_RoofLightsFallback_CarWagon
+            {
+                file = GSVU4_RoofLights_CarWagon,
+            }
+            model GSVU4_RoofLightsFallbackBulbs_CarWagon
+            {
+                file = GSVU4_RoofLightsBulbs_CarWagon,
+            }
+            model GSVU4_FilteredAirIntake_CarWagon
+            {
+                file = GSVU4_FilteredAirIntake_CarWagon,
+            }
+
+        
+            model SVU_Airscoop_CarWagon_Small
+            {
+                file = SVU_Airscoop_CarWagon_Small,
+            }
+
+            model SVU_Airscoop_CarWagon_Medium
+            {
+                file = SVU_Airscoop_CarWagon_Medium,
+            }
+
+            model SVU_Airscoop_CarWagon_Small_Round
+            {
+                file = SVU_Airscoop_CarWagon_Small_Round,
+            }
+
+            model SVU_Airscoop_CarWagon_Large
+            {
+                file = SVU_Airscoop_CarWagon_Large,
+            }
+
+            model SVU_Airscoop_CarWagon_Large_Round
+            {
+                file = SVU_Airscoop_CarWagon_Large_Round,
+            }
+
+            model SVU_Airscoop_CarWagon_Piped
+            {
+                file = SVU_Airscoop_CarWagon_Piped,
+            }
+}
+    }
+}

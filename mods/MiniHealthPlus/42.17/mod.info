@@ -1,0 +1,9 @@
+name=Mini Health Plus
+id=MiniHealthPlus
+description=A improved minimalistic wounds display without the need to open the health panel. Disappear when no wound need to be treated. <LINE> <LINE> -Scaleable <LINE> -HD Textures <LINE> -Replace Banages <LINE> -Localisations <LINE> -Maintained by me
+poster=statsIcon.png
+icon=statsIcon.png
+author=Speedy Von Gofast, TwisTonFire
+versionMin=42.17
+modversion=1
+incompatible=MiniHealthPanel

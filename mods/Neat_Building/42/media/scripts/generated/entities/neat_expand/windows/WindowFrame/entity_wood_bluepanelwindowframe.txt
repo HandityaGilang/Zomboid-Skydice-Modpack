@@ -1,0 +1,67 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Wood_BluePanelWindowFrame
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_BluePanelWindowFrame,
+			Icon		= Build_walls_exterior_house_02_29,
+		}
+	}
+
+    entity Wood_BluePanelWindowFrame
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Wood_BluePanelWindowFrame,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+			health          = 650,
+            skillBaseHealth = 20,
+            previousStage   = WoodenWallFrame;MetalWallFrame,
+            OnCreate        = NB_BuildRecipeCode.NewWall.OnCreate,
+			
+            face W
+            {
+                layer
+                {
+                    row = walls_exterior_house_02_28,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = walls_exterior_house_02_29,
+                }
+            }
+			
+			corner = walls_exterior_house_02_23,
+        }
+		
+        component CraftRecipe
+        {
+            OnAddToMenu   = ignoreFromBuildMenu,
+            timedAction   = BuildWallNoTool,
+            time          = 200,
+            category      = Windows,
+            SkillRequired = Woodwork:6,
+            xpAward       = Woodwork:60,
+            ToolTip       = Tooltip_craft_NeedsWallframeDesc,
+            inputs
+            {
+                item 1 tags[PlasterTrowel;MasonsTrowel] mode:keep flags[Prop1],
+                item 1 tags[Hammer] mode:keep flags[Prop2;MayDegradeVeryLight],
+                item 1 [Base.PaintBlue] flags[DontRecordInput],
+                item 1 [Base.BucketPlasterFull] flags[DontRecordInput],
+                item 2 [Base.Plank],
+                item 4 [Base.Nails],
+            }
+        }
+    }
+}

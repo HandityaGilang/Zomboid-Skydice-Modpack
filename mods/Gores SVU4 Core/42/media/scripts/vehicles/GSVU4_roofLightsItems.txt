@@ -1,0 +1,15 @@
+module Base
+{
+    item GSVU4RoofLightsBasic
+    {
+        DisplayCategory     = VehicleMaintenance,
+        Weight              = 5.0,
+        ItemType            = base:normal,
+        VehicleType         = 3,
+        DisplayName         = Roof Lighting System,
+        Icon                = Item_LightBulb,
+        ConditionMax        = 100,
+        MechanicsItem       = TRUE,
+        Tags                = base:hasmetal,
+    }
+}

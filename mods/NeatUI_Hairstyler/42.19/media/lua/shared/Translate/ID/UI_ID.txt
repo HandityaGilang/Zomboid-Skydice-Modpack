@@ -1,0 +1,8 @@
+UI_ID = {
+	UI_characreation_character = "Karakter",
+	UI_IHM_UseImprovedHairPicker = "Pemilih warna yang ditingkatkan",
+	UI_IHM_UseImprovedHairPicker_Tooltip = "AKTIF: semua warna.<br>NONAKTIF: warna vanilla.",
+	UI_IHM_Source_Vanilla = "Vanilla",
+	UI_IHM_Source_All = "Semua",
+	UI_IHM_Controls = "Kontrol",
+}

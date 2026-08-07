@@ -1,0 +1,17 @@
+Sandbox_PT {
+    Sandbox_HGTS = "Here Goes The Sun",
+
+    Sandbox_HereGoesTheSun_EnableGodRays = "Ativar raios de sol",
+    Sandbox_HereGoesTheSun_EnableGodRays_Tooltip = "Quando ativado, os raios de sol serão exibidos visualmente na borda da tela correspondente ao nascer ou pôr do sol.",
+
+	Sandbox_HereGoesTheSun_EnableStormMood = "Ativar Clima de Tempestade",
+	Sandbox_HereGoesTheSun_EnableStormMood_Tooltip = "Quando ativo, tempestades podem aplicar uma dessaturação cinematográfica e um ambiente mais escuro (com transição suave).",
+
+Sandbox_HereGoesTheSun_StormMoodPreset = "Predefinição de dessaturação do clima/tempestade"
+Sandbox_HereGoesTheSun_StormMoodPreset_Tooltip = "Define o quão forte será a dessaturação visual durante tempestades."
+Sandbox_HereGoesTheSun_StormMoodPreset_option1 = "Suave (60%)"
+Sandbox_HereGoesTheSun_StormMoodPreset_option2 = "Recomendado (85%)"
+Sandbox_HereGoesTheSun_StormMoodPreset_option3 = "Noite dos Mortos-Vivos (Preto e Branco)"
+
+
+}

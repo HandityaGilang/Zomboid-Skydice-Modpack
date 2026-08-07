@@ -1,0 +1,76 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Wood_BrownExteriorDoor
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_BrownExteriorWoodenDoor,
+			Icon		= Build_fixtures_doors_02_6,
+		}
+	}
+
+    entity Wood_BrownExteriorDoor
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Wood_BrownExteriorDoor,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+			skillBaseHealth = 400,
+			breakSound      = BreakDoor,
+			
+            face W
+            {
+                layer
+                {
+                    row = fixtures_doors_02_4,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = fixtures_doors_02_5,
+                }
+            }
+			face W_OPEN
+            {
+                layer
+                {
+					row = fixtures_doors_02_6,
+                }
+            }
+            face N_OPEN
+            {
+                layer
+                {
+					row = fixtures_doors_02_7,
+                }
+            }
+        }
+		
+		component CraftRecipe
+        {
+            timedAction   = BuildWallHammer,
+            time          = 200,
+            category      = Doors,
+            SkillRequired = Woodwork:7;Glassmaking:2,
+            xpAward       = Woodwork:70:Glassmaking:20,
+            ToolTip       = Tooltip_craft_woodenDoorDesc,
+            inputs
+            {
+                item 1 tags[Hammer] mode:keep flags[Prop1;MayDegradeVeryLight],
+                item 1 [Base.PaintBrown] flags[DontRecordInput],
+				item 4 [Base.Plank],
+				item 4 [Base.Nails],
+				item 2 [Base.Hinge],
+				item 1 [Base.Doorknob],
+            }
+        }
+    }
+}

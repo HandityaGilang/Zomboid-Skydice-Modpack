@@ -1,0 +1,15 @@
+{
+    "UI_XP_NC_xpShow": "Recept TP megjelenítése",
+    "UI_XP_NC_xpShow_tooltip": "Engedélyezi a tapasztalati pontok (TP) megjelenítését a készítési recepteknél. <LINE> A „TP megjelenítési formátuma” határozza meg, hogyan jelenjen meg ez az információ. <LINE> <LINE> Elérhető formátumok: <LINE> - Alap TP: Csak az alap TP-t mutatja. <LINE> - Végső TP: Az összes szorzó alkalmazása utáni TP-t mutatja. <LINE> - Szorzó: Az alap TP-t, az összesített szorzót és a végső TP-t mutatja (példa: +5 * 3,5 = 17,5). <LINE> - Részletezés: Az alap TP-t, az összes szorzó részletes bontását és a végső TP-t mutatja. <LINE> A tényezők: <LINE> - Kezdeti szint szorzó: 0. szint (x0.25), 1. szint (x1.00), 2. szint (x1.33), 3+ szint (x1.66) <LINE> - Készségkönyv-szorzó: 1–5. könyvek (x3, x5, x8, x12, x16). Ennek fele Célzás, Újratöltés és Hosszú szúrófegyver esetén. <LINE> - Jellemvonás-szorzó: Gyors tanuló (x1.3), Lassú tanuló (x0.7) <LINE> - Sandbox beállítások szorzója: Globális érték vagy készségtípusonként külön érték.",
+    "UI_XP_NC_xpFormat": "TP megjelenítési formátuma",
+    "UI_XP_NC_xpFormat_BasicXP": "Alap TP",
+    "UI_XP_NC_xpFormat_FinalXP": "Végső TP",
+    "UI_XP_NC_xpFormat_Multiplier": "Szorzó",
+    "UI_XP_NC_xpFormat_Breakdown": "Részletezés",
+    "UI_XP_NC_showRecipeMod": "Recept modjának megjelenítése",
+    "UI_XP_NC_showRecipeMod_tooltip": "Megjeleníti minden recept forrás-modját a „Mod” sorban a recept panelen.",
+    "UI_XP_NC_modPrefix": "Mod: ",
+    "UI_XP_NC_textScale": "Extra sorok szövegének méretezése",
+    "UI_XP_NC_textScale_tooltip": "Betűméret a TP- és „Mod” sorokhoz.",
+    "UI_XP_NC_xpFormat_tooltip": "Choose how recipe XP is displayed. <LINE> <LINE> - Basic XP: Shows the base XP. <LINE> - Final XP: Shows the final XP after multipliers. <LINE> - Multiplier: Shows only the multiplier value(s). <LINE> - Full breakdown: Shows base XP, multiplier(s) and final XP."
+}

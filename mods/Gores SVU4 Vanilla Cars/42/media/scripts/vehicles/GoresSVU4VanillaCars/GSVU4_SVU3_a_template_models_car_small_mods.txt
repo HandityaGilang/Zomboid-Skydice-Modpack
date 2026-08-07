@@ -1,0 +1,32 @@
+module Base
+{
+    model SVU_Chains_FL_SmallCar
+    {
+        mesh = vehicles/SmallCarArmor|chaintires,
+        texture = Vehicles/puv_parts,
+        scale = 0.0035,
+    }
+
+    model SVU_Chains_FR_SmallCar
+    {
+        mesh = vehicles/SmallCarArmor|chaintires,
+        texture = Vehicles/puv_parts,
+        scale = 0.0035,
+        invertX = TRUE,
+    }
+
+    model SVU_Chains_RL_SmallCar
+    {
+        mesh = vehicles/SmallCarArmor|chaintires,
+        texture = Vehicles/puv_parts,
+        scale = 0.0035,
+    }
+
+    model SVU_Chains_RR_SmallCar
+    {
+        mesh = vehicles/SmallCarArmor|chaintires,
+        texture = Vehicles/puv_parts,
+        scale = 0.0035,
+        invertX = TRUE,
+    }
+}

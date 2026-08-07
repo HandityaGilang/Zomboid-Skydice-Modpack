@@ -1,0 +1,62 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Welding_SecurityMeshWall
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_SecurityMeshWall,
+			Icon		= Build_location_shop_mall_01_19,
+		}
+	}
+
+    entity Welding_SecurityMeshWall
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Welding_SecurityMeshWall,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+			LogicClass      = WoodenWall,
+			health          = 1000,
+			skillBaseHealth = 70,
+            previousStage   = WoodenWallFrame;MetalWallFrame,
+
+            face W
+            {
+                layer
+                {
+                    row = location_shop_mall_01_18,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = location_shop_mall_01_19,
+                }
+            }
+        }
+		
+        component CraftRecipe
+        {
+            timedAction   = BuildWallMetal,
+            time          = 200,
+            category      = Walls,
+            SkillRequired = MetalWelding:8,
+            xpAward       = MetalWelding:80,
+            ToolTip       = Tooltip_craft_NeedsWallframeDesc,
+            inputs
+            {
+                item 4 [Base.BlowTorch] flags[DontRecordInput],
+                item 1 tags[Hammer] mode:keep flags[Prop2;MayDegradeVeryLight],
+                item 4 [Base.SmallSheetMetal],
+                item 4 [Base.Nails],
+            }
+        }
+    }
+}

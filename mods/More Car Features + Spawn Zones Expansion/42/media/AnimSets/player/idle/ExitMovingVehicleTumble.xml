@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animNode>
+	<m_Name>ExitMovingVehicleTumble</m_Name>
+	<m_AnimName>Bob_ValultOver_SprintFail</m_AnimName>
+	<m_Looped>false</m_Looped>
+	<m_BlendTime>0.00</m_BlendTime>
+	<m_SpeedScale>1.00</m_SpeedScale>
+	<m_ConditionPriority>10</m_ConditionPriority>
+
+	<m_Conditions>
+		<m_Name>TumbleVehicleExitRoll</m_Name>
+		<m_Type>BOOL</m_Type>
+		<m_Value>true</m_Value>
+	</m_Conditions>
+
+	<m_Events>
+		<m_EventName>SetVariable</m_EventName>
+		<m_TimePc>0.1</m_TimePc>
+		<m_ParameterValue>EarlyExitVehicleFallDamage=true</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="4804e838-5a63-4254-a3ea-b4cca316b0f9">
+		<m_EventName>PlayTripSound</m_EventName>
+		<m_ParameterValue>TripOverObstacle</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="9bd06c31-42bf-4a9b-a53b-4096e2a5de49">
+		<m_EventName>PlaySound</m_EventName>
+		<m_ParameterValue>FallHeavy</m_ParameterValue>
+	</m_Events>
+	<m_Events x_name="d8d40163-135a-48e0-8a63-a1b64a294297">
+		<m_EventName>PlayerVoiceSound</m_EventName>
+		<m_Time>Start</m_Time>
+		<m_ParameterValue>PainFromFallLow</m_ParameterValue>
+	</m_Events>
+	<m_Events>
+		<m_EventName>SetVariable</m_EventName>
+		<m_Time>End</m_Time>
+		<m_ParameterValue>doScrambleFromExitVehicleFall=true</m_ParameterValue>
+	</m_Events>
+</animNode>

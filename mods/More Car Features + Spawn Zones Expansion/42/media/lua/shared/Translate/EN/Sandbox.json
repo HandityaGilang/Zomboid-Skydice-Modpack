@@ -1,0 +1,55 @@
+{
+	"Sandbox_WayMoreCars": "More Car Features + Spawn Zones Expansion",
+
+	"Sandbox_GamestaSpawnRate": "Spawn Rate (%%)",
+	"Sandbox_GamestaSpawnRate_tooltip": "Base chance to spawn a vehicle in a zone. Default is -1 (uses vanilla by default). Spawn rate is slightly influenced by the vanilla Vehicle Spawn Rate setting.",
+
+	"Sandbox_GamestaSpawnRateModifiedTrafficJams": "Spawn Rate (%%) for Modified Traffic Jams",
+	"Sandbox_GamestaSpawnRateModifiedTrafficJams_tooltip": "Base chance to spawn a vehicle in traffic jam zones. Default is -1 (uses default of 100%%). Spawn rate is slightly influenced by the vanilla Vehicle Spawn Rate setting.",
+
+	"Sandbox_GamestaTrafficJamsLV": "Extra Traffic Jams Spawning in LV",
+	"Sandbox_GamestaTrafficJamsLV_tooltip": "Whether new traffic jams spawn in Louisville.",
+	
+	"Sandbox_GamestaTrafficJamsExtra": "Extra Traffic Jams Spawning outside LV",
+	"Sandbox_GamestaTrafficJamsExtra_tooltip": "Whether new traffic jams spawn outside Louisville.",
+
+	"Sandbox_GamestaVehicleCorpseDistribution": "Corpses Spawning in Vehicles",
+	"Sandbox_GamestaVehicleCorpseDistribution_tooltip": "Controls how often corpses spawn in vehicles (default is 'Normal' or ~8%% per seat).",
+	"Sandbox_GamestaVehicleCorpseDistribution_option1": "None",
+	"Sandbox_GamestaVehicleCorpseDistribution_option2": "Rare",
+	"Sandbox_GamestaVehicleCorpseDistribution_option3": "Normal",
+	"Sandbox_GamestaVehicleCorpseDistribution_option4": "Common",
+
+	"Sandbox_GamestaClimbVehicles": "Enable Climb Vehicles Addon",
+	"Sandbox_GamestaClimbVehicles_tooltip": "Whether or not the player can climb vehicles.",
+
+	"Sandbox_GamestaNoGoodCars": "Remove all 'Good' Vehicles",
+	"Sandbox_GamestaNoGoodCars_tooltip": "Whether cars have a chance to spawn in good condition regardless of other vehicle settings. Random 'Good' vehicles is a VANILLA feature, this removes them.",
+
+	"Sandbox_GamestaInteractBombVehicle": "Car Bombs / Car Alarms / Fire / Cars Jump / And More",
+	"Sandbox_GamestaInteractBombVehicle_tooltip": "Whether explosive devices (and fire) can interact with vehicles.",
+
+	"Sandbox_GamestaAutoVehicleFuelPumps": "Automatic Fuel Pumping for Vehicles",
+	"Sandbox_GamestaAutoVehicleFuelPumps_tooltip": "A new system that allows for leaving the fuel pump nozzle in your car to pump gasoline at the vanilla rate of 1 liter per real life second.",
+
+	"Sandbox_GamestaRandomAngle": "Random Vehicle Angles",
+	"Sandbox_GamestaRandomAngle_tooltip": "Whether cars spawn facing in random directions.",
+
+	"Sandbox_GamestaWeatherEffects": "Weather Affects Players In Vehicles",
+	"Sandbox_GamestaWeatherEffects_tooltip": "Whether the weather outside can affect players in vehicles; from breaking your windshield and having a hard time seeing to getting rained on with your window down.",
+
+	"Sandbox_GamestaEarlyExitVehicle": "Exiting Moving Vehicles",
+	"Sandbox_GamestaEarlyExitVehicle_tooltip": "Whether the player can exit a moving vehicle.<br>*Each Stage of Speed has a Unique Animation*<br>*Stage 1: NO DAMAGE at <30KPH*<br>*Stage 2: Damage (Extremities Only) at 30-50KPH*<br>*Stage 3: Damage (Almost Full Body) at >50KPH*<br>*Scales with Speed and Other Factors*",
+
+	"Sandbox_GamestaEarlyExitVehicleDamage": "Damage Multiplier Taken on Exiting a *Fast* Moving Vehicle",
+	"Sandbox_GamestaEarlyExitVehicleDamage_tooltip": "The Damage Multiplier Used for Exiting a *Fast* Moving Vehicle (this multiplier affects damage applied to the player and the clothing worn by that player).",
+
+	"Sandbox_GamestaSpawnRateBurnt": "Spawn Rate (%%) to Modify ALL Vehicles into Burnt Vehicles",
+	"Sandbox_GamestaSpawnRateBurnt_tooltip": "Base chance to spawn a burnt vehicle in a zone. Default is -1 (uses vanilla by default). Spawn rate is slightly influenced by the vanilla Vehicle Spawn Rate setting.",
+
+	"Sandbox_GamestaBaseVehicleQuality": "Base Vehicle Quality",
+	"Sandbox_GamestaBaseVehicleQuality_tooltip": "Controls how good condition vehicle parts are. -0.1 = disabled, 1.0 = perfect (higher for guaranteed), lower = worse.",
+
+	"Sandbox_GamestaChanceToPartDamage": "Chance to Part Damage (%%)",
+	"Sandbox_GamestaChanceToPartDamage_tooltip": "Chance that spawned vehicle parts are damaged. -1 means disabled, 100%% means every part is always damaged."
+}

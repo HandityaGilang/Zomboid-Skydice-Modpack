@@ -1,0 +1,11 @@
+{
+    "Base.BattleShip_Box": "戦艦ボックス",
+    "Base.BattleShip_GameStand": "戦艦ゲームスタンド",
+    "Base.BattleShip_Peg_Red": "レッドペグ",
+    "Base.BattleShip_Peg_White": "ホワイトペグ",
+    "Base.BattleShip_Ship_Battleship": "戦艦",
+    "Base.BattleShip_Ship_Carrier": "キャリア",
+    "Base.BattleShip_Ship_Destroyer": "デストロイヤー",
+    "Base.BattleShip_Ship_Submarine": "潜水艦",
+    "Base.BattleShip_Ship_PatrolBoat": "巡視船"
+}

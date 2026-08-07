@@ -1,0 +1,59 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Fences_FancyPlasterRailing
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_FancyPlasterRailingFence,
+			Icon		= Build_fencing_01_104,
+		}
+	}
+
+    entity Fences_FancyPlasterRailing
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Fences_FancyPlasterRailing,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+			health          = 250,
+			skillBaseHealth = 20,
+
+            face W
+            {
+                layer
+                {
+                    row = fencing_01_105,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = fencing_01_104,
+                }
+            }
+            corner  =   fencing_01_107,
+        }
+		
+        component CraftRecipe
+        {
+            timedAction   = BuildLowNoTool,
+            time          = 50,
+            SkillRequired = Pottery:5,
+            xpAward       = Pottery:50,
+            category      = Fences,
+            ToolTip       = Tooltip_craft_sandBagDesc,
+            inputs
+            {
+                item 1  [Base.ClayTool] mode:keep,
+                item 10 [Base.BucketPlasterFull] flags[DontRecordInput],
+            }
+        }
+    }
+}

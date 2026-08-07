@@ -1,0 +1,17 @@
+UI_TH = {
+    UI_XP_NB_xpShow = "แสดง XP",
+    UI_XP_NB_xpShow_tooltip = "เปิดใช้งานการแสดง XP ของสูตรคราฟต์ <LINE> 'รูปแบบการแสดง XP' กำหนดวิธีแสดงข้อมูลนี้ <LINE> <LINE><RGB:0.392,0.584,0.929> รูปแบบที่ใช้ได้: <LINE><RGB:1,1,1> - XP พื้นฐาน: แสดง XP พื้นฐาน (ไม่มีตัวคูณ) <LINE> - XP สุดท้าย: แสดง XP หลังจากใช้ตัวคูณทั้งหมด <LINE> - ตัวคูณ: แสดงตัวคูณรวมที่ใช้กับ XP พื้นฐาน และ XP สุดท้าย (BaseXP * multiplier = FinalXP) <LINE> - รายละเอียด: แสดง XP พื้นฐาน รายละเอียดตัวคูณทั้งหมด และ XP สุดท้าย <LINE><LINE><RGB:0.392,0.584,0.929> ปัจจัยที่มีผล: <LINE><RGB:1,1,1> - ตัวคูณระดับเริ่มต้น: ระดับ 0 (x0.25), ระดับ 1 (x1.00), ระดับ 2 (x1.33), ระดับ 3+ (x1.66) <LINE> - ตัวคูณจากหนังสือทักษะ: หนังสือ 1-5 (x3, x5, x8, x12, x16) ครึ่งหนึ่งสำหรับ Aiming, Reloading และ Long Blade <LINE> - ตัวคูณจากลักษณะนิสัย: หัวไว (x1.3), หัวช้า (x0.7), Crafty (x1.3 เฉพาะเมื่อทักษะอยู่ในหมวด การประดิษฐ์) ใน รายละเอียด หัวไว/หัวช้า และ Crafty จะถูกรวมเป็นตัวคูณลักษณะนิสัยเดียว <LINE> - ตัวคูณจากตัวเลือก Sandbox: ค่าแบบรวม หรือค่าเฉพาะตามประเภททักษะ",
+    UI_XP_NB_xpFormat = "รูปแบบการแสดง XP",
+    UI_XP_NB_xpFormat_tooltip = "รูปแบบการแสดง XP",
+    UI_XP_NB_xpFormat_BasicXP = "XP พื้นฐาน",
+    UI_XP_NB_xpFormat_FinalXP = "XP สุดท้าย",
+    UI_XP_NB_xpFormat_Multiplier = "ตัวคูณ",
+    UI_XP_NB_xpFormat_Breakdown = "รายละเอียด",
+    UI_XP_NB_showRecipeMod = "แสดงม็อดของสูตร",
+    UI_XP_NB_showRecipeMod_tooltip = "แสดงม็อดต้นทางของสูตรเป็นบรรทัด 'Mod' ในแผงสูตรคราฟต์",
+    UI_XP_NB_textScale = "ขนาดข้อความของบรรทัดเพิ่มเติม",
+    UI_XP_NB_textScale_tooltip = "ขนาดตัวอักษรสำหรับบรรทัด XP และบรรทัด 'Mod'.",
+    UI_XP_NB_modPrefix = "Mod: ",
+    UI_XP_NB_modNeat = "Neat Building",
+    UI_XP_NB_modOther = "อื่น",
+}

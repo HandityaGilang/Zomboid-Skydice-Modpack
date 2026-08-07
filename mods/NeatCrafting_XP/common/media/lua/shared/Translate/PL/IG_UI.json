@@ -1,0 +1,18 @@
+{
+    "IGUI_XP_NC_ShowAllRecipe_tooltip": "Pokaż wszystkie przepisy, <LINE> nawet jeśli nie ma odpowiedniego stanowiska.",
+    "IGUI_XP_NC_ShowOnlyXPAward": "Pokaż tylko przepisy dające XP.",
+    "IGUI_XP_NC_ShowOnlyModRecipes": "Pokaż tylko przepisy z modów.",
+    "IGUI_XP_NC_SetPanelMinSize_tooltip": "Ustaw panel na minimalny rozmiar",
+    "IGUI_NC_InputItemSelected": "Aktualny wybór",
+    "IGUI_NC_RequiredSkills": "Wymagane umiejętności",
+    "IGUI_NC_SearchAsInput": "Używane w przepisach",
+    "IGUI_NC_SearchAsOutput": "Tworzone przez przepisy",
+    "IGUI_NC_SearchForCraft": "Wyszukiwanie przepisów",
+    "IGUI_NC_ShowOnlyBenefitFromRecipes": "Tylko przepisy użyteczne z przedmiotem w ręku",
+    "IGUI_NC_ShowOnlyCanCraft": "Tylko możliwe do wykonania",
+    "IGUI_NC_ShowOnlyRecipesKnew": "Tylko znane przepisy",
+    "IGUI_NC_ShowOnlymetSkillRequire": "Tylko spełnione umiejętności",
+    "IGUI_NC_SortRecipeList": "Sortuj listę przepisów",
+    "IGUI_NC_SwitchToGridLayout": "Przełącz na widok siatki",
+    "IGUI_NC_SwitchToListLayout": "Przełącz na widok listy"
+}

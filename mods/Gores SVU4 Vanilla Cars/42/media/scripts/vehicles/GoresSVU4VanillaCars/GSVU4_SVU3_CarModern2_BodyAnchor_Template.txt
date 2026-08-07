@@ -1,0 +1,779 @@
+module Base
+{
+    template vehicle GSVU4_SVU3_BodyAnchor_CarModern2
+    {
+        part GSVU4_SVU3_CarModern2_BodyAnchor
+        {
+            area = Engine,
+            category = nodisplay,
+            specificItem = false,
+            itemType = Base.LightBulb,
+            setAllModelsVisible = false,
+            mechanicRequireKey = false,
+
+            lua
+            {
+                create = GSVU4VV.VisualPart.Create,
+                init = GSVU4VV.VisualPart.Init,
+            }
+
+            model SVU_Airscoop_CarModern2_Piped_Paper
+            {
+                file = SVU_Airscoop_CarModern2_Piped_Paper,
+            }
+            model SVU_Airscoop_CarModern2_Small
+            {
+                file = SVU_Airscoop_CarModern2_Small,
+            }
+            model SVU_Airscoop_CarModern2_Small_Rusted
+            {
+                file = SVU_Airscoop_CarModern2_Small_Rusted,
+            }
+            model SVU_Airscoop_CarModern2_Medium
+            {
+                file = SVU_Airscoop_CarModern2_Medium,
+            }
+            model SVU_Airscoop_CarModern2_Medium_Rusted
+            {
+                file = SVU_Airscoop_CarModern2_Medium_Rusted,
+            }
+            model SVU_Airscoop_CarModern2_Large
+            {
+                file = SVU_Airscoop_CarModern2_Large,
+            }
+            model SVU_Airscoop_CarModern2_Large_Rusted
+            {
+                file = SVU_Airscoop_CarModern2_Large_Rusted,
+            }
+            model SVU_Airscoop_CarModern2_Piped
+            {
+                file = SVU_Airscoop_CarModern2_Piped,
+            }
+            model SVU_Airscoop_CarModern2_Piped_Rusted
+            {
+                file = SVU_Airscoop_CarModern2_Piped_Rusted,
+            }
+            model SVU_Airscoop_CarModern2_Small_Round
+            {
+                file = SVU_Airscoop_CarModern2_Small_Round,
+            }
+            model SVU_Airscoop_CarModern2_Small_Round_Rusted
+            {
+                file = SVU_Airscoop_CarModern2_Small_Round_Rusted,
+            }
+            model SVU_Airscoop_CarModern2_Large_Round
+            {
+                file = SVU_Airscoop_CarModern2_Large_Round,
+            }
+            model SVU_Airscoop_CarModern2_Large_Round_Rusted
+            {
+                file = SVU_Airscoop_CarModern2_Large_Round_Rusted,
+            }
+            model SVU_Airscoop_CarModern2_Snorkel_Left
+            {
+                file = SVU_Airscoop_CarModern2_Snorkel_Left,
+            }
+            model SVU_Airscoop_CarModern2_Snorkel_Right
+            {
+                file = SVU_Airscoop_CarModern2_Snorkel_Right,
+            }
+            model SVU_FL_Window_CarModern2_Paper
+            {
+                file = SVU_FL_Window_CarModern2_Paper,
+            }
+            model SVU_FL_Window_CarModern2_Paper_Spiked
+            {
+                file = SVU_FL_Window_CarModern2_Paper_Spiked,
+            }
+            model SVU_FL_Window_CarModern2_Light
+            {
+                file = SVU_FL_Window_CarModern2_Light,
+            }
+            model SVU_FL_Window_CarModern2_Heavy
+            {
+                file = SVU_FL_Window_CarModern2_Heavy,
+            }
+            model SVU_FL_Window_CarModern2_Light_Spiked
+            {
+                file = SVU_FL_Window_CarModern2_Light_Spiked,
+            }
+            model SVU_FL_Window_CarModern2_Heavy_Spiked
+            {
+                file = SVU_FL_Window_CarModern2_Heavy_Spiked,
+            }
+            model SVU_FL_Window_CarModern2_Light_Rusted
+            {
+                file = SVU_FL_Window_CarModern2_Light_Rusted,
+            }
+            model SVU_FL_Window_CarModern2_Heavy_Rusted
+            {
+                file = SVU_FL_Window_CarModern2_Heavy_Rusted,
+            }
+            model SVU_FL_Window_CarModern2_Light_Spiked_Rusted
+            {
+                file = SVU_FL_Window_CarModern2_Light_Spiked_Rusted,
+            }
+            model SVU_FL_Window_CarModern2_Heavy_Spiked_Rusted
+            {
+                file = SVU_FL_Window_CarModern2_Heavy_Spiked_Rusted,
+            }
+            model SVU_FL_Window_CarModern2_Reinforced
+            {
+                file = SVU_FL_Window_CarModern2_Reinforced,
+            }
+            model SVU_FL_Window_CarModern2_Reinforced_Rusted
+            {
+                file = SVU_FL_Window_CarModern2_Reinforced_Rusted,
+            }
+            model SVU_FR_Window_CarModern2_Paper
+            {
+                file = SVU_FR_Window_CarModern2_Paper,
+            }
+            model SVU_FR_Window_CarModern2_Paper_Spiked
+            {
+                file = SVU_FR_Window_CarModern2_Paper_Spiked,
+            }
+            model SVU_FR_Window_CarModern2_Light
+            {
+                file = SVU_FR_Window_CarModern2_Light,
+            }
+            model SVU_FR_Window_CarModern2_Heavy
+            {
+                file = SVU_FR_Window_CarModern2_Heavy,
+            }
+            model SVU_FR_Window_CarModern2_Light_Spiked
+            {
+                file = SVU_FR_Window_CarModern2_Light_Spiked,
+            }
+            model SVU_FR_Window_CarModern2_Heavy_Spiked
+            {
+                file = SVU_FR_Window_CarModern2_Heavy_Spiked,
+            }
+            model SVU_FR_Window_CarModern2_Light_Rusted
+            {
+                file = SVU_FR_Window_CarModern2_Light_Rusted,
+            }
+            model SVU_FR_Window_CarModern2_Heavy_Rusted
+            {
+                file = SVU_FR_Window_CarModern2_Heavy_Rusted,
+            }
+            model SVU_FR_Window_CarModern2_Light_Spiked_Rusted
+            {
+                file = SVU_FR_Window_CarModern2_Light_Spiked_Rusted,
+            }
+            model SVU_FR_Window_CarModern2_Heavy_Spiked_Rusted
+            {
+                file = SVU_FR_Window_CarModern2_Heavy_Spiked_Rusted,
+            }
+            model SVU_FR_Window_CarModern2_Reinforced
+            {
+                file = SVU_FR_Window_CarModern2_Reinforced,
+            }
+            model SVU_FR_Window_CarModern2_Reinforced_Rusted
+            {
+                file = SVU_FR_Window_CarModern2_Reinforced_Rusted,
+            }
+            model SVU_RL_Window_CarModern2_Paper
+            {
+                file = SVU_RL_Window_CarModern2_Paper,
+            }
+            model SVU_RL_Window_CarModern2_Paper_Spiked
+            {
+                file = SVU_RL_Window_CarModern2_Paper_Spiked,
+            }
+            model SVU_RL_Window_CarModern2_Light
+            {
+                file = SVU_RL_Window_CarModern2_Light,
+            }
+            model SVU_RL_Window_CarModern2_Heavy
+            {
+                file = SVU_RL_Window_CarModern2_Heavy,
+            }
+            model SVU_RL_Window_CarModern2_Light_Spiked
+            {
+                file = SVU_RL_Window_CarModern2_Light_Spiked,
+            }
+            model SVU_RL_Window_CarModern2_Heavy_Spiked
+            {
+                file = SVU_RL_Window_CarModern2_Heavy_Spiked,
+            }
+            model SVU_RL_Window_CarModern2_Light_Rusted
+            {
+                file = SVU_RL_Window_CarModern2_Light_Rusted,
+            }
+            model SVU_RL_Window_CarModern2_Heavy_Rusted
+            {
+                file = SVU_RL_Window_CarModern2_Heavy_Rusted,
+            }
+            model SVU_RL_Window_CarModern2_Light_Spiked_Rusted
+            {
+                file = SVU_RL_Window_CarModern2_Light_Spiked_Rusted,
+            }
+            model SVU_RL_Window_CarModern2_Heavy_Spiked_Rusted
+            {
+                file = SVU_RL_Window_CarModern2_Heavy_Spiked_Rusted,
+            }
+            model SVU_RL_Window_CarModern2_Reinforced
+            {
+                file = SVU_RL_Window_CarModern2_Reinforced,
+            }
+            model SVU_RL_Window_CarModern2_Reinforced_Rusted
+            {
+                file = SVU_RL_Window_CarModern2_Reinforced_Rusted,
+            }
+            model SVU_RR_Window_CarModern2_Paper
+            {
+                file = SVU_RR_Window_CarModern2_Paper,
+            }
+            model SVU_RR_Window_CarModern2_Paper_Spiked
+            {
+                file = SVU_RR_Window_CarModern2_Paper_Spiked,
+            }
+            model SVU_RR_Window_CarModern2_Light
+            {
+                file = SVU_RR_Window_CarModern2_Light,
+            }
+            model SVU_RR_Window_CarModern2_Heavy
+            {
+                file = SVU_RR_Window_CarModern2_Heavy,
+            }
+            model SVU_RR_Window_CarModern2_Light_Spiked
+            {
+                file = SVU_RR_Window_CarModern2_Light_Spiked,
+            }
+            model SVU_RR_Window_CarModern2_Heavy_Spiked
+            {
+                file = SVU_RR_Window_CarModern2_Heavy_Spiked,
+            }
+            model SVU_RR_Window_CarModern2_Light_Rusted
+            {
+                file = SVU_RR_Window_CarModern2_Light_Rusted,
+            }
+            model SVU_RR_Window_CarModern2_Heavy_Rusted
+            {
+                file = SVU_RR_Window_CarModern2_Heavy_Rusted,
+            }
+            model SVU_RR_Window_CarModern2_Light_Spiked_Rusted
+            {
+                file = SVU_RR_Window_CarModern2_Light_Spiked_Rusted,
+            }
+            model SVU_RR_Window_CarModern2_Heavy_Spiked_Rusted
+            {
+                file = SVU_RR_Window_CarModern2_Heavy_Spiked_Rusted,
+            }
+            model SVU_RR_Window_CarModern2_Reinforced
+            {
+                file = SVU_RR_Window_CarModern2_Reinforced,
+            }
+            model SVU_RR_Window_CarModern2_Reinforced_Rusted
+            {
+                file = SVU_RR_Window_CarModern2_Reinforced_Rusted,
+            }
+            model SVU_F_Window_CarModern2_Paper
+            {
+                file = SVU_F_Window_CarModern2_Paper,
+            }
+            model SVU_F_Window_CarModern2_Paper_Spiked
+            {
+                file = SVU_F_Window_CarModern2_Paper_Spiked,
+            }
+            model SVU_F_Window_CarModern2_Light
+            {
+                file = SVU_F_Window_CarModern2_Light,
+            }
+            model SVU_F_Window_CarModern2_Heavy
+            {
+                file = SVU_F_Window_CarModern2_Heavy,
+            }
+            model SVU_F_Window_CarModern2_Light_Spiked
+            {
+                file = SVU_F_Window_CarModern2_Light_Spiked,
+            }
+            model SVU_F_Window_CarModern2_Heavy_Spiked
+            {
+                file = SVU_F_Window_CarModern2_Heavy_Spiked,
+            }
+            model SVU_F_Window_CarModern2_Light_Rusted
+            {
+                file = SVU_F_Window_CarModern2_Light_Rusted,
+            }
+            model SVU_F_Window_CarModern2_Heavy_Rusted
+            {
+                file = SVU_F_Window_CarModern2_Heavy_Rusted,
+            }
+            model SVU_F_Window_CarModern2_Light_Spiked_Rusted
+            {
+                file = SVU_F_Window_CarModern2_Light_Spiked_Rusted,
+            }
+            model SVU_F_Window_CarModern2_Heavy_Spiked_Rusted
+            {
+                file = SVU_F_Window_CarModern2_Heavy_Spiked_Rusted,
+            }
+            model SVU_F_Window_CarModern2_Reinforced
+            {
+                file = SVU_F_Window_CarModern2_Reinforced,
+            }
+            model SVU_F_Window_CarModern2_Reinforced_Rusted
+            {
+                file = SVU_F_Window_CarModern2_Reinforced_Rusted,
+            }
+            model SVU_R_Window_CarModern2_Paper
+            {
+                file = SVU_R_Window_CarModern2_Paper,
+            }
+            model SVU_R_Window_CarModern2_Paper_Spiked
+            {
+                file = SVU_R_Window_CarModern2_Paper_Spiked,
+            }
+            model SVU_R_Window_CarModern2_Light
+            {
+                file = SVU_R_Window_CarModern2_Light,
+            }
+            model SVU_R_Window_CarModern2_Heavy
+            {
+                file = SVU_R_Window_CarModern2_Heavy,
+            }
+            model SVU_R_Window_CarModern2_Light_Spiked
+            {
+                file = SVU_R_Window_CarModern2_Light_Spiked,
+            }
+            model SVU_R_Window_CarModern2_Heavy_Spiked
+            {
+                file = SVU_R_Window_CarModern2_Heavy_Spiked,
+            }
+            model SVU_R_Window_CarModern2_Light_Rusted
+            {
+                file = SVU_R_Window_CarModern2_Light_Rusted,
+            }
+            model SVU_R_Window_CarModern2_Heavy_Rusted
+            {
+                file = SVU_R_Window_CarModern2_Heavy_Rusted,
+            }
+            model SVU_R_Window_CarModern2_Light_Spiked_Rusted
+            {
+                file = SVU_R_Window_CarModern2_Light_Spiked_Rusted,
+            }
+            model SVU_R_Window_CarModern2_Heavy_Spiked_Rusted
+            {
+                file = SVU_R_Window_CarModern2_Heavy_Spiked_Rusted,
+            }
+            model SVU_R_Window_CarModern2_Reinforced
+            {
+                file = SVU_R_Window_CarModern2_Reinforced,
+            }
+            model SVU_R_Window_CarModern2_Reinforced_Rusted
+            {
+                file = SVU_R_Window_CarModern2_Reinforced_Rusted,
+            }
+            model SVU_Trunk_CarModern2_Paper
+            {
+                file = SVU_Trunk_CarModern2_Paper,
+            }
+            model SVU_Trunk_CarModern2_Paper_Spiked
+            {
+                file = SVU_Trunk_CarModern2_Paper_Spiked,
+            }
+            model SVU_Trunk_CarModern2_Light
+            {
+                file = SVU_Trunk_CarModern2_Light,
+            }
+            model SVU_Trunk_CarModern2_Heavy
+            {
+                file = SVU_Trunk_CarModern2_Heavy,
+            }
+            model SVU_Trunk_CarModern2_Light_Spiked
+            {
+                file = SVU_Trunk_CarModern2_Light_Spiked,
+            }
+            model SVU_Trunk_CarModern2_Heavy_Spiked
+            {
+                file = SVU_Trunk_CarModern2_Heavy_Spiked,
+            }
+            model SVU_Trunk_CarModern2_Light_Rusted
+            {
+                file = SVU_Trunk_CarModern2_Light_Rusted,
+            }
+            model SVU_Trunk_CarModern2_Heavy_Rusted
+            {
+                file = SVU_Trunk_CarModern2_Heavy_Rusted,
+            }
+            model SVU_Trunk_CarModern2_Light_Spiked_Rusted
+            {
+                file = SVU_Trunk_CarModern2_Light_Spiked_Rusted,
+            }
+            model SVU_Trunk_CarModern2_Heavy_Spiked_Rusted
+            {
+                file = SVU_Trunk_CarModern2_Heavy_Spiked_Rusted,
+            }
+            model SVU_Trunk_CarModern2_Reinforced
+            {
+                file = SVU_Trunk_CarModern2_Reinforced,
+            }
+            model SVU_Trunk_CarModern2_Reinforced_Rusted
+            {
+                file = SVU_Trunk_CarModern2_Reinforced_Rusted,
+            }
+            model SVU_Door_FL_CarModern2_Paper
+            {
+                file = SVU_Door_FL_CarModern2_Paper,
+            }
+            model SVU_Door_FL_CarModern2_Paper_Spiked
+            {
+                file = SVU_Door_FL_CarModern2_Paper_Spiked,
+            }
+            model SVU_Door_FL_CarModern2_Light
+            {
+                file = SVU_Door_FL_CarModern2_Light,
+            }
+            model SVU_Door_FL_CarModern2_Heavy
+            {
+                file = SVU_Door_FL_CarModern2_Heavy,
+            }
+            model SVU_Door_FL_CarModern2_Light_Spiked
+            {
+                file = SVU_Door_FL_CarModern2_Light_Spiked,
+            }
+            model SVU_Door_FL_CarModern2_Heavy_Spiked
+            {
+                file = SVU_Door_FL_CarModern2_Heavy_Spiked,
+            }
+            model SVU_Door_FL_CarModern2_Light_Rusted
+            {
+                file = SVU_Door_FL_CarModern2_Light_Rusted,
+            }
+            model SVU_Door_FL_CarModern2_Heavy_Rusted
+            {
+                file = SVU_Door_FL_CarModern2_Heavy_Rusted,
+            }
+            model SVU_Door_FL_CarModern2_Light_Spiked_Rusted
+            {
+                file = SVU_Door_FL_CarModern2_Light_Spiked_Rusted,
+            }
+            model SVU_Door_FL_CarModern2_Heavy_Spiked_Rusted
+            {
+                file = SVU_Door_FL_CarModern2_Heavy_Spiked_Rusted,
+            }
+            model SVU_Door_FL_CarModern2_Reinforced
+            {
+                file = SVU_Door_FL_CarModern2_Reinforced,
+            }
+            model SVU_Door_FL_CarModern2_Reinforced_Rusted
+            {
+                file = SVU_Door_FL_CarModern2_Reinforced_Rusted,
+            }
+            model SVU_Door_FR_CarModern2_Paper
+            {
+                file = SVU_Door_FR_CarModern2_Paper,
+            }
+            model SVU_Door_FR_CarModern2_Paper_Spiked
+            {
+                file = SVU_Door_FR_CarModern2_Paper_Spiked,
+            }
+            model SVU_Door_FR_CarModern2_Light
+            {
+                file = SVU_Door_FR_CarModern2_Light,
+            }
+            model SVU_Door_FR_CarModern2_Heavy
+            {
+                file = SVU_Door_FR_CarModern2_Heavy,
+            }
+            model SVU_Door_FR_CarModern2_Light_Spiked
+            {
+                file = SVU_Door_FR_CarModern2_Light_Spiked,
+            }
+            model SVU_Door_FR_CarModern2_Heavy_Spiked
+            {
+                file = SVU_Door_FR_CarModern2_Heavy_Spiked,
+            }
+            model SVU_Door_FR_CarModern2_Light_Rusted
+            {
+                file = SVU_Door_FR_CarModern2_Light_Rusted,
+            }
+            model SVU_Door_FR_CarModern2_Heavy_Rusted
+            {
+                file = SVU_Door_FR_CarModern2_Heavy_Rusted,
+            }
+            model SVU_Door_FR_CarModern2_Light_Spiked_Rusted
+            {
+                file = SVU_Door_FR_CarModern2_Light_Spiked_Rusted,
+            }
+            model SVU_Door_FR_CarModern2_Heavy_Spiked_Rusted
+            {
+                file = SVU_Door_FR_CarModern2_Heavy_Spiked_Rusted,
+            }
+            model SVU_Door_FR_CarModern2_Reinforced
+            {
+                file = SVU_Door_FR_CarModern2_Reinforced,
+            }
+            model SVU_Door_FR_CarModern2_Reinforced_Rusted
+            {
+                file = SVU_Door_FR_CarModern2_Reinforced_Rusted,
+            }
+            model SVU_Door_RL_CarModern2_Paper
+            {
+                file = SVU_Door_RL_CarModern2_Paper,
+            }
+            model SVU_Door_RL_CarModern2_Paper_Spiked
+            {
+                file = SVU_Door_RL_CarModern2_Paper_Spiked,
+            }
+            model SVU_Door_RL_CarModern2_Light
+            {
+                file = SVU_Door_RL_CarModern2_Light,
+            }
+            model SVU_Door_RL_CarModern2_Heavy
+            {
+                file = SVU_Door_RL_CarModern2_Heavy,
+            }
+            model SVU_Door_RL_CarModern2_Light_Spiked
+            {
+                file = SVU_Door_RL_CarModern2_Light_Spiked,
+            }
+            model SVU_Door_RL_CarModern2_Heavy_Spiked
+            {
+                file = SVU_Door_RL_CarModern2_Heavy_Spiked,
+            }
+            model SVU_Door_RL_CarModern2_Light_Rusted
+            {
+                file = SVU_Door_RL_CarModern2_Light_Rusted,
+            }
+            model SVU_Door_RL_CarModern2_Heavy_Rusted
+            {
+                file = SVU_Door_RL_CarModern2_Heavy_Rusted,
+            }
+            model SVU_Door_RL_CarModern2_Light_Spiked_Rusted
+            {
+                file = SVU_Door_RL_CarModern2_Light_Spiked_Rusted,
+            }
+            model SVU_Door_RL_CarModern2_Heavy_Spiked_Rusted
+            {
+                file = SVU_Door_RL_CarModern2_Heavy_Spiked_Rusted,
+            }
+            model SVU_Door_RL_CarModern2_Reinforced
+            {
+                file = SVU_Door_RL_CarModern2_Reinforced,
+            }
+            model SVU_Door_RL_CarModern2_Reinforced_Rusted
+            {
+                file = SVU_Door_RL_CarModern2_Reinforced_Rusted,
+            }
+            model SVU_Door_RR_CarModern2_Paper
+            {
+                file = SVU_Door_RR_CarModern2_Paper,
+            }
+            model SVU_Door_RR_CarModern2_Paper_Spiked
+            {
+                file = SVU_Door_RR_CarModern2_Paper_Spiked,
+            }
+            model SVU_Door_RR_CarModern2_Light
+            {
+                file = SVU_Door_RR_CarModern2_Light,
+            }
+            model SVU_Door_RR_CarModern2_Heavy
+            {
+                file = SVU_Door_RR_CarModern2_Heavy,
+            }
+            model SVU_Door_RR_CarModern2_Light_Spiked
+            {
+                file = SVU_Door_RR_CarModern2_Light_Spiked,
+            }
+            model SVU_Door_RR_CarModern2_Heavy_Spiked
+            {
+                file = SVU_Door_RR_CarModern2_Heavy_Spiked,
+            }
+            model SVU_Door_RR_CarModern2_Light_Rusted
+            {
+                file = SVU_Door_RR_CarModern2_Light_Rusted,
+            }
+            model SVU_Door_RR_CarModern2_Heavy_Rusted
+            {
+                file = SVU_Door_RR_CarModern2_Heavy_Rusted,
+            }
+            model SVU_Door_RR_CarModern2_Light_Spiked_Rusted
+            {
+                file = SVU_Door_RR_CarModern2_Light_Spiked_Rusted,
+            }
+            model SVU_Door_RR_CarModern2_Heavy_Spiked_Rusted
+            {
+                file = SVU_Door_RR_CarModern2_Heavy_Spiked_Rusted,
+            }
+            model SVU_Door_RR_CarModern2_Reinforced
+            {
+                file = SVU_Door_RR_CarModern2_Reinforced,
+            }
+            model SVU_Door_RR_CarModern2_Reinforced_Rusted
+            {
+                file = SVU_Door_RR_CarModern2_Reinforced_Rusted,
+            }
+            model SVU_Hood_CarModern2_Paper
+            {
+                file = SVU_Hood_CarModern2_Paper,
+            }
+            model SVU_Hood_CarModern2_Paper_Spiked
+            {
+                file = SVU_Hood_CarModern2_Paper_Spiked,
+            }
+            model SVU_Hood_CarModern2_Light
+            {
+                file = SVU_Hood_CarModern2_Light,
+            }
+            model SVU_Hood_CarModern2_Heavy
+            {
+                file = SVU_Hood_CarModern2_Heavy,
+            }
+            model SVU_Hood_CarModern2_Light_Spiked
+            {
+                file = SVU_Hood_CarModern2_Light_Spiked,
+            }
+            model SVU_Hood_CarModern2_Heavy_Spiked
+            {
+                file = SVU_Hood_CarModern2_Heavy_Spiked,
+            }
+            model SVU_Hood_CarModern2_Light_Rusted
+            {
+                file = SVU_Hood_CarModern2_Light_Rusted,
+            }
+            model SVU_Hood_CarModern2_Heavy_Rusted
+            {
+                file = SVU_Hood_CarModern2_Heavy_Rusted,
+            }
+            model SVU_Hood_CarModern2_Light_Spiked_Rusted
+            {
+                file = SVU_Hood_CarModern2_Light_Spiked_Rusted,
+            }
+            model SVU_Hood_CarModern2_Heavy_Spiked_Rusted
+            {
+                file = SVU_Hood_CarModern2_Heavy_Spiked_Rusted,
+            }
+            model SVU_Hood_CarModern2_Reinforced
+            {
+                file = SVU_Hood_CarModern2_Reinforced,
+            }
+            model SVU_Hood_CarModern2_Reinforced_Rusted
+            {
+                file = SVU_Hood_CarModern2_Reinforced_Rusted,
+            }
+            model SVU_Hood_CarModern2_Paper_Scoop
+            {
+                file = SVU_Hood_CarModern2_Paper_Scoop,
+            }
+            model SVU_Hood_CarModern2_Paper_Spiked_Scoop
+            {
+                file = SVU_Hood_CarModern2_Paper_Spiked_Scoop,
+            }
+            model SVU_Hood_CarModern2_Light_Scoop
+            {
+                file = SVU_Hood_CarModern2_Light_Scoop,
+            }
+            model SVU_Hood_CarModern2_Heavy_Scoop
+            {
+                file = SVU_Hood_CarModern2_Heavy_Scoop,
+            }
+            model SVU_Hood_CarModern2_Light_Spiked_Scoop
+            {
+                file = SVU_Hood_CarModern2_Light_Spiked_Scoop,
+            }
+            model SVU_Hood_CarModern2_Heavy_Spiked_Scoop
+            {
+                file = SVU_Hood_CarModern2_Heavy_Spiked_Scoop,
+            }
+            model SVU_Hood_CarModern2_Light_Rusted_Scoop
+            {
+                file = SVU_Hood_CarModern2_Light_Rusted_Scoop,
+            }
+            model SVU_Hood_CarModern2_Heavy_Rusted_Scoop
+            {
+                file = SVU_Hood_CarModern2_Heavy_Rusted_Scoop,
+            }
+            model SVU_Hood_CarModern2_Light_Spiked_Rusted_Scoop
+            {
+                file = SVU_Hood_CarModern2_Light_Spiked_Rusted_Scoop,
+            }
+            model SVU_Hood_CarModern2_Heavy_Spiked_Rusted_Scoop
+            {
+                file = SVU_Hood_CarModern2_Heavy_Spiked_Rusted_Scoop,
+            }
+            model SVU_Hood_CarModern2_Reinforced_Scoop
+            {
+                file = SVU_Hood_CarModern2_Reinforced_Scoop,
+            }
+            model SVU_Hood_CarModern2_Reinforced_Rusted_Scoop
+            {
+                file = SVU_Hood_CarModern2_Reinforced_Rusted_Scoop,
+            }
+            model SVU_Bullbar_CarModern2_Small
+            {
+                file = SVU_Bullbar_CarModern2_Small,
+            }
+            model SVU_Bullbar_CarModern2_Medium
+            {
+                file = SVU_Bullbar_CarModern2_Medium,
+            }
+            model SVU_Bullbar_CarModern2_Large
+            {
+                file = SVU_Bullbar_CarModern2_Large,
+            }
+            model SVU_Bullbar_CarModern2_Large_Spiked
+            {
+                file = SVU_Bullbar_CarModern2_Large_Spiked,
+            }
+            model SVU_Plow_CarModern2
+            {
+                file = SVU_Plow_CarModern2,
+            }
+            model SVU_Plow_CarModern2_Rusted
+            {
+                file = SVU_Plow_CarModern2_Rusted,
+            }
+            model SVU_Plow_CarModern2_Spiked
+            {
+                file = SVU_Plow_CarModern2_Spiked,
+            }
+            model SVU_Plow_CarModern2_Spiked_Rusted
+            {
+                file = SVU_Plow_CarModern2_Spiked_Rusted,
+            }
+            model SVU_Chains_FL_CarModern2
+            {
+                file = SVU_Chains_FL_CarModern2,
+            }
+            model SVU_Chains_RL_CarModern2
+            {
+                file = SVU_Chains_RL_CarModern2,
+            }
+            model SVU_Chains_FR_CarModern2
+            {
+                file = SVU_Chains_FR_CarModern2,
+            }
+            model SVU_Chains_RR_CarModern2
+            {
+                file = SVU_Chains_RR_CarModern2,
+            }
+            model SVU_Rooflights_CarModern2
+            {
+                file = SVU_Rooflights_CarModern2,
+            }
+            model SVU_Rooflights_Bulbs_CarModern2
+            {
+                file = SVU_Rooflights_Bulbs_CarModern2,
+            }
+            model SVU_Rack_CarModern2
+            {
+                file = SVU_Rack_CarModern2,
+            }
+            model GSVU4_RoofLightsFallback_CarModern2
+            {
+                file = GSVU4_RoofLights_CarModern2,
+            }
+            model GSVU4_RoofLightsFallbackBulbs_CarModern2
+            {
+                file = GSVU4_RoofLightsBulbs_CarModern2,
+            }
+            model GSVU4_FilteredAirIntake_CarModern2
+            {
+                file = GSVU4_FilteredAirIntake_CarModern2,
+            }
+
+        }
+    }
+}

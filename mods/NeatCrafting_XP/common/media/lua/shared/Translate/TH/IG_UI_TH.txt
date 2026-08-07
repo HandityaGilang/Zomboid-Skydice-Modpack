@@ -1,0 +1,18 @@
+IGUI_TH = {
+	IGUI_XP_NC_ShowAllRecipe_tooltip = "แสดงสูตรทั้งหมด, <LINE> แม้ไม่มีสถานีงานที่เหมาะสม",
+	IGUI_XP_NC_ShowOnlyXPAward = "แสดงเฉพาะสูตรที่ให้ XP",
+	IGUI_XP_NC_ShowOnlyModRecipes = "แสดงเฉพาะสูตรจากม็อด",
+	IGUI_XP_NC_SetPanelMinSize_tooltip = "ปรับแผงเป็นขนาดต่ำสุด",
+	IGUI_NC_InputItemSelected = "รายการที่เลือก",
+	IGUI_NC_RequiredSkills = "ทักษะที่ต้องการ",
+	IGUI_NC_SearchAsInput = "ใช้ในสูตร",
+	IGUI_NC_SearchAsOutput = "สร้างโดยสูตร",
+	IGUI_NC_SearchForCraft = "ค้นหาสูตร",
+	IGUI_NC_ShowOnlyBenefitFromRecipes = "แสดงเฉพาะสูตรที่เกี่ยวข้องกับสิ่งของในมือ",
+	IGUI_NC_ShowOnlyCanCraft = "แสดงเฉพาะที่สามารถผลิตได้",
+	IGUI_NC_ShowOnlyRecipesKnew = "แสดงเฉพาะสูตรที่รู้",
+	IGUI_NC_ShowOnlymetSkillRequire = "แสดงเฉพาะที่มีทักษะเพียงพอ",
+	IGUI_NC_SortRecipeList = "เรียงลำดับสูตร",
+	IGUI_NC_SwitchToGridLayout = "สลับเป็นมุมมองแบบตาราง",
+	IGUI_NC_SwitchToListLayout = "สลับเป็นมุมมองรายการ",
+}

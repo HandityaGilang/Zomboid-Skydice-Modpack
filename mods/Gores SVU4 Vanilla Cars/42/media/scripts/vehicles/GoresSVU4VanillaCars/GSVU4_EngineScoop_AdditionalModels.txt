@@ -1,0 +1,43 @@
+module Base
+{
+    /*
+        Gore's SVU4 Vanilla Cars - Engine Scoop model declarations
+        Missing scoop declarations and resolver-compatible hood aliases.
+    */
+
+    model SVU_Airscoop_SmallCar_Small { mesh = vehicles/SmallCarArmor|airscoopsmall, texture = Vehicles/puv_parts, scale = 0.004, }
+    model SVU_Airscoop_SmallCar_Medium { mesh = vehicles/SmallCarArmor|airscoopmedium, texture = Vehicles/puv_parts, scale = 0.004, }
+    model SVU_Airscoop_SmallCar_Small_Round { mesh = vehicles/SmallCarArmor|airscooproundsmall, texture = Vehicles/puv_parts, scale = 0.004, }
+    model SVU_Airscoop_SmallCar_Large { mesh = vehicles/SmallCarArmor|airscooplarge, texture = Vehicles/puv_parts, scale = 0.004, }
+    model SVU_Airscoop_SmallCar_Large_Round { mesh = vehicles/SmallCarArmor|airscooproundlarge, texture = Vehicles/puv_parts, scale = 0.004, }
+    model SVU_Airscoop_SmallCar_Piped { mesh = vehicles/SmallCarArmor|airscooppiped, texture = Vehicles/puv_parts, scale = 0.004, }
+
+    model SVU_Airscoop_SmallCar02_Small { mesh = vehicles/SmallCar02Armor|airscoopsmall, texture = Vehicles/puv_parts, scale = 0.004, }
+    model SVU_Airscoop_SmallCar02_Medium { mesh = vehicles/SmallCar02Armor|airscoopmedium, texture = Vehicles/puv_parts, scale = 0.004, }
+    model SVU_Airscoop_SmallCar02_Small_Round { mesh = vehicles/SmallCar02Armor|airscooproundsmall, texture = Vehicles/puv_parts, scale = 0.004, }
+    model SVU_Airscoop_SmallCar02_Large { mesh = vehicles/SmallCar02Armor|airscooplarge, texture = Vehicles/puv_parts, scale = 0.004, }
+    model SVU_Airscoop_SmallCar02_Large_Round { mesh = vehicles/SmallCar02Armor|airscooproundlarge, texture = Vehicles/puv_parts, scale = 0.004, }
+    model SVU_Airscoop_SmallCar02_Piped { mesh = vehicles/SmallCar02Armor|airscooppiped, texture = Vehicles/puv_parts, scale = 0.004, }
+
+    model GSVU4_SVU3_SportsCar_Airscoop_Small { mesh = vehicles/SportsCarArmor|airscoopsmall, texture = Vehicles/puv_parts_rusted, scale = 0.004, }
+    model GSVU4_SVU3_SportsCar_Airscoop_Medium { mesh = vehicles/SportsCarArmor|airscoopmedium, texture = Vehicles/puv_parts_rusted, scale = 0.004, }
+    model GSVU4_SVU3_SportsCar_Airscoop_Small_Round { mesh = vehicles/SportsCarArmor|airscooproundsmall, texture = Vehicles/puv_parts_rusted, scale = 0.004, }
+    model GSVU4_SVU3_SportsCar_Airscoop_Large { mesh = vehicles/SportsCarArmor|airscooplarge, texture = Vehicles/puv_parts_rusted, scale = 0.004, }
+    model GSVU4_SVU3_SportsCar_Airscoop_Large_Round { mesh = vehicles/SportsCarArmor|airscooproundlarge, texture = Vehicles/puv_parts_rusted, scale = 0.004, }
+
+    model GSVU4_SVU3_SportsCar_Hood_Standard_Scoop { mesh = vehicles/RaceCarArmor|hoodheavyfrontscoop, texture = Vehicles/puv_parts_paper, scale = 0.004, }
+    model GSVU4_SVU3_SportsCar_Hood_Light_Scoop { mesh = vehicles/RaceCarArmor|hoodlightspikedfrontscoop, texture = Vehicles/puv_parts, scale = 0.004, }
+    model GSVU4_SVU3_SportsCar_Hood_Reinforced_Scoop { mesh = vehicles/RaceCarArmor|hoodreinforcedfrontscoop, texture = Vehicles/puv_parts, scale = 0.004, }
+
+    model GSVU4_RaceCar_Airscoop_Small { mesh = vehicles/RaceCarArmor|airscoopsmall, texture = Vehicles/puv_parts_rusted, scale = 0.004, }
+    model GSVU4_RaceCar_Airscoop_Medium { mesh = vehicles/RaceCarArmor|airscoopmedium, texture = Vehicles/puv_parts_rusted, scale = 0.004, }
+    model GSVU4_RaceCar_Airscoop_Small_Round { mesh = vehicles/RaceCarArmor|airscooproundsmall, texture = Vehicles/puv_parts_rusted, scale = 0.004, }
+    model GSVU4_RaceCar_Airscoop_Large { mesh = vehicles/RaceCarArmor|airscooplarge, texture = Vehicles/puv_parts_rusted, scale = 0.004, }
+    model GSVU4_RaceCar_Airscoop_Large_Round { mesh = vehicles/RaceCarArmor|airscooproundlarge, texture = Vehicles/puv_parts_rusted, scale = 0.004, }
+    model GSVU4_RaceCar_Airscoop_Piped { mesh = vehicles/RaceCarArmor|airscooppiped, texture = Vehicles/puv_parts_rusted, scale = 0.004, }
+
+    model GSVU4_RaceCar_Hood_Scrap_Scoop { mesh = vehicles/RaceCarArmor|hoodlightspikedfrontscoop, texture = Vehicles/puv_parts_paper, scale = 0.004, }
+    model GSVU4_RaceCar_Hood_Standard_Scoop { mesh = vehicles/RaceCarArmor|hoodheavyfrontscoop, texture = Vehicles/puv_parts_paper, scale = 0.004, }
+    model GSVU4_RaceCar_Hood_Reinforced_Scoop { mesh = vehicles/RaceCarArmor|hoodreinforcedfrontscoop, texture = Vehicles/puv_parts, scale = 0.004, }
+    model GSVU4_RaceCar_Hood_Apocalypse_Scoop { mesh = vehicles/RaceCarArmor|hoodheavyspikedfrontscoop, texture = Vehicles/puv_parts_rusted, scale = 0.004, }
+}

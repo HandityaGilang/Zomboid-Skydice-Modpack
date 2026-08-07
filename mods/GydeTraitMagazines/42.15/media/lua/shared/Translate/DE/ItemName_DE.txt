@@ -1,0 +1,15 @@
+ItemName_DE = {
+	ItemName_Base.NutritionistMag = "Kochmagazin Kurzanleitung zur Ernährung für Dummies",
+	ItemName_Base.OrganizedMag = "Kochmagazin Sauber und aufgeräumt!",
+	ItemName_Base.SpeedDemonMag = "Kochmagazin Der Dämon hinter dem Steuer",
+	ItemName_Base.OutdoorsmanMag = "Kochmagazin Busch-Camping der Extraklasse",
+	ItemName_Base.HandyMag = "Kochmagazin Leitfaden für Handwerker",
+	ItemName_Base.FastReaderMag = "Die Kunst des schnellen Lesens",
+	ItemName_Base.FastLearnerMag = "Leitfaden für effizientes Lernen",
+	ItemName_Base.AxeManMag = "Kochmagazin Der unheimliche Axt-Man",
+	ItemName_Base.BurglarMag = "Kochmagazin Leitfaden zum Ausleihen auf Lebenszeit",
+	ItemName_Base.GracefulMag = "Kochmagazin Leitfaden zur Grazie",
+	ItemName_Base.DextrousMag = "Kochmagazin Flinke Hände",
+	ItemName_Base.InconspicuousMag = "Kochmagazin Sieh mich nicht an!",
+	ItemName_Base.KeenHearingMag = "Kochmagazin Was ist das für ein Geräusch?",
+}

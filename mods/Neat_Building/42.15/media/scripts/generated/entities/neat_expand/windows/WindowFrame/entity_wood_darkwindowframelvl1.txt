@@ -1,0 +1,63 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Wood_DarkWindowframeLvl1
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_DarkWoodWindowFrame(Shoddy),
+			Icon		= Build_walls_exterior_wooden_01_77,
+		}
+	}
+
+    entity WoodenDarkWindowFrameLvl1
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Wood_DarkWindowframeLvl1,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+			health          = 450,
+			skillBaseHealth = 20,
+			previousStage   = WoodenWallFrame;MetalWallFrame,
+			
+            face W
+            {
+                layer
+                {
+                    row = walls_exterior_wooden_01_76,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = walls_exterior_wooden_01_77,
+                }
+            }
+			
+			corner = walls_exterior_wooden_01_31,
+        }
+		
+		component CraftRecipe
+        {
+            OnAddToMenu   = woodenWallLvl1Test,
+            timedAction   = BuildWallHammer,
+            time          = 200,
+            category      = Windows,
+            SkillRequired = Woodwork:2,
+            xpAward       = Woodwork:20,
+            ToolTip       = Tooltip_craft_NeedsWallframeDesc,
+            inputs
+            {
+                item 1 tags[base:hammer] mode:keep flags[Prop1;MayDegradeVeryLight],
+				item 2 [Base.Plank],
+				item 4 [Base.Nails],
+            }
+        }
+    }
+}

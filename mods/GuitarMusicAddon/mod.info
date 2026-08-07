@@ -1,0 +1,6 @@
+name=Guitar Music Addon
+id=GuitarMusicAddon
+description=Adds acoustic guitar tracks to Lifestyle. Includes 85 songs and fixes Interstellar, Dirge for the Planet and case-sensitive audio paths.
+poster=guitarmusicaddon.png
+version=1.2.0
+require=Lifestyle

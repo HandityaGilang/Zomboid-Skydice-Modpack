@@ -1,0 +1,9 @@
+name=Knox Detection Kit [B42][MP]
+id=KnoxDetectionKit
+workshopid=3688879406
+author=faitas
+modversion=1.0
+versionMin=42.0.0
+description=Build 42 multiplayer-safe. A rare medical blood test kit that detects Knox Infection. Use the kit, wait for results.
+poster=poster.png
+icon=icon.png

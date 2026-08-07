@@ -1,0 +1,10 @@
+name=Gore's Spare Engine Parts Crafting
+id=GoresSpareEnginePartsCrafting
+description=Optional Gore's SVU4 Core submod. Adds a configurable way to produce Spare Engine Parts from suitable salvaged materials.
+icon=icon.png
+poster=poster.png
+author=Gorebash
+pzversion=42.20
+versionMin=42.20
+tags=build42,vehicles,items,survival,crafting,optional
+modversion=1.4.37

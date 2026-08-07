@@ -1,0 +1,55 @@
+version = 1
+tileset
+{
+    file = ladders_01
+    size = 8,1
+    id = 1
+    // ladders_01_0
+    tile
+    {
+        xy = 0,0
+        CustomName = Ladder
+        Facing = E
+        GroupName = Collapsible
+        IsMoveAble = 
+        MoveType = WallObject
+        PickUpWeight = 100
+        climbSheetW = 
+    }
+    // ladders_01_1
+    tile
+    {
+        xy = 1,0
+        CustomName = Ladder
+        Facing = S
+        GroupName = Collapsible
+        IsMoveAble = 
+        MoveType = WallObject
+        PickUpWeight = 100
+        climbSheetN = 
+    }
+    // ladders_01_2
+    tile
+    {
+        xy = 2,0
+        CustomName = Ladder
+        Facing = N
+        GroupName = Collapsible
+        IsMoveAble = 
+        MoveType = WallObject
+        PickUpWeight = 100
+        climbSheetS = 
+    }
+    // ladders_01_3
+    tile
+    {
+        xy = 3,0
+        CustomName = Ladder
+        Facing = W
+        GroupName = Collapsible
+        IsMoveAble = 
+        MoveType = WallObject
+        PickUpWeight = 100
+        climbSheetE = 
+    }
+}

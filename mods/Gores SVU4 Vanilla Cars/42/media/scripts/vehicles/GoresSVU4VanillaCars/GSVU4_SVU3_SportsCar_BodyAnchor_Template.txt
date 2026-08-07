@@ -1,0 +1,277 @@
+module Base
+{
+    template vehicle GSVU4_SVU3_BodyAnchor_SportsCar
+    {
+        part GSVU4_SVU3_SportsCar_BodyAnchor
+        {
+            area = Engine,
+            category = nodisplay,
+            specificItem = false,
+            itemType = Base.LightBulb,
+            setAllModelsVisible = false,
+            mechanicRequireKey = false,
+
+            lua
+            {
+                create = GSVU4VV.VisualPart.Create,
+                init = GSVU4VV.VisualPart.Init,
+            }
+
+            model GSVU4_SVU3_SportsCar_Hood_Scrap
+            {
+                file = GSVU4_SVU3_SportsCar_Hood_Scrap,
+            }
+            model GSVU4_SVU3_SportsCar_Hood_Standard
+            {
+                file = GSVU4_SVU3_SportsCar_Hood_Standard,
+            }
+
+            model GSVU4_SVU3_SportsCar_Hood_Light
+            {
+                file = GSVU4_SVU3_SportsCar_Hood_Light,
+            }
+            model GSVU4_SVU3_SportsCar_Hood_Reinforced
+            {
+                file = GSVU4_SVU3_SportsCar_Hood_Reinforced,
+            }
+            model GSVU4_SVU3_SportsCar_Hood_Apocalypse
+            {
+                file = GSVU4_SVU3_SportsCar_Hood_Apocalypse,
+            }
+            model GSVU4_SVU3_SportsCar_Hood_Apocalypse_Scoop
+            {
+                file = GSVU4_SVU3_SportsCar_Hood_Apocalypse_Scoop,
+            }
+            model GSVU4_SVU3_SportsCar_Hood_Apocalypse_Base
+            {
+                file = GSVU4_SVU3_SportsCar_Hood_Apocalypse_Base,
+            }
+            model GSVU4_SVU3_SportsCar_Hood_Apocalypse_Spiked
+            {
+                file = GSVU4_SVU3_SportsCar_Hood_Apocalypse_Spiked,
+            }
+            model GSVU4_SVU3_SportsCar_Hood_Apocalypse_ScoopBase
+            {
+                file = GSVU4_SVU3_SportsCar_Hood_Apocalypse_ScoopBase,
+            }
+            model GSVU4_SVU3_SportsCar_Hood_Apocalypse_ScoopSpiked
+            {
+                file = GSVU4_SVU3_SportsCar_Hood_Apocalypse_ScoopSpiked,
+            }
+            model GSVU4_SVU3_SportsCar_Trunk_Scrap
+            {
+                file = GSVU4_SVU3_SportsCar_Trunk_Scrap,
+            }
+            model GSVU4_SVU3_SportsCar_Trunk_Standard
+            {
+                file = GSVU4_SVU3_SportsCar_Trunk_Standard,
+            }
+
+            model GSVU4_SVU3_SportsCar_Trunk_Light
+            {
+                file = GSVU4_SVU3_SportsCar_Trunk_Light,
+            }
+            model GSVU4_SVU3_SportsCar_Trunk_Reinforced
+            {
+                file = GSVU4_SVU3_SportsCar_Trunk_Reinforced,
+            }
+            model GSVU4_SVU3_SportsCar_Trunk_Apocalypse
+            {
+                file = GSVU4_SVU3_SportsCar_Trunk_Apocalypse,
+            }
+            model GSVU4_SVU3_SportsCar_DoorFrontLeft_Scrap
+            {
+                file = GSVU4_SVU3_SportsCar_DoorFrontLeft_Scrap,
+            }
+            model GSVU4_SVU3_SportsCar_DoorFrontRight_Scrap
+            {
+                file = GSVU4_SVU3_SportsCar_DoorFrontRight_Scrap,
+            }
+            model GSVU4_SVU3_SportsCar_DoorFrontLeft_Standard
+            {
+                file = GSVU4_SVU3_SportsCar_DoorFrontLeft_Standard,
+            }
+
+            model GSVU4_SVU3_SportsCar_DoorFrontLeft_Light
+            {
+                file = GSVU4_SVU3_SportsCar_DoorFrontLeft_Light,
+            }
+            model GSVU4_SVU3_SportsCar_DoorFrontRight_Standard
+            {
+                file = GSVU4_SVU3_SportsCar_DoorFrontRight_Standard,
+            }
+
+            model GSVU4_SVU3_SportsCar_DoorFrontRight_Light
+            {
+                file = GSVU4_SVU3_SportsCar_DoorFrontRight_Light,
+            }
+            model GSVU4_SVU3_SportsCar_DoorFrontLeft_Reinforced
+            {
+                file = GSVU4_SVU3_SportsCar_DoorFrontLeft_Reinforced,
+            }
+            model GSVU4_SVU3_SportsCar_DoorFrontRight_Reinforced
+            {
+                file = GSVU4_SVU3_SportsCar_DoorFrontRight_Reinforced,
+            }
+            model GSVU4_SVU3_SportsCar_DoorFrontLeft_Apocalypse
+            {
+                file = GSVU4_SVU3_SportsCar_DoorFrontLeft_Apocalypse,
+            }
+            model GSVU4_SVU3_SportsCar_DoorFrontRight_Apocalypse
+            {
+                file = GSVU4_SVU3_SportsCar_DoorFrontRight_Apocalypse,
+            }
+            model GSVU4_SVU3_SportsCar_Windshield_Scrap
+            {
+                file = GSVU4_SVU3_SportsCar_Windshield_Scrap,
+            }
+            model GSVU4_SVU3_SportsCar_Windshield_Standard
+            {
+                file = GSVU4_SVU3_SportsCar_Windshield_Standard,
+            }
+
+            model GSVU4_SVU3_SportsCar_Windshield_Light
+            {
+                file = GSVU4_SVU3_SportsCar_Windshield_Light,
+            }
+            model GSVU4_SVU3_SportsCar_Windshield_Reinforced
+            {
+                file = GSVU4_SVU3_SportsCar_Windshield_Reinforced,
+            }
+            model GSVU4_SVU3_SportsCar_Windshield_Apocalypse
+            {
+                file = GSVU4_SVU3_SportsCar_Windshield_Apocalypse,
+            }
+            model GSVU4_SVU3_SportsCar_WindshieldRear_Scrap
+            {
+                file = GSVU4_SVU3_SportsCar_WindshieldRear_Scrap,
+            }
+            model GSVU4_SVU3_SportsCar_WindshieldRear_Standard
+            {
+                file = GSVU4_SVU3_SportsCar_WindshieldRear_Standard,
+            }
+
+            model GSVU4_SVU3_SportsCar_WindshieldRear_Light
+            {
+                file = GSVU4_SVU3_SportsCar_WindshieldRear_Light,
+            }
+            model GSVU4_SVU3_SportsCar_WindshieldRear_Reinforced
+            {
+                file = GSVU4_SVU3_SportsCar_WindshieldRear_Reinforced,
+            }
+            model GSVU4_SVU3_SportsCar_WindshieldRear_Apocalypse
+            {
+                file = GSVU4_SVU3_SportsCar_WindshieldRear_Apocalypse,
+            }
+            model GSVU4_SVU3_SportsCar_WindowFrontLeft_Scrap
+            {
+                file = GSVU4_SVU3_SportsCar_WindowFrontLeft_Scrap,
+            }
+            model GSVU4_SVU3_SportsCar_WindowFrontRight_Scrap
+            {
+                file = GSVU4_SVU3_SportsCar_WindowFrontRight_Scrap,
+            }
+            model GSVU4_SVU3_SportsCar_WindowFrontLeft_Standard
+            {
+                file = GSVU4_SVU3_SportsCar_WindowFrontLeft_Standard,
+            }
+
+            model GSVU4_SVU3_SportsCar_WindowFrontLeft_Light
+            {
+                file = GSVU4_SVU3_SportsCar_WindowFrontLeft_Light,
+            }
+            model GSVU4_SVU3_SportsCar_WindowFrontRight_Standard
+            {
+                file = GSVU4_SVU3_SportsCar_WindowFrontRight_Standard,
+            }
+
+            model GSVU4_SVU3_SportsCar_WindowFrontRight_Light
+            {
+                file = GSVU4_SVU3_SportsCar_WindowFrontRight_Light,
+            }
+            model GSVU4_SVU3_SportsCar_WindowFrontLeft_Reinforced
+            {
+                file = GSVU4_SVU3_SportsCar_WindowFrontLeft_Reinforced,
+            }
+            model GSVU4_SVU3_SportsCar_WindowFrontRight_Reinforced
+            {
+                file = GSVU4_SVU3_SportsCar_WindowFrontRight_Reinforced,
+            }
+            model GSVU4_SVU3_SportsCar_WindowFrontLeft_Apocalypse
+            {
+                file = GSVU4_SVU3_SportsCar_WindowFrontLeft_Apocalypse,
+            }
+            model GSVU4_SVU3_SportsCar_WindowFrontRight_Apocalypse
+            {
+                file = GSVU4_SVU3_SportsCar_WindowFrontRight_Apocalypse,
+            }
+            model GSVU4_SVU3_SportsCar_Bullbar_LargeSpiked
+            {
+                file = GSVU4_SVU3_SportsCar_Bullbar_LargeSpiked,
+            }
+            model GSVU4_SVU3_SportsCar_Plow_Spiked
+            {
+                file = GSVU4_SVU3_SportsCar_Plow_Spiked,
+            }
+            model GSVU4_SVU3_SportsCar_Airscoop_Piped
+            {
+                file = GSVU4_SVU3_SportsCar_Airscoop_Piped,
+            }
+            model GSVU4_SVU3_SportsCar_RoofRack
+            {
+                file = GSVU4_SVU3_SportsCar_RoofRack,
+            }
+            model GSVU4_SVU3_SportsCar_RoofLights
+            {
+                file = GSVU4_SVU3_SportsCar_RoofLights,
+            }
+
+            model GSVU4_SVU3_SportsCar_TireChains_Left
+            {
+                file = GSVU4_SVU3_SportsCar_TireChains_Left,
+            }
+            model GSVU4_SVU3_SportsCar_TireChains_Right
+            {
+                file = GSVU4_SVU3_SportsCar_TireChains_Right,
+            }
+            model GSVU4_RoofLightsFallback_SportsCar
+            {
+                file = GSVU4_RoofLights_SportsCar,
+            }
+            model GSVU4_RoofLightsFallbackBulbs_SportsCar
+            {
+                file = GSVU4_RoofLightsBulbs_SportsCar,
+            }
+            model GSVU4_FilteredAirIntake_SportsCar
+            {
+                file = GSVU4_FilteredAirIntake_SportsCar,
+            }
+
+        
+            model GSVU4_SVU3_SportsCar_Airscoop_Small
+            {
+                file = GSVU4_SVU3_SportsCar_Airscoop_Small,
+            }
+
+            model GSVU4_SVU3_SportsCar_Airscoop_Medium
+            {
+                file = GSVU4_SVU3_SportsCar_Airscoop_Medium,
+            }
+
+            model GSVU4_SVU3_SportsCar_Airscoop_Small_Round
+            {
+                file = GSVU4_SVU3_SportsCar_Airscoop_Small_Round,
+            }
+
+            model GSVU4_SVU3_SportsCar_Airscoop_Large
+            {
+                file = GSVU4_SVU3_SportsCar_Airscoop_Large,
+            }
+
+            model GSVU4_SVU3_SportsCar_Airscoop_Large_Round
+            {
+                file = GSVU4_SVU3_SportsCar_Airscoop_Large_Round,
+            }
+}
+    }
+}

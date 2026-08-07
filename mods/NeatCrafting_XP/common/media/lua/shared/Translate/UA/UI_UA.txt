@@ -1,0 +1,15 @@
+UI_UA = {
+	UI_XP_NC_xpShow = "Показувати досвід",
+	UI_XP_NC_xpShow_tooltip = "Увімкнути відображення досвіду (XP) для рецептів крафту. <LINE> «Формат відображення досвіду» визначає спосіб показу цієї інформації. <LINE> <LINE> Доступні формати: <LINE> - Базовий досвід: показує базовий XP, що надається рецептом. <LINE> - Підсумковий досвід: показує загальний XP після застосування всіх множників. <LINE> - Множник: показує базовий XP, загальний множник і підсумковий XP (напр.: +5 * 3.5 = 17.5). <LINE> - Розбивка: показує базовий XP, детальну розбивку множників і підсумковий XP. <LINE> Чинники: <LINE> - Множник початкового рівня: Рівень 0 (x0.25), Рівень 1 (x1.00), Рівень 2 (x1.33), Рівень 3+ (x1.66) <LINE> - Множник книг навичок: Книги 1–5 (x3, x5, x8, x12, x16). Для «Точність», «Перезарядження» та «Довг. ріжуче» — половина. <LINE> - Множник рис: Швидко навчається (x1.3), Повільно навчається (x0.7) <LINE> - Множник налаштувань пісочниці: Глобальне значення або значення для окремих типів навичок.",
+	UI_XP_NC_xpFormat = "Формат відображення досвіду",
+	UI_XP_NC_xpFormat_BasicXP = "Базовий досвід",
+	UI_XP_NC_xpFormat_FinalXP = "Підсумковий досвід",
+	UI_XP_NC_xpFormat_Multiplier = "Множник",
+	UI_XP_NC_xpFormat_Breakdown = "Розбивка",
+	UI_XP_NC_showRecipeMod = "Показувати мод рецепта",
+	UI_XP_NC_showRecipeMod_tooltip = "Показує мод-джерело рецепта як рядок «Mod» на панелі рецептів.",
+	UI_XP_NC_modPrefix = "Mod: ",
+	UI_XP_NC_textScale = "Розмір тексту додаткових рядків",
+	UI_XP_NC_textScale_tooltip = "Розмір шрифту для рядків досвіду та рядка «Mod».",
+	UI_XP_NC_xpFormat_tooltip = "Choose how recipe XP is displayed. <LINE> <LINE> - Basic XP: Shows the base XP. <LINE> - Final XP: Shows the final XP after multipliers. <LINE> - Multiplier: Shows only the multiplier value(s). <LINE> - Full breakdown: Shows base XP, multiplier(s) and final XP.",
+}

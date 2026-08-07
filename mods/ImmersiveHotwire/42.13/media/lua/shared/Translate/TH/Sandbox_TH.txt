@@ -1,0 +1,18 @@
+Sandbox_TH = {
+    Sandbox_IH = "ต่อสายตรงแบบสมจริง",
+
+    Sandbox_IH_Screwdrivers = "เครื่องมือที่ใช้สำหรับขันน็อต | ไอเท็ม",
+    Sandbox_IH_Screwdrivers_tooltip = "รายการไอเท็มคั่นด้วยจุลภาคหรืออัฒภาค",
+    Sandbox_IH_ScrewdriversTags = "| แท็ก",
+    Sandbox_IH_ScrewdriversTags_tooltip = "รายการแท็กไอเท็มคั่นด้วยจุลภาคหรืออัฒภาค",
+
+    Sandbox_IH_Pliers = "เครื่องมือสำหรับตัดสายไฟ | ไอเท็ม",
+    Sandbox_IH_Pliers_tooltip = "รายการไอเท็มคั่นด้วยจุลภาคหรืออัฒภาค",
+    Sandbox_IH_PliersTags = "| แท็ก",
+    Sandbox_IH_PliersTags_tooltip = "รายการแท็กไอเท็มคั่นด้วยจุลภาคหรืออัฒภาค",
+    Sandbox_IH_HotwireEveryTime = "ต่อสายตรงทุกครั้ง",
+    Sandbox_IH_HotwireEveryTime_tooltip = "เปิดหน้า UI การต่อสายตรงทุกครั้งเมื่อพยายามสตาร์ทรถที่มีการต่อสายตรง",
+    Sandbox_IH_DucttapeNeededToUnhotwire = "ต้องใช้เทปกาวเพื่อยกเลิกต่อสายตรง",
+    Sandbox_IH_ShowDragLine = "แสดงเส้นลากสาย",
+    Sandbox_IH_ShowDragLine_tooltip = "แสดงเส้นประขณะลากสายไฟ",
+}

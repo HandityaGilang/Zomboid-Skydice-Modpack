@@ -1,0 +1,9 @@
+Sandbox_EN = {
+        Sandbox_M13ReadingTweaks = "M-13's Reading Tweaks",
+    
+        Sandbox_M13ReadingTweaks_RWW = "Read while Walking",
+        Sandbox_M13ReadingTweaks_RWW_tooltip = "Enable this to allow you to walk while reading a book.",
+    
+        Sandbox_M13ReadingTweaks_PSM = "Read while Sitting/Resting Multiplier",
+        Sandbox_M13ReadingTweaks_PMS_tooltip = "This value multiplies reading speed while your character is sitting or resting.",
+}

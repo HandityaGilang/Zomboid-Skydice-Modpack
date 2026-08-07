@@ -1,0 +1,13 @@
+name=JB's Bugs In Lights
+id=JB_BugsInLights
+author=jimbeamdiablo
+icon=icon.png
+category=Jim Beam's Mods
+poster=poster.png
+modversion=1.18
+description=<H1><LEFT><ORANGE> Project Zomboid Needs More Bugs! 
+description=<LINE><TEXT><INDENT:25> Spawn real-time rendered bugs around outdoor lights 
+description=<LINE> Bugs are attracted to active light sources 
+description=<LINE> Mod Options control the number and size of bugs 
+description=<LINE> Includes an "addBug™ function" to add your own bugs 
+description=<LINE><TEXT><GREEN> For B42.17+ SP & MP

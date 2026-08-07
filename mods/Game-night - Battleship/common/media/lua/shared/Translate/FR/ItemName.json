@@ -1,0 +1,11 @@
+{
+    "Base.BattleShip_Box": "Boîte de cuirassé",
+    "Base.BattleShip_GameStand": "Stand de jeu de cuirassé",
+    "Base.BattleShip_Peg_Red": "Cheville rouge",
+    "Base.BattleShip_Peg_White": "Cheville blanche",
+    "Base.BattleShip_Ship_Battleship": "Navire de guerre",
+    "Base.BattleShip_Ship_Carrier": "Transporteur",
+    "Base.BattleShip_Ship_Destroyer": "Destructeur",
+    "Base.BattleShip_Ship_Submarine": "Sous-marin",
+    "Base.BattleShip_Ship_PatrolBoat": "Patrouilleur"
+}

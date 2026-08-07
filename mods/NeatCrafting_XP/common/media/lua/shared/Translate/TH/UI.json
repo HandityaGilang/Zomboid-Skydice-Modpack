@@ -1,0 +1,15 @@
+{
+    "UI_XP_NC_xpShow": "แสดง XP",
+    "UI_XP_NC_xpShow_tooltip": "เปิดการแสดงค่าประสบการณ์ (XP) สำหรับสูตรคราฟต์ <LINE> 'รูปแบบการแสดง XP' กำหนดวิธีการนำเสนอข้อมูลนี้ <LINE> <LINE> รูปแบบที่ใช้ได้: <LINE> - XP พื้นฐาน: แสดง XP พื้นฐานที่ได้รับจากสูตร <LINE> - XP สุดท้าย: แสดง XP รวมหลังจากใช้ตัวคูณทั้งหมด <LINE> - ตัวคูณ: แสดง XP พื้นฐาน ตัวคูณรวม และ XP สุดท้าย (เช่น +5 * 3.5 = 17.5) <LINE> - รายละเอียด: แสดง XP พื้นฐาน รายละเอียดของตัวคูณทั้งหมด และ XP สุดท้าย <LINE> องค์ประกอบ: <LINE> - ตัวคูณระดับเริ่มต้น: เลเวล 0 (x0.25), เลเวล 1 (x1.00), เลเวล 2 (x1.33), เลเวล 3+ (x1.66) <LINE> - ตัวคูณหนังสือทักษะ: เล่ม 1–5 (x3, x5, x8, x12, x16) ครึ่งหนึ่งสำหรับ การเล็ง การบรรจุกระสุน และ อาวุธมีคมยาว <LINE> - ตัวคูณคุณลักษณะ: เรียนรู้เร็ว (x1.3), เรียนรู้ช้า (x0.7) <LINE> - ตัวคูณตัวเลือกแซนด์บ็อกซ์: ค่าแบบรวมทั้งหมดหรือกำหนดตามประเภททักษะ",
+    "UI_XP_NC_xpFormat": "รูปแบบการแสดง XP",
+    "UI_XP_NC_xpFormat_BasicXP": "XP พื้นฐาน",
+    "UI_XP_NC_xpFormat_FinalXP": "XP สุดท้าย",
+    "UI_XP_NC_xpFormat_Multiplier": "ตัวคูณ",
+    "UI_XP_NC_xpFormat_Breakdown": "รายละเอียด",
+    "UI_XP_NC_showRecipeMod": "แสดงม็อดของสูตร",
+    "UI_XP_NC_showRecipeMod_tooltip": "แสดงม็อดต้นทางของสูตรเป็นบรรทัด 'Mod' ในแผงสูตรคราฟต์",
+    "UI_XP_NC_modPrefix": "Mod: ",
+    "UI_XP_NC_textScale": "ขนาดข้อความของบรรทัดเพิ่มเติม",
+    "UI_XP_NC_textScale_tooltip": "ขนาดตัวอักษรสำหรับบรรทัด XP และบรรทัด 'Mod'.",
+    "UI_XP_NC_xpFormat_tooltip": "Choose how recipe XP is displayed. <LINE> <LINE> - Basic XP: Shows the base XP. <LINE> - Final XP: Shows the final XP after multipliers. <LINE> - Multiplier: Shows only the multiplier value(s). <LINE> - Full breakdown: Shows base XP, multiplier(s) and final XP."
+}

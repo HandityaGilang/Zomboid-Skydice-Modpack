@@ -1,0 +1,64 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Wood_DarkDoorFrameLvl3
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_DarkWoodDoorFrame(Good),
+			Icon		= Build_walls_exterior_wooden_01_39,
+		}
+	}
+
+    entity WoodenDarkDoorFrameLvl3
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Wood_DarkDoorFrameLvl3,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+            skillBaseHealth = 300,
+            isThumpable     = false,
+            OnCreate = BuildRecipeCode.canBePlastered.OnCreate,
+            OnIsValid       = BuildRecipeCode.doorFrame.OnIsValid,
+
+            face W
+            {
+                layer
+                {
+                    row = walls_exterior_wooden_01_38,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = walls_exterior_wooden_01_39,
+                }
+            }
+
+            corner = walls_exterior_wooden_01_31,
+        }
+
+        component CraftRecipe
+        {
+            OnAddToMenu   = woodenDoorFrameLvl3Test,
+            timedAction   = BuildWallHammer,
+            time          = 200,
+            category      = Doors,
+            SkillRequired = Woodwork:6,
+            xpAward       = Woodwork:60,
+            Tooltip       = Tooltip_craft_doorFrameDesc,
+            inputs
+            {
+                item 1 tags[Hammer] mode:keep flags[Prop1;MayDegradeVeryLight],
+                item 4 [Base.Plank],
+                item 4 [Base.Nails],
+            }
+        }
+    }
+}

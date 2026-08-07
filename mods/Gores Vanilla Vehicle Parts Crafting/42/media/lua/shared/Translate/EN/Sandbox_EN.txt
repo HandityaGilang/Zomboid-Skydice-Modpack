@@ -1,0 +1,7 @@
+Sandbox_GSVU4VanillaParts = "Gore's Vanilla Vehicle Parts Crafting",
+Sandbox_GSVU4VanillaParts_CraftingFailureChance = "Vehicle-part crafting failure chance (%)",
+Sandbox_GSVU4VanillaParts_CraftingFailureChance_tooltip = "Chance that completed vehicle-part fabrication consumes all materials but produces no part.",
+Sandbox_GSVU4VanillaParts_EnableCraftingInjuries = "Enable minor vehicle-part crafting injuries",
+Sandbox_GSVU4VanillaParts_EnableCraftingInjuries_tooltip = "Allows completed vehicle-part fabrication to cause one small hand injury.",
+Sandbox_GSVU4VanillaParts_CraftingInjuryChance = "Vehicle-part crafting injury chance (%)",
+Sandbox_GSVU4VanillaParts_CraftingInjuryChance_tooltip = "Chance of one minor hand injury after completing vehicle-part fabrication.",

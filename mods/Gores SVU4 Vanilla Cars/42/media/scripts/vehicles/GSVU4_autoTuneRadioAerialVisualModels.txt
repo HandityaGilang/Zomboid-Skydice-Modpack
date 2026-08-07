@@ -1,0 +1,9 @@
+module Base
+{
+    model GSVU4_AutoTuneRadioAerial_PickUp
+    {
+        mesh = vehicles/PickUpArmor|Radio Aerial,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+}

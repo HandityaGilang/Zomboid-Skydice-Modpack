@@ -1,0 +1,8 @@
+UI_CA = {
+	UI_characreation_character = "Personatge",
+	UI_IHM_UseImprovedHairPicker = "Selector de colors millorat",
+	UI_IHM_UseImprovedHairPicker_Tooltip = "ACTIVAT: tots els colors.<br>DESACTIVAT: colors vanilla.",
+	UI_IHM_Source_Vanilla = "Vanilla",
+	UI_IHM_Source_All = "Tots",
+	UI_IHM_Controls = "Controls",
+}

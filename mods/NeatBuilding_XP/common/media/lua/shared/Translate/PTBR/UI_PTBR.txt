@@ -1,0 +1,20 @@
+UI_PTBR = {
+	UI_XP_NB_xpShow = "Mostrar XP",
+	UI_XP_NB_xpShow_tooltip = "Ativa a exibição de XP das receitas. <LINE> 'Formato de Exibição de XP' define como esta informação é exibida. <LINE> <LINE><RGB:0.392,0.584,0.929> Formatos disponíveis: <LINE><RGB:1,1,1> - XP Base: Mostra o XP base (sem multiplicadores). <LINE> - XP Final: Mostra o XP após todos os multiplicadores. <LINE> - Multiplicador: Mostra o multiplicador total aplicado ao XP base e o XP final (BaseXP * multiplier = FinalXP). <LINE> - Detalhamento: Mostra o XP base, um detalhamento de todos os multiplicadores e o XP final. <LINE><LINE><RGB:0.392,0.584,0.929> Os fatores são: <LINE><RGB:1,1,1> - Multiplicador do nível inicial: Nível 0 (x0.25), Nível 1 (x1.00), Nível 2 (x1.33), Nível 3+ (x1.66) <LINE> - Multiplicador de livro de habilidade: Livros 1-5 (x3, x5, x8, x12, x16). Metade disso para Aiming, Reloading e Long Blade. <LINE> - Multiplicador de traços: Aprendiz Rápido (x1.3), Aprendiz Lento (x0.7), Crafty (x1.3 apenas quando a habilidade pertence à categoria Criação). Em Detalhamento, Aprendiz Rápido/Aprendiz Lento e Crafty são combinados em um único multiplicador de traços. <LINE> - Multiplicador de opções do sandbox: Um valor global ou um valor específico por tipo de habilidade.",
+	UI_XP_NB_xpFormat = "Formato de Exibição de XP",
+	UI_XP_NB_xpFormat_tooltip = "Formato de Exibição de XP",
+	UI_XP_NB_xpFormat_BasicXP = "XP Base",
+	UI_XP_NB_xpFormat_FinalXP = "XP Final",
+	UI_XP_NB_xpFormat_Multiplier = "Multiplicador",
+	UI_XP_NB_xpFormat_Breakdown = "Detalhamento",
+
+	UI_XP_NB_showRecipeMod = "Mostrar mod da receita",
+	UI_XP_NB_showRecipeMod_tooltip = "Mostra o mod de origem de cada receita como a linha 'Mod' no painel de receitas.",
+
+	UI_XP_NB_textScale = "Tamanho do texto das linhas extras",
+	UI_XP_NB_textScale_tooltip = "Tamanho da fonte para as linhas de XP e a linha 'Mod'.",
+
+	UI_XP_NB_modPrefix = "Mod: ",
+	UI_XP_NB_modNeat = "Neat Building",
+	UI_XP_NB_modOther = "Outro",
+}

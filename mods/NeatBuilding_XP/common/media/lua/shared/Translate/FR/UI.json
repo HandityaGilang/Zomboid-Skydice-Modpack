@@ -1,0 +1,17 @@
+{
+    "UI_XP_NB_xpShow": "Afficher l'XP des recettes",
+    "UI_XP_NB_xpShow_tooltip": "Active l'affichage de l'XP des recettes. <LINE> 'Format d'affichage de l'XP' définit comment cette information est affichée. <LINE> <LINE><RGB:0.392,0.584,0.929> Formats disponibles : <LINE><RGB:1,1,1> - XP de base: Affiche l'XP de base (sans multiplicateurs). <LINE> - XP finale: Affiche l'XP après tous les multiplicateurs. <LINE> - Multiplicateur: Affiche le multiplicateur total appliqué à l'XP de base et l'XP finale (BaseXP * multiplier = FinalXP). <LINE> - Ventilation: Affiche l'XP de base, une ventilation détaillée de tous les multiplicateurs et l'XP finale. <LINE><LINE><RGB:0.392,0.584,0.929> Les facteurs sont : <LINE><RGB:1,1,1> - Multiplicateur de niveau initial: Niveau 0 (x0.25), Niveau 1 (x1.00), Niveau 2 (x1.33), Niveau 3+ (x1.66) <LINE> - Multiplicateur de livre de compétence: Livres 1-5 (x3, x5, x8, x12, x16). La moitié pour Visée, Rechargement et Lame longue. <LINE> - Multiplicateur de trait: Surdoué (x1.3), Lent d'esprit (x0.7), Crafty (x1.3 uniquement si la compétence appartient à la catégorie Artisanat). En Ventilation, Surdoué/Lent d'esprit et Crafty sont combinés en un seul multiplicateur de trait. <LINE> - Multiplicateur des options de sandbox: Une valeur globale ou une valeur spécifique par type de compétence.",
+    "UI_XP_NB_xpFormat": "Format d'affichage de l'XP",
+    "UI_XP_NB_xpFormat_tooltip": "Format d'affichage de l'XP",
+    "UI_XP_NB_xpFormat_BasicXP": "XP de base",
+    "UI_XP_NB_xpFormat_FinalXP": "XP finale",
+    "UI_XP_NB_xpFormat_Multiplier": "Multiplicateur",
+    "UI_XP_NB_xpFormat_Breakdown": "Ventilation",
+    "UI_XP_NB_showRecipeMod": "Afficher le mod de la recette",
+    "UI_XP_NB_showRecipeMod_tooltip": "Affiche le mod d'origine de chaque recette comme la ligne 'Mod' dans le panneau des recettes.",
+    "UI_XP_NB_textScale": "Taille du texte des lignes supplémentaires",
+    "UI_XP_NB_textScale_tooltip": "Taille de police pour les lignes d'XP et la ligne 'Mod'.",
+    "UI_XP_NB_modPrefix": "Mod: ",
+    "UI_XP_NB_modNeat": "Neat Building",
+    "UI_XP_NB_modOther": "Autre"
+}

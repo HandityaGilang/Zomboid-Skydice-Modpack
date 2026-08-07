@@ -1,0 +1,382 @@
+module Base
+{
+    /*
+        Gore's SVU4 Vanilla Cars - SportsCar source model definitions.
+        Phase 1z: Scrap uses visible light-spiked fallback aliases with paper texture; Apocalypse hood uses layered heavy fallback.
+        No whole-FBX model is referenced.
+    */
+
+    model GSVU4_SVU3_SportsCar_Hood_Scrap
+    {
+        mesh = vehicles/SportsCarArmor|hoodlightspikedfront,
+        texture = Vehicles/puv_parts_paper,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_Hood_Scrap_Alt
+    {
+        mesh = vehicles/SportsCarArmor|hoodlightspikedfront,
+        texture = Vehicles/puv_parts_paper,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_Hood_Standard
+    {
+        mesh = vehicles/SportsCarArmor|hoodheavyfront,
+        texture = Vehicles/puv_parts_paper,
+        scale = 0.004,
+    }
+    model GSVU4_SVU3_SportsCar_Hood_Light
+    {
+        mesh = vehicles/SportsCarArmor|hoodlightspikedfront,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_Hood_Reinforced
+    {
+        mesh = vehicles/SportsCarArmor|hoodreinforcedfront,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_Hood_Apocalypse_Base
+    {
+        mesh = vehicles/SportsCarArmor|hoodheavyfront,
+        texture = Vehicles/puv_parts_rusted,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_Hood_Apocalypse
+    {
+        mesh = vehicles/SportsCarArmor|hoodheavyfront,
+        texture = Vehicles/puv_parts_rusted,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_Hood_Apocalypse_Spiked
+    {
+        mesh = vehicles/SportsCarArmor|hoodheavyspikedfront,
+        texture = Vehicles/puv_parts_rusted,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_Hood_Apocalypse_Scoop
+    {
+        mesh = vehicles/SportsCarArmor|hoodheavyspikedfrontscoop,
+        texture = Vehicles/puv_parts_rusted,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_Hood_Apocalypse_ScoopBase
+    {
+        mesh = vehicles/SportsCarArmor|hoodheavyfrontscoop,
+        texture = Vehicles/puv_parts_rusted,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_Hood_Apocalypse_ScoopSpiked
+    {
+        mesh = vehicles/SportsCarArmor|hoodheavyspikedfrontscoop,
+        texture = Vehicles/puv_parts_rusted,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_Trunk_Scrap
+    {
+        mesh = vehicles/SportsCarArmor|trunklightspikedrear,
+        texture = Vehicles/puv_parts_paper,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_Trunk_Standard
+    {
+        mesh = vehicles/SportsCarArmor|trunkheavyrear,
+        texture = Vehicles/puv_parts_paper,
+        scale = 0.004,
+    }
+    model GSVU4_SVU3_SportsCar_Trunk_Light
+    {
+        mesh = vehicles/SportsCarArmor|trunklightspikedrear,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_Trunk_Reinforced
+    {
+        mesh = vehicles/SportsCarArmor|trunkreinforcedrear,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_Trunk_Apocalypse
+    {
+        mesh = vehicles/SportsCarArmor|trunkheavyspikedrear,
+        texture = Vehicles/puv_parts_rusted,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_DoorFrontLeft_Scrap
+    {
+        mesh = vehicles/SportsCarArmor|doorfrontlightspikedleft,
+        texture = Vehicles/puv_parts_paper,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_DoorFrontRight_Scrap
+    {
+        mesh = vehicles/SportsCarArmor|doorfrontlightspikedleft,
+        texture = Vehicles/puv_parts_paper,
+        scale = 0.004,
+        invertX = TRUE,
+    }
+
+    model GSVU4_SVU3_SportsCar_DoorFrontLeft_Standard
+    {
+        mesh = vehicles/SportsCarArmor|doorfrontheavyleft,
+        texture = Vehicles/puv_parts_paper,
+        scale = 0.004,
+    }
+    model GSVU4_SVU3_SportsCar_DoorFrontLeft_Light
+    {
+        mesh = vehicles/SportsCarArmor|doorfrontlightspikedleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_DoorFrontRight_Standard
+    {
+        mesh = vehicles/SportsCarArmor|doorfrontheavyleft,
+        texture = Vehicles/puv_parts_paper,
+        scale = 0.004,
+        invertX = TRUE,
+    }
+    model GSVU4_SVU3_SportsCar_DoorFrontRight_Light
+    {
+        mesh = vehicles/SportsCarArmor|doorfrontlightspikedleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+        invertX = TRUE,
+    }
+
+    model GSVU4_SVU3_SportsCar_DoorFrontLeft_Reinforced
+    {
+        mesh = vehicles/SportsCarArmor|doorfrontreinforcedleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_DoorFrontRight_Reinforced
+    {
+        mesh = vehicles/SportsCarArmor|doorfrontreinforcedleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+        invertX = TRUE,
+    }
+
+    model GSVU4_SVU3_SportsCar_DoorFrontLeft_Apocalypse
+    {
+        mesh = vehicles/SportsCarArmor|doorfrontheavyspikedleft,
+        texture = Vehicles/puv_parts_rusted,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_DoorFrontRight_Apocalypse
+    {
+        mesh = vehicles/SportsCarArmor|doorfrontheavyspikedleft,
+        texture = Vehicles/puv_parts_rusted,
+        scale = 0.004,
+        invertX = TRUE,
+    }
+
+    model GSVU4_SVU3_SportsCar_Windshield_Scrap
+    {
+        mesh = vehicles/SportsCarArmor|windowlightspikedfront,
+        texture = Vehicles/puv_parts_paper,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_Windshield_Standard
+    {
+        mesh = vehicles/SportsCarArmor|windowheavyfront,
+        texture = Vehicles/puv_parts_paper,
+        scale = 0.004,
+    }
+    model GSVU4_SVU3_SportsCar_Windshield_Light
+    {
+        mesh = vehicles/SportsCarArmor|windowlightspikedfront,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_Windshield_Reinforced
+    {
+        mesh = vehicles/SportsCarArmor|windowreinforcedfront,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_Windshield_Apocalypse
+    {
+        mesh = vehicles/SportsCarArmor|windowheavyspikedfront,
+        texture = Vehicles/puv_parts_rusted,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_WindshieldRear_Scrap
+    {
+        mesh = vehicles/SportsCarArmor|windowlightspikedrear,
+        texture = Vehicles/puv_parts_paper,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_WindshieldRear_Standard
+    {
+        mesh = vehicles/SportsCarArmor|windowheavyrear,
+        texture = Vehicles/puv_parts_paper,
+        scale = 0.004,
+    }
+    model GSVU4_SVU3_SportsCar_WindshieldRear_Light
+    {
+        mesh = vehicles/SportsCarArmor|windowlightspikedrear,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_WindshieldRear_Reinforced
+    {
+        mesh = vehicles/SportsCarArmor|windowreinforcedrear,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_WindshieldRear_Apocalypse
+    {
+        mesh = vehicles/SportsCarArmor|windowheavyspikedrear,
+        texture = Vehicles/puv_parts_rusted,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_WindowFrontLeft_Scrap
+    {
+        mesh = vehicles/SportsCarArmor|windowfrontlightspikedleft,
+        texture = Vehicles/puv_parts_paper,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_WindowFrontRight_Scrap
+    {
+        mesh = vehicles/SportsCarArmor|windowfrontlightspikedleft,
+        texture = Vehicles/puv_parts_paper,
+        scale = 0.004,
+        invertX = TRUE,
+    }
+
+    model GSVU4_SVU3_SportsCar_WindowFrontLeft_Standard
+    {
+        mesh = vehicles/SportsCarArmor|windowfrontheavyleft,
+        texture = Vehicles/puv_parts_paper,
+        scale = 0.004,
+    }
+    model GSVU4_SVU3_SportsCar_WindowFrontLeft_Light
+    {
+        mesh = vehicles/SportsCarArmor|windowfrontlightspikedleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_WindowFrontRight_Standard
+    {
+        mesh = vehicles/SportsCarArmor|windowfrontheavyleft,
+        texture = Vehicles/puv_parts_paper,
+        scale = 0.004,
+        invertX = TRUE,
+    }
+    model GSVU4_SVU3_SportsCar_WindowFrontRight_Light
+    {
+        mesh = vehicles/SportsCarArmor|windowfrontlightspikedleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+        invertX = TRUE,
+    }
+
+    model GSVU4_SVU3_SportsCar_WindowFrontLeft_Reinforced
+    {
+        mesh = vehicles/SportsCarArmor|windowfrontreinforcedleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_WindowFrontRight_Reinforced
+    {
+        mesh = vehicles/SportsCarArmor|windowfrontreinforcedleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+        invertX = TRUE,
+    }
+
+    model GSVU4_SVU3_SportsCar_WindowFrontLeft_Apocalypse
+    {
+        mesh = vehicles/SportsCarArmor|windowfrontheavyspikedleft,
+        texture = Vehicles/puv_parts_rusted,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_WindowFrontRight_Apocalypse
+    {
+        mesh = vehicles/SportsCarArmor|windowfrontheavyspikedleft,
+        texture = Vehicles/puv_parts_rusted,
+        scale = 0.004,
+        invertX = TRUE,
+    }
+
+    model GSVU4_SVU3_SportsCar_Bullbar_LargeSpiked
+    {
+        mesh = vehicles/SportsCarArmor|pushbar_large_spiked,
+        texture = Vehicles/puv_parts_rusted,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_Plow_Spiked
+    {
+        mesh = vehicles/SportsCarArmor|plow_spiked,
+        texture = Vehicles/puv_parts_rusted,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_Airscoop_Piped
+    {
+        mesh = vehicles/SportsCarArmor|airscooppiped,
+        texture = Vehicles/puv_parts_rusted,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_RoofRack
+    {
+        mesh = vehicles/SportsCarArmor|roofrack,
+        texture = Vehicles/puv_parts_rusted,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_RoofLights
+    {
+        mesh = vehicles/SportsCarArmor|rooflights,
+        texture = Vehicles/puv_parts_rusted,
+        scale = 0.004,
+    }
+
+    model GSVU4_SVU3_SportsCar_TireChains_Left
+    {
+        mesh = vehicles/SportsCarArmor|chaintires,
+        texture = Vehicles/puv_parts_rusted,
+        scale = 0.0035,
+    }
+
+    model GSVU4_SVU3_SportsCar_TireChains_Right
+    {
+        mesh = vehicles/SportsCarArmor|chaintires,
+        texture = Vehicles/puv_parts_rusted,
+        scale = 0.0035,
+        invertX = TRUE,
+    }
+}

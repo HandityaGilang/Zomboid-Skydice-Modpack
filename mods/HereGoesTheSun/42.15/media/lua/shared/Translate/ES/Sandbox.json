@@ -1,0 +1,15 @@
+{
+  "Sandbox_HGTS": "Here Goes The Sun",
+
+  "Sandbox_HereGoesTheSun_EnableGodRays": "Habilitar rayos de sol",
+  "Sandbox_HereGoesTheSun_EnableGodRays_Tooltip": "Con esta opción activada se verán visualmente los rayos de sol en la esquina de la pantalla correspondiente al amanecer o atardecer.",
+
+  "Sandbox_HereGoesTheSun_EnableStormMood": "Habilitar Mood de Tormenta",
+  "Sandbox_HereGoesTheSun_EnableStormMood_Tooltip": "Si está activo, las tormentas pueden aplicar una desaturación cinematográfica y un ambiente más oscuro (con transición suave).",
+
+  "Sandbox_HereGoesTheSun_StormMoodPreset": "Preajuste de desaturación del Mood de Tormenta",
+  "Sandbox_HereGoesTheSun_StormMoodPreset_Tooltip": "Elegí cuán fuerte es la desaturación durante tormentas: Soft, Recommended o Night of the Living Dead (blanco y negro).",
+  "Sandbox_HereGoesTheSun_StormMoodPreset_option1": "Suave (60%)",
+  "Sandbox_HereGoesTheSun_StormMoodPreset_option2": "Recomendado (85%)",
+  "Sandbox_HereGoesTheSun_StormMoodPreset_option3": "Noche de los Muertos Vivos (Blanco y negro)"
+}

@@ -1,0 +1,62 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Fences_GlassConcreteRailing
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_GlassConcreteRailingFence,
+			Icon		= Build_location_shop_mall_01_25,
+		}
+	}
+
+    entity Fences_GlassConcreteRailing
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Fences_GlassConcreteRailing,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+			health          = 250,
+			skillBaseHealth = 20,
+
+            face W
+            {
+                layer
+                {
+                    row = location_shop_mall_01_24,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = location_shop_mall_01_25,
+                }
+            }
+            corner  =   location_shop_mall_01_27,
+        }
+		
+        component CraftRecipe
+        {
+            OnAddToMenu   = ignoreFromBuildMenu,
+            timedAction   = BuildLowNoTool,
+            time          = 50,
+            SkillRequired = Pottery:3,
+            xpAward       = Pottery:30,
+            category      = Fences,
+            ToolTip       = Tooltip_craft_sandBagDesc,
+            inputs
+            {
+                item 2 [Base.BucketConcreteFull] flags[DontRecordInput],
+                item 2 [Base.MetalBar],
+                item 1 [Base.PaintWhite] flags[DontRecordInput],
+                item 1 [Base.GlassPanel],
+            }
+        }
+    }
+}

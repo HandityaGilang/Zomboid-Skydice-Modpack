@@ -1,0 +1,53 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Welding_IronBandBarzier
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_IronBandBarzier,
+			Icon		= Build_crafted_02_42,
+		}
+	}
+
+    entity Welding_IronBandBarzier
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Welding_IronBandBarzier,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+            isProp      = true,
+
+            face SINGLE
+            {
+                layer
+                {
+                    row = crafted_02_42,
+                }
+            }
+        }
+        
+        component CraftRecipe
+        {
+            timedAction   = BuildMetalStructureMedium,
+            time          = 100,
+            SkillRequired = MetalWelding:3,
+            xpAward       = MetalWelding:30,
+            category      = Outdoors,
+            tags          = Welding,
+            ToolTip       = Tooltip_craft_barrelOvenDesc,
+            inputs
+            {
+                item 2 [Base.BlowTorch] flags[DontRecordInput],
+                item 2 [Base.IronBand],
+                item 1 [Base.SmallSheetMetal],
+                item 2 [Base.WeldingRods] flags[DontRecordInput],
+            }
+        }
+    }
+}

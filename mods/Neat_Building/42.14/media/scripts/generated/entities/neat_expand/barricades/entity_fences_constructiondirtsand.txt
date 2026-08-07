@@ -1,0 +1,50 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Fences_ConstructionSand
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_ConstructionSandBlock,
+			Icon		= Build_fencing_01_96,
+		}
+	}
+
+    entity Fences_ConstructionSand
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Fences_ConstructionSand,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+			health          = 500,
+
+            face E
+            {
+                layer
+                {
+                    row = fencing_01_96,
+                }
+            }
+        }
+		
+        component CraftRecipe
+        {
+            timedAction   = BuildSandbagWall,
+            time          = 250,
+            category      = Barricades,
+            ToolTip       = Tooltip_craft_sandBagDesc,
+            inputs
+            {
+                item 1 [Base.Pliers] mode:keep,
+                item 5 [Base.Sandbag] flags[DontRecordInput],
+                item 1 tags[Sheet],
+                item 3 [Base.Wire] flags[DontRecordInput],
+            }
+        }
+    }
+}

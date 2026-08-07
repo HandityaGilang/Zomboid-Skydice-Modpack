@@ -1,0 +1,12 @@
+Sandbox_EN = {
+        Sandbox_M13ReadingTweaks = "M-13's Reading Tweaks",
+    
+        Sandbox_M13ReadingTweaks_MPP = "Minutes Per Page",
+        Sandbox_M13ReadingTweaks_MPP_tooltip = "Use this to change how fast (or slow) reading is.\nLower this number to read faster.\nWhen used on a Server this overwrites the [MinutesPerPage] setting.",
+
+        Sandbox_M13ReadingTweaks_PSM = "Sitting Multiplier",
+        Sandbox_M13ReadingTweaks_PMS_tooltip = "Use this to change how fast (or slow) reading is when you are sitting.\nRaise this number to read faster while sitting.",
+
+        Sandbox_M13ReadingTweaks_RWW = "Read while Walking",
+        Sandbox_M13ReadingTweaks_RWW_tooltip = "Enable this to allow you to walk while reading a book.",
+}

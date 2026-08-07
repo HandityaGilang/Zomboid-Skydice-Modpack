@@ -1,0 +1,16 @@
+{
+    "Sandbox_IH":  "Immersive Hotwire (Faire les fils)",
+    "Sandbox_IH_Screwdrivers":  "Outils pour dévisser | Objets",
+    "Sandbox_IH_Screwdrivers_tooltip":  "Liste d'objets séparés par des virgules ou des points-virgules",
+    "Sandbox_IH_ScrewdriversTags":  "| Tags",
+    "Sandbox_IH_ScrewdriversTags_tooltip":  "Liste de tags d'objets séparés par des virgules ou des points-virgules",
+    "Sandbox_IH_Pliers":  "Outils pour couper les fils | Objets",
+    "Sandbox_IH_Pliers_tooltip":  "Liste d'objets séparés par des virgules ou des points-virgules",
+    "Sandbox_IH_PliersTags":  "| Tags",
+    "Sandbox_IH_PliersTags_tooltip":  "Liste de tags d'objets séparés par des virgules ou des points-virgules",
+    "Sandbox_IH_HotwireEveryTime":  "Ouvrir à chaque fois",
+    "Sandbox_IH_HotwireEveryTime_tooltip":  "Toujours ouvrir l'interface pour faire les fils en essayant de démarrer une voiture câblée",
+    "Sandbox_IH_DucttapeNeededToUnhotwire":  "Du duct tape est nécessaire pour défaire les fils",
+    "Sandbox_IH_ShowDragLine":  "Afficher la ligne",
+    "Sandbox_IH_ShowDragLine_tooltip":  "Afficher la ligne pointillée quand vous tirez un fil"
+}

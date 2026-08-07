@@ -1,0 +1,7 @@
+name=Guitar Music Addon
+id=GuitarMusicAddon
+description=Adds acoustic guitar tracks to Lifestyle: Hobbies. Includes 85 songs and fixes Interstellar, Dirge for the Planet and Linux case-sensitive audio paths.
+poster=guitarmusicaddon.png
+versionMin=42.0.0
+version=1.2.0
+require=\LifestyleHobbies

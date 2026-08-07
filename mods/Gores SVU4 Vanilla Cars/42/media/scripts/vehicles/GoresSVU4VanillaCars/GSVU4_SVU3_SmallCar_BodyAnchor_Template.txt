@@ -1,0 +1,1021 @@
+module Base
+{
+    template vehicle GSVU4_SVU3_BodyAnchor_SmallCar
+    {
+        part GSVU4_SVU3_SmallCar_BodyAnchor
+        {
+            area = Engine,
+            category = nodisplay,
+            specificItem = false,
+            itemType = Base.LightBulb,
+            setAllModelsVisible = false,
+            mechanicRequireKey = false,
+
+            lua
+            {
+                create = GSVU4VV.VisualPart.Create,
+                init = GSVU4VV.VisualPart.Init,
+            }
+
+            	model SVU_FL_Window_SmallCar_Paper
+                {
+                    mesh = vehicles/SmallCarArmor|windowfrontheavyleft,
+                    texture = Vehicles/puv_parts_paper,
+                    scale = 0.004,
+                }
+
+            	model SVU_FR_Window_SmallCar_Paper
+                {
+                    mesh = vehicles/SmallCarArmor|windowfrontheavyleft,
+                    texture = Vehicles/puv_parts_paper,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+
+            	model SVU_RL_Window_SmallCar_Paper
+                {
+                    mesh = vehicles/SmallCarArmor|windowrearheavyleft,
+                    texture = Vehicles/puv_parts_paper,
+                    scale = 0.004,
+                }
+
+            	model SVU_RR_Window_SmallCar_Paper
+                {
+                    mesh = vehicles/SmallCarArmor|windowrearheavyleft,
+                    texture = Vehicles/puv_parts_paper,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+
+            	model SVU_F_Window_SmallCar_Paper
+                {
+                    mesh = vehicles/SmallCarArmor|windowheavyfront,
+                    texture = Vehicles/puv_parts_paper,
+                    scale = 0.004,
+                }
+
+            	model SVU_R_Window_SmallCar_Paper
+                {
+                    mesh = vehicles/SmallCarArmor|windowheavyrear,
+                    texture = Vehicles/puv_parts_paper,
+                    scale = 0.004,
+                }
+
+            	model SVU_FL_Window_SmallCar_Paper_Spiked
+                {
+                    mesh = vehicles/SmallCarArmor|windowfrontheavyspikedleft,
+                    texture = Vehicles/puv_parts_paper,
+                    scale = 0.004,
+                }
+
+            	model SVU_FR_Window_SmallCar_Paper_Spiked
+                {
+                    mesh = vehicles/SmallCarArmor|windowfrontheavyspikedleft,
+                    texture = Vehicles/puv_parts_paper,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+
+            	model SVU_RL_Window_SmallCar_Paper_Spiked
+                {
+                    mesh = vehicles/SmallCarArmor|windowrearheavyspikedleft,
+                    texture = Vehicles/puv_parts_paper,
+                    scale = 0.004,
+                }
+
+            	model SVU_RR_Window_SmallCar_Paper_Spiked
+                {
+                    mesh = vehicles/SmallCarArmor|windowrearheavyspikedleft,
+                    texture = Vehicles/puv_parts_paper,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+
+            	model SVU_F_Window_SmallCar_Paper_Spiked
+                {
+                    mesh = vehicles/SmallCarArmor|windowheavyspikedfront,
+                    texture = Vehicles/puv_parts_paper,
+                    scale = 0.004,
+                }
+
+            	model SVU_R_Window_SmallCar_Paper_Spiked
+                {
+                    mesh = vehicles/SmallCarArmor|windowheavyspikedrear,
+                    texture = Vehicles/puv_parts_paper,
+                    scale = 0.004,
+                }
+
+            	model SVU_Hood_SmallCar_Paper
+                {
+                    mesh = vehicles/SmallCarArmor|hoodheavyfront,
+                    texture = Vehicles/puv_parts_paper,
+                    scale = 0.004,
+                }
+
+            	model SVU_Hood_SmallCar_Paper_Scoop
+                {
+                    mesh = vehicles/SmallCarArmor|hoodheavyfrontscoop,
+                    texture = Vehicles/puv_parts_paper,
+                    scale = 0.004,
+                }
+
+            	model SVU_Trunk_SmallCar_Paper
+                {
+                    mesh = vehicles/SmallCarArmor|trunkheavyrear,
+                    texture = Vehicles/puv_parts_paper,
+                    scale = 0.004,
+                }
+
+            	model SVU_Door_FL_SmallCar_Paper
+                {
+                    mesh = vehicles/SmallCarArmor|doorfrontheavyleft,
+                    texture = Vehicles/puv_parts_paper,
+                    scale = 0.004,
+                }
+
+            	model SVU_Door_FR_SmallCar_Paper
+                {
+                    mesh = vehicles/SmallCarArmor|doorfrontheavyleft,
+                    texture = Vehicles/puv_parts_paper,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+
+            	model SVU_Hood_SmallCar_Paper_Spiked
+                {
+                    mesh = vehicles/SmallCarArmor|hoodheavyspikedfront,
+                    texture = Vehicles/puv_parts_paper,
+                    scale = 0.004,
+                }
+
+            	model SVU_Hood_SmallCar_Paper_Spiked_Scoop
+                {
+                    mesh = vehicles/SmallCarArmor|hoodheavyspikedfrontscoop,
+                    texture = Vehicles/puv_parts_paper,
+                    scale = 0.004,
+                }
+
+            	model SVU_Trunk_SmallCar_Paper_Spiked
+                {
+                    mesh = vehicles/SmallCarArmor|trunkheavyspikedrear,
+                    texture = Vehicles/puv_parts_paper,
+                    scale = 0.004,
+                }
+
+            	model SVU_Door_FL_SmallCar_Paper_Spiked
+                {
+                    mesh = vehicles/SmallCarArmor|doorfrontheavyspikedleft,
+                    texture = Vehicles/puv_parts_paper,
+                    scale = 0.004,
+                }
+
+            	model SVU_Door_FR_SmallCar_Paper_Spiked
+                {
+                    mesh = vehicles/SmallCarArmor|doorfrontheavyspikedleft,
+                    texture = Vehicles/puv_parts_paper,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+            	model SVU_FL_Window_SmallCar_Light
+                {
+                    mesh = vehicles/SmallCarArmor|windowfrontlightleft,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_FR_Window_SmallCar_Light
+                {
+                    mesh = vehicles/SmallCarArmor|windowfrontlightleft,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+
+            	model SVU_RL_Window_SmallCar_Light
+                {
+                    mesh = vehicles/SmallCarArmor|windowrearlightleft,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_RR_Window_SmallCar_Light
+                {
+                    mesh = vehicles/SmallCarArmor|windowrearlightleft,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+
+            	model SVU_F_Window_SmallCar_Light
+                {
+                    mesh = vehicles/SmallCarArmor|windowlightfront,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_R_Window_SmallCar_Light
+                {
+                    mesh = vehicles/SmallCarArmor|windowlightrear,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_FL_Window_SmallCar_Light_Spiked
+                {
+                    mesh = vehicles/SmallCarArmor|windowfrontlightspikedleft,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_FR_Window_SmallCar_Light_Spiked
+                {
+                    mesh = vehicles/SmallCarArmor|windowfrontlightspikedleft,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+
+            	model SVU_RL_Window_SmallCar_Light_Spiked
+                {
+                    mesh = vehicles/SmallCarArmor|windowrearlightspikedleft,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_RR_Window_SmallCar_Light_Spiked
+                {
+                    mesh = vehicles/SmallCarArmor|windowrearlightspikedleft,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+
+            	model SVU_F_Window_SmallCar_Light_Spiked
+                {
+                    mesh = vehicles/SmallCarArmor|windowlightspikedfront,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_R_Window_SmallCar_Light_Spiked
+                {
+                    mesh = vehicles/SmallCarArmor|windowlightspikedrear,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_FL_Window_SmallCar_Light_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|windowfrontlightleft,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_FR_Window_SmallCar_Light_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|windowfrontlightleft,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+
+            	model SVU_RL_Window_SmallCar_Light_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|windowrearlightleft,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_RR_Window_SmallCar_Light_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|windowrearlightleft,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+
+            	model SVU_F_Window_SmallCar_Light_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|windowlightfront,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_R_Window_SmallCar_Light_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|windowlightrear,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_FL_Window_SmallCar_Light_Spiked_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|windowfrontlightspikedleft,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_FR_Window_SmallCar_Light_Spiked_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|windowfrontlightspikedleft,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+
+            	model SVU_RL_Window_SmallCar_Light_Spiked_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|windowrearlightspikedleft,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_RR_Window_SmallCar_Light_Spiked_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|windowrearlightspikedleft,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+
+            	model SVU_F_Window_SmallCar_Light_Spiked_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|windowlightspikedfront,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_R_Window_SmallCar_Light_Spiked_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|windowlightspikedrear,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_Hood_SmallCar_Light
+                {
+                    mesh = vehicles/SmallCarArmor|hoodlightfront,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_Hood_SmallCar_Light_Scoop
+                {
+                    mesh = vehicles/SmallCarArmor|hoodlightfrontscoop,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_Trunk_SmallCar_Light
+                {
+                    mesh = vehicles/SmallCarArmor|trunklightrear,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_Door_FL_SmallCar_Light
+                {
+                    mesh = vehicles/SmallCarArmor|doorfrontlightleft,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_Door_FR_SmallCar_Light
+                {
+                    mesh = vehicles/SmallCarArmor|doorfrontlightleft,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+
+            	model SVU_Hood_SmallCar_Light_Spiked
+                {
+                    mesh = vehicles/SmallCarArmor|hoodlightspikedfront,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_Hood_SmallCar_Light_Spiked_Scoop
+                {
+                    mesh = vehicles/SmallCarArmor|hoodlightspikedfrontscoop,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_Trunk_SmallCar_Light_Spiked
+                {
+                    mesh = vehicles/SmallCarArmor|trunklightspikedrear,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_Door_FL_SmallCar_Light_Spiked
+                {
+                    mesh = vehicles/SmallCarArmor|doorfrontlightspikedleft,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_Door_FR_SmallCar_Light_Spiked
+                {
+                    mesh = vehicles/SmallCarArmor|doorfrontlightspikedleft,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+
+            	model SVU_Hood_SmallCar_Light_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|hoodlightfront,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_Hood_SmallCar_Light_Rusted_Scoop
+                {
+                    mesh = vehicles/SmallCarArmor|hoodlightfrontscoop,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_Trunk_SmallCar_Light_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|trunklightrear,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_Door_FL_SmallCar_Light_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|doorfrontlightleft,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_Door_FR_SmallCar_Light_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|doorfrontlightleft,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+
+            	model SVU_Hood_SmallCar_Light_Spiked_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|hoodlightspikedfront,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_Hood_SmallCar_Light_Spiked_Rusted_Scoop
+                {
+                    mesh = vehicles/SmallCarArmor|hoodlightspikedfrontscoop,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_Trunk_SmallCar_Light_Spiked_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|trunklightspikedrear,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_Door_FL_SmallCar_Light_Spiked_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|doorfrontlightspikedleft,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_Door_FR_SmallCar_Light_Spiked_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|doorfrontlightspikedleft,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+            	model SVU_FL_Window_SmallCar_Reinforced
+                {
+                    mesh = vehicles/SmallCarArmor|windowfrontreinforcedleft,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_FR_Window_SmallCar_Reinforced
+                {
+                    mesh = vehicles/SmallCarArmor|windowfrontreinforcedleft,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+
+            	model SVU_RL_Window_SmallCar_Reinforced
+                {
+                    mesh = vehicles/SmallCarArmor|windowrearreinforcedleft,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_RR_Window_SmallCar_Reinforced
+                {
+                    mesh = vehicles/SmallCarArmor|windowrearreinforcedleft,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+
+            	model SVU_F_Window_SmallCar_Reinforced
+                {
+                    mesh = vehicles/SmallCarArmor|windowreinforcedfront,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_R_Window_SmallCar_Reinforced
+                {
+                    mesh = vehicles/SmallCarArmor|windowreinforcedrear,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_FL_Window_SmallCar_Reinforced_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|windowfrontreinforcedleft,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_FR_Window_SmallCar_Reinforced_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|windowfrontreinforcedleft,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+
+            	model SVU_RL_Window_SmallCar_Reinforced_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|windowrearreinforcedleft,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_RR_Window_SmallCar_Reinforced_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|windowrearreinforcedleft,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+
+            	model SVU_F_Window_SmallCar_Reinforced_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|windowreinforcedfront,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_R_Window_SmallCar_Reinforced_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|windowreinforcedrear,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_Hood_SmallCar_Reinforced
+                {
+                    mesh = vehicles/SmallCarArmor|hoodreinforcedfront,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_Hood_SmallCar_Reinforced_Scoop
+                {
+                    mesh = vehicles/SmallCarArmor|hoodreinforcedfrontscoop,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_Trunk_SmallCar_Reinforced
+                {
+                    mesh = vehicles/SmallCarArmor|trunkreinforcedrear,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_Door_FL_SmallCar_Reinforced
+                {
+                    mesh = vehicles/SmallCarArmor|doorfrontreinforcedleft,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_Door_FR_SmallCar_Reinforced
+                {
+                    mesh = vehicles/SmallCarArmor|doorfrontreinforcedleft,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+
+            	model SVU_Hood_SmallCar_Reinforced_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|hoodreinforcedfront,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_Hood_SmallCar_Reinforced_Rusted_Scoop
+                {
+                    mesh = vehicles/SmallCarArmor|hoodreinforcedfrontscoop,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_Trunk_SmallCar_Reinforced_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|trunkreinforcedrear,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_Door_FL_SmallCar_Reinforced_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|doorfrontreinforcedleft,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_Door_FR_SmallCar_Reinforced_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|doorfrontreinforcedleft,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+            	model SVU_FL_Window_SmallCar_Heavy
+                {
+                    mesh = vehicles/SmallCarArmor|windowfrontheavyleft,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_FR_Window_SmallCar_Heavy
+                {
+                    mesh = vehicles/SmallCarArmor|windowfrontheavyleft,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+
+            	model SVU_RL_Window_SmallCar_Heavy
+                {
+                    mesh = vehicles/SmallCarArmor|windowrearheavyleft,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_RR_Window_SmallCar_Heavy
+                {
+                    mesh = vehicles/SmallCarArmor|windowrearheavyleft,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+
+            	model SVU_F_Window_SmallCar_Heavy
+                {
+                    mesh = vehicles/SmallCarArmor|windowheavyfront,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_R_Window_SmallCar_Heavy
+                {
+                    mesh = vehicles/SmallCarArmor|windowheavyrear,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_FL_Window_SmallCar_Heavy_Spiked
+                {
+                    mesh = vehicles/SmallCarArmor|windowfrontheavyspikedleft,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_FR_Window_SmallCar_Heavy_Spiked
+                {
+                    mesh = vehicles/SmallCarArmor|windowfrontheavyspikedleft,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+
+            	model SVU_RL_Window_SmallCar_Heavy_Spiked
+                {
+                    mesh = vehicles/SmallCarArmor|windowrearheavyspikedleft,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_RR_Window_SmallCar_Heavy_Spiked
+                {
+                    mesh = vehicles/SmallCarArmor|windowrearheavyspikedleft,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+
+            	model SVU_F_Window_SmallCar_Heavy_Spiked
+                {
+                    mesh = vehicles/SmallCarArmor|windowheavyspikedfront,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_R_Window_SmallCar_Heavy_Spiked
+                {
+                    mesh = vehicles/SmallCarArmor|windowheavyspikedrear,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_FL_Window_SmallCar_Heavy_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|windowfrontheavyleft,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_FR_Window_SmallCar_Heavy_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|windowfrontheavyleft,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+
+            	model SVU_RL_Window_SmallCar_Heavy_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|windowrearheavyleft,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_RR_Window_SmallCar_Heavy_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|windowrearheavyleft,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+
+            	model SVU_F_Window_SmallCar_Heavy_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|windowheavyfront,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_R_Window_SmallCar_Heavy_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|windowheavyrear,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_FL_Window_SmallCar_Heavy_Spiked_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|windowfrontheavyspikedleft,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_FR_Window_SmallCar_Heavy_Spiked_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|windowfrontheavyspikedleft,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+
+            	model SVU_RL_Window_SmallCar_Heavy_Spiked_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|windowrearheavyspikedleft,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_RR_Window_SmallCar_Heavy_Spiked_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|windowrearheavyspikedleft,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+
+            	model SVU_F_Window_SmallCar_Heavy_Spiked_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|windowheavyspikedfront,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_R_Window_SmallCar_Heavy_Spiked_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|windowheavyspikedrear,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_Hood_SmallCar_Heavy
+                {
+                    mesh = vehicles/SmallCarArmor|hoodheavyfront,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_Hood_SmallCar_Heavy_Scoop
+                {
+                    mesh = vehicles/SmallCarArmor|hoodheavyfrontscoop,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_Trunk_SmallCar_Heavy
+                {
+                    mesh = vehicles/SmallCarArmor|trunkheavyrear,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_Door_FL_SmallCar_Heavy
+                {
+                    mesh = vehicles/SmallCarArmor|doorfrontheavyleft,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_Door_FR_SmallCar_Heavy
+                {
+                    mesh = vehicles/SmallCarArmor|doorfrontheavyleft,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+
+            	model SVU_Hood_SmallCar_Heavy_Spiked
+                {
+                    mesh = vehicles/SmallCarArmor|hoodheavyspikedfront,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_Hood_SmallCar_Heavy_Spiked_Scoop
+                {
+                    mesh = vehicles/SmallCarArmor|hoodheavyspikedfrontscoop,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_Trunk_SmallCar_Heavy_Spiked
+                {
+                    mesh = vehicles/SmallCarArmor|trunkheavyspikedrear,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_Door_FL_SmallCar_Heavy_Spiked
+                {
+                    mesh = vehicles/SmallCarArmor|doorfrontheavyspikedleft,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                }
+
+            	model SVU_Door_FR_SmallCar_Heavy_Spiked
+                {
+                    mesh = vehicles/SmallCarArmor|doorfrontheavyspikedleft,
+                    texture = Vehicles/puv_parts,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+
+            	model SVU_Hood_SmallCar_Heavy_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|hoodheavyfront,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_Hood_SmallCar_Heavy_Rusted_Scoop
+                {
+                    mesh = vehicles/SmallCarArmor|hoodheavyfrontscoop,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_Trunk_SmallCar_Heavy_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|trunkheavyrear,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_Door_FL_SmallCar_Heavy_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|doorfrontheavyleft,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_Door_FR_SmallCar_Heavy_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|doorfrontheavyleft,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+
+            	model SVU_Hood_SmallCar_Heavy_Spiked_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|hoodheavyspikedfront,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_Hood_SmallCar_Heavy_Spiked_Rusted_Scoop
+                {
+                    mesh = vehicles/SmallCarArmor|hoodheavyspikedfrontscoop,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_Trunk_SmallCar_Heavy_Spiked_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|trunkheavyspikedrear,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_Door_FL_SmallCar_Heavy_Spiked_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|doorfrontheavyspikedleft,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                }
+
+            	model SVU_Door_FR_SmallCar_Heavy_Spiked_Rusted
+                {
+                    mesh = vehicles/SmallCarArmor|doorfrontheavyspikedleft,
+                    texture = Vehicles/puv_parts_rusted,
+                    scale = 0.004,
+                    invertX = TRUE,
+                }
+            model GSVU4_RoofLightsFallback_SmallCar
+            {
+                file = GSVU4_RoofLights_SmallCar,
+            }
+            model GSVU4_RoofLightsFallbackBulbs_SmallCar
+            {
+                file = GSVU4_RoofLightsBulbs_SmallCar,
+            }
+            model GSVU4_FilteredAirIntake_SmallCar
+            {
+                file = GSVU4_FilteredAirIntake_SmallCar,
+            }
+
+        
+            model SVU_Airscoop_SmallCar_Small
+            {
+                file = SVU_Airscoop_SmallCar_Small,
+            }
+
+            model SVU_Airscoop_SmallCar_Medium
+            {
+                file = SVU_Airscoop_SmallCar_Medium,
+            }
+
+            model SVU_Airscoop_SmallCar_Small_Round
+            {
+                file = SVU_Airscoop_SmallCar_Small_Round,
+            }
+
+            model SVU_Airscoop_SmallCar_Large
+            {
+                file = SVU_Airscoop_SmallCar_Large,
+            }
+
+            model SVU_Airscoop_SmallCar_Large_Round
+            {
+                file = SVU_Airscoop_SmallCar_Large_Round,
+            }
+
+            model SVU_Airscoop_SmallCar_Piped
+            {
+                file = SVU_Airscoop_SmallCar_Piped,
+            }
+}
+    }
+}

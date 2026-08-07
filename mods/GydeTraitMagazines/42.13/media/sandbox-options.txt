@@ -1,0 +1,166 @@
+VERSION = 1,
+
+option GydeTraitMags.NegativeToPositive
+{
+	type = boolean,
+	default = false,
+	
+	page = GydeTraitMags,
+	translation = GydeTraitMags_NegToPos,
+}
+
+option GydeTraitMags.ReadRemove
+{
+	type = boolean,
+	default = false,
+	
+	page = GydeTraitMags,
+	translation = GydeTraitMags_ReadRemove,
+}
+
+option GydeTraitMags.ReadDelete
+{
+	type = boolean,
+	default = false,
+	
+	page = GydeTraitMags,
+	translation = GydeTraitMags_ReadDelete,
+}
+
+option GydeTraitMags.DaysBeforeRead
+{
+	type = integer,
+	min = 0,
+	max = 8766,
+	default = 0,
+	
+	page = GydeTraitMags,
+	translation = GydeTraitMags_DaysBeforeRead,
+}
+
+option GydeTraitMags.SpawnRate
+{
+	type = enum,
+	default = 3,
+	numValues = 5,
+	
+	page = GydeTraitMags,
+	translation = GydeTraitMags_SpawnRate,
+}
+
+option GydeTraitMags.SpawnSpeedDemon
+{
+	type = boolean,
+	default = true,
+	
+	page = GydeTraitMags,
+	translation = GydeTraitMags_SpawnSpeedDemon,
+}
+
+option GydeTraitMags.SpawnNutritionist
+{
+	type = boolean,
+	default = true,
+	
+	page = GydeTraitMags,
+	translation = GydeTraitMags_SpawnNutritionist,
+}
+
+option GydeTraitMags.SpawnOrganized
+{
+	type = boolean,
+	default = true,
+	
+	page = GydeTraitMags,
+	translation = GydeTraitMags_SpawnOrganized,
+}
+
+option GydeTraitMags.SpawnOutdoorsman
+{
+	type = boolean,
+	default = true,
+	
+	page = GydeTraitMags,
+	translation = GydeTraitMags_SpawnOutdoorsman,
+}
+
+option GydeTraitMags.SpawnFastReader
+{
+	type = boolean,
+	default = true,
+	
+	page = GydeTraitMags,
+	translation = GydeTraitMags_SpawnFastReader,
+}
+
+option GydeTraitMags.SpawnFastLearner
+{
+	type = boolean,
+	default = true,
+	
+	page = GydeTraitMags,
+	translation = GydeTraitMags_SpawnFastLearner,
+}
+
+option GydeTraitMags.SpawnHandy
+{
+	type = boolean,
+	default = true,
+	
+	page = GydeTraitMags,
+	translation = GydeTraitMags_SpawnHandy,
+}
+
+option GydeTraitMags.SpawnAxeMan
+{
+	type = boolean,
+	default = true,
+	
+	page = GydeTraitMags,
+	translation = GydeTraitMags_SpawnAxeMan,
+}
+
+option GydeTraitMags.SpawnBurglar
+{
+	type = boolean,
+	default = true,
+	
+	page = GydeTraitMags,
+	translation = GydeTraitMags_SpawnBurglar,
+}
+
+option GydeTraitMags.SpawnGraceful
+{
+	type = boolean,
+	default = true,
+	
+	page = GydeTraitMags,
+	translation = GydeTraitMags_SpawnGraceful,
+}
+
+option GydeTraitMags.SpawnDextrous
+{
+	type = boolean,
+	default = true,
+	
+	page = GydeTraitMags,
+	translation = GydeTraitMags_SpawnDextrous,
+}
+
+option GydeTraitMags.SpawnInconspicuous
+{
+	type = boolean,
+	default = true,
+	
+	page = GydeTraitMags,
+	translation = GydeTraitMags_SpawnInconspicuous,
+}
+
+option GydeTraitMags.SpawnKeenHearing
+{
+	type = boolean,
+	default = true,
+	
+	page = GydeTraitMags,
+	translation = GydeTraitMags_SpawnKeenHearing,
+}

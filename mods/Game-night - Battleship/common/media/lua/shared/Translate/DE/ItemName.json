@@ -1,0 +1,11 @@
+{
+    "Base.BattleShip_Box": "Schlachtschiff-Box",
+    "Base.BattleShip_GameStand": "Schlachtschiff-Gamestand",
+    "Base.BattleShip_Peg_Red": "Roter Stift",
+    "Base.BattleShip_Peg_White": "Weißer Stift",
+    "Base.BattleShip_Ship_Battleship": "Schlachtschiff",
+    "Base.BattleShip_Ship_Carrier": "Träger",
+    "Base.BattleShip_Ship_Destroyer": "Zerstörer",
+    "Base.BattleShip_Ship_Submarine": "U-Boot",
+    "Base.BattleShip_Ship_PatrolBoat": "Patrouillenboot"
+}

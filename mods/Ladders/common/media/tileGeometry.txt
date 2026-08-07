@@ -1,0 +1,325 @@
+tileGeometry
+{
+    VERSION = 2,
+
+    tileset
+    {
+        name = ladders_01,
+
+        /* ladders_01_0 */
+        tile
+        {
+            xy = 0x0,
+
+            box
+            {
+                translate = -7134x-4853x-2914,
+                rotate = 0x0x63700,
+                min = -146x0x-325,
+                max = 146x24495x325,
+            }
+
+            box
+            {
+                translate = -7221x-5041x-7284,
+                rotate = 0x0x63700,
+                min = -146x0x-325,
+                max = 146x24495x325,
+            }
+
+            box
+            {
+                translate = -4436x-637x-1983,
+                rotate = 0x0x73656,
+                min = -146x0x-2154,
+                max = 146x551x2154,
+            }
+
+            box
+            {
+                translate = -5243x2203x-2472,
+                rotate = 0x0x73656,
+                min = -146x0x-2154,
+                max = 146x551x2154,
+            }
+
+            box
+            {
+                translate = -5220x5828x-2244,
+                rotate = 0x0x73656,
+                min = -146x0x-2154,
+                max = 146x551x2154,
+            }
+
+            box
+            {
+                translate = -5925x8600x-2336,
+                rotate = 0x0x73656,
+                min = -146x0x-2154,
+                max = 146x551x2154,
+            }
+
+            box
+            {
+                translate = -6117x12136x-2176,
+                rotate = 0x0x73656,
+                min = -146x0x-2154,
+                max = 146x551x2154,
+            }
+
+            box
+            {
+                translate = -6488x15121x-2176,
+                rotate = 0x0x73656,
+                min = -146x0x-2154,
+                max = 146x551x2154,
+            }
+
+            box
+            {
+                translate = -6968x18518x-2176,
+                rotate = 0x0x73656,
+                min = -146x0x-2154,
+                max = 146x551x2154,
+            }
+
+            properties
+            {
+                Translucent = true,
+            }
+        }
+
+        /* ladders_01_1 */
+        tile
+        {
+            xy = 1x0,
+
+            box
+            {
+                translate = -1683x-10x-2243,
+                rotate = -59624x-79062x-8231,
+                min = -322x0x-218,
+                max = 322x24236x218,
+            }
+
+            box
+            {
+                translate = 3045x-39x-1863,
+                rotate = -59624x-79062x-8231,
+                min = -322x0x-218,
+                max = 322x24387x218,
+            }
+
+            box
+            {
+                translate = 221x20704x-4891,
+                rotate = -87750x0x0,
+                min = -2293x0x-155,
+                max = 2293x652x155,
+            }
+
+            box
+            {
+                translate = 319x17494x-4395,
+                rotate = -87750x0x0,
+                min = -2293x0x-155,
+                max = 2293x652x155,
+            }
+
+            box
+            {
+                translate = 455x14466x-3928,
+                rotate = -87750x0x0,
+                min = -2293x0x-155,
+                max = 2293x652x155,
+            }
+
+            box
+            {
+                translate = 455x11241x-3430,
+                rotate = -87750x0x0,
+                min = -2293x0x-155,
+                max = 2293x652x155,
+            }
+
+            box
+            {
+                translate = 455x8195x-2960,
+                rotate = -87750x0x0,
+                min = -2293x0x-155,
+                max = 2293x652x155,
+            }
+
+            box
+            {
+                translate = 455x5007x-2468,
+                rotate = -87750x0x0,
+                min = -2293x0x-155,
+                max = 2293x652x155,
+            }
+
+            box
+            {
+                translate = 455x2066x-2014,
+                rotate = -87750x0x0,
+                min = -2293x0x-155,
+                max = 2293x652x155,
+            }
+
+            properties
+            {
+                Translucent = true,
+            }
+        }
+
+        /* ladders_01_2 */
+        tile
+        {
+            xy = 2x0,
+
+            box
+            {
+                translate = -2972x66x3306,
+                rotate = 32723x12227x555,
+                min = -344x0x-185,
+                max = 344x24050x185,
+            }
+
+            box
+            {
+                translate = 1362x76x3213,
+                rotate = 32723x12227x555,
+                min = -344x0x-185,
+                max = 344x23749x185,
+            }
+
+            box
+            {
+                translate = -954x2313x3409,
+                rotate = 29453x0x0,
+                min = -2101x0x-130,
+                max = 2101x447x130,
+            }
+
+            box
+            {
+                translate = -954x5877x3592,
+                rotate = 29453x0x0,
+                min = -2101x0x-130,
+                max = 2101x447x130,
+            }
+
+            box
+            {
+                translate = -954x9620x3785,
+                rotate = 29453x0x0,
+                min = -2101x0x-130,
+                max = 2101x447x130,
+            }
+
+            box
+            {
+                translate = -954x13235x3971,
+                rotate = 29453x0x0,
+                min = -2101x0x-130,
+                max = 2101x447x130,
+            }
+
+            box
+            {
+                translate = -954x16839x4156,
+                rotate = 29453x0x0,
+                min = -2101x0x-130,
+                max = 2101x447x130,
+            }
+
+            box
+            {
+                translate = -954x20548x4347,
+                rotate = 29453x0x0,
+                min = -2101x0x-130,
+                max = 2101x447x130,
+            }
+
+            properties
+            {
+                Translucent = true,
+            }
+        }
+
+        /* ladders_01_3 */
+        tile
+        {
+            xy = 3x0,
+
+            box
+            {
+                translate = 3231x-204x-3322,
+                rotate = 0x0x-32238,
+                min = -194x0x-289,
+                max = 194x24199x289,
+            }
+
+            box
+            {
+                translate = 3240x-33x1177,
+                rotate = 0x0x-32238,
+                min = -194x0x-289,
+                max = 194x23965x289,
+            }
+
+            box
+            {
+                translate = 4751x3408x333,
+                rotate = 0x0x-47039,
+                min = -130x0x-2338,
+                max = 130x425x2338,
+            }
+
+            box
+            {
+                translate = 5047x7006x333,
+                rotate = 0x0x-47039,
+                min = -130x0x-2338,
+                max = 130x425x2338,
+            }
+
+            box
+            {
+                translate = 5355x10758x333,
+                rotate = 0x0x-47039,
+                min = -130x0x-2338,
+                max = 130x425x2338,
+            }
+
+            box
+            {
+                translate = 5667x14538x333,
+                rotate = 0x0x-47039,
+                min = -130x0x-2338,
+                max = 130x425x2338,
+            }
+
+            box
+            {
+                translate = 5971x18244x560,
+                rotate = 0x0x-47039,
+                min = -130x0x-2338,
+                max = 130x425x2338,
+            }
+
+            box
+            {
+                translate = 6279x21987x617,
+                rotate = 0x0x-47039,
+                min = -130x0x-2338,
+                max = 130x425x2338,
+            }
+
+            properties
+            {
+                Translucent = true,
+            }
+        }
+    }
+}

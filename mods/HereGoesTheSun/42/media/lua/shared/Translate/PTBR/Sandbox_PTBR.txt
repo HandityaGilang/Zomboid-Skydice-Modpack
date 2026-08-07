@@ -1,0 +1,6 @@
+Sandbox_PT {
+    Sandbox_HGTS = "Here Goes The Sun",
+
+    Sandbox_HereGoesTheSun_EnableGodRays = "Ativar raios de sol",
+    Sandbox_HereGoesTheSun_EnableGodRays_Tooltip = "Quando ativado, os raios de sol serão exibidos visualmente na borda da tela correspondente ao nascer ou pôr do sol.",
+}

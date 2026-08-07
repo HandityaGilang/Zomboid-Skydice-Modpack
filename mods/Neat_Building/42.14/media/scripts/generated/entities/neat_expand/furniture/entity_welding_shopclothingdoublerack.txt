@@ -1,0 +1,60 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Welding_ShopClothingDoubleRack
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_ShopClothingDoubleMetalRack,
+			Icon		= Build_location_shop_generic_01_39,
+		}
+	}
+
+    entity Welding_ShopClothingDoubleRack
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Welding_ShopClothingDoubleRack,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+            isThumpable = false,
+            face W
+            {
+                layer
+                {
+                    row = location_shop_generic_01_37,
+                    row = location_shop_generic_01_36,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = location_shop_generic_01_38 location_shop_generic_01_39,
+                }
+            }
+        }
+        
+        component CraftRecipe
+        {
+            OnAddToMenu   = ignoreFromBuildMenu,
+            timedAction   = BuildMetalStructureSmall,
+            time          = 100,
+            SkillRequired = MetalWelding:6,
+            xpAward       = MetalWelding:60,
+            category      = Furniture,
+            tags          = Welding;Furniture,
+            ToolTip       = Tooltip_craft_NeedsWallDesc,
+            inputs
+            {
+                item 4 [Base.BlowTorch] flags[DontRecordInput],
+                item 6 [Base.MetalPipe],
+                item 4 [Base.WeldingRods] flags[DontRecordInput],
+            }
+        }
+    }
+}

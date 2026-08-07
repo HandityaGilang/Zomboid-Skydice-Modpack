@@ -1,0 +1,8 @@
+UI_TH = {
+	UI_characreation_character = "ตัวละคร",
+	UI_IHM_UseImprovedHairPicker = "ตัวเลือกสีขั้นสูง",
+	UI_IHM_UseImprovedHairPicker_Tooltip = "เปิด: ทุกสี<br>ปิด: สีดั้งเดิม",
+	UI_IHM_Source_Vanilla = "ดั้งเดิม",
+	UI_IHM_Source_All = "ทั้งหมด",
+	UI_IHM_Controls = "การตั้งค่า",
+}

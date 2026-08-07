@@ -1,0 +1,17 @@
+{
+    "UI_XP_NB_xpShow": "Vis XP for opskrift",
+    "UI_XP_NB_xpShow_tooltip": "Aktiverer visning af opskrift-XP. <LINE> 'XP Display Format' bestemmer, hvordan denne information vises. <LINE> <LINE><RGB:0.392,0.584,0.929> Tilgængelige formater: <LINE><RGB:1,1,1> - Basic XP: Viser basis-XP (ingen multiplikatorer). <LINE> - Final XP: Viser XP efter alle multiplikatorer. <LINE> - Multiplier: Viser den samlede multiplikator på basis-XP og den endelige XP (BaseXP * multiplier = FinalXP). <LINE> - Breakdown: Viser basis-XP, en detaljeret opdeling af alle multiplikatorer og den endelige XP. <LINE><LINE><RGB:0.392,0.584,0.929> Faktorerne er: <LINE><RGB:1,1,1> - Startniveau-multiplikator: Niveau 0 (x0.25), Niveau 1 (x1.00), Niveau 2 (x1.33), Niveau 3+ (x1.66) <LINE> - Færdighedsbog-multiplikator: Bøger 1-5 (x3, x5, x8, x12, x16). Halvdelen for Aiming, Reloading og Long Blade. <LINE> - Trait-multiplikator: Fast Learner (x1.3), Slow Learner (x0.7), Crafty (x1.3 kun når færdigheden tilhører kategorien Håndværk). I Breakdown kombineres Fast Learner/Slow Learner og Crafty til én trait-multiplikator. <LINE> - Sandboxindstillinger-multiplikator: En global værdi eller en specifik værdi pr. færdighedstype.",
+    "UI_XP_NB_xpFormat": "XP-visningsformat",
+    "UI_XP_NB_xpFormat_tooltip": "XP-visningsformat",
+    "UI_XP_NB_xpFormat_BasicXP": "Basis XP",
+    "UI_XP_NB_xpFormat_FinalXP": "Endelig XP",
+    "UI_XP_NB_xpFormat_Multiplier": "Multiplikator",
+    "UI_XP_NB_xpFormat_Breakdown": "Opdeling",
+    "UI_XP_NB_showRecipeMod": "Vis opskrift-mod",
+    "UI_XP_NB_showRecipeMod_tooltip": "Viser opskriftens kilde-mod i opskriftpanelet.",
+    "UI_XP_NB_textScale": "Tekstskalering for ekstra linjer",
+    "UI_XP_NB_textScale_tooltip": "Skriftstørrelse for XP- og mod-linjer.",
+    "UI_XP_NB_modPrefix": "Mod: ",
+    "UI_XP_NB_modNeat": "Neat Building",
+    "UI_XP_NB_modOther": "Andet"
+}

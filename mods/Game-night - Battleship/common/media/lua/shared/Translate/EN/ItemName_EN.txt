@@ -1,0 +1,11 @@
+ItemName_EN = {
+    ItemName_Base.BattleShip_Box = "Battleship Box",
+    ItemName_Base.BattleShip_GameStand = "Battleship Gamestand",
+    ItemName_Base.BattleShip_Peg_Red = "Red Peg",
+    ItemName_Base.BattleShip_Peg_White = "White Peg",
+    ItemName_Base.BattleShip_Ship_Battleship = "Battleship",
+    ItemName_Base.BattleShip_Ship_Carrier = "Carrier",
+    ItemName_Base.BattleShip_Ship_Destroyer = "Destroyer",
+    ItemName_Base.BattleShip_Ship_Submarine = "Submarine",
+    ItemName_Base.BattleShip_Ship_PatrolBoat = "Patrol Boat",
+}

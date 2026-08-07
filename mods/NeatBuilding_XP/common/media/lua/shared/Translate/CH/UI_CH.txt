@@ -1,0 +1,17 @@
+UI_CH = {
+    UI_XP_NB_xpShow = "顯示XP",
+    UI_XP_NB_xpShow_tooltip = "啟用配方 XP 的顯示。 <LINE> 「XP顯示格式」定義此資訊的顯示方式。 <LINE> <LINE><RGB:0.392,0.584,0.929> 可用格式： <LINE><RGB:1,1,1> - 基礎XP: 顯示基礎 XP（無倍率）。 <LINE> - 最後XP: 顯示套用所有倍率後的 XP。 <LINE> - 乘數: 顯示套用於基礎 XP 的總倍率與最終 XP（BaseXP * multiplier = FinalXP）。 <LINE> - 明細: 顯示基礎 XP、所有倍率的詳細分解與最終 XP。 <LINE><LINE><RGB:0.392,0.584,0.929> 影響因素： <LINE><RGB:1,1,1> - 初始等級倍率: 等級 0 (x0.25)、等級 1 (x1.00)、等級 2 (x1.33)、等級 3+ (x1.66) <LINE> - 技能書倍率: 書籍 1-5（x3, x5, x8, x12, x16）。Aiming、Reloading 與 Long Blade 為其中一半。 <LINE> - 特質倍率: 學習高手 (x1.3)、腦筋慢 (x0.7)、Crafty（僅當技能屬於 製作 類別時為 x1.3）。在 明細 中，學習高手/腦筋慢 與 Crafty 會合併為一個特質倍率。 <LINE> - 沙盒選項倍率: 全域值，或依技能類型設定的特定值。",
+    UI_XP_NB_xpFormat = "XP顯示格式",
+    UI_XP_NB_xpFormat_tooltip = "XP顯示格式",
+    UI_XP_NB_xpFormat_BasicXP = "基礎XP",
+    UI_XP_NB_xpFormat_FinalXP = "最後XP",
+    UI_XP_NB_xpFormat_Multiplier = "乘數",
+    UI_XP_NB_xpFormat_Breakdown = "明細",
+    UI_XP_NB_showRecipeMod = "顯示配方的Mod",
+    UI_XP_NB_showRecipeMod_tooltip = "在配方面板中以「'Mod' 行」顯示每個配方的來源Mod。",
+    UI_XP_NB_textScale = "額外行文字大小",
+    UI_XP_NB_textScale_tooltip = "XP行與「'Mod' 行」的字型大小。",
+    UI_XP_NB_modPrefix = "Mod: ",
+    UI_XP_NB_modNeat = "Neat Building",
+    UI_XP_NB_modOther = "其他",
+}

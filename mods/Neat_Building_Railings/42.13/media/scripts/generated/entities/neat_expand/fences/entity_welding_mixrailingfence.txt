@@ -1,0 +1,62 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Welding_MixRailingFence
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_MixRailingFence,
+			Icon		= Build_fixtures_railings_01_29,
+		}
+	}
+
+    entity Welding_MixRailingFence
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Welding_MixRailingFence,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+			health          = 250,
+			skillBaseHealth = 20,
+
+            face W
+            {
+                layer
+                {
+                    row = fixtures_railings_01_28,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = fixtures_railings_01_29,
+                }
+            }
+            corner  =   fixtures_railings_01_31,
+        }
+		
+        component CraftRecipe
+        {
+            OnAddToMenu   = ignoreFromBuildMenu,
+            timedAction   = BuildLowMetal,
+            time          = 50,
+            SkillRequired = MetalWelding:3,
+            xpAward       = MetalWelding:30,
+            category      = Fences,
+            ToolTip       = Tooltip_craft_sandBagDesc,
+            inputs
+            {
+                item 4 [Base.BlowTorch] flags[DontRecordInput],
+                item 2 [Base.WeldingRods] flags[DontRecordInput],
+                item 1 [Base.Plank],
+                item 4 [Base.MetalBar],
+            }
+        }
+    }
+}

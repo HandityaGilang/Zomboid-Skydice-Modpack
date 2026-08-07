@@ -1,0 +1,68 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Pottery_BrownTileWall
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_BrownTileWall,
+			Icon		= Build_walls_commercial_03_1,
+		}
+	}
+
+    entity Pottery_BrownTileWall
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Pottery_BrownTileWall,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+			LogicClass      = WoodenWall,
+			health          = 650,
+       		skillBaseHealth = 20,
+			previousStage   = WoodenWallFrame;MetalWallFrame,
+			breakSound      = ZombieThumpWoodCollapse,
+            OnCreate        = NB_BuildRecipeCode.NewWall.OnCreate,
+
+            face W
+            {
+                layer
+                {
+                    row = walls_commercial_03_0,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = walls_commercial_03_1,
+                }
+            }
+			
+            corner = walls_commercial_03_3,
+        }
+		
+        component CraftRecipe
+        {
+            OnAddToMenu   = ignoreFromBuildMenu,
+            timedAction   = BuildWallNoTool,
+            time          = 200,
+            category      = Walls,
+            SkillRequired = Pottery:5,
+            xpAward       = Pottery:50,
+            ToolTip       = Tooltip_craft_NeedsWallframeDesc,
+            inputs
+            {
+                item 1 tags[PlasterTrowel;MasonsTrowel] mode:keep flags[Prop1],
+                item 1 tags[base:hammer] mode:keep flags[Prop2;MayDegradeVeryLight],
+                item 1 [Base.BucketPlasterFull] flags[DontRecordInput],
+                item 4 [Base.ClayTile],
+                item 4 [Base.Nails],
+            }
+        }
+    }
+}

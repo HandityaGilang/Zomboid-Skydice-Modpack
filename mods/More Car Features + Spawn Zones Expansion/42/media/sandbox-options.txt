@@ -1,0 +1,101 @@
+VERSION = 1,
+
+option GamestaVehicleZones.spawnRate
+{
+	type = integer, min = -1, max = 100, default = -1,
+	page = WayMoreCars, translation = GamestaSpawnRate,
+}
+
+option GamestaVehicleZones.spawnRateModifiedTrafficJams
+{
+	type = integer, min = -1, max = 100, default = -1,
+	page = WayMoreCars, translation = GamestaSpawnRateModifiedTrafficJams,
+}
+
+option GamestaVehicleZones.trafficjamsLV
+{
+	type = boolean, default = true,
+	page = WayMoreCars, translation = GamestaTrafficJamsLV,
+}
+
+option GamestaVehicleZones.trafficjamsExtra
+{
+	type = boolean, default = true,
+	page = WayMoreCars, translation = GamestaTrafficJamsExtra,
+}
+
+option GamestaVehicleZones.vehicleCorpseDistribution
+{
+	type = enum,
+	numValues = 4,
+	default = 3,
+	page = WayMoreCars,
+	translation = GamestaVehicleCorpseDistribution,
+	valueTranslation = GamestaVehicleCorpseDistribution,
+}
+
+option GamestaVehicleZones.climbVehicles
+{
+	type = boolean, default = false,
+	page = WayMoreCars, translation = GamestaClimbVehicles,
+}
+
+option GamestaVehicleZones.noGoodCars
+{
+	type = boolean, default = false,
+	page = WayMoreCars, translation = GamestaNoGoodCars,
+}
+
+option GamestaVehicleZones.interactBombVehicle
+{
+	type = boolean, default = false,
+	page = WayMoreCars, translation = GamestaInteractBombVehicle,
+}
+
+option GamestaVehicleZones.autoVehicleFuelPumps
+{
+	type = boolean, default = true,
+	page = WayMoreCars, translation = GamestaAutoVehicleFuelPumps,
+}
+
+option GamestaVehicleZones.randomAngle
+{
+	type = boolean, default = true,
+	page = WayMoreCars, translation = GamestaRandomAngle,
+}
+
+option GamestaVehicleZones.weatherEffects
+{
+	type = boolean, default = true,
+	page = WayMoreCars, translation = GamestaWeatherEffects,
+}
+
+option GamestaVehicleZones.earlyExitVehicle
+{
+	type = boolean, default = true,
+	page = WayMoreCars, translation = GamestaEarlyExitVehicle,
+}
+
+option GamestaVehicleZones.earlyExitVehicleDamage
+{
+	type = double, min = 0.0, max = 3.0, default = 1.0,
+	page = WayMoreCars, translation = GamestaEarlyExitVehicleDamage,
+}
+
+option GamestaVehicleZones.spawnRateBurnt
+{
+	type = integer, min = -1, max = 100, default = -1,
+	page = WayMoreCars, translation = GamestaSpawnRateBurnt,
+}
+
+option GamestaVehicleZones.baseVehicleQuality
+{
+	type = double, min = -0.1, max = 1.3, default = -.1,
+	page = WayMoreCars, translation = GamestaBaseVehicleQuality,
+}
+
+option GamestaVehicleZones.chanceToPartDamage
+{
+	type = integer, min = -1, max = 100, default = -1,
+	page = WayMoreCars, translation = GamestaChanceToPartDamage,
+}

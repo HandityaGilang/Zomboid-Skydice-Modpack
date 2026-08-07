@@ -1,0 +1,72 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Wood_StandCoffin
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_StandWoodCoffin,
+			Icon		= Build_crafted_04_53,
+		}
+	}
+
+    entity Wood_StandCoffin
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Wood_StandCoffin,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+            face W
+            {
+                layer
+                {
+                    row = crafted_04_52,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = crafted_04_53,
+                }
+            }
+            face E
+            {
+                layer
+                {
+                    row = crafted_04_54,
+                }
+            }
+            face S
+            {
+                layer
+                {
+                    row = crafted_04_55,
+                }
+            }
+        }
+        
+        component CraftRecipe
+        {
+            OnAddToMenu   = ignoreFromBuildMenu,
+            timedAction   = BuildWoodenStructureMedium,
+            time          = 50,
+            SkillRequired = Woodwork:4,
+            xpAward       = Woodwork:40,
+            tags          = carpentry,
+            ToolTip       = Tooltip_craft_coffinDesc,
+            inputs
+            {
+                item 1 tags[Hammer] mode:keep flags[Prop1;MayDegradeVeryLight],
+                item 1 tags[Saw;CrudeSaw] mode:keep flags[MayDegradeLight],
+                item 4 [Base.Plank],
+                item 4 [Base.Nails],
+            }
+        }
+    }
+}

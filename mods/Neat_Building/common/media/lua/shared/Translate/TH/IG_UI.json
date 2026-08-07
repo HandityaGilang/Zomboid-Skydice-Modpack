@@ -1,0 +1,5 @@
+{
+    "IGUI_NB_ModOptions_Title": "Neat Building",
+    "IGUI_NB_ModOptions_UseNeatBuildingUI": "ใช้ UI ของ Neat Building",
+    "IGUI_NB_ModOptions_UseNeatBuildingUI_Tooltip": "เปิดใช้งานเมนูก่อสร้างของ Neat Building และการปรับแต่งที่เกี่ยวข้อง ปิดเพื่อใช้ UI ก่อสร้างแบบ vanilla."
+}

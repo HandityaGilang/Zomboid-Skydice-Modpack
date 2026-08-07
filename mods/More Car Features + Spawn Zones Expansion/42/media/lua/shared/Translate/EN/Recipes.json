@@ -1,0 +1,51 @@
+{
+    "CopyVehicleKey": "Copy Vehicle Key",
+
+    "CraftTireStack1": "Start Stack of Tires",
+    "CraftTireStack2": "Make Stack of 2 Tires",
+    "CraftTireStack3": "Make Stack of 3 Tires",
+    "CraftTireStack4": "Make Stack of 4 Tires",
+
+    "ExtractSteelFromLargePlusItem": "Smelt Steel From Large Plus Steel Item",
+    "SmeltLargePlusSteelItem": "Smelt Large Plus Steel Item",
+    "ExtractSteelFromVeryLargeItem": "Smelt Steel From Very Large Steel Item",
+    "SmeltVeryLargeSteelItem": "Smelt Very Large Steel Item",
+
+    "CraftVanillaVehicleOldTire1": "Craft Old Standard Tire",
+    "CraftVanillaVehicleOldTire2": "Craft Old Heavy-Duty Tire",
+    "CraftVanillaVehicleOldTire3": "Craft Old Sports Tire",
+    "CraftVanillaVehicleRegularTire1": "Craft Regular Standard Tire",
+    "CraftVanillaVehicleRegularTire2": "Craft Regular Heavy-Duty Tire",
+    "CraftVanillaVehicleRegularTire3": "Craft Regular Sports Tire",
+    "CraftVanillaVehiclePerformanceTire1": "Craft Performance Standard Tire",
+    "CraftVanillaVehiclePerformanceTire2": "Craft Performance Heavy-Duty Tire",
+    "CraftVanillaVehiclePerformanceTire3": "Craft Performance Sports Tire",
+
+    "CraftVanillaVehicleFrontWindshield1GlassPanes": "Craft Standard Front Windshield with Glass Panes",
+    "CraftVanillaVehicleFrontWindshield1MoltenGlass": "Craft Standard Front Windshield with Molten Glass",
+    "CraftVanillaVehicleFrontWindshield2GlassPanes": "Craft Heavy-Duty Front Windshield with Glass Panes",
+    "CraftVanillaVehicleFrontWindshield2MoltenGlass": "Craft Heavy-Duty Front Windshield with Molten Glass",
+    "CraftVanillaVehicleFrontWindshield3GlassPanes": "Craft Sports Front Windshield with Glass Panes",
+    "CraftVanillaVehicleFrontWindshield3MoltenGlass": "Craft Sports Front Windshield with Molten Glass",
+
+    "CraftVanillaVehicleRearWindshield1GlassPanes": "Craft Standard Rear Windshield with Glass Panes",
+    "CraftVanillaVehicleRearWindshield1MoltenGlass": "Craft Standard Rear Windshield with Molten Glass",
+    "CraftVanillaVehicleRearWindshield2GlassPanes": "Craft Heavy-Duty Rear Windshield with Glass Panes",
+    "CraftVanillaVehicleRearWindshield2MoltenGlass": "Craft Heavy-Duty Rear Windshield with Molten Glass",
+    "CraftVanillaVehicleRearWindshield3GlassPanes": "Craft Sports Rear Windshield with Glass Panes",
+    "CraftVanillaVehicleRearWindshield3MoltenGlass": "Craft Sports Rear Windshield with Molten Glass",
+
+    "CraftVanillaVehicleFrontWindow1GlassPanes": "Craft Standard Front Window with Glass Pane",
+    "CraftVanillaVehicleFrontWindow1MoltenGlass": "Craft Standard Front Window with Molten Glass",
+    "CraftVanillaVehicleFrontWindow2GlassPanes": "Craft Heavy-Duty Front Window with Glass Panes",
+    "CraftVanillaVehicleFrontWindow2MoltenGlass": "Craft Heavy-Duty Front Window with Molten Glass",
+    "CraftVanillaVehicleFrontWindow3GlassPanes": "Craft Sports Front Window with Glass Pane",
+    "CraftVanillaVehicleFrontWindow3MoltenGlass": "Craft Sports Front Window with Molten Glass",
+
+    "CraftVanillaVehicleRearWindow1GlassPanes": "Craft Standard Rear Window with Glass Pane",
+    "CraftVanillaVehicleRearWindow1MoltenGlass": "Craft Standard Rear Window with Molten Glass",
+    "CraftVanillaVehicleRearWindow2GlassPanes": "Craft Heavy-Duty Rear Window with Glass Panes",
+    "CraftVanillaVehicleRearWindow2MoltenGlass": "Craft Heavy-Duty Rear Window with Molten Glass",
+    "CraftVanillaVehicleRearWindow3GlassPanes": "Craft Sports Rear Window with Glass Pane",
+    "CraftVanillaVehicleRearWindow3MoltenGlass": "Craft Sports Rear Window with Molten Glass"
+}

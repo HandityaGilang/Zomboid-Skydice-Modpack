@@ -1,0 +1,55 @@
+module Base
+{
+    /*
+     * Gore's SVU4 Core - Roof Rack MechanicsItems
+     * These are installed into the GSVU4RoofRack vehicle part slot.
+     * MechanicsItem = TRUE means the vanilla mechanics UI and loot window
+     * treat them as a vehicle part container — capacity is surfaced natively.
+     * No 3D model required: SVU4 manages visual state separately.
+     */
+
+    item GSVU4RoofRackBasic
+    {
+        DisplayCategory     = VehicleMaintenance,
+        Weight              = 18.0,
+        ItemType            = base:normal,
+        VehicleType         = 3,
+        DisplayName         = Roof Rack (Basic),
+        Icon                = Item_MetalBar,
+        MaxCapacity         = 35,
+        ConditionAffectsCapacity = false,
+        ConditionMax        = 100,
+        MechanicsItem       = TRUE,
+        Tags                = base:hasmetal,
+    }
+
+    item GSVU4RoofRackStandard
+    {
+        DisplayCategory     = VehicleMaintenance,
+        Weight              = 30.0,
+        ItemType            = base:normal,
+        VehicleType         = 3,
+        DisplayName         = Roof Rack (Standard),
+        Icon                = Item_MetalBar,
+        MaxCapacity         = 55,
+        ConditionAffectsCapacity = false,
+        ConditionMax        = 100,
+        MechanicsItem       = TRUE,
+        Tags                = base:hasmetal,
+    }
+
+    item GSVU4RoofRackMilitary
+    {
+        DisplayCategory     = VehicleMaintenance,
+        Weight              = 45.0,
+        ItemType            = base:normal,
+        VehicleType         = 3,
+        DisplayName         = Roof Rack (Military),
+        Icon                = Item_MetalBar,
+        MaxCapacity         = 80,
+        ConditionAffectsCapacity = false,
+        ConditionMax        = 100,
+        MechanicsItem       = TRUE,
+        Tags                = base:hasmetal,
+    }
+}

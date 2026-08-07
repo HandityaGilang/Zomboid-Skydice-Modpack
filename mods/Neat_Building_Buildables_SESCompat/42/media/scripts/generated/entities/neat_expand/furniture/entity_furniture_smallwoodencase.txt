@@ -1,0 +1,50 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Furniture_SmallWoodenCase
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_SmallWoodenCase,
+			Icon		= Build_location_shop_greenes_01_35,
+		}
+	}
+
+    entity Furniture_SmallWoodenCase
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Furniture_SmallWoodenCase,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+            face SINGLE
+            {
+                layer
+                {
+                    row = location_shop_greenes_01_35,
+                }
+            }
+        }
+        
+        component CraftRecipe
+        {
+            timedAction   = BuildWoodenStructureMedium,
+            time          = 150,
+            SkillRequired = Woodwork:2,
+            xpAward       = Woodwork:5,
+            category      = Furniture,
+            tags          = Furniture;Carpentry,
+            ToolTip       = Tooltip_craft_crateDesc,
+            inputs
+            {
+                item 1 tags[Hammer] mode:keep flags[Prop1;MayDegradeVeryLight],
+                item 4 [Base.Plank],
+                item 4 [Base.Nails],
+            }
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "MakeSteelLadder": "Сделать стальную лестницу",
+    "MakeWoodenLadder" : "Сделать деревянную лестницу",
+	"UnpackCollapsibleLadder": "Разложить складную лестницу",
+    "PackCollapsibleLadder": "Сложить складную лестницу",
+    "CraftCollapsibleLadder": "Собрать складную лестницу"
+}

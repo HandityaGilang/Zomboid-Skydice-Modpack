@@ -1,0 +1,48 @@
+module Base
+{
+    entity CompactFluidStorageTank
+    {
+        component UiConfig
+        {
+            xuiSkin = default,
+            entityStyle = ES_CompactFluidStorageTank,
+            uiEnabled = false,
+        }
+        component SpriteConfig
+        {
+            face S
+            {
+                layer
+                {
+                    row = melos_tiles_random_props_industry_05_74 melos_tiles_random_props_industry_05_75,
+                }
+            }
+            face E
+            {
+                layer
+                {
+                    row = melos_tiles_random_props_industry_05_73,
+                    row = melos_tiles_random_props_industry_05_72,
+                }
+            }
+        }
+        component CraftRecipe
+        {
+            timedAction = BuildMetalStructureMedium,
+            time = 300,
+            SkillRequired = MetalWelding:3;Mechanics:3,
+            xpAward = MetalWelding:30;Mechanics:15,
+            category = Furniture,
+            Tags = Welding;Furniture,
+            inputs
+            {
+                item 1 tags[base:weldingmask] mode:keep,
+                item 4 [Base.BlowTorch] flags[DontRecordInput],
+                item 1 tags[base:screwdriver] mode:keep flags[NoBrokenItems],
+                item 16 [Base.SmallSheetMetal;4:Base.SheetMetal],
+                item 16 [Base.IronBarQuarter;Base.SteelBarQuarter;2:Base.IronBarHalf;2:Base.SteelBarHalf;4:Base.IronBar;4:Base.SteelBar],
+                item 6 [Base.Screws],
+            }
+        }
+    }
+}

@@ -1,0 +1,896 @@
+module Base
+{
+    craftRecipe ExtractSteelFromLargePlusItem
+    {
+        time = 200,
+        Tags = AdvancedFurnace,
+        category = Blacksmithing,
+        inputs
+        {
+            item 1 [Base.CeramicCrucible] mode:keep flags[IsEmpty],
+            item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
+            item 10 tags[base:charcoal],
+            item 1 tags[morecarfeatures:smeltablesteellargeplus] mode:destroy flags[ItemCount;AllowDestroyedItem],
+        }
+        outputs
+        {
+            item 5 Base.SteelChunk,
+        }
+    }
+
+    craftRecipe SmeltLargePlusSteelItem
+    {
+        time = 200,
+        Tags = Furnace,
+        category = Blacksmithing,
+        OnCreate = RecipeCodeOnCreate.smeltIronOrSteelLargePlus,
+        inputs
+        {
+            item 1 [Base.CeramicCrucible;Base.CeramicCrucibleSmall;Base.CeramicCrucible_Steel;Base.CeramicCrucibleSmall_Steel] mode:destroy flags[NotFull;ItemCount] mappers[SmeltMapper],
+            item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
+            item 4 tags[base:charcoal],
+            item 1 tags[morecarfeatures:smeltablesteellargeplus] mode:destroy flags[ItemCount;AllowDestroyedItem],
+        }
+        outputs
+        {
+            item 1 mapper:SmeltMapper,
+        }
+        itemMapper SmeltMapper
+        {
+            Base.CeramicCrucibleSmall_Steel = Base.CeramicCrucibleSmall,
+            Base.CeramicCrucibleSmall_Steel = Base.CeramicCrucibleSmall_Steel,
+            default = Base.CeramicCrucible_Steel,
+        }
+    }
+
+
+    craftRecipe ExtractSteelFromVeryLargeItem
+    {
+        time = 200,
+        Tags = AdvancedFurnace,
+        category = Blacksmithing,
+        inputs
+        {
+            item 1 [Base.CeramicCrucible] mode:keep flags[IsEmpty],
+            item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
+            item 12 tags[base:charcoal],
+            item 1 tags[morecarfeatures:smeltablesteelverylarge] mode:destroy flags[ItemCount;AllowDestroyedItem],
+        }
+        outputs
+        {
+            item 6 Base.SteelChunk,
+        }
+    }
+
+    craftRecipe SmeltVeryLargeSteelItem
+    {
+        time = 200,
+        Tags = Furnace,
+        category = Blacksmithing,
+        OnCreate = RecipeCodeOnCreate.smeltIronOrSteelVeryLarge,
+        inputs
+        {
+            item 1 [Base.CeramicCrucible;Base.CeramicCrucibleSmall;Base.CeramicCrucible_Steel;Base.CeramicCrucibleSmall_Steel] mode:destroy flags[NotFull;ItemCount] mappers[SmeltMapper],
+            item 1 tags[base:crudetongs;base:tongs] mode:keep flags[MayDegradeLight],
+            item 6 tags[base:charcoal],
+            item 1 tags[morecarfeatures:smeltablesteelverylarge] mode:destroy flags[ItemCount;AllowDestroyedItem],
+        }
+        outputs
+        {
+            item 1 mapper:SmeltMapper,
+        }
+        itemMapper SmeltMapper
+        {
+            Base.CeramicCrucibleSmall_Steel = Base.CeramicCrucibleSmall,
+            Base.CeramicCrucibleSmall_Steel = Base.CeramicCrucibleSmall_Steel,
+            default = Base.CeramicCrucible_Steel,
+        }
+    }
+
+
+
+
+    craftRecipe CraftVanillaVehicleOldTire1
+    {
+        time = 300,
+        Tags = InHandCraft;AnySurfaceCraft,
+        category = Mechanics,
+        recipeGroup = CraftWheel,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Maintenance:10;MetalWelding:2.5,
+        SkillRequired = Mechanics:1;MetalWelding:1,
+        inputs
+        {
+            item 4 [Base.TirePiece],
+            item 4 tags[base:glue],
+            item 1 [Base.IronBand;Base.Wire],
+            item 4 [Base.CeramicCrucible_Steel;Base.CeramicCrucibleSmall_Steel],
+            item 2 tags[base:smallsheetmetal],
+            item 1 [Base.NutsBolts],
+            item 5 [Base.BlowTorch] mode:keep flags[Prop1],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 tags[base:metalworkingpliers] mode:keep flags[MayDegradeLight;NoBrokenItems],
+            item 1 tags[base:drillmetal] mode:keep flags[MayDegradeLight;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.OldTire1,
+        }
+    }
+
+    craftRecipe CraftVanillaVehicleOldTire2
+    {
+        time = 300,
+        Tags = InHandCraft;AnySurfaceCraft,
+        category = Mechanics,
+        recipeGroup = CraftWheel,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Maintenance:20;MetalWelding:2.5,
+        SkillRequired = Mechanics:2;MetalWelding:1,
+        inputs
+        {
+            item 8 [Base.TirePiece],
+            item 8 tags[base:glue],
+            item 2 [Base.IronBand;Base.Wire],
+            item 6 [Base.CeramicCrucible_Steel;Base.CeramicCrucibleSmall_Steel],
+            item 2 tags[base:smallsheetmetal],
+            item 3 [Base.NutsBolts],
+            item 5 [Base.BlowTorch] mode:keep flags[Prop1],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 tags[base:metalworkingpliers] mode:keep flags[MayDegradeLight;NoBrokenItems],
+            item 1 tags[base:drillmetal] mode:keep flags[MayDegradeLight;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.OldTire2,
+        }
+    }
+
+    craftRecipe CraftVanillaVehicleOldTire3
+    {
+        time = 300,
+        Tags = InHandCraft;AnySurfaceCraft,
+        category = Mechanics,
+        recipeGroup = CraftWheel,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Maintenance:30;MetalWelding:2.5,
+        SkillRequired = Mechanics:3;MetalWelding:1,
+        inputs
+        {
+            item 6 [Base.TirePiece],
+            item 6 tags[base:glue],
+            item 1 [Base.IronBand;Base.Wire],
+            item 4 [Base.CeramicCrucible_Steel;Base.CeramicCrucibleSmall_Steel],
+            item 2 tags[base:smallsheetmetal],
+            item 2 [Base.NutsBolts],
+            item 5 [Base.BlowTorch] mode:keep flags[Prop1],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 tags[base:metalworkingpliers] mode:keep flags[MayDegradeLight;NoBrokenItems],
+            item 1 tags[base:drillmetal] mode:keep flags[MayDegradeLight;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.OldTire3,
+        }
+    }
+
+    craftRecipe CraftVanillaVehicleRegularTire1
+    {
+        time = 300,
+        Tags = InHandCraft;AnySurfaceCraft,
+        category = Mechanics,
+        recipeGroup = CraftWheel,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Maintenance:10;MetalWelding:5,
+        SkillRequired = Mechanics:4;MetalWelding:2,
+        inputs
+        {
+            item 4 [Base.TirePiece],
+            item 4 tags[base:glue],
+            item 2 [Base.IronBand;Base.Wire],
+            item 4 [Base.CeramicCrucible_Steel;Base.CeramicCrucibleSmall_Steel],
+            item 2 tags[base:smallsheetmetal],
+            item 2 [Base.NutsBolts],
+            item 5 [Base.BlowTorch] mode:keep flags[Prop1],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 tags[base:metalworkingpliers] mode:keep flags[MayDegradeLight;NoBrokenItems],
+            item 1 tags[base:drillmetal] mode:keep flags[MayDegradeLight;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.NormalTire1,
+        }
+    }
+
+    craftRecipe CraftVanillaVehicleRegularTire2
+    {
+        time = 300,
+        Tags = InHandCraft;AnySurfaceCraft,
+        category = Mechanics,
+        recipeGroup = CraftWheel,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Maintenance:20;MetalWelding:5,
+        SkillRequired = Mechanics:5;MetalWelding:2,
+        inputs
+        {
+            item 8 [Base.TirePiece],
+            item 8 tags[base:glue],
+            item 3 [Base.IronBand;Base.Wire],
+            item 6 [Base.CeramicCrucible_Steel;Base.CeramicCrucibleSmall_Steel],
+            item 2 tags[base:smallsheetmetal],
+            item 4 [Base.NutsBolts],
+            item 5 [Base.BlowTorch] mode:keep flags[Prop1],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 tags[base:metalworkingpliers] mode:keep flags[MayDegradeLight;NoBrokenItems],
+            item 1 tags[base:drillmetal] mode:keep flags[MayDegradeLight;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.NormalTire2,
+        }
+    }
+
+    craftRecipe CraftVanillaVehicleRegularTire3
+    {
+        time = 300,
+        Tags = InHandCraft;AnySurfaceCraft,
+        category = Mechanics,
+        recipeGroup = CraftWheel,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Maintenance:30;MetalWelding:5,
+        SkillRequired = Mechanics:6;MetalWelding:2,
+        inputs
+        {
+            item 6 [Base.TirePiece],
+            item 6 tags[base:glue],
+            item 2 [Base.IronBand;Base.Wire],
+            item 4 [Base.CeramicCrucible_Steel;Base.CeramicCrucibleSmall_Steel],
+            item 2 tags[base:smallsheetmetal],
+            item 3 [Base.NutsBolts],
+            item 5 [Base.BlowTorch] mode:keep flags[Prop1],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 tags[base:metalworkingpliers] mode:keep flags[MayDegradeLight;NoBrokenItems],
+            item 1 tags[base:drillmetal] mode:keep flags[MayDegradeLight;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.NormalTire3,
+        }
+    }
+
+    craftRecipe CraftVanillaVehiclePerformanceTire1
+    {
+        time = 300,
+        Tags = InHandCraft;AnySurfaceCraft,
+        category = Mechanics,
+        recipeGroup = CraftWheel,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Maintenance:10;MetalWelding:7.5,
+        SkillRequired = Mechanics:7;MetalWelding:3,
+        inputs
+        {
+            item 4 [Base.TirePiece],
+            item 4 tags[base:glue],
+            item 3 [Base.IronBand;Base.Wire],
+            item 4 [Base.CeramicCrucible_Steel;Base.CeramicCrucibleSmall_Steel],
+            item 2 tags[base:smallsheetmetal],
+            item 3 [Base.NutsBolts],
+            item 5 [Base.BlowTorch] mode:keep flags[Prop1],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 tags[base:metalworkingpliers] mode:keep flags[MayDegradeLight;NoBrokenItems],
+            item 1 tags[base:drillmetal] mode:keep flags[MayDegradeLight;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.ModernTire1,
+        }
+    }
+
+    craftRecipe CraftVanillaVehiclePerformanceTire2
+    {
+        time = 300,
+        Tags = InHandCraft;AnySurfaceCraft,
+        category = Mechanics,
+        recipeGroup = CraftWheel,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Maintenance:20;MetalWelding:7.5,
+        SkillRequired = Mechanics:8;MetalWelding:3,
+        inputs
+        {
+            item 8 [Base.TirePiece],
+            item 8 tags[base:glue],
+            item 4 [Base.IronBand;Base.Wire],
+            item 6 [Base.CeramicCrucible_Steel;Base.CeramicCrucibleSmall_Steel],
+            item 2 tags[base:smallsheetmetal],
+            item 5 [Base.NutsBolts],
+            item 5 [Base.BlowTorch] mode:keep flags[Prop1],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 tags[base:metalworkingpliers] mode:keep flags[MayDegradeLight;NoBrokenItems],
+            item 1 tags[base:drillmetal] mode:keep flags[MayDegradeLight;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.ModernTire2,
+        }
+    }
+
+    craftRecipe CraftVanillaVehiclePerformanceTire3
+    {
+        time = 300,
+        Tags = InHandCraft;AnySurfaceCraft,
+        category = Mechanics,
+        recipeGroup = CraftWheel,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Maintenance:30;MetalWelding:7.5,
+        SkillRequired = Mechanics:9;MetalWelding:3,
+        inputs
+        {
+            item 6 [Base.TirePiece],
+            item 6 tags[base:glue],
+            item 3 [Base.IronBand;Base.Wire],
+            item 4 [Base.CeramicCrucible_Steel;Base.CeramicCrucibleSmall_Steel],
+            item 2 tags[base:smallsheetmetal],
+            item 4 [Base.NutsBolts],
+            item 5 [Base.BlowTorch] mode:keep flags[Prop1],
+            item 1 tags[base:weldingmask] mode:keep,
+            item 1 tags[base:metalworkingpliers] mode:keep flags[MayDegradeLight;NoBrokenItems],
+            item 1 tags[base:drillmetal] mode:keep flags[MayDegradeLight;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.ModernTire3,
+        }
+    }
+
+
+
+
+    craftRecipe CraftVanillaVehicleFrontWindshield1GlassPanes
+	{
+        time = 300,
+        Tags = InHandCraft;AnySurfaceCraft,
+        category = Mechanics,
+        recipeGroup = CraftWindshield,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Maintenance:5;Glassmaking:40,
+        SkillRequired = Mechanics:5;Glassmaking:2,
+
+        inputs
+        {
+            item 3 [Base.GlassPanel],
+            item 4 tags[base:glue],
+            item 1 [Base.Scalpel] mode:keep flags[Prop1;MayDegradeLight;SharpnessCheck;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.Windshield1,
+        }
+	}
+    craftRecipe CraftVanillaVehicleFrontWindshield1MoltenGlass
+	{
+        time = 300,
+        Tags = InHandCraft;AnySurfaceCraft,
+        category = Mechanics,
+        recipeGroup = CraftWindshield,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Maintenance:2.5;Glassmaking:80,
+        SkillRequired = Mechanics:5;Glassmaking:4,
+
+        inputs
+        {
+            item 1 [Base.ClaySheetMold] mode:keep,
+            item 3 [Base.CeramicCrucibleWithGlass],
+            item 1 [Base.Scalpel] mode:keep flags[Prop1;MayDegradeLight;SharpnessCheck;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.Windshield1,
+        }
+	}
+
+    craftRecipe CraftVanillaVehicleFrontWindshield2GlassPanes
+	{
+        time = 300,
+        Tags = InHandCraft;AnySurfaceCraft,
+        category = Mechanics,
+        recipeGroup = CraftWindshield,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Maintenance:5;Glassmaking:40,
+        SkillRequired = Mechanics:6;Glassmaking:2,
+
+        inputs
+        {
+            item 4 [Base.GlassPanel],
+            item 4 tags[base:glue],
+            item 1 [Base.Scalpel] mode:keep flags[Prop1;MayDegradeLight;SharpnessCheck;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.Windshield2,
+        }
+	}
+    craftRecipe CraftVanillaVehicleFrontWindshield2MoltenGlass
+	{
+        time = 300,
+        Tags = InHandCraft;AnySurfaceCraft,
+        category = Mechanics,
+        recipeGroup = CraftWindshield,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Maintenance:2.5;Glassmaking:80,
+        SkillRequired = Mechanics:6;Glassmaking:4,
+
+        inputs
+        {
+            item 1 [Base.ClaySheetMold] mode:keep,
+            item 4 [Base.CeramicCrucibleWithGlass],
+            item 1 [Base.Scalpel] mode:keep flags[Prop1;MayDegradeLight;SharpnessCheck;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.Windshield2,
+        }
+	}
+
+    craftRecipe CraftVanillaVehicleFrontWindshield3GlassPanes
+	{
+        time = 300,
+        Tags = InHandCraft;AnySurfaceCraft,
+        category = Mechanics,
+        recipeGroup = CraftWindshield,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Maintenance:5;Glassmaking:40,
+        SkillRequired = Mechanics:7;Glassmaking:2,
+
+        inputs
+        {
+            item 3 [Base.GlassPanel],
+            item 4 tags[base:glue],
+            item 1 [Base.Scalpel] mode:keep flags[Prop1;MayDegradeLight;SharpnessCheck;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.Windshield3,
+        }
+	}
+    craftRecipe CraftVanillaVehicleFrontWindshield3MoltenGlass
+	{
+        time = 300,
+        Tags = InHandCraft;AnySurfaceCraft,
+        category = Mechanics,
+        recipeGroup = CraftWindshield,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Maintenance:2.5;Glassmaking:80,
+        SkillRequired = Mechanics:7;Glassmaking:4,
+
+        inputs
+        {
+            item 1 [Base.ClaySheetMold] mode:keep,
+            item 3 [Base.CeramicCrucibleWithGlass],
+            item 1 [Base.Scalpel] mode:keep flags[Prop1;MayDegradeLight;SharpnessCheck;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.Windshield3,
+        }
+	}
+
+
+    craftRecipe CraftVanillaVehicleRearWindshield1GlassPanes
+	{
+        time = 300,
+        Tags = InHandCraft;AnySurfaceCraft,
+        category = Mechanics,
+        recipeGroup = CraftWindshield,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Maintenance:5;Glassmaking:40,
+        SkillRequired = Mechanics:5;Glassmaking:2,
+
+        inputs
+        {
+            item 3 [Base.GlassPanel],
+            item 4 tags[base:glue],
+            item 1 [Base.Scalpel] mode:keep flags[Prop1;MayDegradeLight;SharpnessCheck;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.RearWindshield1,
+        }
+	}
+    craftRecipe CraftVanillaVehicleRearWindshield1MoltenGlass
+	{
+        time = 300,
+        Tags = InHandCraft;AnySurfaceCraft,
+        category = Mechanics,
+        recipeGroup = CraftWindshield,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Maintenance:2.5;Glassmaking:80,
+        SkillRequired = Mechanics:5;Glassmaking:4,
+
+        inputs
+        {
+            item 1 [Base.ClaySheetMold] mode:keep,
+            item 3 [Base.CeramicCrucibleWithGlass],
+            item 1 [Base.Scalpel] mode:keep flags[Prop1;MayDegradeLight;SharpnessCheck;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.RearWindshield1,
+        }
+	}
+
+    craftRecipe CraftVanillaVehicleRearWindshield2GlassPanes
+	{
+        time = 300,
+        Tags = InHandCraft;AnySurfaceCraft,
+        category = Mechanics,
+        recipeGroup = CraftWindshield,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Maintenance:5;Glassmaking:40,
+        SkillRequired = Mechanics:6;Glassmaking:2,
+
+        inputs
+        {
+            item 4 [Base.GlassPanel],
+            item 4 tags[base:glue],
+            item 1 [Base.Scalpel] mode:keep flags[Prop1;MayDegradeLight;SharpnessCheck;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.RearWindshield2,
+        }
+	}
+    craftRecipe CraftVanillaVehicleRearWindshield2MoltenGlass
+	{
+        time = 300,
+        Tags = InHandCraft;AnySurfaceCraft,
+        category = Mechanics,
+        recipeGroup = CraftWindshield,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Maintenance:2.5;Glassmaking:80,
+        SkillRequired = Mechanics:6;Glassmaking:4,
+
+        inputs
+        {
+            item 1 [Base.ClaySheetMold] mode:keep,
+            item 4 [Base.CeramicCrucibleWithGlass],
+            item 1 [Base.Scalpel] mode:keep flags[Prop1;MayDegradeLight;SharpnessCheck;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.RearWindshield2,
+        }
+	}
+
+    craftRecipe CraftVanillaVehicleRearWindshield3GlassPanes
+	{
+        time = 300,
+        Tags = InHandCraft;AnySurfaceCraft,
+        category = Mechanics,
+        recipeGroup = CraftWindshield,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Maintenance:5;Glassmaking:40,
+        SkillRequired = Mechanics:7;Glassmaking:2,
+
+        inputs
+        {
+            item 3 [Base.GlassPanel],
+            item 4 tags[base:glue],
+            item 1 [Base.Scalpel] mode:keep flags[Prop1;MayDegradeLight;SharpnessCheck;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.RearWindshield3,
+        }
+	}
+    craftRecipe CraftVanillaVehicleRearWindshield3MoltenGlass
+	{
+        time = 300,
+        Tags = InHandCraft;AnySurfaceCraft,
+        category = Mechanics,
+        recipeGroup = CraftWindshield,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Maintenance:2.5;Glassmaking:80,
+        SkillRequired = Mechanics:7;Glassmaking:4,
+
+        inputs
+        {
+            item 1 [Base.ClaySheetMold] mode:keep,
+            item 3 [Base.CeramicCrucibleWithGlass],
+            item 1 [Base.Scalpel] mode:keep flags[Prop1;MayDegradeLight;SharpnessCheck;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.RearWindshield3,
+        }
+	}
+
+
+
+    craftRecipe CraftVanillaVehicleFrontWindow1GlassPanes
+	{
+        time = 300,
+        Tags = InHandCraft;AnySurfaceCraft,
+        category = Mechanics,
+        recipeGroup = CraftMechWindow,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Maintenance:5;Glassmaking:20,
+        SkillRequired = Mechanics:2;Glassmaking:1,
+
+        inputs
+        {
+            item 1 [Base.GlassPanel],
+            item 1 [Base.Scalpel] mode:keep flags[Prop1;MayDegradeLight;SharpnessCheck;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.FrontWindow1,
+        }
+	}
+    craftRecipe CraftVanillaVehicleFrontWindow1MoltenGlass
+	{
+        time = 300,
+        Tags = InHandCraft;AnySurfaceCraft,
+        category = Mechanics,
+        recipeGroup = CraftMechWindow,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Maintenance:2.5;Glassmaking:60,
+        SkillRequired = Mechanics:2;Glassmaking:3,
+
+        inputs
+        {
+            item 1 [Base.ClaySheetMold] mode:keep,
+            item 1 [Base.CeramicCrucibleWithGlass],
+            item 1 [Base.Scalpel] mode:keep flags[Prop1;MayDegradeLight;SharpnessCheck;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.FrontWindow1,
+        }
+	}
+
+    craftRecipe CraftVanillaVehicleFrontWindow2GlassPanes
+	{
+        time = 300,
+        Tags = InHandCraft;AnySurfaceCraft,
+        category = Mechanics,
+        recipeGroup = CraftMechWindow,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Maintenance:5;Glassmaking:20,
+        SkillRequired = Mechanics:3;Glassmaking:1,
+
+        inputs
+        {
+            item 2 [Base.GlassPanel],
+            item 2 tags[base:glue],
+            item 1 [Base.Scalpel] mode:keep flags[Prop1;MayDegradeLight;SharpnessCheck;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.FrontWindow2,
+        }
+	}
+    craftRecipe CraftVanillaVehicleFrontWindow2MoltenGlass
+	{
+        time = 300,
+        Tags = InHandCraft;AnySurfaceCraft,
+        category = Mechanics,
+        recipeGroup = CraftMechWindow,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Maintenance:2.5;Glassmaking:40,
+        SkillRequired = Mechanics:3;Glassmaking:3,
+
+        inputs
+        {
+            item 1 [Base.ClaySheetMold] mode:keep,
+            item 2 [Base.CeramicCrucibleWithGlass],
+            item 1 [Base.Scalpel] mode:keep flags[Prop1;MayDegradeLight;SharpnessCheck;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.FrontWindow2,
+        }
+	}
+
+    craftRecipe CraftVanillaVehicleFrontWindow3GlassPanes
+	{
+        time = 300,
+        Tags = InHandCraft;AnySurfaceCraft,
+        category = Mechanics,
+        recipeGroup = CraftMechWindow,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Maintenance:5;Glassmaking:20,
+        SkillRequired = Mechanics:4;Glassmaking:1,
+
+        inputs
+        {
+            item 1 [Base.GlassPanel],
+            item 1 [Base.Scalpel] mode:keep flags[Prop1;MayDegradeLight;SharpnessCheck;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.FrontWindow3,
+        }
+	}
+    craftRecipe CraftVanillaVehicleFrontWindow3MoltenGlass
+	{
+        time = 300,
+        Tags = InHandCraft;AnySurfaceCraft,
+        category = Mechanics,
+        recipeGroup = CraftMechWindow,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Maintenance:2.5;Glassmaking:40,
+        SkillRequired = Mechanics:4;Glassmaking:3,
+
+        inputs
+        {
+            item 1 [Base.ClaySheetMold] mode:keep,
+            item 1 [Base.CeramicCrucibleWithGlass],
+            item 1 [Base.Scalpel] mode:keep flags[Prop1;MayDegradeLight;SharpnessCheck;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.FrontWindow3,
+        }
+	}
+
+
+    craftRecipe CraftVanillaVehicleRearWindow1GlassPanes
+	{
+        time = 300,
+        Tags = InHandCraft;AnySurfaceCraft,
+        category = Mechanics,
+        recipeGroup = CraftMechWindow,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Maintenance:5;Glassmaking:20,
+        SkillRequired = Mechanics:2;Glassmaking:1,
+
+        inputs
+        {
+            item 1 [Base.GlassPanel],
+            item 1 [Base.Scalpel] mode:keep flags[Prop1;MayDegradeLight;SharpnessCheck;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.RearWindow1,
+        }
+	}
+    craftRecipe CraftVanillaVehicleRearWindow1MoltenGlass
+	{
+        time = 300,
+        Tags = InHandCraft;AnySurfaceCraft,
+        category = Mechanics,
+        recipeGroup = CraftMechWindow,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Maintenance:2.5;Glassmaking:60,
+        SkillRequired = Mechanics:2;Glassmaking:3,
+
+        inputs
+        {
+            item 1 [Base.ClaySheetMold] mode:keep,
+            item 1 [Base.CeramicCrucibleWithGlass],
+            item 1 [Base.Scalpel] mode:keep flags[Prop1;MayDegradeLight;SharpnessCheck;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.RearWindow1,
+        }
+	}
+
+    craftRecipe CraftVanillaVehicleRearWindow2GlassPanes
+	{
+        time = 300,
+        Tags = InHandCraft;AnySurfaceCraft,
+        category = Mechanics,
+        recipeGroup = CraftMechWindow,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Maintenance:5;Glassmaking:20,
+        SkillRequired = Mechanics:3;Glassmaking:1,
+
+        inputs
+        {
+            item 2 [Base.GlassPanel],
+            item 2 tags[base:glue],
+            item 1 [Base.Scalpel] mode:keep flags[Prop1;MayDegradeLight;SharpnessCheck;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.RearWindow2,
+        }
+	}
+    craftRecipe CraftVanillaVehicleRearWindow2MoltenGlass
+	{
+        time = 300,
+        Tags = InHandCraft;AnySurfaceCraft,
+        category = Mechanics,
+        recipeGroup = CraftMechWindow,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Maintenance:2.5;Glassmaking:40,
+        SkillRequired = Mechanics:3;Glassmaking:3,
+
+        inputs
+        {
+            item 1 [Base.ClaySheetMold] mode:keep,
+            item 2 [Base.CeramicCrucibleWithGlass],
+            item 1 [Base.Scalpel] mode:keep flags[Prop1;MayDegradeLight;SharpnessCheck;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.RearWindow2,
+        }
+	}
+
+    craftRecipe CraftVanillaVehicleRearWindow3GlassPanes
+	{
+        time = 300,
+        Tags = InHandCraft;AnySurfaceCraft,
+        category = Mechanics,
+        recipeGroup = CraftMechWindow,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Maintenance:5;Glassmaking:20,
+        SkillRequired = Mechanics:4;Glassmaking:1,
+
+        inputs
+        {
+            item 1 [Base.GlassPanel],
+            item 1 [Base.Scalpel] mode:keep flags[Prop1;MayDegradeLight;SharpnessCheck;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.RearWindow3,
+        }
+	}
+    craftRecipe CraftVanillaVehicleRearWindow3MoltenGlass
+	{
+        time = 300,
+        Tags = InHandCraft;AnySurfaceCraft,
+        category = Mechanics,
+        recipeGroup = CraftMechWindow,
+        timedAction = Making,
+        NeedToBeLearn = true,
+        xpAward = Maintenance:2.5;Glassmaking:40,
+        SkillRequired = Mechanics:4;Glassmaking:3,
+
+        inputs
+        {
+            item 1 [Base.ClaySheetMold] mode:keep,
+            item 1 [Base.CeramicCrucibleWithGlass],
+            item 1 [Base.Scalpel] mode:keep flags[Prop1;MayDegradeLight;SharpnessCheck;NoBrokenItems],
+        }
+        outputs
+        {
+            item 1 Base.RearWindow3,
+        }
+	}
+}

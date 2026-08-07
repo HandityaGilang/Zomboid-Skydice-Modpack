@@ -1,0 +1,11 @@
+{
+    "Base.BattleShip_Box": "Battleship Box",
+    "Base.BattleShip_GameStand": "Battleship Gamestand",
+    "Base.BattleShip_Peg_Red": "Rød knagg",
+    "Base.BattleShip_Peg_White": "Hvit knagg",
+    "Base.BattleShip_Ship_Battleship": "Slagskip",
+    "Base.BattleShip_Ship_Carrier": "Transportør",
+    "Base.BattleShip_Ship_Destroyer": "Destroyer",
+    "Base.BattleShip_Ship_Submarine": "Undervannsbåt",
+    "Base.BattleShip_Ship_PatrolBoat": "Patruljebåt"
+}

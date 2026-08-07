@@ -1,0 +1,20 @@
+UI_NL = {
+	UI_XP_NB_xpShow = "Recept-XP weergeven",
+	UI_XP_NB_xpShow_tooltip = "Schakelt de weergave van recept-XP in. <LINE> 'XP-weergaveformaat' bepaalt hoe deze informatie wordt weergegeven. <LINE> <LINE><RGB:0.392,0.584,0.929> Beschikbare formaten: <LINE><RGB:1,1,1> - Basis-XP: Toont basis-XP (geen vermenigvuldigers). <LINE> - Definitieve XP: Toont XP na alle vermenigvuldigers. <LINE> - Vermenigvuldiger: Toont de totale vermenigvuldiger op de basis-XP en de uiteindelijke XP (BaseXP * multiplier = FinalXP). <LINE> - Uitsplitsing: Toont de basis-XP, een gedetailleerde uitsplitsing van alle vermenigvuldigers en de uiteindelijke XP. <LINE><LINE><RGB:0.392,0.584,0.929> De factoren zijn: <LINE><RGB:1,1,1> - Startniveau-vermenigvuldiger: Niveau 0 (x0.25), Niveau 1 (x1.00), Niveau 2 (x1.33), Niveau 3+ (x1.66) <LINE> - Vaardigheidsboek-vermenigvuldiger: Boeken 1-5 (x3, x5, x8, x12, x16). De helft daarvan voor Aiming, Reloading en Long Blade. <LINE> - Trait-vermenigvuldiger: Snelle leerling (x1.3), Trage leerling (x0.7), Crafty (x1.3 alleen wanneer de vaardigheid tot de categorie Handwerk  behoort). In Uitsplitsing worden Snelle leerling/Trage leerling en Crafty samengevoegd tot één trait-vermenigvuldiger. <LINE> - Sandboxopties-vermenigvuldiger: Een globale waarde of een specifieke waarde per vaardigheidstype.",
+	UI_XP_NB_xpFormat = "XP-weergaveformaat",
+	UI_XP_NB_xpFormat_tooltip = "XP-weergaveformaat",
+	UI_XP_NB_xpFormat_BasicXP = "Basis-XP",
+	UI_XP_NB_xpFormat_FinalXP = "Definitieve XP",
+	UI_XP_NB_xpFormat_Multiplier = "Vermenigvuldiger",
+	UI_XP_NB_xpFormat_Breakdown = "Uitsplitsing",
+
+	UI_XP_NB_showRecipeMod = "Recept-mod weergeven",
+	UI_XP_NB_showRecipeMod_tooltip = "Toont de bron-mod van elk recept als de ‘Mod’-regel in het receptenpaneel.",
+
+	UI_XP_NB_textScale = "Tekstschaal voor extra regels",
+	UI_XP_NB_textScale_tooltip = "Lettergrootte voor de XP-regels en de ‘Mod’-regel.",
+
+	UI_XP_NB_modPrefix = "Mod: ",
+	UI_XP_NB_modNeat = "Neat Building",
+	UI_XP_NB_modOther = "Overig",
+}

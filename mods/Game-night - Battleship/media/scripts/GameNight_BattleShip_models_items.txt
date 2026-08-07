@@ -1,0 +1,55 @@
+module Base
+{
+
+	model WorldItem-Battleship_Box
+	{
+		mesh =  WorldItems/Battleship_Box,
+		texture = Items\Battleship_Boxart,
+	}
+	model WorldItem-Battleship_Stand_Open
+	{
+		mesh =  WorldItems/Battleship_Stand_Open,
+		texture = Items\Battleship_Game,
+	}	
+	model WorldItem-Battleship_Stand_Closed
+	{
+		mesh =  WorldItems/Battleship_Stand_Closed,
+		texture = Items\Battleship_Game_Closed,
+	}
+	model WorldItem-Battleship_Battleship
+	{
+		mesh =  WorldItems/Battleship_Battleship,
+		texture = Items\Battleship_Battleship,
+	}
+	model WorldItem-Battleship_Carrier
+	{
+		mesh =  WorldItems/Battleship_Carrier,
+		texture = Items\Battleship_Carrier,
+	}
+	model WorldItem-Battleship_Destroyer
+	{
+		mesh =  WorldItems/Battleship_Destroyer,
+		texture = Items\Battleship_Destroyer,
+	}
+	model WorldItem-Battleship_PatrolBoat
+	{
+		mesh =  WorldItems/Battleship_PatrolBoat,
+		texture = Items\Battleship_Patrolboat,
+	}
+	model WorldItem-Battleship_Submarine
+	{
+		mesh =  WorldItems/Battleship_Submarine,
+		texture = Items\Battleship_Submarine,
+	}
+	model WorldItem-Battleship_Peg_White
+	{
+		mesh =  WorldItems/Battleship_Peg,
+		texture = Items\BattleshipPeg_White,
+	}
+	model WorldItem-Battleship_Peg_Red
+	{
+		mesh =  WorldItems/Battleship_Peg,
+		texture = Items\BattleshipPeg_Red,
+	}		
+
+}

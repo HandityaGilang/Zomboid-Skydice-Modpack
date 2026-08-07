@@ -1,0 +1,62 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Wood_ModernRedStairs
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_WoodenModernRedStairs,
+			Icon		= Build_fixtures_stairs_01_26,
+		}
+	}
+
+    entity Wood_ModernRedStairs
+    {
+        component UiConfig
+                {
+                    xuiSkin         = default,
+                    entityStyle     = ES_Wood_ModernRedStairs,
+                    uiEnabled       = false,
+                }
+
+        component SpriteConfig
+        {
+        	OnCreate = BuildRecipeCode.stairs.OnCreate,
+        	OnIsValid = BuildRecipeCode.stairs.OnIsValid,
+
+            face S
+            {
+                layer
+                {
+                    row = fixtures_stairs_01_18 fixtures_stairs_01_17 fixtures_stairs_01_16,
+                }
+            }
+            face W
+            {
+                layer
+                {
+                    row = fixtures_stairs_01_26,
+                    row = fixtures_stairs_01_25,
+                    row = fixtures_stairs_01_24,
+                }
+            }
+        }
+        
+        component CraftRecipe
+        {
+            OnAddToMenu   = ignoreFromBuildMenu,
+            timedAction   = BuildWallHammer,
+            time          = 200,
+            SkillRequired = Woodwork:7,
+            xpAward       = Woodwork:70,
+            category      = Stairs,
+            ToolTip       = Tooltip_craft_stairsDesc,
+            inputs
+            {
+                item 1 tags[base:hammer] mode:keep flags[Prop1;MayDegradeVeryLight],
+                item 13 [Base.Plank],
+                item 8 [Base.Nails],
+            }
+        }
+    }
+}

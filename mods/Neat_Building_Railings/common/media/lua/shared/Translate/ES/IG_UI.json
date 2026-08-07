@@ -1,0 +1,5 @@
+{
+    "IGUI_NB_ModOptions_Title": "Neat Building",
+    "IGUI_NB_ModOptions_UseNeatBuildingUI": "Usar la interfaz de Neat Building",
+    "IGUI_NB_ModOptions_UseNeatBuildingUI_Tooltip": "Activa el menú de construcción de Neat Building y sus ajustes relacionados. Desactívalo para usar la interfaz de construcción vanilla."
+}

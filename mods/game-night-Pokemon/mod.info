@@ -1,0 +1,6 @@
+name=Game Night - Poke Trading Card Game
+id=gamenight_PokeTCG
+description=Unofficial Fan Content
+poster=poster.png
+require=gamenight
+icon=icon.png

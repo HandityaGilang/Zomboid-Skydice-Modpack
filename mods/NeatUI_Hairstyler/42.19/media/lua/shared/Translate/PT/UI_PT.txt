@@ -1,0 +1,8 @@
+UI_PT = {
+	UI_characreation_character = "Personagem",
+	UI_IHM_UseImprovedHairPicker = "Seletor de cores melhorado",
+	UI_IHM_UseImprovedHairPicker_Tooltip = "LIGADO: todas as cores.<br>DESLIGADO: cores vanilla.",
+	UI_IHM_Source_Vanilla = "Vanilla",
+	UI_IHM_Source_All = "Todas",
+	UI_IHM_Controls = "Controlos",
+}

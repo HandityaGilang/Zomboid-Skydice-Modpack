@@ -1,0 +1,17 @@
+{
+    "UI_XP_NB_xpShow": "XP表示",
+    "UI_XP_NB_xpShow_tooltip": "レシピXPの表示を有効にします。 <LINE> 「XP表示フォーマット」でこの情報の表示方法を定義します。 <LINE> <LINE><RGB:0.392,0.584,0.929> 利用可能な形式: <LINE><RGB:1,1,1> - 基本XP: 基礎XPを表示します（倍率なし）。 <LINE> - 最終XP: すべての倍率適用後のXPを表示します。 <LINE> - 乗数: 基礎XPに適用される合計倍率と最終XPを表示します（BaseXP * multiplier = FinalXP）。 <LINE> - 内訳: 基礎XP、すべての倍率の詳細な内訳、最終XPを表示します。 <LINE><LINE><RGB:0.392,0.584,0.929> 要素: <LINE><RGB:1,1,1> - 初期レベル倍率: レベル0 (x0.25)、レベル1 (x1.00)、レベル2 (x1.33)、レベル3以上 (x1.66) <LINE> - スキル本倍率: 本1～5 (x3, x5, x8, x12, x16)。Aiming、Reloading、Long Blade は半分。 <LINE> - 特性倍率: 賢者 (x1.3)、愚者 (x0.7)、Crafty（スキルが製作カテゴリに属する場合のみ x1.3）。内訳 では 賢者/愚者 と Crafty は1つの特性倍率にまとめられます。 <LINE> - サンドボックス設定倍率: 全体の値、またはスキル種別ごとの値。",
+    "UI_XP_NB_xpFormat": "XP表示フォーマット",
+    "UI_XP_NB_xpFormat_tooltip": "XP表示フォーマット",
+    "UI_XP_NB_xpFormat_BasicXP": "基本XP",
+    "UI_XP_NB_xpFormat_FinalXP": "最終XP",
+    "UI_XP_NB_xpFormat_Multiplier": "乗数",
+    "UI_XP_NB_xpFormat_Breakdown": "内訳",
+    "UI_XP_NB_showRecipeMod": "レシピのModを表示",
+    "UI_XP_NB_showRecipeMod_tooltip": "レシピパネルにレシピの出典Modを「Mod」行として表示します。",
+    "UI_XP_NB_textScale": "追加行の文字サイズ",
+    "UI_XP_NB_textScale_tooltip": "XP行と「Mod」行のフォントサイズ。",
+    "UI_XP_NB_modPrefix": "Mod: ",
+    "UI_XP_NB_modNeat": "Neat Building",
+    "UI_XP_NB_modOther": "その他"
+}

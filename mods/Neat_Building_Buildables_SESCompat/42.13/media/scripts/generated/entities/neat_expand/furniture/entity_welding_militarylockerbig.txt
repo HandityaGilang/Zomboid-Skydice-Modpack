@@ -1,0 +1,74 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Welding_MilitaryLockerBig
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_MilitaryMetalLocker,
+			Icon		= Build_location_military_generic_01_22,
+		}
+	}
+
+    entity Metal_Welding_MilitaryLockerBig
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Welding_MilitaryLockerBig,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+            canBePadlocked = true,
+            face W
+            {
+                layer
+                {
+                    row = location_military_generic_01_23,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = location_military_generic_01_22,
+                }
+            }
+            face E
+            {
+                layer
+                {
+                    row = location_military_generic_01_31,
+                }
+            }
+            face S
+            {
+                layer
+                {
+                    row = location_military_generic_01_30,
+                }
+            }
+        }
+        
+        component CraftRecipe
+        {
+            OnAddToMenu   = ignoreFromBuildMenu,
+            timedAction   = BuildMetalStructureMedium,
+            time          = 50,
+            SkillRequired = MetalWelding:10,
+            xpAward       = MetalWelding:100,
+            category      = Furniture,
+            ToolTip       = Tooltip_craft_lockerDesc,
+            inputs
+            {
+                item 4 [Base.BlowTorch] flags[DontRecordInput],
+                item 4 [Base.SmallSheetMetal],
+                item 8 [Base.MetalPipe],
+                item 2 [Base.Hinge],
+                item 4 [Base.WeldingRods] flags[DontRecordInput],
+            }
+        }
+    }
+}

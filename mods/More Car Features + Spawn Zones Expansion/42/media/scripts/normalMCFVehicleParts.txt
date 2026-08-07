@@ -1,0 +1,197 @@
+module Base
+{
+    item NormalSuspension1
+    {
+        Tags = base:hasmetal;base:smeltablesteellarge,
+    }
+
+    item ModernSuspension1
+    {
+        Tags = base:hasmetal;base:smeltablesteellarge,
+    }
+
+    item NormalSuspension2
+    {
+        Tags = base:hasmetal;morecarfeatures:smeltablesteellargeplus,
+    }
+
+    item ModernSuspension2
+    {
+        Tags = base:hasmetal;morecarfeatures:smeltablesteellargeplus,
+    }
+
+    item NormalSuspension3
+    {
+        Tags = base:hasmetal;base:smeltablesteellarge,
+    }
+
+    item ModernSuspension3
+    {
+        Tags = base:hasmetal;base:smeltablesteellarge,
+    }
+
+    item SmallGasTank1
+    {
+        Tags = base:hasmetal;base:smeltablesteellarge,
+    }
+
+    item NormalGasTank1
+    {
+        Tags = base:hasmetal;morecarfeatures:smeltablesteellargeplus,
+    }
+
+    item BigGasTank1
+    {
+        Tags = base:hasmetal;morecarfeatures:smeltablesteellargeplus,
+    }
+
+    item SmallGasTank2
+    {
+        Tags = base:hasmetal;morecarfeatures:smeltablesteellargeplus,
+    }
+
+    item NormalGasTank2
+    {
+        Tags = base:hasmetal;morecarfeatures:smeltablesteelverylarge,
+    }
+
+    item BigGasTank2
+    {
+        Tags = base:hasmetal;morecarfeatures:smeltablesteelverylarge,
+    }
+
+    item SmallGasTank3
+    {
+        Tags = base:hasmetal;base:smeltablesteellarge,
+    }
+
+    item NormalGasTank3
+    {
+        Tags = base:hasmetal;base:smeltablesteellarge,
+    }
+
+    item BigGasTank3
+    {
+        Tags = base:hasmetal;morecarfeatures:smeltablesteellargeplus,
+    }
+
+    item FrontCarDoor1
+    {
+        Tags = base:hasmetal;morecarfeatures:smeltablesteellargeplus,
+    }
+
+    item RearCarDoor1
+    {
+        Tags = base:hasmetal;morecarfeatures:smeltablesteellargeplus,
+    }
+
+    item RearCarDoorDouble1
+    {
+        Tags = base:hasmetal;morecarfeatures:smeltablesteelverylarge,
+    }
+
+    item FrontCarDoor2
+    {
+        Tags = base:hasmetal;morecarfeatures:smeltablesteellargeplus,
+    }
+
+    item RearCarDoor2
+    {
+        Tags = base:hasmetal;morecarfeatures:smeltablesteellargeplus,
+    }
+
+    item RearCarDoorDouble2
+    {
+        Tags = base:hasmetal;morecarfeatures:smeltablesteelverylarge,
+    }
+
+    item FrontCarDoor3
+    {
+        Tags = base:hasmetal;morecarfeatures:smeltablesteellargeplus,
+    }
+
+    item RearCarDoor3
+    {
+        Tags = base:hasmetal;morecarfeatures:smeltablesteellargeplus,
+    }
+
+    item RearCarDoorDouble3
+    {
+        Tags = base:hasmetal;morecarfeatures:smeltablesteelverylarge,
+    }
+
+    item EngineDoor1
+    {
+        Tags = base:hasmetal;morecarfeatures:smeltablesteellargeplus,
+    }
+
+    item EngineDoor2
+    {
+        Tags = base:hasmetal;morecarfeatures:smeltablesteellargeplus,
+    }
+
+    item EngineDoor3
+    {
+        Tags = base:hasmetal;morecarfeatures:smeltablesteellargeplus,
+    }
+
+    item TrunkDoor1
+    {
+        Tags = base:hasmetal;morecarfeatures:smeltablesteellargeplus,
+    }
+
+    item TrunkDoor2
+    {
+        Tags = base:hasmetal;morecarfeatures:smeltablesteellargeplus,
+    }
+
+    item TrunkDoor3
+    {
+        Tags = base:hasmetal;morecarfeatures:smeltablesteellargeplus,
+    }
+
+    item OldCarMuffler1
+    {
+        Tags = base:hasmetal;base:smeltablesteellarge,
+    }
+
+    item NormalCarMuffler1
+    {
+        Tags = base:hasmetal;base:smeltablesteellarge,
+    }
+
+    item ModernCarMuffler1
+    {
+        Tags = base:hasmetal;base:smeltablesteellarge,
+    }
+
+    item OldCarMuffler2
+    {
+        Tags = base:hasmetal;morecarfeatures:smeltablesteellargeplus,
+    }
+
+    item NormalCarMuffler2
+    {
+        Tags = base:hasmetal;morecarfeatures:smeltablesteellargeplus,
+    }
+
+    item ModernCarMuffler2
+    {
+        Tags = base:hasmetal;morecarfeatures:smeltablesteellargeplus,
+    }
+
+    item OldCarMuffler3
+    {
+        Tags = base:hasmetal;base:smeltablesteellarge,
+    }
+
+    item NormalCarMuffler3
+    {
+        Tags = base:hasmetal;base:smeltablesteellarge,
+    }
+
+    item ModernCarMuffler3
+    {
+        Tags = base:hasmetal;base:smeltablesteellarge,
+    }
+}

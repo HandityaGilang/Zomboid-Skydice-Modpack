@@ -1,0 +1,19 @@
+{
+    "Sandbox_MoreImmersiveVehicles": "More Immersive Vehicles",
+    "Sandbox_ParkOpenedDoorChance": "Chance de porta aberta no estacionamento",
+    "Sandbox_ParkOpenedDoorChance_tooltip": "Chance de uma porta aberta em um veículo que apareceu na vaga de estacionamento.",
+    "Sandbox_ParkOpenedTrunkDoorChance": "Chance de porta-malas aberto no estacionamento",
+    "Sandbox_ParkOpenedTrunkDoorChance_tooltip": "Chance de um porta-malas aberto em um veículo que apareceu na vaga de estacionamento.",
+    "Sandbox_ParkOpenedEngineDoorChance": "Chance de capô aberto no estacionamento",
+    "Sandbox_ParkOpenedEngineDoorChance_tooltip": "Chance de um capô aberto em um veículo que apareceu na vaga de estacionamento.",
+    "Sandbox_ParkOpenedWindowChance": "Chance de janela aberta no estacionamento",
+    "Sandbox_ParkOpenedWindowChance_tooltip": "Chance de uma janela aberta em um veículo que apareceu na vaga de estacionamento.",
+    "Sandbox_RoadOpenedDoorChance": "Chance de porta aberta na estrada",
+    "Sandbox_RoadOpenedDoorChance_tooltip": "Chance de uma porta aberta em um veículo que apareceu na estrada ou em um engarrafamento.",
+    "Sandbox_RoadOpenedTrunkDoorChance": "Chance de porta-malas aberto na estrada",
+    "Sandbox_RoadOpenedTrunkDoorChance_tooltip": "Chance de um porta-malas aberto em um veículo que apareceu na estrada ou em um engarrafamento.",
+    "Sandbox_RoadOpenedEngineDoorChance": "Chance de capô aberto na estrada",
+    "Sandbox_RoadOpenedEngineDoorChance_tooltip": "Chance de um capô aberto em um veículo que apareceu na estrada ou em um engarrafamento.",
+    "Sandbox_RoadOpenedWindowChance": "Chance de janela aberta na estrada",
+    "Sandbox_RoadOpenedWindowChance_tooltip": "Chance de uma janela aberta em um veículo que apareceu na estrada ou em um engarrafamento."
+}

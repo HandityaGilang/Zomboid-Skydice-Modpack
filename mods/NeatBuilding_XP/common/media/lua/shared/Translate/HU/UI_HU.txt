@@ -1,0 +1,17 @@
+UI_HU = {
+	UI_XP_NB_xpShow = "Recept TP megjelenítése",
+	UI_XP_NB_xpShow_tooltip = "Engedélyezi a receptek XP-jének megjelenítését. <LINE> A(z) 'TP megjelenítési formátuma' határozza meg, hogyan jelenik meg ez az információ. <LINE> <LINE><RGB:0.392,0.584,0.929> Elérhető formátumok: <LINE><RGB:1,1,1> - Alap TP: Az alap XP-t mutatja (nincsenek szorzók). <LINE> - Végső TP: Az XP-t mutatja minden szorzó után. <LINE> - Szorzó: Az alap XP-re alkalmazott teljes szorzót és a végső XP-t mutatja (BaseXP * multiplier = FinalXP). <LINE> - Részletezés: Az alap XP-t, az összes szorzó részletes bontását és a végső XP-t mutatja. <LINE><LINE><RGB:0.392,0.584,0.929> A tényezők: <LINE><RGB:1,1,1> - Kezdő szint szorzó: Szint 0 (x0.25), Szint 1 (x1.00), Szint 2 (x1.33), Szint 3+ (x1.66) <LINE> - Képességkönyv szorzó: Könyvek 1-5 (x3, x5, x8, x12, x16). Ennek a fele Aiming, Reloading és Long Blade esetén. <LINE> - Tulajdonság szorzó: Gyorsan tanuló (x1.3), Lassan tanuló (x0.7), Crafty (x1.3 csak ha a képesség a(z) Ügyesség kategóriába tartozik). A Részletezés nézetben a Gyorsan tanuló/Lassan tanuló és a Crafty egyetlen tulajdonság-szorzóvá van összevonva. <LINE> - Sandbox beállítások szorzó: Globális érték, vagy külön érték képességtípusonként.",
+	UI_XP_NB_xpFormat = "TP megjelenítési formátuma",
+	UI_XP_NB_xpFormat_tooltip = "TP megjelenítési formátuma",
+	UI_XP_NB_xpFormat_BasicXP = "Alap TP",
+	UI_XP_NB_xpFormat_FinalXP = "Végső TP",
+	UI_XP_NB_xpFormat_Multiplier = "Szorzó",
+	UI_XP_NB_xpFormat_Breakdown = "Részletezés",
+	UI_XP_NB_showRecipeMod = "Recept modjának megjelenítése",
+	UI_XP_NB_showRecipeMod_tooltip = "Megjeleníti minden recept forrás-modját a „Mod” sorban a recept panelen.",
+	UI_XP_NB_textScale = "Extra sorok szövegének méretezése",
+	UI_XP_NB_textScale_tooltip = "Betűméret a TP- és „Mod” sorokhoz.",
+	UI_XP_NB_modPrefix = "Mod: ",
+	UI_XP_NB_modNeat = "Neat Building",
+	UI_XP_NB_modOther = "Egyéb",
+}

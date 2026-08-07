@@ -1,0 +1,128 @@
+module Base
+{
+    model GSVU4_Rack_CarNormal
+    {
+        mesh = vehicles/CarNormalArmor|roofrack,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_Rack_CarWagon
+    {
+        mesh = vehicles/CarWagonArmor|roofrack,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_Rack_SmallCar
+    {
+        mesh = vehicles/SmallCarArmor|roofrack,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_Rack_SmallCar02
+    {
+        mesh = vehicles/SmallCar02Armor|roofrack,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_RackFallbackModel_SmallCar02
+    {
+        mesh = vehicles/SmallCar02Armor|roofrack,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_Rack_LuxuryCar
+    {
+        mesh = vehicles/LuxuryCarArmor|roofrack,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_Rack_SportsCar
+    {
+        mesh = vehicles/SportsCarArmor|roofrack,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_Rack_RaceCar
+    {
+        mesh = vehicles/SportsCarArmor|roofrack,
+        texture = Vehicles/puv_parts,
+        scale = 0.0001,
+    }
+
+    model GSVU4_RackFallbackModel_RaceCar
+    {
+        mesh = vehicles/SportsCarArmor|roofrack,
+        texture = Vehicles/puv_parts,
+        scale = 0.00529,
+    }
+
+    model GSVU4_Rack_CarModern
+    {
+        mesh = vehicles/CarModernArmor|roofrack,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_Rack_CarModern2
+    {
+        mesh = vehicles/CarModern2Armor|roofrack,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_Rack_SUV
+    {
+        mesh = vehicles/SUVArmor|roofrack,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_Rack_OffRoad
+    {
+        mesh = vehicles/OffRoadArmor|roofrack,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_Rack_PickUp
+    {
+        mesh = vehicles/PickUpArmor|roofrack,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_Rack_StepVan
+    {
+        mesh = vehicles/StepVanArmor|roofrack,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_Rack_Van
+    {
+        mesh = vehicles/VanArmor|roofrack,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_Rack_DashRoamer
+    {
+        mesh = vehicles/DashRoamerArmor|roofrack,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+    model GSVU4_Rack_GMCVan
+    {
+        mesh = vehicles/GMCVanArmor|roofrack,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+}

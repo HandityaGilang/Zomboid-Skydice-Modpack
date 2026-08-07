@@ -1,0 +1,11 @@
+{
+    "Base.BattleShip_Box": "Коробка с линкором",
+    "Base.BattleShip_GameStand": "Игровой стенд линкора",
+    "Base.BattleShip_Peg_Red": "Красный Пег",
+    "Base.BattleShip_Peg_White": "Белый колышек",
+    "Base.BattleShip_Ship_Battleship": "Линкор",
+    "Base.BattleShip_Ship_Carrier": "Перевозчик",
+    "Base.BattleShip_Ship_Destroyer": "Разрушитель",
+    "Base.BattleShip_Ship_Submarine": "Подводная лодка",
+    "Base.BattleShip_Ship_PatrolBoat": "Патрульный катер"
+}

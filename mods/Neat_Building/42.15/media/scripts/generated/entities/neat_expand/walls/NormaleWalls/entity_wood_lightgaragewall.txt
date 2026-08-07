@@ -1,0 +1,67 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Wood_LightGarageWall
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_LightGarageWall,
+			Icon		= Build_walls_garage_01_37,
+		}
+	}
+
+    entity Wood_LightGarageWall
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Wood_LightGarageWall,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+			LogicClass      = WoodenWall,
+			health          = 650,
+       		skillBaseHealth = 20,
+			previousStage   = WoodenWallFrame;MetalWallFrame,
+			breakSound      = ZombieThumpWoodCollapse,
+            OnCreate        = NB_BuildRecipeCode.NewWall.OnCreate,
+
+            face W
+            {
+                layer
+                {
+                    row = walls_garage_01_36,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = walls_garage_01_37,
+                }
+            }
+			
+            corner = walls_garage_01_39,
+        }
+		
+        component CraftRecipe
+        {
+            timedAction   = BuildWallNoTool,
+            time          = 200,
+            category      = Walls,
+            SkillRequired = Woodwork:5,
+            xpAward       = Woodwork:50,
+			ToolTip       = Tooltip_craft_doorFrameDesc,
+            inputs
+            {
+                item 1 tags[PlasterTrowel;MasonsTrowel] mode:keep flags[Prop1],
+                item 1 tags[base:hammer] mode:keep flags[Prop2;MayDegradeVeryLight],
+                item 1 [Base.BucketPlasterFull] flags[DontRecordInput],
+                item 4 [Base.Plank],
+                item 4 [Base.Nails],
+            }
+        }
+    }
+}

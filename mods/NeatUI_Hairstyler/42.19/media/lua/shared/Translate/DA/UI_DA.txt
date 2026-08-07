@@ -1,0 +1,8 @@
+UI_DA = {
+	UI_characreation_character = "Karakter",
+	UI_IHM_UseImprovedHairPicker = "Forbedret farvevælger",
+	UI_IHM_UseImprovedHairPicker_Tooltip = "TIL: alle farver.<br>FRA: vanilla-farver.",
+	UI_IHM_Source_Vanilla = "Vanilla",
+	UI_IHM_Source_All = "Alle",
+	UI_IHM_Controls = "Kontroller",
+}

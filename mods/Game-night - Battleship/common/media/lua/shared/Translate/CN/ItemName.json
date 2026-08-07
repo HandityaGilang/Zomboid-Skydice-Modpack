@@ -1,0 +1,11 @@
+{
+    "Base.BattleShip_Box": "战舰盒",
+    "Base.BattleShip_GameStand": "战舰游戏台",
+    "Base.BattleShip_Peg_Red": "红钉",
+    "Base.BattleShip_Peg_White": "白钉",
+    "Base.BattleShip_Ship_Battleship": "战列舰",
+    "Base.BattleShip_Ship_Carrier": "载体",
+    "Base.BattleShip_Ship_Destroyer": "驱逐舰",
+    "Base.BattleShip_Ship_Submarine": "潜艇",
+    "Base.BattleShip_Ship_PatrolBoat": "巡逻艇"
+}

@@ -1,0 +1,70 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Wood_DogHouse
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_WoodenDogHouse,
+			Icon		= Build_location_farm_accesories_01_9,
+		}
+	}
+
+    entity Wood_DogHouse
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Wood_DogHouse,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+            face W
+            {
+                layer
+                {
+                    row = location_farm_accesories_01_8,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = location_farm_accesories_01_9,
+                }
+            }
+            face E
+            {
+                layer
+                {
+                    row = location_farm_accesories_01_10,
+                }
+            }
+            face S
+            {
+                layer
+                {
+                    row = location_farm_accesories_01_11,
+                }
+            }
+        }
+        
+        component CraftRecipe
+        {
+            timedAction   = BuildWallHammer,
+            time          = 150,
+            SkillRequired = Woodwork:2,
+            xpAward       = Woodwork:20,
+            category      = Farming,
+            ToolTip       = Tooltip_craft_bedDesc,
+            inputs
+            {
+                item 1 tags[Hammer] mode:keep flags[Prop1;MayDegradeVeryLight],
+                item 4 [Base.Plank],
+                item 8 [Base.Nails],
+            }
+        }
+    }
+}

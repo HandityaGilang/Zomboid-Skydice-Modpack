@@ -1,0 +1,61 @@
+module Base
+{
+	xuiSkin default
+	{
+		entity ES_Fences_BlackConcreteRailing
+		{
+			LuaWindowClass	= ISEntityWindow,
+			DisplayName	= NBEntityName_BlackConcreteRailingFence,
+			Icon		= Build_fixtures_railings_01_117,
+		}
+	}
+
+    entity Fences_BlackConcreteRailing
+    {
+        component UiConfig
+        {
+            xuiSkin         = default,
+            entityStyle     = ES_Fences_BlackConcreteRailing,
+            uiEnabled       = false,
+        }
+
+        component SpriteConfig
+        {
+			health          = 250,
+			skillBaseHealth = 20,
+
+            face W
+            {
+                layer
+                {
+                    row = fixtures_railings_01_116,
+                }
+            }
+            face N
+            {
+                layer
+                {
+                    row = fixtures_railings_01_117,
+                }
+            }
+            corner  =   fixtures_railings_01_119,
+        }
+		
+        component CraftRecipe
+        {
+            OnAddToMenu   = ignoreFromBuildMenu,
+            timedAction   = BuildLowNoTool,
+            time          = 50,
+            SkillRequired = Pottery:3,
+            xpAward       = Pottery:30,
+            category      = Fences,
+            ToolTip       = Tooltip_craft_sandBagDesc,
+            inputs
+            {
+                item 2 [Base.BucketConcreteFull] flags[DontRecordInput],
+                item 2 [Base.MetalBar],
+                item 1 [Base.PaintBlack] flags[DontRecordInput],
+            }
+        }
+    }
+}

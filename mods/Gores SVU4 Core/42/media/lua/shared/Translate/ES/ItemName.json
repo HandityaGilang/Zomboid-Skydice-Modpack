@@ -1,0 +1,19 @@
+{
+  "Base.GSVU4RoofRackBasic": "Roof Rack (Basic)",
+  "Base.GSVU4RoofRackStandard": "Roof Rack (Standard)",
+  "Base.GSVU4RoofRackMilitary": "Roof Rack (Military)",
+  "Base.GSVU4RoofLightsBasic": "Roof Lighting System",
+  "Base.GSVU4RoofLightsLeftBasic": "Left Side Roof Light",
+  "Base.GSVU4RoofLightsRightBasic": "Right Side Roof Light",
+  "Base.GSVU4RoofLightsRearBasic": "Rear Roof Light",
+  "Base.LightBulbBlue": "Blue Light Bulb",
+  "Base.LightBulbCyan": "Cyan Light Bulb",
+  "Base.LightBulbGreen": "Green Light Bulb",
+  "Base.LightBulbMagenta": "Magenta Light Bulb",
+  "Base.LightBulbOrange": "Orange Light Bulb",
+  "Base.LightBulbPink": "Pink Light Bulb",
+  "Base.LightBulbPurple": "Purple Light Bulb",
+  "Base.LightBulbRed": "Red Light Bulb",
+  "Base.LightBulbYellow": "Yellow Light Bulb",
+  "Base.GSVU4AutoTuneMilitaryRadio": "Auto Tune Military Radio"
+}

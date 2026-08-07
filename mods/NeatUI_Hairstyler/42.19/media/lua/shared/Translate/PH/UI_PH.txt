@@ -1,0 +1,8 @@
+UI_PH = {
+	UI_characreation_character = "Karakter",
+	UI_IHM_UseImprovedHairPicker = "Pinahusay na color picker",
+	UI_IHM_UseImprovedHairPicker_Tooltip = "ON: lahat ng kulay.<br>OFF: vanilla na kulay.",
+	UI_IHM_Source_Vanilla = "Vanilla",
+	UI_IHM_Source_All = "Lahat",
+	UI_IHM_Controls = "Mga kontrol",
+}
