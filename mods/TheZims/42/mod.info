@@ -1,0 +1,9 @@
+name=The Zims [ML]
+id=TheZims
+description=A Sims-style pie menu for Project Zomboid. Right-click the world and the options fan out around your survivor's 3D head as rounded buttons instead of stacking in a list. The head turns toward whatever you point at. Submenus swap in place with the option you came from in the middle. Colours, sounds and size are yours to set, with a live preview. It re-skins the menu the game already builds, so options added by other mods appear automatically. Client-side only.
+author=Darkzada
+versionMin=42.0
+modVersion=1.2
+tags=Interface,Misc
+poster=poster.png
+icon=icon.png

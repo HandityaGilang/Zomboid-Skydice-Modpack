@@ -1,0 +1,37 @@
+/*
+    Registra o som do clique.
+
+    Sem este arquivo o PZ nao conhece o nome "TheZimsClick" e o
+    getSoundManager():playUISound("TheZimsClick") nao toca nada - mesmo com o
+    arquivo presente na pasta. O jogo base usa apenas 'event =' (bancos FMOD
+    compilados); para um arquivo proprio de mod, a forma e 'file ='.
+
+    ATENCAO AO FORMATO
+    ------------------
+    O formato nativo do PZ e .ogg (Ogg Vorbis). Aqui esta apontando para .mp3
+    porque foi o arquivo que voce baixou, e nao havia como converter na maquina
+    onde o mod foi escrito (sem ffmpeg, sem JDK).
+
+    O FMOD, que o PZ usa por baixo, decodifica MP3 - entao ha uma boa chance de
+    funcionar assim mesmo. Mas nao foi testado.
+
+    Se nao tocar: converta para .ogg seguindo o media/sound/LEIA-ME.txt e troque
+    a linha 'file =' abaixo de .mp3 para .ogg. Ou, sem mexer em arquivo nenhum,
+    abra a janela do mod (tecla K) e ponha "Som do clique" em "Padrao do jogo",
+    que usa um som ja embutido no PZ.
+*/
+
+module Base
+{
+    sound TheZimsClick
+    {
+        category = UI,
+        loop = false,
+        is3D = false,
+        clip
+        {
+            file = media/sound/TheZimsClick.mp3,
+            volume = 1.0,
+        }
+    }
+}

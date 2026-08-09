@@ -1,0 +1,71 @@
+SOM DO CLIQUE
+=============
+
+Arquivo atual:  TheZimsClick.mp3   (5 KB, MPEG-1 Layer 3)
+
+O nome esta amarrado em dois lugares. Se trocar, troque nos dois:
+  - media/scripts/TheZimsSounds.txt        (registra o som no jogo)
+  - CFG.clickSoundName no TheZims_Config.lua
+
+
+POR QUE ESTA EM MP3 E NAO EM OGG
+--------------------------------
+O formato nativo do PZ e Ogg Vorbis. Este arquivo ficou em .mp3 porque foi o
+que voce baixou e a maquina onde o mod foi escrito nao tinha ffmpeg nem JDK
+para converter.
+
+O FMOD, que o PZ usa por baixo, decodifica MP3 - entao ha boa chance de tocar
+assim mesmo. Mas isso NAO foi testado.
+
+Se nao tocar, voce tem duas saidas:
+
+  A) Sem mexer em arquivo: abra a janela do mod (tecla K) e ponha
+     "Som do clique" em "Padrao do jogo". Usa UISelectListItem, ja embutido
+     no PZ. Resolve na hora.
+
+  B) Converter para .ogg (melhor a longo prazo): siga o passo a passo abaixo,
+     e depois troque no TheZimsSounds.txt a linha
+         file = media/sound/TheZimsClick.mp3
+     para
+         file = media/sound/TheZimsClick.ogg
+
+
+EXPORTAR NO AUDACITY
+--------------------
+Formato        Ogg Vorbis                (formato nativo do PZ)
+Channels       MONO                      <- troque de Stereo para Mono
+Sample Rate    48000 Hz                  (taxa nativa do audio desta maquina)
+Quality        5                         (4 tambem serve e fica menor)
+
+Por que Mono: som de interface nao tem posicao no espaco. Stereo so dobra o
+tamanho sem nenhum ganho audivel.
+
+Por que 48000: e a taxa nativa confirmada no console.txt do jogo. Usar 44100
+forcaria o FMOD a reamostrar em tempo real, sem beneficio.
+
+
+ANTES DE EXPORTAR
+-----------------
+1. DURACAO      50 a 150 ms. E um clique, nao um alerta. Som longo demais se
+                atropela quando voce navega rapido pelo menu.
+
+2. SILENCIO     Corte o silencio do inicio. Qualquer sobra atrasa o clique em
+                relacao ao movimento do mouse e a sensacao fica "solta".
+
+3. VOLUME       Effect > Normalize > pico em -6 dB. Clique toca muito mais
+                vezes que um alerta; no mesmo volume ele cansa.
+
+4. CLIQUES      Fade In e Fade Out de 5 ms. Evita o estalo de corte abrupto
+                na forma de onda.
+
+
+DEPOIS DE TROCAR O ARQUIVO
+--------------------------
+Reinicie o jogo - som e script nao recarregam a quente.
+
+
+LICENCA
+-------
+Este som veio de download. Antes de publicar na Workshop, confirme que a
+licenca de origem permite redistribuicao. Som "gratis para baixar" nem sempre
+e "gratis para republicar dentro de um mod".

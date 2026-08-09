@@ -1,0 +1,10 @@
+name=The Zims - Menu Style DLC [ML]
+id=ZimPie
+description=The Sims-style pie menu for Project Zomboid. Replaces the vanilla right-click list with a circle of rounded buttons around your survivor's 3D head. Re-skins the menu instead of rebuilding it, so options added by other mods appear in the wheel automatically. Requires The Zims.
+author=Darkzada
+versionMin=42.0
+modVersion=1.1
+tags=Interface,Misc
+require=\TheZims
+poster=poster.png
+icon=icon.png
